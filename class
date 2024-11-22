@@ -1,0 +1,82 @@
+import os
+import json
+from tqdm import tqdm
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+
+# Initialize Qwen model and tokenizer
+def initialize_model(model_name="Qwen/Qwen2.5-Coder-7B-Instruct"):
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name, torch_dtype="auto", device_map="cpu"
+    )
+    return tokenizer, model
+
+
+# Classify the code using the refined prompt
+def classify_code(code, tokenizer, model):
+    prompt = (
+        "Analyze the following LEAN engine code and classify it into one of these categories based on its primary purpose:\n"
+        "- Strategies: Algorithms or methods for decision-making and trading.\n"
+        "- Indicators: Functions or tools that calculate market metrics (e.g., moving averages, RSI).\n"
+        "- Risk Management: Code managing risk, such as stop-losses, position sizing, or diversification.\n"
+        "- Metrics: Tools for measuring performance or outcomes (e.g., Sharpe ratio, alpha).\n"
+        "- Other: Code that does not fit into the above categories.\n\n"
+        f"Code:\n{code}"
+    )
+    device = model.device  # Get the model's device (e.g., 'mps')
+    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=2048)
+    inputs = {key: tensor.to(device) for key, tensor in inputs.items()}
+    outputs = model.generate(**inputs, max_new_tokens=100)
+    classification = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    return classification.strip()
+
+
+# Get all Python files from the directory
+def get_python_files(repo_path):
+    python_files = []
+    for root, _, files in os.walk(repo_path):
+        for file in files:
+            if file.endswith(".py"):
+                python_files.append(os.path.join(root, file))
+    return python_files
+
+
+# Process files in batches of 5
+def process_files_in_batches(files, output_dir, tokenizer, model, batch_size=5):
+    os.makedirs(output_dir, exist_ok=True)
+    output_file = os.path.join(output_dir, "classifications.json")
+    classifications = []
+
+    for i in range(0, len(files), batch_size):
+        batch_files = files[i : i + batch_size]
+        print(f"Processing batch {i // batch_size + 1}/{-(-len(files) // batch_size)}")
+
+        for file_path in tqdm(batch_files, desc="Classifying files"):
+            try:
+                with open(file_path, "r") as file:
+                    code = file.read()
+                category = classify_code(code, tokenizer, model)
+                classifications.append({"file_path": file_path, "category": category})
+            except Exception as e:
+                print(f"Error processing {file_path}: {e}")
+
+        # Save classifications after each batch
+        with open(output_file, "w") as f:
+            json.dump(classifications, f, indent=4)
+        print(f"Batch results saved to {output_file}")
+
+
+# Main function
+def main():
+    repo_path = "/Users/david/Coding/FinRAG/qwen_analysis/Lean/Algorithm.Python"  # Path to Python files
+    output_dir = "/Users/david/Coding/FinRAG/qwen_analysis/class"  # Output directory
+    batch_size = 1  # Number of files to process per batch
+
+    tokenizer, model = initialize_model()
+    python_files = get_python_files(repo_path)
+    process_files_in_batches(python_files, output_dir, tokenizer, model, batch_size)
+
+
+if __name__ == "__main__":
+    main()
