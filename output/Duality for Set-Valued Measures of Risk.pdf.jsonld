@@ -1,0 +1,193 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:DualityForSetValuedMeasuresOfRisk",
+            "type": "Financial Theory",
+            "description": "A theory for set-valued measures of risk.",
+            "relationship:extends": "Entity:ScalarRiskMeasures",
+            "equation:formulatedIn": "Equation:FormulationOfDualities",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:ConvexRiskMeasures",
+            "type": "Table",
+            "description": "A table illustrating convex risk measures.",
+            "relationship:contains": "Entity:DualityForSetValuedMeasuresOfRisk",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:RiskMeasure",
+            "type": "Mathematical Concept",
+            "description": "A mathematical concept used to quantify risk.",
+            "relationship:uses": "Entity:RiskModel",
+            "equation:definedBy": "Equation:RiskDefinition",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:RiskComparison",
+            "type": "Table",
+            "description": "A table comparing different risk measures.",
+            "relationship:illustrates": "Entity:RiskMeasure",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Mathematical Concept",
+            "description": "A mathematical concept related to set-valued measures of risk.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:RiskMeasure",
+            "type": "Risk Measure",
+            "description": "A measure used to quantify the risk associated with an investment or financial position.",
+            "relationship:uses": "Entity:RiskModel",
+            "equation:definedBy": "Equation:RiskCalculationFormula",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 10)"
+        },
+        {
+            "@id": "Table:RiskComparison",
+            "type": "Table",
+            "description": "A table comparing different risk measures across various scenarios.",
+            "relationship:illustrates": "Entity:RiskMeasure",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 10)"
+        },
+        {
+            "@id": "Entity:Proof",
+            "type": "Mathematical Proof",
+            "description": "A proof showing the relationship between set-valued measures of risk and their duals.",
+            "relationship:uses": "Entity:Proposition4.1",
+            "equation:definedBy": "Equation:R0",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:Proposition4.1",
+            "type": "Table",
+            "description": "A table illustrating Proposition 4.1.",
+            "relationship:illustrates": "Entity:Proof",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:RiskMeasure",
+            "type": "Mathematical Concept",
+            "description": "A mathematical concept used to quantify risk.",
+            "relationship:uses": "Entity:RiskModel",
+            "equation:definedBy": "Equation:RiskMeasureDefinition",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:RiskComparison",
+            "type": "Table",
+            "description": "A table comparing different risk measures.",
+            "relationship:illustrates": "Entity:RiskMeasure",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 16)"
+        },
+        {
+            "@id": "Entity:Example5.3",
+            "type": "Mathematical Example",
+            "description": "An example of scalarization of the negative componentwise expectation.",
+            "relationship:uses": "Entity:Example5.2",
+            "equation:definedBy": "Equation:Example5.3",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:NCERelated",
+            "type": "Table",
+            "description": "A table related to the negative componentwise expectation.",
+            "relationship:illustrates": "Entity:Example5.3",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 17)"
+        },
+        {
+            "@id": "Entity:RiskMeasure",
+            "type": "Risk Measure",
+            "description": "A measure used to quantify the risk associated with financial assets.",
+            "relationship:uses": "Entity:RiskModel",
+            "equation:definedBy": "Equation:RiskDefinition",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 21)"
+        },
+        {
+            "@id": "Table:RiskComparison",
+            "type": "Table",
+            "description": "A table comparing different risk measures.",
+            "relationship:illustrates": "Entity:RiskMeasure",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 21)"
+        },
+        {
+            "@id": "Entity:RiskMeasure",
+            "type": "Risk Measure",
+            "description": "A measure used to quantify the risk associated with financial assets.",
+            "relationship:uses": "Entity:RiskModel",
+            "equation:definedBy": "Equation:RiskCalculationFormula",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 25)"
+        },
+        {
+            "@id": "Table:RiskComparison",
+            "type": "Table",
+            "description": "A table comparing different risk measures across various financial assets.",
+            "relationship:illustrates": "Entity:RiskMeasure",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 25)"
+        },
+        {
+            "@id": "Entity:FatouProperty",
+            "type": "Mathematical Property",
+            "description": "The Fatou property ensures that X belongs to AR.",
+            "relationship:implies": "Entity:AlmostSureConvergence",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 29)"
+        },
+        {
+            "@id": "Table:AlmostSureConvergence",
+            "type": "Table",
+            "description": "A table illustrating the almost sure convergence of X to Xk.",
+            "relationship:illustrates": "Entity:FatouProperty",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 29)"
+        },
+        {
+            "@id": "Entity:CoherentRiskMeasures",
+            "type": "FinancialModel",
+            "description": "A model to calculate coherent risk measures.",
+            "relationship:uses": "Entity:GoodDealBounds",
+            "equation:definedBy": "Equation:CoherentRiskMeasureDefinition",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 30)"
+        },
+        {
+            "@id": "Table:GoodDealBounds",
+            "type": "Table",
+            "description": "A table illustrating good deal bounds.",
+            "relationship:illustrates": "Entity:CoherentRiskMeasures",
+            "source": "Duality for Set-Valued Measures of Risk.pdf (Page 30)"
+        }
+    ]
+}

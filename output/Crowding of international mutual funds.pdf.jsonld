@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:CrowdingOfInternationalMutualFunds",
+            "type": "Research Article",
+            "description": "A study on the relationship between crowdfunding and performance in the active mutual fund industry.",
+            "relationship:publishedIn": "Journal of Banking and Finance",
+            "source": "Crowding of international mutual funds.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:PerformanceComparison",
+            "type": "Table",
+            "description": "A table comparing the performance of mutual funds under different conditions.",
+            "relationship:illustrates": "Entity:CrowdingOfInternationalMutualFunds",
+            "source": "Crowding of international mutual funds.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:PerformanceImpactOfCrowding",
+            "type": "Financial Model",
+            "description": "A model to analyze the impact of crowding on fund performance.",
+            "relationship:uses": "Entity:FundPerformanceData",
+            "equation:definedBy": "Equation:PerformanceImpactFormula",
+            "source": "Crowding of international mutual funds.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:FundPerformanceComparison",
+            "type": "Table",
+            "description": "A table comparing fund performance under different conditions.",
+            "relationship:illustrates": "Entity:PerformanceImpactOfCrowding",
+            "source": "Crowding of international mutual funds.pdf (Page 2)"
+        },
+        {
+            "@id": "Equation:NetReturnEquation",
+            "type": "Mathematical Equation",
+            "description": "Equation defining net return for each fund over the entire sample period that during which the fund is active.",
+            "relationship:definedBy": "Equation:NetReturnEquation",
+            "source": "Crowding of international mutual funds.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:FundPerformance",
+            "type": "Table",
+            "description": "A table illustrating the performance of different funds over the entire sample period.",
+            "relationship:illustrates": "Equation:NetReturnEquation",
+            "source": "Crowding of international mutual funds.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:ForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityFormula",
+            "source": "Crowding of international mutual funds.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "Crowding of international mutual funds.pdf (Page 17)"
+        }
+    ]
+}

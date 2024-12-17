@@ -1,0 +1,129 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:OptimalContract",
+            "type": "Financial Model",
+            "description": "A model to determine optimal contracts under time-inconsistent preferences.",
+            "relationship:uses": "Entity:AgentUtilityFunction",
+            "equation:definedBy": "Equation:OptimalContractEquation",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:AgentUtilityFunction",
+            "type": "Table",
+            "description": "A table illustrating agent utility functions under different scenarios.",
+            "relationship:illustrates": "Entity:OptimalContract",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:TimeInconsistentContractTheory",
+            "type": "FinancialModel",
+            "description": "A model for time-inconsistent contract theory.",
+            "relationship:uses": "Entity:WeakFormulation",
+            "equation:definedBy": "Equation:ValueFunction",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:AdmissibleContracts",
+            "type": "Table",
+            "description": "A table listing admissible contracts.",
+            "relationship:illustrates": "Entity:TimeInconsistentContractTheory",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:PrincipalProblem",
+            "type": "Mathematical Problem",
+            "description": "The principal's problem in time-inconsistent contract theory.",
+            "relationship:definedBy": "Equation:PrincipalProblemDefinition",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 19)"
+        },
+        {
+            "@id": "Equation:PrincipalProblemDefinition",
+            "type": "Mathematical Equation",
+            "description": "The mathematical formulation of the principal's problem.",
+            "relationship:definedBy": "Entity:PrincipalProblem",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 19)"
+        },
+        {
+            "@id": "Entity:Integrability_spaces_and_Hamiltonian",
+            "type": "Section",
+            "description": "Section from the paper discussing integrability spaces and Hamiltonian systems.",
+            "relationship:contains": "Equation:Hamiltonian_function",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 24)"
+        },
+        {
+            "@id": "Equation:Hamiltonian_function",
+            "type": "Equation",
+            "description": "The Hamiltonian function for a system.",
+            "relationship:definedBy": "Entity:Integrability_spaces_and_Hamiltonian",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 24)"
+        },
+        {
+            "@id": "Entity:TimeInconsistentContractTheory",
+            "type": "FinancialModel",
+            "description": "A model for analyzing time-inconsistent contracts.",
+            "relationship:uses": "Entity:TimeInconsistentContract",
+            "equation:definedBy": "Equation:TimeInconsistentContractDefinition",
+            "source": "MathematicalFinance-2023-Hernandez-TimeInconsistentContractTheory.pdf(Page27)"
+        },
+        {
+            "@id": "Table:TimeInconsistentContractParameters",
+            "type": "Table",
+            "description": "A table listing parameters for time-inconsistent contracts.",
+            "relationship:illustrates": "Entity:TimeInconsistentContractTheory",
+            "source": "MathematicalFinance-2023-Hernandez-TimeInconsistentContractTheory.pdf(Page27)"
+        },
+        {
+            "@id": "Entity:SecondBestProblem",
+            "type": "Problem",
+            "description": "The second-best problem in economics, where an agent with discounted utility reward is considered.",
+            "relationship:examples": "Equation:SecondBestProblemExample",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 31)"
+        },
+        {
+            "@id": "Equation:SecondBestProblemExample",
+            "type": "Mathematical Equation",
+            "description": "An example equation for the second-best problem with discounted utility reward.",
+            "relationship:defines": "Entity:SecondBestProblem",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 31)"
+        },
+        {
+            "@id": "Entity:PrincipalAgentProblem",
+            "type": "Financial Model",
+            "description": "A model to analyze principal-agent problems with time-inconsistent preferences.",
+            "relationship:uses": "Entity:TimeInconsistentContractTheory",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 48)"
+        },
+        {
+            "@id": "Table:TimeInconsistentComparison",
+            "type": "Table",
+            "description": "A table comparing time-inconsistent contracts across different scenarios.",
+            "relationship:illustrates": "Entity:PrincipalAgentProblem",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 48)"
+        },
+        {
+            "@id": "Equation:VFB_expression",
+            "type": "Equation",
+            "description": "Expression for V_FB in the proof of Proposition 4.3",
+            "relationship:definedBy": "Equation:V_FB_expression",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 50)"
+        },
+        {
+            "@id": "Equation:V_FB_expression",
+            "type": "Equation",
+            "description": "Expression for V_FB in the proof of Proposition 4.3",
+            "relationship:definedBy": "Equation:V_FB_expression",
+            "source": "Mathematical Finance - 2023 - Hern\u00e1ndez - Time-inconsistent contract theory.pdf (Page 50)"
+        }
+    ]
+}

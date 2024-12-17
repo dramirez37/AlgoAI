@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:FRM_Crypto",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:Bitcoin",
+            "equation:definedBy": "Equation:ForwardRateVolatility",
+            "source": "Assessing network risk with FRM  links with pricing kernel volatility and application to cryptocurrencies.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:FRM_Crypto",
+            "source": "Assessing network risk with FRM  links with pricing kernel volatility and application to cryptocurrencies.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:FRMModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:RiskFreeRate",
+            "equation:definedBy": "Equation:ForwardRateVolatility",
+            "source": "Assessing network risk with FRM  links with pricing kernel volatility and application to cryptocurrencies.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:FRMModel",
+            "source": "Assessing network risk with FRM  links with pricing kernel volatility and application to cryptocurrencies.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:FRMModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:FRMData",
+            "equation:definedBy": "Equation:FRMFormula",
+            "source": "Assessing network risk with FRM  links with pricing kernel volatility and application to cryptocurrencies.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:FRMModel",
+            "source": "Assessing network risk with FRM  links with pricing kernel volatility and application to cryptocurrencies.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:QuantileRegression",
+            "type": "StatisticalMethod",
+            "description": "A method for estimating conditional quantiles.",
+            "relationship:uses": "Entity:Data",
+            "equation:definedBy": "Equation:A1",
+            "source": "Assessing network risk with FRM  links with pricing kernel volatility and application to cryptocurrencies.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:QuantileRegressionResults",
+            "type": "Table",
+            "description": "A table presenting the results of quantile regression analysis.",
+            "relationship:illustrates": "Entity:QuantileRegression",
+            "source": "Assessing network risk with FRM  links with pricing kernel volatility and application to cryptocurrencies.pdf (Page 16)"
+        }
+    ]
+}

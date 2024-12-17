@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:TradingCosts",
+            "type": "Economic Concept",
+            "description": "The adverse price impact that trading costs have on market prices.",
+            "relationship:correspondsTo": "Entity:Portfolio",
+            "source": "Mathematical Finance - 2024 - Brokmann - Tackling nonlinear price impact with linear strategies.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:TradingCostsImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of trading costs on portfolio performance.",
+            "relationship:illustrates": "Entity:TradingCosts",
+            "source": "Mathematical Finance - 2024 - Brokmann - Tackling nonlinear price impact with linear strategies.pdf (Page 2)"
+        }
+    ]
+}

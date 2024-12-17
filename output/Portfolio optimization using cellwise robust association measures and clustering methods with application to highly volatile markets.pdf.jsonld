@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:HierarchicalClustering",
+            "type": "Clustering Method",
+            "description": "A method for grouping data into clusters based on similarity.",
+            "relationship:uses": "Entity:EuclideanDistance",
+            "equation:definedBy": "Equation:HierarchicalClustering",
+            "source": "Portfolio optimization using cellwise robust association measures and clustering methods with application to highly volatile markets.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:EuclideanDistance",
+            "type": "Table",
+            "description": "A table showing the Euclidean distances between data points.",
+            "relationship:illustrates": "Entity:HierarchicalClustering",
+            "source": "Portfolio optimization using cellwise robust association measures and clustering methods with application to highly volatile markets.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:Figure:VolatilityComparison",
+            "source": "Portfolio optimization using cellwise robust association measures and clustering methods with application to highly volatile markets.pdf (Page 11)"
+        },
+        {
+            "@id": "Figure:VolatilityComparison",
+            "type": "Figure",
+            "description": "A figure illustrating the comparison of volatilities across time periods.",
+            "relationship:depicts": "Table:VolatilityComparison",
+            "source": "Portfolio optimization using cellwise robust association measures and clustering methods with application to highly volatile markets.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:RiskReduction",
+            "type": "Risk Management Technique",
+            "description": "A method for reducing risk in financial portfolios.",
+            "relationship:uses": "Entity:PortfolioOptimization",
+            "source": "Risk reduction and portfolio optimization using clustering methods. Econometrics and Statistics (in press)."
+        },
+        {
+            "@id": "Table:RiskReductionResults",
+            "type": "Table",
+            "description": "A table showing the results of applying risk reduction techniques.",
+            "relationship:illustrates": "Entity:RiskReduction",
+            "source": "Risk reduction and portfolio optimization using clustering methods. Econometrics and Statistics (in press)."
+        }
+    ]
+}

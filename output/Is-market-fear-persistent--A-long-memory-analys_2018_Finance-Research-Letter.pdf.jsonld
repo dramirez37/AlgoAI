@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:VIXData",
+            "source": "Is-market-fear-persistent--A-long-memory-analys_2018_Finance-Research-Letter.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:VIXData",
+            "type": "Table",
+            "description": "A table of VIX data.",
+            "relationship:contains": "Table:VolatilityComparison",
+            "source": "Is-market-fear-persistent--A-long-memory-analys_2018_Finance-Research-Letter.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Is-market-fear-persistent--A-long-memory-analys_2018_Finance-Research-Letter.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Is-market-fear-persistent--A-long-memory-analys_2018_Finance-Research-Letter.pdf (Page 8)"
+        }
+    ]
+}

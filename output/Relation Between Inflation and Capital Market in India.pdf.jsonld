@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:InflationImpact",
+            "type": "Economic Theory",
+            "description": "Theoretical framework explaining how inflation affects capital market returns.",
+            "relationship:influences": "Table:CapitalMarketReturns",
+            "source": "Relation Between Inflation and Capital Market in India.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:CapitalMarketReturns",
+            "type": "Table",
+            "description": "A table showing the relationship between inflation and capital market returns.",
+            "relationship:illustrates": "Entity:InflationImpact",
+            "source": "Relation Between Inflation and Capital Market in India.pdf (Page 3)"
+        },
+        {
+            "@id": "Figure:UnitCircle",
+            "type": "Graphical Representation",
+            "description": "A unit circle with points plotted on it, representing the roots of the AR characteristic polynomial.",
+            "relationship:depicts": "Entity:StabilityOfModel",
+            "source": "Relation Between Inflation and Capital Market in India.pdf (Page 9)"
+        },
+        {
+            "@id": "Figure:Autocorrelation",
+            "type": "Graphical Representation",
+            "description": "A series of autocorrelation plots showing the values of autocorrelation randomly varied from positive to negative.",
+            "relationship:depicts": "Entity:AutocorrelationProblems",
+            "source": "Relation Between Inflation and Capital Market in India.pdf (Page 9)"
+        },
+        {
+            "@id": "Figure:InverseRootsOfAPCharacteristicPolynomial",
+            "type": "Figure",
+            "description": "A figure showing the inverse roots of the AR characteristic polynomial for the VEC model of WPI.",
+            "source": "Relation Between Inflation and Capital Market in India.pdf (Page 14)",
+            "relationship:plots": "Source: plotted by author."
+        },
+        {
+            "@id": "Figure:Autocorrelation",
+            "type": "Figure",
+            "description": "A figure showing the autocorrelation of the VEC model of WPI.",
+            "source": "Relation Between Inflation and Capital Market in India.pdf (Page 14)",
+            "relationship:plots": "Source: plotted by author."
+        },
+        {
+            "@id": "Entity:InflationVolatility",
+            "type": "Financial Indicator",
+            "description": "A measure of the variability of inflation rates over time.",
+            "relationship:measures": "Table:InflationVolatilityComparison",
+            "source": "Relation Between Inflation and Capital Market in India.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:InflationVolatilityComparison",
+            "type": "Table",
+            "description": "A comparison of inflation volatility across different time periods.",
+            "relationship:compares": "Entity:InflationVolatility",
+            "source": "Relation Between Inflation and Capital Market in India.pdf (Page 18)"
+        }
+    ]
+}

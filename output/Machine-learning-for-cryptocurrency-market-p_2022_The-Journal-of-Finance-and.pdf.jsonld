@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ResearchQuestion",
+            "type": "Research Question",
+            "description": "What is the performance of machine learning models for generating statistical arbitrage in the cryptocurrency market?",
+            "source": "Machine-learning-for-cryptocurrency-market-p_2022_The-Journal-of-Finance-and.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:PerformanceComparison",
+            "type": "Table",
+            "description": "A table comparing the performance of different machine learning models.",
+            "relationship:contains": "Entity:ResearchQuestion",
+            "source": "Machine-learning-for-cryptocurrency-market-p_2022_The-Journal-of-Finance-and.pdf (Page 2)"
+        },
+        {
+            "@id": "Figure:Fig6",
+            "type": "Figure",
+            "description": "Cumulative market returns and Bitcoin (BTC) returns for the full test set date range with starting value 1 at the beginning of the test set of study period 1 (202009426).",
+            "relationship:depicts": "Table:Table1",
+            "source": "Machine-learning-for-cryptocurrency-market-p_2022_The-Journal-of-Finance-and.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "Machine-learning-for-cryptocurrency-market-p_2022_The-Journal-of-Finance-and.pdf (Page 21)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Machine-learning-for-cryptocurrency-market-p_2022_The-Journal-of-Finance-and.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Machine-learning-for-cryptocurrency-market-p_2022_The-Journal-of-Finance-and.pdf (Page 22)"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Table:MarketplacesJurisdiction",
+            "type": "Table",
+            "description": "A table listing marketplaces and their jurisdictions.",
+            "relationship:contains": "Entity:Marketplace",
+            "source": "Returns-and-network-growth-of-digital-tokens-afte_2021_Journal-of-Corporate-.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:TokenCharacteristicsAndProbabilityOfDelisting",
+            "type": "Table",
+            "description": "A table showing token characteristics and the probability of delisting.",
+            "relationship:contains": "Entity:Token",
+            "source": "Returns-and-network-growth-of-digital-tokens-afte_2021_Journal-of-Corporate-.pdf (Page 17)"
+        }
+    ]
+}

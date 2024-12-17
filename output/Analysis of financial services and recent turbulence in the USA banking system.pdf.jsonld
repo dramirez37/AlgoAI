@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Figure:1",
+            "type": "Figure",
+            "description": "A bar chart showing the average equity ratio and debt ratio for banks.",
+            "source": "Analysis of financial services and recent turbulence in the USA banking system.pdf (Page 2)",
+            "relationship:depicts": "Table:AverageEquityDebtRatio"
+        },
+        {
+            "@id": "Table:AverageEquityDebtRatio",
+            "type": "Table",
+            "description": "A table displaying the average equity and debt ratios for banks.",
+            "source": "Analysis of financial services and recent turbulence in the USA banking system.pdf (Page 2)",
+            "relationship:contains": "Figure:1"
+        },
+        {
+            "@id": "Figure:4",
+            "type": "Figure",
+            "description": "Figure 4 highlights the evolution of HTM securities and warrants attention.",
+            "source": "(Silicon Valley Bank, 2023)"
+        },
+        {
+            "@id": "Figure:5",
+            "type": "Figure",
+            "description": "Figure 5 illustrates the significant development observed between mid-2020 and the beginning of 2022.",
+            "source": "(Silicon Valley Bank, 2023)"
+        },
+        {
+            "@id": "Figure:SVBComparison",
+            "type": "Figure",
+            "description": "A comparison of SVB's financial situation before and after the Great Recession of 2008.",
+            "relationship:depicts": "Entity:SVBFinancialSituation",
+            "source": "Analysis of financial services and recent turbulence in the USA banking system.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:SVBFinancialSituation",
+            "type": "Table",
+            "description": "A table showing SVB's financial situation before and after the Great Recession of 2008.",
+            "relationship:illustrates": "Entity:SVBFinancialSituation",
+            "source": "Analysis of financial services and recent turbulence in the USA banking system.pdf (Page 6)"
+        },
+        {
+            "@id": "Figure:8",
+            "type": "Figure",
+            "description": "A figure illustrating the occurrence of asset value depreciation in both the Great Recession and the recent fluctuations in the US banking system.",
+            "source": "Analysis of financial services and recent turbulence in the USA banking system.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:SiliconValleyBank",
+            "type": "Bank",
+            "description": "A bank that collapsed due to financial instability.",
+            "relationship:affectedBy": "Relationship:Turbulence",
+            "source": "Analysis of financial services and recent turbulence in the USA banking system.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:SiliconValleyBankTurbulence",
+            "type": "Table",
+            "description": "A table showing the turbulence affecting Silicon Valley Bank.",
+            "relationship:illustrates": "Entity:SiliconValleyBank",
+            "source": "Analysis of financial services and recent turbulence in the USA banking system.pdf (Page 8)"
+        }
+    ]
+}

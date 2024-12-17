@@ -1,0 +1,21 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Portfolio-allocation-under-asymmetric-dependence-in-asset_2022_Finance-Resea.pdf (Page 8)"
+        }
+    ]
+}

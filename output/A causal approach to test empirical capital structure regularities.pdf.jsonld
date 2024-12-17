@@ -1,0 +1,132 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:CausalInference",
+            "type": "Methodology",
+            "description": "A method used to identify causal relationships in observational data.",
+            "relationship:uses": "Entity:EmpiricalData",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:EmpiricalData",
+            "type": "Table",
+            "description": "A table presenting empirical data used in the study.",
+            "relationship:illustrates": "Entity:CausalInference",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:SCM",
+            "type": "Financial Model",
+            "description": "A model designed to identify the right structure of the model.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:SCMResults",
+            "type": "Table",
+            "description": "A table presenting the results of the SCM.",
+            "relationship:illustrates": "Entity:SCM",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 4)"
+        },
+        {
+            "@id": "Figure:PopulationComposition",
+            "type": "Figure",
+            "description": "A figure showing the composition of the rated population over time.",
+            "relationship:depicts": "Table:PopulationStatistics",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:PopulationStatistics",
+            "type": "Table",
+            "description": "A table summarizing the statistics of the data in the observation period.",
+            "relationship:summarizes": "Figure:PopulationComposition",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:ConditionalIndependenceTests",
+            "type": "Statistical Test",
+            "description": "A test to determine if two variables are independent.",
+            "relationship:uses": "Entity:GraphicalModel",
+            "equation:definedBy": "Equation:A1",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:IndependenceTests",
+            "type": "Table",
+            "description": "A table illustrating the results of conditional independence tests.",
+            "relationship:illustrates": "Entity:ConditionalIndependenceTests",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:FinancingChoices",
+            "type": "Financial Model",
+            "description": "A model to analyze the impact of financing choices on leverage.",
+            "relationship:uses": "Entity:BookAssets",
+            "equation:definedBy": "Equation:FinancingChoiceImpact",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:FinancingChoiceResults",
+            "type": "Table",
+            "description": "A table showing the results of the financing choice model.",
+            "relationship:illustrates": "Entity:FinancingChoices",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 17)"
+        },
+        {
+            "@id": "Entity:CompetingFinancialInterests",
+            "type": "Financial Model",
+            "description": "A model to analyze competing financial interests.",
+            "relationship:uses": "Entity:CompetingFinancialInterestsData",
+            "equation:definedBy": "Equation:CompetingFinancialInterestsFormula",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:CompetingFinancialInterestsData",
+            "type": "Table",
+            "description": "A table illustrating competing financial interests data.",
+            "relationship:illustrates": "Entity:CompetingFinancialInterests",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 18)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "A causal approach to test empirical capital structure regularities.pdf (Page 19)"
+        }
+    ]
+}

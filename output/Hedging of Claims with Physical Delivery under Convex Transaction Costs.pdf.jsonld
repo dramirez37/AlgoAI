@@ -1,0 +1,133 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:MarketModel",
+            "type": "Financial Model",
+            "description": "A model for financial markets with d securities.",
+            "relationship:uses": "Entity:ProbabilitySpace",
+            "equation:definedBy": "Equation:MarketModelDefinition",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:ConvexityProperties",
+            "type": "Table",
+            "description": "A table illustrating convexity properties of the market model.",
+            "relationship:illustrates": "Entity:MarketModel",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:PortfolioSolvencyRegion",
+            "type": "Financial Model",
+            "description": "A model to determine the solvency region for a portfolio.",
+            "relationship:uses": "Entity:BidAskSpreads",
+            "equation:definedBy": "Equation:PortfolioSolvencyRegionDefinition",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:SolvencyRegions",
+            "type": "Table",
+            "description": "A table listing solvency regions for different portfolios.",
+            "relationship:illustrates": "Entity:PortfolioSolvencyRegion",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:NoArbitrageCriteria",
+            "type": "Market Model",
+            "description": "A market model with no-arbitrage property.",
+            "relationship:defines": "Equation:NoArbitrageCondition",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 4)"
+        },
+        {
+            "@id": "Equation:NoArbitrageCondition",
+            "type": "Mathematical Expression",
+            "description": "The no-arbitrage condition for a market model.",
+            "relationship:expresses": "Entity:NoArbitrageCriteria",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:SuperhedgingPremiumProcess",
+            "type": "FinancialModel",
+            "description": "A model for superhedging premium processes in market models.",
+            "relationship:uses": "Entity:ClaimProcess",
+            "equation:definedBy": "Equation:SuperhedgingCondition",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:SuperhedgingSet",
+            "type": "Table",
+            "description": "A table illustrating the set of all claim processes that can be superhedged.",
+            "relationship:illustrates": "Entity:SuperhedgingPremiumProcess",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:SuperhedgingPremium",
+            "type": "Financial Model",
+            "description": "A model to determine the superhedging premium for a financial derivative.",
+            "relationship:uses": "Entity:ConvexMarketModel",
+            "equation:definedBy": "Equation:SuperhedgingPremiumDefinition",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 10)"
+        },
+        {
+            "@id": "Table:SuperhedgingPremiumComparison",
+            "type": "Table",
+            "description": "A table comparing superhedging premiums across different market models.",
+            "relationship:illustrates": "Entity:SuperhedgingPremium",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 10)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "The model described in Example 4.7 for calculating forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:SuperhedgingPremium",
+            "type": "Financial Model",
+            "description": "A model to calculate the superhedging premium for claims with physical delivery under convex transaction costs.",
+            "relationship:uses": "Entity:PhysicalDelivery",
+            "equation:definedBy": "Equation:SuperhedgingCondition",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:SuperhedgingPremiumComparison",
+            "type": "Table",
+            "description": "A table comparing superhedging premiums across different scenarios.",
+            "relationship:illustrates": "Entity:SuperhedgingPremium",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:ProcessHedging",
+            "type": "Financial Model",
+            "description": "A model for hedging processes in financial markets.",
+            "relationship:uses": "Entity:Claim",
+            "equation:definedBy": "Equation:ProcessHedgingFormula",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:HedgingProperties",
+            "type": "Table",
+            "description": "A table summarizing the properties of hedging processes.",
+            "relationship:illustrates": "Entity:ProcessHedging",
+            "source": "Hedging of Claims with Physical Delivery under Convex Transaction Costs.pdf (Page 19)"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:TransactionCostAnalytics",
+            "type": "FinancialModel",
+            "description": "A model to analyze transaction costs for corporate bonds.",
+            "relationship:uses": "Entity:TRACEEnhancedDataset",
+            "equation:definedBy": "Equation:MidPriceImpactDecayPattern",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:MidPriceImpactDecayPattern",
+            "type": "Table",
+            "description": "A table illustrating the mid-price impact decay pattern of individual bond transactions.",
+            "relationship:illustrates": "Entity:TransactionCostAnalytics",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:BidAskSpread",
+            "type": "Financial Metric",
+            "description": "The difference between the bid and ask prices in a financial market.",
+            "relationship:measures": "Relationship:TransactionCost",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:BidAskSpreadOverTime",
+            "type": "Table",
+            "description": "A table showing the bid-ask spread over different time periods.",
+            "relationship:illustrates": "Entity:BidAskSpread",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:TransactionCostAnalytics",
+            "type": "FinancialModel",
+            "description": "A model to analyze transaction costs for corporate bonds.",
+            "relationship:uses": "Entity:TraceDatabase",
+            "equation:definedBy": "Equation:RegressionAnalysis",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:RegressionResults",
+            "type": "Table",
+            "description": "A table summarizing the results of regression analysis on transaction costs.",
+            "relationship:illustrates": "Entity:TransactionCostAnalytics",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:RidgeRegressionModel",
+            "type": "Statistical Model",
+            "description": "A model used to predict the impact on bid-ask spread in bp.",
+            "relationship:uses": "Entity:BidAskSpreadDataset",
+            "equation:definedBy": "Equation:RidgeRegressionFormula",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:RidgeRegressionTable",
+            "type": "Table",
+            "description": "A table showing the impact of various features on bid-ask spread in bp.",
+            "relationship:illustrates": "Entity:RidgeRegressionModel",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:ForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:ForwardRateVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing forward rate volatilities across different time periods.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 17)"
+        },
+        {
+            "@id": "Entity:BidAskSpread",
+            "type": "Financial Indicator",
+            "description": "The difference between the bid and ask prices in a market.",
+            "relationship:measures": "Table:BidAskSpreadComparison",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:BidAskSpreadComparison",
+            "type": "Table",
+            "description": "A comparison of bid-ask spreads across different markets.",
+            "relationship:illustrates": "Entity:BidAskSpread",
+            "source": "Transaction cost analytics for corporate bonds.pdf (Page 20)"
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:DeepReinforcementLearning",
+            "type": "Machine Learning Technique",
+            "description": "A method for training agents to make decisions in complex environments.",
+            "relationship:uses": "Entity:OptionPricingModel",
+            "source": "Empirical deep hedging.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:PerformanceComparison",
+            "type": "Table",
+            "description": "A table comparing the performance of different hedging strategies.",
+            "relationship:illustrates": "Entity:DeepReinforcementLearning",
+            "source": "Empirical deep hedging.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:DeepReinforcementLearning",
+            "type": "Machine Learning Technique",
+            "description": "A method for training agents to make decisions in complex environments.",
+            "relationship:uses": "Entity:OptionPolicy",
+            "equation:definedBy": "Equation:DeepQLearning",
+            "source": "Empirical deep hedging.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:DeepQLearningResults",
+            "type": "Table",
+            "description": "A table presenting the results of applying Deep Q-Learning to a financial hedging problem.",
+            "relationship:illustrates": "Entity:DeepReinforcementLearning",
+            "source": "Empirical deep hedging.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:DeepDeterministicPolicyGradient",
+            "type": "Algorithm",
+            "description": "An algorithm for optimizing policies in reinforcement learning environments.",
+            "relationship:uses": "Entity:DeepQLearning",
+            "equation:definedBy": "Equation:DeepDeterministicPolicyGradient",
+            "source": "Empirical deep hedging.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:DeepQLearningComparison",
+            "type": "Table",
+            "description": "A comparison of Deep Q-Learning with other algorithms.",
+            "relationship:illustrates": "Entity:DeepDeterministicPolicyGradient",
+            "source": "Empirical deep hedging.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:DeepHedging",
+            "type": "Financial Model",
+            "description": "A model for hedging financial risks using reinforcement learning.",
+            "relationship:uses": "Entity:DoubleQLearning",
+            "equation:definedBy": "Equation:DeepHedgingEquation",
+            "source": "Empirical deep hedging.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:DeepHedgingResults",
+            "type": "Table",
+            "description": "A table presenting the results of applying the deep hedging model.",
+            "relationship:illustrates": "Entity:DeepHedging",
+            "source": "Empirical deep hedging.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:DeltaHedging",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BlackScholesDeltaHedging",
+            "equation:definedBy": "Equation:DeltaHedgingFormula",
+            "source": "Empirical deep hedging.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeltaHedging",
+            "source": "Empirical deep hedging.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:DeepHedgingModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:OptionData",
+            "equation:definedBy": "Equation:DeepHedgingEquation",
+            "source": "Empirical deep hedging.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeepHedgingModel",
+            "source": "Empirical deep hedging.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:DeepHedgingModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:SyntheticData",
+            "equation:definedBy": "Equation:DeepHedgingFormula",
+            "source": "Empirical deep hedging.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeepHedgingModel",
+            "source": "Empirical deep hedging.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:DeepHedgingModel",
+            "type": "Financial Model",
+            "description": "A model to simulate equity option markets using deep learning techniques.",
+            "relationship:uses": "Entity:MarketData",
+            "equation:definedBy": "Equation:DeepLearningEquation",
+            "source": "arXiv:1911.01700"
+        },
+        {
+            "@id": "Table:HedgingErrorAnalysis",
+            "type": "Table",
+            "description": "A table analyzing the hedging errors in models with jumps.",
+            "relationship:illustrates": "Entity:DeepHedgingModel",
+            "source": "Stoch. Process. Their Appl., 2009, 119, 2004\u20132027"
+        }
+    ]
+}

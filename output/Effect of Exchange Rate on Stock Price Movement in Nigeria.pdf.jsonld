@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ExchangeRateStockPriceMovement",
+            "type": "Financial Model",
+            "description": "A model to analyze the relationship between exchange rate and stock price movement in Nigeria.",
+            "relationship:uses": "Entity:MonthlySeriesData",
+            "equation:definedBy": "Equation:ExchangeRateStockPriceMovement",
+            "source": "Effect of Exchange Rate on Stock Price Movement in Nigeria.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:ExchangeRateStockPriceMovement",
+            "type": "Table",
+            "description": "A table illustrating the relationship between exchange rate and stock price movement in Nigeria.",
+            "relationship:illustrates": "Entity:ExchangeRateStockPriceMovement",
+            "source": "Effect of Exchange Rate on Stock Price Movement in Nigeria.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:ExchangeRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Effect of Exchange Rate on Stock Price Movement in Nigeria.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExchangeRateVolatilityModel",
+            "source": "Effect of Exchange Rate on Stock Price Movement in Nigeria.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Effect of Exchange Rate on Stock Price Movement in Nigeria.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Effect of Exchange Rate on Stock Price Movement in Nigeria.pdf (Page 8)"
+        }
+    ]
+}

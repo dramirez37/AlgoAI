@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Figure:LogarithmicReturns",
+            "type": "Figure",
+            "description": "A scatter plot showing logarithmic returns over time.",
+            "relationship:depicts": "Equation:LogarithmicReturnEquation",
+            "source": "Path-Dependence of Leveraged ETF Returns.pdf (Page 3)"
+        },
+        {
+            "@id": "Equation:LogarithmicReturnEquation",
+            "type": "Equation",
+            "description": "The equation for logarithmic returns.",
+            "relationship:definedBy": "Figure:LogarithmicReturns",
+            "source": "Path-Dependence of Leveraged ETF Returns.pdf (Page 3)"
+        },
+        {
+            "@id": "Figure:ComparisonOfLogarithmicReturns",
+            "type": "Figure",
+            "description": "A scatter plot comparing logarithmic returns of SKF with corresponding log-returns of IYF.",
+            "relationship:depicts": "Equation:ComparisonOfLogarithmicReturns",
+            "source": "Path-Dependence of Leveraged ETF Returns.pdf (Page 4)"
+        },
+        {
+            "@id": "Equation:ComparisonOfLogarithmicReturns",
+            "type": "Equation",
+            "description": "An equation comparing logarithmic returns of SKF with corresponding log-returns of IYF.",
+            "relationship:definedBy": "Figure:ComparisonOfLogarithmicReturns",
+            "source": "Path-Dependence of Leveraged ETF Returns.pdf (Page 4)"
+        },
+        {
+            "@id": "Equation:DeltaHedging",
+            "type": "Mathematical Equation",
+            "description": "An equation for delta hedging in leveraged ETFs.",
+            "equation:definedBy": "d\u03a0_t = r\u03a0_t dt + \u03b4_t dS_t / S_0 - r\u03b4_t dt",
+            "source": "Path-Dependence of Leveraged ETF Returns.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:DeltaHedgingResults",
+            "type": "Table",
+            "description": "A table showing the results of delta hedging in leveraged ETFs.",
+            "relationship:illustrates": "Equation:DeltaHedging",
+            "source": "Path-Dependence of Leveraged ETF Returns.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:PortfolioInsuranceStrategies",
+            "type": "Financial Model",
+            "description": "A comparison of standard methods when the volatility of the stock is stochastic.",
+            "relationship:uses": "Entity:StandardMethods",
+            "equation:definedBy": "Equation:StochasticVolatilityModel",
+            "source": "Path-Dependence of Leveraged ETF Returns.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:StandardMethodsComparison",
+            "type": "Table",
+            "description": "A table comparing standard methods for portfolio insurance strategies.",
+            "relationship:illustrates": "Entity:PortfolioInsuranceStrategies",
+            "source": "Path-Dependence of Leveraged ETF Returns.pdf (Page 18)"
+        }
+    ]
+}

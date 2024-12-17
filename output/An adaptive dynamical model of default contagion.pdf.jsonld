@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:DefaultContagionModel",
+            "type": "Financial Model",
+            "description": "An adaptive dynamical model for default contagion.",
+            "relationship:uses": "Entity:DefaultDataset",
+            "equation:definedBy": "Equation:DefaultFormula",
+            "source": "An adaptive dynamical model of default contagion.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:DefaultVolatility",
+            "type": "Table",
+            "description": "A table comparing default volatilities across different institutions.",
+            "relationship:illustrates": "Entity:DefaultContagionModel",
+            "source": "An adaptive dynamical model of default contagion.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:FinancialModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "An adaptive dynamical model of default contagion.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:FinancialModel",
+            "source": "An adaptive dynamical model of default contagion.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:ModelOfDefaultContagion",
+            "type": "Financial Model",
+            "description": "An adaptive dynamical model for default contagion.",
+            "relationship:uses": "Entity:DataOnDefaultEvents",
+            "equation:definedBy": "Equation:KramersEscapeFormula",
+            "source": "An adaptive dynamical model of default contagion.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:DefaultEventHistograms",
+            "type": "Table",
+            "description": "Histograms of escape times for default events.",
+            "relationship:illustrates": "Entity:ModelOfDefaultContagion",
+            "source": "An adaptive dynamical model of default contagion.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "An adaptive dynamical model of default contagion.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "An adaptive dynamical model of default contagion.pdf (Page 12)"
+        }
+    ]
+}

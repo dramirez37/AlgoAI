@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:LFPM",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:Data",
+            "equation:definedBy": "Equation:LFPM",
+            "source": "Stochastic interest rate modelling using a single or multiple curves  an empirical performance analysis of the L vy forward price model.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:LFPM",
+            "source": "Stochastic interest rate modelling using a single or multiple curves  an empirical performance analysis of the L vy forward price model.pdf (Page 4)"
+        }
+    ]
+}

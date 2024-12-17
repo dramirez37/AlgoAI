@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:OptimalPortfolioAllocation",
+            "type": "Financial Model",
+            "description": "A model to optimize portfolio allocation based on asset centrality.",
+            "relationship:uses": "Entity:AssetCentrality",
+            "equation:definedBy": "Equation:OptimalAllocationFormula",
+            "source": "Optimal portfolio allocation and asset centrality revisited.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:AssetCentralityComparison",
+            "type": "Table",
+            "description": "A table comparing asset centrality across different assets.",
+            "relationship:illustrates": "Entity:OptimalPortfolioAllocation",
+            "source": "Optimal portfolio allocation and asset centrality revisited.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:OptimalPortfolioAllocation",
+            "type": "Financial Model",
+            "description": "A model to optimize portfolio allocation based on asset centrality.",
+            "relationship:uses": "Entity:AssetCentrality",
+            "equation:definedBy": "Equation:OptimalPortfolioAllocationFormula",
+            "source": "Optimal portfolio allocation and asset centrality revisited.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:AssetCentralityComparison",
+            "type": "Table",
+            "description": "A table comparing asset centrality across different portfolios.",
+            "relationship:illustrates": "Entity:OptimalPortfolioAllocation",
+            "source": "Optimal portfolio allocation and asset centrality revisited.pdf (Page 2)"
+        },
+        {
+            "@id": "Figure:Figure5",
+            "type": "Figure",
+            "description": "DCC model with constrained weights. The black solid line denotes the positive centrality measure (10) and the red dashed line the negative centrality measure (11). The blue line denotes the dynamic optimal portfolio allocation over the evaluation period January 2011 to May 2020.",
+            "source": "Optimal portfolio allocation and asset centrality revisited.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:PortfolioAllocation",
+            "type": "Financial Model",
+            "description": "A model to optimize portfolio allocation based on asset centrality.",
+            "relationship:uses": "Entity:AssetCentrality",
+            "equation:definedBy": "Equation:OptimalAllocation",
+            "source": "Optimal portfolio allocation and asset centrality revisited.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:AssetCentralityComparison",
+            "type": "Table",
+            "description": "A table comparing asset centrality across different portfolios.",
+            "relationship:illustrates": "Entity:PortfolioAllocation",
+            "source": "Optimal portfolio allocation and asset centrality revisited.pdf (Page 15)"
+        }
+    ]
+}

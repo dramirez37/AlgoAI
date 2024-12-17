@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityFormula",
+            "source": "Dual Valuation and Hedging of Bermudan Options.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "Dual Valuation and Hedging of Bermudan Options.pdf (Page 5)"
+        }
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:QuantitativeFinance",
+            "type": "Quantitative Finance",
+            "description": "The study of mathematical models used in finance.",
+            "relationship:uses": "Entity:LocalVolatilityModel",
+            "equation:definedBy": "Equation:LocalVolatilityFormula",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:LocalVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing local volatilities across different scenarios.",
+            "relationship:illustrates": "Entity:QuantitativeFinance",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:PolicyIterationAlgorithm",
+            "type": "Algorithm",
+            "description": "An algorithm for solving the HJB equation backwards in time.",
+            "relationship:uses": "Entity:InitialMarketPrices",
+            "equation:definedBy": "Equation:PolicyIteration",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:OptimalCoefficients",
+            "type": "Table",
+            "description": "A table listing the optimal coefficients for the policy iteration algorithm.",
+            "relationship:illustrates": "Entity:PolicyIterationAlgorithm",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 7)"
+        },
+        {
+            "@id": "Figure:MonteCarloSimulations",
+            "type": "Figure",
+            "description": "Monte Carlo simulations of (a) the log-SPX and (b) the short rate in the SOT calibrated model.",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 9)"
+        },
+        {
+            "@id": "Figure:VolatilityPlots",
+            "type": "Figure",
+            "description": "Plots of SOT-calibrated volatility of the log-stock.",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:FullSequentialCalibration",
+            "type": "Financial Model",
+            "description": "A model for full sequential calibration of local volatility models.",
+            "relationship:uses": "Entity:ConvexFunction",
+            "equation:definedBy": "Equation:FullSequentialCalibration",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:FullSequentialCalibrationResults",
+            "type": "Table",
+            "description": "Results of full sequential calibration experiments.",
+            "relationship:illustrates": "Entity:FullSequentialCalibration",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 13)"
+        },
+        {
+            "@id": "Figure:DifferencePlots",
+            "type": "Figure",
+            "description": "Plots showing the difference between the generating model and SOT calibrated in the three methods (a), and plots of the difference between calibrated in the three methods (b). Note that we undid the scaling in 12 and 22 to recover the correlation between the log-stock and the short rate.",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 16)"
+        },
+        {
+            "@id": "Entity:SPXCallOptions",
+            "type": "Financial Model",
+            "description": "A model to calculate SPX call options.",
+            "relationship:uses": "Entity:SPXMarketData",
+            "equation:definedBy": "Equation:SPXOptionFormula",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:SPXCallOptions",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 19)"
+        },
+        {
+            "@id": "Entity:LocalVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:StochasticInterestRate",
+            "equation:definedBy": "Equation:StochasticVolatility",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:LocalVolatilityModel",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 20)"
+        },
+        {
+            "@id": "Figure:A2",
+            "type": "Figure",
+            "description": "Plots of calibrated in all three cases, where the scaling has been removed from and . The generating model correlation is 0.4 and the reference model correlation is 0.2.",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 22)"
+        },
+        {
+            "@id": "Figure:A3",
+            "type": "Figure",
+            "description": "Plots of the generating model log-stock volatility (a), and reference model log-stock volatility (b).",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 22)"
+        },
+        {
+            "@id": "Figure:A5",
+            "type": "Figure",
+            "description": "Plots of SOT calibrated under good and bad reference models. Note that the generating and reference values for are given by X^2.",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 24)"
+        },
+        {
+            "@id": "Figure:A6",
+            "type": "Figure",
+            "description": "Plots of SOT calibrated under good and bad reference models. Note that = 0.4 in the generating model, = 0.2 and = 0.2.",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 24)"
+        },
+        {
+            "@id": "Entity:LSVModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:StochasticInterestRate",
+            "equation:definedBy": "Equation:A3",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 25)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:LSVModel",
+            "source": "Joint calibration of local volatility models with stochastic interest rates using semimartingale optimal transport.pdf (Page 25)"
+        }
+    ]
+}

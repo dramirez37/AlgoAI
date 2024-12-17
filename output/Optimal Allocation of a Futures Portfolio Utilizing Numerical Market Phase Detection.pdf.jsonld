@@ -1,0 +1,150 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:PortfolioOptimization",
+            "type": "Financial Model",
+            "description": "A model for optimizing futures portfolio returns.",
+            "relationship:uses": "Entity:InitialMargin",
+            "equation:definedBy": "Equation:R_t",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:PortfolioConstraints",
+            "type": "Table",
+            "description": "A table illustrating portfolio constraints.",
+            "relationship:illustrates": "Entity:PortfolioOptimization",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 7)"
+        },
+        {
+            "@id": "Figure:DetectionTimeChangePoint",
+            "type": "Figure",
+            "description": "A figure showing the relative error in detection time of the single change point depending on \u03c1.",
+            "relationship:depicts": "Equation:RelativeErrorInDetectionTime",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 13)"
+        },
+        {
+            "@id": "Equation:RelativeErrorInDetectionTime",
+            "type": "Equation",
+            "description": "An equation defining the relative error in detection time of the single change point.",
+            "relationship:definedBy": "Figure:DetectionTimeChangePoint",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 13)"
+        },
+        {
+            "@id": "Figure:6",
+            "type": "Graph",
+            "description": "Number of distinguishable clusters depending on \u03b5^2. Data set: Prices of oil and wheat futures from 2005\u20132008.",
+            "relationship:depicts": "Equation:4.7",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 14)"
+        },
+        {
+            "@id": "Equation:4.7",
+            "type": "Mathematical Expression",
+            "description": "Rate of return formula.",
+            "relationship:definedBy": "Figure:6",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 14)"
+        },
+        {
+            "@id": "Figure:PortfolioEvolution",
+            "type": "Figure",
+            "description": "A figure showing the total return evolution of portfolios over time.",
+            "relationship:contains": "Table:PortfolioData",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:PortfolioData",
+            "type": "Table",
+            "description": "A table containing data for the total return evolution of portfolios.",
+            "relationship:illustrates": "Figure:PortfolioEvolution",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 18)"
+        },
+        {
+            "@id": "Figure:RiskDeviation",
+            "type": "Figure",
+            "description": "A graph showing the average deviation from target return rate over time for different portfolio optimization algorithms.",
+            "relationship:contains": "Table:RiskDeviationTable",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:RiskDeviationTable",
+            "type": "Table",
+            "description": "A table listing the average deviation from target return rate for different portfolio optimization algorithms over time.",
+            "relationship:illustrates": "Figure:RiskDeviation",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 20)"
+        },
+        {
+            "@id": "Figure:TotalReturnDependentOnTargetReturnRate",
+            "type": "Figure",
+            "description": "A graph showing the total return depending on the yearly target return rate C in (3.5).",
+            "relationship:depicts": "Equation:TotalReturnEquation",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 21)"
+        },
+        {
+            "@id": "Figure:RiskStandardDeviation",
+            "type": "Figure",
+            "description": "A graph showing the risk (standard deviation) of different portfolios depending on the target return rate.",
+            "relationship:depicts": "Equation:RiskStandardDeviation",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 22)"
+        },
+        {
+            "@id": "Equation:RiskStandardDeviation",
+            "type": "Equation",
+            "description": "An equation defining the risk (standard deviation) of different portfolios.",
+            "relationship:definedBy": "Figure:RiskStandardDeviation",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 22)"
+        },
+        {
+            "@id": "Figure:RiskEvolution",
+            "type": "Figure",
+            "description": "A figure showing the risk evolution of different portfolios over time.",
+            "relationship:contains": "Table:RiskData",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 24)"
+        },
+        {
+            "@id": "Table:RiskData",
+            "type": "Table",
+            "description": "A table containing data on the risk evolution of different portfolios.",
+            "relationship:illustrates": "Figure:RiskEvolution",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 24)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 27)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 27)"
+        },
+        {
+            "@id": "Entity:FuturesPortfolioModel",
+            "type": "FinancialModel",
+            "description": "A model for optimal allocation of a futures portfolio using numerical market phase detection.",
+            "relationship:uses": "Entity:FuturesData",
+            "equation:definedBy": "Equation:OptimalAllocationFormula",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 28)"
+        },
+        {
+            "@id": "Table:MarketPhaseDetectionResults",
+            "type": "Table",
+            "description": "A table presenting the results of market phase detection for futures portfolios.",
+            "relationship:illustrates": "Entity:FuturesPortfolioModel",
+            "source": "Optimal Allocation of a Futures Portfolio Utilizing Numerical Market Phase Detection.pdf (Page 28)"
+        }
+    ]
+}

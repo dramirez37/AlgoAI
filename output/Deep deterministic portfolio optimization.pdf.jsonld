@@ -1,0 +1,101 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:DeepDeterministicPortfolioOptimization",
+            "type": "FinancialModel",
+            "description": "A model for optimizing portfolios using deep reinforcement learning.",
+            "relationship:uses": "Entity:ReinforcementLearningTechniques",
+            "equation:definedBy": "Equation:PolicyGradientAlgorithm",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:OptimizationResults",
+            "type": "Table",
+            "description": "A table presenting the results of the optimization process.",
+            "relationship:illustrates": "Entity:DeepDeterministicPortfolioOptimization",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 1)"
+        },
+        {
+            "@id": "Equation:5",
+            "type": "Mathematical Equation",
+            "description": "An equation defining the optimization problem for portfolio allocation.",
+            "equation:definedBy": "max_{a_t} \\left[ \\sum_{t=0}^{T-1} r_{t+1} - cost(a_t) - risk(\\pi_{t+1}) \\right]",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:PortfolioOptimizationResults",
+            "type": "Table",
+            "description": "A table presenting the results of the portfolio optimization.",
+            "table:contains": "Entity:PortfolioAllocationResults",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 3)"
+        },
+        {
+            "@id": "Figure:PerformanceSummary",
+            "type": "Figure",
+            "description": "A figure summarizing the performance of agents in an environment with linear trading cost and maxpos risk control.",
+            "relationship:contains": "Table:PerformanceSummary",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:PerformanceSummary",
+            "type": "Table",
+            "description": "A table summarizing the performance of agents in an environment with linear trading cost and maxpos risk control.",
+            "relationship:illustrates": "Figure:PerformanceSummary",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:OffPolicyTraining",
+            "type": "Machine Learning",
+            "description": "A method for training agents in reinforcement learning where the agent does not interact with the environment during training.",
+            "relationship:uses": "Figure:OffPolicyTrainingSummary",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 13)"
+        },
+        {
+            "@id": "Figure:OffPolicyTrainingSummary",
+            "type": "Diagram",
+            "description": "A summary of off-policy training in reinforcement learning.",
+            "relationship:depicts": "Entity:OffPolicyTraining",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:ActorUpdate",
+            "type": "Algorithmic Update",
+            "description": "The update process for the actor network in a reinforcement learning algorithm.",
+            "relationship:uses": "Entity:Off-Policy Deterministic Policy Gradient Theorem",
+            "equation:definedBy": "Equation:ActorUpdateEquation",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:ActorUpdateTable",
+            "type": "Table",
+            "description": "A table illustrating the actor update process.",
+            "relationship:illustrates": "Entity:ActorUpdate",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:DeepDeterministicPortfolioOptimization",
+            "type": "Financial Model",
+            "description": "A model for dynamic programming and optimal control in portfolio optimization.",
+            "relationship:uses": "Entity:PortfolioDataset",
+            "equation:definedBy": "Equation:DynamicProgrammingEquation",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:OptimalPortfolioComparison",
+            "type": "Table",
+            "description": "A comparison of optimal portfolios over different time periods.",
+            "relationship:illustrates": "Entity:DeepDeterministicPortfolioOptimization",
+            "source": "Deep deterministic portfolio optimization.pdf (Page 15)"
+        }
+    ]
+}

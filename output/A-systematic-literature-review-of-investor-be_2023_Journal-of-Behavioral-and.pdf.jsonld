@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Figure:PublicationsByCountryWorldMap",
+            "type": "Map",
+            "description": "A world map showing publications by country.",
+            "relationship:contains": "Table:PublicationsByCountry",
+            "source": "A-systematic-literature-review-of-investor-be_2023_Journal-of-Behavioral-and.pdf (Page 5)"
+        },
+        {
+            "@id": "Figure:NormalizedCitationsOfCountriesByYear",
+            "type": "Graph",
+            "description": "A graph showing normalized citations of countries by year.",
+            "relationship:contains": "Table:CitationsByCountryAndYear",
+            "source": "A-systematic-literature-review-of-investor-be_2023_Journal-of-Behavioral-and.pdf (Page 5)"
+        },
+        {
+            "@id": "Figure:NormalizedCitationsOfJournalsByYear",
+            "type": "Figure",
+            "description": "Normalized citations of journals by year.",
+            "relationship:depicts": "Source:A-systematic-literature-review-of-investor-be_2023_Journal-of-Behavioral-and.pdf (Page 7)",
+            "source": "A-systematic-literature-review-of-investor-be_2023_Journal-of-Behavioral-and.pdf (Page 7)"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Figure:RiskAversionProfile",
+            "type": "Figure",
+            "description": "A graph showing the risk aversion profile over time.",
+            "relationship:depicts": "Equation:RiskAversionEquation",
+            "source": "Mathematical Finance - 2023 - Desmettre - Equilibrium investment with random risk aversion.pdf (Page 19)"
+        },
+        {
+            "@id": "Equation:RiskAversionEquation",
+            "type": "Equation",
+            "description": "An equation defining the risk aversion profile.",
+            "relationship:definedBy": "Figure:RiskAversionProfile",
+            "source": "Mathematical Finance - 2023 - Desmettre - Equilibrium investment with random risk aversion.pdf (Page 19)"
+        }
+    ]
+}

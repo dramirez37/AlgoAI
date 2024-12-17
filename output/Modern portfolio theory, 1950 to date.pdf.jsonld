@@ -1,0 +1,149 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:MeanVariancePortfolioTheory",
+            "type": "Financial Model",
+            "description": "A model that uses mean and variance to optimize portfolio returns.",
+            "relationship:uses": "Entity:Security",
+            "equation:definedBy": "Equation:MeanVarianceOptimization",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:DesirabilityOfPortfolioSelection",
+            "type": "Table",
+            "description": "A table illustrating the desirability of different portfolio selections based on mean and variance.",
+            "relationship:illustrates": "Entity:MeanVariancePortfolioTheory",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:OptimumPortfolio",
+            "type": "Financial Model",
+            "description": "A model to determine the optimal portfolio for investment.",
+            "relationship:uses": "Entity:MultiPeriodPortfolioAnalysis",
+            "equation:definedBy": "Equation:OptimizationFunction",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:MultiPeriodPortfolioAnalysis",
+            "type": "Table",
+            "description": "A table illustrating the multi-period portfolio analysis.",
+            "relationship:illustrates": "Entity:OptimumPortfolio",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:PortfolioManagement",
+            "type": "Financial Model",
+            "description": "A model to analyze portfolio management in continuous time.",
+            "relationship:uses": "Entity:ContinuousTimeFramework",
+            "equation:definedBy": "Equation:Merton'sResults",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:HedgingPortfolios",
+            "type": "Table",
+            "description": "A table showing the characteristics of securities that would lead to their inclusion in an optimum portfolio.",
+            "relationship:illustrates": "Entity:PortfolioManagement",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:index_models_and_covariance_estimates",
+            "type": "Index Model",
+            "description": "A model used to estimate covariance structures in financial economics.",
+            "relationship:uses": "Entity:market_model",
+            "equation:definedBy": "Equation:R_e = z_t + \u03b2_t R_m + e_t",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:market_model",
+            "type": "Table",
+            "description": "A table illustrating the market model in financial economics.",
+            "relationship:illustrates": "Entity:index_models_and_covariance_estimates",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:MultiIndexModel",
+            "type": "Financial Model",
+            "description": "A model used for portfolio optimization techniques.",
+            "relationship:uses": "Entity:PortfolioData",
+            "equation:definedBy": "Equation:MultiIndexOptimization",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:PortfolioAnalysis",
+            "type": "Table",
+            "description": "A table illustrating portfolio analysis using multi-index models.",
+            "relationship:illustrates": "Entity:MultiIndexModel",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:SingleIndexModel",
+            "type": "Financial Model",
+            "description": "A model used to compare the performance of mutual funds against a single index.",
+            "relationship:uses": "Entity:RisklessAssets",
+            "equation:definedBy": "Equation:SingleIndexModelEquation",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:PerformanceComparison",
+            "type": "Table",
+            "description": "A table comparing the performance of mutual funds against a single index over different periods.",
+            "relationship:illustrates": "Entity:SingleIndexModel",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:MultiIndexModel",
+            "type": "Financial Model",
+            "description": "A model to evaluate multi-index fund performance.",
+            "relationship:uses": "Entity:MutualFundData",
+            "equation:definedBy": "Equation:MultiIndexSharpeRatio",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:MultiIndexPerformance",
+            "type": "Table",
+            "description": "A table comparing multi-index fund performance.",
+            "relationship:illustrates": "Entity:MultiIndexModel",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:MultiIndexSharpeMeasure",
+            "type": "Financial Measure",
+            "description": "A measure used to evaluate the performance of multiple index funds.",
+            "relationship:uses": "Entity:JensenMeasure",
+            "equation:definedBy": "Equation:MultiIndexSharpeFormula",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:PerformanceComparison",
+            "type": "Table",
+            "description": "A table comparing the performance of different funds over various periods.",
+            "relationship:illustrates": "Entity:MultiIndexSharpeMeasure",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:PortfolioTheory",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateVolatilityDataset",
+            "equation:definedBy": "Equation:ForwardRateVolatilityFormula",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:PortfolioTheory",
+            "source": "Modern portfolio theory, 1950 to date.pdf (Page 16)"
+        }
+    ]
+}

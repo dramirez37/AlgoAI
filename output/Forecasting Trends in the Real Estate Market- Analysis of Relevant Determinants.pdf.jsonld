@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ForecastingMethodology",
+            "type": "Research Methodology",
+            "description": "A methodology to analyze and forecast economic indicators affecting the real estate market of Ukraine.",
+            "relationship:uses": "Entity:DataAnalysis",
+            "equation:definedBy": "Equation:IrwinMethod",
+            "source": "Forecasting Trends in the Real Estate Market- Analysis of Relevant Determinants.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:DataAnalysisResults",
+            "type": "Table",
+            "description": "A table presenting the results of data analysis for forecasting economic indicators.",
+            "relationship:illustrates": "Entity:ForecastingMethodology",
+            "source": "Forecasting Trends in the Real Estate Market- Analysis of Relevant Determinants.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:RealEstateMarketTrends",
+            "type": "FinancialModel",
+            "description": "A model to analyze trends in the real estate market.",
+            "relationship:uses": "Entity:RealEstateData",
+            "equation:definedBy": "Equation:RealEstateTrendCalculation",
+            "source": "Forecasting Trends in the Real Estate Market- Analysis of Relevant Determinants.pdf (Page 27)"
+        },
+        {
+            "@id": "Table:TrendAnalysis",
+            "type": "Table",
+            "description": "A table illustrating the analysis of real estate market trends.",
+            "relationship:illustrates": "Entity:RealEstateMarketTrends",
+            "source": "Forecasting Trends in the Real Estate Market- Analysis of Relevant Determinants.pdf (Page 27)"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:CapitalVX",
+            "type": "Machine Learning Model",
+            "description": "A machine learning model developed for startup selection and exit prediction.",
+            "relationship:uses": "Entity:CrunchbaseData",
+            "equation:definedBy": "Equation:PredictionAccuracy",
+            "source": "CapitalVX- A machine learning model for startup selection and exit prediction.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:StartupExitPredictions",
+            "type": "Table",
+            "description": "A table showing the accuracy of startup exit predictions.",
+            "relationship:illustrates": "Entity:CapitalVX",
+            "source": "CapitalVX- A machine learning model for startup selection and exit prediction.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:InvestorRank",
+            "type": "Machine Learning Algorithm",
+            "description": "A method for identifying successful investors based on a position in a network, such as being close to an exemplary investor or super-angel.",
+            "relationship:uses": "Entity:StartupNetwork",
+            "source": "CapitalVX- A machine learning model for startup selection and exit prediction.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:SuccessRate",
+            "type": "Table",
+            "description": "A table showing the success rate of investors.",
+            "relationship:illustrates": "Entity:InvestorRank",
+            "source": "CapitalVX- A machine learning model for startup selection and exit prediction.pdf (Page 2)"
+        },
+        {
+            "@id": "Figure:VCBackedFirms",
+            "type": "Figure",
+            "description": "Distribution of missing values across public, acquired, and failed companies.",
+            "relationship:contains": "Table:VCBackedFirmsTable",
+            "source": "The Journal of Finance and Data Science 7 (2021) 94\u2013114"
+        },
+        {
+            "@id": "Table:VCBackedFirmsTable",
+            "type": "Table",
+            "description": "A table showing the distribution of missing values across public, acquired, and failed companies.",
+            "relationship:illustrates": "Figure:VCBackedFirms",
+            "source": "The Journal of Finance and Data Science 7 (2021) 94\u2013114"
+        },
+        {
+            "@id": "Figure:ConfusionMatrix1",
+            "type": "Figure",
+            "description": "Confusion matrix showing model outputs with the addition of the randomly sampled private class.",
+            "source": "CapitalVX- A machine learning model for startup selection and exit prediction.pdf (Page 12)",
+            "figure": "Figure 4"
+        },
+        {
+            "@id": "Figure:ConfusionMatrix2",
+            "type": "Figure",
+            "description": "Confusion matrix from models after filtering out private firms according to the amount of missing information.",
+            "source": "CapitalVX- A machine learning model for startup selection and exit prediction.pdf (Page 12)",
+            "figure": "Figure 5"
+        },
+        {
+            "@id": "Entity:CapitalVX",
+            "type": "Financial Model",
+            "description": "A machine learning model for startup selection and exit prediction.",
+            "relationship:uses": "Entity:StartupDataset",
+            "equation:definedBy": "Equation:MachineLearningAlgorithm",
+            "source": "CapitalVX- A machine learning model for startup selection and exit prediction.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:StartupPerformance",
+            "type": "Table",
+            "description": "A table comparing the performance of startups over different time periods.",
+            "relationship:illustrates": "Entity:CapitalVX",
+            "source": "CapitalVX- A machine learning model for startup selection and exit prediction.pdf (Page 20)"
+        }
+    ]
+}

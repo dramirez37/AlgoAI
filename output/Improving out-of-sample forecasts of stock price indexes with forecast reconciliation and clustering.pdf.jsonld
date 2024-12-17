@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ForecastReconciliation",
+            "type": "Statistical Technique",
+            "description": "A technique for improving out-of-sample forecasts by reconciling different forecasts.",
+            "relationship:uses": "Entity:StockPriceIndexes",
+            "source": "Improving out-of-sample forecasts of stock price indexes with forecast reconciliation and clustering.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:ForecastAccuracyComparison",
+            "type": "Table",
+            "description": "A table comparing the accuracy of different forecasting methods.",
+            "relationship:illustrates": "Entity:ForecastReconciliation",
+            "source": "Improving out-of-sample forecasts of stock price indexes with forecast reconciliation and clustering.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:ForecastHorizon",
+            "type": "Forecasting Method",
+            "description": "A method for forecasting stock prices using historical data.",
+            "relationship:uses": "Entity:StockPriceIndex",
+            "equation:definedBy": "Equation:ForecastingEquation",
+            "source": "Improving out-of-sample forecasts of stock price indexes with forecast reconciliation and clustering.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:AccuracyEvaluation",
+            "type": "Table",
+            "description": "A table evaluating the accuracy of forecast reconciliation methods.",
+            "relationship:illustrates": "Entity:ForecastHorizon",
+            "source": "Improving out-of-sample forecasts of stock price indexes with forecast reconciliation and clustering.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:ForecastReconciliation",
+            "type": "Financial Model",
+            "description": "A method for reconciling forecasts to improve accuracy.",
+            "relationship:uses": "Entity:StockPriceIndexes",
+            "equation:definedBy": "Equation:ForecastReconciliationEquation",
+            "source": "Improving out-of-sample forecasts of stock price indexes with forecast reconciliation and clustering.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:ForecastAccuracyComparison",
+            "type": "Table",
+            "description": "A comparison of forecast accuracy before and after reconciliation.",
+            "relationship:illustrates": "Entity:ForecastReconciliation",
+            "source": "Improving out-of-sample forecasts of stock price indexes with forecast reconciliation and clustering.pdf (Page 16)"
+        },
+        {
+            "@id": "Figure:A1",
+            "type": "Figure",
+            "description": "Aggregated series from the hierarchical structure implied by the Industry-based clustering. The upper plot shows the time series for the industry aggregates and the bottom plot shows the DJIA Index constituents. The colors in both plots correspond to different industries. Prices are shown on a logarithmic scale.",
+            "source": "Improving out-of-sample forecasts of stock price indexes with forecast reconciliation and clustering.pdf (Page 23)"
+        },
+        {
+            "@id": "Figure:A3",
+            "type": "Figure",
+            "description": "Aggregated series from the hierarchical structure implied by the EUCL-based PAM clustering algorithm. The upper plot shows the time series for the three returns-based clusters and the bottom plot shows the DJIA Index constituents. The colors in both plots correspond to different clusters. Prices are shown on a logarithmic scale.",
+            "source": "Improving out-of-sample forecasts of stock price indexes with forecast reconciliation and clustering.pdf (Page 25)"
+        },
+        {
+            "@id": "Figure:A5",
+            "type": "Figure",
+            "description": "Aggregated series from the hierarchical structure implied by the ARIMA-based PAM clustering algorithm. The upper plot shows the time series for the five ARIMA-based clusters and the bottom plot shows the DJIA Index constituents. The colors in both plots correspond to different clusters. Prices are shown on a logarithmic scale.",
+            "source": "Improving out-of-sample forecasts of stock price indexes with forecast reconciliation and clustering.pdf (Page 27)"
+        },
+        {
+            "@id": "Figure:A6",
+            "type": "Figure",
+            "description": "Average Silhouette Width with EUCL-based PAM partition.",
+            "source": "Improving out-of-sample forecasts of stock price indexes with forecast reconciliation and clustering.pdf (Page 27)"
+        }
+    ]
+}

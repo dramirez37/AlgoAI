@@ -1,0 +1,144 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:QuantitativeFinance",
+            "type": "Journal",
+            "description": "A journal focused on quantitative finance research.",
+            "source": "Path shadowing Monte Carlo.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:QuantitativeFinance",
+            "source": "Path shadowing Monte Carlo.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:PathShadowingMonteCarloModel",
+            "type": "Financial Model",
+            "description": "A model that predicts future path prices using shadow paths generated from a maximum entropy model of nancial prices.",
+            "relationship:uses": "Entity:ShadowPathsDataset",
+            "equation:definedBy": "Equation:PathShadowingFormula",
+            "source": "Path shadowing Monte Carlo.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:PathShadowingMonteCarloModel",
+            "source": "Path shadowing Monte Carlo.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:PathShadowingMonteCarlo",
+            "type": "FinancialModel",
+            "description": "A method for predicting future price movements using path shadowing.",
+            "relationship:uses": "Entity:ScatteringSpectraModel",
+            "equation:definedBy": "Equation:LogPriceDistribution",
+            "source": "Path shadowing Monte Carlo.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A comparison of volatility across different time periods.",
+            "relationship:illustrates": "Entity:PathShadowingMonteCarlo",
+            "source": "Path shadowing Monte Carlo.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:MaximumEntropyModels",
+            "type": "Statistical Model",
+            "description": "A model that maximizes entropy under certain constraints.",
+            "relationship:uses": "Entity:NancialLogReturns",
+            "equation:definedBy": "Equation:MaximumEntropyModelDefinition",
+            "source": "Path shadowing Monte Carlo.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:MaximumEntropyModelComparison",
+            "type": "Table",
+            "description": "A comparison of maximum entropy models.",
+            "relationship:illustrates": "Entity:MaximumEntropyModels",
+            "source": "Path shadowing Monte Carlo.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:PathShadowingMonteCarloMethod",
+            "type": "FinancialModel",
+            "description": "A method for estimating future asset price paths using historical data.",
+            "relationship:uses": "Entity:HistoricalData",
+            "equation:definedBy": "Equation:PathShadowingEstimation",
+            "source": "Path shadowing Monte Carlo.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:FuturePricePaths",
+            "type": "Table",
+            "description": "A table illustrating future price paths estimated by the Path Shadowing Monte Carlo method.",
+            "relationship:illustrates": "Entity:PathShadowingMonteCarloMethod",
+            "source": "Path shadowing Monte Carlo.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:PathShadowingMonteCarlo",
+            "type": "FinancialModel",
+            "description": "A method for simulating paths in financial models using Monte Carlo techniques.",
+            "relationship:uses": "Entity:LogPricePaths",
+            "equation:definedBy": "Equation:PathShadowingMonteCarlo",
+            "source": "Path shadowing Monte Carlo.pdf (Page 10)"
+        },
+        {
+            "@id": "Table:VolatilityPredictionResults",
+            "type": "Table",
+            "description": "A table presenting the results of volatility predictions using the Path Shadowing Monte Carlo method.",
+            "relationship:illustrates": "Entity:PathShadowingMonteCarlo",
+            "source": "Path shadowing Monte Carlo.pdf (Page 10)"
+        },
+        {
+            "@id": "Entity:CFM",
+            "type": "Financial Model",
+            "description": "CFM is an asset management rm specialized in quantitative strategies.",
+            "relationship:uses": "Entity:Dataset",
+            "source": "Path shadowing Monte Carlo.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:CFM",
+            "source": "Path shadowing Monte Carlo.pdf (Page 15)"
+        },
+        {
+            "@id": "Equation:1",
+            "type": "Mathematical Equation",
+            "description": "An equation representing the relationship between h and x for path shadowing Monte Carlo.",
+            "relationship:definedBy": "Equation:1",
+            "source": "Path shadowing Monte Carlo.pdf (Page 24)"
+        },
+        {
+            "@id": "Equation:2",
+            "type": "Mathematical Equation",
+            "description": "An equation showing the normalization of h.",
+            "relationship:definedBy": "Equation:2",
+            "source": "Path shadowing Monte Carlo.pdf (Page 24)"
+        },
+        {
+            "@id": "Entity:AdditionalTradingGameStatistics",
+            "type": "Statistical Measure",
+            "description": "Additional trading game statistics including standard deviation and winning rate.",
+            "relationship:includes": "Figure:H1",
+            "source": "Path shadowing Monte Carlo.pdf (Page 25)"
+        },
+        {
+            "@id": "Figure:H1",
+            "type": "Heatmap",
+            "description": "Standard deviation of P&L of a trading game playing the Scattering Spectra (SS) model against the S&P or the Path-Dependent Volatility (PDV) model against S&P.",
+            "relationship:depicts": "Entity:AdditionalTradingGameStatistics",
+            "source": "Path shadowing Monte Carlo.pdf (Page 25)"
+        }
+    ]
+}

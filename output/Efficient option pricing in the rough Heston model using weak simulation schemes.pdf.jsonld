@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:WeakSimulationScheme",
+            "type": "FinancialModel",
+            "description": "A method for simulating the rough Heston model using weak approximation schemes.",
+            "relationship:uses": "Entity:RoughHestonModel",
+            "equation:definedBy": "Equation:WeakApproximationScheme",
+            "source": "Efficient option pricing in the rough Heston model using weak simulation schemes.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:WeakSimulationScheme",
+            "source": "Efficient option pricing in the rough Heston model using weak simulation schemes.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:RoughHestonModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:RoughHestonData",
+            "equation:definedBy": "Equation:RoughHestonVolatility",
+            "source": "Efficient option pricing in the rough Heston model using weak simulation schemes.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:RoughHestonModel",
+            "source": "Efficient option pricing in the rough Heston model using weak simulation schemes.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:RoughHestonModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:RoughHestonData",
+            "equation:definedBy": "Equation:RoughHestonFormula",
+            "source": "Efficient option pricing in the rough Heston model using weak simulation schemes.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:RoughHestonModel",
+            "source": "Efficient option pricing in the rough Heston model using weak simulation schemes.pdf (Page 9)"
+        }
+    ]
+}

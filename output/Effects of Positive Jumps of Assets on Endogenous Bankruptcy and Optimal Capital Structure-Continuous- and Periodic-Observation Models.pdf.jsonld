@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Equation:6",
+            "type": "Mathematical Equation",
+            "description": "A differential equation for the value of a financial instrument.",
+            "relationship:definedBy": "Equation:6",
+            "source": "Effects of Positive Jumps of Assets on Endogenous Bankruptcy and Optimal Capital Structure-Continuous- and Periodic-Observation Models.pdf (Page 24)"
+        },
+        {
+            "@id": "Table:Optimality",
+            "type": "Table",
+            "description": "A table showing the optimality of different strategies.",
+            "relationship:illustrates": "Equation:6",
+            "source": "Effects of Positive Jumps of Assets on Endogenous Bankruptcy and Optimal Capital Structure-Continuous- and Periodic-Observation Models.pdf (Page 24)"
+        },
+        {
+            "@id": "Figure:CreditSpreads",
+            "type": "Figure",
+            "description": "The credit spreads for various values of \u03b3 for L = 0.5, 0.75. The L\u00e9vy cases with \u03b3 = 0, 0.1, 0.2, 0.3, 0.4, 0.5, 1 are shown by dotted lines, and the Brownian motion case (\u03b3 = 0) is shown by the solid line.",
+            "relationship:depicts": "Equation:OptimalCapitalStructure",
+            "source": "Effects of Positive Jumps of Assets on Endogenous Bankruptcy and Optimal Capital Structure-Continuous- and Periodic-Observation Models.pdf (Page 30)"
+        }
+    ]
+}

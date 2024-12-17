@@ -1,0 +1,119 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:LocalVolatilityModel",
+            "type": "Financial Model",
+            "description": "A local volatility model enhanced by a single jump to default.",
+            "relationship:uses": "Entity:CreditDefaultSwapContracts",
+            "equation:definedBy": "Equation:JumpToDefaultHazardRate",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:RecoveringDefaultFreeOptionPrices",
+            "type": "Table",
+            "description": "A table illustrating the recovery of default-free option prices.",
+            "relationship:illustrates": "Entity:LocalVolatilityModel",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:JumpToDefaultModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility enhanced by a jump to default.",
+            "relationship:uses": "Entity:StockPriceData",
+            "equation:definedBy": "Equation:JumpToDefaultFormula",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:VolatilityEnhancement",
+            "type": "Table",
+            "description": "A table illustrating the enhancement of local volatility with a jump to default.",
+            "relationship:illustrates": "Entity:JumpToDefaultModel",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:LocalVolatilityWithDefault",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility with default risk.",
+            "relationship:uses": "Entity:StockPricePath",
+            "equation:definedBy": "Equation:LocalVolatilityWithDefault",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:RecoveringHazardAndVolatility",
+            "type": "Table",
+            "description": "A table illustrating the recovery of hazard and volatility functions from CDS and option markets.",
+            "relationship:illustrates": "Entity:LocalVolatilityWithDefault",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:CallPricePayoff",
+            "type": "Financial Model",
+            "description": "A model to calculate the call price payoff for a financial instrument.",
+            "relationship:uses": "Entity:DiscountFactor",
+            "equation:definedBy": "Equation:CallPricePayoff",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:DiscountFactors",
+            "type": "Table",
+            "description": "A table listing discount factors for different time periods.",
+            "relationship:illustrates": "Entity:CallPricePayoff",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:LocalVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility enhanced by a jump to default.",
+            "relationship:uses": "Entity:SurvivalFunction",
+            "equation:definedBy": "Equation:LocalVolatilityEnhancedByJumpToDefault",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:LocalVolatilityModel",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:WeibullParameters",
+            "type": "Financial Model",
+            "description": "A model to calculate Weibull parameters from CDS curves.",
+            "relationship:uses": "Entity:CDSData",
+            "equation:definedBy": "Equation:WeibullParameterCalculation",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:WeibullParametersFromCDSCurves",
+            "type": "Table",
+            "description": "A table showing Weibull parameters from CDS curves for GM and Ford.",
+            "relationship:illustrates": "Entity:WeibullParameters",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:JumpToDefaultModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility enhanced by a jump to default.",
+            "relationship:uses": "Entity:MarketData",
+            "equation:definedBy": "Equation:JumpToDefaultFormula",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:VolatilityEnhancement",
+            "type": "Table",
+            "description": "A table illustrating the enhancement of forward rate volatility due to a jump to default.",
+            "relationship:illustrates": "Entity:JumpToDefaultModel",
+            "source": "Local Volatility Enhanced by a Jump to Default.pdf (Page 14)"
+        }
+    ]
+}

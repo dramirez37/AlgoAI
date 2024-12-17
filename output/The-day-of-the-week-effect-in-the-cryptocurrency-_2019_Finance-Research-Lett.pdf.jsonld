@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:DayOfWeekEffect",
+            "type": "Financial Phenomenon",
+            "description": "The phenomenon where returns on different days of the week exhibit statistically significant differences.",
+            "relationship:observedIn": "Table:ReturnsByDayOfWeek",
+            "source": "The-day-of-the-week-effect-in-the-cryptocurrency-_2019_Finance-Research-Lett.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:ReturnsByDayOfWeek",
+            "type": "Table",
+            "description": "A table showing the average returns for each day of the week.",
+            "relationship:contains": "Entity:DayOfWeekEffect",
+            "source": "The-day-of-the-week-effect-in-the-cryptocurrency-_2019_Finance-Research-Lett.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:WeekendEffect",
+            "type": "Financial Phenomenon",
+            "description": "The phenomenon where stock prices exhibit different behavior on weekdays versus weekends.",
+            "relationship:observedIn": "Table:StockReturns",
+            "source": "The-day-of-the-week-effect-in-the-cryptocurrency-_2019_Finance-Research-Lett.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:StockReturns",
+            "type": "Table",
+            "description": "A table showing stock returns for different days of the week.",
+            "relationship:contains": "Entity:WeekendEffect",
+            "source": "The-day-of-the-week-effect-in-the-cryptocurrency-_2019_Finance-Research-Lett.pdf (Page 12)"
+        }
+    ]
+}

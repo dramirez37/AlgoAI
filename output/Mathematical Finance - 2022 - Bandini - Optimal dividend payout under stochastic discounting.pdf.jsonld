@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Figure:OptimalStoppingBoundaries",
+            "type": "Figure",
+            "description": "Plots of the optimal stopping boundary for large r.",
+            "relationship:contains": "Equation:OptimalStoppingBoundary",
+            "source": "Mathematical Finance - 2022 - Bandini - Optimal dividend payout under stochastic discounting.pdf (Page 46)"
+        },
+        {
+            "@id": "Equation:OptimalStoppingBoundary",
+            "type": "Equation",
+            "description": "The equation for the optimal stopping boundary.",
+            "relationship:definedBy": "Figure:OptimalStoppingBoundaries",
+            "source": "Mathematical Finance - 2022 - Bandini - Optimal dividend payout under stochastic discounting.pdf (Page 46)"
+        }
+    ]
+}

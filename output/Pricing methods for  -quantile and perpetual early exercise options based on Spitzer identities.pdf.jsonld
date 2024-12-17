@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Pricing methods for -quantile and perpetual early exercise options based on Spitzer identities.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Pricing methods for -quantile and perpetual early exercise options based on Spitzer identities.pdf (Page 19)"
+        },
+        {
+            "@id": "Entity:SpitzerSplitterMethod",
+            "type": "FinancialModel",
+            "description": "A method for pricing perpetual Bermudan options using Spitzer identities.",
+            "relationship:uses": "Entity:SpitzerIdentity",
+            "equation:definedBy": "Equation:A2",
+            "source": "Pricing methods for  -quantile and perpetual early exercise options based on Spitzer identities.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:OptionPricingComparison",
+            "type": "Table",
+            "description": "A comparison of option pricing methods.",
+            "relationship:illustrates": "Entity:SpitzerSplitterMethod",
+            "source": "Pricing methods for  -quantile and perpetual early exercise options based on Spitzer identities.pdf (Page 20)"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:PersistenceModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:VolatilityData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityFormula",
+            "source": "Persistence-in-the-cryptocurrency_2018_Research-in-International-Business-an.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:PersistenceModel",
+            "source": "Persistence-in-the-cryptocurrency_2018_Research-in-International-Business-an.pdf (Page 8)"
+        }
+    ]
+}

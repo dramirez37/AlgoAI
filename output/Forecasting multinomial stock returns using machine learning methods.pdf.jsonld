@@ -1,0 +1,130 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ForecastingMultinomialStockReturns",
+            "type": "Research Article",
+            "description": "A research article on forecasting multinomial stock returns using machine learning methods.",
+            "relationship:publishedIn": "Journal:JournalOfFinanceAndDataScience",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:StockReturnForecastingResults",
+            "type": "Table",
+            "description": "A table presenting the results of stock return forecasting using machine learning methods.",
+            "relationship:contains": "Entity:ForecastingMultinomialStockReturns",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:MultinomialStockReturns",
+            "type": "Financial Model",
+            "description": "A model to predict multinomial stock returns using machine learning methods.",
+            "relationship:uses": "Entity:MachineLearningMethods",
+            "equation:definedBy": "Equation:MultinomialReturnPrediction",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:StockReturnComparison",
+            "type": "Table",
+            "description": "A table comparing stock return predictions across different models.",
+            "relationship:illustrates": "Entity:MultinomialStockReturns",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 2)"
+        },
+        {
+            "@id": "Figure:kNearestNeighborClassification",
+            "type": "Machine Learning Method",
+            "description": "A method for classifying data points based on their proximity to other data points.",
+            "relationship:uses": "Equation:kNearestNeighborLossFunction",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 4)"
+        },
+        {
+            "@id": "Equation:kNearestNeighborLossFunction",
+            "type": "Mathematical Equation",
+            "description": "The loss function used in k-nearest neighbor classification.",
+            "relationship:definedBy": "Figure:kNearestNeighborClassification",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:GradientBoosting",
+            "type": "Machine Learning Algorithm",
+            "description": "An algorithm for building predictive models using a combination of weak learners.",
+            "relationship:uses": "Entity:SplittingVariables",
+            "equation:definedBy": "Equation:GradientBoosting",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:GradientBoostingParameters",
+            "type": "Table",
+            "description": "A table illustrating the parameters related to the gradient boosting method.",
+            "relationship:illustrates": "Entity:GradientBoosting",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:RandomForest",
+            "type": "Machine Learning Algorithm",
+            "description": "An ensemble learning method for classification, regression, and other tasks.",
+            "relationship:uses": "Entity:BootstrapSampling",
+            "equation:definedBy": "Equation:RandomForestEquation",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:RandomForestPerformance",
+            "type": "Table",
+            "description": "A table showing the performance metrics of the random forest algorithm.",
+            "relationship:illustrates": "Entity:RandomForest",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:ParameterOptimization",
+            "type": "Table",
+            "description": "A table summarizing the tuning parameters of the machine learning methods studied in this research.",
+            "relationship:summarizes": "Section:Tuning parameter optimization",
+            "source": "L. Nevasalmi / The Journal of Finance and Data Science 6 (2020) 86\u2013106"
+        },
+        {
+            "@id": "Table:FinalModelSpecifications",
+            "type": "Table",
+            "description": "A table showing the final model specifications for each method.",
+            "relationship:shows": "Section:Final model specifications",
+            "source": "L. Nevasalmi / The Journal of Finance and Data Science 6 (2020) 86\u2013106"
+        },
+        {
+            "@id": "Figure:DailyReturns",
+            "type": "Figure",
+            "description": "A figure showing the daily returns of the S&P 500 index.",
+            "relationship:depicts": "Entity:DailyReturnsDataset",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:EmpiricalResults",
+            "type": "Table",
+            "description": "A table presenting empirical results for statistical predictive performance.",
+            "relationship:contains": "Entity:EmpiricalResultsData",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 21)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Forecasting multinomial stock returns using machine learning methods.pdf (Page 21)"
+        }
+    ]
+}

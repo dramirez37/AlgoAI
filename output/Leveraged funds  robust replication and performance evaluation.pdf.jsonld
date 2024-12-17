@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:LeveragedFundsModel",
+            "type": "FinancialModel",
+            "description": "A model for calculating forward rate volatility.",
+            "relationship:uses": "Entity:LeveragedFundsData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Leveraged funds robust replication and performance evaluation.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A comparison of volatilities across different time periods.",
+            "relationship:illustrates": "Entity:LeveragedFundsModel",
+            "source": "Leveraged funds robust replication and performance evaluation.pdf (Page 4)"
+        },
+        {
+            "@id": "Figure:TrackingDifference",
+            "type": "Figure",
+            "description": "A figure showing the negative tracking difference for a +3 leveraged fund against the Black-Scholes and Heston models.",
+            "relationship:depicts": "Equation:NegativeTrackingDifference",
+            "source": "Leveraged funds  robust replication and performance evaluation.pdf (Page 16)"
+        },
+        {
+            "@id": "Equation:NegativeTrackingDifference",
+            "type": "Equation",
+            "description": "An equation defining the negative tracking difference for a +3 leveraged fund.",
+            "relationship:definedBy": "Equation:NegativeTrackingDifference",
+            "source": "Leveraged funds  robust replication and performance evaluation.pdf (Page 16)"
+        },
+        {
+            "@id": "Entity:ForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Leveraged funds  robust replication and performance evaluation.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "Leveraged funds  robust replication and performance evaluation.pdf (Page 17)"
+        },
+        {
+            "@id": "Entity:Proof",
+            "type": "Mathematical Proof",
+            "description": "A proof for the optimal trading strategy associated with a certain financial model.",
+            "relationship:uses": "Entity:Assumption",
+            "equation:definedBy": "Equation:A9",
+            "source": "Leveraged funds  robust replication and performance evaluation.pdf (Page 21)"
+        },
+        {
+            "@id": "Table:OptimalTradingStrategy",
+            "type": "Table",
+            "description": "A table illustrating the optimal trading strategy.",
+            "relationship:illustrates": "Entity:Proof",
+            "source": "Leveraged funds  robust replication and performance evaluation.pdf (Page 21)"
+        },
+        {
+            "@id": "Entity:Robustness",
+            "type": "Robustness Analysis",
+            "description": "An analysis of the stability of trading strategies under varying market conditions.",
+            "relationship:uses": "Entity:RiskNeutralAssumption",
+            "equation:definedBy": "Equation:A13",
+            "source": "Leveraged funds  robust replication and performance evaluation.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:RobustnessResults",
+            "type": "Table",
+            "description": "A table presenting the results of the robustness analysis.",
+            "relationship:illustrates": "Entity:Robustness",
+            "source": "Leveraged funds  robust replication and performance evaluation.pdf (Page 22)"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "GMM weighting matrices in cross-sectional asset pricing tests.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "GMM weighting matrices in cross-sectional asset pricing tests.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:ForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityFormula",
+            "source": "GMM weighting matrices in cross-sectional asset pricing tests.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "GMM weighting matrices in cross-sectional asset pricing tests.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:GMMWeightingMatrices",
+            "type": "Financial Model",
+            "description": "A model to calculate GMM weighting matrices for cross-sectional asset pricing tests.",
+            "relationship:uses": "Entity:CrossSectionalData",
+            "equation:definedBy": "Equation:GMMWeightingMatrixCalculation",
+            "source": "GMM weighting matrices in cross-sectional asset pricing tests.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:GMMComparison",
+            "type": "Table",
+            "description": "A table comparing GMM weighting matrices across different models.",
+            "relationship:illustrates": "Entity:GMMWeightingMatrices",
+            "source": "GMM weighting matrices in cross-sectional asset pricing tests.pdf (Page 13)"
+        }
+    ]
+}

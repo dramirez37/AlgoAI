@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:North_African_Financial_Markets",
+            "type": "Financial Market",
+            "description": "A financial market in North Africa.",
+            "relationship:includes": "Table:North_African_Financial_Markets",
+            "source": "Comparative Studies of North African Financial Markets.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:North_African_Financial_Markets",
+            "type": "Table",
+            "description": "A table summarizing the characteristics of North African financial markets.",
+            "relationship:summarizes": "Entity:North_African_Financial_Markets",
+            "source": "Comparative Studies of North African Financial Markets.pdf (Page 1)"
+        }
+    ]
+}

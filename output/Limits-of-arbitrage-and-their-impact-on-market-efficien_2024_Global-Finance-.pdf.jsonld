@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Figure:SpreadDistribution",
+            "type": "Figure",
+            "description": "A figure showing the distribution of bid-ask spreads over trading days.",
+            "relationship:depicts": "Table:SpreadDistributionTable",
+            "source": "Limits-of-arbitrage-and-their-impact-on-market-efficien_2024_Global-Finance-.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:SpreadDistributionTable",
+            "type": "Table",
+            "description": "A table showing the distribution of bid-ask spreads over trading days.",
+            "relationship:contains": "Figure:SpreadDistribution",
+            "source": "Limits-of-arbitrage-and-their-impact-on-market-efficien_2024_Global-Finance-.pdf (Page 11)"
+        }
+    ]
+}

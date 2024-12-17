@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:PC",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:Data",
+            "equation:definedBy": "Equation:PCFormula",
+            "source": "Unspanned Stochastic Volatility in the Linear-Rational Square-Root Model- Evidence from the Treasury Market.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:PC",
+            "source": "Unspanned Stochastic Volatility in the Linear-Rational Square-Root Model- Evidence from the Treasury Market.pdf (Page 17)"
+        },
+        {
+            "@id": "Equation:25",
+            "type": "Equation",
+            "description": "Regression equation for yield curve variance with and without model-implied variance.",
+            "relationship:definedBy": "Equation:25",
+            "source": "Unspanned Stochastic Volatility in the Linear-Rational Square-Root Model- Evidence from the Treasury Market.pdf (Page 29)"
+        },
+        {
+            "@id": "Table:6",
+            "type": "Table",
+            "description": "Summary of regressions with and without model-implied variance.",
+            "relationship:illustrates": "Equation:25",
+            "source": "Unspanned Stochastic Volatility in the Linear-Rational Square-Root Model- Evidence from the Treasury Market.pdf (Page 29)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Unspanned Stochastic Volatility in the Linear-Rational Square-Root Model- Evidence from the Treasury Market.pdf (Page 47)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Unspanned Stochastic Volatility in the Linear-Rational Square-Root Model- Evidence from the Treasury Market.pdf (Page 47)"
+        }
+    ]
+}

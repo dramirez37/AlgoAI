@@ -1,0 +1,103 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:EarningsMeanReversion",
+            "type": "Financial Model",
+            "description": "A model to analyze earnings mean reversion and its impact on capital structure.",
+            "relationship:uses": "Entity:OptimalCapitalStructure",
+            "equation:definedBy": "Equation:EarningsMeanReversionEquation",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:OptimalCapitalStructure",
+            "type": "Table",
+            "description": "A table illustrating the optimal capital structure under different scenarios.",
+            "relationship:illustrates": "Entity:EarningsMeanReversion",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:GMR",
+            "type": "Financial Model",
+            "description": "A model used to predict leverage ratios.",
+            "relationship:uses": "Entity:USFirmsDataset",
+            "equation:definedBy": "Equation:GMRFormula",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:MeanReversionComparison",
+            "type": "Table",
+            "description": "A table comparing mean reversion speeds across different firms.",
+            "relationship:illustrates": "Entity:GMR",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:MeanReversionModel",
+            "type": "Financial Model",
+            "description": "A model to analyze mean reversion in earnings and its impact on capital structure.",
+            "relationship:uses": "Entity:DataOnEarnings",
+            "equation:definedBy": "Equation:MeanReversionEquation",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:MeanReversionComparison",
+            "type": "Table",
+            "description": "A comparison of mean reversion speeds across different firms.",
+            "relationship:illustrates": "Entity:MeanReversionModel",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:MeanReversionModel",
+            "type": "Financial Model",
+            "description": "A model to analyze mean reversion in earnings and leverage.",
+            "relationship:uses": "Entity:DataOnFirms",
+            "equation:definedBy": "Equation:MeanReversionEquation",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:MeanReversionComparison",
+            "type": "Table",
+            "description": "A table comparing mean reversion speeds across different firms.",
+            "relationship:illustrates": "Entity:MeanReversionModel",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 19)"
+        },
+        {
+            "@id": "Entity:MeanReversionModel",
+            "type": "Financial Model",
+            "description": "A model to calculate mean reversion in earnings and its impact on capital structure.",
+            "relationship:uses": "Entity:DataOnEarnings",
+            "equation:definedBy": "Equation:MeanReversionEquation",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:MeanReversionImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of mean reversion on capital structure decisions.",
+            "relationship:illustrates": "Entity:MeanReversionModel",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 20)"
+        },
+        {
+            "@id": "Equation:A49",
+            "type": "Mathematical Equation",
+            "description": "Equation for calculating the value of equity before investment.",
+            "relationship:definedBy": "Equation:A50",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 24)"
+        },
+        {
+            "@id": "Equation:A50",
+            "type": "Mathematical Equation",
+            "description": "Equation for calculating the total firm value after investment.",
+            "relationship:definedBy": "Equation:A49",
+            "source": "Earnings mean reversion and dynamic optimal capital structure.pdf (Page 24)"
+        }
+    ]
+}

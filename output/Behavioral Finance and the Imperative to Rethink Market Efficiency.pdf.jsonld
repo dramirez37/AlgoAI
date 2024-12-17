@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:BehavioralFinanceModel",
+            "type": "Financial Model",
+            "description": "A model to analyze behavioral finance effects on market efficiency.",
+            "relationship:uses": "Entity:BehavioralFinanceDataset",
+            "equation:definedBy": "Equation:BehavioralFinanceFormula",
+            "source": "Behavioral Finance and the Imperative to Rethink Market Efficiency.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:MarketEfficiencyComparison",
+            "type": "Table",
+            "description": "A table comparing market efficiencies before and after incorporating behavioral finance effects.",
+            "relationship:illustrates": "Entity:BehavioralFinanceModel",
+            "source": "Behavioral Finance and the Imperative to Rethink Market Efficiency.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Behavioral Finance and the Imperative to Rethink Market Efficiency.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Behavioral Finance and the Imperative to Rethink Market Efficiency.pdf (Page 15)"
+        }
+    ]
+}

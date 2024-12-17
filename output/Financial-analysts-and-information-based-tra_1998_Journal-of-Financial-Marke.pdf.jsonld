@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:StockAnalysts",
+            "type": "Financial Entity",
+            "description": "The number of analysts forecasting a stock over time.",
+            "relationship:uses": "Table:StockAnalystsOverTime",
+            "source": "Financial-analysts-and-information-based-tra_1998_Journal-of-Financial-Marke.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:StockAnalystsOverTime",
+            "type": "Table",
+            "description": "A table showing the number of analysts forecasting a stock over time.",
+            "relationship:illustrates": "Entity:StockAnalysts",
+            "source": "Financial-analysts-and-information-based-tra_1998_Journal-of-Financial-Marke.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:SampleSelection",
+            "type": "Methodology",
+            "description": "The process of selecting pairs of firms for analysis.",
+            "relationship:uses": "Table:SamplePairs",
+            "source": "Financial-analysts-and-information-based-tra_1998_Journal-of-Financial-Marke.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:SamplePairs",
+            "type": "Table",
+            "description": "A table listing the pairs of firms selected for analysis.",
+            "relationship:illustrates": "Entity:SampleSelection",
+            "source": "Financial-analysts-and-information-based-tra_1998_Journal-of-Financial-Marke.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:ParameterEstimates",
+            "type": "Economic Parameter Estimation",
+            "description": "The process of estimating parameters for economic models.",
+            "relationship:uses": "Table:ParameterEstimates",
+            "source": "Financial-analysts-and-information-based-tra_1998_Journal-of-Financial-Marke.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:ParameterEstimates",
+            "type": "Table",
+            "description": "A table presenting parameter estimates for economic models.",
+            "relationship:illustrates": "Entity:ParameterEstimates",
+            "source": "Financial-analysts-and-information-based-tra_1998_Journal-of-Financial-Marke.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:FinancialAnalysts",
+            "type": "Financial Analyst",
+            "description": "Individuals who analyze financial information to make investment decisions.",
+            "relationship:affected": "Table:StockPrices",
+            "source": "Financial-analysts-and-information-based-tra_1998_Journal-of-Financial-Marke.pdf (Page 26)"
+        },
+        {
+            "@id": "Table:StockPrices",
+            "type": "Table",
+            "description": "A table showing stock prices over time.",
+            "relationship:affected": "Entity:FinancialAnalysts",
+            "source": "Financial-analysts-and-information-based-tra_1998_Journal-of-Financial-Marke.pdf (Page 26)"
+        }
+    ]
+}

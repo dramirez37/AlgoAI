@@ -1,0 +1,119 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:SpreadOptionPricingModel",
+            "type": "Financial Model",
+            "description": "A model to calculate spread option prices using Fourier transform.",
+            "relationship:uses": "Entity:SpreadOptionData",
+            "equation:definedBy": "Equation:FourierTransformSpreadOptionPrice",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:SpreadOptionPrices",
+            "type": "Table",
+            "description": "A table listing calculated spread option prices.",
+            "relationship:illustrates": "Entity:SpreadOptionPricingModel",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:FourierTransformMethod",
+            "type": "Numerical Integration Method",
+            "description": "A method for pricing spread options using the Fast Fourier Transform.",
+            "relationship:uses": "Entity:SpreadOptionPricingModel",
+            "equation:definedBy": "Equation:FourierTransformIntegral",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:FFTComparison",
+            "type": "Table",
+            "description": "A comparison of different FFT methods for spread option pricing.",
+            "relationship:illustrates": "Entity:FourierTransformMethod",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:SpreadOptionFourierTransform",
+            "type": "Mathematical Formula",
+            "description": "A formula for calculating the characteristic function of a spread option.",
+            "relationship:uses": "Entity:SpreadOption",
+            "equation:definedBy": "Equation:1.2",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:SpreadOptionCharacteristics",
+            "type": "Table",
+            "description": "A table illustrating the characteristics of spread options.",
+            "relationship:illustrates": "Entity:SpreadOptionFourierTransform",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:ThreeFactorSVModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility in a three-factor stochastic volatility framework.",
+            "relationship:uses": "Entity:ThreeFactorSVData",
+            "equation:definedBy": "Equation:ThreeFactorSVFormula",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:ThreeFactorSVVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across different factors in a three-factor stochastic volatility framework.",
+            "relationship:illustrates": "Entity:ThreeFactorSVModel",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:ExponentialL\u00e9vyModels",
+            "type": "Financial Model",
+            "description": "A model for stock price dynamics with exponential L\u00e9vy processes.",
+            "relationship:uses": "Entity:ExponentialL\u00e9vyProcesses",
+            "equation:definedBy": "Equation:ExponentialL\u00e9vyModelDefinition",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:StockPriceDynamics",
+            "type": "Table",
+            "description": "A table illustrating the dynamics of stock prices under exponential L\u00e9vy models.",
+            "relationship:illustrates": "Entity:ExponentialL\u00e9vyModels",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:FourierTransformMethod",
+            "type": "Numerical Integration Method",
+            "description": "A method for approximating the double integral by a double sum over the lattice.",
+            "relationship:uses": "Entity:LatticeSum",
+            "equation:definedBy": "Equation:FourierTransformApproximation",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:LatticeSum",
+            "type": "Table",
+            "description": "A table illustrating the lattice sum used in the Fourier transform method.",
+            "relationship:illustrates": "Entity:FourierTransformMethod",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:FourierTransformMethod",
+            "type": "Financial Model",
+            "description": "A method for pricing spread options using the fast Fourier transform.",
+            "relationship:uses": "Entity:SpreadOptionData",
+            "equation:definedBy": "Equation:FastFourierTransform",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:SpreadOptionVolatility",
+            "type": "Table",
+            "description": "A table showing the volatility of spread options over different time periods.",
+            "relationship:illustrates": "Entity:FourierTransformMethod",
+            "source": "A Fourier Transform Method for Spread Option Pricing.pdf (Page 16)"
+        }
+    ]
+}

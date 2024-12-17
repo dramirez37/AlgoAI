@@ -1,0 +1,102 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:TradingModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:MarketData",
+            "equation:definedBy": "Equation:VolatilityCalculation",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:TradingModel",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:MarketFeatures",
+            "type": "Financial Feature",
+            "description": "Features derived from market data including returns, implied volatility, realized volatility, and implied volatility rank.",
+            "relationship:includes": "Table:MarketFeaturesTable",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:MarketFeaturesTable",
+            "type": "Table",
+            "description": "A table summarizing the obtained features for three different information sources.",
+            "relationship:summarizes": "Entity:MarketFeatures",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:FeatureCountSummary",
+            "type": "Table",
+            "description": "A table summarizing the number of original and total features after adding time-encoding features.",
+            "relationship:summarizes": "Entity:FeatureCountSummaryObjective",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 8)"
+        },
+        {
+            "@id": "Equation:FeatureCountSummaryObjective",
+            "type": "Equation",
+            "description": "An equation defining the objective of feature count summary.",
+            "relationship:defines": "Table:FeatureCountSummary",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:RandomForestModel",
+            "type": "Machine Learning Model",
+            "description": "A model used for trading strategy development.",
+            "relationship:uses": "Entity:FeatureSet",
+            "equation:definedBy": "Equation:ROC_AUC",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 10)"
+        },
+        {
+            "@id": "Table:TradingStrategies",
+            "type": "Table",
+            "description": "A table summarizing different trading strategies.",
+            "relationship:illustrates": "Entity:RandomForestModel",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 10)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Trading the FX volatility risk premium with machine learning and alternative data.pdf (Page 18)"
+        }
+    ]
+}

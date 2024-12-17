@@ -1,0 +1,193 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:FXOpenForward",
+            "type": "FinancialInstrument",
+            "description": "A derivative instrument where the contract holder has the obligation to purchase a specific amount of foreign currency under a fixed exchange rate by the contract expiry date.",
+            "relationship:uses": "Entity:InvestecBank",
+            "source": "FX Open Forward.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:OptimalWaitingRegion",
+            "type": "Table",
+            "description": "A table illustrating the optimal waiting region for FX Open Forward when domestic rate and foreign rate are both positive.",
+            "relationship:illustrates": "Entity:FXOpenForward",
+            "source": "FX Open Forward.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:OptimalExerciseStrategy",
+            "type": "Financial Model",
+            "description": "A model to determine the optimal exercise strategy for FX Open Forward contracts.",
+            "relationship:uses": "Entity:AmericanOption",
+            "equation:definedBy": "Equation:OptimalExerciseStrategy",
+            "source": "FX Open Forward.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:OptimalExerciseComparison",
+            "type": "Table",
+            "description": "A table comparing optimal exercise strategies across different interest rate scenarios.",
+            "relationship:illustrates": "Entity:OptimalExerciseStrategy",
+            "source": "FX Open Forward.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:PartialExerciseStrategy",
+            "type": "Financial Strategy",
+            "description": "A strategy for exercising an American derivative partially.",
+            "relationship:uses": "Entity:AmericanDerivative",
+            "equation:definedBy": "Equation:PartialExerciseStrategyDefinition",
+            "source": "FX Open Forward.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:TimeZeroFairValue",
+            "type": "Table",
+            "description": "A table showing the time-zero fair value of an American derivative.",
+            "relationship:illustrates": "Entity:PartialExerciseStrategy",
+            "source": "FX Open Forward.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:FXOpenForwardModel",
+            "type": "FinancialModel",
+            "description": "A model for calculating forward rate volatility under FX Open Forward conditions.",
+            "relationship:uses": "Entity:FXOpenForwardData",
+            "equation:definedBy": "Equation:FXOpenForwardVolatilityCalculation",
+            "source": "FX Open Forward.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:FXOpenForwardVolatilityComparison",
+            "type": "Table",
+            "description": "A comparison of forward rate volatilities under different FX Open Forward scenarios.",
+            "relationship:illustrates": "Entity:FXOpenForwardModel",
+            "source": "FX Open Forward.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:EarlyExerciseStrategy",
+            "type": "Financial Strategy",
+            "description": "A strategy for early exercise in FX Open Forward contracts.",
+            "relationship:uses": "Entity:EarlyExerciseCondition",
+            "equation:definedBy": "Equation:EarlyExerciseCondition",
+            "source": "FX Open Forward.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:EarlyExerciseDecision",
+            "type": "Table",
+            "description": "A table illustrating the decision-making process for early exercise.",
+            "relationship:illustrates": "Entity:EarlyExerciseStrategy",
+            "source": "FX Open Forward.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:ForwardRateModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rates.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateCalculation",
+            "source": "FX Open Forward.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:ForwardRateComparison",
+            "type": "Table",
+            "description": "A table comparing forward rates across different time periods.",
+            "relationship:illustrates": "Entity:ForwardRateModel",
+            "source": "FX Open Forward.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:OptimalExerciseStrategy",
+            "type": "FinancialModel",
+            "description": "An optimal exercise strategy for early exercise of an American option.",
+            "relationship:uses": "Entity:MarkovianProcess",
+            "equation:definedBy": "Equation:OptimalStoppingTime",
+            "source": "FX Open Forward.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:EarlyExerciseBoundary",
+            "type": "Table",
+            "description": "A table illustrating the boundary conditions for early exercise.",
+            "relationship:illustrates": "Entity:OptimalExerciseStrategy",
+            "source": "FX Open Forward.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:Black-ScholesModel",
+            "type": "Financial Model",
+            "description": "A model to theoretically analyse the pricing and the optimal exercise strategy.",
+            "relationship:uses": "Entity:AmericanOption",
+            "equation:definedBy": "Equation:BlackScholesEquation",
+            "source": "FX Open Forward.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:OptimalExerciseStrategy",
+            "type": "Table",
+            "description": "A table illustrating the optimal exercise strategy for American options.",
+            "relationship:illustrates": "Entity:Black-ScholesModel",
+            "source": "FX Open Forward.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:OptimalStoppingProblem",
+            "type": "Optimal Stopping Problem",
+            "description": "A mathematical problem where one seeks to determine the optimal stopping time for a given process.",
+            "relationship:uses": "Entity:ContinuousMartingalesAndBrownianMotion",
+            "equation:definedBy": "Equation:OptimalStoppingProblem",
+            "source": "FX Open Forward.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:ContinuousMartingalesAndBrownianMotion",
+            "type": "Table",
+            "description": "A table illustrating continuous martingales and Brownian motion.",
+            "relationship:illustrates": "Entity:OptimalStoppingProblem",
+            "source": "FX Open Forward.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:EarlyExerciseStrategy",
+            "type": "Financial Strategy",
+            "description": "An early exercise strategy for a European option.",
+            "relationship:uses": "Entity:BrownianMotion",
+            "equation:definedBy": "Equation:EarlyExerciseCondition",
+            "source": "FX Open Forward.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:EarlyExerciseComparison",
+            "type": "Table",
+            "description": "A comparison of early exercise strategies for different options.",
+            "relationship:illustrates": "Entity:EarlyExerciseStrategy",
+            "source": "FX Open Forward.pdf (Page 16)"
+        },
+        {
+            "@id": "Entity:ForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "FX Open Forward.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:ForwardRateVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing forward rate volatilities across different time periods.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "FX Open Forward.pdf (Page 17)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "FX Open Forward.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "FX Open Forward.pdf (Page 18)"
+        }
+    ]
+}

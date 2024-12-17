@@ -1,0 +1,102 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:LossAversion",
+            "type": "Financial Model",
+            "description": "A model to measure loss aversion among individual investors.",
+            "relationship:uses": "Entity:SurveyData",
+            "equation:definedBy": "Equation:RiskReturnTradeoff",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:LossAversionComparison",
+            "type": "Table",
+            "description": "A table comparing loss aversion levels across different groups.",
+            "relationship:illustrates": "Entity:LossAversion",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:LossAversion",
+            "type": "Financial Model",
+            "description": "A model to measure utility and quantify loss aversion.",
+            "relationship:uses": "Entity:RiskProfile",
+            "equation:definedBy": "Equation:LossAversionFormula",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:LossAversionComparison",
+            "type": "Table",
+            "description": "A table comparing loss aversion across different scenarios.",
+            "relationship:illustrates": "Entity:LossAversion",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 3)"
+        },
+        {
+            "@id": "Figure:Procedure",
+            "type": "Diagram",
+            "description": "The three-step procedure to measure loss aversion.",
+            "relationship:depicts": "Table:OverviewOfTheBelgianPrototypeAndIrishProductionVersion",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:OverviewOfTheBelgianPrototypeAndIrishProductionVersion",
+            "type": "Table",
+            "description": "An overview of the Belgian prototype and Irish production version.",
+            "relationship:summarizes": "Figure:Procedure",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:LossAversion",
+            "type": "Financial Model",
+            "description": "A model to measure loss aversion of individual investors.",
+            "relationship:uses": "Entity:Data",
+            "equation:definedBy": "Equation:LossAversionFormula",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:LossAversionComparison",
+            "type": "Table",
+            "description": "A table comparing loss aversion across different scenarios.",
+            "relationship:illustrates": "Entity:LossAversion",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:LossAversion",
+            "type": "Behavioral Finance",
+            "description": "The study of how individuals make decisions under uncertainty.",
+            "relationship:uses": "Table:LossAversionData",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:LossAversionData",
+            "type": "Table",
+            "description": "Data on the loss aversion of individual investors.",
+            "relationship:illustrates": "Entity:LossAversion",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:LossAversionModel",
+            "type": "Financial Model",
+            "description": "A model to measure loss aversion of individual investors.",
+            "relationship:uses": "Entity:InvestorData",
+            "equation:definedBy": "Equation:LossAversionFormula",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:LossAversionComparison",
+            "type": "Table",
+            "description": "A table comparing loss aversion across different investor groups.",
+            "relationship:illustrates": "Entity:LossAversionModel",
+            "source": "Behavioral risk profiling- Measuring loss aversion of individual investors.pdf (Page 18)"
+        }
+    ]
+}

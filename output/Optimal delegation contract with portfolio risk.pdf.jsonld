@@ -1,0 +1,89 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:OptimalDelegationContract",
+            "type": "Financial Model",
+            "description": "A model to optimize the allocation of resources in a portfolio under risk.",
+            "relationship:uses": "Entity:PrincipalAgentFriction",
+            "equation:definedBy": "Equation:OptimalPortfolioAllocation",
+            "source": "Optimal delegation contract with portfolio risk.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:OptimalPortfolioReturns",
+            "type": "Table",
+            "description": "A table illustrating the optimal returns for different portfolio allocations.",
+            "relationship:illustrates": "Entity:OptimalDelegationContract",
+            "source": "Optimal delegation contract with portfolio risk.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:MarketEquilibriumAndAssetPrice",
+            "type": "Financial Model",
+            "description": "A model to calculate market equilibrium and asset prices.",
+            "relationship:uses": "Entity:InformationFlow",
+            "equation:definedBy": "Equation:MarketEquilibriumAndAssetPrice",
+            "source": "Optimal delegation contract with portfolio risk.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:MarketEquilibriumAndAssetPrices",
+            "type": "Table",
+            "description": "A table illustrating market equilibrium and asset prices.",
+            "relationship:illustrates": "Entity:MarketEquilibriumAndAssetPrice",
+            "source": "Optimal delegation contract with portfolio risk.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:OptimalDelegationContract",
+            "type": "Financial Model",
+            "description": "A model to calculate optimal delegation contracts considering portfolio risk.",
+            "relationship:uses": "Entity:OptimalDelegationDataset",
+            "equation:definedBy": "Equation:OptimalDelegationFormula",
+            "source": "Optimal delegation contract with portfolio risk.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:OptimalDelegationComparison",
+            "type": "Table",
+            "description": "A table comparing optimal delegation contracts across different scenarios.",
+            "relationship:illustrates": "Entity:OptimalDelegationContract",
+            "source": "Optimal delegation contract with portfolio risk.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:OptimalDelegationContract",
+            "type": "FinancialModel",
+            "description": "A model to calculate optimal delegation contracts considering portfolio risk.",
+            "relationship:uses": "Entity:OptimalDelegationDataset",
+            "equation:definedBy": "Equation:OptimalDelegationFormula",
+            "source": "Optimal delegation contract with portfolio risk.pdf (Page 10)"
+        },
+        {
+            "@id": "Table:OptimalDelegationComparison",
+            "type": "Table",
+            "description": "A table comparing optimal delegation contracts across different scenarios.",
+            "relationship:illustrates": "Entity:OptimalDelegationContract",
+            "source": "Optimal delegation contract with portfolio risk.pdf (Page 10)"
+        },
+        {
+            "@id": "Entity:OptimalDelegationContract",
+            "type": "Financial Model",
+            "description": "An optimal contract for delegating portfolio management.",
+            "relationship:uses": "Entity:PortfolioRisk",
+            "equation:definedBy": "Equation:OptimalDelegationFormula",
+            "source": "Optimal delegation contract with portfolio risk.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:OptimalDelegationComparison",
+            "type": "Table",
+            "description": "A comparison of optimal delegation contracts.",
+            "relationship:illustrates": "Entity:OptimalDelegationContract",
+            "source": "Optimal delegation contract with portfolio risk.pdf (Page 13)"
+        }
+    ]
+}

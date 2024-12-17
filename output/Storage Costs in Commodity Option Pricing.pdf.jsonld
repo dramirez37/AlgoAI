@@ -1,0 +1,132 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:CommodityOptionPricingModel",
+            "type": "Financial Model",
+            "description": "A model to calculate storage costs in commodity option pricing.",
+            "relationship:uses": "Entity:CommodityData",
+            "equation:definedBy": "Equation:NoArbitragePricing",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:StorageCostsComparison",
+            "type": "Table",
+            "description": "A table comparing storage costs across different commodities.",
+            "relationship:illustrates": "Entity:CommodityOptionPricingModel",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:SimpleRatioVolatility",
+            "type": "Financial Model",
+            "description": "A model for calculating simple ratio volatility.",
+            "relationship:uses": "Entity:SimpleRatioVolatilityDataset",
+            "equation:definedBy": "Equation:SimpleRatioVolatilityFormula",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:SimpleRatioVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing simple ratio volatilities across different commodities.",
+            "relationship:illustrates": "Entity:SimpleRatioVolatility",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:DynamicsOfEi",
+            "type": "Financial Model",
+            "description": "The dynamics of the futures price process E_i(t) for i = 1, ..., n+1.",
+            "relationship:uses": "Entity:FuturesCurve",
+            "equation:definedBy": "Equation:Ei(t)",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:InitialConditions",
+            "type": "Table",
+            "description": "Initial conditions for the futures price process E_i(t).",
+            "relationship:illustrates": "Entity:DynamicsOfEi",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:ForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:HistoricalFuturesPricesDataset",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:HistoricalFuturesPricesComparison",
+            "type": "Table",
+            "description": "A table comparing historical futures prices across different maturity dates.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 17)"
+        },
+        {
+            "@id": "Entity:OptionPricingModel",
+            "type": "Financial Model",
+            "description": "A model for pricing and hedging European options on storable underlyings using Monte Carlo simulation.",
+            "relationship:uses": "Entity:MonteCarloSimulation",
+            "equation:definedBy": "Equation:8.1",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:VolatilityDistribution",
+            "type": "Table",
+            "description": "A table illustrating the distribution of option volatilities.",
+            "relationship:illustrates": "Entity:OptionPricingModel",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 19)"
+        },
+        {
+            "@id": "Figure:SimulationOfFuturesPrices",
+            "type": "Figure",
+            "description": "A simulation of futures prices with vertical lines separating two month periods.",
+            "relationship:depicts": "Equation:SimulationOfFuturesPrices",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 21)"
+        },
+        {
+            "@id": "Equation:SimulationOfFuturesPrices",
+            "type": "Equation",
+            "description": "An equation for simulating futures prices.",
+            "relationship:definedBy": "Figure:SimulationOfFuturesPrices",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 21)"
+        },
+        {
+            "@id": "Figure:DensitySimilarity",
+            "type": "Figure",
+            "description": "The density of E_t(r) - E_t(r') exhibits a similarity to the lognormal density.",
+            "relationship:depicts": "Equation:8.6",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 22)"
+        },
+        {
+            "@id": "Figure:NormalDistributionComparison",
+            "type": "Figure",
+            "description": "The density of (8.6) in comparison to the normal distribution (red).",
+            "relationship:depicts": "Equation:8.6",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 22)"
+        },
+        {
+            "@id": "Entity:CommodityOptionModel",
+            "type": "Financial Model",
+            "description": "A model to calculate storage costs in commodity option pricing.",
+            "relationship:uses": "Entity:CommodityData",
+            "equation:definedBy": "Equation:StorageCostFormula",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 23)"
+        },
+        {
+            "@id": "Table:StorageCostsComparison",
+            "type": "Table",
+            "description": "A table comparing storage costs across different commodities.",
+            "relationship:illustrates": "Entity:CommodityOptionModel",
+            "source": "Storage Costs in Commodity Option Pricing.pdf (Page 23)"
+        }
+    ]
+}

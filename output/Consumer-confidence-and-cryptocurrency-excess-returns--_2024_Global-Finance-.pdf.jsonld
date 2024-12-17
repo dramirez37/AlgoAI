@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ConsumerConfidenceIndex",
+            "source": "Consumer-confidence-and-cryptocurrency-excess-returns--_2024_Global-Finance-.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:ModelValidation",
+            "type": "Financial Model",
+            "description": "A model to validate the accuracy of consumer confidence and cryptocurrency excess returns.",
+            "relationship:uses": "Entity:Data",
+            "equation:definedBy": "Equation:ValidationEquation",
+            "source": "Consumer-confidence-and-cryptocurrency-excess-returns--_2024_Global-Finance-.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:ModelValidationResults",
+            "type": "Table",
+            "description": "A table presenting the results of the model validation.",
+            "relationship:illustrates": "Entity:ModelValidation",
+            "source": "Consumer-confidence-and-cryptocurrency-excess-returns--_2024_Global-Finance-.pdf (Page 17)"
+        },
+        {
+            "@id": "Entity:BitcoinVolatility",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BitcoinData",
+            "equation:definedBy": "Equation:BitcoinVolatilityFormula",
+            "source": "Consumer-confidence-and-cryptocurrency-excess-returns--_2024_Global-Finance-.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:BitcoinVolatility",
+            "source": "Consumer-confidence-and-cryptocurrency-excess-returns--_2024_Global-Finance-.pdf (Page 22)"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ETHMarketProspects",
+            "type": "Financial Model",
+            "description": "A model to analyze the market prospects of Ethereum.",
+            "relationship:uses": "Entity:ETHMarketData",
+            "equation:definedBy": "Equation:ETHMarketProspectsFormula",
+            "source": "The Price and Market Prospects for the Ethereum Cryptocurrency Development.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:ETHMarketProspectsComparison",
+            "type": "Table",
+            "description": "A table comparing Ethereum's market prospects with other cryptocurrencies.",
+            "relationship:illustrates": "Entity:ETHMarketProspects",
+            "source": "The Price and Market Prospects for the Ethereum Cryptocurrency Development.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:EthereumPrice",
+            "type": "Financial Indicator",
+            "description": "The price of Ethereum cryptocurrency.",
+            "relationship:affectedBy": "Relationship:MarketConditions",
+            "relationship:influencedBy": "Relationship:Inflation",
+            "source": "The Price and Market Prospects for the Ethereum Cryptocurrency Development.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:ETHPriceHistory",
+            "type": "Table",
+            "description": "A table showing historical prices of Ethereum.",
+            "relationship:contains": "Entity:EthereumPrice",
+            "source": "The Price and Market Prospects for the Ethereum Cryptocurrency Development.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:EthereumMarketProspects",
+            "type": "Financial Model",
+            "description": "A model to analyze the price and market prospects for Ethereum.",
+            "relationship:uses": "Entity:EthereumPriceData",
+            "equation:definedBy": "Equation:MarketProspectsFormula",
+            "source": "The Price and Market Prospects for the Ethereum Cryptocurrency Development.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:MarketProspectsComparison",
+            "type": "Table",
+            "description": "A table comparing market prospects across different scenarios.",
+            "relationship:illustrates": "Entity:EthereumMarketProspects",
+            "source": "The Price and Market Prospects for the Ethereum Cryptocurrency Development.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:AR&P",
+            "type": "Statistical Model",
+            "description": "A model to evaluate the relationship between independent and dependent variables.",
+            "relationship:uses": "Table:StatisticalSignificanceOfCoefficients",
+            "source": "The Price and Market Prospects for the Ethereum Cryptocurrency Development.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:StatisticalSignificanceOfCoefficients",
+            "type": "Table",
+            "description": "A table evaluating the statistical significance of coefficients in a regression model.",
+            "relationship:illustrates": "Entity:AR&P",
+            "source": "The Price and Market Prospects for the Ethereum Cryptocurrency Development.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:EthereumPriceTrends",
+            "type": "Financial Trend",
+            "description": "The analysis of Ethereum price trends and market sentiment.",
+            "relationship:includes": "Table:EthereumPriceData",
+            "source": "The Price and Market Prospects for the Ethereum Cryptocurrency Development.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:EthereumPriceData",
+            "type": "Table",
+            "description": "A table of Ethereum price data over time.",
+            "relationship:contains": "Entity:EthereumPriceTrends",
+            "source": "The Price and Market Prospects for the Ethereum Cryptocurrency Development.pdf (Page 16)"
+        }
+    ]
+}

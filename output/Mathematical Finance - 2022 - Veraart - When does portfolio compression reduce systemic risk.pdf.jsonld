@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:OptimizationProblem",
+            "type": "Optimization Problem",
+            "description": "An optimization problem related to portfolio compression.",
+            "relationship:hasObjective": "Relationship:MinimizeRisk",
+            "relationship:subjectTo": "Relationship:Constraints",
+            "source": "Mathematical Finance - 2022 - Veraart - When does portfolio compression reduce systemic risk.pdf (Page 28)"
+        },
+        {
+            "@id": "Table:PortfolioCompression",
+            "type": "Table",
+            "description": "A table illustrating the impact of portfolio compression on systemic risk.",
+            "relationship:contains": "Relationship:DataPoints",
+            "source": "Mathematical Finance - 2022 - Veraart - When does portfolio compression reduce systemic risk.pdf (Page 28)"
+        },
+        {
+            "@id": "Entity:PortfolioCompression",
+            "type": "Financial Model",
+            "description": "A model to analyze the impact of portfolio compression on systemic risk.",
+            "relationship:uses": "Entity:BaselineIII",
+            "equation:definedBy": "Equation:BaselineIIIFormula",
+            "source": "Mathematical Finance - 2022 - Veraart - When does portfolio compression reduce systemic risk.pdf (Page 31)"
+        },
+        {
+            "@id": "Table:BaselineIIIComparison",
+            "type": "Table",
+            "description": "A table comparing baseline III leverage ratios.",
+            "relationship:illustrates": "Entity:PortfolioCompression",
+            "source": "Mathematical Finance - 2022 - Veraart - When does portfolio compression reduce systemic risk.pdf (Page 31)"
+        },
+        {
+            "@id": "Equation:B3",
+            "type": "Equation",
+            "description": "Proofs of the results in Section 4",
+            "source": "Mathematical Finance - 2022 - Veraart - When does portfolio compression reduce systemic risk.pdf (Page 33)",
+            "equation:definedBy": "Equation:B3"
+        },
+        {
+            "@id": "Equation:B3",
+            "type": "Equation",
+            "description": "Proof of Lemma B.2",
+            "source": "Mathematical Finance - 2022 - Veraart - When does portfolio compression reduce systemic risk.pdf (Page 33)",
+            "equation:definedBy": "Equation:B3"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:DrawdownStrategy",
+            "type": "Investment Strategy",
+            "description": "A strategy that focuses on minimizing losses during market downturns.",
+            "relationship:uses": "Entity:NigerianStockMarket",
+            "source": "Effect of Drawdown Strategy on Risk and Return in Nigerian Stock Market.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:RiskReturnAnalysis",
+            "type": "Table",
+            "description": "A table analyzing the risk and return of different drawdown strategies.",
+            "relationship:illustrates": "Entity:DrawdownStrategy",
+            "source": "Effect of Drawdown Strategy on Risk and Return in Nigerian Stock Market.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:DrawdownRiskModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:DrawdownRiskData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Effect of Drawdown Strategy on Risk and Return in Nigerian Stock Market.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DrawdownRiskModel",
+            "source": "Effect of Drawdown Strategy on Risk and Return in Nigerian Stock Market.pdf (Page 3)"
+        }
+    ]
+}

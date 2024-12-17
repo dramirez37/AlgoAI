@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:RegulatoryCosts",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:RegulatoryCostsDataset",
+            "equation:definedBy": "Equation:RegulatoryCostsFormula",
+            "source": "How do regulatory costs affect mergers and acquisitions decisions and outcomes? Author links open overlay panel.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:RegulatoryCosts",
+            "source": "How do regulatory costs affect mergers and acquisitions decisions and outcomes? Author links open overlay panel.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:RegulatoryCosts",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:Data",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "How do regulatory costs affect mergers and acquisitions decisions and outcomes? Author links open overlay panel.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:RegulatoryCosts",
+            "source": "How do regulatory costs affect mergers and acquisitions decisions and outcomes? Author links open overlay panel.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:RegulatoryCostsImpact",
+            "type": "Table",
+            "description": "A table examining the impact of regulatory events on mergers and acquisitions.",
+            "relationship:contains": "Table:RegulatoryCostsImpactRows",
+            "source": "How do regulatory costs affect mergers and acquisitions decisions and outcomes? Author links open overlay panel.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:RegulatoryCostsImpactRows",
+            "type": "TableRow",
+            "description": "Rows within the table examining the impact of regulatory events on mergers and acquisitions.",
+            "relationship:partOf": "Table:RegulatoryCostsImpact",
+            "source": "How do regulatory costs affect mergers and acquisitions decisions and outcomes? Author links open overlay panel.pdf (Page 14)"
+        }
+    ]
+}

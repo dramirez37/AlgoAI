@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:HighFrequencyTrading",
+            "type": "Financial Strategy",
+            "description": "A strategy involving high-frequency trading on the French stock exchange.",
+            "relationship:influences": "Entity:MarketConditions",
+            "source": "Identification-of-high-frequency-trading--_2023_Research-in-International-Bu.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:OrderBookAnalysis",
+            "type": "Table",
+            "description": "A table analyzing the order book data for high-frequency trading.",
+            "relationship:contains": "Entity:HighFrequencyTrading",
+            "source": "Identification-of-high-frequency-trading--_2023_Research-in-International-Bu.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:HighFrequencyTrading",
+            "type": "Financial Model",
+            "description": "A model to identify high-frequency trading.",
+            "relationship:uses": "Entity:HighFrequencyTradingDataset",
+            "equation:definedBy": "Equation:HighFrequencyTradingFormula",
+            "source": "Identification-of-high-frequency-trading--_2023_Research-in-International-Bu.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:HighFrequencyTradingComparison",
+            "type": "Table",
+            "description": "A table comparing high-frequency trading across different markets.",
+            "relationship:illustrates": "Entity:HighFrequencyTrading",
+            "source": "Identification-of-high-frequency-trading--_2023_Research-in-International-Bu.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:Identification-of-high-frequency-trading",
+            "type": "Research Paper",
+            "description": "A paper on identifying high-frequency trading.",
+            "relationship:contains": "Table:VolatilityComparison",
+            "source": "Identification-of-high-frequency-trading--_2023_Research-in-International-Bu.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:Identification-of-high-frequency-trading",
+            "source": "Identification-of-high-frequency-trading--_2023_Research-in-International-Bu.pdf (Page 7)"
+        },
+        {
+            "@id": "Figure:CDF_of_in_sample_estimation",
+            "type": "Figure",
+            "description": "Cumulative distribution function of in-sample estimation for ensemble model and regression tree.",
+            "source": "Identification-of-high-frequency-trading--_2023_Research-in-International-Bu.pdf (Page 13)"
+        },
+        {
+            "@id": "Figure:CDF_of_out_of_sample_estimation",
+            "type": "Figure",
+            "description": "Cumulative distribution function of out-of-sample estimation for ensemble model and regression tree.",
+            "source": "Identification-of-high-frequency-trading--_2023_Research-in-International-Bu.pdf (Page 13)"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:TransactionTax",
+            "type": "Economic Policy",
+            "description": "A policy that aims to reduce short-term trading by imposing taxes on transactions.",
+            "relationship:impacts": "Entity:MarketActivity",
+            "source": "Costs-and-benefits-of-financial-regulation--Short-sel_2015_Journal-of-Bankin.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:MarketImpact",
+            "type": "Table",
+            "description": "A table showing the impact of transaction taxes on market activity.",
+            "relationship:illustrates": "Entity:TransactionTax",
+            "source": "Costs-and-benefits-of-financial-regulation--Short-sel_2015_Journal-of-Bankin.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:MarginTrading",
+            "type": "Table",
+            "description": "A table showing margin trading during extreme events.",
+            "relationship:contains": "Entity:MarginEvent",
+            "source": "Costs-and-benefits-of-financial-regulation--Short-sel_2015_Journal-of-Bankin.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:MarginEvent",
+            "type": "Extreme Event",
+            "description": "An event that causes significant changes in market conditions.",
+            "relationship:occursDuring": "Table:MarginTrading",
+            "source": "Costs-and-benefits-of-financial-regulation--Short-sel_2015_Journal-of-Bankin.pdf (Page 15)"
+        }
+    ]
+}

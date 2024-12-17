@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Figure:AverageNumberOfTransactions",
+            "type": "Figure",
+            "description": "A figure showing the average number of transactions in Bitcoin network and exchanges.",
+            "relationship:contains": "Table:AverageNumberOfTransactions",
+            "source": "Seeking-sigma--Time-of-the-day-effects-on-the-Bitco_2022_Finance-Research-Le.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:AverageNumberOfTransactions",
+            "type": "Table",
+            "description": "A table reporting the normalized on-chain and exchange activities throughout the day.",
+            "relationship:contains": "Figure:AverageNumberOfTransactions",
+            "source": "Seeking-sigma--Time-of-the-day-effects-on-the-Bitco_2022_Finance-Research-Le.pdf (Page 5)"
+        }
+    ]
+}

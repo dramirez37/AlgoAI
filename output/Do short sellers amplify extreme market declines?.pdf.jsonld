@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ShortSellingBehavior",
+            "type": "Financial Model",
+            "description": "A model to analyze the behavior of short sellers.",
+            "relationship:uses": "Entity:MarketData",
+            "equation:definedBy": "Equation:ShortSellingModel",
+            "source": "Do short sellers amplify extreme market declines?.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:ShortSellingImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of short selling on market declines.",
+            "relationship:illustrates": "Entity:ShortSellingBehavior",
+            "source": "Do short sellers amplify extreme market declines?.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Do short sellers amplify extreme market declines?.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ShortSellingTurnover",
+            "source": "Do short sellers amplify extreme market declines?.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:ShortSellingTurnover",
+            "type": "Financial Indicator",
+            "description": "A measure of short selling activity.",
+            "relationship:measures": "Table:VolatilityComparison",
+            "source": "Do short sellers amplify extreme market declines?.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ShortSellingTurnover",
+            "source": "Do short sellers amplify extreme market declines?.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:ShortSellingTurnover",
+            "type": "Financial Indicator",
+            "description": "A measure of short selling activity.",
+            "relationship:measures": "Table:VolatilityComparison",
+            "source": "Do short sellers amplify extreme market declines?.pdf (Page 11)"
+        }
+    ]
+}

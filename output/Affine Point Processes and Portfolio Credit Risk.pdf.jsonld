@@ -1,0 +1,169 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:AffinePointProcesses",
+            "type": "Financial Model",
+            "description": "A family of multivariate point process models of correlated event timing whose arrival intensity is driven by an affine jump diffusion.",
+            "relationship:uses": "Entity:CorrelatedEventTiming",
+            "equation:definedBy": "Equation:AffineJumpDiffusion",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:CorrelationMatrix",
+            "type": "Table",
+            "description": "A table illustrating the correlation matrix of default risk factors.",
+            "relationship:illustrates": "Entity:AffinePointProcesses",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:HawkesProcess",
+            "type": "Financial Model",
+            "description": "A self-exciting point process used to model credit risk.",
+            "relationship:uses": "Entity:PortfolioData",
+            "equation:definedBy": "Equation:HawkesPIDE",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:CumulativeLoss",
+            "type": "Table",
+            "description": "A table showing the cumulative loss over time.",
+            "relationship:illustrates": "Entity:HawkesProcess",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:SelfExcitingPointProcess",
+            "type": "Financial Model",
+            "description": "A self-exciting point process model implies a more realistic degree of default clustering.",
+            "relationship:uses": "Entity:PortfolioLossProcess",
+            "equation:definedBy": "Equation:NonlinearDeathProcess",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:PortfolioLossProcess",
+            "type": "Table",
+            "description": "A table describing the portfolio loss process.",
+            "relationship:illustrates": "Entity:SelfExcitingPointProcess",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 3)"
+        },
+        {
+            "@id": "Figure:SamplePathsOfIntensityAndLossProcess",
+            "type": "Figure",
+            "description": "A figure showing sample paths of the intensity and the associated loss process L.",
+            "relationship:depicts": "Equation:SamplePathIntensityAndLossProcess",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 5)"
+        },
+        {
+            "@id": "Equation:SamplePathIntensityAndLossProcess",
+            "type": "Equation",
+            "description": "An equation representing the sample path of the intensity and the associated loss process L.",
+            "relationship:definedBy": "Figure:SamplePathsOfIntensityAndLossProcess",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:AffinePointProcessesAndPortfolioCreditRisk",
+            "type": "FinancialModel",
+            "description": "A model for calculating forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateVolatility",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:ForwardRateVolatilityComparison",
+            "type": "Table",
+            "description": "A comparison of forward rate volatilities over different time periods.",
+            "relationship:illustrates": "Entity:AffinePointProcessesAndPortfolioCreditRisk",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:PortfolioCreditDerivatives",
+            "type": "FinancialModel",
+            "description": "A model to analyze portfolio credit derivatives.",
+            "relationship:uses": "Entity:IndexAndTrancheSwaps",
+            "equation:definedBy": "Equation:KlimkoAlgorithm",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:SummandsComputation",
+            "type": "Table",
+            "description": "A table illustrating the computation of summands in Fa\u00e0 di Bruno's formula.",
+            "relationship:illustrates": "Equation:KlimkoAlgorithm",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 13)"
+        },
+        {
+            "@id": "Figure:SamplePathsOfIntensityAndAssociatedLossProcess",
+            "type": "Figure",
+            "description": "Sample paths of the intensity (38) and the associated loss process L. A jump in the intensity represents the impact of a default. The jump size is the product of the loss at default and the sensitivity parameter \u03b4 = 1. The loss at default is drawn from an independent uniform distribution on [0.4, 0.6, 0.8, 1]. The reversion rate \u03ba = 5 and the reversion level c = \u03bb0 = 0.7. The volatility \u03c3 = 0.2 controls the diffusive fluctuation of the intensity between events.",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 18)"
+        },
+        {
+            "@id": "Entity:Proposition4.4",
+            "type": "Mathematical Proposition",
+            "description": "A proposition about affine jump diffusion processes.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:4.4",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:Coefficients",
+            "type": "Table",
+            "description": "A table listing coefficients for an affine jump diffusion process.",
+            "relationship:illustrates": "Entity:Proposition4.4",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 19)"
+        },
+        {
+            "@id": "Entity:AffinePointProcesses",
+            "type": "Mathematical Model",
+            "description": "A model for point processes with affine intensity functions.",
+            "relationship:uses": "Entity:StochasticProcess",
+            "equation:definedBy": "Equation:AffineIntensity",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 23)"
+        },
+        {
+            "@id": "Table:StochasticProcessParameters",
+            "type": "Table",
+            "description": "A table listing parameters for stochastic processes.",
+            "relationship:illustrates": "Entity:AffinePointProcesses",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 23)"
+        },
+        {
+            "@id": "Entity:AffinePointProcesses",
+            "type": "Financial Model",
+            "description": "A model for pricing multi-name credit derivatives using affine point processes.",
+            "relationship:uses": "Entity:MultiNameCreditDerivatives",
+            "equation:definedBy": "Equation:AffinePointProcesses",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 24)"
+        },
+        {
+            "@id": "Table:MultiNameCreditDerivatives",
+            "type": "Table",
+            "description": "A table illustrating the pricing of multi-name credit derivatives.",
+            "relationship:illustrates": "Entity:AffinePointProcesses",
+            "source": "Affine Point Processes and Portfolio Credit Risk.pdf (Page 24)"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:TechnicalTradingRuleProfitability",
+            "type": "Research Article",
+            "description": "A study on the profitability of technical trading rules in currency markets.",
+            "relationship:publishedBy": "Source:Elsevier B.V.",
+            "source": "Technical-trading-rule-profitability-in-curr_2022_Research-in-International-.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:CurrencyReturns",
+            "type": "Table",
+            "description": "A table showing the returns of various currencies over different time periods.",
+            "relationship:illustrates": "Entity:TechnicalTradingRuleProfitability",
+            "source": "Technical-trading-rule-profitability-in-curr_2022_Research-in-International-.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:PrincipalComponentAnalysis",
+            "source": "Technical-trading-rule-profitability-in-curr_2022_Research-in-International-.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:PrincipalComponentAnalysis",
+            "type": "Statistical Analysis",
+            "description": "An analysis of principal component factors and their correlation with technical trading rules.",
+            "relationship:performedOn": "Table:VolatilityComparison",
+            "source": "Technical-trading-rule-profitability-in-curr_2022_Research-in-International-.pdf (Page 11)"
+        }
+    ]
+}

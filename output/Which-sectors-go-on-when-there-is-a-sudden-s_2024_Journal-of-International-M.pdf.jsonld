@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:RobustnessAnalysis",
+            "type": "Robustness Analysis",
+            "description": "An analysis of how well our model performs under different conditions.",
+            "relationship:uses": "Entity:DataAndAlgorithm",
+            "source": "Which-sectors-go-on-when-there-is-a-sudden-s_2024_Journal-of-International-M.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:GrowthRateComparison",
+            "type": "Table",
+            "description": "A comparison of growth rates across different sectors.",
+            "relationship:illustrates": "Entity:RobustnessAnalysis",
+            "source": "Which-sectors-go-on-when-there-is-a-sudden-s_2024_Journal-of-International-M.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:Algorithm",
+            "type": "Financial Model",
+            "description": "An algorithm to detect sudden stop episodes in a dataset.",
+            "relationship:uses": "Entity:Dataset",
+            "equation:definedBy": "Equation:AlgorithmDefinition",
+            "source": "Which-sectors-go-on-when-there-is-a-sudden-s_2024_Journal-of-International-M.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:AlgorithmEvaluation",
+            "type": "Table",
+            "description": "A table evaluating the performance of the algorithm.",
+            "relationship:illustrates": "Entity:Algorithm",
+            "source": "Which-sectors-go-on-when-there-is-a-sudden-s_2024_Journal-of-International-M.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "Which-sectors-go-on-when-there-is-a-sudden-s_2024_Journal-of-International-M.pdf (Page 23)"
+        },
+        {
+            "@id": "Entity:ForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Table:VolatilityComparison",
+            "source": "Which-sectors-go-on-when-there-is-a-sudden-s_2024_Journal-of-International-M.pdf (Page 23)"
+        }
+    ]
+}

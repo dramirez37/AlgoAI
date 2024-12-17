@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:F1Scores",
+            "type": "Metric",
+            "description": "A metric used to evaluate the performance of a machine learning model.",
+            "relationship:measures": "Relationship:Accuracy",
+            "source": "Mathematical Finance - 2024 - Biagini - Detecting asset price bubbles using deep learning.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:AccuracyComparison",
+            "type": "Table",
+            "description": "A table comparing the accuracy of different models.",
+            "relationship:illustrates": "Entity:F1Scores",
+            "source": "Mathematical Finance - 2024 - Biagini - Detecting asset price bubbles using deep learning.pdf (Page 22)"
+        }
+    ]
+}

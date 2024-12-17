@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Figure:TimelineOfExperimentalMarketSequence",
+            "type": "Figure",
+            "description": "A timeline illustrating the sequence of events in an experimental market.",
+            "relationship:depicts": "Entity:ExperimentalMarketSequence",
+            "source": "A test of the Modigliani-Miller theorem, dividend policy and algorithmic arbitrage in experimental asset markets.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:TreatmentConditionsAndNames",
+            "type": "Table",
+            "description": "A table listing the treatment conditions and their corresponding names.",
+            "relationship:contains": "Entity:TreatmentConditions",
+            "source": "A test of the Modigliani-Miller theorem, dividend policy and algorithmic arbitrage in experimental asset markets.pdf (Page 3)"
+        },
+        {
+            "@id": "Figure:TimelineOfTheRound",
+            "type": "Figure",
+            "description": "Timeline of the round showing the sequence of events during the trading period.",
+            "source": "A test of the Modigliani-Miller theorem, dividend policy and algorithmic arbitrage in experimental asset markets.pdf (Page 11)"
+        },
+        {
+            "@id": "Figure:TradingScreen",
+            "type": "Figure",
+            "description": "Trading screen displaying the current state of the market, including cash balance, share holdings, and bid/ask prices.",
+            "source": "A test of the Modigliani-Miller theorem, dividend policy and algorithmic arbitrage in experimental asset markets.pdf (Page 11)"
+        }
+    ]
+}

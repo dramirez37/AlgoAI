@@ -1,0 +1,85 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:LogPriceSeries",
+            "type": "Financial Model",
+            "description": "A model to analyze log price series for asset price bubbles.",
+            "relationship:uses": "Entity:NonparametricInference",
+            "equation:definedBy": "Equation:LogPriceSeries",
+            "source": "A study on asset price bubble dynamics  explosive trend or quadratic variation .pdf (Page 3)"
+        },
+        {
+            "@id": "Table:LogPriceSeries",
+            "type": "Table",
+            "description": "A table presenting log price series data.",
+            "relationship:illustrates": "Entity:LogPriceSeries",
+            "source": "A study on asset price bubble dynamics  explosive trend or quadratic variation .pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:PriceBubbleModel",
+            "type": "Financial Model",
+            "description": "A model to analyze the price dynamics under different conditions.",
+            "relationship:uses": "Entity:ZeroPriceRiskPremium",
+            "equation:definedBy": "Equation:6",
+            "source": "A study on asset price bubble dynamics  explosive trend or quadratic variation .pdf (Page 5)"
+        },
+        {
+            "@id": "Table:ZeroPriceRiskPremium",
+            "type": "Table",
+            "description": "A table illustrating the zero price risk premium under different conditions.",
+            "relationship:illustrates": "Entity:PriceBubbleModel",
+            "source": "A study on asset price bubble dynamics  explosive trend or quadratic variation .pdf (Page 5)"
+        },
+        {
+            "@id": "Figure:RobustnessCheck",
+            "type": "Figure",
+            "description": "Estimates and 95% confidence intervals of c in regression sYt = a + bRVt(s-1;0;1) + cYt-s + ut with time step s = 10 days. Stock: C.",
+            "source": "A study on asset price bubble dynamics  explosive trend or quadratic variation .pdf (Page 11)"
+        },
+        {
+            "@id": "Figure:BubblesMovingAverage",
+            "type": "Figure",
+            "description": "Moving-average estimates and 95% confidence intervals of JPM bubbles.",
+            "source": "A study on asset price bubble dynamics  explosive trend or quadratic variation .pdf (Page 11)"
+        },
+        {
+            "@id": "Figure:MovingAverageEstimates",
+            "type": "Figure",
+            "description": "Moving average estimates and 95% confidence intervals of GME bubbles.",
+            "source": "A study on asset price bubble dynamics  explosive trend or quadratic variation .pdf (Page 13)",
+            "figure": "Figure 11"
+        },
+        {
+            "@id": "Figure:RegressionEstimates",
+            "type": "Figure",
+            "description": "Estimates and 95% confidence intervals of b in regression with time step s = 10 days.",
+            "source": "A study on asset price bubble dynamics  explosive trend or quadratic variation .pdf (Page 13)",
+            "figure": "Figure 12"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "A study on asset price bubble dynamics  explosive trend or quadratic variation .pdf (Page 15)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "A study on asset price bubble dynamics  explosive trend or quadratic variation .pdf (Page 15)"
+        }
+    ]
+}

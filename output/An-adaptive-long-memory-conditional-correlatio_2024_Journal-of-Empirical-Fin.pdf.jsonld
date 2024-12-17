@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:OOS",
+            "type": "Out-of-Sample Forecasting",
+            "description": "A method for evaluating the performance of financial models.",
+            "relationship:uses": "Entity:Portfolio",
+            "source": "An-adaptive-long-memory-conditional-correlatio_2024_Journal-of-Empirical-Fin.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:OOSForecast",
+            "type": "Table",
+            "description": "A table showing out-of-sample forecasts for various portfolios.",
+            "relationship:illustrates": "Entity:OOS",
+            "source": "An-adaptive-long-memory-conditional-correlatio_2024_Journal-of-Empirical-Fin.pdf (Page 15)"
+        }
+    ]
+}

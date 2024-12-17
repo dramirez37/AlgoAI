@@ -1,0 +1,213 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:DeltaHedgingModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BitcoinOptionData",
+            "equation:definedBy": "Equation:ImpliedVolatilityCurve",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeltaHedgingModel",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:DeltaHedgingModel",
+            "type": "Financial Model",
+            "description": "A model to hedge delta-adjusted delta hedging.",
+            "relationship:uses": "Entity:BitcoinOptions",
+            "equation:definedBy": "Equation:DeltaHedgeEquation",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeltaHedgingModel",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:BitcoinOptions",
+            "type": "Financial Instrument",
+            "description": "A derivative financial instrument based on the price of Bitcoin.",
+            "relationship:uses": "Entity:BitcoinMarketData",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:BitcoinMarketData",
+            "type": "Table",
+            "description": "A table summarizing Bitcoin market data.",
+            "relationship:illustrates": "Entity:BitcoinOptions",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:DeltaHedgingBitcoinOptionsWithASmile",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:DeltaHedgingBitcoinOptionsWithASmileDataset",
+            "equation:definedBy": "Equation:DeltaHedgingBitcoinOptionsWithASmileFormula",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeltaHedgingBitcoinOptionsWithASmile",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:StickyVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to approximate local volatility using sticky models.",
+            "relationship:uses": "Entity:StickyModel",
+            "equation:definedBy": "Equation:StickyVolatilityApproximation",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:StickyVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing sticky volatility approximations.",
+            "relationship:illustrates": "Entity:StickyVolatilityModel",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 9)"
+        },
+        {
+            "@id": "Figure:6",
+            "type": "Figure",
+            "description": "Maturities of traded options.",
+            "relationship:depicts": "Table:TradingVolume",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:TradingVolume",
+            "type": "Table",
+            "description": "Trading volume of options over different maturities.",
+            "relationship:contains": "Figure:6",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:DeltaHedgingBitcoinOptionsWithASmile",
+            "type": "FinancialModel",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:StalePrices",
+            "equation:definedBy": "Equation:SyntheticOptionPrice",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeltaHedgingBitcoinOptionsWithASmile",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:Moneyness",
+            "type": "Financial Metric",
+            "description": "A measure of the distance of an option's strike price from the underlying asset's price.",
+            "relationship:measures": "Table:FTestHedgingResults",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:FTestHedgingResults",
+            "type": "Table",
+            "description": "A table showing the results of F-Tests for hedging bitcoin options.",
+            "relationship:contains": "Entity:Moneyness",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:DeltaHedgingModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeltaHedgingModel",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:DeltaHedgingModel",
+            "type": "Financial Model",
+            "description": "A model for delta hedging bitcoin options with a smile.",
+            "relationship:uses": "Entity:BitcoinOptionsData",
+            "equation:definedBy": "Equation:DeltaHedgeEquation",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:FTestHedgingResults",
+            "type": "Table",
+            "description": "F-Test hedging results for 8-hour rebalancing, perpetual.",
+            "relationship:illustrates": "Entity:DeltaHedgingModel",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 16)"
+        },
+        {
+            "@id": "Entity:DeltaHedgingModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BitcoinOptionData",
+            "equation:definedBy": "Equation:DeltaHedgeFormula",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeltaHedgingModel",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 17)"
+        },
+        {
+            "@id": "Figure:8",
+            "type": "Figure",
+            "description": "Hedging performance on a rolling sample. (a) Results for 10-day Options and (b) Results for 30-day Options.",
+            "relationship:depicts": "Figure:8",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 18)"
+        },
+        {
+            "@id": "Entity:SmileAdjustedDeltaHedging",
+            "type": "Financial Model",
+            "description": "A model that adjusts delta hedging for the smile effect in option pricing.",
+            "relationship:uses": "Entity:BitcoinOptions",
+            "equation:definedBy": "Equation:SmileAdjustedDeltaHedgingFormula",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across different time periods.",
+            "relationship:illustrates": "Entity:SmileAdjustedDeltaHedging",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 19)"
+        },
+        {
+            "@id": "Entity:DeltaHedgingModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BitcoinOptionsData",
+            "equation:definedBy": "Equation:DeltaHedgeVolatilityCalculation",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeltaHedgingModel",
+            "source": "Delta hedging bitcoin options with a smile.pdf (Page 20)"
+        }
+    ]
+}

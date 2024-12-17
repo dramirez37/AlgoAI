@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:AcquisitionReturns",
+            "type": "Financial Model",
+            "description": "A model to estimate acquisition returns.",
+            "relationship:uses": "Entity:TargetIntangibleAssets",
+            "equation:definedBy": "Equation:AcquisitionReturnFormula",
+            "source": "The sources of value creation in acquisitions of intangible assets.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:AcquisitionReturnsComparison",
+            "type": "Table",
+            "description": "A table comparing acquisition returns across different scenarios.",
+            "relationship:illustrates": "Entity:AcquisitionReturns",
+            "source": "The sources of value creation in acquisitions of intangible assets.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "The sources of value creation in acquisitions of intangible assets.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "The sources of value creation in acquisitions of intangible assets.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:WeakCapitalInvestment",
+            "type": "Financial Concept",
+            "description": "The role of market concentration and intangibles in corporate strategy.",
+            "relationship:influences": "Table:MarketConcentrationAndIntangibles",
+            "source": "The sources of value creation in acquisitions of intangible assets.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:MarketConcentrationAndIntangibles",
+            "type": "Table",
+            "description": "A table illustrating the relationship between market concentration and intangibles in corporate strategy.",
+            "relationship:contains": "Entity:WeakCapitalInvestment",
+            "source": "The sources of value creation in acquisitions of intangible assets.pdf (Page 19)"
+        }
+    ]
+}

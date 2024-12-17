@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Table:BusinessLineEventTypes",
+            "type": "Table",
+            "description": "A table defining business line event types.",
+            "relationship:contains": "Entity:BusinessLineEventTypes",
+            "source": "Operational loss recoveries and the macroeconomic environment- Evidence from the U.S. banking sector Author links open overlay panel .pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:BusinessLineEventTypes",
+            "type": "Event Type",
+            "description": "A list of business line event types.",
+            "relationship:includes": "Table:BusinessLineEventTypes",
+            "source": "Operational loss recoveries and the macroeconomic environment- Evidence from the U.S. banking sector Author links open overlay panel .pdf (Page 3)"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Figure:RiskAnalysis",
+            "type": "Figure",
+            "description": "A figure illustrating the risk analysis of long-term interest rates.",
+            "relationship:depicts": "Equation:RiskCalculation",
+            "source": "Mathematical Finance - 2024 - Severino - Long\u2010term risk with stochastic interest rates.pdf (Page 11)"
+        },
+        {
+            "@id": "Equation:RiskCalculation",
+            "type": "Equation",
+            "description": "An equation for calculating the risk of long-term interest rates.",
+            "relationship:definedBy": "Figure:RiskAnalysis",
+            "source": "Mathematical Finance - 2024 - Severino - Long\u2010term risk with stochastic interest rates.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:SpecificInterestRates",
+            "type": "Financial Model",
+            "description": "A model to analyze specific interest rates over time.",
+            "relationship:uses": "Entity:RandomEigenvalues",
+            "equation:definedBy": "Equation:ShortRateEvolution",
+            "source": "Mathematical Finance - 2024 - Severino - Long-term risk with stochastic interest rates.pdf (Page 27)"
+        },
+        {
+            "@id": "Table:RandomEigenvalues",
+            "type": "Table",
+            "description": "A table listing random eigenvalues.",
+            "relationship:illustrates": "Entity:SpecificInterestRates",
+            "source": "Mathematical Finance - 2024 - Severino - Long-term risk with stochastic interest rates.pdf (Page 27)"
+        }
+    ]
+}

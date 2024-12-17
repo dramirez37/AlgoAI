@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:InformationReliability",
+            "type": "Concept",
+            "description": "The reliability of information in behavioral finance.",
+            "relationship:assumedBy": "Section:TheoryAndPredictions",
+            "source": "Underreactions--overreactions-and-moderated-con_2000_Journal-of-Financial-Ma.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:OverconfidenceModels",
+            "type": "Table",
+            "description": "A table listing overconfidence models.",
+            "relationship:contains": "Entity:InformationReliability",
+            "source": "Underreactions--overreactions-and-moderated-con_2000_Journal-of-Financial-Ma.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:ReliabilitySignal",
+            "type": "Table",
+            "description": "A table comparing the reliability of signals under different conditions.",
+            "relationship:illustrates": "Entity:ReliabilitySignal",
+            "source": "Underreactions--overreactions-and-moderated-con_2000_Journal-of-Financial-Ma.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:ReliabilitySignal",
+            "type": "Financial Signal",
+            "description": "A signal indicating the reliability of another signal.",
+            "relationship:measures": "Table:ReliabilitySignal",
+            "source": "Underreactions--overreactions-and-moderated-con_2000_Journal-of-Financial-Ma.pdf (Page 15)"
+        }
+    ]
+}

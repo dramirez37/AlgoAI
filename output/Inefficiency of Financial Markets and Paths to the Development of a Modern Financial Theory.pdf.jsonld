@@ -1,0 +1,114 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:InefficientFinancialMarkets",
+            "type": "FinancialModel",
+            "description": "A model describing the inefficiency of financial markets.",
+            "relationship:uses": "Entity:CognitivePsychology",
+            "equation:definedBy": "Equation:MarketEfficiencyHypothesis",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:MarketEfficiencyComparison",
+            "type": "Table",
+            "description": "A table comparing market efficiency across different time periods.",
+            "relationship:illustrates": "Entity:InefficientFinancialMarkets",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:IslamicFinance",
+            "type": "Economic System",
+            "description": "An economic system based on Islamic principles and practices.",
+            "relationship:appliesTo": "Table:SpecificityOfIslamicFinance",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:SpecificityOfIslamicFinance",
+            "type": "Table",
+            "description": "A table outlining the five essential pillars of Islamic finance.",
+            "relationship:illustrates": "Entity:IslamicFinance",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:BehavioralFinance",
+            "type": "Financial Theory",
+            "description": "A theory that explains the behavior of financial markets based on psychological factors.",
+            "relationship:emergesFrom": "Source:Gomes (2022)",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:BehavioralFinanceHypotheses",
+            "type": "Table",
+            "description": "A table illustrating the hypotheses that differentiate behavioral finance from traditional financial theory.",
+            "relationship:illustrates": "Entity:BehavioralFinance",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:BehavioralBiases",
+            "type": "Behavioral Finance",
+            "description": "The study of how psychological factors influence financial decision-making.",
+            "relationship:influences": "Relationship:DecisionMaking",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:BehavioralBiasesImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of behavioral biases on financial decisions.",
+            "relationship:illustrates": "Entity:BehavioralBiases",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:ModernFinance",
+            "type": "Financial Model",
+            "description": "A model for modern finance that promotes ethical awareness and sustainability.",
+            "relationship:uses": "Entity:EthicalAwareness",
+            "equation:definedBy": "Equation:EthicalGrowth",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:EthicalGrowth",
+            "type": "Table",
+            "description": "A table illustrating the growth of ethical financial models over time.",
+            "relationship:illustrates": "Entity:ModernFinance",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:BehavioralFinance",
+            "type": "Behavioral Finance",
+            "description": "The study of how psychological factors influence financial decision-making.",
+            "relationship:influences": "Entity:FinancialDecisionMaking",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:BehavioralBiases",
+            "type": "Table",
+            "description": "A table listing common behavioral biases in financial decision-making.",
+            "relationship:illustrates": "Entity:BehavioralFinance",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:BehavioralFinance",
+            "type": "Financial Theory",
+            "description": "A theory that incorporates psychological factors into financial decision-making.",
+            "relationship:uses": "Entity:BehavioralModels",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:BehavioralModelsComparison",
+            "type": "Table",
+            "description": "A table comparing different behavioral models.",
+            "relationship:illustrates": "Entity:BehavioralFinance",
+            "source": "Inefficiency of Financial Markets and Paths to the Development of a Modern Financial Theory.pdf (Page 16)"
+        }
+    ]
+}

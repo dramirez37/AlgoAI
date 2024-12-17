@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:IncentivizeInvestors",
+            "type": "Financial Model",
+            "description": "A model to incentivize investors to reveal their true assessments of the firm's value.",
+            "relationship:uses": "Entity:IncentiveMechanism",
+            "source": "How does corporate culture affect IPO price formation?.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:IncentiveMechanism",
+            "type": "Table",
+            "description": "A table illustrating the incentive mechanism used in the financial model.",
+            "relationship:illustrates": "Entity:IncentivizeInvestors",
+            "source": "How does corporate culture affect IPO price formation?.pdf (Page 4)"
+        }
+    ]
+}

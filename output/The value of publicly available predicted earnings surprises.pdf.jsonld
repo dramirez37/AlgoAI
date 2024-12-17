@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:SharePriceSurprise",
+            "type": "Financial Indicator",
+            "description": "The difference between actual share prices and expected share prices.",
+            "relationship:measures": "Relationship:SharePriceSurprise",
+            "source": "The value of publicly available predicted earnings surprises.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:SharePriceSurpriseComparison",
+            "type": "Table",
+            "description": "A comparison of share price surprises across different companies.",
+            "relationship:illustrates": "Entity:SharePriceSurprise",
+            "source": "The value of publicly available predicted earnings surprises.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:ContrarianPortfolioPerformanceSummary",
+            "type": "Financial Model",
+            "description": "A model to analyze contrarian portfolio performance summary.",
+            "relationship:uses": "Entity:CAPMAlphaBetaAdjustedRSquaredPValue",
+            "source": "The value of publicly available predicted earnings surprises.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:DynamicContrarianPortfolioPerformanceSummary",
+            "type": "Table",
+            "description": "A table summarizing dynamic contrarian portfolio performance.",
+            "relationship:illustrates": "Entity:ContrarianPortfolioPerformanceSummary",
+            "source": "The value of publicly available predicted earnings surprises.pdf (Page 15)"
+        }
+    ]
+}

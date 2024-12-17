@@ -1,0 +1,193 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:WeakKyleBackEquilibriumModel",
+            "type": "Financial Model",
+            "description": "A model to introduce a new approach to model equilibrium in financial markets with an insider.",
+            "relationship:uses": "Entity:InsiderTradingData",
+            "equation:definedBy": "Equation:ExpectedWealthMaximization",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:ExpectedWealthComparison",
+            "type": "Table",
+            "description": "A table comparing expected wealth under different scenarios.",
+            "relationship:illustrates": "Entity:WeakKyleBackEquilibriumModel",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:WeakKyleBackEquilibriumModel",
+            "type": "Financial Model",
+            "description": "A model to analyze weak equilibrium in financial markets.",
+            "relationship:uses": "Entity:InsiderInformation",
+            "equation:definedBy": "Equation:OptimizationProblem",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:ExpectedWealthComparison",
+            "type": "Table",
+            "description": "A table comparing expected wealth of insiders in different scenarios.",
+            "relationship:illustrates": "Entity:WeakKyleBackEquilibriumModel",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:WeakFormulationOfEquilibrium",
+            "type": "FinancialModel",
+            "description": "The weak formulation of equilibrium in financial markets.",
+            "relationship:uses": "Entity:ExponentialGrowthCondition",
+            "equation:definedBy": "Equation:ExponentialGrowthCondition",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:ExponentialGrowthCondition",
+            "type": "Table",
+            "description": "A table illustrating the exponential growth condition for pricing rules.",
+            "relationship:illustrates": "Entity:WeakFormulationOfEquilibrium",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:OptimizationProblemInsider",
+            "type": "Optimization Problem",
+            "description": "A problem where an insider optimizes their strategy based on market information.",
+            "relationship:uses": "Entity:PortfolioProcess",
+            "equation:definedBy": "Equation:PortfolioProcessEquation",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:PortfolioProcessEquation",
+            "type": "Table",
+            "description": "A table illustrating the portfolio process equation.",
+            "relationship:illustrates": "Entity:OptimizationProblemInsider",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:WeakKyleBackEquilibriumModels",
+            "type": "FinancialModel",
+            "description": "A model to solve equilibrium problems in financial markets.",
+            "relationship:uses": "Entity:WeakKyleBackEquilibriumModels",
+            "equation:definedBy": "Equation:WeakKyleBackEquilibriumModels",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:WeakKyleBackEquilibriumModels",
+            "type": "Table",
+            "description": "A table illustrating the Weak Kyle\u2013Back Equilibrium Models.",
+            "relationship:illustrates": "Entity:WeakKyleBackEquilibriumModels",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:WeakKyleBackEquilibriumModel",
+            "type": "Financial Model",
+            "description": "A model to analyze weak Kyle-Back equilibrium in financial markets.",
+            "relationship:uses": "Entity:BrownianMotion",
+            "equation:definedBy": "Equation:WeakKyleBackEquilibriumEquation",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:WeakEquilibriumComparison",
+            "type": "Table",
+            "description": "A table comparing weak equilibria across different market conditions.",
+            "relationship:illustrates": "Entity:WeakKyleBackEquilibriumModel",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:Proof",
+            "type": "Mathematical Proof",
+            "description": "A proof involving It\u00f4's formula and conditional expectations.",
+            "relationship:uses": "Entity:ConditionalExpectation",
+            "equation:definedBy": "Equation:ConditionalExpectationFormula",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:ConditionalExpectation",
+            "type": "Table",
+            "description": "A table illustrating conditional expectations.",
+            "relationship:illustrates": "Entity:Proof",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:WeakKyleBackEquilibriumModels",
+            "type": "FinancialModel",
+            "description": "A model to analyze weak Kyle-Back equilibrium in financial markets.",
+            "relationship:uses": "Entity:BrownianMotion",
+            "equation:definedBy": "Equation:6.4",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:BrownianMotionProperties",
+            "type": "Table",
+            "description": "Properties of Brownian motion used in the model.",
+            "relationship:illustrates": "Entity:WeakKyleBackEquilibriumModels",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:RDFProof",
+            "type": "Mathematical Proof",
+            "description": "A proof involving limits and integrals.",
+            "relationship:uses": "Entity:LimitDefinition",
+            "equation:definedBy": "Equation:LimitEquation",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:ContinuityProof",
+            "type": "Table",
+            "description": "A table illustrating the continuity of paths.",
+            "relationship:illustrates": "Entity:RDFProof",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 20)"
+        },
+        {
+            "@id": "Entity:WeakKyleBackEquilibriumModels",
+            "type": "FinancialModel",
+            "description": "A model to analyze weak equilibrium in financial markets.",
+            "relationship:uses": "Entity:WeakKyleBackEquilibriumModels",
+            "equation:definedBy": "Equation:WeakKyleBackEquilibriumModels",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 21)"
+        },
+        {
+            "@id": "Table:WeakEquilibriumProperties",
+            "type": "Table",
+            "description": "A table listing properties of weak equilibrium.",
+            "relationship:illustrates": "Entity:WeakKyleBackEquilibriumModels",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 21)"
+        },
+        {
+            "@id": "Entity:ConditionalLawOfTauGivenFW",
+            "type": "Proposition",
+            "description": "The conditional law of \u03c4, given FW, is",
+            "relationship:definedBy": "Equation:ConditionalLawOfTauGivenFW",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 23)"
+        },
+        {
+            "@id": "Equation:ConditionalLawOfTauGivenFW",
+            "type": "Equation",
+            "description": "The conditional law of \u03c4, given FW, is",
+            "relationship:definedBy": "Proposition:ConditionalLawOfTauGivenFW",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 23)"
+        },
+        {
+            "@id": "Entity:WeakKyleBackEquilibriumModel",
+            "type": "FinancialModel",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:WeakKyleBackEquilibriumDataset",
+            "equation:definedBy": "Equation:WeakKyleBackEquilibriumFormula",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 28)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:WeakKyleBackEquilibriumModel",
+            "source": "Weak Kyle\u2013Back Equilibrium Models for Max and ArgMax.pdf (Page 28)"
+        }
+    ]
+}

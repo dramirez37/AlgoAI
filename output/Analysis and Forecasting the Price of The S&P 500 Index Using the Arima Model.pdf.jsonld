@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:Indices",
+            "type": "Stock Market Indicators",
+            "description": "Indices used to evaluate stock market performance and make investment decisions.",
+            "relationship:includes": "Table:IndicesList",
+            "source": "Financial Markets, Institutions and Risks, Volume 7, Issue 4, 2023"
+        },
+        {
+            "@id": "Table:IndicesList",
+            "type": "Table",
+            "description": "A list of common stock market indices.",
+            "relationship:contains": "Entity:Indices",
+            "source": "Financial Markets, Institutions and Risks, Volume 7, Issue 4, 2023"
+        },
+        {
+            "@id": "Entity:StockMarket",
+            "type": "Economic System",
+            "description": "The system where buyers and sellers make transactions based on supply and demand.",
+            "relationship:undergoes": "Process:ActiveTechnologicalInnovations",
+            "source": "Literature Review"
+        },
+        {
+            "@id": "Process:ActiveTechnologicalInnovations",
+            "type": "Process",
+            "description": "The process of conducting transactions and accessing information through electronic trading platforms.",
+            "source": "Literature Review"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:StockMarket",
+            "source": "Literature Review"
+        },
+        {
+            "@id": "Entity:ArimaModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Analysis and Forecasting the Price of The S&P 500 Index Using the Arima Model.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ArimaModel",
+            "source": "Analysis and Forecasting the Price of The S&P 500 Index Using the Arima Model.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:AugmentedDickeyFullerTest",
+            "type": "Statistical Test",
+            "description": "A test used to determine if a time series is stationary.",
+            "relationship:uses": "Entity:TimeSeriesData",
+            "source": "Financial Markets, Institutions and Risks, Volume 7, Issue 4, 2023"
+        },
+        {
+            "@id": "Table:InterpretingResultsOfDickeyFullerTest",
+            "type": "Table",
+            "description": "A table interpreting the results of the Dickey-Fuller test.",
+            "relationship:illustrates": "Entity:AugmentedDickeyFullerTest",
+            "source": "Financial Markets, Institutions and Risks, Volume 7, Issue 4, 2023"
+        }
+    ]
+}

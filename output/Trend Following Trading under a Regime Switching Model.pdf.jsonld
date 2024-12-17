@@ -1,0 +1,159 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:TrendFollowingModel",
+            "type": "FinancialModel",
+            "description": "A model for trend following trading under a regime switching model.",
+            "relationship:uses": "Entity:StoppingTimeStrategy",
+            "equation:definedBy": "Equation:OptimalStoppingTime",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:OptimalStoppingTime",
+            "type": "Table",
+            "description": "A table illustrating optimal stopping times for trend following trading.",
+            "relationship:illustrates": "Entity:TrendFollowingModel",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:ThresholdLevels",
+            "type": "Trading Strategy",
+            "description": "A strategy for determining optimal threshold levels in trading.",
+            "relationship:uses": "Entity:StochasticApproximationTechnique",
+            "equation:definedBy": "Equation:OptimalThresholdLevels",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:OptimalThresholdLevels",
+            "type": "Table",
+            "description": "A table presenting optimal threshold levels for trading.",
+            "relationship:illustrates": "Entity:ThresholdLevels",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:OptimalTradingStrategy",
+            "type": "Trading Strategy",
+            "description": "A strategy that maximizes profit by determining the optimal times to buy and sell assets.",
+            "relationship:uses": "Entity:MarketData",
+            "equation:definedBy": "Equation:OptimalValueFunction",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:OptimalThresholds",
+            "type": "Table",
+            "description": "A table presenting the optimal thresholds for buying and selling assets.",
+            "relationship:illustrates": "Entity:OptimalTradingStrategy",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:RewardFunctionDefinition",
+            "type": "Mathematical Function",
+            "description": "The reward function for decision sequences in trend following trading.",
+            "relationship:uses": "Equation:RewardFunctionEquation",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 4)"
+        },
+        {
+            "@id": "Equation:RewardFunctionEquation",
+            "type": "Mathematical Equation",
+            "description": "The equation defining the reward function for decision sequences.",
+            "relationship:definedBy": "Entity:RewardFunctionDefinition",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:GronwallInequality",
+            "type": "Mathematical Inequality",
+            "description": "An inequality used to bound the solution of a differential equation.",
+            "relationship:uses": "Entity:ForwardRateVolatilityModel",
+            "equation:definedBy": "Equation:GronwallInequality",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:ForwardRateVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing forward rate volatilities across different time periods.",
+            "relationship:illustrates": "Entity:GronwallInequality",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 6)"
+        },
+        {
+            "@id": "Equation:2.3",
+            "type": "Mathematical Equation",
+            "description": "An equation defining the limit of a function as delta approaches zero.",
+            "relationship:definedBy": "Equation:2.4",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 7)"
+        },
+        {
+            "@id": "Equation:2.4",
+            "type": "Mathematical Equation",
+            "description": "An equation defining the limit of another function as delta approaches zero.",
+            "relationship:definedBy": "Equation:2.3",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 7)"
+        },
+        {
+            "@id": "Figure:SamplePath",
+            "type": "Figure",
+            "description": "A sample path of a financial model.",
+            "relationship:depicts": "Entity:TrendFollowingTradingModel",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:SimulationResults",
+            "type": "Table",
+            "description": "Simulation results for trend following trading under a regime switching model.",
+            "relationship:contains": "Entity:SimulationData",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:NASDAQInvestmentTest",
+            "type": "Table",
+            "description": "A table showing NASDAQ investment test results from 1991 to 2008.",
+            "relationship:contains": "Symbol:NASDAQInvestmentTestSymbol",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 26)"
+        },
+        {
+            "@id": "Table:SP500InvestmentTest",
+            "type": "Table",
+            "description": "A table showing SP500 investment test results from 1962 to 2008.",
+            "relationship:contains": "Symbol:SP500InvestmentTestSymbol",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 26)"
+        },
+        {
+            "@id": "Entity:DJIATest",
+            "type": "Investment Test",
+            "description": "A test for the DJIA investment strategy from 1962 to 2008.",
+            "relationship:includes": "Table:DJIATestData",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 29)"
+        },
+        {
+            "@id": "Table:DJIATestData",
+            "type": "Table",
+            "description": "Data for the DJIA investment test from 1962 to 2008.",
+            "relationship:contains": "Entity:DJIATest",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 29)"
+        },
+        {
+            "@id": "Entity:OptimalPortfolioSelection",
+            "type": "Financial Model",
+            "description": "An optimal portfolio selection model with transaction costs and finite horizons.",
+            "relationship:uses": "Entity:TransactionCosts",
+            "equation:definedBy": "Equation:OptimalPortfolioSelection",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 30)"
+        },
+        {
+            "@id": "Table:OptimalPortfolioResults",
+            "type": "Table",
+            "description": "A table illustrating the results of the optimal portfolio selection model.",
+            "relationship:illustrates": "Entity:OptimalPortfolioSelection",
+            "source": "Trend Following Trading under a Regime Switching Model.pdf (Page 30)"
+        }
+    ]
+}

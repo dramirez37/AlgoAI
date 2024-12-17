@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Enhancing-betting-against-beta-with-stochastic-_2024_Journal-of-Empirical-Fi.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:EnhancingBettingAgainstBetaWithStochastic",
+            "source": "Enhancing-betting-against-beta-with-stochastic-_2024_Journal-of-Empirical-Fi.pdf (Page 18)"
+        }
+    ]
+}

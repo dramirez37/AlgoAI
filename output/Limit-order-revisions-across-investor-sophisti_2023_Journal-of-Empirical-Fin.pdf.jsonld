@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:OrderBookStatistics",
+            "type": "Financial Model",
+            "description": "A model to calculate order book statistics.",
+            "relationship:uses": "Entity:DailyOrderBookStatistics",
+            "source": "Limit-order-revisions-across-investor-sophisti_2023_Journal-of-Empirical-Fin.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:DailyOrderBookStatistics",
+            "type": "Table",
+            "description": "A table showing daily order book statistics.",
+            "relationship:illustrates": "Entity:OrderBookStatistics",
+            "source": "Limit-order-revisions-across-investor-sophisti_2023_Journal-of-Empirical-Fin.pdf (Page 4)"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Equation:MovingAverageCalculation",
+            "type": "Equation",
+            "description": "Equation for calculating moving average.",
+            "equation:definedBy": "Equation:MovingAverageCalculation",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 4)",
+            "relationship:uses": "Entity:MovingAverage"
+        },
+        {
+            "@id": "Table:MovingAverageComparison",
+            "type": "Table",
+            "description": "Table comparing moving averages.",
+            "relationship:illustrates": "Equation:MovingAverageCalculation",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 4)"
+        },
+        {
+            "@id": "Figure:WeightingFunctions",
+            "type": "Figure",
+            "description": "A figure showing the shapes of the weighting functions for returns in the MOM, SMA, LMA, and EMA rules.",
+            "relationship:plots": "Table:TradingRulesAndWeightingFunctions",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:TradingRulesAndWeightingFunctions",
+            "type": "Table",
+            "description": "A table listing trading rules and their corresponding weighting functions for returns.",
+            "relationship:contains": "Entity:TradingRule",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:ReturnProcess",
+            "type": "Financial Model",
+            "description": "A model to predict future price movements based on past trends.",
+            "relationship:uses": "Entity:RandomWalk",
+            "equation:definedBy": "Equation:ReturnProcessEquation",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:ReturnProcessComparison",
+            "type": "Table",
+            "description": "A table comparing return processes across different models.",
+            "relationship:illustrates": "Entity:ReturnProcess",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 6)"
+        },
+        {
+            "@id": "Figure:SimilarityBetweenI10AndImWhenReturnsFollowARandomWalk",
+            "type": "Figure",
+            "description": "A figure illustrating the similarity between I10 and Im when returns follow a random walk.",
+            "relationship:plots": "Equation:CorrelationCoefficient",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 8)"
+        },
+        {
+            "@id": "Equation:CorrelationCoefficient",
+            "type": "Equation",
+            "description": "An equation representing the correlation coefficient between I10 and Im.",
+            "relationship:definedBy": "Equation:CorrelationCoefficient",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 21)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 21)"
+        },
+        {
+            "@id": "Entity:MAProcess",
+            "type": "Financial Model",
+            "description": "A model to calculate moving average process.",
+            "relationship:uses": "Entity:MAParameters",
+            "equation:definedBy": "Equation:MAProcessDefinition",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:MAProcessComparison",
+            "type": "Table",
+            "description": "A table comparing moving average processes across different parameters.",
+            "relationship:illustrates": "Entity:MAProcess",
+            "source": "Trend following with momentum versus moving averages  a tale of differences.pdf (Page 22)"
+        }
+    ]
+}

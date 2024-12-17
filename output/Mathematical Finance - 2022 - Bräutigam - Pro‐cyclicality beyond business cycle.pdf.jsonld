@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:PearsonCorrelation",
+            "type": "Statistical Measure",
+            "description": "A measure of linear dependence between two variables.",
+            "relationship:uses": "Table:PearsonCorrelationResults",
+            "source": "Mathematical Finance - 2022 - Br\u00e4utigam - Pro\u2010cyclicality beyond business cycle.pdf (Page 32)"
+        },
+        {
+            "@id": "Table:PearsonCorrelationResults",
+            "type": "Table",
+            "description": "A table presenting Pearson correlation results for different cases.",
+            "relationship:illustrates": "Entity:PearsonCorrelation",
+            "source": "Mathematical Finance - 2022 - Br\u00e4utigam - Pro\u2010cyclicality beyond business cycle.pdf (Page 32)"
+        }
+    ]
+}

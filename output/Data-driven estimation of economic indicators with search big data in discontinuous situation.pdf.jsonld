@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Data-driven estimation of economic indicators with search big data in discontinuous situation.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Data-driven estimation of economic indicators with search big data in discontinuous situation.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:TopFiveQueries",
+            "type": "Table",
+            "description": "A table listing the top five queries with the highest negative Pearson correlation coefficients.",
+            "relationship:illustrates": "Figure:QuerySelectionForTraining",
+            "source": "Data-driven estimation of economic indicators with search big data in discontinuous situation.pdf (Page 4)"
+        },
+        {
+            "@id": "Figure:QuerySelectionForTraining",
+            "type": "Figure",
+            "description": "A figure illustrating the data decomposition method for selecting queries.",
+            "relationship:depicts": "Table:TopFiveQueries",
+            "source": "Data-driven estimation of economic indicators with search big data in discontinuous situation.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:DataDrivenModel",
+            "type": "Financial Model",
+            "description": "A model to estimate economic indicators using search big data.",
+            "relationship:uses": "Entity:SearchBigData",
+            "equation:definedBy": "Equation:EstimationFormula",
+            "source": "Data-driven estimation of economic indicators with search big data in discontinuous situation.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:EconomicIndicatorsComparison",
+            "type": "Table",
+            "description": "A table comparing economic indicators across different time periods.",
+            "relationship:illustrates": "Entity:DataDrivenModel",
+            "source": "Data-driven estimation of economic indicators with search big data in discontinuous situation.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:ForecastingModel",
+            "type": "Economic Forecasting Model",
+            "description": "A model used for predicting economic indicators using search big data.",
+            "relationship:uses": "Entity:SearchBigData",
+            "equation:definedBy": "Equation:ForecastingFormula",
+            "source": "Data-driven estimation of economic indicators with search big data in discontinuous situation.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:ForecastAccuracy",
+            "type": "Table",
+            "description": "A table illustrating the accuracy of the forecasting model.",
+            "relationship:illustrates": "Entity:ForecastingModel",
+            "source": "Data-driven estimation of economic indicators with search big data in discontinuous situation.pdf (Page 12)"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:AmericanOptionPricingModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:AmericanOptionData",
+            "equation:definedBy": "Equation:AmericanOptionVolatilityFormula",
+            "source": "Generative Bayesian neural network model for risk-neutral pricing of American index options.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:AmericanOptionPricingModel",
+            "source": "Generative Bayesian neural network model for risk-neutral pricing of American index options.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:GARCH11Model",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:WienerProcesses",
+            "equation:definedBy": "Equation:GARCH11Equation",
+            "source": "Generative Bayesian neural network model for risk-neutral pricing of American index options.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:GARCH11Model",
+            "source": "Generative Bayesian neural network model for risk-neutral pricing of American index options.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Generative Bayesian neural network model for risk-neutral pricing of American index options.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Generative Bayesian neural network model for risk-neutral pricing of American index options.pdf (Page 18)"
+        }
+    ]
+}

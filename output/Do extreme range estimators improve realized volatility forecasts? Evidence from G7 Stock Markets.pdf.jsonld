@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:RollingWindowForecasting",
+            "type": "Financial Model",
+            "description": "A model to forecast rolling window volatility.",
+            "relationship:uses": "Entity:Quandl",
+            "equation:definedBy": "Equation:RollingWindowVolatility",
+            "source": "Do extreme range estimators improve realized volatility forecasts? Evidence from G7 Stock Markets.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:RollingWindowForecastingResults",
+            "type": "Table",
+            "description": "A table showing rolling window forecasting results.",
+            "relationship:illustrates": "Entity:RollingWindowForecasting",
+            "source": "Do extreme range estimators improve realized volatility forecasts? Evidence from G7 Stock Markets.pdf (Page 6)"
+        }
+    ]
+}

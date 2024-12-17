@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:OptimalNetworkCompression",
+            "type": "Research Article",
+            "description": "A study on optimal network compression techniques.",
+            "relationship:publishedIn": "Journal of Operational Research",
+            "source": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jor.29856"
+        },
+        {
+            "@id": "Table:RiskAndClearingCounterpartyDesign",
+            "type": "Table",
+            "description": "A table detailing systemic risk and clearing counterparty design.",
+            "relationship:contains": "Entity:OptimalNetworkCompression",
+            "source": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jor.29856"
+        },
+        {
+            "@id": "Figure:B.2",
+            "type": "Figure",
+            "description": "Reconstructed network of derivative positions for interest rate swaps (in million USD).",
+            "relationship:contains": "Table:ReconstructedNetwork",
+            "source": "Mathematical Finance - 2024 - Veraart - Systemic risk in markets with multiple central counterparties.pdf (Page 38)"
+        },
+        {
+            "@id": "Table:ReconstructedNetwork",
+            "type": "Table",
+            "description": "Reconstructed matrix of IRS notional amounts.",
+            "relationship:illustrates": "Figure:B.2",
+            "source": "Mathematical Finance - 2024 - Veraart - Systemic risk in markets with multiple central counterparties.pdf (Page 38)"
+        }
+    ]
+}

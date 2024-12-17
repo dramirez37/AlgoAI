@@ -1,0 +1,190 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:RiskMeasure",
+            "type": "Risk Measure",
+            "description": "A measure used to quantify the risk associated with financial assets.",
+            "relationship:uses": "Entity:FinancialModel",
+            "equation:definedBy": "Equation:MaturityIndependentRiskMeasure",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:RiskMeasureComparison",
+            "type": "Table",
+            "description": "A table comparing different risk measures under various market conditions.",
+            "relationship:illustrates": "Entity:RiskMeasure",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:PortfolioProcesses",
+            "type": "Financial Model",
+            "description": "A model for predicting portfolio gains processes.",
+            "relationship:uses": "Entity:AdmissiblePortfolioProcesses",
+            "equation:definedBy": "Equation:GainsProcessDefinition",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:AdmissiblePortfolioProcesses",
+            "type": "Table",
+            "description": "A table listing admissible portfolio processes.",
+            "relationship:illustrates": "Entity:PortfolioProcesses",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:RiskMeasure",
+            "type": "Financial Model",
+            "description": "A model to calculate risk measures.",
+            "relationship:uses": "Entity:RiskMeasureDataset",
+            "equation:definedBy": "Equation:RiskMeasureFormula",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:RiskMeasureComparison",
+            "type": "Table",
+            "description": "A table comparing different risk measures.",
+            "relationship:illustrates": "Entity:RiskMeasure",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:MaturityIndependentRiskMeasure",
+            "type": "FinancialModel",
+            "description": "A model for calculating maturity-independent risk measures.",
+            "relationship:uses": "Entity:RandomVariable",
+            "equation:definedBy": "Equation:RiskMeasureDefinition",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:RiskMeasureComparison",
+            "type": "Table",
+            "description": "A comparison table of risk measures across different maturities.",
+            "relationship:illustrates": "Entity:MaturityIndependentRiskMeasure",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 8)"
+        },
+        {
+            "@id": "Figure:MarketTree",
+            "type": "Figure",
+            "description": "A market tree illustrating the risk measures lacking maturity independence.",
+            "relationship:depicts": "Entity:RiskMeasures",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:RiskMeasures",
+            "type": "Risk Measure",
+            "description": "Risk measures that lack maturity independence.",
+            "relationship:examples": "Figure:MarketTree",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:ForwardExponentialPerformance",
+            "type": "Financial Measure",
+            "description": "A measure for forward performance processes.",
+            "relationship:uses": "Entity:RandomField",
+            "equation:definedBy": "Equation:ForwardExponentialPerformance",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:ForwardPerformanceComparison",
+            "type": "Table",
+            "description": "A comparison of forward performance measures.",
+            "relationship:illustrates": "Entity:ForwardExponentialPerformance",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 19)"
+        },
+        {
+            "@id": "Entity:RiskMeasure",
+            "type": "Risk Measure",
+            "description": "A measure used to quantify the risk associated with financial instruments.",
+            "relationship:uses": "Entity:RiskModel",
+            "equation:definedBy": "Equation:RiskMeasureDefinition",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:RiskComparison",
+            "type": "Table",
+            "description": "A table comparing different risk measures across various financial instruments.",
+            "relationship:illustrates": "Entity:RiskMeasure",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 20)"
+        },
+        {
+            "@id": "Entity:ForwardPriceFunctional",
+            "type": "Financial Model",
+            "description": "A model to calculate forward price functional.",
+            "relationship:uses": "Entity:ForwardPriceFunctionalData",
+            "equation:definedBy": "Equation:ForwardPriceFunctionalDefinition",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 21)"
+        },
+        {
+            "@id": "Table:ForwardPriceComparison",
+            "type": "Table",
+            "description": "A table comparing forward prices across different time periods.",
+            "relationship:illustrates": "Entity:ForwardPriceFunctional",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 21)"
+        },
+        {
+            "@id": "Entity:SummaryFutureResearch",
+            "type": "ResearchObjective",
+            "description": "The goals of the present paper are twofold: 1. we want to bring forth and illustrate the concept of maturity-independent risk measures; and 2. we want to provide a class of such measures.",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:ExamplesOfRiskMeasures",
+            "type": "Table",
+            "description": "Two examples\u2014one defined on a finite probability space and the other in an It\u00f4-process setting\u2014are given.",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 22)"
+        },
+        {
+            "@id": "Entity:RiskMeasure",
+            "type": "Financial Model",
+            "description": "A model to calculate risk measures.",
+            "relationship:uses": "Entity:Data",
+            "equation:definedBy": "Equation:RiskMeasureFormula",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 23)"
+        },
+        {
+            "@id": "Table:RiskMeasureComparison",
+            "type": "Table",
+            "description": "A table comparing different risk measures.",
+            "relationship:illustrates": "Entity:RiskMeasure",
+            "source": "Maturity-Independent Risk Measures.pdf (Page 23)"
+        }
+    ]
+}

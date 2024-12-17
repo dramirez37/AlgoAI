@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Cash holdings in pension funds.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:ExcessCashInvestment",
+            "type": "Table",
+            "description": "A table presenting descriptive statistics for the four asset classes in excess of returns on cash and cash equivalents.",
+            "relationship:contains": "Figure:ExcessCashInvestment",
+            "source": "Cash holdings in pension funds.pdf (Page 20)"
+        },
+        {
+            "@id": "Figure:ExcessCashInvestment",
+            "type": "Figure",
+            "description": "A figure showing the relationship between excess cash investment and the four asset classes.",
+            "relationship:depicts": "Table:ExcessCashInvestment",
+            "source": "Cash holdings in pension funds.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:SampleConstruction",
+            "type": "Table",
+            "description": "A table describing the sample construction for the analysis.",
+            "relationship:illustrates": "Entity:SampleConstruction",
+            "source": "Cash holdings in pension funds.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:VariableDefinition",
+            "type": "Table",
+            "description": "A table defining the variables used in the analysis.",
+            "relationship:illustrates": "Entity:VariableDefinition",
+            "source": "Cash holdings in pension funds.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Cash holdings in pension funds.pdf (Page 23)"
+        },
+        {
+            "@id": "Entity:CashHoldings",
+            "type": "Financial Model",
+            "description": "A model to calculate cash holdings in pension funds.",
+            "relationship:uses": "Entity:DataOnCashHoldings",
+            "equation:definedBy": "Equation:CashHoldingsCalculation",
+            "source": "Cash holdings in pension funds.pdf (Page 25)"
+        },
+        {
+            "@id": "Table:CashHoldingsComparison",
+            "type": "Table",
+            "description": "A table comparing cash holdings across different pension funds.",
+            "relationship:illustrates": "Entity:CashHoldings",
+            "source": "Cash holdings in pension funds.pdf (Page 25)"
+        }
+    ]
+}

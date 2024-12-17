@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Figure:LoanGrowthTreatmentVsControlGroup",
+            "type": "Figure",
+            "description": "A figure showing the loan growth of the treatment and control group over time.",
+            "relationship:depicts": "Entity:LoanGrowth",
+            "source": "Countercyclical capital buffers and credit supply- Evidence from the COVID-19 crisis.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:LoanGrowth",
+            "type": "Financial Indicator",
+            "description": "The growth of loans over time.",
+            "relationship:measuredBy": "Figure:LoanGrowthTreatmentVsControlGroup",
+            "source": "Countercyclical capital buffers and credit supply- Evidence from the COVID-19 crisis.pdf (Page 3)"
+        }
+    ]
+}

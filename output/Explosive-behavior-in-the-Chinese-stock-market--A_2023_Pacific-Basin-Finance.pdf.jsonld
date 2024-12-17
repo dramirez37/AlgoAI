@@ -1,0 +1,21 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Table:5",
+            "type": "Table",
+            "description": "The table presents the results of the co-explosivity analysis in the Chinese equity sectors based on the estimation of the logistic regression model specified in Eq. (11). This table allows quantifying whether explosive episodes in a given sector are significantly associated with explosive episodes in the remaining sectors. Overall, the results reveal that periods of explosive dynamics in any Chinese equity sector are contemporaneously related to explosive periods in many other sectors, suggesting the presence of co-explosive behavior.",
+            "relationship:contains": "Equation:11",
+            "source": "Explosive-behavior-in-the-Chinese-stock-market--A_2023_Pacific-Basin-Finance.pdf (Page 13)"
+        }
+    ]
+}

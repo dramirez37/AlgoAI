@@ -1,0 +1,89 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ViscositySolution",
+            "type": "Mathematical Solution",
+            "description": "A solution to the HJB equation using viscosity methods.",
+            "relationship:uses": "Entity:StochasticVolatilityModel",
+            "equation:definedBy": "Equation:ViscositySolutionFormula",
+            "source": "Convergence by Viscosity Methods in Multiscale Financial Models with Stochastic Volatility.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:ConvergenceAnalysis",
+            "type": "Table",
+            "description": "A table analyzing the convergence of solutions.",
+            "relationship:illustrates": "Entity:ViscositySolution",
+            "source": "Convergence by Viscosity Methods in Multiscale Financial Models with Stochastic Volatility.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:ViscosityMethod",
+            "type": "Mathematical Method",
+            "description": "A method for solving partial differential equations.",
+            "relationship:uses": "Entity:MultiscaleFinancialModel",
+            "equation:definedBy": "Equation:ViscositySolution",
+            "source": "Convergence by Viscosity Methods in Multiscale Financial Models with Stochastic Volatility.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:ViscositySolutionComparison",
+            "type": "Table",
+            "description": "A comparison of viscosity solutions across different scales.",
+            "relationship:illustrates": "Entity:ViscosityMethod",
+            "source": "Convergence by Viscosity Methods in Multiscale Financial Models with Stochastic Volatility.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:OptimalControl",
+            "type": "Optimal Control",
+            "description": "The optimal control strategy for a given financial model.",
+            "relationship:uses": "Entity:ControlStrategy",
+            "equation:definedBy": "Equation:OptimalControlEquation",
+            "source": "Convergence by Viscosity Methods in Multiscale Financial Models with Stochastic Volatility.pdf (Page 29)"
+        },
+        {
+            "@id": "Table:ViscositySolution",
+            "type": "Table",
+            "description": "A table illustrating the viscosity solution of a partial differential equation.",
+            "relationship:illustrates": "Entity:OptimalControl",
+            "source": "Convergence by Viscosity Methods in Multiscale Financial Models with Stochastic Volatility.pdf (Page 29)"
+        },
+        {
+            "@id": "Entity:ValueFunction",
+            "type": "Mathematical Function",
+            "description": "The value function in the context of stochastic control problems.",
+            "relationship:dependsOn": "Entity:InitialPosition",
+            "equation:definedBy": "Equation:12",
+            "source": "Convergence by Viscosity Methods in Multiscale Financial Models with Stochastic Volatility.pdf (Page 31)"
+        },
+        {
+            "@id": "Table:RegularPerturbation",
+            "type": "Table",
+            "description": "A table illustrating regular perturbations of the value function.",
+            "relationship:illustrates": "Equation:12",
+            "source": "Convergence by Viscosity Methods in Multiscale Financial Models with Stochastic Volatility.pdf (Page 31)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Convergence by Viscosity Methods in Multiscale Financial Models with Stochastic Volatility.pdf (Page 35)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Convergence by Viscosity Methods in Multiscale Financial Models with Stochastic Volatility.pdf (Page 35)"
+        }
+    ]
+}

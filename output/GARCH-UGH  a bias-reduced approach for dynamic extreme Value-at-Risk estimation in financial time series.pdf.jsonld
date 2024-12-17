@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:GARCH-UGH",
+            "source": "GARCH-UGH  a bias-reduced approach for dynamic extreme Value-at-Risk estimation in financial time series.pdf (Page 10)"
+        },
+        {
+            "@id": "Figure:VaRViolations",
+            "type": "Figure",
+            "description": "A figure showing VaR violations over time.",
+            "relationship:contains": "Table:VaRData",
+            "source": "GARCH-UGH  a bias-reduced approach for dynamic extreme Value-at-Risk estimation in financial time series.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:VaRData",
+            "type": "Table",
+            "description": "A table containing VaR data.",
+            "relationship:illustrates": "Figure:VaRViolations",
+            "source": "GARCH-UGH  a bias-reduced approach for dynamic extreme Value-at-Risk estimation in financial time series.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:GARCH-UGH",
+            "source": "GARCH-UGH  a bias-reduced approach for dynamic extreme Value-at-Risk estimation in financial time series.pdf (Page 14)"
+        }
+    ]
+}

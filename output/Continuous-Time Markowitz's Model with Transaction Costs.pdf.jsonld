@@ -1,0 +1,299 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:MarkowitzModel",
+            "type": "Financial Model",
+            "description": "A model to optimize portfolio selection under transaction costs.",
+            "relationship:uses": "Entity:TransactionCosts",
+            "equation:definedBy": "Equation:TimeInconsistencyProblem",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:TimeInconsistencyAnalysis",
+            "type": "Table",
+            "description": "A table analyzing time inconsistency in dynamic portfolio optimization.",
+            "relationship:illustrates": "Entity:MarkowitzModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:ProblemFormulation",
+            "type": "Investment Strategy",
+            "description": "A strategy for continuous-time portfolio selection considering transaction costs.",
+            "relationship:uses": "Entity:ContinuousTimeMarket",
+            "equation:definedBy": "Equation:ProblemFormulation",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:OptimalStrategy",
+            "type": "Table",
+            "description": "A table illustrating the optimal strategy derived from the problem formulation.",
+            "relationship:illustrates": "Entity:ProblemFormulation",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:MarkowitzModel",
+            "type": "Financial Model",
+            "description": "A model to optimize portfolio returns under transaction costs.",
+            "relationship:uses": "Entity:TransactionCosts",
+            "equation:definedBy": "Equation:MarkowitzObjective",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:TransactionCostImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of transaction costs on portfolio optimization.",
+            "relationship:illustrates": "Entity:MarkowitzModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:TransactionCostsModel",
+            "type": "Financial Model",
+            "description": "A model to analyze continuous-time Markowitz's model with transaction costs.",
+            "relationship:uses": "Entity:TransactionCostsDataset",
+            "equation:definedBy": "Equation:TransactionCostsFormula",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:TransactionCostImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of transaction costs on portfolio optimization.",
+            "relationship:illustrates": "Entity:TransactionCostsModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:MarkowitzModel",
+            "type": "Financial Model",
+            "description": "Markowitz's model with transaction costs for continuous-time asset allocation.",
+            "relationship:uses": "Entity:TransactionCosts",
+            "equation:definedBy": "Equation:MarkowitzWithCosts",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:CostImpact",
+            "type": "Table",
+            "description": "Impact of transaction costs on portfolio performance over time.",
+            "relationship:illustrates": "Entity:MarkowitzModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:ContinuousTimeMarkowitzModel",
+            "type": "Financial Model",
+            "description": "A model for continuous-time portfolio optimization with transaction costs.",
+            "relationship:uses": "Entity:TransactionCosts",
+            "equation:definedBy": "Equation:ContinuousTimeMarkowitzModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:TransactionCostImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of transaction costs on portfolio performance.",
+            "relationship:illustrates": "Entity:ContinuousTimeMarkowitzModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:UnconstrainedProblem",
+            "type": "Optimization Problem",
+            "description": "An optimization problem without constraints.",
+            "relationship:uses": "Entity:LagrangianRelaxation",
+            "equation:definedBy": "Equation:UnconstrainedProblem",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 10)"
+        },
+        {
+            "@id": "Table:ValueFunction",
+            "type": "Table",
+            "description": "A table defining the value function for an optimization problem.",
+            "relationship:illustrates": "Entity:UnconstrainedProblem",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 10)"
+        },
+        {
+            "@id": "Entity:MarkowitzModel",
+            "type": "Financial Model",
+            "description": "A model to optimize portfolio returns under transaction costs.",
+            "relationship:uses": "Entity:TransactionCosts",
+            "equation:definedBy": "Equation:OptimizationProblem",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:OptimalPortfolio",
+            "type": "Table",
+            "description": "A table illustrating the optimal portfolio composition under different transaction costs.",
+            "relationship:illustrates": "Entity:MarkowitzModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:MarkowitzModelWithTransactionCosts",
+            "type": "Financial Model",
+            "description": "A model for continuous-time portfolio optimization with transaction costs.",
+            "relationship:uses": "Entity:TransactionCosts",
+            "equation:definedBy": "Equation:MarkowitzModelWithTransactionCosts",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:TransactionCostImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of transaction costs on portfolio performance.",
+            "relationship:illustrates": "Entity:MarkowitzModelWithTransactionCosts",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:MarkowitzModelWithTransactionCosts",
+            "type": "Financial Model",
+            "description": "A model to optimize portfolio returns considering transaction costs.",
+            "relationship:uses": "Entity:PortfolioOptimizationDataset",
+            "equation:definedBy": "Equation:OptimizationObjective",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:OptimizationResults",
+            "type": "Table",
+            "description": "A table presenting the results of the optimization process.",
+            "relationship:illustrates": "Entity:MarkowitzModelWithTransactionCosts",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 16)"
+        },
+        {
+            "@id": "Entity:MarkowitzModel",
+            "type": "Financial Model",
+            "description": "A model to optimize portfolio returns under transaction costs.",
+            "relationship:uses": "Entity:TransactionCosts",
+            "equation:definedBy": "Equation:OptimalSolution",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:OptimalSolution",
+            "type": "Table",
+            "description": "A table illustrating the optimal solution for the Markowitz model.",
+            "relationship:illustrates": "Entity:MarkowitzModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 18)"
+        },
+        {
+            "@id": "Entity:OptimalStrategy",
+            "type": "Optimal Investment Strategy",
+            "description": "The strategy that maximizes expected terminal wealth under transaction costs.",
+            "relationship:uses": "Entity:TransactionCosts",
+            "equation:definedBy": "Equation:OptimalStrategyDefinition",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:TransactionCosts",
+            "type": "Table",
+            "description": "A table illustrating the impact of transaction costs on optimal strategies.",
+            "relationship:illustrates": "Entity:OptimalStrategy",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 19)"
+        },
+        {
+            "@id": "Entity:MarkowitzModelWithTransactionCosts",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility considering transaction costs.",
+            "relationship:uses": "Entity:ForwardRateVolatility",
+            "equation:definedBy": "Equation:MarkowitzModelWithTransactionCosts",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 24)"
+        },
+        {
+            "@id": "Table:ForwardRateVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing forward rate volatilities across different scenarios.",
+            "relationship:illustrates": "Entity:MarkowitzModelWithTransactionCosts",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 24)"
+        },
+        {
+            "@id": "Entity:ContinuousTimeMarkowitzModel",
+            "type": "Financial Model",
+            "description": "A continuous-time version of the Markowitz's model with transaction costs.",
+            "relationship:uses": "Entity:TransactionCosts",
+            "equation:definedBy": "Equation:ContinuousTimeMarkowitz",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 25)"
+        },
+        {
+            "@id": "Table:TransactionCostsComparison",
+            "type": "Table",
+            "description": "A comparison of transaction costs across different scenarios.",
+            "relationship:illustrates": "Entity:ContinuousTimeMarkowitzModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 25)"
+        },
+        {
+            "@id": "Entity:MarkowitzModelWithTransactionCosts",
+            "type": "Financial Model",
+            "description": "A model that incorporates transaction costs into the traditional Markowitz portfolio optimization framework.",
+            "relationship:uses": "Entity:AuxiliaryFunction",
+            "equation:definedBy": "Equation:MarkowitzModelWithTransactionCosts",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 26)"
+        },
+        {
+            "@id": "Table:TransactionCostImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of transaction costs on portfolio performance.",
+            "relationship:illustrates": "Entity:MarkowitzModelWithTransactionCosts",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 26)"
+        },
+        {
+            "@id": "Entity:ForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 27)"
+        },
+        {
+            "@id": "Table:ForwardRateVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing forward rate volatilities across different time periods.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 27)"
+        },
+        {
+            "@id": "Entity:MarkowitzModelWithTransactionCosts",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility considering transaction costs.",
+            "relationship:uses": "Entity:ForwardRateVolatility",
+            "equation:definedBy": "Equation:ForwardRateVolatilityWithTransactionCosts",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 28)"
+        },
+        {
+            "@id": "Table:ForwardRateVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing forward rate volatilities across different time periods.",
+            "relationship:illustrates": "Entity:MarkowitzModelWithTransactionCosts",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 28)"
+        },
+        {
+            "@id": "Entity:ContinuousTimeMarkowitzModel",
+            "type": "Financial Model",
+            "description": "A model for continuous-time portfolio optimization with transaction costs.",
+            "relationship:uses": "Entity:TransactionCostsDataset",
+            "equation:definedBy": "Equation:ContinuousTimeMarkowitzEquation",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 29)"
+        },
+        {
+            "@id": "Table:TransactionCostImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of transaction costs on portfolio performance.",
+            "relationship:illustrates": "Entity:ContinuousTimeMarkowitzModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 29)"
+        },
+        {
+            "@id": "Entity:MarkowitzModel",
+            "type": "Financial Model",
+            "description": "Markowitz's portfolio selection model with transaction costs.",
+            "relationship:uses": "Entity:TransactionCosts",
+            "equation:definedBy": "Equation:PortfolioSelection",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 30)"
+        },
+        {
+            "@id": "Table:TransactionCostImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of transaction costs on portfolio performance.",
+            "relationship:illustrates": "Entity:MarkowitzModel",
+            "source": "Continuous-Time Markowitz's Model with Transaction Costs.pdf (Page 30)"
+        }
+    ]
+}

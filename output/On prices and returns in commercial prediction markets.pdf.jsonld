@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:QuantitativeFinance",
+            "type": "Book",
+            "description": "A book on quantitative finance.",
+            "source": "On prices and returns in commercial prediction markets.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "source": "On prices and returns in commercial prediction markets.pdf (Page 1)"
+        },
+        {
+            "@id": "Figure:RatiosOfEquilibriumPricesToTrueProbabilitiesAndPreAndPostFeeLossRatesWithAtFeesOfF001",
+            "type": "Figure",
+            "description": "A figure showing ratios of equilibrium prices to true probabilities and pre- and post-fee loss rates with at fees of F = 0.01.",
+            "source": "On prices and returns in commercial prediction markets.pdf (Page 6)"
+        },
+        {
+            "@id": "Figure:RatiosOfEquilibriumPricesToTrueProbabilitiesAndPreAndPostFeeLossRatesWithACommissionRateOnWinningsOf1",
+            "type": "Figure",
+            "description": "A figure showing ratios of equilibrium prices to true probabilities and pre- and post-fee loss rates with a commission rate on winnings of 1 = 0.07. Agents have uniform beliefs on [ ( 1 ) , + ( 1 ) ]. (a) Market Price (p)/True Probability ( ). (b) Loss rates without fees and (c) Loss rates with fees.",
+            "source": "On prices and returns in commercial prediction markets.pdf (Page 10)"
+        },
+        {
+            "@id": "Figure:RatiosOfEquilibriumPricesToTrueProbabilitiesAndPre-AndPostFeeLossRatesWithAnAdValoremChargeOf2OnContractPurchases",
+            "type": "Figure",
+            "description": "A figure showing ratios of equilibrium prices to true probabilities and pre-and post-fee loss rates with an ad valorem charge of 2% on contract purchases.",
+            "source": "On prices and returns in commercial prediction markets.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:RiskAversion",
+            "type": "Concept",
+            "description": "The concept of risk aversion in financial markets.",
+            "relationship:relatedTo": "Entity:PredictionMarket",
+            "source": "On prices and returns in commercial prediction markets.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:RiskAversionComparison",
+            "type": "Table",
+            "description": "A table comparing risk aversion across different prediction markets.",
+            "relationship:illustrates": "Entity:RiskAversion",
+            "source": "On prices and returns in commercial prediction markets.pdf (Page 14)"
+        },
+        {
+            "@id": "Figure:A6",
+            "type": "Figure",
+            "description": "Comparisons across different fee structures. Agents have uniform beliefs on [ ( 1 ) , + ( 1 ) ]. (a) Market Price (p)/True Probability ( ) and (b) Loss rates for back contracts after fees",
+            "source": "On prices and returns in commercial prediction markets.pdf (Page 15)"
+        }
+    ]
+}

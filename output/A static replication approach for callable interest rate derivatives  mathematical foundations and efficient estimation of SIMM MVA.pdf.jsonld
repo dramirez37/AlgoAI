@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:VaRModel",
+            "type": "Financial Model",
+            "description": "A model to calculate Value at Risk (VaR).",
+            "relationship:uses": "Entity:Portfolio",
+            "equation:definedBy": "Equation:VaRFormula",
+            "source": "A static replication approach for callable interest rate derivatives  mathematical foundations and efficient estimation of SIMM MVA.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VaRComparison",
+            "type": "Table",
+            "description": "A table comparing VaR values across different portfolios.",
+            "relationship:illustrates": "Entity:VaRModel",
+            "source": "A static replication approach for callable interest rate derivatives  mathematical foundations and efficient estimation of SIMM MVA.pdf (Page 3)"
+        },
+        {
+            "@id": "Figure:MarginValueAdjustment",
+            "type": "Figure",
+            "description": "Definition margin value adjustment (MVA).",
+            "source": "A static replication approach for callable interest rate derivatives  mathematical foundations and efficient estimation of SIMM MVA.pdf (Page 5)",
+            "figure": "Figure 3. Definition margin value adjustment (MVA)."
+        },
+        {
+            "@id": "Figure:StaticReplication",
+            "type": "Figure",
+            "description": "MVA through static replication.",
+            "source": "A static replication approach for callable interest rate derivatives  mathematical foundations and efficient estimation of SIMM MVA.pdf (Page 5)",
+            "figure": "Figure 4. MVA through static replication."
+        }
+    ]
+}

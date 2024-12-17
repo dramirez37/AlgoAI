@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:sameCall",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:examplePortfolio",
+            "equation:definedBy": "Equation:exampleFormula",
+            "source": "Mathematical Finance - 2023 - Allan - Model-free portfolio theory A rough path approach.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:performanceComparison",
+            "type": "Table",
+            "description": "A table comparing the performance of different portfolios.",
+            "relationship:illustrates": "Entity:sameCall",
+            "source": "Mathematical Finance - 2023 - Allan - Model-free portfolio theory A rough path approach.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:PortfolioTheory",
+            "type": "Financial Model",
+            "description": "A model for portfolio theory using rough path approach.",
+            "relationship:uses": "Entity:RoughPath",
+            "equation:definedBy": "Equation:RelativeCovariance",
+            "source": "Mathematical Finance - 2023 - Allan - Model-free portfolio theory A rough path approach.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:CovarianceComparison",
+            "type": "Table",
+            "description": "A table comparing covariance matrices across different portfolios.",
+            "relationship:illustrates": "Entity:PortfolioTheory",
+            "source": "Mathematical Finance - 2023 - Allan - Model-free portfolio theory A rough path approach.pdf (Page 16)"
+        },
+        {
+            "@id": "Entity:ProductsOfControlledPaths",
+            "type": "MathematicalConcept",
+            "description": "The concept of products of controlled paths in rough path theory.",
+            "relationship:partOf": "Section:A1",
+            "source": "Mathematical Finance - 2023 - Allan - Model-free portfolio theory  A rough path approach.pdf (Page 50)"
+        },
+        {
+            "@id": "Equation:A1",
+            "type": "MathematicalExpression",
+            "description": "An equation defining the product of controlled paths.",
+            "relationship:defines": "Entity:ProductsOfControlledPaths",
+            "source": "Mathematical Finance - 2023 - Allan - Model-free portfolio theory  A rough path approach.pdf (Page 50)"
+        }
+    ]
+}

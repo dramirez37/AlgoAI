@@ -1,0 +1,86 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:RoughVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to estimate volatility using fractional Brownian motion with Hurst index H < 1/2.",
+            "relationship:uses": "Entity:HighFrequencyData",
+            "equation:definedBy": "Equation:FractionalBrownianMotion",
+            "source": "Detecting rough volatility  a filtering approach.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:VolatilityEstimation",
+            "type": "Table",
+            "description": "A table illustrating the estimation of volatility using the proposed model.",
+            "relationship:illustrates": "Entity:RoughVolatilityModel",
+            "source": "Detecting rough volatility  a filtering approach.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:RoughVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility using a Markovian approach.",
+            "relationship:uses": "Entity:StockPriceData",
+            "equation:definedBy": "Equation:RoughVolatilityCalculation",
+            "source": "Detecting rough volatility  a filtering approach.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:RoughVolatilityComparison",
+            "type": "Table",
+            "description": "A comparison of rough volatility estimates across different time periods.",
+            "relationship:illustrates": "Entity:RoughVolatilityModel",
+            "source": "Detecting rough volatility  a filtering approach.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:DiscreteTimeModel",
+            "type": "Financial Model",
+            "description": "A model for discrete-time financial processes.",
+            "relationship:uses": "Entity:ParameterSet",
+            "equation:definedBy": "Equation:DiscreteTimeModelDefinition",
+            "source": "Detecting rough volatility  a filtering approach.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:DiscreteTimeModelParameters",
+            "type": "Table",
+            "description": "A table listing parameters for the discrete-time model.",
+            "relationship:illustrates": "Entity:DiscreteTimeModel",
+            "source": "Detecting rough volatility  a filtering approach.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:RoughVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:RoughVolatilityData",
+            "equation:definedBy": "Equation:RoughVolatilityCalculation",
+            "source": "Detecting rough volatility  a filtering approach.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:RoughVolatilityModel",
+            "source": "Detecting rough volatility  a filtering approach.pdf (Page 15)"
+        },
+        {
+            "@id": "Figure:A1",
+            "type": "Figure",
+            "description": "The figure shows the behavior of the MSE (log scale) in first-lag autocorrelation of increments of the approximating process W^(H,J) for varying J. The solid horizontal black line depicts the corresponding MSE for the \"true\" process simulated with Choleski. Each panel corresponds to a different value of H: starting from the top-left panel and proceeding clockwise, we have the cases H = 0.1, H = 0.2, H = 0.3 and H = 0.4.",
+            "source": "Detecting rough volatility  a filtering approach.pdf (Page 16)"
+        },
+        {
+            "@id": "Figure:A2",
+            "type": "Figure",
+            "description": "99% highest-density credible intervals for H at final time. Each panel corresponds to a different value of H: from top to bottom we have H = 0.1, H = 0.2, H = 0.3 and H = 0.4. In all panels, the (coral) intervals on the left correspond to J = 18, the (blue) intervals in the middle to J = 48 and the (purple) intervals on the right to J = 96.",
+            "source": "Detecting rough volatility  a filtering approach.pdf (Page 17)"
+        }
+    ]
+}

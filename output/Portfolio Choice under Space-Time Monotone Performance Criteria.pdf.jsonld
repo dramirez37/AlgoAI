@@ -1,0 +1,134 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:PortfolioChoiceModel",
+            "type": "Financial Model",
+            "description": "A model to analyze portfolio choice under space-time monotone performance criteria.",
+            "relationship:uses": "Entity:InvestorPreferences",
+            "equation:definedBy": "Equation:TimeDecreasingForwardPerformanceProcesses",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:OptimalPortfolioChoice",
+            "type": "Table",
+            "description": "A table illustrating optimal portfolio choices based on the proposed approach.",
+            "relationship:illustrates": "Entity:PortfolioChoiceModel",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:PortfolioChoiceModel",
+            "type": "Financial Model",
+            "description": "A model for portfolio choice under space-time monotone performance criteria.",
+            "relationship:uses": "Entity:RisklessSecurity",
+            "equation:definedBy": "Equation:OptimalWealth",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:RisklessSecurityComparison",
+            "type": "Table",
+            "description": "A comparison of riskless securities under different performance criteria.",
+            "relationship:illustrates": "Entity:PortfolioChoiceModel",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:ForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityFormula",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:ForwardRateVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing forward rate volatilities across different time periods.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:ForwardDrift",
+            "type": "Financial Model",
+            "description": "A model to calculate forward drift in portfolio choice.",
+            "relationship:uses": "Entity:ForwardProcess",
+            "equation:definedBy": "Equation:ForwardDrift",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:ForwardProcessComparison",
+            "type": "Table",
+            "description": "A table comparing forward processes across different scenarios.",
+            "relationship:illustrates": "Entity:ForwardDrift",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:OptimalWealthFormula",
+            "type": "FinancialModel",
+            "description": "The optimal wealth formula for portfolio choice under space-time monotone performance criteria.",
+            "relationship:uses": "Entity:InitialEndowment",
+            "equation:definedBy": "Equation:OptimalWealthFormula",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:OptimalWealthComparison",
+            "type": "Table",
+            "description": "A table comparing optimal wealth under different initial endowments.",
+            "relationship:illustrates": "Entity:OptimalWealthFormula",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:PortfolioChoice",
+            "type": "Financial Model",
+            "description": "A model for portfolio choice under space-time monotone performance criteria.",
+            "relationship:uses": "Entity:ForwardRateVolatility",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:ForwardRateVolatility",
+            "type": "Table",
+            "description": "A table illustrating forward rate volatility over different time periods.",
+            "relationship:illustrates": "Entity:PortfolioChoice",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 20)"
+        },
+        {
+            "@id": "Entity:OptimalAssetAllocation",
+            "type": "Financial Model",
+            "description": "An optimal asset allocation model under forward exponential criteria.",
+            "relationship:uses": "Entity:MarkovProcessesAndRelatedTopics",
+            "equation:definedBy": "Equation:OptimalAssetAllocationFormula",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 40)"
+        },
+        {
+            "@id": "Table:PerformanceCriteriaComparison",
+            "type": "Table",
+            "description": "A comparison of performance criteria under different investment strategies.",
+            "relationship:illustrates": "Entity:OptimalAssetAllocation",
+            "source": "Portfolio Choice under Space-Time Monotone Performance Criteria.pdf (Page 40)"
+        }
+    ]
+}

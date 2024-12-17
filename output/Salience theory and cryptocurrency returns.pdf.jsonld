@@ -1,0 +1,158 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:Cross-sectionalReturns",
+            "type": "Financial Model",
+            "description": "A model to analyze cross-sectional returns in the cryptocurrency market.",
+            "relationship:uses": "Entity:Cross-sectionalData",
+            "equation:definedBy": "Equation:Cross-sectionalReturnFormula",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:Cross-sectionalReturns",
+            "type": "Table",
+            "description": "A table comparing cross-sectional returns across different cryptocurrencies.",
+            "relationship:illustrates": "Entity:Cross-sectionalReturns",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:ST",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:DailyCryptoReturns",
+            "equation:definedBy": "Equation:ST",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ST",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:SingleSortedPortfolios",
+            "type": "Table",
+            "description": "A table presenting the average returns of the single-sorted portfolios using the salience theory (ST) measure.",
+            "relationship:contains": "Figure:SingleSortedPortfolios",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 4)"
+        },
+        {
+            "@id": "Figure:SingleSortedPortfolios",
+            "type": "Figure",
+            "description": "A figure illustrating the single-sorted portfolios using the salience theory (ST) measure.",
+            "relationship:depicts": "Table:SingleSortedPortfolios",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:RiskFactorAnalysis",
+            "type": "Risk Analysis",
+            "description": "An analysis of risk factors affecting cryptocurrency returns.",
+            "relationship:uses": "Entity:RiskFactors",
+            "equation:definedBy": "Equation:RiskFactorRegression",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:RiskFactorRegression",
+            "type": "Table",
+            "description": "A table presenting the results of a risk factor regression analysis.",
+            "relationship:illustrates": "Entity:RiskFactorAnalysis",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:AlphaModelComparison",
+            "type": "Table",
+            "description": "A table comparing alpha models across different anomalies.",
+            "relationship:illustrates": "Entity:AlphaModel",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:AlphaModel",
+            "type": "Table",
+            "description": "A table listing alpha models with their respective anomalies.",
+            "relationship:contains": "Table:AlphaModelComparison",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:AnomalyDetection",
+            "type": "Statistical Method",
+            "description": "A method for detecting anomalies in financial data.",
+            "relationship:uses": "Entity:CryptocurrencyReturns",
+            "equation:definedBy": "Equation:AnomalyDetectionFormula",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:AnomalyDetectionResults",
+            "type": "Table",
+            "description": "A table presenting the results of anomaly detection.",
+            "relationship:illustrates": "Entity:AnomalyDetection",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 10)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:SalienceTheory",
+            "type": "Financial Theory",
+            "description": "A theory explaining the relationship between stock returns and market sentiment.",
+            "relationship:uses": "Entity:CryptocurrencyReturns",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:CryptocurrencyReturns",
+            "type": "Table",
+            "description": "A table illustrating the returns of various cryptocurrencies over different time periods.",
+            "relationship:illustrates": "Entity:SalienceTheory",
+            "source": "Salience theory and cryptocurrency returns.pdf (Page 17)"
+        }
+    ]
+}

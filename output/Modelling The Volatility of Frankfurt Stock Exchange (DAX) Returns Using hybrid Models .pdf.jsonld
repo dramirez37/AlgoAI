@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ARIMA-GARCH",
+            "type": "Financial Model",
+            "description": "A hybrid model combining ARIMA and GARCH for forecasting stock returns.",
+            "relationship:uses": "Entity:StockMarketData",
+            "equation:definedBy": "Equation:ARIMA-GARCH",
+            "source": "Modelling The Volatility of Frankfurt Stock Exchange (DAX) Returns Using hybrid Models .pdf (Page 2)"
+        },
+        {
+            "@id": "Table:ForecastAccuracy",
+            "type": "Table",
+            "description": "A table comparing forecast accuracy of different models.",
+            "relationship:illustrates": "Entity:ARIMA-GARCH",
+            "source": "Modelling The Volatility of Frankfurt Stock Exchange (DAX) Returns Using hybrid Models .pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:GARCHModel",
+            "type": "Financial Model",
+            "description": "A model for modeling the volatility of financial markets.",
+            "relationship:uses": "Entity:TimeSeriesData",
+            "equation:definedBy": "Equation:GARCHEquations",
+            "source": "Modelling The Volatility of Frankfurt Stock Exchange (DAX) Returns Using hybrid Models .pdf (Page 4)"
+        },
+        {
+            "@id": "Table:GARCHComparison",
+            "type": "Table",
+            "description": "A table comparing GARCH models across different time periods.",
+            "relationship:illustrates": "Entity:GARCHModel",
+            "source": "Modelling The Volatility of Frankfurt Stock Exchange (DAX) Returns Using hybrid Models .pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Modelling The Volatility of Frankfurt Stock Exchange (DAX) Returns Using hybrid Models .pdf (Page 11)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Modelling The Volatility of Frankfurt Stock Exchange (DAX) Returns Using hybrid Models .pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Modelling The Volatility of Frankfurt Stock Exchange (DAX) Returns Using hybrid Models .pdf (Page 12)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Modelling The Volatility of Frankfurt Stock Exchange (DAX) Returns Using hybrid Models .pdf (Page 12)"
+        }
+    ]
+}

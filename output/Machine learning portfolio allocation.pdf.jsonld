@@ -1,0 +1,163 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:PortfolioAllocationModel",
+            "type": "Financial Model",
+            "description": "A model for portfolio allocation using machine learning.",
+            "relationship:uses": "Entity:ReturnForecasting",
+            "equation:definedBy": "Equation:RiskRewardTradeoff",
+            "source": "Machine learning portfolio allocation.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:ReturnsAndVolatilities",
+            "type": "Table",
+            "description": "A table showing returns and volatilities over different time periods.",
+            "relationship:illustrates": "Entity:PortfolioAllocationModel",
+            "source": "Machine learning portfolio allocation.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:VolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:VolatilityData",
+            "equation:definedBy": "Equation:VolatilityCalculation",
+            "source": "Machine learning portfolio allocation.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:VolatilityModel",
+            "source": "Machine learning portfolio allocation.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:PortfolioAllocationModel",
+            "type": "Financial Model",
+            "description": "A model for portfolio allocation based on machine learning.",
+            "relationship:uses": "Entity:RiskFactorPredictors",
+            "equation:definedBy": "Equation:PortfolioAllocationEquations",
+            "source": "Machine learning portfolio allocation.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:PortfolioPerformance",
+            "type": "Table",
+            "description": "A table showing the performance of different portfolio allocation strategies.",
+            "relationship:illustrates": "Entity:PortfolioAllocationModel",
+            "source": "Machine learning portfolio allocation.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:RandomForest",
+            "type": "Machine Learning Model",
+            "description": "A tree-based machine learning model used for portfolio allocation.",
+            "relationship:uses": "Entity:DataDistribution",
+            "equation:definedBy": "Equation:RandomForestEquation",
+            "source": "Machine learning portfolio allocation.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:ExcessReturnVolatility",
+            "type": "Table",
+            "description": "A table showing excess returns and volatility over different time periods.",
+            "relationship:illustrates": "Entity:RandomForest",
+            "source": "Machine learning portfolio allocation.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:VolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:MarketData",
+            "equation:definedBy": "Equation:ForwardRateVolatility",
+            "source": "Machine learning portfolio allocation.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:VolatilityModel",
+            "source": "Machine learning portfolio allocation.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:OutOfSampleForecastingAccuracy",
+            "type": "Financial Model",
+            "description": "A model to evaluate the accuracy of out-of-sample forecasts.",
+            "relationship:uses": "Entity:ExcessReturnModel",
+            "equation:definedBy": "Equation:ExcessReturnCalculation",
+            "source": "Machine learning portfolio allocation.pdf (Page 10)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across different models and time periods.",
+            "relationship:illustrates": "Entity:OutOfSampleForecastingAccuracy",
+            "source": "Machine learning portfolio allocation.pdf (Page 10)"
+        },
+        {
+            "@id": "Figure:SHAPvalues",
+            "type": "Figure",
+            "description": "A figure showing the overall importance of factors for the excess return models for the 1989 to 2019 period sorted by most positive contribution for Random Forest.",
+            "relationship:contains": "Table:SHAPvalues",
+            "source": "Machine learning portfolio allocation.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:SHAPvalues",
+            "type": "Table",
+            "description": "A table containing SHAP values for excess return factors.",
+            "relationship:illustrates": "Figure:SHAPvalues",
+            "source": "Machine learning portfolio allocation.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:OptimalPortfolio",
+            "type": "Financial Model",
+            "description": "A model to calculate the optimal portfolio weights for a given set of assets.",
+            "relationship:uses": "Entity:RiskFactors",
+            "equation:definedBy": "Equation:OptimalPortfolioEquation",
+            "source": "Machine learning portfolio allocation.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:OptimalPortfolioWeights",
+            "type": "Table",
+            "description": "A table listing the optimal portfolio weights for different risk factors.",
+            "relationship:illustrates": "Entity:OptimalPortfolio",
+            "source": "Machine learning portfolio allocation.pdf (Page 18)"
+        },
+        {
+            "@id": "Entity:RandomForestModel",
+            "type": "Financial Model",
+            "description": "A random forest model for predicting stock returns.",
+            "relationship:uses": "Entity:StockData",
+            "equation:definedBy": "Equation:RegressionTree",
+            "source": "Machine learning portfolio allocation.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:StockReturns",
+            "type": "Table",
+            "description": "A table of historical stock returns.",
+            "relationship:illustrates": "Entity:RandomForestModel",
+            "source": "Machine learning portfolio allocation.pdf (Page 19)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Machine learning portfolio allocation.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Machine learning portfolio allocation.pdf (Page 20)"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:StochasticCollocationSampler",
+            "type": "Sampling Method",
+            "description": "A method for efficiently sampling from complex probability distributions.",
+            "relationship:uses": "Entity:RandomVariable",
+            "equation:definedBy": "Equation:SamplingEquation",
+            "source": "The stochastic collocation Monte Carlo sampler  highly efficient sampling from  expensive  distributions.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:SamplingEfficiency",
+            "type": "Table",
+            "description": "A table illustrating the efficiency of the stochastic collocation sampler.",
+            "relationship:illustrates": "Entity:StochasticCollocationSampler",
+            "source": "The stochastic collocation Monte Carlo sampler  highly efficient sampling from  expensive  distributions.pdf (Page 3)"
+        }
+    ]
+}

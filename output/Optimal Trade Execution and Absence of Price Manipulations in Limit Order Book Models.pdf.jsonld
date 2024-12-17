@@ -1,0 +1,132 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:OptimalTradeExecution",
+            "type": "FinancialModel",
+            "description": "A model for optimal trade execution strategies.",
+            "relationship:uses": "Entity:MarketImpactModels",
+            "equation:definedBy": "Equation:ZeroSpreadModel",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:MarketImpactModelsComparison",
+            "type": "Table",
+            "description": "A comparison of market impact models.",
+            "relationship:illustrates": "Entity:OptimalTradeExecution",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:MarketImpactModel",
+            "type": "Financial Model",
+            "description": "A model to analyze the impact of trades on market prices.",
+            "relationship:uses": "Entity:LimitOrderBook",
+            "equation:definedBy": "Equation:LinearPriceImpact",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:NonlinearPriceImpact",
+            "type": "Table",
+            "description": "A table illustrating nonlinear price impacts.",
+            "relationship:illustrates": "Entity:MarketImpactModel",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:LimitOrderBookModel",
+            "type": "Financial Model",
+            "description": "A model to analyze optimal trade execution and price manipulation in limit order book models.",
+            "relationship:uses": "Entity:NoiseTrader",
+            "equation:definedBy": "Equation:VolumeImpactProcess",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolumeImpactProcess",
+            "type": "Table",
+            "description": "A table illustrating the volume impact process in limit order book models.",
+            "relationship:illustrates": "Entity:LimitOrderBookModel",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:OptimalTradeExecution",
+            "type": "FinancialModel",
+            "description": "A model for optimal trade execution in limit order book models.",
+            "relationship:uses": "Entity:EquidistantTimeSpacing",
+            "equation:definedBy": "Equation:UniqueOptimalStrategy",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:UniqueOptimalStrategy",
+            "type": "Table",
+            "description": "A table illustrating the unique optimal strategy for portfolio liquidation.",
+            "relationship:illustrates": "Entity:OptimalTradeExecution",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:PriceImpactModel",
+            "type": "Financial Model",
+            "description": "A model to describe the impact of price manipulation on a limit order book.",
+            "relationship:uses": "Entity:VolumeReversionModel",
+            "equation:definedBy": "Equation:PriceImpactEquation",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:PriceImpactComparison",
+            "type": "Table",
+            "description": "A table comparing price impacts across different models.",
+            "relationship:illustrates": "Entity:PriceImpactModel",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:OptimalTradeExecution",
+            "type": "FinancialModel",
+            "description": "A model for optimal trade execution in limit order book models.",
+            "relationship:uses": "Entity:LimitOrderBook",
+            "equation:definedBy": "Equation:OptimalTradeExecutionEquation",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:OptimalTradeExecutionResults",
+            "type": "Table",
+            "description": "Results of the optimal trade execution model.",
+            "relationship:illustrates": "Entity:OptimalTradeExecution",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 12)"
+        },
+        {
+            "@id": "Equation:45",
+            "type": "Mathematical Equation",
+            "description": "An equation defining the convex function C^V(x, \u03b1)",
+            "relationship:definedBy": "Equation:45",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 23)"
+        },
+        {
+            "@id": "Table:ConvexityTable",
+            "type": "Table",
+            "description": "A table illustrating the convexity of the function C^V(x, \u03b1)",
+            "relationship:illustrates": "Equation:45",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 23)"
+        },
+        {
+            "@id": "Entity:NonincreasingCondition",
+            "type": "Mathematical Condition",
+            "description": "A condition ensuring nonincreasing behavior of a function.",
+            "relationship:requires": "Equation:NonincreasingConditionEquation",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 27)"
+        },
+        {
+            "@id": "Equation:NonincreasingConditionEquation",
+            "type": "Mathematical Equation",
+            "description": "An equation defining the nonincreasing condition.",
+            "relationship:defines": "Entity:NonincreasingCondition",
+            "source": "Optimal Trade Execution and Absence of Price Manipulations in Limit Order Book Models.pdf (Page 27)"
+        }
+    ]
+}

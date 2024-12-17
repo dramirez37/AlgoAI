@@ -1,0 +1,185 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:CrossSectionWithoutFactors",
+            "type": "Financial Model",
+            "description": "A model to calculate cross-sectional expected returns using a string model.",
+            "relationship:uses": "Entity:ExpectedReturnsData",
+            "equation:definedBy": "Equation:CrossSectionStringModel",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:ExpectedReturnsComparison",
+            "type": "Table",
+            "description": "A table comparing expected returns across different factors.",
+            "relationship:illustrates": "Entity:CrossSectionWithoutFactors",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:ExpectedReturnsModel",
+            "type": "Financial Model",
+            "description": "A model to calculate expected returns without factors.",
+            "relationship:uses": "Entity:ExpectedReturnsData",
+            "equation:definedBy": "Equation:ExpectedReturnsFormula",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:ExpectedReturnsComparison",
+            "type": "Table",
+            "description": "A table comparing expected returns across different models.",
+            "relationship:illustrates": "Entity:ExpectedReturnsModel",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:ExpectedReturnsModel",
+            "type": "Financial Model",
+            "description": "A model predicting realized correlations and premia for correlation risk.",
+            "relationship:uses": "Entity:AssetReturnsCorrelations",
+            "equation:definedBy": "Equation:ExpectedReturnsEquation",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:ExpectedReturnsComparison",
+            "type": "Table",
+            "description": "A table comparing expected returns across different models.",
+            "relationship:illustrates": "Entity:ExpectedReturnsModel",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:ExpectedReturnModel",
+            "type": "Financial Model",
+            "description": "A model to calculate expected returns on asset i based on Brownian motions and volatility.",
+            "relationship:uses": "Entity:BrownianMotion",
+            "equation:definedBy": "Equation:ExpectedReturnEquation",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:ExpectedReturnComparison",
+            "type": "Table",
+            "description": "A table comparing expected returns across different assets.",
+            "relationship:illustrates": "Entity:ExpectedReturnModel",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:ExpectedReturnsModel",
+            "type": "Financial Model",
+            "description": "A model to predict expected returns on assets.",
+            "relationship:uses": "Entity:AssetData",
+            "equation:definedBy": "Equation:ExpectedReturnsEquation",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:ExpectedReturnsSummary",
+            "type": "Table",
+            "description": "A summary of expected returns for various assets.",
+            "relationship:illustrates": "Entity:ExpectedReturnsModel",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:Model",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:Dataset",
+            "equation:definedBy": "Equation:Formula",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:Model",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:OptionImplications",
+            "type": "Financial Model",
+            "description": "A model to compute implied volatilities from option prices.",
+            "relationship:uses": "Entity:OptionData",
+            "equation:definedBy": "Equation:OptionImpliedVolatility",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:OptionImpliedVolatility",
+            "type": "Table",
+            "description": "A table comparing implied volatilities across different strike prices.",
+            "relationship:illustrates": "Entity:OptionImplications",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 13)"
+        },
+        {
+            "@id": "Figure:5",
+            "type": "Figure",
+            "description": "The top panel depicts estimates of the pro-cyclical state variable, \u03b3c, obtained by matching the model predictions on realized correlations and the premium for correlation risk, as in equation (28). The bottom panel depicts the average correlation in the data (solid, blue line) and the average correlation predicted by the model (dashed, red line). The numbered circles identify events described in table 3.",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:CrossSectionWithoutFactors",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExpectedReturnsDataset",
+            "equation:definedBy": "Equation:CrossSectionWithoutFactorsFormula",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:ExpectedReturnsComparison",
+            "type": "Table",
+            "description": "A table comparing expected returns across different time periods.",
+            "relationship:illustrates": "Entity:CrossSectionWithoutFactors",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 22)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 23)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 23)"
+        },
+        {
+            "@id": "Entity:ExpectedReturnsModel",
+            "type": "Financial Model",
+            "description": "A model to calculate expected returns on asset returns.",
+            "relationship:uses": "Entity:BrownianMotion",
+            "equation:definedBy": "Equation:ExpectedReturnsEquation",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 25)"
+        },
+        {
+            "@id": "Table:ExpectedReturnsComparison",
+            "type": "Table",
+            "description": "A table comparing expected returns across different asset classes.",
+            "relationship:illustrates": "Entity:ExpectedReturnsModel",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 25)"
+        },
+        {
+            "@id": "Entity:Model",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:Dataset",
+            "equation:definedBy": "Equation:Formula",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 27)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:Model",
+            "source": "Cross-section without factors  a string model for expected returns.pdf (Page 27)"
+        }
+    ]
+}

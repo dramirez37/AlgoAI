@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:MACDStrategy",
+            "type": "Trading Strategy",
+            "description": "A strategy based on the Moving Average Convergence Divergence (MACD) indicator.",
+            "relationship:uses": "Entity:DataSeries",
+            "source": "Stock-Market-Efficiency-and-the-MACD--Evidence-from_2015_Procedia-Economics-.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:PerformanceComparison",
+            "type": "Table",
+            "description": "A table comparing the performance of different trading strategies.",
+            "relationship:illustrates": "Entity:MACDStrategy",
+            "source": "Stock-Market-Efficiency-and-the-MACD--Evidence-from_2015_Procedia-Economics-.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:MACD",
+            "type": "Technical Indicator",
+            "description": "A momentum-based indicator used to identify trends in financial markets.",
+            "relationship:uses": "Table:MACDStatistics",
+            "source": "Stock-Market-Efficiency-and-the-MACD--Evidence-from_2015_Procedia-Economics-.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:MACDStatistics",
+            "type": "Table",
+            "description": "A table showing statistical analysis of MACD values.",
+            "relationship:illustrates": "Entity:MACD",
+            "source": "Stock-Market-Efficiency-and-the-MACD--Evidence-from_2015_Procedia-Economics-.pdf (Page 11)"
+        }
+    ]
+}

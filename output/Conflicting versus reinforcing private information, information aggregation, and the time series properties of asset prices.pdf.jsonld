@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:PriceVolatility",
+            "type": "Financial Indicator",
+            "description": "A measure of the variability of asset prices over time.",
+            "relationship:measures": "Table:PriceVolatilityComparison",
+            "source": "Conflicting versus reinforcing private information, information aggregation, and the time series properties of asset prices.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:PriceVolatilityComparison",
+            "type": "Table",
+            "description": "A comparison of price volatility across different time periods.",
+            "relationship:compares": "Entity:PriceVolatility",
+            "source": "Conflicting versus reinforcing private information, information aggregation, and the time series properties of asset prices.pdf (Page 12)"
+        }
+    ]
+}

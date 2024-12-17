@@ -1,0 +1,104 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ExpectedMarketTime",
+            "type": "Financial Model",
+            "description": "A model to calculate the expected market time to reach a certain wealth level.",
+            "relationship:uses": "Entity:MarketData",
+            "equation:definedBy": "Equation:ExpectedTimeFormula",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:ExpectedTimeComparison",
+            "type": "Table",
+            "description": "A table comparing expected market times across different wealth levels.",
+            "relationship:illustrates": "Entity:ExpectedMarketTime",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:ContinuousTimeModel",
+            "type": "Financial Model",
+            "description": "A model for continuous-time financial markets.",
+            "relationship:uses": "Entity:DiscreteTimeModel",
+            "equation:definedBy": "Equation:ContinuousTimeEquation",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:ExpectedMarketTime",
+            "type": "Table",
+            "description": "A table illustrating expected market times.",
+            "relationship:illustrates": "Entity:ContinuousTimeModel",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:GrowthOptimalPortfolio",
+            "type": "Financial Model",
+            "description": "A model to determine the optimal portfolio for maximizing growth over time.",
+            "relationship:uses": "Entity:ExponentialLevyProcess",
+            "equation:definedBy": "Equation:ExpectedMarketTime",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:ExpectedMarketTimeBounds",
+            "type": "Table",
+            "description": "A table presenting bounds for the expected market time.",
+            "relationship:illustrates": "Entity:GrowthOptimalPortfolio",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:AssetsAndWealthProcesses",
+            "type": "Financial Process",
+            "description": "A process that describes the evolution of assets and wealth over time.",
+            "relationship:uses": "Entity:DiscountedTotalWealthProcess",
+            "equation:definedBy": "Equation:2.1",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:DiscountedTotalWealthProcess",
+            "type": "Table",
+            "description": "A table illustrating the discounted total wealth process.",
+            "relationship:illustrates": "Entity:AssetsAndWealthProcesses",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:ExpectedTimeToWealthLevel",
+            "type": "Financial Model",
+            "description": "A model to calculate the expected time to reach a certain wealth level.",
+            "relationship:uses": "Entity:BrownianMotion",
+            "equation:definedBy": "Equation:ExpectedTimeToWealthLevel",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:ExpectedTimeComparison",
+            "type": "Table",
+            "description": "A table comparing expected times to reach different wealth levels.",
+            "relationship:illustrates": "Entity:ExpectedTimeToWealthLevel",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:ExpectedTimeToReachWealthLevel",
+            "type": "Financial Model",
+            "description": "A model to calculate the expected time to reach a certain wealth level.",
+            "relationship:uses": "Entity:MarketData",
+            "equation:definedBy": "Equation:ExpectedTimeFormula",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:ExpectedTimeComparison",
+            "type": "Table",
+            "description": "A table comparing expected times to reach different wealth levels.",
+            "relationship:illustrates": "Entity:ExpectedTimeToReachWealthLevel",
+            "source": "Minimizing the Expected Market Time to Reach a Certain Wealth Level.pdf (Page 14)"
+        }
+    ]
+}

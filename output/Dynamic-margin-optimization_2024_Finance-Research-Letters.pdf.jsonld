@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:CentralCounterpartyRisk",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:CentralCounterpartyMargin",
+            "equation:definedBy": "Equation:CentralCounterpartyMarginCalculation",
+            "source": "Dynamic-margin-optimization_2024_Finance-Research-Letters.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:CentralCounterpartyRisk",
+            "source": "Dynamic-margin-optimization_2024_Finance-Research-Letters.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:MarginModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:MarginCalculationFormula",
+            "source": "Dynamic-margin-optimization_2024_Finance-Research-Letters.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:MarginModel",
+            "source": "Dynamic-margin-optimization_2024_Finance-Research-Letters.pdf (Page 7)"
+        }
+    ]
+}

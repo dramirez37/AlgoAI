@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:OptimalMartingale",
+            "type": "Financial Model",
+            "description": "A model to find optimal martingales for financial applications.",
+            "relationship:uses": "Entity:OptimalMartingaleExample",
+            "equation:definedBy": "Equation:OptimalMartingaleFormula",
+            "source": "From optimal martingales to randomized dual optimal stopping.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:OptimalMartingaleComparison",
+            "type": "Table",
+            "description": "A table comparing optimal martingales across different scenarios.",
+            "relationship:illustrates": "Entity:OptimalMartingale",
+            "source": "From optimal martingales to randomized dual optimal stopping.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:OptimalMartingale",
+            "type": "Mathematical Model",
+            "description": "A mathematical model used to find optimal stopping times in financial markets.",
+            "relationship:uses": "Entity:OptimalStoppingTime",
+            "equation:definedBy": "Equation:OptimalStoppingTime",
+            "source": "From optimal martingales to randomized dual optimal stopping.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:OptimalStoppingTimeComparison",
+            "type": "Table",
+            "description": "A table comparing optimal stopping times across different scenarios.",
+            "relationship:illustrates": "Entity:OptimalMartingale",
+            "source": "From optimal martingales to randomized dual optimal stopping.pdf (Page 4)"
+        },
+        {
+            "@id": "Equation:ProofOfTheorem9",
+            "type": "Mathematical Equation",
+            "description": "Proof of Theorem 9 involving martingales and dual optimal stopping.",
+            "relationship:proves": "Theorem:OptimalStopping",
+            "source": "From optimal martingales to randomized dual optimal stopping.pdf (Page 10)"
+        },
+        {
+            "@id": "Equation:ProofOfTheorem12",
+            "type": "Mathematical Equation",
+            "description": "Proof of Theorem 12 involving martingales and dual optimal stopping.",
+            "relationship:proves": "Theorem:OptimalStopping",
+            "source": "From optimal martingales to randomized dual optimal stopping.pdf (Page 10)"
+        }
+    ]
+}

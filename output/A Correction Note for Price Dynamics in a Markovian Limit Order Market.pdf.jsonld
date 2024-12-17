@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:PriceDynamicsModel",
+            "type": "Financial Model",
+            "description": "A model to calculate price dynamics in a Markovian Limit Order Market.",
+            "relationship:uses": "Entity:LimitOrderBook",
+            "equation:definedBy": "Equation:PriceDynamicsFormula",
+            "source": "A Correction Note for Price Dynamics in a Markovian Limit Order Market.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:LimitOrderBookStatistics",
+            "type": "Table",
+            "description": "A table summarizing statistics of the Limit Order Book.",
+            "relationship:illustrates": "Entity:PriceDynamicsModel",
+            "source": "A Correction Note for Price Dynamics in a Markovian Limit Order Market.pdf (Page 1)"
+        },
+        {
+            "@id": "Equation:3.11",
+            "type": "Mathematical Equation",
+            "description": "An equation defining the probability of hitting the x-axis before the y-axis in a random walk.",
+            "relationship:definedBy": "Equation:3.11",
+            "source": "A Correction Note for Price Dynamics in a Markovian Limit Order Market.pdf (Page 6)"
+        },
+        {
+            "@id": "Equation:3.12",
+            "type": "Mathematical Equation",
+            "description": "An equation defining the probability of price increase.",
+            "relationship:definedBy": "Equation:3.12",
+            "source": "A Correction Note for Price Dynamics in a Markovian Limit Order Market.pdf (Page 6)"
+        }
+    ]
+}

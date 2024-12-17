@@ -1,0 +1,253 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:MicrostructuralHedgingError",
+            "type": "FinancialModel",
+            "description": "A model to evaluate the microstructural hedging error in the presence of microstructure noise.",
+            "relationship:uses": "Entity:StochasticVolatilityProcess",
+            "equation:definedBy": "Equation:MicrostructuralHedgingStrategy",
+            "source": "On the Microstructural Hedging Error.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:MicrostructureNoiseEffects",
+            "type": "Table",
+            "description": "A table illustrating the effects of microstructure noise on transaction prices.",
+            "relationship:illustrates": "Entity:MicrostructuralHedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:MicrostructureNoise",
+            "type": "Financial Concept",
+            "description": "The noise introduced by microstructure effects in financial markets.",
+            "relationship:causes": "Relationship:HedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:MicrostructureImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of microstructure noise on hedging strategies.",
+            "relationship:illustrates": "Entity:MicrostructureNoise",
+            "source": "On the Microstructural Hedging Error.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:ModelWithUncertaintyZones",
+            "type": "Financial Model",
+            "description": "A model for the last traded price with uncertainty zones.",
+            "relationship:uses": "Entity:StylizedFactsOfPricesAndDurations",
+            "equation:definedBy": "Equation:LastTradedPriceModel",
+            "source": "On the Microstructural Hedging Error.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:UncertaintyZones",
+            "type": "Table",
+            "description": "A table describing the uncertainty zones.",
+            "relationship:illustrates": "Entity:ModelWithUncertaintyZones",
+            "source": "On the Microstructural Hedging Error.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:MicrostructuralHedgingError",
+            "type": "Financial Model",
+            "description": "A model to analyze the microstructural hedging error.",
+            "relationship:uses": "Entity:ExplanatoryVariables",
+            "equation:definedBy": "Equation:MicrostructuralHedgingErrorFormula",
+            "source": "On the Microstructural Hedging Error.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:MicrostructuralHedgingErrorComparison",
+            "type": "Table",
+            "description": "A table comparing microstructural hedging errors across different market conditions.",
+            "relationship:illustrates": "Entity:MicrostructuralHedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:HedgingStrategy",
+            "type": "Hedging Strategy",
+            "description": "A strategy for managing risk in financial markets.",
+            "relationship:uses": "Entity:MicrostructureModel",
+            "equation:definedBy": "Equation:HedgingStrategyFormula",
+            "source": "On the Microstructural Hedging Error.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:HedgingErrorDistribution",
+            "type": "Table",
+            "description": "A table illustrating the distribution of microstructural hedging error.",
+            "relationship:illustrates": "Entity:HedgingStrategy",
+            "source": "On the Microstructural Hedging Error.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:AsymptoticHedgingError",
+            "type": "FinancialModel",
+            "description": "A model to calculate the asymptotic hedging error.",
+            "relationship:uses": "Entity:LocalVolatilityDelta",
+            "equation:definedBy": "Equation:AsymptoticHedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 10)"
+        },
+        {
+            "@id": "Table:MicrostructureNoiseImpact",
+            "type": "Table",
+            "description": "A table illustrating the impact of microstructure noise on hedging errors.",
+            "relationship:illustrates": "Entity:OptimalRebalancingLevel",
+            "source": "On the Microstructural Hedging Error.pdf (Page 10)"
+        },
+        {
+            "@id": "Entity:MicrostructuralHedgingError",
+            "type": "FinancialModel",
+            "description": "A model to calculate the microstructural hedging error.",
+            "relationship:uses": "Entity:MicrostructuralData",
+            "equation:definedBy": "Equation:MicrostructuralHedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 11)"
+        },
+        {
+            "@id": "Table:MicrostructuralErrorDecomposition",
+            "type": "Table",
+            "description": "A table showing the decomposition of the microstructural hedging error.",
+            "relationship:illustrates": "Entity:MicrostructuralHedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 11)"
+        },
+        {
+            "@id": "Entity:HedgingError",
+            "type": "Financial Model",
+            "description": "A model to calculate hedging error in microstructural hedging.",
+            "relationship:uses": "Entity:MicrostructureData",
+            "equation:definedBy": "Equation:HedgingErrorFormula",
+            "source": "On the Microstructural Hedging Error.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:HedgingErrorComparison",
+            "type": "Table",
+            "description": "A table comparing hedging errors across different scenarios.",
+            "relationship:illustrates": "Entity:HedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:MicrostructuralHedgingError",
+            "type": "FinancialModel",
+            "description": "A model to calculate the microstructural hedging error.",
+            "relationship:uses": "Entity:MicrostructuralData",
+            "equation:definedBy": "Equation:MicrostructuralHedgingErrorFormula",
+            "source": "On the Microstructural Hedging Error.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:HedgingErrorComparison",
+            "type": "Table",
+            "description": "A table comparing hedging errors across different scenarios.",
+            "relationship:illustrates": "Entity:MicrostructuralHedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 17)"
+        },
+        {
+            "@id": "Entity:MicrostructuralHedgingError",
+            "type": "FinancialModel",
+            "description": "A model to calculate hedging errors in microstructural finance.",
+            "relationship:uses": "Entity:MicrostructuralData",
+            "equation:definedBy": "Equation:MicrostructuralHedgingErrorFormula",
+            "source": "On the Microstructural Hedging Error.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:HedgingErrorComparison",
+            "type": "Table",
+            "description": "A table comparing hedging errors across different market conditions.",
+            "relationship:illustrates": "Entity:MicrostructuralHedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 18)"
+        },
+        {
+            "@id": "Entity:HedgingError",
+            "type": "Financial Model",
+            "description": "A model to calculate hedging error in microstructural hedging.",
+            "relationship:uses": "Entity:MicrostructuralHedging",
+            "equation:definedBy": "Equation:HedgingErrorDefinition",
+            "source": "On the Microstructural Hedging Error.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:HedgingErrorComparison",
+            "type": "Table",
+            "description": "A table comparing hedging errors across different scenarios.",
+            "relationship:illustrates": "Entity:HedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 19)"
+        },
+        {
+            "@id": "Equation:446",
+            "type": "Mathematical Equation",
+            "description": "An equation defining the microstructural hedging error.",
+            "relationship:uses": "Entity:ConditionalExpectation",
+            "equation:definedBy": "Equation:446",
+            "source": "On the Microstructural Hedging Error.pdf (Page 20)"
+        },
+        {
+            "@id": "Entity:ConditionalExpectation",
+            "type": "Statistical Concept",
+            "description": "The conditional expectation of a random variable given another random variable.",
+            "relationship:uses": "Equation:446",
+            "source": "On the Microstructural Hedging Error.pdf (Page 20)"
+        },
+        {
+            "@id": "Entity:MicrostructuralHedgingError",
+            "type": "FinancialModel",
+            "description": "A model to calculate the microstructural hedging error.",
+            "relationship:uses": "Entity:ForwardRateVolatility",
+            "equation:definedBy": "Equation:MicrostructuralHedgingErrorFormula",
+            "source": "On the Microstructural Hedging Error.pdf (Page 21)"
+        },
+        {
+            "@id": "Table:MicrostructuralHedgingErrorComparison",
+            "type": "Table",
+            "description": "A table comparing the microstructural hedging error across different scenarios.",
+            "relationship:illustrates": "Entity:MicrostructuralHedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 21)"
+        },
+        {
+            "@id": "Entity:MicrostructuralHedgingError",
+            "type": "FinancialModel",
+            "description": "A model to calculate the microstructural hedging error.",
+            "relationship:uses": "Entity:ForwardRateVolatility",
+            "equation:definedBy": "Equation:MicrostructuralHedgingErrorFormula",
+            "source": "On the Microstructural Hedging Error.pdf (Page 25)"
+        },
+        {
+            "@id": "Table:MicrostructuralHedgingErrorComparison",
+            "type": "Table",
+            "description": "A table comparing the microstructural hedging error across different scenarios.",
+            "relationship:illustrates": "Entity:MicrostructuralHedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 25)"
+        },
+        {
+            "@id": "Entity:Proof",
+            "type": "Mathematical Proof",
+            "description": "A proof for the convergence of a sequence of random variables.",
+            "relationship:uses": "Entity:Lemma",
+            "equation:definedBy": "Equation:ConvergenceEquation",
+            "source": "On the Microstructural Hedging Error.pdf (Page 26)"
+        },
+        {
+            "@id": "Table:ConvergenceTable",
+            "type": "Table",
+            "description": "A table illustrating the convergence of a sequence of random variables.",
+            "relationship:illustrates": "Entity:Proof",
+            "source": "On the Microstructural Hedging Error.pdf (Page 26)"
+        },
+        {
+            "@id": "Entity:MicrostructuralHedgingError",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:MicrostructuralData",
+            "equation:definedBy": "Equation:MicrostructuralVolatilityCalculation",
+            "source": "On the Microstructural Hedging Error.pdf (Page 27)"
+        },
+        {
+            "@id": "Table:MicrostructuralVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:MicrostructuralHedgingError",
+            "source": "On the Microstructural Hedging Error.pdf (Page 27)"
+        }
+    ]
+}

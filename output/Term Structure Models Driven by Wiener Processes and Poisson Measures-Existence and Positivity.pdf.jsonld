@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:TermStructureModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:WienerProcess",
+            "equation:definedBy": "Equation:ForwardRateVolatility",
+            "source": "Term Structure Models Driven by Wiener Processes and Poisson Measures-Existence and Positivity.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:PositivityPreservingModels",
+            "type": "Table",
+            "description": "A table illustrating positivity preserving term structure models.",
+            "relationship:illustrates": "Entity:TermStructureModel",
+            "source": "Term Structure Models Driven by Wiener Processes and Poisson Measures-Existence and Positivity.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:Proof",
+            "type": "Mathematical Proof",
+            "description": "A proof for the existence and positivity of solutions to a specific equation.",
+            "relationship:uses": "Entity:StoppingTime",
+            "equation:definedBy": "Equation:4.18",
+            "source": "Term Structure Models Driven by Wiener Processes and Poisson Measures-Existence and Positivity.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:StoppingTimeProperties",
+            "type": "Table",
+            "description": "A table detailing properties of stopping times.",
+            "relationship:illustrates": "Entity:Proof",
+            "source": "Term Structure Models Driven by Wiener Processes and Poisson Measures-Existence and Positivity.pdf (Page 22)"
+        },
+        {
+            "@id": "Entity:TermStructureModel",
+            "type": "Financial Model",
+            "description": "A model driven by Poisson measures for term structure.",
+            "relationship:uses": "Entity:PredictableProcess",
+            "equation:definedBy": "Equation:TermStructureModelEquation",
+            "source": "Term Structure Models Driven by Wiener Processes and Poisson Measures-Existence and Positivity.pdf (Page 31)"
+        },
+        {
+            "@id": "Table:TermStructureData",
+            "type": "Table",
+            "description": "A table of term structure data.",
+            "relationship:illustrates": "Entity:TermStructureModel",
+            "source": "Term Structure Models Driven by Wiener Processes and Poisson Measures-Existence and Positivity.pdf (Page 31)"
+        },
+        {
+            "@id": "Entity:TermStructureModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:WienerProcess",
+            "equation:definedBy": "Equation:ForwardRateVolatility",
+            "source": "Term Structure Models Driven by Wiener Processes and Poisson Measures-Existence and Positivity.pdf (Page 32)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:TermStructureModel",
+            "source": "Term Structure Models Driven by Wiener Processes and Poisson Measures-Existence and Positivity.pdf (Page 32)"
+        }
+    ]
+}

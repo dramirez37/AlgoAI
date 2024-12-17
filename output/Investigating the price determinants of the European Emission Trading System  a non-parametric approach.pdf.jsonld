@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Figure:InformationImbalance",
+            "type": "Figure",
+            "description": "The Information Imbalance figure illustrating the relationship between two variables X and Y.",
+            "relationship:depicts": "Equation:InformationImbalanceEquation",
+            "source": "Investigating the price determinants of the European Emission Trading System  a non-parametric approach.pdf (Page 7)"
+        },
+        {
+            "@id": "Equation:InformationImbalanceEquation",
+            "type": "Equation",
+            "description": "The equation for calculating the Information Imbalance.",
+            "relationship:definedBy": "Figure:InformationImbalance",
+            "source": "Investigating the price determinants of the European Emission Trading System  a non-parametric approach.pdf (Page 7)"
+        },
+        {
+            "@id": "Figure:InformationImbalancePlane",
+            "type": "Figure",
+            "description": "A figure showing the Information Imbalance plane for nowcasting and forecasting EUA price.",
+            "source": "Investigating the price determinants of the European Emission Trading System  a non-parametric approach.pdf (Page 14)"
+        },
+        {
+            "@id": "Figure:GPModelPerformance",
+            "type": "Figure",
+            "description": "A figure presenting the results of an experiment using Gaussian Process (GP) models for both nowcasting and forecasting.",
+            "source": "Investigating the price determinants of the European Emission Trading System  a non-parametric approach.pdf (Page 14)"
+        }
+    ]
+}

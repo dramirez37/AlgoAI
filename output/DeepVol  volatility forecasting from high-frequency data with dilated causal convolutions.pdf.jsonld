@@ -1,0 +1,223 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:DeepVolModel",
+            "type": "Financial Model",
+            "description": "A model for volatility forecasting using high-frequency data with dilated causal convolutions.",
+            "relationship:uses": "Entity:HighFrequencyData",
+            "equation:definedBy": "Equation:DilatedCausalConvolution",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:DeepVolResults",
+            "type": "Table",
+            "description": "A table presenting the results of the DeepVol model.",
+            "relationship:illustrates": "Entity:DeepVolModel",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:DeepVol",
+            "type": "Financial Model",
+            "description": "A model based on Dilated Causal Convolutions to forecast day-ahead volatility from high-frequency data.",
+            "relationship:uses": "Entity:High-Frequency Data",
+            "equation:definedBy": "Equation:DeepVolForecasting",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeepVol",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:DeepVol",
+            "type": "Financial Model",
+            "description": "A model for volatility forecasting using high-frequency data with dilated causal convolutions.",
+            "relationship:uses": "Entity:HighFrequencyData",
+            "equation:definedBy": "Equation:DilatedCausalConvolution",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolatilityForecastingResults",
+            "type": "Table",
+            "description": "A table presenting the results of volatility forecasting using DeepVol.",
+            "relationship:illustrates": "Entity:DeepVol",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:DeepVolModel",
+            "type": "Financial Model",
+            "description": "A model for volatility forecasting using deep learning techniques.",
+            "relationship:uses": "Entity:HighFrequencyData",
+            "equation:definedBy": "Equation:DeepVolEquation",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:DeepVolPerformance",
+            "type": "Table",
+            "description": "A table showing the performance of DeepVol compared to other models.",
+            "relationship:illustrates": "Entity:DeepVolModel",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:EGARCH",
+            "type": "Financial Model",
+            "description": "An extension of GARCH model for asymmetric volatility clustering.",
+            "relationship:uses": "Entity:High-Frequency Data",
+            "equation:definedBy": "Equation:EGARCHFormula",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:EGARCHComparison",
+            "type": "Table",
+            "description": "A comparison of EGARCH model performance with other models.",
+            "relationship:illustrates": "Entity:EGARCH",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:ModelConfidenceSet",
+            "type": "Statistical Method",
+            "description": "A method for assessing the performance of volatility forecasting models.",
+            "relationship:uses": "Entity:EvaluationMetrics",
+            "equation:definedBy": "Equation:ModelConfidenceSetDefinition",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:EvaluationMetrics",
+            "type": "Table",
+            "description": "A table summarizing the evaluation metrics used to assess the performance of volatility forecasting models.",
+            "relationship:illustrates": "Entity:ModelConfidenceSet",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:DeepVolModel",
+            "type": "Financial Model",
+            "description": "A model for volatility forecasting using high-frequency data.",
+            "relationship:uses": "Entity:HighFrequencyData",
+            "equation:definedBy": "Equation:DeepVolEquation",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:SamplingFrequencyAndReceptiveField",
+            "type": "Table",
+            "description": "A table showing the relationship between sampling frequency and receptive field size.",
+            "relationship:illustrates": "Entity:DeepVolModel",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:DeepVol",
+            "type": "Financial Model",
+            "description": "A model to forecast volatility using high-frequency data.",
+            "relationship:uses": "Entity:High-Frequency Data",
+            "equation:definedBy": "Equation:DeepVolForecasting",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeepVol",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:DeepVol",
+            "type": "Financial Model",
+            "description": "A model for volatility forecasting using high-frequency data.",
+            "relationship:uses": "Entity:HighFrequencyData",
+            "equation:definedBy": "Equation:DeepVolFormula",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:RobustnessStudy",
+            "type": "Table",
+            "description": "A table showing the robustness study results.",
+            "relationship:illustrates": "Entity:DeepVol",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 14)"
+        },
+        {
+            "@id": "Entity:DeepVol",
+            "type": "Financial Model",
+            "description": "A model for volatility forecasting using dilated causal convolutions on high-frequency data.",
+            "relationship:uses": "Entity:HighFrequencyData",
+            "equation:definedBy": "Equation:DilatedCausalConvolution",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A comparison of volatilities across different models and datasets.",
+            "relationship:illustrates": "Entity:DeepVol",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:DeepVol",
+            "type": "Financial Model",
+            "description": "A deep learning-based volatility forecasting model.",
+            "relationship:uses": "Entity:High-Frequency Data",
+            "equation:definedBy": "Equation:DeepVolModel",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeepVol",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 18)"
+        },
+        {
+            "@id": "Entity:DeepVolModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:HighFrequencyData",
+            "equation:definedBy": "Equation:DilatedCausalConvolution",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeepVolModel",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 19)"
+        },
+        {
+            "@id": "Entity:DeepVol",
+            "type": "Financial Model",
+            "description": "A deep learning-based model for volatility forecasting using high-frequency data.",
+            "relationship:uses": "Entity:High-Frequency Data",
+            "equation:definedBy": "Equation:DeepVolFormula",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DeepVol",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:DailyRealisedVolatility",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 23)"
+        },
+        {
+            "@id": "Entity:DailyRealisedVolatility",
+            "type": "Financial Model",
+            "description": "A model to calculate daily realised volatility.",
+            "relationship:uses": "Table:VolatilityComparison",
+            "source": "DeepVol  volatility forecasting from high-frequency data with dilated causal convolutions.pdf (Page 23)"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:DynamicMonetaryUtilityFunctionals",
+            "type": "Financial Model",
+            "description": "A model to calculate optimal stopping times under dynamic monetary utility functionals.",
+            "relationship:uses": "Entity:OptimalStoppingProblem",
+            "equation:definedBy": "Equation:DynamicBellmanEquation",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:OptimalStoppingTimes",
+            "type": "Table",
+            "description": "A table illustrating optimal stopping times for different scenarios.",
+            "relationship:illustrates": "Entity:DynamicMonetaryUtilityFunctionals",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:DynamicMonetaryUtilityFunctionals",
+            "type": "Financial Model",
+            "description": "A model to analyze optimal stopping problems under dynamic monetary utility functionals.",
+            "relationship:uses": "Entity:RiskFunctional",
+            "equation:definedBy": "Equation:OptimalStoppingProblem",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:OptimalStoppingProblem",
+            "type": "Table",
+            "description": "A table illustrating the optimal stopping problem under dynamic monetary utility functionals.",
+            "relationship:illustrates": "Entity:DynamicMonetaryUtilityFunctionals",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:DMUFunctional",
+            "type": "Dynamic Monetary Utility Functional",
+            "description": "A functional that represents the dynamic monetary utility over time.",
+            "relationship:uses": "Entity:RecursiveRegularDMUFunctional",
+            "equation:definedBy": "Equation:Definition2.3",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:DMUFunctionalExamples",
+            "type": "Table",
+            "description": "Examples of recursive regular DMU functionals.",
+            "relationship:illustrates": "Entity:DMUFunctional",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:DMUFunctional",
+            "type": "Mathematical Function",
+            "description": "A function that maps probability measures to real numbers.",
+            "relationship:uses": "Entity:ConditionalHomogeneity",
+            "equation:definedBy": "Equation:DMUFunctionalDefinition",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:TimeConsistentConvexDynamicRiskMeasures",
+            "type": "Table",
+            "description": "A table illustrating time consistent convex dynamic risk measures.",
+            "relationship:illustrates": "Entity:DMUFunctional",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:SuperhedgingPrice",
+            "type": "Financial Model",
+            "description": "A model to calculate the superhedging price of an asset.",
+            "relationship:uses": "Entity:OptimalStoppingProblem",
+            "equation:definedBy": "Equation:SuperhedgingPriceDefinition",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:OptimalStoppingProblem",
+            "type": "Table",
+            "description": "A table illustrating the optimal stopping problem.",
+            "relationship:illustrates": "Entity:OptimalStoppingProblem",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 16)"
+        },
+        {
+            "@id": "Entity:OptimalStoppingNumericalApproaches",
+            "type": "Numerical Method",
+            "description": "A method for approximating optimal stopping values for specific DMU functionals.",
+            "relationship:uses": "Entity:StochasticProcess",
+            "equation:definedBy": "Equation:ApproximationEquation",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:SimulationResults",
+            "type": "Table",
+            "description": "A table presenting simulation results for optimal stopping problems.",
+            "relationship:illustrates": "Entity:OptimalStoppingNumericalApproaches",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 17)"
+        },
+        {
+            "@id": "Entity:PolicyIteration",
+            "type": "Algorithm",
+            "description": "An algorithm for solving optimal stopping problems.",
+            "relationship:uses": "Entity:StoppingFamily",
+            "equation:definedBy": "Equation:PolicyIterationEquation",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:StoppingFamily",
+            "type": "Table",
+            "description": "A table listing different stopping families.",
+            "relationship:illustrates": "Entity:PolicyIteration",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 18)"
+        },
+        {
+            "@id": "Entity:OptimalStoppingDMU",
+            "type": "Financial Model",
+            "description": "A model to calculate optimal stopping under dynamic monetary utility functionals.",
+            "relationship:uses": "Entity:RegularityC2",
+            "equation:definedBy": "Equation:C2",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 21)"
+        },
+        {
+            "@id": "Table:Acknowledgments",
+            "type": "Table",
+            "description": "Acknowledgments for valuable comments leading to substantial improvement of the paper.",
+            "relationship:illustrates": "Entity:OptimalStoppingDMU",
+            "source": "Representations for Optimal Stopping under Dynamic Monetary Utility Functionals.pdf (Page 21)"
+        }
+    ]
+}

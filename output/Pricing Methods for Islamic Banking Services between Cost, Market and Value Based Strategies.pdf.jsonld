@@ -1,0 +1,100 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:Banks",
+            "type": "Organization",
+            "description": "Institutions that provide banking services.",
+            "relationship:operates": "Table:BankingActivities",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:BankingActivities",
+            "type": "Table",
+            "description": "A table listing various banking activities.",
+            "relationship:contains": "Entity:Banks",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:CustomerValue",
+            "type": "Business Strategy",
+            "description": "A strategy focused on enhancing customer value through pricing.",
+            "relationship:uses": "Entity:CustomerData",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:CustomerValueComparison",
+            "type": "Table",
+            "description": "A table comparing customer value across different pricing strategies.",
+            "relationship:illustrates": "Entity:CustomerValue",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:AR&P",
+            "type": "Banking Strategy",
+            "description": "A strategy for pricing in banking services.",
+            "relationship:uses": "Entity:LowestMarketSegment",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:LowestMarketSegment",
+            "type": "Table",
+            "description": "A table showing the lowest market segment.",
+            "relationship:illustrates": "Entity:AR&P",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:ProfitCalculation",
+            "type": "Financial Model",
+            "description": "A model to calculate profit based on revenue and expenses.",
+            "relationship:uses": "Entity:RevenueData",
+            "equation:definedBy": "Equation:ProfitFormula",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:ProfitComparison",
+            "type": "Table",
+            "description": "A table comparing profits across different financial services.",
+            "relationship:illustrates": "Entity:ProfitCalculation",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 13)"
+        },
+        {
+            "@id": "Entity:CompetitiveAdvantageIslamicBanks",
+            "type": "Competitive Advantage",
+            "description": "The competitive advantage of Islamic banks over conventional banks.",
+            "relationship:comparedTo": "Entity:ConventionalBanks",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:MarketShareIslamicBanks",
+            "type": "Table",
+            "description": "A table showing the market share of Islamic banks.",
+            "relationship:illustrates": "Entity:CompetitiveAdvantageIslamicBanks",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 17)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Pricing Methods for Islamic Banking Services between Cost, Market and Value Based Strategies.pdf (Page 19)"
+        }
+    ]
+}

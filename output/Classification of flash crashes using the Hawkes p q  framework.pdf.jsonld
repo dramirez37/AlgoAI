@@ -1,0 +1,313 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 1)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 1)"
+        },
+        {
+            "@id": "Entity:HawkesModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:FlashCrashData",
+            "equation:definedBy": "Equation:HawkesVolatilityFormula",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:HawkesModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze flash crashes in financial markets.",
+            "relationship:uses": "Entity:FlashCrashData",
+            "equation:definedBy": "Equation:HawkesPQFramework",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:FlashCrashVolatility",
+            "type": "Table",
+            "description": "A table comparing volatility levels before and after flash crashes.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:FlashCrashData",
+            "equation:definedBy": "Equation:HawkesPQFramework",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:FlashCrashVolatility",
+            "type": "Table",
+            "description": "A table showing the volatility of flash crashes over different time periods.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:HawkesProcess",
+            "type": "Stochastic Process",
+            "description": "A stochastic process used to model the occurrence of events over time.",
+            "relationship:uses": "Entity:RandomVariable",
+            "equation:definedBy": "Equation:HawkesProcessDefinition",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:FlashCrashVolatility",
+            "type": "Table",
+            "description": "A table comparing volatility during flash crashes.",
+            "relationship:illustrates": "Entity:HawkesProcess",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 7)"
+        },
+        {
+            "@id": "Figure:EURUSDCrash",
+            "type": "Figure",
+            "description": "A figure showing the EUR/USD crash in December 2017.",
+            "relationship:contains": "Table:EURUSDData",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 15)"
+        },
+        {
+            "@id": "Table:EURUSDData",
+            "type": "Table",
+            "description": "A table containing data related to the EUR/USD crash in December 2017.",
+            "relationship:contains": "Figure:EURUSDCrash",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 15)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFrameworkEquation",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 16)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 16)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFrameworkEquation",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 17)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFrameworkEquation",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 18)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 18)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model used to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFrameworkEquation",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 19)"
+        },
+        {
+            "@id": "Table:FlashCrashVolatility",
+            "type": "Table",
+            "description": "A table illustrating the volatility of flash crashes over different time periods.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 19)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFrameworkEquation",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 20)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 20)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFrameworkEquation",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 21)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 21)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFormula",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 22)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFormula",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 23)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 23)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFormula",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 24)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 24)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFrameworkEquation",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 25)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 25)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFormula",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 26)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 26)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFrameworkEquation",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 27)"
+        },
+        {
+            "@id": "Table:FlashCrashVolatility",
+            "type": "Table",
+            "description": "A table illustrating the volatility of flash crashes over different time periods.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 27)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFormula",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 28)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 28)"
+        },
+        {
+            "@id": "Entity:FlashCrashModel",
+            "type": "Financial Model",
+            "description": "A model to analyze and predict flash crashes in financial markets.",
+            "relationship:uses": "Entity:HawkesPQFramework",
+            "equation:definedBy": "Equation:HawkesPQFormula",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 29)"
+        },
+        {
+            "@id": "Table:FlashCrashComparison",
+            "type": "Table",
+            "description": "A table comparing flash crashes across different market conditions.",
+            "relationship:illustrates": "Entity:FlashCrashModel",
+            "source": "Classification of flash crashes using the Hawkes p q  framework.pdf (Page 29)"
+        }
+    ]
+}

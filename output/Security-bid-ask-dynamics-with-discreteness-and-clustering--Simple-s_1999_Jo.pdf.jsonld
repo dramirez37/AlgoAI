@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:Model",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:Data",
+            "equation:definedBy": "Equation:Formula",
+            "source": "Security-bid-ask-dynamics-with-discreteness-and-clustering--Simple-s_1999_Jo.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:Model",
+            "source": "Security-bid-ask-dynamics-with-discreteness-and-clustering--Simple-s_1999_Jo.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:ParameterEstimation",
+            "type": "Statistical Parameter",
+            "description": "Parameters used for estimating the clustering probability k.",
+            "relationship:uses": "Table:ParameterEstimation",
+            "source": "Security-bid-ask-dynamics-with-discreteness-and-clustering--Simple-s_1999_Jo.pdf (Page 17)"
+        },
+        {
+            "@id": "Table:ParameterEstimation",
+            "type": "Table",
+            "description": "Summary statistics for posterior parameter distributions.",
+            "relationship:illustrates": "Entity:ParameterEstimation",
+            "source": "Security-bid-ask-dynamics-with-discreteness-and-clustering--Simple-s_1999_Jo.pdf (Page 17)"
+        },
+        {
+            "@id": "Figure:SpreadDistribution",
+            "type": "Figure",
+            "description": "A figure showing the distribution of bid-ask spreads for different models.",
+            "relationship:contains": "Table:BidAskSpreadTable",
+            "source": "Security-bid-ask-dynamics-with-discreteness-and-clustering--Simple-s_1999_Jo.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:BidAskSpreadTable",
+            "type": "Table",
+            "description": "A table displaying the bid-ask spread distributions for various models.",
+            "relationship:illustrates": "Figure:SpreadDistribution",
+            "source": "Security-bid-ask-dynamics-with-discreteness-and-clustering--Simple-s_1999_Jo.pdf (Page 22)"
+        }
+    ]
+}

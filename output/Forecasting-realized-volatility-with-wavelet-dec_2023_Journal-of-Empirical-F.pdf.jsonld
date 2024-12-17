@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:RealizedVolatility",
+            "type": "Financial Indicator",
+            "description": "A measure of the actual volatility of an asset over a specific period.",
+            "relationship:measures": "Table:RealizedVolatilityStatistics",
+            "source": "Forecasting-realized-volatility-with-wavelet-dec_2023_Journal-of-Empirical-F.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:RealizedVolatilityStatistics",
+            "type": "Table",
+            "description": "A table showing the statistics of realized volatility.",
+            "relationship:contains": "Entity:RealizedVolatility",
+            "source": "Forecasting-realized-volatility-with-wavelet-dec_2023_Journal-of-Empirical-F.pdf (Page 7)"
+        }
+    ]
+}

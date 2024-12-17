@@ -1,0 +1,135 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:BitcoinModel",
+            "type": "Financial Model",
+            "description": "A stochastic model for the bitcoin price dynamics driven by market attention and developed a quasi-closed form for option price.",
+            "relationship:uses": "Entity:BitcoinData",
+            "equation:definedBy": "Equation:StochasticModel",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:BitcoinVolatility",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:BitcoinModel",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:BitcoinConvenienceYield",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BitcoinPriceData",
+            "equation:definedBy": "Equation:BitcoinConvenienceYieldFormula",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:BitcoinConvenienceYieldComparison",
+            "type": "Table",
+            "description": "A table comparing Bitcoin convenience yields across different time periods.",
+            "relationship:illustrates": "Entity:BitcoinConvenienceYield",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:BitcoinJumpModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BitcoinData",
+            "equation:definedBy": "Equation:BitcoinJumpDiffusion",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:BitcoinJumpVolatility",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:BitcoinJumpModel",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:ConvenienceYieldModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateVolatilityDataset",
+            "equation:definedBy": "Equation:ConvenienceYieldEquation",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:ConvenienceYieldComparison",
+            "type": "Table",
+            "description": "A table comparing convenience yields across different scenarios.",
+            "relationship:illustrates": "Entity:ConvenienceYieldModel",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:BitcoinJumpsConvenienceYieldsOptionPrices",
+            "type": "FinancialModel",
+            "description": "A model to analyze Bitcoin jumps, convenience yields, and option prices.",
+            "relationship:uses": "Entity:BitcoinData",
+            "equation:definedBy": "Equation:BitcoinJumpVolatility",
+            "source": "Bitcoin jumps, convenience yields, and option prices.pdf (Page 6)"
+        },
+        {
+            "@id": "Table:BitcoinJumpVolatility",
+            "type": "Table",
+            "description": "A table showing Bitcoin jump volatility over different time periods.",
+            "relationship:illustrates": "Entity:BitcoinJumpsConvenienceYieldsOptionPrices",
+            "source": "Bitcoin jumps, convenience yields, and option prices.pdf (Page 6)"
+        },
+        {
+            "@id": "Entity:BitcoinConvenienceYieldModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BitcoinPriceData",
+            "equation:definedBy": "Equation:BitcoinConvenienceYieldEquation",
+            "source": "Bitcoin jumps, convenience yields, and option prices.pdf (Page 8)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:BitcoinConvenienceYieldModel",
+            "source": "Bitcoin jumps, convenience yields, and option prices.pdf (Page 8)"
+        },
+        {
+            "@id": "Entity:BitcoinForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BitcoinForwardRateData",
+            "equation:definedBy": "Equation:BitcoinForwardRateVolatilityFormula",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 13)"
+        },
+        {
+            "@id": "Table:BitcoinForwardRateVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:BitcoinForwardRateVolatilityModel",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 13)"
+        },
+        {
+            "@id": "Equation:ConditionalCallPrice",
+            "type": "Mathematical Equation",
+            "description": "The conditional call price formula.",
+            "relationship:uses": "Entity:StandardNormalDistribution",
+            "equation:definedBy": "Equation:ConditionalCallPrice",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 14)"
+        },
+        {
+            "@id": "Equation:ConditionalPutPrice",
+            "type": "Mathematical Equation",
+            "description": "The conditional put price formula.",
+            "relationship:uses": "Entity:StandardNormalDistribution",
+            "equation:definedBy": "Equation:ConditionalPutPrice",
+            "source": "Bitcoin  jumps  convenience yields  and option prices.pdf (Page 14)"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:QuadraticHedgingStrategy",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:PrivateEquityFundPaymentStream",
+            "equation:definedBy": "Equation:QuadraticHedgingFormula",
+            "source": "Quadratic hedging strategies for private equity fund payment streams.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:QuadraticHedgingStrategy",
+            "source": "Quadratic hedging strategies for private equity fund payment streams.pdf (Page 12)"
+        }
+    ]
+}

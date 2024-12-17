@@ -1,0 +1,195 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:FrenchGovernmentBondMarket",
+            "type": "Financial Market",
+            "description": "The market for French government bonds.",
+            "relationship:includes": "Table:FrenchGovernmentBondYieldCurve",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:FrenchGovernmentBondYieldCurve",
+            "type": "Table",
+            "description": "A table showing the yield curve for French government bonds.",
+            "relationship:illustrates": "Entity:FrenchGovernmentBondMarket",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:OATs",
+            "type": "Financial Instrument",
+            "description": "A type of bond issued by the French government.",
+            "relationship:issuedBy": "Organization:FrenchGovernment",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:YieldCurveComparison",
+            "type": "Table",
+            "description": "A table comparing yield curves across different time periods.",
+            "relationship:illustrates": "Entity:OATs",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:YieldCurve",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rates and zero-coupon yields.",
+            "relationship:uses": "Entity:ZeroCouponYield",
+            "equation:definedBy": "Equation:ForwardRateCalculation",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 7)"
+        },
+        {
+            "@id": "Table:ForwardRateVolatility",
+            "type": "Table",
+            "description": "A table comparing forward rate volatilities across different time periods.",
+            "relationship:illustrates": "Entity:YieldCurve",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 7)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 9)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 9)"
+        },
+        {
+            "@id": "Entity:OATModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:OATDataset",
+            "equation:definedBy": "Equation:OATFormula",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 10)"
+        },
+        {
+            "@id": "Table:OATVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:OATModel",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 10)"
+        },
+        {
+            "@id": "Entity:FrenchNominalYieldCurveModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:FrenchNominalYieldCurveModel",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:ForwardRateVolatilityModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateData",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ForwardRateVolatilityModel",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 14)"
+        },
+        {
+            "@id": "Figure:TermStructuresOfZeroCouponRatesAndForwardRates",
+            "type": "Figure",
+            "description": "This figure shows Svensson's zero-coupon yield and instantaneous forward rate term structures on three days in our sample: March 25, 2003, June 10, 2008, and April 2, 2018.",
+            "source": "O.V. Grushchenko et al. / The Journal of Finance and Data Science 6 (2020) 49\u201385 (Page 65)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 22)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 22)"
+        },
+        {
+            "@id": "Figure:US-OAT-Sovereign-Risk-Spread",
+            "type": "Figure",
+            "description": "This figure shows the time series of the safety premium defined as OAT zero-coupon yields minus zero-coupon yields on the nominal US Treasury security of comparable maturities. Sample period: January 1, 1999 to April 10, 2018. Frequency: daily.",
+            "source": "O.V. Grishchenko et al. / The Journal of Finance and Data Science 6 (2020) 49\u201385"
+        },
+        {
+            "@id": "Entity:OATYieldCurve",
+            "type": "FinancialModel",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:OATDataset",
+            "equation:definedBy": "Equation:ForwardRateVolatility",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 31)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:OATYieldCurve",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 31)"
+        },
+        {
+            "@id": "Entity:TaxLawChanges",
+            "type": "Legal Document",
+            "description": "A document outlining changes to tax laws related to capital gains.",
+            "relationship:affected": "Entity:CapitalGains",
+            "source": "The Journal of Finance and Data Science 6 (2020) 49\u201385"
+        },
+        {
+            "@id": "Table:TaxRateChanges",
+            "type": "Table",
+            "description": "A table showing changes in tax rates for capital gains.",
+            "relationship:contains": "Entity:TaxLawChanges",
+            "source": "The Journal of Finance and Data Science 6 (2020) 49\u201385"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 34)"
+        },
+        {
+            "@id": "Entity:ExampleEntity",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ExampleDataset",
+            "equation:definedBy": "Equation:ExampleFormula",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 37)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:ExampleEntity",
+            "source": "Fuel up with OATmeals! The case of the French nominal yield curve.pdf (Page 37)"
+        }
+    ]
+}

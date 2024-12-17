@@ -1,0 +1,104 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:BetaModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BetaData",
+            "equation:definedBy": "Equation:BetaFormula",
+            "source": "Betting against noisy beta.pdf (Page 2)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:BetaModel",
+            "source": "Betting against noisy beta.pdf (Page 2)"
+        },
+        {
+            "@id": "Entity:BetaModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BetaData",
+            "equation:definedBy": "Equation:BetaFormula",
+            "source": "Betting against noisy beta.pdf (Page 3)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:BetaModel",
+            "source": "Betting against noisy beta.pdf (Page 3)"
+        },
+        {
+            "@id": "Entity:Bond",
+            "type": "Financial Instrument",
+            "description": "A debt security representing a loan made by a borrower (debtor) to an investor (creditor).",
+            "relationship:hasIssuer": "Entity:BondsIssuer",
+            "equation:returns": "Equation:ReturnOnBond",
+            "source": "Betting against noisy beta.pdf (Page 4)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:Bond",
+            "source": "Betting against noisy beta.pdf (Page 4)"
+        },
+        {
+            "@id": "Entity:RegressionModel",
+            "type": "Statistical Model",
+            "description": "A regression model for market factor portfolio returns on flows.",
+            "relationship:uses": "Entity:MarketFactorReturns",
+            "equation:definedBy": "Equation:RegressionEquation",
+            "source": "Betting against noisy beta.pdf (Page 5)"
+        },
+        {
+            "@id": "Table:RegressionResults",
+            "type": "Table",
+            "description": "Regression results for market factor portfolio returns on flows.",
+            "relationship:illustrates": "Entity:RegressionModel",
+            "source": "Betting against noisy beta.pdf (Page 5)"
+        },
+        {
+            "@id": "Entity:BetaModel",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:BetaData",
+            "equation:definedBy": "Equation:BetaFormula",
+            "source": "Betting against noisy beta.pdf (Page 12)"
+        },
+        {
+            "@id": "Table:VolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:BetaModel",
+            "source": "Betting against noisy beta.pdf (Page 12)"
+        },
+        {
+            "@id": "Entity:BettingAgainstNoisyBeta",
+            "type": "Financial Model",
+            "description": "A model to calculate forward rate volatility.",
+            "relationship:uses": "Entity:ForwardRateVolatilityDataset",
+            "equation:definedBy": "Equation:ForwardRateVolatilityCalculation",
+            "source": "Betting against noisy beta.pdf (Page 14)"
+        },
+        {
+            "@id": "Table:ForwardRateVolatilityComparison",
+            "type": "Table",
+            "description": "A table comparing volatilities across time periods.",
+            "relationship:illustrates": "Entity:BettingAgainstNoisyBeta",
+            "source": "Betting against noisy beta.pdf (Page 14)"
+        }
+    ]
+}

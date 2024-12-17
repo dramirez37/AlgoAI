@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "entity": "Entity",
+        "relationship": "Relationship",
+        "equation": "Equation",
+        "table": "Table",
+        "figure": "Figure",
+        "source": "Source",
+        "type": "Type",
+        "description": "Description"
+    },
+    "@graph": [
+        {
+            "@id": "Entity:Lambda_n",
+            "type": "Mathematical Function",
+            "description": "A function representing the limit inferior property in \u0393-convergence.",
+            "relationship:definedBy": "Equation:3.2",
+            "source": "Short-Maturity Asymptotics for a Fast Mean-Reverting Heston Stochastic Volatility Model.pdf (Page 15)"
+        },
+        {
+            "@id": "Equation:3.2",
+            "type": "Mathematical Equation",
+            "description": "An inequality involving the limit inferior of a function.",
+            "relationship:expresses": "Entity:Lambda_n",
+            "source": "Short-Maturity Asymptotics for a Fast Mean-Reverting Heston Stochastic Volatility Model.pdf (Page 15)"
+        }
+    ]
+}
