@@ -1,7 +1,7 @@
 import dropbox
 
 # Replace 'YOUR_ACCESS_TOKEN' with your Dropbox access token
-ACCESS_TOKEN = ''
+ACCESS_TOKEN = 'TEST'
 
 def connect_to_dropbox():
     """Connect to Dropbox using the provided access token."""
