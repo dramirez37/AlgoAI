@@ -1,0 +1,277 @@
+id,type,name
+realized variable leg,Entity,realized variable leg
+Nf296cdc7cc204e088960899c2e39c68e,Entity,Nf296cdc7cc204e088960899c2e39c68e
+swap terms,Entity,swap terms
+or back office processes,Entity,or back office processes
+"In most cases, a swap has two legs, one expressing the obligations of the seller and one expressing the obligations of the buyer. However, it is possible to represent more complex swaps, with one, three or more legs. The legs can be almost anything but usually one leg involves cash flows based on a notional principal amount that both parties agree to.",Entity,"In most cases, a swap has two legs, one expressing the obligations of the seller and one expressing the obligations of the buyer. However, it is possible to represent more complex swaps, with one, three or more legs. The legs can be almost anything but usually one leg involves cash flows based on a notional principal amount that both parties agree to."
+swap leg event,Entity,swap leg event
+"Payments may be fixed or variable, which is independent from the function of the leg (payments, return etc.). The schedule may be expressed in one of two ways: as an explicit schedule of dates or as a formula for determining payment dates in advance (taking into account for example roll rules for non working days).",Entity,"Payments may be fixed or variable, which is independent from the function of the leg (payments, return etc.). The schedule may be expressed in one of two ways: as an explicit schedule of dates or as a formula for determining payment dates in advance (taking into account for example roll rules for non working days)."
+is leg of,Entity,is leg of
+ version of this ontology was modified to eliminate duplication of concepts in LCC.,Entity, version of this ontology was modified to eliminate duplication of concepts in LCC.
+exchanges,Entity,exchanges
+2,Entity,2
+has return leg,Entity,has return leg
+has funding leg,Entity,has funding leg
+CreditDerivative,Entity,CreditDerivative
+party to a swap and therefore a legal party to the contract that embodies that transaction,Entity,party to a swap and therefore a legal party to the contract that embodies that transaction
+DispersionSwap,Entity,DispersionSwap
+Nb355d7330845489fbb816fb866381f05,Entity,Nb355d7330845489fbb816fb866381f05
+indicates the leg of a return swap whose payments are based on the return of an underlying asset,Entity,indicates the leg of a return swap whose payments are based on the return of an underlying asset
+SD,Entity,SD
+total return leg,Entity,total return leg
+N80dfede7727040728f18ae53aa76b4d7,Entity,N80dfede7727040728f18ae53aa76b4d7
+Na04b2db3df794ff1a62d8d417dddcea6,Entity,Na04b2db3df794ff1a62d8d417dddcea6
+owl#Restriction,Entity,owl#Restriction
+ReturnLeg,Entity,ReturnLeg
+"For some swaps this may be a commitment to net up the difference between a strike and an outcome, rather than to make a series of cashflows over time. For credit default swaps there are conditional commitments, contingent on the occurrence of a credit event.",Entity,"For some swaps this may be a commitment to net up the difference between a strike and an outcome, rather than to make a series of cashflows over time. For credit default swaps there are conditional commitments, contingent on the occurrence of a credit event."
+swap paying party,Entity,swap paying party
+" Listing in SEC, and move two properties, hasPayingParty and hasReceivingParty to DerivativesBasics to facilitate wider use.",Entity," Listing in SEC, and move two properties, hasPayingParty and hasReceivingParty to DerivativesBasics to facilitate wider use."
+"Swap data repositories ('SDRs') are new entities created by the Dodd-Frank Wall Street Reform and Consumer Protection Act ('Dodd-Frank Act') in order to provide a central facility for swap data reporting and recordkeeping. Under the Dodd- Frank Act, all swaps, whether cleared or uncleared, are required to be reported to registered SDRs. The Dodd-Frank Act added new Section 21 to the Commodity Exchange Act ('CEA'), governing registration and regulation of SDRs and establishing registration requirements and core duties and responsibilities for SDRs.",Entity,"Swap data repositories ('SDRs') are new entities created by the Dodd-Frank Wall Street Reform and Consumer Protection Act ('Dodd-Frank Act') in order to provide a central facility for swap data reporting and recordkeeping. Under the Dodd- Frank Act, all swaps, whether cleared or uncleared, are required to be reported to registered SDRs. The Dodd-Frank Act added new Section 21 to the Commodity Exchange Act ('CEA'), governing registration and regulation of SDRs and establishing registration requirements and core duties and responsibilities for SDRs."
+N63f258bf4fd6429fa9600d57f793f987,Entity,N63f258bf4fd6429fa9600d57f793f987
+hasBuyer,Entity,hasBuyer
+TransactionConfirmation,Entity,TransactionConfirmation
+SwapPayingParty,Entity,SwapPayingParty
+"Usually, the principal does not change hands. Each cash flow comprises one leg of the swap. One cash flow is generally fixed, while the other is variable, that is, based on a a benchmark interest rate, floating currency exchange rate or index price.",Entity,"Usually, the principal does not change hands. Each cash flow comprises one leg of the swap. One cash flow is generally fixed, while the other is variable, that is, based on a a benchmark interest rate, floating currency exchange rate or index price."
+IndexReturnSwap,Entity,IndexReturnSwap
+Na00056ca704e4e419d93d262385e5fc3,Entity,Na00056ca704e4e419d93d262385e5fc3
+swap confirmation,Entity,swap confirmation
+"A three-leg financial swap is a more complex type of swap agreement where three different payment streams (or 'legs') are involved, as opposed to the traditional two-leg swaps (like fixed-for-floating interest rate swaps). This structure can be useful for sophisticated risk management or hedging strategies, particularly when exposure to multiple interest rates or currencies is desired.",Entity,"A three-leg financial swap is a more complex type of swap agreement where three different payment streams (or 'legs') are involved, as opposed to the traditional two-leg swaps (like fixed-for-floating interest rate swaps). This structure can be useful for sophisticated risk management or hedging strategies, particularly when exposure to multiple interest rates or currencies is desired."
+1,Entity,1
+over-the-counter statistical derivative that allows one to hedge risks associated with the observed average correlation of a collection of underlying products,Entity,over-the-counter statistical derivative that allows one to hedge risks associated with the observed average correlation of a collection of underlying products
+N0245221bd5754800963acddbc080d68b,Entity,N0245221bd5754800963acddbc080d68b
+"return leg based on the income generated by the underlying asset as well as any appreciation, decrease in value, capital gains, and fees on any increase in value",Entity,"return leg based on the income generated by the underlying asset as well as any appreciation, decrease in value, capital gains, and fees on any increase in value"
+isPlayedBy,Entity,isPlayedBy
+hasPartyRole,Entity,hasPartyRole
+BasisSwap,Entity,BasisSwap
+N7c1813c075434e92b3c34eb50b24a5f1,Entity,N7c1813c075434e92b3c34eb50b24a5f1
+hasPaymentSchedule,Entity,hasPaymentSchedule
+Ne0d0f9b8356c43cb8ed0c5b59261a7bd,Entity,Ne0d0f9b8356c43cb8ed0c5b59261a7bd
+N95596848ed024ebf9fcca51d1b39ef2b,Entity,N95596848ed024ebf9fcca51d1b39ef2b
+swap that depends on some statistical measure of the performance of the underlier,Entity,swap that depends on some statistical measure of the performance of the underlier
+SwapParty,Entity,SwapParty
+MajorSwapParticipant,Entity,MajorSwapParticipant
+Ne8779d3712fa4efea35552e46f0db30b,Entity,Ne8779d3712fa4efea35552e46f0db30b
+SDR,Entity,SDR
+identifier that uniquely identifies a specific event in the lifecycle of a swap,Entity,identifier that uniquely identifies a specific event in the lifecycle of a swap
+ version of this ontology was modified to move swap execution facility to the markets ontology in FBC.,Entity, version of this ontology was modified to move swap execution facility to the markets ontology in FBC.
+"A basis swap can have two legs of the same tenor but different indices, e.g., 3 month LIBOR vs. 3 month TIBOR. The difference in this case is not driven by different interest rate periods but from different markets, i.e., the difference in efficiency between the two markets. The objective is to hedge against basis risk which is the difference in price between two markets. See also forward swap, as a means for controlling interest rate.",Entity,"A basis swap can have two legs of the same tenor but different indices, e.g., 3 month LIBOR vs. 3 month TIBOR. The difference in this case is not driven by different interest rate periods but from different markets, i.e., the difference in efficiency between the two markets. The objective is to hedge against basis risk which is the difference in price between two markets. See also forward swap, as a means for controlling interest rate."
+"return leg based strictly on the income generated by the underlying asset, excluding appreciation, decrease in value, capital gains, and fees on any increase in value",Entity,"return leg based strictly on the income generated by the underlying asset, excluding appreciation, decrease in value, capital gains, and fees on any increase in value"
+hasNotionalAmount,Entity,hasNotionalAmount
+index return swap,Entity,index return swap
+variance leg,Entity,variance leg
+swap dealer,Entity,swap dealer
+"In a total return swap that is index-based, the change in the level of the index will be equal to the returns generated by the change in price of each of the contracts that comprise the index plus a return based upon interest earned on any cash collateral posted upon the purchase of the contracts comprising the index.",Entity,"In a total return swap that is index-based, the change in the level of the index will be equal to the returns generated by the change in price of each of the contracts that comprise the index plus a return based upon interest earned on any cash collateral posted upon the purchase of the contracts comprising the index."
+MIT,Entity,MIT
+Nfda5bf28b2b148a48414b11a456cd5c0,Entity,Nfda5bf28b2b148a48414b11a456cd5c0
+dispersion leg,Entity,dispersion leg
+simple return leg,Entity,simple return leg
+N9974b87702c54bdb9ae15e43df7320a6,Entity,N9974b87702c54bdb9ae15e43df7320a6
+"Swaps.rdf version of the ontology was modified to clarify the definition of swap and swap leg, and better integrate the related details (DER-113).",Entity,"Swaps.rdf version of the ontology was modified to clarify the definition of swap and swap leg, and better integrate the related details (DER-113)."
+total return swap,Entity,total return swap
+PaymentSchedule,Entity,PaymentSchedule
+"swap lifecycle event, such as a payment or rate reset event, that applies to one leg of a swap",Entity,"swap lifecycle event, such as a payment or rate reset event, that applies to one leg of a swap"
+N9ac058dd68e1402eba4b409c0f284659,Entity,N9ac058dd68e1402eba4b409c0f284659
+"The fixed amount may be with respect to some variable or a monetary amount. The realization of a strike leg is not a cashflow per se, but a netting out against the terms defined in the other leg of a statistical swap.",Entity,"The fixed amount may be with respect to some variable or a monetary amount. The realization of a strike leg is not a cashflow per se, but a netting out against the terms defined in the other leg of a statistical swap."
+"Copyright (c) 2016-2024 EDM Council, Inc.",Entity,"Copyright (c) 2016-2024 EDM Council, Inc."
+N9d08d5b53a10469e8248f873f7518910,Entity,N9d08d5b53a10469e8248f873f7518910
+return swap,Entity,return swap
+RealizedVariableLeg,Entity,RealizedVariableLeg
+Swaps Ontology,Entity,Swaps Ontology
+ExcessReturnSwap,Entity,ExcessReturnSwap
+fixed payment stream terms,Entity,fixed payment stream terms
+N86cafb94153c4f4db172734e2655c952,Entity,N86cafb94153c4f4db172734e2655c952
+ISDA_Commodity_Derivatives_Disclosure_Annex_04_2013.pdf,Entity,ISDA_Commodity_Derivatives_Disclosure_Annex_04_2013.pdf
+"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15",Entity,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15"
+fixed payment leg,Entity,fixed payment leg
+refersTo,Entity,refersTo
+"A one-leg financing swap (also known as a single-leg financing swap) is a type of financial derivative, typically used by institutional investors or corporations, in which one party makes a series of fixed or floating payments to another party in exchange for a single upfront cash payment or financing.",Entity,"A one-leg financing swap (also known as a single-leg financing swap) is a type of financial derivative, typically used by institutional investors or corporations, in which one party makes a series of fixed or floating payments to another party in exchange for a single upfront cash payment or financing."
+isLegOf,Entity,isLegOf
+rates swap,Entity,rates swap
+Naf3d8c46ac6f46afb55d1312a4bcc3c2,Entity,Naf3d8c46ac6f46afb55d1312a4bcc3c2
+RateBasedObservable,Entity,RateBasedObservable
+Ne54a74e0db6c482593853bc2e7754b97,Entity,Ne54a74e0db6c482593853bc2e7754b97
+ version of this ontology was modified to refine the concept of a unique swap identifier (USI).,Entity, version of this ontology was modified to refine the concept of a unique swap identifier (USI).
+isIncludedIn,Entity,isIncludedIn
+N86a93351301344d18530e65a36f5f451,Entity,N86a93351301344d18530e65a36f5f451
+FloatingLeg,Entity,FloatingLeg
+2006 ISDA Definitions,Entity,2006 ISDA Definitions
+Nebe78fd98d5a43d5a86629eefa6bdd7d,Entity,Nebe78fd98d5a43d5a86629eefa6bdd7d
+hasUnderlier,Entity,hasUnderlier
+swap leg whose paying party is obligated to make payments from time to time over the term of a swap calculated by reference to a fixed annual rate or consisting of at least one payment of a fixed amount,Entity,swap leg whose paying party is obligated to make payments from time to time over the term of a swap calculated by reference to a fixed annual rate or consisting of at least one payment of a fixed amount
+return leg,Entity,return leg
+ContractParty,Entity,ContractParty
+performance-based leg wherein the payment is netted at maturity rather than periodically,Entity,performance-based leg wherein the payment is netted at maturity rather than periodically
+correlation swap,Entity,correlation swap
+N9c2a8af9b71646cda746accf4ec9e21d,Entity,N9c2a8af9b71646cda746accf4ec9e21d
+N8db99ec410d949e1b66544170e4985fa,Entity,N8db99ec410d949e1b66544170e4985fa
+swap leg,Entity,swap leg
+owl#ObjectProperty,Entity,owl#ObjectProperty
+dispersion swap,Entity,dispersion swap
+N1668b2c887a54a9cbe37cd709f8bfc48,Entity,N1668b2c887a54a9cbe37cd709f8bfc48
+swap in which payment streams are referenced to different bases,Entity,swap in which payment streams are referenced to different bases
+volatility_trading.pdf,Entity,volatility_trading.pdf
+isDenominatedIn,Entity,isDenominatedIn
+This excludes positions held for hedging or mitigating commercial risk and positions maintained by an employee benefit plan for the primary purpose of hedging or mitigating any risk directly associated with the operation of the plan.,Entity,This excludes positions held for hedging or mitigating commercial risk and positions maintained by an employee benefit plan for the primary purpose of hedging or mitigating any risk directly associated with the operation of the plan.
+Nb726ac284b374abc968655ed567455ab,Entity,Nb726ac284b374abc968655ed567455ab
+swap party responsible for making payments for a given leg of the transaction as defined in the contract,Entity,swap party responsible for making payments for a given leg of the transaction as defined in the contract
+Currency,Entity,Currency
+PerformanceBasedVariableLeg,Entity,PerformanceBasedVariableLeg
+has leg,Entity,has leg
+"swap in two counterparties each agree to pay the other cash flows on defined dates during an agreed period, based on a specified notional amount and a floating interest, floating inflation or fixed interest rate",Entity,"swap in two counterparties each agree to pay the other cash flows on defined dates during an agreed period, based on a specified notional amount and a floating interest, floating inflation or fixed interest rate"
+legal contractual terms of a swap transaction,Entity,legal contractual terms of a swap transaction
+Nb23b6bf4651e4391868cc63a06eb526d,Entity,Nb23b6bf4651e4391868cc63a06eb526d
+"Payments may include interest payments on a debt instrument or the dividends on an equity, for example.",Entity,"Payments may include interest payments on a debt instrument or the dividends on an equity, for example."
+Nc74168c32cee4739a9763ad2eb3dd557,Entity,Nc74168c32cee4739a9763ad2eb3dd557
+supersedes,Entity,supersedes
+relates a swap contract to a leg that is part of that swap,Entity,relates a swap contract to a leg that is part of that swap
+basis swap,Entity,basis swap
+derivative instrument whereby counterparties agree to exchange periodic streams of cash flows or liabilities from two different financial instruments with each other,Entity,derivative instrument whereby counterparties agree to exchange periodic streams of cash flows or liabilities from two different financial instruments with each other
+"Swaps.rdf version of the ontology was modified to tease out the distinction between the nominal and notional amount, which were confused and augment the definition of notional for swaps to properly reflect variations from the CFI (DER-127), and replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1 (FND-380).",Entity,"Swaps.rdf version of the ontology was modified to tease out the distinction between the nominal and notional amount, which were confused and augment the definition of notional for swaps to properly reflect variations from the CFI (DER-127), and replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1 (FND-380)."
+identifies,Entity,identifies
+relates a swap lifecycle event to the identifier for the swap,Entity,relates a swap lifecycle event to the identifier for the swap
+N3ddd719f53194822add97483427a9146,Entity,N3ddd719f53194822add97483427a9146
+This is distinguished from the more general Return Leg by the addition of increase or decrease in the value of the underlying asset.,Entity,This is distinguished from the more general Return Leg by the addition of increase or decrease in the value of the underlying asset.
+market maker in swaps,Entity,market maker in swaps
+Nee97e795618c46038c6a1117d1e91e86,Entity,Nee97e795618c46038c6a1117d1e91e86
+appliesTo,Entity,appliesTo
+isIdentifiedBy,Entity,isIdentifiedBy
+N9f6c4c5e71af404fa4dc683541480d9f,Entity,N9f6c4c5e71af404fa4dc683541480d9f
+hasFundingLeg,Entity,hasFundingLeg
+swap party that receives payments for a given leg of the transaction as defined in the contract,Entity,swap party that receives payments for a given leg of the transaction as defined in the contract
+hasEffectiveDate,Entity,hasEffectiveDate
+"swap leg of a rate-based swap based on a floating interest, floating inflation or fixed interest rate",Entity,"swap leg of a rate-based swap based on a floating interest, floating inflation or fixed interest rate"
+funding leg,Entity,funding leg
+N0ac2f5a253e040afb5e1038e57ab4db3,Entity,N0ac2f5a253e040afb5e1038e57ab4db3
+hasContractualElement,Entity,hasContractualElement
+SwapLifecycleEventIdentifier,Entity,SwapLifecycleEventIdentifier
+TangibleAsset,Entity,TangibleAsset
+performance-based variable leg,Entity,performance-based variable leg
+hasSeller,Entity,hasSeller
+NonDepositoryInstitution,Entity,NonDepositoryInstitution
+floating leg of a correlation swap that pays an amount based on the observed average correlation of the prices of a collection of underlying products,Entity,floating leg of a correlation swap that pays an amount based on the observed average correlation of the prices of a collection of underlying products
+financial service provider that provides a central facility for swap data reporting and recordkeeping,Entity,financial service provider that provides a central facility for swap data reporting and recordkeeping
+"In exchange, the other party, the buyer of the credit risk, agrees to pay the difference in value of the specified asset multiplied by the notional value should that value decrease between the same specified periods of time. Total return swaps often appear in asset classes other than the credit asset class; however, for the purpose of the CFTC Swaps Report, all total return swaps are counted only in the credit asset class.",Entity,"In exchange, the other party, the buyer of the credit risk, agrees to pay the difference in value of the specified asset multiplied by the notional value should that value decrease between the same specified periods of time. Total return swaps often appear in asset classes other than the credit asset class; however, for the purpose of the CFTC Swaps Report, all total return swaps are counted only in the credit asset class."
+Swaps.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1 (FND-380) and to revise definitions related to swap leg-specific events (FBC-317).,Entity,Swaps.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1 (FND-380) and to revise definitions related to swap leg-specific events (FBC-317).
+Date,Entity,Date
+SwapDealer,Entity,SwapDealer
+relates a swap leg to the to the swap that includes it,Entity,relates a swap leg to the to the swap that includes it
+identifier for a swap that is used in recordkeeping and swap data reporting,Entity,identifier for a swap that is used in recordkeeping and swap data reporting
+" version of this ontology was modified to eliminate the property 'hasPaymentSchedule' from this ontology in favor of the equivalent property with the same name from FND, adding concepts related to statistical swaps, and revising definitions to be ISO 704 compliant.",Entity," version of this ontology was modified to eliminate the property 'hasPaymentSchedule' from this ontology in favor of the equivalent property with the same name from FND, adding concepts related to statistical swaps, and revising definitions to be ISO 704 compliant."
+swap leg that specifies contractual terms associated with a schedule of payments for any swap calculated by reference to a fixed annual rate,Entity,swap leg that specifies contractual terms associated with a schedule of payments for any swap calculated by reference to a fixed annual rate
+fixed leg,Entity,fixed leg
+CashflowTerms,Entity,CashflowTerms
+N4a02cfddf5744667ab4b6aff760e1ff9,Entity,N4a02cfddf5744667ab4b6aff760e1ff9
+"indicates the leg of a return swap that specifies a set payment rate, typically benchmark based but possibly a fixed rate",Entity,"indicates the leg of a return swap that specifies a set payment rate, typically benchmark based but possibly a fixed rate"
+Release,Entity,Release
+N9d93e57ff61a4d98956dcc2a51148637,Entity,N9d93e57ff61a4d98956dcc2a51148637
+,Entity,
+return swap in which payments are based on a fee paid to the seller of the swap and on a floating reference price based on changes in the level of an index from an initial level to a level observed on some valuation date(s),Entity,return swap in which payments are based on a fee paid to the seller of the swap and on a floating reference price based on changes in the level of an index from an initial level to a level observed on some valuation date(s)
+LifecycleEvent,Entity,LifecycleEvent
+N35c0cab57ae24d24a02b63ae10aa9ac5,Entity,N35c0cab57ae24d24a02b63ae10aa9ac5
+DerivativeTerms,Entity,DerivativeTerms
+SwapTerms,Entity,SwapTerms
+ version of this ontology was modified to address text formatting issues identified through hygiene testing.,Entity, version of this ontology was modified to address text formatting issues identified through hygiene testing.
+"Each product that can act as the underlier on which the correlation is based has periodically observable prices, such as a commodity, exchange rate, interest rate, or stock index. Correlation trading is a strategy in which the investor receives exposure to the average correlation of an index.",Entity,"Each product that can act as the underlier on which the correlation is based has periodically observable prices, such as a commodity, exchange rate, interest rate, or stock index. Correlation trading is a strategy in which the investor receives exposure to the average correlation of an index."
+A variance swap is an instrument that allows investors to trade future realized (or historical) volatility against current implied volatility.,Entity,A variance swap is an instrument that allows investors to trade future realized (or historical) volatility against current implied volatility.
+return swap where the seller agrees to pay the other party the difference in value of some underlying asset multiplied by an agreed-upon notional value should the asset value increase between specified periods of time,Entity,return swap where the seller agrees to pay the other party the difference in value of some underlying asset multiplied by an agreed-upon notional value should the asset value increase between specified periods of time
+N28ad03a9f015441390e9a8b0a2ea63d5,Entity,N28ad03a9f015441390e9a8b0a2ea63d5
+financial service provider that maintains a substantial position in swaps for any of the major swap categories,Entity,financial service provider that maintains a substantial position in swaps for any of the major swap categories
+RatesSwap,Entity,RatesSwap
+variance swap,Entity,variance swap
+statistical swap,Entity,statistical swap
+ReferenceIndex,Entity,ReferenceIndex
+"swap leg whose paying party is obligated to make payments from time to time over the term of a swap calculated by reference to some variable rate, calculated based on the change in value of some underlying asset, or consisting of at least one payment of some floating amount",Entity,"swap leg whose paying party is obligated to make payments from time to time over the term of a swap calculated by reference to some variable rate, calculated based on the change in value of some underlying asset, or consisting of at least one payment of some floating amount"
+floating leg of a swap that depends on some statistical measure of the performance of the underlier,Entity,floating leg of a swap that depends on some statistical measure of the performance of the underlier
+floating leg of a dispersion swap that pays an amount based on the realized dispersion of the price changes of the underlying product,Entity,floating leg of a dispersion swap that pays an amount based on the realized dispersion of the price changes of the underlying product
+"Underlying assets may include, for example, exchange rates, interest rates, or the price of an index.",Entity,"Underlying assets may include, for example, exchange rates, interest rates, or the price of an index."
+SwapLegEvent,Entity,SwapLegEvent
+"The underlying instruments can be almost anything, representing various asset classes, but most swaps involve cash flows (streams of payments or other commitments over time) based on a notional principal amount that both parties agree to.",Entity,"The underlying instruments can be almost anything, representing various asset classes, but most swaps involve cash flows (streams of payments or other commitments over time) based on a notional principal amount that both parties agree to."
+SwapDataRepository,Entity,SwapDataRepository
+"CFTC Data Management Branch 'Unique Swap Identifier (USI) Data Standard', October 1, 2012, usidatastandards100112.pdf",Entity,"CFTC Data Management Branch 'Unique Swap Identifier (USI) Data Standard', October 1, 2012, usidatastandards100112.pdf"
+excess return swap,Entity,excess return swap
+or the appreciation or decrease in value of the asset (or index constituents).,Entity,or the appreciation or decrease in value of the asset (or index constituents).
+Nd309887821104738bed5ca93f9ec6698,Entity,Nd309887821104738bed5ca93f9ec6698
+SwapReceivingParty,Entity,SwapReceivingParty
+SwapLeg,Entity,SwapLeg
+MonetaryAmount,Entity,MonetaryAmount
+major swap participant,Entity,major swap participant
+swap data repository,Entity,swap data repository
+hasSwapIdentifier,Entity,hasSwapIdentifier
+USI,Entity,USI
+FinancialServiceProvider,Entity,FinancialServiceProvider
+SimpleReturnLeg,Entity,SimpleReturnLeg
+hasLeg,Entity,hasLeg
+MSP,Entity,MSP
+ version of this ontology was modified to add the concept of a rates swap and the corresponding rate-based leg to facilitate mapping to the CFI standard.,Entity, version of this ontology was modified to add the concept of a rates swap and the corresponding rate-based leg to facilitate mapping to the CFI standard.
+"swap leg that specifies a fixed amount, 'the strike', quoted at the time of execution",Entity,"swap leg that specifies a fixed amount, 'the strike', quoted at the time of execution"
+ version of this ontology was modified to make a total return swap a kind of credit derivative.,Entity, version of this ontology was modified to make a total return swap a kind of credit derivative.
+SwapConfirmation,Entity,SwapConfirmation
+ReturnSwap,Entity,ReturnSwap
+TotalReturnSwap,Entity,TotalReturnSwap
+StrikeLeg,Entity,StrikeLeg
+CorrelationLeg,Entity,CorrelationLeg
+UniqueSwapIdentifier,Entity,UniqueSwapIdentifier
+CorrelationSwap,Entity,CorrelationSwap
+isAPartyTo,Entity,isAPartyTo
+"Swaps.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.",Entity,"Swaps.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities."
+"A two-leg financial swap is the most common type of swap agreement, where two counterparties exchange cash flows or obligations based on different financial variables. Each leg represents a stream of payments or flows tied to specific terms, such as fixed or floating interest rates, currencies, or commodities. The classic example of a two-leg swap is the interest rate swap, where one party pays a fixed interest rate while the other pays a floating interest rate.",Entity,"A two-leg financial swap is the most common type of swap agreement, where two counterparties exchange cash flows or obligations based on different financial variables. Each leg represents a stream of payments or flows tied to specific terms, such as fixed or floating interest rates, currencies, or commodities. The classic example of a two-leg swap is the interest rate swap, where one party pays a fixed interest rate while the other pays a floating interest rate."
+StatisticalSwap,Entity,StatisticalSwap
+N47eb05ed8a83415c9fbb4508e5a03058,Entity,N47eb05ed8a83415c9fbb4508e5a03058
+swap lifecycle event,Entity,swap lifecycle event
+N737d6cd3303a486d96d3b8d71afa2dc9,Entity,N737d6cd3303a486d96d3b8d71afa2dc9
+22-rdf-syntax-ns#nil,Entity,22-rdf-syntax-ns#nil
+floating leg,Entity,floating leg
+swap party,Entity,swap party
+Some strategies involve selling a variance swap on an index and buying the variance swaps on the individual constituents; this particular kind of spread trade is called a variance dispersion trade.,Entity,Some strategies involve selling a variance swap on an index and buying the variance swaps on the individual constituents; this particular kind of spread trade is called a variance dispersion trade.
+correlation leg,Entity,correlation leg
+N711adf7974034016a2114d335299a96a,Entity,N711adf7974034016a2114d335299a96a
+ReceivingParty,Entity,ReceivingParty
+"Copyright (c) 2016-2024 Object Management Group, Inc.",Entity,"Copyright (c) 2016-2024 Object Management Group, Inc."
+strike leg,Entity,strike leg
+RateBasedLeg,Entity,RateBasedLeg
+DerivativeInstrument,Entity,DerivativeInstrument
+Identifier,Entity,Identifier
+statistical derivative used to hedge on the magnitude of a price movement of an underlying asset,Entity,statistical derivative used to hedge on the magnitude of a price movement of an underlying asset
+DispersionLeg,Entity,DispersionLeg
+hasQuantityValue,Entity,hasQuantityValue
+swap,Entity,swap
+FinancialInstrumentIdentifier,Entity,FinancialInstrumentIdentifier
+owl#Class,Entity,owl#Class
+"The notional amount, effective date and termination date are some of the properties that each swap leg has that are taken from the swap contract.",Entity,"The notional amount, effective date and termination date are some of the properties that each swap leg has that are taken from the swap contract."
+Swap,Entity,Swap
+SwapLifecycleEvent,Entity,SwapLifecycleEvent
+"For example the parties may enter into a two year agreement where every three months they compare the value of the Barclays Capital Aggregate Bond Index to its value three months previously. If the agreed upon notional was US $10,000,000 and the value increased 0.04%, or 4 basis points (bps), the seller would pay the buyer US $4,000. If, after another three months, the value decreased by 3bps, the buyer would pay the seller US $3,000. As part of the agreement, the buyer may also make an additional payment each period to the seller based on a floating rate index multiplied by the notional value.",Entity,"For example the parties may enter into a two year agreement where every three months they compare the value of the Barclays Capital Aggregate Bond Index to its value three months previously. If the agreed upon notional was US $10,000,000 and the value increased 0.04%, or 4 basis points (bps), the seller would pay the buyer US $4,000. If, after another three months, the value decreased by 3bps, the buyer would pay the seller US $3,000. As part of the agreement, the buyer may also make an additional payment each period to the seller based on a floating rate index multiplied by the notional value."
+PayingParty,Entity,PayingParty
+hasReturnLeg,Entity,hasReturnLeg
+unique swap identifier,Entity,unique swap identifier
+" version of this ontology was modified to integrate return swaps and connect swap legs to the swap they comprise, as appropriate, simplify the contract party hierarchy, add basic fixed and floating legs as higher level concepts common to many swaps, and eliminate ambiguity in definitions.",Entity," version of this ontology was modified to integrate return swaps and connect swap legs to the swap they comprise, as appropriate, simplify the contract party hierarchy, add basic fixed and floating legs as higher level concepts common to many swaps, and eliminate ambiguity in definitions."
+N20b69f2ed0af42afb624ca3c55903071,Entity,N20b69f2ed0af42afb624ca3c55903071
+"swap in which one leg, the return leg, is based on income generated from some underlier",Entity,"swap in which one leg, the return leg, is based on income generated from some underlier"
+hasTerminationDate,Entity,hasTerminationDate
+"settlement and so there is no stream of cashflows either way. The other leg of these swaps is implied, and is simply the strike price.",Entity,"settlement and so there is no stream of cashflows either way. The other leg of these swaps is implied, and is simply the strike price."
+"Payments to the parties may be made either on a periodic basis or on termination of the transaction. One party will receive a payment based upon the change in the level of the index between two valuation dates (multiplied by the notional amount of the swap), as modified by the fee paid to the seller of the swap. If the level of the index increases, the buyer of the swap will be entitled to a payment based on this performance, as such payment may be reduced (or negated) by the fee paid to the seller of the swap. If the level of the index decreases, the seller of the swap will be entitled to a payment based on this performance, as such payment may be increased by the fee paid to the seller of the swap.",Entity,"Payments to the parties may be made either on a periodic basis or on termination of the transaction. One party will receive a payment based upon the change in the level of the index between two valuation dates (multiplied by the notional amount of the swap), as modified by the fee paid to the seller of the swap. If the level of the index increases, the buyer of the swap will be entitled to a payment based on this performance, as such payment may be reduced (or negated) by the fee paid to the seller of the swap. If the level of the index decreases, the seller of the swap will be entitled to a payment based on this performance, as such payment may be increased by the fee paid to the seller of the swap."
+"This ontology defines concepts specific to swap contracts, including relevant trading organizations, data repositories, and intermediaries.",Entity,"This ontology defines concepts specific to swap contracts, including relevant trading organizations, data repositories, and intermediaries."
+Dealer,Entity,Dealer
+hasContractParty,Entity,hasContractParty
+0,Entity,0
+Nb8e20853f7464744b0efbe0d1618be86,Entity,Nb8e20853f7464744b0efbe0d1618be86
+formal confirmation that codifies the terms and conditions specific to a lifecycle event with respect to the overall transaction between the parties,Entity,formal confirmation that codifies the terms and conditions specific to a lifecycle event with respect to the overall transaction between the parties
+owl#Ontology,Entity,owl#Ontology
+return swap in which the change in the level of the index will be equal to the returns generated primarily by the changes in price of each of the contracts that comprise the index,Entity,return swap in which the change in the level of the index will be equal to the returns generated primarily by the changes in price of each of the contracts that comprise the index
+FixedPaymentLeg,Entity,FixedPaymentLeg
+N791756844a2948dd98f37b6f74ea7414,Entity,N791756844a2948dd98f37b6f74ea7414
+Nf6ce91c99fc24080a1bdac165694fa6e,Entity,Nf6ce91c99fc24080a1bdac165694fa6e
+TotalReturnLeg,Entity,TotalReturnLeg
+Ncbef1e5101e64e25af89fe9ce2411f38,Entity,Ncbef1e5101e64e25af89fe9ce2411f38
+ScalarQuantityValue,Entity,ScalarQuantityValue
+"terms defining and the commitment to fulfill cashflow requirements (e.g., interest payments, coupon payments, etc.) for a component of a swap",Entity,"terms defining and the commitment to fulfill cashflow requirements (e.g., interest payments, coupon payments, etc.) for a component of a swap"
+N58db01b5c6cd4153956293cbfc61bad8,Entity,N58db01b5c6cd4153956293cbfc61bad8
+N7cd70a22db9b4742bce7e531bc9a582b,Entity,N7cd70a22db9b4742bce7e531bc9a582b
+swap lifecycle event identifier,Entity,swap lifecycle event identifier
+N4d83d34e726b4cdfb2f246ecaa5c5460,Entity,N4d83d34e726b4cdfb2f246ecaa5c5460
+rate-based leg,Entity,rate-based leg
+leg of a swap in which the income generated by some underlier is paid,Entity,leg of a swap in which the income generated by some underlier is paid
+has swap identifier,Entity,has swap identifier
+FixedLeg,Entity,FixedLeg
+index.htm,Entity,index.htm
+swap receiving party,Entity,swap receiving party

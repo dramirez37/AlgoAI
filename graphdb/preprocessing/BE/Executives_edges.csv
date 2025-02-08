@@ -1,0 +1,451 @@
+source_id,target_id,relationship
+hasVestedInIt,DelegatedLegalAuthority,rdf-schema#range
+ArticlesOfIncorporation,articles of incorporation,rdf-schema#label
+N1f526957d78746eda969623903899aed,isConferredBy,owl#onProperty
+isAuthorizedThrough,undergoes,rdf-schema#subPropertyOf
+hasResponsibility,Party,rdf-schema#domain
+Ndeb2cb0b9e1e474da247a329def395d9,owl#Restriction,22-rdf-syntax-ns#type
+N69de69fe3fb8433eb86ecff721d89f53,hasCapacity,owl#onProperty
+CorporateOfficer,"Note that in most cases in the United States, corporate officers, especially those with signatory capacity and other fiduciary responsibilities must be employees, especially with respect to financial institutions and other highly regulated domains. There are cases, however, when an independent contractor or professional services provider may play the role of a corporate officer, such as a 'CFO for hire', which is a common practice in start-up organizations.",explanatoryNote
+hasDirector,indicates a member of the board of directors of the organization,core#definition
+BoardMember,"party that has fiduciary responsibility with respect to the organization, including but not limited to determining and executing corporate policy",core#definition
+N476d55c451284bca89afb6e720b3e438,isGovernedBy,owl#onProperty
+,Executives.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.,core#changeNote
+,Executives.rdf version of the ontology was modified to fix spelling errors.,core#changeNote
+N9a03819b5cca4ea8b3cf049afe278392,isPlayedBy,owl#onProperty
+hasSigningAuthorityFor,Signatory,rdf-schema#domain
+N35bb39a3c8434a54859089d01e2351cd,owl#Restriction,22-rdf-syntax-ns#type
+VotingShareholder,owl#Class,22-rdf-syntax-ns#type
+Ndeb2cb0b9e1e474da247a329def395d9,LegallyCompetentNaturalPerson,owl#allValuesFrom
+Nbf8e72420f0b4dd1bd43b74d9b72dd42,authorizesThrough,owl#onProperty
+BoardOfDirectors,EntityControllingParty,rdf-schema#subClassOf
+PrincipalParty,owl#Class,22-rdf-syntax-ns#type
+authorizesThrough,authorizes through,rdf-schema#label
+Naa1a6d06ac1e4ef581ae137c53a2477f,playsRole,owl#onProperty
+Neb1bc6ef450b491b9e3799fa2e51968f,N69de69fe3fb8433eb86ecff721d89f53,owl#someValuesFrom
+N6fa5b882664c4fda9a282b3c130bf0da,owl#Restriction,22-rdf-syntax-ns#type
+BoardCompositionControl,board composition control,rdf-schema#label
+ChiefExecutiveOfficer,ExecutiveBoardMember,rdf-schema#subClassOf
+AuthorizingParty,Actor,rdf-schema#subClassOf
+N2b8841a1cafb4fa3908692e1a35f1da1,owl#Restriction,22-rdf-syntax-ns#type
+PrincipalParty,principal party,rdf-schema#label
+hasCorporateOfficer,CorporateOfficer,rdf-schema#range
+nominates,"Note that nominates is defined as a relation between two parties-in-role (the range of which could be a corporation or partnership in the case of an auditor), whereas appoints between independent parties.",usageNote
+PrincipalParty,OrganizationMember,rdf-schema#subClassOf
+isAuthorizedBy,AuthorizedParty,rdf-schema#domain
+delegatesControlTo,delegates control to,rdf-schema#label
+BoardMember,LegallyDelegatedAuthority,rdf-schema#subClassOf
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+Auditor,owl#Class,22-rdf-syntax-ns#type
+BoardMembership,Ne8dd95f393694b07b0242d6e60757e07,rdf-schema#subClassOf
+,,owl#versionIRI
+hasPrincipalManagingParty,indicates a controlling party that is responsible for the management of daily business operations,core#definition
+BoardCapacity,board capacity,rdf-schema#label
+hasResponsibility,specifies a commitment or obligation that an independent party has,core#definition
+hasVestedInIt,LegallyDelegatedAuthority,rdf-schema#domain
+AuthorizedParty,Na0d15f066bf847e9a94e1778c95f777f,rdf-schema#subClassOf
+Auditor,"An auditor is authorized to audit one or more specific organizations, i.e., by the authorizing party indicated by the situation.",explanatoryNote
+LegallyDelegatedAuthority,legally delegated authority,rdf-schema#label
+ExecutiveBoardMember,owl#Class,22-rdf-syntax-ns#type
+Na0d15f066bf847e9a94e1778c95f777f,owl#Restriction,22-rdf-syntax-ns#type
+Authorization,Situation,rdf-schema#subClassOf
+Auditor,auditor,rdf-schema#label
+isOfficerOf,ControlledParty,rdf-schema#range
+CompanySecretary,corporate secretary,synonym
+BoardCompositionControl,or nominates someone to the board of directors of an organization for some period of time,core#definition
+Executive,person appointed and given the responsibility to manage the affairs of an organization and the authority to make decisions within specified role-specific boundaries,core#definition
+PrincipalParty,controlling party that is responsible for the management of daily business operations of an organization,core#definition
+Nbf8e72420f0b4dd1bd43b74d9b72dd42,owl#Restriction,22-rdf-syntax-ns#type
+Ndeb2cb0b9e1e474da247a329def395d9,isPlayedBy,owl#onProperty
+,Executives.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+hasSigningAuthorityFor,"indicates the party for which a signatory has the ability to sign agreements, access accounts and perform related tasks",core#definition
+ChiefExecutiveOfficer,owl#Class,22-rdf-syntax-ns#type
+N1259afb49cb94516ac7dc55a684d28f8,Ndc66d5ede93b4cfd941b5ebed0a9c3e3,22-rdf-syntax-ns#rest
+Nab584975b9804d9aa57a8afa72d8002e,isConferredOn,owl#onProperty
+N9f1c475a2ef644f9accf6637d729b298,hasMember,owl#onProperty
+hasDelegatedControlOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+AuthorizedParty,party that has been given the responsibility to act on behalf of another party under some set of guidelines,core#definition
+,"Executives.rdf version of the ontology was modified to move the property, 'is conferred on' from Relations to the Legal Capacity ontology, and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+N29cc92f0d40f4a4e81b03efcedcf6a03,Nda4cc60196fc48cf8bd885d38534dc73,owl#unionOf
+N06b21bff2d19494783350b68e5b9e6e0,BoardMember,owl#onClass
+Executive,N019e7caf61bf4ff39cd6b7c3369e0941,rdf-schema#subClassOf
+authorizesThrough,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nc0d0239db56b49c8a3b802e5d9e59274,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N2b8841a1cafb4fa3908692e1a35f1da1,playsRole,owl#onProperty
+ResponsibleParty,Ndeb2cb0b9e1e474da247a329def395d9,rdf-schema#subClassOf
+designatesSignatory,owl#ObjectProperty,22-rdf-syntax-ns#type
+isPrincipalPartyOf,PrincipalParty,rdf-schema#domain
+LegallyDelegatedAuthority,owl#Class,22-rdf-syntax-ns#type
+hasPrincipalManagingParty,PrincipalParty,rdf-schema#range
+AuthorizingParty,Ned1bf728fa924293a90e535edff6e286,rdf-schema#subClassOf
+N26a953a102194acba23bfc3c2829d615,playsRole,owl#onProperty
+CompanyLaw,"legislation under which the formation, registration or incorporation, governance, and dissolution of a firm is administered and controlled",core#definition
+N3dbbf8af8fd844e79d0f489dab1e4bfd,owl#Restriction,22-rdf-syntax-ns#type
+Naa1a6d06ac1e4ef581ae137c53a2477f,BoardOfDirectors,owl#someValuesFrom
+CompanyLaw,company law,rdf-schema#label
+N128ad747786346e09a1c649d1c156d3f,hasPartyInControl,owl#onProperty
+hasAuthorizedParty,Authorization,rdf-schema#domain
+CorporateOfficer,corporate officer,rdf-schema#label
+isAuthorizedThrough,hasAuthorizedParty,owl#inverseOf
+N74f2a66dd1d3470daf424aeac1ff82fc,N29cc92f0d40f4a4e81b03efcedcf6a03,owl#someValuesFrom
+hasVestedInIt,hasCapacity,rdf-schema#subPropertyOf
+Executive,LegallyDelegatedAuthority,rdf-schema#subClassOf
+BoardMember,ResponsibleParty,rdf-schema#subClassOf
+Ndc66d5ede93b4cfd941b5ebed0a9c3e3,Nbc37ce19f5f44f55bb100afdf7ad1cc9,22-rdf-syntax-ns#rest
+N1f526957d78746eda969623903899aed,Nc3cde78ebf0645788ec6a969623363fe,owl#someValuesFrom
+Nc3cde78ebf0645788ec6a969623363fe,owl#Class,22-rdf-syntax-ns#type
+NonExecutiveBoardMember,outside director,synonym
+elects,PartyRole,rdf-schema#range
+authorizes,actsOn,rdf-schema#subPropertyOf
+N646057f71aa34f359e67ae5ca2dc7eb9,hasPartyInControl,owl#onProperty
+hasResponsibleParty,has responsible party,rdf-schema#label
+N06b21bff2d19494783350b68e5b9e6e0,owl#Restriction,22-rdf-syntax-ns#type
+Na0d15f066bf847e9a94e1778c95f777f,Authorization,owl#someValuesFrom
+isOfficerOf,CorporateOfficer,rdf-schema#domain
+isDirectorOf,indicates the organization that the board member oversees,core#definition
+Nbf8e72420f0b4dd1bd43b74d9b72dd42,Authorization,owl#someValuesFrom
+BoardMembership,situation relating an individual member of the board of directors to the organization,core#definition
+BoardCapacity,N476d55c451284bca89afb6e720b3e438,rdf-schema#subClassOf
+isAuthorizedBy,isAffectedBy,rdf-schema#subPropertyOf
+isAuthorizedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+elects,elects,rdf-schema#label
+elects,"chooses someone, or a group of individuals, to hold office or some other position by voting",core#definition
+N65c0d9435116482bacb147a0c211e295,hasResponsibility,owl#onProperty
+hasCorporateOfficer,ControlledParty,rdf-schema#domain
+isAuthorizedThrough,indicates the situation that faciliates endorsement of the authorized party for some purpose,core#definition
+hasDirector,BoardMember,rdf-schema#range
+CorporateBylaws,"written rules for conduct of a corporation, adopted by the board of directors",core#definition
+N476d55c451284bca89afb6e720b3e438,0,owl#minQualifiedCardinality
+,Executives.rdf version of this ontology was modified per the FIBO 2.0 RFC to fix reasoning issues.,core#changeNote
+CompanySecretary,"corporate officer appointed by the directors of an organization, responsible for ensuring compliance with legal obligations related to corporate governance",core#definition
+N69de69fe3fb8433eb86ecff721d89f53,BoardCapacity,owl#someValuesFrom
+ChiefFinancialOfficer,chief financial officer,rdf-schema#label
+hasAuthorizingParty,"indicates the party that endorses, enables, empowers, or gives permission in the situation",core#definition
+delegatesControlTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nda4cc60196fc48cf8bd885d38534dc73,LegalEntity,22-rdf-syntax-ns#first
+ChiefFinancialOfficer,CFO,abbreviation
+Auditor,"An auditor may be an internal auditor - an individual whose primary job function is to audit his or her own company, or an external auditor - an individual from outside the company, who typically is employed by an auditing firm who handles many different clients.",explanatoryNote
+N4b61da7172bc475d9587da0765b9ded8,SignificantShareholder,22-rdf-syntax-ns#first
+NonExecutiveBoardMember,owl#Class,22-rdf-syntax-ns#type
+ArticlesOfIncorporation,"contract that establishes a new corporation or, when amended, adjusts the legal basis for the corporation, and outlines basic information about the corporation, including the type of business, and a description of the business' operational characteristics",core#definition
+N06b21bff2d19494783350b68e5b9e6e0,0,owl#minQualifiedCardinality
+PrincipalParty,Signatory,rdf-schema#subClassOf
+Nab584975b9804d9aa57a8afa72d8002e,N2b8841a1cafb4fa3908692e1a35f1da1,owl#someValuesFrom
+N69de69fe3fb8433eb86ecff721d89f53,owl#Restriction,22-rdf-syntax-ns#type
+Bylaws,owl#Class,22-rdf-syntax-ns#type
+,Executives.rdf version of this ontology was modified to adjust the hierarchy to better support regulatory requirements.,core#changeNote
+Nec2ee603a358421c8b230c730a3c327d,BoardMember,owl#someValuesFrom
+isDirectorOf,isPartyControlling,rdf-schema#subPropertyOf
+CorporateBylaws,Nfb3e467486e747e0918acfc2e87c1f58,rdf-schema#subClassOf
+N65c0d9435116482bacb147a0c211e295,Duty,owl#allValuesFrom
+DeFactoControllingInterestParty,"A control owner (i.e., control person, per SEC regulations) may have some means or right that allows them to exercise control over board composition, other than through proxy assignment or vote. Not all control persons have this facility, as it is not inherent to having a significant (for example, 20 percent or more) ownership stake.",explanatoryNote
+CorporateBylaws,"Corporate bylaws may contain any provision, not inconsistent with law or with the certificate of incorporation, relating to the business of the corporation, the conduct of its affairs, and its rights or powers or the rights or powers of its stockholders, directors, officers or employees. Changes to the bylaws of a corporation require a board-level resolution and may require a vote of the shareholders.",explanatoryNote
+isAuthorizedThrough,AuthorizedParty,rdf-schema#domain
+Authorization,situation in which a party authorizes someone to act on their behalf under certain conditions for some period of time,core#definition
+,Executives.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+Nda4cc60196fc48cf8bd885d38534dc73,N13dc70ad0b1848daa142af7425c3b99f,22-rdf-syntax-ns#rest
+authorizes,"endorses, enables, empowers, or gives permission to",core#definition
+hasPrincipalManagingParty,hasControllingOrganizationMember,rdf-schema#subPropertyOf
+nominates,PartyRole,rdf-schema#range
+designatesSignatory,Signatory,rdf-schema#range
+nominates,nominates,rdf-schema#label
+N6fa5b882664c4fda9a282b3c130bf0da,AuthorizingParty,owl#someValuesFrom
+hasAuthorizedParty,AuthorizedParty,rdf-schema#range
+N3dbbf8af8fd844e79d0f489dab1e4bfd,isPlayedBy,owl#onProperty
+isDirectorOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+elects,PartyRole,rdf-schema#domain
+CorporateBylaws,corporate bylaws,rdf-schema#label
+isPrincipalPartyOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+ChiefFinancialOfficer,CorporateOfficer,rdf-schema#subClassOf
+,Executives.rdf version of this ontology was modified to add PrincipalParty as the parent of CEO and others.,core#changeNote
+authorizesThrough,Authorization,rdf-schema#range
+ChiefExecutiveOfficer,"He or she is the leader of the firm, serves as the main link between the board of directors (the board) and the firm's various parts or levels, and is held solely responsible for the firm's success or failure. One of the major duties of a CEO is to maintain and implement corporate policy, as established by the board. Also called President or managing director, he or she may also be the chairman (or chairperson) of the board.",explanatoryNote
+N1259afb49cb94516ac7dc55a684d28f8,InstrumentOfIncorporation,22-rdf-syntax-ns#first
+,owl#Ontology,22-rdf-syntax-ns#type
+Bylaws,membership agreement,synonym
+Authorization,N0c7b2401eb6a4372939ff12de2bdbb5b,rdf-schema#subClassOf
+CompanySecretary,CorporateOfficer,rdf-schema#subClassOf
+Nc0d0239db56b49c8a3b802e5d9e59274,EntityOwner,22-rdf-syntax-ns#first
+N99127de678ed43059f4b977fb0cb78bb,N4b61da7172bc475d9587da0765b9ded8,owl#unionOf
+ExecutiveBoardMember,BoardMember,rdf-schema#subClassOf
+hasDirector,owl#ObjectProperty,22-rdf-syntax-ns#type
+N13dc70ad0b1848daa142af7425c3b99f,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+BoardCapacity,owl#Class,22-rdf-syntax-ns#type
+isAuthorizedThrough,owl#ObjectProperty,22-rdf-syntax-ns#type
+BoardMembership,Control,rdf-schema#subClassOf
+hasDirector,hasControllingParty,rdf-schema#subPropertyOf
+Bylaws,bylaws,rdf-schema#label
+BoardCompositionControl,Nec2ee603a358421c8b230c730a3c327d,rdf-schema#subClassOf
+N0c7b2401eb6a4372939ff12de2bdbb5b,owl#Restriction,22-rdf-syntax-ns#type
+Nfee51b3e96af4392b985ba4dbda0c2fd,owl#Restriction,22-rdf-syntax-ns#type
+hasResponsibility,Duty,rdf-schema#range
+Authorization,owl#Class,22-rdf-syntax-ns#type
+hasResponsibleParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nbc37ce19f5f44f55bb100afdf7ad1cc9,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nfb3e467486e747e0918acfc2e87c1f58,hasSharesAuthorized,owl#onProperty
+N019e7caf61bf4ff39cd6b7c3369e0941,LegallyCompetentNaturalPerson,owl#onClass
+AuthorizingParty,authorizing party,rdf-schema#label
+BoardCompositionControl,N646057f71aa34f359e67ae5ca2dc7eb9,rdf-schema#subClassOf
+isPrincipalPartyOf,is principal party of,rdf-schema#label
+AuthorizingParty,Nbf8e72420f0b4dd1bd43b74d9b72dd42,rdf-schema#subClassOf
+BoardMembership,owl#Class,22-rdf-syntax-ns#type
+authorizes,AuthorizingParty,rdf-schema#domain
+nominates,appoints or proposes for appointment to an office or place,core#definition
+hasDelegatedControlOf,indicates something or some party that is controlled via delegation,core#definition
+ResponsibleParty,responsible party,rdf-schema#label
+ChiefFinancialOfficer,"He or she is in charge of all accounting functions including (1) credit control, (2) preparing budgets and financial statements, (3) coordinating financing and fund raising, (4) monitoring expenditure and liquidity, (5) managing investment and taxation issues, (6) reporting financial performance to the board, and (7) providing timely financial data to the CEO. Also called chief finance officer, comptroller, controller, or finance controller.",explanatoryNote
+BoardMember,OrganizationMember,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+authorizesThrough,actsIn,rdf-schema#subPropertyOf
+Signatory,N9a03819b5cca4ea8b3cf049afe278392,rdf-schema#subClassOf
+N0c7b2401eb6a4372939ff12de2bdbb5b,AuthorizedParty,owl#someValuesFrom
+isDirectorOf,hasDirector,owl#inverseOf
+isOfficerOf,indicates the organization that the person has some authority over and managerial responsibility for,core#definition
+ArticlesOfIncorporation,owl#Class,22-rdf-syntax-ns#type
+hasSigningAuthorityFor,has signing authority for,rdf-schema#label
+N646057f71aa34f359e67ae5ca2dc7eb9,owl#Restriction,22-rdf-syntax-ns#type
+ChiefExecutiveOfficer,N3dbbf8af8fd844e79d0f489dab1e4bfd,rdf-schema#subClassOf
+,Executives.rdf version of the ontology was modified to refine the definition of corporate officer.,core#changeNote
+hasResponsibility,owl#ObjectProperty,22-rdf-syntax-ns#type
+N476d55c451284bca89afb6e720b3e438,CompanyLaw,owl#onClass
+Ncb92dae007c2428788a4d7b00ad11f65,LegallyCompetentNaturalPerson,owl#onClass
+hasCorporateOfficer,hasControllingParty,rdf-schema#subPropertyOf
+Signatory,AuthorizedParty,rdf-schema#subClassOf
+authorizes,AuthorizedParty,rdf-schema#range
+Neb1bc6ef450b491b9e3799fa2e51968f,owl#Restriction,22-rdf-syntax-ns#type
+isDirectorOf,is director of,rdf-schema#label
+isOfficerOf,isPartyControlling,rdf-schema#subPropertyOf
+N128ad747786346e09a1c649d1c156d3f,owl#Restriction,22-rdf-syntax-ns#type
+Nab584975b9804d9aa57a8afa72d8002e,owl#Restriction,22-rdf-syntax-ns#type
+Nbc37ce19f5f44f55bb100afdf7ad1cc9,BoardAgreement,22-rdf-syntax-ns#first
+hasCorporateOfficer,has corporate officer,rdf-schema#label
+BoardCapacity,"authority to act in a fiduciary capacity with respect to the organization, including but not limited to determining and executing corporate policy",core#definition
+N65c0d9435116482bacb147a0c211e295,owl#Restriction,22-rdf-syntax-ns#type
+hasDelegatedControlOf,LegallyDelegatedAuthority,rdf-schema#domain
+Nb67d2cfedaf24629b4e181708170c6c9,owl#Restriction,22-rdf-syntax-ns#type
+N9f1c475a2ef644f9accf6637d729b298,owl#Restriction,22-rdf-syntax-ns#type
+BoardOfDirectors,board of directors,rdf-schema#label
+CompanySecretary,"His or her formal duties include (1) calling meetings, (2) recording minutes of the meetings, (3) keeping statutory record books, (4) proper payment of dividend and interest payments, and (5) proper drafting and execution of agreements, contracts, and resolutions.",explanatoryNote
+hasResponsibleParty,hasPartyRole,rdf-schema#subPropertyOf
+N74f2a66dd1d3470daf424aeac1ff82fc,manages,owl#onProperty
+hasCorporateOfficer,owl#ObjectProperty,22-rdf-syntax-ns#type
+N5420e7fd6dbd4a0caf595cefa5d9b40d,SignatoryCapacity,owl#someValuesFrom
+CorporateOfficer,OrganizationMember,rdf-schema#subClassOf
+ChiefExecutiveOfficer,chief executive officer,rdf-schema#label
+N646057f71aa34f359e67ae5ca2dc7eb9,0,owl#minQualifiedCardinality
+NonExecutiveBoardMember,BoardMember,rdf-schema#subClassOf
+Auditor,party qualified and authorized to review and verify the accuracy of financial records and ensure that companies comply with tax laws,core#definition
+Signatory,"responsible party authorized to sign agreements on behalf of themselves, another person, or an organization",core#definition
+hasPrincipalManagingParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+ResponsibleParty,Neb2cc4f9eba54fb4a573977a3ac61f77,rdf-schema#subClassOf
+elects,"In the case of an election of the members of a board of directors, the bylaws state the manner in which that process is effected. The candidate members may be recommended by the board or other proxy and are then elected by the shareholders. A similar process may be conducted to elect outside auditors.",core#editorialNote
+N00bc5b2af1dd437badb4fb07b5a4b9b9,owl#Restriction,22-rdf-syntax-ns#type
+isAuthorizedBy,is authorized by,rdf-schema#label
+isAuthorizedThrough,is authorized through,rdf-schema#label
+AuthorizedParty,owl#Class,22-rdf-syntax-ns#type
+AuthorizingParty,"party that delegates some role, authority, or control to another party",core#definition
+Nc5164f99a10d421fae5715b53fe4424c,nominates,owl#onProperty
+N3dbbf8af8fd844e79d0f489dab1e4bfd,N74f2a66dd1d3470daf424aeac1ff82fc,owl#someValuesFrom
+N7425bfcbc2164aab916aa63538aecbdb,0,owl#minQualifiedCardinality
+BoardOfDirectors,N2fa33f6b68234f7ebadc73640e3ac326,rdf-schema#subClassOf
+delegatesControlTo,LegallyDelegatedAuthority,rdf-schema#range
+hasAuthorizingParty,has authorizing party,rdf-schema#label
+LegallyDelegatedAuthority,ControllingParty,rdf-schema#subClassOf
+Signatory,owl#Class,22-rdf-syntax-ns#type
+Ned1bf728fa924293a90e535edff6e286,LegalPerson,owl#onClass
+hasAuthorizingParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+ChiefExecutiveOfficer,CorporateOfficer,rdf-schema#subClassOf
+CorporateOfficer,"Corporate officers may include a Chief Executive Officer (CEO), Chief Financial Officer (CFO), president, vice president(s), and in some cases a Chief Operating Officer (COO), Chief Compliance Officer (CCO), or other executive responsible for a critical function in the organization.",core#example
+hasVestedInIt,has vested in it,rdf-schema#label
+,"Executives.rdf version of this ontology was modified to integrate concepts related to authorization, including board membership and the concept of a signatory (moved from legal persons) to improve semantics; simplify the ontology, and normalize definitions to be ISO 704 compliant.",core#changeNote
+CorporateOfficer,Executive,rdf-schema#subClassOf
+Nfee51b3e96af4392b985ba4dbda0c2fd,BoardAgreement,owl#someValuesFrom
+BoardCompositionControl,owl#Class,22-rdf-syntax-ns#type
+Neb1bc6ef450b491b9e3799fa2e51968f,isPlayedBy,owl#onProperty
+hasSigningAuthorityFor,designatesSignatory,owl#inverseOf
+NonExecutiveBoardMember,ExecutiveBoardMember,owl#disjointWith
+ChiefFinancialOfficer,owl#Class,22-rdf-syntax-ns#type
+BoardCompositionControl,Control,rdf-schema#subClassOf
+Nfb3e467486e747e0918acfc2e87c1f58,owl#Restriction,22-rdf-syntax-ns#type
+Signatory,signatory,rdf-schema#label
+N51c3bb9ca809449cb12990a0d488a4d4,owl#Restriction,22-rdf-syntax-ns#type
+N019e7caf61bf4ff39cd6b7c3369e0941,1,owl#qualifiedCardinality
+ResponsibleParty,"person acting in a role that has some formal responsibility, such as a fiduciary responsibility, a signatory, an examiner or registrar, etc.",core#definition
+ExecutiveBoardMember,executive board member,rdf-schema#label
+N5420e7fd6dbd4a0caf595cefa5d9b40d,owl#Restriction,22-rdf-syntax-ns#type
+isAuthorizedBy,"is endorsed, enabled, empowered, or otherwise permitted by",core#definition
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+CompanySecretary,company secretary,rdf-schema#label
+isDirectorOf,ControlledParty,rdf-schema#range
+LegallyDelegatedAuthority,N00bc5b2af1dd437badb4fb07b5a4b9b9,rdf-schema#subClassOf
+N5420e7fd6dbd4a0caf595cefa5d9b40d,hasCapacity,owl#onProperty
+elects,"the election of officers of an association, the election of directors by the shareholders",core#example
+isPrincipalPartyOf,identifies a legal entity (controlled party) over which a principal has some measure of control,core#definition
+authorizes,owl#ObjectProperty,22-rdf-syntax-ns#type
+N7425bfcbc2164aab916aa63538aecbdb,owl#Restriction,22-rdf-syntax-ns#type
+BoardMembership,N128ad747786346e09a1c649d1c156d3f,rdf-schema#subClassOf
+BoardOfDirectors,Nc5164f99a10d421fae5715b53fe4424c,rdf-schema#subClassOf
+nominates,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ne8dd95f393694b07b0242d6e60757e07,involvesControlledThing,owl#onProperty
+N51c3bb9ca809449cb12990a0d488a4d4,isPlayedBy,owl#onProperty
+Bylaws,byelaws,synonym
+BoardMembership,board membership,rdf-schema#label
+Nc5164f99a10d421fae5715b53fe4424c,owl#Restriction,22-rdf-syntax-ns#type
+N0c7b2401eb6a4372939ff12de2bdbb5b,hasAuthorizedParty,owl#onProperty
+hasAuthorizedParty,hasUndergoer,rdf-schema#subPropertyOf
+delegatesControlTo,designates,rdf-schema#subPropertyOf
+N35bb39a3c8434a54859089d01e2351cd,isMemberOf,owl#onProperty
+ResponsibleParty,owl#Class,22-rdf-syntax-ns#type
+isDirectorOf,BoardMember,rdf-schema#domain
+Authorization,authorization,rdf-schema#label
+Nb67d2cfedaf24629b4e181708170c6c9,isPlayedBy,owl#onProperty
+authorizes,isAuthorizedBy,owl#inverseOf
+CompanySecretary,owl#Class,22-rdf-syntax-ns#type
+hasAuthorizedParty,"indicates the party that is endorsed, enabled, empowered, or otherwise permitted to do something in the situation",core#definition
+ExecutiveBoardMember,inside director,synonym
+isPrincipalPartyOf,ControlledParty,rdf-schema#range
+hasDelegatedControlOf,has delegated control of,rdf-schema#label
+delegatesControlTo,authorizes,rdf-schema#subPropertyOf
+hasVestedInIt,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Executives.rdf version of this ontology was modified to eliminate duplication with concepts in LCC.,core#changeNote
+DeFactoControllingInterestParty,N06b21bff2d19494783350b68e5b9e6e0,rdf-schema#subClassOf
+Bylaws,Law,rdf-schema#subClassOf
+N00bc5b2af1dd437badb4fb07b5a4b9b9,isPlayedBy,owl#onProperty
+Bylaws,"written rules for conduct of a corporation, association, partnership or any organization",core#definition
+Nfb3e467486e747e0918acfc2e87c1f58,XMLSchema#nonNegativeInteger,owl#someValuesFrom
+BoardMember,N51c3bb9ca809449cb12990a0d488a4d4,rdf-schema#subClassOf
+N13dc70ad0b1848daa142af7425c3b99f,FormalOrganization,22-rdf-syntax-ns#first
+CorporateOfficer,"lending officers, those in certain supervisory roles, and others with varying degrees of authority, and frequently they are given a 'vice president' title, particularly if they are customer facing. Hiring and other decisions related to such corporate officers may be delegated to more operational levels, rather than by the board directly, with respect to such personnel.",explanatoryNote
+,Executives.rdf version of the ontology was modified to reflect the move of OrganizationMember from Parties to Organizations in FND and to incorporate the latest insights into how control relations should integrate with the control situation.,core#changeNote
+CorporateOfficer,Signatory,rdf-schema#subClassOf
+CorporateBylaws,Bylaws,rdf-schema#subClassOf
+,MIT,license
+CorporateOfficer,"high-level management executive of a corporation or other organization, hired by the board of directors or the business owner(s), charged with certain operational responsibilities, and who has the authority to act on behalf of the organization, including the authority to enter into contracts on behalf of the organization",core#definition
+N74f2a66dd1d3470daf424aeac1ff82fc,owl#Restriction,22-rdf-syntax-ns#type
+N4b61da7172bc475d9587da0765b9ded8,Nc0d0239db56b49c8a3b802e5d9e59274,22-rdf-syntax-ns#rest
+N6fa5b882664c4fda9a282b3c130bf0da,hasAuthorizingParty,owl#onProperty
+Ne8dd95f393694b07b0242d6e60757e07,owl#Restriction,22-rdf-syntax-ns#type
+authorizes,authorizes,rdf-schema#label
+ResponsibleParty,PartyRole,rdf-schema#subClassOf
+BoardOfDirectors,"group of people comprising the governing body of an organization that has the authority to set organizational strategy and policies as well as to select and, to some degree manage, leadership",core#definition
+,"Executives.rdf version of this ontology was modified to eliminate references to external dictionary sites that no longer resolve, add the concept of corporate bylaws and restriction on authorized shares (moved from SEC).",core#changeNote
+BoardMember,owl#Class,22-rdf-syntax-ns#type
+ChiefFinancialOfficer,senior-most corporate officer responsible for financial control and planning for an organization or project,core#definition
+ChiefExecutiveOfficer,CEO,abbreviation
+ExecutiveBoardMember,Employee,rdf-schema#subClassOf
+AuthorizedParty,ResponsibleParty,rdf-schema#subClassOf
+Ned1bf728fa924293a90e535edff6e286,owl#Restriction,22-rdf-syntax-ns#type
+hasResponsibleParty,ResponsibleParty,rdf-schema#range
+N7425bfcbc2164aab916aa63538aecbdb,BoardMember,owl#onClass
+hasSigningAuthorityFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+nominates,PartyRole,rdf-schema#domain
+VotingShareholder,"A voting shareholder may exercise control over board composition by (1) attending a shareholder meeting and voting directly, (2) assigning a proxy to vote on their behalf, either as specified in the recommendations made in the proxy card or as indicated in a manner that deviates from those recommendations but is detailed on the proxy card, (3) by rejection of the proxy, either implicitly or explicitly, or (4) through a direct ballot that they create themselves.",explanatoryNote
+Neb2cc4f9eba54fb4a573977a3ac61f77,owl#Restriction,22-rdf-syntax-ns#type
+N51c3bb9ca809449cb12990a0d488a4d4,Nfee51b3e96af4392b985ba4dbda0c2fd,owl#someValuesFrom
+BoardCapacity,DelegatedLegalAuthority,rdf-schema#subClassOf
+hasResponsibleParty,FormalOrganization,rdf-schema#domain
+N2b8841a1cafb4fa3908692e1a35f1da1,BoardMember,owl#someValuesFrom
+N29cc92f0d40f4a4e81b03efcedcf6a03,owl#Class,22-rdf-syntax-ns#type
+NonExecutiveBoardMember,member of the board of directors of an organization that has no executive responsibilities towards the running of that organization,core#definition
+N7425bfcbc2164aab916aa63538aecbdb,elects,owl#onProperty
+hasAuthorizedParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+N26a953a102194acba23bfc3c2829d615,BoardMember,owl#someValuesFrom
+hasPrincipalManagingParty,has principal managing party,rdf-schema#label
+Nb67d2cfedaf24629b4e181708170c6c9,N35bb39a3c8434a54859089d01e2351cd,owl#someValuesFrom
+Nc5164f99a10d421fae5715b53fe4424c,CorporateOfficer,owl#someValuesFrom
+Neb2cc4f9eba54fb4a573977a3ac61f77,isPlayedBy,owl#onProperty
+BoardOfDirectors,"For a public, for profit organization, its members (directors) are elected normally by the subscribers (stockholders) of the firm (generally at an annual general meeting) to govern the firm and look after the subscribers' interests. In the case of a not-for-profit organization, the board ensures the organization is acting in line with its mission. The board has the ultimate decision-making authority and, in general, is empowered to (1) set the company's policy, objectives, and overall direction, (2) adopt bylaws, (3) name members of the advisory, executive, finance, and other committees, (4) hire, monitor, evaluate, and fire the managing director and senior executives, (5) determine and pay the dividend, and (6) issue additional shares. Though all its members might not be engaged in the company's day-to-day operations, the entire board is held liable (under the doctrine of collective responsibility) for the consequences of the firm's policies, actions, and failures to act. Members of the board usually include senior-most executives (called inside directors or executive directors) as well as experts or respected persons chosen from the wider community (called outside directors or non-executive directors).",explanatoryNote
+NonExecutiveBoardMember,non-executive board member,rdf-schema#label
+Nec2ee603a358421c8b230c730a3c327d,involvesControlledThing,owl#onProperty
+N06b21bff2d19494783350b68e5b9e6e0,nominates,owl#onProperty
+ExecutiveBoardMember,member of a board of directors that is also an employee of the organization,core#definition
+BoardCapacity,Nab584975b9804d9aa57a8afa72d8002e,rdf-schema#subClassOf
+CorporateBylaws,owl#Class,22-rdf-syntax-ns#type
+AuthorizingParty,owl#Class,22-rdf-syntax-ns#type
+N00bc5b2af1dd437badb4fb07b5a4b9b9,LegalPerson,owl#allValuesFrom
+ArticlesOfIncorporation,InstrumentOfIncorporation,rdf-schema#subClassOf
+VotingShareholder,N7425bfcbc2164aab916aa63538aecbdb,rdf-schema#subClassOf
+,,owl#imports
+BoardOfDirectors,owl#Class,22-rdf-syntax-ns#type
+N2fa33f6b68234f7ebadc73640e3ac326,owl#Restriction,22-rdf-syntax-ns#type
+LegallyDelegatedAuthority,party empowered with some level of legal control and corresponding responsibility,core#definition
+Executive,owl#Class,22-rdf-syntax-ns#type
+Nec2ee603a358421c8b230c730a3c327d,owl#Restriction,22-rdf-syntax-ns#type
+,Executives.rdf version of this ontology was modified to correct the label on hasAuthorizedParty.,core#changeNote
+,"This ontology defines concepts relating to executives and their formal capacities. The concepts defined in this ontology cover types of corporate officers, board members and the like, along with the capacities in terms of which those party roles are defined, and the kinds of entity (principally natural persons) that are able to perform in those roles.",abstract
+hasDirector,ControlledParty,rdf-schema#domain
+isOfficerOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+BoardMember,Nb67d2cfedaf24629b4e181708170c6c9,rdf-schema#subClassOf
+CorporateOfficer,owl#Class,22-rdf-syntax-ns#type
+N1f526957d78746eda969623903899aed,owl#Restriction,22-rdf-syntax-ns#type
+Ndc66d5ede93b4cfd941b5ebed0a9c3e3,Bylaws,22-rdf-syntax-ns#first
+,Executives.rdf version of this ontology was modified to clarify the definition of responsible party.,core#changeNote
+Ned1bf728fa924293a90e535edff6e286,1,owl#qualifiedCardinality
+hasAuthorizingParty,AuthorizingParty,rdf-schema#range
+N019e7caf61bf4ff39cd6b7c3369e0941,owl#Restriction,22-rdf-syntax-ns#type
+designatesSignatory,designates,rdf-schema#subPropertyOf
+N9a03819b5cca4ea8b3cf049afe278392,N5420e7fd6dbd4a0caf595cefa5d9b40d,owl#someValuesFrom
+Authorization,N6fa5b882664c4fda9a282b3c130bf0da,rdf-schema#subClassOf
+BoardOfDirectors,Neb1bc6ef450b491b9e3799fa2e51968f,rdf-schema#subClassOf
+Nfee51b3e96af4392b985ba4dbda0c2fd,isAPartyTo,owl#onProperty
+hasAuthorizingParty,Authorization,rdf-schema#domain
+hasAuthorizingParty,hasActor,rdf-schema#subPropertyOf
+designatesSignatory,authorizes,rdf-schema#subPropertyOf
+ChiefExecutiveOfficer,top corporate officer responsible for an organization's overall operations and performance,core#definition
+authorizesThrough,AuthorizingParty,rdf-schema#domain
+ChiefExecutiveOfficer,PrincipalParty,rdf-schema#subClassOf
+Ne8dd95f393694b07b0242d6e60757e07,ControlledParty,owl#someValuesFrom
+hasVestedInIt,indicates the delegated legal authority that is vested in the controlling party,core#definition
+isOfficerOf,is officer of,rdf-schema#label
+Ned1bf728fa924293a90e535edff6e286,isPlayedBy,owl#onProperty
+hasResponsibility,hasCapacity,rdf-schema#subPropertyOf
+hasDirector,has director,rdf-schema#label
+,Executives.rdf version of the ontology was modified to address text formatting hygiene issues.,core#changeNote
+isAuthorizedBy,AuthorizingParty,rdf-schema#range
+CompanyLaw,corporate law,synonym
+BoardMember,board member,rdf-schema#label
+Ncb92dae007c2428788a4d7b00ad11f65,owl#Restriction,22-rdf-syntax-ns#type
+Na0d15f066bf847e9a94e1778c95f777f,isAuthorizedThrough,owl#onProperty
+,Executives Ontology,rdf-schema#label
+authorizesThrough,indicates the situation that facilitates designation of an authorized party by the authorizing party for some purpose,core#definition
+authorizesThrough,hasAuthorizingParty,owl#inverseOf
+N2fa33f6b68234f7ebadc73640e3ac326,N9f1c475a2ef644f9accf6637d729b298,owl#someValuesFrom
+hasResponsibleParty,"identifies a party that has some assignment, commitment or obligation with respect to the formal organization",core#definition
+N476d55c451284bca89afb6e720b3e438,owl#Restriction,22-rdf-syntax-ns#type
+DeFactoControllingInterestParty,owl#Class,22-rdf-syntax-ns#type
+AuthorizedParty,authorized party,rdf-schema#label
+N9a03819b5cca4ea8b3cf049afe278392,owl#Restriction,22-rdf-syntax-ns#type
+N99127de678ed43059f4b977fb0cb78bb,owl#Class,22-rdf-syntax-ns#type
+ArticlesOfIncorporation,articles of association,synonym
+N2fa33f6b68234f7ebadc73640e3ac326,isPlayedBy,owl#onProperty
+hasAuthorizedParty,has authorized party,rdf-schema#label
+hasCorporateOfficer,indicates an officer of the organization,core#definition
+designatesSignatory,designates signatory,rdf-schema#label
+designatesSignatory,or perform other similar tasks,core#definition
+hasPrincipalManagingParty,isPrincipalPartyOf,owl#inverseOf
+N128ad747786346e09a1c649d1c156d3f,BoardMember,owl#someValuesFrom
+elects,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ncb92dae007c2428788a4d7b00ad11f65,isPlayedBy,owl#onProperty
+Auditor,AuthorizedParty,rdf-schema#subClassOf
+Nc3cde78ebf0645788ec6a969623363fe,N1259afb49cb94516ac7dc55a684d28f8,owl#unionOf
+CompanyLaw,StatuteLaw,rdf-schema#subClassOf
+isAuthorizedThrough,Authorization,rdf-schema#range
+Ncb92dae007c2428788a4d7b00ad11f65,1,owl#qualifiedCardinality
+Naa1a6d06ac1e4ef581ae137c53a2477f,owl#Restriction,22-rdf-syntax-ns#type
+N35bb39a3c8434a54859089d01e2351cd,Naa1a6d06ac1e4ef581ae137c53a2477f,owl#someValuesFrom
+N019e7caf61bf4ff39cd6b7c3369e0941,isPlayedBy,owl#onProperty
+BoardCapacity,N1f526957d78746eda969623903899aed,rdf-schema#subClassOf
+isOfficerOf,hasCorporateOfficer,owl#inverseOf
+hasSigningAuthorityFor,isAuthorizedBy,rdf-schema#subPropertyOf
+delegatesControlTo,indicates a party to which this legal person has delegated some authority or control,core#definition
+AuthorizedParty,Ncb92dae007c2428788a4d7b00ad11f65,rdf-schema#subClassOf
+isPrincipalPartyOf,isControllingMemberOf,rdf-schema#subPropertyOf
+hasPrincipalManagingParty,ControlledParty,rdf-schema#domain
+hasResponsibility,has responsibility,rdf-schema#label
+Signatory,LegallyDelegatedAuthority,rdf-schema#subClassOf
+Executive,executive,rdf-schema#label
+N9f1c475a2ef644f9accf6637d729b298,N26a953a102194acba23bfc3c2829d615,owl#someValuesFrom
+Neb2cc4f9eba54fb4a573977a3ac61f77,N65c0d9435116482bacb147a0c211e295,owl#someValuesFrom
+CompanyLaw,owl#Class,22-rdf-syntax-ns#type
+N26a953a102194acba23bfc3c2829d615,owl#Restriction,22-rdf-syntax-ns#type
+N646057f71aa34f359e67ae5ca2dc7eb9,N99127de678ed43059f4b977fb0cb78bb,owl#onClass

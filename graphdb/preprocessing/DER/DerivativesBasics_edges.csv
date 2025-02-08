@@ -1,0 +1,272 @@
+source_id,target_id,relationship
+hasUnderlyingAssetPrice,has underlying asset price,rdf-schema#label
+CalculationAgent,owl#Class,22-rdf-syntax-ns#type
+CashflowExpression,expression that specifies a calculation of a cash flow as a component of a cashflow formula,core#definition
+hasLastNoticeDate,SettlementTerms,rdf-schema#domain
+IntroducingBroker,Broker,rdf-schema#subClassOf
+Nfbe40fb6313046b38c76e70b2a2953aa,SettlementTerms,owl#someValuesFrom
+hasFirstDeliveryDate,has first delivery date,rdf-schema#label
+hasAdditionalCosts,MonetaryAmount,rdf-schema#range
+N5ad6c41eb2d5441e93dbff5dba74ef38,0,owl#minQualifiedCardinality
+Ne53fe27ec6c5440fa7a99a78ad9fbe72,involves,owl#onProperty
+,DerivativesBasics.rdf version of this ontology was modified to eliminate duplication with concepts in LCC and eliminate a redundant subclass declaration in observable value.,core#changeNote
+hasAmortizingNotionalAmount,indicates that the notional amount decreases through the life of the contract,core#definition
+hasCalculationAgent,has calculation agent,rdf-schema#label
+ParametricCashflowTerms,terms for a set of cashflows defined according to a mathematical formula,core#definition
+N6236c362a41c400ab5c80f3e3432adbb,Underlier,owl#someValuesFrom
+Na3f8549ed01046de922b0484b5ba48aa,N9a234d1430134be09bae219a23786597,22-rdf-syntax-ns#rest
+ValuationTerms,Ne53fe27ec6c5440fa7a99a78ad9fbe72,rdf-schema#subClassOf
+hasLastDeliveryDate,SettlementTerms,rdf-schema#domain
+DerivativesClearingOrganization,"Substitution may be done through contract novation, for example. A derivatives clearing organization (DCO) also arranges or provides, on a multilateral basis, for the settlement or netting of obligations, or otherwise provides clearing services or arrangements that mutualize or transfer credit risk among participants.",explanatoryNote
+IntroducingBroker,broker that solicits or accepts orders for derivatives that are traded on or subject to the rules of an exchange,core#definition
+hasFirstDeliveryDate,hasExplicitDate,rdf-schema#subPropertyOf
+ContractForDifference,DerivativeInstrument,rdf-schema#subClassOf
+Underlier,N363f641693324131a37d7bc532096958,rdf-schema#subClassOf
+ContractForDifference,CFD,abbreviation
+ObservableValue,MonetaryAmount,rdf-schema#subClassOf
+PayingParty,Payer,rdf-schema#subClassOf
+N69649a7c9d1641c081a16fc7d6d3a1b7,hasFormula,owl#onProperty
+IntroducingBroker,introducing broker,rdf-schema#label
+hasConstantNotionalAmount,has constant notional amount,rdf-schema#label
+Underlier,owl#Class,22-rdf-syntax-ns#type
+DerivativeSettlementTerms,owl#Class,22-rdf-syntax-ns#type
+hasConstantNotionalAmount,MonetaryAmount,rdf-schema#range
+ReceivingParty,receiving counterparty,rdf-schema#label
+hasSettlementTerms,DerivativeInstrument,rdf-schema#domain
+hasSettlementTerms,SettlementTerms,rdf-schema#range
+N363f641693324131a37d7bc532096958,owl#Restriction,22-rdf-syntax-ns#type
+hasValuationTerms,relates a derivative to contractual terms specific to valuation of the underlying asset(s),core#definition
+hasFirstDeliveryDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasFirstNoticeDate,has first notice date,rdf-schema#label
+hasLastDeliveryDate,ExplicitDate,rdf-schema#range
+,Derivatives Basics Ontology,rdf-schema#label
+N9aef176c99ff4814a1670f8882ed04c7,Underlier,owl#someValuesFrom
+hasSettlementTerms,relates a derivative to contractual terms specific to the settlement process,core#definition
+CreditDerivative,"debtor relationship, enabling the creditor to effectively transfer some or all of the risk of a debtor defaulting to a third party",core#definition
+DerivativeInstrument,N6236c362a41c400ab5c80f3e3432adbb,rdf-schema#subClassOf
+UnderlyingAssetValuation,owl#Class,22-rdf-syntax-ns#type
+OverTheCounterInstrument,financial instrument and bilateral contract that is not listed on an organized exchange,core#definition
+Nfbe40fb6313046b38c76e70b2a2953aa,hasSettlementTerms,owl#onProperty
+hasConstantNotionalAmount,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10, clause 6.8.2",adaptedFrom
+N5ad6c41eb2d5441e93dbff5dba74ef38,hasAdditionalCosts,owl#onProperty
+hasCustomNotionalAmount,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10, clause 6.8.2",adaptedFrom
+DerivativeInstrument,Nfbe40fb6313046b38c76e70b2a2953aa,rdf-schema#subClassOf
+N5ad6c41eb2d5441e93dbff5dba74ef38,MonetaryAmount,owl#onClass
+DerivativesClearingOrganization,DCO,abbreviation
+hasAmortizingNotionalAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasValuationTerms,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasTickValue,DerivativeInstrument,rdf-schema#domain
+DerivativeTerms,"contractual terms specific to derivative contracts, including terms related to payments and delivery between parties",core#definition
+CashflowFormula,cashflow formula,rdf-schema#label
+hasConstantNotionalAmount,hasNotionalAmount,rdf-schema#subPropertyOf
+hasCustomNotionalAmount,hasNotionalAmount,rdf-schema#subPropertyOf
+N363f641693324131a37d7bc532096958,N3e55880fff2f4f6fadd183a982a4aa97,owl#someValuesFrom
+Nec63117561354558b268a2d454f4b4cb,0,owl#minQualifiedCardinality
+hasAdditionalCosts,has additional costs,rdf-schema#label
+Nf3ea275060d4425899b333141b8ce679,hasExpression,owl#onProperty
+ObservableValue,owl#Class,22-rdf-syntax-ns#type
+ObservableValue,Fair_value,rdf-schema#seeAlso
+IntroducingBroker,IB,abbreviation
+ParametricCashflowTerms,owl#Class,22-rdf-syntax-ns#type
+N363f641693324131a37d7bc532096958,isPlayedBy,owl#onProperty
+CalculationAgent,calculation agent,rdf-schema#label
+ValuationTerms,DerivativeTerms,rdf-schema#subClassOf
+Ne53fe27ec6c5440fa7a99a78ad9fbe72,owl#Restriction,22-rdf-syntax-ns#type
+N7bc67a6bf5ab4ee29e56c931cf460408,Commodity,22-rdf-syntax-ns#first
+CashflowTerms,DerivativeTerms,rdf-schema#subClassOf
+CashflowTerms, expiry Observaton (not terms): Probability Sensitivity,core#editorialNote
+hasAmortizingNotionalAmount,MonetaryAmount,rdf-schema#range
+,,owl#imports
+CreditDerivative,DerivativeInstrument,rdf-schema#subClassOf
+N31ed2c532d714ecfa751e4631785c7db,owl#Restriction,22-rdf-syntax-ns#type
+ObservableValue,observable value,rdf-schema#label
+N9a234d1430134be09bae219a23786597,MarketRate,22-rdf-syntax-ns#first
+hasFirstNoticeDate,hasExplicitDate,rdf-schema#subPropertyOf
+hasFirstDeliveryDate,specifies the initial date in a range of dates by which the underlying asset (or some portion thereof) must be delivered in order for the terms of the contract to be fulfilled,core#definition
+hasCalculationAgent,indicates the party that is responsible for determining the value of a derivative,core#definition
+hasSettlementTerms,hasContractualElement,rdf-schema#subPropertyOf
+hasAmortizingNotionalAmount,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10, clause 6.8.2",adaptedFrom
+CreditDerivative,credit derivative,rdf-schema#label
+DerivativesClearingOrganization,clearing house that enables parties to substitute the credit of the DCO for the credit of the parties,core#definition
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+IntroducingBroker,index.htm,adaptedFrom
+N5ad6c41eb2d5441e93dbff5dba74ef38,owl#Restriction,22-rdf-syntax-ns#type
+hasFirstNoticeDate,specifies the initial date on which a delivery notice can be issued,core#definition
+ReceivingParty,owl#Class,22-rdf-syntax-ns#type
+ContractForDifference,cash-settled derivative where the parties agree to exchange on the maturity of the contract the difference between the current value of the underlying asset and the initial value of that asset when the contract is initiated,core#definition
+hasLastDeliveryDate,hasEndDate,rdf-schema#subPropertyOf
+N3e55880fff2f4f6fadd183a982a4aa97,owl#Class,22-rdf-syntax-ns#type
+,DerivativesBasics.rdf version of this ontology was modified to address text formatting issues identified via hygiene testing.,core#changeNote
+,,owl#versionIRI
+hasFirstNoticeDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"DerivativesBasics.rdf version of this ontology was modified to move designated contract market to the markets ontology in FBC and eliminate the notion of NonPhysicalUnderlier, which was determined to add unnecessary overhead.",core#changeNote
+Na3f8549ed01046de922b0484b5ba48aa,Basket,22-rdf-syntax-ns#first
+hasLastNoticeDate,ExplicitDate,rdf-schema#range
+Ne293e2e9112e4fbc991dc6e35e9aeb7d,owl#Restriction,22-rdf-syntax-ns#type
+N31ed2c532d714ecfa751e4631785c7db,hasUnderlyingAssetPrice,owl#onProperty
+UnderlyingAssetValuation,N9aef176c99ff4814a1670f8882ed04c7,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+Nfbe40fb6313046b38c76e70b2a2953aa,owl#Restriction,22-rdf-syntax-ns#type
+OverTheCounterInstrument,MutualContractualAgreement,rdf-schema#subClassOf
+DerivativeTerms,ContractualCommitment,rdf-schema#subClassOf
+,"DerivativesBasics.rdf version of this ontology was modified to eliminate hasThirdParty as a superproperty of hasCalculationAgent, which led to unintended reasoning consequences, added concepts and properties specific to settlement and valuation required for futures, forwards, and options, and moved general properties from forwards and swaps up to derivatives basics.",core#changeNote
+UnderlyingAssetValuation,underlying asset valuation,rdf-schema#label
+ParametricCashflowTerms,parametric cashflow terms,rdf-schema#label
+DerivativeSettlementTerms,"settlement terms specifying additional details with respect to what is to be delivered when, to whom, under what conditions at the time of settlement",core#definition
+CalculationAgent,"The calculation agent can also establish the price for a structured product and may act as its guarantor and issuer. If the counterparty in a derivative transaction is a broker-dealer, then they will often act as the calculation agent.",explanatoryNote
+DerivativeSettlementTerms,SettlementTerms,rdf-schema#subClassOf
+ReceivingParty,Seller,rdf-schema#subClassOf
+DerivativeSettlementTerms,DerivativeTerms,rdf-schema#subClassOf
+OverTheCounterInstrument,ListedSecurity,owl#disjointWith
+CashflowTerms,terms setting out a cashflow structure of payments committed to by one party to a contract,core#definition
+hasFirstDeliveryDate,hasStartDate,rdf-schema#subPropertyOf
+N3e55880fff2f4f6fadd183a982a4aa97,Nae2ef5fb57054bc5a916359551b29804,owl#unionOf
+hasLastNoticeDate,hasExplicitDate,rdf-schema#subPropertyOf
+N1c7cf713da71402dac55fd12fe1dc8e0,hasDateOfAssessment,owl#onProperty
+hasTickValue,hasMonetaryAmount,rdf-schema#subPropertyOf
+CreditDerivative,owl#Class,22-rdf-syntax-ns#type
+N9aef176c99ff4814a1670f8882ed04c7,evaluates,owl#onProperty
+UnderlyingAssetValuation,ValueAssessment,rdf-schema#subClassOf
+hasAccretingNotionalAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasCalculationAgent,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasLastNoticeDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasLastDeliveryDate,hasExplicitDate,rdf-schema#subPropertyOf
+ReceivingParty,ContractParty,rdf-schema#subClassOf
+hasFirstNoticeDate,ExplicitDate,rdf-schema#range
+N9a234d1430134be09bae219a23786597,N467f239e7be2489b8529283ce3f1ace6,22-rdf-syntax-ns#rest
+,"DerivativesBasics.rdf version of this ontology was modified to add the concept of a credit derivative, modify the notion of an underlying asset valuation to be a kind of value assessment, and modify the concept of valuation terms to be a subclass of derivative terms.",core#changeNote
+ContractForDifference,contract-for-difference,adaptedFrom
+CreditDerivative,"Examples include credit default swaps (CDS), collateralized debt obligations (CDO), total return swaps, and credit spread options and forwards.",core#example
+N1c7cf713da71402dac55fd12fe1dc8e0,ExplicitDate,owl#someValuesFrom
+hasUnderlyingAssetPrice,specifies a price for something on which the contract is based,core#definition
+ContractForDifference,owl#Class,22-rdf-syntax-ns#type
+Nec63117561354558b268a2d454f4b4cb,owl#Restriction,22-rdf-syntax-ns#type
+IntroducingBroker,NonDepositoryInstitution,rdf-schema#subClassOf
+hasAccretingNotionalAmount,MonetaryAmount,rdf-schema#range
+CashflowFormula,formula for determining cashflows for a derivative instrument,core#definition
+hasSettlementTerms,has settlement terms,rdf-schema#label
+hasLastNoticeDate,specifies the final date on which a delivery notice can be issued,core#definition
+hasLastDeliveryDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ne293e2e9112e4fbc991dc6e35e9aeb7d,hasValuationTerms,owl#onProperty
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+PayingParty,ContractParty,rdf-schema#subClassOf
+hasAdditionalCosts,hasMonetaryAmount,rdf-schema#subPropertyOf
+DerivativesClearingOrganization,index.htm,adaptedFrom
+UnderlyingAssetValuation,assessment activity to estimate the value of an underlying asset of a derivative,core#definition
+DerivativeSettlementTerms,derivative settlement terms,rdf-schema#label
+hasSettlementTerms,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasLastNoticeDate,hasEndDate,rdf-schema#subPropertyOf
+,DerivativesBasics.rdf version of this ontology was modified to replace hasContractSize with hasLotSize.,core#changeNote
+N6236c362a41c400ab5c80f3e3432adbb,hasUnderlier,owl#onProperty
+Nec63117561354558b268a2d454f4b4cb,hasCalculationAgent,owl#onProperty
+hasFirstDeliveryDate,ExplicitDate,rdf-schema#range
+hasAccretingNotionalAmount,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10, clause 6.8.2",adaptedFrom
+ContractForDifference,"For example, suppose the initial price of share XYZ is $100 and a CFD for 1000 shares is exchanged. Both the buyer and seller must post some margin. If the price goes to $105, then the buyer gets $5,000 from the seller. If the price goes to $95, the buyer pays the seller $5,000. This contract avoids ownership of the stock and all the associated transactions issues (like stamp taxes). The contract also allows for leverage (typically 10:1) because the margin that must be posted is only a fraction of the value of the underlying asset.",core#example
+PayingParty,Buyer,rdf-schema#subClassOf
+hasAmortizingNotionalAmount,hasNotionalAmount,rdf-schema#subPropertyOf
+PayingParty,party responsible for making payments in a transaction specified in a contract,core#definition
+OverTheCounterInstrument,FinancialInstrument,rdf-schema#subClassOf
+hasTickValue,has tick value,rdf-schema#label
+CashflowFormula,Formula,rdf-schema#subClassOf
+UnderlyingAssetValuation,Nec63117561354558b268a2d454f4b4cb,rdf-schema#subClassOf
+PayingParty,owl#Class,22-rdf-syntax-ns#type
+hasLastNoticeDate,has last notice date,rdf-schema#label
+hasFirstNoticeDate,hasStartDate,rdf-schema#subPropertyOf
+N31ed2c532d714ecfa751e4631785c7db,MonetaryPrice,owl#onClass
+hasTickValue,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasUnderlyingAssetPrice,hasPrice,rdf-schema#subPropertyOf
+Nae2ef5fb57054bc5a916359551b29804,FinancialInstrument,22-rdf-syntax-ns#first
+N69649a7c9d1641c081a16fc7d6d3a1b7,CashflowFormula,owl#someValuesFrom
+OverTheCounterInstrument,over-the-counter instrument,rdf-schema#label
+hasUnderlyingAssetPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+DerivativesClearingOrganization,ClearingHouse,rdf-schema#subClassOf
+DerivativeSettlementTerms,N5ad6c41eb2d5441e93dbff5dba74ef38,rdf-schema#subClassOf
+ParametricCashflowTerms,CashflowTerms,rdf-schema#subClassOf
+hasCalculationAgent,CalculationAgent,rdf-schema#range
+,"DerivativesBasics.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+ReceivingParty,Payee,rdf-schema#subClassOf
+CalculationAgent,"party that is responsible for determining the value of a derivative and in some cases, determines how much the parties owe one another",core#definition
+hasAmortizingNotionalAmount,has amortizing notional amount,rdf-schema#label
+Nf3ea275060d4425899b333141b8ce679,CashflowExpression,owl#someValuesFrom
+ValuationTerms,valuation terms,rdf-schema#label
+ContractForDifference,These contracts can also be on the difference of two assets' prices. They can also be on the difference of a single asset of different maturities (like a bond or futures contracts).,explanatoryNote
+PayingParty,paying party,rdf-schema#label
+hasValuationTerms,has valuation terms,rdf-schema#label
+N644452f338564eee985128df96f906de,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+ObservableValue,value for something discernible and for which evidence can be obtained,core#definition
+ParametricCashflowTerms,N69649a7c9d1641c081a16fc7d6d3a1b7,rdf-schema#subClassOf
+Ne293e2e9112e4fbc991dc6e35e9aeb7d,ValuationTerms,owl#someValuesFrom
+hasCustomNotionalAmount,has custom notional amount,rdf-schema#label
+hasValuationTerms,ValuationTerms,rdf-schema#range
+hasTickValue,"indicates the cash value of one tick, i.e., the minimum price change of the contract",core#definition
+hasFirstDeliveryDate,SettlementTerms,rdf-schema#domain
+,"DerivativesBasics.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, and to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.",core#changeNote
+ValuationTerms,owl#Class,22-rdf-syntax-ns#type
+N8f20f77fc9cd477dab730bae96c45eff,ObservableValue,22-rdf-syntax-ns#first
+CashflowTerms,owl#Class,22-rdf-syntax-ns#type
+hasAdditionalCosts,"indicates costs, such as up front costs, brokerage fees and the like, that must be paid on delivery",core#definition
+CalculationAgent,ThirdPartyAgent,rdf-schema#subClassOf
+hasAdditionalCosts,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nae2ef5fb57054bc5a916359551b29804,N7bc67a6bf5ab4ee29e56c931cf460408,22-rdf-syntax-ns#rest
+N8f20f77fc9cd477dab730bae96c45eff,N644452f338564eee985128df96f906de,22-rdf-syntax-ns#rest
+," listed security, given how blurry the lines are today, across derivatives.",core#changeNote
+N1c7cf713da71402dac55fd12fe1dc8e0,owl#Restriction,22-rdf-syntax-ns#type
+CashflowFormula,owl#Class,22-rdf-syntax-ns#type
+OverTheCounterInstrument,OTC instrument,abbreviation
+hasCalculationAgent,isProvidedBy,rdf-schema#subPropertyOf
+,Release,hasMaturityLevel
+hasValuationTerms,DerivativeInstrument,rdf-schema#domain
+CashflowExpression,cashflow expression,rdf-schema#label
+hasConstantNotionalAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+ReceivingParty,party that receives payments in a transaction specified in a contract,core#definition
+DerivativeInstrument,Ne293e2e9112e4fbc991dc6e35e9aeb7d,rdf-schema#subClassOf
+DerivativesClearingOrganization,derivatives clearing organization,rdf-schema#label
+N644452f338564eee985128df96f906de,QuotedExchangeRate,22-rdf-syntax-ns#first
+Nec63117561354558b268a2d454f4b4cb,CalculationAgent,owl#onClass
+DerivativeSettlementTerms,N31ed2c532d714ecfa751e4631785c7db,rdf-schema#subClassOf
+,MIT,license
+hasConstantNotionalAmount,indicates that the notional amount is constant through the life of the contract,core#definition
+hasAccretingNotionalAmount,hasNotionalAmount,rdf-schema#subPropertyOf
+N7bc67a6bf5ab4ee29e56c931cf460408,Na3f8549ed01046de922b0484b5ba48aa,22-rdf-syntax-ns#rest
+IntroducingBroker,"Introducing brokers do not accept money, securities, or property (or extend credit in lieu thereof) to margin, guarantee, or secure any trades or contracts that result or may result.",explanatoryNote
+hasAccretingNotionalAmount,indicates that the notional amount increases through the life of the contract,core#definition
+hasCustomNotionalAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+N6236c362a41c400ab5c80f3e3432adbb,owl#Restriction,22-rdf-syntax-ns#type
+Nf3ea275060d4425899b333141b8ce679,owl#Restriction,22-rdf-syntax-ns#type
+N467f239e7be2489b8529283ce3f1ace6,N8f20f77fc9cd477dab730bae96c45eff,22-rdf-syntax-ns#rest
+hasLastDeliveryDate,specifies the final date in a range of dates by which the underlying asset (or some portion thereof) must be delivered in order for the terms of the contract to be fulfilled,core#definition
+,"DerivativesBasics.rdf version of this ontology was modified to extend the definition of has notional amount, covering the variations allowed by the ISO CFI standard (DER-127) and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).",core#changeNote
+CashflowFormula,Nf3ea275060d4425899b333141b8ce679,rdf-schema#subClassOf
+ObservableValue,"Derivatives, such as certain exotics, can be based on values ascribed to virtually anything, including weather. Typically, however, an observable value refers to something that can be readily observed in the marketplace, such as a quoted rate (e.g., interest rate, exchange rate), index value, commodity price, stock price, economic indicator, or something similar as of some point in time.",explanatoryNote
+DerivativeInstrument,owl#Class,22-rdf-syntax-ns#type
+DerivativeTerms,owl#Class,22-rdf-syntax-ns#type
+CashflowTerms,DebtTerms,rdf-schema#subClassOf
+CashflowExpression,Expression,rdf-schema#subClassOf
+hasLastDeliveryDate,has last delivery date,rdf-schema#label
+,This ontology defines basic terminology common to derivative and over-the-counter (OTC) contracts.,abstract
+ValuationTerms,contract terms specific to valuation of the underlying asset(s),core#definition
+hasFirstNoticeDate,SettlementTerms,rdf-schema#domain
+ContractForDifference,spread trading,synonym
+CashflowTerms,cashflow terms,rdf-schema#label
+CashflowExpression,owl#Class,22-rdf-syntax-ns#type
+hasUnderlyingAssetPrice,MonetaryPrice,rdf-schema#range
+DerivativesClearingOrganization,owl#Class,22-rdf-syntax-ns#type
+IntroducingBroker,owl#Class,22-rdf-syntax-ns#type
+hasCustomNotionalAmount,indicates that the notional amount is customized per a notional step schedule,core#definition
+hasCustomNotionalAmount,MonetaryAmount,rdf-schema#range
+N9aef176c99ff4814a1670f8882ed04c7,owl#Restriction,22-rdf-syntax-ns#type
+ValuationTerms,N1c7cf713da71402dac55fd12fe1dc8e0,rdf-schema#subClassOf
+N467f239e7be2489b8529283ce3f1ace6,EconomicIndicator,22-rdf-syntax-ns#first
+CreditDerivative,"The third party accepts the risk in return for payment, known as the premium.",explanatoryNote
+,DerivativesBasics.rdf version of this ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380) and to eliminate a redundant restriction on derivative instrument (GitHub-2028).,core#changeNote
+hasAccretingNotionalAmount,has accreting notional amount,rdf-schema#label
+,DerivativesBasics.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+hasTickValue,MonetaryAmount,rdf-schema#range
+hasValuationTerms,hasContractualElement,rdf-schema#subPropertyOf
+Ne53fe27ec6c5440fa7a99a78ad9fbe72,UnderlyingAssetValuation,owl#someValuesFrom
+DerivativeTerms,derivative terms,rdf-schema#label
+OverTheCounterInstrument,owl#Class,22-rdf-syntax-ns#type
+N31ed2c532d714ecfa751e4631785c7db,0,owl#minQualifiedCardinality
+ContractForDifference,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code",adaptedFrom
+ContractForDifference,contract for difference,rdf-schema#label
+N69649a7c9d1641c081a16fc7d6d3a1b7,owl#Restriction,22-rdf-syntax-ns#type

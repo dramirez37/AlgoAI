@@ -1,0 +1,428 @@
+source_id,target_id,relationship
+PrivatePlacementMemorandum,"An offering memorandum serves to provide buyers with information on the offering and to protect the sellers from the liability associated with selling unregistered securities. It includes information such as the financial statements, management biographies, a detailed description of the business, etc.",explanatoryNote
+isRegisteredWith,RegistrationAuthority,rdf-schema#range
+hasIssuerShortName,Nf9e6e0cdf33447adb7f945aa058fe4f8,rdf-schema#domain
+PrivatePlacementMemorandum,private placement memorandum,rdf-schema#label
+Prospectus,owl#Class,22-rdf-syntax-ns#type
+N77320a3d9d7747a891f61b8c5d0fc5a9,appliesTo,owl#onProperty
+hasFirstTradeDate,ExplicitDate,rdf-schema#range
+SecurityForm,N1a6b5dc417894ab9b96a386822f89f7a,rdf-schema#subClassOf
+isUnderwrittenBy,SecuritiesOffering,rdf-schema#domain
+Nd063c8a3230645708e30be283e8c9b39,owl#Restriction,22-rdf-syntax-ns#type
+ExemptIssuer,exempt-securities.asp,adaptedFrom
+PublicOffering,public offering,rdf-schema#label
+PrivateOffering,private offering,rdf-schema#label
+specifiesConversionInto,specifies a security that will replace a convertible security under the terms of the agreement,core#definition
+BookEntryForm,owl#NamedIndividual,22-rdf-syntax-ns#type
+N3d534820a9f34b429a3309e2639d17e8,appliesTo,owl#onProperty
+SecuritiesOffering,Offering,rdf-schema#subClassOf
+Ncefe76deae284654b6b61d94964da023,Prospectus,owl#someValuesFrom
+MiscellaneousForm,SecurityForm,22-rdf-syntax-ns#type
+N2bd3598e69824da1b15f9739483ab5ac,isEvidenceFor,owl#onProperty
+N95582a71f30149c8b2f280b3d99b93f2,owl#Class,22-rdf-syntax-ns#type
+N731f53abb06f443a94b6151e4d7ae9d8,N95582a71f30149c8b2f280b3d99b93f2,owl#someValuesFrom
+Neba9c06bbc2c4e2893207878489f750e,isEvidencedBy,owl#onProperty
+SecurityForm,security form,rdf-schema#label
+FinancialInstrument,owl#Class,22-rdf-syntax-ns#type
+N27fb3e57c1614a59aab9936cb4c8f628,SecurityUnderwriter,owl#someValuesFrom
+hasFirstTradeSettlementDate,indicates the date on which the first trade of a newly issued security is settled,core#definition
+hasAnnouncementDate,hasDate,rdf-schema#subPropertyOf
+isOverAllotted,XMLSchema#boolean,rdf-schema#range
+hasFinancialInstrumentShortName,has financial instrument short name,rdf-schema#label
+N36068836114a465dab1ce1e2cde2be78,owl#Class,22-rdf-syntax-ns#type
+N41e7319ac80344a3983963fb0dd05f8d,MonetaryPrice,owl#onClass
+SecurityUnderwriter,Underwriter,rdf-schema#subClassOf
+Nf9e6e0cdf33447adb7f945aa058fe4f8,N2a1243a2799040d99caf887b169c25d0,owl#unionOf
+Nc4e864fc39874e019efe2caf1a7b8b16,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N27fb3e57c1614a59aab9936cb4c8f628,owl#Restriction,22-rdf-syntax-ns#type
+FirmCommitmentOffering,firm commitment offering,rdf-schema#label
+,,owl#versionIRI
+N567a52e25f804c36afc242841755f56f,hasInstrumentDescription,owl#onProperty
+SecuritiesOffering,Nedd35500ee1a4d21891a95d90bbcb90f,rdf-schema#subClassOf
+isIssuedInForm,SecurityForm,rdf-schema#range
+Nd5f607fb82004e3794b99cec4bc3fa5c,Offeror,22-rdf-syntax-ns#first
+N093f488604fb4a8b849a10dfbf210623,isPlayedBy,owl#onProperty
+N093f488604fb4a8b849a10dfbf210623,Nb119a7f18a3a4fd58775beb3b6f16437,owl#someValuesFrom
+SecuritiesOffering,"If the offering is public, then it can only be made after regulatory registration requirements have been met. The securities may be new or a secondary offering of a previously issued security, and may include stock, multiple classes of equity shares, municipal or other government bonds, and so forth. Offerings, especially to the investment public, are typically made by an investment banker, or syndicate of investment bankers.",explanatoryNote
+N567a52e25f804c36afc242841755f56f,owl#Restriction,22-rdf-syntax-ns#type
+N942a08100ed843cb9321b49ad158b303,0,owl#minQualifiedCardinality
+hasIssuerShortName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+ConvertibleSecurity,Warrants are equity convertible securities. They give the owner the option to buy newly issued shares at a determined exercise price and date.,core#example
+hasAnnouncementDate,has announcement date,rdf-schema#label
+hasAnnouncementDate,Date,rdf-schema#range
+PrivatePlacementMemorandum,PPM,abbreviation
+SecuritiesOffering,N0f5dc444f8924c24a7724dd68e38e64e,rdf-schema#subClassOf
+N63f2d8097b404af0b098628c9d2b882f,owl#Restriction,22-rdf-syntax-ns#type
+N296eb202e5b44bdaa037cb0ac836f837,primary,22-rdf-syntax-ns#first
+SecuritiesOffering,owl#Class,22-rdf-syntax-ns#type
+ExemptOffering,Such an offering may be considered exempt either because the issuer is exempt or the transaction specific to the offering is exempt.,explanatoryNote
+N540e30b79a134c589d422403ac62789a,owl#Restriction,22-rdf-syntax-ns#type
+MiscellaneousForm,form of a security that is not categorized,core#definition
+N942a08100ed843cb9321b49ad158b303,hasIssuerShortName,owl#onProperty
+Na157a122c1b348b095ccb8a090027dc7,N35325832086648108fde52b88cfaeaea,22-rdf-syntax-ns#first
+N101926f12d354066a90c0b844685a77c,PrivatePlacementMemorandum,owl#someValuesFrom
+isRegisteredWith,"indicates the registration authority for a given security, i.e., in the name of the owner on the books of the issuer, with the issuer's registrar, with a third-party transfer agent, with a broker-dealer, or other competent party",core#definition
+Security,N09dcfe271361483ea6adc3aefc8a60ba,rdf-schema#subClassOf
+hasSubscriptionPeriod,hasDatePeriod,rdf-schema#subPropertyOf
+ConvertibleSecurity,owl#Class,22-rdf-syntax-ns#type
+N6718255c0a2e473e91dff731d0efddbe,0,owl#minQualifiedCardinality
+N2a1243a2799040d99caf887b169c25d0,Issuer,22-rdf-syntax-ns#first
+Nc501bab18a2c4117b10978ed56291945,owl#Restriction,22-rdf-syntax-ns#type
+N6718255c0a2e473e91dff731d0efddbe,owl#Restriction,22-rdf-syntax-ns#type
+Neba9c06bbc2c4e2893207878489f750e,OfferingDocument,owl#someValuesFrom
+ConversionTerms,RedemptionProvision,rdf-schema#subClassOf
+Na157a122c1b348b095ccb8a090027dc7,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+SecuritiesOffering,N41e7319ac80344a3983963fb0dd05f8d,rdf-schema#subClassOf
+N942a08100ed843cb9321b49ad158b303,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+Nedd35500ee1a4d21891a95d90bbcb90f,owl#Restriction,22-rdf-syntax-ns#type
+ConvertibleSecurity,convertible security,rdf-schema#label
+Nd063c8a3230645708e30be283e8c9b39,Security,owl#someValuesFrom
+FirmCommitmentOffering,owl#Class,22-rdf-syntax-ns#type
+PrivateOffering,private placement,synonym
+OfferingStatement,form1-a.pdf for the actual form detail,explanatoryNote
+N36068836114a465dab1ce1e2cde2be78,Nbde28ece4aef401ea5fa78bff8e26ee8,owl#unionOf
+BestEffortsOffering,owl#Class,22-rdf-syntax-ns#type
+isRegisteredWith,owl#ObjectProperty,22-rdf-syntax-ns#type
+BearerForm,form of a security that is not registered in the books of the issuer or of the registrar and is payable to the person possessing the stock or bond certificate,core#definition
+Nbaa5ceb875bc4e2d9552924812ddd50b,N939e84e9d4b34b54a07f70b9a2b8cdb9,owl#someValuesFrom
+Nc501bab18a2c4117b10978ed56291945,hasIssuerShortName,owl#onProperty
+FinancialInstrumentShortName,financial instrument short name,rdf-schema#label
+N567a52e25f804c36afc242841755f56f,1,owl#qualifiedCardinality
+OfferingDocument,Nfea210f2058c4f1ebe8dee1f9204d007,rdf-schema#subClassOf
+BookEntryForm,registered form,synonym
+hasSubscriptionPeriod,DatePeriod,rdf-schema#range
+hasFinancialInstrumentShortName,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasSubscriptionAmount,XMLSchema#integer,rdf-schema#range
+hasIssuerShortName,XMLSchema#string,rdf-schema#range
+PrivateOffering,SecuritiesOffering,rdf-schema#subClassOf
+N73e535a2dc704bf2bdc79b0611b75263,secondary,22-rdf-syntax-ns#first
+ExemptTransaction,SecuritiesTransaction,rdf-schema#subClassOf
+N0f5dc444f8924c24a7724dd68e38e64e,0,owl#minQualifiedCardinality
+PrivatePlacementMemorandum,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.",adaptedFrom
+PublicOffering,SecuritiesOffering,rdf-schema#subClassOf
+SecuritiesOffering,,adaptedFrom
+N63f2d8097b404af0b098628c9d2b882f,Security,owl#someValuesFrom
+OfferingDocument,owl#Class,22-rdf-syntax-ns#type
+underwrites,owl#ObjectProperty,22-rdf-syntax-ns#type
+,SecuritiesIssuance.rdf version of the ontology was modified to replace an additional property with its counterpart from the Commons Ontology Library (Commons) v1.1.,core#changeNote
+N540e30b79a134c589d422403ac62789a,ExemptIssuer,owl#someValuesFrom
+N1a6b5dc417894ab9b96a386822f89f7a,FinancialAsset,owl#someValuesFrom
+ExemptTransaction,securities transaction for which there is no requirement to register the transaction with a regulatory agency,core#definition
+N939e84e9d4b34b54a07f70b9a2b8cdb9,isAPartyTo,owl#onProperty
+PrivateOffering,N101926f12d354066a90c0b844685a77c,rdf-schema#subClassOf
+PublicOffering,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.",adaptedFrom
+SecuritiesOffering,N731f53abb06f443a94b6151e4d7ae9d8,rdf-schema#subClassOf
+N0994a5ddd3b34be8846f6f87408adeac,isIssuedInForm,owl#onProperty
+hasFinancialInstrumentShortName,FinancialInstrumentShortName,rdf-schema#range
+Prospectus,OfferingDocument,rdf-schema#subClassOf
+MiscellaneousForm,miscellaneous form,rdf-schema#label
+Security,N0994a5ddd3b34be8846f6f87408adeac,rdf-schema#subClassOf
+,SecuritiesIssuance.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+Nc501bab18a2c4117b10978ed56291945,1,owl#qualifiedCardinality
+OfferingDocument,"There are many variations, including offering memorandum, which is typically used in the context of a private placement, offering statement, which has slightly different meanings depending on the context (for securities, for bonds, etc.) and so forth. This concept is intended to act as a more abstract parent for these more nuanced concepts.",explanatoryNote
+hasSubscriptionAmount,has subscription amount,rdf-schema#label
+Nbde28ece4aef401ea5fa78bff8e26ee8,Na157a122c1b348b095ccb8a090027dc7,22-rdf-syntax-ns#rest
+isOverAllotted,is over-allotted,rdf-schema#label
+Nd464e46235b2436aae9d0d803d6cc367,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+ConvertibleSecurity,security that can be converted into another security,core#definition
+ExemptTransaction,owl#Class,22-rdf-syntax-ns#type
+hasInstrumentDescription,has instrument description,rdf-schema#label
+specifiesConversionInto,owl#ObjectProperty,22-rdf-syntax-ns#type
+OfferingDocument,EDM Council,adaptedFrom
+Nc501bab18a2c4117b10978ed56291945,XMLSchema#string,owl#onDataRange
+SecurityUnderwritingArrangement,owl#Class,22-rdf-syntax-ns#type
+N268ba98e7e624f80946a6af2369ac15f,ConversionTerms,owl#someValuesFrom
+,Securities Issuance Ontology,rdf-schema#label
+hasSubscriptionAmount,hasAmount,rdf-schema#subPropertyOf
+SecurityUnderwritingArrangement,Sales may be made either directly or through third-party dealers.,explanatoryNote
+SecurityOfferingDistributionType,N9f2b61c797964570a802515f0d80c217,owl#equivalentClass
+OfferingDocument,"legal document that states the objectives, risks and terms of an investment",core#definition
+Nd5f607fb82004e3794b99cec4bc3fa5c,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+BestEffortsOffering,"In a best efforts offering, the agreement is strictly an agency arrangement, with no obligation on the part of the agent to purchase the securities. They act as a broker, in other words.",explanatoryNote
+,owl#Ontology,22-rdf-syntax-ns#type
+PublicOffering,Ncefe76deae284654b6b61d94964da023,rdf-schema#subClassOf
+BestEffortsOffering,"securities offering whereby investment bankers commit to doing their best to sell the securities offered, but do not assume the full risk of an underwriter",core#definition
+hasAnnouncementDate,indicates the first day the public will receive information regarding a new security issue,core#definition
+, version of this ontology was modified to refine the concept of a securities underwriter.,core#changeNote
+N9f2b61c797964570a802515f0d80c217,N296eb202e5b44bdaa037cb0ac836f837,owl#oneOf
+FirmCommitmentOffering,BestEffortsOffering,owl#disjointWith
+N09dcfe271361483ea6adc3aefc8a60ba,RegistrationAuthority,owl#onClass
+," version of this ontology was modified to add book entry form as a kind of registered security, make registered security a class with two individuals, namely book entry and 'bearer and registered', and clean up definitions to eliminate ambiguity where possible and conform to ISO 704.",core#changeNote
+SecurityUnderwritingArrangement,UnderwritingArrangement,rdf-schema#subClassOf
+SecurityUnderwriter,ica40.pdf,adaptedFrom
+SecurityUnderwriter,Nbaa5ceb875bc4e2d9552924812ddd50b,rdf-schema#subClassOf
+isIssuedInForm,owl#ObjectProperty,22-rdf-syntax-ns#type
+N2e78556c1aa44a60af792ae8f5e70b3f,Issuer,22-rdf-syntax-ns#first
+Issuer,owl#Class,22-rdf-syntax-ns#type
+Neba9c06bbc2c4e2893207878489f750e,owl#Restriction,22-rdf-syntax-ns#type
+hasAnnouncementDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Issuer,N942a08100ed843cb9321b49ad158b303,rdf-schema#subClassOf
+BookEntryForm,SecurityForm,22-rdf-syntax-ns#type
+Nb119a7f18a3a4fd58775beb3b6f16437,isAPartyTo,owl#onProperty
+hasFinancialInstrumentShortName,"ISO 18774:2015(E), Securities and related financial instruments - Financial Instrument Short Name (FISN)",adaptedFrom
+SecurityUnderwriter,"party that has purchased from an issuer with a view to, or sells for an issuer in connection with, the distribution of any security, or participates or has a direct or indirect participation in any such undertaking, or participates or has a participation in the direct or indirect underwriting of any such undertaking",core#definition
+N302b5e962dea43889273b252c585b75c,Date,owl#onClass
+FinancialInstrumentShortName,N567a52e25f804c36afc242841755f56f,rdf-schema#subClassOf
+hasInstrumentDescription,N1a302b65e8624891a85e73029e44f1d0,rdf-schema#domain
+N1a302b65e8624891a85e73029e44f1d0,owl#Class,22-rdf-syntax-ns#type
+Nbaa5ceb875bc4e2d9552924812ddd50b,owl#Restriction,22-rdf-syntax-ns#type
+PublicOffering,"or relevant state regulators, unless the issuer is an exempt issuer, and are usually conducted by an investment banker or a syndicate made up of several investment bankers, at a price agreed upon between the issuer and the investment bankers.",explanatoryNote
+PrivatePlacementMemorandum,offeringmemorandum.asp,adaptedFrom
+N9f2b61c797964570a802515f0d80c217,rdf-schema#Datatype,22-rdf-syntax-ns#type
+SecurityUnderwriter,security underwriter,rdf-schema#label
+N27fb3e57c1614a59aab9936cb4c8f628,hasPartyRole,owl#onProperty
+OfferingDocument,N77320a3d9d7747a891f61b8c5d0fc5a9,rdf-schema#subClassOf
+hasSubscriptionAmount,indicates a number of shares or units,core#definition
+FinancialInstrumentShortName,abbreviated name for a financial instrument within a defined structure as specified in ISO 18774,core#definition
+N296eb202e5b44bdaa037cb0ac836f837,N73e535a2dc704bf2bdc79b0611b75263,22-rdf-syntax-ns#rest
+N35325832086648108fde52b88cfaeaea,ExemptTransaction,owl#someValuesFrom
+BearerForm,Certificate,22-rdf-syntax-ns#type
+N268ba98e7e624f80946a6af2369ac15f,hasContractualElement,owl#onProperty
+Prospectus,prospectus.asp,rdf-schema#seeAlso
+Prospectus,"In the United States, a prospectus may be a formal legal document, required by and filed with the Securities and Exchange Commission, if it provides details about an investment offering for sale to the public.",explanatoryNote
+isRegisteredWith,isRegisteredBy,rdf-schema#subPropertyOf
+,Release,hasMaturityLevel
+OfferingDocument,N302b5e962dea43889273b252c585b75c,rdf-schema#subClassOf
+N302b5e962dea43889273b252c585b75c,1,owl#qualifiedCardinality
+hasFirstTradeDate,indicates the date on which a newly issued security starts trading,core#definition
+Nf154faef5ec64d0fab90b51f7eef95bd,FinancialInstrument,22-rdf-syntax-ns#first
+ConversionTerms,N63f2d8097b404af0b098628c9d2b882f,rdf-schema#subClassOf
+hasFinancialInstrumentShortName,isIdentifiedBy,rdf-schema#subPropertyOf
+hasActualClosingDate,hasDate,rdf-schema#subPropertyOf
+,SecuritiesIssuance.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N731f53abb06f443a94b6151e4d7ae9d8,isIssuedBy,owl#onProperty
+PublicOffering,"offering of securities for sale to the investment public, after compliance with registration requirements of the relevant regulatory authorities",core#definition
+N77320a3d9d7747a891f61b8c5d0fc5a9,owl#Restriction,22-rdf-syntax-ns#type
+SecurityUnderwriter,ContractThirdParty,rdf-schema#subClassOf
+SecurityForm,N3d534820a9f34b429a3309e2639d17e8,rdf-schema#subClassOf
+N73e535a2dc704bf2bdc79b0611b75263,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N2bd3598e69824da1b15f9739483ab5ac,SecuritiesOffering,owl#onClass
+ExemptOffering,exempt-securities.asp,adaptedFrom
+hasInstrumentDescription,"ISO 18774:2015(E), Securities and related financial instruments - Financial Instrument Short Name (FISN)",adaptedFrom
+ExemptIssuer,Issuer,rdf-schema#subClassOf
+SecuritiesOffering,N6718255c0a2e473e91dff731d0efddbe,rdf-schema#subClassOf
+hasInstrumentDescription,"relates a financial instrument or FISN to an ISO 18774-compliant instrument description, that is, a collection of characteristics and attributes defining a financial instrument with a maximum length up to 19 alphanumeric characters",core#definition
+N101926f12d354066a90c0b844685a77c,isEvidencedBy,owl#onProperty
+isIssuedInForm,isEvidencedBy,rdf-schema#subPropertyOf
+N3d534820a9f34b429a3309e2639d17e8,owl#Restriction,22-rdf-syntax-ns#type
+ExemptOffering,N36068836114a465dab1ce1e2cde2be78,rdf-schema#subClassOf
+Prospectus,sa33.pdf,adaptedFrom
+SecurityUnderwriter,N093f488604fb4a8b849a10dfbf210623,rdf-schema#subClassOf
+BearerAndRegisteredForm,Certificate,22-rdf-syntax-ns#type
+FinancialInstrumentShortName,owl#Class,22-rdf-syntax-ns#type
+specifiesConversionInto,ConversionTerms,rdf-schema#domain
+BearerForm,"Unlike normal registered instruments, no record is kept of who owns bearer instruments or of transactions involving the transfer of ownership.",explanatoryNote
+hasActualClosingDate,has actual closing date,rdf-schema#label
+ExemptIssuer,owl#Class,22-rdf-syntax-ns#type
+FinancialInstrumentShortName,Identifier,rdf-schema#subClassOf
+SecuritiesOffering,securities offering,rdf-schema#label
+Nfea210f2058c4f1ebe8dee1f9204d007,hasExpirationDate,owl#onProperty
+SecurityOfferingDistributionType,rdf-schema#Datatype,22-rdf-syntax-ns#type
+BearerForm,bearer form,rdf-schema#label
+underwrites,underwrites,rdf-schema#label
+ConversionTerms,conversion terms,rdf-schema#label
+ConvertibleSecurity,N268ba98e7e624f80946a6af2369ac15f,rdf-schema#subClassOf
+RegisteredForm,"ISO 10962:2019(E), Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, 2019-10, clause 6.2.2",adaptedFrom
+BestEffortsOffering,best efforts offering,rdf-schema#label
+PrivatePlacementMemorandum,owl#Class,22-rdf-syntax-ns#type
+Nfea210f2058c4f1ebe8dee1f9204d007,Date,owl#onClass
+Nfea210f2058c4f1ebe8dee1f9204d007,owl#Restriction,22-rdf-syntax-ns#type
+hasFirstTradeDate,hasDate,rdf-schema#subPropertyOf
+ConversionTerms,Nd063c8a3230645708e30be283e8c9b39,rdf-schema#subClassOf
+SecuritiesOffering,Agreement,rdf-schema#subClassOf
+,"SecuritiesIssuance.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+SecurityUnderwriter,ThirdPartyAgent,rdf-schema#subClassOf
+Nb90ac650279d480d95e7d2a31a9b16a9,appliesTo,owl#onProperty
+hasFirstTradeSettlementDate,Date,rdf-schema#range
+Ncefe76deae284654b6b61d94964da023,isEvidencedBy,owl#onProperty
+BookEntryForm,form of a security in which ownership is recorded electronically by a central depository,core#definition
+PrivateOffering,owl#Class,22-rdf-syntax-ns#type
+N09dcfe271361483ea6adc3aefc8a60ba,0,owl#minQualifiedCardinality
+N09dcfe271361483ea6adc3aefc8a60ba,owl#Restriction,22-rdf-syntax-ns#type
+FinancialInstrumentShortName,"ISO 18774:2015(E), Securities and related financial instruments - Financial Instrument Short Name (FISN)",adaptedFrom
+N1a302b65e8624891a85e73029e44f1d0,Nf154faef5ec64d0fab90b51f7eef95bd,owl#unionOf
+ExemptTransaction," de minimis transactions, fiduciary transactions, transactions with financial institutions, private placement transactions that meet certain conditions, and so forth.",core#example
+N1a6b5dc417894ab9b96a386822f89f7a,exemplifies,owl#onProperty
+PrivatePlacementMemorandum,OfferingDocument,rdf-schema#subClassOf
+ExemptOffering,public offering involving securities that are excused from certain regulatory reporting requirements,core#definition
+N567a52e25f804c36afc242841755f56f,XMLSchema#string,owl#onDataRange
+SecurityForm,"Securities are typically issued in one of two forms, registered or bearer. Most securities issued today are in registered form, which enables the issuing firm or registrar to keep records of a security's owner and mail them any dividend, coupon, or other payments. Registered securities may be issued in book entry (digital only) or certificate (physical) form, but most today are entirely digital.",explanatoryNote
+BearerAndRegisteredForm,form of a security that may be issued in both bearer and registered form but with the same identification number,core#definition
+Nb119a7f18a3a4fd58775beb3b6f16437,owl#Restriction,22-rdf-syntax-ns#type
+PublicOffering,owl#Class,22-rdf-syntax-ns#type
+Nd063c8a3230645708e30be283e8c9b39,appliesTo,owl#onProperty
+Nbaa5ceb875bc4e2d9552924812ddd50b,isPlayedBy,owl#onProperty
+N942a08100ed843cb9321b49ad158b303,XMLSchema#string,owl#onDataRange
+Prospectus,"A prospectus may specify the facts about an offering of securities, mutual funds, or limited partnerships for investments in oil, gas, equipment leasing, or other kinds of limited partnerships.",explanatoryNote
+," version of this ontology was modified to add the concept of the form the security is issued in, namely bearer or registered.",core#changeNote
+N0f5dc444f8924c24a7724dd68e38e64e,owl#Restriction,22-rdf-syntax-ns#type
+Nfea210f2058c4f1ebe8dee1f9204d007,1,owl#qualifiedCardinality
+specifiesConversionInto,Security,rdf-schema#range
+isRegisteredWith,is registered,rdf-schema#label
+hasIssuerShortName,"relates a security issuer or FISN to an ISO 18774-compliant issuer short name, that is, an abbreviation of the official issuer name, limited to a maximum of 15 alphanumeric characters",core#definition
+N41e7319ac80344a3983963fb0dd05f8d,hasOfferingPrice,owl#onProperty
+Prospectus,prospectus,rdf-schema#label
+BearerAndRegisteredForm,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nedd35500ee1a4d21891a95d90bbcb90f,Jurisdiction,owl#someValuesFrom
+BookEntryForm,book entry form,rdf-schema#label
+SecurityUnderwritingArrangement,underwriting agreement between an organization (typically an investment bank) and a securities issuer that commits the underwriter to assuming risk involved in buying a new issue of securities and reselling it to the public,core#definition
+Nc4e864fc39874e019efe2caf1a7b8b16,FinancialInstrumentShortName,22-rdf-syntax-ns#first
+isRegisteredWith,Security,rdf-schema#domain
+hasSubscriptionAmount,owl#DatatypeProperty,22-rdf-syntax-ns#type
+isUnderwrittenBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+BearerForm,owl#NamedIndividual,22-rdf-syntax-ns#type
+N939e84e9d4b34b54a07f70b9a2b8cdb9,SecurityUnderwritingArrangement,owl#someValuesFrom
+Na75a196ca9b04d3ba3f36324e608f8d6,0,owl#minQualifiedCardinality
+Na75a196ca9b04d3ba3f36324e608f8d6,owl#Restriction,22-rdf-syntax-ns#type
+underwrites,Underwriting is the process by which investment bankers raise investment capital from investors on behalf of corporations and governments that are issuing either equity or debt securities.,explanatoryNote
+FirmCommitmentOffering,SecuritiesOffering,rdf-schema#subClassOf
+hasSeries,indicates the series identified by the issuer in the event that the instrument is issued in several series (also known as tranches),core#definition
+Nbde28ece4aef401ea5fa78bff8e26ee8,N540e30b79a134c589d422403ac62789a,22-rdf-syntax-ns#first
+Prospectus,"formal, written offering document to sell securities that provides the facts an investor needs to make an informed investment decision",core#definition
+MiscellaneousForm,Miscellaneous form is used to describe securities wherein the form is not stated as being bearer or registered.,explanatoryNote
+N77320a3d9d7747a891f61b8c5d0fc5a9,Security,owl#someValuesFrom
+PrivateOffering,offering of securities made privately to a limited number of qualified potential investors,core#definition
+underwrites,underwriting.asp,adaptedFrom
+,SecuritiesIssuance.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+underwrites,Underwriter,rdf-schema#domain
+Nf9e6e0cdf33447adb7f945aa058fe4f8,owl#Class,22-rdf-syntax-ns#type
+ExemptIssuer,exempt issuer,rdf-schema#label
+N3d534820a9f34b429a3309e2639d17e8,Security,owl#someValuesFrom
+ConversionTerms,contract terms specifying when and how a security may be converted to another security (usually of the same issuer),core#definition
+RegisteredForm,SecurityForm,22-rdf-syntax-ns#type
+ExemptOffering,exempt offering,rdf-schema#label
+hasSeries,owl#DatatypeProperty,22-rdf-syntax-ns#type
+ExemptIssuer,issuer that issues securities that are excused from certain regulatory reporting requirements,core#definition
+,SecuritiesIssuance.rdf version of this ontology was modified to normalize the representation of security forms (all individuals rather than a mixed representation).,core#changeNote
+RegisteredForm,owl#NamedIndividual,22-rdf-syntax-ns#type
+RegisteredForm,"With registered securities, a ledger is kept by the issuing company or agent which records the owners of all the securities. Transfer of ownership can only occur when names are changed in the ledger.",explanatoryNote
+SecurityForm,nature of the proof of ownership of a security,core#definition
+MiscellaneousForm,owl#NamedIndividual,22-rdf-syntax-ns#type
+N63f2d8097b404af0b098628c9d2b882f,specifiesConversionInto,owl#onProperty
+SecurityUnderwriter,owl#Class,22-rdf-syntax-ns#type
+hasIssuerShortName,hasFormalName,rdf-schema#subPropertyOf
+ExemptIssuer,"In general, these include governments and issuers of tax exempt securities such as municipalities, banks and depository institutions, and authorized insurance companies, railroads and public utilities, and certain non-profit organizations.",core#example
+N268ba98e7e624f80946a6af2369ac15f,owl#Restriction,22-rdf-syntax-ns#type
+SecurityOfferingDistributionType,security offering distribution type,rdf-schema#label
+OfferingStatement,owl#Class,22-rdf-syntax-ns#type
+N35325832086648108fde52b88cfaeaea,embodies,owl#onProperty
+,MIT,license
+hasFinancialInstrumentShortName,FinancialInstrument,rdf-schema#domain
+RegisteredForm,registered form,rdf-schema#label
+FinancialInstrument,Na75a196ca9b04d3ba3f36324e608f8d6,rdf-schema#subClassOf
+N939e84e9d4b34b54a07f70b9a2b8cdb9,owl#Restriction,22-rdf-syntax-ns#type
+N302b5e962dea43889273b252c585b75c,owl#Restriction,22-rdf-syntax-ns#type
+isOverAllotted,indicates whether or not the subscription is over-subscribed,core#definition
+FirmCommitmentOffering,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.",adaptedFrom
+ConvertibleSecurity,Convertible securities may be convertible bonds or preferred stocks that pay regular interest and can be converted into shares of common stock (sometimes conditioned on the stock price appreciating to a predetermined level).,core#example
+OfferingDocument,offering document,rdf-schema#label
+OfferingStatement,OfferingDocument,rdf-schema#subClassOf
+ExemptOffering,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.",adaptedFrom
+SecurityUnderwritingArrangement,N27fb3e57c1614a59aab9936cb4c8f628,rdf-schema#subClassOf
+N41e7319ac80344a3983963fb0dd05f8d,owl#Restriction,22-rdf-syntax-ns#type
+underwrites,identifies one or more underwriters involved in raising capital for or distributing the instruments that are the subject of the offering,core#definition
+FinancialInstrumentShortName,Nc501bab18a2c4117b10978ed56291945,rdf-schema#subClassOf
+hasFirstTradeDate,has first trade date,rdf-schema#label
+SecuritiesOffering,Neba9c06bbc2c4e2893207878489f750e,rdf-schema#subClassOf
+BearerAndRegisteredForm,"ISO 10962:2019(E), Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, 2019-10, clause 6.2.2",adaptedFrom
+PrivateOffering,"Unlike a public offering, a private placement does not have to be registered with a regulatory agency if the securities are purchased for investment rather than resale.",explanatoryNote
+SecurityForm,owl#Class,22-rdf-syntax-ns#type
+hasFinancialInstrumentShortName,"relates a security to its ISO 18774-compliant short name, which includes an issuer short name, abbreviated instrument characteristics, and abbreviated instrument description per the ISO standard",core#definition
+Nd464e46235b2436aae9d0d803d6cc367,FinancialInstrumentShortName,22-rdf-syntax-ns#first
+hasSubscriptionPeriod,indicates a period of time in which investors can commit to purchase shares (or units) to be issued,core#definition
+N302b5e962dea43889273b252c585b75c,hasDateOfIssuance,owl#onProperty
+isIssuedInForm,Security,rdf-schema#domain
+Nb119a7f18a3a4fd58775beb3b6f16437,SecuritiesOffering,owl#someValuesFrom
+SecurityOfferingDistributionType,"the type of distribution for a securities offering, including (1) primary offering - the original sale of a company's securities, in which the proceeds from the sale are received directly by the company, and (2) secondary offering - an offering of a security that has been issued previously",core#definition
+,"Copyright (c) 2018-2024 Object Management Group, Inc.",copyright
+BearerForm,"ISO 10962:2019(E), Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, 2019-10, clause 6.2.2",adaptedFrom
+, version of this ontology was modified to address text formatting hygiene issues and eliminate dead links.,core#changeNote
+hasActualClosingDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nb90ac650279d480d95e7d2a31a9b16a9,Security,owl#someValuesFrom
+Prospectus,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.",adaptedFrom
+BearerAndRegisteredForm,bearer and registered form,rdf-schema#label
+Nedd35500ee1a4d21891a95d90bbcb90f,hasGoverningJurisdiction,owl#onProperty
+hasInstrumentDescription,owl#DatatypeProperty,22-rdf-syntax-ns#type
+OfferingDocument,Publication,rdf-schema#subClassOf
+hasFirstTradeSettlementDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasSubscriptionPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasIssuerShortName,"ISO 18774:2015(E), Securities and related financial instruments - Financial Instrument Short Name (FISN)",adaptedFrom
+N101926f12d354066a90c0b844685a77c,owl#Restriction,22-rdf-syntax-ns#type
+, version of this ontology was modified to eliminate duplication of concepts in LCC.,core#changeNote
+Na75a196ca9b04d3ba3f36324e608f8d6,hasFinancialInstrumentShortName,owl#onProperty
+OfferingStatement,offering statement,rdf-schema#label
+,,owl#imports
+N1a6b5dc417894ab9b96a386822f89f7a,owl#Restriction,22-rdf-syntax-ns#type
+N731f53abb06f443a94b6151e4d7ae9d8,owl#Restriction,22-rdf-syntax-ns#type
+N0f5dc444f8924c24a7724dd68e38e64e,isUnderwrittenBy,owl#onProperty
+PrivatePlacementMemorandum,"legal document stating the objectives, risks and terms of investment involved with a private placement",core#definition
+ExemptOffering,PublicOffering,rdf-schema#subClassOf
+N0994a5ddd3b34be8846f6f87408adeac,0,owl#minQualifiedCardinality
+hasSeries,XMLSchema#string,rdf-schema#range
+isOverAllotted,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Security,owl#Class,22-rdf-syntax-ns#type
+MiscellaneousForm,"ISO 10962:2019(E), Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, 2019-10, clause 6.2.2",adaptedFrom
+SecuritiesOffering,offering of a security (or securities) for sale,core#definition
+SecurityUnderwritingArrangement,"Barron's Dictionary of Business and Economics Terms, Fifth Edition, 2012",adaptedFrom
+hasFirstTradeDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+FinancialInstrumentShortName,FISN,abbreviation
+ConversionTerms,owl#Class,22-rdf-syntax-ns#type
+N35325832086648108fde52b88cfaeaea,owl#Restriction,22-rdf-syntax-ns#type
+isUnderwrittenBy,is underwritten by,rdf-schema#label
+, version of this ontology was modified to clarify the definition of isIssuedInForm.,core#changeNote
+OfferingDocument,N2bd3598e69824da1b15f9739483ab5ac,rdf-schema#subClassOf
+," version of this ontology was modified to refactor conversion terms as a child of redemption provision, move redemption provision to financial instruments, and eliminate the unnecessary securities contract terms class.",core#changeNote
+N2bd3598e69824da1b15f9739483ab5ac,owl#Restriction,22-rdf-syntax-ns#type
+N41e7319ac80344a3983963fb0dd05f8d,1,owl#qualifiedCardinality
+hasActualClosingDate,"indicates the date on which an offering or transaction officially closes, in contrast with an intended closing date",core#definition
+hasSubscriptionPeriod,has subscription period,rdf-schema#label
+underwrites,SecuritiesOffering,rdf-schema#range
+SecurityUnderwritingArrangement,security underwriting arrangement,rdf-schema#label
+Ncefe76deae284654b6b61d94964da023,owl#Restriction,22-rdf-syntax-ns#type
+PrivateOffering, Quarule,adaptedFrom
+N540e30b79a134c589d422403ac62789a,isIssuedBy,owl#onProperty
+N2e78556c1aa44a60af792ae8f5e70b3f,Nd5f607fb82004e3794b99cec4bc3fa5c,22-rdf-syntax-ns#rest
+ExemptTransaction,exempt transaction,rdf-schema#label
+ConvertibleSecurity,Security,rdf-schema#subClassOf
+Nf154faef5ec64d0fab90b51f7eef95bd,Nd464e46235b2436aae9d0d803d6cc367,22-rdf-syntax-ns#rest
+isIssuedInForm,is issued in form,rdf-schema#label
+N95582a71f30149c8b2f280b3d99b93f2,N2e78556c1aa44a60af792ae8f5e70b3f,owl#unionOf
+hasIssuerShortName,has issuer short name,rdf-schema#label
+,"This ontology defines the fundamental concepts for issuing securities, including securities offering, offering document, offering statement, securities underwriter, prospectus, and so forth.",abstract
+N2a1243a2799040d99caf887b169c25d0,Nc4e864fc39874e019efe2caf1a7b8b16,22-rdf-syntax-ns#rest
+N6718255c0a2e473e91dff731d0efddbe,hasPartyRole,owl#onProperty
+N2bd3598e69824da1b15f9739483ab5ac,1,owl#qualifiedCardinality
+hasInstrumentDescription,XMLSchema#string,rdf-schema#range
+N0994a5ddd3b34be8846f6f87408adeac,owl#Restriction,22-rdf-syntax-ns#type
+FirmCommitmentOffering,securities offering whereby the underwriter purchases the securities outright for their own account,core#definition
+N09dcfe271361483ea6adc3aefc8a60ba,isRegisteredWith,owl#onProperty
+Nb90ac650279d480d95e7d2a31a9b16a9,owl#Restriction,22-rdf-syntax-ns#type
+SecuritiesOffering,Nb90ac650279d480d95e7d2a31a9b16a9,rdf-schema#subClassOf
+N093f488604fb4a8b849a10dfbf210623,owl#Restriction,22-rdf-syntax-ns#type
+RegisteredForm,form of a security whereby ownership is recorded in the name of the owner on the books of the issuer or the issuer's registrar and can only be transferred to another owner when endorsed by the registered owner,core#definition
+isUnderwrittenBy,Underwriter,rdf-schema#range
+SecurityForm,ContractDocument,rdf-schema#subClassOf
+PrivatePlacementMemorandum,offering memorandum,synonym
+BestEffortsOffering,SecuritiesOffering,rdf-schema#subClassOf
+N0994a5ddd3b34be8846f6f87408adeac,SecurityForm,owl#onClass
+underwrites,isUnderwrittenBy,owl#inverseOf
+ExemptOffering,owl#Class,22-rdf-syntax-ns#type
+hasActualClosingDate,ExplicitDate,rdf-schema#range
+OfferingStatement,"offering memorandum that conforms to Regulation A, Offering Statement, of the Securities Act of 1933",core#definition
+BearerAndRegisteredForm,SecurityForm,22-rdf-syntax-ns#type
+hasSeries,has series,rdf-schema#label
+OfferingDocument,LegalDocument,rdf-schema#subClassOf
+BearerForm,SecurityForm,22-rdf-syntax-ns#type
+N0f5dc444f8924c24a7724dd68e38e64e,SecurityUnderwriter,owl#onClass
+isUnderwrittenBy,relates an offering to an underwriter involved in raising capital for or distributing the instruments that are the subject of the offering,core#definition
+BestEffortsOffering,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.",adaptedFrom
+hasAnnouncementDate,"An announcement date may also refer to the release of a corporate event or new financial news, such as interest rate changes or earnings reports.",explanatoryNote
+isIssuedInForm,isExemplifiedBy,rdf-schema#subPropertyOf
+isIssuedInForm,"indicates the form in which the security is issued, typically in registered form",core#definition
+ExemptTransaction,exempttransaction.asp,adaptedFrom
+hasFirstTradeSettlementDate,has first trade settlement date,rdf-schema#label
+specifiesConversionInto,specifies conversion into,rdf-schema#label
+N6718255c0a2e473e91dff731d0efddbe,ThirdPartyAgent,owl#onClass
+SecuritiesOffering,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.",adaptedFrom
+Na75a196ca9b04d3ba3f36324e608f8d6,FinancialInstrumentShortName,owl#onClass

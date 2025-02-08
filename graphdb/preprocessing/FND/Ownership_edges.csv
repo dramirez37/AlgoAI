@@ -1,0 +1,127 @@
+source_id,target_id,relationship
+hasOwnedAsset,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2023 Object Management Group, Inc.",copyright
+Asset,Undergoer,rdf-schema#subClassOf
+,"Ownership.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+,Ownership Ontology,rdf-schema#label
+Asset,"An asset is something that provides probable future economic benefit obtained or controlled by some party as a result of past transactions or events. An asset has three essential characteristics: (a) it embodies a probable future benefit that involves a capacity, singly or in combination with other assets, to contribute directly or indirectly to future net cash inflows, (b) a party can obtain the benefit and control others' access to it, and (c) the transaction or other event giving rise to the party's right to or control of the benefit has already occurred.",explanatoryNote
+Asset,asset,rdf-schema#label
+Nbe8d03443b09499f8692be4e23267d10,owl#Restriction,22-rdf-syntax-ns#type
+owns,owl#ObjectProperty,22-rdf-syntax-ns#type
+isAssetOf,identifies the owner of an asset,core#definition
+Owner,Actor,rdf-schema#subClassOf
+Owner,owl#Class,22-rdf-syntax-ns#type
+,Ownership.rdf version of the ontology was modified to revise the definition of Asset using the new CombinedDateTime datatype rather than xsd:dateTime to provide increased flexibility.,core#changeNote
+,Ownership.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+isOwnedBy,experiencesDirectly,rdf-schema#subPropertyOf
+isOwnedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+IntangibleAsset,intangible asset,rdf-schema#label
+ownsAsset,is asset owner,rdf-schema#label
+Ownership,owl#Class,22-rdf-syntax-ns#type
+isOwnedBy,is owned by,rdf-schema#label
+hasOwnedAsset,Ownership,rdf-schema#domain
+,.,core#changeNote
+isOwningParty,Ownership,rdf-schema#range
+Owner,N85a06c61f52b48c5afdd2655bcf8e401,rdf-schema#subClassOf
+,"Ownership.rdf version of the ontology was modified to integrate the concept of a situation, situational roles, and corresponding relations with the definition of ownership, and eliminate minimum cardinality of 1 in restrictions.",core#changeNote
+owns,indicates something that a party holds title to and may possess,core#definition
+hasOwningParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+,,owl#imports
+isOwnedAsset,owl#ObjectProperty,22-rdf-syntax-ns#type
+isAssetOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+Asset,Nbe8d03443b09499f8692be4e23267d10,rdf-schema#subClassOf
+hasOwningParty,has owning party,rdf-schema#label
+,,owl#versionIRI
+IntangibleAsset,"identifiable, non-monetary asset that lacks physical substance",core#definition
+ownsAsset,owl#ObjectProperty,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+ownsAsset,identifies an asset that an owner owns,core#definition
+hasOwningParty,isOwningParty,owl#inverseOf
+ownsAsset,Asset,rdf-schema#range
+Nf0c6073ebb1240199abac5dcc48d973a,owl#Restriction,22-rdf-syntax-ns#type
+Owner,owner,rdf-schema#label
+TangibleAsset,"Tangible assets include cash, cash equivalents and accounts receivables (AR), inventory, equipment, buildings and real estate, crops, and investments. Tangible assets such as art, furniture, stamps, gold, wine, toys and books of significant value may be included in an individual or organization's asset portfolio.",explanatoryNote
+owns,playsActiveRoleThatDirectlyAffects,rdf-schema#subPropertyOf
+isOwningParty,indicates the context of ownership in which the party plays the role of owner,core#definition
+,Ownership.rdf version of the ontology was modified to reflect the move of hasAquisitionDate from relations to financial dates and eliminate circular definitions.,core#changeNote
+hasOwnedAsset,hasUndergoer,rdf-schema#subPropertyOf
+,Ownership.rdf version of the ontology was modified to better align with revisions to the situation lattice.,core#changeNote
+Ownership,or possession,core#definition
+Nf0c6073ebb1240199abac5dcc48d973a,Owner,owl#someValuesFrom
+Nbe8d03443b09499f8692be4e23267d10,CombinedDateTime,owl#onDataRange
+isOwnedBy,indicates something that someone owns,core#definition
+Asset,economic resource,synonym
+isAssetOf,is asset of,rdf-schema#label
+isOwningParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Ownership.rdf version of the ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+N375b52f2d04f421a99bb912c758d4a39,isOwnedAsset,owl#onProperty
+,"ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.",core#changeNote
+Ownership,Nfa6812a0e9f64541b152e8ac64bc7e98,rdf-schema#subClassOf
+Ownership,ownership,rdf-schema#label
+hasOwningParty,hasActor,rdf-schema#subPropertyOf
+Nbe8d03443b09499f8692be4e23267d10,1,owl#qualifiedCardinality
+isAssetOf,isAffectedBy,rdf-schema#subPropertyOf
+Nbe8d03443b09499f8692be4e23267d10,hasAcquisitionDate,owl#onProperty
+N6aa0e69e822a43d8bad65b62339b9d13,hasOwnedAsset,owl#onProperty
+N375b52f2d04f421a99bb912c758d4a39,Ownership,owl#someValuesFrom
+isOwnedAsset,undergoes,rdf-schema#subPropertyOf
+Nb0db487f59d443cf9ab765e0f72dfab1,isOwningParty,owl#onProperty
+owns,owns,rdf-schema#label
+Nfa6812a0e9f64541b152e8ac64bc7e98,hasOwningParty,owl#onProperty
+Asset,owl#Class,22-rdf-syntax-ns#type
+ownsAsset,isAssetOf,owl#inverseOf
+N85a06c61f52b48c5afdd2655bcf8e401,ownsAsset,owl#onProperty
+Nfa6812a0e9f64541b152e8ac64bc7e98,Owner,owl#someValuesFrom
+N6aa0e69e822a43d8bad65b62339b9d13,owl#Restriction,22-rdf-syntax-ns#type
+IntangibleAsset,TangibleAsset,owl#disjointWith
+owns,Party,rdf-schema#domain
+Asset,"Financial Accounting Standards Board (FASB) Statement of Financial Accounting Concepts No. 6, Elements of Financial Statements, paragraph 25.",adaptedFrom
+isOwnedAsset,Asset,rdf-schema#domain
+isAssetOf,Asset,rdf-schema#domain
+Asset,N375b52f2d04f421a99bb912c758d4a39,rdf-schema#subClassOf
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+,"This ontology defines high-level, ownership-related concepts, including owner, asset and ownership along with relationships between them.",abstract
+ownsAsset,actsOn,rdf-schema#subPropertyOf
+hasOwnedAsset,isOwnedAsset,owl#inverseOf
+isOwningParty,Owner,rdf-schema#domain
+TangibleAsset,tangible asset,rdf-schema#label
+Nb0db487f59d443cf9ab765e0f72dfab1,Ownership,owl#someValuesFrom
+N6aa0e69e822a43d8bad65b62339b9d13,Asset,owl#someValuesFrom
+,Ownership.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Ownership,N6aa0e69e822a43d8bad65b62339b9d13,rdf-schema#subClassOf
+isOwningParty,actsIn,rdf-schema#subPropertyOf
+,"Ownership.rdf version of the ontology was modified to add definitions for tangible and intangible asset, etc., as needed for refinement of the concept of collateral and other loan-specific concepts.",core#changeNote
+Ownership,Situation,rdf-schema#subClassOf
+N85a06c61f52b48c5afdd2655bcf8e401,Asset,owl#someValuesFrom
+isOwningParty,is owning party,rdf-schema#label
+TangibleAsset,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+hasOwnedAsset,Asset,rdf-schema#range
+N375b52f2d04f421a99bb912c758d4a39,owl#Restriction,22-rdf-syntax-ns#type
+,MIT,license
+Nfa6812a0e9f64541b152e8ac64bc7e98,owl#Restriction,22-rdf-syntax-ns#type
+TangibleAsset,Asset,rdf-schema#subClassOf
+isOwnedBy,Party,rdf-schema#range
+hasOwningParty,identifies the actor that holds title to the asset in an ownership situation,core#definition
+ownsAsset,Owner,rdf-schema#domain
+hasOwnedAsset,indicates the asset in an ownership situation,core#definition
+TangibleAsset,"asset that is a physical, measurable resource, i.e., one that takes a physical form",core#definition
+N85a06c61f52b48c5afdd2655bcf8e401,owl#Restriction,22-rdf-syntax-ns#type
+IntangibleAsset,owl#Class,22-rdf-syntax-ns#type
+isOwnedAsset,is owned asset,rdf-schema#label
+IntangibleAsset,"Intangible assets may include intellectual property, patents, copyrights, trademarks, rights-of-way (easements), brands, organizational abilities (know-how), and data.",core#example
+Owner,Nb0db487f59d443cf9ab765e0f72dfab1,rdf-schema#subClassOf
+Nb0db487f59d443cf9ab765e0f72dfab1,owl#Restriction,22-rdf-syntax-ns#type
+Owner,"party that is legally recognized as having the right to possess, the privilege to use, and ability to transfer any rights or privileges associated with something, as permitted by law",core#definition
+IntangibleAsset,Asset,rdf-schema#subClassOf
+isOwnedAsset,indicates the context of ownership in which something is an asset,core#definition
+hasOwningParty,Owner,rdf-schema#range
+Asset,Nf0c6073ebb1240199abac5dcc48d973a,rdf-schema#subClassOf
+hasOwningParty,Ownership,rdf-schema#domain
+hasOwnedAsset,has owned asset,rdf-schema#label
+isAssetOf,Owner,rdf-schema#range
+IntangibleAsset,"Intangible assets include assets that may involve a legal claim to some future benefit, typically a claim to future cash. Intangible assets have become an increasingly larger component of the valuation for all companies, from newer social media companies to even the most established and iconic manufacturers.",explanatoryNote
+Asset,something of monetary value that is owned or provides benefit to some party,core#definition
+Nf0c6073ebb1240199abac5dcc48d973a,isAssetOf,owl#onProperty
+isOwnedAsset,Ownership,rdf-schema#range

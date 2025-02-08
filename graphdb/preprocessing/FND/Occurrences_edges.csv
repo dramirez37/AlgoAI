@@ -1,0 +1,191 @@
+source_id,target_id,relationship
+hasInput,owl#ObjectProperty,22-rdf-syntax-ns#type
+OccurrenceBasedDate,owl#Class,22-rdf-syntax-ns#type
+OccurrenceKind,loan origination,core#example
+OccurrenceKind,"In order for other ontologies to accept FinancialDates without committing to the particular notions of 'Occurrence' and 'OccurrenceKind' that is modeled here, all aspects of Occurrences are captured in this ontolog",usageNote
+isTriggeredBy,is triggered by,rdf-schema#label
+hasEventDate,has event date,rdf-schema#label
+N8488dc5e746a4b5b9bf0e0dca4f0774f,classifies,owl#onProperty
+N60e8947810f548f0ac6e1aae3292b218,holdsDuring,owl#onProperty
+OccurrenceBasedDate,N28d56aea90f3427992aee52fc6242f80,rdf-schema#subClassOf
+N92909abf51834902b9ebc74b8816534a,hasEventDateValue,owl#onProperty
+,or non-ISO 704 compliant definitions.,core#changeNote
+Occurrence,N7093793d718a41fbacea6336c35d5330,rdf-schema#subClassOf
+Occurrence,N83608ce88ebb4dbbbd3371b357e3d84e,rdf-schema#subClassOf
+N6f5996f7036b48198cbac9e53b5b5c38,Nb9dc30cd6dec4dfab4131d3383e6b401,22-rdf-syntax-ns#first
+N0068b2c46be646c9a8b27567ba505b4e,0,owl#minQualifiedCardinality
+N0068b2c46be646c9a8b27567ba505b4e,owl#Restriction,22-rdf-syntax-ns#type
+Nda0b733c34254c548df8e9faf334415f,owl#Restriction,22-rdf-syntax-ns#type
+N3aefbcf0374146c48c001cd403b6df90,Occurrence,owl#onClass
+, version of this ontology was revised to make use of the new composite date type added to Financial Dates.,core#changeNote
+N66d0043ddfc845d58fb5556816bde164,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N663fee0869c04d4abca926fb104faa1a,hasOccurrence,owl#onProperty
+Calculation,N879987f9e68744c9ae3efb82b961940f,rdf-schema#subClassOf
+RelativeDate,owl#Class,22-rdf-syntax-ns#type
+hasOccurrence,has occurrence,rdf-schema#label
+N7093793d718a41fbacea6336c35d5330,1,owl#qualifiedCardinality
+CalculationEvent,"or recalculation of principal due to a late payment, etc. A calculation event related to an investment might involve the adjustment of the number of shares owned, such as a redemption or dividend related event.",core#note
+OccurrenceKind,N8488dc5e746a4b5b9bf0e0dca4f0774f,rdf-schema#subClassOf
+N3aefbcf0374146c48c001cd403b6df90,owl#Restriction,22-rdf-syntax-ns#type
+Nb9dc30cd6dec4dfab4131d3383e6b401,1,owl#qualifiedCardinality
+Calculation,"actual execution of some computation, computational process, or operation that was scheduled or triggered by something",core#definition
+Occurrence,occurrence,rdf-schema#label
+N66205dc9783f45328f0152f35b7f42aa,hasOccurrence,owl#onProperty
+OccurrenceKind,Classifier,rdf-schema#subClassOf
+isTriggeredBy,OccurrenceBasedDate,rdf-schema#domain
+Nb9dc30cd6dec4dfab4131d3383e6b401,hasEventDate,owl#onProperty
+,Occurrences.rdf version of this ontology was modified to eliminate elements that have been deprecated for several quarters (FND-386).,core#changeNote
+Nda0b733c34254c548df8e9faf334415f,classifies,owl#onProperty
+hasEventDateValue,CombinedDateTime,rdf-schema#range
+N8488dc5e746a4b5b9bf0e0dca4f0774f,owl#Restriction,22-rdf-syntax-ns#type
+CalculationEvent,calculation event,rdf-schema#label
+Nd2493f6fcaef4d50945869217cddec45,N60e8947810f548f0ac6e1aae3292b218,22-rdf-syntax-ns#first
+, version of this ontology was revised to fix spelling errors.,core#changeNote
+N8484ff7fcf194e19a710e1ab4e27da3e,1,owl#qualifiedCardinality
+, version of this ontology was revised to address hygiene errors with respect to text formatting.,core#changeNote
+N0483a7e8622c44c5befc7f6db77ba4cc,isClassifiedBy,owl#onProperty
+N3aefbcf0374146c48c001cd403b6df90,hasOccurrence,owl#onProperty
+CalculationEvent,OccurrenceKind,rdf-schema#subClassOf
+hasOccurrence,"identifies events of a given occurrence kind, typically as they occur in a schedule",core#definition
+OccurrenceKind,owl#Class,22-rdf-syntax-ns#type
+Naec3aaa025134e458ec79de5c59d5cb2,OccurrenceKind,owl#onClass
+isInputTo,"indicates a precondition, requirement, or other contribution (e.g., data) to some activity, process, system, report, analysis, etc.",core#definition
+,,owl#imports
+N6f5996f7036b48198cbac9e53b5b5c38,N66d0043ddfc845d58fb5556816bde164,22-rdf-syntax-ns#rest
+OccurrenceBasedDate,calculated date that is defined with respect to the occurrence of some occurrence kind,core#definition
+,"This ontology extends definitions of date and schedule concepts from the FinancialDates ontology with concepts defining occurrences (i.e., event-related concepts) for use in other FIBO ontologies.",abstract
+Naec3aaa025134e458ec79de5c59d5cb2,comprises,owl#onProperty
+N7093793d718a41fbacea6336c35d5330,OccurrenceKind,owl#onClass
+Occurrence,"In order for other ontologies to accept FinancialDates without committing to the particular notions of 'Occurrence' and 'OccurrenceKind' that is modeled here, all aspects of Occurrences are captured in this ontology.",usageNote
+N83608ce88ebb4dbbbd3371b357e3d84e,Nd2493f6fcaef4d50945869217cddec45,owl#unionOf
+N28d56aea90f3427992aee52fc6242f80,OccurrenceKind,owl#onClass
+hasInput,has input,rdf-schema#label
+isTriggeredBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasEventDateValue,identifies a date or date and time value associated with an event (occurrence),core#definition
+OccurrenceKind,"As types (or categories) of events, OccurenceKinds do not happen; OccurenceKinds describe Occurrences which happen and exemplify an OccurenceKind. As occurrences are things that actually happen, they have an actual date where as OccurenceKinds do not have an actual date.",explanatoryNote
+Calculation,N8484ff7fcf194e19a710e1ab4e27da3e,rdf-schema#subClassOf
+Naec3aaa025134e458ec79de5c59d5cb2,owl#Restriction,22-rdf-syntax-ns#type
+Occurrence,N0068b2c46be646c9a8b27567ba505b4e,rdf-schema#subClassOf
+N3aefbcf0374146c48c001cd403b6df90,0,owl#minQualifiedCardinality
+CalculationEvent,owl#Class,22-rdf-syntax-ns#type
+CalculationEvent,"kind of event that is either scheduled or triggered by something, such as a related financial event, that causes a calculation to be performed",core#definition
+N60e8947810f548f0ac6e1aae3292b218,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#versionIRI
+hasEventDate,hasDate,rdf-schema#subPropertyOf
+N60e8947810f548f0ac6e1aae3292b218,DatePeriod,owl#onClass
+N0483a7e8622c44c5befc7f6db77ba4cc,OccurrenceKind,owl#onClass
+OccurrenceBasedDate,occurrence-based date,rdf-schema#label
+N66d0043ddfc845d58fb5556816bde164,N92909abf51834902b9ebc74b8816534a,22-rdf-syntax-ns#first
+,owl#Ontology,22-rdf-syntax-ns#type
+N663fee0869c04d4abca926fb104faa1a,Occurrence,owl#onClass
+N879987f9e68744c9ae3efb82b961940f,ScalarQuantityValueRange,owl#onClass
+hasEventDate,identifies a date associated with an event (occurrence),core#definition
+N170c8d7626924ba6b884170e7ed9dda2,owl#Restriction,22-rdf-syntax-ns#type
+N05334f5128694fed97a82885b4519117,0,owl#minQualifiedCardinality
+N92909abf51834902b9ebc74b8816534a,owl#Restriction,22-rdf-syntax-ns#type
+Nda0b733c34254c548df8e9faf334415f,Calculation,owl#someValuesFrom
+Calculation,Occurrence,rdf-schema#subClassOf
+CalculationEvent,Nda0b733c34254c548df8e9faf334415f,rdf-schema#subClassOf
+ScheduleStub,N3aefbcf0374146c48c001cd403b6df90,rdf-schema#subClassOf
+N66205dc9783f45328f0152f35b7f42aa,Occurrence,owl#onClass
+N0483a7e8622c44c5befc7f6db77ba4cc,0,owl#minQualifiedCardinality
+," version of this ontology was revised to address the issue resolutions in the FIBO 2.0 RFC, primarily to add properties that are relevant to the inputs and outputs from processes, events, systems and the like.",core#changeNote
+N0483a7e8622c44c5befc7f6db77ba4cc,owl#Restriction,22-rdf-syntax-ns#type
+N05334f5128694fed97a82885b4519117,owl#Restriction,22-rdf-syntax-ns#type
+OccurrenceBasedDate,The 'hasDateValue' property of an OccurrenceBasedDate is not set until the Occurrence happens. The 'triggeredBy' property relates an OccurrenceBasedDate to the OccurrenceKind that gives the meaning of the OccurrenceBasedDate.,explanatoryNote
+hasOccurrence,Occurrence,rdf-schema#range
+isInputTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+N66205dc9783f45328f0152f35b7f42aa,0,owl#minQualifiedCardinality
+N66205dc9783f45328f0152f35b7f42aa,owl#Restriction,22-rdf-syntax-ns#type
+SpecifiedDate,OccurrenceBasedDate,owl#disjointWith
+OccurrenceKind,trade settlement,core#example
+Calculation,owl#Class,22-rdf-syntax-ns#type
+RegularSchedule,N663fee0869c04d4abca926fb104faa1a,rdf-schema#subClassOf
+N879987f9e68744c9ae3efb82b961940f,0,owl#minQualifiedCardinality
+N170c8d7626924ba6b884170e7ed9dda2,ScalarQuantityValue,owl#onClass
+CalculationEvent,"A calculation event may be prescriptive, that occurs within a specified period, or ad hoc.",core#note
+hasEventDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+N05334f5128694fed97a82885b4519117,hasExpression,owl#onProperty
+ScheduleStub,Naec3aaa025134e458ec79de5c59d5cb2,rdf-schema#subClassOf
+Naec3aaa025134e458ec79de5c59d5cb2,0,owl#minQualifiedCardinality
+N92909abf51834902b9ebc74b8816534a,1,owl#qualifiedCardinality
+OccurrenceBasedDate,CalculatedDate,rdf-schema#subClassOf
+AdHocScheduleEntry,N66205dc9783f45328f0152f35b7f42aa,rdf-schema#subClassOf
+N28d56aea90f3427992aee52fc6242f80,isTriggeredBy,owl#onProperty
+N7093793d718a41fbacea6336c35d5330,owl#Restriction,22-rdf-syntax-ns#type
+N7093793d718a41fbacea6336c35d5330,exemplifies,owl#onProperty
+N28d56aea90f3427992aee52fc6242f80,1,owl#qualifiedCardinality
+AdHocScheduleEntry,owl#Class,22-rdf-syntax-ns#type
+N8484ff7fcf194e19a710e1ab4e27da3e,CalculationEvent,owl#onClass
+N75fd1cf68deb433d923be51e45df00fc,comprises,owl#onProperty
+hasEventDateValue,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N663fee0869c04d4abca926fb104faa1a,0,owl#minQualifiedCardinality
+isInputTo,is input to,rdf-schema#label
+N663fee0869c04d4abca926fb104faa1a,owl#Restriction,22-rdf-syntax-ns#type
+N170c8d7626924ba6b884170e7ed9dda2,0,owl#minQualifiedCardinality
+N75fd1cf68deb433d923be51e45df00fc,OccurrenceKind,owl#onClass
+N05334f5128694fed97a82885b4519117,Expression,owl#onClass
+Occurrence,N0483a7e8622c44c5befc7f6db77ba4cc,rdf-schema#subClassOf
+isTriggeredBy,is activated or initiated by,core#definition
+N83608ce88ebb4dbbbd3371b357e3d84e,owl#Class,22-rdf-syntax-ns#type
+N28d56aea90f3427992aee52fc6242f80,owl#Restriction,22-rdf-syntax-ns#type
+,"This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification. It is also needed to provide temporal relationships for Ownership and Control.
+
+These three ontologies are designed for use together:
+
+	* FinancialDates -- financial Dates and Schedules
+	* BusinessDates -- business day adjustments
+	* Occurrences -- occurrences (events) and kinds of occurrences
+
+They are modularized this way to minimize the ontological committments that are imposed upon ontologies that rely upon them. Ontologies can import FinancialDates alone, or FinancialDates + BusinessDates, or FinancialDates + Occurrences, or all three together.",core#changeNote
+N8484ff7fcf194e19a710e1ab4e27da3e,owl#Restriction,22-rdf-syntax-ns#type
+N0068b2c46be646c9a8b27567ba505b4e,Location,owl#onClass
+N170c8d7626924ba6b884170e7ed9dda2,hasQuantityValue,owl#onProperty
+Calculation,N170c8d7626924ba6b884170e7ed9dda2,rdf-schema#subClassOf
+N879987f9e68744c9ae3efb82b961940f,hasQuantityValueRange,owl#onProperty
+ScheduleStub,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+SpecifiedDate,owl#Class,22-rdf-syntax-ns#type
+Calculation,N05334f5128694fed97a82885b4519117,rdf-schema#subClassOf
+,MIT,license
+RelativeDate,OccurrenceBasedDate,owl#disjointWith
+hasOccurrence,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasEventDateValue,has event date value,rdf-schema#label
+RegularSchedule,N75fd1cf68deb433d923be51e45df00fc,rdf-schema#subClassOf
+isOutputFrom,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasOutput,has output,rdf-schema#label
+N60e8947810f548f0ac6e1aae3292b218,1,owl#qualifiedCardinality
+,Occurrences.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+hasEventDate,Date,rdf-schema#range
+hasOutput,owl#ObjectProperty,22-rdf-syntax-ns#type
+N0068b2c46be646c9a8b27567ba505b4e,isLocatedAt,owl#onProperty
+N879987f9e68744c9ae3efb82b961940f,owl#Restriction,22-rdf-syntax-ns#type
+isOutputFrom,"indicates post condition or other product of some activity, process, system, report, analysis, etc.",core#definition
+OccurrenceKind,classifier that specifies the general nature of an occurrence (event),core#definition
+hasOutput,isOutputFrom,owl#inverseOf
+hasOutput,relates something (e.g. an occurrence) to something that is the result of some activity or process,core#definition
+Calculation,calculation,rdf-schema#label
+," version of this ontology was revised to eliminate duplication of concepts in LCC, and eliminate unnecessary complexity in restrictions.",core#changeNote
+hasInput,relates something (e.g. an occurrence) to something that is used as an input to some activity or process,core#definition
+Occurrence,"Each occurrence has a date time stamp, which identifies when the event occurred, and, optionally, a location (possibly virtual), that identifies where the occurrence happened.",explanatoryNote
+Occurrence,event,synonym
+RegularSchedule,owl#Class,22-rdf-syntax-ns#type
+Occurrence,"happening of an OccurrenceKind, i.e., an event",core#definition
+,Occurrences Ontology,rdf-schema#label
+isOutputFrom,is output from,rdf-schema#label
+Nd2493f6fcaef4d50945869217cddec45,N6f5996f7036b48198cbac9e53b5b5c38,22-rdf-syntax-ns#rest
+isTriggeredBy,OccurrenceKind,rdf-schema#range
+,"Copyright (c) 2014-2024 Object Management Group, Inc.",copyright
+,"Occurrences.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+Nb9dc30cd6dec4dfab4131d3383e6b401,Date,owl#onClass
+OccurrenceKind,occurrence kind,rdf-schema#label
+Nb9dc30cd6dec4dfab4131d3383e6b401,owl#Restriction,22-rdf-syntax-ns#type
+N8484ff7fcf194e19a710e1ab4e27da3e,exemplifies,owl#onProperty
+isTriggeredBy,An OccurrenceBasedDate is triggered by an Occurrence that exemplifies the OccurrenceKind.,explanatoryNote
+,"Copyright (c) 2014-2024 EDM Council, Inc.",copyright
+hasInput,isInputTo,owl#inverseOf
+N8488dc5e746a4b5b9bf0e0dca4f0774f,Occurrence,owl#someValuesFrom
+Occurrence,owl#Class,22-rdf-syntax-ns#type
+N75fd1cf68deb433d923be51e45df00fc,0,owl#minQualifiedCardinality
+N92909abf51834902b9ebc74b8816534a,CombinedDateTime,owl#onDataRange
+N75fd1cf68deb433d923be51e45df00fc,owl#Restriction,22-rdf-syntax-ns#type

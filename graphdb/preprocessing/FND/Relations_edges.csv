@@ -1,0 +1,196 @@
+source_id,target_id,relationship
+embodies,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Relations Ontology,rdf-schema#label
+governs,"has and exercises authority over, regulates",core#definition
+isHeldBy,holds,owl#inverseOf
+wasFormerlyKnownAs,owl#DatatypeProperty,22-rdf-syntax-ns#type
+isEvaluatedBy,is ascertained or determined by,core#definition
+confers,"This property should be read as describing the conferral of some legal power or duty, some commitment or some social construct, and is a property of some social construct such as an agreement or some legal authority. These concepts, which would describe the kind of thing of which this is a property, and the kinds of thing in terms of which this property is framed, are outside the scope of this mode land so are not shown.",explanatoryNote
+controls,exercises authority or influence over,core#definition
+isExemplifiedBy,is made concrete or is realized by,core#definition
+exemplifies,owl#ObjectProperty,22-rdf-syntax-ns#type
+controls,controls,rdf-schema#label
+,Relations.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+hasAlias,indicates an alternate name of by which something is known,core#definition
+isExemplifiedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+isApplicableIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+embodies,embodies,rdf-schema#label
+evaluates,evaluates,rdf-schema#label
+wasFormerlyKnownAs,was formerly known as,rdf-schema#label
+isSignifiedBy,'is signified by' relates a concept to some textual or other symbol which is intended to convey the sense of that concept or to some form of words that sets out the meaning of that concept.,explanatoryNote
+isControlledBy,"is influenced, managed, or directed by",core#definition
+,Relations.rdf version of this ontology was revised to add the appliesTo object property in support of the IND RFC.,core#changeNote
+isProvidedBy,is provided by,rdf-schema#label
+,Relations.rdf version of this ontology was modified to move the property 'exchanges' to FND given that it could be applied more generally than with respect to swaps only.,core#changeNote
+isManagedBy,"The target or range of this property should be read as always being some kind of 'relative thing', that is a thing defined in some context. Generally this will be a 'party in role'. This property is not intended to be used to relate a thing to some independent thing which it is managed by, only to something in the role of being that which manages it.",explanatoryNote
+hasAlias,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,Relations.rdf version of this ontology was modified to add Reference as a superclass of Name and use the hasTextValue property as the superproperty of certain data properties.,core#changeNote
+issues,provides,rdf-schema#subPropertyOf
+hasDesignation,has designation,rdf-schema#label
+provides,provides,rdf-schema#label
+isGeneratedBy,"identifies some party or something that produces something via some equation, logic, or rules",core#definition
+,"ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations
+	(6) to move the ontology from the Utilities module to an independent Relations module
+	(7) to revise a number of definitions, per discussion with various stakeholders.
+	(8) to augment the definitions to include entity names from Business Entities.",core#changeNote
+exemplifies,is a concrete realization or example of,core#definition
+isControlledBy,controls,owl#inverseOf
+provides,owl#ObjectProperty,22-rdf-syntax-ns#type
+involves,involves,rdf-schema#label
+Referent,"something that another concept stands for, exemplifies, symbolizes, or otherwise mentions",core#definition
+holds,owl#ObjectProperty,22-rdf-syntax-ns#type
+isManagedBy,is managed by,rdf-schema#label
+isCausedBy,"is the relationship between an event (the effect) and a second event (the cause), where the first event is understood as a consequence of the second; also, the relationship between a set of factors (causes) and a phenomenon (the effect)",core#definition
+isProvidedBy,is made available by,core#definition
+hasTag,hasTextValue,rdf-schema#subPropertyOf
+,.,core#changeNote
+hasFormalName,hasTextualName,rdf-schema#subPropertyOf
+isMandatedBy,isConferredBy,rdf-schema#subPropertyOf
+designates,owl#ObjectProperty,22-rdf-syntax-ns#type
+controls,owl#ObjectProperty,22-rdf-syntax-ns#type
+manages,relates a party to something that it directs in some way,core#definition
+,"Relations.rdf version of this ontology was modified to eliminate duplication with concepts in LCC and remove the unused hasDispositionDate property, whose semantics were unclear at best.",core#changeNote
+generates,owl#ObjectProperty,22-rdf-syntax-ns#type
+isManagedBy,relates something to another thing that has some role in directing its affairs,core#definition
+isGovernedBy,"relates a contract, agreement, jurisdiction, or other legal construct and the regulation, policy, procedure, or legal person that regulates or oversees (governs) it",core#definition
+hasDesignation,"relates an individual or organization to a position, role, or other designation",core#definition
+embodies,"is an expression of, gives a tangible or visible form to (an idea, quality, or feeling), makes concrete and perceptible",core#definition
+,,owl#imports
+isHeldBy,is held by,rdf-schema#label
+isDesignatedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+manages,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasFormalName,has formal name,rdf-schema#label
+isHeldBy,"indicates the party that possesses and has at least partial control of something, regardless of ownership",core#definition
+isProvidedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+exchanges,owl#ObjectProperty,22-rdf-syntax-ns#type
+,,owl#versionIRI
+,owl#Ontology,22-rdf-syntax-ns#type
+hasCommonName,hasTextualName,rdf-schema#subPropertyOf
+,Relations.rdf version of this ontology was modified to remove the deprecated hasTag property.,core#changeNote
+,Relations.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FND 1.2 RTF report.,core#changeNote
+isMandatedBy,"relates a responsibility, capacity, or action to that which requires it",core#definition
+,"Relations.rdf version of this ontology was modified to move hasAcquisitionDate to Financial Dates to improve usability and simplify reasoning, to eliminate circular definitions, to deprecate fibo-fnd-rel-rel;hasTag in favor of the simpler LCC property of the same name, to loosen domain restrictions on some properties which were too narrowly specified, and to add two new properties, describes and isDescribedBy, which are more appropriate for certain cases where we were using characterizes and isCharacterizedBy.",core#changeNote
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+hasTextualName,"Note that the hasTextualName property has an implicit range of rdfs:Literal. This is purposeful, so that users can specify any element that has a name with or without a language tag without concern for conflicting datatypes (i.e., xsd:string vs. rdf:langString, which are logically disjoint).",usageNote
+isDesignatedBy,indicates the party that has assigned or appointed someone to an office or position,core#definition
+hasAlias,has alias,rdf-schema#label
+isConferredBy,"This property should be read as describing some legal power or duty, some commitment or some social construct being conferred as a result of some social construct such as an agreement or some legal authority. These concepts, which would describe the kind of thing of which this is a property, and the kinds of thing in terms of which this property is framed, are outside the scope of this model and so are not shown.",explanatoryNote
+isHeldBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasTag,XMLSchema#string,rdf-schema#range
+governs,governs,rdf-schema#label
+evaluates,"assesses the nature, quality, or ability of someone or something",core#definition
+issues,officially makes something available,core#definition
+isMandatedBy,is mandated by,rdf-schema#label
+isGeneratedBy,generates,owl#inverseOf
+hasTag,owl#DatatypeProperty,22-rdf-syntax-ns#type
+isEvaluatedBy,evaluates,owl#inverseOf
+provides,makes something available,core#definition
+exemplifies,exemplifies,rdf-schema#label
+issues,isIssuedBy,owl#inverseOf
+isEvaluatedBy,is evaluated by,rdf-schema#label
+hasTag,combination of alphanumeric characters corresponding to a label for something,core#definition
+causes,causes,rdf-schema#label
+isGeneratedBy,is generated by,rdf-schema#label
+hasLegalName,specifies the name used to refer to a party in legal communications,core#definition
+hasTextualName,"associates a string-valued name, reference name, or appellation with something",core#definition
+isGovernedBy,governs,owl#inverseOf
+evaluates,appliesTo,rdf-schema#subPropertyOf
+,Relations.rdf version of the ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+,Relations.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+isCausedBy,is caused by,rdf-schema#label
+isProvidedBy,"The target or range of this property should be read as always being some kind of 'relative thing', that is a thing defined in some context. Generally this will be a 'party in role'. This property is not intended to be used to relate a thing to some independent thing which it is provided by, only to something in the role of being that which provides it.",explanatoryNote
+mandates,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasFormalName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+wasFormerlyKnownAs,hasTextValue,rdf-schema#subPropertyOf
+designates,designates,rdf-schema#label
+isCausedBy,causes,owl#inverseOf
+isProducedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasTextualName,hasTextValue,rdf-schema#subPropertyOf
+evaluates,owl#ObjectProperty,22-rdf-syntax-ns#type
+isCausedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+isConferredBy,is conferred by,rdf-schema#label
+hasLegalName,hasFormalName,rdf-schema#subPropertyOf
+isIssuedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+mandates,isMandatedBy,owl#inverseOf
+isControlledBy,is controlled by,rdf-schema#label
+isIssuedBy,"indicates a functional entity or party responsible for circulating, distributing, or publishing something",core#definition
+isControlledBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+isConferredBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+,This ontology defines a set of general purpose relations for use in other FIBO ontology elements. These include a number of properties required for reuse across the foundations and business entities models.,abstract
+,"Relations.rdf version of this ontology was modified to incorporate evaluates and isEvaluatedBy, and to loosen constraints on hasName properties to allow multi-lingual names.",core#changeNote
+exchanges,exchanges,rdf-schema#label
+hasFormalName,"indicates a name by which something is known for some official purpose or context, or which is structured in some way such as to always follow the same format regardless of usage",core#definition
+hasCommonName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+designates,"This property is intended to cover assigning a job or role to someone, selecting or designating someone to fill an office or a position, and fixing or setting by authority or by mutual agreement.",explanatoryNote
+isGovernedBy,is governed by,rdf-schema#label
+hasTextualName,has textual name,rdf-schema#label
+produces,"creates through a fabrication, manufacturing or production process",core#definition
+wasFormerlyKnownAs,indicates a name by which something was known in the past,core#definition
+mandates,"relates something to a commitment, contract, law, obligation, requirement, regulation, or similar concept that requires it",core#definition
+isEvaluatedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+generates,generates,rdf-schema#label
+isSignifiedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+isGeneratedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+isGovernedBy,This property should be read as being the property of some thing and as referring to a logical union of social construct (in the informative abstractions ontology) and legal person.,explanatoryNote
+involves,(of a situation or event) includes (something) as a necessary part or result,core#definition
+,Relations.rdf version of this ontology was modified per the FIBO 2.0 RFC to include additional properties and the linkage to LCC.,core#changeNote
+isProvidedBy,provides,owl#inverseOf
+isExemplifiedBy,exemplifies,owl#inverseOf
+issues,issues,rdf-schema#label
+mandates,mandates,rdf-schema#label
+exchanges,gives something in return something else,core#definition
+,"Relations.rdf version of this ontology was modified to move the property, 'is conferred on' to the Legal Capacity ontology and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasTag,"Text-valued tags may be useful for automated transformation or encoding systems, such as those used to produce IETF compliant language tags in XML. Such tags are required to be string-valued in FIBO, but not language-tagged strings.",core#note
+manages,isManagedBy,owl#inverseOf
+,Release,hasMaturityLevel
+hasTextualName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasTag,has tag,rdf-schema#label
+exemplifies,exemplify,adaptedFrom
+causes,owl#ObjectProperty,22-rdf-syntax-ns#type
+confers,owl#ObjectProperty,22-rdf-syntax-ns#type
+,MIT,license
+generates,produces through the application of one or more mathematical or logical steps or rules,core#definition
+designates,appoints someone officially,core#definition
+isProducedBy,is produced by,rdf-schema#label
+hasLegalName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+isDesignatedBy,designates,owl#inverseOf
+hasAlias,hasTextualName,rdf-schema#subPropertyOf
+isProducedBy,produces,owl#inverseOf
+Referent,referent,rdf-schema#label
+isExemplifiedBy,is exemplified by,rdf-schema#label
+isMandatedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+produces,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Relations.rdf version of this ontology was modified to clean up references to external dictionaries that don't meet FIBO policies, eliminate ambiguity where possible, eliminate the superproperties of produces and is produced by, whose semantics are different from their parent properties, and improve ISO 704 compliance of definitions.",core#changeNote
+confers,confers,rdf-schema#label
+Referent,owl#Class,22-rdf-syntax-ns#type
+mandates,confers,rdf-schema#subPropertyOf
+isGovernedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Relations.rdf version of this ontology was modified to loosen constraints on properties using xsd:dateTime in their range to allow for more flexible representation, and to add properties including produces, isProducedBy.",core#changeNote
+hasLegalName,has legal name,rdf-schema#label
+holds,"is the relationship between a party and something it possesses, or over which it exercises some ownership or control or has at its discretion the ability to dispose of it as it sees fit",core#definition
+confers,grants or bestows by virtue of some authority,core#definition
+issues,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasCommonName,has common name,rdf-schema#label
+isIssuedBy,isProvidedBy,rdf-schema#subPropertyOf
+isConferredBy,"a relationship between a right or obligation and the vehicle, such as an agreement or contract, that vests (or confers) said right or obligation",core#definition
+isIssuedBy,is issued by,rdf-schema#label
+,Relations.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+causes,"relationship between an event or set of events or factors (the cause) and a second event, phenomenon, situation, or result (the effect), where the second event or outcome is understood as a consequence of the first",core#definition
+manages,manages,rdf-schema#label
+produces,produces,rdf-schema#label
+involves,owl#ObjectProperty,22-rdf-syntax-ns#type
+holds,holds,rdf-schema#label
+confers,invests with,synonym
+hasDesignation,owl#ObjectProperty,22-rdf-syntax-ns#type
+isConferredBy,confers,owl#inverseOf
+,Relations.rdf version of the ontology was modified to eliminate elements that have been deprecated for several quarters (FND-386).,core#changeNote
+isManagedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+isDesignatedBy,is designated by,rdf-schema#label
+isApplicableIn,"The context may include the setting in which something is defined, expressed, or represented.",explanatoryNote
+governs,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Relations.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+,Relations.rdf version of this ontology was modified to rename (migrate) the hasDefinition property to isDefinedIn.,core#changeNote
+isProducedBy,"identifies the producer that fabricates, manufactures or otherwise creates something through some production process",core#definition
+hasCommonName,"indicates a name by which something is frequently referred, without reference to any formal usage or structure",core#definition

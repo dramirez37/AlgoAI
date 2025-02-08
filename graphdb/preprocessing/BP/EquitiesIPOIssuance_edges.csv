@@ -1,0 +1,180 @@
+source_id,target_id,relationship
+PublishInitialProspectus,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+N9c51dba5dde74aa99de2507dff9686b4,isProvidedBy,owl#onProperty
+AllocationBasisDetails,owl#Class,22-rdf-syntax-ns#type
+IPOProcess,owl#Class,22-rdf-syntax-ns#type
+AllocationBasisDetails,Document,rdf-schema#subClassOf
+FilingDetails,Document,rdf-schema#subClassOf
+lead,Sponsor,rdf-schema#range
+AppointAdvisors,N381d5f3c0df84097af7c13a89773c1ff,rdf-schema#subClassOf
+N7a06d2d558944967b33ff1c2b5937a82,Issuer,owl#someValuesFrom
+CorporateBroker,owl#Class,22-rdf-syntax-ns#type
+IndicationOfInterest,owl#Class,22-rdf-syntax-ns#type
+Nff9b545091b84f6cb70a14b201b15e24,shareUnderwriter,owl#onProperty
+FormalApprovalForListingAndTrading,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+RegisterWithRegulatoryAuthority,N9c51dba5dde74aa99de2507dff9686b4,rdf-schema#subClassOf
+InitialPublicOfferingProcessStep,initial public offering process step,rdf-schema#label
+syndicateMember,owl#ObjectProperty,22-rdf-syntax-ns#type
+N759021541bf848218b5a63d2e7912e0e,isProvidedBy,owl#onProperty
+AllocationBasisDetails,allocation basis details,rdf-schema#label
+N2280e11d6cf84628b32731c8bf43532e,IPOProcess,owl#someValuesFrom
+ReportingAccountant,reporting accountant,rdf-schema#label
+Allocation,owl#Class,22-rdf-syntax-ns#type
+RegistrationStatementDocument,owl#Class,22-rdf-syntax-ns#type
+Underwriting,N5d370586bdb7481389558444968fb01a,rdf-schema#subClassOf
+Nd88f7d803de047959af06381ac29d63d,owl#Restriction,22-rdf-syntax-ns#type
+N7a06d2d558944967b33ff1c2b5937a82,playsRole,owl#onProperty
+NoticeOfAllocation,notice of allocation,rdf-schema#label
+CorporateBroker,corporate broker,rdf-schema#label
+Allocation,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+IPOSettlementDetails,i p o settlement details,rdf-schema#label
+AnnounceEquityIssue,owl#Class,22-rdf-syntax-ns#type
+PotentialShareUnderwriter,potential share underwriter,rdf-schema#label
+RegistrationStatementDocument,registration statement document,rdf-schema#label
+PurchaseUnallocatedStock,owl#Class,22-rdf-syntax-ns#type
+N5d370586bdb7481389558444968fb01a,syndicateMember,owl#onProperty
+IPOPreliminaryProspectus,Nac9555512c5c495c91b2daba658f7e98,rdf-schema#subClassOf
+InitialPublicOfferingProcessStep,OccurrenceKind,rdf-schema#subClassOf
+,,owl#imports
+PublishInitialProspectus,publish initial prospectus,rdf-schema#label
+N5d370586bdb7481389558444968fb01a,SyndicateMember,owl#someValuesFrom
+IPOPreliminaryProspectus,i p o preliminary prospectus,rdf-schema#label
+PurchaseUnallocatedStock,purchase unallocated stock,rdf-schema#label
+lead,lead,rdf-schema#label
+N2280e11d6cf84628b32731c8bf43532e,owl#Restriction,22-rdf-syntax-ns#type
+IndicationOfInterest,Document,rdf-schema#subClassOf
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+IPOProcess,i p o process,rdf-schema#label
+N1b35dac4653144f5a50b8a1c6540dde7,ReportingAccountant,22-rdf-syntax-ns#first
+,,owl#versionIRI
+SettlementOfAllocatedShares,owl#Class,22-rdf-syntax-ns#type
+PurchasePrice,purchase price,rdf-schema#label
+ApproveForFlotation,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+Sponsor,owl#Class,22-rdf-syntax-ns#type
+mayBe,may be,rdf-schema#label
+IPOSettlementDetails,Document,rdf-schema#subClassOf
+N275101dcae9e43658e5dd1111ea2416f,owl#Restriction,22-rdf-syntax-ns#type
+IPOProcess,N4f6c78ec8db14a77ac858d054d898bcd,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+IPOSettlementDetails,owl#Class,22-rdf-syntax-ns#type
+AgreeBasisForAllocation,agree basis for allocation,rdf-schema#label
+SetPrice,set price,rdf-schema#label
+AppointAdvisors,N7a06d2d558944967b33ff1c2b5937a82,rdf-schema#subClassOf
+MarketingOfShareIssue,marketing of share issue,rdf-schema#label
+N2323447b35f644aebf3c852c7bfb2c07,CorporateBroker,22-rdf-syntax-ns#first
+mayBe,Sponsor,rdf-schema#domain
+N2fb918a0a7ec4ed285a0d4834f4579aa,owl#Class,22-rdf-syntax-ns#type
+InitialPublicOfferingProcessStep,IPO process step,abbreviation
+,Issuance process for equity instruments that are issued via an Initial Public Offering (IPO).,abstract
+Allocation,allocation,rdf-schema#label
+ReceiveApplications,receive applications,rdf-schema#label
+N4f6c78ec8db14a77ac858d054d898bcd,hasDatePeriod,owl#onProperty
+RegistrationStatementDocument,Document,rdf-schema#subClassOf
+N275101dcae9e43658e5dd1111ea2416f,mayBe,owl#onProperty
+IPOPreliminaryProspectus,PreliminaryProspectus,rdf-schema#subClassOf
+N4f6c78ec8db14a77ac858d054d898bcd,owl#Restriction,22-rdf-syntax-ns#type
+AppointAdvisors,owl#Class,22-rdf-syntax-ns#type
+ApproveForFlotation,N759021541bf848218b5a63d2e7912e0e,rdf-schema#subClassOf
+shareUnderwriter,owl#ObjectProperty,22-rdf-syntax-ns#type
+SetPrice,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+Sponsor,sponsor,rdf-schema#label
+ReceiveApplications,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+N393572bcb92c4d9a8035303b1d5d0060,N1b35dac4653144f5a50b8a1c6540dde7,22-rdf-syntax-ns#rest
+PublishInitialProspectus,owl#Class,22-rdf-syntax-ns#type
+AppointAdvisors,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+shareUnderwriter,PotentialShareUnderwriter,rdf-schema#range
+AllocationDetails,owl#Class,22-rdf-syntax-ns#type
+MarketingOfShareIssue,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+ReportingAccountant,PartyRole,rdf-schema#subClassOf
+ApplicationForShares,application for shares,rdf-schema#label
+syndicateMember,SyndicateMember,rdf-schema#range
+Nd88f7d803de047959af06381ac29d63d,isProvidedBy,owl#onProperty
+N2280e11d6cf84628b32731c8bf43532e,appliesTo,owl#onProperty
+ShareRegister,owl#Class,22-rdf-syntax-ns#type
+N7a06d2d558944967b33ff1c2b5937a82,owl#Restriction,22-rdf-syntax-ns#type
+N5d370586bdb7481389558444968fb01a,owl#Restriction,22-rdf-syntax-ns#type
+ApproveForFlotation,approve for flotation,rdf-schema#label
+N759021541bf848218b5a63d2e7912e0e,owl#Restriction,22-rdf-syntax-ns#type
+mayBe,owl#ObjectProperty,22-rdf-syntax-ns#type
+syndicateMember,syndicate member,rdf-schema#label
+AllocationDetails,allocation details,rdf-schema#label
+Nac9555512c5c495c91b2daba658f7e98,owl#Restriction,22-rdf-syntax-ns#type
+Nff9b545091b84f6cb70a14b201b15e24,owl#Restriction,22-rdf-syntax-ns#type
+RegisterWithRegulatoryAuthority,register with regulatory authority,rdf-schema#label
+syndicateMember,Underwriting,rdf-schema#domain
+RegisterWithRegulatoryAuthority,owl#Class,22-rdf-syntax-ns#type
+SyndicateMember,owl#Class,22-rdf-syntax-ns#type
+Nd88f7d803de047959af06381ac29d63d,Exchange,owl#someValuesFrom
+EquityAnnouncement,equity announcement,rdf-schema#label
+RegisterWithRegulatoryAuthority,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+N9c51dba5dde74aa99de2507dff9686b4,owl#Restriction,22-rdf-syntax-ns#type
+Underwriting,owl#Class,22-rdf-syntax-ns#type
+N381d5f3c0df84097af7c13a89773c1ff,designates,owl#onProperty
+N2323447b35f644aebf3c852c7bfb2c07,N393572bcb92c4d9a8035303b1d5d0060,22-rdf-syntax-ns#rest
+lead,AppointAdvisors,rdf-schema#domain
+SetPrice,owl#Class,22-rdf-syntax-ns#type
+EquityAnnouncement,Notice,rdf-schema#subClassOf
+Underwriting,Nff9b545091b84f6cb70a14b201b15e24,rdf-schema#subClassOf
+AnnounceEquityIssue,announce equity issue,rdf-schema#label
+EquityAnnouncement,owl#Class,22-rdf-syntax-ns#type
+shareUnderwriter,share underwriter,rdf-schema#label
+Nac9555512c5c495c91b2daba658f7e98,IPOFullProspectus,owl#someValuesFrom
+PotentialShareUnderwriter,PotentialUnderwriter,rdf-schema#subClassOf
+ReportingAccountant,owl#Class,22-rdf-syntax-ns#type
+PotentialShareUnderwriter,owl#Class,22-rdf-syntax-ns#type
+MarketingOfShareIssue,owl#Class,22-rdf-syntax-ns#type
+FilingDetails,owl#Class,22-rdf-syntax-ns#type
+IPOFullProspectus,FinalProspectus,rdf-schema#subClassOf
+AllocationDetails,Document,rdf-schema#subClassOf
+IndicationOfInterest,indication of interest,rdf-schema#label
+N4f6c78ec8db14a77ac858d054d898bcd,DatePeriod,owl#someValuesFrom
+,Equities IPO Issuance Ontology,rdf-schema#label
+,Provisional,hasMaturityLevel
+FormalApprovalForListingAndTrading,owl#Class,22-rdf-syntax-ns#type
+N381d5f3c0df84097af7c13a89773c1ff,N2fb918a0a7ec4ed285a0d4834f4579aa,owl#someValuesFrom
+Nac9555512c5c495c91b2daba658f7e98,precedes,owl#onProperty
+ApplicationForShares,owl#Class,22-rdf-syntax-ns#type
+SettlementOfAllocatedShares,settlement of allocated shares,rdf-schema#label
+,MIT,license
+Nc52c158fc204405fb1a763dc213e7b3c,RegistrationAuthority,22-rdf-syntax-ns#first
+N1b35dac4653144f5a50b8a1c6540dde7,Nc52c158fc204405fb1a763dc213e7b3c,22-rdf-syntax-ns#rest
+ApplicationForShares,Document,rdf-schema#subClassOf
+FilingDetails,filing details,rdf-schema#label
+N381d5f3c0df84097af7c13a89773c1ff,owl#Restriction,22-rdf-syntax-ns#type
+ShareRegister,share register,rdf-schema#label
+ApproveForFlotation,owl#Class,22-rdf-syntax-ns#type
+N275101dcae9e43658e5dd1111ea2416f,CorporateBroker,owl#someValuesFrom
+PurchasePrice,owl#Class,22-rdf-syntax-ns#type
+AppointAdvisors,appoint advisors,rdf-schema#label
+Sponsor,PartyRole,rdf-schema#subClassOf
+AgreeBasisForAllocation,owl#Class,22-rdf-syntax-ns#type
+N9c51dba5dde74aa99de2507dff9686b4,Exchange,owl#someValuesFrom
+InitialPublicOfferingProcessStep,owl#Class,22-rdf-syntax-ns#type
+IPOFullProspectus,owl#Class,22-rdf-syntax-ns#type
+InitialPublicOfferingProcessStep,N2280e11d6cf84628b32731c8bf43532e,rdf-schema#subClassOf
+SettlementOfAllocatedShares,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+AgreeBasisForAllocation,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+FormalApprovalForListingAndTrading,formal approval for listing and trading,rdf-schema#label
+IPOFullProspectus,i p o full prospectus,rdf-schema#label
+FormalApprovalForListingAndTrading,Nd88f7d803de047959af06381ac29d63d,rdf-schema#subClassOf
+CorporateBroker,Broker,rdf-schema#subClassOf
+mayBe,CorporateBroker,rdf-schema#range
+NoticeOfAllocation,owl#Class,22-rdf-syntax-ns#type
+Underwriting,underwriting,rdf-schema#label
+SyndicateMember,PartyRole,rdf-schema#subClassOf
+N393572bcb92c4d9a8035303b1d5d0060,Sponsor,22-rdf-syntax-ns#first
+ShareRegister,Registry,rdf-schema#subClassOf
+N2fb918a0a7ec4ed285a0d4834f4579aa,N2323447b35f644aebf3c852c7bfb2c07,owl#unionOf
+PurchasePrice,MonetaryPrice,rdf-schema#subClassOf
+N759021541bf848218b5a63d2e7912e0e,Exchange,owl#someValuesFrom
+AnnounceEquityIssue,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+shareUnderwriter,Underwriting,rdf-schema#domain
+IPOPreliminaryProspectus,owl#Class,22-rdf-syntax-ns#type
+PurchaseUnallocatedStock,InitialPublicOfferingProcessStep,rdf-schema#subClassOf
+lead,owl#ObjectProperty,22-rdf-syntax-ns#type
+Sponsor,N275101dcae9e43658e5dd1111ea2416f,rdf-schema#subClassOf
+ReceiveApplications,owl#Class,22-rdf-syntax-ns#type
+SyndicateMember,syndicate member,rdf-schema#label
+Nff9b545091b84f6cb70a14b201b15e24,PotentialShareUnderwriter,owl#someValuesFrom
+Nc52c158fc204405fb1a763dc213e7b3c,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+NoticeOfAllocation,InitialPublicOfferingProcessStep,rdf-schema#subClassOf

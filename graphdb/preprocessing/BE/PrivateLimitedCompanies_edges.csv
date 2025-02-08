@@ -1,0 +1,111 @@
+source_id,target_id,relationship
+Nb225005e470a4add8b65d1eadb7b5de1,owl#Restriction,22-rdf-syntax-ns#type
+ManagerManagedLimitedLiabilityCompany,limited liability company in which the members appoint one or more managers to handle the daily operations and administrative responsibilities of the organization,core#definition
+,PrivateLimitedCompanies.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N001bcf16dd4b4eeb9675b87cfcd1c1fb,owl#Restriction,22-rdf-syntax-ns#type
+,PrivateLimitedCompanies.rdf version of this ontology was modified to fix spelling errors.,core#changeNote
+N062a1197cecc4386a1fcb03994a37851,N710213173b62425a8becceee0c262764,owl#someValuesFrom
+N83b8faef60c64ba5a20082d2472434c5,Ndf695945a494476fba6b6da94c355254,owl#someValuesFrom
+LimitedLiabilityCompany,owl#Class,22-rdf-syntax-ns#type
+Nb525f78db7964cb4a99156278d832171,isControllingMemberOf,owl#onProperty
+ManagingMember,owner of an interest in a limited liability company who also runs the day-to-day business operations,core#definition
+LimitedLiabilityCompanyTaxedAsACorporation,LimitedLiabilityCompany,rdf-schema#subClassOf
+ManagingMember,N062a1197cecc4386a1fcb03994a37851,rdf-schema#subClassOf
+isManagingMemberOf,isControllingMemberOf,rdf-schema#subPropertyOf
+LimitedLiabilityCompanyMember,owner of an interest in a limited liability company,core#definition
+N710213173b62425a8becceee0c262764,isPlayedBy,owl#onProperty
+Na4477fe62c57421ebde3cae5f38e0930,playsRole,owl#onProperty
+,"PrivateLimitedCompanies.rdf version of this ontology was modified to eliminate a smart quote in an explanatory note on manager-managed limited liability company, and to reflect the move of OrganizationMember from Parties to Organizations in FND",core#changeNote
+N001bcf16dd4b4eeb9675b87cfcd1c1fb,isPlayedBy,owl#onProperty
+LimitedLiabilityCompanyMember,EntityOwner,rdf-schema#subClassOf
+PrivateCompanyWithLimitedLiability,"A private company with limited liability, although a business entity, is not a corporation. The primary characteristic this legal form shares with a corporation is limited liability, and the primary characteristic it shares with a partnership is the availability of pass-through income taxation. It is often more flexible than a corporation, and it is well-suited for companies with a single owner.",explanatoryNote
+LimitedLiabilityCompanyTaxedAsACorporation,C-LLC,abbreviation
+LimitedLiabilityCompany,limited liability company,rdf-schema#label
+PrivateLimitedCompany,private limited company,rdf-schema#label
+Nd9b5139bd48e41ef96d4ff4393dd98aa,isPlayedBy,owl#onProperty
+hasManagingMember,owl#ObjectProperty,22-rdf-syntax-ns#type
+Na4477fe62c57421ebde3cae5f38e0930,Nd2c2e0acd0d340d5a7e6d421d9f681c9,owl#onClass
+LimitedLiabilityCompanyMember,EntityControllingParty,rdf-schema#subClassOf
+N9044f20b040149fe925015cbaa1d4454,Nb225005e470a4add8b65d1eadb7b5de1,owl#someValuesFrom
+,"PrivateLimitedCompanies.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+PrivateLimitedCompany,owl#Class,22-rdf-syntax-ns#type
+PrivateCompanyWithLimitedLiability,LegalEntity,rdf-schema#subClassOf
+,,owl#imports
+LimitedLiabilityCompanyMember,OrganizationMember,rdf-schema#subClassOf
+isManagingMemberOf,hasManagingMember,owl#inverseOf
+PrivateCompanyWithLimitedLiability,Limited_liability_company#Overview,adaptedFrom
+N83b8faef60c64ba5a20082d2472434c5,owl#Restriction,22-rdf-syntax-ns#type
+ManagerManagedLimitedLiabilityCompany,owl#Class,22-rdf-syntax-ns#type
+isManagingMemberOf,indicates the controlled limited liability company that the managing member runs,core#definition
+PrivateCompanyWithLimitedLiability,BusinessEntity,rdf-schema#subClassOf
+hasManagingMember,has managing member,rdf-schema#label
+,PrivateLimitedCompanies.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+,,owl#versionIRI
+hasManagingMember,hasControllingOrganizationMember,rdf-schema#subPropertyOf
+LimitedLiabilityCompanyTaxedAsACorporation,limited liability company that has elected to have corporate tax status,core#definition
+LimitedLiabilityCompanyTaxedAsACorporation,owl#Class,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+LimitedLiabilityCompanyMember,Nb525f78db7964cb4a99156278d832171,rdf-schema#subClassOf
+hasManagingMember,ManagingMember,rdf-schema#range
+,Private Limited Companies Ontology,rdf-schema#label
+LimitedLiabilityCompanyMember,owl#Class,22-rdf-syntax-ns#type
+,PrivateLimitedCompanies.rdf version of this ontology was modified per the FIBO 2.0 RFC.,core#changeNote
+LimitedLiabilityCompanyMember,Nd9b5139bd48e41ef96d4ff4393dd98aa,rdf-schema#subClassOf
+PrivateCompanyWithLimitedLiability,hybrid business entity having characteristics of both a corporation and a partnership or sole proprietorship (depending on how many owners there are),core#definition
+LimitedLiabilityCompanyMember,DeJureControllingInterestParty,rdf-schema#subClassOf
+LimitedLiabilityCompanyTaxedAsACorporation,"In the United States, LLCs that elect to be taxed as a corporation do so by filing an IRS Form 8832.",explanatoryNote
+Nb525f78db7964cb4a99156278d832171,0,owl#minQualifiedCardinality
+N9044f20b040149fe925015cbaa1d4454,isPlayedBy,owl#onProperty
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+Nb525f78db7964cb4a99156278d832171,owl#Restriction,22-rdf-syntax-ns#type
+isManagingMemberOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+ManagerManagedLimitedLiabilityCompany,LimitedLiabilityCompany,rdf-schema#subClassOf
+Nb225005e470a4add8b65d1eadb7b5de1,isMemberOf,owl#onProperty
+N710213173b62425a8becceee0c262764,owl#Restriction,22-rdf-syntax-ns#type
+ManagingMember,managing member,rdf-schema#label
+LimitedLiabilityCompany,Na4477fe62c57421ebde3cae5f38e0930,rdf-schema#subClassOf
+Na4477fe62c57421ebde3cae5f38e0930,0,owl#minQualifiedCardinality
+Na4477fe62c57421ebde3cae5f38e0930,owl#Restriction,22-rdf-syntax-ns#type
+LimitedLiabilityCompanyMember,limited liability company member,rdf-schema#label
+LimitedLiabilityCompanyMember,N9044f20b040149fe925015cbaa1d4454,rdf-schema#subClassOf
+hasManagingMember,indicates a managing member in a controlling role of a limited liability company that has responsibility for the day-to-day business operations,core#definition
+N062a1197cecc4386a1fcb03994a37851,isManagingMemberOf,owl#onProperty
+PrivateLimitedCompany,private limited company whose shareholders' liability is limited to the capital they originally invested,core#definition
+Ndf695945a494476fba6b6da94c355254,hasControllingOrganizationMember,owl#onProperty
+Nd9b5139bd48e41ef96d4ff4393dd98aa,1,owl#qualifiedCardinality
+Nb225005e470a4add8b65d1eadb7b5de1,LimitedLiabilityCompany,owl#someValuesFrom
+LimitedLiabilityCompany,PrivateCompanyWithLimitedLiability,rdf-schema#subClassOf
+Nd9b5139bd48e41ef96d4ff4393dd98aa,owl#Restriction,22-rdf-syntax-ns#type
+,"This ontology defines the fundamental concepts for representing private limited companies -- i.e., companies that have characteristics of corporations and of partnerships but are neither.",abstract
+PrivateCompanyWithLimitedLiability,owl#Class,22-rdf-syntax-ns#type
+N062a1197cecc4386a1fcb03994a37851,owl#Restriction,22-rdf-syntax-ns#type
+isManagingMemberOf,ManagingMember,rdf-schema#domain
+Nd2c2e0acd0d340d5a7e6d421d9f681c9,owl#Restriction,22-rdf-syntax-ns#type
+N83b8faef60c64ba5a20082d2472434c5,playsRole,owl#onProperty
+Nd2c2e0acd0d340d5a7e6d421d9f681c9,ManagingMember,owl#someValuesFrom
+LimitedLiabilityCompany,LLC,abbreviation
+Ndf695945a494476fba6b6da94c355254,owl#Restriction,22-rdf-syntax-ns#type
+LimitedLiabilityCompanyTaxedAsACorporation,limited liability company taxed as a corporation,rdf-schema#label
+Nb525f78db7964cb4a99156278d832171,N001bcf16dd4b4eeb9675b87cfcd1c1fb,owl#onClass
+ManagingMember,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+Nd9b5139bd48e41ef96d4ff4393dd98aa,LegallyCompetentNaturalPerson,owl#onClass
+PrivateLimitedCompany,"Private limited companies are common in countries including the U.K., Ireland, and Canada. They have one or more members, also called shareholders or owners, who buy in through private sales. Directors are company employees who keep up with all administrative tasks and tax filings but do not need to be shareholders.",explanatoryNote
+PrivateLimitedCompany,Ltd.,abbreviation
+Ndf695945a494476fba6b6da94c355254,LimitedLiabilityCompanyMember,owl#someValuesFrom
+,Release,hasMaturityLevel
+LimitedLiabilityCompany,N83b8faef60c64ba5a20082d2472434c5,rdf-schema#subClassOf
+PrivateCompanyWithLimitedLiability,private company with limited liability,rdf-schema#label
+Nd2c2e0acd0d340d5a7e6d421d9f681c9,hasManagingMember,owl#onProperty
+ManagingMember,PrincipalParty,rdf-schema#subClassOf
+,MIT,license
+ManagerManagedLimitedLiabilityCompany,"If no members are interested in managing the LLC, an external manager (someone who doesn't own any portion of the LLC) can be hired to run the business operations, including, in some jurisdictions, a third-party entity, such as another company.",explanatoryNote
+," merge the legal person and formal organization class hierarchies, and add limited liability company, limited liability company taxed as a corporation, managing member, and private limited company.",core#changeNote
+LimitedLiabilityCompany,private limited company that combines the pass through taxation of a sole proprietorship or partnership with the limited liability of a corporation,core#definition
+PrivateLimitedCompany,PrivateCompanyWithLimitedLiability,rdf-schema#subClassOf
+isManagingMemberOf,is managing member of,rdf-schema#label
+ManagerManagedLimitedLiabilityCompany,manager-managed limited liability company,rdf-schema#label
+ManagingMember,LimitedLiabilityCompanyMember,rdf-schema#subClassOf
+N710213173b62425a8becceee0c262764,LimitedLiabilityCompany,owl#someValuesFrom
+N001bcf16dd4b4eeb9675b87cfcd1c1fb,LimitedLiabilityCompany,owl#someValuesFrom
+N9044f20b040149fe925015cbaa1d4454,owl#Restriction,22-rdf-syntax-ns#type

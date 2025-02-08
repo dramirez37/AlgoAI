@@ -1,0 +1,138 @@
+id,type,name
+"Copyright (c) 2014-2024 EDM Council, Inc.",Entity,"Copyright (c) 2014-2024 EDM Council, Inc."
+has event date,Entity,has event date
+N6f5996f7036b48198cbac9e53b5b5c38,Entity,N6f5996f7036b48198cbac9e53b5b5c38
+owl#Restriction,Entity,owl#Restriction
+N8484ff7fcf194e19a710e1ab4e27da3e,Entity,N8484ff7fcf194e19a710e1ab4e27da3e
+" version of this ontology was revised to address the issue resolutions in the FIBO 2.0 RFC, primarily to add properties that are relevant to the inputs and outputs from processes, events, systems and the like.",Entity," version of this ontology was revised to address the issue resolutions in the FIBO 2.0 RFC, primarily to add properties that are relevant to the inputs and outputs from processes, events, systems and the like."
+"identifies events of a given occurrence kind, typically as they occur in a schedule",Entity,"identifies events of a given occurrence kind, typically as they occur in a schedule"
+Occurrences Ontology,Entity,Occurrences Ontology
+"As types (or categories) of events, OccurenceKinds do not happen; OccurenceKinds describe Occurrences which happen and exemplify an OccurenceKind. As occurrences are things that actually happen, they have an actual date where as OccurenceKinds do not have an actual date.",Entity,"As types (or categories) of events, OccurenceKinds do not happen; OccurenceKinds describe Occurrences which happen and exemplify an OccurenceKind. As occurrences are things that actually happen, they have an actual date where as OccurenceKinds do not have an actual date."
+Nda0b733c34254c548df8e9faf334415f,Entity,Nda0b733c34254c548df8e9faf334415f
+1,Entity,1
+An OccurrenceBasedDate is triggered by an Occurrence that exemplifies the OccurrenceKind.,Entity,An OccurrenceBasedDate is triggered by an Occurrence that exemplifies the OccurrenceKind.
+Nd2493f6fcaef4d50945869217cddec45,Entity,Nd2493f6fcaef4d50945869217cddec45
+"Each occurrence has a date time stamp, which identifies when the event occurred, and, optionally, a location (possibly virtual), that identifies where the occurrence happened.",Entity,"Each occurrence has a date time stamp, which identifies when the event occurred, and, optionally, a location (possibly virtual), that identifies where the occurrence happened."
+"indicates a precondition, requirement, or other contribution (e.g., data) to some activity, process, system, report, analysis, etc.",Entity,"indicates a precondition, requirement, or other contribution (e.g., data) to some activity, process, system, report, analysis, etc."
+"This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification. It is also needed to provide temporal relationships for Ownership and Control.
+
+These three ontologies are designed for use together:
+
+	* FinancialDates -- financial Dates and Schedules
+	* BusinessDates -- business day adjustments
+	* Occurrences -- occurrences (events) and kinds of occurrences
+
+They are modularized this way to minimize the ontological committments that are imposed upon ontologies that rely upon them. Ontologies can import FinancialDates alone, or FinancialDates + BusinessDates, or FinancialDates + Occurrences, or all three together.",Entity,"This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification. It is also needed to provide temporal relationships for Ownership and Control.
+
+These three ontologies are designed for use together:
+
+	* FinancialDates -- financial Dates and Schedules
+	* BusinessDates -- business day adjustments
+	* Occurrences -- occurrences (events) and kinds of occurrences
+
+They are modularized this way to minimize the ontological committments that are imposed upon ontologies that rely upon them. Ontologies can import FinancialDates alone, or FinancialDates + BusinessDates, or FinancialDates + Occurrences, or all three together."
+N60e8947810f548f0ac6e1aae3292b218,Entity,N60e8947810f548f0ac6e1aae3292b218
+hasEventDate,Entity,hasEventDate
+Occurrences.rdf version of this ontology was modified to eliminate elements that have been deprecated for several quarters (FND-386).,Entity,Occurrences.rdf version of this ontology was modified to eliminate elements that have been deprecated for several quarters (FND-386).
+N3aefbcf0374146c48c001cd403b6df90,Entity,N3aefbcf0374146c48c001cd403b6df90
+owl#DatatypeProperty,Entity,owl#DatatypeProperty
+N05334f5128694fed97a82885b4519117,Entity,N05334f5128694fed97a82885b4519117
+MIT,Entity,MIT
+relates something (e.g. an occurrence) to something that is the result of some activity or process,Entity,relates something (e.g. an occurrence) to something that is the result of some activity or process
+" version of this ontology was revised to eliminate duplication of concepts in LCC, and eliminate unnecessary complexity in restrictions.",Entity," version of this ontology was revised to eliminate duplication of concepts in LCC, and eliminate unnecessary complexity in restrictions."
+"actual execution of some computation, computational process, or operation that was scheduled or triggered by something",Entity,"actual execution of some computation, computational process, or operation that was scheduled or triggered by something"
+occurrence-based date,Entity,occurrence-based date
+"kind of event that is either scheduled or triggered by something, such as a related financial event, that causes a calculation to be performed",Entity,"kind of event that is either scheduled or triggered by something, such as a related financial event, that causes a calculation to be performed"
+is activated or initiated by,Entity,is activated or initiated by
+calculation,Entity,calculation
+"In order for other ontologies to accept FinancialDates without committing to the particular notions of 'Occurrence' and 'OccurrenceKind' that is modeled here, all aspects of Occurrences are captured in this ontology.",Entity,"In order for other ontologies to accept FinancialDates without committing to the particular notions of 'Occurrence' and 'OccurrenceKind' that is modeled here, all aspects of Occurrences are captured in this ontology."
+has event date value,Entity,has event date value
+SpecifiedDate,Entity,SpecifiedDate
+"Occurrences.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",Entity,"Occurrences.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate."
+OccurrenceBasedDate,Entity,OccurrenceBasedDate
+hasDate,Entity,hasDate
+N879987f9e68744c9ae3efb82b961940f,Entity,N879987f9e68744c9ae3efb82b961940f
+N8488dc5e746a4b5b9bf0e0dca4f0774f,Entity,N8488dc5e746a4b5b9bf0e0dca4f0774f
+isTriggeredBy,Entity,isTriggeredBy
+owl#ObjectProperty,Entity,owl#ObjectProperty
+ version of this ontology was revised to make use of the new composite date type added to Financial Dates.,Entity, version of this ontology was revised to make use of the new composite date type added to Financial Dates.
+"happening of an OccurrenceKind, i.e., an event",Entity,"happening of an OccurrenceKind, i.e., an event"
+hasQuantityValueRange,Entity,hasQuantityValueRange
+is triggered by,Entity,is triggered by
+The 'hasDateValue' property of an OccurrenceBasedDate is not set until the Occurrence happens. The 'triggeredBy' property relates an OccurrenceBasedDate to the OccurrenceKind that gives the meaning of the OccurrenceBasedDate.,Entity,The 'hasDateValue' property of an OccurrenceBasedDate is not set until the Occurrence happens. The 'triggeredBy' property relates an OccurrenceBasedDate to the OccurrenceKind that gives the meaning of the OccurrenceBasedDate.
+N7093793d718a41fbacea6336c35d5330,Entity,N7093793d718a41fbacea6336c35d5330
+event,Entity,event
+calculation event,Entity,calculation event
+isLocatedAt,Entity,isLocatedAt
+comprises,Entity,comprises
+exemplifies,Entity,exemplifies
+isClassifiedBy,Entity,isClassifiedBy
+hasOccurrence,Entity,hasOccurrence
+Calculation,Entity,Calculation
+hasEventDateValue,Entity,hasEventDateValue
+hasInput,Entity,hasInput
+calculated date that is defined with respect to the occurrence of some occurrence kind,Entity,calculated date that is defined with respect to the occurrence of some occurrence kind
+Date,Entity,Date
+OccurrenceKind,Entity,OccurrenceKind
+occurrence kind,Entity,occurrence kind
+N83608ce88ebb4dbbbd3371b357e3d84e,Entity,N83608ce88ebb4dbbbd3371b357e3d84e
+has occurrence,Entity,has occurrence
+or non-ISO 704 compliant definitions.,Entity,or non-ISO 704 compliant definitions.
+N170c8d7626924ba6b884170e7ed9dda2,Entity,N170c8d7626924ba6b884170e7ed9dda2
+Occurrence,Entity,Occurrence
+Release,Entity,Release
+,Entity,
+"This ontology extends definitions of date and schedule concepts from the FinancialDates ontology with concepts defining occurrences (i.e., event-related concepts) for use in other FIBO ontologies.",Entity,"This ontology extends definitions of date and schedule concepts from the FinancialDates ontology with concepts defining occurrences (i.e., event-related concepts) for use in other FIBO ontologies."
+CalculationEvent,Entity,CalculationEvent
+RelativeDate,Entity,RelativeDate
+identifies a date or date and time value associated with an event (occurrence),Entity,identifies a date or date and time value associated with an event (occurrence)
+identifies a date associated with an event (occurrence),Entity,identifies a date associated with an event (occurrence)
+has output,Entity,has output
+hasExpression,Entity,hasExpression
+Expression,Entity,Expression
+N66205dc9783f45328f0152f35b7f42aa,Entity,N66205dc9783f45328f0152f35b7f42aa
+ScheduleStub,Entity,ScheduleStub
+trade settlement,Entity,trade settlement
+is input to,Entity,is input to
+isOutputFrom,Entity,isOutputFrom
+N75fd1cf68deb433d923be51e45df00fc,Entity,N75fd1cf68deb433d923be51e45df00fc
+Nb9dc30cd6dec4dfab4131d3383e6b401,Entity,Nb9dc30cd6dec4dfab4131d3383e6b401
+N66d0043ddfc845d58fb5556816bde164,Entity,N66d0043ddfc845d58fb5556816bde164
+N0068b2c46be646c9a8b27567ba505b4e,Entity,N0068b2c46be646c9a8b27567ba505b4e
+relates something (e.g. an occurrence) to something that is used as an input to some activity or process,Entity,relates something (e.g. an occurrence) to something that is used as an input to some activity or process
+loan origination,Entity,loan origination
+Location,Entity,Location
+has input,Entity,has input
+Occurrences.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,Entity,Occurrences.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+22-rdf-syntax-ns#nil,Entity,22-rdf-syntax-ns#nil
+N28d56aea90f3427992aee52fc6242f80,Entity,N28d56aea90f3427992aee52fc6242f80
+DatePeriod,Entity,DatePeriod
+classifier that specifies the general nature of an occurrence (event),Entity,classifier that specifies the general nature of an occurrence (event)
+"Copyright (c) 2014-2024 Object Management Group, Inc.",Entity,"Copyright (c) 2014-2024 Object Management Group, Inc."
+N0483a7e8622c44c5befc7f6db77ba4cc,Entity,N0483a7e8622c44c5befc7f6db77ba4cc
+ScalarQuantityValueRange,Entity,ScalarQuantityValueRange
+AdHocScheduleEntry,Entity,AdHocScheduleEntry
+hasQuantityValue,Entity,hasQuantityValue
+owl#Class,Entity,owl#Class
+"or recalculation of principal due to a late payment, etc. A calculation event related to an investment might involve the adjustment of the number of shares owned, such as a redemption or dividend related event.",Entity,"or recalculation of principal due to a late payment, etc. A calculation event related to an investment might involve the adjustment of the number of shares owned, such as a redemption or dividend related event."
+holdsDuring,Entity,holdsDuring
+"indicates post condition or other product of some activity, process, system, report, analysis, etc.",Entity,"indicates post condition or other product of some activity, process, system, report, analysis, etc."
+N663fee0869c04d4abca926fb104faa1a,Entity,N663fee0869c04d4abca926fb104faa1a
+ version of this ontology was revised to fix spelling errors.,Entity, version of this ontology was revised to fix spelling errors.
+N92909abf51834902b9ebc74b8816534a,Entity,N92909abf51834902b9ebc74b8816534a
+classifies,Entity,classifies
+ version of this ontology was revised to address hygiene errors with respect to text formatting.,Entity, version of this ontology was revised to address hygiene errors with respect to text formatting.
+"In order for other ontologies to accept FinancialDates without committing to the particular notions of 'Occurrence' and 'OccurrenceKind' that is modeled here, all aspects of Occurrences are captured in this ontolog",Entity,"In order for other ontologies to accept FinancialDates without committing to the particular notions of 'Occurrence' and 'OccurrenceKind' that is modeled here, all aspects of Occurrences are captured in this ontolog"
+0,Entity,0
+Naec3aaa025134e458ec79de5c59d5cb2,Entity,Naec3aaa025134e458ec79de5c59d5cb2
+CombinedDateTime,Entity,CombinedDateTime
+is output from,Entity,is output from
+RegularSchedule,Entity,RegularSchedule
+owl#Ontology,Entity,owl#Ontology
+hasOutput,Entity,hasOutput
+ScalarQuantityValue,Entity,ScalarQuantityValue
+CalculatedDate,Entity,CalculatedDate
+occurrence,Entity,occurrence
+isInputTo,Entity,isInputTo
+"A calculation event may be prescriptive, that occurs within a specified period, or ad hoc.",Entity,"A calculation event may be prescriptive, that occurs within a specified period, or ad hoc."
+Classifier,Entity,Classifier

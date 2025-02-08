@@ -1,0 +1,319 @@
+source_id,target_id,relationship
+N14c908716c5845de8ddcb138098a7b7d,SubscriptionClosingInformation,owl#someValuesFrom
+TradedInstrumentIssuanceProcessInformation,Document,rdf-schema#subClassOf
+RegistrationInformation,TradedInstrumentIssuanceProcessInformation,rdf-schema#subClassOf
+requiredToMakeEligible,OfferingDocument,rdf-schema#range
+firstTradeDateAndTime,owl#ObjectProperty,22-rdf-syntax-ns#type
+expectedClosingDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+PotentialIssuer,owl#Class,22-rdf-syntax-ns#type
+series,series,rdf-schema#label
+SecuritiesIssuanceProcess,The process by which a financial security is issued.,core#definition
+,Issuance Process,rdf-schema#label
+expectedClosingDate,The date on which the transfer of positions to underwriters is expected to take place. This date is provided by underwriters as part of an announcement.,core#definition
+issueNominalNumberOfUnits,issue nominal number of units,rdf-schema#label
+requiredToMakeEligible,required to make eligible,rdf-schema#label
+N42b05d6c223f4a708c6ba8a86fc16271,IssuedSecurityIssueInformation,owl#someValuesFrom
+IssuedSecurityIssueInformation,Document,rdf-schema#subClassOf
+underwriterTakedownShares,Takedown quantity of the security handled by the underwriter (that will be brought into DTC).,core#definition
+underwriterTakedownShares,UnderwriterTakedown,rdf-schema#domain
+SecuritiesOffering,N15f461c180684110a0349b6f2193df31,rdf-schema#subClassOf
+finalStateDescribedIn,final state described in,rdf-schema#label
+NegotiatedSaleMethod,owl#Class,22-rdf-syntax-ns#type
+IssuanceProcessActivity,OccurrenceKind,rdf-schema#subClassOf
+N14c908716c5845de8ddcb138098a7b7d,owl#Restriction,22-rdf-syntax-ns#type
+subscriptionPeriod,DatePeriod,rdf-schema#range
+UnderwriterTakedown,N02ea4db058cc48aca1189fae54e71046,rdf-schema#subClassOf
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,,owl#versionIRI
+expectedClosingDate,Date,rdf-schema#range
+PotentialIssuer,potential issuer,rdf-schema#label
+AllotmentInformation,N7b7596ab8de64fc88b95c642d89f54d8,rdf-schema#subClassOf
+announcementDate,announcement date,rdf-schema#label
+PrimarySecurityOfferingDistribution,"The original sale of a company's securities, in which the proceeds from the sale are received directly by the company.",core#definition
+N17c1c8f19f7e4c548f4bb28765ff90ea,owl#Restriction,22-rdf-syntax-ns#type
+SubscriptionClosingInformation,owl#Class,22-rdf-syntax-ns#type
+N72a3e1beb5b94b1c92a3ddb47771fc3e,SecurityOfferingDistributionMethod,owl#someValuesFrom
+hasSaleMethod,owl#ObjectProperty,22-rdf-syntax-ns#type
+requiredToMakeEligible,owl#ObjectProperty,22-rdf-syntax-ns#type
+AllotmentInformation,N14c908716c5845de8ddcb138098a7b7d,rdf-schema#subClassOf
+AllotmentInformation,owl#Class,22-rdf-syntax-ns#type
+N02ea4db058cc48aca1189fae54e71046,owl#Restriction,22-rdf-syntax-ns#type
+Nc56eb8fee06c41bdbb6e74c3e2c58d42,IssuedSecurityIssueInformation,owl#someValuesFrom
+RegistrationInformation,registration information,rdf-schema#label
+SecurityOfferingSaleMethod,SalesStrategy,rdf-schema#subClassOf
+N9c97d75da09142caae3ba03d032320f8,owl#Restriction,22-rdf-syntax-ns#type
+SecuritiesOffering,owl#Class,22-rdf-syntax-ns#type
+Subscriber,AgentRole,rdf-schema#subClassOf
+IssueSubscriptionInformation,Information relating to the subscription of the issue.,core#definition
+hasSaleMethod,OfferingProcess,rdf-schema#domain
+N071e8a50e6254decaa7c0138fb5aac30,owl#Restriction,22-rdf-syntax-ns#type
+Subscriber,subscriber,rdf-schema#label
+takenDownBy,UnderwriterTakedown,rdf-schema#domain
+N42b05d6c223f4a708c6ba8a86fc16271,isPartOf,owl#onProperty
+Nea449666ec7f4fb0951bbf41a324b09c,1,owl#maxQualifiedCardinality
+Nc50d39017d454d64994d869a2c75f54b,SecuritiesIssuanceProcess,owl#someValuesFrom
+N14c908716c5845de8ddcb138098a7b7d,comprises,owl#onProperty
+RegistrationInformation,Information relating to the registration of a registered security.,core#definition
+isPotentialIssuer,owl#ObjectProperty,22-rdf-syntax-ns#type
+Announcement,announcement,rdf-schema#label
+firstTradeDateAndTime,OfferingProcess,rdf-schema#domain
+AllotmentInformation,TradedInstrumentIssuanceProcessInformation,rdf-schema#subClassOf
+SecurityOfferingSaleMethod,security offering sale method,rdf-schema#label
+firstTradeSettlementDate,first trade settlement date,rdf-schema#label
+firstTradeDate,first trade date,rdf-schema#label
+SecurityIssuanceGuarantor,SecuritiesIssuanceProcessActor,rdf-schema#subClassOf
+SecuritiesIssuanceProcess,Nba3e4a249a3141059595c25d4648e085,rdf-schema#subClassOf
+PrimarySecurityOfferingDistribution,owl#Class,22-rdf-syntax-ns#type
+finalStateDescribedIn,SecuritiesOffering,rdf-schema#domain
+N15f461c180684110a0349b6f2193df31,FinalProspectus,owl#someValuesFrom
+SecurityIssuanceGuarantor,security issuance guarantor,rdf-schema#label
+UnderwriterTakedown,Nea449666ec7f4fb0951bbf41a324b09c,rdf-schema#subClassOf
+SecuritiesIssuanceProcess,owl#Class,22-rdf-syntax-ns#type
+N1901510b61d44603ab03738a642cc954,owl#Restriction,22-rdf-syntax-ns#type
+describesAllotmentOf,isAbout,rdf-schema#subPropertyOf
+UnderwriterTakedown,"Question: Do securities issued through processes other than the one formally identified as ""Underwriting Process"", have Underwriters? Our research would indicate that agency and non agency MBS issuance processes are not ""Underwriting"" processes as defined for the DTCC Muni unwriting process, but they do have a step which involves identifying and appointing an underwriter, so the issue is underwritten. It may be that these two processes should be defined as types of (variants on) a more general Underwriting Process, which is itself more general than the one captured separately for DTCC Muni Issuance, which is where this term now lives. Modeling Note: Definition is too DTC specific, from DTCC earliy reviews on Muni process. Need to have a global definition and understanding of this term.",core#editorialNote
+UnderwriterTakedown,owl#Class,22-rdf-syntax-ns#type
+PotentialIssuer,Nc50d39017d454d64994d869a2c75f54b,rdf-schema#subClassOf
+N488a551ae6d2477fad6481c83bde7c4b,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+CompetitiveSaleMethod,competitive sale method,rdf-schema#label
+IssuedSecurityIssueInformation,"Information about the Issuance of a Security, which is maintained throughout the life of the Security.",core#definition
+announcementDate,Date,rdf-schema#range
+hasDistributionType,owl#ObjectProperty,22-rdf-syntax-ns#type
+SubscriptionClosingInformation,TradedInstrumentIssuanceProcessInformation,rdf-schema#subClassOf
+N17c1c8f19f7e4c548f4bb28765ff90ea,comprises,owl#onProperty
+hasSaleMethod,Sale Method of the security.,core#definition
+describesAllotmentOf,AllotmentInformation,rdf-schema#domain
+series,owl#DatatypeProperty,22-rdf-syntax-ns#type
+subscriptionAmount,Number of units of the issue that an individual subscriber is allocated.,core#definition
+PotentialUnderwriter,The entity which will become the underwriter for an issue. Term origin:MBS PoC Reviews,core#definition
+Nf9d3367f44b24798ad478ae3f86ac6e4,XMLSchema#string,owl#someValuesFrom
+IssuanceProcessActivity,issuance process activity,rdf-schema#label
+formalAwardDateAndTime,time data or add a term for it?,core#definition
+SecuritiesIssuanceProcessActor,AgentRole,rdf-schema#subClassOf
+N72a3e1beb5b94b1c92a3ddb47771fc3e,owl#Restriction,22-rdf-syntax-ns#type
+isIssuanceGuarantor,SecuritiesIssuanceProcess,rdf-schema#range
+requiredToMakeEligible,OfferingProcess,rdf-schema#domain
+UnderwritingProcessDetails,owl#Class,22-rdf-syntax-ns#type
+N17c1c8f19f7e4c548f4bb28765ff90ea,SecuritiesOffering,owl#someValuesFrom
+SecurityOfferingDistributionMethod,The distribution type of a securities Offering.,core#definition
+issueOfferingUnits,XMLSchema#integer,rdf-schema#range
+OfferingProcess,It is assumed that this exists for all security types as the precise issuance process is defined among the Offering terms. Terms which only exist for specific types of instrument are given as specialized variants of this class of Thing.,explanatoryNote
+TradedInstrumentIssuanceProcessInformation,traded instrument issuance process information,rdf-schema#label
+firstTradeDate,IssuedSecurityIssueInformation,rdf-schema#domain
+overAlloted,over alloted,rdf-schema#label
+hasPartiallyPaidIssuanceSchedule,PaymentSchedule,rdf-schema#range
+finalStateDescribedIn,FinalProspectus,rdf-schema#range
+Subscriber,owl#Class,22-rdf-syntax-ns#type
+Nea449666ec7f4fb0951bbf41a324b09c,owl#Restriction,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+underwriterTakedownShares,underwriter takedown shares,rdf-schema#label
+overAlloted,SubscriptionClosingInformation,rdf-schema#domain
+issueOfferingUnits,SecuritiesOffering,rdf-schema#domain
+TradedInstrumentIssuanceProcessInformation,N42b05d6c223f4a708c6ba8a86fc16271,rdf-schema#subClassOf
+UnderwritingProcessDetails,TradedInstrumentIssuanceProcessInformation,rdf-schema#subClassOf
+N9c97d75da09142caae3ba03d032320f8,appliesTo,owl#onProperty
+Nba3e4a249a3141059595c25d4648e085,TradedInstrumentIssuanceProcessInformation,owl#someValuesFrom
+Nbda52726279842399018acc0de4cc6d7,SecurityOfferingSaleMethod,owl#someValuesFrom
+offerIssueSeries,owl#DatatypeProperty,22-rdf-syntax-ns#type
+takenDownBy,taken down by,rdf-schema#label
+announcementDate,IssuedSecurityIssueInformation,rdf-schema#domain
+hasPartiallyPaidIssuanceSchedule,Partially paid issue: Schedule of partial payments and dates.,core#definition
+issueNominalNumberOfUnits,owl#DatatypeProperty,22-rdf-syntax-ns#type
+actualClosingDate,"The Closing Date for the Issue, recorded after the event.",core#definition
+UnderwritingProcessDetails,Information specific to the Underwriting of the Issue.,core#definition
+SubscriptionClosingInformation,N9c97d75da09142caae3ba03d032320f8,rdf-schema#subClassOf
+subscriptionPeriod,subscription period,rdf-schema#label
+CompetitiveSaleMethod,SecurityOfferingSaleMethod,rdf-schema#subClassOf
+OfferingProcess,offering,rdf-schema#label
+subscriptionAmount,SubscriptionClosingInformation,rdf-schema#domain
+offerIssueSeries,Uniquely identified collection of securities within an Issue with same Expected Closing Date. The text gives the Series Identifier within the Issuance process. There may be one or more Series within one Issue.,core#definition
+firstTradeDateAndTime,First Date and Time a trade may be executed for this security. All times in Eastern Time Zone only. NOTE: This is a date in the future tense at the time of the Offering.,core#definition
+NegotiatedSaleMethod,No definition,core#definition
+firstTradeDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+actualClosingDate,actual closing date,rdf-schema#label
+firstTradeDateAndTime,DateTime,rdf-schema#range
+TradedInstrumentIssuanceProcessInformation,"Information on one Security issue, arising from the Issuance Process. Note that one Issuance Process (Offering) may relate to more than on Issue, which itself may be the issue of more than one Traded Security.",core#definition
+N62b733e93a184e81976fb1357edc7a44,isIssuanceGuarantor,owl#onProperty
+hasSaleMethod,SecurityOfferingSaleMethod,rdf-schema#range
+SecuritiesOffering,Nf9d3367f44b24798ad478ae3f86ac6e4,rdf-schema#subClassOf
+series,XMLSchema#string,rdf-schema#range
+PotentialUnderwriter,owl#Class,22-rdf-syntax-ns#type
+offerIssueSeries,series,rdf-schema#label
+SecuritiesIssuanceProcessActor,owl#Class,22-rdf-syntax-ns#type
+SecuritiesOffering,N14ee5ffbe74c480ea41eb243984a739e,rdf-schema#subClassOf
+formalAwardDateAndTime,formal award date and time,rdf-schema#label
+N185a84d385d6461ca67e0748ee644940,hasPotentialIssuer,owl#onProperty
+Nbda52726279842399018acc0de4cc6d7,hasSaleMethod,owl#onProperty
+N62b733e93a184e81976fb1357edc7a44,owl#Restriction,22-rdf-syntax-ns#type
+IssuanceProgramme,A series of issuances over time.,core#definition
+IssuanceProcessActivity,owl#Class,22-rdf-syntax-ns#type
+issueNominalNumberOfUnits,IssuedSecurityIssueInformation,rdf-schema#domain
+PotentialIssuer,SecuritiesIssuanceProcessActor,rdf-schema#subClassOf
+issueOfferingUnits,owl#DatatypeProperty,22-rdf-syntax-ns#type
+describesAllotmentOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+N02ea4db058cc48aca1189fae54e71046,MuniIssueUnderwriter,owl#someValuesFrom
+SecurityOfferingSaleMethod,Method for sale of a new security offering.,core#definition
+UnderwritingProcessDetails,underwriting process details,rdf-schema#label
+firstTradeDate,Date,rdf-schema#range
+Subscriber,N488a551ae6d2477fad6481c83bde7c4b,rdf-schema#subClassOf
+subscriptionAmount,XMLSchema#integer,rdf-schema#range
+underwriterTakedownShares,XMLSchema#integer,rdf-schema#range
+isIssuanceGuarantor,is issuance guarantor,rdf-schema#label
+announcementDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nea449666ec7f4fb0951bbf41a324b09c,XMLSchema#integer,owl#onDataRange
+OfferingProcess,Nbda52726279842399018acc0de4cc6d7,rdf-schema#subClassOf
+expectedClosingDate,OfferingProcess,rdf-schema#domain
+subscriptionPeriod,Period during which the security can be subscribed to.,core#definition
+SecurityOfferingDistributionMethod,DistributionStrategy,rdf-schema#subClassOf
+N14ee5ffbe74c480ea41eb243984a739e,ListedSecurityIdentifier,owl#someValuesFrom
+N1901510b61d44603ab03738a642cc954,hasIssuanceGuarantor,owl#onProperty
+formalAwardDateAndTime,DateTime,rdf-schema#range
+SecurityOfferingSaleMethod,owl#Class,22-rdf-syntax-ns#type
+OfferingProcess,The process step of offering a security for issue. This is the making available of a new securities issue through an underwriting.,core#definition
+SecuritiesIssuanceProcess,N185a84d385d6461ca67e0748ee644940,rdf-schema#subClassOf
+N071e8a50e6254decaa7c0138fb5aac30,PaymentSchedule,owl#allValuesFrom
+N42dea30c871c4caeb955de42515549ce,subscriber.1,owl#onProperty
+Na01c5fbbc39b493886d52f8a9305e02e,offeringRequestor,owl#onProperty
+CompetitiveSaleMethod,owl#Class,22-rdf-syntax-ns#type
+expectedClosingDate,expected closing date,rdf-schema#label
+overAlloted,XMLSchema#boolean,rdf-schema#range
+IssuedSecurityIssueInformation,"bringing to market (also known as primary market or Initial Public Offering (IPO) issuance) through to issue date.""",core#definition
+IssuanceProgramme,owl#Class,22-rdf-syntax-ns#type
+overAlloted,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Nf9d3367f44b24798ad478ae3f86ac6e4,offerIssueSeries,owl#onProperty
+IssuedSecurityIssueInformation,issued security issue information,rdf-schema#label
+PrimarySecurityOfferingDistribution,SecurityOfferingDistributionMethod,rdf-schema#subClassOf
+minimumIssueSubscription,XMLSchema#decimal,rdf-schema#range
+N185a84d385d6461ca67e0748ee644940,owl#Restriction,22-rdf-syntax-ns#type
+subscriptionPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+IssuedSecurityIssueInformation,N51be0532da974226b90a2d9aa4f84c36,rdf-schema#subClassOf
+PrimaryIdentifierIssuer,ContractThirdParty,rdf-schema#subClassOf
+firstTradeSettlementDate,Date,rdf-schema#range
+hasPartiallyPaidIssuanceSchedule,has partially paid issuance schedule,rdf-schema#label
+SecuritiesIssuanceProcess,securities issuance process,rdf-schema#label
+hasDistributionType,has distribution type,rdf-schema#label
+hasPartiallyPaidIssuanceSchedule,IssuedSecurityIssueInformation,rdf-schema#domain
+Announcement,Na01c5fbbc39b493886d52f8a9305e02e,rdf-schema#subClassOf
+offerIssueSeries,XMLSchema#string,rdf-schema#range
+isIssuanceGuarantor,owl#ObjectProperty,22-rdf-syntax-ns#type
+subscriptionAmount,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Announcement,IssuanceProcessActivity,rdf-schema#subClassOf
+N51be0532da974226b90a2d9aa4f84c36,owl#Restriction,22-rdf-syntax-ns#type
+announcementDate,"time, as announced by the issuer, at which the securities were to be issued and subsequently were issued.",core#definition
+N071e8a50e6254decaa7c0138fb5aac30,hasPartiallyPaidIssuanceSchedule,owl#onProperty
+takenDownBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+OfferingProcess,N0fe2fc42d5bd45d393a1d5e0fc179179,rdf-schema#subClassOf
+UnderwriterTakedown,underwriter takedown,rdf-schema#label
+Nc50d39017d454d64994d869a2c75f54b,owl#Restriction,22-rdf-syntax-ns#type
+hasSaleMethod,has sale method,rdf-schema#label
+PotentialUnderwriter,potential underwriter,rdf-schema#label
+N14ee5ffbe74c480ea41eb243984a739e,isIdentifiedBy,owl#onProperty
+Announcement,owl#Class,22-rdf-syntax-ns#type
+N185a84d385d6461ca67e0748ee644940,PotentialIssuer,owl#someValuesFrom
+issueOfferingUnits,Quantity of all securities that is offered in an equity or Corporate Bond issue.,core#definition
+TradedInstrumentIssuanceProcessInformation,owl#Class,22-rdf-syntax-ns#type
+SecurityIssuanceGuarantor,owl#Class,22-rdf-syntax-ns#type
+,Provisional,hasMaturityLevel
+,MIT,license
+N42dea30c871c4caeb955de42515549ce,Subscriber,owl#someValuesFrom
+offerIssueSeries,SecuritiesOffering,rdf-schema#domain
+subscriptionAmount,subscription amount,rdf-schema#label
+N15f461c180684110a0349b6f2193df31,finalStateDescribedIn,owl#onProperty
+actualClosingDate,Date,rdf-schema#range
+N02ea4db058cc48aca1189fae54e71046,takenDownBy,owl#onProperty
+issueOfferingUnits,issue offering units,rdf-schema#label
+takenDownBy,MuniIssueUnderwriter,rdf-schema#range
+hasPartiallyPaidIssuanceSchedule,owl#ObjectProperty,22-rdf-syntax-ns#type
+IssuedSecurityIssueInformation,owl#Class,22-rdf-syntax-ns#type
+series,IssuedSecurityIssueInformation,rdf-schema#domain
+isIssuanceGuarantor,SecurityIssuanceGuarantor,rdf-schema#domain
+minimumIssueSubscription,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N0fe2fc42d5bd45d393a1d5e0fc179179,OfferingDocument,owl#someValuesFrom
+N51be0532da974226b90a2d9aa4f84c36,Security,owl#someValuesFrom
+N72a3e1beb5b94b1c92a3ddb47771fc3e,hasDistributionType,owl#onProperty
+describesAllotmentOf,Security,rdf-schema#range
+SecondarySecurityOfferingDistribution,secondary security offering distribution,rdf-schema#label
+N42b05d6c223f4a708c6ba8a86fc16271,owl#Restriction,22-rdf-syntax-ns#type
+SecuritiesIssuanceProcess,N42dea30c871c4caeb955de42515549ce,rdf-schema#subClassOf
+SecurityOfferingDistributionMethod,security offering distribution method,rdf-schema#label
+N7b7596ab8de64fc88b95c642d89f54d8,describesAllotmentOf,owl#onProperty
+UnderwriterTakedown,UnderwritingProcessDetails,rdf-schema#subClassOf
+AllotmentInformation,Information about the allotment of quantities of the issue to different subscribers. This relates a single instrument allotment against the subscription amounts allotted to each Subscriber.,core#definition
+Nf9d3367f44b24798ad478ae3f86ac6e4,owl#Restriction,22-rdf-syntax-ns#type
+OfferingProcess,IssuanceProcessActivity,rdf-schema#subClassOf
+N0fe2fc42d5bd45d393a1d5e0fc179179,requiredToMakeEligible,owl#onProperty
+IssuanceProgramme,See for example MTN.,explanatoryNote
+PrimaryIdentifierIssuer,The party which formally issues the primary security identifier to the security. Term origin:MBS PoC Reviews,core#definition
+firstTradeSettlementDate,The date the Issuer and Underwriter exchange money for bonds.,core#definition
+Nc56eb8fee06c41bdbb6e74c3e2c58d42,givesRiseTo,owl#onProperty
+isPotentialIssuer,SecuritiesIssuanceProcess,rdf-schema#range
+finalStateDescribedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+series,Series identification for the individual Traded Financial Security.,core#definition
+N488a551ae6d2477fad6481c83bde7c4b,owl#Restriction,22-rdf-syntax-ns#type
+Nbda52726279842399018acc0de4cc6d7,owl#Restriction,22-rdf-syntax-ns#type
+firstTradeSettlementDate,IssuedSecurityIssueInformation,rdf-schema#domain
+N1901510b61d44603ab03738a642cc954,SecurityIssuanceGuarantor,owl#someValuesFrom
+describesAllotmentOf,describes allotment of,rdf-schema#label
+PrimaryIdentifierIssuer,owl#Class,22-rdf-syntax-ns#type
+UnderwriterTakedown,Infomation on Takedown quantity of the security handled by the underwriter (that will be brought into DTC).,core#definition
+,,owl#imports
+subscriptionPeriod,IssueSubscriptionInformation,rdf-schema#domain
+Na01c5fbbc39b493886d52f8a9305e02e,owl#Restriction,22-rdf-syntax-ns#type
+OfferingProcess,Nc56eb8fee06c41bdbb6e74c3e2c58d42,rdf-schema#subClassOf
+SecondarySecurityOfferingDistribution,SecurityOfferingDistributionMethod,rdf-schema#subClassOf
+IssueSubscriptionInformation,owl#Class,22-rdf-syntax-ns#type
+OfferingProcess,N72a3e1beb5b94b1c92a3ddb47771fc3e,rdf-schema#subClassOf
+OfferingProcess,owl#Class,22-rdf-syntax-ns#type
+N14ee5ffbe74c480ea41eb243984a739e,owl#Restriction,22-rdf-syntax-ns#type
+Nba3e4a249a3141059595c25d4648e085,owl#Restriction,22-rdf-syntax-ns#type
+PrimarySecurityOfferingDistribution,primary security offering distribution,rdf-schema#label
+SecondarySecurityOfferingDistribution,owl#Class,22-rdf-syntax-ns#type
+issueNominalNumberOfUnits,Total original quantity of securities issued.,core#definition
+N15f461c180684110a0349b6f2193df31,owl#Restriction,22-rdf-syntax-ns#type
+Nea449666ec7f4fb0951bbf41a324b09c,underwriterTakedownShares,owl#onProperty
+N7b7596ab8de64fc88b95c642d89f54d8,Security,owl#someValuesFrom
+NegotiatedSaleMethod,SecurityOfferingSaleMethod,rdf-schema#subClassOf
+Nc56eb8fee06c41bdbb6e74c3e2c58d42,owl#Restriction,22-rdf-syntax-ns#type
+SubscriptionClosingInformation,subscription closing information,rdf-schema#label
+minimumIssueSubscription,IssueSubscriptionInformation,rdf-schema#domain
+formalAwardDateAndTime,owl#ObjectProperty,22-rdf-syntax-ns#type
+firstTradeDate,The date of the first trade of the security in the secondary market.,core#definition
+N9c97d75da09142caae3ba03d032320f8,Subscriber,owl#someValuesFrom
+,General ontology for the process by which securities are issued. Contains the process features common to all or most securities issuance. These are extended in the process ontologies that are specific to particular types of issuance,abstract
+SecurityOfferingDistributionMethod,owl#Class,22-rdf-syntax-ns#type
+N51be0532da974226b90a2d9aa4f84c36,isAbout,owl#onProperty
+isPotentialIssuer,PotentialIssuer,rdf-schema#domain
+N42dea30c871c4caeb955de42515549ce,owl#Restriction,22-rdf-syntax-ns#type
+PrimaryIdentifierIssuer,primary identifier issuer,rdf-schema#label
+actualClosingDate,IssuedSecurityIssueInformation,rdf-schema#domain
+AllotmentInformation,allotment information,rdf-schema#label
+IssuanceProgramme,N17c1c8f19f7e4c548f4bb28765ff90ea,rdf-schema#subClassOf
+IssueSubscriptionInformation,TradedInstrumentIssuanceProcessInformation,rdf-schema#subClassOf
+PotentialUnderwriter,SecuritiesIssuanceProcessActor,rdf-schema#subClassOf
+firstTradeDateAndTime,first trade date and time,rdf-schema#label
+IssuanceProgramme,issuance programme,rdf-schema#label
+firstTradeSettlementDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+SecurityIssuanceGuarantor,N62b733e93a184e81976fb1357edc7a44,rdf-schema#subClassOf
+CompetitiveSaleMethod,No definition,core#definition
+Nba3e4a249a3141059595c25d4648e085,produces,owl#onProperty
+RegistrationInformation,owl#Class,22-rdf-syntax-ns#type
+SecuritiesIssuanceProcessActor,securities issuance process actor,rdf-schema#label
+N488a551ae6d2477fad6481c83bde7c4b,subscribesTo,owl#onProperty
+N0fe2fc42d5bd45d393a1d5e0fc179179,owl#Restriction,22-rdf-syntax-ns#type
+overAlloted,Whether the subscriber has been over-alloted the requested number of units. REVIEW: Not seen in data terms but implied elsewhere.,core#definition
+issueNominalNumberOfUnits,XMLSchema#integer,rdf-schema#range
+actualClosingDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+SecuritiesIssuanceProcess,N1901510b61d44603ab03738a642cc954,rdf-schema#subClassOf
+IssuedSecurityIssueInformation,N071e8a50e6254decaa7c0138fb5aac30,rdf-schema#subClassOf
+NegotiatedSaleMethod,negotiated sale method,rdf-schema#label
+Nc50d39017d454d64994d869a2c75f54b,isPotentialIssuer,owl#onProperty
+formalAwardDateAndTime,OfferingProcess,rdf-schema#domain
+SecondarySecurityOfferingDistribution,An Offering of a security which has been previously issued.,core#definition
+IssueSubscriptionInformation,issue subscription information,rdf-schema#label
+minimumIssueSubscription,Minimum or incremental denomination required for the transfer or change of ownership of a security.,core#definition
+Na01c5fbbc39b493886d52f8a9305e02e,PotentialIssuer,owl#someValuesFrom
+N62b733e93a184e81976fb1357edc7a44,SecuritiesIssuanceProcess,owl#someValuesFrom
+isPotentialIssuer,is potential issuer,rdf-schema#label
+underwriterTakedownShares,owl#DatatypeProperty,22-rdf-syntax-ns#type
+minimumIssueSubscription,minimum issue subscription,rdf-schema#label
+N7b7596ab8de64fc88b95c642d89f54d8,owl#Restriction,22-rdf-syntax-ns#type

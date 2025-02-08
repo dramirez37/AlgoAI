@@ -1,0 +1,60 @@
+source_id,target_id,relationship
+publishes,Publisher,rdf-schema#domain
+hasPublisher,hasPartyRole,rdf-schema#subPropertyOf
+hasPublisher,publishes,owl#inverseOf
+N1328a93ea3b149c98aea5a14d78c213f,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#imports
+Publisher,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+isPublishedBy,Party,rdf-schema#range
+N1328a93ea3b149c98aea5a14d78c213f,Party,owl#onClass
+Publisher,"Publishers may also include banks, government agencies and the like.",explanatoryNote
+publishes,Publication,rdf-schema#range
+isPublishedBy,"identifies the independent party (i.e., the individual or organization) that disseminates the material",core#definition
+,Publishers.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary and revise definitions to be ISO 704 compliant as needed.,core#changeNote
+,MIT,license
+Publisher,PartyRole,rdf-schema#subClassOf
+isPublishedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasPublisher,indicates the party in the role of issuing the information,core#definition
+publishes,publishes,rdf-schema#label
+Publication,"A publication can be anything made public by print (such as a newspaper, magazine, pamphlet, letter, telegram, via computer modem or program, or in a poster, brochure or pamphlet), orally, or by broadcast (radio, television).",explanatoryNote
+MarketDataProvider,"Market data providers include exchanges and independent data vendors, among others. Market valuation and related control and risk processes typically require explicit documentation of the source for a given market rate, such as an interest rate benchmark, exchange rate, stock prices, and so forth.",explanatoryNote
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+Publisher,"role of person(s) or organization(s) responsible for the printing or distribution of an item, whether in digital or print (physical) form",core#definition
+,"The concept of a publisher is central to the notion of a data provider in financial markets. This ontology defines the fundamental concepts for publishers of information, including entities whose primary function is to publish, and those (whether or not they are publishers in that sense) that play the role of the publisher of some information.",abstract
+hasPublisher,manifests,rdf-schema#subPropertyOf
+Publisher,publisher,rdf-schema#label
+,Publishers.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+publishes,prepares and issues material for public consumption,core#definition
+MarketDataProvider,owl#Class,22-rdf-syntax-ns#type
+,,owl#versionIRI
+isPublishedBy,is published by,rdf-schema#label
+Publication,publication,rdf-schema#label
+MarketDataProvider,Publisher,rdf-schema#subClassOf
+,Publishers.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+Publisher,N1328a93ea3b149c98aea5a14d78c213f,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+Publication,document offered for general distribution and usually produced in multiple copies,core#definition
+hasPublisher,has publisher,rdf-schema#label
+,Publishers.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+Publisher,"ISO 10161-1:2014(en), Information and documentation - Open Systems Interconnection - Interlibrary Loan Application Protocol Specification - Part 1: Protocol specification",adaptedFrom
+hasPublisher,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+,Publishers.rdf version of this ontology was modified per the FIBO 2.0 RFC.,core#changeNote
+hasPublisher,Publisher,rdf-schema#range
+,"Publishers.rdf version of this ontology was modified to deprecate publishing house rather than having two disconnected concepts, clean up the related restrictions, and add market data provider (originally in IND).",core#changeNote
+publishes,isManifestedIn,rdf-schema#subPropertyOf
+MarketDataProvider,market data provider,rdf-schema#label
+isPublishedBy,hasParty,rdf-schema#subPropertyOf
+isPublishedBy,Publication,rdf-schema#domain
+publishes,owl#ObjectProperty,22-rdf-syntax-ns#type
+Publication,owl#Class,22-rdf-syntax-ns#type
+,Publishers.rdf version of this ontology was modified to eliminate references to external dictionary sites that no longer resolve.,core#changeNote
+N1328a93ea3b149c98aea5a14d78c213f,isPlayedBy,owl#onProperty
+,Publishers.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.,core#changeNote
+Publication,Document,rdf-schema#subClassOf
+,Publishers Ontology,rdf-schema#label
+MarketDataProvider,publisher of data relevant to financial markets,core#definition
+Publication,"ISO 5127:2017, Information and documentation - Foundation and vocabulary",adaptedFrom
+N1328a93ea3b149c98aea5a14d78c213f,1,owl#qualifiedCardinality
+hasPublisher,Publication,rdf-schema#domain

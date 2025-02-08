@@ -1,0 +1,156 @@
+source_id,target_id,relationship
+ISIN-ZZ216659451,InternationalSecuritiesIdentificationNumber,22-rdf-syntax-ns#type
+EuropeanCentralBankBBusinessDayAdjustment,Frankfurt,hasBusinessCenter
+ContractLeg2-IY7VKEUR45886,ContractLeg2-IY7VKEUR45886-TerminationDate,hasTerminationDate
+,"Copyright (c) 2018-2023 Object Management Group, Inc.",copyright
+PortfolioAlpha,owl#NamedIndividual,22-rdf-syntax-ns#type
+,"IRSwapExampleIndividuals.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+ContractLeg2-IY7VKEUR45886-EffectiveDate,contract leg 2 IY7VKEUR45886 effective date,rdf-schema#label
+SwapContractParty-ZZZWWK96TRQY0F2IY7VK,swap contract party ZZZWWK96TRQY0F2IY7VK,core#definition
+,This ontology provides examples of how to represent individuals for interest rate swaps and swap legs based on the Mizuho mocked-up sample data provided in the FIBO wiki.,abstract
+ISIN-ZZ216659451,ZZ216659451,rdf-schema#label
+ContractLeg1-IY7VKEUR45886-InterestRate,FixedInterestRate,22-rdf-syntax-ns#type
+SecuritiesTransaction-IY7VKEUR45886,Contract-IY7VKEUR45886,appliesTo
+Contract-IY7VKEUR45886,SwapContractParty-ZZZWWK96TRQY0F2IY7VK,hasContractParty
+,IRSwapExampleIndividuals.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+ContractLeg2-IY7VKEUR45886-InterestPaymentTerms,ContractLeg2-IY7VKEUR45886-InterestRate,hasInterestRate
+ContractLeg2-IY7VKEUR45886,owl#NamedIndividual,22-rdf-syntax-ns#type
+IY7VKEUR45886,unique swap identifier for sample swap contract IY7VKEUR45886,core#definition
+ContractLeg1-IY7VKEUR45886-TerminationDate,ExplicitDate,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886,contract IY7VKEUR45886 swap leg 1 that is a fixed interest rate leg,core#definition
+ContractLeg1-IY7VKEUR45886-TerminationDate,2025-08-17,hasDateValue
+PortfolioDelta,portfolio Delta,rdf-schema#label
+ContractLeg2-IY7VKEUR45886-NotionalAmount,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886-InterestRate,contract leg 2 IY7VKEUR45886 floating interest rate,rdf-schema#label
+ContractLeg1-IY7VKEUR45886-NotionalAmount,1286805,hasAmount
+ContractLeg2-IY7VKEUR45886-EffectiveDate,2015-12-12,hasDateValue
+EuropeanCentralBankBBusinessDayAdjustment,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886-InterestPaymentTerms,contract leg 2 interest payment terms IY7VKEUR45886,rdf-schema#label
+ContractLeg1-IY7VKEUR45886-InterestRate,1.0579,hasRateValue
+ContractLeg2-IY7VKEUR45886-NotionalAmount,Euro,hasCurrency
+SecuritiesTransaction-IY7VKEUR45886,securities transaction IY7VKEUR45886,rdf-schema#label
+SwapContractParty-A,owl#NamedIndividual,22-rdf-syntax-ns#type
+,IRSwapExampleIndividuals.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+ContractLeg2-IY7VKEUR45886-EffectiveDate,ExplicitDate,22-rdf-syntax-ns#type
+PortfolioGamma,Portfolio,22-rdf-syntax-ns#type
+PortfolioBeta,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886-InterestPaymentTerms,InterestPaymentTerms,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886,ContractLeg1-IY7VKEUR45886-EffectiveDate,hasEffectiveDate
+ContractLeg1-IY7VKEUR45886-InterestRate,owl#NamedIndividual,22-rdf-syntax-ns#type
+Contract-IY7VKEUR45886,FixedFloatSingleCurrencyInterestRateSwap,22-rdf-syntax-ns#type
+,"IRSwapExampleIndividuals.rdf version of this ontology was revised to replace uses of hasTag in Relations with hasTag from LCC, as the more complex union of datatypes in the Relations concept is not needed here.",core#changeNote
+ContractLeg1-IY7VKEUR45886-NotionalAmount,owl#NamedIndividual,22-rdf-syntax-ns#type
+,Interest Rate Swap Example Individuals Ontology,rdf-schema#label
+ContractLeg2-IY7VKEUR45886,FloatingInterestRateLeg,22-rdf-syntax-ns#type
+,,owl#imports
+SecuritiesTransaction-IY7VKEUR45886,Trader-J_Adams,isFacilitatedBy
+ContractLeg1-IY7VKEUR45886-InterestPaymentTerms,interest payment terms for contract IY7VKEUR45886 swap leg 1 that is a fixed interest rate leg,core#definition
+ContractLeg2-IY7VKEUR45886,SwapContractParty-ZZZWWK96TRQY0F2IY7VK,hasSeller
+ContractLeg2-IY7VKEUR45886-InterestRate,FloatingInterestRate,22-rdf-syntax-ns#type
+SecuritiesTransaction-IY7VKEUR45886,owl#NamedIndividual,22-rdf-syntax-ns#type
+Contract-IY7VKEUR45886,contract IY7VKEUR45886,rdf-schema#label
+EuropeanCentralBankBBusinessDayAdjustment,BusinessDayAdjustment,22-rdf-syntax-ns#type
+,IRSwapExampleIndividuals.rdf version of this ontology was modified to move the property 'exchanges' to FND given that it could be applied more generally than with respect to swaps only.,core#changeNote
+ContractLeg2-IY7VKEUR45886,ContractLeg2-IY7VKEUR45886-EffectiveDate,hasEffectiveDate
+IY7VKEUR45886,owl#NamedIndividual,22-rdf-syntax-ns#type
+Trader-J_Adams,trader J. Adams,rdf-schema#label
+ContractLeg1-IY7VKEUR45886-NotionalAmount,contract leg 1 IY7VKEUR45886 notional amount,rdf-schema#label
+,,owl#versionIRI
+SwapContractParty-ZZZWWK96TRQY0F2IY7VK,Counterparty,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886-NotionalAmount,contract leg 2 IY7VKEUR45886 notional amount,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886-TerminationDate,contract leg 2 IY7VKEUR45886 termination date,rdf-schema#label
+ContractLeg2-IY7VKEUR45886,Contract-IY7VKEUR45886,isMandatedBy
+ContractLeg1-IY7VKEUR45886-TerminationDate,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886-InterestPaymentTerms,DayCountConvention-30E360,hasAccrualBasis
+PortfolioAlpha,portfolio Alpha,rdf-schema#label
+ContractLeg2-IY7VKEUR45886-InterestPaymentTerms,InterestPaymentTerms,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886-NotionalAmount,MonetaryAmount,22-rdf-syntax-ns#type
+Contract-IY7VKEUR45886,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886,contract leg 1 IY7VKEUR45886,rdf-schema#label
+Trader-J_Adams,owl#NamedIndividual,22-rdf-syntax-ns#type
+PortfolioGamma,sample contract portfolio Gamma,core#definition
+SwapContractParty-A,SwapParty,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886-TerminationDate,ExplicitDate,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886,ContractLeg1-IY7VKEUR45886-InterestPaymentTerms,hasInterestPaymentTerms
+IY7VKEUR45886,Contract-IY7VKEUR45886,identifies
+ContractLeg1-IY7VKEUR45886-InterestPaymentTerms,OneYear,hasInterestPaymentFrequency
+ContractLeg2-IY7VKEUR45886-EffectiveDate,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886,ContractLeg2-IY7VKEUR45886-NotionalAmount,hasNotionalAmount
+PortfolioAlpha,Portfolio,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886-InterestPaymentTerms,EuropeanCentralBankBBusinessDayAdjustment,hasBusinessDayAdjustment
+ContractLeg1-IY7VKEUR45886,ContractLeg1-IY7VKEUR45886-TerminationDate,hasTerminationDate
+PortfolioDelta,sample contract portfolio Delta,core#definition
+PortfolioAlpha,sample contract portfolio Alpha,core#definition
+ContractLeg2-IY7VKEUR45886,"Need to create the interest rate reset schedule or add a simple payment frequency, need a separate property for reference interest rate, need rate tenor",explanatoryNote
+SecuritiesTransaction-IY7VKEUR45886,SecuritiesTransaction,22-rdf-syntax-ns#type
+SecuritiesTransaction-IY7VKEUR45886,securities transaction for contract IY7VKEUR45886,core#definition
+IY7VKEUR45886,UniqueSwapIdentifier,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886,contract IY7VKEUR45886 swap leg 2 that is a floating interest rate leg,core#definition
+SwapContractParty-ZZZWWK96TRQY0F2IY7VK,swap contract party ZZZWWK96TRQY0F2IY7VK,rdf-schema#label
+SwapContractParty-ZZZWWK96TRQY0F2IY7VK,SwapParty,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886-InterestPaymentTerms,DayCountConvention-30E360,hasAccrualBasis
+EuropeanCentralBankBBusinessDayAdjustment,BusinessDayModifiedFollowing,hasBusinessDayConvention
+IY7VKEUR45886,IY7VKEUR45886,rdf-schema#label
+ContractLeg1-IY7VKEUR45886,ContractLeg1-IY7VKEUR45886-NotionalAmount,hasNotionalAmount
+Contract-IY7VKEUR45886,ContractLeg1-IY7VKEUR45886,exchanges
+ContractLeg1-IY7VKEUR45886-InterestPaymentTerms,EuropeanCentralBankBBusinessDayAdjustment,hasBusinessDayAdjustment
+ContractLeg2-IY7VKEUR45886-NotionalAmount,1286805,hasAmount
+PortfolioDelta,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886,ContractLeg1-IY7VKEUR45886-InterestRate,hasInterestRate
+SwapContractParty-ZZZWWK96TRQY0F2IY7VK,owl#NamedIndividual,22-rdf-syntax-ns#type
+Contract-IY7VKEUR45886,SwapContractParty-A,hasContractParty
+ContractLeg1-IY7VKEUR45886,FixedInterestRateLeg,22-rdf-syntax-ns#type
+Trader-J_Adams,Trader,22-rdf-syntax-ns#type
+Contract-IY7VKEUR45886,IY7VKEUR45886,isIdentifiedBy
+SecuritiesTransaction-IY7VKEUR45886,"Need to create the trade event - this is the activity (maybe we should rename these now? in FND to activity and event?) and add lifecycle elements - date and time, status of the trade and settlement status",explanatoryNote
+,"Copyright (c) 2018-2023 EDM Council, Inc.",copyright
+ContractLeg2-IY7VKEUR45886,ContractLeg2-IY7VKEUR45886-InterestPaymentTerms,hasInterestPaymentTerms
+PortfolioBeta,Portfolio,22-rdf-syntax-ns#type
+ISIN-ZZ216659451,ZZ216659451,hasTag
+ContractLeg1-IY7VKEUR45886,"Need to create the 1st period fixing date, payment days offset, discount notional amount, average remaining notional currency, net present value currency (pair, of type monetary amount)",explanatoryNote
+PortfolioBeta,portfolio Beta,rdf-schema#label
+ContractLeg2-IY7VKEUR45886,contract leg 2 IY7VKEUR45886,rdf-schema#label
+ContractLeg1-IY7VKEUR45886,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886-EffectiveDate,2015-12-12,hasDateValue
+ContractLeg1-IY7VKEUR45886-InterestPaymentTerms,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886-InterestPaymentTerms,ContractLeg1-IY7VKEUR45886-InterestRate,hasInterestRate
+ContractLeg1-IY7VKEUR45886,Contract-IY7VKEUR45886,isMandatedBy
+ContractLeg1-IY7VKEUR45886-EffectiveDate,ExplicitDate,22-rdf-syntax-ns#type
+PortfolioBeta,sample contract portfolio Beta,core#definition
+SwapContractParty-A,swap contract party A for all of the sample contracts in the sample swap data,core#definition
+EuropeanCentralBankBBusinessDayAdjustment,European Central Bank business day adjustment,rdf-schema#label
+ContractLeg2-IY7VKEUR45886-TerminationDate,2025-08-17,hasDateValue
+PortfolioGamma,portfolio Gamma,rdf-schema#label
+ContractLeg1-IY7VKEUR45886-EffectiveDate,contract leg 1 IY7VKEUR45886 effective date,rdf-schema#label
+ISIN-ZZ216659451,ISIN for sample swap contract IY7VKEUR45886,core#definition
+ISIN-ZZ216659451,owl#NamedIndividual,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+,MIT,license
+ContractLeg2-IY7VKEUR45886-InterestRate,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886-NotionalAmount,Euro,hasCurrency
+SwapContractParty-A,swap contract party A,rdf-schema#label
+PortfolioGamma,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886-InterestPaymentTerms,SixMonths,hasInterestPaymentFrequency
+ContractLeg2-IY7VKEUR45886-NotionalAmount,MonetaryAmount,22-rdf-syntax-ns#type
+PortfolioDelta,Portfolio,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886,ContractLeg2-IY7VKEUR45886-InterestRate,hasInterestRate
+,IRSwapExampleIndividuals.rdf version of this ontology was modified to correct properties that were modified in the main ontology but not in the examples.,core#changeNote
+ContractLeg2-IY7VKEUR45886-InterestPaymentTerms,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886-InterestPaymentTerms,interest payment terms for contract IY7VKEUR45886 swap leg 2 that is a floating interest rate leg,core#definition
+ContractLeg1-IY7VKEUR45886,SwapContractParty-A,hasSeller
+ContractLeg1-IY7VKEUR45886-InterestRate,contract leg 1 IY7VKEUR45886 fixed interest rate,rdf-schema#label
+ISIN-ZZ216659451,Contract-IY7VKEUR45886,identifies
+IY7VKEUR45886,IY7VKEUR45886,hasTag
+ContractLeg1-IY7VKEUR45886-TerminationDate,contract leg 1 IY7VKEUR45886 termination date,rdf-schema#label
+Contract-IY7VKEUR45886,"float, single currency interest rate swap",core#definition
+ContractLeg1-IY7VKEUR45886-InterestPaymentTerms,contract leg 1 interest payment terms IY7VKEUR45886,rdf-schema#label
+Contract-IY7VKEUR45886,PortfolioAlpha,isIncludedIn
+ContractLeg2-IY7VKEUR45886-InterestRate,0.309,hasRateValue
+EuropeanCentralBankBBusinessDayAdjustment,business day adjustment for the ECB,core#definition
+ContractLeg1-IY7VKEUR45886-EffectiveDate,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg1-IY7VKEUR45886,SwapContractParty-ZZZWWK96TRQY0F2IY7VK,hasBuyer
+Contract-IY7VKEUR45886,ISIN-ZZ216659451,isIdentifiedBy
+Contract-IY7VKEUR45886,ContractLeg2-IY7VKEUR45886,exchanges
+ContractLeg2-IY7VKEUR45886-TerminationDate,owl#NamedIndividual,22-rdf-syntax-ns#type
+ContractLeg2-IY7VKEUR45886,SwapContractParty-A,hasBuyer

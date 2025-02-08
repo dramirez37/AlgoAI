@@ -1,0 +1,285 @@
+source_id,target_id,relationship
+AssessPoolSuitablilityForIssuance,assess pool suitablility for issuance,rdf-schema#label
+maximumLoanBalance,owl#ObjectProperty,22-rdf-syntax-ns#type
+N18901a946259465ab3ab6e4dfe02a178,owl#Restriction,22-rdf-syntax-ns#type
+PotentialAgencyMBSIssuer,Nfda0cdb3a9714e4d9aafd9e4b22da15d,rdf-schema#subClassOf
+,AgencyMBSIssuance,rdf-schema#label
+AddMortgageToPool,add mortgage to pool,rdf-schema#label
+PoolConformanceCriteria,Ncf30028a407e47c3a3cff5631b6a6399,rdf-schema#subClassOf
+Nc8e03c69b6514853a593f81a3e096e41,NotYetIssuedAgencyMortgagePool,owl#someValuesFrom
+PassThroughMBSFinalTermsheet,pass through m b s final termsheet,rdf-schema#label
+AgencyMortgagePoolCreationProcess,NonAgencyPoolCreationProcess,owl#disjointWith
+adds,adds,rdf-schema#label
+DefineMortgagePool,Nc8e03c69b6514853a593f81a3e096e41,rdf-schema#subClassOf
+addsToPool,adds to pool,rdf-schema#label
+AllocatePrimaryIdentifier,allocate primary identifier,rdf-schema#label
+N53bb7d5f737a4a05bed9ebbbd8514071,purchase,owl#onProperty
+Ncf30028a407e47c3a3cff5631b6a6399,owl#Restriction,22-rdf-syntax-ns#type
+N240ef8cc79cb4e579ca9a5248f9aa9f9,owl#Restriction,22-rdf-syntax-ns#type
+resultsInAppointmentOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+N7de8652256f44de3857c663eaf1e1971,ValidateConformance,owl#someValuesFrom
+N86be050976ae4360ad2ddf6518ccf433,hasStartDate,owl#onProperty
+adds,owl#ObjectProperty,22-rdf-syntax-ns#type
+purchase,LoanSecuredByRealEstate,rdf-schema#range
+isAssessmentOf,is assessment of,rdf-schema#label
+MarketIssue,IssuanceProcessActivity,rdf-schema#subClassOf
+N042bec4061e3410aaf532cbc63849edf,AcquireMortgage,owl#someValuesFrom
+NotYetIssuedAgencyMortgagePool,AgencyMortgagePool,rdf-schema#subClassOf
+finalizes,PotentialAgencyMBSIssuer,rdf-schema#domain
+FinalizeProspectus,IssuanceProcessActivity,rdf-schema#subClassOf
+DraftPassThroughTermsheet,owl#Class,22-rdf-syntax-ns#type
+N037e9e9c5a3e4365a0096622be357363,IdentifyConformingMortgage,owl#someValuesFrom
+N9c83dc64e76d438b90feef7255c3b568,hasContractualElement,owl#onProperty
+N062c3d3ff81a41219adee6df66a0c88c,PoolConformanceCriteria,owl#someValuesFrom
+ClassifyMortgage,IssuanceProcessActivity,rdf-schema#subClassOf
+AddMortgageToPool,owl#Class,22-rdf-syntax-ns#type
+N02fb9eea588547d1a739dea0cdd4a078,adds,owl#onProperty
+Naf436048c81847fa82938e1dd6c6fb2b,finalizes,owl#onProperty
+AddMortgageToPool,IssuanceProcessActivity,rdf-schema#subClassOf
+isAssessmentOf,LoanSecuredByRealEstate,rdf-schema#range
+FinalizeProspectus,finalize prospectus,rdf-schema#label
+DrawUpOfferingMemorandum,draw up offering memorandum,rdf-schema#label
+minimumRating,PoolConformanceCriteria,rdf-schema#domain
+resultsInAppointmentOf,IdentifyUnderwriter,rdf-schema#domain
+PotentialAgencyMBSIssuer,N7de8652256f44de3857c663eaf1e1971,rdf-schema#subClassOf
+AllocatePrimaryIdentifier,IssuanceProcessActivity,rdf-schema#subClassOf
+ValidateConformance,The mortgage is automatically validated for conformance to the requirements of the pool in which it is to be included.,core#definition
+addsToPool,owl#ObjectProperty,22-rdf-syntax-ns#type
+DrawUpTermsheet,owl#Class,22-rdf-syntax-ns#type
+maximumLoanBalance,maximum loan balance,rdf-schema#label
+minimumRating,InvestmentCreditRating,rdf-schema#range
+FinalizePoolContent,finalize pool content,rdf-schema#label
+PassThroughIssueProspectusPart,owl#Class,22-rdf-syntax-ns#type
+AddMortgageToPool,N240ef8cc79cb4e579ca9a5248f9aa9f9,rdf-schema#subClassOf
+N77c5d911acfd4b7890216629ce388f22,precedes,owl#onProperty
+InIssuanceAgencyMortgagePool,AgencyMortgagePool,rdf-schema#subClassOf
+N6f5787b788f5477cbe58f27c822b0fea,LoanSecuredByRealEstate,owl#someValuesFrom
+PassThroughMBSSecuritizationProcess,MBSSecuritizationProcess,rdf-schema#subClassOf
+InAssemblyAgencyMortgagePool,N852dde103281418287ba5c8008e2c0f7,rdf-schema#subClassOf
+NotYetIssuedAgencyMortgagePool,owl#Class,22-rdf-syntax-ns#type
+PassThroughMBSSecuritizationProcess,N4a02aaedcacf467d8cf17b532914ceb1,rdf-schema#subClassOf
+N86be050976ae4360ad2ddf6518ccf433,owl#Restriction,22-rdf-syntax-ns#type
+PassThroughMBSDraftProspectus,N77c5d911acfd4b7890216629ce388f22,rdf-schema#subClassOf
+PassThroughMBSFinalTermsheet,PassThroughIssueProspectusPart,rdf-schema#subClassOf
+IdentifyConformingMortgage,"This does not relate to the criteria for belonging to an individual, defined mortgage pool but conforms to the requirements of the issuing organization overall. This is for Agency pools. For non-agency, the equivalent of this step is carried out at pool level with a clause to reject the mortgage.",explanatoryNote
+IdentifyConformingMortgage,IssuanceProcessActivity,rdf-schema#subClassOf
+PassThroughMBSFinalTermsheet,N9c83dc64e76d438b90feef7255c3b568,rdf-schema#subClassOf
+,,owl#imports
+resultsInAppointmentOf,results in appointment of,rdf-schema#label
+ValidateConformance,owl#Class,22-rdf-syntax-ns#type
+PotentialAgencyMBSIssuer,The entity which will become the issuing party for the pass through MBS Issue. This entity is the principal actor in most of the activities involved in the issue. Term origin:MBS PoC Reviews,core#definition
+ValidateConformance,IssuanceProcessActivity,rdf-schema#subClassOf
+AgencyMortgagePoolCreationProcess,N18901a946259465ab3ab6e4dfe02a178,rdf-schema#subClassOf
+validates,ValidateConformance,rdf-schema#range
+N1e488f32ea7b49c08c19ba6a27ca1f2c,hasStage,owl#onProperty
+Naf436048c81847fa82938e1dd6c6fb2b,owl#Restriction,22-rdf-syntax-ns#type
+PotentialAgencyMBSIssuer,potential agency m b s issuer,rdf-schema#label
+MarketIssue,owl#Class,22-rdf-syntax-ns#type
+Ne45a10aba811416db2a14c5d426e3a41,BondAmortizationPaymentTerms,owl#someValuesFrom
+N20282ca6801a4af2b9778f00d59e3e56,PotentialPassThroughIssuanceUnderwriter,owl#someValuesFrom
+hasResource,MarketIssue,rdf-schema#domain
+FinalizeProspectus,owl#Class,22-rdf-syntax-ns#type
+N5dafcae8cff541f4b233a6f024f1d226,PassThroughMBSFinalTermsheet,owl#someValuesFrom
+N852dde103281418287ba5c8008e2c0f7,hasStage,owl#onProperty
+ClassifyMortgage,owl#Class,22-rdf-syntax-ns#type
+Nab8b08ab83cc4d3db729021a8a4c8ded,owl#Restriction,22-rdf-syntax-ns#type
+PassThroughMBSFinalProspectus,pass through m b s final prospectus,rdf-schema#label
+AcquireMortgage,N53bb7d5f737a4a05bed9ebbbd8514071,rdf-schema#subClassOf
+,,owl#versionIRI
+validates,owl#ObjectProperty,22-rdf-syntax-ns#type
+purchases,AcquireMortgage,rdf-schema#range
+N19a1a6a0f3304363a13aa8334ee87af9,ClassifyMortgage,owl#someValuesFrom
+hasResource,PassThroughMBSDraftProspectus,rdf-schema#range
+Ncf30028a407e47c3a3cff5631b6a6399,NotYetIssuedAgencyMortgagePool,owl#someValuesFrom
+,owl#Ontology,22-rdf-syntax-ns#type
+AllocatePrimaryIdentifier,owl#Class,22-rdf-syntax-ns#type
+Nb74581e0a47e489a98f31aa3b441d714,owl#Restriction,22-rdf-syntax-ns#type
+N1da9d50d9bf442b697d2f32664855ac0,owl#Restriction,22-rdf-syntax-ns#type
+N02fb9eea588547d1a739dea0cdd4a078,owl#Restriction,22-rdf-syntax-ns#type
+purchase,purchase,rdf-schema#label
+InIssuanceAgencyMortgagePool,N1e488f32ea7b49c08c19ba6a27ca1f2c,rdf-schema#subClassOf
+ValidateConformance,validate conformance,rdf-schema#label
+ValidateConformance,From review comment 6 Oct: box called validate conformance automatic eg max loan balance,core#editorialNote
+PassThroughIssueProspectusPart,A part or section of a prospectus for a pass through MBS issue. Term origin:MBS PoC Reviews,core#definition
+purchases,PotentialAgencyMBSIssuer,rdf-schema#domain
+Ne45a10aba811416db2a14c5d426e3a41,owl#Restriction,22-rdf-syntax-ns#type
+Ne45a10aba811416db2a14c5d426e3a41,hasContractualElement,owl#onProperty
+IdentifyUnderwriter,IssuanceProcessActivity,rdf-schema#subClassOf
+identifies,identifies,rdf-schema#label
+N1e488f32ea7b49c08c19ba6a27ca1f2c,owl#Restriction,22-rdf-syntax-ns#type
+N9c83dc64e76d438b90feef7255c3b568,owl#Restriction,22-rdf-syntax-ns#type
+PotentialAgencyMBSIssuer,N19a1a6a0f3304363a13aa8334ee87af9,rdf-schema#subClassOf
+AgencyMortgagePoolCreationProcess,owl#Class,22-rdf-syntax-ns#type
+DefineMortgagePool,define mortgage pool,rdf-schema#label
+PotentialAgencyMBSIssuer,PoolBackedSecuritySecuritizationProcessActor,rdf-schema#subClassOf
+IdentifyConformingMortgage,identify conforming mortgage,rdf-schema#label
+finalizes,owl#ObjectProperty,22-rdf-syntax-ns#type
+PassThroughMBSDraftProspectus,PreliminaryProspectus,rdf-schema#subClassOf
+Nfd2fa5c7c3724205bb32fe6b35f5c356,LoanSecuredByRealEstate,owl#someValuesFrom
+PotentialAgencyMBSIssuer,owl#Class,22-rdf-syntax-ns#type
+N042bec4061e3410aaf532cbc63849edf,purchases,owl#onProperty
+resultsInAppointmentOf,PotentialPassThroughIssuanceUnderwriter,rdf-schema#range
+AcquireMortgage,IssuanceProcessActivity,rdf-schema#subClassOf
+Nc8e03c69b6514853a593f81a3e096e41,isDefiningOf,owl#onProperty
+purchases,owl#ObjectProperty,22-rdf-syntax-ns#type
+IdentifyUnderwriter,N20282ca6801a4af2b9778f00d59e3e56,rdf-schema#subClassOf
+InIssuanceAgencyMortgagePool,in issuance agency mortgage pool,rdf-schema#label
+DrawUpOfferingMemorandum,owl#Class,22-rdf-syntax-ns#type
+DefineMortgagePool,IssuanceProcessActivity,rdf-schema#subClassOf
+IdentifyConformingMortgage,owl#Class,22-rdf-syntax-ns#type
+N77c5d911acfd4b7890216629ce388f22,PassThroughMBSFinalProspectus,owl#someValuesFrom
+PassThroughMBSSecuritizationProcess,pass through m b s securitization process,rdf-schema#label
+N18901a946259465ab3ab6e4dfe02a178,precedes,owl#onProperty
+identifies,PotentialAgencyMBSIssuer,rdf-schema#domain
+Nb74581e0a47e489a98f31aa3b441d714,hasEndDate,owl#onProperty
+DrawUpTermsheet,draw up termsheet,rdf-schema#label
+DrawUpOfferingMemorandum,IssuanceProcessActivity,rdf-schema#subClassOf
+isDefiningOf,DefineMortgagePool,rdf-schema#domain
+PassThroughMBSFinalProspectus,owl#Class,22-rdf-syntax-ns#type
+N9c83dc64e76d438b90feef7255c3b568,CouponPaymentTerms,owl#someValuesFrom
+InAssemblyAgencyMortgagePool,AgencyMortgagePool,rdf-schema#subClassOf
+N852dde103281418287ba5c8008e2c0f7,InAssembly,owl#someValuesFrom
+N240ef8cc79cb4e579ca9a5248f9aa9f9,LoanSecuredByRealEstate,owl#someValuesFrom
+AssessPoolSuitablilityForIssuance,IssuanceProcessActivity,rdf-schema#subClassOf
+Nfd2fa5c7c3724205bb32fe6b35f5c356,owl#Restriction,22-rdf-syntax-ns#type
+N7de8652256f44de3857c663eaf1e1971,owl#Restriction,22-rdf-syntax-ns#type
+N1da9d50d9bf442b697d2f32664855ac0,Date,owl#someValuesFrom
+N53bb7d5f737a4a05bed9ebbbd8514071,owl#Restriction,22-rdf-syntax-ns#type
+hasResource,owl#ObjectProperty,22-rdf-syntax-ns#type
+PassThroughMBSDraftProspectus,"The draft prospectus for a pass through Mortgage Backed Securities issue, as determined by the issuing agency prior to marketing the issue. Certain terms in the draft prospectus will be finalized later in the issuance process to become the actual Prospectus. Term origin:MBS PoC Reviews",core#definition
+identifies,owl#ObjectProperty,22-rdf-syntax-ns#type
+InAssemblyAgencyMortgagePool,in assembly agency mortgage pool,rdf-schema#label
+PotentialPassThroughIssuanceUnderwriter,potential pass through issuance underwriter,rdf-schema#label
+SuitableForIssue,owl#Class,22-rdf-syntax-ns#type
+RegisterSecurity,IssuanceProcessActivity,rdf-schema#subClassOf
+PassThroughMBSFinalTermsheet,TermSheet,rdf-schema#subClassOf
+DraftPassThroughTermsheet,draft pass through termsheet,rdf-schema#label
+allocatesIdentifier,owl#ObjectProperty,22-rdf-syntax-ns#type
+N4a02aaedcacf467d8cf17b532914ceb1,owl#Restriction,22-rdf-syntax-ns#type
+PassThroughMBSFinalProspectus,Term origin:MBS PoC Reviews,core#definition
+IdentifyConformingMortgage,Identify mortgage conforming to overall requirements for this issuer.,core#definition
+ValidateConformance,N062c3d3ff81a41219adee6df66a0c88c,rdf-schema#subClassOf
+definesCriteriaFor,NotYetIssuedAgencyMortgagePool,rdf-schema#range
+RegisterSecurity,register security,rdf-schema#label
+maximumLoanBalance,PoolConformanceCriteria,rdf-schema#domain
+N7f80570dfd4949c6be51dc3aba45eef2,hasStage,owl#onProperty
+PoolConformanceCriteria,pool conformance criteria,rdf-schema#label
+InIssuanceAgencyMortgagePool,owl#Class,22-rdf-syntax-ns#type
+validates,PotentialAgencyMBSIssuer,rdf-schema#domain
+identifies,IdentifyConformingMortgage,rdf-schema#range
+PassThroughMBSSecuritizationProcess,TranchedMBSSecuritizationProcess,owl#disjointWith
+N4a02aaedcacf467d8cf17b532914ceb1,hasEndDate,owl#onProperty
+PassThroughOfferingMemorandum,pass through offering memorandum,rdf-schema#label
+minimumRating,owl#ObjectProperty,22-rdf-syntax-ns#type
+N4a02aaedcacf467d8cf17b532914ceb1,Date,owl#someValuesFrom
+Nfda0cdb3a9714e4d9aafd9e4b22da15d,owl#Restriction,22-rdf-syntax-ns#type
+isAssessmentOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+PotentialPassThroughIssuanceUnderwriter,PotentialUnderwriter,rdf-schema#subClassOf
+InAssemblyAgencyMortgagePool,owl#Class,22-rdf-syntax-ns#type
+IdentifyUnderwriter,owl#Class,22-rdf-syntax-ns#type
+PotentialPassThroughIssuanceUnderwriter,owl#Class,22-rdf-syntax-ns#type
+PassThroughOfferingMemorandum,owl#Class,22-rdf-syntax-ns#type
+PoolConformanceCriteria,owl#Class,22-rdf-syntax-ns#type
+addsToPool,AddMortgageToPool,rdf-schema#domain
+N53bb7d5f737a4a05bed9ebbbd8514071,LoanSecuredByRealEstate,owl#someValuesFrom
+ClassifyMortgage,classify mortgage,rdf-schema#label
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+N037e9e9c5a3e4365a0096622be357363,owl#Restriction,22-rdf-syntax-ns#type
+PotentialAgencyMBSIssuer,N042bec4061e3410aaf532cbc63849edf,rdf-schema#subClassOf
+validates,validates,rdf-schema#label
+AgencyMortgagePoolCreationProcess,RetailAssetPoolCreationProcess,rdf-schema#subClassOf
+Nfda0cdb3a9714e4d9aafd9e4b22da15d,evaluates,owl#onProperty
+DefineMortgagePool,owl#Class,22-rdf-syntax-ns#type
+SuitableForIssue,suitable for issue,rdf-schema#label
+definesCriteriaFor,PoolConformanceCriteria,rdf-schema#domain
+Nfd2fa5c7c3724205bb32fe6b35f5c356,isAssessmentOf,owl#onProperty
+finalizes,finalizes,rdf-schema#label
+N19a1a6a0f3304363a13aa8334ee87af9,evaluates,owl#onProperty
+Ncf30028a407e47c3a3cff5631b6a6399,definesCriteriaFor,owl#onProperty
+PassThroughIssueProspectusPart,ProspectusPart,rdf-schema#subClassOf
+N02fb9eea588547d1a739dea0cdd4a078,AddMortgageToPool,owl#someValuesFrom
+finalizes,FinalizePoolContent,rdf-schema#range
+IdentifyUnderwriter,identify underwriter,rdf-schema#label
+addsToPool,LoanSecuredByRealEstate,rdf-schema#range
+AcquireMortgage,owl#Class,22-rdf-syntax-ns#type
+purchase,AcquireMortgage,rdf-schema#domain
+Nb74581e0a47e489a98f31aa3b441d714,Date,owl#someValuesFrom
+MarketIssue,market issue,rdf-schema#label
+PassThroughOfferingMemorandum,"The offering memorandum for a pass through MBS issue, setting out basic information about a future issue, for the information of prospective investors and their agents. Term origin:MBS PoC Reviews",core#definition
+PotentialAgencyMBSIssuer,N037e9e9c5a3e4365a0096622be357363,rdf-schema#subClassOf
+PassThroughMBSFinalTermsheet,The final termsheet for the pass through MBS issue. This defines the terms for the MBS contract itself. Term origin:MBS PoC Reviews,core#definition
+PotentialAgencyMBSIssuer,N02fb9eea588547d1a739dea0cdd4a078,rdf-schema#subClassOf
+isDefiningOf,is defining of,rdf-schema#label
+DraftPassThroughTermsheet,TermSheet,rdf-schema#subClassOf
+PotentialPassThroughIssuanceUnderwriter,The entity which will become the underwriter for the pass through MBS issue. Term origin:MBS PoC Reviews,core#definition
+RegisterSecurity,owl#Class,22-rdf-syntax-ns#type
+N77c5d911acfd4b7890216629ce388f22,owl#Restriction,22-rdf-syntax-ns#type
+N062c3d3ff81a41219adee6df66a0c88c,owl#Restriction,22-rdf-syntax-ns#type
+N18901a946259465ab3ab6e4dfe02a178,PassThroughMBSSecuritizationProcess,owl#someValuesFrom
+adds,PotentialAgencyMBSIssuer,rdf-schema#domain
+N1e488f32ea7b49c08c19ba6a27ca1f2c,InIssuance,owl#someValuesFrom
+N042bec4061e3410aaf532cbc63849edf,owl#Restriction,22-rdf-syntax-ns#type
+N6f5787b788f5477cbe58f27c822b0fea,owl#Restriction,22-rdf-syntax-ns#type
+MarketIssue,Nab8b08ab83cc4d3db729021a8a4c8ded,rdf-schema#subClassOf
+minimumRating,minimum rating,rdf-schema#label
+AgencyMortgagePoolCreationProcess,Nb74581e0a47e489a98f31aa3b441d714,rdf-schema#subClassOf
+PassThroughOfferingMemorandum,OfferingDocument,rdf-schema#subClassOf
+allocatesIdentifier,allocates identifier,rdf-schema#label
+PassThroughMBSSecuritizationProcess,owl#Class,22-rdf-syntax-ns#type
+N20282ca6801a4af2b9778f00d59e3e56,owl#Restriction,22-rdf-syntax-ns#type
+FinalizePoolContent,IssuanceProcessActivity,rdf-schema#subClassOf
+,Provisional,hasMaturityLevel
+N7de8652256f44de3857c663eaf1e1971,validates,owl#onProperty
+isDefiningOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+maximumLoanBalance,MonetaryAmount,rdf-schema#range
+PassThroughOfferingMemorandum,N5dafcae8cff541f4b233a6f024f1d226,rdf-schema#subClassOf
+PassThroughMBSSecuritizationProcess,N1da9d50d9bf442b697d2f32664855ac0,rdf-schema#subClassOf
+,MIT,license
+purchases,purchases,rdf-schema#label
+N7f80570dfd4949c6be51dc3aba45eef2,NotYetIssued,owl#someValuesFrom
+N20282ca6801a4af2b9778f00d59e3e56,resultsInAppointmentOf,owl#onProperty
+DraftPassThroughTermsheet,Draft of set of information defining the pass thorugh security terms. These will eventually become the contractual terms of the instrument. Term origin:MBS PoC Reviews,core#definition
+N037e9e9c5a3e4365a0096622be357363,identifies,owl#onProperty
+Nab8b08ab83cc4d3db729021a8a4c8ded,PassThroughMBSDraftProspectus,owl#someValuesFrom
+N86be050976ae4360ad2ddf6518ccf433,Date,owl#someValuesFrom
+MakeSecuritiesAvailabeInMarket,owl#Class,22-rdf-syntax-ns#type
+definesCriteriaFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+MakeSecuritiesAvailabeInMarket,IssuanceProcessActivity,rdf-schema#subClassOf
+N5dafcae8cff541f4b233a6f024f1d226,includesDetailsAbout,owl#onProperty
+N6f5787b788f5477cbe58f27c822b0fea,refersTo,owl#onProperty
+AgencyMortgagePoolCreationProcess,agency mortgage pool creation process,rdf-schema#label
+ClassifyMortgage,Nfd2fa5c7c3724205bb32fe6b35f5c356,rdf-schema#subClassOf
+N062c3d3ff81a41219adee6df66a0c88c,refersTo,owl#onProperty
+definesCriteriaFor,defines criteria for,rdf-schema#label
+PassThroughIssueProspectusPart,pass through issue prospectus part,rdf-schema#label
+N5dafcae8cff541f4b233a6f024f1d226,owl#Restriction,22-rdf-syntax-ns#type
+DrawUpTermsheet,IssuanceProcessActivity,rdf-schema#subClassOf
+PotentialAgencyMBSIssuer,Naf436048c81847fa82938e1dd6c6fb2b,rdf-schema#subClassOf
+N1da9d50d9bf442b697d2f32664855ac0,hasStartDate,owl#onProperty
+PassThroughMBSFinalTermsheet,owl#Class,22-rdf-syntax-ns#type
+NotYetIssuedAgencyMortgagePool,not yet issued agency mortgage pool,rdf-schema#label
+N19a1a6a0f3304363a13aa8334ee87af9,owl#Restriction,22-rdf-syntax-ns#type
+AgencyMortgagePoolCreationProcess,N86be050976ae4360ad2ddf6518ccf433,rdf-schema#subClassOf
+PassThroughMBSFinalProspectus,MortgageBackedSecurityOfferingProspectus,rdf-schema#subClassOf
+hasResource,has resource,rdf-schema#label
+IdentifyConformingMortgage,N6f5787b788f5477cbe58f27c822b0fea,rdf-schema#subClassOf
+Nfda0cdb3a9714e4d9aafd9e4b22da15d,AssessPoolSuitablilityForIssuance,owl#someValuesFrom
+isAssessmentOf,ClassifyMortgage,rdf-schema#domain
+Nab8b08ab83cc4d3db729021a8a4c8ded,hasResource,owl#onProperty
+N852dde103281418287ba5c8008e2c0f7,owl#Restriction,22-rdf-syntax-ns#type
+N240ef8cc79cb4e579ca9a5248f9aa9f9,addsToPool,owl#onProperty
+AssessPoolSuitablilityForIssuance,owl#Class,22-rdf-syntax-ns#type
+N7f80570dfd4949c6be51dc3aba45eef2,owl#Restriction,22-rdf-syntax-ns#type
+PassThroughMBSDraftProspectus,owl#Class,22-rdf-syntax-ns#type
+MakeSecuritiesAvailabeInMarket,make securities availabe in market,rdf-schema#label
+,Process ontology for the process of issuance (securitization) of mortgage backed securities by government agencies. Based on US government agency MBS issuance process.,abstract
+Naf436048c81847fa82938e1dd6c6fb2b,FinalizePoolContent,owl#someValuesFrom
+Nc8e03c69b6514853a593f81a3e096e41,owl#Restriction,22-rdf-syntax-ns#type
+AcquireMortgage,acquire mortgage,rdf-schema#label
+PassThroughMBSFinalTermsheet,Ne45a10aba811416db2a14c5d426e3a41,rdf-schema#subClassOf
+NotYetIssuedAgencyMortgagePool,N7f80570dfd4949c6be51dc3aba45eef2,rdf-schema#subClassOf
+adds,AddMortgageToPool,rdf-schema#range
+PassThroughMBSDraftProspectus,pass through m b s draft prospectus,rdf-schema#label
+isDefiningOf,NotYetIssuedAgencyMortgagePool,rdf-schema#range
+purchase,owl#ObjectProperty,22-rdf-syntax-ns#type
+FinalizePoolContent,owl#Class,22-rdf-syntax-ns#type

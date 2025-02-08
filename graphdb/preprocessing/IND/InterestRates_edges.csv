@@ -1,0 +1,283 @@
+source_id,target_id,relationship
+ThirtyYears,ExplicitDuration,22-rdf-syntax-ns#type
+FifteenYears,ExplicitDuration,22-rdf-syntax-ns#type
+TwentyFourMonths,twenty-four months,rdf-schema#label
+Nf32b0c83200646c7ad4909c0829c790a,0,owl#minQualifiedCardinality
+SixtyMonths,ExplicitDuration,22-rdf-syntax-ns#type
+N526592ca4cd045b9b9a124f9ab3aae1b,owl#Restriction,22-rdf-syntax-ns#type
+hasTenor,owl#ObjectProperty,22-rdf-syntax-ns#type
+,InterestRates.rdf version of this ontology was modified to replace 'financial information publisher' with publisher for simplification purposes.,core#changeNote
+ThirtyYears,duration of exactly thirty years,core#definition
+FourYears,ExplicitDuration,22-rdf-syntax-ns#type
+OvernightRate,N526592ca4cd045b9b9a124f9ab3aae1b,rdf-schema#subClassOf
+Nf8378248cae44874843ddab5c9355a98,1,owl#qualifiedCardinality
+,InterestRates.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+FloatingInterestRate,Na7602c3d05404e4ab33f5c72642610e6,rdf-schema#subClassOf
+Nc752fa5fe11149b0880c1978fe0b41f4,Currency,owl#onClass
+InterbankMidRate,owl#Class,22-rdf-syntax-ns#type
+,"InterestRates.rdf version of this ontology was modified to add the notion of a classifier for reference rates, so that we can differentiate between kinds of rates and the rates themselves, clean up definitions to conform with ISO 704, merge classes referenced in interest rate publishers to eliminate potential circular references, and eliminate duplication of concepts in LCC.",core#changeNote
+InterestRateBenchmark,Nf32b0c83200646c7ad4909c0829c790a,rdf-schema#subClassOf
+NineMonths,P9M,hasDurationValue
+InterestRateBenchmarkClassificationScheme,owl#Class,22-rdf-syntax-ns#type
+FiveYears,owl#NamedIndividual,22-rdf-syntax-ns#type
+SixMonths,six months,rdf-schema#label
+N1be2755023994ba89a20112f4b72ebc7,hasTenor,owl#onProperty
+FifteenYears,duration of exactly fifteen years,core#definition
+N526592ca4cd045b9b9a124f9ab3aae1b,hasTenor,owl#onProperty
+hasRateResetTimeOfDay,has rate reset time of day,rdf-schema#label
+OvernightRate,"The overnight rate is the lowest available interest rate, and as such, it is only available to the most creditworthy institutions. It is the underlying rate for Overnight Interest Rate Swaps (IOS).",explanatoryNote
+ReferenceInterestRate,"The reference rate is a moving index such as EURIBOR, the prime rate or the rate on benchmark U.S. Treasuries.",explanatoryNote
+hasReferenceCurrency,Currency,rdf-schema#range
+OneMonth,ExplicitDuration,22-rdf-syntax-ns#type
+InterestRateAuthority,interest rate authority,rdf-schema#label
+ReferenceInterestRate,Nc752fa5fe11149b0880c1978fe0b41f4,rdf-schema#subClassOf
+InterbankOfferedRate,InterbankRate,rdf-schema#subClassOf
+ThirtySixMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+SixMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+FiveYears,ExplicitDuration,22-rdf-syntax-ns#type
+BaseRate,"Typically, the bank base rate is a reference rate set by a central bank. Banks that are regulated by a given central bank cannot lend below the base rate to their customers. The bank base rate is determined on an ongoing basis and represents the central bank's judgement of the price of short-term funds on their interbank market.",explanatoryNote
+TwentyYears,twenty years,rdf-schema#label
+SixMonths,"duration of exactly six months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+hasReferenceCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+ReferenceInterestRate,market rate that is a rate of interest paid by or agreed among some bank or set of banks,core#definition
+Nabbd3e91acb94e0e9899304e03e96803,DateTime,owl#onClass
+FourYears,P4Y,hasDurationValue
+hasTenor,hasDuration,rdf-schema#subPropertyOf
+TwentyFourMonths,"duration of exactly twenty-four months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+FortyEightMonths,P48M,hasDurationValue
+ThreeYears,P3Y,hasDurationValue
+OneHundredEightyMonths,"duration of exactly one hundred eighty months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+ThirtyYears,owl#NamedIndividual,22-rdf-syntax-ns#type
+InterbankRate,ReferenceInterestRate,rdf-schema#subClassOf
+TenYears,P10Y,hasDurationValue
+SixMonths,ExplicitDuration,22-rdf-syntax-ns#type
+N4876392b37bf41c7946b2810e341f2cd,1,owl#qualifiedCardinality
+TwoMonths,P2M,hasDurationValue
+TwelveMonths,"duration of exactly twelve months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+N4876392b37bf41c7946b2810e341f2cd,Currency,owl#onClass
+OneYear,owl#NamedIndividual,22-rdf-syntax-ns#type
+SpecificProviderInterestRateBenchmark,interest rate benchmark that is made available by a specific market data provider for reference purposes,core#definition
+N1de79c98666b44f88c20401c33eec0fe,owl#Restriction,22-rdf-syntax-ns#type
+Nabbd3e91acb94e0e9899304e03e96803,owl#Restriction,22-rdf-syntax-ns#type
+OneMonth,"duration of exactly one month, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+ThreeHundredSixtyMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+N4876392b37bf41c7946b2810e341f2cd,hasReferenceCurrency,owl#onProperty
+ThreeMonths,three months,rdf-schema#label
+InterestRateAuthority,publisher responsible for specifying some benchmark interest rate,core#definition
+FortyEightMonths,forty-eight months,rdf-schema#label
+NineMonths,"duration of exactly nine months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+OneWeek,ExplicitDuration,22-rdf-syntax-ns#type
+ThirtySixMonths,"duration of exactly thirty-six months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+BaseRate,base rate,rdf-schema#label
+OneHundredEightyMonths,ExplicitDuration,22-rdf-syntax-ns#type
+N0dfbd5f71a274f6dad27c3c4ec1aba1d,owl#Restriction,22-rdf-syntax-ns#type
+BaseRate,basic rate of interest on which the actual rate a bank charges on loans to its customers is calculated,core#definition
+BaseRate,BBR,abbreviation
+Nf9e87f6786f4478f923e91b283927450,hasQuantityKind,owl#onProperty
+ThreeYears,duration of exactly three years,core#definition
+ThreeHundredSixtyMonths,ExplicitDuration,22-rdf-syntax-ns#type
+,"Copyright (c) 2014-2023 EDM Council, Inc.",copyright
+,,owl#imports
+N401f0f3dad85450a9a014c67f3b4cf40,owl#Restriction,22-rdf-syntax-ns#type
+InterbankBidRate,interbank bid rate,rdf-schema#label
+ThreeMonths,ExplicitDuration,22-rdf-syntax-ns#type
+OneWeek,one week,rdf-schema#label
+Na7602c3d05404e4ab33f5c72642610e6,owl#Restriction,22-rdf-syntax-ns#type
+SixtyMonths,P60M,hasDurationValue
+N1d43ef8bd09d4f8b8f6c05d4eff66edc,ReferenceInterestRate,owl#someValuesFrom
+OneYear,duration of exactly one year,core#definition
+Nabbd3e91acb94e0e9899304e03e96803,hasRateResetTimeOfDay,owl#onProperty
+N1de79c98666b44f88c20401c33eec0fe,MarketDataProvider,owl#onClass
+BaseRate,owl#Class,22-rdf-syntax-ns#type
+Nf32b0c83200646c7ad4909c0829c790a,owl#Restriction,22-rdf-syntax-ns#type
+ReferenceInterestRate,Nabbd3e91acb94e0e9899304e03e96803,rdf-schema#subClassOf
+ThreeHundredSixtyMonths,"duration of exactly three hundred sixty months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+InterbankRate,"Banks borrow and lend money in the interbank market in order to manage liquidity and meet the requirements placed on them. The interest rate charged depends on the availability of money in the market, on prevailing rates and on the specific terms of the contract, such as term length.",explanatoryNote
+InterestRateBenchmark,N5169379776a14af4854355e31e827923,rdf-schema#subClassOf
+,InterestRates.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+SpecificProviderInterestRateBenchmark,specific-provider interest rate benchmark,rdf-schema#label
+Nc752fa5fe11149b0880c1978fe0b41f4,owl#Restriction,22-rdf-syntax-ns#type
+EighteenMonths,P18M,hasDurationValue
+N5169379776a14af4854355e31e827923,isProducedBy,owl#onProperty
+InterestRateBenchmark,"classifier for regularly updated interest rates that are publicly accessible, typically set by a central bank or group of financial institutions",core#definition
+,,owl#versionIRI
+ThreeHundredSixtyMonths,P360M,hasDurationValue
+N1be2755023994ba89a20112f4b72ebc7,0,owl#minQualifiedCardinality
+Nf32b0c83200646c7ad4909c0829c790a,hasRateResetTimeOfDay,owl#onProperty
+N1be2755023994ba89a20112f4b72ebc7,owl#Restriction,22-rdf-syntax-ns#type
+ThreeHundredSixtyMonths,three hundred sixty months,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+TwentyYears,owl#NamedIndividual,22-rdf-syntax-ns#type
+InterbankMidRate,interbank rate that represents the mid-point between bid and offer rates,core#definition
+OneDay,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nc7fee4fc0bc94ba983512656a1f60c66,defines,owl#onProperty
+FortyEightMonths,ExplicitDuration,22-rdf-syntax-ns#type
+Nc7fee4fc0bc94ba983512656a1f60c66,InterestRateBenchmark,owl#someValuesFrom
+EighteenMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nf9e87f6786f4478f923e91b283927450,owl#Restriction,22-rdf-syntax-ns#type
+InterestRateAuthority,Publisher,rdf-schema#subClassOf
+InterestRateBenchmark,N1de79c98666b44f88c20401c33eec0fe,rdf-schema#subClassOf
+InterestRateBenchmark,N4876392b37bf41c7946b2810e341f2cd,rdf-schema#subClassOf
+hasReferenceCurrency,hasCurrency,rdf-schema#subPropertyOf
+Nf8378248cae44874843ddab5c9355a98,MarketDataProvider,owl#onClass
+TwentyYears,duration of exactly twenty years,core#definition
+InterestRateBenchmark,owl#Class,22-rdf-syntax-ns#type
+OneHundredEightyMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasTenor,"The tenor of most financial instruments declines over time, while the maturity remains constant. Risk associated with a given asset tends to decline with the reduction of the time remaining to maturity. The tenor of an interest rate swap can also refer to the frequency with which coupon payments are exchanged.",explanatoryNote
+TwentyYears,P20Y,hasDurationValue
+OneDay,"duration of exactly one day, or 24 hours, such as for an overnight rate",core#definition
+OneDay,ExplicitDuration,22-rdf-syntax-ns#type
+Nabbd3e91acb94e0e9899304e03e96803,0,owl#minQualifiedCardinality
+Nf8378248cae44874843ddab5c9355a98,isProvidedBy,owl#onProperty
+ThreeMonths,P3M,hasDurationValue
+hasRateResetTimeOfDay,"indicates the time of day when a change in a benchmark rate is published, typically the same time every business day",core#definition
+TwentyYears,ExplicitDuration,22-rdf-syntax-ns#type
+ThreeMonths,"duration of exactly three months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+SixMonths,P6M,hasDurationValue
+InterestRateBenchmark,N1d43ef8bd09d4f8b8f6c05d4eff66edc,rdf-schema#subClassOf
+OneHundredEightyMonths,one hundred eighty months,rdf-schema#label
+SixtyMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+EighteenMonths,ExplicitDuration,22-rdf-syntax-ns#type
+TwentyFourMonths,ExplicitDuration,22-rdf-syntax-ns#type
+ReferenceInterestRate,owl#Class,22-rdf-syntax-ns#type
+hasRateResetTimeOfDay,DateTime,rdf-schema#range
+N1de79c98666b44f88c20401c33eec0fe,0,owl#minQualifiedCardinality
+InterbankRate,owl#Class,22-rdf-syntax-ns#type
+NineMonths,ExplicitDuration,22-rdf-syntax-ns#type
+InterbankOfferedRate,interbank rate that is the interest rate at which participating banks lend money,core#definition
+FourYears,owl#NamedIndividual,22-rdf-syntax-ns#type
+Na7602c3d05404e4ab33f5c72642610e6,1,owl#qualifiedCardinality
+SixtyMonths,"duration of exactly sixty months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+OvernightRate,overnight rate,rdf-schema#label
+,InterestRates.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+ThreeMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+,"Copyright (c) 2014-2023 Object Management Group, Inc.",copyright
+InterbankMidRate,interbank mid rate,rdf-schema#label
+InterbankMidRate,InterbankRate,rdf-schema#subClassOf
+OvernightRate,ReferenceInterestRate,rdf-schema#subClassOf
+Na7602c3d05404e4ab33f5c72642610e6,ReferenceInterestRate,owl#onClass
+InterestRateAuthority,FinancialServiceProvider,rdf-schema#subClassOf
+InterbankBidRate,interbank rate that is the interest rate at which participating banks are willing to borrow deposits from other banks,core#definition
+,Interest Rates Ontology,rdf-schema#label
+TwoYears,P2Y,hasDurationValue
+Nc752fa5fe11149b0880c1978fe0b41f4,1,owl#qualifiedCardinality
+N1de79c98666b44f88c20401c33eec0fe,isProvidedBy,owl#onProperty
+OneYear,one year,rdf-schema#label
+TwoMonths,two months,rdf-schema#label
+FortyEightMonths,"duration of exactly forty-eight months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+BaseRate,ReferenceInterestRate,rdf-schema#subClassOf
+N401f0f3dad85450a9a014c67f3b4cf40,Duration,owl#allValuesFrom
+N5169379776a14af4854355e31e827923,Publisher,owl#onClass
+Na7602c3d05404e4ab33f5c72642610e6,isBasedOn,owl#onProperty
+N401f0f3dad85450a9a014c67f3b4cf40,hasTenor,owl#onProperty
+FortyEightMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+TenYears,ten years,rdf-schema#label
+ReferenceInterestRate,reference interest rate,rdf-schema#label
+OneHundredEightyMonths,P180M,hasDurationValue
+FiveYears,P5Y,hasDurationValue
+N526592ca4cd045b9b9a124f9ab3aae1b,OneDay,owl#hasValue
+OneMonth,owl#NamedIndividual,22-rdf-syntax-ns#type
+TwoYears,ExplicitDuration,22-rdf-syntax-ns#type
+TwelveMonths,P12M,hasDurationValue
+TwoMonths,"duration of exactly two months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+ThirtySixMonths,thirty-six months,rdf-schema#label
+InterestRateBenchmarkClassificationScheme,interest rate benchmark classification scheme,rdf-schema#label
+SpecificProviderInterestRateBenchmark,Nf8378248cae44874843ddab5c9355a98,rdf-schema#subClassOf
+InterestRateAuthority,owl#Class,22-rdf-syntax-ns#type
+ThirtyYears,P30Y,hasDurationValue
+InterbankOfferedRate,interbank offered rate,rdf-schema#label
+InterestRateBenchmark,interest rate benchmark,rdf-schema#label
+ReferenceInterestRate,InterestRate,rdf-schema#subClassOf
+OvernightRate,"reference rate that is an interest rate at which a depository institution lends funds to another depository institution (short-term), or the interest rate the central bank charges a financial institution to borrow money overnight",core#definition
+FiveYears,duration of exactly five years,core#definition
+EighteenMonths,eighteen months,rdf-schema#label
+TwoYears,two years,rdf-schema#label
+hasRateResetTimeOfDay,hasDateTime,rdf-schema#subPropertyOf
+TwelveMonths,twelve months,rdf-schema#label
+NineMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nc752fa5fe11149b0880c1978fe0b41f4,hasReferenceCurrency,owl#onProperty
+OneDay,one day,rdf-schema#label
+,InterestRates.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+ReferenceInterestRate,MarketRate,rdf-schema#subClassOf
+FiveYears,five years,rdf-schema#label
+TwoMonths,ExplicitDuration,22-rdf-syntax-ns#type
+TwentyFourMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+OneMonth,one month,rdf-schema#label
+N1d43ef8bd09d4f8b8f6c05d4eff66edc,owl#Restriction,22-rdf-syntax-ns#type
+InterestRateBenchmarkClassificationScheme,"scheme for classifying interest rate benchmarks, such as the FpML classification scheme",core#definition
+FifteenYears,P15Y,hasDurationValue
+,"InterestRates.rdf version of this ontology was modified to move the property, 'is conferred on' to the Legal Capacity ontology and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+InterbankOfferedRate,owl#Class,22-rdf-syntax-ns#type
+TenYears,duration of exactly ten years,core#definition
+hasTenor,Duration,rdf-schema#range
+TwoYears,duration of exactly two years,core#definition
+FloatingInterestRate,owl#Class,22-rdf-syntax-ns#type
+OneWeek,owl#NamedIndividual,22-rdf-syntax-ns#type
+InterbankRate,interbank rate,rdf-schema#label
+InterbankBidRate,InterbankRate,rdf-schema#subClassOf
+,InterestRates.rdf version of this ontology was modified per the issue resolutions identified in the FIBO IND 1.0 FTF 2 report.,core#changeNote
+,"This ontology provides the basic types of interest rate which are recognized in the financial markets, and the relationships between these where applicable. These include bank base rates, inter-bank offer rates, overnight rates of interest and the US Federal Funds rate which is widely used as a rate of reference. It also includes the concept of a market rate spread between two interest rates.",abstract
+TwelveMonths,ExplicitDuration,22-rdf-syntax-ns#type
+OvernightRate,owl#Class,22-rdf-syntax-ns#type
+SixtyMonths,sixty months,rdf-schema#label
+SpecificProviderInterestRateBenchmark,InterestRateBenchmark,rdf-schema#subClassOf
+N1be2755023994ba89a20112f4b72ebc7,Duration,owl#onClass
+InterestRateAuthority,"This is typically a bank, central bank in the case of the publication of bank interest rates, or the committee responsible for publishing interbank rates, such as EURIBOR.",core#example
+TwoYears,owl#NamedIndividual,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+InterestRateBenchmarkClassificationScheme,Nc7fee4fc0bc94ba983512656a1f60c66,rdf-schema#subClassOf
+TenYears,ExplicitDuration,22-rdf-syntax-ns#type
+EighteenMonths,"duration of exactly eighteen months, regardless of the length in days of a given calendar month, but typically 30 days",core#definition
+InterestRateAuthority,N0dfbd5f71a274f6dad27c3c4ec1aba1d,rdf-schema#subClassOf
+,MIT,license
+TwoMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+FourYears,four years,rdf-schema#label
+InterbankBidRate,owl#Class,22-rdf-syntax-ns#type
+N1d43ef8bd09d4f8b8f6c05d4eff66edc,classifies,owl#onProperty
+N0dfbd5f71a274f6dad27c3c4ec1aba1d,ReferenceInterestRate,owl#someValuesFrom
+ThreeYears,three years,rdf-schema#label
+N0dfbd5f71a274f6dad27c3c4ec1aba1d,produces,owl#onProperty
+ReferenceInterestRate,Nf9e87f6786f4478f923e91b283927450,rdf-schema#subClassOf
+hasReferenceCurrency,has reference currency,rdf-schema#label
+SpecificProviderInterestRateBenchmark,owl#Class,22-rdf-syntax-ns#type
+Nc7fee4fc0bc94ba983512656a1f60c66,owl#Restriction,22-rdf-syntax-ns#type
+hasTenor,has tenor,rdf-schema#label
+Nf8378248cae44874843ddab5c9355a98,owl#Restriction,22-rdf-syntax-ns#type
+hasRateResetTimeOfDay,owl#ObjectProperty,22-rdf-syntax-ns#type
+InterestRateBenchmarkClassificationScheme,ClassificationScheme,rdf-schema#subClassOf
+OneYear,P1Y,hasDurationValue
+ReferenceInterestRate,N401f0f3dad85450a9a014c67f3b4cf40,rdf-schema#subClassOf
+InterestRateBenchmark,"Benchmark rates, such as EURIBOR, the Fed Funds rate, and many others including those identified as FpML rates, are used as benchmarks for a variety of debt instruments.",explanatoryNote
+,InterestRates.rdf version of this ontology was modified per the issue resolutions identified in the FIBO IND 1.0 FTF 1 report.,core#changeNote
+OneWeek,P7D,hasDurationValue
+InterbankRate,reference rate that is the rate of interest charged on short-term loans between banks,core#definition
+,"InterestRates.rdf version of this ontology was modified per the FIBO 2.0 RFC, including adding support for reference rates from FpML.",core#changeNote
+ThirtySixMonths,P36M,hasDurationValue
+ThreeYears,owl#NamedIndividual,22-rdf-syntax-ns#type
+ThirtySixMonths,ExplicitDuration,22-rdf-syntax-ns#type
+ThirtyYears,thirty years,rdf-schema#label
+hasReferenceCurrency,relates something to the currency it is based on,core#definition
+,InterestRates.rdf version of this ontology was modified to correct a restriction on specific provider interest rate benchmark.,core#changeNote
+N4876392b37bf41c7946b2810e341f2cd,owl#Restriction,22-rdf-syntax-ns#type
+FifteenYears,fifteen years,rdf-schema#label
+InterbankBidRate,"Unlike an interbank offered rate, which is the rate at which banks lend money, an interbank bid rate is the rate at which banks ask to borrow.",explanatoryNote
+OneWeek,"duration of exactly one week, or 7 days",core#definition
+Nf9e87f6786f4478f923e91b283927450,InterestRateBenchmark,owl#someValuesFrom
+N5169379776a14af4854355e31e827923,0,owl#minQualifiedCardinality
+InterestRateBenchmark,N1be2755023994ba89a20112f4b72ebc7,rdf-schema#subClassOf
+N5169379776a14af4854355e31e827923,owl#Restriction,22-rdf-syntax-ns#type
+ThreeYears,ExplicitDuration,22-rdf-syntax-ns#type
+FifteenYears,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nf32b0c83200646c7ad4909c0829c790a,DateTime,owl#onClass
+FourYears,duration of exactly four years,core#definition
+InterestRateBenchmark,QuantityKind,rdf-schema#subClassOf
+OneYear,ExplicitDuration,22-rdf-syntax-ns#type
+TwelveMonths,owl#NamedIndividual,22-rdf-syntax-ns#type
+OneMonth,P1M,hasDurationValue
+hasTenor,"indicates the length of time for which a given rate, such as an interbank rate, exchange rate, other market rate is quoted, or a debt instrument has remaining prior to maturity or expiration",core#definition
+OneDay,P1D,hasDurationValue
+NineMonths,nine months,rdf-schema#label
+TwentyFourMonths,P24M,hasDurationValue
+TenYears,owl#NamedIndividual,22-rdf-syntax-ns#type
+SpecificProviderInterestRateBenchmark,"Benchmarks, such as those published by Bloomberg, Thomson-Reuters, and others, are usually quoted as of a specific date and time of day.",explanatoryNote
+BaseRate,bank base rate,synonym

@@ -1,0 +1,79 @@
+source_id,target_id,relationship
+situates,isSituatedAt,owl#inverseOf
+Ne180adfb9a8c4affb1fe74c549303afe,Site,owl#onClass
+Capability,Nb18e1112e45f4e91a597050864597fb7,rdf-schema#subClassOf
+Facility,"something established to serve a particular purpose, make some course of action or operation easier, or provide some capability or service",core#definition
+Ne180adfb9a8c4affb1fe74c549303afe,isSituatedAt,owl#onProperty
+isSituatedAt,"Something may be situated at some site, or in some setting, situation, or context.",explanatoryNote
+N556776a7581447d8b9e945600a4aadec,hasAddress,owl#onProperty
+Na5a4eeaab3134d74a4222c2987603b83,TractOfLand,owl#onClass
+Site,owl#Class,22-rdf-syntax-ns#type
+Capability,capability,rdf-schema#label
+,Facilities.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+Venue,owl#Class,22-rdf-syntax-ns#type
+N484f1a7487054ba9af28da6d37868f04,owl#Thing,owl#someValuesFrom
+N4a1685f933f34d068608aab668b37789,Capability,owl#someValuesFrom
+Capability,"ability to perform a particular type of work that may involve people with particular skills and knowledge, intellectual property, defined practices, operating facilities, tools and equipment",core#definition
+Nb18e1112e45f4e91a597050864597fb7,Facility,owl#onClass
+,,owl#imports
+Facility,N556776a7581447d8b9e945600a4aadec,rdf-schema#subClassOf
+Ne180adfb9a8c4affb1fe74c549303afe,owl#Restriction,22-rdf-syntax-ns#type
+Nb18e1112e45f4e91a597050864597fb7,0,owl#minQualifiedCardinality
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+Nb18e1112e45f4e91a597050864597fb7,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#versionIRI
+N484f1a7487054ba9af28da6d37868f04,isApplicableIn,owl#onProperty
+,owl#Ontology,22-rdf-syntax-ns#type
+N4a1685f933f34d068608aab668b37789,provides,owl#onProperty
+Na5a4eeaab3134d74a4222c2987603b83,0,owl#minQualifiedCardinality
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+Na5a4eeaab3134d74a4222c2987603b83,owl#Restriction,22-rdf-syntax-ns#type
+,Facilities Ontology,rdf-schema#label
+Facility,owl#Class,22-rdf-syntax-ns#type
+Venue,Site,rdf-schema#subClassOf
+Facility,Ne180adfb9a8c4affb1fe74c549303afe,rdf-schema#subClassOf
+,"Facilities.rdf version of this ontology was modified to eliminate circular and ambiguous definitions, and simplify the ontology by merging physical site with site.",core#changeNote
+,"This ontology provides scaffolding for use in describing concepts related to facilities, both virtual and physical, including physical sites that provide various facilities.",abstract
+Facility,N4a1685f933f34d068608aab668b37789,rdf-schema#subClassOf
+Site,"place, setting, or context in which something, such as a facility, is situated",core#definition
+,"Facilities.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+N484f1a7487054ba9af28da6d37868f04,owl#Restriction,22-rdf-syntax-ns#type
+N2ee4317bc8404c6e96c6f08be5dba01f,situates,owl#onProperty
+Site,site,rdf-schema#label
+Ne180adfb9a8c4affb1fe74c549303afe,0,owl#minQualifiedCardinality
+Capability,owl#Class,22-rdf-syntax-ns#type
+N2ee4317bc8404c6e96c6f08be5dba01f,owl#Thing,owl#someValuesFrom
+Facility,"A facility may be concrete (as in a manufacturing facility) or abstract. Concrete facilities may be permanent, semi-permanent, or temporary structures, providing one or more capabilities at a given site. A single site may include multiple facilities and a given facility may span multiple sites.",explanatoryNote
+,Facilities.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+Na5a4eeaab3134d74a4222c2987603b83,appliesTo,owl#onProperty
+Site,"A physical site has certain characteristics that contribute to the context it provides, including area, shape, accessibility, and in the case of a geographic site, landforms, soil and ground conditions, climate, and so forth.",explanatoryNote
+,Facilities.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Site,Context,rdf-schema#subClassOf
+isSituatedAt,owl#ObjectProperty,22-rdf-syntax-ns#type
+Site,N2ee4317bc8404c6e96c6f08be5dba01f,rdf-schema#subClassOf
+N556776a7581447d8b9e945600a4aadec,0,owl#minQualifiedCardinality
+N556776a7581447d8b9e945600a4aadec,owl#Restriction,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+Capability,,adaptedFrom
+,Facilities.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+Site,"Example facilities that may situated at some site include structures and buildings, an archeological dig, the landing location for an aircraft or spacecraft, and the site of a wound. A given site may accommodate multiple facilities.",core#example
+Site,Na5a4eeaab3134d74a4222c2987603b83,rdf-schema#subClassOf
+,MIT,license
+situates,owl#ObjectProperty,22-rdf-syntax-ns#type
+isSituatedAt,is situated at,rdf-schema#label
+situates,situates,rdf-schema#label
+,Facilities.rdf version of this ontology was modified to allow a facility to exist at some location that has an address without requiring it to be situated at some site to simplify usage in cases where the site and facility have 100 percent overlap and are not tracked independently.,core#changeNote
+Facility,facility,rdf-schema#label
+situates,"indicates the place, setting, or context in which something is placed",core#definition
+Venue,N484f1a7487054ba9af28da6d37868f04,rdf-schema#subClassOf
+isSituatedAt,is placed at,core#definition
+Venue,venue,rdf-schema#label
+Venue,"site where something happens, described in the context of the event or activity that occurs there",core#definition
+,Facilities.rdf version of this ontology was modified to allow a facility to be anything rather than a role.,core#changeNote
+Nb18e1112e45f4e91a597050864597fb7,involves,owl#onProperty
+N556776a7581447d8b9e945600a4aadec,Address,owl#onClass
+N4a1685f933f34d068608aab668b37789,owl#Restriction,22-rdf-syntax-ns#type
+N2ee4317bc8404c6e96c6f08be5dba01f,owl#Restriction,22-rdf-syntax-ns#type
+,This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification.,core#changeNote
+,Facilities.rdf version of this ontology was modified for the FIBO 2.0 RFC to integrate it with LCC.,core#changeNote
+,Facilities.rdf version of this ontology was modified to integrate with the new real property ontology (LOAN-168).,core#changeNote

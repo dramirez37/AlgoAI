@@ -1,0 +1,129 @@
+source_id,target_id,relationship
+RealEstate,real estate asset,synonym
+RealProperty,"Real property may be classified according to its general use as residential, commercial, agricultural, industrial, or special purpose. This term is sometimes used synonymously with 'real estate', though not in all circumstances under US law.",explanatoryNote
+RealProperty,real property,rdf-schema#label
+RealPropertyIdentifier,unique identifier given to identify a specific real property in some jurisidiction,core#definition
+RealPropertyAppraisal,N13937f54e1ed474392c251480864cd97,rdf-schema#subClassOf
+RealEstate,RealEstate,owl#equivalentClass
+N32de737a41254e10a79ec5431fd85046,RealProperty,owl#someValuesFrom
+TractOfLand,N143b059df1b94f2aa664f5de52301234,rdf-schema#subClassOf
+RealEstate,Asset,rdf-schema#subClassOf
+N1df3dbad200b4baba1f9a21cc1c96cab,Jurisdiction,owl#onClass
+RealPropertyAppraisal,N32de737a41254e10a79ec5431fd85046,rdf-schema#subClassOf
+RealPropertyAppraisal,real property appraisal,rdf-schema#label
+,"This ontology defines concepts including real and personal property from a legal perspective, as well as assessments of those assets, for reference for taxation, lending, and related purposes.",abstract
+PropertyInspection,"The concept of a property inspection is separate from conducting an overarching appraisal. Examples are termite inspections, construction inspections, evaluation for completion of some milestone, improvement, correction, etc.",explanatoryNote
+RealProperty,parcel,synonym
+,Real Property Ontology,rdf-schema#label
+RealProperty,N7ef1ebcea73b48d68b83b55eff5ae653,rdf-schema#subClassOf
+RealProperty,600.101,adaptedFrom
+RealPropertyAppraisal,owl#Class,22-rdf-syntax-ns#type
+N143b059df1b94f2aa664f5de52301234,GeographicRegion,owl#someValuesFrom
+RealPropertyIdentifier,Ne82f4a3f0e8a42b58138373d8908a4f6,rdf-schema#subClassOf
+Ne82f4a3f0e8a42b58138373d8908a4f6,0,owl#minQualifiedCardinality
+RealPropertyAppraisal,The valuation uses one or more methodologies and is conducted by an appraiser or technology with a logical model that performs the same function.,explanatoryNote
+PersonalProperty,"Personal property may include tangible assets, such as machinery, furniture, vehicles, artwork, and jewelry, regardless of whether such assets are owned by a person or organization, and intangible assets, including but not limited to intellectual property and financial instruments.",explanatoryNote
+PropertyInspectionReport,AssessmentReport,rdf-schema#subClassOf
+PersonalProperty,owl#Class,22-rdf-syntax-ns#type
+N13937f54e1ed474392c251480864cd97,0,owl#minQualifiedCardinality
+N75be46bc6a874fd7b29834901510a94b,RealProperty,owl#someValuesFrom
+N13937f54e1ed474392c251480864cd97,owl#Restriction,22-rdf-syntax-ns#type
+Na776e5be51094f6f8382b7c706286ee5,0,owl#minQualifiedCardinality
+Na776e5be51094f6f8382b7c706286ee5,owl#Restriction,22-rdf-syntax-ns#type
+N04633676f5fd4edfbf48254aa68d5b57,owl#Restriction,22-rdf-syntax-ns#type
+RealProperty,RealEstate,rdf-schema#subClassOf
+TractOfLand,"or a narrative description, such as 'metes and bounds', which provides a qualitative, but less precise, legal description of the location. The system(s) used to describe the tract are specified in local, regional, and national law.",explanatoryNote
+,"Copyright (c) 2024 Object Management Group, Inc.",copyright
+PersonalProperty,RealProperty,owl#disjointWith
+,,owl#imports
+N7ef1ebcea73b48d68b83b55eff5ae653,RealPropertyAppraisal,owl#onClass
+N143b059df1b94f2aa664f5de52301234,owl#Restriction,22-rdf-syntax-ns#type
+TractIdentifier,unique identifier given to identify a tract in some jurisidiction,core#definition
+N195d22fcc99c46b99d7684cc7c92f77d,evaluates,owl#onProperty
+PropertyInspectionReport,report covering the findings of a property inspection,core#definition
+PropertyInspection,event that involves analyzing one or more aspects of a real property,core#definition
+N1df3dbad200b4baba1f9a21cc1c96cab,isApplicableIn,owl#onProperty
+N017d14219e7d4644840ab1c381f35a8a,identifies,owl#onProperty
+,,owl#versionIRI
+N7ef1ebcea73b48d68b83b55eff5ae653,0,owl#minQualifiedCardinality
+N7f5e4f4e60ec4025ab510554177febf0,isEvaluatedBy,owl#onProperty
+TractIdentifier,N1df3dbad200b4baba1f9a21cc1c96cab,rdf-schema#subClassOf
+PersonalProperty,N7f5e4f4e60ec4025ab510554177febf0,rdf-schema#subClassOf
+RealPropertyIdentifier,real property identifier,rdf-schema#label
+RealEstate,real estate,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+TractIdentifier,ContextualIdentifier,rdf-schema#subClassOf
+TractIdentifier,owl#Class,22-rdf-syntax-ns#type
+PersonalProperty,personal property,rdf-schema#label
+N017d14219e7d4644840ab1c381f35a8a,1,owl#qualifiedCardinality
+N7ef1ebcea73b48d68b83b55eff5ae653,isEvaluatedBy,owl#onProperty
+RealPropertyAppraisal,N03d73c1a974340beb6202954ad227801,rdf-schema#subClassOf
+N7ef1ebcea73b48d68b83b55eff5ae653,owl#Restriction,22-rdf-syntax-ns#type
+N143b059df1b94f2aa664f5de52301234,isSubregionOf,owl#onProperty
+Ned109a32e3e5493f88c2372449024a08,RealProperty,owl#onClass
+N1df3dbad200b4baba1f9a21cc1c96cab,0,owl#minQualifiedCardinality
+N1df3dbad200b4baba1f9a21cc1c96cab,owl#Restriction,22-rdf-syntax-ns#type
+N195d22fcc99c46b99d7684cc7c92f77d,RealProperty,owl#someValuesFrom
+Na776e5be51094f6f8382b7c706286ee5,hasOutput,owl#onProperty
+Ned109a32e3e5493f88c2372449024a08,owl#Restriction,22-rdf-syntax-ns#type
+N195d22fcc99c46b99d7684cc7c92f77d,owl#Restriction,22-rdf-syntax-ns#type
+PersonalProperty,Asset,rdf-schema#subClassOf
+N13937f54e1ed474392c251480864cd97,PropertyInspectionReport,owl#onClass
+Ne82f4a3f0e8a42b58138373d8908a4f6,isApplicableIn,owl#onProperty
+N04633676f5fd4edfbf48254aa68d5b57,hasAddress,owl#onProperty
+N7f5e4f4e60ec4025ab510554177febf0,0,owl#minQualifiedCardinality
+N7f5e4f4e60ec4025ab510554177febf0,owl#Restriction,22-rdf-syntax-ns#type
+RealEstate,"real property, interests in mortgages on real property (including interests in mortgages on leaseholds of land or improvements thereon), and shares in qualified real estate investment trusts",core#definition
+TractOfLand,owl#Class,22-rdf-syntax-ns#type
+PropertyInspection,Na776e5be51094f6f8382b7c706286ee5,rdf-schema#subClassOf
+N03d73c1a974340beb6202954ad227801,owl#Restriction,22-rdf-syntax-ns#type
+TractOfLand,geographic region that is a specific area within a larger region on the surface of the earth,core#definition
+PropertyInspectionReport,owl#Class,22-rdf-syntax-ns#type
+RealPropertyIdentifier,ContextualIdentifier,rdf-schema#subClassOf
+TractOfLand,GeographicRegion,rdf-schema#subClassOf
+,"Copyright (c) 2024 EDM Council, Inc.",copyright
+TractOfLand,tract of land,rdf-schema#label
+PropertyInspectionReport,N75be46bc6a874fd7b29834901510a94b,rdf-schema#subClassOf
+RealProperty,PhysicalAsset,rdf-schema#subClassOf
+RealProperty,"physical asset defined as land together with any structures that are permanently attached to that land, such as houses, trees, fences and improvements",core#definition
+RealProperty,owl#Class,22-rdf-syntax-ns#type
+RealPropertyAppraisal,value assessment that estimates the amount of money some real property is worth,core#definition
+RealEstate,1.856-3,adaptedFrom
+Ne82f4a3f0e8a42b58138373d8908a4f6,owl#Restriction,22-rdf-syntax-ns#type
+N13937f54e1ed474392c251480864cd97,hasInput,owl#onProperty
+RealEstate,owl#Class,22-rdf-syntax-ns#type
+Ne82f4a3f0e8a42b58138373d8908a4f6,Jurisdiction,owl#onClass
+RealPropertyAppraisal,Appraisal,rdf-schema#subClassOf
+N7f5e4f4e60ec4025ab510554177febf0,Appraisal,owl#onClass
+N32de737a41254e10a79ec5431fd85046,owl#Restriction,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+PropertyInspection,property inspection,rdf-schema#label
+RealEstate,The term 'mortgages on real property' includes deeds of trust on real property. Note that interpretation of the term 'real estate' is context-dependent - this broader interpretation is used in tax law in the US and elsewhere.,explanatoryNote
+PropertyInspection,N195d22fcc99c46b99d7684cc7c92f77d,rdf-schema#subClassOf
+,MIT,license
+RealProperty,"Real property typically encompasses both the physical land and everything that lies above, below, or on its surface, including any fixed structures, natural resources, and rights or interests (e.g., mineral rights). There are cases, such as condominiums, in which the interior of the structure is owned by a party that may not own the land. There are also cases in which certain long-term leases have similar characteristics to ownership, but are time-bound.",explanatoryNote
+Na776e5be51094f6f8382b7c706286ee5,PropertyInspectionReport,owl#onClass
+TractIdentifier,tract identifier,rdf-schema#label
+RealPropertyIdentifier,Ned109a32e3e5493f88c2372449024a08,rdf-schema#subClassOf
+RealPropertyIdentifier,owl#Class,22-rdf-syntax-ns#type
+PropertyInspection,AssessmentEvent,rdf-schema#subClassOf
+N04633676f5fd4edfbf48254aa68d5b57,PhysicalAddress,owl#onClass
+N32de737a41254e10a79ec5431fd85046,evaluates,owl#onProperty
+TractOfLand,N04633676f5fd4edfbf48254aa68d5b57,rdf-schema#subClassOf
+N017d14219e7d4644840ab1c381f35a8a,TractOfLand,owl#onClass
+PersonalProperty,asset that is a movable item or possession not fixed to land,core#definition
+N03d73c1a974340beb6202954ad227801,isProvidedBy,owl#onProperty
+RealProperty,real-property.asp,rdf-schema#seeAlso
+N75be46bc6a874fd7b29834901510a94b,owl#Restriction,22-rdf-syntax-ns#type
+N017d14219e7d4644840ab1c381f35a8a,owl#Restriction,22-rdf-syntax-ns#type
+TractOfLand,"In some cases, such as in the case of unimproved land that may be owned by a government but without improvements, there may not be an address.",explanatoryNote
+N75be46bc6a874fd7b29834901510a94b,isAbout,owl#onProperty
+Parcel,TractOfLand,owl#equivalentClass
+PropertyInspection,owl#Class,22-rdf-syntax-ns#type
+N03d73c1a974340beb6202954ad227801,Appraiser,owl#someValuesFrom
+TractIdentifier,N017d14219e7d4644840ab1c381f35a8a,rdf-schema#subClassOf
+N04633676f5fd4edfbf48254aa68d5b57,0,owl#minQualifiedCardinality
+Ned109a32e3e5493f88c2372449024a08,identifies,owl#onProperty
+PropertyInspectionReport,property inspection report,rdf-schema#label
+Ned109a32e3e5493f88c2372449024a08,1,owl#qualifiedCardinality
+Parcel,owl#Class,22-rdf-syntax-ns#type

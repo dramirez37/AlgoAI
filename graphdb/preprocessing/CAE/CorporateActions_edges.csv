@@ -1,0 +1,186 @@
+source_id,target_id,relationship
+ActionClassifier,OccurrenceKind,rdf-schema#subClassOf
+Notification,MandatoryCorporateAction,rdf-schema#subClassOf
+PriorityIssue,priority issue,rdf-schema#label
+VoluntaryCorporateAction,MandatoryCorporateAction,owl#disjointWith
+PriorityIssue,VoluntaryCorporateAction,rdf-schema#subClassOf
+N71497ab1479a46aca4c62a0d79638f2a,N9d3c0a50a38a46878ff4b788fc89eccf,owl#unionOf
+ActionClassifier,"ISO 15022 classifies events as impacting income vs. others. Other classification schemes distinguish between actions that return profits to shareholders, actions that are designed to influence the share price, and actions involving a change in structure to the issuer organization.",explanatoryNote
+ActionClassificationScheme,Ne58365cc6cdd48e08fb0115742a2122c,rdf-schema#subClassOf
+ActionClassificationScheme,action classification scheme,rdf-schema#label
+OrganizationAddressChange,owl#Class,22-rdf-syntax-ns#type
+IncomeOrientedClassifier,owl#Class,22-rdf-syntax-ns#type
+N71497ab1479a46aca4c62a0d79638f2a,owl#Class,22-rdf-syntax-ns#type
+N077b0e43da7749f58af611c885fac713,1,owl#qualifiedCardinality
+IncomeOrientedClassifier,"Cash dividends are a classic example where a public company declares a dividend to be paid on each outstanding share. Bonus is another case where the shareholder is rewarded. In a stricter sense, the bonus issue should not impact the share price but in reality, in rare cases, it does and results in an overall increase in value.",explanatoryNote
+ConsentSolicitation,VoluntaryCorporateAction,rdf-schema#subClassOf
+IncomeOrientedClassifier,income-oriented classifier,rdf-schema#label
+SpinOff,"Spin-off represents a form of divestiture usually resulting in an independent company or in an existing company. Examples include demerger, distribution, and unbundling.",explanatoryNote
+N6fe8bc8e305d4fefb1ecc1c5c5b793bd,owl#Restriction,22-rdf-syntax-ns#type
+VoluntaryCorporateAction,event in which the shareholders elect to participate and must respond in order for the issuer to process the action,core#definition
+ActionClassifier,N3888136395f144378dc5eae21d71ba43,rdf-schema#subClassOf
+ClassAction,corporate action involving a situation where interested parties seek restitution for financial loss,core#definition
+ActionClassifier,N0ed5062f18cd4932b6f454689b3e6794,rdf-schema#subClassOf
+ClassAction,The security holder may be offered the opportunity to join a class action proceeding and would need to respond with an instruction.,explanatoryNote
+RegulatoryAction,"action initiated by a regulatory agency that affects a legal entity or the securities it issues and may have a material impact on that entity's stakeholders, such as shareholders and creditors",core#definition
+OrganizationAddressChange,organization address change,rdf-schema#label
+ClassAction,VoluntaryCorporateAction,rdf-schema#subClassOf
+ActionClassificationScheme,ClassificationScheme,rdf-schema#subClassOf
+Liquidation,owl#Class,22-rdf-syntax-ns#type
+N3888136395f144378dc5eae21d71ba43,isDefinedIn,owl#onProperty
+N6fe8bc8e305d4fefb1ecc1c5c5b793bd,Action,owl#someValuesFrom
+MarketAction,Action,rdf-schema#subClassOf
+MandatoryWithChoiceCorporateAction,mandatory corporate action where shareholders are given an opportunity to choose among several options,core#definition
+ActionStatus,LifecycleStatus,rdf-schema#subClassOf
+ActionStatus,state of some action at some point in time,core#definition
+Divestiture,corporate action involving the sales of subsidiary business interests or investments,core#definition
+BusinessStrategyClassifier,"classifier of corporate actions that involve improving liquidity or changing the overall structure of the organization through diversification, combining and closing parts of the business, etc, to increase long-term profitability",core#definition
+Action,action,rdf-schema#label
+ActionClassificationScheme,"scheme for classifying the kinds of actions and events that may be announced, initiated or carried out by an organization that affects a legal entity or the securities it issues",core#definition
+DisclosureAction,"corporate action involving a request for holders or beneficial owners to disclose their name, location and holdings of any issue to the issuer",core#definition
+N1260916b944d4cf0b8019ff4b1e9e558,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+ChangeAction,MandatoryCorporateAction,rdf-schema#subClassOf
+Action,Actions initiated by an issuer are typically approved by that company's board of directors and authorized by their shareholders.,explanatoryNote
+,CorporateActions.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+ChangeAction,owl#Class,22-rdf-syntax-ns#type
+,"CorporateActions.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+SpinOff,spin off,rdf-schema#label
+VoluntaryCorporateAction,voluntary corporate action,rdf-schema#label
+MergerAcquisition,owl#Class,22-rdf-syntax-ns#type
+Liquidation,Divestiture,rdf-schema#subClassOf
+CorporateAction,Corporate actions are typically approved by a company's board of directors and authorized by the shareholders.,explanatoryNote
+MandatoryCorporateAction,"Examples of mandatory corporate actions include cash dividends, stock splits, mergers, pre-refunding, return of capital, bonus issue, asset ID change, and spin-offs.",core#example
+DisclosureAction,disclosure action,rdf-schema#label
+MandatoryCorporateAction,mandatory corporate action,rdf-schema#label
+OrganizationNameChange,organization name change,rdf-schema#label
+N5e14aa74c7654461bffc39d5c33b8678,N71497ab1479a46aca4c62a0d79638f2a,owl#someValuesFrom
+Liquidation,"corporate action related to winding up a business, including but not limited to distribution of cash, assets, or both",core#definition
+,"Copyright (c) 2016-2023 Object Management Group, Inc.",copyright
+DisclosureAction,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+ChangeAction,change action,rdf-schema#label
+ClassAction,proposed settlement,synonym
+OrganizationNameChange,"Name changes may include legal name changes as well as 'doing business as', and other operational names for an organization.",core#note
+LegalFormChange,MandatoryCorporateAction,rdf-schema#subClassOf
+N5e14aa74c7654461bffc39d5c33b8678,appliesTo,owl#onProperty
+ActionClassificationScheme,Nb2c7462d3bd34e6bb37f81756bcc1f9e,rdf-schema#subClassOf
+ActionClassificationScheme,CodeSet,rdf-schema#subClassOf
+Ne58365cc6cdd48e08fb0115742a2122c,hasMember,owl#onProperty
+ChangeAction,corporate action to disseminate information regarding a change further described in the corporate action details,core#definition
+DisclosureAction,VoluntaryCorporateAction,rdf-schema#subClassOf
+Divestiture,divestiture,rdf-schema#label
+OrganizationNameChange,Notification,rdf-schema#subClassOf
+Nb2c7462d3bd34e6bb37f81756bcc1f9e,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#versionIRI
+ActionClassificationScheme,owl#Class,22-rdf-syntax-ns#type
+MergerAcquisition,"Such consolidation may be accomplished via financial transactions such as mergers, acquisitions, consolidations, tender offers, purchase of assets, and management acquisitions.",explanatoryNote
+Nb2c7462d3bd34e6bb37f81756bcc1f9e,ActionClassifier,owl#someValuesFrom
+,"This ontology provides a high level overview of actions including corporate, market, and regulatory actions, ranging from business oriented events such as address and name changes, to those that are more specific to securities.",abstract
+N3888136395f144378dc5eae21d71ba43,ActionClassificationScheme,owl#onClass
+,owl#Ontology,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2023 EDM Council, Inc.",copyright
+ActionStatus,N380ce2be08514cea9ebad50d47e7ea38,rdf-schema#subClassOf
+IncomeOrientedClassifier,classifier of corporate actions that impacts income to shareholders,core#definition
+ActionStatus,owl#Class,22-rdf-syntax-ns#type
+N3888136395f144378dc5eae21d71ba43,owl#Restriction,22-rdf-syntax-ns#type
+ActionClassifier,"classifier that distinguishes the kinds of actions and events that may be announced, initiated or carried out by an organization that affects a legal entity or the securities it issues, such as income-oriented events",core#definition
+Liquidation,"Debt may be paid in order of priority based on preferred claims to assets specified by a security, for example.",explanatoryNote
+N380ce2be08514cea9ebad50d47e7ea38,owl#Restriction,22-rdf-syntax-ns#type
+MarketAction,market action,rdf-schema#label
+OrganizationAddressChange,information action that provides details of address changes for a legal entity,core#definition
+N380ce2be08514cea9ebad50d47e7ea38,XMLSchema#string,owl#someValuesFrom
+N380ce2be08514cea9ebad50d47e7ea38,hasTag,owl#onProperty
+N9d3c0a50a38a46878ff4b788fc89eccf,N1260916b944d4cf0b8019ff4b1e9e558,22-rdf-syntax-ns#rest
+Action,"event announced, initiated or carried out by an organization that affects a legal entity or the securities it issues and may have a material impact on that entity's stakeholders, such as shareholders and creditors",core#definition
+MarketAction,"action that is initiated by a market, such as a securities exchange, that affects a legal entity or the securities it issues and may have a material impact on that entity's stakeholders, such as shareholders and creditors",core#definition
+CorporateAction,Action,rdf-schema#subClassOf
+SpinOff,owl#Class,22-rdf-syntax-ns#type
+N086a921c08244e4c8dd728da837a7991,classifies,owl#onProperty
+LegalFormChange,legal form change,rdf-schema#label
+SpinOff,Divestiture,rdf-schema#subClassOf
+ActionClassifier,Classifier,rdf-schema#subClassOf
+Notification,owl#Class,22-rdf-syntax-ns#type
+ConsentSolicitation,corporate action that is a procedure that aims to obtain consent of holder to a proposal by the issuer or a third party without convening a meeting,core#definition
+N077b0e43da7749f58af611c885fac713,isMemberOf,owl#onProperty
+MandatoryCorporateAction,"Mandatory means mandatory participation by all shareholders, however the shareholder is not required to do anything.",explanatoryNote
+ConsentSolicitation,"For example, consent to change the terms of a bond.",core#example
+LegalFormChange,"In the United States it is common for companies established as Subchapter S Corporations (S-Corp), typically early stage companies, to modify their structure to become full-fledged Subchapter C Corporations (C-Corp) to facilitate outside fundraising, mergers, acquisitions, and public offerings. Other common form changes include migration from sole proprietorships to more formally registered organizations (e.g., LLC, S-Corp, C-Corp, etc.)",core#example
+OrganizationAddressChange,"Address changes may impact securities master data management, including but not limited to where shares are registered and by whom.",core#note
+BusinessStrategyClassifier,business strategy classifier,rdf-schema#label
+Ne58365cc6cdd48e08fb0115742a2122c,owl#Restriction,22-rdf-syntax-ns#type
+N9d3c0a50a38a46878ff4b788fc89eccf,LegalEntity,22-rdf-syntax-ns#first
+ClassAction,owl#Class,22-rdf-syntax-ns#type
+CorporateAction,"Examples of corporate actions include share issues, stock splits, consolidation, dividends, mergers and acquisitions, rights issues, spin-offs, and the inception of court actions.",core#example
+Liquidation,liquidation,rdf-schema#label
+ChangeAction,"Generic changes may include a change in the terms of an issue, change in the identification of a security, change of board lot, change from global to definitive, etc.",explanatoryNote
+RegulatoryAction,owl#Class,22-rdf-syntax-ns#type
+LegalFormChange,owl#Class,22-rdf-syntax-ns#type
+LegalFormChange,corporate action indicating a modification of the legal form of the organization,core#definition
+Action,N5e14aa74c7654461bffc39d5c33b8678,rdf-schema#subClassOf
+N077b0e43da7749f58af611c885fac713,ActionClassificationScheme,owl#onClass
+MandatoryCorporateAction,CorporateAction,rdf-schema#subClassOf
+ActionClassifier,owl#Class,22-rdf-syntax-ns#type
+VoluntaryCorporateAction,CorporateAction,rdf-schema#subClassOf
+N077b0e43da7749f58af611c885fac713,owl#Restriction,22-rdf-syntax-ns#type
+OrganizationAddressChange,Notification,rdf-schema#subClassOf
+Action,"Actions that impact an entity may be initiated by an issuer, exchange, regulator, creditor, or other third party.",core#example
+ActionStatus,N086a921c08244e4c8dd728da837a7991,rdf-schema#subClassOf
+MandatoryCorporateAction,action initiated by the board of directors of a corporation that affects all shareholders,core#definition
+N086a921c08244e4c8dd728da837a7991,owl#Restriction,22-rdf-syntax-ns#type
+Nb2c7462d3bd34e6bb37f81756bcc1f9e,defines,owl#onProperty
+CorporateAction,"action carried out by or specifically relating to a legal entity that may affect the securities it issues and may have a material impact on its stakeholders, such as shareholders and creditors",core#definition
+MandatoryWithChoiceCorporateAction,owl#Class,22-rdf-syntax-ns#type
+OrganizationNameChange,information action that provides details of name changes for a legal entity,core#definition
+MergerAcquisition,MandatoryCorporateAction,rdf-schema#subClassOf
+ClassAction,class action,rdf-schema#label
+N0ed5062f18cd4932b6f454689b3e6794,owl#Restriction,22-rdf-syntax-ns#type
+MandatoryWithChoiceCorporateAction,mandatory with choice corporate action,rdf-schema#label
+ActionClassifier,action classifier,rdf-schema#label
+PriorityIssue,owl#Class,22-rdf-syntax-ns#type
+N1279e9c182154401b785360cc17d9667,owl#Restriction,22-rdf-syntax-ns#type
+N1279e9c182154401b785360cc17d9667,isClassifiedBy,owl#onProperty
+Divestiture,"Divestiture is an action or process involving the sale, spinoff, or liquidation of business assets, including product lines, services, subsidiaries, business property, or even an entire business. Companies may pursue a divestment strategy to refocus on their core business, in response to the operating environment in their industry, to raise capital, or to release underperforming assets.",core#note
+N1279e9c182154401b785360cc17d9667,ActionClassifier,owl#someValuesFrom
+MandatoryWithChoiceCorporateAction,"In case a shareholder does not submit the election, the default option will be applied.",explanatoryNote
+ConsentSolicitation,owl#Class,22-rdf-syntax-ns#type
+CorporateAction,corporate action,rdf-schema#label
+Ne58365cc6cdd48e08fb0115742a2122c,ActionClassifier,owl#allValuesFrom
+RegulatoryAction,Action,rdf-schema#subClassOf
+Action,Occurrence,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+PriorityIssue,"corporate action that is a public offer where, due to a limited amount of securities available, priority is given to existing shareholders",core#definition
+Divestiture,MandatoryCorporateAction,rdf-schema#subClassOf
+ActionClassifier,N077b0e43da7749f58af611c885fac713,rdf-schema#subClassOf
+Divestiture,owl#Class,22-rdf-syntax-ns#type
+,MIT,license
+OrganizationNameChange,owl#Class,22-rdf-syntax-ns#type
+BusinessStrategyClassifier,ActionClassifier,rdf-schema#subClassOf
+N5e14aa74c7654461bffc39d5c33b8678,owl#Restriction,22-rdf-syntax-ns#type
+Notification,financial impact on the holder,core#definition
+N1260916b944d4cf0b8019ff4b1e9e558,Security,22-rdf-syntax-ns#first
+MandatoryWithChoiceCorporateAction,MandatoryCorporateAction,rdf-schema#subClassOf
+N3888136395f144378dc5eae21d71ba43,1,owl#qualifiedCardinality
+Action,owl#Class,22-rdf-syntax-ns#type
+ActionStatus,action status,rdf-schema#label
+MergerAcquisition,corporate action involving the consolidation of legal entities or assets,core#definition
+VoluntaryCorporateAction,owl#Class,22-rdf-syntax-ns#type
+VoluntaryCorporateAction,"Shareholders send responses to the issuer's agents, and the issuer will send the proceeds of the action to those shareholders who elect to participate.",explanatoryNote
+MarketAction,owl#Class,22-rdf-syntax-ns#type
+N0ed5062f18cd4932b6f454689b3e6794,XMLSchema#string,owl#someValuesFrom
+N0ed5062f18cd4932b6f454689b3e6794,hasTag,owl#onProperty
+BusinessStrategyClassifier,owl#Class,22-rdf-syntax-ns#type
+ActionClassifier,N6fe8bc8e305d4fefb1ecc1c5c5b793bd,rdf-schema#subClassOf
+ActionClassificationScheme,"The set of corporate actions and income events included herein are a subset of those specified in a combination of ISO 15022 Securities - Scheme for Messages (Data Field Dictionary) and the GLEIF LEI-related corporate actions. Other schemes that are specific to a custodian, depository, or regulatory agency may also be important, and should take a similar approach with respect to classification.",usageNote
+N6fe8bc8e305d4fefb1ecc1c5c5b793bd,classifies,owl#onProperty
+MergerAcquisition, acquisition,rdf-schema#label
+N086a921c08244e4c8dd728da837a7991,Action,owl#someValuesFrom
+Action,N1279e9c182154401b785360cc17d9667,rdf-schema#subClassOf
+MandatoryCorporateAction,owl#Class,22-rdf-syntax-ns#type
+ConsentSolicitation,consent solicitation,rdf-schema#label
+SpinOff,corporate action involving the distribution of subsidiary stock to the shareholders of the parent company without a surrender of shares,core#definition
+IncomeOrientedClassifier,ActionClassifier,rdf-schema#subClassOf
+VoluntaryCorporateAction,"An example of a voluntary corporate action is a tender offer, in which the issuer may request shareholders to tender their shares at a predetermined price.",core#example
+CorporateAction,owl#Class,22-rdf-syntax-ns#type
+,Corporate Actions Ontology,rdf-schema#label
+Notification,notification,rdf-schema#label
+RegulatoryAction,regulatory action,rdf-schema#label

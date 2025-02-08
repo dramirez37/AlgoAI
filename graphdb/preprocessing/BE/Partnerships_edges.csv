@@ -1,0 +1,175 @@
+source_id,target_id,relationship
+GeneralPartner,N48280ec2b1c346e1a80fb8db9637a755,rdf-schema#subClassOf
+LimitedPartnership,Nb592424f2bfb442c816c72acc2a74fc3,rdf-schema#subClassOf
+N15a35298bd794f6eb8590b85055dff49,owl#Restriction,22-rdf-syntax-ns#type
+Nfeb6a67df9274b0183f2029139029f79,N1f68f226925d4a69851c7227795d9c2d,owl#someValuesFrom
+LimitedPartner,Partner,rdf-schema#subClassOf
+Partner,Nb54caf25faae4f30af75c77230ceb04f,rdf-schema#subClassOf
+GeneralPartner,partner and part-owner that is responsible for managing the day to day operations of the partnership and that may be jointly and severally liable for the obligations of the partnership,core#definition
+LimitedLiabilityPartnership,"Law firms, accountancies, wealth managers, professional medical groups, and other professional consultancies often take the form of a limited liability partnership.",core#example
+Partnership,owl#Class,22-rdf-syntax-ns#type
+Nb54caf25faae4f30af75c77230ceb04f,N664ec443f5a3497eb931618753213c15,owl#someValuesFrom
+LimitedLiabilityLimitedPartnership,owl#Class,22-rdf-syntax-ns#type
+hasGeneralPartner,Partnership,rdf-schema#domain
+Partner,N7092a2cec2ab423da4a3731e5f5aaaa6,rdf-schema#subClassOf
+LimitedPartner,GeneralPartner,owl#disjointWith
+Ne4a35c6f356b4bb2baca122a803128a4,hasMember,owl#onProperty
+Nc659f64febfd45bc9c315cb8a597461e,0,owl#minQualifiedCardinality
+,Partnerships Ontology,rdf-schema#label
+N664ec443f5a3497eb931618753213c15,isMemberOf,owl#onProperty
+Nc659f64febfd45bc9c315cb8a597461e,hasObjective,owl#onProperty
+LimitedLiabilityPartnership,LLPs are a flexible legal and tax entity that allows partners to benefit from economies of scale by working together while also reducing their liability for the actions of other partners.,explanatoryNote
+,Partnerships.rdf version of this ontology was modified to fix spelling errors.,core#changeNote
+PartnershipAgreement,partnership agreement,rdf-schema#label
+Na32382f614ce4460a35c0b85f8217b80,owl#Restriction,22-rdf-syntax-ns#type
+Nb592424f2bfb442c816c72acc2a74fc3,GeneralPartner,owl#someValuesFrom
+, merge the legal person and formal organization class hierarchies.,core#changeNote
+Partner,partner,rdf-schema#label
+LimitedLiabilityPartnership,limited liability partnership,rdf-schema#label
+PartnershipAgreement,OrganizationCoveringAgreement,rdf-schema#subClassOf
+Partnership, for additional details.,explanatoryNote
+GeneralPartnership,owl#Class,22-rdf-syntax-ns#type
+Nfeb6a67df9274b0183f2029139029f79,owl#Restriction,22-rdf-syntax-ns#type
+Nb54caf25faae4f30af75c77230ceb04f,owl#Restriction,22-rdf-syntax-ns#type
+N664ec443f5a3497eb931618753213c15,owl#Restriction,22-rdf-syntax-ns#type
+LimitedLiabilityLimitedPartnership,"The primary difference between an LLLP and more traditional limited partnership is that an LLLP allows liability transfer from the general partner's (to external insurer) for debts and obligations of the limited partnership. Typically, general partners manage the LLLP, while the limited partners' interest is primarily for investment purposes.",explanatoryNote
+LimitedPartnership,owl#Class,22-rdf-syntax-ns#type
+hasLimitedPartner,indicates an actor that may have some measure of influence over the partnership,core#definition
+N894622b4a63a4357ab85e78bd877264c,owl#Restriction,22-rdf-syntax-ns#type
+,Partnerships.rdf version of this ontology was modified to address text formatting hygiene issues.,core#changeNote
+N2a3788794d164aab98f977bfea15d577,GeneralPartner,owl#someValuesFrom
+GeneralPartner,general partner,rdf-schema#label
+N55fabe8c18304e38bd4a1e5d624bc5d1,Na32382f614ce4460a35c0b85f8217b80,owl#someValuesFrom
+N894622b4a63a4357ab85e78bd877264c,LiabilityCapacity,owl#someValuesFrom
+GeneralPartnership,general partnership,rdf-schema#label
+N48280ec2b1c346e1a80fb8db9637a755,owl#Restriction,22-rdf-syntax-ns#type
+Partnership,Nc659f64febfd45bc9c315cb8a597461e,rdf-schema#subClassOf
+,"Partnerships.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+GeneralPartnership,GP,abbreviation
+,,owl#imports
+isLimitedPartnerOf,indicates the organization that the limited partner participates in,core#definition
+GeneralPartnership,N2a3788794d164aab98f977bfea15d577,rdf-schema#subClassOf
+N894622b4a63a4357ab85e78bd877264c,hasCapacity,owl#onProperty
+LimitedPartnership,LP,abbreviation
+Nb592424f2bfb442c816c72acc2a74fc3,hasGeneralPartner,owl#onProperty
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+Partner,ConstitutionalOwner,rdf-schema#subClassOf
+hasGeneralPartner,GeneralPartner,rdf-schema#range
+,Partnerships.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+,,owl#versionIRI
+N15a35298bd794f6eb8590b85055dff49,PartnershipAgreement,owl#someValuesFrom
+isLimitedPartnerOf,LimitedPartner,rdf-schema#domain
+,owl#Ontology,22-rdf-syntax-ns#type
+N2a3788794d164aab98f977bfea15d577,hasGeneralPartner,owl#onProperty
+isLimitedPartnerOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+N55fabe8c18304e38bd4a1e5d624bc5d1,owl#Restriction,22-rdf-syntax-ns#type
+GeneralPartner,Partner,rdf-schema#subClassOf
+,Partnerships.rdf version of this ontology was modified to reflect the move of hasObjective to FND to enable higher level reuse.,core#changeNote
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+Partner,Nfeb6a67df9274b0183f2029139029f79,rdf-schema#subClassOf
+Nc659f64febfd45bc9c315cb8a597461e,owl#Restriction,22-rdf-syntax-ns#type
+LimitedLiabilityPartnership,owl#Class,22-rdf-syntax-ns#type
+LimitedPartnership,limited partnership,rdf-schema#label
+N1f68f226925d4a69851c7227795d9c2d,owl#Restriction,22-rdf-syntax-ns#type
+isGeneralPartnerOf,actsOn,rdf-schema#subPropertyOf
+N15a35298bd794f6eb8590b85055dff49,isGovernedBy,owl#onProperty
+Nb592424f2bfb442c816c72acc2a74fc3,owl#Restriction,22-rdf-syntax-ns#type
+LimitedPartnership,Nf903133f35084f04a4c7e08ee49893a1,rdf-schema#subClassOf
+PartnershipAgreement,owl#Class,22-rdf-syntax-ns#type
+,Partnerships.rdf version of this ontology was modified to eliminate duplication with concepts in LCC.,core#changeNote
+hasLimitedPartner,LimitedPartner,rdf-schema#range
+N45858ad974194955a761935e93672ca8,owl#Restriction,22-rdf-syntax-ns#type
+LimitedLiabilityPartnership,N9c6b11e374184652a47eea07bc7cc942,rdf-schema#subClassOf
+isGeneralPartnerOf,Partnership,rdf-schema#range
+LimitedPartner,limited partner,rdf-schema#label
+N664ec443f5a3497eb931618753213c15,Partnership,owl#someValuesFrom
+isGeneralPartnerOf,GeneralPartner,rdf-schema#domain
+,Partnerships.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+Nf903133f35084f04a4c7e08ee49893a1,owl#Restriction,22-rdf-syntax-ns#type
+N2a3788794d164aab98f977bfea15d577,owl#Restriction,22-rdf-syntax-ns#type
+hasLimitedPartner,has limited partner,rdf-schema#label
+Ne4a35c6f356b4bb2baca122a803128a4,N45858ad974194955a761935e93672ca8,owl#someValuesFrom
+N9c6b11e374184652a47eea07bc7cc942,GeneralPartner,owl#someValuesFrom
+,"This ontology defines partnerships and related concepts. The concepts distinguish general from limited partners, as well as the types of equity that they hold. Included are abstract definitions of partnership types based on whether they have general, limited or both kinds of partners. Both legally incorporated and non incorporated forms of partnerships are covered.",abstract
+isLimitedPartnerOf,hasLimitedPartner,owl#inverseOf
+Partnership,association of two or more legal persons to carry on as co-owners a business for profit,core#definition
+N45858ad974194955a761935e93672ca8,playsRole,owl#onProperty
+LimitedLiabilityPartnership,Partnership,rdf-schema#subClassOf
+Ne4a35c6f356b4bb2baca122a803128a4,owl#Restriction,22-rdf-syntax-ns#type
+,Partnerships.rdf version of this ontology was modified to reflect the move of OrganizationMember from Parties to Organizations in FND.,core#changeNote
+Partnership,partnership,rdf-schema#label
+Na32382f614ce4460a35c0b85f8217b80,GeneralPartner,owl#onClass
+Nb54caf25faae4f30af75c77230ceb04f,isPlayedBy,owl#onProperty
+Nd25792af25ed4848aa0ba915dae58ad6,hasPartyRole,owl#onProperty
+Nf903133f35084f04a4c7e08ee49893a1,LimitedPartner,owl#someValuesFrom
+Partnership,N15a35298bd794f6eb8590b85055dff49,rdf-schema#subClassOf
+LimitedPartner,owl#Class,22-rdf-syntax-ns#type
+LimitedLiabilityPartnership,LimitedPartnership,owl#disjointWith
+N7092a2cec2ab423da4a3731e5f5aaaa6,owl#Restriction,22-rdf-syntax-ns#type
+PartnershipAgreement,Nd25792af25ed4848aa0ba915dae58ad6,rdf-schema#subClassOf
+LimitedPartnership,"In the United States, film production companies, real estate investment firms, and private equity firms are typically formed as limited partnerships. In the United Kingdom, limited partnerships are governed by the Limited Partnerships Act 1907 and, on matters on which that Act is silent, also by the Partnership Act 1890.",core#example
+LimitedLiabilityLimitedPartnership,limited liability limited partnership,rdf-schema#label
+GeneralPartnership,Partnership,rdf-schema#subClassOf
+LimitedPartnership,Partnership,rdf-schema#subClassOf
+hasGeneralPartner,has general partner,rdf-schema#label
+,Partnerships.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+GeneralPartnership,"partnership that has at least two general partners that agree to share in all assets, profits, and financial and legal liabilities of the business",core#definition
+GeneralPartnership,General partnerships are the most basic and common form of partnership world-wide.,explanatoryNote
+LimitedLiabilityPartnership,LLP,abbreviation
+N48280ec2b1c346e1a80fb8db9637a755,isPlayedBy,owl#onProperty
+Partnership,Partnerships exist in many countries world-wide. Examples of the laws related to the establishment and operation of partnerships include the Partnership Act of 1890 in the United Kingdom and the Uniform Partnership Act in the United States.,explanatoryNote
+Nd25792af25ed4848aa0ba915dae58ad6,owl#Restriction,22-rdf-syntax-ns#type
+LimitedPartnership,"Limited partnerships are distinct from limited liability partnerships, in which all partners have limited liability. Similar to a general partnership, the general partners have management control, share the right to use partnership property, share the profits of the firm in predefined proportions, and have joint and several liability for the debts of the partnership.",explanatoryNote
+N9c6b11e374184652a47eea07bc7cc942,hasGeneralPartner,owl#onProperty
+N45858ad974194955a761935e93672ca8,Partner,owl#someValuesFrom
+LimitedPartner,partner whose liabilities are limited to the extent of their investment or guarantees and that has no involvement in the day to day operations of the partnership,core#definition
+hasLimitedPartner,owl#ObjectProperty,22-rdf-syntax-ns#type
+N48280ec2b1c346e1a80fb8db9637a755,N894622b4a63a4357ab85e78bd877264c,owl#someValuesFrom
+isLimitedPartnerOf,Partnership,rdf-schema#range
+GeneralPartner,owl#Class,22-rdf-syntax-ns#type
+isGeneralPartnerOf,indicates the organization that the general partner manages,core#definition
+Partnership,BusinessEntity,rdf-schema#subClassOf
+LimitedLiabilityLimitedPartnership,LimitedPartnership,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+GeneralPartnership,N55fabe8c18304e38bd4a1e5d624bc5d1,rdf-schema#subClassOf
+Partner, loss of the business is specified in a partnership agreement,core#definition
+,MIT,license
+,Partnerships.rdf version of this ontology was modified per the FIBO 2.0 RFC to reference shareholders' equity vs. stockholders' equity and correct a number of restrictions.,core#changeNote
+N7092a2cec2ab423da4a3731e5f5aaaa6,1,owl#qualifiedCardinality
+GeneralPartner,"Note that although typically a general partner is a person, in the context of certain funds, such as private equity, a general partner may be a firm that manages the fund.",explanatoryNote
+isLimitedPartnerOf,is limited partner of,rdf-schema#label
+Na32382f614ce4460a35c0b85f8217b80,playsRole,owl#onProperty
+Na32382f614ce4460a35c0b85f8217b80,2,owl#minQualifiedCardinality
+isGeneralPartnerOf,is general partner of,rdf-schema#label
+Partner,OrganizationMember,rdf-schema#subClassOf
+N9c6b11e374184652a47eea07bc7cc942,owl#Restriction,22-rdf-syntax-ns#type
+hasLimitedPartner,Partnership,rdf-schema#domain
+,Partnerships.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.,core#changeNote
+isGeneralPartnerOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nfeb6a67df9274b0183f2029139029f79,isPlayedBy,owl#onProperty
+isGeneralPartnerOf,hasGeneralPartner,owl#inverseOf
+,"Partnerships.rdf version of this ontology was restructured to simplify the overall structure of partnerships, eliminate kinds of partnerships that do not exist, simplify the concept of a partnership agreement, loosen or eliminate restrictions as appropriate, add common forms of partnership that were missing, and revise definitions to be ISO 704 compliant.",core#changeNote
+Nc659f64febfd45bc9c315cb8a597461e,ProfitObjective,owl#onClass
+PartnershipAgreement,articles of partnership,synonym
+N7092a2cec2ab423da4a3731e5f5aaaa6,LegalPerson,owl#onClass
+N55fabe8c18304e38bd4a1e5d624bc5d1,hasMember,owl#onProperty
+Partnership,Ne4a35c6f356b4bb2baca122a803128a4,rdf-schema#subClassOf
+hasLimitedPartner,isAffectedBy,rdf-schema#subPropertyOf
+LimitedLiabilityPartnership,partnership that has general partners but provides its individual partners some level of protection against personal liability for certain partnership liabilities,core#definition
+Partner,owl#Class,22-rdf-syntax-ns#type
+isLimitedPartnerOf,actsOn,rdf-schema#subPropertyOf
+hasGeneralPartner,indicates an actor that has some measure of control over the partnership,core#definition
+N1f68f226925d4a69851c7227795d9c2d,isAPartyTo,owl#onProperty
+hasGeneralPartner,isAffectedBy,rdf-schema#subPropertyOf
+LimitedLiabilityPartnership,One example of a limited liability partnership is that of an incorporated limited partnership (ILP) in Australia.,core#example
+Nd25792af25ed4848aa0ba915dae58ad6,Partner,owl#someValuesFrom
+Nf903133f35084f04a4c7e08ee49893a1,hasLimitedPartner,owl#onProperty
+PartnershipAgreement,contract between partners in a partnership that establishes the terms and conditions of the relationship between the partners,core#definition
+hasGeneralPartner,owl#ObjectProperty,22-rdf-syntax-ns#type
+Partnership,LegalEntity,rdf-schema#subClassOf
+N7092a2cec2ab423da4a3731e5f5aaaa6,isPlayedBy,owl#onProperty
+LimitedLiabilityLimitedPartnership,LLLP,abbreviation
+GeneralPartner,DeJureControllingInterestParty,rdf-schema#subClassOf
+LimitedPartnership,partnership that has at least one general partner and at least one limited partner,core#definition
+LimitedLiabilityLimitedPartnership,limited partnership that consists of one or more general partners who are liable for the obligations of the entity as well as one or more protected limited liability partners,core#definition
+N1f68f226925d4a69851c7227795d9c2d,PartnershipAgreement,owl#someValuesFrom

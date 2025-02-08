@@ -1,0 +1,103 @@
+source_id,target_id,relationship
+PaymentSchedule,N1ec8d18907dc4b1bb2bcd75b7a2b7aa8,rdf-schema#subClassOf
+N9861a88856224dca81628daaf83acb66,owl#Restriction,22-rdf-syntax-ns#type
+hasPaymentSchedule,owl#ObjectProperty,22-rdf-syntax-ns#type
+Payee,payee,rdf-schema#label
+PaymentObligation,"the duty of a borrower to repay a loan, related to the legal right of a lender to enforce payment",core#example
+PaymentSchedule,"Examples include coupon payment, loan payment, and interest payment schedules, among others.",core#example
+Nb16d6cab525843fa9943fe208a48b27f,Payer,owl#someValuesFrom
+hasPaymentAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+PaymentObligation,legally enforceable duty to pay a sum of money according to the terms stated in a contract,core#definition
+,PaymentsAndSchedules.rdf version of this ontology was modified to clean up the definition and augment the restrictions on payment obligation to include the payee.,core#changeNote
+hasPaymentAmount,has payment amount,rdf-schema#label
+hasPaymentSchedule,specifies the schedule for fulfillment of an obligation,core#definition
+N6220870b70604959aa88ffdeb3b332a8,owl#Restriction,22-rdf-syntax-ns#type
+,PaymentsAndSchedules.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+PaymentEvent,N6c1938159b0f44d99e67d168c3eded59,rdf-schema#subClassOf
+N6c1938159b0f44d99e67d168c3eded59,Payment,owl#onClass
+PaymentObligation,Nfe87821f7cb946b4b532189459c6f1f8,rdf-schema#subClassOf
+Nfe87821f7cb946b4b532189459c6f1f8,isConferredBy,owl#onProperty
+N6c1938159b0f44d99e67d168c3eded59,1,owl#qualifiedCardinality
+fulfillsObligation,owl#ObjectProperty,22-rdf-syntax-ns#type
+PaymentSchedule,schedule for delivery of money in fulfillment of an obligation,core#definition
+N1ec8d18907dc4b1bb2bcd75b7a2b7aa8,Payment,owl#someValuesFrom
+N5697b16ab9bf49389f8b0ba40bf62a29,MonetaryAmount,owl#someValuesFrom
+fulfillsObligation,"satisfies a requirement for payment of some claim, debt, or other obligation",core#definition
+Payer,N9861a88856224dca81628daaf83acb66,rdf-schema#subClassOf
+Nb16d6cab525843fa9943fe208a48b27f,isObligationOf,owl#onProperty
+Nfe87821f7cb946b4b532189459c6f1f8,Contract,owl#allValuesFrom
+PaymentSchedule,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+Payer,"a party who pays a bill or fees, or who makes payments to a payee in partial or complete fulfillment of an obligation",core#definition
+PaymentObligation,N6220870b70604959aa88ffdeb3b332a8,rdf-schema#subClassOf
+N5c8503e78c82440bbd86e4aa6d304082,isPlayedBy,owl#onProperty
+PaymentEvent,payment event,rdf-schema#label
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+PaymentObligation,Duty,rdf-schema#subClassOf
+,,owl#versionIRI
+N6220870b70604959aa88ffdeb3b332a8,Payee,owl#someValuesFrom
+,owl#Ontology,22-rdf-syntax-ns#type
+N9861a88856224dca81628daaf83acb66,hasObligation,owl#onProperty
+PaymentObligation,Commitment,rdf-schema#subClassOf
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+PaymentSchedule,payment schedule,rdf-schema#label
+,PaymentsAndSchedules.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N1ec8d18907dc4b1bb2bcd75b7a2b7aa8,owl#Restriction,22-rdf-syntax-ns#type
+,"PaymentsAndSchedules.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+,"This ontology defines basic concepts such as payment, payee, payer, and payment schedule, extending the scheduling concepts from the Dates and Times module, among others.",abstract
+Payer,payer,rdf-schema#label
+N6c1938159b0f44d99e67d168c3eded59,involves,owl#onProperty
+,PaymentsAndSchedules.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+Payee,Obligee,rdf-schema#subClassOf
+N5697b16ab9bf49389f8b0ba40bf62a29,owl#Restriction,22-rdf-syntax-ns#type
+PaymentSchedule,Schedule,rdf-schema#subClassOf
+Nfe87821f7cb946b4b532189459c6f1f8,owl#Restriction,22-rdf-syntax-ns#type
+PaymentEvent,N75aa46220dba48b6a30eea209ce7ea6a,rdf-schema#subClassOf
+fulfillsObligation,fulfills obligation,rdf-schema#label
+hasPaymentAmount,specifies the amount of money involved in a payment,core#definition
+PaymentObligation,payment obligation,rdf-schema#label
+PaymentObligation,Nb16d6cab525843fa9943fe208a48b27f,rdf-schema#subClassOf
+,PaymentsAndSchedules.rdf version of this ontology was modified to fix spelling errors.,core#changeNote
+N5c8503e78c82440bbd86e4aa6d304082,N05d2f81b00e449f7a3c2f4972159b1fa,owl#someValuesFrom
+Payment,N5697b16ab9bf49389f8b0ba40bf62a29,rdf-schema#subClassOf
+Payee,owl#Class,22-rdf-syntax-ns#type
+N05d2f81b00e449f7a3c2f4972159b1fa,owl#Restriction,22-rdf-syntax-ns#type
+N6c1938159b0f44d99e67d168c3eded59,owl#Restriction,22-rdf-syntax-ns#type
+N05d2f81b00e449f7a3c2f4972159b1fa,PaymentObligation,owl#someValuesFrom
+Payment,owl#Class,22-rdf-syntax-ns#type
+hasPaymentAmount,Payment,rdf-schema#domain
+hasPaymentSchedule,PaymentSchedule,rdf-schema#range
+,PaymentsAndSchedules.rdf version of this ontology was modified to eliminate remaining circular references.,core#changeNote
+N1ec8d18907dc4b1bb2bcd75b7a2b7aa8,hasConstituent,owl#onProperty
+hasPaymentSchedule,has payment schedule,rdf-schema#label
+N6220870b70604959aa88ffdeb3b332a8,hasPartyRole,owl#onProperty
+N75aa46220dba48b6a30eea209ce7ea6a,PaymentObligation,owl#onClass
+N75aa46220dba48b6a30eea209ce7ea6a,appliesTo,owl#onProperty
+Nb16d6cab525843fa9943fe208a48b27f,owl#Restriction,22-rdf-syntax-ns#type
+N75aa46220dba48b6a30eea209ce7ea6a,1,owl#qualifiedCardinality
+Payment,payment,rdf-schema#label
+PaymentObligation,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+N5697b16ab9bf49389f8b0ba40bf62a29,hasPaymentAmount,owl#onProperty
+,MIT,license
+N75aa46220dba48b6a30eea209ce7ea6a,owl#Restriction,22-rdf-syntax-ns#type
+,PaymentsAndSchedules.rdf version of this ontology was modified per the FIBO 2.0 RFC to make hasPaymentAmount a child of hasMonetaryAmount and move hasObligation and isObligationOf to Agreements.,core#changeNote
+N9861a88856224dca81628daaf83acb66,PaymentObligation,owl#allValuesFrom
+Payee,"a party to whom a debt should be paid, or to whose order a bill of exchange, note, or check is made payable, or who receives or will receive a payment from a payer in partial or complete fulfillment of an obligation",core#definition
+fulfillsObligation,PaymentObligation,rdf-schema#range
+Payment,"delivery of money in fulfillment of an obligation, such as to satisfy a claim or debt",core#definition
+PaymentEvent,owl#Class,22-rdf-syntax-ns#type
+Payment,Occurrence,rdf-schema#subClassOf
+fulfillsObligation,Payment,rdf-schema#domain
+hasPaymentAmount,MonetaryAmount,rdf-schema#range
+Payer,owl#Class,22-rdf-syntax-ns#type
+PaymentEvent,an event that involves delivery of money in fulfillment of an obligation,core#definition
+hasPaymentAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+N5c8503e78c82440bbd86e4aa6d304082,owl#Restriction,22-rdf-syntax-ns#type
+,Payments and Schedules Ontology,rdf-schema#label
+PaymentEvent,TransactionEvent,rdf-schema#subClassOf
+,PaymentsAndSchedules.rdf version of this ontology was modified to revise payments to better support loan requirements and eliminate duplication of concepts in LCC.,core#changeNote
+,PaymentsAndSchedules.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FND 1.1 RTF report to replace MoneyAmount with MonetaryAmount.,core#changeNote
+N05d2f81b00e449f7a3c2f4972159b1fa,isAPartyTo,owl#onProperty
+Payee,N5c8503e78c82440bbd86e4aa6d304082,rdf-schema#subClassOf
+Payer,Obligor,rdf-schema#subClassOf

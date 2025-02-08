@@ -1,0 +1,341 @@
+source_id,target_id,relationship
+,"This ontology defines the kinds of income and corporate action events covered by ISO 15022 and other standards, including recent extensions to those standards. Scope has been limited to security-related events and actions, and excludes most notification and meetings related events.",abstract
+ChangeOfSecurityTradingStatusEvent,owl#Class,22-rdf-syntax-ns#type
+N4fdea21e5e2e4cff9a13dac0bfdfbead,owl#Restriction,22-rdf-syntax-ns#type
+StockSplit,change in nominal value,synonym
+N9064afe58acf4ebf92b70c4dca608c84,convertsTo,owl#onProperty
+Naa118c85c5864f3b919d7a15d49b01f1,Bond,owl#someValuesFrom
+convertsFrom,converts from,rdf-schema#label
+ReverseStockSplit,StockSplit,owl#disjointWith
+StockDividendAction,owl#Class,22-rdf-syntax-ns#type
+CorporateActionObligation,CorporateAction,rdf-schema#subClassOf
+StockSplit,stock split,rdf-schema#label
+TradingStatusMessage,Notice,rdf-schema#subClassOf
+CorporateActionSecuritiesDeliveryObligation,corporate action securities delivery obligation,rdf-schema#label
+IntermediateSecuritiesDistribution,owl#Class,22-rdf-syntax-ns#type
+CapitalGainsDistribution,VoluntaryCorporateAction,rdf-schema#subClassOf
+convertsTo,Security,rdf-schema#range
+InterestRateAdjustment,MandatoryCorporateAction,rdf-schema#subClassOf
+Nfcc49bf72c6644e4b578ff943c55f559,convertsTo,owl#onProperty
+Nee5208f1886b4262bf45d16171e90a7f,Share,owl#someValuesFrom
+RepurchaseOffer,VoluntaryCorporateAction,rdf-schema#subClassOf
+MaturityExtension,CorporateAction,rdf-schema#subClassOf
+RepurchaseOffer,repurchase offer,rdf-schema#label
+DividendReinvestmentAction,corporate action that involves a dividend payment whereby holders can keep cash or have the cash reinvested into additional shares in the issuing company,core#definition
+WorthlessSecurityAction,corporate action that involves booking out of valueless securities,core#definition
+N9064afe58acf4ebf92b70c4dca608c84,owl#Restriction,22-rdf-syntax-ns#type
+N2c75e686592f483cb70a947f3edaab44,convertsFrom,owl#onProperty
+DecreaseInValueAction,units remains unchanged. This event may include a cash pay out to holders.,explanatoryNote
+BonusSharePlanDistribution,"Event in which shares are issued from the Share Premium Reserve of the company and are considered as a capital distribution rather than a disbursement of income, with different tax implications. SWIFT Definition (adapted above) ""Typically found in Australia, shares are issued from the Share Premium Reserve of the company and are considered as a capital distribution rather than a disbursement of income, with different tax implications."" To be researches further. There are certainly Share Plans in Australia, where you can take a dividend as shares. Thewse would be in the nature of Bonus Shares. They are a tradeoff from cash dividends. Other terms to model: A ""Scheme of Arrangment"" - does this change the capital reserves or is it just another word for restructure. An arrangement with the company's debtors, and coule potentially change the capital base by converting the debt to shares (see other diagram note with these in).",core#definition
+BonusRightsIssue,IntermediateSecuritiesDistribution,rdf-schema#subClassOf
+RedenominationAction,par value of security in a national currency is restated in another currency.,explanatoryNote
+BondDefaultAction,ObligationDefault,rdf-schema#subClassOf
+N9881260056444c41bdfe336123838b3f,owl#Restriction,22-rdf-syntax-ns#type
+ChangeToSmallestNegotiableUnit,owl#Class,22-rdf-syntax-ns#type
+ExchangeAction,exchange action,rdf-schema#label
+BonusRightsIssue,A Rights Issue in which the rights are given to the holders of the referenced shares for free.,core#definition
+DutchAuction,owl#Class,22-rdf-syntax-ns#type
+Nfcc49bf72c6644e4b578ff943c55f559,owl#Restriction,22-rdf-syntax-ns#type
+PostMergerSecuritiesExchange,N9064afe58acf4ebf92b70c4dca608c84,rdf-schema#subClassOf
+PariPassuAction,assimilation,synonym
+StockDividendAction,MandatoryCorporateAction,rdf-schema#subClassOf
+,Security-related Corporate Actions Ontology,rdf-schema#label
+,,owl#versionIRI
+Drawing,MandatoryCorporateAction,rdf-schema#subClassOf
+TenderOffer,buyback,synonym
+CallOnIntermediateSecurities,corporate action that involves a call or exercise on nil paid securities or intermediate securities resulting from an intermediate securities distribution (RHDI),core#definition
+DividendOptionAction,"Shareholders may choose to receive shares or cash. A dividend option action is distinguished from reinvestment (DRIP) as, like a cash dividend, the company creates new share capital in exchange for the dividend rather than investing the dividend in the market.",explanatoryNote
+TradingStatusMessage,N4bbf2a12678c4d9fa5a240d6fc492f44,rdf-schema#subClassOf
+BondDefaultAction,MandatoryCorporateAction,rdf-schema#subClassOf
+DecreaseInValueAction,owl#Class,22-rdf-syntax-ns#type
+ConversionSuspensionAction,"Suspension of conversion of securities, generally a couple of weeks before a meeting takes place. SWIFT = SCOP",core#definition
+CorporateActionSecuritiesDeliveryObligation,Some obligation to deliver some security in the thr context of corporate actions. All cash proceeds and security proceeds can be represented a s acontractual obligation. Where does that obligation arise? Usually in the Contract itself - but there may be other answers to this. Defines what has to be delivered. or paid. Entitlement meanwhile is a calculation based on the Contract.,core#definition
+StockDividendAction,stock dividend action,rdf-schema#label
+InterestPaymentWithPrincipal,InterestPaymentAction,rdf-schema#subClassOf
+FullCallEarlyRedemptionAction,"early redemption include bonds, preferred equity, funds, that may be redeemed by the issuer or its agent before final maturity.",core#example
+TenderOffer,"corporate action involving an offer made to shareholders, normally by a third party, requesting them to sell (tender) or exchange their equities",core#definition
+DecreaseInValueAction,decrease in value action,rdf-schema#label
+ReverseStockSplit,change in nominal value,synonym
+Nc8f4edbc205e4119a5de9112d6125a9e,hasMonetaryAmount,owl#onProperty
+IntermediateSecuritiesDistribution,intermediate securities distribution,rdf-schema#label
+N3ded8713db3f4497b22626e6fa55bf66,SecurityTradingStatus,owl#someValuesFrom
+TradingStatusActiveMessage,owl#Class,22-rdf-syntax-ns#type
+Drawing,drawing,rdf-schema#label
+PariPassuAction,corporate action that occurs when securities with different characteristics become identical in all respects,core#definition
+BonusRightsIssue,Rights = right to buy shares at a specified price. May be given the right for nothing (Bonus Rights Issue) or you may be offered to purchase that right at a subscription price (which you take up or don't). Bonus Rights Issue: given the option for free. May exercise at the Exercise Price.,explanatoryNote
+convertsFrom,CorporateAction,rdf-schema#domain
+StockSplit,subdivision,synonym
+PartialRedemptionWithoutReductionOfNominalValueAction,corporate action that involves redemption of securities in part before their scheduled final maturity date with no reduction in nominal value,core#definition
+InterestPaymentInKind,owl#Class,22-rdf-syntax-ns#type
+DutchAuction,"Holders of the security are invited to make an offer to sell, within a specific price range. The acquiring party will buy from the holder with lowest offer.",explanatoryNote
+CapitalGainsDistribution,corporate action that distributes profits resulting from the sale of company assets to shareholders,core#definition
+PariPassuAction,owl#Class,22-rdf-syntax-ns#type
+N4fdea21e5e2e4cff9a13dac0bfdfbead,Share,owl#someValuesFrom
+SharesPremiumDividendAction,MandatoryWithChoiceCorporateAction,rdf-schema#subClassOf
+ConversionSuspensionAction,CorporateAction,rdf-schema#subClassOf
+InterestPaymentAction,interest payment action,rdf-schema#label
+CapitalGainsDistribution,"Shareholders of Mutual Funds, Unit Trusts, or SICAVs are recipients of capital gains distributions which are often reinvested in additional shares of the fund",core#example
+PutRedemptionAction,owl#Class,22-rdf-syntax-ns#type
+N9064afe58acf4ebf92b70c4dca608c84,Security,owl#someValuesFrom
+InterestPaymentAction,owl#Class,22-rdf-syntax-ns#type
+N2c75e686592f483cb70a947f3edaab44,owl#Restriction,22-rdf-syntax-ns#type
+ConversionSuspensionAction,owl#Class,22-rdf-syntax-ns#type
+DecreaseInValueAction,corporate action resulting in a reduction of face value of a share or the value of fund assets,core#definition
+TenderOffer,N4fdea21e5e2e4cff9a13dac0bfdfbead,rdf-schema#subClassOf
+DutchAuction,VoluntaryCorporateAction,rdf-schema#subClassOf
+ConversionSuspensionAction,conversion suspension action,rdf-schema#label
+InterestRateAdjustment,owl#Class,22-rdf-syntax-ns#type
+RightsExerciseEvent,"rights resulting from a rights distribution (RHDI) (To be used for the second event in case rights issue is dealt with in 2 events, first event being the RHDI).",core#definition
+ChangeOfSecurityTradingStatusEvent,change of security trading status event,rdf-schema#label
+ExchangeAction,CorporateAction,rdf-schema#subClassOf
+Naa118c85c5864f3b919d7a15d49b01f1,owl#Restriction,22-rdf-syntax-ns#type
+Nfcc49bf72c6644e4b578ff943c55f559,Security,owl#someValuesFrom
+ReverseStockSplit,reverse stock split,rdf-schema#label
+N3ded8713db3f4497b22626e6fa55bf66,appliesTo,owl#onProperty
+WarrantExerciseAction,CorporateAction,rdf-schema#subClassOf
+PariPassuAction,MandatoryCorporateAction,rdf-schema#subClassOf
+N26205019e51a44e8a84556d1dd0c138a,owl#Restriction,22-rdf-syntax-ns#type
+N3d310d5c0be946d0b8fdf3f13d38639c,owl#Restriction,22-rdf-syntax-ns#type
+InterestRateAdjustment,interest rate adjustment,rdf-schema#label
+TradingStatusActiveMessage,trading status active message,rdf-schema#label
+TenderOffer,takeover,synonym
+ReverseStockSplit,Equity price and nominal value are increased accordingly.,explanatoryNote
+WorthlessSecurityAction,owl#Class,22-rdf-syntax-ns#type
+WorthlessSecurityAction,worthless security action,rdf-schema#label
+BonusIssue,There are different taxation rules for the bonus issue compared to the dividend. There could also be a difference in the ranking of the shares that are given to what the holder already holds. Dividends are paid from current profits and bonus may be from accumulated reserves of the company. A scrip issue is the issue of new shares at no charge pro rata to the holder of existing shares.,explanatoryNote
+CashDividendAction,"Ordinary dividends are typically recurring and regular. The shareholder must take cash, and may be offered a choice of currency.",explanatoryNote
+InterestPaymentAction,corporate action that involves distribution of a regular interest payment to holders of an interest-bearing asset,core#definition
+CancellationOfShares,CorporateAction,rdf-schema#subClassOf
+InterestRateAdjustment,"The SWIFT definition as given defines the notification of the interest rate change, not the adjustment. Adjusted to describe the event. REVIEW: Is this really an action? Usually consider that it's expected. Given definition was for the announcement. SWIFT full definition ""Announcement of the current coupon rate for a floating or adjustable rate security.""",explanatoryNote
+Nb841c6b5d4284d79abfe9a22cb027c83,TenderOffer,22-rdf-syntax-ns#first
+ChangeToSmallestNegotiableUnit,change to smallest negotiable unit,rdf-schema#label
+RepurchaseOffer,The objective of the offer is to reduce the number of outstanding equities.,explanatoryNote
+ExchangeAction,"or cash. For example, 'exchange offer', 'capital reorganisation' or 'funds separation'.",explanatoryNote
+StockDividendAction,corporate action that involves distribution of a dividend to shareholders in the form of equities of the issuing corporation,core#definition
+OddLotOffer,"Offer by issuer to allow holders of an odd lot of a security to order a commission-free transaction at market price, to sell the odd lot, or to buy an amount of shares which will bring the position to a round lot (board lot). SWIFT = ODLT",core#definition
+BonusIssue,owl#Class,22-rdf-syntax-ns#type
+CancellationOfShares,owl#Class,22-rdf-syntax-ns#type
+convertsTo,converts to,rdf-schema#label
+WarrantExerciseAction,owl#Class,22-rdf-syntax-ns#type
+CashDividendAction,corporate action that distributes cash to shareholders in proportion to their equity holding,core#definition
+Drawing,owl#Class,22-rdf-syntax-ns#type
+N2c75e686592f483cb70a947f3edaab44,Security,owl#someValuesFrom
+N334798c6eff744b4b4ed1c2d5d7a17a2,Nfca7d73396ab45f8b31e908bc0657326,owl#unionOf
+,owl#Ontology,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2023 EDM Council, Inc.",copyright
+CashDividendAction,cash dividend action,rdf-schema#label
+Nfca7d73396ab45f8b31e908bc0657326,DutchAuction,22-rdf-syntax-ns#first
+N3d310d5c0be946d0b8fdf3f13d38639c,Bond,owl#someValuesFrom
+BonusSharePlanDistribution,bonus share plan distribution,rdf-schema#label
+Nff790dcb10a74251858836e9354bac75,Nb841c6b5d4284d79abfe9a22cb027c83,22-rdf-syntax-ns#rest
+ExchangeAction,or cash,core#definition
+CouponStrip,CorporateAction,rdf-schema#subClassOf
+DividendOptionAction,dividend option action,rdf-schema#label
+PutRedemptionAction,VoluntaryCorporateAction,rdf-schema#subClassOf
+PutRedemptionAction,corporate action involving early redemption of a security at the election of the holder subject to the terms and condition of the issue with no reduction in nominal value,core#definition
+Nc8f4edbc205e4119a5de9112d6125a9e,owl#Restriction,22-rdf-syntax-ns#type
+BonusSharePlanDistribution,owl#Class,22-rdf-syntax-ns#type
+ReverseStockSplit,Nee5208f1886b4262bf45d16171e90a7f,rdf-schema#subClassOf
+Nda07d735ff0d43a0850494b670b9b8c9,owl#Restriction,22-rdf-syntax-ns#type
+CouponStrip,owl#Class,22-rdf-syntax-ns#type
+RedenominationAction,redenomination action,rdf-schema#label
+PostMergerSecuritiesExchange,N9881260056444c41bdfe336123838b3f,rdf-schema#subClassOf
+PostMergerSecuritiesExchange,CorporateAction,rdf-schema#subClassOf
+IntermediateSecuritiesDistribution,corporate action involving the distribution of intermediate securities or privilege that gives the holder the right to take part in a future event,core#definition
+TradingStatusSuspendedMessage,owl#Class,22-rdf-syntax-ns#type
+Drawing,Notification in advance of this happening.,explanatoryNote
+InterestRateAdjustment,Nda07d735ff0d43a0850494b670b9b8c9,rdf-schema#subClassOf
+BonusRightsIssue,owl#Class,22-rdf-syntax-ns#type
+SharesPremiumDividendAction,corporate action that pays shareholders an amount in cash issued from the shares premium reserve,core#definition
+PartialRedemptionWithReductionOfNominalValueAction,corporate action that involves redemption of securities in part before their scheduled final maturity date with reduction of the nominal value of the securities,core#definition
+BonusIssue,corporate action in which security holders are awarded additional assets free of payment from the issuer in proportion to their holding,core#definition
+Nee5208f1886b4262bf45d16171e90a7f,appliesTo,owl#onProperty
+ChangeOfSecurityTradingStatusEvent,N3ded8713db3f4497b22626e6fa55bf66,rdf-schema#subClassOf
+RepurchaseOffer,reverse rights,synonym
+InterestPaymentAction,MandatoryCorporateAction,rdf-schema#subClassOf
+CorporateActionObligation,owl#Class,22-rdf-syntax-ns#type
+PartialRedemptionWithoutReductionOfNominalValueAction,CorporateAction,rdf-schema#subClassOf
+DividendReinvestmentAction,dividend reinvestment action,rdf-schema#label
+InterestPaymentWithPrincipal,owl#Class,22-rdf-syntax-ns#type
+PostMergerSecuritiesExchange,post-merger securities exchange,rdf-schema#label
+CallOnIntermediateSecurities,MandatoryWithChoiceCorporateAction,rdf-schema#subClassOf
+CorporateActionObligation,corporate action obligation,rdf-schema#label
+ChangeOfSecurityTradingStatusEvent,CorporateChangeOfStatusEvent,rdf-schema#subClassOf
+convertsTo,CorporateAction,rdf-schema#domain
+MaturityExtension,owl#Class,22-rdf-syntax-ns#type
+CorporateChangeOfStatusEvent,LifecycleEvent,rdf-schema#subClassOf
+RightsExerciseEvent,CorporateAction,rdf-schema#subClassOf
+N4bbf2a12678c4d9fa5a240d6fc492f44,owl#Restriction,22-rdf-syntax-ns#type
+N26205019e51a44e8a84556d1dd0c138a,Share,owl#someValuesFrom
+CorporateActionPaymentObligation,corporate action payment obligation,rdf-schema#label
+DutchAuction,dutch auction,rdf-schema#label
+CancellationOfShares,cancellation of shares,rdf-schema#label
+Nfca7d73396ab45f8b31e908bc0657326,Nca43e3c21eb5443bb38a6dfa6fcc787b,22-rdf-syntax-ns#rest
+BonusIssue,MandatoryCorporateAction,rdf-schema#subClassOf
+Nc8f4edbc205e4119a5de9112d6125a9e,MonetaryAmount,owl#onClass
+WorthlessSecurityAction,MandatoryCorporateAction,rdf-schema#subClassOf
+Naa118c85c5864f3b919d7a15d49b01f1,appliesTo,owl#onProperty
+N4bbf2a12678c4d9fa5a240d6fc492f44,refersTo,owl#onProperty
+ConversionAction,N2c75e686592f483cb70a947f3edaab44,rdf-schema#subClassOf
+CorporateActionObligation,Duty,rdf-schema#subClassOf
+PartialRedemptionWithoutReductionOfNominalValueAction,owl#Class,22-rdf-syntax-ns#type
+PariPassuAction,"A pari-passu event includes cases, for example, when shares with different entitlements to dividend or voting rights become equivalent through assimilation or pari-passu. Such an event may be scheduled in advance, for example, when shares resulting from a bonus may become fungible after a pre-set period of time, or may result from outside events, for example, merger, reorganisation, issue of supplementary tranches, etc.",explanatoryNote
+RedemptionAtMaturityAction,redemption at maturity action,rdf-schema#label
+Nca43e3c21eb5443bb38a6dfa6fcc787b,Nff790dcb10a74251858836e9354bac75,22-rdf-syntax-ns#rest
+N08ad955d23f84f6194adbb3835eac614,owl#Restriction,22-rdf-syntax-ns#type
+Nca43e3c21eb5443bb38a6dfa6fcc787b,ExchangeAction,22-rdf-syntax-ns#first
+TenderOffer,owl#Class,22-rdf-syntax-ns#type
+BondDefaultAction,Naa118c85c5864f3b919d7a15d49b01f1,rdf-schema#subClassOf
+InterestRateAdjustment,Scheduled change to the coupon rate for a floating or adjustable rate security.,core#definition
+FullCallEarlyRedemptionAction,owl#Class,22-rdf-syntax-ns#type
+StockSplit,owl#Class,22-rdf-syntax-ns#type
+PartialRedemptionWithoutReductionOfNominalValueAction,This is commonly done by pool factor reduction. May be mandatory or voluntary.,explanatoryNote
+RepurchaseOffer,corporate action in which an offer is made to existing shareholders by the issuing company to repurchase equity or other securities convertible into equity,core#definition
+RightsExerciseEvent,rights exercise event,rdf-schema#label
+ConversionAction,conversion action,rdf-schema#label
+TradingStatusActiveMessage,Trading in security has commenced or security has been re-activated after a supsension in trading.,core#definition
+N4bbf2a12678c4d9fa5a240d6fc492f44,Security,owl#someValuesFrom
+PartialRedemptionWithoutReductionOfNominalValueAction,partial redemption without reduction of nominal value action,rdf-schema#label
+TenderOffer,tender offer,rdf-schema#label
+convertsFrom,owl#ObjectProperty,22-rdf-syntax-ns#type
+FormalOffer,formal offer,rdf-schema#label
+N4fdea21e5e2e4cff9a13dac0bfdfbead,appliesTo,owl#onProperty
+DividendOptionAction,owl#Class,22-rdf-syntax-ns#type
+CapitalDistribution,capital distribution,rdf-schema#label
+DividendReinvestmentAction,MandatoryWithChoiceCorporateAction,rdf-schema#subClassOf
+CorporateActionObligation,Delivery of a security. Not defining direction at this level of the model - one party may have an obligation to deliver security or to pay; other party may have an obligation to deliver or to pay. Or there may be just one.,explanatoryNote
+TenderOffer,VoluntaryCorporateAction,rdf-schema#subClassOf
+CouponStrip,coupon strip,rdf-schema#label
+ChangeToSmallestNegotiableUnit,Modification of the smallest negotiable unit of shares in order to obtain a new negotiable unit. SWIFT:SMAL,core#definition
+WarrantExerciseAction,Note that participation by the warrant holder may be mandatory or voluntary and may involve a choice in the mandatory case.,explanatoryNote
+ListingStatusDelistingMessage,listing status delisting message,rdf-schema#label
+N08ad955d23f84f6194adbb3835eac614,SecurityTradingStatus,owl#someValuesFrom
+CashDividendAction,owl#Class,22-rdf-syntax-ns#type
+PutRedemptionAction,put redemption action,rdf-schema#label
+StockSplit,MandatoryCorporateAction,rdf-schema#subClassOf
+N334798c6eff744b4b4ed1c2d5d7a17a2,owl#Class,22-rdf-syntax-ns#type
+ExchangeAction,owl#Class,22-rdf-syntax-ns#type
+CapitalDistribution,This action does not result in a reduction of the face value of a share or in a change to the number of shares in circulation.,explanatoryNote
+ReverseStockSplit,owl#Class,22-rdf-syntax-ns#type
+N9881260056444c41bdfe336123838b3f,convertsFrom,owl#onProperty
+FullCallEarlyRedemptionAction,MandatoryCorporateAction,rdf-schema#subClassOf
+PostMergerSecuritiesExchange,Nc8f4edbc205e4119a5de9112d6125a9e,rdf-schema#subClassOf
+RedemptionAtMaturityAction,owl#Class,22-rdf-syntax-ns#type
+TradingStatusSuspendedMessage,TradingStatusMessage,rdf-schema#subClassOf
+BonusRightsIssue,bonus rights issue,rdf-schema#label
+InterestPaymentInKind,"Interest payment, in any kind except cash, distributed to holders of an interest bearing asset. SWIFT = PINK",core#definition
+OddLotOffer,VoluntaryCorporateAction,rdf-schema#subClassOf
+WarrantExerciseAction,"corporate action that offers holders the option to buy (call warrant) or to sell (put warrant) a specific amount of stock, cash, or commodity, at a predetermined price, during a predetermined period of time (which usually corresponds to the life of the issue)",core#definition
+PartialRedemptionWithReductionOfNominalValueAction,CorporateAction,rdf-schema#subClassOf
+Nc8f4edbc205e4119a5de9112d6125a9e,0,owl#minQualifiedCardinality
+InterestPaymentAction, delivery: generic concept Payment - implis cash distribution. So payment is specialization of distribution.,core#editorialNote
+DutchAuction,corporate action by a party wishing to acquire a security,core#definition
+BonusSharePlanDistribution,CapitalDistribution,rdf-schema#subClassOf
+InterestPaymentInKind,interest payment in kind,rdf-schema#label
+,Provisional,hasMaturityLevel
+CancellationOfShares,The cancellation of shares. Further Notes Only possible with shares not publicly issued i.e. treasury shares,core#definition
+,MIT,license
+StockSplit,N26205019e51a44e8a84556d1dd0c138a,rdf-schema#subClassOf
+CorporateActionObligation,An obligation related to the holding of a Security.,core#definition
+Nff790dcb10a74251858836e9354bac75,RepurchaseOffer,22-rdf-syntax-ns#first
+FullCallEarlyRedemptionAction,corporate action that involves redemption of an entire issue outstanding of securities prior to maturity,core#definition
+OddLotOffer,odd lot offer,rdf-schema#label
+FullCallEarlyRedemptionAction,full call early redemption action,rdf-schema#label
+RedenominationAction,or nominal) of a security is restated,core#definition
+N3ded8713db3f4497b22626e6fa55bf66,owl#Restriction,22-rdf-syntax-ns#type
+TradingStatusSuspendedMessage,trading status suspended message,rdf-schema#label
+CorporateChangeOfStatusEvent,corporate change of status event,rdf-schema#label
+BondDefaultAction,corporate action which indicates a failure by the issuer to perform obligations defined as default events under the bond agreement and that have not been remedied,core#definition
+PostMergerSecuritiesExchange,owl#Class,22-rdf-syntax-ns#type
+CorporateActionSecuritiesDeliveryObligation,owl#Class,22-rdf-syntax-ns#type
+ListingStatusDelistingMessage,Notice,rdf-schema#subClassOf
+TradingStatusMessage,N08ad955d23f84f6194adbb3835eac614,rdf-schema#subClassOf
+ListingStatusDelistingMessage,owl#Class,22-rdf-syntax-ns#type
+BonusIssue,capitalisation issue,synonym
+RepurchaseOffer,issuer bid,synonym
+CorporateChangeOfStatusEvent,Some change to the status of some security.,core#definition
+BonusIssue,scrip issue,synonym
+ConversionAction,owl#Class,22-rdf-syntax-ns#type
+N08ad955d23f84f6194adbb3835eac614,isAbout,owl#onProperty
+InterestPaymentInKind,InterestPaymentAction,rdf-schema#subClassOf
+PartialRedemptionWithReductionOfNominalValueAction,owl#Class,22-rdf-syntax-ns#type
+TradingStatusMessage,owl#Class,22-rdf-syntax-ns#type
+ConversionAction,Nfcc49bf72c6644e4b578ff943c55f559,rdf-schema#subClassOf
+CashDividendAction,MandatoryCorporateAction,rdf-schema#subClassOf
+CallOnIntermediateSecurities,"coupons) is composed of two events, the first event being the distribution of intermediate securities.",explanatoryNote
+convertsTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+IntermediateSecuritiesDistribution,rights distribution,synonym
+ConversionAction,ratio,core#definition
+CapitalDistribution,owl#Class,22-rdf-syntax-ns#type
+TenderOffer,purchase offer,synonym
+CapitalGainsDistribution,capital gains distribution,rdf-schema#label
+RedenominationAction,MandatoryCorporateAction,rdf-schema#subClassOf
+ReverseStockSplit,MandatoryCorporateAction,rdf-schema#subClassOf
+StockSplit,corporate action involving an increase in a corporation's number of outstanding equities without any change in the shareholder's equity or the aggregate market value at the time of the split,core#definition
+PartialRedemptionWithReductionOfNominalValueAction,The outstanding amount of securities will be reduced proportionally. May be mandatory or voluntary.,explanatoryNote
+RedemptionAtMaturityAction,MandatoryCorporateAction,rdf-schema#subClassOf
+CorporateChangeOfStatusEvent,CorporateAction,rdf-schema#subClassOf
+RedemptionAtMaturityAction,corporate action that involves redemption of an entire issue outstanding of securities at final maturity,core#definition
+BondDefaultAction,bond default event,rdf-schema#label
+PostMergerSecuritiesExchange,"corporate action that involves the exchange of outstanding securities, initiated by the issuer which may include options, as the result of two or more companies combining assets, that is, an external, third party company",core#definition
+N26205019e51a44e8a84556d1dd0c138a,appliesTo,owl#onProperty
+TradingStatusMessage,"There are a number of such messages. Events v Status: See e.g. Active: this relates to one state OR two transitions (transition from pre-issuance to Trading, or from Suspended to Trading).",explanatoryNote
+TradingStatusActiveMessage,TradingStatusMessage,rdf-schema#subClassOf
+,,owl#imports
+SharesPremiumDividendAction,owl#Class,22-rdf-syntax-ns#type
+WarrantExerciseAction,warrant exercise action,rdf-schema#label
+FormalOffer,owl#Class,22-rdf-syntax-ns#type
+DividendOptionAction,corporate action that involves distribution of a dividend to shareholders with a choice of benefit to receive,core#definition
+PostMergerSecuritiesExchange,"This is an action as a result of the merger, not the merger itself, and may be mandatory or voluntary. Cash payments may accompany share exchange.",explanatoryNote
+DividendReinvestmentAction,Dividend reinvestment is distinguished from a cash dividend in that the issuer invests the dividend in the market rather than creating new share capital in exchange for the dividend.,explanatoryNote
+N3d310d5c0be946d0b8fdf3f13d38639c,appliesTo,owl#onProperty
+Nda07d735ff0d43a0850494b670b9b8c9,VariableCouponBond,owl#someValuesFrom
+convertsFrom,Security,rdf-schema#range
+Nb841c6b5d4284d79abfe9a22cb027c83,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+ConversionAction,VoluntaryCorporateAction,rdf-schema#subClassOf
+InterestPaymentWithPrincipal,"A payment of a portion of the principal of an interest bearing asset, in addition to the interest payment. SWIFT = PRII",core#definition
+CallOnIntermediateSecurities,owl#Class,22-rdf-syntax-ns#type
+ReverseStockSplit,corporate action involving a decrease in a company's number of outstanding equities without any change in the shareholder's equity or the aggregate market value at the time of the split,core#definition
+CorporateActionPaymentObligation,owl#Class,22-rdf-syntax-ns#type
+CapitalDistribution,VoluntaryCorporateAction,rdf-schema#subClassOf
+Nee5208f1886b4262bf45d16171e90a7f,owl#Restriction,22-rdf-syntax-ns#type
+CorporateActionSecuritiesDeliveryObligation,CorporateActionObligation,rdf-schema#subClassOf
+PartialRedemptionWithReductionOfNominalValueAction,partial redemption with reduction of nominal value action,rdf-schema#label
+InterestPaymentWithPrincipal,interest payment with principal,rdf-schema#label
+N9881260056444c41bdfe336123838b3f,Security,owl#someValuesFrom
+CapitalGainsDistribution,owl#Class,22-rdf-syntax-ns#type
+TradingStatusMessage,A message about trading status.,core#definition
+RepurchaseOffer,owl#Class,22-rdf-syntax-ns#type
+DividendReinvestmentAction,owl#Class,22-rdf-syntax-ns#type
+Drawing,Redemption in part before the scheduled final maturity date of a security.,core#definition
+SharesPremiumDividendAction,shares premium dividend action,rdf-schema#label
+ListingStatusDelistingMessage,Security is no longer able to comply with the listing requirements of a stock exchange and is removed from official board quotation.,core#definition
+IntermediateSecuritiesDistribution,MandatoryCorporateAction,rdf-schema#subClassOf
+RightsExerciseEvent,owl#Class,22-rdf-syntax-ns#type
+FormalOffer,VoluntaryCorporateAction,rdf-schema#subClassOf
+OddLotOffer,owl#Class,22-rdf-syntax-ns#type
+ChangeOfSecurityTradingStatusEvent,An event in which the trading status of a tradable security changes.,core#definition
+TenderOffer,acquisition,synonym
+TradingStatusMessage,trading status message,rdf-schema#label
+BondDefaultAction,owl#Class,22-rdf-syntax-ns#type
+FormalOffer,N334798c6eff744b4b4ed1c2d5d7a17a2,owl#equivalentClass
+CorporateChangeOfStatusEvent,"This is generally described by a corporate event message. For example, change in trading status, listing status.",explanatoryNote
+CouponStrip,N3d310d5c0be946d0b8fdf3f13d38639c,rdf-schema#subClassOf
+DecreaseInValueAction,MandatoryCorporateAction,rdf-schema#subClassOf
+Nda07d735ff0d43a0850494b670b9b8c9,appliesTo,owl#onProperty
+StockSplit,Equity price and nominal value are reduced accordingly.,explanatoryNote
+PariPassuAction,pari-passu action,rdf-schema#label
+CorporateChangeOfStatusEvent,owl#Class,22-rdf-syntax-ns#type
+TradingStatusSuspendedMessage,Trading in the security has been suspended.,core#definition
+PariPassuAction,"The term, pari-passu, means 'at the same rate or on an equal footing', and in finance is used to describe situations where two or more assets, securities, creditors, or obligations are equally managed without preference. An example of pari-passu occurs during bankruptcy proceedings: When the court reaches a verdict, the court regards all creditors equally, and the trustee will repay them the same fractional amount as other creditors and at the same time.",explanatoryNote
+SharesPremiumDividendAction,It is similar to a dividend but with different tax implications.,explanatoryNote
+RightsExerciseEvent,There is a rights trading period overlaps with rights subscriptiuon period (you can trade the rights) Rights exercise period - expiry date. Some time after the expiry the new shares are distributed. This is the distribution.,explanatoryNote
+DividendOptionAction,MandatoryWithChoiceCorporateAction,rdf-schema#subClassOf
+FormalOffer,"corporate action involving an offer to a holder, potential holder, or other intersted party, to enter into a trade which is or would be legally binding on the part of the party making the offer (the offeror).",core#definition
+CouponStrip,Coupon stripping is the process whereby interest coupons for future payment dates are separated from the security corpus that entitles the holder to the principal repayment.,core#definition
+RedenominationAction,owl#Class,22-rdf-syntax-ns#type
+CorporateActionPaymentObligation,CorporateActionObligation,rdf-schema#subClassOf
+CallOnIntermediateSecurities,call on intermediate securities,rdf-schema#label
+BonusIssue,bonus issue,rdf-schema#label
+CapitalDistribution,corporate action that pays shareholders an amount in cash issued from the issuer's capital account,core#definition
+ChangeToSmallestNegotiableUnit,CorporateAction,rdf-schema#subClassOf

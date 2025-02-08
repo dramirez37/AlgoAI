@@ -1,0 +1,194 @@
+source_id,target_id,relationship
+LetterOfCredit,owl#Class,22-rdf-syntax-ns#type
+LetterOfCredit,CommittedCreditFacility,rdf-schema#subClassOf
+GovernmentGuaranty,Nc6cae11c6bd64a08ae3bfea428e75d4d,rdf-schema#subClassOf
+Guaranty,N77076c5deccf43e99a27fbada55869df,rdf-schema#subClassOf
+N439655cc26d64603b6754837806aa6bf,isExemplifiedBy,owl#onProperty
+hasGuarantor,has guarantor,rdf-schema#label
+N83443ceef9a946eb846f38fa8ecad9e4,LegalPerson,owl#allValuesFrom
+Ndd799a587a4f4f4e9898fea5f6a54174,Policyholder,owl#someValuesFrom
+LetterOfCreditGuaranty,N439655cc26d64603b6754837806aa6bf,rdf-schema#subClassOf
+PriorityLevel,Classifier,rdf-schema#subClassOf
+Insurer,owl#Class,22-rdf-syntax-ns#type
+N71428c744cd24ecbb918e9db061b7957,Insurer,owl#someValuesFrom
+Nae5d0c8faaa04469a14a91fc54b5f664,isIssuedBy,owl#onProperty
+Nc6cae11c6bd64a08ae3bfea428e75d4d,owl#Restriction,22-rdf-syntax-ns#type
+hasGuarantorParty,"indicates a party that guarantees, endorses, or provides indemnity for some obligation on its behalf",core#definition
+Guaranty,Nae4de732cd184161a8d11d97ad748aeb,rdf-schema#subClassOf
+Policyholder,insured party,synonym
+isGuaranteedBy,Guaranty,rdf-schema#domain
+, version of this ontology revised to incorporate refinement of the concept of a guaranty as needed for debt securities and loans.,core#changeNote
+, version of this ontology revised to eliminate duplication of concepts in LCC.,core#changeNote
+N2a07605c322b4d53846e85bbba5b119b,owl#Restriction,22-rdf-syntax-ns#type
+, version of this ontology revised to add financial asset as a parent of letter of credit.,core#changeNote
+JointGuaranty,"guaranty provided by at least two parties, jointly and severally",core#definition
+LetterOfCreditGuaranty,"guaranty that takes the form of a letter of credit, i.e., a document issued by a bank guaranteeing the payment up to a stated amount for a specified period",core#definition
+N71428c744cd24ecbb918e9db061b7957,isIssuedBy,owl#onProperty
+hasGuarantorParty,hasControllingParty,rdf-schema#subPropertyOf
+Guaranty,"Barron's Dictionary of Business and Economics Terms, Fifth Edition, 2012",adaptedFrom
+Policyholder,Counterparty,rdf-schema#subClassOf
+,This ontology defines concepts related to contractual guaranty.,abstract
+hasGuarantorParty,isGuarantorOf,owl#inverseOf
+Nc6cae11c6bd64a08ae3bfea428e75d4d,N683084be95804f0f9b75091a154e811a,owl#someValuesFrom
+N3b465cdb10bc4890959704bd03d5a766,isAPartyTo,owl#onProperty
+GovernmentGuaranty,government guaranty,rdf-schema#label
+Nc70d671db33342318771b0da10178b54,MonetaryAmount,owl#allValuesFrom
+Guarantor,ContractThirdParty,rdf-schema#subClassOf
+InsurancePolicy,"contract document that (1) puts an indemnity cover into effect, (2) serves as a legal evidence of the insurance agreement, (3) sets out the exact terms on which the indemnity cover has been provided, and (4) states associated information such as the (a) specific risks and perils covered, (b) duration of coverage, (c) amount of premium, (d) mode of premium payment, and (e) deductibles, if any",core#definition
+Nae5d0c8faaa04469a14a91fc54b5f664,owl#Restriction,22-rdf-syntax-ns#type
+InsurancePolicy,insurance policy,rdf-schema#label
+,Guaranty.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+isGuaranteedBy,is guaranteed by,rdf-schema#label
+hasPriorityLevel,isClassifiedBy,rdf-schema#subPropertyOf
+hasPriorityLevel,PriorityLevel,rdf-schema#range
+LetterOfCredit,letter of credit,rdf-schema#label
+N6cfe1a2bd07d4b0bbcdb3d55ed5eb39e,owl#Restriction,22-rdf-syntax-ns#type
+Nbe06f8976f5a49c1b72039925b32120c,owl#Restriction,22-rdf-syntax-ns#type
+Guarantor,"party that guarantees, endorses, or provides indemnity for some obligation on behalf of some other party",core#definition
+LetterOfCredit,Nae5d0c8faaa04469a14a91fc54b5f664,rdf-schema#subClassOf
+Nae4de732cd184161a8d11d97ad748aeb,hasExpirationDate,owl#onProperty
+, version of this ontology revised to address text formatting issues uncovered by hygiene testing.,core#changeNote
+NegativePledge,negative pledge,rdf-schema#label
+Insurer,FinancialServiceProvider,rdf-schema#subClassOf
+N6cfe1a2bd07d4b0bbcdb3d55ed5eb39e,N3b465cdb10bc4890959704bd03d5a766,owl#someValuesFrom
+InsurancePolicy,Ndd799a587a4f4f4e9898fea5f6a54174,rdf-schema#subClassOf
+,,owl#imports
+N4423bb92bdf24c12bcc7bdeeca888257,owl#Restriction,22-rdf-syntax-ns#type
+hasGuaranteedAmount,MonetaryAmount,rdf-schema#range
+isGuarantorOf,Guarantor,rdf-schema#domain
+Guarantor,owl#Class,22-rdf-syntax-ns#type
+Nae5d0c8faaa04469a14a91fc54b5f664,PartyRole,owl#someValuesFrom
+Nae4de732cd184161a8d11d97ad748aeb,owl#Restriction,22-rdf-syntax-ns#type
+Guaranty,commitment whereby something is formally assured if a party with primary liability fails to perform,core#definition
+Guaranty,N7891afd48f024a8096f6858a247c060d,rdf-schema#subClassOf
+CollateralizedGuaranty,N4423bb92bdf24c12bcc7bdeeca888257,rdf-schema#subClassOf
+Nc70d671db33342318771b0da10178b54,hasGuaranteedAmount,owl#onProperty
+,,owl#versionIRI
+Guaranty,Nc70d671db33342318771b0da10178b54,rdf-schema#subClassOf
+N439655cc26d64603b6754837806aa6bf,LetterOfCredit,owl#someValuesFrom
+N439655cc26d64603b6754837806aa6bf,owl#Restriction,22-rdf-syntax-ns#type
+isGuarantorOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+Nc6cae11c6bd64a08ae3bfea428e75d4d,isGuaranteedBy,owl#onProperty
+hasGuaranteedAmount,has guaranteed amount,rdf-schema#label
+,Guaranty.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+hasGuarantor,hasThirdParty,rdf-schema#subPropertyOf
+LetterOfCredit,letter from a bank or other creditworthy institution guaranteeing that a buyer's payment to a seller will be received on time and for the correct amount,core#definition
+JointGuaranty,owl#Class,22-rdf-syntax-ns#type
+N4423bb92bdf24c12bcc7bdeeca888257,isCollateralizedBy,owl#onProperty
+LetterOfCredit,"In the event that the buyer is unable to make payment, the bank or other issuer is required to cover the full or remaining amount.",explanatoryNote
+Guaranty,Nf2b6dde7be7540e08c844525c227f164,rdf-schema#subClassOf
+N7891afd48f024a8096f6858a247c060d,owl#Restriction,22-rdf-syntax-ns#type
+hasPriorityLevel,,rdf-schema#isDefinedBy
+N2a07605c322b4d53846e85bbba5b119b,isGuaranteedBy,owl#onProperty
+N683084be95804f0f9b75091a154e811a,isPlayedBy,owl#onProperty
+N7891afd48f024a8096f6858a247c060d,Guarantor,owl#allValuesFrom
+hasGuarantor,relates the guarantor to the contract for which they are providing a guaranty,core#definition
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+hasPriorityLevel,owl#ObjectProperty,22-rdf-syntax-ns#type
+PriorityLevel,"relative ranking that a guaranty has in the context of a contract, for example for a credit enhancement priority",core#definition
+CollateralizedGuaranty,"In some cases, the lender may require the borrower to place pledged assets such as cash or securities in a separate account that the lender controls.",explanatoryNote
+Guarantor,"In some cases, the party acting as guarantor may also be a party to the contract, such as in the case of Fannie Mae or Freddie Mac. In such cases, the same individual would be modeled as having both roles.",explanatoryNote
+N4423bb92bdf24c12bcc7bdeeca888257,Collateral,owl#someValuesFrom
+hasGuarantor,,rdf-schema#isDefinedBy
+N71428c744cd24ecbb918e9db061b7957,owl#Restriction,22-rdf-syntax-ns#type
+Guaranty,Commitment,rdf-schema#subClassOf
+Nbe06f8976f5a49c1b72039925b32120c,InsurancePolicy,owl#someValuesFrom
+InsurancePolicy,N71428c744cd24ecbb918e9db061b7957,rdf-schema#subClassOf
+InsuranceBackedGuaranty,Guaranty,rdf-schema#subClassOf
+hasPriorityLevel,has priority level,rdf-schema#label
+GovernmentGuaranty,owl#Class,22-rdf-syntax-ns#type
+N3b465cdb10bc4890959704bd03d5a766,Contract,owl#someValuesFrom
+CollateralizedGuaranty,owl#Class,22-rdf-syntax-ns#type
+LetterOfCreditGuaranty,CollateralizedGuaranty,rdf-schema#subClassOf
+Guarantor,DeJureControllingInterestParty,rdf-schema#subClassOf
+Policyholder,policyholder,rdf-schema#label
+LetterOfCreditGuaranty,owl#Class,22-rdf-syntax-ns#type
+Guaranty,guaranty,rdf-schema#label
+NegativePledge,owl#Class,22-rdf-syntax-ns#type
+N77076c5deccf43e99a27fbada55869df,PriorityLevel,owl#allValuesFrom
+InsuranceBackedGuaranty,owl#Class,22-rdf-syntax-ns#type
+N2a07605c322b4d53846e85bbba5b119b,Guarantor,owl#onClass
+JointGuaranty,joint guaranty,rdf-schema#label
+CollateralizedGuaranty,collateralized guaranty,rdf-schema#label
+," version of this ontology revised to simplify the contract party hierarchy, add properties linking controlled parties to their guarantor, and clean up definitions to eliminate ambiguity, etc.",core#changeNote
+, version of this ontology was added to the FBC domain via the FIBO 2.0 RFC in support of several FIBO debt-oriented initiatives.,core#changeNote
+,"Guaranty.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+Insurer,insurer,rdf-schema#label
+N6cfe1a2bd07d4b0bbcdb3d55ed5eb39e,isPlayedBy,owl#onProperty
+isGuarantorOf,ControlledParty,rdf-schema#range
+Guarantor,"Barron's Dictionary of Business and Economics Terms, Fifth Edition, 2012",adaptedFrom
+hasGuarantorParty,has guarantor party,rdf-schema#label
+CollateralizedGuaranty,guaranty that takes the form of some asset that is pledged by a borrower to a lender (usually in return for a loan),core#definition
+," version of this ontology revised to make letter of credit a subclass of committed credit facility, and to differentiate financial collateral from physical collateral.",core#changeNote
+Nf2b6dde7be7540e08c844525c227f164,DatePeriod,owl#allValuesFrom
+hasGuaranteedAmount,Guaranty,rdf-schema#domain
+InsuranceBackedGuaranty,guaranty that is realized as an insurance policy,core#definition
+N7891afd48f024a8096f6858a247c060d,isGuaranteedBy,owl#onProperty
+Insurer,ContractPrincipal,rdf-schema#subClassOf
+Insurer,financial service provider that issues an insurance policy,core#definition
+hasGuaranteedAmount,relates the guaranty to the monetary amount guaranteed,core#definition
+GovernmentGuaranty,Guaranty,rdf-schema#subClassOf
+Guaranty,,rdf-schema#isDefinedBy
+JointGuaranty,N2a07605c322b4d53846e85bbba5b119b,rdf-schema#subClassOf
+NegativePledge,guaranty whereby the issuer will not pledge any assets if doing so would result in less security for lender(s) or investor(s),core#definition
+LetterOfCredit,FinancialAsset,rdf-schema#subClassOf
+Nf2b6dde7be7540e08c844525c227f164,holdsDuring,owl#onProperty
+hasGuarantor,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasGuaranteedAmount,,rdf-schema#isDefinedBy
+N2a07605c322b4d53846e85bbba5b119b,2,owl#minQualifiedCardinality
+Guarantor,guarantor,rdf-schema#label
+Guarantor,N83443ceef9a946eb846f38fa8ecad9e4,rdf-schema#subClassOf
+isGuarantorOf,isPartyControlling,rdf-schema#subPropertyOf
+InsuranceBackedGuaranty,Nbe06f8976f5a49c1b72039925b32120c,rdf-schema#subClassOf
+LetterOfCredit,C,abbreviation
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+hasGuaranteedAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+CollateralizedGuaranty,Guaranty,rdf-schema#subClassOf
+isGuaranteedBy,"relates guaranty to the contract guarantor, i.e., to the legal person providing the guaranty",core#definition
+Guaranty,"The commitment may cover a debt, cash flows on a debt instrument (such as interest payments), or performance of some obligation.",explanatoryNote
+InsurancePolicy,ContractDocument,rdf-schema#subClassOf
+PriorityLevel,,rdf-schema#isDefinedBy
+NegativePledge,Guaranty,rdf-schema#subClassOf
+InsurancePolicy,owl#Class,22-rdf-syntax-ns#type
+LetterOfCredit,"In some states in the U.S., the issuer is not limited to financial institutions -- it is simply a written instrument, addressed by one person to another, requesting the latter to give credit to the person in whose favor it is drawn.",explanatoryNote
+,Release,hasMaturityLevel
+isGuarantorOf,identifies a party over which a guarantor has some measure of control by virtue of the guarantee,core#definition
+Nf2b6dde7be7540e08c844525c227f164,owl#Restriction,22-rdf-syntax-ns#type
+hasGuarantorParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ndd799a587a4f4f4e9898fea5f6a54174,hasCounterparty,owl#onProperty
+,MIT,license
+isGuaranteedBy,Guarantor,rdf-schema#range
+N83443ceef9a946eb846f38fa8ecad9e4,isPlayedBy,owl#onProperty
+PriorityLevel,priority level,rdf-schema#label
+hasGuarantor,Contract,rdf-schema#domain
+hasPriorityLevel,"relates a guaranty to some relative ranking that the guaranty has in the context of the contract, for example for a credit enhancement priority",core#definition
+JointGuaranty,Guaranty,rdf-schema#subClassOf
+Ndd799a587a4f4f4e9898fea5f6a54174,owl#Restriction,22-rdf-syntax-ns#type
+Guarantor,,rdf-schema#isDefinedBy
+hasGuarantor,Guarantor,rdf-schema#range
+Guaranty,owl#Class,22-rdf-syntax-ns#type
+N3b465cdb10bc4890959704bd03d5a766,owl#Restriction,22-rdf-syntax-ns#type
+LetterOfCreditGuaranty,letter of credit guaranty,rdf-schema#label
+hasPriorityLevel,Guaranty,rdf-schema#domain
+N77076c5deccf43e99a27fbada55869df,owl#Restriction,22-rdf-syntax-ns#type
+Nbe06f8976f5a49c1b72039925b32120c,isExemplifiedBy,owl#onProperty
+N83443ceef9a946eb846f38fa8ecad9e4,owl#Restriction,22-rdf-syntax-ns#type
+InsuranceBackedGuaranty,insurance-backed guaranty,rdf-schema#label
+isGuaranteedBy,,rdf-schema#isDefinedBy
+N77076c5deccf43e99a27fbada55869df,hasPriorityLevel,owl#onProperty
+hasGuarantorParty,ControlledParty,rdf-schema#domain
+Policyholder,counterparty to and typically owner of an insurance policy,core#definition
+isGuaranteedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+PriorityLevel,owl#Class,22-rdf-syntax-ns#type
+hasGuarantorParty,Guarantor,rdf-schema#range
+,Guaranty Ontology,rdf-schema#label
+hasGuaranteedAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+isGuarantorOf,is guarantor of,rdf-schema#label
+Nae4de732cd184161a8d11d97ad748aeb,Date,owl#allValuesFrom
+Guarantor,N6cfe1a2bd07d4b0bbcdb3d55ed5eb39e,rdf-schema#subClassOf
+Nc70d671db33342318771b0da10178b54,owl#Restriction,22-rdf-syntax-ns#type
+N683084be95804f0f9b75091a154e811a,Polity,owl#someValuesFrom
+GovernmentGuaranty,"guaranty provided by a government entity, such as for a government-backed security",core#definition
+N683084be95804f0f9b75091a154e811a,owl#Restriction,22-rdf-syntax-ns#type
+Policyholder,owl#Class,22-rdf-syntax-ns#type

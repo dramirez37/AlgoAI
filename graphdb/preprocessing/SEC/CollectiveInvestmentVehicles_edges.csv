@@ -1,0 +1,1524 @@
+source_id,target_id,relationship
+CollectiveInvestmentVehicle,N3089fa7b620a4fda8aa87f1652727a63,rdf-schema#subClassOf
+N409e672dc0254616a2e5aeb9e47066b7,owl#Restriction,22-rdf-syntax-ns#type
+FundSubscriptionTerms,owl#Class,22-rdf-syntax-ns#type
+FundContract,N79479510b2be406dbabf088c9684f087,rdf-schema#subClassOf
+FundProspectus,Prospectus,rdf-schema#subClassOf
+redemptionFee,FundSubscriptionTerms,rdf-schema#domain
+SpecialPurposeVehicle,N258a570216ce49ad93999b2d4f54797b,rdf-schema#subClassOf
+distributionWithReinvestment,shares allocated to the investor.,core#definition
+N3ba2ffd446ae452ebff7d1080dfe2bc6,Currency,owl#someValuesFrom
+AnnualizedPerformanceDeterminationMethod,annualized performance determination method,rdf-schema#label
+includeRelatedFirms,Whether or not the strategy includes firms which are related in some way to the referenced organization.,core#definition
+KeyInvestorInformationDocument,"Key investor information shall include appropriate information about the essential characteristics of the UCITS concerned, which is to be provided to investors so that they are reasonably able to understand the nature and the risks of the investment product that is being offered to them and, consequently, to take investment decisions on an informed basis.",explanatoryNote
+FundOrderDesk,AccountProvider,rdf-schema#subClassOf
+FundAdministrator,fund administrator,rdf-schema#label
+investmentFocus,XMLSchema#string,rdf-schema#range
+FundInvestmentPolicy,N8c94f78cd54c4afe845708a5e023c32b,rdf-schema#subClassOf
+backEndLoadApplicable,"Whether an exit charge, eg, CDSC, on redemption orders for this class can be applied.",core#definition
+PortfolioInvestmentStrategy,Nf95a4c1316224171ad25acab2a147569,rdf-schema#subClassOf
+hasAccountingReportingFrequency,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasTransferAgent,FundTransferAgent,rdf-schema#range
+identifiesAssetTypesBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+holds,owl#ObjectProperty,22-rdf-syntax-ns#type
+inceptionDate,inception date,rdf-schema#label
+hasSubscriptionTerms,FundSubscriptionTerms,rdf-schema#range
+hasTradableUnit,CollectiveInvestmentVehicle,rdf-schema#domain
+FondsCommunDePlacement,fcp,rdf-schema#seeAlso
+minimumRemainingHoldingAmount,MonetaryAmount,rdf-schema#range
+NetAssetValueCalculationMethod,net asset value calculation method,rdf-schema#label
+limitedSharesAreIssued,XMLSchema#boolean,rdf-schema#range
+SpecialPurposeVehicle,owl#Class,22-rdf-syntax-ns#type
+FundAccountant,FundsProcessingParty,rdf-schema#subClassOf
+EquityPortfolio,equity portfolio,rdf-schema#label
+redemptionCutoffDateTime,time at which an order to redeem can be given.,core#definition
+CurrencyStrategy,Strategy which is currency based.,core#definition
+endOfFiscalYear,owl#ObjectProperty,22-rdf-syntax-ns#type
+,,owl#versionIRI
+hasUnitIssuer,fundHasRelatedParty,rdf-schema#subPropertyOf
+CurrencyStrategy,owl#Class,22-rdf-syntax-ns#type
+maximumRedemptionFee,maximum redemption fee,rdf-schema#label
+performanceFee,performance fee,rdf-schema#label
+initialApplicationForm,Physical application form for the initial subscription by the investor.,core#definition
+N49309046a214445c83d68816f44851da,owl#Restriction,22-rdf-syntax-ns#type
+FundPortfolio,N4dc2f8ff081048d18fec98c9f126fdf7,rdf-schema#subClassOf
+Nf24e78cb8b674808b7b0c07882a5daef,FundPortfolioInvestmentLimitations,owl#someValuesFrom
+switchingFee,Actual percentage or fixed amount of money due when switching to another fund. Definition origin:EFAMA DD,core#definition
+isCalculatedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+definesMainFundOrderDeskAccount,FundsProcessingAccount,rdf-schema#range
+hasInformationAbout,owl#ObjectProperty,22-rdf-syntax-ns#type
+CollectiveInvestmentVehicle,N6e1d6cb7d4864edc880ccfcc12e46ffd,rdf-schema#subClassOf
+statedObjective,XMLSchema#string,rdf-schema#range
+frontEndLoadApplicable,Whether a front end charge on subscription orders for this class can be applied.,core#definition
+purchasingFee,purchasing fee,rdf-schema#label
+FundOrderDeskPhysicalFormDocument,fund order desk physical form document,rdf-schema#label
+FundInvestmentObjective,owl#Class,22-rdf-syntax-ns#type
+switchingChargeable,Whether a switching charge for changing between sub-funds of the same umbrella can be applied.,core#definition
+RiskLevel,owl#Class,22-rdf-syntax-ns#type
+N28b6ed954cd74e09937c0c684d574350,hasStrategy,owl#onProperty
+hasAccountingReportingFrequency,has accounting reporting frequency,rdf-schema#label
+FundTransferAgent,FundsProcessingParty,rdf-schema#subClassOf
+advisedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+EquityPortfolio,FundPortfolio,rdf-schema#subClassOf
+CollectiveInvestmentVehicle,Nbf29812379f149bfa4df12a2d6c08049,rdf-schema#subClassOf
+percentageInvested,Percentage,rdf-schema#range
+DistributingShareClass,FundShareClassUnit,rdf-schema#subClassOf
+minimumSubscriptionUnits,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N65b51d6f658f49e8ae999207d6696f4e,FundProspectus,owl#someValuesFrom
+decimalPlaceRounding,FundProcessingTerms,rdf-schema#domain
+FundUnitHolding,fund unit holding,rdf-schema#label
+SemiAnnualReportingPolicy,owl#Class,22-rdf-syntax-ns#type
+denomination,CollectiveInvestmentVehicle,rdf-schema#domain
+N8887df81833245adac26375be97bfb43,MarketRate,owl#someValuesFrom
+PortfolioManager,portfolio manager,rdf-schema#label
+N449ae3ff50514d6fab2749d2d3ebc6bf,owl#Restriction,22-rdf-syntax-ns#type
+assessedAgainst,assessed against,rdf-schema#label
+subscriptionPeriod,shares may be subscribed to.,core#definition
+AnnualReportingPolicy,ReportingFrequencyPolicy,rdf-schema#subClassOf
+N7156ee96c1614d96886f93352c89f58d,hasIntendedRiskLevel,owl#onProperty
+FundDebt,owl#Class,22-rdf-syntax-ns#type
+couponPaymentDate,The date at which the coupon is distributed to the bond unit holder.,core#definition
+FundProcessingGeneralTerms,owl#Class,22-rdf-syntax-ns#type
+issues,UnitIssuer,rdf-schema#domain
+OtherInvestmentFundInformation,Document,rdf-schema#subClassOf
+Nefff9d14970f4d36b130cc08a67d5fe8,owl#Restriction,22-rdf-syntax-ns#type
+statedInvestmentAim,FundInvestmentObjective,rdf-schema#domain
+includeRelatedFirms,OrganizationStrategy,rdf-schema#domain
+N3147df32288e4505abfdfe78fa447c9b,hasMonetaryAmount,owl#onProperty
+FundPortfolio,N467041f59c614fd58c6284d691d3edd2,rdf-schema#subClassOf
+FundLegalFormDocumentation,fund legal form documentation,rdf-schema#label
+subsequentApplicationForm,FundSubscriptionTerms,rdf-schema#domain
+FundProcessingTerms,N0f42f11531fa4009bf3f405f801e83bd,rdf-schema#subClassOf
+holdingTransferable,holding transferable,rdf-schema#label
+exCouponDate,DayOfMonth,rdf-schema#range
+N218b4123935a4681a976017bfd74850f,FundSupervisoryAuthority,owl#someValuesFrom
+AccumulatingShareClass,FundShareClassUnit,rdf-schema#subClassOf
+Liquidity,N3ba2ffd446ae452ebff7d1080dfe2bc6,rdf-schema#subClassOf
+N4dcc06b2ebfd455f849aad0e5eb15aee,isProvidedBy,owl#onProperty
+inceptionDate,Date,rdf-schema#range
+minimumSubscriptionAmount,FundSubscriptionTerms,rdf-schema#domain
+anticipates,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundsProcessing,LifecycleStage,rdf-schema#subClassOf
+subscriptionDealingFrequency,RecurrenceInterval,rdf-schema#range
+hasPortfolio,has portfolio,rdf-schema#label
+FundOrderDesk,owl#Class,22-rdf-syntax-ns#type
+CollectiveInvestmentVehicle,N13a20f9488df40b48c3a3d21d55c1c2e,rdf-schema#subClassOf
+typeOfSecurities,The type of securities or other holdings that may be invested in.,core#definition
+Nf1725a39eb364ad9b68af6a307b832ac,owl#Restriction,22-rdf-syntax-ns#type
+hasPolicyTerms,FundBondUnitCoupon,rdf-schema#domain
+subscriptionsInAmountAllowed,FundSubscriptionTerms,rdf-schema#domain
+outlines,outlines,rdf-schema#label
+description.1,Description of the benchmark used to determine the performance of a portfolio.,core#definition
+definedInRelationTo,defined in relation to,rdf-schema#label
+Nbf29812379f149bfa4df12a2d6c08049,owl#Restriction,22-rdf-syntax-ns#type
+supervisedBy,supervised by,rdf-schema#label
+productGroupDescription,Company specific description of a group of funds.,core#definition
+minimumInitialSubscriptionAmount,minimum initial subscription amount,rdf-schema#label
+PortfolioBenchmark,Measure,rdf-schema#subClassOf
+FundPortfolioInvestmentPolicy,fund portfolio investment policy,rdf-schema#label
+includes,FundPortfolioInvestmentLimitations,rdf-schema#range
+maximumPurchasingFee,owl#ObjectProperty,22-rdf-syntax-ns#type
+N65b51d6f658f49e8ae999207d6696f4e,statedIn,owl#onProperty
+CollectiveInvestmentVehicle,Na58a6d93e18b408b94c0f824a4a61786,rdf-schema#subClassOf
+hasRelatedFundTerms,FundProcessingTerms,rdf-schema#range
+PortfolioBenchmark,owl#Class,22-rdf-syntax-ns#type
+hasAdditionalRedemptionRestrictions,ReferToFundOrderDesk,rdf-schema#range
+authorizedCountry,FundProcessingGeneralTerms,rdf-schema#domain
+N9b0512b9c6534adbb1f17570b842fa19,owl#Restriction,22-rdf-syntax-ns#type
+describedIn,CollectiveInvestmentVehicle,rdf-schema#domain
+,owl#Ontology,22-rdf-syntax-ns#type
+Nd38444445b3c42bf91f8ddca3754f5c1,isSetUpFor,owl#onProperty
+exCouponDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+JurisdictionStrategy,N2762f98c07334297b74da659a46c2ac4,rdf-schema#subClassOf
+MoneyWeightedRateOfReturnPerformanceDeterminationMethod,owl#Class,22-rdf-syntax-ns#type
+Nd38444445b3c42bf91f8ddca3754f5c1,owl#Restriction,22-rdf-syntax-ns#type
+N8887df81833245adac26375be97bfb43,definesBenchmark,owl#onProperty
+launchDate,launch date,rdf-schema#label
+InvestmentStrategy,Nf1725a39eb364ad9b68af6a307b832ac,rdf-schema#subClassOf
+mainFundOrderDesk,Whether the fund order desk is the principal entity appointed by the fund to which orders should be submitted.,core#definition
+hasExpectedCoupon,FundBondClassUnit,rdf-schema#domain
+Liquidity,Asset,rdf-schema#subClassOf
+ReferToFundOrderDesk,FundRedemptionRestriction,rdf-schema#subClassOf
+FundUnitDistributionPolicy,fund unit distribution policy,rdf-schema#label
+N9fa2694dfe494bda98b45bef1c54e633,FundProspectus,owl#someValuesFrom
+FundClassification,"The category of the fund according to the asset class. This is a published code by which the Fund is classified. Further notes: Could be EFCF codes. This is the way in which ""Type of fund"" is articulated.",core#definition
+N65be4c631b8741ffb917e7fc58dca01d,CollectiveInvestmentVehicle,owl#someValuesFrom
+mayBe.1,may be,rdf-schema#label
+N2762f98c07334297b74da659a46c2ac4,owl#Restriction,22-rdf-syntax-ns#type
+hasUnitIssuer,CollectiveInvestmentVehicle,rdf-schema#domain
+includes,PortfolioInvestmentStrategy,rdf-schema#domain
+identifiedAs.5,owl#ObjectProperty,22-rdf-syntax-ns#type
+name,CollectiveInvestmentVehicle,rdf-schema#domain
+definesMainFundOrderDeskAccount,FundProcessingTerms,rdf-schema#domain
+SpecialPurposeVehicle,"A Special Purpose Vehicle (SPV) set up specifically to issue a security or securities. It is set up by a company or a group of companies for some purpose such as to create instruments that are off the company's balance sheet or to issue Participation Notes for investors in another jurisdiction. The SPV is formed for a specific reason and exists for a specific period of time and is then disbanded. Further notes: Special Purpose Vehicles are also referred to as bankruptcy remote entities, as they isolate financial risk. For Participation Notes: slightly different purpose but the same kind of vehicle. The only investment made by the SPV is that they buy in the stock. These are the same kind of entity in all of the contexts in which they exist.",explanatoryNote
+redemptionCutoffDateTime,owl#ObjectProperty,22-rdf-syntax-ns#type
+redemptionPeriod,DatePeriod,rdf-schema#range
+processingCountry,FundProcessingTerms,rdf-schema#domain
+holderMayReinvest,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N3ba2ffd446ae452ebff7d1080dfe2bc6,denominatedIn,owl#onProperty
+Na58a6d93e18b408b94c0f824a4a61786,hasDepository,owl#onProperty
+N38d041c565a44418bd84d762a57ef47a,hasPolicyTerms,owl#onProperty
+FundManagementCompany,LegalEntity,rdf-schema#subClassOf
+N4dcc06b2ebfd455f849aad0e5eb15aee,owl#Restriction,22-rdf-syntax-ns#type
+CollectiveInvestmentVehicle,Na5e36de2fd4140eba0a1d59e8f79dc06,rdf-schema#subClassOf
+AccumulatingShareClass,owl#Class,22-rdf-syntax-ns#type
+CollectiveInvestmentVehicle,Na67492b20dcd4560994f751542b846a4,rdf-schema#subClassOf
+hasRelatedFundTerms,CollectiveInvestmentVehicle,rdf-schema#domain
+hasContactDetails,PortfolioManager,rdf-schema#domain
+mayBeDefinedIn,FundsProcessingPassport,rdf-schema#domain
+FundSubscriptionTerms,fund subscription terms,rdf-schema#label
+minimumHoldingPeriod,minimum holding period,rdf-schema#label
+CollectiveInvestmentVehicle,Nd889f4fb766a44ee93bdcffb8cb7db76,rdf-schema#subClassOf
+declarationChannel,XMLSchema#string,rdf-schema#range
+FundManagementCompany,owl#Class,22-rdf-syntax-ns#type
+Nce52dfab2a674efbbeb9b74ae6d0e0e8,definedInRelationTo,owl#onProperty
+dualFund,dual fund,rdf-schema#label
+hasLiquidity,has liquidity,rdf-schema#label
+hasManagementCompany,CollectiveInvestmentVehicle,rdf-schema#domain
+CommonShareInFund,common share in fund,rdf-schema#label
+N4dc2f8ff081048d18fec98c9f126fdf7,assessedAgainst,owl#onProperty
+SICAF,A French fund vehicle type. Designation and definition needed.,core#definition
+initialApplicationForm,FundProcessingForm,rdf-schema#range
+N9fa2694dfe494bda98b45bef1c54e633,describedIn,owl#onProperty
+switchingFee,owl#ObjectProperty,22-rdf-syntax-ns#type
+processingCountry,Country,rdf-schema#range
+FundDataProvider,fund data provider,rdf-schema#label
+inceptionDate.1,FundShareClassUnit,rdf-schema#domain
+name,name,rdf-schema#label
+implementsFundPolicy,implements fund policy,rdf-schema#label
+FundCouponPolicy,owl#Class,22-rdf-syntax-ns#type
+PortfolioInvestmentStrategy,portfolio investment strategy,rdf-schema#label
+distributionWithReinvestment,XMLSchema#boolean,rdf-schema#range
+redemptionDealingFrequency,redemption dealing frequency,rdf-schema#label
+administeredBy,CollectiveInvestmentVehicle,rdf-schema#domain
+subscriptionCutoffDateTime,owl#ObjectProperty,22-rdf-syntax-ns#type
+maximumPurchasingFee,Fee,rdf-schema#range
+hasAuditor,owl#ObjectProperty,22-rdf-syntax-ns#type
+SectorStrategy,Strategy which is sector based.,core#definition
+FundsCashDistribution,FundUnitDistributionMethod,rdf-schema#subClassOf
+hasIssueDate,FundUnit,rdf-schema#domain
+FundDepositary,owl#Class,22-rdf-syntax-ns#type
+Neb9163b112544fb08e3a4846d246b1a5,owl#Restriction,22-rdf-syntax-ns#type
+launchDate,Date of first NAV calculation and start of performance calculations,core#definition
+N0bf8e1fdc1a44841ba9a724d3c747710,isPlayedBy,owl#onProperty
+hasAccountingReportingFrequency,FundReportingTerms,rdf-schema#domain
+inceptionDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+InvestmentAdvisor,FundsProcessingParty,rdf-schema#subClassOf
+distributedBy,fundHasRelatedParty,rdf-schema#subPropertyOf
+N55b9f63dc1a045d482c2bfcb42afad18,PerformanceDeterminationMethod,owl#someValuesFrom
+isUnitHolder,FundUnit,rdf-schema#range
+subscriptionsInAmountAllowed,XMLSchema#boolean,rdf-schema#range
+isSetUpFor,SpecialPurposeVehicle,rdf-schema#domain
+BricksAndMortarHolding,Nff49104a0bd64f61a89f977cc6375448,rdf-schema#subClassOf
+valueAtRisk,owl#ObjectProperty,22-rdf-syntax-ns#type
+performanceDeterminationTimeframe,"The timeframe on which the performance is reported (e.g. 1month, 1 year, YTD).",core#definition
+subscriptionCutoffDateTime,subscription cutoff date time,rdf-schema#label
+Neb9163b112544fb08e3a4846d246b1a5,isPlayedBy,owl#onProperty
+hasFundPolicy,CollectiveInvestmentVehicle,rdf-schema#domain
+N73506d20e28047fca1c2731796ee0324,FundUnit,owl#someValuesFrom
+historicPricingIndicator,XMLSchema#boolean,rdf-schema#range
+FundProspectus,N59f56b03051e4164bfe363affe249b24,rdf-schema#subClassOf
+redemptionInAmountAllowed,FundRedemptionTerms,rdf-schema#domain
+maximumPurchasingFee,FundSubscriptionTerms,rdf-schema#domain
+hasRelatedTerms,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nefff9d14970f4d36b130cc08a67d5fe8,administeredBy,owl#onProperty
+N6f49a9d3772a4c99a9a84953b3d2cc60,hasAccountant,owl#onProperty
+FundPortfolio,Portfolio,rdf-schema#subClassOf
+OtherInvestmentFundInformation,owl#Class,22-rdf-syntax-ns#type
+N984f3c1a580744938a40519711838578,owl#Restriction,22-rdf-syntax-ns#type
+FundUnitDistributionPolicy,Nf85ab28592fa40d99c988a085a9680b2,rdf-schema#subClassOf
+hasTransferAgent,CollectiveInvestmentVehicle,rdf-schema#domain
+FundReinvestmentPolicy,Terms for the expected reinvestment of profits on fund units.,core#definition
+InvestmentAdvisor,investment advisor,rdf-schema#label
+N4e019947a32e406f8049865abea1d232,owl#Restriction,22-rdf-syntax-ns#type
+statedIn,FundProspectus,rdf-schema#range
+FundsProcessingAccount,N4dcc06b2ebfd455f849aad0e5eb15aee,rdf-schema#subClassOf
+authorizedCountry,Country,rdf-schema#range
+NoteFundUnit,note fund unit,rdf-schema#label
+N49309046a214445c83d68816f44851da,isPartOf,owl#onProperty
+FundAuditor,The party that is in charge of examining and verifying a fund's financial and accounting records as well as supporting documents and fulfilment of legal requirements. Definition origin:EFAMA DD,core#definition
+FundPortfolioInvestmentLimitations,fund portfolio investment limitations,rdf-schema#label
+benchmarkWeight,PortfolioBenchmark,rdf-schema#domain
+dualFund,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FundReportingTerms,owl#Class,22-rdf-syntax-ns#type
+exCouponDate,ex coupon date,rdf-schema#label
+statedManagementFee,FundProspectus,rdf-schema#domain
+Na3eb4f4700ce4fe1ae768b77cd9e58a1,owl#Restriction,22-rdf-syntax-ns#type
+performanceFee,Fee,rdf-schema#range
+FundOrderDesk,fund order desk,rdf-schema#label
+statedInvestmentAim,"The stated aim of the Fund in words, e.g outperfom a given benchmark.",core#definition
+minimumRatingRestriction,InvestmentRestriction,rdf-schema#domain
+FundDistributor,fund distributor,rdf-schema#label
+redemptionPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+valueAtRisk,InvestmentRestriction,rdf-schema#domain
+FundProcessingForm,"Equates to the ""Physical Form"" in SIO FIBIM for certain activities in funds processing. May or may not be a written physical document. ISO FIBIM Definition: Specifies whether a physical form is required.",explanatoryNote
+dualFund,Whether the fund has two prices.,core#definition
+hasDepository,has depository,rdf-schema#label
+maximumDeviation,Percentage,rdf-schema#range
+FondsCommunDePlacement,france,rdf-schema#seeAlso
+,Reference data terms and non time dependent facts about funds and CIVs.,abstract
+Nc94a865f2a8f4931ade0e05c7dda20ee,comprises,owl#onProperty
+hasAccountingInformation,has accounting information,rdf-schema#label
+Nd4251fc373ac4dc0bee7b31feb019163,owl#Restriction,22-rdf-syntax-ns#type
+FundOrderDeskPhysicalFormDocument,A phsyical form obtained through the main fund order desk.,core#definition
+hasAccountingReportingFrequency,ReportingFrequencyPolicy,rdf-schema#range
+hasInvestmentStrategy,owl#ObjectProperty,22-rdf-syntax-ns#type
+EquityFund,CollectiveInvestmentVehicle,rdf-schema#subClassOf
+performanceFee,FundSubscriptionTerms,rdf-schema#domain
+Na58a6d93e18b408b94c0f824a4a61786,owl#Restriction,22-rdf-syntax-ns#type
+CollectiveInvestmentVehicle,Nf152535e9a5c48f08c358010a5b0e090,rdf-schema#subClassOf
+hasSubscriptionTerms,owl#ObjectProperty,22-rdf-syntax-ns#type
+fundClassTypeIdentifier,XMLSchema#string,rdf-schema#range
+statedObjective,FundProspectus,rdf-schema#domain
+N9b0512b9c6534adbb1f17570b842fa19,hasAdditionalRedemptionRestrictions,owl#onProperty
+holdingTransferable,XMLSchema#boolean,rdf-schema#range
+Nb52ff1db2de54e4fadc3d9bce245d6c4,FundUnit,owl#someValuesFrom
+FundProcessingTerms,fund processing terms,rdf-schema#label
+CollectiveInvestmentVehicle,N42eaee0c50dc4c11a944052f5b792fab,rdf-schema#subClassOf
+StakeInFund,Nb52ff1db2de54e4fadc3d9bce245d6c4,rdf-schema#subClassOf
+Nced6996bd54242b4a5b81df847ccdab2,hasAccountingInformation,owl#onProperty
+purchasingFee,Actual percentage or fixed amount of money due when purchasing fund shares Definition origin:EFAMA DD,core#definition
+FundPromoter,owl#Class,22-rdf-syntax-ns#type
+definesAllocations,owl#ObjectProperty,22-rdf-syntax-ns#type
+anticipatedVolatility,anticipated volatility,rdf-schema#label
+hasDataProvider,has an organization which is the data provider and is legally responsible for the information provided,core#definition
+name.1,FundPortfolioInvestmentPolicy,rdf-schema#domain
+N79479510b2be406dbabf088c9684f087,owl#Restriction,22-rdf-syntax-ns#type
+N4bb74eb454ae425a9f638623767504a3,hasRelatedFundTerms,owl#onProperty
+fundClassTypeIdentifier,FundUnit,rdf-schema#domain
+ReportingFrequencyPolicy,Frequency with which financial reports will be presented.,core#definition
+Ne09002b89e7d43a7bcbba4cbc2c38f73,FundUnit,owl#allValuesFrom
+N1eb108cfdaff43e995997fe2ce09f63a,definesTermsFor,owl#onProperty
+mayBe.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundClassificationScheme,Nfc4c859d85f24996b89dae7a70efbc9e,rdf-schema#subClassOf
+implementsFundPolicy,owl#ObjectProperty,22-rdf-syntax-ns#type
+N258a570216ce49ad93999b2d4f54797b,FundsCreation,owl#someValuesFrom
+N49309046a214445c83d68816f44851da,FundProspectus,owl#someValuesFrom
+hasFundPolicy,"Overall policy for amounts invested, limitations etc. Not the same as the detailed Portfolio policy.",core#definition
+PortfolioInvestmentStrategy,owl#Class,22-rdf-syntax-ns#type
+Na67492b20dcd4560994f751542b846a4,owl#Restriction,22-rdf-syntax-ns#type
+purchasingFee,FundSubscriptionTerms,rdf-schema#domain
+N1eb108cfdaff43e995997fe2ce09f63a,owl#Restriction,22-rdf-syntax-ns#type
+FundUnit,N5445abb2499846afaf31f7881fb4c21c,rdf-schema#subClassOf
+CollectiveInvestmentVehicle,N4bb74eb454ae425a9f638623767504a3,rdf-schema#subClassOf
+SICAV,Societe Collective a Capital Variable,core#definition
+minimumRemainingHoldingUnits,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FundShareClassUnit,N28b6ed954cd74e09937c0c684d574350,rdf-schema#subClassOf
+FundAccountant,owl#Class,22-rdf-syntax-ns#type
+limitedSharesAreIssued,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FundReportingTerms,N53d20ba794ed4a2bbe491c902055e86f,rdf-schema#subClassOf
+InvestmentAdvisor,N0bf8e1fdc1a44841ba9a724d3c747710,rdf-schema#subClassOf
+registrationDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N3147df32288e4505abfdfe78fa447c9b,Balance,owl#someValuesFrom
+SemiAnnualReportingPolicy,Reports are presented twice a year.,core#definition
+FundPortfolio,Nd4251fc373ac4dc0bee7b31feb019163,rdf-schema#subClassOf
+statedManagementFee,stated management fee,rdf-schema#label
+Nfa0d8890b6934244b2583161c4019d6d,FundManagementCompany,owl#allValuesFrom
+hasDetails,owl#ObjectProperty,22-rdf-syntax-ns#type
+mayAlsoBe,may also be,rdf-schema#label
+includes,includes,rdf-schema#label
+distributedBy,CollectiveInvestmentVehicle,rdf-schema#domain
+signatureRequired,Whether a phsyical form with the investor's written signature is required through the main fund order desk. Yes:A phsyical form with the investor's written signature is required through the main fund order desk.,core#definition
+minimumRatingRestriction,minimum rating restriction,rdf-schema#label
+hasInformationAbout,has information about,rdf-schema#label
+name.1,owl#DatatypeProperty,22-rdf-syntax-ns#type
+percentageInvested,The percentage of funds that is to be invested at any given time.,core#definition
+,Collective Investment Vehicles Ontology,rdf-schema#label
+givesOwnershipOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+valuationFrequencyTextualDescription,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FundCouponPolicy,FundCashDistributionPolicy,rdf-schema#subClassOf
+FundAdministrator,N750dbbe83ecb4a5a8522145e682be337,rdf-schema#subClassOf
+Na9f58015597e4c8aac3adfa5929deba0,owl#Restriction,22-rdf-syntax-ns#type
+FundPortfolio,owl#Class,22-rdf-syntax-ns#type
+FondsCommunDePlacement,"An FCP is similar to a unit trust in the UK. FCPs are not investment companies, but more like open partnerships. They can be set up as a single fund or as an umbrella fund with multiple sub-funds, typically issued in the French-speaking countries of Europe.",core#note
+valueAtRisk,value at risk,rdf-schema#label
+hasIssueDate,has issue date,rdf-schema#label
+FundDebt,Debt issued by a Fund.,core#definition
+N440ec1870a3d479bb4e5a9db9af39b29,owl#Restriction,22-rdf-syntax-ns#type
+mainFundOrderDesk,XMLSchema#boolean,rdf-schema#range
+dualFund,XMLSchema#boolean,rdf-schema#range
+additionalRestrictions,additional restrictions,rdf-schema#label
+Nd4251fc373ac4dc0bee7b31feb019163,hasLiquidity,owl#onProperty
+frontEndLoadApplicable,front end load applicable,rdf-schema#label
+PerformanceDeterminationMethod,"A method for performance determination (e.g. Time weighted and money weighted, annualized, gross of fee) along with the time frame in which this is determined. PLUS Performances NamePeriod",core#definition
+N32b00c173e33464091d7a034583ba3d0,owl#Restriction,22-rdf-syntax-ns#type
+N73bf7f9c97884fe3acc7c44dc52737b3,UnitIssuer,owl#someValuesFrom
+Nce52dfab2a674efbbeb9b74ae6d0e0e8,owl#Restriction,22-rdf-syntax-ns#type
+typeOfSecurities,InvestmentRestriction,rdf-schema#domain
+holds,The Funds Special Purpose Vehicle holds this Fund.,core#definition
+N7b2b9140e49d4873a981863bc59da92c,LegalEntity,owl#someValuesFrom
+investmentFocus,owl#DatatypeProperty,22-rdf-syntax-ns#type
+redemptionFee,Fee,rdf-schema#range
+distributedBy,distributed by,rdf-schema#label
+N206d2fd8c31749ff96a407bb039f9675,owl#Restriction,22-rdf-syntax-ns#type
+mayBeDefinedIn,FundProspectus,rdf-schema#range
+maximumRedemptionUnits,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasTradableUnit,FundUnit,rdf-schema#range
+name.1,name,rdf-schema#label
+FundProcessingForm,Document,rdf-schema#subClassOf
+N7156ee96c1614d96886f93352c89f58d,owl#Restriction,22-rdf-syntax-ns#type
+FundAuditor,fund auditor,rdf-schema#label
+redemptionForm,shares by the investor.,core#definition
+dealingFrequencyDescription,XMLSchema#string,rdf-schema#range
+assessedAgainst,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nf529b6568b214aa89844cb759da5d4a1,FundSubscriptionTerms,owl#someValuesFrom
+statedInvestmentAim,XMLSchema#string,rdf-schema#range
+N7b2b9140e49d4873a981863bc59da92c,isPlayedBy,owl#onProperty
+Nd7cddfeaf19b4fddb08091c67fc029e3,FundAuditor,owl#someValuesFrom
+minimumSubscriptionUnits,FundSubscriptionTerms,rdf-schema#domain
+physicalDocumentRequired,owl#DatatypeProperty,22-rdf-syntax-ns#type
+subscriptionCutoffDateTime,time at which an order to subscribe can be given.,core#definition
+inceptionDate,CollectiveInvestmentVehicle,rdf-schema#domain
+firstAccountingYearEndDate,FundReportingTerms,rdf-schema#domain
+hasLiquidity,FundPortfolio,rdf-schema#domain
+investmentFocus,investment focus,rdf-schema#label
+PortfolioInvestmentStrategy,InvestmentStrategy,rdf-schema#subClassOf
+N6741a449431e489aa165e74d0d0bb545,owl#Restriction,22-rdf-syntax-ns#type
+Nb648bae063f7415aba4b42fb11beceda,definesTermsFor,owl#onProperty
+implementsFundPolicy,FundPortfolioInvestmentPolicy,rdf-schema#range
+endOfFiscalYear,Day and month on any given year at which the books are closed and profit and loss is determined.,core#definition
+N6a0f808feb764fb4aaa3ba16064ec6cc,hasFundProcessingTerms,owl#onProperty
+Nacc814ae802649ca848bd5e0d166d0f6,PortfolioInvestmentStrategy,owl#someValuesFrom
+launchDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+SICAF,CollectiveInvestmentVehicle,rdf-schema#subClassOf
+signatureRequired,FundProcessingForm,rdf-schema#domain
+Nb648bae063f7415aba4b42fb11beceda,owl#Restriction,22-rdf-syntax-ns#type
+N09172edb5135441d8ce6c65a5b4ec227,UnitIssuer,owl#someValuesFrom
+statedObjective,owl#DatatypeProperty,22-rdf-syntax-ns#type
+performanceDeterminationTimeframe,performance determination timeframe,rdf-schema#label
+description,FundPortfolioInvestmentPolicy,rdf-schema#domain
+FundUnitDistributionMethod,DistributionStrategy,rdf-schema#subClassOf
+denominatedIn,Liquidity,rdf-schema#domain
+FundInvestmentObjective,N65b51d6f658f49e8ae999207d6696f4e,rdf-schema#subClassOf
+describedIn,FundProspectus,rdf-schema#range
+subscriptionsInAmountAllowed,subscriptions in amount allowed,rdf-schema#label
+N3dc36650e7634210bdf8110740bf63c0,owl#Restriction,22-rdf-syntax-ns#type
+FundBondUnitCoupon,InterestRate,rdf-schema#subClassOf
+Nd889f4fb766a44ee93bdcffb8cb7db76,FundDistributor,owl#someValuesFrom
+anticipates,anticipates,rdf-schema#label
+FundCashDistributionPolicy,FundUnitDistributionPolicy,rdf-schema#subClassOf
+Nf85ab28592fa40d99c988a085a9680b2,FundUnitDistributionMethod,owl#someValuesFrom
+FundsProcessingAccount,funds processing account,rdf-schema#label
+FundInvestmentObjective,The aim of a Fund e.g outperfom a given benchmark.,core#definition
+intendedLiquidationDate,Date,rdf-schema#range
+Nabf66903c94949a792b26fabedab67d4,FundPortfolio,owl#someValuesFrom
+valuationFrequencyTextualDescription,XMLSchema#string,rdf-schema#range
+minimumInitialSubscriptionAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundClassificationScheme,fund classification scheme,rdf-schema#label
+N55b9f63dc1a045d482c2bfcb42afad18,owl#Restriction,22-rdf-syntax-ns#type
+promotedBy,promoted by,rdf-schema#label
+FundSubscriptionTerms,FundProcessingTerms,rdf-schema#subClassOf
+authorizedCountry,Country in which it is authorised to commercialise the fund.,core#definition
+FundsCashDistribution,funds cash distribution,rdf-schema#label
+hasAdditionalInformation,CollectiveInvestmentVehicle,rdf-schema#domain
+Nff49104a0bd64f61a89f977cc6375448,takesFormOf,owl#onProperty
+N65be4c631b8741ffb917e7fc58dca01d,classifies,owl#onProperty
+N0f42f11531fa4009bf3f405f801e83bd,hasDefaultSettlementConvention,owl#onProperty
+EquityFund,owl#Class,22-rdf-syntax-ns#type
+fundHasRelatedParty,fund has related party,rdf-schema#label
+isUnitHolder,owl#ObjectProperty,22-rdf-syntax-ns#type
+InvestmentStrategy,"plan, method, or series of maneuvers or stratagems for obtaining a specific investment goal",core#definition
+minimumSubscriptionUnits,XMLSchema#integer,rdf-schema#range
+reinvestmentFrequency,owl#ObjectProperty,22-rdf-syntax-ns#type
+DebtStakeInFund,A stake held in a fund by way of a Bond Unit.,core#definition
+intendedLiquidationDate,SpecialPurposeVehicle,rdf-schema#domain
+N967d2a8b149749dfb3d25f002beec922,PrivatelyHeldShare,owl#someValuesFrom
+frontEndLoadApplicable,FundSubscriptionTerms,rdf-schema#domain
+N12c8f70a215548b99687e565133f2c74,owl#Restriction,22-rdf-syntax-ns#type
+FondsCommunDePlacement,"open-ended collective investment fund, which is a contractual form set up between the fund manager and investors and not a separate legal entity",core#definition
+processingCountry,Country in which the processing characteristic applies.,core#definition
+SICAV,CollectiveInvestmentVehicle,rdf-schema#subClassOf
+firstAccountingYearEndDate,first accounting year end date,rdf-schema#label
+FundPortfolio,Na3ddf6d2e262447d9d500d46cda5006e,rdf-schema#subClassOf
+providesDepositaryServiceFor,provides depositary service for,rdf-schema#label
+redemptionCycleInBusinessDays,XMLSchema#integer,rdf-schema#range
+implementsFundPolicy,FundPortfolio,rdf-schema#domain
+N2f7f6d57cd7e4dc49e8044fd2a72f9f8,givesOwnershipOf,owl#onProperty
+minimumInitialSubscriptionAmount,MonetaryAmount,rdf-schema#range
+FundOrderDesk,N7b2b9140e49d4873a981863bc59da92c,rdf-schema#subClassOf
+SPVPurpose,This is used to identify different kinds of SPV which may have different detailed facts about them; however in general all SPVs are much the same.,core#editorialNote
+Na9f58015597e4c8aac3adfa5929deba0,FinancialInstrumentClassifier,owl#someValuesFrom
+AnnualReportingPolicy,owl#Class,22-rdf-syntax-ns#type
+firstNAVCalculationDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+promotedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+administeredBy,fundHasRelatedParty,rdf-schema#subPropertyOf
+PortfolioInvestmentStrategy,The manner in which the portfolio manager tries to reach the funds objectives.,core#definition
+minimumInitialSubscriptionUnits,FundSubscriptionTerms,rdf-schema#domain
+N59f56b03051e4164bfe363affe249b24,anticipates,owl#onProperty
+denominatedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+typeOfSecurities,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FundClassification,owl#Class,22-rdf-syntax-ns#type
+N8c94f78cd54c4afe845708a5e023c32b,MarketRate,owl#onClass
+maximumRedemptionAmount,maximum redemption amount,rdf-schema#label
+N38d041c565a44418bd84d762a57ef47a,FundCouponPolicy,owl#someValuesFrom
+hasRelatedFundTerms,has related fund terms,rdf-schema#label
+minimumSubscriptionAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+issuePrice,FundUnit,rdf-schema#domain
+DistributingShareClass,distributing share class,rdf-schema#label
+maximumRedemptionAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+Na3ddf6d2e262447d9d500d46cda5006e,PortfolioManager,owl#someValuesFrom
+distributionWithReinvestment,owl#DatatypeProperty,22-rdf-syntax-ns#type
+subsequentApplicationForm,Physical application form for subsequent investments by the same investor.,core#definition
+FundPortfolioInvestmentLimitations,owl#Class,22-rdf-syntax-ns#type
+FundDepositary,The party that holds and safeguards holdings owned by a fund. It is also responsible for compliance of the portfolio with legal ratios etc.,core#definition
+EquityAsset,owl#Class,22-rdf-syntax-ns#type
+InvestmentRestriction,These are defined by the overall Fund investment policy. Not the same as the detailed policies for investing in percentages of this or that.,explanatoryNote
+UnitIssuer,FundsProcessingParty,rdf-schema#subClassOf
+Nabf66903c94949a792b26fabedab67d4,owl#Restriction,22-rdf-syntax-ns#type
+hasPortfolio,owl#ObjectProperty,22-rdf-syntax-ns#type
+N73506d20e28047fca1c2731796ee0324,hasInformationAbout,owl#onProperty
+CollectiveInvestmentVehicle,Nefff9d14970f4d36b130cc08a67d5fe8,rdf-schema#subClassOf
+N258a570216ce49ad93999b2d4f54797b,isSetUpFor,owl#onProperty
+Liquidity,"Precise definition needed for liquidity, and check that it is modeled accordingly.",core#definition
+administeredBy,administered by,rdf-schema#label
+AssetClassStrategy,Na9f58015597e4c8aac3adfa5929deba0,rdf-schema#subClassOf
+hasManagementCompany,has management company,rdf-schema#label
+N258a570216ce49ad93999b2d4f54797b,owl#Restriction,22-rdf-syntax-ns#type
+subscriptionCutoffDateTime,DateTime,rdf-schema#range
+N09172edb5135441d8ce6c65a5b4ec227,owl#Restriction,22-rdf-syntax-ns#type
+hasLiquidity,Liquidity,rdf-schema#range
+ReportingFrequencyPolicy,ReportingPolicy,rdf-schema#subClassOf
+maximumRedemptionFee,Maximum percentage or fixed amount of money due when redeeming fund shares Definition origin:EFAMA DD,core#definition
+EquityAsset,Neb9163b112544fb08e3a4846d246b1a5,rdf-schema#subClassOf
+promotedBy,FundPromoter,rdf-schema#range
+FundAccountant,"The party that keeps accounting records of the available assets and liabilities of the Fund. It calculates dealing prices, the Net Asset Value (NAV) of the Fund, and may provide fund performance and tax data. Can be subcontracted by the FundAdministrator.",core#definition
+FundInvestmentPolicy,"EFAMA Note: Model distinguishes between strategy (what you intend to invest in) and portfolio structure (what is held). This semantics matches the EFAMA DD ""Fund Investment Policy"" No stated definition in EFAMA DD (""Further discussion required"").",explanatoryNote
+FundClassificationScheme,ClassificationScheme,rdf-schema#subClassOf
+FundPortfolio,An account containing a number of financial instruments along with cash positions in one or more currencies and belonging to a Fund,core#definition
+FundDistributor,FundsProcessingParty,rdf-schema#subClassOf
+holds,holds,rdf-schema#label
+NetAssetValueCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+minimumInitialSubscriptionAmount,FundSubscriptionTerms,rdf-schema#domain
+historicPricingIndicator,owl#DatatypeProperty,22-rdf-syntax-ns#type
+intendedLiquidationDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundReportingTerms,ContractualCommitment,rdf-schema#subClassOf
+FundInvestmentPolicy,Policy,rdf-schema#subClassOf
+PortfolioBenchmark,Security or other price against which the performance of the portfolio is evaluated.,core#definition
+SPVPurpose,s p v purpose,rdf-schema#label
+exCouponDate,FundCouponPolicy,rdf-schema#domain
+minimumRemainingHoldingAmount,minimum remaining holding amount,rdf-schema#label
+FundsProcessingPassport,Document,rdf-schema#subClassOf
+legallyRecordedIn,Jurisdiction,rdf-schema#range
+minimumInitialSubscriptionUnits,XMLSchema#integer,rdf-schema#range
+N750dbbe83ecb4a5a8522145e682be337,LegalEntity,owl#someValuesFrom
+FundManager,owl#Class,22-rdf-syntax-ns#type
+PortfolioManager,person or entity responsible for day to day investment decisions for a fund or asset,core#definition
+firstAccountingYearEndDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N6e1d6cb7d4864edc880ccfcc12e46ffd,hasAdditionalInformation,owl#onProperty
+AccumulatingShareClass,accumulating share class,rdf-schema#label
+redemptionInAmountAllowed,XMLSchema#boolean,rdf-schema#range
+N42eaee0c50dc4c11a944052f5b792fab,Jurisdiction,owl#someValuesFrom
+inceptionDate.1,"Authorization date in the country of origin. Further Notes See definition in Inception Date for Fund. Separate fact exists here. Same definition used. EFAMA Review notes: Inception Date exists as soon as there is a prospectus, so it is a fact about a Share Class even if the share class is never formally issued or offered to the public. Legal structure exists even if something is not launched. Editor question: Review stated this was a fact about Share Class; confirm this fact does not apply to Bond and Note units, or was the term Share Class being used to mean all three? Meanwhile I have put the term ""Issue Date"" as a fact about all Fund Unit, as this is given a sa separate term in the EFAMA DD spreadsheet. MAy come clearer in the next version of that.",core#definition
+identifiedAs.5,identified as,rdf-schema#label
+FundManagementCompany,fund management company,rdf-schema#label
+isUnitHolder,Investor,rdf-schema#domain
+CommonShareInFund,FundShareClassUnit,rdf-schema#subClassOf
+FundDepositary,N4e019947a32e406f8049865abea1d232,rdf-schema#subClassOf
+additionalRestrictions,owl#DatatypeProperty,22-rdf-syntax-ns#type
+maximumRedemptionAmount,FundRedemptionTerms,rdf-schema#domain
+FundPortfolioInvestmentPolicy,Nf24e78cb8b674808b7b0c07882a5daef,rdf-schema#subClassOf
+SICAF,owl#Class,22-rdf-syntax-ns#type
+FundDepositary,The depository may delegate custody to another entity (custodian). Definition origin:EFAMA DD,explanatoryNote
+FundProspectus,fund prospectus,rdf-schema#label
+RiskLevel,Classifier,rdf-schema#subClassOf
+FundPortfolioInvestmentLimitations,InvestmentRestriction,rdf-schema#subClassOf
+CollectiveInvestmentVehicle,Nd7cddfeaf19b4fddb08091c67fc029e3,rdf-schema#subClassOf
+physicalDocumentRequired,physical document required,rdf-schema#label
+maximumInvestmentAmount,maximum investment amount,rdf-schema#label
+N6e1d6cb7d4864edc880ccfcc12e46ffd,owl#Restriction,22-rdf-syntax-ns#type
+typeOfSecurities,XMLSchema#string,rdf-schema#range
+valuationFrequency,NetAssetValueCalculationMethod,rdf-schema#domain
+isCalculatedIn,NetAssetValueCalculationMethod,rdf-schema#domain
+FundsProcessing,funds processing,rdf-schema#label
+FundsProcessingPassport,"Please see FPP Data Descriptions for more information (when available - not included in this model). See EFAMA website for this. Also see XLS for terms of this. These terms are often but net necessarily part of the Prospectus. See also the Thing Formerly Referred To As Investment. The definitions in the FPP descriptions may not be accurate. This is defining what kind of information is requested. Further Action: Now that we have defined sets of formal contractual terems for subvscriptions, redemptions and general terms, and since these terms don't have a direct relationship to any one Contract at present (as contractual terms should do), there may be a relationship between those terms and the FPP. To be handled in next review.",core#editorialNote
+hasDetails,has details,rdf-schema#label
+FundUnitHolding,Ne09002b89e7d43a7bcbba4cbc2c38f73,rdf-schema#subClassOf
+hasPolicyTerms,FundCouponPolicy,rdf-schema#range
+N6741a449431e489aa165e74d0d0bb545,isPlayedBy,owl#onProperty
+anticipatedVolatility,Percentage,rdf-schema#range
+legallyRecordedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+maximumDeviation,PortfolioBenchmark,rdf-schema#domain
+percentageInvested,owl#ObjectProperty,22-rdf-syntax-ns#type
+N13a20f9488df40b48c3a3d21d55c1c2e,owl#Restriction,22-rdf-syntax-ns#type
+FundInvestmentPolicy,owl#Class,22-rdf-syntax-ns#type
+hasTransferAgent,has transfer agent,rdf-schema#label
+Nd48ad8611c054a7082b0f8b356ac158e,mayBe.1,owl#onProperty
+minimumDeviation,minimum deviation,rdf-schema#label
+AnnualReportingPolicy,Reports are presented once a year,core#definition
+PortfolioManager,OrganizationMember,rdf-schema#subClassOf
+mayAlsoBe,FundAdministrator,rdf-schema#domain
+FundOrderDeskPhysicalFormDocument,Document,rdf-schema#subClassOf
+redemptionCycleInBusinessDays,redemption cycle in business days,rdf-schema#label
+FundProcessingTerms,ContractualCommitment,rdf-schema#subClassOf
+denominationCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+statedDistributionFee,FundProspectus,rdf-schema#domain
+Nced6996bd54242b4a5b81df847ccdab2,FundReportingTerms,owl#someValuesFrom
+redemptionPeriod,redemption period,rdf-schema#label
+subscriptionPeriod,subscription period,rdf-schema#label
+FundReportingTerms,Terms describing the accounting methods and reporting arrangements used by the fund.,core#definition
+SICAV,owl#Class,22-rdf-syntax-ns#type
+hasPortfolio,FundPortfolio,rdf-schema#range
+FundDataProvider,FundsProcessingParty,rdf-schema#subClassOf
+CollectiveInvestmentVehicle,N9fa2694dfe494bda98b45bef1c54e633,rdf-schema#subClassOf
+switchingFee,switching fee,rdf-schema#label
+hasDataProvider,owl#ObjectProperty,22-rdf-syntax-ns#type
+CollectiveInvestmentVehicle,Nf529b6568b214aa89844cb759da5d4a1,rdf-schema#subClassOf
+PrivateEquityHolding,A holding of private equity.,core#definition
+FundsCreation,SPV set up for fund management Conesnsus:Review,core#definition
+redemptionCutoffDateTime,FundRedemptionTerms,rdf-schema#domain
+InvestmentRestriction,owl#Class,22-rdf-syntax-ns#type
+FundRedemptionTerms,fund redemption terms,rdf-schema#label
+processingCountry,processing country,rdf-schema#label
+N3147df32288e4505abfdfe78fa447c9b,owl#Restriction,22-rdf-syntax-ns#type
+description,The manner in which the manager tries to reach the funds objectives,core#definition
+Nd889f4fb766a44ee93bdcffb8cb7db76,distributedBy,owl#onProperty
+EquityAsset,equity asset,rdf-schema#label
+FundReinvestmentPolicy,owl#Class,22-rdf-syntax-ns#type
+issues,FundUnit,rdf-schema#range
+FundTransferAgent,fund transfer agent,rdf-schema#label
+minimumRemainingHoldingUnits,shares that must be retained to avoid automatic redemption.,core#definition
+statedObjective,stated objective,rdf-schema#label
+additionalRestrictions,XMLSchema#string,rdf-schema#range
+endOfFiscalYear,FundReportingTerms,rdf-schema#domain
+Nf1725a39eb364ad9b68af6a307b832ac,hasObjective,owl#onProperty
+TimeWeightedRateOfReturnPerformanceDeterminationMethod,PerformanceDeterminationMethod,rdf-schema#subClassOf
+N13a20f9488df40b48c3a3d21d55c1c2e,FundsProcessingParty,owl#someValuesFrom
+N3089fa7b620a4fda8aa87f1652727a63,FundDataProvider,owl#someValuesFrom
+minimumRemainingHoldingAmount,shares that must be retained to avoid automatic redemption.,core#definition
+NetAssetValueCalculationMethod,Expression,rdf-schema#subClassOf
+N9fa2694dfe494bda98b45bef1c54e633,owl#Restriction,22-rdf-syntax-ns#type
+Nf1725a39eb364ad9b68af6a307b832ac,InvestmentObjective,owl#someValuesFrom
+Nf95a4c1316224171ad25acab2a147569,FundPortfolioInvestmentLimitations,owl#someValuesFrom
+Nced6996bd54242b4a5b81df847ccdab2,owl#Restriction,22-rdf-syntax-ns#type
+Nc94a865f2a8f4931ade0e05c7dda20ee,owl#Restriction,22-rdf-syntax-ns#type
+N206d2fd8c31749ff96a407bb039f9675,hasStrategy,owl#onProperty
+EquityPortfolio,owl#Class,22-rdf-syntax-ns#type
+DebtStakeInFund,debt stake in fund,rdf-schema#label
+UnitIssuer,owl#Class,22-rdf-syntax-ns#type
+minimumDeviation,Percentage,rdf-schema#range
+redemptionFee,redemption fee,rdf-schema#label
+inclusion,XMLSchema#boolean,rdf-schema#range
+identifies.1,Jurisdiction,rdf-schema#range
+hasLiquidity,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasPolicyTerms,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundAdministrator,FundsProcessingParty,rdf-schema#subClassOf
+OtherInvestmentFundInformation,"See terms in EFAMA spreadsheet. These are properties of the fund but are not legally binding. Author follow-up note: I have managed to find a ""home"" for disposition for most of the entries that are in the spreadsheet. It is not clear which of the spreadsheet terms are indended to come under the general heading in this class. The first place I would look is in the terms I have defined as ""Fund Processing Terms"", which are defined as formal, legal contractual terms. If any of those are not legally binding on some party, then this is where they belong instead.",core#editorialNote
+inclusion,"Whether the referred strategy is included. No means this description refers to the exclusion of what is described, from the portfolio.",core#definition
+mayAlsoBe,UnitIssuer,rdf-schema#range
+blacklisted,blacklisted,rdf-schema#label
+maximumPurchasingFee,Maximum percentage or fixed amount of money due when purchasing fund shares Definition origin:EFAMA DD,core#definition
+declarationChannel,declaration channel,rdf-schema#label
+Nf90951daa58a4d6f95936fa9988c6608,owl#Restriction,22-rdf-syntax-ns#type
+Nd51faae782d445ba82b16b192d77f2c6,holds,owl#onProperty
+N38d041c565a44418bd84d762a57ef47a,owl#Restriction,22-rdf-syntax-ns#type
+hasDepository,owl#ObjectProperty,22-rdf-syntax-ns#type
+maximumRedemptionAmount,"Maximum quantity of securities, expressed as an amount that can be sold.",core#definition
+JurisdictionStrategy,owl#Class,22-rdf-syntax-ns#type
+FundDistributor,owl#Class,22-rdf-syntax-ns#type
+clearFundsRequired,XMLSchema#boolean,rdf-schema#range
+Na67492b20dcd4560994f751542b846a4,FundTransferAgent,owl#someValuesFrom
+FundReportingTerms,fund reporting terms,rdf-schema#label
+NoteFundUnit,FundUnit,rdf-schema#subClassOf
+N53d20ba794ed4a2bbe491c902055e86f,hasAccountingReportingFrequency,owl#onProperty
+FundAdministrator,"Entity that has to fulfil the legal and supervisory requirements of the fund. Responsible for all the business purposes around the investment pool, and so is reponsible for the issuing of the shares.",core#definition
+N22598ddc5d4a4543a031a0c0ebdb23c4,NetAssetValueCalculationMethod,owl#someValuesFrom
+N1a5cf76710a84440a7eda82be3c0a219,owl#Restriction,22-rdf-syntax-ns#type
+minimumRemainingHoldingAmount,FundProcessingGeneralTerms,rdf-schema#domain
+FundsProcessingPassport,funds processing passport,rdf-schema#label
+redemptionDealingFrequency,Frequency at which the redemptions are done.,core#definition
+FundReinvestmentPolicy,fund reinvestment policy,rdf-schema#label
+statedManagementFee,The fee that is stated in the Prospectus as being what is to be charged for management. Further notes: Can be monetary amount or a percentage or a combination. Action: simple type is wrong.,core#definition
+OtherInvestmentFundInformation,Things which are not part of the prospectus but are important if you want to understand the fund.,core#definition
+fundClassTypeIdentifier,"A textual identification of the class of fund units. This is used to uniquely identify a particular class of fund units, and thereby identify features of this type of unit within the fund.",core#definition
+PortfolioBenchmark,portfolio benchmark,rdf-schema#label
+N984f3c1a580744938a40519711838578,FundUnit,owl#someValuesFrom
+hasDefaultSettlementConvention,SettlementConvention,rdf-schema#range
+CollectiveInvestmentVehicle,N6f49a9d3772a4c99a9a84953b3d2cc60,rdf-schema#subClassOf
+N0bf8e1fdc1a44841ba9a724d3c747710,LegalEntity,owl#someValuesFrom
+FundRedemptionRestriction,SecuritiesRestriction,rdf-schema#subClassOf
+redemptionDealingFrequency,RecurrenceInterval,rdf-schema#range
+subscriptionDealingFrequency,Frequency at which the subscriptions are done.,core#definition
+subscriptionPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+N59f56b03051e4164bfe363affe249b24,owl#Restriction,22-rdf-syntax-ns#type
+clearFundsRequired,Whether cleared funds may be required before a subscription order can be executed.,core#definition
+FundBondUnitCoupon,A fixed coupon paid out to holders of the Fund Bond Unit.,core#definition
+FundDividendPolicy,Terms for the expected distributions of dividends.,core#definition
+includes,owl#ObjectProperty,22-rdf-syntax-ns#type
+IncomeAccumulation,FundUnitDistributionMethod,rdf-schema#subClassOf
+StakeInFund,stake in fund,rdf-schema#label
+N409e672dc0254616a2e5aeb9e47066b7,hasExpectedCoupon,owl#onProperty
+hasAccountingInformation,FundReportingTerms,rdf-schema#range
+firstNAVCalculationDate,The first date of NAV calculation,core#definition
+FundUnit,N6a0f808feb764fb4aaa3ba16064ec6cc,rdf-schema#subClassOf
+identifies.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+denominatedIn,Currency,rdf-schema#range
+FundProspectus,"The Prospectus for the Fund. This is a document made available publicly for potential investors. It will include facts about the fund investment objective, investment focus and other details of the fund. Some of this information becomes binding on the fund once it is issued, while other information is guidelines only.",core#definition
+ReferToFundOrderDesk,refer to fund order desk,rdf-schema#label
+identifiedAs.5,StakeInFund,rdf-schema#domain
+legallyRecordedIn,"Relationship note: This relationship has no obvious parent; it is similar to Security legally recorded in Jurisdiction, but that inherits from Contract jurisdiction whereas a Fund is a Pool not a Contract. So the meaning is not the same. Assign parent relationship in future if a more general one exists; at present there is none.",core#definition
+backEndLoadApplicable,XMLSchema#boolean,rdf-schema#range
+ReferToFundOrderDesk,Restriction requiring an investor to refer to the fund order desk prior to redeeming a fund.,core#definition
+minimumInvestmentPercentage,Minimum percentage that has to be invested in the specified strategy.,core#definition
+purchasingFee,owl#ObjectProperty,22-rdf-syntax-ns#type
+describedIn,described in,rdf-schema#label
+EquityPortfolio,A portfolio which has at least 85% exposure to shares.,core#definition
+hasDetails,Information on the net asset value calculation of the investment fund component.,core#definition
+clearFundsRequired,SettlementTerms,rdf-schema#domain
+FundsProcessingAccount,owl#Class,22-rdf-syntax-ns#type
+hasAccountingInformation,owl#ObjectProperty,22-rdf-syntax-ns#type
+takesFormOf,RealEstate,rdf-schema#range
+hasIssueDate,Date of first NAV calculation and start of performance calculations (same as launch date),core#definition
+isCalculatedIn,is calculated in,rdf-schema#label
+AssetClassStrategy,asset class strategy,rdf-schema#label
+,MIT,license
+registrationDate,CollectiveInvestmentVehicle,rdf-schema#domain
+FundTransferAgent,"An entity that undertakes the execution of subscription, redemption and switch orders on behalf of a fund. Definition origin:EFAMA DD",core#definition
+FundRedemptionRestriction,owl#Class,22-rdf-syntax-ns#type
+Nf152535e9a5c48f08c358010a5b0e090,owl#Restriction,22-rdf-syntax-ns#type
+N55b9f63dc1a045d482c2bfcb42afad18,hasPerformanceDeterminationMethod,owl#onProperty
+administeredBy,FundAdministrator,rdf-schema#range
+FundDataProvider,owl#Class,22-rdf-syntax-ns#type
+DebtStakeInFund,Note that you cannot buy fractional amounts in a bond. Review Session Note: Similar to what happens in a CDO where the collaterial manager and the issuer are two different entities. So model this along the same lines as the SPV in the structured finance model. Therefore: further modeling and review required,explanatoryNote
+FondsCommunDePlacement,CollectiveInvestmentVehicle,rdf-schema#subClassOf
+maximumInvestmentAmount,FundPortfolioInvestmentLimitations,rdf-schema#domain
+KeyInvestorInformationDocument,KIID,abbreviation
+Na3ddf6d2e262447d9d500d46cda5006e,owl#Restriction,22-rdf-syntax-ns#type
+N79479510b2be406dbabf088c9684f087,FundLegalFormDocumentation,owl#someValuesFrom
+NetAssetValueCalculationMethod,These terms were in the ISO FIBIM model but correspond to some details in the EFAMA DD.,core#editorialNote
+JurisdictionStrategy,FundPortfolioInvestmentLimitations,rdf-schema#subClassOf
+hasContactDetails,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundLegalFormDocumentation,"From ISO FIBIM ""Umbrella Fund"" narrative: In securities, a collective investment scheme that has a contractual or a corporate form. When it has a contractual form, a fund is constituted under either the law of contract or under the trust law and thus it is not a legal entity. In its corporate form, a fund is a legal entity and is structured as a company.",explanatoryNote
+FundsProcessingParty,party involved in the processing of funds,core#definition
+hasContactDetails,has contact details,rdf-schema#label
+couponPaymentDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+maximumDeviation,Maximum allowable deviation from the benchmark.,core#definition
+maximumRedemptionFee,FundSubscriptionTerms,rdf-schema#domain
+FundsProcessingAccount,"An account used specifically in the processing of funds. Like all accounts this is (per FIBIM definition) a business relationship between two entities; one entity is the account owner, the other entity is the account servicer. Please refer to Financial global model for treatment of accounts relationships in this model.",core#definition
+mayBeDefinedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+PortfolioManager,Nb75314d6eebd4dd9b114a44c7be39c5e,rdf-schema#subClassOf
+definesAllocations,defines,rdf-schema#subPropertyOf
+IncomeAccumulation,share price.,core#definition
+holdingTransferable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+anticipatedVolatility,FundProspectus,rdf-schema#domain
+minimumInvestmentPercentage,Percentage,rdf-schema#range
+PerformanceDeterminationMethod,owl#Class,22-rdf-syntax-ns#type
+N2f7f6d57cd7e4dc49e8044fd2a72f9f8,owl#Restriction,22-rdf-syntax-ns#type
+FundProspectus,N1a5cf76710a84440a7eda82be3c0a219,rdf-schema#subClassOf
+FundAdministrator,owl#Class,22-rdf-syntax-ns#type
+definedInRelationTo,OrganizationStrategy,rdf-schema#domain
+FundBondClassUnit,From EFAMA Review: called denominations e.g. issued in $5000 pieces. You cannot buy fractional amounts in a bond.,explanatoryNote
+FundPortfolio,N3147df32288e4505abfdfe78fa447c9b,rdf-schema#subClassOf
+FundReinvestmentPolicy,FundUnitDistributionPolicy,rdf-schema#subClassOf
+anticipates,FundProspectus,rdf-schema#domain
+minimumRatingRestriction,The minimum rating of securities to be invested in.,core#definition
+description.1,owl#DatatypeProperty,22-rdf-syntax-ns#type
+OtherInvestmentFundInformation,other investment fund information,rdf-schema#label
+hasAccountant,has accountant,rdf-schema#label
+FundsCashDistribution,owl#Class,22-rdf-syntax-ns#type
+performanceDeterminationTimeframe,PerformanceDeterminationMethod,rdf-schema#domain
+redemptionFee,owl#ObjectProperty,22-rdf-syntax-ns#type
+maximumRedemptionUnits,units that may be redeemed on a single dealing day.,core#definition
+PreferredShareInFund,FundShareClassUnit,rdf-schema#subClassOf
+minimumInvestmentPercentage,FundPortfolioInvestmentLimitations,rdf-schema#domain
+N440ec1870a3d479bb4e5a9db9af39b29,Currency,owl#someValuesFrom
+maximumInvestmentPercentage,FundPortfolioInvestmentLimitations,rdf-schema#domain
+N59f56b03051e4164bfe363affe249b24,MarketRate,owl#someValuesFrom
+FundShareClassUnit,"The legal structure in which you can purchase part of an investment pool, defined by a variety of characteristics like investor type, minimum size of investment, distribution type, fee and currency. A fund unit which gives the holder an equity stake in the fund.",core#definition
+hasDefaultSettlementConvention,has default settlement convention,rdf-schema#label
+inceptionDate,Authorization date in the country of origin.,core#definition
+N32b00c173e33464091d7a034583ba3d0,definesMainFundOrderDeskAccount,owl#onProperty
+minimumInvestmentAmount,minimum investment amount,rdf-schema#label
+Nf95a4c1316224171ad25acab2a147569,owl#Restriction,22-rdf-syntax-ns#type
+N965416658a854e13820f70f0e9b6c4a4,FundPromoter,owl#someValuesFrom
+statedDistributionFee,MonetaryAmount,rdf-schema#range
+maximumDeviation,owl#ObjectProperty,22-rdf-syntax-ns#type
+denomination,denomination,rdf-schema#label
+N6f49a9d3772a4c99a9a84953b3d2cc60,FundAccountant,owl#someValuesFrom
+FundInvestmentPolicy,policy that the fund implements in order to achieve the stated fund objectives,core#definition
+hasUnitIssuer,UnitIssuer,rdf-schema#range
+providesDepositaryServiceFor,FundUnit,rdf-schema#range
+FundManager,FundsProcessingParty,rdf-schema#subClassOf
+FondsCommunDePlacement,which-structure-to-choose,rdf-schema#seeAlso
+denominationCurrency,Currency,rdf-schema#range
+GrossOfFeePerformanceDeterminationMethod,Performance determined gross of fee. Review: Is this mutually exclusive with the other listed method? It sounds like it is not.,core#definition
+endOfFiscalYear,DayOfMonth,rdf-schema#range
+switchingChargeable,XMLSchema#boolean,rdf-schema#range
+mayAlsoBe,The unit issuer would be the fund administrator (except when it is a Bond).,core#definition
+Nd4251fc373ac4dc0bee7b31feb019163,Liquidity,owl#someValuesFrom
+holds,SpecialPurposeVehicle,rdf-schema#domain
+limitedSharesAreIssued,limited shares are issued,rdf-schema#label
+definesBenchmark,owl#ObjectProperty,22-rdf-syntax-ns#type
+redemptionDealingFrequency,owl#ObjectProperty,22-rdf-syntax-ns#type
+SemiAnnualReportingPolicy,ReportingFrequencyPolicy,rdf-schema#subClassOf
+N750dbbe83ecb4a5a8522145e682be337,isPlayedBy,owl#onProperty
+InvestmentAdvisor,owl#Class,22-rdf-syntax-ns#type
+Ne09002b89e7d43a7bcbba4cbc2c38f73,comprises,owl#onProperty
+issues,issues,rdf-schema#label
+Nfa0d8890b6934244b2583161c4019d6d,isMemberOf,owl#onProperty
+mayBeDefinedIn,may be defined in,rdf-schema#label
+trackingError,tracking error,rdf-schema#label
+FundInvestmentObjective,InvestmentObjective,rdf-schema#subClassOf
+AccumulatingShareClass,This fact would be determined by the fund unit having a specific Fund Distribution Policy of Accumulating.,explanatoryNote
+hasIssueDate,Date,rdf-schema#range
+fundHasRelatedParty,FundsProcessingParty,rdf-schema#range
+N6a0f808feb764fb4aaa3ba16064ec6cc,FundProcessingGeneralTerms,owl#someValuesFrom
+FundsProcessingPassport,The Funds Processing Passport. This is defined as a document. This has terms drawn from elsewhere in the model which are defined as part of the FPP for reasons defined in the FPP descriptions.,core#definition
+givesOwnershipOf,gives ownership of,rdf-schema#label
+issues,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasManagementCompany,owl#ObjectProperty,22-rdf-syntax-ns#type
+accountingYearEndDate,accounting year end date,rdf-schema#label
+description.1,description,rdf-schema#label
+Na3eb4f4700ce4fe1ae768b77cd9e58a1,governs,owl#onProperty
+holderMayReinvest,Whether or not the holder may reinvest dividends in the fund.,core#definition
+trackingError,InvestmentRestriction,rdf-schema#domain
+EquityStakeInFund,equity stake in fund,rdf-schema#label
+FundSubscriptionTerms,N984f3c1a580744938a40519711838578,rdf-schema#subClassOf
+minimumInitialSubscriptionUnits,minimum initial subscription units,rdf-schema#label
+hasFundPolicy,FundInvestmentPolicy,rdf-schema#range
+firstAccountingYearEndDate,Last day of the first accounting year for the fund.,core#definition
+N22598ddc5d4a4543a031a0c0ebdb23c4,owl#Restriction,22-rdf-syntax-ns#type
+reinvestmentFrequency,RecurrenceInterval,rdf-schema#range
+N0bf8e1fdc1a44841ba9a724d3c747710,owl#Restriction,22-rdf-syntax-ns#type
+PreferredShareInFund,owl#Class,22-rdf-syntax-ns#type
+hasIntendedRiskLevel,has intended risk level,rdf-schema#label
+holderMayReinvest,DistributingShareClass,rdf-schema#domain
+subsequentApplicationForm,owl#ObjectProperty,22-rdf-syntax-ns#type
+initialApplicationForm,FundSubscriptionTerms,rdf-schema#domain
+firstNAVCalculationDate,CollectiveInvestmentVehicle,rdf-schema#domain
+Nf152535e9a5c48f08c358010a5b0e090,advisedBy,owl#onProperty
+Nbf29812379f149bfa4df12a2d6c08049,hasStrategy,owl#onProperty
+fundHasRelatedParty,CollectiveInvestmentVehicle,rdf-schema#domain
+FundBondUnitCoupon,N38d041c565a44418bd84d762a57ef47a,rdf-schema#subClassOf
+redemptionDealingFrequency,FundRedemptionTerms,rdf-schema#domain
+BricksAndMortarHolding,bricks and mortar holding,rdf-schema#label
+hasRelatedTerms,ContractualElement,rdf-schema#range
+GrossOfFeePerformanceDeterminationMethod,gross of fee performance determination method,rdf-schema#label
+redemptionCutoffDateTime,DateTime,rdf-schema#range
+FundsProcessing,"The context of managing and processing funds, issuing funds units etc. This is the context in which the different parties involved in a fund are defined as parties.",core#definition
+FundProcessingForm,Nd48ad8611c054a7082b0f8b356ac158e,rdf-schema#subClassOf
+Nd48ad8611c054a7082b0f8b356ac158e,FundOrderDeskPhysicalFormDocument,owl#onClass
+FundAuditor,FundsProcessingParty,rdf-schema#subClassOf
+Nfc4c859d85f24996b89dae7a70efbc9e,FundClassification,owl#someValuesFrom
+FundSupervisoryAuthority,PartyRole,rdf-schema#subClassOf
+FundUnitDistributionMethod,fund unit distribution method,rdf-schema#label
+distributionWithReinvestment,FundReinvestmentPolicy,rdf-schema#domain
+FundOrderDesk,The Fund Order Desk is a party to the Fund Order Desk Account.,core#definition
+valuationFrequency,valuation frequency,rdf-schema#label
+minimumSubscriptionAmount,minimum subscription amount,rdf-schema#label
+redemptionPeriod,FundRedemptionTerms,rdf-schema#domain
+N4bb74eb454ae425a9f638623767504a3,FundProcessingTerms,owl#someValuesFrom
+dealingFrequencyDescription,FundProcessingTerms,rdf-schema#domain
+subscriptionPeriod,DatePeriod,rdf-schema#range
+UnitIssuer,The party which issues the Fund Unit.,core#definition
+PreferredShareInFund,preferred share in fund,rdf-schema#label
+mayBe.1,FundOrderDeskPhysicalFormDocument,rdf-schema#range
+CurrencyStrategy,currency strategy,rdf-schema#label
+holdingTransferable,Whether registered investors are able to transfer some or all of their holdings to third parties.,core#definition
+FundsProcessingAccount,Account,rdf-schema#subClassOf
+FundManagementCompany,"The party that sets up the fund, decides the investment strategy, appoints the agents, and is responsible for the promotion and the marketing of the fund. It makes all of the important decisions related to the fund. Also called fund promotor or fund sponsor or fund manager.",core#definition
+minimumInitialSubscriptionUnits,shares that must be purchased.,core#definition
+FundPortfolio,Nacc814ae802649ca848bd5e0d166d0f6,rdf-schema#subClassOf
+minimumInitialSubscriptionAmount,Minimum initial subscription value.,core#definition
+FundDebt,fund debt,rdf-schema#label
+benchmarkWeight,benchmark weight,rdf-schema#label
+FundDividendPolicy,FundCashDistributionPolicy,rdf-schema#subClassOf
+FundOrderDesk,This party would presumably be identified as the Fund Management Company in terms of what legal entity fulcils this role? to be determined at further review.,core#editorialNote
+inceptionDate.1,inception date,rdf-schema#label
+MoneyWeightedRateOfReturnPerformanceDeterminationMethod,PerformanceDeterminationMethod,rdf-schema#subClassOf
+maximumInvestmentPercentage,maximum investment percentage,rdf-schema#label
+FundsProcessingAccount,"Derived from FIBIM definition for ""Account"", which is: ""Business relationship between two entities; one entity is the account owner, the other entity is the account servicer."" this corresponds to the Global Terms definition for Account.",explanatoryNote
+Nd7cddfeaf19b4fddb08091c67fc029e3,hasAuditor,owl#onProperty
+maximumRedemptionUnits,FundRedemptionTerms,rdf-schema#domain
+InvestmentRestriction,N49309046a214445c83d68816f44851da,rdf-schema#subClassOf
+FundManagementCompany,In the US: operates on a percentage of the Portfolio assets under management.,explanatoryNote
+FundOrderDeskPhysicalFormDocument,owl#Class,22-rdf-syntax-ns#type
+CollectiveInvestmentVehicle,Ne1b2f9071f2b480aa60c2fcc68dc1c0a,rdf-schema#subClassOf
+N967d2a8b149749dfb3d25f002beec922,owl#Restriction,22-rdf-syntax-ns#type
+FundsCreation,funds creation,rdf-schema#label
+Nf90951daa58a4d6f95936fa9988c6608,FundProspectus,owl#someValuesFrom
+FundClassification,N65be4c631b8741ffb917e7fc58dca01d,rdf-schema#subClassOf
+FundBondClassUnit,N409e672dc0254616a2e5aeb9e47066b7,rdf-schema#subClassOf
+mainFundOrderDesk,main fund order desk,rdf-schema#label
+physicalDocumentRequired,FundProcessingForm,rdf-schema#domain
+Nbf29812379f149bfa4df12a2d6c08049,FundUnitDistributionMethod,owl#someValuesFrom
+FundUnitHolding,A holding of a unit in another fund.,core#definition
+Na5e36de2fd4140eba0a1d59e8f79dc06,FundManager,owl#someValuesFrom
+minimumSubscriptionAmount,MonetaryAmount,rdf-schema#range
+redemptionCutoffDateTime,redemption cutoff date time,rdf-schema#label
+valuationFrequency,owl#ObjectProperty,22-rdf-syntax-ns#type
+SPVPurpose,BusinessObjective,rdf-schema#subClassOf
+description,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FundClassification,fund classification,rdf-schema#label
+FundCashDistributionPolicy,"Policy for distribution of cash dividends or notes in the event that the fund units have a distribution policy of ""Cash"" rather than ""Reinvestment"".",core#definition
+KeyInvestorInformationDocument,key investor information document,rdf-schema#label
+Nd51faae782d445ba82b16b192d77f2c6,owl#Restriction,22-rdf-syntax-ns#type
+FundContract,"From ISO FIBIM ""Umbrella Fund"" narrative: In securities, a collective investment scheme that has a contractual or a corporate form. When it has a contractual form, a fund is constituted under either the law of contract or under the trust law and thus it is not a legal entity. In its corporate form, a fund is a legal entity and is structured as a company.",explanatoryNote
+declarationChannel,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N12c8f70a215548b99687e565133f2c74,Corporation,owl#someValuesFrom
+backEndLoadApplicable,FundProcessingGeneralTerms,rdf-schema#domain
+CommonShareInFund,SR Review session notes: US: Closed and open ended funds may have common and preferred shares.,explanatoryNote
+SectorStrategy,sector strategy,rdf-schema#label
+hasFundPolicy,has fund policy,rdf-schema#label
+FundProcessingTerms,"Formal terms for processing of the fund. These set out what the investor and the fund may or may not do. These include terms for redemption and subscription processing as well as general processing terms. ISO FIBIM definition: Processing characteristics linked to the instrument, ie, not to the market.",core#definition
+inclusion,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasIssueDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+N218b4123935a4681a976017bfd74850f,supervisedBy,owl#onProperty
+providesDepositaryServiceFor,FundDepositary,rdf-schema#domain
+Nb99d5a570e1e4b8a8dc80270a7892161,FundUnit,owl#someValuesFrom
+StakeInFund,owl#Class,22-rdf-syntax-ns#type
+OrganizationStrategy,FundPortfolioInvestmentLimitations,rdf-schema#subClassOf
+takesFormOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+stipulatesBenchmark,owl#ObjectProperty,22-rdf-syntax-ns#type
+N65b51d6f658f49e8ae999207d6696f4e,owl#Restriction,22-rdf-syntax-ns#type
+FundsProcessingPassport,N1eb108cfdaff43e995997fe2ce09f63a,rdf-schema#subClassOf
+hasAdditionalInformation,has additional information,rdf-schema#label
+FundPortfolio,fund portfolio,rdf-schema#label
+FundPromoter,"An entity that promotes a fund. May be an investor, pension fund, bank, insurance company or management company",core#definition
+clearFundsRequired,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Nd51faae782d445ba82b16b192d77f2c6,CollectiveInvestmentVehicle,owl#someValuesFrom
+FundBondClassUnit,N206d2fd8c31749ff96a407bb039f9675,rdf-schema#subClassOf
+limitedSharesAreIssued,FundShareClassUnit,rdf-schema#domain
+N4dc2f8ff081048d18fec98c9f126fdf7,owl#Restriction,22-rdf-syntax-ns#type
+Na5e36de2fd4140eba0a1d59e8f79dc06,owl#Restriction,22-rdf-syntax-ns#type
+InvestmentRestriction,SecuritiesRestriction,rdf-schema#subClassOf
+Nb4adec2dce584794b006218ccd197839,PortfolioInvestmentStrategy,owl#someValuesFrom
+launchDate,CollectiveInvestmentVehicle,rdf-schema#domain
+N967d2a8b149749dfb3d25f002beec922,comprises,owl#onProperty
+FundDistributor,"an entity through which a fund may be bought by or for an investor. This may be on a discretionary or advisory basis, or as an execution-only service. Definition origin:EFAMA DD",core#definition
+Liquidity,liquidity,rdf-schema#label
+FundUnitHolding,owl#Class,22-rdf-syntax-ns#type
+minimumInvestmentAmount,Minimum amount that has to be invested in the specified strategy.,core#definition
+definesBenchmark,defines benchmark,rdf-schema#label
+Nb75314d6eebd4dd9b114a44c7be39c5e,owl#Restriction,22-rdf-syntax-ns#type
+FondsCommunDePlacement,fonds commun de placement,rdf-schema#label
+productGroupDescription,XMLSchema#string,rdf-schema#range
+couponPaymentDate,coupon payment date,rdf-schema#label
+hasInformationAbout,FundUnit,rdf-schema#range
+advisedBy,InvestmentAdvisor,rdf-schema#range
+Ne1b2f9071f2b480aa60c2fcc68dc1c0a,FundInvestmentPolicy,owl#someValuesFrom
+supervisedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nacc814ae802649ca848bd5e0d166d0f6,owl#Restriction,22-rdf-syntax-ns#type
+FundsCreation,SPVPurpose,rdf-schema#subClassOf
+intendedLiquidationDate,intended liquidation date,rdf-schema#label
+RiskLevel,risk level,rdf-schema#label
+statedDistributionFee,stated distribution fee,rdf-schema#label
+inceptionDate.1,Date,rdf-schema#range
+FundProcessingGeneralTerms,Formal terms for general processing of the fund. These set out what the investor and the fund may or may not do.,core#definition
+redemptionFee,Actual percentage or fixed amount of money due when redeeming fund shares Definition origin:EFAMA DD,core#definition
+N2fd3d2b5e15547a184e684df58b22f5b,owl#Restriction,22-rdf-syntax-ns#type
+hasAdditionalInformation,OtherInvestmentFundInformation,rdf-schema#range
+Nfa0d8890b6934244b2583161c4019d6d,owl#Restriction,22-rdf-syntax-ns#type
+hasTradableUnit,owl#ObjectProperty,22-rdf-syntax-ns#type
+SpecialPurposeVehicle,Nd38444445b3c42bf91f8ddca3754f5c1,rdf-schema#subClassOf
+backEndLoadApplicable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+maximumPurchasingFee,maximum purchasing fee,rdf-schema#label
+N79479510b2be406dbabf088c9684f087,isEvidencedBy,owl#onProperty
+Nf529b6568b214aa89844cb759da5d4a1,owl#Restriction,22-rdf-syntax-ns#type
+description,description,rdf-schema#label
+blacklisted,"Whether or not the strategy in framed so as to include the referenced business entity as being blacklisted. If yes, the strategy prevents investment in securities issued by that organization.",core#definition
+definesBenchmark,PortfolioBenchmark,rdf-schema#domain
+PortfolioManager,owl#Class,22-rdf-syntax-ns#type
+FundShareClassUnit,fund share class unit,rdf-schema#label
+description,XMLSchema#string,rdf-schema#range
+distributionWithReinvestment,distribution with reinvestment,rdf-schema#label
+frontEndLoadApplicable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+identifiesAssetTypesBy,identifies asset types by,rdf-schema#label
+minimumSubscriptionAmount,Minimum subscription value for existing investors.,core#definition
+blacklisted,XMLSchema#boolean,rdf-schema#range
+minimumHoldingPeriod,Duration,rdf-schema#range
+Nabf66903c94949a792b26fabedab67d4,appliesTo,owl#onProperty
+N8c94f78cd54c4afe845708a5e023c32b,1,owl#maxQualifiedCardinality
+holderMayReinvest,XMLSchema#boolean,rdf-schema#range
+hasAccountant,owl#ObjectProperty,22-rdf-syntax-ns#type
+minimumRatingRestriction,RatingScore,rdf-schema#range
+CommonShareInFund,owl#Class,22-rdf-syntax-ns#type
+holderMayReinvest,holder may reinvest,rdf-schema#label
+mayBe.1,FundProcessingForm,rdf-schema#domain
+outlines,statedIn,owl#inverseOf
+providesDepositaryServiceFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+minimumHoldingPeriod,shares must be held following their issue before redemption will be permitted.,core#definition
+includeRelatedFirms,include related firms,rdf-schema#label
+hasFundProcessingTerms,FundUnit,rdf-schema#domain
+FundDebt,This would normally be held by participants in that pool. in this case the pool is a fund which is formed by each of the participants extending credit to that pool and holding bond units in the pool representing that debt.,explanatoryNote
+givesOwnershipOf,CollectiveInvestmentVehicle,rdf-schema#range
+N449ae3ff50514d6fab2749d2d3ebc6bf,issues,owl#onProperty
+minimumInvestmentPercentage,minimum investment percentage,rdf-schema#label
+MoneyWeightedRateOfReturnPerformanceDeterminationMethod,money weighted rate of return performance determination method,rdf-schema#label
+hasRelatedTerms,has related terms,rdf-schema#label
+AssetClassStrategy,Strategy which is asset class based.,core#definition
+hasSubscriptionTerms,CollectiveInvestmentVehicle,rdf-schema#domain
+minimumInvestmentAmount,FundPortfolioInvestmentLimitations,rdf-schema#domain
+isUnitHolder,is unit holder,rdf-schema#label
+N409e672dc0254616a2e5aeb9e47066b7,FundBondUnitCoupon,owl#someValuesFrom
+benchmarkWeight,Instrument weighting in the benchmark for the portfolio.,core#definition
+minimumInitialSubscriptionUnits,owl#DatatypeProperty,22-rdf-syntax-ns#type
+advisedBy,advised by,rdf-schema#label
+definedInRelationTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+redemptionCycleInBusinessDays,owl#DatatypeProperty,22-rdf-syntax-ns#type
+denomination,owl#ObjectProperty,22-rdf-syntax-ns#type
+minimumRatingRestriction,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasFundProcessingTerms,has fund processing terms,rdf-schema#label
+FundsProcessing,owl#Class,22-rdf-syntax-ns#type
+givesOwnershipOf,StakeInFund,rdf-schema#domain
+InvestmentStrategy,investment strategy,rdf-schema#label
+hasIntendedRiskLevel,RiskLevel,rdf-schema#range
+performanceDeterminationTimeframe,DatePeriod,rdf-schema#range
+FundPortfolioInvestmentPolicy,Policy,rdf-schema#subClassOf
+redemptionForm,redemption form,rdf-schema#label
+Nd38444445b3c42bf91f8ddca3754f5c1,SPVPurpose,owl#someValuesFrom
+issuePrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+stipulatesBenchmark,FundInvestmentPolicy,rdf-schema#domain
+productGroupDescription,owl#DatatypeProperty,22-rdf-syntax-ns#type
+PrivateEquityHolding,private equity holding,rdf-schema#label
+EquityStakeInFund,owl#Class,22-rdf-syntax-ns#type
+GrossOfFeePerformanceDeterminationMethod,PerformanceDeterminationMethod,rdf-schema#subClassOf
+N467041f59c614fd58c6284d691d3edd2,owl#Restriction,22-rdf-syntax-ns#type
+FundProcessingForm,fund processing form,rdf-schema#label
+N0f42f11531fa4009bf3f405f801e83bd,owl#Restriction,22-rdf-syntax-ns#type
+N3089fa7b620a4fda8aa87f1652727a63,hasDataProvider,owl#onProperty
+denomination,Denomination Currency of the fund - Currency in which the fund unit is issued or redenominated and the currency of the NAV calculation.,core#definition
+stipulatesBenchmark,stipulates benchmark,rdf-schema#label
+redemptionForm,owl#ObjectProperty,22-rdf-syntax-ns#type
+Neb9163b112544fb08e3a4846d246b1a5,Share,owl#allValuesFrom
+EquityStakeInFund,A stake held in a fund by way of a Share Class Unit.,core#definition
+FundTransferAgent,owl#Class,22-rdf-syntax-ns#type
+N8c94f78cd54c4afe845708a5e023c32b,stipulatesBenchmark,owl#onProperty
+advisedBy,fundHasRelatedParty,rdf-schema#subPropertyOf
+assessedAgainst,PortfolioBenchmark,rdf-schema#range
+subscriptionsInAmountAllowed,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N5445abb2499846afaf31f7881fb4c21c,FundRedemptionTerms,owl#someValuesFrom
+valuationFrequency,Frequency of the net asset value calculation.,core#definition
+Liquidity,owl#Class,22-rdf-syntax-ns#type
+CollectiveInvestmentVehicle,owl#Class,22-rdf-syntax-ns#type
+N28b6ed954cd74e09937c0c684d574350,FundUnitDistributionPolicy,owl#someValuesFrom
+hasAdditionalInformation,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundInvestmentPolicy,fund investment policy,rdf-schema#label
+redemptionPeriod,shares may be redeemed.,core#definition
+FundInvestmentObjective,N7156ee96c1614d96886f93352c89f58d,rdf-schema#subClassOf
+anticipatedVolatility,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundInvestmentObjective,"This could be broken down into other terms that can be itemised here, that are not in the EFAMA DD explicitly. Examples may include: - Risk level - Return - Exposure to different markets",core#editorialNote
+InvestmentAdvisor,The party that provides investment guidance at a fee. Definition origin:EFAMA DD,core#definition
+Ne1b2f9071f2b480aa60c2fcc68dc1c0a,owl#Restriction,22-rdf-syntax-ns#type
+FundProcessingForm,owl#Class,22-rdf-syntax-ns#type
+FundPortfolioInvestmentLimitations,Detailed Policy on approximately how the portfolio is to be allocated to achieve the stated investment goals. This underpins the detailed strategy of how to achieve this.,core#definition
+inceptionDate.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+valueAtRisk,Percentage,rdf-schema#range
+AnnualReportingPolicy,annual reporting policy,rdf-schema#label
+holdingTransferable,FundProcessingGeneralTerms,rdf-schema#domain
+FundUnitDistributionPolicy,owl#Class,22-rdf-syntax-ns#type
+FundBondClassUnit,A fund unit which takes the form of debt in that fund.,core#definition
+name.1,Name given to the defined strategy.,core#definition
+IncomeAccumulation,income accumulation,rdf-schema#label
+N4e019947a32e406f8049865abea1d232,providesDepositaryServiceFor,owl#onProperty
+historicPricingIndicator,Indicates whether the price is historic or forward.,core#definition
+maximumInvestmentAmount,MonetaryAmount,rdf-schema#range
+benchmarkWeight,Percentage,rdf-schema#range
+N0f42f11531fa4009bf3f405f801e83bd,SettlementConvention,owl#someValuesFrom
+frontEndLoadApplicable,XMLSchema#boolean,rdf-schema#range
+FundPortfolioInvestmentPolicy,owl#Class,22-rdf-syntax-ns#type
+AnnualizedPerformanceDeterminationMethod,owl#Class,22-rdf-syntax-ns#type
+FundUnitDistributionMethod,The normal distribution policy for funds.,core#definition
+trackingError,Percentage,rdf-schema#range
+N4bb74eb454ae425a9f638623767504a3,owl#Restriction,22-rdf-syntax-ns#type
+KeyInvestorInformationDocument,2020-01-07,adaptedFrom
+Nfc4c859d85f24996b89dae7a70efbc9e,owl#Restriction,22-rdf-syntax-ns#type
+FundClassificationScheme,owl#Class,22-rdf-syntax-ns#type
+Nd48ad8611c054a7082b0f8b356ac158e,1,owl#maxQualifiedCardinality
+signatureRequired,XMLSchema#boolean,rdf-schema#range
+redemptionForm,FundRedemptionTerms,rdf-schema#domain
+FundProspectus,"EFAMA Review description for this: The fund is issued with a prospectus; there is material in the prospectus that is binding; material that is expected but not binding, and information that may or may not be in the prospectus or a given fund.",core#editorialNote
+definesMainFundOrderDeskAccount,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundInvestmentPolicy,N2fd3d2b5e15547a184e684df58b22f5b,rdf-schema#subClassOf
+processingCountry,owl#ObjectProperty,22-rdf-syntax-ns#type
+maximumInvestmentPercentage,owl#ObjectProperty,22-rdf-syntax-ns#type
+SectorStrategy,FundPortfolioInvestmentLimitations,rdf-schema#subClassOf
+name,XMLSchema#string,rdf-schema#range
+ReferToFundOrderDesk,"While it's unclear from original data models, it's likely that this restriction is actually to learn from the fund order desk of any other individual kinds of restriction that will apply. This is itself treated as a kind of restriction here.",core#editorialNote
+FundsCreation,owl#Class,22-rdf-syntax-ns#type
+FundUnitDistributionMethod,owl#Class,22-rdf-syntax-ns#type
+firstNAVCalculationDate,first n a v calculation date,rdf-schema#label
+hasAdditionalRedemptionRestrictions,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundsProcessingParty,PartyRole,rdf-schema#subClassOf
+subscriptionCutoffDateTime,FundSubscriptionTerms,rdf-schema#domain
+outlines,FundProspectus,rdf-schema#domain
+couponPaymentDate,FundCouponPolicy,rdf-schema#domain
+definedInRelationTo,Corporation,rdf-schema#range
+isCalculatedIn,Currency,rdf-schema#range
+FundDistributionPolicy,Policy,rdf-schema#subClassOf
+TimeWeightedRateOfReturnPerformanceDeterminationMethod,owl#Class,22-rdf-syntax-ns#type
+mayAlsoBe,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasRelatedFundTerms,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasFundProcessingTerms,FundProcessingTerms,rdf-schema#range
+Nb4adec2dce584794b006218ccd197839,owl#Restriction,22-rdf-syntax-ns#type
+Nf152535e9a5c48f08c358010a5b0e090,InvestmentAdvisor,owl#someValuesFrom
+EquityFund,equity fund,rdf-schema#label
+AnnualizedPerformanceDeterminationMethod,PerformanceDeterminationMethod,rdf-schema#subClassOf
+N4e019947a32e406f8049865abea1d232,FundUnit,owl#someValuesFrom
+FundUnit,N22598ddc5d4a4543a031a0c0ebdb23c4,rdf-schema#subClassOf
+FundRedemptionRestriction,fund redemption restriction,rdf-schema#label
+dualFund,FundProcessingGeneralTerms,rdf-schema#domain
+performanceDeterminationTimeframe,owl#ObjectProperty,22-rdf-syntax-ns#type
+valueAtRisk,See RiskClassification_NameOf in EFAMA DD Applies to Fund not Portfolio.,core#definition
+Ne50d89dd71cf49e58ce858245189ee09,owl#Restriction,22-rdf-syntax-ns#type
+maximumInvestmentPercentage,Percentage,rdf-schema#range
+redemptionInAmountAllowed,redemption in amount allowed,rdf-schema#label
+purchasingFee,Fee,rdf-schema#range
+N781b0c92a4ee42508af75404e344f5e9,isApplicableIn,owl#onProperty
+Nefff9d14970f4d36b130cc08a67d5fe8,FundAdministrator,owl#someValuesFrom
+FundDataProvider,N6741a449431e489aa165e74d0d0bb545,rdf-schema#subClassOf
+authorizedCountry,owl#ObjectProperty,22-rdf-syntax-ns#type
+administeredBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+description.1,PortfolioBenchmark,rdf-schema#domain
+Nb99d5a570e1e4b8a8dc80270a7892161,appliesTo,owl#onProperty
+decimalPlaceRounding,XMLSchema#integer,rdf-schema#range
+denominationCurrency,FundUnit,rdf-schema#domain
+valuationFrequency,RecurrenceInterval,rdf-schema#range
+N5445abb2499846afaf31f7881fb4c21c,owl#Restriction,22-rdf-syntax-ns#type
+hasInformationAbout,FundsProcessingPassport,rdf-schema#domain
+productGroupDescription,product group description,rdf-schema#label
+GrossOfFeePerformanceDeterminationMethod,owl#Class,22-rdf-syntax-ns#type
+Nd48ad8611c054a7082b0f8b356ac158e,owl#Restriction,22-rdf-syntax-ns#type
+inclusion,inclusion,rdf-schema#label
+maximumRedemptionUnits,XMLSchema#integer,rdf-schema#range
+subscriptionDealingFrequency,FundSubscriptionTerms,rdf-schema#domain
+hasTradableUnit,has tradable unit,rdf-schema#label
+AccumulatingShareClass,A share class in which there is no option to reinvest.,core#definition
+MoneyWeightedRateOfReturnPerformanceDeterminationMethod,Money weighted rate of return.,core#definition
+hasAccountant,CollectiveInvestmentVehicle,rdf-schema#domain
+hasDataProvider,FundDataProvider,rdf-schema#range
+limitedSharesAreIssued,Whether or not new shares can be issued in the fund. This is what makes it a closed end or open end fund.,core#definition
+identifiesAssetTypesBy,FinancialInstrumentClassifier,rdf-schema#range
+FundDistributionPolicy,owl#Class,22-rdf-syntax-ns#type
+distributionWithReinvestment,FundUnitDistributionPolicy,rdf-schema#domain
+NetAssetValueCalculationMethod,fund class.,core#definition
+Nb52ff1db2de54e4fadc3d9bce245d6c4,identifiedAs.5,owl#onProperty
+hasFundPolicy,owl#ObjectProperty,22-rdf-syntax-ns#type
+takesFormOf,comprises,rdf-schema#subPropertyOf
+,,owl#imports
+N750dbbe83ecb4a5a8522145e682be337,owl#Restriction,22-rdf-syntax-ns#type
+Nf7a7dbf7924e4c649a49be9c2861fd41,owl#Restriction,22-rdf-syntax-ns#type
+FundBondClassUnit,Nb648bae063f7415aba4b42fb11beceda,rdf-schema#subClassOf
+FundBondClassUnit,owl#Class,22-rdf-syntax-ns#type
+statedIn,stated in,rdf-schema#label
+N09172edb5135441d8ce6c65a5b4ec227,hasUnitIssuer,owl#onProperty
+EquityFund,A fund which invests in at least 85% shares.,core#definition
+N73bf7f9c97884fe3acc7c44dc52737b3,mayAlsoBe,owl#onProperty
+NoteFundUnit,"Need a legal definition - to follow. This is one of the mechanisms by which an investor may hold an interest in a fund, but is not a Bond or a Share.",core#definition
+identifies.1,identifies,rdf-schema#label
+PrivateEquityHolding,PortfolioHolding,rdf-schema#subClassOf
+hasTransferAgent,owl#ObjectProperty,22-rdf-syntax-ns#type
+mainFundOrderDesk,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasAuditor,fundHasRelatedParty,rdf-schema#subPropertyOf
+minimumRemainingHoldingUnits,FundProcessingGeneralTerms,rdf-schema#domain
+redemptionInAmountAllowed,Whether redemptions in amount are allowed.,core#definition
+FundsProcessingParty,funds processing party,rdf-schema#label
+Nf7a7dbf7924e4c649a49be9c2861fd41,isPlayedBy,owl#onProperty
+hasDataProvider,fundHasRelatedParty,rdf-schema#subPropertyOf
+hasDepository,CollectiveInvestmentVehicle,rdf-schema#domain
+hasUnitIssuer,has unit issuer,rdf-schema#label
+clearFundsRequired,clear funds required,rdf-schema#label
+N32b00c173e33464091d7a034583ba3d0,FundsProcessingAccount,owl#someValuesFrom
+AssetClassStrategy,FundPortfolioInvestmentLimitations,rdf-schema#subClassOf
+hasSubscriptionTerms,has subscription terms,rdf-schema#label
+Ne1b2f9071f2b480aa60c2fcc68dc1c0a,hasFundPolicy,owl#onProperty
+KeyInvestorInformationDocument,N781b0c92a4ee42508af75404e344f5e9,rdf-schema#subClassOf
+historicPricingIndicator,historic pricing indicator,rdf-schema#label
+stipulatesBenchmark,MarketRate,rdf-schema#range
+KeyInvestorInformationDocument,"short document that provides critical information for investors, summarizing content derived from a prospectus such that it can be understood by investors without reference to other documents, as required by law in the European Union",core#definition
+hasPerformanceDeterminationMethod,has performance determination method,rdf-schema#label
+physicalDocumentRequired,XMLSchema#boolean,rdf-schema#range
+AccumulatingShareClass,DistributingShareClass,owl#disjointWith
+isSetUpFor,is set up for,rdf-schema#label
+N7156ee96c1614d96886f93352c89f58d,RiskLevel,owl#someValuesFrom
+N9b0512b9c6534adbb1f17570b842fa19,ReferToFundOrderDesk,owl#someValuesFrom
+FundContract,owl#Class,22-rdf-syntax-ns#type
+Nce52dfab2a674efbbeb9b74ae6d0e0e8,Corporation,owl#someValuesFrom
+maximumRedemptionPercentage,maximum redemption percentage,rdf-schema#label
+FondsCommunDePlacement,FCP,abbreviation
+Ne50d89dd71cf49e58ce858245189ee09,FundManagementCompany,owl#someValuesFrom
+description.1,XMLSchema#string,rdf-schema#range
+FundsProcessingPassport,owl#Class,22-rdf-syntax-ns#type
+BricksAndMortarHolding,A holding of built property.,core#definition
+Na5e36de2fd4140eba0a1d59e8f79dc06,hasManagementCompany,owl#onProperty
+IncomeAccumulation,owl#Class,22-rdf-syntax-ns#type
+JurisdictionStrategy,Strategy which is jurisdiction based.,core#definition
+isSetUpFor,SPVPurpose,rdf-schema#range
+BricksAndMortarHolding,PortfolioHolding,rdf-schema#subClassOf
+typeOfSecurities,type of securities,rdf-schema#label
+FundAccountant,fund accountant,rdf-schema#label
+FundUnitDistributionPolicy,"policy relating to the unit, e.g. if income is paid out or retained in the fund and how this is treated, including distribution policy details for dividends and coupons.",core#definition
+denomination,Currency,rdf-schema#range
+Nf95a4c1316224171ad25acab2a147569,includes,owl#onProperty
+name,Name of the investment fund.,core#definition
+JurisdictionStrategy,jurisdiction strategy,rdf-schema#label
+identifies.1,"Jurisdiction (country, county, state, province, city) of the investment.",core#definition
+N1a5cf76710a84440a7eda82be3c0a219,FundInvestmentObjective,owl#someValuesFrom
+hasAuditor,FundAuditor,rdf-schema#range
+KeyInvestorInformationDocument,OfferingDocument,rdf-schema#subClassOf
+FundDistributionPolicy,policy indicating the overall strategy or limitations on distribution for the fund,core#definition
+accountingYearEndDate,Last day of the accounting year for the fund.,core#definition
+declarationChannel,NetAssetValueCalculationMethod,rdf-schema#domain
+BricksAndMortarHolding,owl#Class,22-rdf-syntax-ns#type
+denominatedIn,denominated in,rdf-schema#label
+switchingChargeable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+NoteFundUnit,owl#Class,22-rdf-syntax-ns#type
+hasIntendedRiskLevel,FundInvestmentObjective,rdf-schema#domain
+N3ba2ffd446ae452ebff7d1080dfe2bc6,owl#Restriction,22-rdf-syntax-ns#type
+accountingYearEndDate,DayOfMonth,rdf-schema#range
+redemptionCycleInBusinessDays,"The last business day following the day on which a redemption order is priced (T) by which settlement will be due for orders placed with the main Fund Order Desk. Alternatively, if proceeds will be paid following receipt of written renunciation, the last business day following receipt of the relevant renunciation documentation by the main Fund Order Desk (R) by which the proceeds will be sent.",core#definition
+minimumInvestmentPercentage,owl#ObjectProperty,22-rdf-syntax-ns#type
+FondsCommunDePlacement,owl#Class,22-rdf-syntax-ns#type
+hasAccountingInformation,CollectiveInvestmentVehicle,rdf-schema#domain
+reinvestmentFrequency,"For units where there is Reinvestment distribution, the frequency with which the reinvestment takes place (this will be the same or less frequently than the Dividend Payment Frequency), otherwise this fact does not apply.",core#definition
+reinvestmentFrequency,reinvestment frequency,rdf-schema#label
+N440ec1870a3d479bb4e5a9db9af39b29,isCalculatedIn,owl#onProperty
+OrganizationStrategy,organization strategy,rdf-schema#label
+hasManagementCompany,fundHasRelatedParty,rdf-schema#subPropertyOf
+FundProcessingForm,The form of documentation or control mechanism required for some funds processing activity.,core#definition
+maximumRedemptionFee,Fee,rdf-schema#range
+N781b0c92a4ee42508af75404e344f5e9,owl#Restriction,22-rdf-syntax-ns#type
+hasDefaultSettlementConvention,FundProcessingTerms,rdf-schema#domain
+SPVPurpose,owl#Class,22-rdf-syntax-ns#type
+minimumHoldingPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+AssetClassStrategy,owl#Class,22-rdf-syntax-ns#type
+FundProcessingGeneralTerms,fund processing general terms,rdf-schema#label
+hasManagementCompany,FundManager,rdf-schema#range
+FundCouponPolicy,fund coupon policy,rdf-schema#label
+Nc94a865f2a8f4931ade0e05c7dda20ee,EquityPortfolio,owl#someValuesFrom
+N13a20f9488df40b48c3a3d21d55c1c2e,fundHasRelatedParty,owl#onProperty
+name.1,XMLSchema#string,rdf-schema#range
+dealingFrequencyDescription,Description of frequency at which the subscriptions and redemptions are done.,core#definition
+OrganizationStrategy,Strategy which is organization based.,core#definition
+InvestmentStrategy,owl#Class,22-rdf-syntax-ns#type
+N984f3c1a580744938a40519711838578,appliesTo,owl#onProperty
+FundsProcessingPassport,N73506d20e28047fca1c2731796ee0324,rdf-schema#subClassOf
+statedManagementFee,owl#ObjectProperty,22-rdf-syntax-ns#type
+blacklisted,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasPerformanceDeterminationMethod,PerformanceDeterminationMethod,rdf-schema#range
+maximumDeviation,maximum deviation,rdf-schema#label
+FundDepositary,FundsProcessingParty,rdf-schema#subClassOf
+SpecialPurposeVehicle,Nd51faae782d445ba82b16b192d77f2c6,rdf-schema#subClassOf
+distributedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+identifiesAssetTypesBy,AssetClassStrategy,rdf-schema#domain
+ReferToFundOrderDesk,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+mainFundOrderDesk,FundProcessingTerms,rdf-schema#domain
+distributedBy,FundDistributor,rdf-schema#range
+PerformanceDeterminationMethod,Strategy,rdf-schema#subClassOf
+legallyRecordedIn,CollectiveInvestmentVehicle,rdf-schema#domain
+FundPortfolioInvestmentPolicy,Nb4adec2dce584794b006218ccd197839,rdf-schema#subClassOf
+Na67492b20dcd4560994f751542b846a4,hasTransferAgent,owl#onProperty
+hasExpectedCoupon,owl#ObjectProperty,22-rdf-syntax-ns#type
+maximumInvestmentPercentage,Maximum percentage that may be invested in the specified strategy.,core#definition
+statedDistributionFee,owl#ObjectProperty,22-rdf-syntax-ns#type
+N965416658a854e13820f70f0e9b6c4a4,owl#Restriction,22-rdf-syntax-ns#type
+FundInvestmentPolicy,Na3eb4f4700ce4fe1ae768b77cd9e58a1,rdf-schema#subClassOf
+redemptionForm,FundProcessingForm,rdf-schema#range
+FundsCashDistribution,Accrued income is distributed periodically to the investor.,core#definition
+hasIntendedRiskLevel,owl#ObjectProperty,22-rdf-syntax-ns#type
+maximumRedemptionPercentage,"Maximum quantity of securities, expressed as a percentage that can be sold.",core#definition
+additionalRestrictions,OrganizationStrategy,rdf-schema#domain
+ReportingFrequencyPolicy,"This could theoretically be defined in terms of a Frequency (reciprocal of time), but since this kind of reporting in accounting is always either annual or semi-annual these are defined as policies for the provision of such reports",core#editorialNote
+subsequentApplicationForm,subsequent application form,rdf-schema#label
+StakeInFund,"The holding of some portion in a fund, by some party. This stake will generally tak ethe form of some sort of unit in that fund.",core#definition
+hasPerformanceDeterminationMethod,CollectiveInvestmentVehicle,rdf-schema#domain
+accountingYearEndDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nd889f4fb766a44ee93bdcffb8cb7db76,owl#Restriction,22-rdf-syntax-ns#type
+FundPortfolioInvestmentPolicy,policy with respect to allocation of the portfolio that is designed to meet the stated investment strategy and goals,core#definition
+FundDebt,Debt,rdf-schema#subClassOf
+Nb99d5a570e1e4b8a8dc80270a7892161,owl#Restriction,22-rdf-syntax-ns#type
+FundPortfolioInvestmentPolicy,ISO FIBIM: Rough allocation of the portfolio.,explanatoryNote
+hasAuditor,CollectiveInvestmentVehicle,rdf-schema#domain
+DebtStakeInFund,owl#Class,22-rdf-syntax-ns#type
+statedManagementFee,MonetaryAmount,rdf-schema#range
+hasDataProvider,CollectiveInvestmentVehicle,rdf-schema#domain
+Nff49104a0bd64f61a89f977cc6375448,RealEstate,owl#someValuesFrom
+N73bf7f9c97884fe3acc7c44dc52737b3,owl#Restriction,22-rdf-syntax-ns#type
+Nfc4c859d85f24996b89dae7a70efbc9e,defines,owl#onProperty
+N65be4c631b8741ffb917e7fc58dca01d,owl#Restriction,22-rdf-syntax-ns#type
+CollectiveInvestmentVehicle,N965416658a854e13820f70f0e9b6c4a4,rdf-schema#subClassOf
+AnnualizedPerformanceDeterminationMethod,Annualized performance determination.,core#definition
+EquityStakeInFund,"Theoretically you can buy a fraction of a share in a fund. This would depend on the legal structure of the fund, e.g. a minimum investment. There is always a distribution plan.",explanatoryNote
+takesFormOf,BricksAndMortarHolding,rdf-schema#domain
+EquityAsset,PortfolioHolding,rdf-schema#subClassOf
+CollectiveInvestmentVehicle,N09172edb5135441d8ce6c65a5b4ec227,rdf-schema#subClassOf
+N3089fa7b620a4fda8aa87f1652727a63,owl#Restriction,22-rdf-syntax-ns#type
+decimalPlaceRounding,shares are rounded.,core#definition
+maximumInvestmentAmount,Maximum amount that may be invested in the specified strategy.,core#definition
+hasInvestmentStrategy,Portfolio,rdf-schema#domain
+FundPortfolio,N3dc36650e7634210bdf8110740bf63c0,rdf-schema#subClassOf
+FundClassification,Classifier,rdf-schema#subClassOf
+Na9f58015597e4c8aac3adfa5929deba0,identifiesAssetTypesBy,owl#onProperty
+FundLegalFormDocumentation,owl#Class,22-rdf-syntax-ns#type
+issuePrice,Price,rdf-schema#range
+Nf90951daa58a4d6f95936fa9988c6608,mayBeDefinedIn,owl#onProperty
+investmentFocus,PortfolioInvestmentStrategy,rdf-schema#domain
+Nacc814ae802649ca848bd5e0d166d0f6,hasInvestmentStrategy,owl#onProperty
+CollectiveInvestmentVehicle,N55b9f63dc1a045d482c2bfcb42afad18,rdf-schema#subClassOf
+Na3eb4f4700ce4fe1ae768b77cd9e58a1,PortfolioInvestmentStrategy,owl#someValuesFrom
+hasDepository,FundDepositary,rdf-schema#range
+statedObjective,"The stated objective of the fund, in words.",core#definition
+physicalDocumentRequired,Whether a phsyical form is required through the main fund order desk. Yes: A phsyical form is required through the main fund order desk. No: A phsyical form is not required through the main fund order desk.,core#definition
+PerformanceDeterminationMethod,performance determination method,rdf-schema#label
+PrivateEquityHolding,owl#Class,22-rdf-syntax-ns#type
+FundsProcessingParty,owl#Class,22-rdf-syntax-ns#type
+authorizedCountry,authorized country,rdf-schema#label
+CommonShareInFund,"A share unit in a fund, which is classified as a Common Share class.",core#definition
+subscriptionDealingFrequency,owl#ObjectProperty,22-rdf-syntax-ns#type
+minimumInvestmentAmount,MonetaryAmount,rdf-schema#range
+definesAllocations,FundPortfolioInvestmentPolicy,rdf-schema#domain
+FundPromoter,FundsProcessingParty,rdf-schema#subClassOf
+N3dc36650e7634210bdf8110740bf63c0,hasConstituent,owl#onProperty
+investmentFocus,The information about the area the fund is mostly invested into (for example stock market in Germany).,core#definition
+N1eb108cfdaff43e995997fe2ce09f63a,FundProcessingTerms,owl#someValuesFrom
+OrganizationStrategy,Nce52dfab2a674efbbeb9b74ae6d0e0e8,rdf-schema#subClassOf
+FundRedemptionTerms,owl#Class,22-rdf-syntax-ns#type
+fundClassTypeIdentifier,fund class type identifier,rdf-schema#label
+OrganizationStrategy,owl#Class,22-rdf-syntax-ns#type
+additionalRestrictions,Other restrictions or treatment information in respect of this strategy and the organization to which it refers.,core#definition
+FundProspectus,owl#Class,22-rdf-syntax-ns#type
+issuePrice,The price at which the Fund Unit was first issued.,core#definition
+minimumHoldingPeriod,FundProcessingGeneralTerms,rdf-schema#domain
+assessedAgainst,FundPortfolio,rdf-schema#domain
+maximumRedemptionUnits,maximum redemption units,rdf-schema#label
+switchingChargeable,switching chargeable,rdf-schema#label
+holds,CollectiveInvestmentVehicle,rdf-schema#range
+Nb75314d6eebd4dd9b114a44c7be39c5e,manages,owl#onProperty
+definesBenchmark,MarketRate,rdf-schema#range
+FundLegalFormDocumentation,Constitution,rdf-schema#subClassOf
+N965416658a854e13820f70f0e9b6c4a4,promotedBy,owl#onProperty
+FundShareClassUnit,owl#Class,22-rdf-syntax-ns#type
+N467041f59c614fd58c6284d691d3edd2,implementsFundPolicy,owl#onProperty
+DebtStakeInFund,StakeInFund,rdf-schema#subClassOf
+legallyRecordedIn,fund legally recorded in,rdf-schema#label
+supervisedBy,FundSupervisoryAuthority,rdf-schema#range
+identifies.1,JurisdictionStrategy,rdf-schema#domain
+subscriptionsInAmountAllowed,Whether subscriptions in amount are allowed.,core#definition
+N6741a449431e489aa165e74d0d0bb545,LegalEntity,owl#someValuesFrom
+FundUnitDistributionPolicy,Policy,rdf-schema#subClassOf
+FundRedemptionTerms,FundProcessingTerms,rdf-schema#subClassOf
+N3dc36650e7634210bdf8110740bf63c0,PortfolioHolding,owl#someValuesFrom
+FundDataProvider,A party which supplies market data to a fund.,core#definition
+fundHasRelatedParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+issuePrice,issue price,rdf-schema#label
+Nb75314d6eebd4dd9b114a44c7be39c5e,FundPortfolio,owl#someValuesFrom
+productGroupDescription,CollectiveInvestmentVehicle,rdf-schema#domain
+redemptionCycleInBusinessDays,SettlementConvention,rdf-schema#domain
+definesMainFundOrderDeskAccount,defines main fund order desk account,rdf-schema#label
+trackingError,See RiskFactors narrative in EFAMA DD,core#definition
+FundsProcessingPassport,Nf90951daa58a4d6f95936fa9988c6608,rdf-schema#subClassOf
+minimumSubscriptionUnits,shares that must be purchased by existing investors.,core#definition
+statedIn,FundInvestmentObjective,rdf-schema#domain
+FundClassificationScheme,A published scheme for the category of a fund according to the asset class.,core#definition
+hasAccountant,fundHasRelatedParty,rdf-schema#subPropertyOf
+PortfolioManager,Nf7a7dbf7924e4c649a49be9c2861fd41,rdf-schema#subClassOf
+NetAssetValueCalculationMethod,N440ec1870a3d479bb4e5a9db9af39b29,rdf-schema#subClassOf
+Nb648bae063f7415aba4b42fb11beceda,FundDebt,owl#someValuesFrom
+outlines,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundBondClassUnit,FundUnit,rdf-schema#subClassOf
+Nf529b6568b214aa89844cb759da5d4a1,hasSubscriptionTerms,owl#onProperty
+PortfolioBenchmark,N8887df81833245adac26375be97bfb43,rdf-schema#subClassOf
+AssetClassStrategy,EFAMA: The type of securities or other holdings that may be invested in. FIBIM: Strategy which is asset class based. Can implement this in terms of a classification of those things. Wording implies this is a policy.,explanatoryNote
+minimumDeviation,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundCouponPolicy,Terms for the expected distribution of bond unit coupons.,core#definition
+N4dc2f8ff081048d18fec98c9f126fdf7,PortfolioBenchmark,owl#someValuesFrom
+hasRelatedFundTerms,hasRelatedTerms,rdf-schema#subPropertyOf
+TimeWeightedRateOfReturnPerformanceDeterminationMethod,time weighted rate of return performance determination method,rdf-schema#label
+FundSupervisoryAuthority,party that supervises the fund or fund industry,core#definition
+FundDistributionPolicy,fund distribution policy,rdf-schema#label
+CollectiveInvestmentVehicle,"From EFAMA DD: The word fund can refer to either an investment pool, umbrella or share class, and is commonly refered to as a collective investment vehicle (can have ISIN or not). The meaning here is for the investment pool (of which an Umbrella fund is also one such) and not to the share class.",explanatoryNote
+name,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N8c94f78cd54c4afe845708a5e023c32b,owl#Restriction,22-rdf-syntax-ns#type
+FundProcessingTerms,N32b00c173e33464091d7a034583ba3d0,rdf-schema#subClassOf
+hasDetails,FundUnit,rdf-schema#domain
+promotedBy,fundHasRelatedParty,rdf-schema#subPropertyOf
+valuationFrequencyTextualDescription,valuation frequency textual description,rdf-schema#label
+FundAuditor,owl#Class,22-rdf-syntax-ns#type
+Nf24e78cb8b674808b7b0c07882a5daef,owl#Restriction,22-rdf-syntax-ns#type
+registrationDate,The date at which the fund is legally approved in a country other than the country of origin.,core#definition
+UnitIssuer,N12c8f70a215548b99687e565133f2c74,rdf-schema#subClassOf
+N781b0c92a4ee42508af75404e344f5e9,EuropeanUnionJurisdiction,owl#hasValue
+FundRedemptionTerms,Formal terms for redemption of units in the fund. These set out what the investor and the fund may or may not do.,core#definition
+percentageInvested,percentage invested,rdf-schema#label
+exCouponDate,The date at which the coupon is substracted from the NAV,core#definition
+switchingFee,Fee,rdf-schema#range
+Ne50d89dd71cf49e58ce858245189ee09,isPlayedBy,owl#onProperty
+FundAdministrator,N73bf7f9c97884fe3acc7c44dc52737b3,rdf-schema#subClassOf
+FundInvestmentObjective,fund investment objective,rdf-schema#label
+dealingFrequencyDescription,dealing frequency description,rdf-schema#label
+PortfolioInvestmentStrategy,"Describes how you get there. E.g fully invested v not fully invested. MB Note: The terms labeled ""Strategy"" in EFAMA and in FIBIM are more like dictionary definition of policy, while ""How you get there"" is a dictionary definition of Strategy. Therefore original labels may be reversed from dictionary definition of the global semantics these are derived from.",explanatoryNote
+N73506d20e28047fca1c2731796ee0324,owl#Restriction,22-rdf-syntax-ns#type
+StakeInFund,Position,rdf-schema#subClassOf
+performanceFee,owl#ObjectProperty,22-rdf-syntax-ns#type
+N12c8f70a215548b99687e565133f2c74,isPlayedBy,owl#onProperty
+statedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+N6e1d6cb7d4864edc880ccfcc12e46ffd,OtherInvestmentFundInformation,owl#someValuesFrom
+TimeWeightedRateOfReturnPerformanceDeterminationMethod,Time weighted rate of return.,core#definition
+Nf85ab28592fa40d99c988a085a9680b2,hasStrategy,owl#onProperty
+hasInvestmentStrategy,InvestmentStrategy,rdf-schema#range
+valuationFrequencyTextualDescription,NetAssetValueCalculationMethod,rdf-schema#domain
+maximumRedemptionPercentage,owl#ObjectProperty,22-rdf-syntax-ns#type
+takesFormOf,takes form of,rdf-schema#label
+N1a5cf76710a84440a7eda82be3c0a219,outlines,owl#onProperty
+percentageInvested,InvestmentRestriction,rdf-schema#domain
+FundRedemptionTerms,N9b0512b9c6534adbb1f17570b842fa19,rdf-schema#subClassOf
+switchingFee,FundSubscriptionTerms,rdf-schema#domain
+UnitIssuer,unit issuer,rdf-schema#label
+Nf7a7dbf7924e4c649a49be9c2861fd41,Nfa0d8890b6934244b2583161c4019d6d,owl#someValuesFrom
+minimumRemainingHoldingUnits,XMLSchema#integer,rdf-schema#range
+blacklisted,OrganizationStrategy,rdf-schema#domain
+fundClassTypeIdentifier,owl#DatatypeProperty,22-rdf-syntax-ns#type
+accountingYearEndDate,FundReportingTerms,rdf-schema#domain
+valuationFrequencyTextualDescription,Description of the frequency of the net asset value calculation.,core#definition
+hasSubscriptionTerms,hasRelatedFundTerms,rdf-schema#subPropertyOf
+couponPaymentDate,DayOfMonth,rdf-schema#range
+minimumInvestmentAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+N218b4123935a4681a976017bfd74850f,owl#Restriction,22-rdf-syntax-ns#type
+N467041f59c614fd58c6284d691d3edd2,FundPortfolioInvestmentPolicy,owl#someValuesFrom
+maximumRedemptionFee,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasAuditor,has auditor,rdf-schema#label
+PortfolioBenchmark,Nabf66903c94949a792b26fabedab67d4,rdf-schema#subClassOf
+FundDividendPolicy,fund dividend policy,rdf-schema#label
+hasPolicyTerms,has policy terms,rdf-schema#label
+SemiAnnualReportingPolicy,semi annual reporting policy,rdf-schema#label
+FundSupervisoryAuthority,fund supervisory authority,rdf-schema#label
+FundLegalFormDocumentation,"For a fund which is constituted under the law of contract, the constitution or articles that define the fund. These are embodied in a Contract.",core#definition
+KeyInvestorInformationDocument,owl#Class,22-rdf-syntax-ns#type
+InvestmentRestriction,"Limitations that apply to the fund as a whole, such as risk factors. these are used to determine whether the fund is appropriate for a given type of investor to invest in.",core#definition
+NoteFundUnit,"It is not possible to determine at this time whether some of the policy facts that apply to bund and share class units apply to all fund units including this one. Once this is defined, all Fund Distribution Policy terms and relationships should be rechecked.",core#editorialNote
+N449ae3ff50514d6fab2749d2d3ebc6bf,FundUnit,owl#someValuesFrom
+N2fd3d2b5e15547a184e684df58b22f5b,defines,owl#onProperty
+hasExpectedCoupon,has expected coupon,rdf-schema#label
+supervisedBy,CollectiveInvestmentVehicle,rdf-schema#domain
+FundProcessingTerms,owl#Class,22-rdf-syntax-ns#type
+InvestmentStrategy,BusinessStrategy,rdf-schema#subClassOf
+maximumRedemptionPercentage,Percentage,rdf-schema#range
+FundBondUnitCoupon,fund bond unit coupon,rdf-schema#label
+reinvestmentFrequency,FundReinvestmentPolicy,rdf-schema#domain
+maximumRedemptionPercentage,FundRedemptionTerms,rdf-schema#domain
+Nb4adec2dce584794b006218ccd197839,governs,owl#onProperty
+FundUnit,"If it is a closed fund, you can still trade the units. You trade back with the fund. Not with a counterparty. Therefore this is a tradable contract, though it may not necessarily be a transferable contract.",explanatoryNote
+SPVPurpose,The reason for the creation of a Special Purpose Vehicle.,core#definition
+includeRelatedFirms,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FundBondUnitCoupon,owl#Class,22-rdf-syntax-ns#type
+Nb52ff1db2de54e4fadc3d9bce245d6c4,owl#Restriction,22-rdf-syntax-ns#type
+statedInvestmentAim,stated investment aim,rdf-schema#label
+,Provisional,hasMaturityLevel
+FundSubscriptionTerms,"Subscription terms for the fund. Further notes: ISO FIBIM, EFAMA DD and FPP combine terms for subscription, redemption and general holding requirements. These have been separated here as they are different kinds of term, but this can be reviewed. Subscription Terms are identified as terms of the fund and not the fund unit, since terms for how you might subscribe can't be binding one someone who has not yet subscribed.",core#definition
+signatureRequired,owl#DatatypeProperty,22-rdf-syntax-ns#type
+registrationDate,registration date,rdf-schema#label
+inclusion,FundPortfolioInvestmentLimitations,rdf-schema#domain
+hasInvestmentStrategy,strategy,rdf-schema#label
+FundPortfolioInvestmentLimitations,"Defined as ""Strategy"" in FIBIM and elsewhere. WG11: Rough allocation of the portfolio.",explanatoryNote
+N206d2fd8c31749ff96a407bb039f9675,FundUnitDistributionPolicy,owl#someValuesFrom
+hasAdditionalRedemptionRestrictions,FundRedemptionTerms,rdf-schema#domain
+FundManager,"The party that sets up the fund, decides the investment strategy, appoints the agents, and is responsible for the promotion and the marketing of the fund. It makes all of the important decisions related to the fund. Also called fund promotor or fund sponsor. This is a dupliucate of Fund Management Company at the moment",core#definition
+intendedLiquidationDate,The date on which the SPV is scheduled to be disbanded and wound up.,core#definition
+initialApplicationForm,initial application form,rdf-schema#label
+N5445abb2499846afaf31f7881fb4c21c,hasFundProcessingTerms,owl#onProperty
+N53d20ba794ed4a2bbe491c902055e86f,owl#Restriction,22-rdf-syntax-ns#type
+SectorStrategy,owl#Class,22-rdf-syntax-ns#type
+N28b6ed954cd74e09937c0c684d574350,owl#Restriction,22-rdf-syntax-ns#type
+InvestmentRestriction,fund investment restrictions set,rdf-schema#label
+N22598ddc5d4a4543a031a0c0ebdb23c4,hasDetails,owl#onProperty
+hasFundProcessingTerms,owl#ObjectProperty,22-rdf-syntax-ns#type
+performanceFee,Fees paid for the achivements of predefined outperformance objectives Definition origin:EFAMA DD,core#definition
+Nff49104a0bd64f61a89f977cc6375448,owl#Restriction,22-rdf-syntax-ns#type
+subscriptionDealingFrequency,subscription dealing frequency,rdf-schema#label
+N4dcc06b2ebfd455f849aad0e5eb15aee,FundOrderDesk,owl#someValuesFrom
+hasPerformanceDeterminationMethod,owl#ObjectProperty,22-rdf-syntax-ns#type
+StakeInFund,N2f7f6d57cd7e4dc49e8044fd2a72f9f8,rdf-schema#subClassOf
+backEndLoadApplicable,back end load applicable,rdf-schema#label
+endOfFiscalYear,end of fiscal year,rdf-schema#label
+ReportingFrequencyPolicy,reporting frequency policy,rdf-schema#label
+N7b2b9140e49d4873a981863bc59da92c,owl#Restriction,22-rdf-syntax-ns#type
+definesAllocations,defines allocations,rdf-schema#label
+FundCashDistributionPolicy,fund cash distribution policy,rdf-schema#label
+promotedBy,CollectiveInvestmentVehicle,rdf-schema#domain
+subscriptionPeriod,FundSubscriptionTerms,rdf-schema#domain
+decimalPlaceRounding,decimal place rounding,rdf-schema#label
+switchingChargeable,FundProcessingGeneralTerms,rdf-schema#domain
+EquityFund,Nc94a865f2a8f4931ade0e05c7dda20ee,rdf-schema#subClassOf
+isSetUpFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundProcessingTerms,"These include Fund Subscription Terms, Fund Redemption Terms. and terms which relate to general processing and restrictions or otherwise on the holder. FPP notes: FPP presentation identifies many of these terms under the heading of Valuation Dealing characteristics. May need to revise which goes where in line with FPP. See also terms under NAV Valuation Calculation Method. Others of these terms appear in FPP under Instrument Restrictions. These cover the subscription, redemption and holding amounts and units and minimum holding period.",explanatoryNote
+Nd7cddfeaf19b4fddb08091c67fc029e3,owl#Restriction,22-rdf-syntax-ns#type
+N42eaee0c50dc4c11a944052f5b792fab,legallyRecordedIn,owl#onProperty
+Ne09002b89e7d43a7bcbba4cbc2c38f73,owl#Restriction,22-rdf-syntax-ns#type
+dealingFrequencyDescription,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FundAdministrator,"If the unit is a bond, then the issuer is separate from the Fund Administrator. WG11 text: The party in charge of financial accounting, NAV calculation, management and performance fee calculation. Can also be in charge of orders centralisation and registration. Definition origin:EFAMA DD",explanatoryNote
+statedInvestmentAim,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N6f49a9d3772a4c99a9a84953b3d2cc60,owl#Restriction,22-rdf-syntax-ns#type
+benchmarkWeight,owl#ObjectProperty,22-rdf-syntax-ns#type
+SICAV,s i c a v,rdf-schema#label
+minimumSubscriptionUnits,minimum subscription units,rdf-schema#label
+trackingError,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nf24e78cb8b674808b7b0c07882a5daef,definesAllocations,owl#onProperty
+hasDetails,NetAssetValueCalculationMethod,rdf-schema#range
+definesAllocations,FundPortfolioInvestmentLimitations,rdf-schema#range
+FundDividendPolicy,owl#Class,22-rdf-syntax-ns#type
+FundBondClassUnit,fund bond class unit,rdf-schema#label
+maximumInvestmentAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasDataProvider,has data provider,rdf-schema#label
+FundDepositary,fund depositary,rdf-schema#label
+declarationChannel,"Means of the net asset value publication, eg, a newspaper.",core#definition
+N2762f98c07334297b74da659a46c2ac4,Jurisdiction,owl#someValuesFrom
+N42eaee0c50dc4c11a944052f5b792fab,owl#Restriction,22-rdf-syntax-ns#type
+hasPortfolio,CollectiveInvestmentVehicle,rdf-schema#domain
+Nf85ab28592fa40d99c988a085a9680b2,owl#Restriction,22-rdf-syntax-ns#type
+initialApplicationForm,owl#ObjectProperty,22-rdf-syntax-ns#type
+N2762f98c07334297b74da659a46c2ac4,identifies.1,owl#onProperty
+UnitIssuer,N449ae3ff50514d6fab2749d2d3ebc6bf,rdf-schema#subClassOf
+identifiedAs.5,FundUnit,rdf-schema#range
+KeyInvestorInformationDocument,Nb99d5a570e1e4b8a8dc80270a7892161,rdf-schema#subClassOf
+minimumDeviation,PortfolioBenchmark,rdf-schema#domain
+hasAdditionalRedemptionRestrictions,has additional redemption restrictions,rdf-schema#label
+FundCashDistributionPolicy,owl#Class,22-rdf-syntax-ns#type
+hasTransferAgent,fundHasRelatedParty,rdf-schema#subPropertyOf
+FundUnitHolding,PortfolioHolding,rdf-schema#subClassOf
+hasDepository,fundHasRelatedParty,rdf-schema#subPropertyOf
+FundProcessingGeneralTerms,FundProcessingTerms,rdf-schema#subClassOf
+CommonShareInFund,PreferredShareInFund,owl#disjointWith
+EquityAsset,The holding of equity securities in a portfolio.,core#definition
+ReportingFrequencyPolicy,owl#Class,22-rdf-syntax-ns#type
+FundUnit,owl#Class,22-rdf-syntax-ns#type
+PrivateEquityHolding,N967d2a8b149749dfb3d25f002beec922,rdf-schema#subClassOf
+includeRelatedFirms,XMLSchema#boolean,rdf-schema#range
+redemptionInAmountAllowed,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N8887df81833245adac26375be97bfb43,owl#Restriction,22-rdf-syntax-ns#type
+N2f7f6d57cd7e4dc49e8044fd2a72f9f8,CollectiveInvestmentVehicle,owl#someValuesFrom
+minimumRemainingHoldingUnits,minimum remaining holding units,rdf-schema#label
+FundPromoter,fund promoter,rdf-schema#label
+minimumDeviation,Minimum allowable deviation from the benchmark.,core#definition
+describedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+denominationCurrency,denomination currency,rdf-schema#label
+N53d20ba794ed4a2bbe491c902055e86f,ReportingFrequencyPolicy,owl#someValuesFrom
+outlines,FundInvestmentObjective,rdf-schema#range
+Na3ddf6d2e262447d9d500d46cda5006e,isManagedBy,owl#onProperty
+CurrencyStrategy,FundPortfolioInvestmentLimitations,rdf-schema#subClassOf
+advisedBy,CollectiveInvestmentVehicle,rdf-schema#domain
+decimalPlaceRounding,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasAccountant,FundAccountant,rdf-schema#range
+maximumRedemptionAmount,MonetaryAmount,rdf-schema#range
+hasDefaultSettlementConvention,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundDistributionPolicy,"Note that individual classes of Fund Unit also have specific distribution polcies as they effect that class of unit. This class is for terms with wording of the form: "" ... whether or not it is possible to hold shares ..."" for a given parameter.",explanatoryNote
+FundManager,fund manager,rdf-schema#label
+FundShareClassUnit,FundUnit,rdf-schema#subClassOf
+subsequentApplicationForm,FundProcessingForm,rdf-schema#range
+signatureRequired,signature required,rdf-schema#label
+Na58a6d93e18b408b94c0f824a4a61786,FundDepositary,owl#someValuesFrom
+DistributingShareClass,owl#Class,22-rdf-syntax-ns#type
+FundShareClassUnit,"From review sessions: Theoretically you can buy a fraction of a share in a fund. This would depend on the legal structure of the fund, e.g. a minimum investment. There is always a distribution plan.",explanatoryNote
+CollectiveInvestmentVehicle,Nced6996bd54242b4a5b81df847ccdab2,rdf-schema#subClassOf
+N2fd3d2b5e15547a184e684df58b22f5b,InvestmentRestriction,owl#someValuesFrom
+historicPricingIndicator,NetAssetValueCalculationMethod,rdf-schema#domain
+hasFundProcessingTerms,hasContractualElement,rdf-schema#subPropertyOf
+hasUnitIssuer,owl#ObjectProperty,22-rdf-syntax-ns#type
+minimumRemainingHoldingAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundManager,Ne50d89dd71cf49e58ce858245189ee09,rdf-schema#subClassOf
+N6a0f808feb764fb4aaa3ba16064ec6cc,owl#Restriction,22-rdf-syntax-ns#type
+hasExpectedCoupon,FundBondUnitCoupon,rdf-schema#range
+FundSupervisoryAuthority,owl#Class,22-rdf-syntax-ns#type
+CollectiveInvestmentVehicle,N218b4123935a4681a976017bfd74850f,rdf-schema#subClassOf
+EquityStakeInFund,StakeInFund,rdf-schema#subClassOf
+anticipates,MarketRate,rdf-schema#range
+SICAF,s i c a f,rdf-schema#label

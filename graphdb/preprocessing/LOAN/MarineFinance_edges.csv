@@ -1,0 +1,33 @@
+source_id,target_id,relationship
+percentageAdvanced,Percentage,rdf-schema#range
+mooredAt,Textual description (name etc.) of where the vessel is to be moored if it has a permanent mooring place.,core#definition
+mooredAt,XMLSchema#string,rdf-schema#range
+,,owl#imports
+percentageAdvanced,The percentage of the purchase price advanced as the loan.,core#definition
+,Provisional,hasMaturityLevel
+MarineFinancing,Loan,rdf-schema#subClassOf
+,MIT,license
+residential,owl#DatatypeProperty,22-rdf-syntax-ns#type
+boatHeldAsChattel,boat held as chattel,rdf-schema#label
+boatHeldAsChattel,owl#DatatypeProperty,22-rdf-syntax-ns#type
+mooredAt,moored at,rdf-schema#label
+mooredAt,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,,owl#versionIRI
+residential,residential,rdf-schema#label
+percentageAdvanced,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"This ontology defines concepts specific to marine finance, which involves financing vessel acquisitions for the spot market, time charters or bareboat charters, as well as the construction of work boats, and to finance the acquisition of vessels for scrapping.",abstract
+percentageAdvanced,MarineFinancing,rdf-schema#domain
+percentageAdvanced,percentage advanced,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+residential,MarineFinancing,rdf-schema#domain
+,"Copyright (c) 2015-2023 EDM Council, Inc.",copyright
+MarineFinancing,A loan for the purchase of a boat or other vessel.,core#definition
+boatHeldAsChattel,MarineFinancing,rdf-schema#domain
+residential,Whether the boat is intended to be used and is legally able to be used as a place of residence.,core#definition
+MarineFinancing,owl#Class,22-rdf-syntax-ns#type
+MarineFinancing,marine finance,rdf-schema#label
+mooredAt,MarineFinancing,rdf-schema#domain
+residential,XMLSchema#boolean,rdf-schema#range
+boatHeldAsChattel,Whether the vessel is to be held in ownership as a form of chattel by the lender during the period of the loan.,core#definition
+boatHeldAsChattel,XMLSchema#boolean,rdf-schema#range
+,Marine Finance Ontology,rdf-schema#label

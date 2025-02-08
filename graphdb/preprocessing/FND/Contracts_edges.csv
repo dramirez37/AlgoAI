@@ -1,0 +1,511 @@
+source_id,target_id,relationship
+hasNonBindingTerm,refers to a term that is included in an agreement that is not considered legally binding,core#definition
+MasterAgreement,A master agreement can be used to set out standard terms and conditions so that any new agreements don't need to cover the same information again.,explanatoryNote
+hasContractParty,ContractParty,rdf-schema#range
+ContractPrincipal,contract principal,rdf-schema#label
+ConditionPrecedent,stipulation that specifies conditions that must be met before some aspect of a contract takes effect,core#definition
+Warranty,contractual element that is a statement of fact,core#definition
+isAssignable,Contract,rdf-schema#domain
+hasExtensionProvision,hasContractualElement,rdf-schema#subPropertyOf
+definesTermsFor,defines,rdf-schema#subPropertyOf
+hasCounterparty,hasContractParty,rdf-schema#subPropertyOf
+IdentityDocument,Ne6b392bab1a2477ea669aba75d73fbee,rdf-schema#subClassOf
+MasterAgreement,WrittenContract,rdf-schema#subClassOf
+N2fb7112456af4a7ca42b31d5e942769d,isEvidenceFor,owl#onProperty
+hasContractDuration,Duration,rdf-schema#range
+isPrimaryContractFor,isReferredToBy,rdf-schema#subPropertyOf
+N30e6cb901c344658a467b5b153593679,refersTo,owl#onProperty
+NonBindingTerm,non-binding term,rdf-schema#label
+TermSheet,Agreement,rdf-schema#subClassOf
+Representation,"contractual element that is a statement made by a party to the contract, before or at the time of making the contract, in regard to some fact, circumstance, or state of affairs pertinent to the contract, which the counterparty(ies) rely on, or is influential in bringing about the contract",core#definition
+hasEffectiveDateTimeStamp,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasExtensionProvision,Contract,rdf-schema#domain
+Contract,owl#Class,22-rdf-syntax-ns#type
+ConditionPrecedent,"There may also be condition precedents in the ongoing life of a contract, which state that if condition X occurs, event Y will then occur. Condition X is the condition precedent.",explanatoryNote
+AssignableContract,Nf4db0b2ed5f349f2a4aee98620cd3bc9,rdf-schema#subClassOf
+WrittenContract,Contract,rdf-schema#subClassOf
+N86bceed7f2da49f6bb805db283e60247,N6c6c19b32b5a42f1a103f8a6b3e81eb9,owl#someValuesFrom
+ContractualCommitment,Nd52495f0f652456e9d722a7c5735f4f3,rdf-schema#subClassOf
+Warranty,ContractualCommitment,rdf-schema#subClassOf
+supersedes,Contract,rdf-schema#range
+hasNonBindingTerm,hasContractualElement,rdf-schema#subPropertyOf
+isAssignable,is assignable,rdf-schema#label
+ContractThirdParty,"party that is indirectly involved in, but not a counterparty to, an agreement",core#definition
+hasExtendablePeriod,indicates the window of time during which an extension is allowed under the terms of the contract,core#definition
+N9c70c9b054114d1397b4ec0bb98b25e2,owl#Restriction,22-rdf-syntax-ns#type
+hasCounterparty,"identifies a party to a contract, typically not the contract principal",core#definition
+N9c70c9b054114d1397b4ec0bb98b25e2,hasNonBindingTerm,owl#onProperty
+hasExecutionDate,has execution date,rdf-schema#label
+ContractPrincipal,"The principal to a contract is typically the originator and, in the case of a security, the issuer. In law, the principal is the party that has the primary responsibility in a liability or obligation, as opposed to an endorser, guarantor, or surety.",explanatoryNote
+hasExecutionDateTimeStamp,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,,owl#versionIRI
+hasGoverningJurisdiction,"indicates the jurisdiction governing the contract, as agreed by all parties",core#definition
+hasNonBindingTerm,"In other words, a breach of such terms in the future would not be considered to be a breach of the contract.",explanatoryNote
+,Contracts.rdf version of the ontology was modified to better integrate the parties to a contract with the latest patterns (FBC-284).,core#changeNote
+isPrimaryContractFor,"indicates any subordinate agreement, such as a collateral agreement",core#definition
+N2fb7112456af4a7ca42b31d5e942769d,owl#Restriction,22-rdf-syntax-ns#type
+N9bf07d5d12eb4403bd6ba399927173d0,0,owl#minQualifiedCardinality
+N63d5cbd7197e46bd8a0978bbf79b6fd6,ContractDocument,owl#someValuesFrom
+N8f3d4cc47d8c47688e51ceecfa6abc1c,owl#Restriction,22-rdf-syntax-ns#type
+Nf4db0b2ed5f349f2a4aee98620cd3bc9,isAssignable,owl#onProperty
+hasPrincipalParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+MilestoneEvent,N8f3d4cc47d8c47688e51ceecfa6abc1c,rdf-schema#subClassOf
+hasMilestoneProvision,owl#ObjectProperty,22-rdf-syntax-ns#type
+ExtensionProvision,"In the case of a debt instrument, an extension may include extending the time allowed for repayment of the principal, the maturity date, and so forth.",explanatoryNote
+ContractMilestone,ConditionPrecedent,rdf-schema#subClassOf
+qualifies,qualifies,rdf-schema#label
+isQualifiedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+MasterAgreement,"A master services agreement governs the terms between a service provider and client. Typically, clients will use Statements of Work that point back to the master agreement so they don't have to recreate a new contract with new terms each time there is a new project, or to cover common terms across services, warranties, and deliveries.",core#example
+ContractDocument,owl#Class,22-rdf-syntax-ns#type
+N63d5cbd7197e46bd8a0978bbf79b6fd6,owl#Restriction,22-rdf-syntax-ns#type
+hasCounterparty,Counterparty,rdf-schema#range
+TerminationProvision,contractual element that specifies the circumstances under which the parties can dissolve their legal relationship and discontinue the fulfillment of their obligations under the contract,core#definition
+N7759c00493c44907831329b75f773bf0,0,owl#minQualifiedCardinality
+N7759c00493c44907831329b75f773bf0,owl#Restriction,22-rdf-syntax-ns#type
+isQualifiedBy,"indicates a constraint, limitation or refinement on something",core#definition
+hasExecutionDateTimeStamp,hasDateTimeStamp,rdf-schema#subPropertyOf
+hasExtensionProvision,has extension provision,rdf-schema#label
+hasTerm,owl#ObjectProperty,22-rdf-syntax-ns#type
+N722850ae14f3416d82122c90bce4c410,owl#Restriction,22-rdf-syntax-ns#type
+hasEffectiveDateTimeStamp,"indicates the date and time, including time zone, something comes into force",core#definition
+ContractualElement,"element, such as an arrangement, provision, requirement, rule, specification, and standard that forms an integral part of an agreement",core#definition
+hasThirdParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ne6b392bab1a2477ea669aba75d73fbee,isEvidenceFor,owl#onProperty
+N9bf07d5d12eb4403bd6ba399927173d0,owl#Restriction,22-rdf-syntax-ns#type
+ContractualElement,contractual element,rdf-schema#label
+,"Contracts.rdf version of this ontology was revised to eliminate references to external dictionary sites that no longer resolve, move the concept of an extension provision from Debt to Contracts to support representation of preferred shares and other extendable contracts, added a property for contract duration which is needed for long-term options, moved PromissoryNote to Debt for better integration with related concepts, and integrated additional contractual elements, including representations, warranties, and termination provision.",core#changeNote
+hasCounterparty,Contract,rdf-schema#domain
+N0b9ded72efa346c6af46a1330ee441f2,owl#Restriction,22-rdf-syntax-ns#type
+supersedes,Contract,rdf-schema#domain
+Ne3924aae7cd14efcbc3c43c02087bd79,appliesTo,owl#onProperty
+isEvidencedBy,is evidenced by,rdf-schema#label
+hasGoverningJurisdiction,Jurisdiction,rdf-schema#range
+NonBindingTerm,contractual element that is not legally binding on any party to the agreement,core#definition
+,Contracts.rdf version of this ontology was revised to address hygiene issues with respect to text formatting.,core#changeNote
+,"Contracts.rdf version of this ontology was revised to add the concept of a term sheet, revise definitions to be ISO 704 compliant, and eliminate duplication of concepts in LCC.",core#changeNote
+N7ce9b76131dc4ef2ac2f71a9e4a2daea,owl#Restriction,22-rdf-syntax-ns#type
+Nbe7753af86164a688cbcf2a6df377338,appliesTo,owl#onProperty
+Ncf2f5c16be0f4879b5cb1f65c8f79da3,owl#Restriction,22-rdf-syntax-ns#type
+,Contracts.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+hasLegalDescription,hasDescription,rdf-schema#subPropertyOf
+isAssignable,"This is believed to be the basis on which transferable contracts such as financial securities and software licences may be bought and sold on some market, and also the basis on which a bilateral contract such as an over the counter derivative may be novated so that a new party becomes one of the parties. There are subtle distinctions between these three concepts which are not yet represented here.",core#editorialNote
+CollateralAgreement,owl#Class,22-rdf-syntax-ns#type
+hasTerm,has term,rdf-schema#label
+hasExecutionDateTimeStamp,has execution date time stamp,rdf-schema#label
+WrittenContract,formal contract that is written and signed by the parties thereto,core#definition
+ExtensionProvision,owl#Class,22-rdf-syntax-ns#type
+BreachOfCovenant,Ne3924aae7cd14efcbc3c43c02087bd79,rdf-schema#subClassOf
+hasLegalDescription,owl#DatatypeProperty,22-rdf-syntax-ns#type
+BreachOfCovenant,"classifier of events representing breaking a promise specified in a contract to do or not to do something, without a legitimate excuse",core#definition
+IdentityDocument,Nb6f6f3247a674feda70163e9818e82a7,rdf-schema#subClassOf
+definesTermsFor,Contract,rdf-schema#domain
+Nb6f6f3247a674feda70163e9818e82a7,owl#Restriction,22-rdf-syntax-ns#type
+ContractThirdParty,PartyRole,rdf-schema#subClassOf
+hasEffectiveDate,"indicates the date a contract, relationship, or policy comes into force",core#definition
+Na1771821ca2e4027add2f574dc44c448,ExplicitDatePeriod,owl#onClass
+N8e1e3036915d49d4bcfe5c9bc3e81340,0,owl#minQualifiedCardinality
+TermSheet,nonbinding agreement setting forth the basic terms and conditions under which a proposed business deal may be made,core#definition
+,"This ontology defines the concept of contract and roles that parties to contract play in the context of financial agreements. Coverage includes written contracts which are the concrete evidence of agreements between parties and verbal contracts. Contracts are further broken down into bilateral and transferable contracts, the latter being the basis for most financial instruments, and basic properties of contracts, such as terms and conditions, are also covered.",abstract
+N8e1e3036915d49d4bcfe5c9bc3e81340,DateTimeStamp,owl#onClass
+WrittenContract,Ne0f2154f5d0844c1b6847a68cb22b8fa,rdf-schema#subClassOf
+CollateralAgreement,"Examples may be related to leases, to clarify responsibilities with respect to maintance and repair, to partnerships, clarifying how disputes should be resolved, loan agreements such as deeds of trust, covering the conditions under which the collateral would be forfeited, and uniform commercial code (UCC) agreements.",core#example
+Warranty,warranty,rdf-schema#label
+ContractPrincipal,owl#Class,22-rdf-syntax-ns#type
+,Contracts.rdf version of this ontology was revised to add the concepts of breach of contract and breach of covenant.,core#changeNote
+N4f271820d7094058b8fcaa642694d5ab,governs,owl#onProperty
+Ncf2f5c16be0f4879b5cb1f65c8f79da3,1,owl#qualifiedCardinality
+Nca1213fefb564e85ad4ff6143c22da76,0,owl#minQualifiedCardinality
+MasterAgreement,"contract between named parties that outlines the terms and conditions designed to apply to a number of accounts, transactions, or other activities between the parties, and that consolidates and provides overarching terms for separate but related agreements",core#definition
+hasPrincipalParty,has principal party,rdf-schema#label
+N30e6cb901c344658a467b5b153593679,owl#Restriction,22-rdf-syntax-ns#type
+Naf8c86138b914dbf8cf44d3ca1d80117,owl#Restriction,22-rdf-syntax-ns#type
+hasLegalDescription,"provides the text, or a summary thereof, expressed in legal terms, of the contract provision, clause, or other element",core#definition
+CollateralAgreement,WrittenContract,rdf-schema#subClassOf
+ExtensionProvision,Na1771821ca2e4027add2f574dc44c448,rdf-schema#subClassOf
+Nca1213fefb564e85ad4ff6143c22da76,Date,owl#onClass
+N0b9ded72efa346c6af46a1330ee441f2,MilestoneEvent,owl#onClass
+isAssignable,indicates whether the contract and the rights thereunder may be assigned by one of the signatories to some other party,core#definition
+DisclosureProvision,"With respect to contracts, failure to disclose key details can lead to breaches of contract or claims of misrepresentation. Disclosure requirements are typically specific to the nature of the contract and jurisdiction.",explanatoryNote
+N722850ae14f3416d82122c90bce4c410,1,owl#qualifiedCardinality
+isAssignable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasEffectiveDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+DisclosureProvision,disclosure provision,rdf-schema#label
+BreachOfContract,breach of contract,rdf-schema#label
+BreachOfContract,owl#Class,22-rdf-syntax-ns#type
+Representation,representation,rdf-schema#label
+hasPrincipalParty,hasContractParty,rdf-schema#subPropertyOf
+ContractPrincipal,"party that originates a contract and is identified as the first party to that contract, in the event that the contract distinguishes any party as such",core#definition
+Ne0f2154f5d0844c1b6847a68cb22b8fa,hasPrincipalParty,owl#onProperty
+ContractPrincipal,ContractParty,rdf-schema#subClassOf
+AssignableContract,contract in which contract holder (assignor) may transfer some or all of their rights and obligations to another party (assignee),core#definition
+ContractMilestone,"classifier for an event (milestone), or set of events related to the status or level of completion of a designated activity, task, or segment of work required for contract fulfillment",core#definition
+,Contracts.rdf version of this ontology was revised as a part of the issue resolutions identified in the FIBO FND 1.1 RTF report to add a parent of hasDate to date properties.,core#changeNote
+hasThirdParty,hasPartyRole,rdf-schema#subPropertyOf
+hasGoverningJurisdiction,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasMilestoneProvision,ContractMilestone,rdf-schema#range
+Ne3924aae7cd14efcbc3c43c02087bd79,Contract,owl#someValuesFrom
+N4f271820d7094058b8fcaa642694d5ab,0,owl#minQualifiedCardinality
+isPrimaryContractFor,isSubordinateTo,owl#inverseOf
+hasContractualElement,owl#ObjectProperty,22-rdf-syntax-ns#type
+N408cd8ba35414834a59306f3b3ec48f9,UnilateralCommitment,owl#allValuesFrom
+WrittenContract,Nca1213fefb564e85ad4ff6143c22da76,rdf-schema#subClassOf
+N4f271820d7094058b8fcaa642694d5ab,owl#Restriction,22-rdf-syntax-ns#type
+Contract,N7b05f707a1004d3d9bf7b3573b82098d,rdf-schema#subClassOf
+supersedes,indicates a contract that was executed prior to and is replaced by this contract,core#definition
+isEvidencedBy,is attested by,core#definition
+WrittenContract,N2816263d502e4472846f642a2d1a007d,rdf-schema#subClassOf
+DeathCertificate,owl#Class,22-rdf-syntax-ns#type
+hasExecutionDate,"This may or may not be the 'effective date' of the contract, which may be specified in the body of the document.",explanatoryNote
+N7759c00493c44907831329b75f773bf0,hasEffectiveDateTimeStamp,owl#onProperty
+CollateralAgreement,N7ce9b76131dc4ef2ac2f71a9e4a2daea,rdf-schema#subClassOf
+Nca1213fefb564e85ad4ff6143c22da76,owl#Restriction,22-rdf-syntax-ns#type
+UseOfProceedsProvision,use of proceeds provision,rdf-schema#label
+MutualContractualAgreement,MutualAgreement,rdf-schema#subClassOf
+definesTermsFor,defines terms for,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+Na1771821ca2e4027add2f574dc44c448,owl#Restriction,22-rdf-syntax-ns#type
+ConditionPrecedent,condition precedent,rdf-schema#label
+,"Contracts.rdf version of this ontology was revised as a part of the issue resolutions identified in the FIBO FND 1.2 RTF report to revise definitions related to contractual element, add contractual commitment and deprecate contract terms set.",core#changeNote
+MutualContractualAgreement,UnilateralContract,owl#disjointWith
+Nb6f6f3247a674feda70163e9818e82a7,1,owl#qualifiedCardinality
+UseOfProceedsProvision,"or equipment, and so forth.",explanatoryNote
+MilestoneSchedule,Schedule,rdf-schema#subClassOf
+UnilateralContract,"In a unilateral, or one-sided, contract, one party, known as the offeror, makes a promise in exchange for an act (or abstention from acting) by another party, known as the offeree. If the offeree acts on the offeror's promise, the offeror is legally obligated to fulfill the contract, but an offeree cannot be forced to act (or not act), because no return promise has been made to the offeror. After an offeree has performed, only one enforceable promise exists, that of the offeror.",explanatoryNote
+isSubordinateTo,refersTo,rdf-schema#subPropertyOf
+UnilateralContract,owl#Class,22-rdf-syntax-ns#type
+TerminationProvision,"Common reasons for termination include mutual consent, certain notices, breach or failure of a precedent or condition, insolvency, change in control, the occurrence of certain events, and court orders that prohibit continuation of the contract. Termination provisions may include whether they are mutual or unilateral, and may include rights with respect to any cure.",explanatoryNote
+hasThirdParty,Contract,rdf-schema#domain
+isEvidencedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nf4db0b2ed5f349f2a4aee98620cd3bc9,true,owl#hasValue
+hasMilestoneProvision,hasContractualElement,rdf-schema#subPropertyOf
+N92f31808db844741a625a83713f5ce5b,owl#Restriction,22-rdf-syntax-ns#type
+isEvidenceFor,corroborates,core#definition
+MasterAgreement,master agreement,rdf-schema#label
+Nca1213fefb564e85ad4ff6143c22da76,hasDateOfIssuance,owl#onProperty
+Nd52495f0f652456e9d722a7c5735f4f3,Contract,owl#someValuesFrom
+MutualContractualAgreement,contract between named parties whose individual rights and obligations are not transferable to another party without prior written permission,core#definition
+Warranty,owl#Class,22-rdf-syntax-ns#type
+ContractualCommitment,MutualCommitment,rdf-schema#subClassOf
+TermSheet,owl#Class,22-rdf-syntax-ns#type
+hasPrincipalParty,Contract,rdf-schema#domain
+Nc9184fafbaec437088b777dab52ff1f7,owl#Restriction,22-rdf-syntax-ns#type
+MilestoneSchedule,milestone schedule,rdf-schema#label
+Na1771821ca2e4027add2f574dc44c448,0,owl#minQualifiedCardinality
+hasExecutionDateTimeStamp,DateTimeStamp,rdf-schema#range
+N30e6cb901c344658a467b5b153593679,ContractualCommitment,owl#someValuesFrom
+MasterAgreement,Some credit facilities and many brokerage arrangements are master agreements.,core#example
+hasTerm,"indicates a fixed or limited period for which something, e.g., a contract, an investment, or an offer, lasts or is intended to last",core#definition
+AssignableContract,assignable contract,rdf-schema#label
+hasContractParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+supersedes,supersedes,rdf-schema#label
+Nc9184fafbaec437088b777dab52ff1f7,PlaceOfBirth,owl#onClass
+Contract,"voluntary, deliberate agreement between competent parties to which the parties agree to be legally bound, and for which the parties provide valuable consideration",core#definition
+N722850ae14f3416d82122c90bce4c410,isEvidenceFor,owl#onProperty
+hasLegalDescription,has legal description,rdf-schema#label
+N6c6c19b32b5a42f1a103f8a6b3e81eb9,isAPartyTo,owl#onProperty
+MasterAgreement,owl#Class,22-rdf-syntax-ns#type
+isAssignable,"An assignment (Latin cessio) is a term used with similar meanings in the law of contracts and in the law of real estate. In both instances, it encompasses the transfer of rights held by one party, the assignor, to another party, the assignee. The details of the assignment determines some additional rights and liabilities (or duties). Typically a third-party is involved in a contract with the assignor, and the contract is in effect transferred to the assignee.",explanatoryNote
+hasExtensionProvision,"Typically a contract extension refers to the termination date, coverage period, or, in the case of a security, may refer to extension of repayment or maturity dates.",explanatoryNote
+ConditionPrecedent,"Condition precedents are common in wills and trusts. They include events or states of affairs that act as triggers for the contract to come into effect, such as a beneficiary reaching the age of maturity, or death of a trustor, as well as define obligations on a party to the contract, such as those required of a trustee on the death of a trustor.",explanatoryNote
+qualifies,characterizes,rdf-schema#subPropertyOf
+N9a21888289d24a94bbdb166e8acc1529,hasPart,owl#onProperty
+hasLegalDescription,ContractualElement,rdf-schema#domain
+ExtensionProvision,contract terms that specify the conditions under which a contract can be extended,core#definition
+VerbalContract,owl#Class,22-rdf-syntax-ns#type
+N053818566eea424caece514f3eaaabcf,refersTo,owl#onProperty
+hasThirdParty,identifies a party which is not signatory to the party but has some role in the overall context defined by the contract.,core#definition
+WrittenContract,N7759c00493c44907831329b75f773bf0,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+Contract,"Contracts are usually written but may be spoken or implied, and generally have to do with employment, sale or lease, or tenancy.",explanatoryNote
+hasExecutionDate,indicates the date a contract has been signed by all the necessary parties,core#definition
+ContractualElement,N2f5dffb76bca48d4b6522df083c09ad4,rdf-schema#subClassOf
+ContractualDefinition,ContractualElement,rdf-schema#subClassOf
+Nd52495f0f652456e9d722a7c5735f4f3,owl#Restriction,22-rdf-syntax-ns#type
+DisclosureProvision,contractual provision that outlines the requirements and responsibilities of one or both parties to reveal certain information to each other,core#definition
+hasExecutionDate,Date,rdf-schema#range
+UnilateralContract,unilateral contract,rdf-schema#label
+hasExecutionDate,hasDate,rdf-schema#subPropertyOf
+hasLegalDescription,XMLSchema#string,rdf-schema#range
+Ncf2f5c16be0f4879b5cb1f65c8f79da3,XMLSchema#boolean,owl#onDataRange
+N2816263d502e4472846f642a2d1a007d,hasCounterparty,owl#onProperty
+hasNonBindingTerm,has non-binding term,rdf-schema#label
+N7759c00493c44907831329b75f773bf0,DateTimeStamp,owl#onClass
+UseOfProceedsProvision,ContractualCommitment,rdf-schema#subClassOf
+,"Contracts.rdf version of this ontology was revised to simplify the contract party hierarchy, eliminate ambiguity in definitions where feasible and add restrictions on identity documents to avoid circular dependencies.",core#changeNote
+hasExtensionProvision,ExtensionProvision,rdf-schema#range
+hasNonBindingTerm,Agreement,rdf-schema#domain
+ContractParty,PartyRole,rdf-schema#subClassOf
+Nb6f6f3247a674feda70163e9818e82a7,isEvidenceFor,owl#onProperty
+isSubordinateTo,"indicates the primary contract referenced by a subordinate agreement, such as a collateral agreement",core#definition
+isEvidencedBy,isEvidenceFor,owl#inverseOf
+NovateableContract,"In general, novation means consensual substitution of a party or obligation in the original contract with a new party or obligation in the successor contract. The new party takes on the rights and obligations of the original party. The corresponding novation agreement must be signed by the transferor, the transferee, and the counterparty (the other contracting party). Novation is frequently used in mergers and acquisitions to replace any outstanding relationships or rights and obligations of the organization being subsumed with relationships or obligations of the acquiring entity. It is also commonly used with respect to loan rescheduling.",explanatoryNote
+ContractParty,N86bceed7f2da49f6bb805db283e60247,rdf-schema#subClassOf
+hasTerm,Duration,rdf-schema#range
+N120dfecedcea47e68e2b4659347ef611,hasContractParty,owl#onProperty
+hasExtendablePeriod,hasDatePeriod,rdf-schema#subPropertyOf
+hasGoverningJurisdiction,has governing jurisdiction,rdf-schema#label
+UnilateralContract,N408cd8ba35414834a59306f3b3ec48f9,rdf-schema#subClassOf
+N13df211a626242b7b4cf79d1813eb505,MilestoneEvent,owl#someValuesFrom
+N0b9ded72efa346c6af46a1330ee441f2,0,owl#minQualifiedCardinality
+CollateralAgreement,"In cases where there are discrepancies between the collateral agreement and primary contract, the primary contract, which may be a master agreement, for example, takes precedence.",explanatoryNote
+Contract,N120dfecedcea47e68e2b4659347ef611,rdf-schema#subClassOf
+hasPrincipalParty,hasActor,rdf-schema#subPropertyOf
+Nc9184fafbaec437088b777dab52ff1f7,1,owl#qualifiedCardinality
+isAssignable,XMLSchema#boolean,rdf-schema#range
+N408cd8ba35414834a59306f3b3ec48f9,confers,owl#onProperty
+isPrimaryContractFor,WrittenContract,rdf-schema#range
+N9a21888289d24a94bbdb166e8acc1529,ContractualCommitment,owl#allValuesFrom
+hasMilestoneProvision,Agreement,rdf-schema#domain
+WrittenContract,owl#Class,22-rdf-syntax-ns#type
+N9bf07d5d12eb4403bd6ba399927173d0,hasExecutionDate,owl#onProperty
+MasterAgreement,MutualContractualAgreement,rdf-schema#subClassOf
+,"ontology structure
+		(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.",core#changeNote
+WrittenContract,written contract,rdf-schema#label
+TerminationProvision,ContractualCommitment,rdf-schema#subClassOf
+qualifies,isQualifiedBy,owl#inverseOf
+ContractThirdParty,contract third party,rdf-schema#label
+isEvidenceFor,isEvidencedBy,owl#inverseOf
+N9a21888289d24a94bbdb166e8acc1529,owl#Restriction,22-rdf-syntax-ns#type
+,.,core#changeNote
+IdentityDocument,N2fb7112456af4a7ca42b31d5e942769d,rdf-schema#subClassOf
+BreachOfCovenant,OccurrenceKind,rdf-schema#subClassOf
+ContractParty,contract party,rdf-schema#label
+N2fb7112456af4a7ca42b31d5e942769d,PhysicalAddress,owl#onClass
+NovateableContract,owl#Class,22-rdf-syntax-ns#type
+VerbalContract,WrittenContract,owl#disjointWith
+hasContractParty,hasPartyRole,rdf-schema#subPropertyOf
+ContractualDefinition,owl#Class,22-rdf-syntax-ns#type
+BirthCertificate,Nc9184fafbaec437088b777dab52ff1f7,rdf-schema#subClassOf
+TermSheet,term sheet,rdf-schema#label
+N7ce9b76131dc4ef2ac2f71a9e4a2daea,WrittenContract,owl#someValuesFrom
+Nbe7753af86164a688cbcf2a6df377338,Contract,owl#someValuesFrom
+hasExtendablePeriod,ExtensionProvision,rdf-schema#domain
+ExtensionProvision,extension provision,rdf-schema#label
+ContractMilestone,contract milestone,rdf-schema#label
+N6c6c19b32b5a42f1a103f8a6b3e81eb9,Contract,owl#someValuesFrom
+ContractualElement,Constituent,rdf-schema#subClassOf
+N6c6c19b32b5a42f1a103f8a6b3e81eb9,owl#Restriction,22-rdf-syntax-ns#type
+isEvidenceFor,is evidence for,rdf-schema#label
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+NovateableContract,TransferableContract,rdf-schema#subClassOf
+ContractMilestone,"Milestones are checkpoints that are predefined in the contract, used to measure progress. They specify tasks, deliverables, or objectives that must be achieved to meet each milestone and may trigger partial payment.",explanatoryNote
+hasContractDuration,indicates the period of time during which a contract is intended to be in force once it has been executed,core#definition
+ContractualCommitment,N9a21888289d24a94bbdb166e8acc1529,rdf-schema#subClassOf
+CollateralAgreement,"written contract related to another contract designed to provide clarity and additional protection for all parties involved, that is separate from the primary contract and that can be independently enforced",core#definition
+isQualifiedBy,is qualified by,rdf-schema#label
+hasPrincipalParty,identifies the main or principal party to a contract,core#definition
+N9c70c9b054114d1397b4ec0bb98b25e2,NonBindingTerm,owl#someValuesFrom
+,Contracts Ontology,rdf-schema#label
+N7ce9b76131dc4ef2ac2f71a9e4a2daea,isSubordinateTo,owl#onProperty
+hasPrincipalParty,ContractPrincipal,rdf-schema#range
+MilestoneEvent,"event related to the status or level of completion of a designated activity, task, or segment of work required for contract fulfillment",core#definition
+hasContractParty,"indicates a party that has entered into a binding agreement, accepting and conceding obligations, responsibilities, and benefits as specified",core#definition
+ContractualCommitment,contractual commitment,rdf-schema#label
+Counterparty,owl#Class,22-rdf-syntax-ns#type
+BreachOfCovenant,N053818566eea424caece514f3eaaabcf,rdf-schema#subClassOf
+hasMilestoneProvision,refers to a requirement included in an agreement related to fulfillment as of some point in time in the lifetime of the contract,core#definition
+isPrimaryContractFor,WrittenContract,rdf-schema#domain
+isSubordinateTo,is subordinate to,rdf-schema#label
+Counterparty,counterparty,rdf-schema#label
+Nc9184fafbaec437088b777dab52ff1f7,isEvidenceFor,owl#onProperty
+N722850ae14f3416d82122c90bce4c410,DateOfDeath,owl#onClass
+Contract,"Note that the data of issuance may be, but is not always, the same as the effective date.",explanatoryNote
+ContractDocument,legal document that records the formal terms and conditions of some contract,core#definition
+Contract,N92f31808db844741a625a83713f5ce5b,rdf-schema#subClassOf
+N053818566eea424caece514f3eaaabcf,owl#Restriction,22-rdf-syntax-ns#type
+Contract,"A contractual relationship is evidenced by (1) an offer, (2) acceptance of the offer, and a (3) valid (legal and valuable) consideration. A contract is a kind of agreement, and as such it embodies the assertion that it has been negotiated, such negotiation having included the presence of some offer and the acceptance of that offer on the part of either or both of the parties.",explanatoryNote
+Counterparty,"The counterparty is usually the party 'on the other side' of a contract from the perspective of the issuer or holder. The term 'counterparty' can refer to any party to an agreement, depending on context.",explanatoryNote
+Ne0f2154f5d0844c1b6847a68cb22b8fa,owl#Restriction,22-rdf-syntax-ns#type
+AssignableContract,"Note that while the assignor may divest themselves of some rights, that assignment does not necessarily eliminate performance obligations of the assignor to the third party. Characteristics that are important to understand with respect to an assignment include the circumstances in which the assignor remains obligated and any remedies available if the assignor does not perform.",explanatoryNote
+hasContractParty,Contract,rdf-schema#domain
+IdentityDocument,owl#Class,22-rdf-syntax-ns#type
+hasCounterparty,has counterparty,rdf-schema#label
+N2f5dffb76bca48d4b6522df083c09ad4,hasLegalDescription,owl#onProperty
+NonBindingTerm,ContractualElement,rdf-schema#subClassOf
+isEvidenceFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+BreachOfContract,Nbe7753af86164a688cbcf2a6df377338,rdf-schema#subClassOf
+hasExtendablePeriod,ExplicitDatePeriod,rdf-schema#range
+hasMilestoneProvision,has milestone provision,rdf-schema#label
+Counterparty,ContractParty,rdf-schema#subClassOf
+MilestoneEvent,owl#Class,22-rdf-syntax-ns#type
+,MIT,license
+hasContractDuration,owl#ObjectProperty,22-rdf-syntax-ns#type
+DisclosureProvision,ContractualCommitment,rdf-schema#subClassOf
+Ne3924aae7cd14efcbc3c43c02087bd79,owl#Restriction,22-rdf-syntax-ns#type
+N92f31808db844741a625a83713f5ce5b,ContractualElement,owl#someValuesFrom
+MutualContractualAgreement,A mutual contractual agreement involves an exchange of a promises in which the promises made by each party represent considerations supporting the promises of the other party(ies).,explanatoryNote
+ContractDocument,contract document,rdf-schema#label
+hasThirdParty,has third party,rdf-schema#label
+hasContractualElement,Agreement,rdf-schema#domain
+N120dfecedcea47e68e2b4659347ef611,2,owl#minQualifiedCardinality
+,"Contracts.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+isPrimaryContractFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+Counterparty,party to a contract with whom one negotiates on a given agreement,core#definition
+BreachOfCovenant,"In the case of a breach of a covenant or warranty, the contract remains binding and damages only are recoverable for the breach, whereas a breach of contract typically invalidates the entire contract.",explanatoryNote
+Representation,ContractualCommitment,rdf-schema#subClassOf
+hasEffectiveDateTimeStamp,hasDateTimeStamp,rdf-schema#subPropertyOf
+N92f31808db844741a625a83713f5ce5b,hasContractualElement,owl#onProperty
+MasterAgreement,master contract,synonym
+N4f271820d7094058b8fcaa642694d5ab,Contract,owl#onClass
+WrittenContract,N8e1e3036915d49d4bcfe5c9bc3e81340,rdf-schema#subClassOf
+Warranty,"If a warranty is determined to be false, the receiving party has a claim for breach of contract. If it is a fundamental breach the receiving party may have the right to terminate the contact in addition to a claim for damages. However, unlike a claim for misrepresentation, the contract may not necessarily be voided in its entirety as a consequence.",explanatoryNote
+hasTerm,hasDuration,rdf-schema#subPropertyOf
+N120dfecedcea47e68e2b4659347ef611,ContractParty,owl#onClass
+MutualContractualAgreement,bilateral contract,synonym
+N7b05f707a1004d3d9bf7b3573b82098d,0,owl#minQualifiedCardinality
+N7b05f707a1004d3d9bf7b3573b82098d,owl#Restriction,22-rdf-syntax-ns#type
+MutualContractualAgreement,owl#Class,22-rdf-syntax-ns#type
+isSubordinateTo,WrittenContract,rdf-schema#range
+Nd52495f0f652456e9d722a7c5735f4f3,isMandatedBy,owl#onProperty
+N2f5dffb76bca48d4b6522df083c09ad4,owl#Restriction,22-rdf-syntax-ns#type
+Contract,Agreement,rdf-schema#subClassOf
+DisclosureProvision,owl#Class,22-rdf-syntax-ns#type
+ContractMilestone,OccurrenceKind,rdf-schema#subClassOf
+hasContractDuration,hasTerm,rdf-schema#subPropertyOf
+hasCounterparty,hasUndergoer,rdf-schema#subPropertyOf
+Ncf2f5c16be0f4879b5cb1f65c8f79da3,isAssignable,owl#onProperty
+NovateableContract,"Novation is different from assignment in the following ways: (1) novation is a consensual transfer of contractual rights and obligations, while an assignment can transfer only obligations and does not require the consent of the benefiting party, and (2) novation terminates the original contract, but assignment does not.",explanatoryNote
+isPrimaryContractFor,is primary contract for,rdf-schema#label
+hasExecutionDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+WrittenContract,N9bf07d5d12eb4403bd6ba399927173d0,rdf-schema#subClassOf
+BirthCertificate,owl#Class,22-rdf-syntax-ns#type
+N13df211a626242b7b4cf79d1813eb505,hasMember,owl#onProperty
+ContractThirdParty,owl#Class,22-rdf-syntax-ns#type
+Representation,owl#Class,22-rdf-syntax-ns#type
+N8e1e3036915d49d4bcfe5c9bc3e81340,hasExecutionDateTimeStamp,owl#onProperty
+UseOfProceedsProvision,owl#Class,22-rdf-syntax-ns#type
+VerbalContract,verbal contract,rdf-schema#label
+N86bceed7f2da49f6bb805db283e60247,owl#Restriction,22-rdf-syntax-ns#type
+N053818566eea424caece514f3eaaabcf,ContractualCommitment,owl#someValuesFrom
+N8f3d4cc47d8c47688e51ceecfa6abc1c,isClassifiedBy,owl#onProperty
+TransferableContract,owl#Class,22-rdf-syntax-ns#type
+hasContractualElement,ContractualElement,rdf-schema#range
+hasExtendablePeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+DeathCertificate,N722850ae14f3416d82122c90bce4c410,rdf-schema#subClassOf
+Nf4db0b2ed5f349f2a4aee98620cd3bc9,owl#Restriction,22-rdf-syntax-ns#type
+N2f5dffb76bca48d4b6522df083c09ad4,0,owl#minQualifiedCardinality
+,Contracts.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+NonBindingTerm,owl#Class,22-rdf-syntax-ns#type
+ContractualDefinition,contractual definition,rdf-schema#label
+ContractualElement,owl#Class,22-rdf-syntax-ns#type
+N120dfecedcea47e68e2b4659347ef611,owl#Restriction,22-rdf-syntax-ns#type
+hasEffectiveDate,has effective date,rdf-schema#label
+,,owl#imports
+TermSheet,N9c70c9b054114d1397b4ec0bb98b25e2,rdf-schema#subClassOf
+N63d5cbd7197e46bd8a0978bbf79b6fd6,isEvidencedBy,owl#onProperty
+N7b05f707a1004d3d9bf7b3573b82098d,Date,owl#onClass
+ContractDocument,"Written here does not necessarily mean a paper document but includes situations in which the contract is expressed electronically, whether as an electronic representation of a formal document such as in PDF form or as an electronic message, provided in the latter case that the message is expressly given formal contractual standing, for example as indicated in a separate covering agreement between the parties.",core#scopeNote
+hasThirdParty,ContractThirdParty,rdf-schema#range
+hasGoverningJurisdiction,"As modeled, this relationship combines two slightly different senses in which a Jurisdiction may be named in some Contract: the jurisdiction under whose laws the contract is deemed to be in force, and the jurisdiction under which the parties agree to submit in the event of any dispute resolution. ScopeNote: One thing to tease out is whether 'Dispute Resolution' and other forms of 'Governing Law' are one and the same thing or not. Dispute Resolution is uncontroversial, the question is whether there are other implications to Governing Law or if it's the same thing. For instance I may undertake to behave as though I were responsible to a particular authority i.e., a particular set of statutes.",core#editorialNote
+hasNonBindingTerm,owl#ObjectProperty,22-rdf-syntax-ns#type
+N8f3d4cc47d8c47688e51ceecfa6abc1c,ContractMilestone,owl#someValuesFrom
+hasExtensionProvision,owl#ObjectProperty,22-rdf-syntax-ns#type
+isSubordinateTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+ContractualCommitment,ContractualElement,rdf-schema#subClassOf
+BreachOfContract,N30e6cb901c344658a467b5b153593679,rdf-schema#subClassOf
+N13df211a626242b7b4cf79d1813eb505,owl#Restriction,22-rdf-syntax-ns#type
+hasContractualElement,indicates something that is a component of an agreement,core#definition
+ConditionPrecedent,ContractualElement,rdf-schema#subClassOf
+Nb6f6f3247a674feda70163e9818e82a7,DateOfBirth,owl#onClass
+ContractDocument,LegalDocument,rdf-schema#subClassOf
+N9bf07d5d12eb4403bd6ba399927173d0,Date,owl#onClass
+N2816263d502e4472846f642a2d1a007d,owl#Restriction,22-rdf-syntax-ns#type
+TerminationProvision,owl#Class,22-rdf-syntax-ns#type
+hasNonBindingTerm,NonBindingTerm,rdf-schema#range
+ContractualDefinition,"contractual element that specifies the meaning of a term in a legal document, whose definition is substitutable for the term whenever it occurs in the body of that document",core#definition
+TransferableContract,WrittenContract,rdf-schema#subClassOf
+hasExtendablePeriod,has extendable period,rdf-schema#label
+hasGoverningJurisdiction,isGovernedBy,rdf-schema#subPropertyOf
+definesTermsFor,relates a contract to something for which the contract defines legally binding terms and conditions,core#definition
+MilestoneSchedule,N13df211a626242b7b4cf79d1813eb505,rdf-schema#subClassOf
+hasContractParty,has contract party,rdf-schema#label
+hasContractualElement,has contractual element,rdf-schema#label
+AssignableContract,"Many, though not all, futures contracts are assignable. This means that the original contract holder can sell the contract to another party in return for cash, and that party then assumes the rights, responsibilities, and benefits of that contract from that point onwards.",core#example
+Naf8c86138b914dbf8cf44d3ca1d80117,appliesTo,owl#onProperty
+qualifies,"limits, constrains or refines",core#definition
+isSubordinateTo,WrittenContract,rdf-schema#domain
+BreachOfContract,OccurrenceKind,rdf-schema#subClassOf
+NovateableContract,"contract that may be replaced by another contract, and in that event, extinguishes the rights and obligations in effect under the original contract with those in the new agreement",core#definition
+hasGoverningJurisdiction,"In a written contract this is generally identified, for example, as Governing Law, namely the jurisdiction in which any disputes arising from the contract are to be resolved.",explanatoryNote
+MilestoneEvent,milestone event,rdf-schema#label
+UseOfProceedsProvision,"contract provision specifying how funds obtained through financing, such as through a credit agreement, offering, warrant, or other instrument are intended to be used",core#definition
+isSubordinateTo,"This property may also be used as the basis for linking agreements based on priority, such as linking a second or junior lien to the primary lien on some collateral",explanatoryNote
+N7b05f707a1004d3d9bf7b3573b82098d,hasEffectiveDate,owl#onProperty
+WrittenContract,N63d5cbd7197e46bd8a0978bbf79b6fd6,rdf-schema#subClassOf
+CollateralAgreement,collateral agreement,rdf-schema#label
+Contract,contract,rdf-schema#label
+UnilateralContract,contract in which one party makes an express promise without securing a reciprocal agreement from the other party(ies),core#definition
+ExtensionProvision,ContractualCommitment,rdf-schema#subClassOf
+MilestoneSchedule,or times when they will be done,core#definition
+MutualContractualAgreement,Contract,rdf-schema#subClassOf
+hasGoverningJurisdiction,Contract,rdf-schema#domain
+ContractMilestone,owl#Class,22-rdf-syntax-ns#type
+VerbalContract,contract that exists as a result of some verbal exchange,core#definition
+Nbe7753af86164a688cbcf2a6df377338,owl#Restriction,22-rdf-syntax-ns#type
+MasterAgreement,N4f271820d7094058b8fcaa642694d5ab,rdf-schema#subClassOf
+Ne6b392bab1a2477ea669aba75d73fbee,0,owl#minQualifiedCardinality
+Ne6b392bab1a2477ea669aba75d73fbee,owl#Restriction,22-rdf-syntax-ns#type
+N86bceed7f2da49f6bb805db283e60247,isPlayedBy,owl#onProperty
+hasEffectiveDate,hasDate,rdf-schema#subPropertyOf
+hasCounterparty,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Contracts.rdf version of this ontology was revised to change a duplicate definition on hasContractDuration to an explanatory note.,core#changeNote
+AssignableContract,owl#Class,22-rdf-syntax-ns#type
+NovateableContract,novateable contract,rdf-schema#label
+ContractMilestone,N0b9ded72efa346c6af46a1330ee441f2,rdf-schema#subClassOf
+,"Contracts.rdf version of this ontology was revised to clean up the definition of transferable contract, including eliminating an unnecessary equivalence, adding subclasses for assignable and novatable contracts, and to restrictions from contract to written contract that did not make sense with respect to a verbal contract.",core#changeNote
+supersedes,owl#ObjectProperty,22-rdf-syntax-ns#type
+MutualContractualAgreement,mutual contractual agreement,rdf-schema#label
+N8e1e3036915d49d4bcfe5c9bc3e81340,owl#Restriction,22-rdf-syntax-ns#type
+ContractualCommitment,provision specifying something that the contracting parties agree to,core#definition
+hasEffectiveDateTimeStamp,DateTimeStamp,rdf-schema#range
+N408cd8ba35414834a59306f3b3ec48f9,owl#Restriction,22-rdf-syntax-ns#type
+hasContractualElement,comprises,rdf-schema#subPropertyOf
+MilestoneSchedule,owl#Class,22-rdf-syntax-ns#type
+,Contracts.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+Ne6b392bab1a2477ea669aba75d73fbee,PlaceOfBirth,owl#onClass
+MilestoneEvent,Occurrence,rdf-schema#subClassOf
+WrittenContract,Ncf2f5c16be0f4879b5cb1f65c8f79da3,rdf-schema#subClassOf
+N2816263d502e4472846f642a2d1a007d,Counterparty,owl#someValuesFrom
+BreachOfContract,"classifier of events representing a violation of an express, or implied, condition of a contract to do or not to do something, without a legitimate excuse",core#definition
+,Contracts.rdf version of this ontology was revised to move the property hasTerm from FinancialInstruments to Contracts as it is more broadly applicable.,core#changeNote
+ContractualCommitment,"Contractual commitments include general conditions which are common to all types of contracts, such as general and special arrangements, provisions, requirements, rules, rights and obligations, specifications, and standards that form an integral part of an agreement or contract, as well as special conditions which are peculiar to a specific contract (such as, contract change conditions, payment conditions, price variation clauses, penalties).",core#scopeNote
+TerminationProvision,termination provision,rdf-schema#label
+N2fb7112456af4a7ca42b31d5e942769d,1,owl#maxQualifiedCardinality
+BreachOfCovenant,breach of covenant,rdf-schema#label
+ContractParty,"legally competent party that has entered into a binding agreement, accepting and conceding obligations, responsibilities, and benefits as specified",core#definition
+hasContractDuration,"Note that the duration may be relative or explicit, depending on the nature of the contract, and may be extended if the provisions of the contract permit extension.",explanatoryNote
+,"Contracts.rdf version of the ontology was modified to add an optional date of issuance to written contract, which may or may not be the same as the effective date (FBC-322), to add a general notion of collateral agreement (LOAN-168), and to add provisions for disclosures and use of proceeds (LOAN-169).",core#changeNote
+,Contracts.rdf version of this ontology was revised as a part of the issue resolutions identified in the FIBO FND 2.0 RFC to augment restrictions on contract and contractual commitment.,core#changeNote
+ContractMilestone,Naf8c86138b914dbf8cf44d3ca1d80117,rdf-schema#subClassOf
+AssignableContract,TransferableContract,rdf-schema#subClassOf
+definesTermsFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+TransferableContract,transferable contract,rdf-schema#label
+N2f5dffb76bca48d4b6522df083c09ad4,XMLSchema#string,owl#onDataRange
+UnilateralContract,Contract,rdf-schema#subClassOf
+ContractualCommitment,owl#Class,22-rdf-syntax-ns#type
+hasEffectiveDate,Date,rdf-schema#range
+BreachOfCovenant,owl#Class,22-rdf-syntax-ns#type
+VerbalContract,Contract,rdf-schema#subClassOf
+DisclosureProvision,"Disclosure provisions are crucial in ensuring transparency, mitigating risks, and maintaining trust between the parties. Typical elements of a disclosure provision include (1) scope - defining the kind of information that must be disclosed, (2) materiality - which usually states that only information material to the agreement must be disclosed, (3) timing - specifying when such disclosures must be made, (4) ongoing requirements - outlining whether or not disclosures any time significant changes or new information must be made available over some period of time, (5) method - specifying how such disclosures must be made, for example, in writing, (6) exclusions - information that is explicitly out of scope with respect to disclosure requirements, (7) confidentiality - restrictions related to whether or not the information is confidential and on how it may be used, and (8) penalities - specifying consequences for failing to disclose relevant information.",explanatoryNote
+ConditionPrecedent,owl#Class,22-rdf-syntax-ns#type
+,Contracts.rdf version of this ontology was revised to add the concept of a master agreement and fix spelling errors.,core#changeNote
+qualifies,owl#ObjectProperty,22-rdf-syntax-ns#type
+Representation,"A party may later claim misrepresentation if a false representation has been made. They may be entitled to rescind the contract, which means that the contract would be set aside and the receiving party may also be entitled to damages to put them back into the position they would have been had the contract never been entered into.",explanatoryNote
+ContractParty,owl#Class,22-rdf-syntax-ns#type
+Ne0f2154f5d0844c1b6847a68cb22b8fa,ContractPrincipal,owl#someValuesFrom
+,Contracts.rdf version of this ontology was revised to eliminate deprecated elements.,core#changeNote
+hasContractDuration,Contract,rdf-schema#domain
+N0b9ded72efa346c6af46a1330ee441f2,classifies,owl#onProperty
+supersedes,owl#TransitiveProperty,22-rdf-syntax-ns#type
+hasExtensionProvision,specifies the details of a contract provision allowing extension of some aspect of the contract,core#definition
+hasEffectiveDateTimeStamp,has effective date time stamp,rdf-schema#label
+Na1771821ca2e4027add2f574dc44c448,hasExtendablePeriod,owl#onProperty
+isQualifiedBy,isCharacterizedBy,rdf-schema#subPropertyOf
+BreachOfContract,or court-ordered 'specific performance' of the contract. A breach of contract frequently invalidates the contract.,explanatoryNote
+TransferableContract,contract in which the rights and obligations of one party may be transferred to another party,core#definition
+TermSheet,Term sheets state the intentions of the parties and are used to guide legal counsel in the preparation of proposed agreements or contracts.,explanatoryNote
+hasExecutionDateTimeStamp,"indicates the date and time, including time zone, a contract has been signed by all the necessary parties",core#definition
+Naf8c86138b914dbf8cf44d3ca1d80117,Contract,owl#someValuesFrom
+hasContractDuration,has contract duration,rdf-schema#label

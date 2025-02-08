@@ -1,0 +1,91 @@
+source_id,target_id,relationship
+AdditionalTier1Capital,AT1,abbreviation
+isMiFIDReportingRequired,indicates whether reporting on the security is required by the Markets in Financial Instruments Directive (MiFID),core#definition
+EURegulation236-2012,Short Selling Regulation,synonym
+,"This ontology defines the concepts related to restrictions issued by the European Securities and Markets Authority (ESMA) and other EU regulatory agencies on finanicial instruments, securities and listings.",abstract
+EURegulation236-2012,2012,rdf-schema#label
+EURegulation236-2012,?uri=CELEX%3A32012R0236,adaptedFrom
+Tier1Capital,"bank's equity capital and disclosed reserves, used to measure the bank's capital adequacy, consisting of common equity capital (CET1) and additional capital instruments (AT1)",core#definition
+Tier1Capital,tier 1 capital,rdf-schema#label
+Tier2Capital,BaselIIIDesignation,22-rdf-syntax-ns#type
+N1e1be7cc12154c3f9b7cf5a6d1eb3efe,GeographicRegion,owl#hasValue
+EURegulation236-2012,securities regulation on short selling and certain aspects of credit default swaps,core#definition
+N1741e22edd1346efb4bd90f64803971d,hasUpperLimitOnFloatingShares,owl#onProperty
+CommonEquityTier1,CET1,abbreviation
+AdditionalTier1Capital,additional tier 1 capital,rdf-schema#label
+BaselIIIDesignation,Basel III Designation,rdf-schema#label
+hasUpperLimitOnFloatingShares,"indicates the upper limit on the number of free float shares to be reported, if applicable",core#definition
+Nfb986371812943cebecb233eb7c21207,true,owl#hasValue
+hasUpperLimitOnFloatingShares,XMLSchema#decimal,rdf-schema#range
+,"Copyright (c) 2024 Object Management Group, Inc.",copyright
+,,owl#imports
+MiFIDRegulatedSecurity,"A MiFID requlated security is one that is traded on a MiFID regulated market and for which certain additional reporting requirements apply. Markets in Financial Instruments Directive (MiFID), which is a European regulation, issued by the European Securities and Markets Authority (ESMA), that aims to increase transparency across the European Union's financial markets and standardize regulatory disclosures required for firms operating within the EU.",explanatoryNote
+Nfb986371812943cebecb233eb7c21207,owl#Restriction,22-rdf-syntax-ns#type
+Tier2Capital,supplementary loss-absorbing capital capacity that is considered less secure than Tier 1 capital,core#definition
+,,owl#versionIRI
+isMiFIDReportingRequired,Security,rdf-schema#domain
+CommonEquityTier1,owl#NamedIndividual,22-rdf-syntax-ns#type
+BaselIIIDesignation,N1e1be7cc12154c3f9b7cf5a6d1eb3efe,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+MiFIDRegulatedSecurity,owl#Class,22-rdf-syntax-ns#type
+Nfb986371812943cebecb233eb7c21207,isMiFIDReportingRequired,owl#onProperty
+BaselIIIDesignation,owl#Class,22-rdf-syntax-ns#type
+BaselIIIDesignation,N5589c5783ff24e589200782701208c26,rdf-schema#subClassOf
+N5589c5783ff24e589200782701208c26,classifies,owl#onProperty
+CommonEquityTier1,CET1 capital is the highest quality capital and consists primarily of common shares and retained earnings.,explanatoryNote
+Tier1Capital,tier1capital.asp#toc-what-is-tier-1-capital,adaptedFrom
+AdditionalTier1Capital,owl#NamedIndividual,22-rdf-syntax-ns#type
+Tier1Capital,BaselIIIDesignation,22-rdf-syntax-ns#type
+MiFIDRegulatedSecurity,Security,rdf-schema#subClassOf
+N1e1be7cc12154c3f9b7cf5a6d1eb3efe,isApplicableIn,owl#onProperty
+CommonEquityTier1,"Positive components of tier 1 regulatory capital are common shareholders' funds, i.e. common stock and disclosed reserves or retained earnings, are the key element of capital. Common shareholders' funds allow a bank to absorb losses on an ongoing basis and are permanently available for this purpose. Further, this element of capital best allows banks to conserve resources when they are under stress because it provides a bank with full discretion as to the amount and timing of distributions. Consequently, common shareholders' funds are the basis on which most market judgements of capital adequacy are made. The voting rights attached to common stock also provide an important source of market discipline over a bank's management. For these reasons, voting common shareholders' equity and the disclosed reserves or retained earnings that accrue to the shareholders' benefit should be the predominant form of a bank's Tier 1 capital.
+		Potential regulatory adjustments (e.g., fees, commissions, valuation adjustments) are defined in paragraphs 66-90 of the Basel III rules text.",explanatoryNote
+EURegulation236-2012,TradingRestriction,22-rdf-syntax-ns#type
+BaselIIIDesignation,"Per Basel III, Tier 1 capital, or core capital, equity shares and retained earnings, is preferred. Tier 2 capital, or supplementary capital, is also usable. Possible values include Tier 1, Additional Tier 1, Tier 2, Not Subject to Regulations, and Not Provided.",explanatoryNote
+BaselIIIDesignation,index.htm,adaptedFrom
+Tier2Capital,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasUpperLimitOnFloatingShares,hasAmount,rdf-schema#subPropertyOf
+CommonEquityTier1,p981027.htm,adaptedFrom
+Tier2Capital,tier 2 capital,rdf-schema#label
+N1741e22edd1346efb4bd90f64803971d,owl#Restriction,22-rdf-syntax-ns#type
+Tier1Capital,owl#NamedIndividual,22-rdf-syntax-ns#type
+BaselIIIDesignation,"European Union wide securities designation, defined by the Basel Committee on Banking Supervision (BCBS), that classifies securities based on the quality of capital underlying the instrument",core#definition
+BaselIIIDesignation,"Basel III is an international regulatory accord designed to improve the regulation, supervision, and risk management of the banking sector. It was developed in response to the global financial crisis of 2007-2008. A consortium of central banks from 28 countries devised Basel III in 2009, mainly to ensure major banks could survive another upheaval. The regulations include minimum capital, leverage, and liquidity requirements.",explanatoryNote
+AdditionalTier1Capital,BaselIIIDesignation,22-rdf-syntax-ns#type
+isMiFIDReportingRequired,is MiFID reporting required,rdf-schema#label
+N1e1be7cc12154c3f9b7cf5a6d1eb3efe,owl#Restriction,22-rdf-syntax-ns#type
+MiFIDRegulatedSecurity,N1741e22edd1346efb4bd90f64803971d,rdf-schema#subClassOf
+MiFIDRegulatedSecurity,security for which MiFID reporting is required,core#definition
+isMiFIDReportingRequired,This indicator specifies whether the security is eligible for trade reporting within the Markets in Financial Instruments Directive (MiFID) zone.,explanatoryNote
+Tier2Capital,,adaptedFrom
+N5589c5783ff24e589200782701208c26,owl#Restriction,22-rdf-syntax-ns#type
+EURegulation236-2012,short-selling,adaptedFrom
+,"Copyright (c) 2024 EDM Council, Inc.",copyright
+EURegulation236-2012,"2012, also known as the Short Selling Regulation, was adopted by the European Parliament and the Council on March 14, 2012. The EU Regulation on Short Selling and certain aspects of credit default swaps (SSR) aims to increase the transparency of short positions held by investors in certain EU securities, to reduce settlement risks and other risks linked with naked short selling, and to ensure that Member States have clear powers to intervene in exceptional situations to reduce systemic risks and risks to financial stability and market confidence.",explanatoryNote
+hasUpperLimitOnFloatingShares,has upper limit on floating shares,rdf-schema#label
+MiFIDRegulatedSecurity,Nfb986371812943cebecb233eb7c21207,rdf-schema#subClassOf
+isMiFIDReportingRequired,owl#DatatypeProperty,22-rdf-syntax-ns#type
+EURegulation236-2012,"In the European Union, short selling regulations are primarily governed by the European Securities and Markets Authority (ESMA) under the EU Short Selling Regulation (SSR), which was implemented in 2012. The key aspects of short selling restrictions in the EU include: (1) Temporary Short Selling Bans: ESMA or national competent authorities (NCAs) can impose temporary short selling bans on specific stocks or all stocks in response to significant market declines or to prevent disorderly markets. These bans can last up to three months but can be renewed if necessary. (2) Restrictions During Market Stress: Similar to the SEC's alternative uptick rule, the EU SSR allows for restrictions when a significant price drop occurs. If a stock drops by 10% or more within a single day, NCAs can impose a temporary short selling ban on that stock for the remainder of the day. (3) Notification and Disclosure: Market participants are required to notify NCAs if their net short positions in a company reach or exceed 0.2% of the company's issued share capital. Additional disclosures are required at each 0.1% increment above the initial threshold. (4) Prohibition of Naked Short Selling: The regulation prohibits naked short selling, requiring that short sellers must have either borrowed the securities or have an arrangement in place to borrow them before the sale is executed. These regulations are designed to enhance market transparency, reduce risks associated with short selling, and prevent market abuse during periods of significant market stress. Specific details and updates can be found on the ESMA website or through the relevant NCA for each EU member state.",explanatoryNote
+N5589c5783ff24e589200782701208c26,Security,owl#someValuesFrom
+N1741e22edd1346efb4bd90f64803971d,0,owl#minQualifiedCardinality
+CommonEquityTier1,BaselIIIDesignation,22-rdf-syntax-ns#type
+AdditionalTier1Capital,Additional Tier 1 (AT1) capital provides an additional conservation buffer of a specified percentage.,explanatoryNote
+EURegulation236-2012,LexUriServ.do?uri=OJ:L:2012:086:0001:0024:en:PDF,adaptedFrom
+,Release,hasMaturityLevel
+,MIT,license
+CommonEquityTier1,tier1capital.asp,rdf-schema#seeAlso
+BaselIIIDesignation,basel3.htm,adaptedFrom
+AdditionalTier1Capital,additional subordinated debt instruments that can absorb losses,core#definition
+AdditionalTier1Capital,,adaptedFrom
+CommonEquityTier1,what-minimum-capital-adequacy-ratio-must-be-attained-under-basel-iii.asp,rdf-schema#seeAlso
+hasUpperLimitOnFloatingShares,owl#DatatypeProperty,22-rdf-syntax-ns#type
+isMiFIDReportingRequired,XMLSchema#boolean,rdf-schema#range
+MiFIDRegulatedSecurity,MiFID regulated security,rdf-schema#label
+CommonEquityTier1,common equity tier 1,rdf-schema#label
+,EU Securities Restrictions Ontology,rdf-schema#label
+BaselIIIDesignation,FinancialInstrumentClassifier,rdf-schema#subClassOf
+EURegulation236-2012,SecuritiesRegulation,22-rdf-syntax-ns#type
+Tier1Capital,,adaptedFrom
+N1741e22edd1346efb4bd90f64803971d,XMLSchema#decimal,owl#onDataRange
+EURegulation236-2012,owl#NamedIndividual,22-rdf-syntax-ns#type
+CommonEquityTier1,"core capital held in an institution's reserves, used to fund business activities for clients",core#definition

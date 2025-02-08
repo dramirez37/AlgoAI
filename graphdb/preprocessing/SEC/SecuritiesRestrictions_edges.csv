@@ -1,0 +1,130 @@
+source_id,target_id,relationship
+Listing,Nfaf2ce2dafff4e4fae6a6bce0eac49b3,rdf-schema#subClassOf
+N8b1976a9bbac49309bdcf2ed1608ce6b,owl#Restriction,22-rdf-syntax-ns#type
+N3380001e5c0b418c9dcda3ff44d114ac,isPlayedBy,owl#onProperty
+TradingRestriction,"restriction that limits trading in some manner, typically summarized on term sheets or in other documentation, including but not limited to restrictions on day trading",core#definition
+SecuritiesRestriction,owl#Class,22-rdf-syntax-ns#type
+Naddff7b5b8424fa4bba262f31e282a17,StatuteLaw,22-rdf-syntax-ns#first
+,SecuritiesRestrictions.rdf version of the ontology was modified to eliminate elements that have been deprecated over 6 months (FND-386).,core#changeNote
+IndividualInvestor,Investor,rdf-schema#subClassOf
+,SecuritiesRestrictions.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+,"Copyright (c) 2018-2024 Object Management Group, Inc.",copyright
+N7309cdeb16884f9e8249b6a6f8a2b529,isMandatedBy,owl#onProperty
+IndividualInvestor,owl#Class,22-rdf-syntax-ns#type
+IndividualInvestor,Nf6ad75309ab147af947c83889236d5b2,rdf-schema#subClassOf
+N7309cdeb16884f9e8249b6a6f8a2b529,Na24b4d44143e4c18ad16ce75d7f1d4e4,owl#allValuesFrom
+SecuritiesRestriction,securities restriction,rdf-schema#label
+Nfaf2ce2dafff4e4fae6a6bce0eac49b3,hasRestriction,owl#onProperty
+hasHoldingPeriod,hasDatePeriod,rdf-schema#subPropertyOf
+,SecuritiesRestrictions.rdf version of the ontology was modified to reflect the change in representation of a listing.,core#changeNote
+,SecuritiesRestrictions.rdf version of the ontology was modified to eliminate duplication of concepts in LCC.,core#changeNote
+Nfaf2ce2dafff4e4fae6a6bce0eac49b3,owl#Restriction,22-rdf-syntax-ns#type
+SecuritiesRegulation,securities regulation,rdf-schema#label
+Nfaf2ce2dafff4e4fae6a6bce0eac49b3,SecuritiesRestriction,owl#onClass
+N12679ea3562740659ec67eaf2fd50e15,Contract,22-rdf-syntax-ns#first
+,Securities Restrictions Ontology,rdf-schema#label
+SecuritiesRegulation,N9f5dcceb62fa492aa962306d409174ea,rdf-schema#subClassOf
+Na24b4d44143e4c18ad16ce75d7f1d4e4,Naddff7b5b8424fa4bba262f31e282a17,owl#unionOf
+,SecuritiesRestrictions.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+SecuritiesRegulation,owl#Class,22-rdf-syntax-ns#type
+InvestorsDomicileRestriction,investors' domicile restriction,rdf-schema#label
+InvestorsDomicileRestriction,legal holding restriction that specifies where holders of a security may be domiciled,core#definition
+QualifiedInvestorRestriction,LegalHoldingRestriction,rdf-schema#subClassOf
+FinancialInstrument,owl#Class,22-rdf-syntax-ns#type
+ContractualRestriction,contractual restriction,rdf-schema#label
+QualifiedInvestorRestriction,Nc02fece962a148b496a2d4c10824ccc9,rdf-schema#subClassOf
+,,owl#imports
+N646876031ec6404f911d50942a9c4d09,hasRestriction,owl#onProperty
+,SecuritiesRestrictions.rdf version of this ontology was revised to reuse the representation of institutions based on their definitions in the law.,core#changeNote
+IndividualInvestor,individual investor,rdf-schema#label
+N646876031ec6404f911d50942a9c4d09,0,owl#minQualifiedCardinality
+Na24b4d44143e4c18ad16ce75d7f1d4e4,owl#Class,22-rdf-syntax-ns#type
+hasRestriction,identifies a restriction applicable to a given financial instrument or listing,core#definition
+QualifiedInvestorRestriction,owl#Class,22-rdf-syntax-ns#type
+Nfaf2ce2dafff4e4fae6a6bce0eac49b3,0,owl#minQualifiedCardinality
+,,owl#versionIRI
+QualifiedInvestorRestriction,qualified investor restriction,rdf-schema#label
+hasHoldingPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+ContractualRestriction,"contract terms setting out restrictions on either the holder or the issuer of the security, as specified in the terms of the instrument itself",core#definition
+Nbbd0eee2ce6b441093f30d4a9aaacbc2,Nc428a10b73ca449eaaedf89068045695,owl#unionOf
+,owl#Ontology,22-rdf-syntax-ns#type
+ContractualRestriction,SecuritiesRestriction,rdf-schema#subClassOf
+SecuritiesRestriction,legal obligation that is applicable to a financial instrument or listing as mandated in a law or by contract,core#definition
+N8b1976a9bbac49309bdcf2ed1608ce6b,isConferredBy,owl#onProperty
+Nf6ad75309ab147af947c83889236d5b2,isPlayedBy,owl#onProperty
+Nb17e1b6302174ba39baf6840267c80d6,N12679ea3562740659ec67eaf2fd50e15,22-rdf-syntax-ns#rest
+hasRestriction,specifies,rdf-schema#subPropertyOf
+InstitutionalInvestor,N3380001e5c0b418c9dcda3ff44d114ac,rdf-schema#subClassOf
+Nb17e1b6302174ba39baf6840267c80d6,SecuritiesRegulation,22-rdf-syntax-ns#first
+InstitutionalInvestor,"Institutional investors typically buy, sell, and manage stocks, bonds, and other investment securities on behalf of its clients, customers, members, or shareholders. These include endowment funds, commercial banks, mutual funds, hedge funds, pension funds, and insurance companies. Institutional investors are able to invest in riskier securities and ventures than average investors because they are more sophisticated with respect to their investment methodologies.",explanatoryNote
+N38ebe545c94c45dca20a6fc486e2d679,Listing,22-rdf-syntax-ns#first
+ContractualRestriction,N3942976e9aff404f93866b768a423e11,rdf-schema#subClassOf
+LegalHoldingRestriction,SecuritiesRestriction,rdf-schema#subClassOf
+,SecuritiesRestrictions.rdf version of the ontology was modified to eliminate an unused ontology import and to augment the information associated with references needed to define depositary receipts.,core#changeNote
+TradingRestriction,SecuritiesRestriction,rdf-schema#subClassOf
+,SecuritiesRestrictions.rdf version of the ontology was modified to fix spelling errors.,core#changeNote
+N9f5dcceb62fa492aa962306d409174ea,SecuritiesRestriction,owl#allValuesFrom
+Nbbd0eee2ce6b441093f30d4a9aaacbc2,owl#Class,22-rdf-syntax-ns#type
+SecuritiesRestriction,N7309cdeb16884f9e8249b6a6f8a2b529,rdf-schema#subClassOf
+,SecuritiesRestrictions.rdf version of the ontology was modified to simplify the hierarchy with respect to regulatory requirements and eliminate deprecated elements.,core#changeNote
+InstitutionalInvestor,Investor,rdf-schema#subClassOf
+SecuritiesRegulation,regulation codified in law specific to securities and investments,core#definition
+Naddff7b5b8424fa4bba262f31e282a17,Nb17e1b6302174ba39baf6840267c80d6,22-rdf-syntax-ns#rest
+,SecuritiesRestrictions.rdf version of the ontology was modified to add a definition for institutional investor and move jurisdiction-specific definitions to new ontologies for those jurisdictions (SEC-113).,core#changeNote
+N398cd7d3a62e44f0b8ad25833dcb9667,owl#Restriction,22-rdf-syntax-ns#type
+N398cd7d3a62e44f0b8ad25833dcb9667,Nbbd0eee2ce6b441093f30d4a9aaacbc2,owl#allValuesFrom
+TradingRestriction,trading restriction,rdf-schema#label
+N646876031ec6404f911d50942a9c4d09,owl#Restriction,22-rdf-syntax-ns#type
+N3380001e5c0b418c9dcda3ff44d114ac,owl#Restriction,22-rdf-syntax-ns#type
+InvestorsDomicileRestriction,owl#Class,22-rdf-syntax-ns#type
+InstitutionalInvestor,institutional investor,rdf-schema#label
+N646876031ec6404f911d50942a9c4d09,SecuritiesRestriction,owl#onClass
+N9f5dcceb62fa492aa962306d409174ea,owl#Restriction,22-rdf-syntax-ns#type
+SecuritiesRegulation,N8b1976a9bbac49309bdcf2ed1608ce6b,rdf-schema#subClassOf
+N38ebe545c94c45dca20a6fc486e2d679,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N9f5dcceb62fa492aa962306d409174ea,defines,owl#onProperty
+Nc428a10b73ca449eaaedf89068045695,FinancialInstrument,22-rdf-syntax-ns#first
+N8b1976a9bbac49309bdcf2ed1608ce6b,StatuteLaw,owl#someValuesFrom
+N7309cdeb16884f9e8249b6a6f8a2b529,owl#Restriction,22-rdf-syntax-ns#type
+SecuritiesRestriction,LegalObligation,rdf-schema#subClassOf
+N3942976e9aff404f93866b768a423e11,owl#Restriction,22-rdf-syntax-ns#type
+Nf6ad75309ab147af947c83889236d5b2,owl#Restriction,22-rdf-syntax-ns#type
+hasHoldingPeriod,identifies a holding period applicable to some financial asset,core#definition
+Listing,owl#Class,22-rdf-syntax-ns#type
+IndividualInvestor,"investor that is a person, rather than an organization, who may or may not be considered a qualified investor from a legal perspective",core#definition
+Nc02fece962a148b496a2d4c10824ccc9,DatePeriod,owl#allValuesFrom
+FinancialInstrument,N646876031ec6404f911d50942a9c4d09,rdf-schema#subClassOf
+SecuritiesRegulation,Regulation,rdf-schema#subClassOf
+InstitutionalInvestor,IndividualInvestor,owl#disjointWith
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+hasRestriction,has restriction,rdf-schema#label
+LegalHoldingRestriction,legal holding restriction,rdf-schema#label
+hasHoldingPeriod,DatePeriod,rdf-schema#range
+Nf6ad75309ab147af947c83889236d5b2,LegallyCompetentNaturalPerson,owl#allValuesFrom
+,Release,hasMaturityLevel
+InvestorsDomicileRestriction,LegalHoldingRestriction,rdf-schema#subClassOf
+QualifiedInvestorRestriction,"If a holding period is not defined, then the period for which the restriction applies is indefinite.",explanatoryNote
+hasHoldingPeriod,has holding period,rdf-schema#label
+,MIT,license
+,"This ontology defines the concepts related to restrictions on finanicial instruments, securities and listings.",abstract
+InstitutionalInvestor,"investor that pools money to purchase securities, real property, and other investment assets or originates loans",core#definition
+N3942976e9aff404f93866b768a423e11,isMandatedBy,owl#onProperty
+N398cd7d3a62e44f0b8ad25833dcb9667,appliesTo,owl#onProperty
+,"SecuritiesRestrictions.rdf version of this ontology was modified to move the property, 'is conferred on' to the Legal Capacity ontology and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+LegalHoldingRestriction,security restriction applicable to holding the security,core#definition
+ContractualRestriction,owl#Class,22-rdf-syntax-ns#type
+Nc02fece962a148b496a2d4c10824ccc9,owl#Restriction,22-rdf-syntax-ns#type
+N3380001e5c0b418c9dcda3ff44d114ac,LegalEntity,owl#allValuesFrom
+ContractualRestriction,ContractualCommitment,rdf-schema#subClassOf
+InstitutionalInvestor,owl#Class,22-rdf-syntax-ns#type
+SecuritiesRestriction,N398cd7d3a62e44f0b8ad25833dcb9667,rdf-schema#subClassOf
+Nc02fece962a148b496a2d4c10824ccc9,hasHoldingPeriod,owl#onProperty
+hasRestriction,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasRestriction,SecuritiesRestriction,rdf-schema#range
+N3942976e9aff404f93866b768a423e11,Contract,owl#allValuesFrom
+LegalHoldingRestriction,owl#Class,22-rdf-syntax-ns#type
+QualifiedInvestorRestriction,legal holding restriction that defines the concept of a qualified investor for a given purpose and specifies that only such qualified investors may hold the security,core#definition
+,SecuritiesRestrictions.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N12679ea3562740659ec67eaf2fd50e15,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+TradingRestriction,owl#Class,22-rdf-syntax-ns#type
+Nc428a10b73ca449eaaedf89068045695,N38ebe545c94c45dca20a6fc486e2d679,22-rdf-syntax-ns#rest

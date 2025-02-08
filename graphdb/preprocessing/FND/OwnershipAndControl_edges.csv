@@ -1,0 +1,42 @@
+source_id,target_id,relationship
+OwnershipControlSituation,ownership control situation,rdf-schema#label
+ownsAndControls,directs and exercises authoritative or dominating influence over some thing that is also owned,core#definition
+,,owl#imports
+,OwnershipAndControl.rdf version of the ontology was modified to better integrate it with the situation pattern and eliminate circular definitions.,core#changeNote
+N891b9c3a47ce4a7d9540a8784a72519c,Ownership,22-rdf-syntax-ns#first
+,Release,hasMaturityLevel
+N5058e97c9663427c938344faebad68b9,Control,22-rdf-syntax-ns#first
+,MIT,license
+isOwnedAndControlledBy,isOwnedBy,rdf-schema#subPropertyOf
+isOwnedAndControlledBy,is owned and controlled by,rdf-schema#label
+,OwnershipAndControl.rdf version of the ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+ownsAndControls,controls,rdf-schema#subPropertyOf
+OwnershipControlSituation,situation in which some party owns and controls something,core#definition
+,,owl#versionIRI
+ownsAndControls,owns and controls,rdf-schema#label
+isOwnedAndControlledBy,isControlledBy,rdf-schema#subPropertyOf
+,Ownership and Control Ontology,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+OwnershipControlSituation,Situation,rdf-schema#subClassOf
+N81d61af64aa3498d9d9402311891b247,owl#Class,22-rdf-syntax-ns#type
+N5058e97c9663427c938344faebad68b9,N891b9c3a47ce4a7d9540a8784a72519c,22-rdf-syntax-ns#rest
+isOwnedAndControlledBy,Party,rdf-schema#range
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+,OwnershipAndControl.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+OwnershipControlSituation,N81d61af64aa3498d9d9402311891b247,owl#equivalentClass
+isOwnedAndControlledBy,"relates something to the party that owns, influences, manages and directs it",core#definition
+N81d61af64aa3498d9d9402311891b247,N5058e97c9663427c938344faebad68b9,owl#intersectionOf
+ownsAndControls,Party,rdf-schema#domain
+isOwnedAndControlledBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+,OwnershipAndControl.rdf version of the ontology was modified to integrate the properties defined herein with the ownership and control patterns.,core#changeNote
+,"This ontology brings the concepts of ownership and control together, in cases where the combined semantics are applicable, such as for a wholly owned subsidiary.",abstract
+ownsAndControls,owns,rdf-schema#subPropertyOf
+ownsAndControls,"basic rule: if x controls y and x owns y then x owns and controls y
+SWRL rule: controls(?x, ?y), owns(?x, ?y) -> ownsAndControls(?x, ?y)",core#editorialNote
+,.,core#changeNote
+ownsAndControls,owl#ObjectProperty,22-rdf-syntax-ns#type
+OwnershipControlSituation,owl#Class,22-rdf-syntax-ns#type
+N891b9c3a47ce4a7d9540a8784a72519c,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+ownsAndControls,isOwnedAndControlledBy,owl#inverseOf
+,OwnershipAndControl.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote

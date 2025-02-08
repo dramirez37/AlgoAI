@@ -1,0 +1,162 @@
+source_id,target_id,relationship
+,FunctionalEntities.rdf version of this ontology was modified to eliminate duplication of concepts in LCC.,core#changeNote
+N0fac63c5a5274dada935f847b60ac3e7,Syndicate,owl#allValuesFrom
+N81f5c33b9adf496a8e71190cd931a9f1,owl#Restriction,22-rdf-syntax-ns#type
+,FunctionalEntities.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+CooperativeSociety,cooperative society,rdf-schema#label
+MerchantCategoryCode,Ndf9cbe512d5947c8bcf5cc3a76e76e7f,rdf-schema#subClassOf
+N46089328b2ab41159c106436138b7149,hasMember,owl#onProperty
+MerchantCategoryCode,merchant category code,rdf-schema#label
+Nd7034cdf27594285aa17e3802b4dfd35,owl#Restriction,22-rdf-syntax-ns#type
+N197c5b3747c94015a8f9dae47a50e513,MerchantIdentifier,owl#someValuesFrom
+MerchantCategoryCode,ISO 18245:2003 Retail financial services - Merchant category codes,adaptedFrom
+Ne1f55f5266dc4be784bf288e66a994da,Nead1b7a0c383429eb1f6d14539735c1e,owl#unionOf
+MerchantCategoryCode,code used internationally to classify a merchant,core#definition
+MerchantCategoryCodeScheme,"ISO 18245 provides a set of merchant category codes that are used internationally. Some countries, regional governments, banks, and other large organizations extend the basic codes with custom additions to fit business needs.",explanatoryNote
+MerchantCategoryCode,owl#Class,22-rdf-syntax-ns#type
+N7fdb99ac641c4be58b9bf6c4aec521ef,1,owl#qualifiedCardinality
+N16c942bce5a94c4cb0d16258478c9297,Merchant,owl#someValuesFrom
+,FunctionalEntities.rdf version of this ontology was modified by the FIBO 2.0 revision to address missing labels and definitions on the deprecated sole proprietorship class to match those in the equivalent class.,core#changeNote
+Syndicate,syndicate,rdf-schema#label
+FunctionalBusinessEntity,FunctionalEntity,rdf-schema#subClassOf
+MerchantCategoryCodeScheme,owl#Class,22-rdf-syntax-ns#type
+N0b6de74d1ac04036bdf026710428e4ed,1,owl#qualifiedCardinality
+Merchant,party engaged in the purchase and sales of goods produced by others for profit,core#definition
+N6870226b93d24e4c8bc69b30125c349d,owl#Restriction,22-rdf-syntax-ns#type
+Nead1b7a0c383429eb1f6d14539735c1e,FunctionalEntity,22-rdf-syntax-ns#first
+hasMerchantCategoryDescription,MerchantCategoryCode,rdf-schema#domain
+N75da9638c1f94666941efe23d1117545,isPlayedBy,owl#onProperty
+MerchantCategoryCodeScheme,ISO 18245:2003 Retail financial services - Merchant category codes,adaptedFrom
+N16c942bce5a94c4cb0d16258478c9297,owl#Restriction,22-rdf-syntax-ns#type
+OrganizationIdentifier,owl#Class,22-rdf-syntax-ns#type
+N76124918894b4dae8fc494dbeb3f1c5d,owl#Restriction,22-rdf-syntax-ns#type
+FamilyOffice,owl#Class,22-rdf-syntax-ns#type
+FunctionalBusinessEntity,owl#Class,22-rdf-syntax-ns#type
+N0b6de74d1ac04036bdf026710428e4ed,Ne1f55f5266dc4be784bf288e66a994da,owl#onClass
+N76124918894b4dae8fc494dbeb3f1c5d,MerchantCategoryCode,owl#someValuesFrom
+FamilyOffice,Family offices are often privately held companies set up to handle investment and wealth management for wealthy families.,explanatoryNote
+Nead1b7a0c383429eb1f6d14539735c1e,Ne5d754610c904832b31b42b9c172a293,22-rdf-syntax-ns#rest
+Nd7034cdf27594285aa17e3802b4dfd35,1,owl#qualifiedCardinality
+N75da9638c1f94666941efe23d1117545,owl#Restriction,22-rdf-syntax-ns#type
+,"FunctionalEntities.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.1 RTF report. Changes include deprecation of the SoleProprietorship class and making it equivalent to the class with the same name in the Sole Proprietorships ontology. This version also introduces a new FunctionalEntity class, as the parent of FunctionalBusinessEntity in this ontology and as the parent of Government in the GovernmentEntities ontology.",core#changeNote
+Association,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+Syndicate,"temporary, self-organizing group of people, companies, corporations or entities organized as an alliance whose purpose is to transact some specific business, or to pursue or promote a shared interest",core#definition
+FamilyOffice,family office,rdf-schema#label
+N46089328b2ab41159c106436138b7149,Party,owl#someValuesFrom
+SyndicateMember,OrganizationMember,rdf-schema#subClassOf
+,FunctionalEntities.rdf version of this ontology was modified to address text formatting hygiene issues.,core#changeNote
+Ne1f55f5266dc4be784bf288e66a994da,owl#Class,22-rdf-syntax-ns#type
+Syndicate,Organization,rdf-schema#subClassOf
+N0fac63c5a5274dada935f847b60ac3e7,owl#Restriction,22-rdf-syntax-ns#type
+MerchantCategoryCode,N4698c6ed1ab14e62a5cff6e20bd1a12b,rdf-schema#subClassOf
+MerchantCategoryCode,"Values are specified only for those merchant categories that are generally expected to originate retail financial transactions. Criteria for establishing a new category code includes (a) the merchant category is reasonable and substantially different from all other merchant categories currently represented in the list of code values; (b) the merchant category is separate and distinct from all other industries currently represented in the list of code values; (c) the proposal describes a merchant category or industry, and not a process; (d) the minimum annual sales volume of merchants included in the merchant category, taken as a whole, is USD 10 million; and (e) sufficient justification for the addition of a new code value is found.",explanatoryNote
+Syndicate,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+FunctionalBusinessEntity,N75da9638c1f94666941efe23d1117545,rdf-schema#subClassOf
+Merchant,N197c5b3747c94015a8f9dae47a50e513,rdf-schema#subClassOf
+,,owl#versionIRI
+,FunctionalEntities.rdf version of this ontology was modified to generalize certain unions where they were no longer required and eliminate an unused import.,core#changeNote
+,FunctionalEntities.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.,core#changeNote
+,owl#Ontology,22-rdf-syntax-ns#type
+Association,NotForProfitOrganization,rdf-schema#subClassOf
+,FunctionalEntities.rdf version of this ontology was augmented to include general definitions for syndicate and syndicate member (LOAN-169).,core#changeNote
+Ne5d754610c904832b31b42b9c172a293,AgentRole,22-rdf-syntax-ns#first
+Ndf9cbe512d5947c8bcf5cc3a76e76e7f,MerchantCategoryCodeScheme,owl#onClass
+Syndicate,N46089328b2ab41159c106436138b7149,rdf-schema#subClassOf
+Merchant,N59ac42342588462b9531c1e6d96f276a,rdf-schema#subClassOf
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+Syndicate,A syndicate is a temporary alliance formed by people or businesses to handle a large transaction that would be hard to execute individually. Syndication makes it easy for businesses to pool their resources and share risks.,explanatoryNote
+FunctionalEntity,owl#Class,22-rdf-syntax-ns#type
+N76124918894b4dae8fc494dbeb3f1c5d,defines,owl#onProperty
+,Functional Entities Ontology,rdf-schema#label
+ServiceProvider,FunctionalEntity,rdf-schema#subClassOf
+,FunctionalEntities.rdf version of this ontology was modified to reflect the move of some organization-specific concepts from BE to FND.,core#changeNote
+N75da9638c1f94666941efe23d1117545,1,owl#qualifiedCardinality
+Nb3a6bb1c94bd4a0db9b64724dbb493d1,isPlayedBy,owl#onProperty
+N75da9638c1f94666941efe23d1117545,FormalOrganization,owl#onClass
+N197c5b3747c94015a8f9dae47a50e513,owl#Restriction,22-rdf-syntax-ns#type
+MerchantIdentifier,merchant identifier,rdf-schema#label
+MerchantIdentifier,N7fdb99ac641c4be58b9bf6c4aec521ef,rdf-schema#subClassOf
+Association,not-for-profit organization that is owned by and acts on behalf of its members,core#definition
+N46089328b2ab41159c106436138b7149,owl#Restriction,22-rdf-syntax-ns#type
+N6870226b93d24e4c8bc69b30125c349d,Party,owl#someValuesFrom
+SyndicateMember,participating member,synonym
+N0b6de74d1ac04036bdf026710428e4ed,isIssuedBy,owl#onProperty
+MerchantCategoryCode,N16c942bce5a94c4cb0d16258478c9297,rdf-schema#subClassOf
+FamilyOffice,FunctionalBusinessEntity,rdf-schema#subClassOf
+MerchantCategoryCode,IndustrySectorClassifier,rdf-schema#subClassOf
+MerchantCategoryCodeScheme,IndustrySectorClassificationScheme,rdf-schema#subClassOf
+Nb3a6bb1c94bd4a0db9b64724dbb493d1,N0fac63c5a5274dada935f847b60ac3e7,owl#someValuesFrom
+,FunctionalEntities.rdf version of this ontology was modified to add the concept of an association.,core#changeNote
+Association,association,rdf-schema#label
+SyndicateMember,Nb3a6bb1c94bd4a0db9b64724dbb493d1,rdf-schema#subClassOf
+N81f5c33b9adf496a8e71190cd931a9f1,playsRole,owl#onProperty
+MerchantCategoryCodeScheme,merchant category code scheme,rdf-schema#label
+Nd7034cdf27594285aa17e3802b4dfd35,XMLSchema#string,owl#onDataRange
+,FunctionalEntities.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N7fdb99ac641c4be58b9bf6c4aec521ef,owl#Restriction,22-rdf-syntax-ns#type
+N59ac42342588462b9531c1e6d96f276a,isClassifiedBy,owl#onProperty
+Syndicate,"For example, when a group of investment banks work together to bring a new issue of securities to the market, they form a distributing syndicate. Other types of syndicates are created for underwriting, banking, and insurance.",core#example
+hasMerchantCategoryDescription,XMLSchema#string,rdf-schema#range
+hasMerchantCategoryDescription,owl#DatatypeProperty,22-rdf-syntax-ns#type
+SyndicateMember,syndicate participant,synonym
+SyndicateMember,owl#Class,22-rdf-syntax-ns#type
+,"This ontology defines the fundamental concepts for entities defined by their function, such as the relationship to the various forms which one or another functionally-defined entity may take. It also includes a number of basic types of entity defined by function, such as business and non-profit. The concepts in this ontology are intended to be extensible in other ontologies which may be dedicated to specific kinds of functionally-defined business entity or organization.",abstract
+MerchantCategoryCode,Nd7034cdf27594285aa17e3802b4dfd35,rdf-schema#subClassOf
+MerchantCategoryCode,MCC,abbreviation
+Merchant,merchant,rdf-schema#label
+N4698c6ed1ab14e62a5cff6e20bd1a12b,hasMerchantCategoryDescription,owl#onProperty
+Ndf9cbe512d5947c8bcf5cc3a76e76e7f,owl#Restriction,22-rdf-syntax-ns#type
+N0b6de74d1ac04036bdf026710428e4ed,owl#Restriction,22-rdf-syntax-ns#type
+CooperativeSociety,organization owned by and operated for the benefit of those using its services,core#definition
+FunctionalEntity,functional entity,rdf-schema#label
+Association,N81f5c33b9adf496a8e71190cd931a9f1,rdf-schema#subClassOf
+MerchantCategoryCodeScheme,scheme defining a set of codes for classifying merchant services,core#definition
+MerchantCategoryCode,CodeElement,rdf-schema#subClassOf
+MerchantIdentifier,owl#Class,22-rdf-syntax-ns#type
+ServiceProvider,owl#Class,22-rdf-syntax-ns#type
+FunctionalEntity,party defined in terms of a function it performs,core#definition
+MerchantIdentifier,Identifier,rdf-schema#subClassOf
+,FunctionalEntities.rdf version of this ontology was modified to address a circular definition on association.,core#changeNote
+hasMerchantCategoryDescription,provides a text description of the sector to which the code applies,core#definition
+,FunctionalEntities.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+Merchant,owl#Class,22-rdf-syntax-ns#type
+MerchantCategoryCode,"or the descriptions of the service categories are frequently used in credit card and other banking transactions for analysis, transaction classification, such as for use in promotional rewards, and sometimes tax-related purposes.",explanatoryNote
+Ne5d754610c904832b31b42b9c172a293,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+CooperativeSociety,owl#Class,22-rdf-syntax-ns#type
+N0fac63c5a5274dada935f847b60ac3e7,isMemberOf,owl#onProperty
+N16c942bce5a94c4cb0d16258478c9297,classifies,owl#onProperty
+FunctionalBusinessEntity,functional business entity,rdf-schema#label
+Nd7034cdf27594285aa17e3802b4dfd35,hasTag,owl#onProperty
+,Release,hasMaturityLevel
+MerchantIdentifier,"unique identifier for a merchant that is used, for example, for transaction interchange purposes",core#definition
+N81f5c33b9adf496a8e71190cd931a9f1,CooperativeSociety,owl#someValuesFrom
+Nb3a6bb1c94bd4a0db9b64724dbb493d1,owl#Restriction,22-rdf-syntax-ns#type
+FunctionalBusinessEntity,functional entity defined in terms of the nature of the commercial activity it conducts,core#definition
+,"FunctionalEntities.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+,MIT,license
+N7fdb99ac641c4be58b9bf6c4aec521ef,identifies,owl#onProperty
+N197c5b3747c94015a8f9dae47a50e513,isIdentifiedBy,owl#onProperty
+Association,"Associations include trade or business associations, industry sector-specific groups, and professional associations, among others. They also commonly include cooperative farms and markets.",explanatoryNote
+N6870226b93d24e4c8bc69b30125c349d,isPlayedBy,owl#onProperty
+Ndf9cbe512d5947c8bcf5cc3a76e76e7f,isDefinedIn,owl#onProperty
+Ndf9cbe512d5947c8bcf5cc3a76e76e7f,1,owl#qualifiedCardinality
+N4698c6ed1ab14e62a5cff6e20bd1a12b,owl#Restriction,22-rdf-syntax-ns#type
+N59ac42342588462b9531c1e6d96f276a,owl#Restriction,22-rdf-syntax-ns#type
+N4698c6ed1ab14e62a5cff6e20bd1a12b,XMLSchema#string,owl#someValuesFrom
+,"FunctionalEntities.rdf version of this ontology was modified to revise and extend the definition of merchant, to support merchant category codes as needed for representation of credit card transactions, merge business and functional business entity and eliminate commerce and commercial activity (which are not used anywhere in FIBO), and to clean up definitions and make them ISO 704 compliant.",core#changeNote
+N59ac42342588462b9531c1e6d96f276a,MerchantCategoryCode,owl#someValuesFrom
+FunctionalEntity,N6870226b93d24e4c8bc69b30125c349d,rdf-schema#subClassOf
+FunctionalEntity,FunctionalRole,rdf-schema#subClassOf
+Merchant,FunctionalBusinessEntity,rdf-schema#subClassOf
+SyndicateMember,role of an individual or organization that is a member of an alliance set up to pool resources and share risk with respect to a large transaction,core#definition
+CooperativeSociety,FunctionalBusinessEntity,rdf-schema#subClassOf
+CooperativeSociety,cooperative,synonym
+FamilyOffice,organization that assumes the day-to-day administration and management of a family's affairs,core#definition
+MerchantCategoryCodeScheme,N76124918894b4dae8fc494dbeb3f1c5d,rdf-schema#subClassOf
+hasMerchantCategoryDescription,has merchant category description,rdf-schema#label
+OrganizationIdentifier,N0b6de74d1ac04036bdf026710428e4ed,rdf-schema#subClassOf
+CooperativeSociety,"marketing cooperative, and a credit union",core#example
+SyndicateMember,syndicate member,rdf-schema#label
+N7fdb99ac641c4be58b9bf6c4aec521ef,Merchant,owl#onClass

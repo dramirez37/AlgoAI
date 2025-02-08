@@ -1,0 +1,21 @@
+source_id,target_id,relationship
+,2020-12-28T18:00:00,issued
+,,owl#imports
+,"AllFND.rdf version of this ontology was modified to eliminate the unused legitimate organizations ontology, thereby simplifying the overal organization hierarchy, eliminate duplication with LCC, and merge countries with locations.",core#changeNote
+,MIT,license
+,,rdf-schema#seeAlso
+,Financial Industry Business Ontology (FIBO) Foundations (FND) Domain,title
+,,owl#versionIRI
+,"The 'all' FND ontology is provided for convenience for FIBO users.  It imports all of the Production (Released) ontologies that comprise the FIBO Foundations (FND) domain, and can be loaded directly in tools such as Protege with the expectation that all of the accompanying content will be loaded.",explanatoryNote
+,"Copyright (c) 2017-2024 EDM Council, Inc.",copyright
+,2024-11-19T18:00:00,modified
+,owl#Ontology,22-rdf-syntax-ns#type
+,all FND,rdf-schema#label
+,AllFND.rdf version of the ontology was modified to eliminate the now redundant Roles and Quantities and Units ontologies (FND-386).,core#changeNote
+,or concepts will be integrated into Foundations as required.,abstract
+,AllFND.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary and to eliminate unnecessary imports statements.,core#changeNote
+,"Copyright (c) 2017-2024 Object Management Group, Inc.",copyright
+,AllFND.rdf version of the ontology was modified to add an ontology for real property (LOAN-168).,core#changeNote
+,FIBO FND Domain,title
+,AllFND.rdf version of this ontology was modified to incorporate the recently released assessments and ratings ontologies.,core#changeNote
+,AllFND.rdf version of this ontology was modified to merge goals with objectives.,core#changeNote

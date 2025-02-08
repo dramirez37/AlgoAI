@@ -1,0 +1,176 @@
+source_id,target_id,relationship
+DISSOLUTION,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+MERGERS_AND_ACQUISITIONS,Regulators also can mandate break-ups of companies for anti-trust reasons.,core#note
+CHANGE_LEGAL_NAME,OrganizationNameChange,22-rdf-syntax-ns#type
+CHANGE_OTHER_NAMES,CHANGE_OTHER_NAMES,rdf-schema#label
+VOLUNTARY_ARRANGEMENT,VOLUNTARY_ARRANGEMENT,rdf-schema#label
+VOLUNTARY_ARRANGEMENT,BusinessStrategyClassifier,22-rdf-syntax-ns#type
+GLEIF-CorporateActionClassificationScheme,scheme for classifying corporate actions according to the GLEIF LEI Common Data Format (CDF) schema,core#definition
+CHANGE_HQ_ADDRESS,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+LIQUIDATION,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+VOLUNTARY_ARRANGEMENT,owl#NamedIndividual,22-rdf-syntax-ns#type
+GLEIF-CorporateActionClassificationScheme,2021-03-04_lei-cdf-v3-1.xsd,rdf-schema#seeAlso
+CHANGE_LEGAL_ADDRESS,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+StandaloneGroup,ActionGroup,22-rdf-syntax-ns#type
+TRANSFORMATION_SUBSIDIARY_TO_BRANCH,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+CHANGE_LEGAL_ADDRESS,CHANGE_LEGAL_ADDRESS,hasTag
+TRANSFORMATION_SUBSIDIARY_TO_BRANCH,MergerAcquisition,22-rdf-syntax-ns#type
+SPINOFF,owl#NamedIndividual,22-rdf-syntax-ns#type
+MERGERS_AND_ACQUISITIONS,owl#NamedIndividual,22-rdf-syntax-ns#type
+ReverseTakeoverGroup,GLEIF classifier for corporate actions that are part of a reverse takeover event,core#definition
+GLEIF-CorporateActionClassificationScheme,ActionClassificationScheme,22-rdf-syntax-ns#type
+TRANSFORMATION_BRANCH_TO_SUBSIDIARY,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+N81dc25c7df974e65b5bc544558ae47e0,owl#Restriction,22-rdf-syntax-ns#type
+BREAKUP,"GLEIF classifier for corporate actions in which a single company splits into two or more independent, separately-run companies",core#definition
+SPINOFF,GLEIF classifier for corporate actions where the shareholders of the original entity are compensated for the value loss of the original entity via shares of the new entity or via dividend,core#definition
+N81dc25c7df974e65b5bc544558ae47e0,hasTag,owl#onProperty
+LIQUIDATION,LIQUIDATION,hasTag
+GLEIF-CorporateActionClassificationScheme,owl#NamedIndividual,22-rdf-syntax-ns#type
+ABSORPTION,GLEIF classifier for corporate actions that is a kind of merger where there is a combination of two or more companies into an existing company,core#definition
+CHANGE_HQ_ADDRESS,CHANGE_HQ_ADDRESS,rdf-schema#label
+DEMERGER,GLEIF classifier for corporate actions involving a distribution of securities issued by another legal entity,core#definition
+BREAKUP,BREAKUP,rdf-schema#label
+BANKRUPTCY,BANKRUPTCY,rdf-schema#label
+MERGERS_AND_ACQUISITIONS,MERGERS_AND_ACQUISITIONS,hasTag
+ActionGroup,Classifier,rdf-schema#subClassOf
+CHANGE_LEGAL_NAME,owl#NamedIndividual,22-rdf-syntax-ns#type
+ReverseTakeoverGroup,owl#NamedIndividual,22-rdf-syntax-ns#type
+MERGERS_AND_ACQUISITIONS,"GLEIF classifier for corporate actions in which a single company splits into two or more independent, separately-run companies",core#definition
+ComplexLegalFormGroup,complex legal form group,rdf-schema#label
+CHANGE_OTHER_NAMES,owl#NamedIndividual,22-rdf-syntax-ns#type
+BANKRUPTCY,GLEIF classifier for corporate actions in which the status of a legal entity is that it is unable to pay creditors,core#definition
+TRANSFORMATION_UMBRELLA_TO_STANDALONE,TRANSFORMATION_UMBRELLA_TO_STANDALONE,rdf-schema#label
+BREAKUP,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+,,owl#imports
+TRANSFORMATION_BRANCH_TO_SUBSIDIARY,TRANSFORMATION_BRANCH_TO_SUBSIDIARY,rdf-schema#label
+TRANSFORMATION_UMBRELLA_TO_STANDALONE,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+ActionGroup,owl#Class,22-rdf-syntax-ns#type
+CHANGE_HQ_ADDRESS,GLEIF classifier for corporate actions involving a notification of a change in the headquarters address of the legal entity,core#definition
+CHANGE_HQ_ADDRESS,OrganizationAddressChange,22-rdf-syntax-ns#type
+INSOLVENCY,"GLEIF classifier for corporate actions involving the entry of a decree or order by a court or agency or supervisory authority having jurisdiction in the premises the appointment of a trustee-in-bankruptcy or similar official for such party in any insolvency, readjustment of debt, marshalling of assets and liabilities, or similar proceedings, or for the winding up or liquidation of their respective affairs (event completed)",core#definition
+ReverseTakeoverGroup,ActionGroup,22-rdf-syntax-ns#type
+DEMERGER,DEMERGER,hasTag
+CHANGE_LEGAL_NAME,GLEIF classifier for corporate actions involving a notification of a change in the legal name of the legal entity,core#definition
+DISSOLUTION,DISSOLUTION,rdf-schema#label
+MERGERS_AND_ACQUISITIONS,MergerAcquisition,22-rdf-syntax-ns#type
+INSOLVENCY,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+,"This ontology includes the codes for corporate action events as specified in GLEIF LEI Common Data Format (CDF) schema, as of 4 March 2021.",abstract
+ActionGroup,action group,rdf-schema#label
+,,owl#versionIRI
+CHANGE_LEGAL_FORM,CHANGE_LEGAL_FORM,hasTag
+CHANGE_HQ_ADDRESS,owl#NamedIndividual,22-rdf-syntax-ns#type
+LIQUIDATION,owl#NamedIndividual,22-rdf-syntax-ns#type
+ReverseTakeoverGroup,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+CHANGE_LEGAL_ADDRESS,OrganizationAddressChange,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+LegalFormNameGroup,owl#NamedIndividual,22-rdf-syntax-ns#type
+TRANSFORMATION_SUBSIDIARY_TO_BRANCH,TRANSFORMATION_SUBSIDIARY_TO_BRANCH,rdf-schema#label
+VOLUNTARY_ARRANGEMENT,GLEIF classifier for corporate actions consisting of a procedure that allows a legal entity to settle debts by paying only a proportion of the amount that it owes to creditors or to come to some other arrangement with its creditors over the payment of its debts (event completed),core#definition
+N81dc25c7df974e65b5bc544558ae47e0,XMLSchema#string,owl#someValuesFrom
+CHANGE_LEGAL_NAME,CHANGE_LEGAL_NAME,hasTag
+ACQUISITION_BRANCH,ACQUISITION_BRANCH,rdf-schema#label
+CHANGE_LEGAL_FORM,GLEIF classifier for corporate actions involving a notification of a change in the legal form of the legal entity,core#definition
+SPINOFF,SPINOFF,hasTag
+CHANGE_LEGAL_ADDRESS,owl#NamedIndividual,22-rdf-syntax-ns#type
+LIQUIDATION,"GLEIF classifier for corporate actions consisting of distribution of cash, assets, or both",core#definition
+BREAKUP,Divestiture,22-rdf-syntax-ns#type
+ACQUISITION_BRANCH,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+CHANGE_LEGAL_ADDRESS,GLEIF classifier for corporate actions involving a notification of a change in the legal address of the legal entity,core#definition
+TRANSFORMATION_UMBRELLA_TO_STANDALONE,LegalFormChange,22-rdf-syntax-ns#type
+ACQUISITION_BRANCH,GLEIF classifier for corporate actions where the acquiring legal entity purchases an international branch entity,core#definition
+CHANGE_OTHER_NAMES,GLEIF classifier for corporate actions involving a notification of a change in the trade- or doing business name of the legal entity,core#definition
+INSOLVENCY,INSOLVENCY,hasTag
+StandaloneGroup,"GLEIF classifier for corporate actions that are single, standalone events rather than a combination of multiple events",core#definition
+TRANSFORMATION_BRANCH_TO_SUBSIDIARY,owl#NamedIndividual,22-rdf-syntax-ns#type
+StandaloneGroup,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+VOLUNTARY_ARRANGEMENT,EntitySpecificCreditEvent,22-rdf-syntax-ns#type
+CHANGE_LEGAL_FORM,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+ComplexLegalFormGroup,owl#NamedIndividual,22-rdf-syntax-ns#type
+BANKRUPTCY,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+DEMERGER,"The distributed securities may either be of a newly created or of an existing legal entity. For example, spin-off, demerger, unbundling, divestment.",core#note
+CHANGE_LEGAL_ADDRESS,CHANGE_LEGAL_ADDRESS,rdf-schema#label
+BREAKUP,BREAKUP,hasTag
+LIQUIDATION,BusinessStrategyClassifier,22-rdf-syntax-ns#type
+DEMERGER,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+N5216d748fae5496f8c106ac864756157,owl#Restriction,22-rdf-syntax-ns#type
+TRANSFORMATION_UMBRELLA_TO_STANDALONE,compartments,core#definition
+ABSORPTION,ABSORPTION,rdf-schema#label
+N5216d748fae5496f8c106ac864756157,Action,owl#someValuesFrom
+CHANGE_LEGAL_FORM,LegalFormChange,22-rdf-syntax-ns#type
+DISSOLUTION,owl#NamedIndividual,22-rdf-syntax-ns#type
+StandaloneGroup,STANDALONE,hasTag
+INSOLVENCY,BusinessStrategyClassifier,22-rdf-syntax-ns#type
+TRANSFORMATION_BRANCH_TO_SUBSIDIARY,MergerAcquisition,22-rdf-syntax-ns#type
+TRANSFORMATION_UMBRELLA_TO_STANDALONE,owl#NamedIndividual,22-rdf-syntax-ns#type
+CHANGE_OTHER_NAMES,CHANGE_OTHER_NAMES,hasTag
+VOLUNTARY_ARRANGEMENT,VOLUNTARY_ARRANGEMENT,hasTag
+TRANSFORMATION_BRANCH_TO_SUBSIDIARY,TRANSFORMATION_BRANCH_TO_SUBSIDIARY,hasTag
+ComplexLegalFormGroup,COMPLEX_CHANGE_LEGAL_FORM,hasTag
+,GLEIF Corporate Action Individuals Ontology,rdf-schema#label
+N5216d748fae5496f8c106ac864756157,classifies,owl#onProperty
+ABSORPTION,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+INSOLVENCY,owl#NamedIndividual,22-rdf-syntax-ns#type
+ABSORPTION,MergerAcquisition,22-rdf-syntax-ns#type
+StandaloneGroup,standalone group,rdf-schema#label
+DISSOLUTION,DISSOLUTION,hasTag
+BREAKUP,Regulators also can mandate break-ups of companies for anti-trust reasons.,core#note
+LegalFormNameGroup,ActionGroup,22-rdf-syntax-ns#type
+DEMERGER,Divestiture,22-rdf-syntax-ns#type
+LegalFormNameGroup,CHANGE_LEGAL_FORM_AND_NAME,hasTag
+ReverseTakeoverGroup,reverse takeover group,rdf-schema#label
+DEMERGER,DEMERGER,rdf-schema#label
+ActionGroup,N5216d748fae5496f8c106ac864756157,rdf-schema#subClassOf
+ACQUISITION_BRANCH,ACQUISITION_BRANCH,hasTag
+CHANGE_LEGAL_FORM,CHANGE_LEGAL_FORM,rdf-schema#label
+DISSOLUTION,BusinessStrategyClassifier,22-rdf-syntax-ns#type
+VOLUNTARY_ARRANGEMENT,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+TRANSFORMATION_BRANCH_TO_SUBSIDIARY,GLEIF classifier for corporate actions involving the transfer of all of the assets and liabilities of an International Branch to the new subsidiary entity in exchange for the transfer of securities representing the capital of the subsidiary entity receiving the transfer,core#definition
+LegalFormNameGroup,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+LIQUIDATION,EntitySpecificCreditEvent,22-rdf-syntax-ns#type
+INSOLVENCY,EntitySpecificCreditEvent,22-rdf-syntax-ns#type
+,Provisional,hasMaturityLevel
+BANKRUPTCY,BusinessStrategyClassifier,22-rdf-syntax-ns#type
+BREAKUP,owl#NamedIndividual,22-rdf-syntax-ns#type
+TRANSFORMATION_SUBSIDIARY_TO_BRANCH,GLEIF classifier for corporate actions involving the transfer of all of the assets and liabilities of a subsidiary to an International Branch entity in exchange for the transfer of securities representing the capital of the International Branch entity receiving the transfer,core#definition
+CHANGE_HQ_ADDRESS,CHANGE_HQ_ADDRESS,hasTag
+CHANGE_LEGAL_NAME,CHANGE_LEGAL_NAME,rdf-schema#label
+CHANGE_OTHER_NAMES,OrganizationNameChange,22-rdf-syntax-ns#type
+BANKRUPTCY,BANKRUPTCY,hasTag
+,MIT,license
+StandaloneGroup,owl#NamedIndividual,22-rdf-syntax-ns#type
+,"Copyright (c) 2022-2023 EDM Council, Inc.",copyright
+ComplexLegalFormGroup,ActionGroup,22-rdf-syntax-ns#type
+LegalFormNameGroup,"GLEIF classifier for corporate actions involving a change in the legal form, name, or other information such as an address change for an organization",core#definition
+CHANGE_LEGAL_FORM,owl#NamedIndividual,22-rdf-syntax-ns#type
+SPINOFF,SPINOFF,rdf-schema#label
+ActionGroup,classifier that differentiates corporate actions based on a GLEIF specific grouping,core#definition
+SPINOFF,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+ComplexLegalFormGroup,GLEIF classifier for corporate actions involving a more complex legal entity event including change of the legal entity status triggered by change of the legal form,core#definition
+MERGERS_AND_ACQUISITIONS,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+LIQUIDATION,LIQUIDATION,rdf-schema#label
+ActionGroup,N81dc25c7df974e65b5bc544558ae47e0,rdf-schema#subClassOf
+BANKRUPTCY,owl#NamedIndividual,22-rdf-syntax-ns#type
+LIQUIDATION,Liquidation,22-rdf-syntax-ns#type
+INSOLVENCY,INSOLVENCY,rdf-schema#label
+TRANSFORMATION_UMBRELLA_TO_STANDALONE,TRANSFORMATION_UMBRELLA_TO_STANDALONE,hasTag
+LIQUIDATION,Debt may be paid in order of priority based on preferred claims to assets specified by the security (event completed).,core#note
+MERGERS_AND_ACQUISITIONS,MERGERS_AND_ACQUISITIONS,rdf-schema#label
+DEMERGER,owl#NamedIndividual,22-rdf-syntax-ns#type
+GLEIF-CorporateActionClassificationScheme,GLEIF corporate action classification scheme,rdf-schema#label
+SPINOFF,SpinOff,22-rdf-syntax-ns#type
+ACQUISITION_BRANCH,MergerAcquisition,22-rdf-syntax-ns#type
+LegalFormNameGroup,legal form and name group,rdf-schema#label
+CHANGE_LEGAL_NAME,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+ComplexLegalFormGroup,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+BANKRUPTCY,Bankruptcy,22-rdf-syntax-ns#type
+ABSORPTION,ABSORPTION,hasTag
+CHANGE_OTHER_NAMES,GLEIF-CorporateActionClassificationScheme,isDefinedIn
+DISSOLUTION,"GLEIF classifier for corporate actions involving (i) A voluntary termination of operations, (ii) a general assignment for the benefit of the legal entity's creditors or (iii) any other liquidation, dissolution or winding up of the legal entity (excluding a Liquidity Event), whether voluntary or involuntary (event completed)",core#definition
+TRANSFORMATION_SUBSIDIARY_TO_BRANCH,owl#NamedIndividual,22-rdf-syntax-ns#type
+BANKRUPTCY,Bankruptcy usually involves a formal court ruling. Securities may become valueless (event completed).,core#note
+ACQUISITION_BRANCH,owl#NamedIndividual,22-rdf-syntax-ns#type
+ReverseTakeoverGroup,REVERSE_TAKEOVER,hasTag
+ABSORPTION,owl#NamedIndividual,22-rdf-syntax-ns#type
+TRANSFORMATION_SUBSIDIARY_TO_BRANCH,TRANSFORMATION_SUBSIDIARY_TO_BRANCH,hasTag
+DISSOLUTION,EntitySpecificCreditEvent,22-rdf-syntax-ns#type
+ABSORPTION,"In the case of absorption, only one company survives and all others lose their identity.",core#note

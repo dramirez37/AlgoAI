@@ -1,0 +1,251 @@
+source_id,target_id,relationship
+CurrencyFuture,forex future,synonym
+FutureOnFuture,N7e52430b3d5c4db1bd353b266b4db513,rdf-schema#subClassOf
+DebtInstrumentFuture,Nbe1f78888db34642ac80b586795a206b,rdf-schema#subClassOf
+N428e202f0d894799a221578932943b82,MoneyMarketInstrument,owl#someValuesFrom
+Future,owl#Class,22-rdf-syntax-ns#type
+EquityForward,N7081f9e8e2304dd692065dcdd48e173f,rdf-schema#subClassOf
+FutureOnOption,owl#Class,22-rdf-syntax-ns#type
+Future,futures contract,synonym
+N33cdf2afa8a646bbb5d72cf9d7e65955,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+hasDividendAdjustmentPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+FinancialFuture,financial future,rdf-schema#label
+DebtInstrumentFuture,DebtInstrumentDerivative,rdf-schema#subClassOf
+N7e52430b3d5c4db1bd353b266b4db513,hasUnderlier,owl#onProperty
+N7081f9e8e2304dd692065dcdd48e173f,owl#Restriction,22-rdf-syntax-ns#type
+N11f04e2685d949e0997c77163b89bcaf,Future,owl#someValuesFrom
+Future,N65ddcb89e2624bd98035387300aec6c9,rdf-schema#subClassOf
+InterestRateFuture,futures contract with an interest-bearing instrument as the underlying asset,core#definition
+N65ddcb89e2624bd98035387300aec6c9,hasLotSize,owl#onProperty
+FutureOnOption,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+Nc1dbbc4964ea4308a4da79a1c9627367,SettlementTerms,owl#someValuesFrom
+CurrencyFuture,owl#Class,22-rdf-syntax-ns#type
+EquityForward,"forward contract to buy or sell the underlying equity stock, equity index, basket of equity stock, equity futures contract, or equity option at a specified future date at the price specified at the outset of the contract",core#definition
+BondFuture,owl#Class,22-rdf-syntax-ns#type
+N3bc3e1b95d5741cfa2281683c724a618,N4b6ec9603ec448379179d5b4e2901a36,22-rdf-syntax-ns#rest
+InterestRateFuture,Nafa81ef2c9214f9c9d29da2d879509f3,rdf-schema#subClassOf
+FinancialFuture,owl#Class,22-rdf-syntax-ns#type
+Forward,forward,rdf-schema#label
+DebtInstrumentFuture,futures contract whose underlying asset is at least one debt instrument,core#definition
+N708b7cbff4bf4bde90d718ec6eda5525,MixedBasket,owl#someValuesFrom
+Nc1dbbc4964ea4308a4da79a1c9627367,owl#Restriction,22-rdf-syntax-ns#type
+N1915d37a43a84f53b0f9ab076b0515ce,BasketOfEquities,22-rdf-syntax-ns#first
+hasMethodOfAdjustment,indicates the method used to address any changes to the contract based on events that occur over the contract lifecycle,core#definition
+FutureOnSwap,future on swap,rdf-schema#label
+N11f04e2685d949e0997c77163b89bcaf,appliesTo,owl#onProperty
+Nf1695055c3c14cb9b1dcb690752f1e82,N8636640487024f67a3defeb7cdd4fb5d,owl#someValuesFrom
+N65ddcb89e2624bd98035387300aec6c9,owl#Restriction,22-rdf-syntax-ns#type
+hasMultiple,owl#DatatypeProperty,22-rdf-syntax-ns#type
+EquityFuture,"futures contract whose underlying asset is at least one equity security, specifically a publicly issued and traded share",core#definition
+hasMethodOfAdjustment,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"FuturesAndForwards.rdf version of this ontology was modified to incorporate the concepts that were originally in a separate, very small equity forwards ontology.",core#changeNote
+Nea6f0ef8070647158aa9b3e5473008bd,hasUnderlier,owl#onProperty
+IndexFuture,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+BasketFuture,owl#Class,22-rdf-syntax-ns#type
+N5df09114f56f466881841d7dfec69b60,DesignatedContractMarket,owl#someValuesFrom
+DebtInstrumentFuture,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+ForwardContractAdjustmentMethod,method by which adjustments will be made to the contract should one or more of a number of extraordinary events occur,core#definition
+EquityForward,equity forward,rdf-schema#label
+Forward,owl#Class,22-rdf-syntax-ns#type
+N3475ac1d7ee14fd8837b67f5ba0087ec,hasDividendAdjustmentPeriod,owl#onProperty
+Forward,forward contract,synonym
+N234da6fa7074473cbc38ec285950e30d,owl#Restriction,22-rdf-syntax-ns#type
+ForwardContractAdjustmentMethod,owl#Class,22-rdf-syntax-ns#type
+CurrencyFuture,FinancialFuture,rdf-schema#subClassOf
+Nb0879a1a52f84b2c9ad0dbe39a9e9b7b,EquityFuture,22-rdf-syntax-ns#first
+EquityForward,Forward,rdf-schema#subClassOf
+N1915d37a43a84f53b0f9ab076b0515ce,Ndf5223b00f3049f8807a303a005b0f4d,22-rdf-syntax-ns#rest
+hasDividendAdjustmentPeriod,hasDatePeriod,rdf-schema#subPropertyOf
+MoneyMarketFuture,money market future,rdf-schema#label
+StandardizedFuturesListingTerms,owl#Class,22-rdf-syntax-ns#type
+,"This ontology defines concepts for derivative contracts, including forwards and futures, representing a commitment to sell or purchase the underlier at a defined price at a given time in the future.",abstract
+Ndf5223b00f3049f8807a303a005b0f4d,ListedShare,22-rdf-syntax-ns#first
+N802a413595d0477f8bbeaea6eae66c53,EquityIndex,22-rdf-syntax-ns#first
+,,owl#imports
+DebtInstrumentFuture,FinancialFuture,rdf-schema#subClassOf
+BondFuture,futures contract whose underlying asset is at least one bond,core#definition
+Na8527888543145eba6d20b8d9f8e5daa,owl#Restriction,22-rdf-syntax-ns#type
+Nec761ae9639f40aba4b9f1e99b6970fd,hasUnderlier,owl#onProperty
+Nea6f0ef8070647158aa9b3e5473008bd,ListedShare,owl#someValuesFrom
+Forward,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+CurrencyFuture,currency future,rdf-schema#label
+InterestRateFuture,interest rate future,rdf-schema#label
+BasketFuture,basket future,rdf-schema#label
+N8d7e8f956c5d48f7b10c2578b7fc1331,EconomicIndicator,22-rdf-syntax-ns#first
+IndexFuture,futures contract whose underlying asset is at least one reference index or economic indicator,core#definition
+DividendFuture,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+Forward,"dividend received on the underlying). Unlike a futures contract though, the price may also include a premium for counterparty credit risk, and the fact that there is not daily marking to market process to minimize default risk. If there is no allowance for these credit risks, then the forward price will equal the futures price.",explanatoryNote
+IndexFuture,index future,rdf-schema#label
+FutureOnOption,future on option,rdf-schema#label
+hasConversionFactor,note ($1 par value) to yield a fixed rate. The conversion factor is used to calculate a final delivery price.,core#definition
+IndexFuture,Nf1695055c3c14cb9b1dcb690752f1e82,rdf-schema#subClassOf
+hasMultiple,XMLSchema#decimal,rdf-schema#range
+StandardizedFuturesListingTerms,standardized futures listing terms,rdf-schema#label
+DividendAdjustmentPeriod,"date period used to calculate the difference, if any between an anticipated dividend and the actual dividend distributed in that period",core#definition
+EquityForward,owl#Class,22-rdf-syntax-ns#type
+StandardizedFuturesTerms,owl#Class,22-rdf-syntax-ns#type
+,,owl#versionIRI
+N4b6ec9603ec448379179d5b4e2901a36,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+EquityFuture,FinancialFuture,rdf-schema#subClassOf
+N802a413595d0477f8bbeaea6eae66c53,Nb0879a1a52f84b2c9ad0dbe39a9e9b7b,22-rdf-syntax-ns#rest
+Ndf5223b00f3049f8807a303a005b0f4d,N802a413595d0477f8bbeaea6eae66c53,22-rdf-syntax-ns#rest
+,owl#Ontology,22-rdf-syntax-ns#type
+EquityFuture,Ncc241770cc4448e38714802c5cb3bbf8,rdf-schema#subClassOf
+hasMultiple,indicates the multiple for determining the price of the futures contract in relation to the underlying index rate,core#definition
+hasMethodOfAdjustment,hasStrategy,rdf-schema#subPropertyOf
+,"Copyright (c) 2015-2023 EDM Council, Inc.",copyright
+DividendAdjustmentPeriod,owl#Class,22-rdf-syntax-ns#type
+N8636640487024f67a3defeb7cdd4fb5d,N8d7e8f956c5d48f7b10c2578b7fc1331,owl#unionOf
+N5b3757671c7a45dea483232065584b98,appliesTo,owl#onProperty
+N5df09114f56f466881841d7dfec69b60,owl#Restriction,22-rdf-syntax-ns#type
+N708b7cbff4bf4bde90d718ec6eda5525,owl#Restriction,22-rdf-syntax-ns#type
+DebtInstrumentFuture,owl#Class,22-rdf-syntax-ns#type
+Nf4809fc394e24b8995bae2eef1e5326c,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+EquityForward,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+N708b7cbff4bf4bde90d718ec6eda5525,hasUnderlier,owl#onProperty
+Nafa81ef2c9214f9c9d29da2d879509f3,hasUnderlier,owl#onProperty
+StandardizedFuturesListingTerms,"Individual listings will take on these standard terms but they are not contractual terms of the futures contract, they are facts about that listing on that exchange.",explanatoryNote
+,"FuturesAndForwards.rdf version of this ontology was modified to eliminate references to hasContractSize, clean up unnecessary restrictions on Future and Forward, and eliminate the redundant listing class.",core#changeNote
+N234da6fa7074473cbc38ec285950e30d,Swap,owl#someValuesFrom
+BondFuture,bond future,rdf-schema#label
+Ncc241770cc4448e38714802c5cb3bbf8,ListedShare,owl#someValuesFrom
+CurrencyFuture,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+N200f2ac3a77949979445038785a208ac,owl#Class,22-rdf-syntax-ns#type
+StandardizedFuturesListingTerms,N5df09114f56f466881841d7dfec69b60,rdf-schema#subClassOf
+ForwardContractAdjustmentMethod,Strategy,rdf-schema#subClassOf
+DividendAdjustmentPeriod,dividend adjustment period,rdf-schema#label
+hasMultiple,hasNumericValue,rdf-schema#subPropertyOf
+N5b3757671c7a45dea483232065584b98,Listing,owl#someValuesFrom
+hasConversionFactor,hasNumericValue,rdf-schema#subPropertyOf
+,"Copyright (c) 2015-2023 Object Management Group, Inc.",copyright
+Nea6f0ef8070647158aa9b3e5473008bd,owl#Restriction,22-rdf-syntax-ns#type
+hasConversionFactor,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FinancialFuture,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+InterestRateFuture,"Most interest rate futures that trade on American exchanges use U.S. Treasury securities, such as Treasury bills, Treasury bonds, certificates of deposit, Treasury notes, and Ginnie Mae securities, as the underlying asset.",explanatoryNote
+InterestRateFuture,FinancialFuture,rdf-schema#subClassOf
+Na8527888543145eba6d20b8d9f8e5daa,specifies,owl#onProperty
+StandardizedFuturesTerms,N11f04e2685d949e0997c77163b89bcaf,rdf-schema#subClassOf
+FinancialFuture,futures contract based on underlying assets excluding commodities,core#definition
+,"FuturesAndForwards.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+DebtInstrumentFuture,debt instrument future,rdf-schema#label
+BasketFuture,N708b7cbff4bf4bde90d718ec6eda5525,rdf-schema#subClassOf
+EquityFuture,EquityDerivative,rdf-schema#subClassOf
+N428e202f0d894799a221578932943b82,owl#Restriction,22-rdf-syntax-ns#type
+Forward,OverTheCounterInstrument,rdf-schema#subClassOf
+StandardizedFuturesTerms,standardized futures terms,rdf-schema#label
+Nb0879a1a52f84b2c9ad0dbe39a9e9b7b,N33cdf2afa8a646bbb5d72cf9d7e65955,22-rdf-syntax-ns#rest
+FutureOnSwap,futures contract whose underlying asset is at least one swap contract,core#definition
+StandardizedFuturesListingTerms,StandardizedTerms,rdf-schema#subClassOf
+Nec761ae9639f40aba4b9f1e99b6970fd,owl#Restriction,22-rdf-syntax-ns#type
+N7e52430b3d5c4db1bd353b266b4db513,owl#Restriction,22-rdf-syntax-ns#type
+hasMultiple,has multiple,rdf-schema#label
+,Futures and Forwards Ontology,rdf-schema#label
+N9ff7ce4fa931445b899363ca4fd77607,owl#Class,22-rdf-syntax-ns#type
+N9ff7ce4fa931445b899363ca4fd77607,N1915d37a43a84f53b0f9ab076b0515ce,owl#unionOf
+Nafa81ef2c9214f9c9d29da2d879509f3,N200f2ac3a77949979445038785a208ac,owl#someValuesFrom
+Nc96cebb4695f474a9002dd3807c41b69,hasUnderlier,owl#onProperty
+StandardizedFuturesListingTerms,DerivativeTerms,rdf-schema#subClassOf
+FutureOnSwap,N234da6fa7074473cbc38ec285950e30d,rdf-schema#subClassOf
+CurrencyFuture,foreign exchange future,synonym
+hasDividendAdjustmentPeriod,expected dividend and the actual dividend issued during that period,core#definition
+FinancialFuture,Future,rdf-schema#subClassOf
+hasConversionFactor,BondFuture,rdf-schema#domain
+StandardizedFuturesTerms,"Standard symbology for the commodities are standardized by the exchanges as part of their standard contracts, for example trading in standard bushels, commonly defined kinds of oil and so on. These give the units in which lot sizes are described and defined.",explanatoryNote
+IndexFuture,owl#Class,22-rdf-syntax-ns#type
+DividendFuture,Nea6f0ef8070647158aa9b3e5473008bd,rdf-schema#subClassOf
+StandardizedFuturesTerms,Na8527888543145eba6d20b8d9f8e5daa,rdf-schema#subClassOf
+hasConversionFactor,XMLSchema#decimal,rdf-schema#range
+N6733dae0819d4f5ab584f0b5b559d97c,owl#Restriction,22-rdf-syntax-ns#type
+hasMultiple,IndexFuture,rdf-schema#domain
+Future,"A futures contract obligates the buyer to pay the seller a predetermined price based on the market value of the underlier, unless the contract is sold before settlement date which may happen if a trader waits to take a profit or cut a loss. This contrasts with options trading in which the option buyer may choose whether or not to exercise the option. Futures are distinguished from generic forward contracts in that they contain standardized terms, trade on a formal exchange, are regulated by overseeing agencies, and are guaranteed by clearing houses. Also, in order to insure that payment will occur, futures have a margin requirement that must be settled daily. Finally, by making an offsetting trade, taking delivery of goods, or arranging for an exchange of goods, futures contracts can be closed. Hedgers often trade futures for the purpose of keeping price risk in check.",explanatoryNote
+N7e52430b3d5c4db1bd353b266b4db513,Future,owl#someValuesFrom
+Nec761ae9639f40aba4b9f1e99b6970fd,Bond,owl#someValuesFrom
+BondFuture,Nec761ae9639f40aba4b9f1e99b6970fd,rdf-schema#subClassOf
+DividendAdjustmentPeriod,DatePeriod,rdf-schema#subClassOf
+Nbe1f78888db34642ac80b586795a206b,owl#Restriction,22-rdf-syntax-ns#type
+Ncc241770cc4448e38714802c5cb3bbf8,hasUnderlier,owl#onProperty
+EquityForward,N3475ac1d7ee14fd8837b67f5ba0087ec,rdf-schema#subClassOf
+Nbe1f78888db34642ac80b586795a206b,hasUnderlier,owl#onProperty
+N6733dae0819d4f5ab584f0b5b559d97c,hasMethodOfAdjustment,owl#onProperty
+FutureOnFuture,future on future,rdf-schema#label
+EquityFuture,equity future,rdf-schema#label
+ForwardContractAdjustmentMethod,forward contract adjustment method,rdf-schema#label
+Nf4809fc394e24b8995bae2eef1e5326c,ReferenceIndex,22-rdf-syntax-ns#first
+InterestRateFuture,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+FutureOnSwap,FinancialFuture,rdf-schema#subClassOf
+N11f04e2685d949e0997c77163b89bcaf,owl#Restriction,22-rdf-syntax-ns#type
+hasMethodOfAdjustment,ForwardContractAdjustmentMethod,rdf-schema#range
+EquityFuture,owl#Class,22-rdf-syntax-ns#type
+Nafa81ef2c9214f9c9d29da2d879509f3,owl#Restriction,22-rdf-syntax-ns#type
+Nbe1f78888db34642ac80b586795a206b,DebtInstrument,owl#someValuesFrom
+FutureOnOption,futures contract whose underlying asset is at least one option contract,core#definition
+FutureOnFuture,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+CurrencyFuture,futures contract whose underlying asset is an agreement to exchange a specified amount of one currency for another at some point in the future based on pricing stated in the contract,core#definition
+EquityForward,N6733dae0819d4f5ab584f0b5b559d97c,rdf-schema#subClassOf
+MoneyMarketFuture,DebtInstrumentFuture,rdf-schema#subClassOf
+N7081f9e8e2304dd692065dcdd48e173f,N9ff7ce4fa931445b899363ca4fd77607,owl#someValuesFrom
+N5df09114f56f466881841d7dfec69b60,hasPublisher,owl#onProperty
+N6733dae0819d4f5ab584f0b5b559d97c,ForwardContractAdjustmentMethod,owl#someValuesFrom
+N3475ac1d7ee14fd8837b67f5ba0087ec,owl#Restriction,22-rdf-syntax-ns#type
+DividendFuture,EquityDerivative,rdf-schema#subClassOf
+hasDividendAdjustmentPeriod,EquityForward,rdf-schema#domain
+hasDividendAdjustmentPeriod,has dividend adjustment period,rdf-schema#label
+FutureOnOption,Nc96cebb4695f474a9002dd3807c41b69,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+hasConversionFactor,has conversion factor,rdf-schema#label
+FutureOnFuture,FinancialFuture,rdf-schema#subClassOf
+BasketFuture,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+EquityFuture,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+Nc96cebb4695f474a9002dd3807c41b69,Option,owl#someValuesFrom
+Forward,DerivativeInstrument,rdf-schema#subClassOf
+N7081f9e8e2304dd692065dcdd48e173f,hasUnderlier,owl#onProperty
+,MIT,license
+MoneyMarketFuture,owl#Class,22-rdf-syntax-ns#type
+N428e202f0d894799a221578932943b82,hasUnderlier,owl#onProperty
+Forward,derivative instrument that is privately negotiated between parties to buy the underlier at a specified future date at the price specified in the contract,core#definition
+DividendFuture,FinancialFuture,rdf-schema#subClassOf
+BasketFuture,FinancialFuture,rdf-schema#subClassOf
+Nf1695055c3c14cb9b1dcb690752f1e82,owl#Restriction,22-rdf-syntax-ns#type
+BondFuture,DebtInstrumentFuture,rdf-schema#subClassOf
+Nf1695055c3c14cb9b1dcb690752f1e82,hasUnderlier,owl#onProperty
+Nc96cebb4695f474a9002dd3807c41b69,owl#Restriction,22-rdf-syntax-ns#type
+StandardizedFuturesTerms,StandardizedTerms,rdf-schema#subClassOf
+MoneyMarketFuture,N428e202f0d894799a221578932943b82,rdf-schema#subClassOf
+N65ddcb89e2624bd98035387300aec6c9,XMLSchema#decimal,owl#someValuesFrom
+hasDividendAdjustmentPeriod,DividendAdjustmentPeriod,rdf-schema#range
+BasketFuture,or indices,core#definition
+FutureOnSwap,owl#Class,22-rdf-syntax-ns#type
+StandardizedFuturesListingTerms,N5b3757671c7a45dea483232065584b98,rdf-schema#subClassOf
+DividendFuture,futures contract whose underlying asset is at least one stock dividend,core#definition
+N4b6ec9603ec448379179d5b4e2901a36,FixedIncomeSecurity,22-rdf-syntax-ns#first
+hasMethodOfAdjustment,has method of adjustment,rdf-schema#label
+N3bc3e1b95d5741cfa2281683c724a618,CashInstrument,22-rdf-syntax-ns#first
+StandardizedFuturesTerms,DerivativeTerms,rdf-schema#subClassOf
+FutureOnOption,FinancialFuture,rdf-schema#subClassOf
+EquityForward,Nc1dbbc4964ea4308a4da79a1c9627367,rdf-schema#subClassOf
+,"FuturesAndForwards.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, and to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.",core#changeNote
+Nc1dbbc4964ea4308a4da79a1c9627367,hasContractualElement,owl#onProperty
+N33cdf2afa8a646bbb5d72cf9d7e65955,EquityOption,22-rdf-syntax-ns#first
+InterestRateFuture,owl#Class,22-rdf-syntax-ns#type
+N200f2ac3a77949979445038785a208ac,N3bc3e1b95d5741cfa2281683c724a618,owl#unionOf
+,FuturesAndForwards.rdf version of this ontology was modified to move designated contract market to the markets ontology in FBC and revise the definition of a CurrencyFuture to eliminate an unnecessary superclass and restriction due to the release of CurrencyContracts and to revise the definition of a dividend future to reference the listed share that it tracks rather than the dividend itself.,core#changeNote
+hasMethodOfAdjustment,EquityForward,rdf-schema#domain
+StandardizedFuturesTerms,contract terms established by a derivatives exchange that apply to any futures contract traded on that exchange,core#definition
+FutureOnSwap,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+FutureOnFuture,owl#Class,22-rdf-syntax-ns#type
+DividendFuture,dividend future,rdf-schema#label
+Ncc241770cc4448e38714802c5cb3bbf8,owl#Restriction,22-rdf-syntax-ns#type
+,"FuturesAndForwards.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).",core#changeNote
+MoneyMarketFuture,futures contract with a money market instrument as the underlying asset,core#definition
+Na8527888543145eba6d20b8d9f8e5daa,SettlementTerms,owl#someValuesFrom
+N5b3757671c7a45dea483232065584b98,owl#Restriction,22-rdf-syntax-ns#type
+DividendFuture,owl#Class,22-rdf-syntax-ns#type
+,FuturesAndForwards.rdf version of this ontology was modified to better integrate adjustment method.,core#changeNote
+N3475ac1d7ee14fd8837b67f5ba0087ec,DividendAdjustmentPeriod,owl#someValuesFrom
+N8636640487024f67a3defeb7cdd4fb5d,owl#Class,22-rdf-syntax-ns#type
+N234da6fa7074473cbc38ec285950e30d,hasUnderlier,owl#onProperty
+FutureOnFuture,futures contract whose underlying asset is at least one (other) futures contract,core#definition
+StandardizedFuturesListingTerms,contract terms established by a derivatives exchange that apply to any listing of a futures contract on that exchange.,core#definition
+IndexFuture,FinancialFuture,rdf-schema#subClassOf
+IndexFuture,For each index there may be a different multiple for determining the price of the futures contract.,explanatoryNote
+N8d7e8f956c5d48f7b10c2578b7fc1331,Nf4809fc394e24b8995bae2eef1e5326c,22-rdf-syntax-ns#rest

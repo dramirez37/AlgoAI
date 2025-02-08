@@ -1,0 +1,119 @@
+source_id,target_id,relationship
+Nf821e8922da14772bfa77f55435d0d43,playsRole,owl#onProperty
+N563b97403c4c464c8565fca59aded507,isPublishedBy,owl#onProperty
+N13a9aefc10da400e985efb303465683b,appliesTo,owl#onProperty
+Na83a9e71ab0b4db0a6fa7a7f91fcbbc7,CanadianStatisticsPublisher,owl#hasValue
+CanadianHouseholdsConsumersUniverse,Na5f5ea2113324d2ca2c3e8d40e9c7565,rdf-schema#subClassOf
+N9f7a51c9e6f449459cc8555d2a0aded3,hasPublisher,owl#onProperty
+N40395031efa545a9ac6bdedc11cc1f2b,hasArgument,owl#onProperty
+NewHousingSector,new housing sector,rdf-schema#label
+CanadianProducerPriceIndex,Naa9b7d039f804351b805b50c9ff20405,rdf-schema#subClassOf
+,This ontology provides specific parameters which make up the various types of market economic indicators applicable to the Canadian economy.,abstract
+CanadianHouseholdsConsumersUniverse,Canadian households consumers universe,rdf-schema#label
+CanadianStatisticsPublisher,owl#NamedIndividual,22-rdf-syntax-ns#type
+RawMaterialsSector,IndustrySectorClassifier,rdf-schema#subClassOf
+,CAEconomicIndicators.rdf version of this ontology was revised to eliminate duplication with concepts in LCC and merge countries with locations in FND.,core#changeNote
+CanadianConsumerPriceIndex,CPI,abbreviation
+CanadianHouseholdsConsumersUniverse,62-553-x2015001-eng.pdf,adaptedFrom
+Neebc4191efd54db09c0be88db1d4b368,N4e4336e75a7e4e6e973263c83e643476,22-rdf-syntax-ns#rest
+StatisticsCanada,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nfd23806fad804862b2732db83fc677ae,StatisticsCanada,owl#hasValue
+CanadianProducerPriceIndex,indexth-eng.htm,adaptedFrom
+RawMaterialsSector,raw materials sector,rdf-schema#label
+,CAEconomicIndicators.rdf version of this ontology was added to the IND specification per the issue resolutions identified in the FIBO IND 1.0 FTF 3 report.,core#changeNote
+CanadianConsumerPriceIndex,N3520156fffc042c88067d921d37e852e,rdf-schema#subClassOf
+CanadianStatisticsPublisher,StatisticsCanada,isPlayedBy
+StatisticsCanada,Statistique Canada,rdf-schema#label
+CanadianProducerPriceIndex,Na83a9e71ab0b4db0a6fa7a7f91fcbbc7,rdf-schema#subClassOf
+,CAEconomicIndicators.rdf version of this ontology was revised to reflect the new hasCoverageArea property in FND.,core#changeNote
+Na83a9e71ab0b4db0a6fa7a7f91fcbbc7,hasPublisher,owl#onProperty
+RawMaterialsSector,p2SV.pl?Function=getSurvey&SDDS=2306,adaptedFrom
+CanadianHouseholdsConsumersUniverse,CivilianNonInstitutionalPopulation,rdf-schema#subClassOf
+CanadianConsumerPriceIndex,ConsumerPriceIndex,rdf-schema#subClassOf
+,,owl#imports
+CanadianProducerPriceIndex,"Note that Canada does not produce a high level, cross industry PPI per se. Canadian PPIs are published by industry sector. Three of the most important are captured in the union defined herein, which may be expanded over time to integrate others, as needed.",explanatoryNote
+N4e4336e75a7e4e6e973263c83e643476,N283cf08750d8407ab6b3f57c89d512ca,22-rdf-syntax-ns#rest
+CanadianConsumerPriceIndex,N40395031efa545a9ac6bdedc11cc1f2b,rdf-schema#subClassOf
+CanadianProducerPriceIndex,Canadian producer price index,rdf-schema#label
+N3520156fffc042c88067d921d37e852e,1,owl#qualifiedCardinality
+StatisticsCanada,Canada,hasCoverageArea
+Ne9c7140834fe42b29e52b8a98f7818ec,owl#Class,22-rdf-syntax-ns#type
+IndustrialProductsSector,IndustrySectorClassifier,rdf-schema#subClassOf
+,,owl#versionIRI
+,CAEconomicIndicators.rdf version of this ontology was revised per the FIBO 2.0 RFC.,core#changeNote
+Naa9b7d039f804351b805b50c9ff20405,owl#Restriction,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+Na5f5ea2113324d2ca2c3e8d40e9c7565,Household,owl#someValuesFrom
+RawMaterialsSector,owl#Class,22-rdf-syntax-ns#type
+StatisticsCanada,"individual representing Statistics Canada, a government agency mandated to collect, compile, analyse, abstract and publish statistical information relating to the commercial, industrial, financial, social, economic and general activities and condition of the people of Canada",core#definition
+N40395031efa545a9ac6bdedc11cc1f2b,FixedBasket,owl#someValuesFrom
+CanadianConsumerPriceIndex,N13a9aefc10da400e985efb303465683b,rdf-schema#subClassOf
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+Nf821e8922da14772bfa77f55435d0d43,owl#Restriction,22-rdf-syntax-ns#type
+StatisticsCanada,GovernmentOfCanada,isPartOf
+Naa9b7d039f804351b805b50c9ff20405,Ne9c7140834fe42b29e52b8a98f7818ec,owl#someValuesFrom
+,CAEconomicIndicators.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N9f7a51c9e6f449459cc8555d2a0aded3,owl#Restriction,22-rdf-syntax-ns#type
+CanadianHouseholdsConsumersUniverse,N886897ed1c1e44cf99a7b0f4f2617b68,rdf-schema#subClassOf
+,CAEconomicIndicators.rdf version of this ontology was revised to correct a datatype on an explanatory note and merge statistical information publisher with economic indicators.,core#changeNote
+CanadianProducerPriceIndex,N563b97403c4c464c8565fca59aded507,rdf-schema#subClassOf
+IndustrialProductsSector,industrial products sector,rdf-schema#label
+Ne9c7140834fe42b29e52b8a98f7818ec,Neebc4191efd54db09c0be88db1d4b368,owl#unionOf
+CanadianConsumerPriceIndex,owl#Class,22-rdf-syntax-ns#type
+CanadianStatisticsPublisher,,adaptedFrom
+CanadianHouseholdsConsumersUniverse,"a statistical universe consisting of all private households in Canada, with the exception of soldiers on military bases, people living on First Nations reserves, institutionalized persons, and households living in the rural areas of the three northern territories",core#definition
+IndustrialProductsSector,a classifier for a sector of the economy used for price indices focused on major commodities sold by manufacturers in Canada,core#definition
+Na5f5ea2113324d2ca2c3e8d40e9c7565,isApplicableIn,owl#onProperty
+StatisticsCanada,mandate,adaptedFrom
+CanadianConsumerPriceIndex,economic indicator representing a measure of changes over time in the prices of a fixed basket of consumer goods and services that Canadian private households consume,core#definition
+N886897ed1c1e44cf99a7b0f4f2617b68,Nf821e8922da14772bfa77f55435d0d43,owl#someValuesFrom
+IndustrialProductsSector,owl#Class,22-rdf-syntax-ns#type
+NewHousingSector,"a classifier for a sector of the economy used for price indices focused on contractors' selling prices of new residential houses, where detailed specifications pertaining to each house remain the same between two consecutive periods",core#definition
+NewHousingSector,IndustrySectorClassifier,rdf-schema#subClassOf
+CanadianProducerPriceIndex,an economic indicator representing a measure of the change over time in the prices of a fixed-basket of domestic producer goods and services,core#definition
+N563b97403c4c464c8565fca59aded507,StatisticsCanada,owl#hasValue
+,"CAEconomicIndicators.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+N886897ed1c1e44cf99a7b0f4f2617b68,hasMember,owl#onProperty
+StatisticsCanada,StatCan,abbreviation
+N3520156fffc042c88067d921d37e852e,CanadianHouseholdsConsumersUniverse,owl#onClass
+CanadianStatisticsPublisher,Canadian statistics publisher,rdf-schema#label
+Na83a9e71ab0b4db0a6fa7a7f91fcbbc7,owl#Restriction,22-rdf-syntax-ns#type
+CanadianProducerPriceIndex,ProducerPriceIndex,rdf-schema#subClassOf
+N283cf08750d8407ab6b3f57c89d512ca,RawMaterialsSector,22-rdf-syntax-ns#first
+StatisticsCanada,Statistics Canada,rdf-schema#label
+Nf821e8922da14772bfa77f55435d0d43,UltimateConsumer,owl#someValuesFrom
+Na5f5ea2113324d2ca2c3e8d40e9c7565,owl#Restriction,22-rdf-syntax-ns#type
+CanadianProducerPriceIndex,owl#Class,22-rdf-syntax-ns#type
+,CAEconomicIndicators.rdf version of this ontology was revised to correct out of date links.,core#changeNote
+IndustrialProductsSector,p2SV.pl?Function=getSurvey&SDDS=2318,adaptedFrom
+NewHousingSector,p2SV.pl?Function=getSurvey&SDDS=2310,adaptedFrom
+CanadianConsumerPriceIndex,Canadian consumer price index,rdf-schema#label
+CanadianConsumerPriceIndex,Nfd23806fad804862b2732db83fc677ae,rdf-schema#subClassOf
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+CanadianStatisticsPublisher,StatisticalInformationPublisher,22-rdf-syntax-ns#type
+CanadianHouseholdsConsumersUniverse,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+CanadianConsumerPriceIndex,start,adaptedFrom
+Nfd23806fad804862b2732db83fc677ae,owl#Restriction,22-rdf-syntax-ns#type
+N886897ed1c1e44cf99a7b0f4f2617b68,owl#Restriction,22-rdf-syntax-ns#type
+CanadianStatisticsPublisher,individual representing the functional entity that is the primary publisher of statistical information for the Canadian Government,core#definition
+,MIT,license
+N4e4336e75a7e4e6e973263c83e643476,NewHousingSector,22-rdf-syntax-ns#first
+Naa9b7d039f804351b805b50c9ff20405,appliesTo,owl#onProperty
+N9f7a51c9e6f449459cc8555d2a0aded3,CanadianStatisticsPublisher,owl#hasValue
+N3520156fffc042c88067d921d37e852e,owl#Restriction,22-rdf-syntax-ns#type
+N13a9aefc10da400e985efb303465683b,owl#Restriction,22-rdf-syntax-ns#type
+NewHousingSector,owl#Class,22-rdf-syntax-ns#type
+Neebc4191efd54db09c0be88db1d4b368,IndustrialProductsSector,22-rdf-syntax-ns#first
+,Canadian Economic Indicators Ontology,rdf-schema#label
+Nfd23806fad804862b2732db83fc677ae,isPublishedBy,owl#onProperty
+RawMaterialsSector,a classifier used for price indices related to raw materials purchased by industries in Canada for further processing,core#definition
+N563b97403c4c464c8565fca59aded507,owl#Restriction,22-rdf-syntax-ns#type
+N3520156fffc042c88067d921d37e852e,hasArgument,owl#onProperty
+N283cf08750d8407ab6b3f57c89d512ca,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+CanadianConsumerPriceIndex,consumer_price_indexes,adaptedFrom
+CanadianConsumerPriceIndex,N9f7a51c9e6f449459cc8555d2a0aded3,rdf-schema#subClassOf
+N13a9aefc10da400e985efb303465683b,CanadianHouseholdsConsumersUniverse,owl#someValuesFrom
+N40395031efa545a9ac6bdedc11cc1f2b,owl#Restriction,22-rdf-syntax-ns#type
+StatisticsCanada,GovernmentAgency,22-rdf-syntax-ns#type
+,CAEconomicIndicators.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote

@@ -1,0 +1,256 @@
+source_id,target_id,relationship
+NonAgencyMBSIssuer,MBSIssuer,rdf-schema#subClassOf
+GovernmentMortgageAgency,FunctionalEntity,rdf-schema#subClassOf
+SpecialistMortgageIssuer,FunctionalBusinessEntity,rdf-schema#subClassOf
+N6e6dda3da1584d6fb299998e84bbb8ab,owl#Restriction,22-rdf-syntax-ns#type
+PassThroughMBSInstrument,owl#Class,22-rdf-syntax-ns#type
+SBA-Pool,MortgagePool,rdf-schema#subClassOf
+N82bd81cb067343659712be628ca33a17,owl#Restriction,22-rdf-syntax-ns#type
+PassThroughMBSDeal,owl#Class,22-rdf-syntax-ns#type
+N0db158ac292c4ad1bfab79949d0b060d,owl#Restriction,22-rdf-syntax-ns#type
+isAlso,AgencyMBSDeal,rdf-schema#range
+SBA-Pool,owl#Class,22-rdf-syntax-ns#type
+,Mortgage-backed Securities Ontology,rdf-schema#label
+MortgageBackedSecurity,"ISO 10962, Securities and related financial instruments - Classification of Financial Instruments (CFI code), Fourth edition, 2019-10-01.",adaptedFrom
+AgencyMortgagePool,owl#Class,22-rdf-syntax-ns#type
+MortgagePool,"The class Mortgage Pool originally had a property 'pool type' referring to a selection list of textual stylings of pool types. Those are now replaced with actual sub types of mortgage pool. Here are the original notes and definition that went with the enumerated list of pool types: 
+
+The type of pool for a pool backed security. Each of these pool types represents pools of mortgages that have conformed to certain standards (that change periodically) that make them ""conforming"" -- such as mortgage balance under a certain threshold, creditworthiness, loan-to-value, etc.
+
+Further Notes:
+Non Agency signifies a tranched security, for which there will also be a Tranche Type for the security tranche itself. All other pool types are Agency pool types. 
+
+List Populated from Cutter document Page 5. 
+
+Additional terms from Adept Advistory:
+Under Agency mortgages, basically you have various types of pools under the various agencies. You have:
+-GNMA-I
+-GNMA-II
+-GNMA Platinum
+-FNMA 
+-FHLMC
+-FHLMC Gold
+As far as definitions:The simple definition is that each of these pool types represents pools of mortgages that have conformed to certain standards (that change periodically) that make them ""conforming"" -- such as mortgage balance under a certain threshold, creditworthiness, loan-to-value, etc. Also, GNMA is explicitly backed by the US government, while FNMA and FHLMC are only implicitly backed by the US government. Perhaps there needs to be some research done on the parameters for what makes a loan conforming or not. 
+
+Consensus:Review.",core#editorialNote
+MBSPool,A pool investment consisting of a collection of MBS instruments.,core#definition
+IssuedAndSecuritizedNonAgencyMortgagePool,issued and securitized non agency mortgage pool,rdf-schema#label
+PassThroughMBSInstrumentNote,PromissoryNote,rdf-schema#subClassOf
+GovernmentMortgageAgency,owl#Class,22-rdf-syntax-ns#type
+PassThroughMBSDealProspectus,owl#Class,22-rdf-syntax-ns#type
+GovernmentMortgageAgency,An agency set up by a government for the purpose of issuing mortgages.,core#definition
+N175fa149d0f94d1facd2cc5f2642e2fd,hasStage,owl#onProperty
+NonAgencyMBSIssuer,owl#Class,22-rdf-syntax-ns#type
+PassThroughMBSInstrument,MortgageBackedSecurity,rdf-schema#subClassOf
+MortgagePool,N82bd81cb067343659712be628ca33a17,rdf-schema#subClassOf
+IssuedAndSecuritizedNonAgencyMortgagePool,N5e908f2f26bf4b4694450f6cea61b450,rdf-schema#subClassOf
+N55726cb3dedc441080a0b9373ba8bb24,Payment,owl#someValuesFrom
+N4c04ae1c3b09491fad8fa78780bfb564,MBSIssuer,owl#someValuesFrom
+ResidentialMBS,owl#Class,22-rdf-syntax-ns#type
+PassThroughMBSInstrumentNote,pass through m b s instrument note,rdf-schema#label
+Nc42be36e698d493bb0c416509a9a0439,Na3cbe16137ce4c229d19fc65401ea2c9,owl#unionOf
+N0db158ac292c4ad1bfab79949d0b060d,isCharacterizedBy,owl#onProperty
+,Mortgage backed securities are like asset backed securities except that the underlying loan pool is a pool of mortgage loans.,abstract
+AgencyMBSDeal,owl#Class,22-rdf-syntax-ns#type
+GovernmentMortgageAgency,"There are three such agencies in the United States: FNMA, GNMA and FHLMC (Fannie Mae, Ginnie Mae and Freddie Mac respectively), and there may be others outside of the US.",core#scopeNote
+N86d4d4ba869943c1925c77c408ed36e0,owl#Restriction,22-rdf-syntax-ns#type
+MortgageBackedSecurity,"Mortgage loans are purchased from banks, mortgage companies and other originators, and then assembled into pools by a governmental, quasigovernmental or private entity. The entity then issues securities that represent claims on the principal and interest payments made by borrowers on the loans in the pool, a process known as securitization.",explanatoryNote
+N175fa149d0f94d1facd2cc5f2642e2fd,Issued,owl#someValuesFrom
+denomination.1,PassThroughMBSInstrumentNote,rdf-schema#domain
+MortgagePool,owl#Class,22-rdf-syntax-ns#type
+PassThroughMBSIssueUnderwriter,pass through m b s issue underwriter,rdf-schema#label
+PassThroughMBSIssueUnderwriter,SecurityUnderwriter,rdf-schema#subClassOf
+hasNote,PromissoryNote,rdf-schema#range
+PassThroughMBSInstrument,A security in which the cash flows from the underlying asset pool are passed through to the investor by way of redemption payments.,core#definition
+ResidentialMBS,MortgageBackedSecurity,rdf-schema#subClassOf
+N175fa149d0f94d1facd2cc5f2642e2fd,owl#Restriction,22-rdf-syntax-ns#type
+MortgageBackedSecurity,owl#Class,22-rdf-syntax-ns#type
+N46865eb03684454da8c7123a2867c764,hasNote,owl#onProperty
+isAlso,is also,rdf-schema#label
+NonAgencyMortgagePool,owl#Class,22-rdf-syntax-ns#type
+MBSIssuer,Issuer,rdf-schema#subClassOf
+AgencyMBSDeal,An issue of securities backed by pools of mortgages held by government agencies.,core#definition
+AgencyMBSPool,owl#Class,22-rdf-syntax-ns#type
+GNMA-iPool,GNMA-i pool,rdf-schema#label
+PrivateLabelMBSDeal,owl#Class,22-rdf-syntax-ns#type
+MortgageBackedSecurityOfferingProspectus,owl#Class,22-rdf-syntax-ns#type
+PrivateLabelMBSDeal,DebtOffering,rdf-schema#subClassOf
+NonAgencyMBSIssuer,A party which is a non agency issuer of MBS securities. The identity of this party may be a bank or a specialist (non agency) mortgage company. Term origin:MBS PoC Reviews,core#definition
+RealEstateMortgageInvestmentConduit,real-estate-mortgage-investment-conduit-remic.asp,rdf-schema#seeAlso
+N7b0c8dad3b314b9696c25a233fdb5447,owl#Class,22-rdf-syntax-ns#type
+responsibleFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+AgencyMBSDeal,"These are Ginnie Mae, Freddie Mac and Fannie Mae (for the US). Of these agencies, GNMA (Ginnie Mae) issues mortgages in its own right (Investorwords differs on this). Fannie Mae and Freddie Mac purchase mortgages. Those mortgages are issued by banks. Before one of these agencies purchases a mortgage, there are certain criteria that have to be met. These are specified in terms of, for example, the balance of the mortgage, limits to credit ratings.",explanatoryNote
+GNMA-PlatinumPool,owl#Class,22-rdf-syntax-ns#type
+FHLMC-GoldPool,owl#Class,22-rdf-syntax-ns#type
+AgencyMortgagePool,agency mortgage pool,rdf-schema#label
+IssuedAndSecuritizedAgencyMortagePool,issued and securitized agency mortage pool,rdf-schema#label
+CommercialMBS,ResidentialMBS,owl#disjointWith
+,,owl#imports
+N547405690f4e468a928c34859dab9cda,0,owl#minQualifiedCardinality
+prime,prime,rdf-schema#label
+MBSPool,DebtPool,rdf-schema#subClassOf
+Nc42be36e698d493bb0c416509a9a0439,owl#Class,22-rdf-syntax-ns#type
+N82bd81cb067343659712be628ca33a17,hasConstituent,owl#onProperty
+hasNote,owl#ObjectProperty,22-rdf-syntax-ns#type
+PassThroughMBSDeal,pass through m b s deal,rdf-schema#label
+N547405690f4e468a928c34859dab9cda,owns,owl#onProperty
+IssuedAndSecuritizedAgencyMortagePool,N175fa149d0f94d1facd2cc5f2642e2fd,rdf-schema#subClassOf
+RealEstateMortgageInvestmentConduit,owl#Class,22-rdf-syntax-ns#type
+AgencyMBSIssuer,MBSIssuer,rdf-schema#subClassOf
+PayingAgent,N55726cb3dedc441080a0b9373ba8bb24,rdf-schema#subClassOf
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+Pass-throughPool,pass-through pool,rdf-schema#label
+prime,ResidentialMBS,rdf-schema#domain
+PassThroughMBSDeal,N6e6dda3da1584d6fb299998e84bbb8ab,rdf-schema#subClassOf
+FHLMC-Pool,owl#Class,22-rdf-syntax-ns#type
+MBSIssuer,The issuer of a Mortgage Backed Security.,core#definition
+N4c04ae1c3b09491fad8fa78780bfb564,owl#Restriction,22-rdf-syntax-ns#type
+GNMA-IIPool,owl#Class,22-rdf-syntax-ns#type
+PassThroughMBSDealProspectus,"The written prospectus for an agency, pass through issue of Mortgage Backed Securities",core#definition
+N5e908f2f26bf4b4694450f6cea61b450,hasStage,owl#onProperty
+,,owl#versionIRI
+SpecialistMortgageIssuer,"Possibly add: Building Society. these exist in the UK (though almost extinct) but have not come up in US-based reviews of the model. Also known as Friendly Societies. There may be analogous organisations in other parts of the world, e.g. South America??",core#editorialNote
+AgencyMBSPool,MBSPool,rdf-schema#subClassOf
+GovernmentMortgageAgency,government mortgage agency,rdf-schema#label
+isSliceOf,isPartOf,rdf-schema#subPropertyOf
+HomeEquityLineOfCreditPool,MortgagePool,owl#disjointWith
+AgencyMortgagePool,MortgagePool,rdf-schema#subClassOf
+hasNote,MortgageBackedSecurity,rdf-schema#domain
+isSliceOf,PromissoryNote,rdf-schema#domain
+IssuedAndSecuritizedNonAgencyMortgagePool,A non agency mortgage pool which has been securitized as part of a tranched Mortgage Backed Security.,core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+AgencyMBSIssuer,owl#Class,22-rdf-syntax-ns#type
+N6e6dda3da1584d6fb299998e84bbb8ab,isAlso,owl#onProperty
+IssuedAndSecuritizedAgencyMortagePool,An agency mortgage pool which has been securitized as part of an agency Mortgage Backed Security.,core#definition
+denomination.1,denomination,rdf-schema#label
+responsibleFor,Payment,rdf-schema#range
+PassThroughMBSInstrumentNote,owl#Class,22-rdf-syntax-ns#type
+MBSIssuer,This can be an agency that exists for this purpose or it may be the issuer of the original mortgages in the pool.,explanatoryNote
+GovernmentMortgageAgency,N86d4d4ba869943c1925c77c408ed36e0,rdf-schema#subClassOf
+CommercialMBS,owl#Class,22-rdf-syntax-ns#type
+N46865eb03684454da8c7123a2867c764,PassThroughMBSInstrumentNote,owl#someValuesFrom
+N5e908f2f26bf4b4694450f6cea61b450,owl#Restriction,22-rdf-syntax-ns#type
+HomeEquityLineOfCreditPool,owl#Class,22-rdf-syntax-ns#type
+MBSPool,owl#Class,22-rdf-syntax-ns#type
+FHLMC-Pool,AgencyMortgagePool,rdf-schema#subClassOf
+MortgageBackedSecurity,N0db158ac292c4ad1bfab79949d0b060d,rdf-schema#subClassOf
+N46865eb03684454da8c7123a2867c764,owl#Restriction,22-rdf-syntax-ns#type
+PassThroughMBSDealProspectus,MortgageBackedSecurityOfferingProspectus,rdf-schema#subClassOf
+AgencyMBSPool,This pool may be used as the underlying for an agency CMO. Non agency CMOs do not exist.,explanatoryNote
+PassThroughMBSDeal,"The cashflows from interest and principal payments on the mortgages in the underlying pool are passed on to investors, usually with the deduction of fees in for them of a reduction in a mumber of percentage points or a monetary amount. Modeling note: Thinking about this further, and after more PoC reviews, it seems to me that we should simply define two kinds of Deal which are Tranched and Pass Thtrough, just below the level of Pool Backed Securities Deal. Investigaiton of various SMOs and REMICs and the like suggests that the original PoC term duality shown here (Tranched = Non Agency; Pass Through = Agency) is too simplistic.",core#editorialNote
+FNMA-Pool,FNMA pool,rdf-schema#label
+RealEstateMortgageInvestmentConduit,SpecialPurposeVehicle,rdf-schema#subClassOf
+GNMA-IIPool,AgencyMortgagePool,rdf-schema#subClassOf
+IssuedAndSecuritizedNonAgencyMortgagePool,owl#Class,22-rdf-syntax-ns#type
+MortgagePool,DebtPool,rdf-schema#subClassOf
+PassThroughMBSIssueUnderwriter,The party which agrees to buy any certificates that are not bought by investors Term origin:MBS PoC Reviews,core#definition
+N0db158ac292c4ad1bfab79949d0b060d,WeightedAverageRemainingTerm,owl#someValuesFrom
+RealEstateMortgageInvestmentConduit,REMIC,abbreviation
+GNMA-PlatinumPool,GNMA Platinum pool,rdf-schema#label
+N82bd81cb067343659712be628ca33a17,LoanSecuredByRealEstate,owl#someValuesFrom
+denomination.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+isSliceOf,is slice of,rdf-schema#label
+IssuedAndSecuritizedAgencyMortagePool,AgencyMortgagePool,rdf-schema#subClassOf
+N6e6dda3da1584d6fb299998e84bbb8ab,AgencyMBSDeal,owl#someValuesFrom
+MBSPool,m b s pool,rdf-schema#label
+PassThroughMBSDealProspectus,pass through m b s deal prospectus,rdf-schema#label
+MBSIssuer,Nc42be36e698d493bb0c416509a9a0439,rdf-schema#subClassOf
+NonAgencyMortgagePool,MortgagePool,rdf-schema#subClassOf
+PayingAgent,owl#Class,22-rdf-syntax-ns#type
+MortgageBackedSecurity,"debt obligations that represent claims to the cash flows from pools of mortgage loans, most commonly on residential property",core#definition
+PassThroughMBSInstrument,pass through m b s instrument,rdf-schema#label
+MortgageBackedSecurity,mortgage-backed security,rdf-schema#label
+N4a73590188694b53ae2b4efcf3d4ef11,Bank,22-rdf-syntax-ns#first
+N7b0c8dad3b314b9696c25a233fdb5447,N4a73590188694b53ae2b4efcf3d4ef11,owl#unionOf
+PrivateLabelMBSDeal,private label m b s deal,rdf-schema#label
+N547405690f4e468a928c34859dab9cda,owl#Restriction,22-rdf-syntax-ns#type
+MortgageBackedSecurityOfferingProspectus,mortgage-backed security offering prospectus,rdf-schema#label
+isAlso,owl#ObjectProperty,22-rdf-syntax-ns#type
+denomination.1,MonetaryAmount,rdf-schema#range
+RealEstateMortgageInvestmentConduit,special purpose vehicle that pools mortgage loans together and issues mortgage-backed securities,core#definition
+ResidentialMBS,residential m b s,rdf-schema#label
+MBSIssuer,owl#Class,22-rdf-syntax-ns#type
+FHLMC-GoldPool,FHLMC Gold pool,rdf-schema#label
+N55726cb3dedc441080a0b9373ba8bb24,owl#Restriction,22-rdf-syntax-ns#type
+Na3cbe16137ce4c229d19fc65401ea2c9,N11994a95b58c48db87f813dd80fcd452,22-rdf-syntax-ns#rest
+isSliceOf,hasNote,owl#inverseOf
+N4a73590188694b53ae2b4efcf3d4ef11,N37f5a07c01b64f88a452aede5756e900,22-rdf-syntax-ns#rest
+MortgageBackedSecurity,MBS,abbreviation
+AgencyMBSIssuer,agency m b s issuer,rdf-schema#label
+AgencyMortgagePool,NonAgencyMortgagePool,owl#disjointWith
+IssuedAndSecuritizedAgencyMortagePool,owl#Class,22-rdf-syntax-ns#type
+PassThroughMBSInstrumentNote,An individual note of a pass through instrument.,core#definition
+Pass-throughPool,owl#Class,22-rdf-syntax-ns#type
+Ne0f37c14a31a42088435f7d1642f7540,SpecialistMortgageIssuer,22-rdf-syntax-ns#first
+ResidentialMBS,non-conforming mortgage in Europe.,explanatoryNote
+N547405690f4e468a928c34859dab9cda,MortgagePool,owl#onClass
+GNMA-IIPool,GNMA-II pool,rdf-schema#label
+prime,XMLSchema#boolean,rdf-schema#range
+denomination.1,"The currency amount in which the Note is denominated, for example $500 notes. This term added by symmettry with MBS Tranche Note. needs to be reviewed and validated.",core#definition
+N4c04ae1c3b09491fad8fa78780bfb564,isIssuedBy,owl#onProperty
+ResidentialMBS,"Residential Mortgage-Backed Securities, which are trust certificates (bonds) backed by a pool of residential mortgage loans.",core#definition
+N5e908f2f26bf4b4694450f6cea61b450,Issued,owl#someValuesFrom
+N37f5a07c01b64f88a452aede5756e900,SpecialistMortgageIssuer,22-rdf-syntax-ns#first
+SpecialistMortgageIssuer,specialist mortgage issuer,rdf-schema#label
+NonAgencyMortgagePool,non agency mortgage pool,rdf-schema#label
+AgencyMBSDeal,agency m b s deal,rdf-schema#label
+Pass-throughPool,MortgagePool,rdf-schema#subClassOf
+AgencyMBSPool,A pool investment consisting of a collection of Agency MBS instruments.,core#definition
+prime,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FHLMC-Pool,FHLMC pool,rdf-schema#label
+PassThroughMBSInstrument,N46865eb03684454da8c7123a2867c764,rdf-schema#subClassOf
+FNMA-Pool,owl#Class,22-rdf-syntax-ns#type
+N11994a95b58c48db87f813dd80fcd452,Bank,22-rdf-syntax-ns#first
+AgencyMBSIssuer,GovernmentMortgageAgency,rdf-schema#subClassOf
+Ne0f37c14a31a42088435f7d1642f7540,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+PassThroughMBSDeal,DebtOffering,rdf-schema#subClassOf
+N86d4d4ba869943c1925c77c408ed36e0,isPlayedBy,owl#onProperty
+,Provisional,hasMaturityLevel
+RealEstateMortgageInvestmentConduit,N547405690f4e468a928c34859dab9cda,rdf-schema#subClassOf
+PayingAgent,paying agent,rdf-schema#label
+RealEstateMortgageInvestmentConduit,"A real estate mortgage investment conduit may be organized as a partnership, a trust, a corporation, or an association and is exempt from federal taxes.",explanatoryNote
+GNMA-iPool,AgencyMortgagePool,rdf-schema#subClassOf
+N37f5a07c01b64f88a452aede5756e900,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,MIT,license
+CommercialMBS,commercial m b s,rdf-schema#label
+AgencyMBSPool,agency m b s pool,rdf-schema#label
+hasNote,hasPart,rdf-schema#subPropertyOf
+N11994a95b58c48db87f813dd80fcd452,Ne0f37c14a31a42088435f7d1642f7540,22-rdf-syntax-ns#rest
+Pass-throughPool,"REVIEW: These are all Pass-through so not clear why this term is here. Term originates with Cutter SME review but seems redundant. If not, this would be non mutually exclusive with agency pool. In general, agency MBS pools are pass through and non agency are tranched, but this reflects a business necessity not a logical necessity.",core#editorialNote
+PassThroughMBSIssueUnderwriter,owl#Class,22-rdf-syntax-ns#type
+SpecialistMortgageIssuer,A business organization that specialises in and exists for the issuance of mortgages to the general public.,core#definition
+N86d4d4ba869943c1925c77c408ed36e0,LegalEntity,owl#someValuesFrom
+MBSIssuer,m b s issuer,rdf-schema#label
+PassThroughMBSDeal,An issue of Mortgage Backed Security instruments in which payments on the pool are passed through to investors,core#definition
+SpecialistMortgageIssuer,owl#Class,22-rdf-syntax-ns#type
+GNMA-PlatinumPool,AgencyMortgagePool,rdf-schema#subClassOf
+isAlso,PassThroughMBSDeal,rdf-schema#domain
+MortgagePool,loan pool consisting of mortgages that are held in trust as collateral for the issuance of a mortgage-backed security,core#definition
+MortgageBackedSecurityOfferingProspectus,Prospectus,rdf-schema#subClassOf
+MortgageBackedSecurityOfferingProspectus,Prospectus describing the terms of the issue and each of the instruments included in the mortgage backed security issue. Term origin:SMER,core#definition
+NonAgencyMBSIssuer,N7b0c8dad3b314b9696c25a233fdb5447,rdf-schema#subClassOf
+FNMA-Pool,AgencyMortgagePool,rdf-schema#subClassOf
+RealEstateMortgageInvestmentConduit,real estate mortgage investment conduit,rdf-schema#label
+responsibleFor,PayingAgent,rdf-schema#domain
+FHLMC-GoldPool,AgencyMortgagePool,rdf-schema#subClassOf
+SBA-Pool,SBA pool,rdf-schema#label
+N55726cb3dedc441080a0b9373ba8bb24,responsibleFor,owl#onProperty
+hasNote,has note,rdf-schema#label
+isSliceOf,MortgageBackedSecurity,rdf-schema#range
+isSliceOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+GNMA-iPool,owl#Class,22-rdf-syntax-ns#type
+AgencyMBSDeal,DebtOffering,rdf-schema#subClassOf
+MortgagePool," issuance where there is marketing. These are the estimated figures as they will be at issue. PSA may also be used as triggers. 100 - 400% PSA band - if you go outside that band, may change payment behaviour of those classes. Defaults: measures or rate of default CDR conditional default rate (annual) MDR Monhtly default rate - like CPR = Rate over time. - both defined as Rates. (%) Figures are originated by the servicer of the debt pool. Each serviceer will have their own formats but will do info on prepayments, llosses, detauls on specific loans and so on.",core#editorialNote
+NonAgencyMBSIssuer,non agency m b s issuer,rdf-schema#label
+MortgageBackedSecurity,N4c04ae1c3b09491fad8fa78780bfb564,rdf-schema#subClassOf
+responsibleFor,responsible for,rdf-schema#label
+MortgageBackedSecurity,PoolBackedSecurity,rdf-schema#subClassOf
+MortgagePool,mortgage pool,rdf-schema#label
+Na3cbe16137ce4c229d19fc65401ea2c9,GovernmentMortgageAgency,22-rdf-syntax-ns#first
+AgencyMortgagePool,A pool of agency mortgages.,core#definition
+AgencyMBSIssuer,The issuer of the pass through MBS is an Agency issuer. This is identified as being some kind of agency that is set up specifically to issue these instruments.,core#definition
+AgencyMBSDeal,PrivateLabelMBSDeal,owl#disjointWith
+SBA-Pool,"Unknown pool type, from Cutter SME reviews; other pool types listed under Agency are from or validated by AdeptAdvisory SME review.",core#editorialNote
+prime,Whether the mortage pool is identified as Prime or not.,core#definition
+CommercialMBS,MortgageBackedSecurity,rdf-schema#subClassOf
+IssuedAndSecuritizedNonAgencyMortgagePool,NonAgencyMortgagePool,rdf-schema#subClassOf

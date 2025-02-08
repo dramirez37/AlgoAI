@@ -1,0 +1,196 @@
+source_id,target_id,relationship
+N4c79021715ce4e259724421f68cd8302,N757d098f49c04c5ba0dff97580d56c42,22-rdf-syntax-ns#rest
+N75e428ea470f4091b66ba03df1c47383,isConstituentOf,owl#onProperty
+RegistrationAuthority,ServiceProvider,rdf-schema#subClassOf
+Registrar,registrar,rdf-schema#label
+RegistrationScheme,registration scheme,rdf-schema#label
+RegistrationService,Nfd331664ab8743ff9c6f7327aab3e0ff,rdf-schema#subClassOf
+RegistrationScheme,IdentificationScheme,rdf-schema#subClassOf
+Nfc4d3b9ab46743a884a14c1dc4a6e09a,owl#Thing,owl#someValuesFrom
+Na0ee7eeba6684259affccbe1cb002de7,manages,owl#onProperty
+N7919bbaa31de42ecac68a9d41a9b32ed,owl#Restriction,22-rdf-syntax-ns#type
+RegistrationService,owl#Class,22-rdf-syntax-ns#type
+hasRegistrationDate,hasObservedDateTime,rdf-schema#subPropertyOf
+RegistryIdentifier,N8786d747143d45e896a89d11eb3a6316,rdf-schema#subClassOf
+RegistryIdentifier,"identifier associated with an entry in a registry, i.e., one that provides an index into the registry for the identified item",core#definition
+Nb3a37eec523943098b6872025bb4ab8e,RegistrationAuthority,owl#someValuesFrom
+N14ba89aaa9f54d1d9cc979b1df9a2e44,owl#Restriction,22-rdf-syntax-ns#type
+Nfd331664ab8743ff9c6f7327aab3e0ff,Naf540a8dd3ce4eac80a1711aa490076d,owl#someValuesFrom
+hasRegistrationAuthority,RegistrationAuthority,rdf-schema#range
+Nfc4d3b9ab46743a884a14c1dc4a6e09a,owl#Restriction,22-rdf-syntax-ns#type
+N75e428ea470f4091b66ba03df1c47383,owl#Restriction,22-rdf-syntax-ns#type
+,"RegistrationAuthorities.rdf version of this ontology was modified as a part of organizational hierarchy simplification, to loosen the definition of registrar, and to leverage the composite date value datatype.",core#changeNote
+,RegistrationAuthorities.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+N75e428ea470f4091b66ba03df1c47383,Registry,owl#allValuesFrom
+isRegistrationAuthorityFor,is registration authority for,rdf-schema#label
+Registrar,N67e91707cc0d42239452776e7dc57d49,rdf-schema#subClassOf
+N7b644ca60010495a8a5d906b820af82e,N26d1e09aa3a342be8b5a22320bb8dd13,22-rdf-syntax-ns#rest
+N1a8c2bc862ea4cbe8105fa111328b766,N87a1d95746504b86aa8f170dbf4326e2,owl#unionOf
+specifies,states a fact about something,core#definition
+Nfd79bd9d0b0345f49699610994126177,isRegistrationAuthorityFor,owl#onProperty
+Registry,Record,rdf-schema#subClassOf
+N7919bbaa31de42ecac68a9d41a9b32ed,registers,owl#onProperty
+hasRegistrationDate,the date or date and time on which something is recorded,core#definition
+Registry,owl#Class,22-rdf-syntax-ns#type
+isRegisteredIn,indicates the registry that something is registered in,core#definition
+Registry,StructuredCollection,rdf-schema#subClassOf
+,RegistrationAuthorities.rdf version of this ontology was modified to address text formatting hygiene issues.,core#changeNote
+Nfc4d3b9ab46743a884a14c1dc4a6e09a,registers,owl#onProperty
+hasRegistryEntry,has registry entry,rdf-schema#label
+Nf0937808ce6b41c8a6e0a82daca51b2f,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+RegistryIdentifier,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+RegistrationAuthority,registration authority,rdf-schema#label
+hasRegistrationAuthority,has registration authority,rdf-schema#label
+Registry,registry,rdf-schema#label
+N0f496dd4ad614ecfa7ac098d64179d4b,owl#Class,22-rdf-syntax-ns#type
+Registry,"Electronic registries typically contain a unique identifier for each entry, so that individual records can be referenced from other documents and registries.",explanatoryNote
+hasRegistrationDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N8786d747143d45e896a89d11eb3a6316,RegistrationScheme,owl#onClass
+isRegistrationAuthorityFor,RegistrationAuthority,rdf-schema#domain
+N3e762df328e14bee8c30bb3b37fff7be,RegistryIdentifier,owl#someValuesFrom
+N15fb9c2f245c45aebb65d542ea5cf18d,RegistrationService,owl#onClass
+RegistrationAuthority,RA,abbreviation
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+hasRegistrationAuthority,indicates the registration authority for something,core#definition
+RegistrationService,or organizations to register items in a registry,core#definition
+RegistryIdentifier,N069f9cfedb384bb78c30789562e1b5c3,rdf-schema#subClassOf
+hasRegistryEntry,links a registry to entries that it contains,core#definition
+RegistrationAuthority,Nc5be76488146470ca149a198e028867e,rdf-schema#subClassOf
+N2b41d1b2fd33478e8a5d031dfb9e5933,owl#Restriction,22-rdf-syntax-ns#type
+RegistrationScheme,N3e762df328e14bee8c30bb3b37fff7be,rdf-schema#subClassOf
+,,owl#versionIRI
+RegistrationService,registration service,rdf-schema#label
+Nf0937808ce6b41c8a6e0a82daca51b2f,Registrar,22-rdf-syntax-ns#first
+,owl#Ontology,22-rdf-syntax-ns#type
+N069f9cfedb384bb78c30789562e1b5c3,Registry,owl#someValuesFrom
+RegistrationCapacity,LegalCapacity,rdf-schema#subClassOf
+N3e762df328e14bee8c30bb3b37fff7be,hasMember,owl#onProperty
+N15fb9c2f245c45aebb65d542ea5cf18d,provides,owl#onProperty
+N3cd439415da145ebbf76f340ae92517c,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+RegistrationAuthority,owl#Class,22-rdf-syntax-ns#type
+N67e91707cc0d42239452776e7dc57d49,isPlayedBy,owl#onProperty
+Naf540a8dd3ce4eac80a1711aa490076d,N6fea14e41cce45a38d9f295840bfb3ec,owl#unionOf
+hasRegistryEntry,RegistryEntry,rdf-schema#range
+,Registration Authorities Ontology,rdf-schema#label
+,"RegistrationAuthorities.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+Registrar,"party that has the capacity to act as a representative of a registration authority to provide registration services, including official record keeping",core#definition
+N8786d747143d45e896a89d11eb3a6316,1,owl#qualifiedCardinality
+Ne1c1921f478a4ee7a6c6accaaed8bcd1,owl#Class,22-rdf-syntax-ns#type
+N3989fd81820e49999d3dcd8b117bf9c2,isDesignatedBy,owl#onProperty
+N3148479ef6794410b1ce7ef4899d3884,hasCapacity,owl#onProperty
+Nc5be76488146470ca149a198e028867e,owl#Restriction,22-rdf-syntax-ns#type
+isRegistrationAuthorityFor,indicates the thing (typically an identifier or code) that the registration authority has authority for,core#definition
+N14ba89aaa9f54d1d9cc979b1df9a2e44,comprises,owl#onProperty
+Na0ee7eeba6684259affccbe1cb002de7,Registry,owl#onClass
+,"RegistrationAuthorities.rdf version of this ontology was modified to clarify the definition of registry identifier, eliminate an unnecessary restriction on registry identifier, and refine the definition of registry entry and hasRegistrationDate based on usage.",core#changeNote
+N26d1e09aa3a342be8b5a22320bb8dd13,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N350bd3369c154199aa31d6614834ac1d,N3cd439415da145ebbf76f340ae92517c,22-rdf-syntax-ns#rest
+Registry,register,synonym
+hasRegistryEntry,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+isRegisteredBy,N1a8c2bc862ea4cbe8105fa111328b766,rdf-schema#range
+Nb3a37eec523943098b6872025bb4ab8e,owl#Restriction,22-rdf-syntax-ns#type
+N3989fd81820e49999d3dcd8b117bf9c2,Nb3a37eec523943098b6872025bb4ab8e,owl#someValuesFrom
+isRegisteredIn,is registered in,rdf-schema#label
+RegistrationCapacity,the capacity of some natural person to formally register information in a registry on behalf of some registration authority,core#definition
+Nfd79bd9d0b0345f49699610994126177,owl#Thing,owl#someValuesFrom
+,RegistrationAuthorities.rdf version of this ontology was modified to replace isAppointedBy with isDesignatedBy due to a property name change in Relations.,core#changeNote
+N4ef6df5354904e87a768ba0d69e744f9,hasRegistryEntry,owl#onProperty
+RegistryIdentifier,Identifier,rdf-schema#subClassOf
+N4c79021715ce4e259724421f68cd8302,N3148479ef6794410b1ce7ef4899d3884,22-rdf-syntax-ns#first
+isRegistrationAuthorityFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+RegistrationAuthority,N7919bbaa31de42ecac68a9d41a9b32ed,rdf-schema#subClassOf
+N14ba89aaa9f54d1d9cc979b1df9a2e44,RegistryIdentifier,owl#someValuesFrom
+N6fea14e41cce45a38d9f295840bfb3ec,N4d1d19a6f5ab4c4daad67cda0516c216,22-rdf-syntax-ns#rest
+registers,isRegisteredBy,owl#inverseOf
+N4d1d19a6f5ab4c4daad67cda0516c216,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+isRegisteredIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+N1a8c2bc862ea4cbe8105fa111328b766,owl#Class,22-rdf-syntax-ns#type
+N757d098f49c04c5ba0dff97580d56c42,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nc5be76488146470ca149a198e028867e,isPlayedBy,owl#onProperty
+N67e91707cc0d42239452776e7dc57d49,N0f496dd4ad614ecfa7ac098d64179d4b,owl#someValuesFrom
+Nfd331664ab8743ff9c6f7327aab3e0ff,owl#Restriction,22-rdf-syntax-ns#type
+Na0ee7eeba6684259affccbe1cb002de7,owl#Restriction,22-rdf-syntax-ns#type
+N069f9cfedb384bb78c30789562e1b5c3,isRegisteredIn,owl#onProperty
+Registrar,Nfc4d3b9ab46743a884a14c1dc4a6e09a,rdf-schema#subClassOf
+N069f9cfedb384bb78c30789562e1b5c3,owl#Restriction,22-rdf-syntax-ns#type
+N3989fd81820e49999d3dcd8b117bf9c2,owl#Restriction,22-rdf-syntax-ns#type
+N4ef6df5354904e87a768ba0d69e744f9,owl#Restriction,22-rdf-syntax-ns#type
+Registry,N4ef6df5354904e87a768ba0d69e744f9,rdf-schema#subClassOf
+N7919bbaa31de42ecac68a9d41a9b32ed,0,owl#minCardinality
+Nc5be76488146470ca149a198e028867e,1,owl#qualifiedCardinality
+hasRegistrationDate,has registration date,rdf-schema#label
+N87a1d95746504b86aa8f170dbf4326e2,RegistrationAuthority,22-rdf-syntax-ns#first
+Ne1c1921f478a4ee7a6c6accaaed8bcd1,N7b644ca60010495a8a5d906b820af82e,owl#unionOf
+registers,owl#ObjectProperty,22-rdf-syntax-ns#type
+Registrar,"Barron's Dictionary of Business and Economic Terms, Fifth Edition, 2012",adaptedFrom
+,"This ontology defines concepts for representation of registration authorities, registrars, registration-specific identifiers and related identification schemes, and registration authorities specific to ISO and the financial industry. Examples of financial industry registration authorities in the US include the Federal Deposit Insurance Corporation (FDIC) and the Securities Exchange Commission (SEC).",abstract
+RegistryEntry,owl#Class,22-rdf-syntax-ns#type
+registers,records something in a registry or archive,core#definition
+Registry,authoritative record or collection of records relating to something,core#definition
+N3148479ef6794410b1ce7ef4899d3884,owl#Restriction,22-rdf-syntax-ns#type
+RegistrationScheme,owl#Class,22-rdf-syntax-ns#type
+RegistrationAuthority,N15fb9c2f245c45aebb65d542ea5cf18d,rdf-schema#subClassOf
+Registrar,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+hasRegistrationDate,CombinedDateTime,rdf-schema#range
+registers,registers,rdf-schema#label
+N0f496dd4ad614ecfa7ac098d64179d4b,N4c79021715ce4e259724421f68cd8302,owl#intersectionOf
+RegistrationService,Service,rdf-schema#subClassOf
+,MIT,license
+RegistrationAuthority,service provider that is responsible for maintaining a registry and provides registration services,core#definition
+Registrar,PartyRole,rdf-schema#subClassOf
+,"RegistrationAuthorities.rdf version of this ontology was modified to eliminate duplication with concepts in LCC, make Registry a subclass of Record and StructuredCollection, make RegistryEntry a child of CollectionConstituent and correct a misspelled annotation.",core#changeNote
+N2b41d1b2fd33478e8a5d031dfb9e5933,isManagedBy,owl#onProperty
+N3e762df328e14bee8c30bb3b37fff7be,owl#Restriction,22-rdf-syntax-ns#type
+,RegistrationAuthorities.rdf version of this ontology was modified per the FIBO 2.0 RFC.,core#changeNote
+RegistrationAuthority,Nfd79bd9d0b0345f49699610994126177,rdf-schema#subClassOf
+N757d098f49c04c5ba0dff97580d56c42,N3989fd81820e49999d3dcd8b117bf9c2,22-rdf-syntax-ns#first
+RegistryEntry,N75e428ea470f4091b66ba03df1c47383,rdf-schema#subClassOf
+N26d1e09aa3a342be8b5a22320bb8dd13,Registrar,22-rdf-syntax-ns#first
+specifies,specifies,rdf-schema#label
+Naf78e4772d114891b459ace396630053,N350bd3369c154199aa31d6614834ac1d,owl#unionOf
+N8786d747143d45e896a89d11eb3a6316,isMemberOf,owl#onProperty
+registers,Naf78e4772d114891b459ace396630053,rdf-schema#domain
+RegistryEntry,DatedCollectionConstituent,rdf-schema#subClassOf
+N4ef6df5354904e87a768ba0d69e744f9,RegistryEntry,owl#someValuesFrom
+Nc5be76488146470ca149a198e028867e,LegalEntity,owl#onClass
+N15fb9c2f245c45aebb65d542ea5cf18d,0,owl#minQualifiedCardinality
+isRegisteredBy,is registered by,rdf-schema#label
+N15fb9c2f245c45aebb65d542ea5cf18d,owl#Restriction,22-rdf-syntax-ns#type
+Na0ee7eeba6684259affccbe1cb002de7,0,owl#minQualifiedCardinality
+Nfd79bd9d0b0345f49699610994126177,owl#Restriction,22-rdf-syntax-ns#type
+Nb3a37eec523943098b6872025bb4ab8e,playsRole,owl#onProperty
+RegistrationCapacity,registration capacity,rdf-schema#label
+hasRegistrationAuthority,isRegistrationAuthorityFor,owl#inverseOf
+isRegisteredBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasRegistrationAuthority,owl#ObjectProperty,22-rdf-syntax-ns#type
+N2b41d1b2fd33478e8a5d031dfb9e5933,Ne1c1921f478a4ee7a6c6accaaed8bcd1,owl#someValuesFrom
+specifies,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasRegistryEntry,Registry,rdf-schema#domain
+N7b644ca60010495a8a5d906b820af82e,RegistrationAuthority,22-rdf-syntax-ns#first
+N6fea14e41cce45a38d9f295840bfb3ec,RegistrationAuthority,22-rdf-syntax-ns#first
+Naf540a8dd3ce4eac80a1711aa490076d,owl#Class,22-rdf-syntax-ns#type
+N4d1d19a6f5ab4c4daad67cda0516c216,Registrar,22-rdf-syntax-ns#first
+hasRegistryEntry,comprises,rdf-schema#subPropertyOf
+isRegisteredIn,Registry,rdf-schema#range
+N87a1d95746504b86aa8f170dbf4326e2,Nf0937808ce6b41c8a6e0a82daca51b2f,22-rdf-syntax-ns#rest
+N3148479ef6794410b1ce7ef4899d3884,RegistrationCapacity,owl#someValuesFrom
+N8786d747143d45e896a89d11eb3a6316,owl#Restriction,22-rdf-syntax-ns#type
+RegistrationAuthority,Na0ee7eeba6684259affccbe1cb002de7,rdf-schema#subClassOf
+RegistryEntry,independently identified entry for something recorded in a registry,core#definition
+RegistrationCapacity,owl#Class,22-rdf-syntax-ns#type
+N67e91707cc0d42239452776e7dc57d49,owl#Restriction,22-rdf-syntax-ns#type
+Nfd331664ab8743ff9c6f7327aab3e0ff,isProvidedBy,owl#onProperty
+RegistryEntry,registry entry,rdf-schema#label
+N350bd3369c154199aa31d6614834ac1d,RegistrationAuthority,22-rdf-syntax-ns#first
+Naf78e4772d114891b459ace396630053,owl#Class,22-rdf-syntax-ns#type
+,RegistrationAuthorities.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+RegistryEntry,N14ba89aaa9f54d1d9cc979b1df9a2e44,rdf-schema#subClassOf
+RegistrationScheme,scheme for organizing information and allocating identifiers to items in a registry,core#definition
+isRegisteredBy,indicates the registration authority or registrar that registers something,core#definition
+RegistryIdentifier,registry identifier,rdf-schema#label
+Registry,N2b41d1b2fd33478e8a5d031dfb9e5933,rdf-schema#subClassOf
+N3cd439415da145ebbf76f340ae92517c,Registrar,22-rdf-syntax-ns#first
+,RegistrationAuthorities.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote

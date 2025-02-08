@@ -1,0 +1,44 @@
+source_id,target_id,relationship
+SecurityCashflowStatus,security cashflow status,rdf-schema#label
+InDefault,SecurityCreditStatus,rdf-schema#subClassOf
+,,owl#imports
+SecurityCreditStatus,N9237a9bf7511472da29bbba186ff424b,rdf-schema#subClassOf
+acceleratedPrincipalPaymentsExpected,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,Provisional,hasMaturityLevel
+SecurityCashflowStatus,The status of the cashflow due to the holder from the security.,core#definition
+,MIT,license
+SecurityCreditStatus,security credit status,rdf-schema#label
+principalPaymentsExpected,SecurityCashflowStatus,rdf-schema#domain
+SecurityCreditStatus,LifecycleStatus,rdf-schema#subClassOf
+CreditOK,Not defaulted.,core#definition
+InDefault,in default,rdf-schema#label
+,"This ontology extends the credit status ontology to define credit status concepts that are specific to issued securities. These include cashflow status and the basic credit statuses of being OK or in default. 
+		Note that in application data models these concepts would be represented as one or more selectable code lists or enumerations.",abstract
+interestPaymentsExpected,SecurityCashflowStatus,rdf-schema#domain
+,,owl#versionIRI
+SecurityCreditStatus,owl#Class,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+,SecurityCreditStatuses,rdf-schema#label
+InDefault,(review 7 Oct 09) Does this exist as a term? This is a characteristic of the instrument not the rating. Because it's in default you can expect the rating to drop. Applies to instrument not to debtor. So a company may have 3 bond issues and may be defualt on only one. 14 Oct: Degrees of defaults e.g. tranche not paying interest due to losses on the underlying portrfolio; tranches being used to pay down more senior tranches.,core#editorialNote
+InDefault,owl#Class,22-rdf-syntax-ns#type
+principalPaymentsExpected,XMLSchema#boolean,rdf-schema#range
+CreditOK,SecurityCreditStatus,rdf-schema#subClassOf
+interestPaymentsExpected,interest payments expected,rdf-schema#label
+N9237a9bf7511472da29bbba186ff424b,Security,owl#someValuesFrom
+SecurityCashflowStatus,LifecycleStatus,rdf-schema#subClassOf
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+SecurityCashflowStatus,"Specialize this for preferred stocks, debt tranches and so on.",core#editorialNote
+SecurityCashflowStatus,SecurityCreditStatus,owl#disjointWith
+N9237a9bf7511472da29bbba186ff424b,appliesTo,owl#onProperty
+principalPaymentsExpected,owl#DatatypeProperty,22-rdf-syntax-ns#type
+SecurityCashflowStatus,owl#Class,22-rdf-syntax-ns#type
+CreditOK,credit o k,rdf-schema#label
+interestPaymentsExpected,XMLSchema#boolean,rdf-schema#range
+acceleratedPrincipalPaymentsExpected,SecurityCashflowStatus,rdf-schema#domain
+N9237a9bf7511472da29bbba186ff424b,owl#Restriction,22-rdf-syntax-ns#type
+InDefault,The issuer has failed to pay somthing that they are contractually obliged to pay.,core#definition
+principalPaymentsExpected,principal payments expected,rdf-schema#label
+interestPaymentsExpected,owl#DatatypeProperty,22-rdf-syntax-ns#type
+acceleratedPrincipalPaymentsExpected,XMLSchema#boolean,rdf-schema#range
+acceleratedPrincipalPaymentsExpected,accelerated principal payments expected,rdf-schema#label
+CreditOK,owl#Class,22-rdf-syntax-ns#type

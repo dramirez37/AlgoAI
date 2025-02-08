@@ -1,0 +1,147 @@
+source_id,target_id,relationship
+Lifecycle,Arrangement,rdf-schema#subClassOf
+LifecycleStage,lifecycle stage,rdf-schema#label
+N028a7bda40944d1184405a08bcb48627,owl#Class,22-rdf-syntax-ns#type
+isLifecycleOf,relates a lifecycle to something it characterizes,core#definition
+Neb154b29bf6445ed8130e1b11473c63d,hasStage,owl#onProperty
+LifecycleStageOccurrence,lifecycle stage occurrence,rdf-schema#label
+,Lifecycles.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+Nd1e431aa02d7418bb4606fc68f433f76,Ndc474bac3fc24cbb80980097868d0b95,owl#unionOf
+MaturityLevel,LifecycleStage,rdf-schema#subClassOf
+hasStage,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Lifecycles.rdf version of this ontology was revised to replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+Na6bab100f070481ca0974c96d8a5fb1b,isStageOf,owl#onProperty
+LifecycleStageOccurrence,N19239bdd0a004d5d923eb9320a1ddfd1,rdf-schema#subClassOf
+hasStage,"relates something, such as a product or trade lifecycle or related process, to a phase or stage in that lifecycle",core#definition
+Nad8883463d31472b965c28735fc5fa39,Lifecycle,owl#someValuesFrom
+Nf18e0b2c9bc141dd8519940bdc1cfb49,owl#Restriction,22-rdf-syntax-ns#type
+,Lifecycles Ontology,rdf-schema#label
+LifecycleStage,"a research and development phase of a product lifecycle, the introduction phase in a marketing lifecycle, a growth stage in an economic lifecycle, or the origination phase in the lifecycle of a loan",core#example
+Neb154b29bf6445ed8130e1b11473c63d,owl#Restriction,22-rdf-syntax-ns#type
+LifecycleOccurrence,realization of a lifecycle,core#definition
+N569b761ca4f744bdab3366734668c25a,comprises,owl#onProperty
+LifecycleEventOccurrence,owl#Class,22-rdf-syntax-ns#type
+N19239bdd0a004d5d923eb9320a1ddfd1,LifecycleEventOccurrence,owl#someValuesFrom
+hasStage,N028a7bda40944d1184405a08bcb48627,rdf-schema#range
+LifecycleStage,phase in a lifecycle,core#definition
+N3091424fde114ec79086b1f7c4edeadc,1,owl#qualifiedCardinality
+hasStage,has stage,rdf-schema#label
+LifecycleStage,Classifier,rdf-schema#subClassOf
+LifecycleStageOccurrence,Na6bab100f070481ca0974c96d8a5fb1b,rdf-schema#subClassOf
+LifecycleOccurrence,N01eaadfdd9c04674b84f55d2c9e070a7,rdf-schema#subClassOf
+Na6bab100f070481ca0974c96d8a5fb1b,owl#Restriction,22-rdf-syntax-ns#type
+N19239bdd0a004d5d923eb9320a1ddfd1,owl#Restriction,22-rdf-syntax-ns#type
+Neb154b29bf6445ed8130e1b11473c63d,LifecycleStageOccurrence,owl#someValuesFrom
+N01eaadfdd9c04674b84f55d2c9e070a7,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#imports
+LifecycleStage,N569b761ca4f744bdab3366734668c25a,rdf-schema#subClassOf
+,Lifecycles.rdf version of this ontology was revised to eliminate references to external dictionary sites that no longer resolve.,core#changeNote
+Nd1e431aa02d7418bb4606fc68f433f76,owl#Class,22-rdf-syntax-ns#type
+Lifecycle,N3daa02c9f5604dee9c35117017987e31,rdf-schema#subClassOf
+isLifecycleOf,hasLifecycle,owl#inverseOf
+Nf18e0b2c9bc141dd8519940bdc1cfb49,isDefinedIn,owl#onProperty
+Nad8883463d31472b965c28735fc5fa39,owl#Restriction,22-rdf-syntax-ns#type
+isLifecycleOf,Lifecycle,rdf-schema#domain
+LifecycleEvent,owl#Class,22-rdf-syntax-ns#type
+Na3a3e72707274b78abec738b17bf336b,LifecycleStage,22-rdf-syntax-ns#first
+N9b63192dd9e44d048c4cb4426b73f0de,owl#Restriction,22-rdf-syntax-ns#type
+,"Lifecycles.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+,,owl#versionIRI
+LifecycleStage,owl#Class,22-rdf-syntax-ns#type
+LifecycleStageOccurrence,N6ebe9704e18040f1909ab1b4dd765d8b,rdf-schema#subClassOf
+N38c9a9d4e1ec4d978de3e8764eea227e,hasStage,owl#onProperty
+,owl#Ontology,22-rdf-syntax-ns#type
+LifecycleEventOccurrence,Occurrence,rdf-schema#subClassOf
+N6ebe9704e18040f1909ab1b4dd765d8b,1,owl#qualifiedCardinality
+Lifecycle,N38c9a9d4e1ec4d978de3e8764eea227e,rdf-schema#subClassOf
+LifecycleStageOccurrence,Occurrence,rdf-schema#subClassOf
+isStageOf,relates a stage in a product or trade lifecycle or process to the lifecycle or process that it is a stage of,core#definition
+,Lifecycles.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+LifecycleEventOccurrence,N3091424fde114ec79086b1f7c4edeadc,rdf-schema#subClassOf
+N9b63192dd9e44d048c4cb4426b73f0de,LifecycleStage,owl#someValuesFrom
+Nae5c0d5eb18d4f08bc156d1e1731c99e,LifecycleStageOccurrence,owl#someValuesFrom
+N3daa02c9f5604dee9c35117017987e31,owl#Restriction,22-rdf-syntax-ns#type
+LifecycleStatus,Classifier,rdf-schema#subClassOf
+hasLifecycle,isCharacterizedBy,rdf-schema#subPropertyOf
+Nad8883463d31472b965c28735fc5fa39,isStageOf,owl#onProperty
+N01eaadfdd9c04674b84f55d2c9e070a7,Lifecycle,owl#onClass
+LifecycleEvent,OccurrenceKind,rdf-schema#subClassOf
+Lifecycle,lifecycle,rdf-schema#label
+Lifecycle,Nffd07c63638741c5bf077396af3ec246,rdf-schema#subClassOf
+Ndc474bac3fc24cbb80980097868d0b95,Nf448f2af2db44888b689193435f4ed2c,22-rdf-syntax-ns#rest
+LifecycleStageOccurrence,owl#Class,22-rdf-syntax-ns#type
+N3daa02c9f5604dee9c35117017987e31,LifecycleStage,owl#someValuesFrom
+N3091424fde114ec79086b1f7c4edeadc,exemplifies,owl#onProperty
+N38c9a9d4e1ec4d978de3e8764eea227e,owl#Restriction,22-rdf-syntax-ns#type
+N3091424fde114ec79086b1f7c4edeadc,LifecycleEvent,owl#onClass
+N01eaadfdd9c04674b84f55d2c9e070a7,exemplifies,owl#onProperty
+LifecycleEvent,N9b63192dd9e44d048c4cb4426b73f0de,rdf-schema#subClassOf
+isStageOf,Nd1e431aa02d7418bb4606fc68f433f76,rdf-schema#domain
+N449392e300d24fe4a0246077c94ceb97,LifecycleStageOccurrence,22-rdf-syntax-ns#first
+isStageOf,hasStage,owl#inverseOf
+hasLifecycle,has lifecycle,rdf-schema#label
+LifecycleStatus,classifier indicating the position or state of something at a particular point in its life-cycle,core#definition
+N38c9a9d4e1ec4d978de3e8764eea227e,LifecycleStage,owl#someValuesFrom
+isLifecycleOf,characterizes,rdf-schema#subPropertyOf
+hasLifecycle,owl#ObjectProperty,22-rdf-syntax-ns#type
+LifecycleOccurrence,Nf07da46ae7cd4db88800b242d4cef190,rdf-schema#subClassOf
+N569b761ca4f744bdab3366734668c25a,owl#Restriction,22-rdf-syntax-ns#type
+,"This ontology defines a set of basic concepts for lifecycles, including the various stages and events that make up a given lifecycle, for use in describing product, trade, instrument, production, and other lifecycles in FIBO.",abstract
+Nf448f2af2db44888b689193435f4ed2c,LifecycleStageOccurrence,22-rdf-syntax-ns#first
+Nffd07c63638741c5bf077396af3ec246,isLifecycleOf,owl#onProperty
+Nae5c0d5eb18d4f08bc156d1e1731c99e,owl#Restriction,22-rdf-syntax-ns#type
+LifecycleEventOccurrence,lifecycle event occurrence,rdf-schema#label
+hasStage,hasPart,rdf-schema#subPropertyOf
+LifecycleStage,Nad8883463d31472b965c28735fc5fa39,rdf-schema#subClassOf
+,"Copyright (c) 2017-2024 EDM Council, Inc.",copyright
+LifecycleEventOccurrence,realization of an event in a stage of a lifecycle,core#definition
+Nf18e0b2c9bc141dd8519940bdc1cfb49,Lifecycle,owl#someValuesFrom
+LifecycleEvent,lifecycle event,rdf-schema#label
+LifecycleStatus,lifecycle status,rdf-schema#label
+isStageOf,isPartOf,rdf-schema#subPropertyOf
+N569b761ca4f744bdab3366734668c25a,LifecycleEvent,owl#someValuesFrom
+hasLifecycle,Lifecycle,rdf-schema#range
+Nffd07c63638741c5bf077396af3ec246,owl#Thing,owl#someValuesFrom
+Lifecycle,owl#Class,22-rdf-syntax-ns#type
+isStageOf,is stage of,rdf-schema#label
+N3daa02c9f5604dee9c35117017987e31,defines,owl#onProperty
+Lifecycle,"The product life cycle describes the period of time over which an item is developed, brought to market and eventually removed from the market. The cycle is broken into four stages: introduction, growth, maturity and decline. The idea of the product life cycle is used in marketing to decide when it is appropriate to advertise, reduce prices, explore new markets or create new packaging.",core#example
+LifecycleStage,Nf18e0b2c9bc141dd8519940bdc1cfb49,rdf-schema#subClassOf
+N449392e300d24fe4a0246077c94ceb97,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+LifecycleOccurrence,owl#Class,22-rdf-syntax-ns#type
+N3091424fde114ec79086b1f7c4edeadc,owl#Restriction,22-rdf-syntax-ns#type
+N01eaadfdd9c04674b84f55d2c9e070a7,1,owl#qualifiedCardinality
+Nf448f2af2db44888b689193435f4ed2c,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nf07da46ae7cd4db88800b242d4cef190,owl#Restriction,22-rdf-syntax-ns#type
+LifecycleStatus,Neb154b29bf6445ed8130e1b11473c63d,rdf-schema#subClassOf
+Nae5c0d5eb18d4f08bc156d1e1731c99e,appliesTo,owl#onProperty
+Na6bab100f070481ca0974c96d8a5fb1b,LifecycleOccurrence,owl#someValuesFrom
+,Release,hasMaturityLevel
+LifecycleStatus,owl#Class,22-rdf-syntax-ns#type
+,MIT,license
+N9b63192dd9e44d048c4cb4426b73f0de,appliesTo,owl#onProperty
+LifecycleEvent,kind of event that occurs during one or more stages of a lifecycle,core#definition
+Ndc474bac3fc24cbb80980097868d0b95,LifecycleStage,22-rdf-syntax-ns#first
+N028a7bda40944d1184405a08bcb48627,Na3a3e72707274b78abec738b17bf336b,owl#unionOf
+,Lifecycles.rdf version of this ontology was revised to add lifecycle stage as the superclass of maturity level.,core#changeNote
+MaturityLevel,owl#Class,22-rdf-syntax-ns#type
+Nf07da46ae7cd4db88800b242d4cef190,LifecycleStageOccurrence,owl#someValuesFrom
+,"Lifecycles.rdf version of this ontology was revised to define lifecycle status, normalize definitions per ISO 704 and eliminate duplication with concepts in LCC.",core#changeNote
+N19239bdd0a004d5d923eb9320a1ddfd1,comprises,owl#onProperty
+Lifecycle,"arrangement that compares the cyclical nature of families, organizations, processes, products, marketing, and order management, portfolio management or other systems with the cradle to grave life stages (birth, growth, maturity, decay, and death) of living organisms",core#definition
+N6ebe9704e18040f1909ab1b4dd765d8b,LifecycleStage,owl#onClass
+LifecycleOccurrence,Occurrence,rdf-schema#subClassOf
+Na3a3e72707274b78abec738b17bf336b,N449392e300d24fe4a0246077c94ceb97,22-rdf-syntax-ns#rest
+LifecycleEvent,a call notification or coupon payment as a part of a bond lifecycle,core#example
+N6ebe9704e18040f1909ab1b4dd765d8b,owl#Restriction,22-rdf-syntax-ns#type
+N6ebe9704e18040f1909ab1b4dd765d8b,exemplifies,owl#onProperty
+isLifecycleOf,is lifecycle of,rdf-schema#label
+LifecycleEventOccurrence,Nae5c0d5eb18d4f08bc156d1e1731c99e,rdf-schema#subClassOf
+Nf07da46ae7cd4db88800b242d4cef190,hasStage,owl#onProperty
+,"Copyright (c) 2017-2024 Object Management Group, Inc.",copyright
+LifecycleOccurrence,lifecycle occurrence,rdf-schema#label
+isLifecycleOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+isStageOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasLifecycle,"relates something, such as a product, trade, or related process, to a lifecycle that characterizes it",core#definition
+LifecycleStageOccurrence,realization of a phase in a given lifecycle,core#definition
+Nffd07c63638741c5bf077396af3ec246,owl#Restriction,22-rdf-syntax-ns#type

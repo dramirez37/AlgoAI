@@ -1,0 +1,597 @@
+source_id,target_id,relationship
+N2a55833fe0df4f3e9811f810b028415c,owl#Restriction,22-rdf-syntax-ns#type
+ConventionalStreetAddress,PhysicalAddress,rdf-schema#subClassOf
+StreetAddress,street address,rdf-schema#label
+,". Primary differences include elimination of data properties in favor of a simple class model,the addition of virtual address, and the addition of addressing scheme.",core#changeNote
+N41d6d0fb06b84d828a4c6d69c1c7e6c8,rdf-schema#Literal,owl#onDataRange
+hasAddress,Address,rdf-schema#range
+,"Copyright (c) 2013-2023 Object Management Group, Inc.",copyright
+Side,false,requiresSecondaryUnitRange
+SecondaryUnitIndicator,"index to the specific unit within a secondary unit, such as a building or apartment, at a particular street address",core#definition
+AddressingScheme,system for allocating addresses to objects,core#definition
+Address,index to a location to which communications may be delivered,core#definition
+Ne4a8168761454dea97549337ae46122f,owl#Restriction,22-rdf-syntax-ns#type
+hasStructureName,"specifies an identifier for a building, house, office complex, shopping center, or other structure or group of structures",core#definition
+Office,owl#NamedIndividual,22-rdf-syntax-ns#type
+N71f5fd5e8e234bacaa73e2b8093954dd,owl#Restriction,22-rdf-syntax-ns#type
+RegionSpecificIdentifier,Nb0027f4238724916bc1b5cb459d0e770,rdf-schema#subClassOf
+PrimaryAddressNumber,owl#Class,22-rdf-syntax-ns#type
+Nab83e9b971f14201be6489811cd6cf5c,hasSecondaryUnit,owl#onProperty
+hasTransliteratedAddress,"identifies a transliterated (i.e., in Latin or Romanized ASCII) address for the registered entity",core#definition
+hasMailRouting, 'care of' address),core#definition
+PostOfficeBoxAddress,owl#Class,22-rdf-syntax-ns#type
+Lobby,"entrance hall, corridor, or vestibule, as in a public building, often serving as an anteroom; foyer",core#definition
+PredirectionalSymbol,predirectional symbol,rdf-schema#label
+Unit,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Address,Index,rdf-schema#subClassOf
+hasPredirectionalSymbol,specifies a geographic directional symbol that occurs after the primary street number but before the street name in a street address,core#definition
+Ncbf556b528c840989355e8c82bb1ca9f,1,owl#qualifiedCardinality
+N9930abc9221745b9a631d8e5c2530f9a,owl#Restriction,22-rdf-syntax-ns#type
+Postcode,CodeElement,rdf-schema#subClassOf
+Department,true,requiresSecondaryUnitRange
+Postcode,postcode,rdf-schema#label
+hasPostalCode,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,Addresses Ontology,rdf-schema#label
+N49b292aeb99740fab454b6f1499afcfa,hasStreetName,owl#onProperty
+Penthouse,penthouse,rdf-schema#label
+hasStreetSuffix,has street suffix,rdf-schema#label
+SecondaryUnitDesignator,N4a6881a28bb94fddadacf00281b21e76,rdf-schema#subClassOf
+hasMailRouting,hasTextValue,rdf-schema#subPropertyOf
+N2b0587b7838440cba094743b49ec096d,hasTag,owl#onProperty
+AddressingScheme,IndexingScheme,rdf-schema#subClassOf
+Unit,true,requiresSecondaryUnitRange
+N6a766d7fa3d5494b8e9f8fafe1411c11,rdf-schema#Literal,owl#onDataRange
+PostOfficeBoxDesignator,post office box designator,rdf-schema#label
+Nb0027f4238724916bc1b5cb459d0e770,isUsedBy,owl#onProperty
+Nff007eb6a7474e59b064db61e79a58d2,comprises,owl#onProperty
+PhysicalAddressIdentifier,CodeElement,rdf-schema#subClassOf
+N6bac404f9a6840fe98df28d6c98cdb8a,N4eb80a2325ab430ea3320809a5e60e20,22-rdf-syntax-ns#rest
+PhysicalAddressIdentifier,unique identifier for a physical address,core#definition
+Department,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Postcode,sequence of characters used to assist in the sorting of mail,core#definition
+,,owl#versionIRI
+Stop,"stopping place, such as a bus or mail stop",core#definition
+Ndd43baa2143a421da1bf1f5aed8a3dc2,0,owl#minQualifiedCardinality
+N2124c67cb8684d2f9d493d47301d092d,XMLSchema#string,owl#someValuesFrom
+N6bac404f9a6840fe98df28d6c98cdb8a,N2d676defecde4bcaa7d8b29f0a75484d,22-rdf-syntax-ns#first
+N2124c67cb8684d2f9d493d47301d092d,hasTag,owl#onProperty
+PostOfficeBoxDesignator,"In the U.S., the preferred designator is 'PO BOX'.",core#example
+ConventionalStreetAddress,Nf0e70dc76fcb4c739ff9fdb0393a3a57,rdf-schema#subClassOf
+Na9c6b46d627a4357a0ab52def535c8b6,PhysicalAddress,owl#onClass
+N9930abc9221745b9a631d8e5c2530f9a,0,owl#minQualifiedCardinality
+SecondaryUnit,"address component that identifies an individual unit within a larger structure, such as an apartment, office, hangar, slip, mailbox, and so forth, at a given street address",core#definition
+hasAddress,indicates a means by which something (in the case of a network address) or some entity may be located or contacted or may receive correspondence,core#definition
+Ncbf556b528c840989355e8c82bb1ca9f,comprises,owl#onProperty
+Lower,lower,rdf-schema#label
+hasAddressLine3,This element SHALL be omitted if address line 2 is omitted.,usageNote
+hasStreetAddress,has street address,rdf-schema#label
+ConventionalStreetAddress,Nd3866a09939a4277a5520e29d092a20a,rdf-schema#subClassOf
+SupplementalAddressComponent,AddressComponent,rdf-schema#subClassOf
+Side,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Unit,owl#NamedIndividual,22-rdf-syntax-ns#type
+Unit,unit,rdf-schema#label
+N4a6881a28bb94fddadacf00281b21e76,owl#Restriction,22-rdf-syntax-ns#type
+ConventionalStreetAddress,conventional street address,rdf-schema#label
+AddressComponent,aspect of an address,core#definition
+Apartment,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+N1e482eeda4ad48508938874aada30504,owl#Restriction,22-rdf-syntax-ns#type
+hasAddress,has address,rdf-schema#label
+SupplementalAddressComponent,N9930abc9221745b9a631d8e5c2530f9a,rdf-schema#subClassOf
+hasMailRouting,has mail routing,rdf-schema#label
+,"Addresses.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+Department,department,rdf-schema#label
+hasAddressLine2,has address line 2,rdf-schema#label
+hasStreetAddress,"indicates a fully-specified address component that consists of a primary address number, predirectional, street name, suffix, postdirectional, and an optional secondary unit",core#definition
+hasAddressLine1,the first line of the street address,core#definition
+Nd3866a09939a4277a5520e29d092a20a,StreetAddress,owl#onClass
+hasPostdirectionalSymbol,PostdirectionalSymbol,rdf-schema#range
+PhysicalAddress,Nd9f7657e45164d38b466a4002f321214,rdf-schema#subClassOf
+Pier,true,requiresSecondaryUnitRange
+hasStreetName,has street name,rdf-schema#label
+PhysicalAddress,"An address may be used as an index to the location of a building, apartment, office within an office block, or other structure or parcel of land, often using political boundaries and street names as references, along with other information such as house or building numbers or names. Some addresses also contain secondary elements such as apartment or building numbers, or special codes to aid routing of mail and packages.",core#scopeNote
+N71f5fd5e8e234bacaa73e2b8093954dd,1,owl#qualifiedCardinality
+Na196f231368c4501a03a58df798ecda1,owl#Restriction,22-rdf-syntax-ns#type
+hasAttentionLine,owl#DatatypeProperty,22-rdf-syntax-ns#type
+PostCodeArea,post code area,rdf-schema#label
+RegionSpecificIdentifier,region-specific identifier,rdf-schema#label
+AddressComponent,owl#Class,22-rdf-syntax-ns#type
+Department,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasStreetSuffix,"specifies an additional qualifier for a street or other delivery location, such as a dwelling located along a waterway",core#definition
+Rear,rear,rdf-schema#label
+Apartment,true,requiresSecondaryUnitRange
+PhysicalAddressIdentifier,Na9c6b46d627a4357a0ab52def535c8b6,rdf-schema#subClassOf
+PhysicalAddressIdentifier,physical address identifier,rdf-schema#label
+hasIndividualPostcode,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasStructureName,StructureName,rdf-schema#range
+GeographicDirectionalSymbol,geographic directional symbol,rdf-schema#label
+Key,true,requiresSecondaryUnitRange
+StreetAddress,N554c9523fd87491a9c645e015fe0331a,rdf-schema#subClassOf
+Ndd43baa2143a421da1bf1f5aed8a3dc2,owl#Restriction,22-rdf-syntax-ns#type
+hasPredirectionalSymbol,has predirectional symbol,rdf-schema#label
+PredirectionalSymbol,GeographicDirectionalSymbol,rdf-schema#subClassOf
+Space,space,rdf-schema#label
+N1e482eeda4ad48508938874aada30504,1,owl#qualifiedCardinality
+Hangar,shed or shelter; any relatively wide structure used for housing airplanes or airships,core#definition
+Front,"side or part of a building that presents itself to view first, that faces the street; the most forward part of a building",core#definition
+Hangar,owl#NamedIndividual,22-rdf-syntax-ns#type
+GeographicDirectionalSymbol,"In the United States, these include N, S, E, W, NE, NW, SE, SW.",core#example
+hasAddressLine3,the third line of the street address,core#definition
+N71f5fd5e8e234bacaa73e2b8093954dd,comprises,owl#onProperty
+hasPostalCode,hasTextValue,rdf-schema#subPropertyOf
+SecondaryUnitDesignator,"classifier for a smaller structure or component within a larger facility, such as an apartment, office, mail stop, or other similar designation",core#definition
+Hangar,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+hasIndividualPostcode,lei-cdf-format-version-2-1,adaptedFrom
+Side,owl#NamedIndividual,22-rdf-syntax-ns#type
+SecondaryUnitIndicator,AddressComponent,rdf-schema#subClassOf
+ConventionalStreetAddress,"Other unconventional addresses may include rural and highway route addresses, general delivery addresses, post office box addresses, private mail center addresses, and so forth.",explanatoryNote
+N7141a0281d6c481499ea9a7cf61b5487,defines,owl#onProperty
+Apartment,owl#NamedIndividual,22-rdf-syntax-ns#type
+StreetName,Nb5c50247613f4748a9f6aede9d5ac2d0,rdf-schema#subClassOf
+Address,N00e739825ad545cca28a666cbe2407fa,rdf-schema#subClassOf
+PhysicalAddress,physical address,rdf-schema#label
+hasPrimaryAddressNumber,PrimaryAddressNumber,rdf-schema#range
+N41d6d0fb06b84d828a4c6d69c1c7e6c8,hasAddressLine3,owl#onProperty
+hasPredirectionalSymbol,StreetAddress,rdf-schema#domain
+Room,true,requiresSecondaryUnitRange
+N9dee552bb3f14dbe9d4c40cf6ef4171e,isMemberOf,owl#onProperty
+SecondaryUnitDesignator,"Note that only certain secondary units require a secondary range, such as an apartment number, to complete a delivery point.",explanatoryNote
+hasPostdirectionalSymbol,StreetAddress,rdf-schema#domain
+hasStructureName,PhysicalAddress,rdf-schema#domain
+N72eaf47504a34a438bd2b6c0e4705caa,1,owl#maxQualifiedCardinality
+hasPrimaryAddressNumber,has primary address number,rdf-schema#label
+N53e03d125e2843ea8fd00e95b58024be,owl#Restriction,22-rdf-syntax-ns#type
+StructureName,"name for a building, house, office complex, shopping center, or other structure or group of structures",core#definition
+Slip,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+PhysicalAddressingScheme,physical addressing scheme,rdf-schema#label
+N487faeef6eee496c8a12c2602e1674a3,owl#Class,22-rdf-syntax-ns#type
+hasAddressLine2,hasTextValue,rdf-schema#subPropertyOf
+N72eaf47504a34a438bd2b6c0e4705caa,Municipality,owl#onClass
+N943768de31b84b919acc1fce6b9c378e,owl#Restriction,22-rdf-syntax-ns#type
+AddressingScheme,addressing scheme,rdf-schema#label
+Space,"extent set apart or available, such as a parking or storage space",core#definition
+hasMailRouting,lei-cdf-format-version-2-1,adaptedFrom
+SupplementalAddressComponent,owl#Class,22-rdf-syntax-ns#type
+,Addresses.rdf version of this ontology was modified to eliminate unnecessary unions and max 1 restrictions.,core#changeNote
+Nab83e9b971f14201be6489811cd6cf5c,SecondaryUnit,owl#onClass
+Key,key,rdf-schema#label
+N4a6881a28bb94fddadacf00281b21e76,1,owl#qualifiedCardinality
+Nf0e70dc76fcb4c739ff9fdb0393a3a57,rdf-schema#Literal,owl#onDataRange
+hasAddressLine3,hasTextValue,rdf-schema#subPropertyOf
+hasStreetName,owl#ObjectProperty,22-rdf-syntax-ns#type
+SupplementalAddressDesignator,owl#Class,22-rdf-syntax-ns#type
+hasTransliteratedAddress,has transliterated address,rdf-schema#label
+hasSecondaryUnit,owl#ObjectProperty,22-rdf-syntax-ns#type
+N2b0587b7838440cba094743b49ec096d,owl#Restriction,22-rdf-syntax-ns#type
+hasAttentionLine,PhysicalAddress,rdf-schema#domain
+hasAddressLine1,lei-cdf-format-version-2-1,adaptedFrom
+Slip,true,requiresSecondaryUnitRange
+Penthouse,false,requiresSecondaryUnitRange
+SecondaryUnitIndicator,owl#Class,22-rdf-syntax-ns#type
+StreetName,street name,rdf-schema#label
+Rear,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+PhysicalAddressingScheme,AddressingScheme,rdf-schema#subClassOf
+SecondaryUnit,owl#Class,22-rdf-syntax-ns#type
+Upper,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Nd9f7657e45164d38b466a4002f321214,isIndexTo,owl#onProperty
+VirtualAddress,N946c518edef347a7839f3ab6bb89ae25,rdf-schema#subClassOf
+SupplementalAddressUnit,N1e482eeda4ad48508938874aada30504,rdf-schema#subClassOf
+hasSecondaryUnit,"specifies an individual unit within a larger structure, such as an apartment, office, hangar, slip, mailbox, and so forth, at a given street address",core#definition
+N53e03d125e2843ea8fd00e95b58024be,1,owl#qualifiedCardinality
+PostdirectionalSymbol,owl#Class,22-rdf-syntax-ns#type
+N9930abc9221745b9a631d8e5c2530f9a,comprises,owl#onProperty
+N0a0b55b2efd048b491c43575712f1ddf,hasTag,owl#onProperty
+StreetSuffix,AddressComponent,rdf-schema#subClassOf
+AddressComponent,Aspect,rdf-schema#subClassOf
+hasStreetSuffix,StreetAddress,rdf-schema#domain
+hasPostdirectionalSymbol,has postdirectional symbol,rdf-schema#label
+PrimaryAddressNumber,AddressComponent,rdf-schema#subClassOf
+ConventionalStreetAddress,Ne4a8168761454dea97549337ae46122f,rdf-schema#subClassOf
+N00e739825ad545cca28a666cbe2407fa,owl#Restriction,22-rdf-syntax-ns#type
+hasIndividualPostcode,has individual postcode,rdf-schema#label
+AddressingScheme,owl#Class,22-rdf-syntax-ns#type
+Slip,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasTransliteratedAddress,Address,rdf-schema#range
+hasTransliteratedAddress,hasAddress,rdf-schema#subPropertyOf
+N607e323263014bf0a2b9ba900c7b5164,owl#Restriction,22-rdf-syntax-ns#type
+N2b0587b7838440cba094743b49ec096d,1,owl#qualifiedCardinality
+N4eb80a2325ab430ea3320809a5e60e20,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+requiresSecondaryUnitRange,hasTextValue,rdf-schema#subPropertyOf
+N49b292aeb99740fab454b6f1499afcfa,owl#Restriction,22-rdf-syntax-ns#type
+N946c518edef347a7839f3ab6bb89ae25,owl#Restriction,22-rdf-syntax-ns#type
+PostOfficeBox,N71f5fd5e8e234bacaa73e2b8093954dd,rdf-schema#subClassOf
+Building,building,rdf-schema#label
+StructureName,Name,rdf-schema#subClassOf
+Side,"place, space, or direction with respect to a center or to a line of division",core#definition
+PostOfficeBoxAddress,PhysicalAddress,rdf-schema#subClassOf
+Rear,owl#NamedIndividual,22-rdf-syntax-ns#type
+N2d676defecde4bcaa7d8b29f0a75484d,PhysicalAddressIdentifier,owl#onClass
+Nb5c50247613f4748a9f6aede9d5ac2d0,owl#Restriction,22-rdf-syntax-ns#type
+Upper,owl#NamedIndividual,22-rdf-syntax-ns#type
+N94408d92d29d4b1b8fb3f79cac53bb5d,hasPrimaryAddressNumber,owl#onProperty
+ConventionalStreetAddress,physical address that identifies a location on a street to which communications may be delivered,core#definition
+N49b292aeb99740fab454b6f1499afcfa,StreetName,owl#someValuesFrom
+Key,usually metal instrument by which the bolt of a lock is turned,core#definition
+N00e739825ad545cca28a666cbe2407fa,1,owl#qualifiedCardinality
+,owl#Ontology,22-rdf-syntax-ns#type
+N4a6881a28bb94fddadacf00281b21e76,requiresSecondaryUnitRange,owl#onProperty
+requiresSecondaryUnitRange,requires secondary unit range,rdf-schema#label
+PhysicalAddress,owl#Class,22-rdf-syntax-ns#type
+Lower,false,requiresSecondaryUnitRange
+N607e323263014bf0a2b9ba900c7b5164,1,owl#qualifiedCardinality
+hasAddressLine2,lei-cdf-format-version-2-1,adaptedFrom
+hasPostalCode,lei-cdf-format-version-2-1,adaptedFrom
+Hangar,hanger,rdf-schema#label
+Trailer,true,requiresSecondaryUnitRange
+Front,front,rdf-schema#label
+ConventionalStreetAddress,owl#Class,22-rdf-syntax-ns#type
+N943768de31b84b919acc1fce6b9c378e,1,owl#qualifiedCardinality
+StreetSuffix,owl#Class,22-rdf-syntax-ns#type
+Address,owl#Class,22-rdf-syntax-ns#type
+hasPostdirectionalSymbol,specifies a geographic directional symbol that follows the street name and street suffix in a street address,core#definition
+N946c518edef347a7839f3ab6bb89ae25,1,owl#qualifiedCardinality
+Pier,pier,rdf-schema#label
+Nd9f7657e45164d38b466a4002f321214,PhysicalLocation,owl#onClass
+hasStreetName,StreetName,rdf-schema#range
+N72eaf47504a34a438bd2b6c0e4705caa,owl#Restriction,22-rdf-syntax-ns#type
+Penthouse,structure or dwelling on the roof or top floor of a building,core#definition
+PostOfficeBoxDesignator,owl#Class,22-rdf-syntax-ns#type
+SupplementalAddressComponent,N53e03d125e2843ea8fd00e95b58024be,rdf-schema#subClassOf
+N6a766d7fa3d5494b8e9f8fafe1411c11,owl#Restriction,22-rdf-syntax-ns#type
+N6a766d7fa3d5494b8e9f8fafe1411c11,0,owl#minQualifiedCardinality
+Penthouse,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nd3866a09939a4277a5520e29d092a20a,hasStreetAddress,owl#onProperty
+PhysicalAddress,Address,rdf-schema#subClassOf
+Trailer,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+PostOfficeBoxAddress,"physical address used to deliver communications to a designated container at a local post office or the local equivalent for the jurisdiction, where mail is held until the recipient collects it, rather than to a given house, building, or other location",core#definition
+Stop,stop,rdf-schema#label
+PostOfficeBox,"Post office box identifiers are only unique to a given jurisdiction, which may be a post office, town, or other region.",explanatoryNote
+Front,false,requiresSecondaryUnitRange
+N53e03d125e2843ea8fd00e95b58024be,comprises,owl#onProperty
+N4a6881a28bb94fddadacf00281b21e76,XMLSchema#boolean,owl#onDataRange
+SupplementalAddressDesignator,"classifier for supplemental address information, such as a highway contract route, rural route, building complex, shopping center, condominium complex, mail box, or other similar designation",core#definition
+SupplementalAddressComponent,N6a766d7fa3d5494b8e9f8fafe1411c11,rdf-schema#subClassOf
+Nb5c50247613f4748a9f6aede9d5ac2d0,1,owl#qualifiedCardinality
+SecondaryUnit,secondary unit,rdf-schema#label
+Unit,"area in a facility, such as a medical facility or hospital that is specially staffed and equipped to provide a particular service or type of care",core#definition
+Suite,group of rooms occupied as a unit,core#definition
+N8607a95f713c4697aff0ebacb06166ea,0,owl#minQualifiedCardinality
+N8607a95f713c4697aff0ebacb06166ea,owl#Restriction,22-rdf-syntax-ns#type
+PrimaryAddressNumber,N943768de31b84b919acc1fce6b9c378e,rdf-schema#subClassOf
+hasAddressLine3,lei-cdf-format-version-2-1,adaptedFrom
+hasStreetAddress,ConventionalStreetAddress,rdf-schema#domain
+hasAddress,owl#ObjectProperty,22-rdf-syntax-ns#type
+Trailer,vehicle designed to serve wherever parked as a temporary dwelling or place of business,core#definition
+Floor,floor,rdf-schema#label
+RegionSpecificIdentifier,geographic region or subdivision identifier used internally by a country or other region,core#definition
+SecondaryUnitIndicator,N0a0b55b2efd048b491c43575712f1ddf,rdf-schema#subClassOf
+PhysicalAddressIdentifier,owl#Class,22-rdf-syntax-ns#type
+N11145b93b2c243baa8888bbd1807e78d,rdf-schema#Literal,owl#onDataRange
+StructureName,structure name,rdf-schema#label
+StreetAddress,N49b292aeb99740fab454b6f1499afcfa,rdf-schema#subClassOf
+,Addresses.rdf version of this ontology was modified to revise names of address elements that could be construed as referring to multiple concepts.,core#changeNote
+N8607a95f713c4697aff0ebacb06166ea,hasPostdirectionalSymbol,owl#onProperty
+Trailer,owl#NamedIndividual,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+SupplementalAddressComponent,address component that provides additional information that is important to ensuring proper delivery of communications,core#definition
+StreetSuffix,Classifier,rdf-schema#subClassOf
+requiresSecondaryUnitRange,"Note that in some cases, such as for lobby or office, if there are multiple secondary units then a range may be needed to differentiate between them, even if the range is not always required.",explanatoryNote
+Nd524168153b54f609e2aea37afb28494,0,owl#minQualifiedCardinality
+Nd524168153b54f609e2aea37afb28494,owl#Restriction,22-rdf-syntax-ns#type
+RegionSpecificIdentifier,GeographicRegionIdentifier,rdf-schema#subClassOf
+Stop,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+,Addresses.rdf version of this ontology was modified to make postcode a subclass of geographic region identifier and fix spelling errors.,core#changeNote
+SecondaryUnit,AddressComponent,rdf-schema#subClassOf
+Floor,all of the rooms or areas on the same level of a building; a story,core#definition
+Ne4a8168761454dea97549337ae46122f,rdf-schema#Literal,owl#onDataRange
+N607e323263014bf0a2b9ba900c7b5164,comprises,owl#onProperty
+,"Addresses.rdf version of this ontology was modified replace hasDefinition with isDefinedIn to clarify intent, and the address hierarchy was simplified to enable extensions for international and national delivery address specification, and to eliminate deprecated elements.",core#changeNote
+hasStreetName,StreetAddress,rdf-schema#domain
+Hangar,true,requiresSecondaryUnitRange
+Slip,sloping ramp extending out into the water to serve as a place for landing or repairing ships; ship's or boat's berth between two piers,core#definition
+SecondaryUnit,Nff007eb6a7474e59b064db61e79a58d2,rdf-schema#subClassOf
+N2a55833fe0df4f3e9811f810b028415c,PhysicalAddress,owl#onClass
+Pier,structure extending into navigable water for use as a landing place or promenade,core#definition
+N41d6d0fb06b84d828a4c6d69c1c7e6c8,1,owl#maxQualifiedCardinality
+,"Addresses.rdf version of this ontology was modified to eliminate duplication of concepts in LCC, simplify address representation and merge countries with locations.",core#changeNote
+Address,address,rdf-schema#label
+Upper,false,requiresSecondaryUnitRange
+SecondaryUnitDesignator,owl#Class,22-rdf-syntax-ns#type
+VirtualAddress,PhysicalAddress,owl#disjointWith
+Front,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+VirtualAddress,"address identifying a virtual, i.e. non-physical, location",core#definition
+PostCodeArea,physical area uniquely identified by some postal code,core#definition
+SupplementalAddressDesignator,Nfa0573bf77a54a2e9e91bbe39e44d962,rdf-schema#subClassOf
+hasMailRouting,PhysicalAddress,rdf-schema#domain
+Apartment,apartment,rdf-schema#label
+,Addresses.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Front,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasAttentionLine,"an optional, free text address line denoting the intended recipient",core#definition
+Building,"relatively permanent enclosed structure, that has a roof and walls and stands more or less permanently in one place",core#definition
+SecondaryUnitDesignator,secondary unit designator,rdf-schema#label
+N8607a95f713c4697aff0ebacb06166ea,PostdirectionalSymbol,owl#onClass
+PostOfficeBoxAddress,post office box address,rdf-schema#label
+N1e482eeda4ad48508938874aada30504,XMLSchema#string,owl#onDataRange
+Apartment,"room or a group of related rooms, among similar sets in one building, designed for use as a dwelling",core#definition
+Lower,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Stop,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasPrimaryAddressNumber,comprises,rdf-schema#subPropertyOf
+Nd524168153b54f609e2aea37afb28494,StreetSuffix,owl#onClass
+PhysicalAddressIdentifier,"Physical address identifiers may include bar codes, QCR codes, and +codes in a number of countries.",core#example
+Naf04655bbbd44cd9ada64a3c16524373,PostCodeArea,owl#onClass
+Rear,false,requiresSecondaryUnitRange
+Ndd43baa2143a421da1bf1f5aed8a3dc2,isDefinedIn,owl#onProperty
+N7836c393b7a746d6a7816ef410121882,owl#Restriction,22-rdf-syntax-ns#type
+hasSecondaryUnit,SecondaryUnit,rdf-schema#range
+StreetAddress,owl#Class,22-rdf-syntax-ns#type
+Na7abe183b51c478d86be753f014dabbc,hasIndividualPostcode,owl#onProperty
+Suite,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Building,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+hasSecondaryUnit,StreetAddress,rdf-schema#domain
+hasStructureName,comprises,rdf-schema#subPropertyOf
+requiresSecondaryUnitRange,pub28.pdf,rdf-schema#seeAlso
+PostdirectionalSymbol,geographic directional symbol that follows the street name and street suffix in a street address,core#definition
+Office,place where a particular kind of business is transacted or a service is supplied,core#definition
+N7836c393b7a746d6a7816ef410121882,CountrySubdivision,owl#someValuesFrom
+VirtualAddress,virtual address,rdf-schema#label
+,This ontology provides high level definitions for addresses and address components including elements that are common to addressing standards.,abstract
+N1e482eeda4ad48508938874aada30504,hasTag,owl#onProperty
+N7141a0281d6c481499ea9a7cf61b5487,owl#Restriction,22-rdf-syntax-ns#type
+hasStructureName,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasIndividualPostcode,Postcode,rdf-schema#range
+PostOfficeBox,owl#Class,22-rdf-syntax-ns#type
+hasAddressLine1,PhysicalAddress,rdf-schema#domain
+N41d6d0fb06b84d828a4c6d69c1c7e6c8,owl#Restriction,22-rdf-syntax-ns#type
+GeographicDirectionalSymbol,code element that gives directional information for postal delivery,core#definition
+hasSecondaryUnit,has secondary unit,rdf-schema#label
+Building,true,requiresSecondaryUnitRange
+PhysicalAddress,N7836c393b7a746d6a7816ef410121882,rdf-schema#subClassOf
+Ndd43baa2143a421da1bf1f5aed8a3dc2,AddressingScheme,owl#onClass
+N2a55833fe0df4f3e9811f810b028415c,defines,owl#onProperty
+hasAttentionLine,hasTextValue,rdf-schema#subPropertyOf
+hasPredirectionalSymbol,comprises,rdf-schema#subPropertyOf
+N0a0b55b2efd048b491c43575712f1ddf,1,owl#qualifiedCardinality
+PostOfficeBox,post office box,rdf-schema#label
+Na7abe183b51c478d86be753f014dabbc,Postcode,owl#onClass
+PhysicalAddress,Na7abe183b51c478d86be753f014dabbc,rdf-schema#subClassOf
+SupplementalAddressUnit,owl#Class,22-rdf-syntax-ns#type
+hasPostdirectionalSymbol,comprises,rdf-schema#subPropertyOf
+Lower,owl#NamedIndividual,22-rdf-syntax-ns#type
+SecondaryUnitIndicator,secondary unit indicator,rdf-schema#label
+StructureName,N2b0587b7838440cba094743b49ec096d,rdf-schema#subClassOf
+N2124c67cb8684d2f9d493d47301d092d,owl#Restriction,22-rdf-syntax-ns#type
+PrimaryAddressNumber,primary address number,rdf-schema#label
+GeographicDirectionalSymbol,N2124c67cb8684d2f9d493d47301d092d,rdf-schema#subClassOf
+Nb0027f4238724916bc1b5cb459d0e770,GeopoliticalEntity,owl#someValuesFrom
+hasStreetAddress,comprises,rdf-schema#subPropertyOf
+hasPostalCode,the postal code of this address as specified by the local postal service,core#definition
+Nd524168153b54f609e2aea37afb28494,hasStreetSuffix,owl#onProperty
+Lot,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Building,owl#NamedIndividual,22-rdf-syntax-ns#type
+N00e739825ad545cca28a666cbe2407fa,isIndexTo,owl#onProperty
+Postcode,Naf04655bbbd44cd9ada64a3c16524373,rdf-schema#subClassOf
+Lot,measured parcel of land having fixed boundaries and designated on a plot or survey,core#definition
+N487faeef6eee496c8a12c2602e1674a3,N6bac404f9a6840fe98df28d6c98cdb8a,owl#unionOf
+Nfa0573bf77a54a2e9e91bbe39e44d962,SupplementalAddressComponent,owl#someValuesFrom
+PostOfficeBoxDesignator,SupplementalAddressDesignator,rdf-schema#subClassOf
+hasMailRouting,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,Addresses.rdf version of this ontology was modified to correct a missing imports statement.,core#changeNote
+Na9c6b46d627a4357a0ab52def535c8b6,owl#Restriction,22-rdf-syntax-ns#type
+AddressComponent,address component,rdf-schema#label
+hasAddressLine1,has address line 1,rdf-schema#label
+StreetName,owl#Class,22-rdf-syntax-ns#type
+Ncbf556b528c840989355e8c82bb1ca9f,PostOfficeBox,owl#onClass
+Department,"division of a large organization such as a government, university, business, or shop, dealing with a specific subject, commodity, or area of activity",core#definition
+hasAddressLine2,PhysicalAddress,rdf-schema#domain
+PhysicalAddress,"Typically, addresses will have only one postcode expressed either as a string value or individual, and only a municipality (individual) or city (string value).",usageNote
+Basement,part of a building consisting of rooms that are partly or entirely below ground,core#definition
+Side,side,rdf-schema#label
+StreetSuffix,street suffix,rdf-schema#label
+N2d676defecde4bcaa7d8b29f0a75484d,0,owl#minQualifiedCardinality
+N2d676defecde4bcaa7d8b29f0a75484d,owl#Restriction,22-rdf-syntax-ns#type
+hasStreetSuffix,comprises,rdf-schema#subPropertyOf
+N9dee552bb3f14dbe9d4c40cf6ef4171e,owl#Restriction,22-rdf-syntax-ns#type
+hasAddressLine3,PhysicalAddress,rdf-schema#domain
+Lot,owl#NamedIndividual,22-rdf-syntax-ns#type
+N53e03d125e2843ea8fd00e95b58024be,SupplementalAddressDesignator,owl#onClass
+Na9c6b46d627a4357a0ab52def535c8b6,1,owl#qualifiedCardinality
+N11145b93b2c243baa8888bbd1807e78d,hasCityName,owl#onProperty
+PredirectionalSymbol,owl#Class,22-rdf-syntax-ns#type
+Nab83e9b971f14201be6489811cd6cf5c,0,owl#minQualifiedCardinality
+hasStreetName,"specifies an identifier for a street in some context (e.g., 'Baker', 'First', 'Main')",core#definition
+Penthouse,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Space,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+PostCodeArea,owl#Class,22-rdf-syntax-ns#type
+Nc3100bf650354500b40609529350c8c7,rdf-schema#Literal,owl#onDataRange
+,MIT,license
+hasAddressLine3,has address line 3,rdf-schema#label
+StreetAddress,Nd524168153b54f609e2aea37afb28494,rdf-schema#subClassOf
+GeographicDirectionalSymbol,CodeElement,rdf-schema#subClassOf
+Nd3866a09939a4277a5520e29d092a20a,owl#Restriction,22-rdf-syntax-ns#type
+Address,Ndd43baa2143a421da1bf1f5aed8a3dc2,rdf-schema#subClassOf
+Basement,basement,rdf-schema#label
+ConventionalStreetAddress,N41d6d0fb06b84d828a4c6d69c1c7e6c8,rdf-schema#subClassOf
+hasAddressLine2,the second line of the street address,core#definition
+N9dee552bb3f14dbe9d4c40cf6ef4171e,1,owl#qualifiedCardinality
+StreetAddress,N94408d92d29d4b1b8fb3f79cac53bb5d,rdf-schema#subClassOf
+AddressingScheme,N7141a0281d6c481499ea9a7cf61b5487,rdf-schema#subClassOf
+Lobby,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+PostCodeArea,GeographicRegion,rdf-schema#subClassOf
+SupplementalAddressDesignator,Classifier,rdf-schema#subClassOf
+Postcode,owl#Class,22-rdf-syntax-ns#type
+N9930abc9221745b9a631d8e5c2530f9a,SupplementalAddressUnit,owl#onClass
+N11145b93b2c243baa8888bbd1807e78d,owl#Restriction,22-rdf-syntax-ns#type
+hasPredirectionalSymbol,PredirectionalSymbol,rdf-schema#range
+Na9c6b46d627a4357a0ab52def535c8b6,identifies,owl#onProperty
+N94408d92d29d4b1b8fb3f79cac53bb5d,1,owl#maxQualifiedCardinality
+PhysicalAddress,N72eaf47504a34a438bd2b6c0e4705caa,rdf-schema#subClassOf
+N943768de31b84b919acc1fce6b9c378e,hasTag,owl#onProperty
+VirtualAddress,owl#Class,22-rdf-syntax-ns#type
+Nfa0573bf77a54a2e9e91bbe39e44d962,classifies,owl#onProperty
+SupplementalAddressComponent,"Supplemental components include post office box information, rural route and highway contract route information, private mailboxes, and so forth, that are not part of a conventional street address.",explanatoryNote
+Stop,true,requiresSecondaryUnitRange
+Room,room,rdf-schema#label
+hasStreetSuffix,StreetSuffix,rdf-schema#range
+N943768de31b84b919acc1fce6b9c378e,XMLSchema#string,owl#onDataRange
+N9dee552bb3f14dbe9d4c40cf6ef4171e,PhysicalAddressingScheme,owl#onClass
+Na196f231368c4501a03a58df798ecda1,hasCountry,owl#onProperty
+hasIndividualPostcode,PhysicalAddress,rdf-schema#domain
+N94408d92d29d4b1b8fb3f79cac53bb5d,PrimaryAddressNumber,owl#onClass
+StreetAddress,Nab83e9b971f14201be6489811cd6cf5c,rdf-schema#subClassOf
+PhysicalAddressIdentifier,Identifier,rdf-schema#subClassOf
+N4eb80a2325ab430ea3320809a5e60e20,N2a55833fe0df4f3e9811f810b028415c,22-rdf-syntax-ns#first
+hasIndividualPostcode,comprises,rdf-schema#subPropertyOf
+Na7abe183b51c478d86be753f014dabbc,1,owl#maxQualifiedCardinality
+PostdirectionalSymbol,GeographicDirectionalSymbol,rdf-schema#subClassOf
+Rear,"side or part of a building at the back, located opposite its front",core#definition
+Upper,floor of a building in a multistory structure that is farther away from the ground level,core#definition
+Naf04655bbbd44cd9ada64a3c16524373,owl#Restriction,22-rdf-syntax-ns#type
+Nab83e9b971f14201be6489811cd6cf5c,owl#Restriction,22-rdf-syntax-ns#type
+Space,owl#NamedIndividual,22-rdf-syntax-ns#type
+N554c9523fd87491a9c645e015fe0331a,PredirectionalSymbol,owl#onClass
+StreetSuffix,"The suffix may provide some insight into the size or length of the street, though not necessarily consistently. In some cities, the suffix differentiates the street from another in the same context, such as 19th Street vs. 19th Avenue in San Francisco.",explanatoryNote
+hasTransliteratedAddress,owl#ObjectProperty,22-rdf-syntax-ns#type
+N2b0587b7838440cba094743b49ec096d,XMLSchema#string,owl#onDataRange
+VirtualAddress,Address,rdf-schema#subClassOf
+SecondaryUnit,N607e323263014bf0a2b9ba900c7b5164,rdf-schema#subClassOf
+hasAddressLine1,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasAttentionLine,has attention line,rdf-schema#label
+Nf0e70dc76fcb4c739ff9fdb0393a3a57,1,owl#maxQualifiedCardinality
+SupplementalAddressUnit,AddressComponent,rdf-schema#subClassOf
+requiresSecondaryUnitRange,XMLSchema#boolean,rdf-schema#range
+Basement,false,requiresSecondaryUnitRange
+StreetAddress,AddressComponent,rdf-schema#subClassOf
+Nc3100bf650354500b40609529350c8c7,1,owl#maxQualifiedCardinality
+Lobby,owl#NamedIndividual,22-rdf-syntax-ns#type
+PhysicalAddressingScheme,pub28.pdf,rdf-schema#seeAlso
+StructureName,owl#Class,22-rdf-syntax-ns#type
+PrimaryAddressNumber,street number,synonym
+PhysicalAddress,"physical address where communications can be addressed, papers served or representatives located for any kind of organization or person",core#definition
+hasTransliteratedAddress,lei-cdf-format-version-2-1,adaptedFrom
+hasAddressLine2,owl#DatatypeProperty,22-rdf-syntax-ns#type
+PostdirectionalSymbol,postdirectional symbol,rdf-schema#label
+Nb5c50247613f4748a9f6aede9d5ac2d0,XMLSchema#string,owl#onDataRange
+hasAddressLine3,owl#DatatypeProperty,22-rdf-syntax-ns#type
+PhysicalAddressingScheme,N487faeef6eee496c8a12c2602e1674a3,rdf-schema#subClassOf
+PhysicalAddress,Nc3100bf650354500b40609529350c8c7,rdf-schema#subClassOf
+,,owl#imports
+PhysicalAddress,Na196f231368c4501a03a58df798ecda1,rdf-schema#subClassOf
+SupplementalAddressUnit,"address component that includes a specific route, box, apartment, condominium or other indicator or unit associated with a specific address",core#definition
+hasStreetAddress,StreetAddress,rdf-schema#range
+Suite,true,requiresSecondaryUnitRange
+N554c9523fd87491a9c645e015fe0331a,hasPredirectionalSymbol,owl#onProperty
+PostOfficeBox,SupplementalAddressComponent,rdf-schema#subClassOf
+N946c518edef347a7839f3ab6bb89ae25,XMLSchema#string,owl#onDataRange
+Nff007eb6a7474e59b064db61e79a58d2,SecondaryUnitIndicator,owl#onClass
+hasStructureName,has structure name,rdf-schema#label
+Nb5c50247613f4748a9f6aede9d5ac2d0,hasTag,owl#onProperty
+Upper,upper,rdf-schema#label
+N71f5fd5e8e234bacaa73e2b8093954dd,PostOfficeBoxDesignator,owl#onClass
+StreetName,Name,rdf-schema#subClassOf
+StreetAddress,"index to a location that consists of a primary address number, predirectional, street name, suffix, postdirectional, and an optional secondary unit",core#definition
+requiresSecondaryUnitRange,"if true, indicates that an additional qualifier is needed to complete the delivery point description, such as an apartment number",core#definition
+hasPrimaryAddressNumber,specifies a a location with respect to a given street,core#definition
+StreetAddress,N8607a95f713c4697aff0ebacb06166ea,rdf-schema#subClassOf
+hasStreetName,comprises,rdf-schema#subPropertyOf
+N72eaf47504a34a438bd2b6c0e4705caa,hasMunicipality,owl#onProperty
+Pier,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Office,false,requiresSecondaryUnitRange
+PhysicalAddressIdentifier,N9dee552bb3f14dbe9d4c40cf6ef4171e,rdf-schema#subClassOf
+N0a0b55b2efd048b491c43575712f1ddf,owl#Restriction,22-rdf-syntax-ns#type
+PostOfficeBoxDesignator,"designator used, together with an identifier, for a post office box",core#definition
+SupplementalAddressDesignator,supplemental address designator,rdf-schema#label
+Nf0e70dc76fcb4c739ff9fdb0393a3a57,owl#Restriction,22-rdf-syntax-ns#type
+Ne4a8168761454dea97549337ae46122f,1,owl#maxQualifiedCardinality
+,Addresses.rdf version of this ontology was modified for the FIBO 2.0 RFC to integrate LCC.,core#changeNote
+Postcode,GeographicRegionIdentifier,rdf-schema#subClassOf
+Naf04655bbbd44cd9ada64a3c16524373,identifies,owl#onProperty
+requiresSecondaryUnitRange,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Suite,owl#NamedIndividual,22-rdf-syntax-ns#type
+PrimaryAddressNumber,address component that identifies a location with respect to a given street,core#definition
+N946c518edef347a7839f3ab6bb89ae25,hasTag,owl#onProperty
+N6a766d7fa3d5494b8e9f8fafe1411c11,hasTag,owl#onProperty
+Key,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Trailer,trailer,rdf-schema#label
+Ne4a8168761454dea97549337ae46122f,hasAddressLine1,owl#onProperty
+Nd9f7657e45164d38b466a4002f321214,0,owl#minQualifiedCardinality
+Nd9f7657e45164d38b466a4002f321214,owl#Restriction,22-rdf-syntax-ns#type
+hasPrimaryAddressNumber,StreetAddress,rdf-schema#domain
+Naf04655bbbd44cd9ada64a3c16524373,1,owl#qualifiedCardinality
+Nc3100bf650354500b40609529350c8c7,hasPostalCode,owl#onProperty
+StreetName,AddressComponent,rdf-schema#subClassOf
+StreetName,"identifier for a street in some context (e.g., city, municipality, geographic region)",core#definition
+N00e739825ad545cca28a666cbe2407fa,Location,owl#onClass
+PredirectionalSymbol,geographic directional symbol that occurs after the primary street number but before the street name in a street address,core#definition
+Floor,true,requiresSecondaryUnitRange
+Lot,true,requiresSecondaryUnitRange
+N94408d92d29d4b1b8fb3f79cac53bb5d,owl#Restriction,22-rdf-syntax-ns#type
+hasAddressLine1,hasTextValue,rdf-schema#subPropertyOf
+Nfa0573bf77a54a2e9e91bbe39e44d962,owl#Restriction,22-rdf-syntax-ns#type
+Basement,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Na196f231368c4501a03a58df798ecda1,Country,owl#onClass
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+Na7abe183b51c478d86be753f014dabbc,owl#Restriction,22-rdf-syntax-ns#type
+StreetSuffix,"classifier for a street or other delivery location, such as a dwelling located along a waterway",core#definition
+Pier,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nff007eb6a7474e59b064db61e79a58d2,0,owl#minQualifiedCardinality
+hasPostdirectionalSymbol,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nff007eb6a7474e59b064db61e79a58d2,owl#Restriction,22-rdf-syntax-ns#type
+Room,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+Floor,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+,Addresses.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+hasSecondaryUnit,comprises,rdf-schema#subPropertyOf
+hasPostalCode,PhysicalAddress,rdf-schema#domain
+N2d676defecde4bcaa7d8b29f0a75484d,defines,owl#onProperty
+SupplementalAddressUnit,supplemental address unit,rdf-schema#label
+hasPrimaryAddressNumber,owl#ObjectProperty,22-rdf-syntax-ns#type
+PhysicalAddressingScheme,scheme for specifying physical addresses according to a country specific standard,core#definition
+SupplementalAddressComponent,supplemental address component,rdf-schema#label
+N0a0b55b2efd048b491c43575712f1ddf,XMLSchema#string,owl#onDataRange
+RegionSpecificIdentifier,owl#Class,22-rdf-syntax-ns#type
+,Addresses.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FND 1.1 RTF report. Differences from the 1.0 version include the addition of a hasAddress property and PhysicalAddress class as a parent of PostalAddress.,core#changeNote
+Slip,slip,rdf-schema#label
+Office,office,rdf-schema#label
+Suite,suite,rdf-schema#label
+N7141a0281d6c481499ea9a7cf61b5487,Address,owl#allValuesFrom
+PhysicalAddress,N11145b93b2c243baa8888bbd1807e78d,rdf-schema#subClassOf
+Ncbf556b528c840989355e8c82bb1ca9f,owl#Restriction,22-rdf-syntax-ns#type
+hasIndividualPostcode,indicates the local or international postcode element of a delivery address as specified by the local postal service,core#definition
+Nd3866a09939a4277a5520e29d092a20a,1,owl#maxQualifiedCardinality
+N554c9523fd87491a9c645e015fe0331a,0,owl#minQualifiedCardinality
+N554c9523fd87491a9c645e015fe0331a,owl#Restriction,22-rdf-syntax-ns#type
+Lobby,lobby,rdf-schema#label
+hasAddress,isCharacterizedBy,rdf-schema#subPropertyOf
+Nc3100bf650354500b40609529350c8c7,owl#Restriction,22-rdf-syntax-ns#type
+N7836c393b7a746d6a7816ef410121882,hasSubdivision,owl#onProperty
+Key,owl#NamedIndividual,22-rdf-syntax-ns#type
+PrimaryAddressNumber,"Although traditionally called a 'number', the street number may consist of alphanumeric characters, for example, '221B'.",explanatoryNote
+Office,SecondaryUnitDesignator,22-rdf-syntax-ns#type
+PostOfficeBoxAddress,Ncbf556b528c840989355e8c82bb1ca9f,rdf-schema#subClassOf
+SecondaryUnitDesignator,Classifier,rdf-schema#subClassOf
+N11145b93b2c243baa8888bbd1807e78d,1,owl#maxQualifiedCardinality
+Floor,"Labeling systems for floors vary from country to country, and may be specific to the building, for example, whether or not a 13th floor is identified as such tends to be on a case-by-case basis.",explanatoryNote
+hasPostalCode,has postal code,rdf-schema#label
+N607e323263014bf0a2b9ba900c7b5164,SecondaryUnitDesignator,owl#onClass
+Basement,owl#NamedIndividual,22-rdf-syntax-ns#type
+Lot,lot,rdf-schema#label
+StructureName,AddressComponent,rdf-schema#subClassOf
+Na196f231368c4501a03a58df798ecda1,1,owl#maxQualifiedCardinality
+Room,partitioned part of the inside of a building,core#definition
+hasPredirectionalSymbol,owl#ObjectProperty,22-rdf-syntax-ns#type
+Space,true,requiresSecondaryUnitRange
+GeographicDirectionalSymbol,owl#Class,22-rdf-syntax-ns#type
+Lobby,false,requiresSecondaryUnitRange
+Nb0027f4238724916bc1b5cb459d0e770,owl#Restriction,22-rdf-syntax-ns#type
+Room,owl#NamedIndividual,22-rdf-syntax-ns#type
+Floor,owl#NamedIndividual,22-rdf-syntax-ns#type
+PostOfficeBox,post office box associated with an address,core#definition
+PhysicalAddressingScheme,owl#Class,22-rdf-syntax-ns#type
+,"ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations
+	(6) to move this ontology from Organizations to Places and eliminate unnecessary properties and related imports dependencies.",core#changeNote
+StructureName,"Examples include 'McCoy Center', which is the name of the office complex where JPMorgan Chase's Polaris facility is located, 'Apple Park', which is the name of the corporate headquarters of Apple, Inc., and 'Howells Bridge Cottage', which is the name of a very old cottage in Cornwall.",core#example
+hasStreetSuffix,owl#ObjectProperty,22-rdf-syntax-ns#type
+Lower,floor of a building in a multistory structure that is closer to ground level,core#definition
+Nf0e70dc76fcb4c739ff9fdb0393a3a57,hasAddressLine2,owl#onProperty
+Postcode,postal code,synonym
+hasStreetAddress,owl#ObjectProperty,22-rdf-syntax-ns#type
+N2a55833fe0df4f3e9811f810b028415c,0,owl#minQualifiedCardinality

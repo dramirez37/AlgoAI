@@ -1,0 +1,47 @@
+source_id,target_id,relationship
+Constitution,"set of basic principles by which an organization is governed, especially in relation to the rights of the people it governs",core#definition
+,,owl#imports
+,LegalCore.rdf version of the ontology was revised to address hygiene issues with respect to text formatting.,core#changeNote
+,Release,hasMaturityLevel
+,LegalCore.rdf version of the ontology was revised to correct the camel case name of hasInForce (was hasInforce).,core#changeNote
+hasInForce,isInForceIn,owl#inverseOf
+isInForceIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+Constitution,constitution,rdf-schema#label
+CourtOfLaw,"A court of law is a formal forum of justice that may have authority over civil, criminal, ecclesiastical, or military cases.",explanatoryNote
+,MIT,license
+,LegalCore.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+,"Copyright (c) 2013-2022 Object Management Group, Inc.",copyright
+hasInForce,Law,rdf-schema#range
+,,owl#versionIRI
+,"This ontology defines high-level legal concepts for use in other FIBO ontology elements. These concepts include law and constitution, both of which are framed at a more abstract level than national or state laws and constitutions, so that law forms the basis both for statutes and for company by-laws, and constitution forms the basis both for national or state constitutions and for instruments which are constitutive of incorporated legal entities. This ontology also defines some of the variants of these such as governmental constitutions and ordinances. Court of Law is also defined here.",abstract
+isInForceIn,identifies a jurisdiction in which some law has effect,core#definition
+,Legal Core Ontology,rdf-schema#label
+Ncee6530f0efa4ac59f7de565cf18df58,governs,owl#onProperty
+Constitution,owl#Class,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+,"ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.
+	(6) to revise some of the text definitions using more formal sources.",core#changeNote
+,"LegalCore.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasInForce,has in force,rdf-schema#label
+Ncee6530f0efa4ac59f7de565cf18df58,owl#Restriction,22-rdf-syntax-ns#type
+,"LegalCore.rdf version of the ontology was revised to eliminate circular and ambiguous definitions, and simplify the ontology by eliminating unused concepts, including GovernmentalConstitution, Ordinance and narrowly defined and unused properties - constrains and isConstrainedBy.",core#changeNote
+Ncee6530f0efa4ac59f7de565cf18df58,Law,owl#someValuesFrom
+Law,law,rdf-schema#label
+Law,rule recognized by some community as regulating the behavior of its members and that it may enforce through the imposition of penalties,core#definition
+Law,owl#Class,22-rdf-syntax-ns#type
+hasInForce,"relates a jurisdiction or situation to a rule, regulation or law (collectively ""law"") that is currently in force in that situation or jurisdiction",core#definition
+CourtOfLaw,FormalOrganization,rdf-schema#subClassOf
+CourtOfLaw,person or body of persons having judicial authority to hear and resolve disputes on the basis of statutes or the common law,core#definition
+isInForceIn,Law,rdf-schema#domain
+,"Copyright (c) 2013-2022 EDM Council, Inc.",copyright
+isInForceIn,is in force in,rdf-schema#label
+,LegalCore.rdf version of the ontology was was modified per the FIBO 2.0 RFC.,core#changeNote
+CourtOfLaw,court of law,rdf-schema#label
+Law,"Law is a term which does not have a universally accepted definition. Certain laws are made by governments, specifically by their legislatures although the sense intended here is broader. The formation of laws themselves may be influenced by a constitution (written or unwritten) and the rights encoded therein. The law shapes politics, economics and society in countless ways and serves as a social mediator of relations between people.",explanatoryNote
+hasInForce,owl#ObjectProperty,22-rdf-syntax-ns#type
+Constitution,Collection,rdf-schema#subClassOf
+,.,core#changeNote
+CourtOfLaw,owl#Class,22-rdf-syntax-ns#type
+Constitution,Ncee6530f0efa4ac59f7de565cf18df58,rdf-schema#subClassOf
+Constitution,"A constitution is an aggregate of fundamental principles or established precedents that constitute the legal basis of a polity, organisation or other type of entity and commonly determine how that entity is to be governed.",explanatoryNote

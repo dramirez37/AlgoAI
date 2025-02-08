@@ -1,0 +1,117 @@
+source_id,target_id,relationship
+TradeAdvertisements,owl#Class,22-rdf-syntax-ns#type
+PrimaryMarket,primary market,rdf-schema#label
+MarketDataProvision,market data provision,rdf-schema#label
+SecondaryMarketTradingContext,secondary market trading context,rdf-schema#label
+SecuritiesTradeConfirmationAffirmation,owl#Class,22-rdf-syntax-ns#type
+SecurityRetirement,Nd185d1d0801c41bc9aecb83c8ff7afd0,rdf-schema#subClassOf
+SecuritiesTradeOrderRouting,SecuritiesTrade,rdf-schema#subClassOf
+PortfolioManagement,owl#Class,22-rdf-syntax-ns#type
+SecuritiesTrade,securities trade,rdf-schema#label
+SecuritiesTrade,owl#Class,22-rdf-syntax-ns#type
+PreTrade,InvestmentManagement,rdf-schema#subClassOf
+TradesReferenceDataProvision,SecuritiesTrade,rdf-schema#subClassOf
+PrimaryMarket,owl#Class,22-rdf-syntax-ns#type
+SecuritiesTradeDatePositionReporting,owl#Class,22-rdf-syntax-ns#type
+PretradeQuotes,pretrade quotes,rdf-schema#label
+SecuritiesTradeCaptureAndValidation,SecuritiesPostTrade,rdf-schema#subClassOf
+FinancialIndustryContext,owl#Class,22-rdf-syntax-ns#type
+FinancialIndustryContext,"The context in which business activites take place within the financial industry, i.e. investment management, wholesale financial markets trading and so on.",core#definition
+SecurityRetirement,owl#Class,22-rdf-syntax-ns#type
+SecuritiesPostTrade,securities post trade,rdf-schema#label
+SecuritiesTradeOrderRouting,securities trade order routing,rdf-schema#label
+PreTrade,owl#Class,22-rdf-syntax-ns#type
+,This ontology defines process concepts in general for refinement and re-use elsewhere in the FIBO business process domain.,abstract
+SecuritiesPostTrade,owl#Class,22-rdf-syntax-ns#type
+PrimaryMarketIndicationsOfInterest,owl#Class,22-rdf-syntax-ns#type
+ShortSaleLocate,PreTrade,rdf-schema#subClassOf
+ClearingAndSettlement,FinancialIndustryContext,rdf-schema#subClassOf
+,,owl#imports
+ClearingAndSettlement,owl#Class,22-rdf-syntax-ns#type
+PretradeReferenceDataProvision,owl#Class,22-rdf-syntax-ns#type
+MarketDataProvision,PreTrade,rdf-schema#subClassOf
+SecuritiesTrade,FinancialIndustryContext,rdf-schema#subClassOf
+PortfolioManagement,portfolio management,rdf-schema#label
+FinancialMarketsRegulation,financial markets regulation,rdf-schema#label
+WhenIssuedTrading,owl#Class,22-rdf-syntax-ns#type
+,,owl#versionIRI
+SecuritiesPostTradePositionManagement,owl#Class,22-rdf-syntax-ns#type
+SecuritiesPostTradePositionManagement,SecuritiesPostTrade,rdf-schema#subClassOf
+InvestmentManagement,FinancialIndustryContext,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+Clearing,The process by which securities trades are cleared.,core#definition
+SecuritiesTradeConfirmationAffirmation,SecuritiesPostTrade,rdf-schema#subClassOf
+InvestmentManagement,owl#Class,22-rdf-syntax-ns#type
+SecuritiesTradeOrderRouting,owl#Class,22-rdf-syntax-ns#type
+PrimaryMarket,FinancialIndustryContext,rdf-schema#subClassOf
+PrimaryMarketClosing,PrimaryMarket,rdf-schema#subClassOf
+TradeAdvertisements,trade advertisements,rdf-schema#label
+Nd185d1d0801c41bc9aecb83c8ff7afd0,Security,owl#someValuesFrom
+SecuritiesTradeCaptureAndValidation,owl#Class,22-rdf-syntax-ns#type
+PrimaryMarketIndicationsOfInterest,PreTrade,rdf-schema#subClassOf
+InvestmentManagement,investment management,rdf-schema#label
+isRetirementOf,Security,rdf-schema#range
+MarketDataProvision,owl#Class,22-rdf-syntax-ns#type
+SecuritiesTradeCaptureAndValidation,securities trade capture and validation,rdf-schema#label
+Clearing,clearing,rdf-schema#label
+SecuritiesPostTradePositionManagement,securities post trade position management,rdf-schema#label
+SecondaryMarketTradingContext,owl#Class,22-rdf-syntax-ns#type
+SecuritiesTradesReporting,SecuritiesPostTrade,rdf-schema#subClassOf
+SecuritiesCustody,securities custody,rdf-schema#label
+Clearing,owl#Class,22-rdf-syntax-ns#type
+ClearingAndSettlement,clearing and settlement,rdf-schema#label
+PretradeReferenceDataProvision,pretrade reference data provision,rdf-schema#label
+WhenIssuedTrading,when issued trading,rdf-schema#label
+FinancialMarketsRegulation,owl#Class,22-rdf-syntax-ns#type
+SecurityRetirement,security retirement,rdf-schema#label
+PrimaryMarketClosing,owl#Class,22-rdf-syntax-ns#type
+WhenIssuedTrading,PrimaryMarket,rdf-schema#subClassOf
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+isRetirementOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+isRetirementOf,is retirement of,rdf-schema#label
+SecuritiesTradesMatching,owl#Class,22-rdf-syntax-ns#type
+TradesReferenceDataProvision,trades reference data provision,rdf-schema#label
+SecuritiesTradeExecution,securities trade execution,rdf-schema#label
+SecuritiesTradeDatePositionReporting,securities trade date position reporting,rdf-schema#label
+TradedSecurityLifecycle,owl#Class,22-rdf-syntax-ns#type
+SecuritiesTradesReporting,owl#Class,22-rdf-syntax-ns#type
+PretradeReferenceDataProvision,PreTrade,rdf-schema#subClassOf
+SecuritiesPostTrade,FinancialIndustryContext,rdf-schema#subClassOf
+ClearingAndSettlement,The business process or service area of securities clearing and settlement.,core#definition
+PortfolioManagement,InvestmentManagement,rdf-schema#subClassOf
+SecuritiesTradesMatching,SecuritiesPostTrade,rdf-schema#subClassOf
+SecondaryMarketTradingContext,FinancialIndustryContext,rdf-schema#subClassOf
+PrimaryMarket,Issuance and primary market trading of new Traded Financial Instruments,core#definition
+PrimaryMarketIndicationsOfInterest,primary market indications of interest,rdf-schema#label
+PreTrade,pre trade,rdf-schema#label
+SecuritiesTradeAllocation,SecuritiesPostTrade,rdf-schema#subClassOf
+SecuritiesTradesMatching,"Matching of trade allegations to identify confirmed trades, on an Over the Counter market in Traded Securities.",core#definition
+FinancialIndustryContext,Context,rdf-schema#subClassOf
+TradedSecurityLifecycle,traded security lifecycle,rdf-schema#label
+,Financial Context and Process Ontology,rdf-schema#label
+,Provisional,hasMaturityLevel
+PretradeQuotes,owl#Class,22-rdf-syntax-ns#type
+SecuritiesTradeExecution,SecuritiesTrade,rdf-schema#subClassOf
+,MIT,license
+SecuritiesTradeConfirmationAffirmation,securities trade confirmation affirmation,rdf-schema#label
+FinancialIndustryContext,REVIEW: Ther precise definition above defines the Scope of this model.,core#editorialNote
+Nd185d1d0801c41bc9aecb83c8ff7afd0,isRetirementOf,owl#onProperty
+SecuritiesTradeDatePositionReporting,SecuritiesTrade,rdf-schema#subClassOf
+FinancialMarketsRegulation,FinancialIndustryContext,rdf-schema#subClassOf
+FinancialIndustryContext,financial industry context,rdf-schema#label
+PrimaryMarketClosing,primary market closing,rdf-schema#label
+ShortSaleLocate,owl#Class,22-rdf-syntax-ns#type
+SecuritiesCustody,FinancialIndustryContext,rdf-schema#subClassOf
+TradeAdvertisements,PreTrade,rdf-schema#subClassOf
+SecuritiesCustody,owl#Class,22-rdf-syntax-ns#type
+SecuritiesTradeExecution,owl#Class,22-rdf-syntax-ns#type
+SecuritiesTradesMatching,securities trades matching,rdf-schema#label
+isRetirementOf,SecurityRetirement,rdf-schema#domain
+SecuritiesTradeAllocation,securities trade allocation,rdf-schema#label
+SecuritiesTradesReporting,securities trades reporting,rdf-schema#label
+ShortSaleLocate,short sale locate,rdf-schema#label
+Nd185d1d0801c41bc9aecb83c8ff7afd0,owl#Restriction,22-rdf-syntax-ns#type
+Clearing,ClearingAndSettlement,rdf-schema#subClassOf
+PretradeQuotes,PreTrade,rdf-schema#subClassOf
+SecuritiesTradeAllocation,owl#Class,22-rdf-syntax-ns#type
+TradesReferenceDataProvision,owl#Class,22-rdf-syntax-ns#type

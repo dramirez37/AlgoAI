@@ -1,0 +1,78 @@
+source_id,target_id,relationship
+InvestmentFirm,LocalFirm,owl#disjointWith
+CreditInstitution,credit-institutions-register,adaptedFrom
+NonEuropeanEconomicAreaBranch,non European Economic Area branch,rdf-schema#label
+Nc9acb4276bad41e9ba5760d05402f749,provides,owl#onProperty
+LocalFirm,BrokerageFirm,rdf-schema#subClassOf
+,"Copyright (c) 2017-2023 Object Management Group, Inc.",copyright
+N9836960c657943e2a8ee2e031c65dd22,BrokerageFirm,22-rdf-syntax-ns#first
+EuropeanEconomicAreaBranch,owl#Class,22-rdf-syntax-ns#type
+N529c7ba9d97841b29418081452974df9,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,"This ontology extends the primary financial services entities ontology in FBC with additional kinds of entities that that provide services in Europe, across national boundaries, such as European market data providers, organizations that provide exchanges in multiple countries, organizations that support the European Union, and so forth.",abstract
+CreditInstitutionInvestmentFirm,FinancialInstitution,rdf-schema#subClassOf
+InvestmentFirm,investment firm,rdf-schema#label
+InvestmentFirm,N1264dc03bf4e449e905e6cfef2770d66,rdf-schema#subClassOf
+NonEuropeanEconomicAreaBranch,owl#Class,22-rdf-syntax-ns#type
+CreditInstitution,credit institution,rdf-schema#label
+CRDCreditInstitution,CreditInstitution,rdf-schema#subClassOf
+CreditInstitutionInvestmentFirm, investment firm,rdf-schema#label
+CreditInstitution,CreditInstitutionInvestmentFirm,rdf-schema#subClassOf
+,,owl#imports
+PaymentInstitution,owl#Class,22-rdf-syntax-ns#type
+N529c7ba9d97841b29418081452974df9,N2a029b93aa0949f98f7e7346f5a13061,22-rdf-syntax-ns#first
+EuropeanEconomicAreaBranch,EEA branch,synonym
+EuropeanEconomicAreaBranch,European Economic Area branch,rdf-schema#label
+NonEuropeanEconomicAreaBranch,a branch of a credit institution whose Head Office is in a third country,core#definition
+NonEuropeanEconomicAreaBranch,non-EEA branch,synonym
+CreditInstitutionInvestmentFirm,owl#Class,22-rdf-syntax-ns#type
+,,owl#versionIRI
+InvestmentFirm,or the performance of one or more investment activities on a professional basis,core#definition
+LocalFirm,"a firm dealing for its own account on markets in financial futures or options or other derivatives and on cash markets for the sole purpose of hedging positions on derivatives markets, or dealing for the accounts of other members of those markets and being guaranteed by clearing members of the same markets, where responsibility for ensuring the performance of contracts entered into by such a firm is assumed by clearing members of the same markets",core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+InvestmentFirm,owl#Class,22-rdf-syntax-ns#type
+Nf60da7ace1b24cc9bd488d8797e4bf98,InvestmentCompany,22-rdf-syntax-ns#first
+N1264dc03bf4e449e905e6cfef2770d66,N9836960c657943e2a8ee2e031c65dd22,owl#unionOf
+EuropeanEconomicAreaBranch,NonEuropeanEconomicAreaBranch,owl#disjointWith
+,"Copyright (c) 2017-2023 EDM Council, Inc.",copyright
+NonEuropeanEconomicAreaBranch,CreditInstitution,rdf-schema#subClassOf
+CRDCreditInstitution,NonEuropeanEconomicAreaBranch,owl#disjointWith
+Nf60da7ace1b24cc9bd488d8797e4bf98,N529c7ba9d97841b29418081452974df9,22-rdf-syntax-ns#rest
+,European Financial Services Entities Ontology,rdf-schema#label
+CRDCreditInstitution,credit-institutions-register,definitionOrigin
+InvestmentFirm,CreditInstitution,owl#disjointWith
+PaymentInstitution,Nc9acb4276bad41e9ba5760d05402f749,rdf-schema#subClassOf
+PaymentInstitution,a legal person that has been granted authorisation in accordance with Article 10 to provide and execute payment services throughout the European community,core#definition
+PaymentInstitution,CreditInstitutionInvestmentFirm,rdf-schema#subClassOf
+CRDCreditInstitution,EuropeanEconomicAreaBranch,owl#disjointWith
+Nc9acb4276bad41e9ba5760d05402f749,PaymentService,owl#someValuesFrom
+CreditInstitution,owl#Class,22-rdf-syntax-ns#type
+LocalFirm,owl#Class,22-rdf-syntax-ns#type
+CreditInstitution,?uri=CELEX:32013R0575&from=EN#page=18,adaptedFrom
+EuropeanEconomicAreaBranch,CreditInstitution,rdf-schema#subClassOf
+LocalFirm,CreditInstitutionInvestmentFirm,rdf-schema#subClassOf
+LocalFirm,local firm,rdf-schema#label
+CRDCreditInstitution,an undertaking whose business is to receive deposits or other repayable funds from the public and to grant credits for its own account as defined by the European Banking Authority (EBA),core#definition
+CreditInstitution,"an undertaking the business of which is to take deposits or other repayable funds from the public and to grant credits for its own account, and to which authorisation has been granted to operate within the European Union and European Economic Area countries (EEA)",core#definition
+EuropeanEconomicAreaBranch,a branch of a credit institution authorised in another European Economic Area (EEA) country that has the right to passport its activities,core#definition
+N9836960c657943e2a8ee2e031c65dd22,Nf60da7ace1b24cc9bd488d8797e4bf98,22-rdf-syntax-ns#rest
+CRDCreditInstitution,owl#Class,22-rdf-syntax-ns#type
+,EUFinancialServicesEntities.rdf version of this ontology was revised to adjust the name of the CreditInstitutionOrInvestmentFirm classification to eliminate the 'or' in the name to address hygiene issues.,core#changeNote
+N2a029b93aa0949f98f7e7346f5a13061,owl#Restriction,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+,MIT,license
+,EUFinancialServicesEntities.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N1264dc03bf4e449e905e6cfef2770d66,owl#Class,22-rdf-syntax-ns#type
+PaymentInstitution,payment institution,rdf-schema#label
+Nc9acb4276bad41e9ba5760d05402f749,owl#Restriction,22-rdf-syntax-ns#type
+CreditInstitutionInvestmentFirm, investment firms as defined by the European Banking Authority (EBA),core#definition
+N2a029b93aa0949f98f7e7346f5a13061,InvestmentService,owl#someValuesFrom
+,EUFinancialServicesEntities.rdf version of this ontology was added via the FIBO 2.0 RFC.,core#changeNote
+InvestmentFirm,CreditInstitutionInvestmentFirm,rdf-schema#subClassOf
+PaymentInstitution,?uri=CELEX:32007L0064&from=EN#page=18,adaptedFrom
+EuropeanEconomicAreaBranch,credit-institutions-register,definitionOrigin
+N2a029b93aa0949f98f7e7346f5a13061,provides,owl#onProperty
+CRDCreditInstitution,CRD credit institution,rdf-schema#label
+CreditInstitutionInvestmentFirm,?uri=CELEX:32013R0575&from=EN#page=18,adaptedFrom
+NonEuropeanEconomicAreaBranch,credit-institutions-register,definitionOrigin
+LocalFirm,?uri=CELEX:32013R0575&from=EN#page=18,adaptedFrom
+InvestmentFirm,?uri=CELEX:32004L0039&from=en#page=9,adaptedFrom

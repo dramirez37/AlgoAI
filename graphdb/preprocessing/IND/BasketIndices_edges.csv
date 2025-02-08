@@ -1,0 +1,203 @@
+source_id,target_id,relationship
+MarketCapitalization,market capitalization,rdf-schema#label
+hasDebtRanking,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasMarketCapitalizationValue,has market capitalization value,rdf-schema#label
+N006f034938f744ff845060b71c3a86dc,CombinedDateTime,owl#someValuesFrom
+N53f47e078099462887a98927de2c1549,owl#Restriction,22-rdf-syntax-ns#type
+,"BasketIndices.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+Nab5b6fc219bd4b53aebf294739c1e50f,isBasedOn,owl#onProperty
+hasIndexValue,specifies the value of a given index as of the release date,core#definition
+MarketCapitalization,N7a312d7bfb504c2bb111fa6131a35858,rdf-schema#subClassOf
+N8655923550a848818245d85e096a07a2,0,owl#minQualifiedCardinality
+N9ed5a1608a22456d814a0eccc11e9e38,IndustrySectorClassifier,owl#onClass
+BasketOfCreditRisks,basket of credit risks,rdf-schema#label
+hasSpreadRange,XMLSchema#string,rdf-schema#range
+CapitalizationBasedWeightingFunction,weighting function derived from the relative market capitalization (share price times the number of shares outstanding) of the companies tracked by an index,core#definition
+BasketOfEquities,N01ed454c392a497a9c0770c150505b35,rdf-schema#subClassOf
+Na9a4b680b1864004a61adc2ed19ae958,hasConstituent,owl#onProperty
+hasDebtRanking,has debt ranking,rdf-schema#label
+ReferenceIndex,N9ed5a1608a22456d814a0eccc11e9e38,rdf-schema#subClassOf
+hasMarketCapitalization,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasOriginalNotionalValue,has original notional value,rdf-schema#label
+N12e87664efba4126b55fe2b1589da041,Nbee41b73d8ec4303bb3600cc7da2bc92,22-rdf-syntax-ns#rest
+ReferenceIndex,ScopedMeasure,rdf-schema#subClassOf
+N79b156ded6164e35b455f87a48b5c01f,RecurrenceInterval,owl#allValuesFrom
+MarketCapitalization,Ne790c1bf6c124ccd959dfa9907dba14d,rdf-schema#subClassOf
+hasOriginalNotionalValue,owl#ObjectProperty,22-rdf-syntax-ns#type
+N8655923550a848818245d85e096a07a2,Date,owl#onClass
+N01ed454c392a497a9c0770c150505b35,hasConstituent,owl#onProperty
+CreditIndexConstituent,constituent of a basket of credit risks,core#definition
+N8655923550a848818245d85e096a07a2,owl#Restriction,22-rdf-syntax-ns#type
+N4d50ff2f5a294314825bb8a450e97dd9,BasketOfCreditRisks,owl#someValuesFrom
+N1a7d8f065b2c474abc5062669a1ebdfb,BasketOfEquities,owl#someValuesFrom
+ReferenceIndex,reference index,rdf-schema#label
+N3dd91bd80d0c413ab4960e3cdb3b54ce,ExplicitDatePeriod,owl#onClass
+N7a312d7bfb504c2bb111fa6131a35858,owl#Restriction,22-rdf-syntax-ns#type
+ReferenceIndex,N79b156ded6164e35b455f87a48b5c01f,rdf-schema#subClassOf
+EquityIndex,benchmark whose constituents are exclusively equity instruments,core#definition
+MarketCapitalization,Nf8b017f2286e4418b262ce3304b4086e,rdf-schema#subClassOf
+CapitalizationBasedWeightingFunction,WeightingFunction,rdf-schema#subClassOf
+BasketOfEquities,owl#Class,22-rdf-syntax-ns#type
+Nf8b017f2286e4418b262ce3304b4086e,owl#Restriction,22-rdf-syntax-ns#type
+,"BasketIndices.rdf version of this ontology was revised to loosen the restriction on a reference index to simply reference any weighted basket so that one could include commodity indices, for example.",core#changeNote
+hasPremium,has premium,rdf-schema#label
+N22e86060bcd24b7a8b36deef06a043bc,0,owl#minQualifiedCardinality
+N22e86060bcd24b7a8b36deef06a043bc,owl#Restriction,22-rdf-syntax-ns#type
+N383b44293ffb4055a3c2276f37b7f2ea,owl#Class,22-rdf-syntax-ns#type
+hasPremium,MonetaryAmount,rdf-schema#range
+hasOriginalNotionalValue,MonetaryAmount,rdf-schema#range
+ReferenceIndex,N3dd91bd80d0c413ab4960e3cdb3b54ce,rdf-schema#subClassOf
+hasPremium,hasMonetaryAmount,rdf-schema#subPropertyOf
+MarketCapitalization,expression representing the perceived value of a company as determined by the stock market at a specific point in time,core#definition
+hasMarketCapitalizationValue,indicates the monetary amount representing the market capitalization of some issuer as of some date,core#definition
+N22e86060bcd24b7a8b36deef06a043bc,isClassifiedBy,owl#onProperty
+,BasketIndices.rdf version of this ontology was revised to reflect the move of hasTerm from FinancialInstruments to Contracts.,core#changeNote
+,BasketIndices.rdf version of this ontology was revised to add the details needed to calculate market cap for a capitalization-based weighting function.,core#changeNote
+hasIndexName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasUpFrontFee,specifies a fee payable by any party that wishes to participate in a contract based on the index after the start of its life,core#definition
+hasMarketCapitalizationValue,MonetaryAmount,rdf-schema#range
+CreditIndexConstituent,N42049c005dbf46dea206af3bc9a3c70d,rdf-schema#subClassOf
+hasMarketCapitalizationValue,hasMonetaryAmount,rdf-schema#subPropertyOf
+,,owl#imports
+BasketOfCreditRisks,owl#Class,22-rdf-syntax-ns#type
+N4da45b8624e34f15a6c354c5ad701430,refersTo,owl#onProperty
+N01ed454c392a497a9c0770c150505b35,N383b44293ffb4055a3c2276f37b7f2ea,owl#someValuesFrom
+CreditIndexConstituent,N4da45b8624e34f15a6c354c5ad701430,rdf-schema#subClassOf
+CapitalizationBasedWeightingFunction,owl#Class,22-rdf-syntax-ns#type
+CapitalizationBasedWeightingFunction,Nbae5848dd40240ff94d7656079204860,rdf-schema#subClassOf
+N7a312d7bfb504c2bb111fa6131a35858,hasSharesOutstanding,owl#onProperty
+CreditIndex,ReferenceIndex,rdf-schema#subClassOf
+hasMarketCapitalization,has market capitalization,rdf-schema#label
+N3dd91bd80d0c413ab4960e3cdb3b54ce,hasReportingPeriod,owl#onProperty
+BasketOfCreditRisks,"basket of instruments, legal entities, or a combination thereof collected for the purpose of analyzing risk",core#definition
+hasUpFrontFee,CreditIndex,rdf-schema#domain
+EquityIndex,N1a7d8f065b2c474abc5062669a1ebdfb,rdf-schema#subClassOf
+Nf8b017f2286e4418b262ce3304b4086e,PricePerShare,owl#someValuesFrom
+Nd255928148fe4353bdfed80b093b514c,comprises,owl#onProperty
+,,owl#versionIRI
+,BasketIndices.rdf version of this ontology was revised to address text processing hygiene issues.,core#changeNote
+,"This ontology defines market indices as hypothetical portfolios of investment holdings that correspond to some segment of the financial market, whose value is determined by the prices of the underlying holdings. Coverage includes credit indices, security-based indices, economic indicator based indices, and combinations thereof.",abstract
+N8655923550a848818245d85e096a07a2,hasReleaseDate,owl#onProperty
+,Basket Indices Ontology,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+BasketOfCreditRisks,Na9a4b680b1864004a61adc2ed19ae958,rdf-schema#subClassOf
+BasketOfCreditRisks,DatedStructuredCollection,rdf-schema#subClassOf
+N9ed5a1608a22456d814a0eccc11e9e38,isClassifiedBy,owl#onProperty
+N1a7d8f065b2c474abc5062669a1ebdfb,isBasedOn,owl#onProperty
+hasSpreadRange,CreditIndex,rdf-schema#domain
+N4da45b8624e34f15a6c354c5ad701430,owl#Restriction,22-rdf-syntax-ns#type
+hasSpreadRange,the range of credit spread for the constituents of the index,core#definition
+N1a7d8f065b2c474abc5062669a1ebdfb,owl#Restriction,22-rdf-syntax-ns#type
+CreditIndex,reference index that is a function of credit events that change the value of an underlying portfolio,core#definition
+Ne790c1bf6c124ccd959dfa9907dba14d,owl#Restriction,22-rdf-syntax-ns#type
+CreditIndexConstituent,owl#Class,22-rdf-syntax-ns#type
+hasIndexValue,has index value,rdf-schema#label
+ReferenceIndex,N53f47e078099462887a98927de2c1549,rdf-schema#subClassOf
+Nbee41b73d8ec4303bb3600cc7da2bc92,Nd255928148fe4353bdfed80b093b514c,22-rdf-syntax-ns#first
+hasDebtRanking,XMLSchema#string,rdf-schema#range
+N42049c005dbf46dea206af3bc9a3c70d,owl#Restriction,22-rdf-syntax-ns#type
+EquityIndex,owl#Class,22-rdf-syntax-ns#type
+,BasketIndices.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+Nbee41b73d8ec4303bb3600cc7da2bc92,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N006f034938f744ff845060b71c3a86dc,owl#Restriction,22-rdf-syntax-ns#type
+hasMarketCapitalizationValue,owl#ObjectProperty,22-rdf-syntax-ns#type
+MarketCapitalization,N1a868adce4254064a260739d4e0979e7,rdf-schema#subClassOf
+Nbae5848dd40240ff94d7656079204860,hasMarketCapitalization,owl#onProperty
+MarketCapitalization,Expression,rdf-schema#subClassOf
+hasUpFrontFee,MonetaryAmount,rdf-schema#range
+CreditIndex,credit index,rdf-schema#label
+,BasketIndices.rdf version of this ontology was revised to eliminate the restriction on reference index that it has an index value - the restriction should be on the quantity value such that the value refers to the indicator it represents.,core#changeNote
+MarketCapitalization,N006f034938f744ff845060b71c3a86dc,rdf-schema#subClassOf
+hasMarketCapitalizationValue,MarketCapitalization,rdf-schema#domain
+hasDebtRanking,indicates the ranking of this debt instrument with respect to the credit index as a whole,core#definition
+N4d50ff2f5a294314825bb8a450e97dd9,isConstituentOf,owl#onProperty
+CreditIndexConstituent,WeightedBasketConstituent,rdf-schema#subClassOf
+BasketOfCreditRisks,"Note that the risk related to a given constituent may be calculated based on either (1) the overall credit risk associated with the entity or, (2) the combined risk associated with an entity and the specific instrument identified, or (3) risk associated with the instrument on its own. Criteria for constituents is based on sectors (emerging market, financial, sovereign, etc), spread range (investment grade, non-investment grade), or asset type (loan, bond, mortgage-backed, asset-backed), second criteria is based on maturity of protection (2,3,5,7,10 yrs). Markit manages over 2000 CDS indexes, for example.",explanatoryNote
+CapitalizationBasedWeightingFunction,capitalization-based weighting function,rdf-schema#label
+hasOriginalNotionalValue,hasNotionalAmount,rdf-schema#subPropertyOf
+BasketOfEquities,basket of securities whose constituents are listed shares,core#definition
+CreditIndex,Nab5b6fc219bd4b53aebf294739c1e50f,rdf-schema#subClassOf
+N53f47e078099462887a98927de2c1549,WeightedBasket,owl#someValuesFrom
+CreditIndexConstituent,DatedCollectionConstituent,rdf-schema#subClassOf
+N3dd91bd80d0c413ab4960e3cdb3b54ce,1,owl#qualifiedCardinality
+hasPremium,CreditIndex,rdf-schema#domain
+N53f47e078099462887a98927de2c1549,isBasedOn,owl#onProperty
+N1a868adce4254064a260739d4e0979e7,MonetaryAmount,owl#someValuesFrom
+N12e87664efba4126b55fe2b1589da041,SecuritiesBasketConstituent,22-rdf-syntax-ns#first
+N4da45b8624e34f15a6c354c5ad701430,CreditEvent,owl#someValuesFrom
+N7a312d7bfb504c2bb111fa6131a35858,XMLSchema#nonNegativeInteger,owl#someValuesFrom
+BasketOfEquities,BasketOfSecurities,rdf-schema#subClassOf
+hasIndexValue,hasNumericValue,rdf-schema#subPropertyOf
+hasIndexValue,owl#DatatypeProperty,22-rdf-syntax-ns#type
+ReferenceIndex,N5484f68c225742ee8c5a43d869aff57e,rdf-schema#subClassOf
+N3dd91bd80d0c413ab4960e3cdb3b54ce,owl#Restriction,22-rdf-syntax-ns#type
+Ne790c1bf6c124ccd959dfa9907dba14d,appliesTo,owl#onProperty
+ReferenceIndex,"An index is a function based on a set of structured calculations with respect to a basket of credit risks, financial instruments or other indices over time. Analysis may be computed based on historical values, projected values, etc.",explanatoryNote
+N79b156ded6164e35b455f87a48b5c01f,owl#Restriction,22-rdf-syntax-ns#type
+EquityIndex,ReferenceIndex,rdf-schema#subClassOf
+N006f034938f744ff845060b71c3a86dc,hasObservedDateTime,owl#onProperty
+N5484f68c225742ee8c5a43d869aff57e,hasReleaseDateTime,owl#onProperty
+N22e86060bcd24b7a8b36deef06a043bc,AssetClass,owl#onClass
+hasSpreadRange,has spread range,rdf-schema#label
+BasketOfCreditRisks,WeightedBasket,rdf-schema#subClassOf
+N1a868adce4254064a260739d4e0979e7,hasMarketCapitalizationValue,owl#onProperty
+hasUpFrontFee,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasSpreadRange,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasDebtRanking,CreditIndexConstituent,rdf-schema#domain
+N42049c005dbf46dea206af3bc9a3c70d,hasCurrency,owl#onProperty
+,BasketIndices.rdf version of this ontology was revised to remedy an illegal property chain (replacing it with an existing non-chained property) in the definition of market capitalization.,core#changeNote
+hasIndexName,has index name,rdf-schema#label
+Nd255928148fe4353bdfed80b093b514c,owl#Restriction,22-rdf-syntax-ns#type
+hasIndexName,XMLSchema#string,rdf-schema#range
+,BasketIndices.rdf version of the ontology was modified to eliminate punning in the definition of market cap.,core#changeNote
+ReferenceIndex,measure of change in the value of the contents of a basket over a given period of time,core#definition
+Nab5b6fc219bd4b53aebf294739c1e50f,owl#Restriction,22-rdf-syntax-ns#type
+Nf8b017f2286e4418b262ce3304b4086e,hasArgument,owl#onProperty
+hasIndexName,specifies a formal name for the index,core#definition
+Nd255928148fe4353bdfed80b093b514c,ListedShare,owl#allValuesFrom
+N383b44293ffb4055a3c2276f37b7f2ea,N12e87664efba4126b55fe2b1589da041,owl#unionOf
+MarketCapitalization,number of shares outstanding x price per share,describesActualExpression
+Nab5b6fc219bd4b53aebf294739c1e50f,BasketOfCreditRisks,owl#someValuesFrom
+hasOriginalNotionalValue,indicates the notional amount represented by the index when it is first constituted,core#definition
+hasIndexName,ReferenceIndex,rdf-schema#domain
+MarketCapitalization,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+hasOriginalNotionalValue,CreditIndex,rdf-schema#domain
+Ne790c1bf6c124ccd959dfa9907dba14d,ShareIssuer,owl#someValuesFrom
+hasPremium,indicates a premium payable for a contract based on the index,core#definition
+Na9a4b680b1864004a61adc2ed19ae958,CreditIndexConstituent,owl#someValuesFrom
+N42049c005dbf46dea206af3bc9a3c70d,Currency,owl#someValuesFrom
+,MIT,license
+Nbae5848dd40240ff94d7656079204860,MarketCapitalization,owl#someValuesFrom
+hasIndexName,hasFormalName,rdf-schema#subPropertyOf
+EquityIndex,equity index,rdf-schema#label
+N79b156ded6164e35b455f87a48b5c01f,hasPeriodicity,owl#onProperty
+ReferenceIndex,N8655923550a848818245d85e096a07a2,rdf-schema#subClassOf
+ReferenceIndex,N22e86060bcd24b7a8b36deef06a043bc,rdf-schema#subClassOf
+Na9a4b680b1864004a61adc2ed19ae958,owl#Restriction,22-rdf-syntax-ns#type
+N9ed5a1608a22456d814a0eccc11e9e38,0,owl#minQualifiedCardinality
+N9ed5a1608a22456d814a0eccc11e9e38,owl#Restriction,22-rdf-syntax-ns#type
+BasketOfEquities,basket of equities,rdf-schema#label
+N4d50ff2f5a294314825bb8a450e97dd9,owl#Restriction,22-rdf-syntax-ns#type
+CreditIndex,owl#Class,22-rdf-syntax-ns#type
+N5484f68c225742ee8c5a43d869aff57e,CombinedDateTime,owl#onDataRange
+N1a868adce4254064a260739d4e0979e7,owl#Restriction,22-rdf-syntax-ns#type
+N01ed454c392a497a9c0770c150505b35,owl#Restriction,22-rdf-syntax-ns#type
+MarketCapitalization,market cap,synonym
+hasPremium,owl#ObjectProperty,22-rdf-syntax-ns#type
+ReferenceIndex,owl#Class,22-rdf-syntax-ns#type
+ReferenceIndex,benchmark,synonym
+,"Copyright (c) 2014-2024 Object Management Group, Inc.",copyright
+hasUpFrontFee,has up front fee,rdf-schema#label
+CreditIndexConstituent,N4d50ff2f5a294314825bb8a450e97dd9,owl#equivalentClass
+Nbae5848dd40240ff94d7656079204860,owl#Restriction,22-rdf-syntax-ns#type
+N5484f68c225742ee8c5a43d869aff57e,0,owl#minQualifiedCardinality
+hasMarketCapitalization,ShareIssuer,rdf-schema#domain
+N5484f68c225742ee8c5a43d869aff57e,owl#Restriction,22-rdf-syntax-ns#type
+hasMarketCapitalization,MarketCapitalization,rdf-schema#range
+,"Copyright (c) 2014-2024 EDM Council, Inc.",copyright
+hasIndexValue,XMLSchema#decimal,rdf-schema#range
+CreditIndex,"Such an index does not necessarily reference a static portfolio, as there may be provisions for replacing defaulted securities on which the index depends.",explanatoryNote
+hasMarketCapitalization,indicates the market capitalization of some issuer as of some date,core#definition
+,BasketIndices.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+CreditIndexConstituent,credit index constituent,rdf-schema#label

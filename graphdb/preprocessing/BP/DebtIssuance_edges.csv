@@ -1,0 +1,233 @@
+source_id,target_id,relationship
+InAssembly,owl#Class,22-rdf-syntax-ns#type
+Issued,PoolLifecycleStateSelection,rdf-schema#subClassOf
+NewMoneyPurpose,new money purpose,rdf-schema#label
+Ndbf20d8b48b74560a6f1899a578a2e73,hasStage,owl#onProperty
+hasDebtIssuancePurpose,DebtIssuancePurpose,rdf-schema#range
+NotYetIssuedDebtsPool,DebtPool,rdf-schema#subClassOf
+UnderwriterTakedownForDebt,UnderwriterTakedown,rdf-schema#subClassOf
+RefundingPurpose,a procedure whereby an issuer refinances outstanding bonds by issuing new bonds,core#definition
+MediumTermNoteIssuanceProgramme,owl#Class,22-rdf-syntax-ns#type
+Nf742c6e3d55e4e4d80f77e1c5ffa9eef,owl#Restriction,22-rdf-syntax-ns#type
+DebtIssuanceProgramme,owl#Class,22-rdf-syntax-ns#type
+DebtIssuancePurpose,Objective,rdf-schema#subClassOf
+hasDebtIssuancePurpose,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nc056194d0b48453181bd1c9bbb5ce6e5,DebtOffering,owl#someValuesFrom
+underwriterTakedownAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+CDOSecuritizationProcess,c d o securitization process,rdf-schema#label
+DebtIssuanceProcessInformation,owl#Class,22-rdf-syntax-ns#type
+DebtSecuritizationProcess,SecuritiesUnderwritingIssuanceProcess,owl#disjointWith
+CompletedDebtsPool,completed debts pool,rdf-schema#label
+N62dc8b566aaf4a0e897f533ed1077746,BondOffering,owl#someValuesFrom
+RetailAssetPoolCreationProcess,The process by which pools of assets are created. These may then be used in the issue of securities based on those asset pools as underlying.,core#definition
+MuniIssueUnderwriter,SecurityUnderwriter,rdf-schema#subClassOf
+RemarketingPurpose,remarketing purpose,rdf-schema#label
+RefundingPurpose,owl#Class,22-rdf-syntax-ns#type
+PoolBackedSecuritySecuritizationProcess,pool backed security securitization process,rdf-schema#label
+PoolBackedSecuritySecuritizationProcess,owl#Class,22-rdf-syntax-ns#type
+RefundingPurpose,refunding purpose,rdf-schema#label
+NewMoneyPurpose,DebtIssuancePurpose,rdf-schema#subClassOf
+hasOriginalIssueDiscount,discount from par value at the time a bond or other debt instrument is issued,core#definition
+RemarketingPurpose,DebtIssuancePurpose,rdf-schema#subClassOf
+IssuanceProcessActivity,issuance process activity,rdf-schema#label
+DebtIssuancePurpose,debt issuance purpose,rdf-schema#label
+LoanPoolCreationProcess,loan pool creation process,rdf-schema#label
+DebtIssuanceProcessInformation,information specific to the issuance of a debt security,core#definition
+BondOfferingWithWarrant,MediumTermNoteOffering,owl#disjointWith
+N37eed884a789493d9eeea7007cf5c800,isProducedBy,owl#onProperty
+isBankQualified,"designation given to a public purpose bond offering by the issuer if it reasonably expects to issue in the calendar year of such offering no more than $10 million par amount of bonds of the type required to be included in making such calculation under the Internal Revenue Code.  When purchased by a commercial bank for its portfolio, the bank may receive an 80% tax deduction for the interest cost of carry for the issue.  A bond that is bank qualified is also known as a qualified tax-exempt obligation.",core#definition
+AdvancedRefunding,"The proceeds are then invested, and when the older bonds become callable they are paid off with the invested proceeds.",explanatoryNote
+HomeEquityLineOfCreditPoolCreationProcess,RetailAssetPoolCreationProcess,rdf-schema#subClassOf
+isBankQualified,BondOffering,rdf-schema#domain
+isBankQualified,XMLSchema#boolean,rdf-schema#range
+NotYetIssuedDebtsPool,not yet issued debts pool,rdf-schema#label
+MediumTermNoteOffering,BondOffering,rdf-schema#subClassOf
+SecuritizationProcessActor,securitization process actor,rdf-schema#label
+ABSSecuritizationProcess,owl#Class,22-rdf-syntax-ns#type
+N6bdae3206ad548d5b57960c5b0a08610,isAbout,owl#onProperty
+Nf742c6e3d55e4e4d80f77e1c5ffa9eef,appliesTo,owl#onProperty
+N45e631502d88473c80d36f4f3bcd46dc,Prospectus,owl#someValuesFrom
+Na1d04f2360884924bc373e4cc7e0b932,hasDebtIssuancePurpose,owl#onProperty
+AdvancedRefunding,refunding in which bond issuance in which new bonds are sold at a lower rate than outstanding ones,core#definition
+underwriterTakedownAmount,Takedown amount of the security handled by the underwriter(that will be brought into DTC).,core#definition
+isBankQualified,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasOriginalIssueDiscount,BondOffering,rdf-schema#domain
+N67fa426adf5c40c98012aab0bbb0f6b2,owl#Restriction,22-rdf-syntax-ns#type
+Ndbf20d8b48b74560a6f1899a578a2e73,NotYetIssued,owl#someValuesFrom
+resultsIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+AssetPoolCreationProcess,asset pool creation process,rdf-schema#label
+isBankQualified,is bank qualified,rdf-schema#label
+,,owl#imports
+N67fa426adf5c40c98012aab0bbb0f6b2,InAssembly,owl#someValuesFrom
+hasOriginalIssueDiscount,The OID is the difference between the stated redemption price at maturity and the actual issue price.,explanatoryNote
+resultsIn,results in,rdf-schema#label
+BondOfferingWithWarrant,bond offering with warrant,rdf-schema#label
+BondIssuanceProgramme,DebtIssuanceProgramme,rdf-schema#subClassOf
+N58d7f307b7e64afbbf9e9917c685c1ed,DebtSecuritizationProcess,owl#someValuesFrom
+DebtIssuanceProgramme,a series of debt security issuances over time,core#definition
+PoolBackedSecuritySecuritizationProcessActor,N86c630279a6a4824b45164b7b5cfe531,rdf-schema#subClassOf
+DebtIssuancePurpose,owl#Class,22-rdf-syntax-ns#type
+N62dc8b566aaf4a0e897f533ed1077746,owl#Restriction,22-rdf-syntax-ns#type
+announces,owl#ObjectProperty,22-rdf-syntax-ns#type
+RefundingPurpose,DebtIssuancePurpose,rdf-schema#subClassOf
+InAssembly,PoolLifecycleStateSelection,rdf-schema#subClassOf
+,,owl#versionIRI
+CreditCardPoolCreationProcess,credit card pool creation process,rdf-schema#label
+Ncbd8d9d90c234cd69ed8d358357ec04e,isUnderwrittenBy,owl#onProperty
+InAssembly,in assembly,rdf-schema#label
+N12d6465b9a8f49b38c332be6ead013cd,owl#Restriction,22-rdf-syntax-ns#type
+DebtIssuanceProcessInformation,Na1d04f2360884924bc373e4cc7e0b932,rdf-schema#subClassOf
+N6bdae3206ad548d5b57960c5b0a08610,MediumTermNoteIssuanceProgramme,owl#someValuesFrom
+UnderwriterTakedownForDebt,underwriter takedown for debt,rdf-schema#label
+DebtInstrumentPoolCreationProcess,debt instrument pool creation process,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+Ndc795afa21d54babaedeb5709b03000d,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+NewMoneyPurpose,securities issued to raise funds for a new project or purpose,core#definition
+Na1d04f2360884924bc373e4cc7e0b932,owl#Restriction,22-rdf-syntax-ns#type
+hasOriginalIssueDiscount,owl#ObjectProperty,22-rdf-syntax-ns#type
+underwriterTakedownAmount,MonetaryAmount,rdf-schema#range
+NotYetIssuedDebtsPool,Ndbf20d8b48b74560a6f1899a578a2e73,rdf-schema#subClassOf
+N67fa426adf5c40c98012aab0bbb0f6b2,hasStage,owl#onProperty
+announces,The issue of one or more securities that the announcement pertains to.,core#definition
+Nf860de175b3145e09dd329ee9cc714f5,Ndc795afa21d54babaedeb5709b03000d,22-rdf-syntax-ns#rest
+DebtOffering,N12d6465b9a8f49b38c332be6ead013cd,rdf-schema#subClassOf
+MuniIssueUnderwriter,muni issue underwriter,rdf-schema#label
+MTNRegistration,m t n registration,rdf-schema#label
+AdvancedRefunding,RefundingPurpose,rdf-schema#subClassOf
+LoanPoolCreationProcess,owl#Class,22-rdf-syntax-ns#type
+MediumTermNoteOffering,medium term note offering,rdf-schema#label
+N12d6465b9a8f49b38c332be6ead013cd,MonetaryAmount,owl#onClass
+HomeEquityLineOfCreditPoolCreationProcess,owl#Class,22-rdf-syntax-ns#type
+BondOffering,owl#Class,22-rdf-syntax-ns#type
+Ne8bf1bc293c04a70a3da90f292aa5f20,precedes,owl#onProperty
+CDOSecuritizationProcess,DebtSecuritizationProcess,rdf-schema#subClassOf
+N37eed884a789493d9eeea7007cf5c800,DebtPool,owl#someValuesFrom
+DebtIssuanceProgramme,Nc056194d0b48453181bd1c9bbb5ce6e5,rdf-schema#subClassOf
+InIssuance,in issuance,rdf-schema#label
+N50e201d105294b72aa319c743130d347,appliesTo,owl#onProperty
+BondOffering,DebtOffering,rdf-schema#subClassOf
+N86c630279a6a4824b45164b7b5cfe531,IssuanceProcessActivity,owl#someValuesFrom
+BondIssuanceProgramme,owl#Class,22-rdf-syntax-ns#type
+hasOriginalIssueDiscount,has original issue discount,rdf-schema#label
+AssetPoolCreationProcess,owl#Class,22-rdf-syntax-ns#type
+BondOfferingWithWarrant,BondOffering,rdf-schema#subClassOf
+MTNRegistration,owl#Class,22-rdf-syntax-ns#type
+InIssuance,PoolLifecycleStateSelection,rdf-schema#subClassOf
+N50e201d105294b72aa319c743130d347,owl#Restriction,22-rdf-syntax-ns#type
+N45e631502d88473c80d36f4f3bcd46dc,isEvidencedBy,owl#onProperty
+DebtSecuritizationProcess,owl#Class,22-rdf-syntax-ns#type
+Ncbd8d9d90c234cd69ed8d358357ec04e,SecurityUnderwriter,owl#someValuesFrom
+MediumTermNoteIssuanceProgramme,BondIssuanceProgramme,rdf-schema#subClassOf
+N37eed884a789493d9eeea7007cf5c800,owl#Restriction,22-rdf-syntax-ns#type
+BondOffering,bond offering,rdf-schema#label
+MediumTermNoteIssuanceProgramme,medium term note issuance programme,rdf-schema#label
+underwriterTakedownAmount,UnderwriterTakedownForDebt,rdf-schema#domain
+MTNRegistration,Registration,rdf-schema#subClassOf
+InAssemblyDebtsPool,in assembly debts pool,rdf-schema#label
+hasOriginalIssueDiscount,Percentage,rdf-schema#range
+ABSSecuritizationProcess,PoolBackedSecuritySecuritizationProcess,rdf-schema#subClassOf
+N58d7f307b7e64afbbf9e9917c685c1ed,precedes,owl#onProperty
+DebtIssuancePurpose,purpose for the issuance of a debt security; also defines processes to be followed in some instances,core#definition
+N0428de499dbc43caafd19aa75b70fe5d,hasStage,owl#onProperty
+CompletedDebtsPool,N0428de499dbc43caafd19aa75b70fe5d,rdf-schema#subClassOf
+hasDebtIssuancePurpose,has debt issuance purpose,rdf-schema#label
+DebtInstrumentPoolCreationProcess,owl#Class,22-rdf-syntax-ns#type
+MediumTermNoteOffering,owl#Class,22-rdf-syntax-ns#type
+Ncbd8d9d90c234cd69ed8d358357ec04e,owl#Restriction,22-rdf-syntax-ns#type
+DebtIssuanceProcessInformation,debt issuance process information,rdf-schema#label
+DebtInstrumentPoolCreationProcess,AssetPoolCreationProcess,rdf-schema#subClassOf
+DebtOffering,N45e631502d88473c80d36f4f3bcd46dc,rdf-schema#subClassOf
+BondOfferingWithWarrant,owl#Class,22-rdf-syntax-ns#type
+NewMoneyPurpose,owl#Class,22-rdf-syntax-ns#type
+MuniIssueUnderwriter,The party which agrees to buy any certificates that are not bought by investors Term origin:DTCC,core#definition
+CompletedDebtsPool,owl#Class,22-rdf-syntax-ns#type
+BondIssuanceProgramme,N62dc8b566aaf4a0e897f533ed1077746,rdf-schema#subClassOf
+Ndbf20d8b48b74560a6f1899a578a2e73,owl#Restriction,22-rdf-syntax-ns#type
+AssetPoolCreationProcess,N58d7f307b7e64afbbf9e9917c685c1ed,rdf-schema#subClassOf
+N58d7f307b7e64afbbf9e9917c685c1ed,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+BondOfferingWithWarrant,"a bond offering where the issue includes a warrant; Further notes: ISO 10962 CFI definition is A bond that is issued together with one or more warrant(s) attached as part of the offer, the warrant(s) granting the holder the right to purchase a designated security, often the common stock of the issuer of the debt, at a specified price. Review notes: This need not be any specific type of bond. The warrant is used as a sweetener to encourage people to subscribe to a new bond issue. The Bond and the Warrant trade together as a unit (called ""Bond Unit"").",core#definition
+BondOffering,"a debt offering of one or more bonds, as all or part of an issuance programme",core#definition
+RetailAssetPoolCreationProcess,AssetPoolCreationProcess,rdf-schema#subClassOf
+NotYetIssued,owl#Class,22-rdf-syntax-ns#type
+DebtIssuanceProcessInformation,TradedInstrumentIssuanceProcessInformation,rdf-schema#subClassOf
+InAssemblyDebtsPool,owl#Class,22-rdf-syntax-ns#type
+DebtOffering,Ncbd8d9d90c234cd69ed8d358357ec04e,rdf-schema#subClassOf
+N0428de499dbc43caafd19aa75b70fe5d,owl#Restriction,22-rdf-syntax-ns#type
+Ndc795afa21d54babaedeb5709b03000d,Bond,22-rdf-syntax-ns#first
+DebtIssuanceProgramme,IssuanceProgramme,rdf-schema#subClassOf
+DebtSecuritizationProcess,debt securitization process,rdf-schema#label
+PoolBackedSecuritySecuritizationProcess,DebtSecuritizationProcess,rdf-schema#subClassOf
+CreditCardPoolCreationProcess,owl#Class,22-rdf-syntax-ns#type
+AdvancedRefunding,advance refunding,rdf-schema#label
+SecuritizationProcessActor,SecuritiesIssuanceProcessActor,rdf-schema#subClassOf
+Ne8bf1bc293c04a70a3da90f292aa5f20,PoolBackedSecuritySecuritizationProcess,owl#someValuesFrom
+N2ba0f3ba7c9b4215b9b07c6390877ed7,owl#Class,22-rdf-syntax-ns#type
+DebtSecuritizationProcess,SecuritiesIssuanceProcess,rdf-schema#subClassOf
+PoolBackedSecuritySecuritizationProcessActor,SecuritizationProcessActor,rdf-schema#subClassOf
+PoolBackedSecuritySecuritizationProcessActor,owl#Class,22-rdf-syntax-ns#type
+CreditCardPoolCreationProcess,RetailAssetPoolCreationProcess,rdf-schema#subClassOf
+LoanPoolCreationProcess,RetailAssetPoolCreationProcess,rdf-schema#subClassOf
+PoolBackedSecuritySecuritizationProcessActor,pool backed security securitization process actor,rdf-schema#label
+N12d6465b9a8f49b38c332be6ead013cd,hasOfferingAmount,owl#onProperty
+NotYetIssued,not yet issued,rdf-schema#label
+MediumTermNoteIssuanceProgramme,N71964b5e27a2476ba803bc717bdc839f,rdf-schema#subClassOf
+Na1d04f2360884924bc373e4cc7e0b932,DebtIssuancePurpose,owl#someValuesFrom
+RetailAssetPoolCreationProcess,Ne8bf1bc293c04a70a3da90f292aa5f20,rdf-schema#subClassOf
+N12d6465b9a8f49b38c332be6ead013cd,1,owl#maxQualifiedCardinality
+NotYetIssued,PoolLifecycleStateSelection,rdf-schema#subClassOf
+N71964b5e27a2476ba803bc717bdc839f,comprises,owl#onProperty
+hasDebtIssuancePurpose,DebtIssuanceProcessInformation,rdf-schema#domain
+MuniIssueUnderwriter,owl#Class,22-rdf-syntax-ns#type
+N2ba0f3ba7c9b4215b9b07c6390877ed7,Nf860de175b3145e09dd329ee9cc714f5,owl#unionOf
+RetailAssetPoolCreationProcess,N37eed884a789493d9eeea7007cf5c800,rdf-schema#subClassOf
+AdvancedRefunding,owl#Class,22-rdf-syntax-ns#type
+N0428de499dbc43caafd19aa75b70fe5d,InIssuance,owl#someValuesFrom
+RemarketingPurpose,the process of reselling securities to the public that have been tendered for purchase by the previous owners thereof,core#definition
+IssuanceProcessActivity,An activity within the process of securities issuance.,core#definition
+,Provisional,hasMaturityLevel
+N45e631502d88473c80d36f4f3bcd46dc,owl#Restriction,22-rdf-syntax-ns#type
+MediumTermNoteIssuanceProgramme,a program of offerings of medium term notes; a set of issues where the maturity is defined after the rest of the terms have been registered with some authority; these are registered up front so that then the company wants to borrow more money they don't have to go through the registration period but have the facility up front to issue another security.,core#definition
+,MIT,license
+,General issuance process for issuance of debt instruments. Forms the basis for more detailed issuance processes such as MBS issuance and municipal bonds issue.,abstract
+N71964b5e27a2476ba803bc717bdc839f,owl#Restriction,22-rdf-syntax-ns#type
+DebtOffering,owl#Class,22-rdf-syntax-ns#type
+N86c630279a6a4824b45164b7b5cfe531,owl#Restriction,22-rdf-syntax-ns#type
+Nc056194d0b48453181bd1c9bbb5ce6e5,comprises,owl#onProperty
+BondIssuanceProgramme,bond issuance programme,rdf-schema#label
+UnderwriterTakedownForDebt,information on takedown quantity of the debt security handled by the underwriter (that will be brought into DTC),core#definition
+InIssuance,owl#Class,22-rdf-syntax-ns#type
+ABSSecuritizationProcess,a b s securitization process,rdf-schema#label
+CDOSecuritizationProcess,owl#Class,22-rdf-syntax-ns#type
+SecuritizationProcessActor,owl#Class,22-rdf-syntax-ns#type
+BondIssuanceProgramme,"a debt issuance programe under which an entity may, from time to time, issue bonds under the terms and conditions specified in the base prospectus for that programme",core#definition
+RetailAssetPoolCreationProcess,owl#Class,22-rdf-syntax-ns#type
+Nf860de175b3145e09dd329ee9cc714f5,TraditionalWarrant,22-rdf-syntax-ns#first
+resultsIn,PotentialTranchedIssueUnderwriter,rdf-schema#range
+underwriterTakedownAmount,underwriter takedown amount,rdf-schema#label
+N71964b5e27a2476ba803bc717bdc839f,MediumTermNoteOffering,owl#someValuesFrom
+RemarketingPurpose,owl#Class,22-rdf-syntax-ns#type
+IssuanceProcessActivity,owl#Class,22-rdf-syntax-ns#type
+Issued,issued,rdf-schema#label
+RetailAssetPoolCreationProcess,retail asset pool creation process,rdf-schema#label
+Issued,owl#Class,22-rdf-syntax-ns#type
+Nc056194d0b48453181bd1c9bbb5ce6e5,owl#Restriction,22-rdf-syntax-ns#type
+announces,announces,rdf-schema#label
+N6bdae3206ad548d5b57960c5b0a08610,owl#Restriction,22-rdf-syntax-ns#type
+UnderwriterTakedownForDebt,owl#Class,22-rdf-syntax-ns#type
+N86c630279a6a4824b45164b7b5cfe531,evaluates,owl#onProperty
+CompletedDebtsPool,DebtPool,rdf-schema#subClassOf
+InAssemblyDebtsPool,N67fa426adf5c40c98012aab0bbb0f6b2,rdf-schema#subClassOf
+N50e201d105294b72aa319c743130d347,N2ba0f3ba7c9b4215b9b07c6390877ed7,owl#someValuesFrom
+DebtOffering,Nf742c6e3d55e4e4d80f77e1c5ffa9eef,rdf-schema#subClassOf
+MTNRegistration,N6bdae3206ad548d5b57960c5b0a08610,rdf-schema#subClassOf
+DebtSecuritizationProcess,DebtAuctionProcess,owl#disjointWith
+BondOfferingWithWarrant,N50e201d105294b72aa319c743130d347,rdf-schema#subClassOf
+N62dc8b566aaf4a0e897f533ed1077746,comprises,owl#onProperty
+DebtIssuanceProgramme,debt issuance programme,rdf-schema#label
+NotYetIssuedDebtsPool,owl#Class,22-rdf-syntax-ns#type
+HomeEquityLineOfCreditPoolCreationProcess,home equity line of credit pool creation process,rdf-schema#label
+Ne8bf1bc293c04a70a3da90f292aa5f20,owl#Restriction,22-rdf-syntax-ns#type
+,Debt Issuance Ontology,rdf-schema#label
+Nf742c6e3d55e4e4d80f77e1c5ffa9eef,TradableDebtInstrument,owl#someValuesFrom
+InAssemblyDebtsPool,DebtPool,rdf-schema#subClassOf

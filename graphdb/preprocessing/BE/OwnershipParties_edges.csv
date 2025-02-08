@@ -1,0 +1,203 @@
+source_id,target_id,relationship
+,OwnershipParties.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+UltimateConsolidation,owl#Class,22-rdf-syntax-ns#type
+Ncd26053e4d244f96b023819fa074e679,N947ed6b9e09e4d09b0518ab1bd210e22,owl#unionOf
+Nc1226a0409b04062a2b52b0e61e7594c,isQualifiedBy,owl#onProperty
+N40380881c4a64b97bf4dac910a9e4152,owl#Restriction,22-rdf-syntax-ns#type
+hasOwningEntity,indicates a party that owns a formal organization,core#definition
+InvestorContract,Contract setting out the terms under which some investor invests in the entity and setting out the rights which are conferred on that investor.,core#definition
+UltimateConsolidation,EntityOwnership,rdf-schema#subClassOf
+N155956c7e42a44f490217572efa806fa,N4594ec53f0c94a86934c91ce4b26350a,owl#onClass
+N5416d0988cd74537b45840545d89b951,RelationshipStatus,owl#onClass
+ForeignBranchOwnership,EntityOwnership,rdf-schema#subClassOf
+EntityOwnership,Na7dadcecc1fc4099b4cd9e8ae9940950,rdf-schema#subClassOf
+,OwnershipParties.rdf version of this ontology was modified as a part of a simplification strategy for the organizational class hierarchy and to support GLEIF LEI Level 2 ownership relationships.,core#changeNote
+N40380881c4a64b97bf4dac910a9e4152,N8c2327e8e6e440ad82d8613ac03085d9,owl#someValuesFrom
+,OwnershipParties.rdf version of this ontology was revised to eliminate a dead link that was not necessary.,core#changeNote
+N5951b6aa872040c19a97d94bbe1702fc,owl#Restriction,22-rdf-syntax-ns#type
+N5416d0988cd74537b45840545d89b951,owl#Restriction,22-rdf-syntax-ns#type
+EntityOwnership,entity ownership,rdf-schema#label
+,"OwnershipParties.rdf version of this ontology was revised to eliminate references to guarantee providing member, which duplicates the concept of a guarantor and references a concept that is no longer needed, namely 'body incorporated with guarantee'.",core#changeNote
+hasDirectOwnership,EntityOwnership,rdf-schema#range
+Nb31906e194af4a789795b2d80be047a1,owl#Restriction,22-rdf-syntax-ns#type
+DirectConsolidation,EntityOwnership,rdf-schema#subClassOf
+hasInvestmentOwnership,relates a legal person to the context in which it owns a formal organization,core#definition
+InvestorContract,Na4a6d12010ac47b9a058b83c5ec55c02,rdf-schema#subClassOf
+hasOwnedEntity,"indicates a formal organization, including potentially a sole proprietorship, that is owned by a legal person",core#definition
+N155956c7e42a44f490217572efa806fa,0,owl#minQualifiedCardinality
+N155956c7e42a44f490217572efa806fa,owl#Restriction,22-rdf-syntax-ns#type
+EntityOwner,Nb31906e194af4a789795b2d80be047a1,rdf-schema#subClassOf
+hasInvestmentOwnership,owl#ObjectProperty,22-rdf-syntax-ns#type
+N192064c4472f4fc98ed48288c6479d7f,owl#Class,22-rdf-syntax-ns#type
+Na4a6d12010ac47b9a058b83c5ec55c02,InvestmentEquity,owl#someValuesFrom
+,OwnershipParties.rdf version of this ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1 and clean up a few definitions.,core#changeNote
+hasOwningEntity,has owning entity,rdf-schema#label
+ControllingEquity,ShareholdersEquity,rdf-schema#subClassOf
+Na4a6d12010ac47b9a058b83c5ec55c02,owl#Restriction,22-rdf-syntax-ns#type
+N04ca8e5e406949fb9a9c4e554c9bf374,BusinessEntity,22-rdf-syntax-ns#first
+EntityOwnership,N155956c7e42a44f490217572efa806fa,rdf-schema#subClassOf
+Nb31906e194af4a789795b2d80be047a1,OwnersEquity,owl#someValuesFrom
+InvestmentEquity,owl#Class,22-rdf-syntax-ns#type
+hasDirectOwnership,experiences,rdf-schema#subPropertyOf
+N1ca4e7e7d4e94728a3c44b08dac87481,isHeldBy,owl#onProperty
+InvestmentEquity,"equity that represents an ownership interest in some entity, but may or may not take the form of shareholders's equity",core#definition
+Nff01f7a4c7d84761bfddc253522c9a53,ShareholdersEquity,owl#someValuesFrom
+,OwnershipParties.rdf version of this ontology was modified to add a parent class of contract party to the definition of investory (SEC-113).,core#changeNote
+ConstitutionalOwner,owl#Class,22-rdf-syntax-ns#type
+,Equities.,core#changeNote
+ConstitutionalOwner,EntityOwner,rdf-schema#subClassOf
+hasOwnedEntity,isExperiencedBy,rdf-schema#subPropertyOf
+N5caf05907a6c4e37a4ab89c8d47102d0,LegalEntity,22-rdf-syntax-ns#first
+N1ca4e7e7d4e94728a3c44b08dac87481,Investor,owl#someValuesFrom
+N38372af19e7b448c9256ccbeb4550048,InvestmentEquity,owl#someValuesFrom
+EntityOwner,"owner (person, group of people, or other business entity) that owns, or holds an ownership interest in, a formal business organization",core#definition
+,,owl#imports
+ControllingEquity,N34cf3ab9f10645088f18700dd0432ed9,rdf-schema#subClassOf
+hasDirectOwningEntity,has direct owning entity,rdf-schema#label
+N9b9bcb841dd44d179a27d99724d489a9,N9a27dca5906c4875a8defc962376a45b,22-rdf-syntax-ns#rest
+N38372af19e7b448c9256ccbeb4550048,owl#Restriction,22-rdf-syntax-ns#type
+hasInvestmentOwnership,has investment ownership,rdf-schema#label
+InvestorContract,WrittenContract,rdf-schema#subClassOf
+N34cf3ab9f10645088f18700dd0432ed9,confers,owl#onProperty
+N01d6e74b795d479283fe86b67538df07,BusinessEntity,22-rdf-syntax-ns#first
+N38372af19e7b448c9256ccbeb4550048,holds,owl#onProperty
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,,owl#versionIRI
+,OwnershipParties.rdf version of this ontology was modified to replace additional concepts from FIBO FND with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+,Ownership Parties Ontology,rdf-schema#label
+,OwnershipParties.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.,core#changeNote
+N40380881c4a64b97bf4dac910a9e4152,hasOwnedEntity,owl#onProperty
+N7c3b681e590e4de4ac6a589c12540c6f,hasDirectOwnership,22-rdf-syntax-ns#first
+Investor,ContractParty,rdf-schema#subClassOf
+N4594ec53f0c94a86934c91ce4b26350a,owl#Class,22-rdf-syntax-ns#type
+,OwnershipParties.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+,owl#Ontology,22-rdf-syntax-ns#type
+,"This ontology defines concepts relating to types of organization owning parties. The concepts defined here are party in role concepts, which define the nature of some entity such as an organization or a legal person, in some role such as that of owning equity in the entity. These roles are defined in terms of the ownership enjoyed by the party, with distinctions between constitutional ownership i.e. ownership defined in terms of stockholder equity, and investment ownership more generally.",abstract
+Nc286972cae9343eeb3f7d65c33655293,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+EntityOwnership,ownership by some party of an interest in some non-governmental formal organization,core#definition
+Nc1226a0409b04062a2b52b0e61e7594c,owl#Restriction,22-rdf-syntax-ns#type
+DirectConsolidation,direct consolidation,rdf-schema#label
+Nc1226a0409b04062a2b52b0e61e7594c,0,owl#minQualifiedCardinality
+ControllingEquity,"shareholders's equity that formally confers control in the entity, either by law or as explicitly stated in a corresponding equity instrument",core#definition
+InvestorContract,investor contract,rdf-schema#label
+Nb1014dfbcb59471ba9771ae65574a82b,hasOwningEntity,owl#onProperty
+hasOwnedEntity,has owned entity,rdf-schema#label
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+Nead3bdec983b41dcbab9cfaee5ab6351,BusinessEntity,22-rdf-syntax-ns#first
+N3417293862474ac4b08e55473d33b85e,N01d6e74b795d479283fe86b67538df07,22-rdf-syntax-ns#rest
+hasDirectOwningEntity,owl#ObjectProperty,22-rdf-syntax-ns#type
+ForeignBranchOwnership,foreign branch ownership,rdf-schema#label
+DirectConsolidation,direct ownership of an entity recorded as accounting consolidation,core#definition
+Nb31906e194af4a789795b2d80be047a1,holds,owl#onProperty
+N5eb91cd22c2d461aa8e4b2006e1cee75,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+hasOwningEntity,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasDirectOwnership,has direct ownership,rdf-schema#label
+hasOwningEntity,LegalPerson,rdf-schema#range
+N1ca4e7e7d4e94728a3c44b08dac87481,owl#Restriction,22-rdf-syntax-ns#type
+hasInvestmentOwnership,playsActiveRoleIn,rdf-schema#subPropertyOf
+ControllingEquity,controlling equity,rdf-schema#label
+,OwnershipParties.rdf version of this ontology was revised to align isEquityHeldBy and hasInvestor with the situational pattern.,core#changeNote
+Investor,investor,rdf-schema#label
+Nff01f7a4c7d84761bfddc253522c9a53,owl#Restriction,22-rdf-syntax-ns#type
+hasOwningEntity,EntityOwnership,rdf-schema#domain
+Investor,owl#Class,22-rdf-syntax-ns#type
+hasDirectOwningEntity,N7c3b681e590e4de4ac6a589c12540c6f,owl#propertyChainAxiom
+ConstitutionalOwner,Nff01f7a4c7d84761bfddc253522c9a53,rdf-schema#subClassOf
+Investor,EntityOwner,rdf-schema#subClassOf
+,"OwnershipParties.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+Nead3bdec983b41dcbab9cfaee5ab6351,Nc286972cae9343eeb3f7d65c33655293,22-rdf-syntax-ns#rest
+EntityOwnership,N5416d0988cd74537b45840545d89b951,rdf-schema#subClassOf
+N5caf05907a6c4e37a4ab89c8d47102d0,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N947ed6b9e09e4d09b0518ab1bd210e22,Nead3bdec983b41dcbab9cfaee5ab6351,22-rdf-syntax-ns#rest
+ConstitutionalOwner,"Typically this would be share ownership or the holding of partnership equity. Ownership in this 'constitutional' sense means that the owner is in some way a member of the organization, such as an employee or director, as distinct from some outside investor.",explanatoryNote
+EntityOwner,entity owner,rdf-schema#label
+hasOwnedEntity,N192064c4472f4fc98ed48288c6479d7f,rdf-schema#range
+ConstitutionalOwner,constitutional owner,rdf-schema#label
+EntityOwnership,Nc1226a0409b04062a2b52b0e61e7594c,rdf-schema#subClassOf
+ControllingEquity,owl#Class,22-rdf-syntax-ns#type
+Nfbd787a3f7484b2086611aad3c14de15,N04ca8e5e406949fb9a9c4e554c9bf374,22-rdf-syntax-ns#rest
+N1e86249d0fb2466b94f5c0623f00c2e0,Contract,22-rdf-syntax-ns#first
+Nb1014dfbcb59471ba9771ae65574a82b,owl#Restriction,22-rdf-syntax-ns#type
+hasDirectOwnership,Ncd26053e4d244f96b023819fa074e679,rdf-schema#domain
+N8c2327e8e6e440ad82d8613ac03085d9,owl#Class,22-rdf-syntax-ns#type
+hasDirectOwnership,owl#ObjectProperty,22-rdf-syntax-ns#type
+N5951b6aa872040c19a97d94bbe1702fc,1,owl#qualifiedCardinality
+N9a27dca5906c4875a8defc962376a45b,hasOwnedEntity,22-rdf-syntax-ns#first
+N5416d0988cd74537b45840545d89b951,1,owl#qualifiedCardinality
+N0c05916b4506442f86ea9a0eaf743fd4,N1e86249d0fb2466b94f5c0623f00c2e0,22-rdf-syntax-ns#rest
+N192064c4472f4fc98ed48288c6479d7f,N3417293862474ac4b08e55473d33b85e,owl#unionOf
+hasDirectOwnership,relates a formal organization to the situation in which it is owned directly by another entity,core#definition
+InvestmentEquity,investment equity,rdf-schema#label
+RelationshipRecord,owl#Class,22-rdf-syntax-ns#type
+Nc1226a0409b04062a2b52b0e61e7594c,RelationshipQualifier,owl#onClass
+hasDirectOwnership,hasOwnedEntity,owl#inverseOf
+N34cf3ab9f10645088f18700dd0432ed9,DeJureControl,owl#allValuesFrom
+N8c2327e8e6e440ad82d8613ac03085d9,Nfbd787a3f7484b2086611aad3c14de15,owl#unionOf
+hasOwningEntity,hasActiveParty,rdf-schema#subPropertyOf
+guarantees,guarantees,rdf-schema#label
+Na7dadcecc1fc4099b4cd9e8ae9940950,XMLSchema#decimal,owl#onDataRange
+N1e86249d0fb2466b94f5c0623f00c2e0,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+hasOwnedEntity,owl#ObjectProperty,22-rdf-syntax-ns#type
+InvestorContract,owl#Class,22-rdf-syntax-ns#type
+hasInvestmentOwnership,hasOwningEntity,owl#inverseOf
+N01d6e74b795d479283fe86b67538df07,N527b4619b5d441fea3577d78b844c1ac,22-rdf-syntax-ns#rest
+N9a27dca5906c4875a8defc962376a45b,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+hasInvestmentOwnership,EntityOwnership,rdf-schema#range
+N5951b6aa872040c19a97d94bbe1702fc,EntityOwnership,owl#onClass
+,OwnershipParties.rdf version of this ontology was modified to eliminate duplication of concepts in LCC.,core#changeNote
+,OwnershipParties.rdf version of this ontology was revised to add a restriction on entity ownership for the ownership percentage.,core#changeNote
+RelationshipRecord,N5951b6aa872040c19a97d94bbe1702fc,rdf-schema#subClassOf
+EntityOwner,Owner,rdf-schema#subClassOf
+guarantees,"provides a formal assurance or promise, esp. that certain conditions shall be fulfilled relating to a product, service, or transaction",core#definition
+InvestmentEquity,OwnersEquity,rdf-schema#subClassOf
+guarantees,owl#ObjectProperty,22-rdf-syntax-ns#type
+N7c3b681e590e4de4ac6a589c12540c6f,N5eb91cd22c2d461aa8e4b2006e1cee75,22-rdf-syntax-ns#rest
+UltimateConsolidation,ultimate ownership,rdf-schema#label
+Na7dadcecc1fc4099b4cd9e8ae9940950,hasOwnershipPercentage,owl#onProperty
+ForeignBranchOwnership,owl#Class,22-rdf-syntax-ns#type
+N4594ec53f0c94a86934c91ce4b26350a,N0c05916b4506442f86ea9a0eaf743fd4,owl#unionOf
+N155956c7e42a44f490217572efa806fa,isConferredBy,owl#onProperty
+Investor,This is regardless of whether or not the investor is also a constitutional owner (e.g. shareholder) in the entity.,core#editorialNote
+N5eb91cd22c2d461aa8e4b2006e1cee75,hasOwningEntity,22-rdf-syntax-ns#first
+,Release,hasMaturityLevel
+EntityOwnership,Ownership,rdf-schema#subClassOf
+DirectConsolidation,owl#Class,22-rdf-syntax-ns#type
+EntityOwnership,N40380881c4a64b97bf4dac910a9e4152,rdf-schema#subClassOf
+,MIT,license
+Nfbd787a3f7484b2086611aad3c14de15,NotForProfitOrganization,22-rdf-syntax-ns#first
+Nff01f7a4c7d84761bfddc253522c9a53,holds,owl#onProperty
+InvestmentEquity,N1ca4e7e7d4e94728a3c44b08dac87481,rdf-schema#subClassOf
+EntityOwner,owl#Class,22-rdf-syntax-ns#type
+N5951b6aa872040c19a97d94bbe1702fc,records,owl#onProperty
+,OwnershipParties.rdf version of this ontology was revised to reflect the name change in FND from 'hasPrimaryParty' to 'hasActiveParty' to be more consistent with other role related properties.,core#changeNote
+hasInvestmentEntity,"relates a legal person to a directly owned formal organization or subsidiary, depending on the percent ownership interest",core#definition
+Na4a6d12010ac47b9a058b83c5ec55c02,definesTermsFor,owl#onProperty
+N947ed6b9e09e4d09b0518ab1bd210e22,NotForProfitOrganization,22-rdf-syntax-ns#first
+Investor,N38372af19e7b448c9256ccbeb4550048,rdf-schema#subClassOf
+Ncd26053e4d244f96b023819fa074e679,owl#Class,22-rdf-syntax-ns#type
+hasDirectOwningEntity, owner,core#definition
+Nc286972cae9343eeb3f7d65c33655293,LegalEntity,22-rdf-syntax-ns#first
+EntityOwnership,owl#Class,22-rdf-syntax-ns#type
+N3417293862474ac4b08e55473d33b85e,NotForProfitOrganization,22-rdf-syntax-ns#first
+N5416d0988cd74537b45840545d89b951,isClassifiedBy,owl#onProperty
+,"OwnershipParties.rdf version of this ontology was modified to integrate the concept of a situation, situational roles, and corresponding relations with the definition of entity ownership, and eliminate unused and logically inconsistent properties.",core#changeNote
+Na7dadcecc1fc4099b4cd9e8ae9940950,0,owl#minQualifiedCardinality
+Na7dadcecc1fc4099b4cd9e8ae9940950,owl#Restriction,22-rdf-syntax-ns#type
+N9b9bcb841dd44d179a27d99724d489a9,hasInvestmentOwnership,22-rdf-syntax-ns#first
+ConstitutionalOwner,"entity owner that holds an equity stake in said entity, in the form of shareholders' equity",core#definition
+UltimateConsolidation,"highest-level (top, end) ancestral ownership, evidenced by accounting consolidation, by some party of some other legal entity",core#definition
+N04ca8e5e406949fb9a9c4e554c9bf374,N5caf05907a6c4e37a4ab89c8d47102d0,22-rdf-syntax-ns#rest
+hasInvestmentOwnership,LegalPerson,rdf-schema#domain
+N527b4619b5d441fea3577d78b844c1ac,LegalEntity,22-rdf-syntax-ns#first
+hasInvestmentEntity,owl#ObjectProperty,22-rdf-syntax-ns#type
+InvestmentEquity,"Typically an investment in some entity may take the form of shares (issued or privately held), i.e., shareholders' equity, or it may take the form of some capital amount which is not reflected in shareholders' equity. In each case, there would typically be a contractual basis for the investment setting out what controls or other benefits accrue to the investor.",core#editorialNote
+ForeignBranchOwnership,ownership by some party of some formal organization or organizational sub-unit that is a foreign affiliate and legally part of the owning entity,core#definition
+N0c05916b4506442f86ea9a0eaf743fd4,OwnersEquity,22-rdf-syntax-ns#first
+hasOwnedEntity,EntityOwnership,rdf-schema#domain
+Nb1014dfbcb59471ba9771ae65574a82b,LegalPerson,owl#someValuesFrom
+EntityOwnership,Nb1014dfbcb59471ba9771ae65574a82b,rdf-schema#subClassOf
+Investor,party that owns some stake in some organization by way of investment,core#definition
+N34cf3ab9f10645088f18700dd0432ed9,owl#Restriction,22-rdf-syntax-ns#type
+hasInvestmentEntity,N9b9bcb841dd44d179a27d99724d489a9,owl#propertyChainAxiom
+N527b4619b5d441fea3577d78b844c1ac,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+hasInvestmentEntity,has investment entity,rdf-schema#label

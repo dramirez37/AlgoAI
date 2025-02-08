@@ -1,0 +1,279 @@
+source_id,target_id,relationship
+N0edfcbeee1cc4603947a05bfcbebae59,owl#Class,22-rdf-syntax-ns#type
+MultiNameCreditDefaultSwap,multiname credit default swap,synonym
+N2b7f6f1731894a93bf464091175ccd1e,Dealer,22-rdf-syntax-ns#first
+MultiNameCreditDefaultSwap,credit default swap that references more than one obligation or borrower,core#definition
+CreditDefaultSwap,CreditDerivative,rdf-schema#subClassOf
+IndexTrancheCreditDefaultSwap,owl#Class,22-rdf-syntax-ns#type
+hasQuotationMethod,owl#ObjectProperty,22-rdf-syntax-ns#type
+ContingentCreditDefaultSwap,credit default swap in which an additional triggering event is required,core#definition
+CreditDefaultSwap,Nb4b418b46fa0408ca9a8ab3eaf52212e,rdf-schema#subClassOf
+SingleNameCreditDefaultSwap,single name credit default swap,rdf-schema#label
+NotifyingParty,PartyRole,rdf-schema#subClassOf
+Neced7dcaea1540cbbb2a141bedfc8048,owl#Restriction,22-rdf-syntax-ns#type
+N3dfb509b471e441f99cd03713c49dc62,hasScheduledTerminationDate,owl#onProperty
+EscrowAgent,N67adc9c9302147a18b3acf843c29633e,rdf-schema#subClassOf
+MultiNameCreditDefaultSwap,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code",adaptedFrom
+Neced7dcaea1540cbbb2a141bedfc8048,hasContractualElement,owl#onProperty
+Nae49c4470b374ef7878c8725e99b6556,allowsSubstitution,owl#onProperty
+hasQuotationMethod,CashSettlementMethod,rdf-schema#range
+Neced7dcaea1540cbbb2a141bedfc8048,CreditProtectionTerms,owl#someValuesFrom
+Ne2604fb3c60e44468ba1e7b8e244a177,hasContractPrice,owl#onProperty
+DeliverableObligationBuyer,deliverable obligation buyer,rdf-schema#label
+BasketOfCreditDefaultSwaps,N6c24ff5f721f4e26ad8cc76ee3ca905d,rdf-schema#subClassOf
+N67adc9c9302147a18b3acf843c29633e,holds,owl#onProperty
+N52ea6f111fff452e9e89274927e0f23a,DeliverableObligation,owl#someValuesFrom
+N3dfb509b471e441f99cd03713c49dc62,owl#Restriction,22-rdf-syntax-ns#type
+CashSettlementTerms,"Note that the valuation determined via the appraisal of the underlying asset may include a quotation that is either an upper limit to the outstanding principal balance of the reference obligation for which the quote should be obtained, or a floating rate payer calculation amount.",explanatoryNote
+hasQuotationMethod,CashSettlementTerms,rdf-schema#domain
+NotifyingParty,party responsible for issuing one or more formal notices indicating that an event that is relevant to a given contract has taken place,core#definition
+CreditDefaultSwap,N97000a2efd3b4761a71e135d2268a7a1,rdf-schema#subClassOf
+N7582223527d34edd8ac6d9d07f8a7fb8,comprises,owl#onProperty
+AssetBackedCreditDefaultSwap,"In the case of an ABCDS, the buyer receives protection for defaults on asset-backed securities or tranches of securities, rather than protecting against the default of a particular issuer. Asset-backed securities are securities backed by a pool of loans or receivables, such as auto loans, home equity loans or credit cards loans.",explanatoryNote
+EscrowAgent,"Use of an escrow agent is one possible mechanism that may be used in some cases, as specified in a credit default swap contract, for delivery purposes.",explanatoryNote
+CreditDefaultSwap,"or reference obligations, or a credit index (reference index)",core#definition
+SettlementAuction,SettlementEvent,rdf-schema#subClassOf
+CreditDefaultSwapIndex,ReferenceIndex,rdf-schema#subClassOf
+IndexCreditDefaultSwap,"Credit default indices trade in standard maturities, and the reference entities are typically the most liquid; the reference portfolio is reassessed periodically to maintain this.",explanatoryNote
+DeliverableObligationBuyer,Buyer,rdf-schema#subClassOf
+N9445fdc3d5f94571be1c55ce113eaf70,isProvidedBy,owl#onProperty
+hasMinimumQuotationAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+N4a0ff03498ff4321993dc726238a561c,TriggeringEvent,owl#someValuesFrom
+DeliverableObligationBuyer,"contract party that is obliged to purchase a deliverable obligation (asset) if a triggering event occurs, depending on the event and the contract",core#definition
+Neb1c534362df45d28c135faa16ee5729,owl#Restriction,22-rdf-syntax-ns#type
+BasketOfCreditDefaultSwaps,owl#Class,22-rdf-syntax-ns#type
+IndexTrancheCreditDefaultSwap,credit default swap that references a synthetic collateralized debt obligation (CDO) based on a credit index where each tranche references a different segment of the loss distribution of the underlying index,core#definition
+CreditProtectionTerms,N52ea6f111fff452e9e89274927e0f23a,rdf-schema#subClassOf
+ContingentCreditDefaultSwap,CCDS,abbreviation
+IndexTrancheCreditDefaultSwap,index tranche credit default swap,rdf-schema#label
+CreditProtectionTerms,contingent leg,synonym
+MultiNameCreditDefaultSwap,CreditDefaultSwap,rdf-schema#subClassOf
+CreditProtectionTerms,N5fb380551e0143e3af504c64b2b7fd29,rdf-schema#subClassOf
+IndexCreditDefaultSwap,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code",adaptedFrom
+N58f6eac96ad44f6b9cc10b36a83c5a45,N0edfcbeee1cc4603947a05bfcbebae59,owl#someValuesFrom
+N981659eba8e648a9bb973276eac28472,owl#Class,22-rdf-syntax-ns#type
+ContingentCreditDefaultSwap,"In a contingent credit default swap, the trigger requires both a credit event (as in a traditional credit default swap) and another specified event. The additional specified event is usually a significant movement in an index covering equities, commodities, interest rates, or some other overall measure of the economy or relevant industry.",explanatoryNote
+CashSettlementMethod,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code",adaptedFrom
+EscrowAgent,owl#Class,22-rdf-syntax-ns#type
+N2a604c536e4445b4872be75c9575536c,N91109d7e46ac483a9c712fbae129aa85,22-rdf-syntax-ns#rest
+DeliverableObligationSeller,owl#Class,22-rdf-syntax-ns#type
+N52ea6f111fff452e9e89274927e0f23a,specifies,owl#onProperty
+ContingentCreditDefaultSwap,contingent credit default swap,rdf-schema#label
+N31f2ca0d9a51469d8d5d4d13ddaaf676,BasketOfCreditDefaultSwaps,owl#someValuesFrom
+CreditProtectionTerms,DerivativeTerms,rdf-schema#subClassOf
+ObligationSpecificCreditEvent,owl#Class,22-rdf-syntax-ns#type
+MultiNameCreditDefaultSwap,multi-name credit default swap,rdf-schema#label
+AssetBackedCreditDefaultSwap,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+CreditProtectionTerms,credit protection terms,rdf-schema#label
+N5183bc83a8b544e7b7a25e23bb08e3a6,0,owl#minQualifiedCardinality
+N5183bc83a8b544e7b7a25e23bb08e3a6,owl#Restriction,22-rdf-syntax-ns#type
+hasScheduledTerminationDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Neb1c534362df45d28c135faa16ee5729,CashSettlementMethod,owl#onClass
+CashSettlementMethod,strategy for calculating or otherwise establishing a reference final price for the contract,core#definition
+BasketCreditDefaultSwap,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code",adaptedFrom
+DeliverableObligationSeller,Seller,rdf-schema#subClassOf
+allowsSubstitution,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Nde206708fcaf446fabf2ca9f60b291f3,EscrowAgent,owl#onClass
+MultiNameCreditDefaultSwap,owl#Class,22-rdf-syntax-ns#type
+hasContractPrice,specifies a predetermined price at which the buyer purchases the credit default swap contract,core#definition
+CreditDefaultSwap,Ne2604fb3c60e44468ba1e7b8e244a177,rdf-schema#subClassOf
+Nde206708fcaf446fabf2ca9f60b291f3,owl#Restriction,22-rdf-syntax-ns#type
+IndexCreditDefaultSwap,MultiNameCreditDefaultSwap,rdf-schema#subClassOf
+N428657cdb4294724a946fae357b46f01,FinancialServiceProvider,22-rdf-syntax-ns#first
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+CreditProtectionTerms,N1865b0d6f41a467a8fee732acd2e0074,rdf-schema#subClassOf
+CreditDefaultSwap,owl#Class,22-rdf-syntax-ns#type
+,,owl#versionIRI
+allowsSubstitution,allows substitution,rdf-schema#label
+IndexCreditDefaultSwap,"or credit rating level (e.g. emerging markets, high yield, investment grade)",core#definition
+BasketOfCreditDefaultSwaps,"Note that the CDS Index is broken down into tranches depending on different types of credits, for example, investment grade and high yield. Tranches are defined by attachment and detachment points for the index loss distribution. It means that when default events occur the lower-level tranches absorb the loss up to the detachment point, before moving to the next senior tranche.",explanatoryNote
+hasMinimumQuotationAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+BasketCreditDefaultSwap,MultiNameCreditDefaultSwap,rdf-schema#subClassOf
+PhysicalSettlementTerms,Nde206708fcaf446fabf2ca9f60b291f3,rdf-schema#subClassOf
+BasketOfCreditDefaultSwaps,basket of credit default swaps,rdf-schema#label
+MultiNameCreditDefaultSwap,2022023pap.pdf,adaptedFrom
+,owl#Ontology,22-rdf-syntax-ns#type
+LoanCreditDefaultSwap,loan credit default swap,rdf-schema#label
+EscrowAgent,ContractThirdParty,rdf-schema#subClassOf
+TriggeringEvent,triggering event,rdf-schema#label
+N91109d7e46ac483a9c712fbae129aa85,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+EscrowAgent,escrow agent,rdf-schema#label
+AssetBackedCreditDefaultSwap,CreditDefaultSwap,rdf-schema#subClassOf
+SingleNameCreditDefaultSwap,"credit default swap whose underlying risk is a single reference obligation, or a single reference entity, such as a corporation or a sovereign borrower",core#definition
+SingleNameCreditDefaultSwap,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code",adaptedFrom
+hasScheduledTerminationDate,CreditProtectionTerms,rdf-schema#domain
+Ne2604fb3c60e44468ba1e7b8e244a177,MonetaryPrice,owl#someValuesFrom
+N4a0ff03498ff4321993dc726238a561c,owl#Restriction,22-rdf-syntax-ns#type
+N428657cdb4294724a946fae357b46f01,N2b7f6f1731894a93bf464091175ccd1e,22-rdf-syntax-ns#rest
+hasMinimumQuotationAmount,has minimum quotation amount,rdf-schema#label
+N6c24ff5f721f4e26ad8cc76ee3ca905d,CreditDefaultSwap,owl#someValuesFrom
+Ndc4bde6e1e4d4f178b9a3ef7e4f19fec,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N91109d7e46ac483a9c712fbae129aa85,CompositeMarket,22-rdf-syntax-ns#first
+CreditProtectionTerms,owl#Class,22-rdf-syntax-ns#type
+hasMinimumQuotationAmount,MonetaryAmount,rdf-schema#range
+N5fb380551e0143e3af504c64b2b7fd29,hasSeller,owl#onProperty
+CreditEventNotice,N4a0ff03498ff4321993dc726238a561c,rdf-schema#subClassOf
+N7882d1abaeb247ba899a2c454df595a1,Publisher,22-rdf-syntax-ns#first
+CreditEventNotice,credit event notice,rdf-schema#label
+,CreditDefaultSwaps.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+CreditProtectionTerms,Nae49c4470b374ef7878c8725e99b6556,rdf-schema#subClassOf
+CreditDefaultSwap,Swap,rdf-schema#subClassOf
+CashSettlementTerms,N7582223527d34edd8ac6d9d07f8a7fb8,rdf-schema#subClassOf
+N58f6eac96ad44f6b9cc10b36a83c5a45,hasPricingSource,owl#onProperty
+hasQuotationMethod,has quotation method,rdf-schema#label
+allowsSubstitution,indicates whether it is possible to substitute other obligations in place of the specified deliverable obligation,core#definition
+Ne2604fb3c60e44468ba1e7b8e244a177,owl#Restriction,22-rdf-syntax-ns#type
+allowsSubstitution,XMLSchema#boolean,rdf-schema#range
+N5183bc83a8b544e7b7a25e23bb08e3a6,hasMinimumQuotationAmount,owl#onProperty
+hasContractPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+N97000a2efd3b4761a71e135d2268a7a1,SettlementAuction,owl#onClass
+N31f2ca0d9a51469d8d5d4d13ddaaf676,owl#Restriction,22-rdf-syntax-ns#type
+N7582223527d34edd8ac6d9d07f8a7fb8,ValuationTerms,owl#onClass
+hasMinimumQuotationAmount,CashSettlementTerms,rdf-schema#domain
+N7582223527d34edd8ac6d9d07f8a7fb8,owl#Restriction,22-rdf-syntax-ns#type
+N97000a2efd3b4761a71e135d2268a7a1,owl#Restriction,22-rdf-syntax-ns#type
+LoanCreditDefaultSwap,LCDS,abbreviation
+N67adc9c9302147a18b3acf843c29633e,owl#Restriction,22-rdf-syntax-ns#type
+N1865b0d6f41a467a8fee732acd2e0074,DeliverableObligationBuyer,owl#someValuesFrom
+hasContractPrice,hasPrice,rdf-schema#subPropertyOf
+N565937bf17e748d5a8c67e20f4c8943b,owl#Restriction,22-rdf-syntax-ns#type
+N0edfcbeee1cc4603947a05bfcbebae59,N7882d1abaeb247ba899a2c454df595a1,owl#unionOf
+N3dfb509b471e441f99cd03713c49dc62,ExplicitDate,owl#onClass
+CashSettlementTerms,Neb1c534362df45d28c135faa16ee5729,rdf-schema#subClassOf
+hasContractPrice,has contract price,rdf-schema#label
+CreditDefaultSwapIndex,N31f2ca0d9a51469d8d5d4d13ddaaf676,rdf-schema#subClassOf
+CreditProtectionTerms,N565937bf17e748d5a8c67e20f4c8943b,rdf-schema#subClassOf
+BasketCreditDefaultSwap,basket credit default swap,rdf-schema#label
+Nae49c4470b374ef7878c8725e99b6556,0,owl#minQualifiedCardinality
+IndexCreditDefaultSwap,owl#Class,22-rdf-syntax-ns#type
+BasketCreditDefaultSwap,"credit default swap that references a bespoke, synthetic portfolio of underlying assets whose components have been agreed to for a specific OTC derivative by the parties to the transaction",core#definition
+DeliverableObligation,owl#Class,22-rdf-syntax-ns#type
+CreditEventNotice,Notices of certain kinds of credit events are required as a condition of a credit default swap. Such notices are sent from a notifying party (either the buyer or the seller) to the counterparty. They provide information that assists the contract parties in determining whether a triggering credit event has occurred.,explanatoryNote
+BasketOfCreditDefaultSwaps,basket of reference obligations are credit default swap instruments,core#definition
+CashSettlementMethod,owl#Class,22-rdf-syntax-ns#type
+NotifyingParty,notifying party,rdf-schema#label
+Nde206708fcaf446fabf2ca9f60b291f3,0,owl#minQualifiedCardinality
+DeliverableObligation,"If the reference obligation is a bond, the deliverable asset (obligation) may be a different bond. If it is a loan, the deliverable asset may involve assigment of a loan.",explanatoryNote
+BasketCreditDefaultSwap,owl#Class,22-rdf-syntax-ns#type
+N5fb380551e0143e3af504c64b2b7fd29,owl#Restriction,22-rdf-syntax-ns#type
+SingleNameCreditDefaultSwap,CreditDefaultSwap,rdf-schema#subClassOf
+N58f6eac96ad44f6b9cc10b36a83c5a45,owl#Restriction,22-rdf-syntax-ns#type
+EscrowAgent,or when a triggering event occurs,core#definition
+,CreditDefaultSwaps.rdf version of the ontology was modified to replace additional concepts from FIBO FND with their counterparts in the Commons Ontology Library (Commons) v1.1.,core#changeNote
+BasketOfCreditDefaultSwaps,DatedStructuredCollection,rdf-schema#subClassOf
+LoanCreditDefaultSwap,owl#Class,22-rdf-syntax-ns#type
+CashSettlementMethod,PriceDeterminationMethod,rdf-schema#subClassOf
+,"or reference obligations, or a credit index (reference index). This ontology defines the concept of a basic credit default swap as well as more specific kinds of CDS and specifies related details.",abstract
+BasketOfCreditDefaultSwaps,WeightedBasket,rdf-schema#subClassOf
+CashSettlementMethod,The method may include an independently administered synthetic auction process that sets the reference final price.,explanatoryNote
+,Credit Default Swaps Ontology,rdf-schema#label
+CreditEventNotice,Notice,rdf-schema#subClassOf
+CashSettlementMethod,cash settlement method,rdf-schema#label
+CashSettlementTerms,N5183bc83a8b544e7b7a25e23bb08e3a6,rdf-schema#subClassOf
+Neb1c534362df45d28c135faa16ee5729,0,owl#minQualifiedCardinality
+N66bf14bad2514d9e94c9dab5935b84f2,Ndc4bde6e1e4d4f178b9a3ef7e4f19fec,22-rdf-syntax-ns#rest
+CashSettlementTerms,N58f6eac96ad44f6b9cc10b36a83c5a45,rdf-schema#subClassOf
+hasMinimumQuotationAmount,indicates a minimum intended threshold amount of outstanding principal balance of the reference obligation for which the quote should be obtained,core#definition
+N5183bc83a8b544e7b7a25e23bb08e3a6,MonetaryAmount,owl#onClass
+DeliverableObligationSeller,ContractParty,rdf-schema#subClassOf
+DeliverableObligationBuyer,owl#Class,22-rdf-syntax-ns#type
+CreditProtectionTerms,Note that there may be additional payment schedules or a more complex calculation formula required depending on the terms of the contract.,explanatoryNote
+TriggeringEvent,"A triggering event is typically a credit event, but could be anything that happens in the marketplace. For example, a weather-specific contract could be triggered by a hurricane - which wouldn't be considered a credit event per se.",explanatoryNote
+N6c24ff5f721f4e26ad8cc76ee3ca905d,owl#Restriction,22-rdf-syntax-ns#type
+,CreditDefaultSwaps.rdf version of this ontology was modified to add the concept of a credit default swap index.,core#changeNote
+IndexTrancheCreditDefaultSwap,"Each tranche has a different priority of claims on the principal and interest flows from the collateral pool, and is traditionally portioned into rising levels of seniority.",explanatoryNote
+CreditDefaultSwap,CDS,abbreviation
+Nb4b418b46fa0408ca9a8ab3eaf52212e,owl#Restriction,22-rdf-syntax-ns#type
+SettlementAuction,settlement auction,rdf-schema#label
+N565937bf17e748d5a8c67e20f4c8943b,specifies,owl#onProperty
+CreditDefaultSwapIndex,owl#Class,22-rdf-syntax-ns#type
+MultiNameCreditDefaultSwap,"For instance, a multiname contract could be written to cover defaults in a reference portfolio (such as in the case of a basket credit default swap) or, as has been increasingly common over the past couple of decades,be based on an index of commonly negotiated single-name CDS. The latter are generally called CDS indexes.",explanatoryNote
+Ndc4bde6e1e4d4f178b9a3ef7e4f19fec,ContractThirdParty,22-rdf-syntax-ns#first
+N7882d1abaeb247ba899a2c454df595a1,N428657cdb4294724a946fae357b46f01,22-rdf-syntax-ns#rest
+N7582223527d34edd8ac6d9d07f8a7fb8,0,owl#minQualifiedCardinality
+CreditProtectionTerms,N3dfb509b471e441f99cd03713c49dc62,rdf-schema#subClassOf
+EscrowAgent,RegisteredAgent,rdf-schema#subClassOf
+,"CreditDefaultSwaps.rdf version of this ontology was modified to move the property, 'is conferred on' to the Legal Capacity ontology and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasQuotationMethod,hasPriceDeterminationMethod,rdf-schema#subPropertyOf
+SingleNameCreditDefaultSwap,owl#Class,22-rdf-syntax-ns#type
+N1865b0d6f41a467a8fee732acd2e0074,owl#Restriction,22-rdf-syntax-ns#type
+AssetBackedCreditDefaultSwap,ABCDS,abbreviation
+CreditDefaultSwapIndex,credit default swap index,rdf-schema#label
+IndexTrancheCreditDefaultSwap,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code",adaptedFrom
+NotifyingParty,The notifying party is the party that notifies the other party when a credit or other triggering event has occurred by means of a credit event notice. If more than one party is referenced as being the notifying party then either party may notify the other of such an occurrence.,explanatoryNote
+N4a0ff03498ff4321993dc726238a561c,isAbout,owl#onProperty
+N6c24ff5f721f4e26ad8cc76ee3ca905d,hasConstituent,owl#onProperty
+N9445fdc3d5f94571be1c55ce113eaf70,NotifyingParty,owl#someValuesFrom
+LoanCreditDefaultSwap,CreditDefaultSwap,rdf-schema#subClassOf
+NotifyingParty,N981659eba8e648a9bb973276eac28472,rdf-schema#subClassOf
+N97000a2efd3b4761a71e135d2268a7a1,0,owl#minQualifiedCardinality
+CreditProtectionTerms,legal terms that define triggering events and associated conditions related to settlement,core#definition
+Nfb77af02318b4cea8a88689e727402f9,PricingModel,22-rdf-syntax-ns#first
+hasQuotationMethod,or dealers when determining the market value of the reference obligation for purposes of cash settlement,core#definition
+CreditDefaultSwap,Note that the effective date of the contract indicates the starting date of the credit protection defined therein.,explanatoryNote
+Nfb77af02318b4cea8a88689e727402f9,N2a604c536e4445b4872be75c9575536c,22-rdf-syntax-ns#rest
+AssetBackedCreditDefaultSwap,asset-backed credit default swap,rdf-schema#label
+CreditDefaultSwapIndex,index whose underlying reference obligations are credit default swap instruments,core#definition
+DeliverableObligationSeller,deliverable obligation seller,rdf-schema#label
+NotifyingParty,owl#Class,22-rdf-syntax-ns#type
+N52ea6f111fff452e9e89274927e0f23a,owl#Restriction,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+hasScheduledTerminationDate,scheduled termination date,rdf-schema#label
+allowsSubstitution,CreditProtectionTerms,rdf-schema#domain
+Neb1c534362df45d28c135faa16ee5729,hasQuotationMethod,owl#onProperty
+Nde206708fcaf446fabf2ca9f60b291f3,specifies,owl#onProperty
+TriggeringEvent,owl#Class,22-rdf-syntax-ns#type
+IndexCreditDefaultSwap,2022023pap.pdf,adaptedFrom
+hasContractPrice,MonetaryPrice,rdf-schema#range
+,MIT,license
+N67adc9c9302147a18b3acf843c29633e,DeliverableObligation,owl#someValuesFrom
+N3dfb509b471e441f99cd03713c49dc62,0,owl#minQualifiedCardinality
+N66bf14bad2514d9e94c9dab5935b84f2,ContractParty,22-rdf-syntax-ns#first
+LoanCreditDefaultSwap,"credit default swap whose underlying reference obligation is limited strictly to syndicated secured loans, rather than any type of corporate debt",core#definition
+AssetBackedCreditDefaultSwap,credit default swap whose underlying reference obligation is an asset-backed security rather than corporate credit,core#definition
+N31f2ca0d9a51469d8d5d4d13ddaaf676,isBasedOn,owl#onProperty
+PhysicalSettlementTerms,owl#Class,22-rdf-syntax-ns#type
+Nae49c4470b374ef7878c8725e99b6556,owl#Restriction,22-rdf-syntax-ns#type
+IndexCreditDefaultSwap,index credit default swap,rdf-schema#label
+,CreditDefaultSwaps.rdf version of this ontology was modified to move the nominal for auction market from CDS to the pricing ontology (its IRI was that of the instrument pricing ontology but it was mistakenly in the CDS ontology) and simplify the definition (DER-140).,core#changeNote
+DeliverableObligation,Asset,rdf-schema#subClassOf
+hasScheduledTerminationDate,hasTerminationDate,rdf-schema#subPropertyOf
+CreditDefaultSwap,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code",adaptedFrom
+,"CreditDefaultSwaps.rdf version of the ontology was modified to eliminate a subproperty relationship between the contract price and notional amount, which may not be appropriate (DER-127), and to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.",core#changeNote
+BasketCreditDefaultSwap,2022023pap.pdf,adaptedFrom
+IndexTrancheCreditDefaultSwap,MultiNameCreditDefaultSwap,rdf-schema#subClassOf
+N9445fdc3d5f94571be1c55ce113eaf70,owl#Restriction,22-rdf-syntax-ns#type
+N2a604c536e4445b4872be75c9575536c,Exchange,22-rdf-syntax-ns#first
+ContingentCreditDefaultSwap,CreditDefaultSwap,rdf-schema#subClassOf
+TriggeringEvent,event that relates to or triggers some aspect of a credit default swap,core#definition
+SettlementAuction,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code",adaptedFrom
+N97000a2efd3b4761a71e135d2268a7a1,hasOccurrence,owl#onProperty
+DeliverableObligation,asset that must be delivered as a part of the process of settling a credit default swap,core#definition
+CreditDefaultSwap,2022023pap.pdf for more detail.,explanatoryNote
+DeliverableObligationBuyer,ContractParty,rdf-schema#subClassOf
+hasScheduledTerminationDate,date on which credit protection is due to expire as agreed by both parties,core#definition
+SettlementAuction,owl#Class,22-rdf-syntax-ns#type
+Nae49c4470b374ef7878c8725e99b6556,XMLSchema#boolean,owl#onDataRange
+N5fb380551e0143e3af504c64b2b7fd29,DeliverableObligationSeller,owl#someValuesFrom
+CreditEventNotice,N9445fdc3d5f94571be1c55ce113eaf70,rdf-schema#subClassOf
+CreditDefaultSwap,credit default swap,rdf-schema#label
+Nb4b418b46fa0408ca9a8ab3eaf52212e,specifies,owl#onProperty
+ObligationSpecificCreditEvent,TriggeringEvent,rdf-schema#subClassOf
+hasScheduledTerminationDate,ExplicitDate,rdf-schema#range
+N1865b0d6f41a467a8fee732acd2e0074,hasBuyer,owl#onProperty
+N2b7f6f1731894a93bf464091175ccd1e,Nfb77af02318b4cea8a88689e727402f9,22-rdf-syntax-ns#rest
+DeliverableObligation,deliverable asset,rdf-schema#label
+Nb4b418b46fa0408ca9a8ab3eaf52212e,TriggeringEvent,owl#someValuesFrom
+CreditEventNotice,owl#Class,22-rdf-syntax-ns#type
+CreditDefaultSwap,Neced7dcaea1540cbbb2a141bedfc8048,rdf-schema#subClassOf
+N981659eba8e648a9bb973276eac28472,N66bf14bad2514d9e94c9dab5935b84f2,owl#unionOf
+SettlementAuction,independently administered synthetic auction process on a set of defined deliverable obligations that sets the reference final price that can be used to facilitate cash settlement of all covered transactions following a credit event,core#definition
+CreditEventNotice,irrevocable written or verbal notice that states that a triggering event has occurred,core#definition
+TriggeringEvent,Occurrence,rdf-schema#subClassOf
+CashSettlementTerms,owl#Class,22-rdf-syntax-ns#type
+DeliverableObligationSeller,"contract party that is obliged to sell a deliverable obligation (asset) if a triggering event occurs, depending on the event and the contract",core#definition
+SingleNameCreditDefaultSwap,2022023pap.pdf,adaptedFrom
+ContingentCreditDefaultSwap,owl#Class,22-rdf-syntax-ns#type
+N565937bf17e748d5a8c67e20f4c8943b,TriggeringEvent,owl#someValuesFrom

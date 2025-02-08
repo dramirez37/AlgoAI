@@ -1,0 +1,435 @@
+source_id,target_id,relationship
+VisaNetwork,Visa network,rdf-schema#label
+N502b7b5ccc174ae7bba3058ea22a25ac,isPlayedBy,owl#onProperty
+CardAccount,owl#Class,22-rdf-syntax-ns#type
+PaymentCard,"The term payment card includes credit cards, debit cards, and stored-value cards, as well as payment through any distinctive marks of a payment card (such as a credit card number). A payment card is issued under an agreement that provides standards and mechanisms for settling the transactions between a merchant acquiring bank or similar entity and the providers who accept the cards as payment.",explanatoryNote
+N9897d0b4b3d44644868606dfe4acb374,CreditCard,owl#someValuesFrom
+N428049117fd14a6aa36edb0b8d3e4992,1,owl#qualifiedCardinality
+Nc0bee6bda5b74b2fa34e0c2ae8686667,owl#Restriction,22-rdf-syntax-ns#type
+CommercialCreditCardAgreement,"credit card agreement for a card issued to, or in conjunction with, a formal organization, such as a small business, middle market business, local, state, or national government, or large corporation",core#definition
+Nc496477859a849958b9dd49096784a88,CreditCardAccount,owl#someValuesFrom
+N226f75e4937c410da3a8f234eca5ef1e,owl#Restriction,22-rdf-syntax-ns#type
+N1a34e411c3d54b2b89eb8759a6e105e3,isIdentifiedBy,owl#onProperty
+N807b9126ea104fb0b3cc2a8387509c4e,1,owl#qualifiedCardinality
+,CardAccounts.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+CreditCard,PaymentCard,rdf-schema#subClassOf
+Nbe2975f1905d4bbc8f7e5f57cb2c0cbe,owl#Restriction,22-rdf-syntax-ns#type
+N2234ae1deb334173bec55bea112fff3d,hasContractParty,owl#onProperty
+CreditCard,"In its non-physical form, a credit card represents a payment mechanism which facilitates both consumer and commercial business transactions, including purchases and cash advances. A credit card generally operates as a substitute for cash or a check and most often provides an unsecured revolving line of credit. The borrower is required to pay at least part of the card's outstanding balance each billing cycle, depending on the terms as set forth in the cardholder agreement. As the debt reduces, the available credit increases for accounts in good standing. These complex financial arrangements have ever-shifting terms and prices. A charge card differs from a credit card in that the charge card must be paid in full each month.",explanatoryNote
+CardVerificationValue2,CVV2,synonym
+MagneticStripeVerificationCodeValue,magnetic stripe verification code or value,rdf-schema#label
+CardAccount,Ndacc036271214079a00d2b25e54c2424,rdf-schema#subClassOf
+usesCurrency,uses,rdf-schema#subPropertyOf
+Naa4ecb9522354343a183e4cb5df0dbbd,owl#Restriction,22-rdf-syntax-ns#type
+Nca047c13973540d6b7e819cebd1f85ae,owl#Restriction,22-rdf-syntax-ns#type
+N7dd04c5b342041bea9a878b5d1723e68,owl#Restriction,22-rdf-syntax-ns#type
+Ndacc036271214079a00d2b25e54c2424,isSignifiedBy,owl#onProperty
+Ncd39096d14eb4cd1b090d7d342066648,owns,owl#onProperty
+Naa4ecb9522354343a183e4cb5df0dbbd,holds,owl#onProperty
+ConsumerCreditCardAgreement,"credit card agreement for a card issued for household, family, or other personal expenditures that is accessed by a borrower's use of a credit card",core#definition
+N292e2a6e39ea4bfc980afbd755c66417,DebitCardAccount,owl#someValuesFrom
+,CardAccounts.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+Na1a70a195243440a8c4ca193d8cde9b2,isClassifiedBy,owl#onProperty
+Nc0bee6bda5b74b2fa34e0c2ae8686667,1,owl#qualifiedCardinality
+DebitCardProduct,CardProduct,rdf-schema#subClassOf
+CardValidationCode,card verification code specifically for Mastercard payment cards,core#definition
+N188cf4131dd64d99b493f1c08ea1ee96,CardAccount,owl#someValuesFrom
+ConsumerCreditCardAgreement,consumer credit card agreement,rdf-schema#label
+,,owl#versionIRI
+Nd0a0afc521ad47278842ee3a9670c291,owl#Restriction,22-rdf-syntax-ns#type
+Nce1cbec912a54f0d8bb215a70f24605b,hasCountry,owl#onProperty
+Nd0a0afc521ad47278842ee3a9670c291,exemplifies,owl#onProperty
+N5c5f899a291b4608870e6b9a57b97402,CreditCard,owl#someValuesFrom
+hasCreditCardNetwork,isClassifiedBy,rdf-schema#subPropertyOf
+N428049117fd14a6aa36edb0b8d3e4992,CardVerificationCodeValue,owl#onClass
+Na855586f2b61477dae28f5ecc2e4e978,Cardholder,owl#someValuesFrom
+N292e2a6e39ea4bfc980afbd755c66417,owl#Restriction,22-rdf-syntax-ns#type
+SmartCard,glossary,adaptedFrom
+N9897d0b4b3d44644868606dfe4acb374,isSignifiedBy,owl#onProperty
+N945dad9d31d74b05bd0b7870abc6e60c,hasBorrower,owl#onProperty
+DebitCardProduct,N292e2a6e39ea4bfc980afbd755c66417,rdf-schema#subClassOf
+CardProduct,N86f08af3ae054b52a95948cd5c365da0,rdf-schema#subClassOf
+CreditCardAccount,CardAccount,rdf-schema#subClassOf
+PaymentCardAgreement,N2234ae1deb334173bec55bea112fff3d,rdf-schema#subClassOf
+N5c5f899a291b4608870e6b9a57b97402,isEvidencedBy,owl#onProperty
+CreditCardAccount,N8cf3cd0d0d4c4ae6b6b023a091e6144c,rdf-schema#subClassOf
+Nca047c13973540d6b7e819cebd1f85ae,1,owl#qualifiedCardinality
+Nd0a0afc521ad47278842ee3a9670c291,CreditCardProduct,owl#someValuesFrom
+N188cf4131dd64d99b493f1c08ea1ee96,isEvidenceFor,owl#onProperty
+Nbe2975f1905d4bbc8f7e5f57cb2c0cbe,isPlayedBy,owl#onProperty
+Nd4f46fe4ef93482bbce97f6bae9b5b56,Consumer,owl#someValuesFrom
+CreditCard,N954383670e0a4a2a9d32dd64415e980d,rdf-schema#subClassOf
+CommercialCreditCardAgreement,owl#Class,22-rdf-syntax-ns#type
+Nbe2975f1905d4bbc8f7e5f57cb2c0cbe,Ncd39096d14eb4cd1b090d7d342066648,owl#someValuesFrom
+hasPrimaryAccountNumber,PrimaryCardAccountNumber,rdf-schema#range
+PrimaryCardAccountNumber,PAN,abbreviation
+usesCurrency,indicates the currency defined for the credit card product,core#definition
+DebitCard,N2400b186dc1e46ff878094bc44e7b026,rdf-schema#subClassOf
+N226f75e4937c410da3a8f234eca5ef1e,1,owl#qualifiedCardinality
+CardVerificationValue,CVV,abbreviation
+CardValidationCode2,card validation code 2,rdf-schema#label
+CardProduct,owl#Class,22-rdf-syntax-ns#type
+Nffc6225312a44e8cb0c5e14af4663d33,hasPrimaryAccountHolder,owl#onProperty
+PaymentCardAgreement,Nabc18199351641bb93cc4f9570f676d3,rdf-schema#subClassOf
+JCBNetwork,"JCB Co., Ltd., (formerly Japan Credit Bureau) is a credit card company based in Tokyo, Japan. As of 2020, it operates in 23 countries with over 130 million customers. In the United States, it is not a primary credit card network but has an association with the Discover Network to enable use of JCB cards.",explanatoryNote
+hasCreditCardNetwork,indicates the underlying network for credit card product,core#definition
+DebitCardAccount,debit card account,rdf-schema#label
+CreditCardNetwork,Nf413e085f0ee4161ab9376889881d2b1,rdf-schema#subClassOf
+CreditCardAgreement,N58601fa423f346a59ce46b78759eb231,rdf-schema#subClassOf
+CardValidationCode,MagneticStripeVerificationCodeValue,rdf-schema#subClassOf
+Cardholder,cardholder,rdf-schema#label
+hasCardVerificationCode,"links a credit card to either: (1) magnetic-stripe data, or (2) printed security features that are used to protect data integrity and limit alteration, counterfeiting and fraud generally",core#definition
+IssuingFinancialInstitution,"issuer and financial services provider that issues payment cards or performs, facilitates, or supports issuing services including but not limited to issuing banks and issuing processors",core#definition
+CardAccount,Nffc6225312a44e8cb0c5e14af4663d33,rdf-schema#subClassOf
+CardIdentificationNumber,glossary,adaptedFrom
+Nf8ea87a0c70149f282739c8997322f2d,hasTag,owl#onProperty
+Cardholder,glossary,adaptedFrom
+usesCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+PaymentCardAgreement,owl#Class,22-rdf-syntax-ns#type
+N18dbce3ba18740a8bdfdc6dce6a97136,isClassifiedBy,owl#onProperty
+N644f876c72964c2fab561f292aa8cfe9,DebitCardProduct,owl#someValuesFrom
+CardIdentificationNumber,ThreeDigitVerificationCodeValue,rdf-schema#subClassOf
+Nd4f46fe4ef93482bbce97f6bae9b5b56,hasBorrower,owl#onProperty
+N2400b186dc1e46ff878094bc44e7b026,owl#Restriction,22-rdf-syntax-ns#type
+PaymentCardAgreement,CreditAgreement,rdf-schema#subClassOf
+N4cb232c112084c5b90c5146959d66cd5,PaymentCard,owl#someValuesFrom
+Nc0bee6bda5b74b2fa34e0c2ae8686667,CreditCardNetwork,owl#onClass
+N1a34e411c3d54b2b89eb8759a6e105e3,PrimaryCardAccountNumber,owl#someValuesFrom
+N226f75e4937c410da3a8f234eca5ef1e,XMLSchema#string,owl#onDataRange
+CommercialCreditCardAgreement,Ndf43840752a0451f8ac6a86845603418,rdf-schema#subClassOf
+CardValidationCode,card validation code,rdf-schema#label
+CardIdentificationNumber,card identification number,rdf-schema#label
+Nabc18199351641bb93cc4f9570f676d3,owl#Restriction,22-rdf-syntax-ns#type
+CreditCardProduct,credit card product,rdf-schema#label
+CardSecurityCode,CSC,abbreviation
+PrimaryCardAccountNumber,"The PAN identifies the issuer of the card and the account including part of the account number, and contains a check digit that verifies the authenticity of the embossed account number.",explanatoryNote
+N954383670e0a4a2a9d32dd64415e980d,CreditCardAccount,owl#onClass
+AmericanExpressNetwork,owl#NamedIndividual,22-rdf-syntax-ns#type
+N954383670e0a4a2a9d32dd64415e980d,owl#Restriction,22-rdf-syntax-ns#type
+CardAuthenticationValue,glossary,adaptedFrom
+hasCreditCardNetwork,has credit card network,rdf-schema#label
+DebitCardAccount,card account that is represented by a one or more debit cards,core#definition
+ThreeDigitVerificationCodeValue,CardVerificationCodeValue,rdf-schema#subClassOf
+MagneticStripeVerificationCodeValue,"card verification code on a card's magnetic stripe that uses secure cryptographic processes to protect data integrity on the stripe, and reveals any alteration or counterfeiting",core#definition
+CreditCardProduct,owl#Class,22-rdf-syntax-ns#type
+CardAuthenticationValue,card authentication value,rdf-schema#label
+N0db0a9aa7fbd4ff49c02b349cde4f4f7,classifies,owl#onProperty
+N2400b186dc1e46ff878094bc44e7b026,1,owl#qualifiedCardinality
+Nf413e085f0ee4161ab9376889881d2b1,classifies,owl#onProperty
+CardValidationCode,owl#Class,22-rdf-syntax-ns#type
+CreditCardAccount,card account whose terms and conditions are defined in a credit card agreement that is represented by a credit card,core#definition
+Naa4ecb9522354343a183e4cb5df0dbbd,CardAccount,owl#someValuesFrom
+JCBNetwork,owl#NamedIndividual,22-rdf-syntax-ns#type
+CardVerificationCodeValue,glossary,adaptedFrom
+CreditCardAccount,owl#Class,22-rdf-syntax-ns#type
+Nffc6225312a44e8cb0c5e14af4663d33,owl#Restriction,22-rdf-syntax-ns#type
+CardValidationCode2,PAN CVC2,abbreviation
+N0db0a9aa7fbd4ff49c02b349cde4f4f7,DebitCard,owl#someValuesFrom
+ThreeDigitVerificationCodeValue,glossary,adaptedFrom
+CardVerificationValue2,owl#Class,22-rdf-syntax-ns#type
+Nca047c13973540d6b7e819cebd1f85ae,hasPrimaryAccountNumber,owl#onProperty
+N954383670e0a4a2a9d32dd64415e980d,1,owl#qualifiedCardinality
+Neaa999b774ae4a058935b530cdef4cf1,N0ad1985aea304bd082608597fc927b30,owl#someValuesFrom
+CreditCardAgreement,N945dad9d31d74b05bd0b7870abc6e60c,rdf-schema#subClassOf
+CardAuthenticationValue2,glossary,adaptedFrom
+N807b9126ea104fb0b3cc2a8387509c4e,owl#Restriction,22-rdf-syntax-ns#type
+CardValidationCode2,glossary,adaptedFrom
+CardProduct,Nce1cbec912a54f0d8bb215a70f24605b,rdf-schema#subClassOf
+PaymentCardAgreement,payment card agreement,rdf-schema#label
+CardAuthenticationValue2,CAV2,synonym
+PaymentCard,payment card,rdf-schema#label
+CreditCardAgreement,account-specific credit facility that specifies the terms and conditions under which the credit card is offered to the cardholder by the issuer,core#definition
+IssuingFinancialInstitution,Issuer,rdf-schema#subClassOf
+Nb9c158d0b5484a7fbd1625507fb34a5f,0,owl#minQualifiedCardinality
+Nb9c158d0b5484a7fbd1625507fb34a5f,owl#Restriction,22-rdf-syntax-ns#type
+CardVerificationValue2,glossary,adaptedFrom
+CardVerificationValue,card verification value specifically for Visa and Discover payment cards,core#definition
+CardAuthenticationValue2,ThreeDigitVerificationCodeValue,rdf-schema#subClassOf
+CardAuthenticationValue2,card authentication value 2,rdf-schema#label
+CreditCardAccount,N9897d0b4b3d44644868606dfe4acb374,rdf-schema#subClassOf
+CardVerificationCodeValue,N226f75e4937c410da3a8f234eca5ef1e,rdf-schema#subClassOf
+VisaNetwork,"credit card network that oversees the Visa Signature benefits associated with certain credit cards, such as premium rental car privileges and hotel perks",core#definition
+PrimaryCardAccountNumber,composite identifier of 14 or 16 digits embossed on a bank or payment card and encoded in the card's magnetic strip,core#definition
+hasPrimaryAccountNumber,specifies the account number displayed on the face of the card,core#definition
+AmericanExpressNetwork,CreditCardNetwork,22-rdf-syntax-ns#type
+Ndf43840752a0451f8ac6a86845603418,hasBorrower,owl#onProperty
+CreditCard,Na1a70a195243440a8c4ca193d8cde9b2,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+CardProduct,card product,rdf-schema#label
+Ndacc036271214079a00d2b25e54c2424,owl#Restriction,22-rdf-syntax-ns#type
+N7dd04c5b342041bea9a878b5d1723e68,CardAccount,owl#someValuesFrom
+N86f08af3ae054b52a95948cd5c365da0,hasCreditCardNetwork,owl#onProperty
+Cardholder,CustomerAccountHolder,rdf-schema#subClassOf
+PaymentCard,Na47ea138990b42fda1a190a800aa2026,rdf-schema#subClassOf
+MastercardNetwork,owl#NamedIndividual,22-rdf-syntax-ns#type
+PaymentCard,LegalDocument,rdf-schema#subClassOf
+CardVerificationValue,owl#Class,22-rdf-syntax-ns#type
+Nb9c158d0b5484a7fbd1625507fb34a5f,CustomerAccount,owl#onClass
+N4cb232c112084c5b90c5146959d66cd5,owl#Restriction,22-rdf-syntax-ns#type
+DiscoverNetwork,Discover network,rdf-schema#label
+ConsumerCreditCardAgreement,owl#Class,22-rdf-syntax-ns#type
+N9897d0b4b3d44644868606dfe4acb374,owl#Restriction,22-rdf-syntax-ns#type
+CardAccount,N95e69e7a5f2342589be72234733b8616,rdf-schema#subClassOf
+Nc496477859a849958b9dd49096784a88,owl#Restriction,22-rdf-syntax-ns#type
+CommercialCreditCardAgreement,commercial credit card agreement,rdf-schema#label
+JCBNetwork,JCB network,rdf-schema#label
+MastercardNetwork,Mastercard network,rdf-schema#label
+N428049117fd14a6aa36edb0b8d3e4992,hasCardVerificationCode,owl#onProperty
+ConsumerCreditCardAgreement,CreditCardAgreement,rdf-schema#subClassOf
+N58601fa423f346a59ce46b78759eb231,appliesTo,owl#onProperty
+Cardholder,Naa4ecb9522354343a183e4cb5df0dbbd,rdf-schema#subClassOf
+Nce1cbec912a54f0d8bb215a70f24605b,owl#Restriction,22-rdf-syntax-ns#type
+Na1a70a195243440a8c4ca193d8cde9b2,CreditCardProduct,owl#someValuesFrom
+SmartCard,payment card that has integrated circuits embedded within it,core#definition
+IssuingFinancialInstitution,owl#Class,22-rdf-syntax-ns#type
+N9ca0528ced5141fda4ad1a13bf240a77,owl#Restriction,22-rdf-syntax-ns#type
+N2234ae1deb334173bec55bea112fff3d,IssuingFinancialInstitution,owl#someValuesFrom
+Ndf43840752a0451f8ac6a86845603418,N502b7b5ccc174ae7bba3058ea22a25ac,owl#someValuesFrom
+,"Copyright (c) 2020-2024 EDM Council, Inc.",copyright
+N0db0a9aa7fbd4ff49c02b349cde4f4f7,owl#Restriction,22-rdf-syntax-ns#type
+Nc0bee6bda5b74b2fa34e0c2ae8686667,hasCreditCardNetwork,owl#onProperty
+JCBNetwork,CreditCardNetwork,22-rdf-syntax-ns#type
+N8cf3cd0d0d4c4ae6b6b023a091e6144c,PaymentDueDate,owl#someValuesFrom
+CardAccount,CustomerAccount,rdf-schema#subClassOf
+Nf413e085f0ee4161ab9376889881d2b1,owl#Restriction,22-rdf-syntax-ns#type
+PaymentCardAgreement,Na855586f2b61477dae28f5ecc2e4e978,rdf-schema#subClassOf
+usesCurrency,uses currency,rdf-schema#label
+N5c5f899a291b4608870e6b9a57b97402,owl#Restriction,22-rdf-syntax-ns#type
+N2234ae1deb334173bec55bea112fff3d,owl#Restriction,22-rdf-syntax-ns#type
+,CardAccounts.rdf version of this ontology was modified to make consumer credit card agreement a subclass of unsecured consumer loan.,core#changeNote
+,Card Accounts Ontology,rdf-schema#label
+DebitCardProduct,owl#Class,22-rdf-syntax-ns#type
+DebitCardProduct,debit card product,rdf-schema#label
+DebitCard,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+Nabc18199351641bb93cc4f9570f676d3,CardAccount,owl#someValuesFrom
+N081166939baf4a85ae23de62d448efd2,classifies,owl#onProperty
+CardIdentificationNumber,card verification value specifically for American Express and Discover payment cards,core#definition
+Nd4f46fe4ef93482bbce97f6bae9b5b56,owl#Restriction,22-rdf-syntax-ns#type
+N0ad1985aea304bd082608597fc927b30,isAPartyTo,owl#onProperty
+Nca047c13973540d6b7e819cebd1f85ae,PrimaryCardAccountNumber,owl#onClass
+Nabc18199351641bb93cc4f9570f676d3,appliesTo,owl#onProperty
+N95e69e7a5f2342589be72234733b8616,exemplifies,owl#onProperty
+Cardholder,Nbe2975f1905d4bbc8f7e5f57cb2c0cbe,rdf-schema#subClassOf
+CardAccount,card account,rdf-schema#label
+N2400b186dc1e46ff878094bc44e7b026,isEvidenceFor,owl#onProperty
+PaymentCardAgreement,AccountSpecificServiceAgreement,rdf-schema#subClassOf
+CardValidationCode,PAN CVC,abbreviation
+VisaNetwork,owl#NamedIndividual,22-rdf-syntax-ns#type
+,"Copyright (c) 2020-2024 Object Management Group, Inc.",copyright
+N58601fa423f346a59ce46b78759eb231,CreditCardAccount,owl#someValuesFrom
+Nce1cbec912a54f0d8bb215a70f24605b,Country,owl#onClass
+IssuingFinancialInstitution,issuing bank,synonym
+PrimaryCardAccountNumber,owl#Class,22-rdf-syntax-ns#type
+Na855586f2b61477dae28f5ecc2e4e978,hasContractParty,owl#onProperty
+N954383670e0a4a2a9d32dd64415e980d,isEvidenceFor,owl#onProperty
+PaymentCard,payment-card-transactions-faqs,rdf-schema#seeAlso
+CardExpirationDate,owl#Class,22-rdf-syntax-ns#type
+CreditCard,ch2.pdf,adaptedFrom
+Na855586f2b61477dae28f5ecc2e4e978,owl#Restriction,22-rdf-syntax-ns#type
+N9ca0528ced5141fda4ad1a13bf240a77,isDefinedIn,owl#onProperty
+CreditCardProduct,card product allowing the holder to purchase goods or services on credit,core#definition
+Nfd14d127aa0949ffa244960c359fcb23,hasLender,owl#onProperty
+MagneticStripeVerificationCodeValue,owl#Class,22-rdf-syntax-ns#type
+MastercardNetwork,"credit card network that has its own suite of card protections and benefits, such as identity theft protection and extended warranties",core#definition
+N56ba82246e3d4fa3b93e9db95450e89c,0,owl#minQualifiedCardinality
+Nce1cbec912a54f0d8bb215a70f24605b,1,owl#qualifiedCardinality
+PaymentCardAgreement,N3a5bf5394ad746938ab4ee6d86969b6e,rdf-schema#subClassOf
+N56ba82246e3d4fa3b93e9db95450e89c,owl#Restriction,22-rdf-syntax-ns#type
+CreditCardAgreement,owl#Class,22-rdf-syntax-ns#type
+CreditCardAccount,N9ca0528ced5141fda4ad1a13bf240a77,rdf-schema#subClassOf
+CardSecurityCode,card security code,rdf-schema#label
+N8cf3cd0d0d4c4ae6b6b023a091e6144c,owl#Restriction,22-rdf-syntax-ns#type
+N226f75e4937c410da3a8f234eca5ef1e,hasTag,owl#onProperty
+CreditCardNetwork,"Mastercard, Visa, American Express, Discover",core#example
+DebitCard,debit card,rdf-schema#label
+PaymentCardAgreement,account-specific credit agreement that specifies the terms and conditions under which the payment card is offered to the cardholder by the issuer,core#definition
+CardProduct,N56ba82246e3d4fa3b93e9db95450e89c,rdf-schema#subClassOf
+CommercialCreditCardAgreement,corporate credit card agreement,synonym
+CardAccount,Nb32ad6ff85ef460ba58413ae13f9c5d5,rdf-schema#subClassOf
+CardVerificationValue,MagneticStripeVerificationCodeValue,rdf-schema#subClassOf
+PrimaryCardAccountNumber,primary card account number,rdf-schema#label
+N2400b186dc1e46ff878094bc44e7b026,DebitCardAccount,owl#onClass
+N7dd04c5b342041bea9a878b5d1723e68,isExemplifiedBy,owl#onProperty
+N644f876c72964c2fab561f292aa8cfe9,exemplifies,owl#onProperty
+Nfd14d127aa0949ffa244960c359fcb23,IssuingFinancialInstitution,owl#someValuesFrom
+DebitCardProduct,N0db0a9aa7fbd4ff49c02b349cde4f4f7,rdf-schema#subClassOf
+N95e69e7a5f2342589be72234733b8616,CardProduct,owl#someValuesFrom
+CreditCardProduct,CardProduct,rdf-schema#subClassOf
+N18dbce3ba18740a8bdfdc6dce6a97136,owl#Restriction,22-rdf-syntax-ns#type
+N292e2a6e39ea4bfc980afbd755c66417,isExemplifiedBy,owl#onProperty
+CardVerificationCodeValue,CodeElement,rdf-schema#subClassOf
+VisaNetwork,CreditCardNetwork,22-rdf-syntax-ns#type
+CardAccount,Nb9c158d0b5484a7fbd1625507fb34a5f,rdf-schema#subClassOf
+N9ca0528ced5141fda4ad1a13bf240a77,CreditCardAgreement,owl#someValuesFrom
+N0ad1985aea304bd082608597fc927b30,owl#Restriction,22-rdf-syntax-ns#type
+CardValidationCode2,card verification value specifically for Mastercard payment cards,core#definition
+CardProduct,N807b9126ea104fb0b3cc2a8387509c4e,rdf-schema#subClassOf
+Ncd39096d14eb4cd1b090d7d342066648,owl#Restriction,22-rdf-syntax-ns#type
+CreditCardProduct,Nc496477859a849958b9dd49096784a88,rdf-schema#subClassOf
+Ndf43840752a0451f8ac6a86845603418,owl#Restriction,22-rdf-syntax-ns#type
+Nfd14d127aa0949ffa244960c359fcb23,owl#Restriction,22-rdf-syntax-ns#type
+N68a2e63ce7494fca877bbf76168911f9,isSignifiedBy,owl#onProperty
+CreditCard,credit card,rdf-schema#label
+AmericanExpressNetwork,"credit card network and card issuer that both issues credit cards and processes payments for cards bearing its logo, as well as offering cardholder benefits like travel insurance",core#definition
+Nf413e085f0ee4161ab9376889881d2b1,CardProduct,owl#someValuesFrom
+DebitCard,N18dbce3ba18740a8bdfdc6dce6a97136,rdf-schema#subClassOf
+AmericanExpressNetwork,American Express network,rdf-schema#label
+CreditCardAccount,LoanOrCreditAccount,rdf-schema#subClassOf
+ConsumerCreditCardAgreement,Nd4f46fe4ef93482bbce97f6bae9b5b56,rdf-schema#subClassOf
+N56ba82246e3d4fa3b93e9db95450e89c,hasSubdivision,owl#onProperty
+ConsumerCreditCardAgreement,UnsecuredConsumerLoan,rdf-schema#subClassOf
+SmartCard,"The circuits, also referred to as the 'chip,' contain payment card data including but not limited to data equivalent to the magnetic-stripe data.",explanatoryNote
+Nbb50c345fde7406fb88b0d6e55db34b9,owl#Restriction,22-rdf-syntax-ns#type
+CardVerificationValue2,card verification value 2,rdf-schema#label
+CreditCard,owl#Class,22-rdf-syntax-ns#type
+IssuingFinancialInstitution,FinancialServiceProvider,rdf-schema#subClassOf
+CommercialCreditCardAgreement,ch2.pdf,adaptedFrom
+PaymentCard,Nca047c13973540d6b7e819cebd1f85ae,rdf-schema#subClassOf
+ConsumerCreditCardAgreement,228.12,adaptedFrom
+CardValidationCode2,ThreeDigitVerificationCodeValue,rdf-schema#subClassOf
+Nbb50c345fde7406fb88b0d6e55db34b9,CardAccount,owl#onClass
+hasCardVerificationCode,has card verification code,rdf-schema#label
+N081166939baf4a85ae23de62d448efd2,CreditCard,owl#someValuesFrom
+PaymentCard,owl#Class,22-rdf-syntax-ns#type
+N945dad9d31d74b05bd0b7870abc6e60c,owl#Restriction,22-rdf-syntax-ns#type
+Nb32ad6ff85ef460ba58413ae13f9c5d5,owl#Restriction,22-rdf-syntax-ns#type
+CardVerificationValue2,ThreeDigitVerificationCodeValue,rdf-schema#subClassOf
+PrimaryCardAccountNumber,Nbb50c345fde7406fb88b0d6e55db34b9,rdf-schema#subClassOf
+CardValidationCode,glossary,adaptedFrom
+usesCurrency,Currency,rdf-schema#range
+SmartCard,owl#Class,22-rdf-syntax-ns#type
+N081166939baf4a85ae23de62d448efd2,owl#Restriction,22-rdf-syntax-ns#type
+CreditCardProduct,Nc0bee6bda5b74b2fa34e0c2ae8686667,rdf-schema#subClassOf
+CreditCard,"In physical form, a credit card traditionally is a thin, rectangular plastic card. The front of the card contains a series of numbers that are representative of various items such as the applicable network, bank, and account.",explanatoryNote
+CardProduct,N7dd04c5b342041bea9a878b5d1723e68,rdf-schema#subClassOf
+CardSecurityCode,MagneticStripeVerificationCodeValue,rdf-schema#subClassOf
+Na1a70a195243440a8c4ca193d8cde9b2,owl#Restriction,22-rdf-syntax-ns#type
+hasPrimaryAccountNumber,modeled independently of 'identifies' in order to circumvent circular reasoning challenges,core#editorialNote
+ThreeDigitVerificationCodeValue,three-digit verification code or value,rdf-schema#label
+N56ba82246e3d4fa3b93e9db95450e89c,CountrySubdivision,owl#onClass
+hasPrimaryAccountNumber,owl#ObjectProperty,22-rdf-syntax-ns#type
+CardVerificationCodeValue,"code that specifies either (1) magnetic-stripe data, or (2) printed security features that are used to protect data integrity and limit alteration, counterfeiting and fraud generally",core#definition
+N807b9126ea104fb0b3cc2a8387509c4e,usesCurrency,owl#onProperty
+CreditCardNetwork,credit card network,rdf-schema#label
+,MIT,license
+CreditCardNetwork,"classifier for the network that authorizes, processes, and sets the terms of credit card transactions, as well as transfers payments between shoppers, merchants, and their banks",core#definition
+PrimaryCardAccountNumber,primary account number,synonym
+CreditCardAgreement,Nfd14d127aa0949ffa244960c359fcb23,rdf-schema#subClassOf
+Nb32ad6ff85ef460ba58413ae13f9c5d5,isDefinedIn,owl#onProperty
+ThreeDigitVerificationCodeValue,card verification code that is the rightmost three-digit value printed in the signature panel area on the back of the card,core#definition
+CardVerificationValue,glossary,adaptedFrom
+Cardholder,Neaa999b774ae4a058935b530cdef4cf1,rdf-schema#subClassOf
+PaymentCard,"device that bears the logo of the founding members of PCI SSC, which are American Express, Discover Financial Services, JCB International, MasterCard, or Visa, Inc.",explanatoryNote
+hasCreditCardNetwork,CreditCardNetwork,rdf-schema#range
+CardExpirationDate,card expiration date,rdf-schema#label
+CardIdentificationNumber,owl#Class,22-rdf-syntax-ns#type
+Nb9c158d0b5484a7fbd1625507fb34a5f,isLinkedToAccount,owl#onProperty
+N807b9126ea104fb0b3cc2a8387509c4e,Currency,owl#onClass
+CreditCardNetwork,owl#Class,22-rdf-syntax-ns#type
+CardExpirationDate,ExplicitDate,rdf-schema#subClassOf
+DebitCardAccount,CardAccount,rdf-schema#subClassOf
+hasCardVerificationCode,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nbb50c345fde7406fb88b0d6e55db34b9,1,owl#qualifiedCardinality
+N8cf3cd0d0d4c4ae6b6b023a091e6144c,hasPaymentDueDate,owl#onProperty
+Nb32ad6ff85ef460ba58413ae13f9c5d5,PaymentCardAgreement,owl#someValuesFrom
+Cardholder,account holder to whom a payment card is issued,core#definition
+CreditCardNetwork,Nf8ea87a0c70149f282739c8997322f2d,rdf-schema#subClassOf
+IssuingFinancialInstitution,glossary,adaptedFrom
+DebitCardAccount,N68a2e63ce7494fca877bbf76168911f9,rdf-schema#subClassOf
+,CardAccounts.rdf version of the ontology was modified to improve the class hierarchy for credit card agreement.,core#changeNote
+SmartCard,PaymentCard,rdf-schema#subClassOf
+Nf8ea87a0c70149f282739c8997322f2d,owl#Restriction,22-rdf-syntax-ns#type
+DiscoverNetwork,owl#NamedIndividual,22-rdf-syntax-ns#type
+DiscoverNetwork,credit card network and card issuer offering benefits like secondary rental car collision insurance,core#definition
+CardVerificationCodeValue,card verification code or value,rdf-schema#label
+CardSecurityCode,owl#Class,22-rdf-syntax-ns#type
+Cardholder,owl#Class,22-rdf-syntax-ns#type
+PrimaryCardAccountNumber,AccountIdentifier,rdf-schema#subClassOf
+CreditCardAgreement,CommittedCreditFacility,rdf-schema#subClassOf
+CardAuthenticationValue,CAV,abbreviation
+CreditCardAgreement,N5c5f899a291b4608870e6b9a57b97402,rdf-schema#subClassOf
+N3a5bf5394ad746938ab4ee6d86969b6e,PaymentCard,owl#someValuesFrom
+N95e69e7a5f2342589be72234733b8616,owl#Restriction,22-rdf-syntax-ns#type
+N0ad1985aea304bd082608597fc927b30,CardAccount,owl#someValuesFrom
+CardSecurityCode,card verification value specifically for American Express payment cards,core#definition
+N502b7b5ccc174ae7bba3058ea22a25ac,FormalOrganization,owl#someValuesFrom
+Ncd39096d14eb4cd1b090d7d342066648,CardAccount,owl#someValuesFrom
+CardAuthenticationValue2,card verification value specifically for JCB payment cards,core#definition
+PaymentCard,"legal document issued by a financial services provider that enables the cardholder to access the funds in the customer's designated bank accounts, or through a credit account and make payments by electronic funds transfer and access automated teller machines (ATMs)",core#definition
+CardAuthenticationValue,card verification value specifically for JCB payment cards,core#definition
+CreditCardAgreement,credit card agreement,rdf-schema#label
+Na47ea138990b42fda1a190a800aa2026,hasExpirationDate,owl#onProperty
+N68a2e63ce7494fca877bbf76168911f9,DebitCard,owl#someValuesFrom
+Neaa999b774ae4a058935b530cdef4cf1,owl#Restriction,22-rdf-syntax-ns#type
+DebitCardAccount,N644f876c72964c2fab561f292aa8cfe9,rdf-schema#subClassOf
+Nffc6225312a44e8cb0c5e14af4663d33,Cardholder,owl#someValuesFrom
+N644f876c72964c2fab561f292aa8cfe9,owl#Restriction,22-rdf-syntax-ns#type
+CardAuthenticationValue,MagneticStripeVerificationCodeValue,rdf-schema#subClassOf
+,,owl#imports
+Na47ea138990b42fda1a190a800aa2026,owl#Restriction,22-rdf-syntax-ns#type
+CreditCardNetwork,Classifier,rdf-schema#subClassOf
+MagneticStripeVerificationCodeValue,CardVerificationCodeValue,rdf-schema#subClassOf
+CreditCardAgreement,PaymentCardAgreement,rdf-schema#subClassOf
+CardAuthenticationValue,owl#Class,22-rdf-syntax-ns#type
+CardProduct,"financial product involving the issuance of credit, debit, or other payment cards",core#definition
+N86f08af3ae054b52a95948cd5c365da0,CreditCardNetwork,owl#onClass
+DebitCard,PaymentCard,rdf-schema#subClassOf
+CreditCard,"Issuance of credit cards has the condition that the cardholder will pay back the original, borrowed amount plus any additional agreed-upon charges. The credit company provider may also grant a line of credit (LOC) to the cardholder which allows the holder to borrow money in the form of a cash advance. The issuer pre-sets borrowing limits which have a basis on the individual's credit rating.",explanatoryNote
+CreditCardAccount,credit card account,rdf-schema#label
+DebitCard,payment card issued by a financial service provider that enables the cardholder to access funds in a demand deposit account,core#definition
+hasPrimaryAccountNumber,has primary account number,rdf-schema#label
+CommercialCreditCardAgreement,CreditCardAgreement,rdf-schema#subClassOf
+DiscoverNetwork,CreditCardNetwork,22-rdf-syntax-ns#type
+CardAccount,N1a34e411c3d54b2b89eb8759a6e105e3,rdf-schema#subClassOf
+CardSecurityCode,glossary,adaptedFrom
+Nc496477859a849958b9dd49096784a88,isExemplifiedBy,owl#onProperty
+Na47ea138990b42fda1a190a800aa2026,1,owl#qualifiedCardinality
+DebitCardProduct,card product card typically provided by a depository institution allowing the holder to transfer money electronically to another account when making a purchase,core#definition
+CardIdentificationNumber,CID,abbreviation
+CardExpirationDate,date on which a given payment card expires,core#definition
+Nf8ea87a0c70149f282739c8997322f2d,XMLSchema#string,owl#someValuesFrom
+CardAuthenticationValue2,owl#Class,22-rdf-syntax-ns#type
+CardValidationCode2,owl#Class,22-rdf-syntax-ns#type
+Ndacc036271214079a00d2b25e54c2424,PaymentCard,owl#someValuesFrom
+MastercardNetwork,CreditCardNetwork,22-rdf-syntax-ns#type
+IssuingFinancialInstitution,issuing financial institution,rdf-schema#label
+hasCreditCardNetwork,owl#ObjectProperty,22-rdf-syntax-ns#type
+CardVerificationCodeValue,N4cb232c112084c5b90c5146959d66cd5,rdf-schema#subClassOf
+N18dbce3ba18740a8bdfdc6dce6a97136,DebitCardProduct,owl#someValuesFrom
+hasCardVerificationCode,PaymentCard,rdf-schema#domain
+CommercialCreditCardAgreement,"Corporate card programs come in more than one form to serve different business needs. In general, they are contractual agreements between a sponsoring entity and a financial institution, in which the financial institution issues corporate cards to select employees of the sponsoring company.",explanatoryNote
+hasPrimaryAccountNumber,PaymentCard,rdf-schema#domain
+N428049117fd14a6aa36edb0b8d3e4992,owl#Restriction,22-rdf-syntax-ns#type
+N4cb232c112084c5b90c5146959d66cd5,appliesTo,owl#onProperty
+N58601fa423f346a59ce46b78759eb231,owl#Restriction,22-rdf-syntax-ns#type
+CreditCard,card issued by a financial service provider that enables the cardholder to borrow funds,core#definition
+JCBNetwork,"credit card network based in Japan, with coverage throughout Asia, with strategic partners worldwide",core#definition
+N3a5bf5394ad746938ab4ee6d86969b6e,isEvidencedBy,owl#onProperty
+N188cf4131dd64d99b493f1c08ea1ee96,owl#Restriction,22-rdf-syntax-ns#type
+N945dad9d31d74b05bd0b7870abc6e60c,Cardholder,owl#someValuesFrom
+N3a5bf5394ad746938ab4ee6d86969b6e,owl#Restriction,22-rdf-syntax-ns#type
+CardProduct,FinancialProduct,rdf-schema#subClassOf
+SmartCard,smart card,rdf-schema#label
+CardVerificationCodeValue,owl#Class,22-rdf-syntax-ns#type
+N1a34e411c3d54b2b89eb8759a6e105e3,owl#Restriction,22-rdf-syntax-ns#type
+N68a2e63ce7494fca877bbf76168911f9,owl#Restriction,22-rdf-syntax-ns#type
+MagneticStripeVerificationCodeValue,glossary,adaptedFrom
+CardVerificationValue2,card verification value specifically for Visa payment cards,core#definition
+ThreeDigitVerificationCodeValue,owl#Class,22-rdf-syntax-ns#type
+N86f08af3ae054b52a95948cd5c365da0,0,owl#minQualifiedCardinality
+CardVerificationValue,card verification value,rdf-schema#label
+CardAccount,account whose terms and conditions are defined in a card agreement that is represented by a payment card,core#definition
+N86f08af3ae054b52a95948cd5c365da0,owl#Restriction,22-rdf-syntax-ns#type
+,corporate cards and is capable of representing either.,abstract
+Neaa999b774ae4a058935b530cdef4cf1,isPlayedBy,owl#onProperty
+N502b7b5ccc174ae7bba3058ea22a25ac,owl#Restriction,22-rdf-syntax-ns#type
+,CardAccounts.rdf version of this ontology was modified to add a distinction between consumer and commercial credit card agreements.,core#changeNote
+Na47ea138990b42fda1a190a800aa2026,CardExpirationDate,owl#onClass
+DebitCardAccount,owl#Class,22-rdf-syntax-ns#type
+PaymentCard,N428049117fd14a6aa36edb0b8d3e4992,rdf-schema#subClassOf
+hasCardVerificationCode,CardVerificationCodeValue,rdf-schema#range
+Nbb50c345fde7406fb88b0d6e55db34b9,identifies,owl#onProperty
+CreditCardAccount,Nd0a0afc521ad47278842ee3a9670c291,rdf-schema#subClassOf
+PaymentCard,N188cf4131dd64d99b493f1c08ea1ee96,rdf-schema#subClassOf
+CreditCardProduct,N081166939baf4a85ae23de62d448efd2,rdf-schema#subClassOf

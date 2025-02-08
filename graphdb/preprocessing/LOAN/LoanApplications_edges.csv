@@ -1,0 +1,357 @@
+source_id,target_id,relationship
+LoanApplication,N7a279d5bc7674b2ca28ceba928e92b69,rdf-schema#subClassOf
+N074aa097f3c54d009bb34e1394baee42,isAbout,owl#onProperty
+Ncfbf3b09125e4e9ea2443d9084586c7e,hasInput,owl#onProperty
+CreditRiskAssessment,N14b048a4446146b9ac6417eb72d504f8,rdf-schema#subClassOf
+N178863fa3610421f96f3fc7851a1552b,owl#Restriction,22-rdf-syntax-ns#type
+UnderwritingDecision-Deny,owl#NamedIndividual,22-rdf-syntax-ns#type
+CreditRiskAssessment,Nbe8d6f015c0b4163919b7ace0d37da2d,rdf-schema#subClassOf
+DenialReason-InsufficientCash,insufficient cash,rdf-schema#label
+AutomaticUnderwriting,automatic underwriting,rdf-schema#label
+Nc126b2aec64a45b59712ddd71bbd36d5,owl#Restriction,22-rdf-syntax-ns#type
+PublicRecordCategory-MaritalRecord,marital record,rdf-schema#label
+Nac46ffc389c74d3cab53dbc66cc59439,0,owl#minQualifiedCardinality
+hasOriginalLoanDebtToIncomeRatio,has original loan debt-to-income ratio,rdf-schema#label
+hasApplicationDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+DenialReason-InsufficientCreditHistory,owl#NamedIndividual,22-rdf-syntax-ns#type
+LoanApplicationStatus,loan application status,rdf-schema#label
+DenialReason-InsufficientEmploymentHistory,"The application was denied because the employment is irregular, unknown, or not sufficient.",core#definition
+N67fce94b489c4a2d8b0fbc8e61b9029a,owl#Restriction,22-rdf-syntax-ns#type
+PublicRecordCategory,Classifier,rdf-schema#subClassOf
+N69e3919c54b94de3966be5afc1e4d2a1,owl#Restriction,22-rdf-syntax-ns#type
+N074aa097f3c54d009bb34e1394baee42,LoanApplication,owl#someValuesFrom
+Nafa10130e02844608d515f1797c738df,comprises,owl#onProperty
+Na6afaaea56244448aa121c3fc0cfdbb7,owl#Restriction,22-rdf-syntax-ns#type
+Nfefc44603f0041ec94530cb235d5d966,owl#Restriction,22-rdf-syntax-ns#type
+UnderwritingDecision-UnableToDetermine,unable to determine,rdf-schema#label
+Nc97445b940c14c7e812a4c2c2938c440,usesFactor,owl#onProperty
+N185e38303ca04f46b30f75dbf133e12c,UnderwritingDecision,owl#someValuesFrom
+LoanAtApplicationStage,owl#Class,22-rdf-syntax-ns#type
+hasRequestedAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+TotalDebtExpenseRatio,back end ratio,synonym
+Ncfbf3b09125e4e9ea2443d9084586c7e,owl#Restriction,22-rdf-syntax-ns#type
+DenialReason-InsufficientEmploymentHistory,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasApplicationDate,hasRequestDate,rdf-schema#subPropertyOf
+UnderwritingDecision-Refer,owl#NamedIndividual,22-rdf-syntax-ns#type
+DenialReason-CreditApplicationIncomplete,owl#NamedIndividual,22-rdf-syntax-ns#type
+,,owl#versionIRI
+PreApprovalRequest,RequestActivity,rdf-schema#subClassOf
+Nac46ffc389c74d3cab53dbc66cc59439,owl#Restriction,22-rdf-syntax-ns#type
+IndividualPersonCreditRating,CreditRating,rdf-schema#subClassOf
+,"This ontology defines concepts for the loan application process, along with kinds of loan application and the parties thereto. Another major thread of this ontology is credit risk assessment at the highest level, which includes security agreements, pre-approvals, and credit reports.",abstract
+N5d62043e3f2545ff9086645e658703ac,TotalDebtExpenseRatio,owl#someValuesFrom
+Nfefc44603f0041ec94530cb235d5d966,0,owl#minQualifiedCardinality
+PublicRecord,"This can include court actions such as bankruptcy and foreclosure, as well as liens and other events that have been recorded.",explanatoryNote
+N185e38303ca04f46b30f75dbf133e12c,owl#Restriction,22-rdf-syntax-ns#type
+Na6afaaea56244448aa121c3fc0cfdbb7,CombinedLoanToValueRatio,owl#onClass
+N5d62043e3f2545ff9086645e658703ac,owl#Restriction,22-rdf-syntax-ns#type
+hasOriginalLoanDebtToIncomeRatio,owl#DatatypeProperty,22-rdf-syntax-ns#type
+isPreApprovalRequested,is pre-approval requested,rdf-schema#label
+hasIntendedLoanPurpose,has intended loan purpose,rdf-schema#label
+UnderwritingDecision-Approve,approve,rdf-schema#label
+PublicRecord,Nd8084f454296431d954b877b71933aef,rdf-schema#subClassOf
+usesFactor,owl#ObjectProperty,22-rdf-syntax-ns#type
+IndividualPersonCreditRating,individual person credit rating,rdf-schema#label
+PublicRecordCategory-BankruptcyRecord,PublicRecordCategory,22-rdf-syntax-ns#type
+ManualUnderwriting,owl#NamedIndividual,22-rdf-syntax-ns#type
+N6b6d0efbb98946ccab33dcc8a2e891c5,owl#Restriction,22-rdf-syntax-ns#type
+PreApprovalRequest,request from a potential borrower that a lender commit to pre-approving the borrower for a loan of up to a specified amount of money,core#definition
+BorrowerAssessment,assessment report detailing information about the borrower and their credit history that may be relevant to the loan application,core#definition
+CreditRiskAssessment,N5d62043e3f2545ff9086645e658703ac,rdf-schema#subClassOf
+UnderwritingDecision,owl#Class,22-rdf-syntax-ns#type
+BorrowerAssessment,Nc126b2aec64a45b59712ddd71bbd36d5,rdf-schema#subClassOf
+UnderwritingDecision-Eligible,owl#NamedIndividual,22-rdf-syntax-ns#type
+DenialReason-InsufficientIncome,The application was denied because the debt to income ratio is too high.,core#definition
+N23649a524af5473f875daf5baeb6e42f,owl#Restriction,22-rdf-syntax-ns#type
+UnderwritingDecision-Approve,UnderwritingDecision,22-rdf-syntax-ns#type
+DenialReason-MortgageInsuranceDenied,owl#NamedIndividual,22-rdf-syntax-ns#type
+CreditRiskAssessment,credit risk assessment,rdf-schema#label
+hasApprovedAmount,has approved amount,rdf-schema#label
+LoanAtApplicationStage,loan at application stage,rdf-schema#label
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+CreditRiskAssessment,AssessmentActivity,rdf-schema#subClassOf
+N7dfea0d2ef424ed6907a57e554cfee08,owl#Restriction,22-rdf-syntax-ns#type
+LoanApplication,loan application,rdf-schema#label
+UnderwritingAutomation,owl#Class,22-rdf-syntax-ns#type
+Nd8084f454296431d954b877b71933aef,owl#Restriction,22-rdf-syntax-ns#type
+Nac46ffc389c74d3cab53dbc66cc59439,comprises,owl#onProperty
+Nb56af92eafc44288a1bde70a96ea9178,0,owl#minQualifiedCardinality
+LoanApplication,Nfefc44603f0041ec94530cb235d5d966,rdf-schema#subClassOf
+Nb56af92eafc44288a1bde70a96ea9178,owl#Restriction,22-rdf-syntax-ns#type
+Nc97445b940c14c7e812a4c2c2938c440,AllBorrowersMonthlyIncome,owl#someValuesFrom
+PublicRecordCategory-GarnishmentRecord,owl#NamedIndividual,22-rdf-syntax-ns#type
+N08d15c8c2eb64f6db9a2b8ab70661f0d,usesFactor,owl#onProperty
+Na6afaaea56244448aa121c3fc0cfdbb7,comprises,owl#onProperty
+UnderwritingDecision-Refer,refer,rdf-schema#label
+DenialReason-InsufficientCollateralValue,insufficient collateral value,rdf-schema#label
+DenialReason-InsufficientEmploymentHistory,insufficient employment history,rdf-schema#label
+PublicRecordCategory-RealEstate,real estate record,rdf-schema#label
+DenialReason-CreditApplicationIncomplete,The application was denied because the credit application was not complete.,core#definition
+Nfefc44603f0041ec94530cb235d5d966,ExplicitDate,owl#onClass
+BorrowerMonthlyIncome,Nae8cc461a16c4b84b2957b5510e3f33d,rdf-schema#subClassOf
+TotalDebtExpenseRatio,total debt expense ratio,rdf-schema#label
+AutomaticUnderwriting,owl#NamedIndividual,22-rdf-syntax-ns#type
+isPreApprovalRequested,"indicates whether a pre-approval has been requested, in conjunction with a loan application",core#definition
+CreditRiskAssessment,Nc97445b940c14c7e812a4c2c2938c440,rdf-schema#subClassOf
+N67fce94b489c4a2d8b0fbc8e61b9029a,PublicRecord,owl#someValuesFrom
+usesFactor,relates e.g. a risk assessment to something used as a factor to make the assessment,core#definition
+PublicRecordCategory-PersonalPropertyRecord,personal property record,rdf-schema#label
+AutomaticUnderwriting,underwriting was performed using an automated underwriting system,core#definition
+hasApplicationDate,date on which an application was signed and submitted,core#definition
+PreApprovalContract,N3bf42b0ab84c4565816488de59c3d39e,rdf-schema#subClassOf
+hasGrossIncome,owl#ObjectProperty,22-rdf-syntax-ns#type
+PreApprovalContract,This may also include limits on the region where to purchase.,explanatoryNote
+LoanApplicationAtDisbursementStage,LoanApplicationStatus,rdf-schema#subClassOf
+LoanApplicationStatus,LifecycleStatus,rdf-schema#subClassOf
+N713f4d14ece64841b073273227a3627f,AllBorrowersMonthlyIncome,owl#someValuesFrom
+hasRequestedAmount,"relates something, e.g. a request for a loan, to the amount of funds requested",core#definition
+PreApprovalRequest,N353c6eb131454f6f80928ef3a3dfaa59,rdf-schema#subClassOf
+BorrowerAssessment,N074aa097f3c54d009bb34e1394baee42,rdf-schema#subClassOf
+PreApprovalRequest,This may also include limits on the region where to purchase.,explanatoryNote
+N6b6d0efbb98946ccab33dcc8a2e891c5,isSubmittedBy,owl#onProperty
+BorrowerAssessment,N2e5625a7151044eb9a425d7c8826c733,rdf-schema#subClassOf
+hasGrossIncome,BorrowerAssessment,rdf-schema#domain
+Na3a4cdacf9224665a2d315f3716ab412,IncomeVerificationReport,owl#onClass
+PreApprovalRequest,N69e3919c54b94de3966be5afc1e4d2a1,rdf-schema#subClassOf
+AllBorrowersMonthlyIncome,owl#Class,22-rdf-syntax-ns#type
+hasApplicationPhase,LoanApplication,rdf-schema#domain
+N178863fa3610421f96f3fc7851a1552b,Account,owl#onClass
+N69e3919c54b94de3966be5afc1e4d2a1,MonetaryAmount,owl#someValuesFrom
+N69e3919c54b94de3966be5afc1e4d2a1,hasRequestedAmount,owl#onProperty
+PublicRecord,Nb56af92eafc44288a1bde70a96ea9178,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+hasApplicationPhase,LoanApplicationPhase,rdf-schema#range
+BorrowerAssessment,Nda026335db2546269482250583ef84b8,rdf-schema#subClassOf
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+UnderwritingDecision-Ineligible,owl#NamedIndividual,22-rdf-syntax-ns#type
+IncomeVerificationReport,income verification report,rdf-schema#label
+UnderwritingDecision,Classifier,rdf-schema#subClassOf
+UnderwritingDecision,underwriting decision,rdf-schema#label
+UnderwritingDecision-Refer,UnderwritingDecision,22-rdf-syntax-ns#type
+N0a875391c9d0433391572f198c5a7d0d,owl#Restriction,22-rdf-syntax-ns#type
+LoanApplicationAtDisbursementStage,loan application at disbursement stage,rdf-schema#label
+PublicRecordCategory-CivilOrJudgementRecord,owl#NamedIndividual,22-rdf-syntax-ns#type
+LoanApplication,request by a potential borrower to a potential lender to borrow money containing information used to decide whether to grant the loan,core#definition
+PublicRecordCategory-LienRecord,lien record,rdf-schema#label
+PublicRecord,public record,rdf-schema#label
+N6b6d0efbb98946ccab33dcc8a2e891c5,Requester,owl#someValuesFrom
+LoanApplication,"The request typicaly includes most, if not all, of the information used to decide whether to grant the loan.",core#scopeNote
+LoanApplicationPhase,loan application phase,rdf-schema#label
+Nbe8d6f015c0b4163919b7ace0d37da2d,hasInput,owl#onProperty
+LoanApplicationPhase,owl#Class,22-rdf-syntax-ns#type
+N353c6eb131454f6f80928ef3a3dfaa59,hasBorrower,owl#onProperty
+hasApprovedAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+DenialReason-InsufficientCash,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nac46ffc389c74d3cab53dbc66cc59439,LoanToValueRatio,owl#onClass
+CreditRiskAssessment,N08d15c8c2eb64f6db9a2b8ab70661f0d,rdf-schema#subClassOf
+Nda026335db2546269482250583ef84b8,0,owl#minQualifiedCardinality
+N7dfea0d2ef424ed6907a57e554cfee08,comprises,owl#onProperty
+usesFactor,"There is intentionally no range for this property, so as not to limit what can be used as a factor. Often it will be a measure such as borrower monthly income. Thus, having a class called Factor seems unhelpful.",explanatoryNote
+LoanApplication,Nafa10130e02844608d515f1797c738df,rdf-schema#subClassOf
+DenialReason-InsufficientCreditHistory,insufficient credit history,rdf-schema#label
+PreApprovalRequest,pre-approval request,rdf-schema#label
+BorrowerAssessment,"Includes credit rating information. Ongoing assessment reports both good and bad credit rating information. In the US, by regulation, lender is required to respot person's payment history on a monthly basis. This is the basis on which peope's score is changed. So the lender's reporting to the credit bureau may affect that person's credit rating. this may give rise to credit disputes. Also there is a scenario where the borrower may contact the lender and ask for some change. For student loans, they can apply for a deferment payment based on change in circumstances e.g. if losing job, or becoming disabled, then there are specific programs which they can apply for. can defer paymen for a time, and if proven eligible (e.g. also if in military, being deployed), then if they subbut the relevant document, they approve and change their repayment term, perhaps temporarily and then revert to the previously agreed terms. This results from the borrower contacting the lender.",explanatoryNote
+,Loan Applications Ontology,rdf-schema#label
+LoanApplication,N713f4d14ece64841b073273227a3627f,rdf-schema#subClassOf
+CreditRiskAssessment,N23649a524af5473f875daf5baeb6e42f,rdf-schema#subClassOf
+PublicRecordCategory-ForeclosureRecord,owl#NamedIndividual,22-rdf-syntax-ns#type
+DenialReason-InsufficientCollateralValue,The application was denied because the value or type of collateral was not sufficient.,core#definition
+ManualUnderwriting,UnderwritingAutomation,22-rdf-syntax-ns#type
+DenialReason-InsufficientIncome,insufficient income,rdf-schema#label
+Nb56af92eafc44288a1bde70a96ea9178,LegalDocument,owl#onClass
+usesFactor,isBasedOn,rdf-schema#subPropertyOf
+PreApprovalContract,pre-approval contract,rdf-schema#label
+hasGrossIncome,hasMonetaryAmount,rdf-schema#subPropertyOf
+PreApprovalContract,owl#Class,22-rdf-syntax-ns#type
+Nbe8d6f015c0b4163919b7ace0d37da2d,owl#Restriction,22-rdf-syntax-ns#type
+hasRequestedAmount,has requested amount,rdf-schema#label
+ManualUnderwriting,underwriting was performed manually,core#definition
+UnderwritingDecision,classifier providing a loan approval recommendation determined either manually or by an automated underwriting system,core#definition
+Nda026335db2546269482250583ef84b8,owl#Restriction,22-rdf-syntax-ns#type
+DenialReason-UnverifiableInformation,unverifiable information,rdf-schema#label
+PublicRecordCategory,public record category,rdf-schema#label
+UnderwritingDecision-Ineligible,ineligible,rdf-schema#label
+hasGrossIncome,has gross income,rdf-schema#label
+AllBorrowersMonthlyIncome,Income,rdf-schema#subClassOf
+BorrowerMonthlyIncome,owl#Class,22-rdf-syntax-ns#type
+DenialReason-UnverifiableInformation,owl#NamedIndividual,22-rdf-syntax-ns#type
+N185e38303ca04f46b30f75dbf133e12c,hasOutput,owl#onProperty
+CreditRiskAssessment,Ncfbf3b09125e4e9ea2443d9084586c7e,rdf-schema#subClassOf
+N2b5b43577b1648c98dc17e3456c5ccea,owl#Restriction,22-rdf-syntax-ns#type
+AllBorrowersMonthlyIncome,MonetaryAmount,rdf-schema#subClassOf
+PreApprovalContract,WrittenContract,rdf-schema#subClassOf
+AllBorrowersMonthlyIncome,all borrowers' monthly income,rdf-schema#label
+N3bf42b0ab84c4565816488de59c3d39e,InterestRate,owl#someValuesFrom
+LoanApplicationPhase,LifecycleStage,rdf-schema#subClassOf
+hasGrossIncome,indicates the personal gross income of the borrower,core#definition
+PublicRecordCategory-CivilOrJudgementRecord,PublicRecordCategory,22-rdf-syntax-ns#type
+N14b048a4446146b9ac6417eb72d504f8,CombinedLoanToValueRatio,owl#someValuesFrom
+PreApprovalRequest,owl#Class,22-rdf-syntax-ns#type
+AutomaticUnderwriting,UnderwritingAutomation,22-rdf-syntax-ns#type
+DenialReason-InsufficientCreditHistory,"The application was denied because the credit history was too limited, unacceptable, or not at sufficient standing.",core#definition
+N7a279d5bc7674b2ca28ceba928e92b69,isPreApprovalRequested,owl#onProperty
+N14b048a4446146b9ac6417eb72d504f8,owl#Restriction,22-rdf-syntax-ns#type
+IndividualPersonCreditRating,owl#Class,22-rdf-syntax-ns#type
+Nae8cc461a16c4b84b2957b5510e3f33d,hasPartyRole,owl#onProperty
+N2b5b43577b1648c98dc17e3456c5ccea,1,owl#qualifiedCardinality
+N5d62043e3f2545ff9086645e658703ac,usesFactor,owl#onProperty
+N82e10ad395304aec8807a7ffcd4e8633,hasInput,owl#onProperty
+PublicRecordCategory-GarnishmentRecord,garnishment record,rdf-schema#label
+Nd8084f454296431d954b877b71933aef,isClassifiedBy,owl#onProperty
+Nbe8d6f015c0b4163919b7ace0d37da2d,PreApprovalRequest,owl#someValuesFrom
+PublicRecordCategory-LienRecord,owl#NamedIndividual,22-rdf-syntax-ns#type
+CreditRiskAssessment,risk assessment that focuses on determining the likelihood of a potential borrower repaying a loan,core#definition
+isPreApprovalRequested,XMLSchema#boolean,rdf-schema#range
+PublicRecordCategory,"classifier of public records relevant to a loan application, e.g. tax lien, wage garnishment, foreclosure",core#definition
+Nd8084f454296431d954b877b71933aef,PublicRecordCategory,owl#someValuesFrom
+hasIntendedLoanPurpose,owl#DatatypeProperty,22-rdf-syntax-ns#type
+DenialReason-MortgageInsuranceDenied,mortgage insurance denied,rdf-schema#label
+N7a279d5bc7674b2ca28ceba928e92b69,owl#Restriction,22-rdf-syntax-ns#type
+isPreApprovalRequested,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Nb544976c8e9c43f6bafeba954aba86a4,PaymentHistory,owl#onClass
+N178863fa3610421f96f3fc7851a1552b,0,owl#minQualifiedCardinality
+CreditRiskAssessment,"If the risk assessment is based on one of the automated underwriting sytems, then the underwriting automation category is 'automated'. This dependency could be automated (as it were).",usageNote
+LoanApplication,owl#Class,22-rdf-syntax-ns#type
+hasApplicationDate,LoanApplication,rdf-schema#domain
+Nc97445b940c14c7e812a4c2c2938c440,owl#Restriction,22-rdf-syntax-ns#type
+UnderwritingDecision-UnableToDetermine,owl#NamedIndividual,22-rdf-syntax-ns#type
+BorrowerAssessment,owl#Class,22-rdf-syntax-ns#type
+PublicRecordCategory-PersonalPropertyRecord,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasApplicationPhase,hasStage,rdf-schema#subPropertyOf
+Nb544976c8e9c43f6bafeba954aba86a4,0,owl#minQualifiedCardinality
+Nc126b2aec64a45b59712ddd71bbd36d5,Borrower,owl#someValuesFrom
+Nb544976c8e9c43f6bafeba954aba86a4,owl#Restriction,22-rdf-syntax-ns#type
+N82e10ad395304aec8807a7ffcd4e8633,owl#Restriction,22-rdf-syntax-ns#type
+CreditRiskAssessment,owl#Class,22-rdf-syntax-ns#type
+N353c6eb131454f6f80928ef3a3dfaa59,owl#Restriction,22-rdf-syntax-ns#type
+Nda026335db2546269482250583ef84b8,comprises,owl#onProperty
+IndividualPersonCreditRating,credit rating that provides an opinion of the creditworthiness of a person,core#definition
+BorrowerAssessment,Nb544976c8e9c43f6bafeba954aba86a4,rdf-schema#subClassOf
+N353c6eb131454f6f80928ef3a3dfaa59,Borrower,owl#someValuesFrom
+BorrowerMonthlyIncome,MonetaryAmount,rdf-schema#subClassOf
+N08d15c8c2eb64f6db9a2b8ab70661f0d,BorrowerMonthlyIncome,owl#someValuesFrom
+BorrowerMonthlyIncome,total monthly qualifying income of a potential borrower,core#definition
+UnderwritingAutomation,Classifier,rdf-schema#subClassOf
+UnderwritingAutomation,classifier indicating whether a loan was underwritten manually or using an automated underwriting system,core#definition
+PublicRecordCategory-ForeclosureRecord,foreclosure record,rdf-schema#label
+N074aa097f3c54d009bb34e1394baee42,owl#Restriction,22-rdf-syntax-ns#type
+hasApprovedAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+ManualUnderwriting,manual underwriting,rdf-schema#label
+DenialReason-InsufficientIncome,owl#NamedIndividual,22-rdf-syntax-ns#type
+UnderwritingDecision-Deny,UnderwritingDecision,22-rdf-syntax-ns#type
+DenialReason-UnverifiableInformation,"The application was denied because qualification information such as income, employment, credit, or residence) was not verifiable.",core#definition
+PublicRecordCategory-BankruptcyRecord,owl#NamedIndividual,22-rdf-syntax-ns#type
+IncomeVerificationReport,owl#Class,22-rdf-syntax-ns#type
+LoanApplication,N7dfea0d2ef424ed6907a57e554cfee08,rdf-schema#subClassOf
+N2b5b43577b1648c98dc17e3456c5ccea,ExplicitDate,owl#onClass
+N82e10ad395304aec8807a7ffcd4e8633,PreApprovalContract,owl#someValuesFrom
+,Provisional,hasMaturityLevel
+hasOriginalLoanDebtToIncomeRatio,BorrowerAssessment,rdf-schema#domain
+,MIT,license
+usesFactor,uses factor,rdf-schema#label
+Nfefc44603f0041ec94530cb235d5d966,hasDateReceived,owl#onProperty
+N713f4d14ece64841b073273227a3627f,owl#Restriction,22-rdf-syntax-ns#type
+AllBorrowersMonthlyIncome,N79de423701aa40999e7e009832f244e0,rdf-schema#subClassOf
+N23649a524af5473f875daf5baeb6e42f,appliesTo,owl#onProperty
+LoanApplicationStatus,owl#Class,22-rdf-syntax-ns#type
+UnderwritingDecision-Ineligible,UnderwritingDecision,22-rdf-syntax-ns#type
+Nda026335db2546269482250583ef84b8,IndividualPersonCreditRating,owl#onClass
+BorrowerMonthlyIncome,Income,rdf-schema#subClassOf
+hasApplicationPhase,has application phase,rdf-schema#label
+hasApplicationPhase,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasApplicationPhase,"The phase within the application lifecycle, that this Loan Application is at,",core#definition
+N178863fa3610421f96f3fc7851a1552b,refersTo,owl#onProperty
+N2e5625a7151044eb9a425d7c8826c733,ExplicitDate,owl#someValuesFrom
+PublicRecordCategory-GarnishmentRecord,PublicRecordCategory,22-rdf-syntax-ns#type
+hasApprovedAmount,"relates something, e.g. a loan, to the amount of funds approved",core#definition
+UnderwritingDecision,the 2015 Revised HMDA regulation.,adaptedFrom
+LoanApplicationAtAgreementStage,owl#Class,22-rdf-syntax-ns#type
+PreApprovalContract,"written commitment to lend when specified conditions are met, such as finding suitable property, and unchanged creditworthiness",core#definition
+Nb544976c8e9c43f6bafeba954aba86a4,comprises,owl#onProperty
+Na3a4cdacf9224665a2d315f3716ab412,0,owl#minQualifiedCardinality
+N2e5625a7151044eb9a425d7c8826c733,hasDateOfAssessment,owl#onProperty
+N7dfea0d2ef424ed6907a57e554cfee08,BorrowerMonthlyIncome,owl#someValuesFrom
+PublicRecordCategory-RealEstate,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasOriginalLoanDebtToIncomeRatio,indicates the debt-to-income (DTI) ratio at the time when the loan was advanced; for combined income,core#definition
+TotalDebtExpenseRatio,owl#Class,22-rdf-syntax-ns#type
+N08d15c8c2eb64f6db9a2b8ab70661f0d,owl#Restriction,22-rdf-syntax-ns#type
+DenialReason-MortgageInsuranceDenied,The application was denied because necessary mortgage insurance was denied.,core#definition
+PublicRecordCategory-MaritalRecord,owl#NamedIndividual,22-rdf-syntax-ns#type
+TotalDebtExpenseRatio,PercentageMonetaryAmount,rdf-schema#subClassOf
+Na3a4cdacf9224665a2d315f3716ab412,owl#Restriction,22-rdf-syntax-ns#type
+PublicRecordCategory-CivilOrJudgementRecord,civil or judgement record,rdf-schema#label
+BorrowerAssessment,AssessmentReport,rdf-schema#subClassOf
+hasIntendedLoanPurpose,LoanApplication,rdf-schema#domain
+PublicRecordCategory-BankruptcyRecord,bankruptcy record,rdf-schema#label
+IncomeVerificationReport,AssessmentReport,rdf-schema#subClassOf
+hasIntendedLoanPurpose,XMLSchema#string,rdf-schema#range
+UnderwritingDecision-Deny,deny,rdf-schema#label
+PreApprovalContract,N0a875391c9d0433391572f198c5a7d0d,rdf-schema#subClassOf
+N79de423701aa40999e7e009832f244e0,BorrowerMonthlyIncome,owl#someValuesFrom
+hasRequestedAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+PublicRecord,record about an action involving a party that is publicly available from a court or other government agency,core#definition
+N79de423701aa40999e7e009832f244e0,isBasedOn,owl#onProperty
+PublicRecordCategory-LienRecord,PublicRecordCategory,22-rdf-syntax-ns#type
+N713f4d14ece64841b073273227a3627f,comprises,owl#onProperty
+LoanApplication,Nac46ffc389c74d3cab53dbc66cc59439,rdf-schema#subClassOf
+UnderwritingDecision-Approve,owl#NamedIndividual,22-rdf-syntax-ns#type
+CreditRiskAssessment,N185e38303ca04f46b30f75dbf133e12c,rdf-schema#subClassOf
+,,owl#imports
+DenialReason-InsufficientCollateralValue,owl#NamedIndividual,22-rdf-syntax-ns#type
+LoanApplication,Na6afaaea56244448aa121c3fc0cfdbb7,rdf-schema#subClassOf
+N3bf42b0ab84c4565816488de59c3d39e,owl#Restriction,22-rdf-syntax-ns#type
+LoanApplicationAtAgreementStage,loan application at agreement stage,rdf-schema#label
+N2b5b43577b1648c98dc17e3456c5ccea,hasApplicationDate,owl#onProperty
+PublicRecordCategory,owl#Class,22-rdf-syntax-ns#type
+AllBorrowersMonthlyIncome,This should be computed from the income of the individual borrowers.,usageNote
+UnderwritingDecision-Eligible,UnderwritingDecision,22-rdf-syntax-ns#type
+UnderwritingDecision-Eligible,eligible,rdf-schema#label
+IncomeVerificationReport,report providing the methodology and supporting documentation used to verify the borrower's income,core#definition
+PublicRecordCategory-PersonalPropertyRecord,PublicRecordCategory,22-rdf-syntax-ns#type
+BorrowerAssessment,borrower assessment,rdf-schema#label
+DenialReason-InsufficientCash,"The application was denied due to insufficient down payment, or cash available to pay closing costs.",core#definition
+TotalDebtExpenseRatio,"ratio of all monthly debt payments of all borrowers, including proposed expenses, with respect to the income of the borrowers as relied upon to make a credit decision",core#definition
+Nafa10130e02844608d515f1797c738df,TotalDebtExpenseRatio,owl#someValuesFrom
+PublicRecord,N178863fa3610421f96f3fc7851a1552b,rdf-schema#subClassOf
+Nb56af92eafc44288a1bde70a96ea9178,isEvidencedBy,owl#onProperty
+PublicRecord,owl#Class,22-rdf-syntax-ns#type
+hasApplicationDate,ExplicitDate,rdf-schema#range
+Nafa10130e02844608d515f1797c738df,owl#Restriction,22-rdf-syntax-ns#type
+CreditRiskAssessment,N82e10ad395304aec8807a7ffcd4e8633,rdf-schema#subClassOf
+N23649a524af5473f875daf5baeb6e42f,Loan,owl#someValuesFrom
+N7a279d5bc7674b2ca28ceba928e92b69,XMLSchema#boolean,owl#someValuesFrom
+Nae8cc461a16c4b84b2957b5510e3f33d,owl#Restriction,22-rdf-syntax-ns#type
+PublicRecordCategory-MaritalRecord,PublicRecordCategory,22-rdf-syntax-ns#type
+PreApprovalContract,"A commitment from a lender to a borrower to extend a home purchase loan up to a certain amount, and subject to certain non-credit related conditions.  This commitment is entered into after a comprehensive analysis of the credit worthiness of the borrower is carried out.",explanatoryNote
+N3bf42b0ab84c4565816488de59c3d39e,hasInterestRate,owl#onProperty
+UnderwritingDecision-UnableToDetermine,UnderwritingDecision,22-rdf-syntax-ns#type
+UnderwritingAutomation,underwriting automation,rdf-schema#label
+N67fce94b489c4a2d8b0fbc8e61b9029a,hasInput,owl#onProperty
+N14b048a4446146b9ac6417eb72d504f8,usesFactor,owl#onProperty
+Nae8cc461a16c4b84b2957b5510e3f33d,Borrower,owl#someValuesFrom
+AllBorrowersMonthlyIncome,total monthly qualifying income for all borrowers on the loan,core#definition
+hasApplicationDate,has application date,rdf-schema#label
+Na3a4cdacf9224665a2d315f3716ab412,comprises,owl#onProperty
+LoanApplication,Document,rdf-schema#subClassOf
+CreditRiskAssessment,N67fce94b489c4a2d8b0fbc8e61b9029a,rdf-schema#subClassOf
+DenialReason-CreditApplicationIncomplete,credit application incomplete,rdf-schema#label
+LoanApplicationAtAgreementStage,LoanApplicationStatus,rdf-schema#subClassOf
+LoanApplication,N6b6d0efbb98946ccab33dcc8a2e891c5,rdf-schema#subClassOf
+Nc126b2aec64a45b59712ddd71bbd36d5,isAbout,owl#onProperty
+LoanAtApplicationStage,LoanApplicationStatus,rdf-schema#subClassOf
+N0a875391c9d0433391572f198c5a7d0d,hasApprovedAmount,owl#onProperty
+hasGrossIncome,MonetaryAmount,rdf-schema#range
+Ncfbf3b09125e4e9ea2443d9084586c7e,CreditReport,owl#someValuesFrom
+PublicRecordCategory-ForeclosureRecord,PublicRecordCategory,22-rdf-syntax-ns#type
+N2e5625a7151044eb9a425d7c8826c733,owl#Restriction,22-rdf-syntax-ns#type
+N79de423701aa40999e7e009832f244e0,owl#Restriction,22-rdf-syntax-ns#type
+hasIntendedLoanPurpose,indicates the purpose to which the loaned funds are to be put,core#definition
+Na6afaaea56244448aa121c3fc0cfdbb7,0,owl#minQualifiedCardinality
+hasOriginalLoanDebtToIncomeRatio,XMLSchema#decimal,rdf-schema#range
+PublicRecordCategory-RealEstate,PublicRecordCategory,22-rdf-syntax-ns#type
+LoanApplication,N2b5b43577b1648c98dc17e3456c5ccea,rdf-schema#subClassOf
+BorrowerMonthlyIncome,borrower monthly income,rdf-schema#label
+PublicRecord,Record,rdf-schema#subClassOf
+LoanApplicationAtDisbursementStage,owl#Class,22-rdf-syntax-ns#type
+BorrowerAssessment,Na3a4cdacf9224665a2d315f3716ab412,rdf-schema#subClassOf
+N0a875391c9d0433391572f198c5a7d0d,MonetaryAmount,owl#someValuesFrom

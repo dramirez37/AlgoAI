@@ -1,0 +1,67 @@
+source_id,target_id,relationship
+N02c56ed2d6f6497db65fdba92d2c766a,owl#Restriction,22-rdf-syntax-ns#type
+SecurityTradingStatus,N35829f12a7f24c3e93c0a07eb57f310c,rdf-schema#subClassOf
+Worthless,worthless,rdf-schema#label
+,,owl#imports
+WhenDistributed,owl#Class,22-rdf-syntax-ns#type
+SecurityLifecycleStatus,N547b1611bdd34d3a8e6604556698547a,rdf-schema#subClassOf
+Inactive,SecurityTradingStatus,rdf-schema#subClassOf
+WhenDistributed,when distributed,rdf-schema#label
+,Provisional,hasMaturityLevel
+N02c56ed2d6f6497db65fdba92d2c766a,Listing,owl#someValuesFrom
+Inactive,inactive,rdf-schema#label
+Active,Security is actively traded,core#definition
+,MIT,license
+N547b1611bdd34d3a8e6604556698547a,Security,owl#someValuesFrom
+N35829f12a7f24c3e93c0a07eb57f310c,classifies,owl#onProperty
+Issued,SecurityLifecycleStatus,rdf-schema#subClassOf
+Active,active,rdf-schema#label
+TradingHalted,ExchangeSecurityTradingStatus,rdf-schema#subClassOf
+SecurityLifecycleStatus,status of a security within its lifecycle,core#definition
+,,owl#versionIRI
+ActivelyTrading,ExchangeSecurityTradingStatus,rdf-schema#subClassOf
+SecurityTradingStatus,security trading status,rdf-schema#label
+SecurityLifecycleStatus,security lifecycle status,rdf-schema#label
+WhenIssued,SecurityLifecycleStatus,rdf-schema#subClassOf
+ExchangeSecurityTradingStatus,trading status of a listed security on a given trading exchange,core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+N02c56ed2d6f6497db65fdba92d2c766a,classifies,owl#onProperty
+WhenIssued,when issued,rdf-schema#label
+N35829f12a7f24c3e93c0a07eb57f310c,Security,owl#someValuesFrom
+SecurityTradingStatus,owl#Class,22-rdf-syntax-ns#type
+N547b1611bdd34d3a8e6604556698547a,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+Inactive,owl#Class,22-rdf-syntax-ns#type
+SecurityLifecycleStatus,LifecycleStatus,rdf-schema#subClassOf
+Worthless,SecurityLifecycleStatus,rdf-schema#subClassOf
+ActivelyTrading,Security is actively traded on the exchange or trading facility,core#definition
+SecurityTradingStatus,"status of the security in terms of whether it is trading or not, and any special considerations relating to trading",core#definition
+Active,SecurityTradingStatus,rdf-schema#subClassOf
+TradingHalted,trading halted,rdf-schema#label
+ExchangeSecurityTradingStatus,LifecycleStatus,rdf-schema#subClassOf
+SecurityTradingStatus,"Exchange Traded Security trading status is now a separate term, covering trading suspension on an exchange, so that does not form part of this term.",core#editorialNote
+Issued,issued,rdf-schema#label
+SecurityTradingStatus,LifecycleStatus,rdf-schema#subClassOf
+Issued,owl#Class,22-rdf-syntax-ns#type
+ExchangeSecurityTradingStatus,exchange security trading status,rdf-schema#label
+ExchangeSecurityTradingStatus,owl#Class,22-rdf-syntax-ns#type
+ActivelyTrading,actively trading,rdf-schema#label
+SecurityLifecycleStatus,owl#Class,22-rdf-syntax-ns#type
+TradingHalted,owl#Class,22-rdf-syntax-ns#type
+N35829f12a7f24c3e93c0a07eb57f310c,owl#Restriction,22-rdf-syntax-ns#type
+,SecurityTradingStatuses,rdf-schema#label
+WhenIssued,When Issued or Gray Market trading is when a security is traded ahead of the date at which it is to be issued.,core#definition
+ActivelyTrading,owl#Class,22-rdf-syntax-ns#type
+Active,Inactive,owl#disjointWith
+WhenDistributed,Used to refer to a security that trades after the date of issue but before the time at which the certificates are delivered,core#definition
+Worthless,e.g. bankruptcy hearings - might result in this being said.,explanatoryNote
+,"This ontology defines the various kinds of trading status that a security may be in at any given point in time. These includes such terms as active and halted, inactive and so on, along with their qualifying terms.",abstract
+Worthless,owl#Class,22-rdf-syntax-ns#type
+WhenDistributed,SecurityLifecycleStatus,rdf-schema#subClassOf
+Issued,The security has been issued into the secondary market.,core#definition
+ActivelyTrading,TradingHalted,owl#disjointWith
+Active,owl#Class,22-rdf-syntax-ns#type
+Worthless,Announcement by the regulator that the security has become worthless.,core#definition
+WhenIssued,owl#Class,22-rdf-syntax-ns#type
+ExchangeSecurityTradingStatus,N02c56ed2d6f6497db65fdba92d2c766a,rdf-schema#subClassOf
+N547b1611bdd34d3a8e6604556698547a,classifies,owl#onProperty

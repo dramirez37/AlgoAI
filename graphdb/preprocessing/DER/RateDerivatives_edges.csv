@@ -1,0 +1,84 @@
+source_id,target_id,relationship
+,RateDerivatives.rdf version of this ontology was modified to deprecate ForeignExchangeRateObservable after other changes that eliminated its usage in currency derivatives and made it obsolete (DER-143).,core#changeNote
+Nfdd6d42256d344ab833b247fae4e8069,EconomicIndicator,22-rdf-syntax-ns#first
+EconomicRateObservable,owl#Class,22-rdf-syntax-ns#type
+Nf8c9afe8881a40d5914518f039b83094,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+InterestRateDerivativeInstrument,Nc3101981a17b42c8be37530f04a523f7,rdf-schema#subClassOf
+N324a9e6d300344598c78a34950327cb8,owl#Class,22-rdf-syntax-ns#type
+RateBasedDerivativeInstrument,N96a067db8d464fe89aa5785bba95da71,rdf-schema#subClassOf
+InterestRateDerivativeInstrument,RateBasedDerivativeInstrument,rdf-schema#subClassOf
+N058ea01d93a149a1baf4d3262e0b10fd,isPlayedBy,owl#onProperty
+RateBasedDerivativeInstrument,owl#Class,22-rdf-syntax-ns#type
+RateBasedObservable,Nf1b638f199624874ac66c257fab9d40c,rdf-schema#subClassOf
+N85a8907d49ef4d50b9b54e423b1778cd,owl#Restriction,22-rdf-syntax-ns#type
+EconomicRateBasedDerivativeInstrument,economic rate-based derivative instrument,rdf-schema#label
+RateBasedObservable,ObservableValue,rdf-schema#subClassOf
+InterestRateDerivativeInstrument,rate-based derivative whose underlier is an interest rate,core#definition
+Nba8974e35523489494c18d7be4a847ab,Nf5dcfe72a6444eaaba40a48bb223e753,22-rdf-syntax-ns#rest
+Nba8974e35523489494c18d7be4a847ab,BasketOfIndices,22-rdf-syntax-ns#first
+EconomicRateObservable,N0a2ee67a8b534dd996c56f42a0d2f99b,rdf-schema#subClassOf
+Nc3101981a17b42c8be37530f04a523f7,hasUnderlier,owl#onProperty
+N96a067db8d464fe89aa5785bba95da71,RateBasedObservable,owl#someValuesFrom
+EconomicRateObservable,economic rate observable,rdf-schema#label
+EconomicRateObservable,RateBasedObservable,rdf-schema#subClassOf
+EconomicRateBasedDerivativeInstrument,rate-based derivative whose underlier is an economic indicator,core#definition
+Nf1b638f199624874ac66c257fab9d40c,isPlayedBy,owl#onProperty
+,,owl#imports
+,RateDerivatives.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+Nf5dcfe72a6444eaaba40a48bb223e753,Nfdd6d42256d344ab833b247fae4e8069,22-rdf-syntax-ns#rest
+ForwardRateAgreement,forward rate agreement,rdf-schema#label
+RateBasedObservable,"Rate-based observables interest rates, market rate, economic indicators, statistical measure calculated over some collection of indices, foreign exchange rates and others that are readily observable in the world",explanatoryNote
+N0a2ee67a8b534dd996c56f42a0d2f99b,EconomicIndicator,owl#onClass
+RateBasedObservable,"non-physical observable value, such as an interest rate, market rate, economic indicator, statistical measure calculated over some collection of indices, or some other rate that is readily observable in the world",core#definition
+Nf5dcfe72a6444eaaba40a48bb223e753,MarketRate,22-rdf-syntax-ns#first
+,,owl#versionIRI
+EconomicRateObservable,rate-based observable that is specifically an economic indicator,core#definition
+EconomicRateBasedDerivativeInstrument,RateBasedDerivativeInstrument,rdf-schema#subClassOf
+RateBasedDerivativeInstrument,DerivativeInstrument,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+N96a067db8d464fe89aa5785bba95da71,owl#Restriction,22-rdf-syntax-ns#type
+Nf8c9afe8881a40d5914518f039b83094,QuotedExchangeRate,22-rdf-syntax-ns#first
+N0a2ee67a8b534dd996c56f42a0d2f99b,isPlayedBy,owl#onProperty
+,"RateDerivatives.rdf version of this ontology was extended to include foreign exchange rates, forward rate agreements, and revise definitions to be unambiguous and ISO 704 compliant.",core#changeNote
+ForwardRateAgreement,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+InterestRateObservable,interest rate observable,rdf-schema#label
+Nc3101981a17b42c8be37530f04a523f7,owl#Restriction,22-rdf-syntax-ns#type
+N85a8907d49ef4d50b9b54e423b1778cd,EconomicRateObservable,owl#someValuesFrom
+RateBasedObservable,rate-based observable,rdf-schema#label
+InterestRateObservable,owl#Class,22-rdf-syntax-ns#type
+InterestRateDerivativeInstrument,owl#Class,22-rdf-syntax-ns#type
+ForwardRateAgreement,agreement to exchange an interest rate commitment on a notional amount,core#definition
+EconomicRateBasedDerivativeInstrument,N85a8907d49ef4d50b9b54e423b1778cd,rdf-schema#subClassOf
+EconomicRateBasedDerivativeInstrument,owl#Class,22-rdf-syntax-ns#type
+ForwardRateAgreement,InterestRateDerivativeInstrument,rdf-schema#subClassOf
+RateBasedDerivativeInstrument,rate-based derivative instrument,rdf-schema#label
+N058ea01d93a149a1baf4d3262e0b10fd,owl#Restriction,22-rdf-syntax-ns#type
+Nc3101981a17b42c8be37530f04a523f7,InterestRateObservable,owl#someValuesFrom
+N324a9e6d300344598c78a34950327cb8,Nba8974e35523489494c18d7be4a847ab,owl#unionOf
+InterestRateDerivativeInstrument,interest rate derivative instrument,rdf-schema#label
+InterestRateObservable,RateBasedObservable,rdf-schema#subClassOf
+ForeignExchangeRateObservable,true,owl#deprecated
+N058ea01d93a149a1baf4d3262e0b10fd,ReferenceInterestRate,owl#someValuesFrom
+N0a2ee67a8b534dd996c56f42a0d2f99b,owl#Restriction,22-rdf-syntax-ns#type
+RateBasedObservable,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+ForwardRateAgreement,FRA,abbreviation
+Nfdd6d42256d344ab833b247fae4e8069,Nf8c9afe8881a40d5914518f039b83094,22-rdf-syntax-ns#rest
+,Release,hasMaturityLevel
+InterestRateObservable,"rate-based observable that is an interest rate, typically a well-known reference interest rate",core#definition
+,MIT,license
+,Rate Derivatives Ontology,rdf-schema#label
+Nf1b638f199624874ac66c257fab9d40c,owl#Restriction,22-rdf-syntax-ns#type
+,"This ontology defines concepts that are common to derivatives based on variation in some defined variable, such as an economic rate, an interest rate or an index value.",abstract
+Nf1b638f199624874ac66c257fab9d40c,N324a9e6d300344598c78a34950327cb8,owl#someValuesFrom
+ForeignExchangeRateObservable,RateBasedObservable,owl#equivalentClass
+ForwardRateAgreement,"The FRA determines the rates to be used along with the termination date and notional value. FRAs are cash-settled with the payment based on the net difference between the interest rate of the contract and the floating rate in the market called the reference rate. The notional amount is not exchanged, but rather a cash amount based on the rate differentials and the notional value of the contract.",explanatoryNote
+ForeignExchangeRateObservable,owl#Class,22-rdf-syntax-ns#type
+N85a8907d49ef4d50b9b54e423b1778cd,hasUnderlier,owl#onProperty
+RateBasedDerivativeInstrument,derivative instrument whose underlier is a non-physical observable rate,core#definition
+N0a2ee67a8b534dd996c56f42a0d2f99b,1,owl#qualifiedCardinality
+N96a067db8d464fe89aa5785bba95da71,hasUnderlier,owl#onProperty
+,"RateDerivatives.rdf version of this ontology was modified to eliminate the dependency on NonPhysicalUnderlier, which was redundant.",core#changeNote
+,"RateDerivatives.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.",core#changeNote
+InterestRateObservable,N058ea01d93a149a1baf4d3262e0b10fd,rdf-schema#subClassOf

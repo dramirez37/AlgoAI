@@ -1,0 +1,63 @@
+source_id,target_id,relationship
+,Jurisdiction.rdf version of the ontology was modified to integrate jurisdictions with context from the Commons Ontology Library (Commons).,core#changeNote
+TaxIdentifier,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+hasReach,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+N169ded4efbb748838b78f61bea756108,Jurisdiction,owl#someValuesFrom
+,"Copyright (c) 2013-2023 Object Management Group, Inc.",copyright
+hasReach,GeographicRegion,rdf-schema#range
+Jurisdiction,jurisdiction,adaptedFrom
+,MIT,license
+Jurisdiction,jurisdiction,rdf-schema#label
+StatuteLaw,"In the United States, statutes may also be called acts, such as the Civil Rights Act of 1964 or the Sarbanes-Oxley Act. Federal laws must be passed by both houses of Congress, the House of Representative and the Senate, and then usually require approval from the president before they can take effect.",explanatoryNote
+Nc2e1dbd7b3154b5685e7bb41afce513a,isApplicableIn,owl#onProperty
+Jurisdiction,N2ecad03a4a724ea6a6a139e5ebd72c42,rdf-schema#subClassOf
+N2ecad03a4a724ea6a6a139e5ebd72c42,hasReach,owl#onProperty
+Jurisdiction,"power of a court to adjudicate cases, issue orders, and interpret and apply the law with respect to some specific geographic area",core#definition
+hasReach,Jurisdiction,rdf-schema#domain
+TaxIdentificationScheme,Na15d018459df40bfa15cb812a6d04998,rdf-schema#subClassOf
+N2ecad03a4a724ea6a6a139e5ebd72c42,owl#Restriction,22-rdf-syntax-ns#type
+StatuteLaw,Law,rdf-schema#subClassOf
+,,owl#versionIRI
+N169ded4efbb748838b78f61bea756108,owl#Restriction,22-rdf-syntax-ns#type
+hasReach,indicates the geopolitical area covered by the jurisdiction,core#definition
+,"ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations
+	(6) to revise definitions using more formal sources.",core#changeNote
+LegalAge,owl#Class,22-rdf-syntax-ns#type
+,"This ontology defines high level concepts relating to jurisdictions for use in other FIBO ontology elements. This includes a general definition of jurisdiction along with some basic types of jurisdiction, along with the factors which distinguish one type of jurisdiction from another.",abstract
+N5d3610aa85e34c41bbace6017f829ce9,isInForceIn,owl#onProperty
+,owl#Ontology,22-rdf-syntax-ns#type
+,Jurisdiction Ontology,rdf-schema#label
+StatuteLaw,law enacted by a legislature,core#definition
+TaxIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+,Jurisdiction.rdf version of the ontology was modified to extend the concept of legal age with the applicable jurisdiction.,core#changeNote
+Nc2e1dbd7b3154b5685e7bb41afce513a,Jurisdiction,owl#someValuesFrom
+Na15d018459df40bfa15cb812a6d04998,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+,Jurisdiction.rdf version of the ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+TaxIdentifier,N169ded4efbb748838b78f61bea756108,rdf-schema#subClassOf
+Jurisdiction,owl#Class,22-rdf-syntax-ns#type
+N5d3610aa85e34c41bbace6017f829ce9,Jurisdiction,owl#someValuesFrom
+StatuteLaw,statutory law,core#altLabel
+,Jurisdiction.rdf version of the ontology was modified to extend the concept of a tax identifier and identification scheme with the applicable jurisdiction.,core#changeNote
+,"Jurisdiction.rdf version of the ontology was modified to remove the constraint on jurisdiction that it is governed by some legal system, eliminate the class legal system and its children, which were very general and not used anywhere in FIBO, clean up remaining definitions with better sources, and eliminate an unused import.",core#changeNote
+StatuteLaw,owl#Class,22-rdf-syntax-ns#type
+StatuteLaw,statute law,rdf-schema#label
+Na15d018459df40bfa15cb812a6d04998,Jurisdiction,owl#someValuesFrom
+StatuteLaw,statute,adaptedFrom
+Jurisdiction,Context,rdf-schema#subClassOf
+Na15d018459df40bfa15cb812a6d04998,isApplicableIn,owl#onProperty
+,Jurisdiction.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+N169ded4efbb748838b78f61bea756108,isApplicableIn,owl#onProperty
+LegalAge,Nc2e1dbd7b3154b5685e7bb41afce513a,rdf-schema#subClassOf
+,.,core#changeNote
+,Jurisdiction.rdf version of the ontology was was modified per the FIBO 2.0 RFC to integrate LCC.,core#changeNote
+N5d3610aa85e34c41bbace6017f829ce9,owl#Restriction,22-rdf-syntax-ns#type
+N2ecad03a4a724ea6a6a139e5ebd72c42,GeographicRegion,owl#someValuesFrom
+,Jurisdiction.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+StatuteLaw,"Statutes may originate with national, state legislatures or local municipalities. Statutory laws are subordinate to the higher constitutional laws of the land.",explanatoryNote
+Nc2e1dbd7b3154b5685e7bb41afce513a,owl#Restriction,22-rdf-syntax-ns#type
+StatuteLaw,N5d3610aa85e34c41bbace6017f829ce9,rdf-schema#subClassOf
+hasReach,has reach,rdf-schema#label

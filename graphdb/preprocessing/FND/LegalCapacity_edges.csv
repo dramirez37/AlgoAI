@@ -1,0 +1,343 @@
+source_id,target_id,relationship
+LegalConstruct,N9363057ad04547aa89fa5bb1b12effc3,rdf-schema#subClassOf
+Nce257bde1b4948ebb7c47f5638b7a564,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N1926798fb1174c689c04eec9a4052d14,isConferredOn,owl#onProperty
+,LegalCapacity.rdf version of this ontology was modified to reflect the merge of Goals and Objectives.,core#changeNote
+ContractualRight,Nc78edf75ea884474ad19f903adf9f428,rdf-schema#subClassOf
+isImplementedBy,is implemented by,rdf-schema#label
+ContractualRight,N42391dfe1f28485e9cdb01e0c29f857b,rdf-schema#subClassOf
+Nc78edf75ea884474ad19f903adf9f428,implies,owl#onProperty
+implements,implements,rdf-schema#label
+ReportingPolicy,For example a policy for how frequently a given kind of report is produced.,core#example
+Nc36ca1c93c3e478bab5b59b952c28a9c,licenses,owl#onProperty
+ContractualObligation,N0adc266d985c401db4c92cafdc077f7e,rdf-schema#subClassOf
+LicenseIdentifier,Identifier,rdf-schema#subClassOf
+SignatoryCapacity,the capacity of some natural person to sign agreements on the part of some organization or legal person,core#definition
+,"This ontology defines high-level legal concepts related to legal responsibilities. The ontology defines things which are conferred upon some entity by some legal instrument, and elaborates this into a number of specific capacities, responsibilities and powers, each of which forms the basis for many of the concepts used elsewhere in FIBO in defining legal personhood, executive powers and the like.",abstract
+ContractualOption,contractual option,rdf-schema#label
+Nb503298170d04f50bf9db0ffcfdff95a,owl#Restriction,22-rdf-syntax-ns#type
+Nb503298170d04f50bf9db0ffcfdff95a,ContingentRight,owl#someValuesFrom
+Regulation,LegalConstruct,rdf-schema#subClassOf
+DelegatedLegalAuthority,"institutionalized and legal power inherent in a particular job, function, or position that is meant to enable its holder to successfully carry out his or her responsibilities, where such power has been delegated through some formal means",core#definition
+isLicensedBy,licenses,owl#inverseOf
+LegalRight,N81454816518a4638890d2b6b83ae3ddb,rdf-schema#subClassOf
+SignatoryCapacity,LegalCapacity,rdf-schema#subClassOf
+implies,implies,rdf-schema#label
+DelegatedLegalAuthority,This is always accompanied by an equal responsibility for one's actions or a failure to act.,explanatoryNote
+Nfd0e6180022c4d138f4d0ae9440d40b4,StatuteLaw,22-rdf-syntax-ns#first
+ContingentObligation,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,,owl#versionIRI
+Duty,some obligation which exists and is imposed on some individual,core#definition
+N32fdffe953e443499d77796cb8bcdba2,Obligor,owl#someValuesFrom
+LegalConstruct,Nd65abde9cc814ff8a1bab58b9fb4f301,rdf-schema#subClassOf
+ContingentRight,contingent right,rdf-schema#label
+Policy,owl#Class,22-rdf-syntax-ns#type
+LegalObligation,an obligation or duty that is enforceable by a court,core#definition
+Nf75a2b75f2e44a659e6fabeb26892f59,owl#Class,22-rdf-syntax-ns#type
+Nc531a0ed7a0e43efa623f2236527bb28,owl#Class,22-rdf-syntax-ns#type
+N0adc266d985c401db4c92cafdc077f7e,Contract,owl#someValuesFrom
+Policy,"system of principles, rules and guidelines, adopted by an organization to guide decision making with respect to particular situations and implemented via procedures or protocols to achieve stated goals",core#definition
+ReportingPolicy,reporting policy,rdf-schema#label
+Claim,Claims arise from the existence of a formal commitment between the parties or as implicitly agreed upon through the operation of law or constitution.,explanatoryNote
+N63211b4f12344dc5857800582c7e66dd,isAPartyTo,owl#onProperty
+Nc36ca1c93c3e478bab5b59b952c28a9c,owl#Restriction,22-rdf-syntax-ns#type
+License,Nd9ba4581c4ae445699af01f92e84a69a,rdf-schema#subClassOf
+Right,right,rdf-schema#label
+License,LegalDocument,rdf-schema#subClassOf
+SignatoryCapacity,signatory capacity,rdf-schema#label
+Licensor,Nff537f80254c453fba2ad7339480f0ea,rdf-schema#subClassOf
+hasCapacity,"identifies an individual or organization that has some ability and availability to carry out certain actions, or has certain rights or obligations",core#definition
+DelegatedLegalAuthority,owl#Class,22-rdf-syntax-ns#type
+N3519d4546dcc4b7b859bb357518414b5,Contract,22-rdf-syntax-ns#first
+ContractualOption,ContractualRight,rdf-schema#subClassOf
+Regulation,a rule used to carry out a law,core#definition
+isImplementedBy,implements,owl#inverseOf
+Nb3713128cfb54265809a73195fefde20,owl#Restriction,22-rdf-syntax-ns#type
+isImplementedBy,"indicates something that is carried out, incorporated or put into effect by",core#definition
+isImpliedBy,"indicates something that is strongly suggested by something else, such as a logical consequence based on some set of observations, facts, or events",core#definition
+isLicensedBy,indicates the party that has issued a particular license to some other party,core#definition
+Nb105f38129a047d6afe742c68b23874a,owl#Restriction,22-rdf-syntax-ns#type
+LegalRight,Right,rdf-schema#subClassOf
+ContractualOption,owl#Class,22-rdf-syntax-ns#type
+N9f7c417685df4938b94cb320ae1c1bdf,owl#Restriction,22-rdf-syntax-ns#type
+LegalRight,owl#Class,22-rdf-syntax-ns#type
+N103285b55d5845c6a88c8cda01bd33a6,Nce257bde1b4948ebb7c47f5638b7a564,22-rdf-syntax-ns#rest
+isImpliedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+N51a1542d859e44f8bb6305d6060d1812,0,owl#minQualifiedCardinality
+Claim,LegalConstruct,rdf-schema#subClassOf
+N9363057ad04547aa89fa5bb1b12effc3,Nf75a2b75f2e44a659e6fabeb26892f59,owl#onClass
+Nb105f38129a047d6afe742c68b23874a,isMandatedBy,owl#onProperty
+Licensee,a party to whom a license has been granted,core#definition
+Nb6a20531b22545d490c0b3c240c508de,Contract,22-rdf-syntax-ns#first
+Nd65abde9cc814ff8a1bab58b9fb4f301,Party,owl#onClass
+LegalCapacity,the capability to carry out certain actions or to have certain rights together with the resources to do so,core#definition
+N18a927c6a97a4905bd7c8a96b262648a,Law,owl#someValuesFrom
+N12287b4f1984424d9b716b09cfa5382a,N5751fdc7327a4f8e8c6cb88a06a952ec,22-rdf-syntax-ns#rest
+LegalObligation,Nb70261b6771f43a4aabece2d73b2e93c,rdf-schema#subClassOf
+N47265e0bef3840e492aa3e304cebcff9,isIssuedBy,owl#onProperty
+Licensee,licensee,rdf-schema#label
+ContingentRight,owl#Class,22-rdf-syntax-ns#type
+isLicensedBy,isGovernedBy,rdf-schema#subPropertyOf
+Claim,owl#Class,22-rdf-syntax-ns#type
+LicenseIdentifier,N9f7c417685df4938b94cb320ae1c1bdf,rdf-schema#subClassOf
+licenses,governs,rdf-schema#subPropertyOf
+ContingentObligation,contingent obligation,rdf-schema#label
+N51a1542d859e44f8bb6305d6060d1812,implements,owl#onProperty
+isLicensedBy,is licensed by,rdf-schema#label
+N08302ccff3934395aaa2fea7289a4253,N12287b4f1984424d9b716b09cfa5382a,22-rdf-syntax-ns#rest
+Duty,LegalConstruct,rdf-schema#subClassOf
+N9f7c417685df4938b94cb320ae1c1bdf,License,owl#onClass
+Nd04ebfafbb2e403ab449c161071193b0,Nfd0e6180022c4d138f4d0ae9440d40b4,22-rdf-syntax-ns#rest
+N51a1542d859e44f8bb6305d6060d1812,owl#Restriction,22-rdf-syntax-ns#type
+License,"Barron's Dictionary of Business and Economics Terms, Fifth Edition, 2012",adaptedFrom
+License,N773186a6dbc347678a564ae0108593b8,rdf-schema#subClassOf
+N5751fdc7327a4f8e8c6cb88a06a952ec,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+LitigationCapacity,LegalCapacity,rdf-schema#subClassOf
+N3aa85aa07a3b4acdb412b40e2c6b96d8,isImpliedBy,owl#onProperty
+Licensee,Nfe8e760a5afb4ca19967943d139020e2,rdf-schema#subClassOf
+isImpliedBy,is implied by,rdf-schema#label
+N5751fdc7327a4f8e8c6cb88a06a952ec,Objective,22-rdf-syntax-ns#first
+Duty,owl#Class,22-rdf-syntax-ns#type
+N709662029c1d4e6fae9cd240a7d79a6c,ContingentObligation,owl#someValuesFrom
+Nbec1faf38016476d9344ab953fc2f8cf,DatePeriod,owl#onClass
+N9f7c417685df4938b94cb320ae1c1bdf,1,owl#qualifiedCardinality
+N12287b4f1984424d9b716b09cfa5382a,Goal,22-rdf-syntax-ns#first
+Nd65abde9cc814ff8a1bab58b9fb4f301,isConferredOn,owl#onProperty
+implies,"strongly suggests or involves as a logical consequence based on some set of observations, facts, or events",core#definition
+LiabilityCapacity,the ability to be sued at law,core#definition
+isCapacityOf,This includes capacities specific to duties at law (such as those for corporate officers) as well as the ability or capacity to incur liability.,core#scopeNote
+ContingentRight,N709662029c1d4e6fae9cd240a7d79a6c,rdf-schema#subClassOf
+Nc78edf75ea884474ad19f903adf9f428,ContractualObligation,owl#someValuesFrom
+hasCapacity,owl#ObjectProperty,22-rdf-syntax-ns#type
+N97806a795ab14ff49f5fdcf5926bb453,owl#Class,22-rdf-syntax-ns#type
+Nff537f80254c453fba2ad7339480f0ea,License,owl#someValuesFrom
+,owl#Ontology,22-rdf-syntax-ns#type
+N18a927c6a97a4905bd7c8a96b262648a,owl#Restriction,22-rdf-syntax-ns#type
+ContingentRight,right that depends on a future event or the performance of an action,core#definition
+Nbff819ab79604e26ad883844c2712a3c,N1df8e313ac994011a85f3bcbd0171202,owl#someValuesFrom
+N773186a6dbc347678a564ae0108593b8,owl#Restriction,22-rdf-syntax-ns#type
+LegalRight,legal right,rdf-schema#label
+Regulation,Many government agencies issue regulations to administer laws.,explanatoryNote
+N8367b1f648604a60b616a0c60c595e5e,owl#Restriction,22-rdf-syntax-ns#type
+ContractualCapability,contractual capability,rdf-schema#label
+N32fdffe953e443499d77796cb8bcdba2,owl#Restriction,22-rdf-syntax-ns#type
+N1926798fb1174c689c04eec9a4052d14,owl#Restriction,22-rdf-syntax-ns#type
+N97806a795ab14ff49f5fdcf5926bb453,Nd04ebfafbb2e403ab449c161071193b0,owl#unionOf
+ContractualCapability,LegalCapacity,rdf-schema#subClassOf
+implements,involves,rdf-schema#subPropertyOf
+N6f612d88ace7411f944643308a9afa54,Regulation,22-rdf-syntax-ns#first
+isConferredOn,indicates a party to which some benefit or right has been granted,core#definition
+ContractualObligation,contractual obligation,rdf-schema#label
+ContingentObligation,obligation that depends on a future event or the performance of an action,core#definition
+,LegalCapacity.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N73ef192d32954d2189222df4f1f95d44,N8367b1f648604a60b616a0c60c595e5e,owl#someValuesFrom
+isConferredOn,Party,rdf-schema#range
+Nd9ba4581c4ae445699af01f92e84a69a,owl#Restriction,22-rdf-syntax-ns#type
+N73ef192d32954d2189222df4f1f95d44,owl#Restriction,22-rdf-syntax-ns#type
+isCapacityOf,Party,rdf-schema#range
+ContractualCapability,the capacity to enter into legally binding contracts,core#definition
+LegalObligation,legal obligation,rdf-schema#label
+Licensor,PartyRole,rdf-schema#subClassOf
+N4e9402858334455ba5e6e9f9a278b777,owl#Restriction,22-rdf-syntax-ns#type
+LiabilityCapacity,"Note that for the purposes of this model, this is distinct from culpability (the ability to commit criminal acts). That would be a separate and analogous term but with grounding in criminal rather than civil law.",core#editorialNote
+,"LegalCapacity.rdf version of the ontology was modified to add concepts related to policies, and adjust the hierarchy to better support regulatory requirements.",core#changeNote
+N773186a6dbc347678a564ae0108593b8,LegalCapacity,owl#someValuesFrom
+Regulation,owl#Class,22-rdf-syntax-ns#type
+Policy,N51a1542d859e44f8bb6305d6060d1812,rdf-schema#subClassOf
+Nb4f448962f884288bef55a9dc6fa5359,LegalObligation,owl#someValuesFrom
+,LegalCapacity.rdf version of the ontology was modified per the issue resolutions identified in the FIBO FND 1.0 FTF report.,core#changeNote
+ContractualObligation,N3aa85aa07a3b4acdb412b40e2c6b96d8,rdf-schema#subClassOf
+isCapacityOf,is capacity of,rdf-schema#label
+,Release,hasMaturityLevel
+Nb6a20531b22545d490c0b3c240c508de,N103285b55d5845c6a88c8cda01bd33a6,22-rdf-syntax-ns#rest
+N0adc266d985c401db4c92cafdc077f7e,owl#Restriction,22-rdf-syntax-ns#type
+N1926798fb1174c689c04eec9a4052d14,Party,owl#someValuesFrom
+Right,owl#Class,22-rdf-syntax-ns#type
+ContractualObligation,owl#Class,22-rdf-syntax-ns#type
+SignatoryCapacity,owl#Class,22-rdf-syntax-ns#type
+ContractualRight,contractual right,rdf-schema#label
+Nb70261b6771f43a4aabece2d73b2e93c,isApplicableIn,owl#onProperty
+N7eaeb159c91344699e37c08a76a55904,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Licensor,Nc36ca1c93c3e478bab5b59b952c28a9c,rdf-schema#subClassOf
+Right,"entitlement (not) to perform certain actions, or (not) to be in certain states; or entitlement that others (not) perform certain actions or (not) be in certain states",core#definition
+Licensor,N73ef192d32954d2189222df4f1f95d44,rdf-schema#subClassOf
+Right,LegalConstruct,rdf-schema#subClassOf
+LegalRight,"power, privilege, demand, or claim possessed by some party by virtue of law",core#definition
+Nb70261b6771f43a4aabece2d73b2e93c,Jurisdiction,owl#someValuesFrom
+N81454816518a4638890d2b6b83ae3ddb,owl#Restriction,22-rdf-syntax-ns#type
+,LegalCapacity.rdf version of this ontology was modified to replace autonomous agent with independent party in property declarations.,core#changeNote
+,Legal Capacity Ontology,rdf-schema#label
+Regulation,N18a927c6a97a4905bd7c8a96b262648a,rdf-schema#subClassOf
+LiabilityCapacity,owl#Class,22-rdf-syntax-ns#type
+LitigationCapacity,litigation capacity,rdf-schema#label
+licenses,owl#ObjectProperty,22-rdf-syntax-ns#type
+N18a927c6a97a4905bd7c8a96b262648a,isConferredBy,owl#onProperty
+N73ef192d32954d2189222df4f1f95d44,isPlayedBy,owl#onProperty
+N4e9402858334455ba5e6e9f9a278b777,isConferredBy,owl#onProperty
+ContingentRight,N1926798fb1174c689c04eec9a4052d14,rdf-schema#subClassOf
+Nc531a0ed7a0e43efa623f2236527bb28,N08302ccff3934395aaa2fea7289a4253,owl#unionOf
+N4e9402858334455ba5e6e9f9a278b777,StatuteLaw,owl#someValuesFrom
+hasCapacity,LegalCapacity,rdf-schema#range
+ReportingPolicy,Policy,rdf-schema#subClassOf
+N1df8e313ac994011a85f3bcbd0171202,Nb6a20531b22545d490c0b3c240c508de,owl#unionOf
+N709662029c1d4e6fae9cd240a7d79a6c,owl#Restriction,22-rdf-syntax-ns#type
+isCapacityOf,LegalCapacity,rdf-schema#domain
+N51a1542d859e44f8bb6305d6060d1812,Nc531a0ed7a0e43efa623f2236527bb28,owl#onClass
+Nfd0e6180022c4d138f4d0ae9440d40b4,N6f612d88ace7411f944643308a9afa54,22-rdf-syntax-ns#rest
+isImpliedBy,implies,owl#inverseOf
+Policy,Na6fcc3e0ea474ba7a87652fc53ed2b4b,rdf-schema#subClassOf
+Right,,rdf-schema#seeAlso
+Licensee,owl#Class,22-rdf-syntax-ns#type
+LegalRight,"Every legal right that an individual possesses relates to a corresponding legal duty imposed on another and is recognized and delimited by law for the purpose of securing it. A legal right, if challenged, may be supported in court as recognizable and enforceable in law, statutes, regulations, or other legislative actions.",explanatoryNote
+Nbec1faf38016476d9344ab953fc2f8cf,owl#Restriction,22-rdf-syntax-ns#type
+implements,owl#ObjectProperty,22-rdf-syntax-ns#type
+Licensor,"Barron's Dictionary of Business and Economics Terms, Fifth Edition, 2012",adaptedFrom
+Licensor,licensor,rdf-schema#label
+LitigationCapacity,the legal capacity to pursue a litigation action in law,core#definition
+N42391dfe1f28485e9cdb01e0c29f857b,owl#Restriction,22-rdf-syntax-ns#type
+Licensor,a party who grants a license,core#definition
+Na6fcc3e0ea474ba7a87652fc53ed2b4b,governs,owl#onProperty
+Na6fcc3e0ea474ba7a87652fc53ed2b4b,owl#Restriction,22-rdf-syntax-ns#type
+licenses,licenses,rdf-schema#label
+License,grant of permission needed to do something,core#definition
+N47265e0bef3840e492aa3e304cebcff9,owl#Restriction,22-rdf-syntax-ns#type
+hasCapacity,Party,rdf-schema#domain
+N8367b1f648604a60b616a0c60c595e5e,License,owl#someValuesFrom
+,LegalCapacity.rdf version of the ontology was modified per the FIBO 2.0 RFC integrate contingent rights and obligations.,core#changeNote
+Nb4f448962f884288bef55a9dc6fa5359,implies,owl#onProperty
+ContractualCapability,"This is the capacity which defines Contractually Capable Entity (sometimes labeled as 'Legal Entity') as distinct from 'Legal Person'. In the latter case the liabilities incurred in the contract accrue also to the Legal Person. In the case of contractual capability, the entity has the authority to enter into contracts, whether or not the liabilities accrue to that same entity (which they do if it is also a Legal Person). For Legal Entities which are not Legal Persons, the liability unwinds to some legal person within the structure of the entity, for example a General Partner or a Trustee.",core#editorialNote
+N3519d4546dcc4b7b859bb357518414b5,Nce1d937cc73c48e6a96e7362c62aa587,22-rdf-syntax-ns#rest
+ContingentObligation,Duty,rdf-schema#subClassOf
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+N9f7c417685df4938b94cb320ae1c1bdf,identifies,owl#onProperty
+License,"Note that in some cases, a license may also be considered an agreement or contract, depending on the specifics of the license and jurisdiction.",explanatoryNote
+Nbff819ab79604e26ad883844c2712a3c,owl#Restriction,22-rdf-syntax-ns#type
+N0adc266d985c401db4c92cafdc077f7e,isConferredBy,owl#onProperty
+LegalObligation,owl#Class,22-rdf-syntax-ns#type
+LegalCapacity,legal capacity,rdf-schema#label
+N42391dfe1f28485e9cdb01e0c29f857b,Contract,owl#someValuesFrom
+N47265e0bef3840e492aa3e304cebcff9,Licensor,owl#someValuesFrom
+licenses,PartyRole,rdf-schema#domain
+Nb105f38129a047d6afe742c68b23874a,N97806a795ab14ff49f5fdcf5926bb453,owl#someValuesFrom
+ContractualObligation,obligation or duty that is specified in and imposed by a contract,core#definition
+isCapacityOf,identifies an individual or organization on which a given legal capacity has been conferred,core#definition
+N63211b4f12344dc5857800582c7e66dd,owl#Restriction,22-rdf-syntax-ns#type
+implies,involves,rdf-schema#subPropertyOf
+isConferredOn,is conferred on,rdf-schema#label
+Claim,"demand or assertion made by one party on another, based on facts that, taken together, give rise to a legally enforceable right or judicial action",core#definition
+Nb3713128cfb54265809a73195fefde20,Jurisdiction,owl#someValuesFrom
+LegalConstruct,"Obligations are an aspect of this category of thing, as are rights.",core#editorialNote
+ReportingPolicy,owl#Class,22-rdf-syntax-ns#type
+Na6fcc3e0ea474ba7a87652fc53ed2b4b,Strategy,owl#someValuesFrom
+N6f612d88ace7411f944643308a9afa54,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nce257bde1b4948ebb7c47f5638b7a564,Regulation,22-rdf-syntax-ns#first
+Nd65abde9cc814ff8a1bab58b9fb4f301,owl#Restriction,22-rdf-syntax-ns#type
+ContractualObligation,LegalObligation,rdf-schema#subClassOf
+LegalRight,N4e9402858334455ba5e6e9f9a278b777,rdf-schema#subClassOf
+Licensee,PartyRole,rdf-schema#subClassOf
+Nf75a2b75f2e44a659e6fabeb26892f59,N3519d4546dcc4b7b859bb357518414b5,owl#unionOf
+Nbec1faf38016476d9344ab953fc2f8cf,1,owl#qualifiedCardinality
+,LegalCapacity.rdf version of the ontology was modified to eliminate deprecated elements.,core#changeNote
+N32fdffe953e443499d77796cb8bcdba2,isObligationOf,owl#onProperty
+ReportingPolicy,or guidelines regarding some aspect of reporting,core#definition
+Regulation,regulation,rdf-schema#label
+N1df8e313ac994011a85f3bcbd0171202,owl#Class,22-rdf-syntax-ns#type
+Nce1d937cc73c48e6a96e7362c62aa587,N7eaeb159c91344699e37c08a76a55904,22-rdf-syntax-ns#rest
+,"LegalCapacity.rdf version of this ontology was modified to introduce 'right' as a kind of legal construct, move legal right, contractual right, and contingent right under right as siblings, and update their definitions as appropriate.",core#changeNote
+Nbff819ab79604e26ad883844c2712a3c,isConferredBy,owl#onProperty
+DelegatedLegalAuthority,LegalCapacity,rdf-schema#subClassOf
+LegalObligation,Nb105f38129a047d6afe742c68b23874a,rdf-schema#subClassOf
+N08302ccff3934395aaa2fea7289a4253,LegalConstruct,22-rdf-syntax-ns#first
+ContractualCapability,owl#Class,22-rdf-syntax-ns#type
+,MIT,license
+LegalRight,Nb4f448962f884288bef55a9dc6fa5359,rdf-schema#subClassOf
+Nd65abde9cc814ff8a1bab58b9fb4f301,0,owl#minQualifiedCardinality
+LicenseIdentifier,owl#Class,22-rdf-syntax-ns#type
+License,license,rdf-schema#label
+N42391dfe1f28485e9cdb01e0c29f857b,isConferredBy,owl#onProperty
+Licensee,"Barron's Dictionary of Business and Economics Terms, Fifth Edition, 2012",adaptedFrom
+Nd9ba4581c4ae445699af01f92e84a69a,hasPartyRole,owl#onProperty
+,LegalCapacity.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+LitigationCapacity,owl#Class,22-rdf-syntax-ns#type
+LegalConstruct,"something which is conferred by way of law or contract, such as a right",core#definition
+DelegatedLegalAuthority,delegated legal authority,rdf-schema#label
+Nce1d937cc73c48e6a96e7362c62aa587,Constitution,22-rdf-syntax-ns#first
+implements,"carries out or puts into effect, fulfills",core#definition
+Claim,claim,rdf-schema#label
+licenses,"issues a license required in order to perform some task, provide some service, exercise some privilege, or pursue some line of business or occupation to some party",core#definition
+Nb4f448962f884288bef55a9dc6fa5359,owl#Restriction,22-rdf-syntax-ns#type
+LiabilityCapacity,liability capacity,rdf-schema#label
+License,owl#Class,22-rdf-syntax-ns#type
+Nfe8e760a5afb4ca19967943d139020e2,N63211b4f12344dc5857800582c7e66dd,owl#someValuesFrom
+Nbec1faf38016476d9344ab953fc2f8cf,holdsDuring,owl#onProperty
+,"LegalCapacity.rdf version of the ontology was modified per the FIBO FBC RFC, namely to add concepts to support license, licensee, and licensor to the ontology.",core#changeNote
+,LegalCapacity.rdf version of the ontology was modified to eliminate duplication with concepts in LCC as well as minimum cardinality restrictions of 1.,core#changeNote
+implies,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nc36ca1c93c3e478bab5b59b952c28a9c,owl#Thing,owl#someValuesFrom
+LegalConstruct,legal construct,rdf-schema#label
+ContingentObligation,N32fdffe953e443499d77796cb8bcdba2,rdf-schema#subClassOf
+,LegalCapacity.rdf version of the ontology was modified per the FIBO 1.1 RTF to add the concept of litigation capacity to the ontology.,core#changeNote
+Right,"Rights dominate modern understandings of what actions are permissible and which institutions are just. Rights structure the form of governments, the content of laws, and the shape of morality as many now see it. To accept a set of rights is to approve a distribution of freedom and authority, and so to endorse a certain view of what may, must, and must not be done. According to the Hohfeldian incidents (Wesley Hohfeld (1879-1918)), rights are complex and consist of four major components: privilege, claim, power, and immunity.",explanatoryNote
+Regulation,Nb3713128cfb54265809a73195fefde20,rdf-schema#subClassOf
+N103285b55d5845c6a88c8cda01bd33a6,StatuteLaw,22-rdf-syntax-ns#first
+N9363057ad04547aa89fa5bb1b12effc3,0,owl#minQualifiedCardinality
+N9363057ad04547aa89fa5bb1b12effc3,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#imports
+LegalConstruct,owl#Class,22-rdf-syntax-ns#type
+ContingentRight,Right,rdf-schema#subClassOf
+DelegatedLegalAuthority,This specifically means the authority to make legally binding commitments.,core#scopeNote
+N7eaeb159c91344699e37c08a76a55904,Law,22-rdf-syntax-ns#first
+Nb503298170d04f50bf9db0ffcfdff95a,isImpliedBy,owl#onProperty
+isCapacityOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+ContractualRight,"power, privilege, demand, or claim possessed by some party that is conferred by contract",core#definition
+LiabilityCapacity,LegalCapacity,rdf-schema#subClassOf
+,LegalCapacity.rdf version of this ontology was modified to eliminate an unnecessary link.,core#changeNote
+,LegalCapacity.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+Nfe8e760a5afb4ca19967943d139020e2,owl#Restriction,22-rdf-syntax-ns#type
+N8367b1f648604a60b616a0c60c595e5e,isAPartyTo,owl#onProperty
+LicenseIdentifier,license identifier,rdf-schema#label
+ContingentObligation,Nb503298170d04f50bf9db0ffcfdff95a,rdf-schema#subClassOf
+Nd04ebfafbb2e403ab449c161071193b0,Contract,22-rdf-syntax-ns#first
+,"LegalCapacity.rdf version of the ontology was modified to move the property, 'is conferred on' from Relations to the Legal Capacity ontology and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+Duty,"This can also be thought of as an obligation - not in the sense in which an obligation and a right are the converse aspects of one another, but in and of itself, independent of the perspective from which it is considered. Examples include statutory obligations, reporting obligations and so on.",core#editorialNote
+ContingentRight,"Contingent means that the interest, claim, or right is conditional, realized only when and if something occurs.",explanatoryNote
+,"ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.",core#changeNote
+N3aa85aa07a3b4acdb412b40e2c6b96d8,owl#Restriction,22-rdf-syntax-ns#type
+Duty,duty,rdf-schema#label
+N3aa85aa07a3b4acdb412b40e2c6b96d8,ContractualRight,owl#allValuesFrom
+ContractualRight,Right,rdf-schema#subClassOf
+LegalCapacity,owl#Class,22-rdf-syntax-ns#type
+Nff537f80254c453fba2ad7339480f0ea,issues,owl#onProperty
+ContractualRight,owl#Class,22-rdf-syntax-ns#type
+isImplementedBy,"or automation, that can be audited for compliance purposes.",core#example
+Nd9ba4581c4ae445699af01f92e84a69a,Licensee,owl#someValuesFrom
+LegalCapacity,LegalConstruct,rdf-schema#subClassOf
+hasCapacity,isCapacityOf,owl#inverseOf
+Nc78edf75ea884474ad19f903adf9f428,owl#Restriction,22-rdf-syntax-ns#type
+N81454816518a4638890d2b6b83ae3ddb,isApplicableIn,owl#onProperty
+Right,"Examples include contractual rights, legal rights, human rights, political rights, and so forth.",core#example
+Nb3713128cfb54265809a73195fefde20,isApplicableIn,owl#onProperty
+ContractualOption,"contractual right that may be exercised at some point in the future, such as an option to extend a contract, or other available but not obligatory rights as defined in the contract",core#definition
+N773186a6dbc347678a564ae0108593b8,confers,owl#onProperty
+hasCapacity,has capacity,rdf-schema#label
+Nfe8e760a5afb4ca19967943d139020e2,isPlayedBy,owl#onProperty
+N81454816518a4638890d2b6b83ae3ddb,Jurisdiction,owl#someValuesFrom
+isImplementedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+LegalObligation,Nbff819ab79604e26ad883844c2712a3c,rdf-schema#subClassOf
+isConferredOn,owl#ObjectProperty,22-rdf-syntax-ns#type
+License,N47265e0bef3840e492aa3e304cebcff9,rdf-schema#subClassOf
+LicenseIdentifier,an identifier associated with a license,core#definition
+N9363057ad04547aa89fa5bb1b12effc3,isConferredBy,owl#onProperty
+Licensor,owl#Class,22-rdf-syntax-ns#type
+N63211b4f12344dc5857800582c7e66dd,License,owl#someValuesFrom
+License,Nbec1faf38016476d9344ab953fc2f8cf,rdf-schema#subClassOf
+N709662029c1d4e6fae9cd240a7d79a6c,implies,owl#onProperty
+isLicensedBy,PartyRole,rdf-schema#range
+isCapacityOf,isConferredOn,rdf-schema#subPropertyOf
+Nff537f80254c453fba2ad7339480f0ea,owl#Restriction,22-rdf-syntax-ns#type
+LegalObligation,Duty,rdf-schema#subClassOf
+isLicensedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+Policy,policy,rdf-schema#label
+Nb70261b6771f43a4aabece2d73b2e93c,owl#Restriction,22-rdf-syntax-ns#type

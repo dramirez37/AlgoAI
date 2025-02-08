@@ -1,0 +1,625 @@
+source_id,target_id,relationship
+BrokerageFirm,"The term broker-dealer is used in U.S. securities regulation parlance to describe stock brokerages, because most of them act as both agents and principals. A brokerage acts as a broker (or agent) when it executes orders on behalf of clients, whereas it acts as a dealer (or principal) when it trades for its own account.",explanatoryNote
+MoneyServicesBusiness,money-services-business-definition,rdf-schema#seeAlso
+N95473c87059547cebae07139a1d86c71,BusinessIdentifierCodeScheme,owl#someValuesFrom
+FuturesCommissionMerchant,futures commission merchant,rdf-schema#label
+DataProcessingService,FinancialService,rdf-schema#subClassOf
+FinanceCompany,finance company,rdf-schema#label
+FinanceCompany,NonDepositoryInstitution,rdf-schema#subClassOf
+BusinessIdentifierCode,N6f9917c114314778b14f19bb788b398b,rdf-schema#subClassOf
+, version of this ontology was modified to generalize certain unions where they were no longer required and incorporate a new financial service provider identifier that is assigned functionally rather than to a legal entity.,core#changeNote
+BusinessIdentifierCode,N1e689d6efb76439a9bc5fda77c488eb3,rdf-schema#subClassOf
+MortgageCompany,FinancialServiceProvider,rdf-schema#subClassOf
+ClearingCorporation,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+hasPortfolioCompany,"indicates a party in which a venture capital firm, a buyout firm, or a holding company has invested",core#definition
+CentralSecuritiesDepository,CSDs' clients are typically financial institutions themselves (such as custodian banks and brokers) rather than individual investors.,explanatoryNote
+N686dea420c1e4dc79b6375890f8154b6,isRegulatedBy,owl#onProperty
+Bank,"depository institution, usually a corporation, that accepts deposits, makes loans, pays checks, and performs related services, for individual members of the public, businesses or other organizations",core#definition
+SalesFinanceCompany,acceptance company,synonym
+BusinessPartySuffix,owl#Class,22-rdf-syntax-ns#type
+hasDateInsured,hasExplicitDate,rdf-schema#subPropertyOf
+BrokerageFirm,owl#Class,22-rdf-syntax-ns#type
+MonetaryAuthority,"a central bank, the executive branch of a government, a central bank for several nations, a currency board",core#example
+Nf5a0c4e376e6409f8fe713dfa232e10b,isRegisteredBy,owl#onProperty
+Nbe26b140232543a59bb477597350d61f,owl#Restriction,22-rdf-syntax-ns#type
+ClearingBank,clearing bank,rdf-schema#label
+RegisteredInvestmentAdvisor,owl#Class,22-rdf-syntax-ns#type
+BusinessIdentifierCodeScheme,owl#Class,22-rdf-syntax-ns#type
+Nfd4baab4f63c4b3ba01495b575b63197,Nb0911ff05a6340508acaaf976dfb14b9,owl#unionOf
+BusinessIdentifierCode,ISO 9362:2014 Banking -- Banking telecommunication messages -- Business identifier code (BIC),adaptedFrom
+Nd6727e479f8947339e9122362b6c3b44,NotForProfitOrganization,owl#onClass
+Nbc2257e5fae54b308aecb8cad94d5bd9,0,owl#minQualifiedCardinality
+ContractualSavingsInstitution,institutional investment firm,synonym
+Nbc2257e5fae54b308aecb8cad94d5bd9,owl#Restriction,22-rdf-syntax-ns#type
+,FinancialServicesEntities.rdf version of this ontology was revised to eliminate duplication with concepts in LCC.,core#changeNote
+PaymentService,payment service,rdf-schema#label
+SalesFinanceCompany,finance company that purchases retail and wholesale paper from automobile and other consumer and commercial goods dealers,core#definition
+Nb50a255a111c4eddb44535d388e8128e,FinancialServiceProviderIdentifier,owl#someValuesFrom
+BusinessIdentifierCode,business identifier code,rdf-schema#label
+FinancialServiceProviderIdentifierScheme,scheme that defines the financial service provider identifier per the issuing registration authority or regulatory agency,core#definition
+CommodityTradingAdvisor,NonDepositoryInstitution,rdf-schema#subClassOf
+CentralBank,owl#Class,22-rdf-syntax-ns#type
+FuturesCommissionMerchant,FCM,abbreviation
+CommercialBank,"A commercial bank is a financial institution that is owned by stockholders, operates for a profit, and engages in various lending activities. Commercial banks provide services, such as accepting deposits, giving business loans and auto loans, mortgage lending, and basic investment products like savings accounts and certificates of deposit.",explanatoryNote
+N686dea420c1e4dc79b6375890f8154b6,owl#Restriction,22-rdf-syntax-ns#type
+Nb0911ff05a6340508acaaf976dfb14b9,RegistrationAuthority,22-rdf-syntax-ns#first
+BusinessIdentifierCode,N850603f06f2c46a99f824437e0262131,rdf-schema#subClassOf
+InsuranceService,"Insurance providers invest the compensation they receive in order to make a profit. In general, insurance transfers risk from individuals or organizations to a larger pool of individuals or organizations that are better able to mitigate that risk.",explanatoryNote
+hasPortfolioCompany,isPartyControlling,rdf-schema#subPropertyOf
+BusinessIdentifierCode,CodeElement,rdf-schema#subClassOf
+InsuranceCompany,insurance company,rdf-schema#label
+CommercialFinanceCompany,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+Nb84881dd25e344f3ba5767829f8d3954,isMemberOf,owl#onProperty
+DepositoryInstitution,FinancialInstitution,rdf-schema#subClassOf
+FinancialServiceProviderIdentifierScheme,IdentificationScheme,rdf-schema#subClassOf
+Underwriter,FinancialServiceProvider,rdf-schema#subClassOf
+hasDateEstablishmentTerminated,owl#ObjectProperty,22-rdf-syntax-ns#type
+NonDepositoryInstitution,non-banking financial institution (NBFI),synonym
+BusinessPartyPrefix,institution code,synonym
+,,owl#versionIRI
+N95473c87059547cebae07139a1d86c71,isDefinedIn,owl#onProperty
+ClearingCorporation,N21cf8b0d3cec4aeca7c13c914b293493,rdf-schema#subClassOf
+SelfRegulatingOrganization,self-regulating organization,rdf-schema#label
+regulatesSupplyOf,governs,rdf-schema#subPropertyOf
+CentralSecuritiesDepository,FinancialServiceProvider,rdf-schema#subClassOf
+BankingService,Nd02cf02d3563419980418dbf85e56150,rdf-schema#subClassOf
+NonDepositoryInstitution,"Barron's Dictionary of Banking Terms, Sixth Edition, 2012",adaptedFrom
+CommercialFinanceCompany,commercial finance company,rdf-schema#label
+TrustCompany,FinancialInstitution,rdf-schema#subClassOf
+N1e689d6efb76439a9bc5fda77c488eb3,1,owl#qualifiedCardinality
+UnitInvestmentTrust,ica40.pdf,definitionOrigin
+HoldingCompany,"Holding companies protect their owners from losses to some degree, protecting assets, for example, in case of bankruptcy. They can also be set up to own property such as real estate, patents, trademarks, stocks and other assets to limit financial and legal liability",explanatoryNote
+UnitInvestmentTrust,owl#Class,22-rdf-syntax-ns#type
+Nb84881dd25e344f3ba5767829f8d3954,FinancialServiceProviderIdentifierScheme,owl#onClass
+InvestmentService,"financial service designed to assist investors in using capital to create more money, either through income-producing vehicles or through more risk-oriented ventures to result in capital gains, including but not limited to providing investment advice, asset and portfolio management, and brokerage services",core#definition
+Nd02cf02d3563419980418dbf85e56150,DepositoryInstitution,owl#someValuesFrom
+InsuranceService,insurance service,rdf-schema#label
+MerchantService,"financial service provided by a financial institution to a merchant or other business, including but not limited to managing financial transactions via a secure channel",core#definition
+BrokerageFirm,NonDepositoryInstitution,rdf-schema#subClassOf
+Nbc2257e5fae54b308aecb8cad94d5bd9,N6ad2a5bcbdbc4a54ba31276d8367c74d,owl#onClass
+TrustCompany,"financial institution that acts as a fiduciary, trustee or agent of trusts and agencies",core#definition
+CentralSecuritiesDepository,central securities depository,rdf-schema#label
+N124454ddaf034190b01da2fc72de4adc,owl#Restriction,22-rdf-syntax-ns#type
+Ne73cdd232c41403d9eb022c728d77267,0,owl#minQualifiedCardinality
+N3ed42021e30845978bbdc73ca1b2878c,isPlayedBy,owl#onProperty
+N3ed42021e30845978bbdc73ca1b2878c,Corporation,owl#onClass
+ConsumerFinanceCompany,FinanceCompany,rdf-schema#subClassOf
+FinancialInstitution,"Financial institutions are differentiated by the way they obtain and invest funds. Depository institutions accept public deposits, which are insured by the government against loss, and channel those deposits into lending activities. Non-depository institutions, such as brokerage firms, life insurance companies, pension funds, and investment companies, fund their investment activities directly from financial markets by selling securities to the public or by selling insurance policies, in the case of insurance companies.",explanatoryNote
+Nb0911ff05a6340508acaaf976dfb14b9,N968ca70a52d548729d71f8fa52dadeaa,22-rdf-syntax-ns#rest
+CentralBank,Nad7257d198f640b29c71a11229430557,rdf-schema#subClassOf
+N26daad9c79894408ba908f00ac72c464,owl#Restriction,22-rdf-syntax-ns#type
+BusinessIdentifierCode,SWIFT-BIC,synonym
+UnitInvestmentTrust,InvestmentCompany,rdf-schema#subClassOf
+N4c5df48139044f4aab3087bb8c6f7f97,0,owl#minQualifiedCardinality
+ElectronicFundsTransferService,electronic funds transfer service,rdf-schema#label
+BusinessIdentifierCode,international identifier for financial and non-financial institutions used to facilitate automated processing of information for financial services,core#definition
+BusinessPartyPrefix,"For new BIC registration from an organization not yet identified by a BIC, the party prefix will be allocated at the discretion of the RA. The code will not have a mnemonic or acronym value anymore.",explanatoryNote
+FaceAmountCertificateCompany,ManagementCompany,owl#disjointWith
+,FinancialServicesEntities.rdf version of this ontology was revised to apply the new composite identifier definition to BIC codes.,core#changeNote
+InvestmentCompany,ica40.pdf,definitionOrigin
+Nbc2257e5fae54b308aecb8cad94d5bd9,isPlayedBy,owl#onProperty
+DevelopmentBank,FinancialInstitution,rdf-schema#subClassOf
+PrincipalUnderwriter,owl#Class,22-rdf-syntax-ns#type
+FinancialInstitution,financial intermediary,synonym
+CentralCounterpartyClearingHouse,"These clearing houses are often operated by the major banks in the country. The house's prime responsibility is to provide efficiency and stability to the financial markets that they operate in.
+
+There are two main processes that are carried out by CCPs: clearing and settlement of market transactions. Clearing relates to identifying the obligations of both parties on either side of a transaction. Settlement occurs when the final transfer of securities and funds occur.
+
+CCPs benefit both parties in a transaction because they bear most of the credit risk. If two individuals deal with one another, the buyer bears the credit risk of the seller, and vice versa. When a CCP is used the credit risk that is held against both buyer and seller is coming from the CCP, which in all likelihood is much less than in the previous situation.",explanatoryNote
+ElectronicFundsTransferService,08-07_attachment.pdf,rdf-schema#seeAlso
+N7425321def0e4cbb88eb32a4bbb89e8c,ClearingService,owl#someValuesFrom
+N262b071794e34ab183abb596e6e7a357,BusinessIdentifierCode,owl#onClass
+DevelopmentBank,development finance company (DFC),synonym
+BankingService,"Examples include cash management service, foreign exchange service, lending or credit service, investment service, insurance service, merchant service, payroll service, and the like.",core#example
+N1a533dc088b94e728d0ea4a6ad00390f,owl#Class,22-rdf-syntax-ns#type
+InvestmentBank,N1a533dc088b94e728d0ea4a6ad00390f,rdf-schema#subClassOf
+BusinessIdentifierCode,OrganizationIdentifier,rdf-schema#subClassOf
+N218ff40c52104ceb8bfe90bce8c8dd00,Partnership,22-rdf-syntax-ns#first
+FinancialServiceProviderIdentifierScheme,owl#Class,22-rdf-syntax-ns#type
+FinancialServiceProviderIdentifier,"identifier that is officially allocated to a financial service provider based on a function that they provide, typically in a jurisdiction over which a regulatory agency has some jurisdiction",core#definition
+Bank,bank,rdf-schema#label
+DataProcessingServicer,FinancialServiceProvider,rdf-schema#subClassOf
+DataProcessingServicer,data processing service,rdf-schema#label
+SalesFinanceCompany,owl#Class,22-rdf-syntax-ns#type
+ClearingCorporation,ClearingHouse,rdf-schema#subClassOf
+DataProcessingServicer,finance services provider primarily engaged in providing infrastructure for hosting or data processing services,core#definition
+Ne73cdd232c41403d9eb022c728d77267,owl#Restriction,22-rdf-syntax-ns#type
+MerchantService,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+FinancialServiceProviderIdentifier,financial service provider identifier,rdf-schema#label
+InsuranceService,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+N6ad2a5bcbdbc4a54ba31276d8367c74d,Nc2113445ca4044f2b78931ffccc2a44d,owl#unionOf
+ClearingHouse,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+N124454ddaf034190b01da2fc72de4adc,isIncludedIn,owl#onProperty
+ClearingHouse,"financial service provider that is exchange affiliated and provides clearing services, including the validation, delivery, and settlement of financial transactions, for financial intermediaries",core#definition
+SalesFinanceCompany,FinanceCompany,rdf-schema#subClassOf
+RiskPoolingInstitution,owl#Class,22-rdf-syntax-ns#type
+isPortfolioCompanyOf,ControlledParty,rdf-schema#domain
+ContractualSavingsInstitution,institutional investor,synonym
+N4cbd56f6b9e84a538b4a3a5dd2863f4d,owl#Restriction,22-rdf-syntax-ns#type
+ManagementCompany,investment company that sells and manages a portfolio of securities other than a face-amount certificate company or unit investment fund,core#definition
+ElectronicFundsTransferService,EFT,abbreviation
+N4c5df48139044f4aab3087bb8c6f7f97,owl#Restriction,22-rdf-syntax-ns#type
+Nad7257d198f640b29c71a11229430557,owl#Restriction,22-rdf-syntax-ns#type
+N850603f06f2c46a99f824437e0262131,isMemberOf,owl#onProperty
+N2cbbbc0485ea42bd8cdc953596ae8e41,Currency,owl#someValuesFrom
+DataProcessingService,owl#Class,22-rdf-syntax-ns#type
+hasDateEstablished,ExplicitDate,rdf-schema#range
+BusinessIdentifierCode,SWIFT ID,synonym
+,FinancialServicesEntities.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+FuturesCommissionMerchant,owl#Class,22-rdf-syntax-ns#type
+N2980cb50211f40169425e89402bc2191,UnderwritingArrangement,owl#someValuesFrom
+DataProcessingService,InstitutionTypes,adaptedFrom
+regulatesSupplyOf,RegulatoryAgency,rdf-schema#domain
+HoldingCompany,FunctionalBusinessEntity,rdf-schema#subClassOf
+BusinessPartySuffix,two-character (2 alphanumeric) code associated with the organization for the purposes of banking telecommunications,core#definition
+ClearingBank,CommercialBank,rdf-schema#subClassOf
+hasDateEstablishmentTerminated,hasExpirationDate,rdf-schema#subPropertyOf
+BusinessIdentifierCode,N1d9ca60042a44f41b6b1d9c55974902a,rdf-schema#subClassOf
+N82d1fd9c04df487aa7708a9476439659,isGovernedBy,owl#onProperty
+N968ca70a52d548729d71f8fa52dadeaa,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+UnderwritingArrangement,owl#Class,22-rdf-syntax-ns#type
+Nce2f96299bf04aee8ddf64ecc967f92b,Alpha2Code,owl#onClass
+ManagementCompany,UnitInvestmentTrust,owl#disjointWith
+FaceAmountCertificateCompany,face amount certificate company,rdf-schema#label
+FinancialServiceProviderIdentifier,owl#Class,22-rdf-syntax-ns#type
+ContractualSavingsInstitution,nonbank-financial-institution,adaptedFrom
+CreditUnion,CooperativeSociety,rdf-schema#subClassOf
+BusinessPartySuffix,"With the revision of the standard [and transition period ending November 2018], the location code has been re-defined as a 'party suffix' without any specific meaning. A new reference data attribute has been introduced in the SWIFTRef directories to indicate where the institution is located and to which time zone it refers.",explanatoryNote
+Nff2f7a6d9d344e1da623fdc244dea214,1,owl#qualifiedCardinality
+N265e224862c9437cb951a8c4d5f5c153,N2980cb50211f40169425e89402bc2191,owl#someValuesFrom
+RegisteredInvestmentAdvisor,FinancialServiceProvider,rdf-schema#subClassOf
+N853bc61f0d814ff4b72f2448822da88d,1,owl#qualifiedCardinality
+Underwriter,N265e224862c9437cb951a8c4d5f5c153,rdf-schema#subClassOf
+BusinessPartySuffix,business party suffix,rdf-schema#label
+FinancialServiceProviderIdentifier,N82d1fd9c04df487aa7708a9476439659,rdf-schema#subClassOf
+Nc2113445ca4044f2b78931ffccc2a44d,N6534bef154cc4a8792566ffd99a3ca6c,22-rdf-syntax-ns#rest
+N4f0160197e4248909b9a2fe14e7af893,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+MoneyServicesBusiness,MSB,abbreviation
+MonetaryAuthority,monetary-authority,adaptedFrom
+CommercialBank,"The traditional commercial bank is a brick and mortar institution with tellers, safe deposit boxes, vaults and ATMs. However, some commercial banks do not have any physical branches and require consumers to complete all transactions by phone or Internet. In exchange, they generally pay higher interest rates on investments and deposits, and charge lower fees.",explanatoryNote
+BusinessIdentifierCode,BIC,abbreviation
+BusinessIdentifierCode,StructuredIdentifier,rdf-schema#subClassOf
+N82d1fd9c04df487aa7708a9476439659,Jurisdiction,owl#onClass
+CentralBank,central bank,rdf-schema#label
+N320de5f4049d4a4bb7bded6e14fd53e7,isProvidedBy,owl#onProperty
+WealthManagementService,wealth management service,rdf-schema#label
+BankHoldingCompany,N3ed42021e30845978bbdc73ca1b2878c,rdf-schema#subClassOf
+BrokerageFirm,brokerage firm,rdf-schema#label
+Bank,ica40.pdf,rdf-schema#seeAlso
+ClearingHouse,N7425321def0e4cbb88eb32a4bbb89e8c,rdf-schema#subClassOf
+BankingProduct,banking product,rdf-schema#label
+Nf5a0c4e376e6409f8fe713dfa232e10b,owl#Restriction,22-rdf-syntax-ns#type
+BankHoldingCompany,"Office of Financial Research (OFR) Annual Report, 2012, Glossary",adaptedFrom
+hasDateEstablished,NPW%20Data%20Dictionary.pdf,adaptedFrom
+BusinessIdentifierCodeScheme,business identifier code scheme,rdf-schema#label
+hasPortfolioCompany,isPortfolioCompanyOf,owl#inverseOf
+N046393720da448ab9533c347c0d3dfa7,BusinessIdentifierCodeScheme,owl#someValuesFrom
+ElectronicFundsTransferService,"service involving any transfer of funds other than a transaction involving a paper instrument, that is initiated through an electronic terminal, telephone, or computer and that orders or authorizes a financial institution to debit or credit an account",core#definition
+RiskPoolingInstitution,risk pooling institution,rdf-schema#label
+Nad7257d198f640b29c71a11229430557,isPlayedBy,owl#onProperty
+CommercialFinanceCompany,FinanceCompany,rdf-schema#subClassOf
+DepositoryInstitution,1000-400.html#fdic1000sec.3a,adaptedFrom
+hasPortfolioCompany,ControlledParty,rdf-schema#range
+regulatesSupplyOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+regulatesSupplyOf,relates a regulatory agency to something it controls or supervises the availability of in some market by means of rules and regulations,core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+UnderwritingArrangement,MutualContractualAgreement,rdf-schema#subClassOf
+PayrollService,"Payroll services typically include printing of employee pay checks, direct deposit of wages to employee bank accounts, calculation and withholding of employee taxes, calculation and payment of corporate payroll taxes and fees with appropriate government authorities (such as Social Security in the US), filing government quarterly and annual reports, and so forth. They may also include management of retirement and savings plans, health benefits, timekeeping, automated integration with the business' accounting system, etc.",explanatoryNote
+InvestmentCompany,owl#Class,22-rdf-syntax-ns#type
+RiskPoolingInstitution,Insurance companies are the most common form of risk pooling institution.,core#example
+Nf5aba1c709bf42cba8beec3df20b0d5d,ControlledParty,owl#someValuesFrom
+hasDateInsured,hasStartDate,rdf-schema#subPropertyOf
+ClearingBank,"commercial bank that facilitates payment and settlement of financial transactions, such as check clearing or facilitating trades between the sellers and buyers of securities or other financial instruments or contracts",core#definition
+CentralCounterpartyClearingHouse,ClearingHouse,rdf-schema#subClassOf
+BusinessPartySuffix,N95473c87059547cebae07139a1d86c71,rdf-schema#subClassOf
+SelfRegulatingOrganization,non-governmental organization that has the power to create and exercise some degree of regulatory authority over an industry or profession in some country or group of countries,core#definition
+UnitInvestmentTrust,"investment company which (a) is organized under a trust indenture, contract of custodianship or agency, or similar instrument, (b) does not have a board of directors, and (c) issues only redeemable securities, each of which represents an undivided interest in a unit of specified securities; but does not include a voting trust",core#definition
+N6ad2a5bcbdbc4a54ba31276d8367c74d,owl#Class,22-rdf-syntax-ns#type
+MerchantService,merchant service,rdf-schema#label
+N4c5df48139044f4aab3087bb8c6f7f97,comprises,owl#onProperty
+MerchantService,"Example merchant services include credit and debit card processing, check guarantee and conversion services, point of sale (PoS) systems, gift card and loyalty programs, online transaction processing, etc.",core#example
+ContractualSavingsInstitution,"Collective investment vehicles invest the pooled resources of the individuals and firms into numerous equity, debt, and derivatives promises. The individual, however, holds equity in the CIV itself rather what the CIV invests in specifically. The two most popular examples of contractual savings institutions are mutual funds and private pension plans.",explanatoryNote
+Nfd4baab4f63c4b3ba01495b575b63197,owl#Class,22-rdf-syntax-ns#type
+BrokerageFirm,BrokerDealer,rdf-schema#subClassOf
+hasDateEstablished,owl#ObjectProperty,22-rdf-syntax-ns#type
+CentralBank,MonetaryAuthority,rdf-schema#subClassOf
+NonDepositoryInstitution,nonbank-financial-institution,adaptedFrom
+DepositoryInstitution,any financial institution engaged in the business of receiving demand deposits from the public or other institutions,core#definition
+N6f9917c114314778b14f19bb788b398b,BusinessPartyPrefix,owl#onClass
+FinanceCompany,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+BusinessPartyPrefix,owl#Class,22-rdf-syntax-ns#type
+BankingProduct,FinancialProduct,rdf-schema#subClassOf
+N262b071794e34ab183abb596e6e7a357,owl#Restriction,22-rdf-syntax-ns#type
+FinancialInstitution,owl#Class,22-rdf-syntax-ns#type
+Nd02cf02d3563419980418dbf85e56150,isProvidedBy,owl#onProperty
+NonDepositoryInstitution,non-bank financial company (NBFC),synonym
+WealthManagementService,"financial service that combines financial and investment advice, accounting and tax services, retirement planning and legal or estate planning for one set fee",core#definition
+N30d2be94f3bf47c2a3850496e635b1d5,Bank,22-rdf-syntax-ns#first
+NonDepositoryInstitution,"A non-depository financial institution acts as a middleman between two parties in a financial transaction, and does not provide traditional depository services, such as brokerage firms, insurance companies, and investment companies. These kinds of institutions facilitate alternative financial services, such as investment (both collective and individual), risk pooling, financial consulting, brokering, money transmission, and check cashing. NBFIs are a source of consumer credit (along with licensed banks). Examples of nonbank financial institutions include insurance firms, venture capitalists, currency exchanges, some microloan organizations, and pawn shops. These non-bank financial institutions provide services that are not necessarily suited to banks, serve as competition to banks, and specialize in sectors or groups.",explanatoryNote
+hasDateEstablished,has date established,rdf-schema#label
+N046393720da448ab9533c347c0d3dfa7,isDefinedIn,owl#onProperty
+N7425321def0e4cbb88eb32a4bbb89e8c,provides,owl#onProperty
+ClearingService,FinancialService,rdf-schema#subClassOf
+hasDateEstablished,the date that the financial service provider was formally established,core#definition
+BusinessPartyPrefix,N262b071794e34ab183abb596e6e7a357,rdf-schema#subClassOf
+ConsumerFinanceCompany,small loan company,synonym
+N21cf8b0d3cec4aeca7c13c914b293493,owl#Restriction,22-rdf-syntax-ns#type
+Nbe26b140232543a59bb477597350d61f,BusinessIdentifierCode,owl#someValuesFrom
+hasDateInsured,NPW%20Data%20Dictionary.pdf,adaptedFrom
+,"FinancialServicesEntities.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+,FinancialServicesEntities.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FBC 1.0 FTF report.,core#changeNote
+HoldingCompany,holding company,rdf-schema#label
+PaymentService,owl#Class,22-rdf-syntax-ns#type
+NonDepositoryInstitution,financial institution that does not have a full banking license and typically is not supervised by a national or international banking regulatory agency,core#definition
+SavingsAssociation,DepositoryInstitution,rdf-schema#subClassOf
+ClearingService,gloss.htm,rdf-schema#seeAlso
+N968ca70a52d548729d71f8fa52dadeaa,RegulatoryAgency,22-rdf-syntax-ns#first
+CreditUnion,"not-for-profit depository institution that makes personal loans and offers other consumer banking services, organized for the purpose of promoting thrift among its members and creating a source of credit for provident or productive purposes",core#definition
+MortgageCompany,mortgage company,rdf-schema#label
+CommodityTradingAdvisor,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+N124454ddaf034190b01da2fc72de4adc,BusinessIdentifierCode,owl#someValuesFrom
+BusinessPartySuffix,N124454ddaf034190b01da2fc72de4adc,rdf-schema#subClassOf
+ClearingCorporation,clearing house that is organized as a corporation,core#definition
+BusinessIdentifierCode,owl#Class,22-rdf-syntax-ns#type
+PaymentService,"financial service that involves acceptance of electronic payments by a variety of payment methods including credit card, bank-based payments such as direct debit, bank transfer, and real-time bank transfer based on online banking",core#definition
+,FinancialServicesEntities.rdf version of this ontology was revised to enable merging business and functional business entity in BE.,core#changeNote
+Ne9dd323d44bf4dea81d761c060777e56,isProvidedBy,owl#onProperty
+InvestmentCompany,NonDepositoryInstitution,rdf-schema#subClassOf
+FinancialInstitution,financial institution,rdf-schema#label
+CentralCounterpartyClearingHouse,clearing house that helps facilitate trading in derivatives and equities markets,core#definition
+UnitInvestmentTrust,unit investment trust,rdf-schema#label
+CommodityTradingAdvisor,"Indirect advice includes exercising trading authority over a customer's account. In the U.S., registered CTAs are registered with the Commodities Futures Trading Commission (CFTC) and are generally required to be members of the National Futures Association (NFA).",explanatoryNote
+Nce2f96299bf04aee8ddf64ecc967f92b,owl#Restriction,22-rdf-syntax-ns#type
+,"FinancialServicesEntities.rdf version of this ontology was revised to move the definition of the Bank for International Settlements (BIS) to the EU Regulatory Agencies ontology and build out the individual details there, and to reflect the move of some organization-specific concepts from BE to FND.",core#changeNote
+,Release,hasMaturityLevel
+Nb50a255a111c4eddb44535d388e8128e,hasMember,owl#onProperty
+hasDateInsured,ExplicitDate,rdf-schema#range
+N82d1fd9c04df487aa7708a9476439659,0,owl#minQualifiedCardinality
+ManagementCompany,Management companies allow investors to pool their capital with that of other investors in order to purchase professionally-managed groups of diversified securities.,explanatoryNote
+BankingService,owl#Class,22-rdf-syntax-ns#type
+N82d1fd9c04df487aa7708a9476439659,owl#Restriction,22-rdf-syntax-ns#type
+SavingsAssociation,"depository institution that is (a) any federal savings bank or association chartered under section 1464 of the Federal Deposit Insurance Act; (b) any state chartered building and loan association, savings and loan association, or homestead association; or (c) any cooperative bank (other than a cooperative bank which is a state bank as defined in subsection (a)(2)) of the Federal Deposit Insurance Act, which is organized and operating according to the laws of the State (as defined in subsection (a)(3)) in which it is chartered or organized; and (c) any corporation (other than a bank) that the board of directors and the comptroller of the currency jointly determine to be operating in substantially the same manner as such a depository institution",core#definition
+DataProcessingService,data processing service,rdf-schema#label
+FinancialServiceProviderIdentifierScheme,financial service provider identifier scheme,rdf-schema#label
+BusinessIdentifierCode,bank identifier code,synonym
+ConsumerFinanceCompany,direct loan company,synonym
+N320de5f4049d4a4bb7bded6e14fd53e7,owl#Restriction,22-rdf-syntax-ns#type
+, version of this ontology was modified to refine the concept of a credit union and generalize the definition of an underwriter.,core#changeNote
+PrincipalUnderwriter,principal underwriter,rdf-schema#label
+HoldingCompany,"business entity established to own stock in another company, typically to own enough voting shares to have some level of control over that company's policies and management",core#definition
+MortgageCompany,or funds mortgages for residential or commercial property,core#definition
+BusinessIdentifierCodeScheme,CodeSet,rdf-schema#subClassOf
+Nbad608b3094a4f3abf13ebb5c3a73522,owl#Restriction,22-rdf-syntax-ns#type
+CentralCounterpartyClearingHouse,EACH2.pdf,rdf-schema#seeAlso
+Nf5aba1c709bf42cba8beec3df20b0d5d,owl#Restriction,22-rdf-syntax-ns#type
+Nce2f96299bf04aee8ddf64ecc967f92b,1,owl#qualifiedCardinality
+PrincipalUnderwriter,"underwriter who, as principal, purchases from an investment company, or pursuant to some contract has the right to purchase from such company, any security for distribution, or who as agent for such company sells or has the right to sell any security to a dealer or to the public, excluding any dealer who purchases from such company through sn underwriter acting as an agent for such company",core#definition
+ConsumerFinanceCompany,owl#Class,22-rdf-syntax-ns#type
+ClearingBank,"Office of Financial Research (OFR) Annual Report, 2012, Glossary",definitionOrigin
+DevelopmentBank,"national or regional financial institution designed to provide medium- and long-term capital for productive investment, often accompanied by technical assistance, in poor countries",core#definition
+TrustCompany,trust company,rdf-schema#label
+ManagementCompany,InvestmentCompany,rdf-schema#subClassOf
+DepositoryInstitution,depository institution,rdf-schema#label
+InvestmentCompany,"An investment company is organized as either a corporation or as a trust. Individual investors' money is then pooled together in a single account and used to purchase securities that will have the greatest chance of helping the investment company reach its objectives. All investors jointly own the portfolio that is created through these pooled funds, and each investor has an undivided interest in the securities.",explanatoryNote
+MerchantService,owl#Class,22-rdf-syntax-ns#type
+ConsumerFinanceCompany,finance company that lends to individuals under the small loans laws of the jurisdiction in which they operate,core#definition
+NonDepositoryInstitution,"The term 'non-bank' may have been derived from 'non-deposit taking banking institution'. To be clearer, non-depository institutions are explicitly disjoint with depository institutions (financial institutions that take deposits of some sort, potentially including securities) in FIBO. Banks are defined as financial institutions that take demand deposits from the public and that also provide commercial lending services. Many 'non-bank' institutions take deposits or provide commercial lending services, but they may not do both.",core#historyNote
+SavingsAssociation,savings association,rdf-schema#label
+SelfRegulatingOrganization,Nb5ef0ddf5cad46f6bd4eeb142f6a36f5,rdf-schema#subClassOf
+N26daad9c79894408ba908f00ac72c464,involves,owl#onProperty
+hasPortfolioCompany,ControllingParty,rdf-schema#domain
+FuturesCommissionMerchant,National Futures Association,adaptedFrom
+InvestmentService,owl#Class,22-rdf-syntax-ns#type
+N1d9ca60042a44f41b6b1d9c55974902a,BusinessPartySuffix,owl#onClass
+InvestmentCompany,"any issuer which: (a) is or holds itself out as being engaged primarily, or proposes to engage primarily, in the business of investing, reinvesting, or trading in securities; (b) is engaged or proposes to engage in the business of issuing face-amount certificates of the installment type, or has been engaged in such business and has any such certificate outstanding; or (c) is engaged or proposes to engage in the business of investing, reinvesting, owning, holding, or trading in securities, and owns or proposes to acquire investment securities having a value exceeding 40 per centum of the value of such issuer&apos;s total assets (exclusive of Government securities and cash items) on an unconsolidated basis",core#definition
+,FinancialServicesEntities.rdf version of this ontology was revised to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+hasDateEstablished,hasStartDate,rdf-schema#subPropertyOf
+BankingProduct,Ne9dd323d44bf4dea81d761c060777e56,rdf-schema#subClassOf
+,"FinancialServicesEntities.rdf version of this ontology was revised to add missing functional entities and related properties, and eliminate circular or ambiguous definitions where possible.",core#changeNote
+ManagementCompany,ica40.pdf,definitionOrigin
+BusinessPartyPrefix,N046393720da448ab9533c347c0d3dfa7,rdf-schema#subClassOf
+TrustCompany,Nbad608b3094a4f3abf13ebb5c3a73522,rdf-schema#subClassOf
+DataProcessingServicer,"These establishments may provide specialized hosting activities, such as web hosting, streaming services or application hosting, provide application service provisioning, or may provide general time-share mainframe facilities to clients. Data processing establishments provide complete processing and specialized reports from data supplied by clients or provide automated data processing and data entry services.",explanatoryNote
+N21cf8b0d3cec4aeca7c13c914b293493,1,owl#qualifiedCardinality
+N262b071794e34ab183abb596e6e7a357,isIncludedIn,owl#onProperty
+Nff2f7a6d9d344e1da623fdc244dea214,owl#Restriction,22-rdf-syntax-ns#type
+,FinancialServicesEntities.rdf version of this ontology was revised to eliminate references to external dictionary sites that no longer resolve and address additional circular definitions.,core#changeNote
+BusinessIdentifierCodeScheme,Nbe26b140232543a59bb477597350d61f,rdf-schema#subClassOf
+N853bc61f0d814ff4b72f2448822da88d,owl#Restriction,22-rdf-syntax-ns#type
+ElectronicFundsTransferService,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+,"FinancialServicesEntities.rdf version of this ontology was revised to augment the representation of institutions based on their definitions in the law, to clarify and extend definitions related to non-bank financial institutions,and to add multilingual labels.",core#changeNote
+CommercialBank,Institution%20Type%20Description.htm,rdf-schema#seeAlso
+Ne9dd323d44bf4dea81d761c060777e56,owl#Restriction,22-rdf-syntax-ns#type
+MonetaryAuthority,"regulatory agency that controls the monetary policy, regulation and supply of money in some country or group of countries",core#definition
+FinancialInstitution,"financial service provider identified as either a government agency or privately owned entity that collects funds from the public and from other institutions, and invests those funds in financial assets, such as loans, securities, bank deposits, and income-generating property",core#definition
+Bank,DepositoryInstitution,rdf-schema#subClassOf
+,FinancialServicesEntities.rdf version of this ontology was revised to leverage the new party identifier and replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+BusinessPartySuffix,"In the prior version of the standard, position 7 of the BIC determined the location of the BIC in a particular country. In a country spanning over multiple time zones, each character may have been used to define a different time zone. If an organization moved location to a different time zone within the same country, the existing BIC would normally have been deleted and replaced by a new BIC with the appropriate location code.",explanatoryNote
+BankingService,FinancialService,rdf-schema#subClassOf
+N1e689d6efb76439a9bc5fda77c488eb3,FormalOrganization,owl#onClass
+CentralBank,financial institution that is the monetary authority and major regulatory bank for a country (or group of countries),core#definition
+CreditUnion,Nd6727e479f8947339e9122362b6c3b44,rdf-schema#subClassOf
+ContractualSavingsInstitution,investisseur institutionnel,synonym
+N6f9917c114314778b14f19bb788b398b,owl#Restriction,22-rdf-syntax-ns#type
+BusinessPartyPrefix,bank code,synonym
+FinanceCompany,"financial intermediary in the business of making loans that obtains its financing from banks, institutions, and other money market sources rather than from deposits",core#definition
+hasDateEstablishmentTerminated,hasExplicitDate,rdf-schema#subPropertyOf
+Nff2f7a6d9d344e1da623fdc244dea214,isPlayedBy,owl#onProperty
+CommercialBank,owl#Class,22-rdf-syntax-ns#type
+N853bc61f0d814ff4b72f2448822da88d,identifies,owl#onProperty
+SelfRegulatingOrganization,owl#Class,22-rdf-syntax-ns#type
+N21cf8b0d3cec4aeca7c13c914b293493,isPlayedBy,owl#onProperty
+MonetaryAuthority,owl#Class,22-rdf-syntax-ns#type
+BankingService,banking service,rdf-schema#label
+SavingsAssociation,owl#Class,22-rdf-syntax-ns#type
+CreditUnion,owl#Class,22-rdf-syntax-ns#type
+hasDateEstablished,date of commencement of existence,synonym
+PaymentService,payment-services_en,rdf-schema#seeAlso
+ContractualSavingsInstitution,Investor,rdf-schema#subClassOf
+N7aaf930dd9af4271bf604dac1e6e6632,hasPartyRole,owl#onProperty
+InvestmentBank,owl#Class,22-rdf-syntax-ns#type
+MonetaryAuthority,N2cbbbc0485ea42bd8cdc953596ae8e41,rdf-schema#subClassOf
+Underwriter,"financial service provider that evaluates and assumes another party's risk for a fee, such as a commission, premium, spread or interest",core#definition
+hasDateInsured,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nce2f96299bf04aee8ddf64ecc967f92b,comprises,owl#onProperty
+BusinessIdentifierCodeScheme,ISO 9362:2014 Banking -- Banking telecommunication messages -- Business identifier code (BIC),adaptedFrom
+Underwriter,underwriter,rdf-schema#label
+MerchantService,FinancialService,rdf-schema#subClassOf
+RiskPoolingInstitution,NonDepositoryInstitution,rdf-schema#subClassOf
+Nbad608b3094a4f3abf13ebb5c3a73522,1,owl#qualifiedCardinality
+ClearingHouse,clearing house,rdf-schema#label
+ElectronicFundsTransferService,wire transfer service,synonym
+N6f9917c114314778b14f19bb788b398b,1,owl#qualifiedCardinality
+N262b071794e34ab183abb596e6e7a357,1,owl#maxQualifiedCardinality
+ClearingCorporation,clearing corporation,rdf-schema#label
+ManagementCompany,management company,rdf-schema#label
+BrokerageFirm,nonbank-financial-institution,adaptedFrom
+ClearingService,owl#Class,22-rdf-syntax-ns#type
+InvestmentService,FinancialService,rdf-schema#subClassOf
+InvestmentBank,FinancialInstitution,rdf-schema#subClassOf
+PrincipalUnderwriter,Underwriter,rdf-schema#subClassOf
+FinancialInstitution,N686dea420c1e4dc79b6375890f8154b6,rdf-schema#subClassOf
+FaceAmountCertificateCompany,"investment company which is engaged or proposes to engage in the business of issuing face-amount certificates of the installment type, or which has been engaged in such business and has any such certificate outstanding",core#definition
+CommercialBank,Bank,rdf-schema#subClassOf
+BusinessIdentifierCode,business entity identifier,synonym
+CommercialFinanceCompany,owl#Class,22-rdf-syntax-ns#type
+,Financial Services Entities Ontology,rdf-schema#label
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+BankHoldingCompany,bank holding company,rdf-schema#label
+hasDateEstablishmentTerminated,NPW%20Data%20Dictionary.pdf,adaptedFrom
+FuturesCommissionMerchant,NonDepositoryInstitution,rdf-schema#subClassOf
+,FinancialServicesEntities.rdf version of this ontology was revised to clean up dead links and address text formatting issues uncovered by hygiene testing.,core#changeNote
+N2980cb50211f40169425e89402bc2191,isAPartyTo,owl#onProperty
+PaymentService,MerchantService,rdf-schema#subClassOf
+CommodityTradingAdvisor,CTA,abbreviation
+N853bc61f0d814ff4b72f2448822da88d,FinancialServiceProvider,owl#onClass
+Nff2f7a6d9d344e1da623fdc244dea214,Corporation,owl#onClass
+BusinessPartySuffix,ISO 9362:2014 Banking -- Banking telecommunication messages -- Business identifier code (BIC),adaptedFrom
+ClearingBank,ClearingHouse,rdf-schema#subClassOf
+N21cf8b0d3cec4aeca7c13c914b293493,Corporation,owl#onClass
+Nbad608b3094a4f3abf13ebb5c3a73522,isPlayedBy,owl#onProperty
+PayrollService,owl#Class,22-rdf-syntax-ns#type
+BusinessIdentifierCodeScheme,60390.html,adaptedFrom
+RegisteredInvestmentAdvisor,RegisteredAgent,rdf-schema#subClassOf
+ContractualSavingsInstitution,Typically more than 70 percent of the daily trading on the New York Stock Exchange is conducted on behalf of institutional investors.,explanatoryNote
+Bank,owl#Class,22-rdf-syntax-ns#type
+FinancialServiceProviderIdentifier,PartyRoleIdentifier,rdf-schema#subClassOf
+CommodityTradingAdvisor,owl#Class,22-rdf-syntax-ns#type
+BankingProduct,"Examples include checking account, savings account, certificate of deposit, debit or pre-paid card, or credit card.",core#example
+hasDateEstablishmentTerminated,hasTerminationDate,rdf-schema#subPropertyOf
+FaceAmountCertificateCompany,owl#Class,22-rdf-syntax-ns#type
+BankingProduct,owl#Class,22-rdf-syntax-ns#type
+RegisteredInvestmentAdvisor,Nf5aba1c709bf42cba8beec3df20b0d5d,rdf-schema#subClassOf
+DepositoryInstitution,owl#Class,22-rdf-syntax-ns#type
+N95473c87059547cebae07139a1d86c71,owl#Restriction,22-rdf-syntax-ns#type
+CentralSecuritiesDepository,CSD,abbreviation
+Nf5aba1c709bf42cba8beec3df20b0d5d,advises,owl#onProperty
+N320de5f4049d4a4bb7bded6e14fd53e7,DataProcessingServicer,owl#someValuesFrom
+BusinessPartyPrefix,ISO 9362:2014 Banking -- Banking telecommunication messages -- Business identifier code (BIC),adaptedFrom
+ContractualSavingsInstitution,financial institution that provides the opportunity for individuals to invest in collective investment vehicles in a fiduciary rather than a principle role,core#definition
+BusinessPartySuffix,CodeElement,rdf-schema#subClassOf
+ClearingService,service provided on behalf of an institutional market participant by a clearing services provider following a trade that finalizes the transfer of security ownership,core#definition
+ContractualSavingsInstitution,owl#Class,22-rdf-syntax-ns#type
+BusinessPartyPrefix,four-character (4 alphanumeric) code associated with an organization for the purposes of banking telecommunications,core#definition
+N850603f06f2c46a99f824437e0262131,owl#Restriction,22-rdf-syntax-ns#type
+InvestmentBank,investment bank,rdf-schema#label
+BusinessIdentifierCode,Nce2f96299bf04aee8ddf64ecc967f92b,rdf-schema#subClassOf
+InsuranceCompany,"non-depository institution whose primary and predominant business activity is the writing of insurance or the reinsuring of risks underwritten by insurance companies, and that provides compensation based on the happening of at least one contingency",core#definition
+,"FinancialServicesEntities.rdf version of this ontology was revised to clean up a few definitions to conform with ISO 704, to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, and to add the concept of a data processing servicer.",core#changeNote
+FinancialInstitution,FinancialServiceProvider,rdf-schema#subClassOf
+FinancialInstitution,"Barron's Dictionary of Banking Terms, Sixth Edition, 2012",adaptedFrom
+TrustCompany,owl#Class,22-rdf-syntax-ns#type
+BrokerageFirm,"Office of Financial Research (OFR) Annual Report, 2012, Glossary",definitionOrigin
+N218ff40c52104ceb8bfe90bce8c8dd00,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+NonDepositoryInstitution,non-bank financial institution (NBFI),synonym
+hasDateEstablished,"This may be the date on its papers of incorporation or formation document, or the date on which it was granted a license.",explanatoryNote
+CommercialBank,commercial bank,rdf-schema#label
+FinancialInstitution,N4cbd56f6b9e84a538b4a3a5dd2863f4d,rdf-schema#subClassOf
+ClearingCorporation,owl#Class,22-rdf-syntax-ns#type
+,MIT,license
+DevelopmentBank,development bank,rdf-schema#label
+CommercialFinanceCompany,"finance company that makes loans to manufacturers and wholesalers, secured by accounts receivable, inventories, and equipment",core#definition
+N3ed42021e30845978bbdc73ca1b2878c,owl#Restriction,22-rdf-syntax-ns#type
+BusinessPartyPrefix,CodeElement,rdf-schema#subClassOf
+ClearingService,clearing service,rdf-schema#label
+SelfRegulatingOrganization,RegulatoryAgency,rdf-schema#subClassOf
+HoldingCompany,owl#Class,22-rdf-syntax-ns#type
+CentralSecuritiesDepository,"functional entity that provides a central point for depositing financial instruments ('securities'), for example, bonds and shares",core#definition
+ManagementCompany,owl#Class,22-rdf-syntax-ns#type
+,"This ontology defines basic financial service providers, such as holding companies, financial institutions (both depository and non-depository institutions), and clearing houses at a relatively general level. Nuances specific to the institutions located in a specific country are defined in jurisdiction specific dependent ontologies.",abstract
+N6f9917c114314778b14f19bb788b398b,comprises,owl#onProperty
+Nbad608b3094a4f3abf13ebb5c3a73522,Corporation,owl#onClass
+BusinessPartyPrefix,"For new BIC registration by an organization already identified with a BIC or an affiliated organization [after the transition period ending November 2018], SWIFT will still reserve the usage of an existing party prefix to these organizations. This legacy rule will be reserved to existing BIC owners. If they wish to preserve this value, no other organization will be allowed to use the same code",explanatoryNote
+BankHoldingCompany,owl#Class,22-rdf-syntax-ns#type
+FinancialServiceProviderIdentifier,Nb84881dd25e344f3ba5767829f8d3954,rdf-schema#subClassOf
+N4c5df48139044f4aab3087bb8c6f7f97,OrganizationPartIdentifier,owl#onClass
+N6534bef154cc4a8792566ffd99a3ca6c,PrivateCompanyWithLimitedLiability,22-rdf-syntax-ns#first
+CentralCounterpartyClearingHouse,CCP,abbreviation
+," version of this ontology was modified per the FIBO 2.0 RFC, including, but not limited to, the addition of trade settlement concepts and generalizing the concept of a credit union.",core#changeNote
+FaceAmountCertificateCompany,ica40.pdf,definitionOrigin
+Nb5ef0ddf5cad46f6bd4eeb142f6a36f5,owl#Restriction,22-rdf-syntax-ns#type
+CreditUnion,credit union,rdf-schema#label
+ContractualSavingsInstitution,Nbc2257e5fae54b308aecb8cad94d5bd9,rdf-schema#subClassOf
+N686dea420c1e4dc79b6375890f8154b6,RegulatoryAgency,owl#someValuesFrom
+MonetaryAuthority,RegulatoryAgency,rdf-schema#subClassOf
+isPortfolioCompanyOf,ControllingParty,rdf-schema#range
+N2cbbbc0485ea42bd8cdc953596ae8e41,regulatesSupplyOf,owl#onProperty
+CentralCounterpartyClearingHouse,owl#Class,22-rdf-syntax-ns#type
+DevelopmentBank,owl#Class,22-rdf-syntax-ns#type
+PayrollService,FinancialService,rdf-schema#subClassOf
+TrustCompany,"A professional trust company may be independently owned or owned by, for example, a bank or a law firm, and which specializes in being a trustee of various kinds of trusts. The trust company oversees the management of assets covered by the trust agreement. Such companies often are used when a grantor feels the trust company can do an equal or better job managing the assets than an individual person, or if the grantor does not know of anyone else who can act as trustee. Trust companies sometimes act as fiscal agents for corporations by attending to the registration and transfer of their stocks and bonds, serving as a trustee for their bond and mortgage creditors, and transacting general banking and loan business.",explanatoryNote
+BankHoldingCompany,"A bank holding company may also own another bank holding company, which in turn owns or controls a bank; the company at the top of the ownership chain is called the top holder.",explanatoryNote
+InsuranceCompany,RiskPoolingInstitution,rdf-schema#subClassOf
+N3ed42021e30845978bbdc73ca1b2878c,1,owl#qualifiedCardinality
+WealthManagementService,owl#Class,22-rdf-syntax-ns#type
+BankingService,financial service offered by a depository institution,core#definition
+isPortfolioCompanyOf,hasControllingParty,rdf-schema#subPropertyOf
+HoldingCompany,Ne73cdd232c41403d9eb022c728d77267,rdf-schema#subClassOf
+N1e689d6efb76439a9bc5fda77c488eb3,denotes,owl#onProperty
+InvestmentCompany,"In the US, all investment company offerings are subject to the Securities Act of 1933, which requires the investment company to register with the Securities Exchange Commission (SEC) and to give all purchasers a prospectus. Investment companies are also subject to the Investment Company Act of 1940, which sets forth guidelines on how investment companies must operate.",explanatoryNote
+FaceAmountCertificateCompany,InvestmentCompany,rdf-schema#subClassOf
+ContractualSavingsInstitution,NonDepositoryInstitution,rdf-schema#subClassOf
+N4cbd56f6b9e84a538b4a3a5dd2863f4d,FinancialService,owl#someValuesFrom
+BusinessPartyPrefix,OrganizationIdentifier,rdf-schema#subClassOf
+UnderwritingArrangement,N7aaf930dd9af4271bf604dac1e6e6632,rdf-schema#subClassOf
+Nb5ef0ddf5cad46f6bd4eeb142f6a36f5,isPlayedBy,owl#onProperty
+hasDateInsured,date on which insurance became effective,core#definition
+PayrollService,"financial service, typically provided to small businesses that are not large enough to have an internal finance organization, that involves managing payment of wages to employees",core#definition
+N1d9ca60042a44f41b6b1d9c55974902a,owl#Restriction,22-rdf-syntax-ns#type
+FaceAmountCertificateCompany,"An investor may enter into a contract with an issuer of a face amount certificate to contract to receive a stated or fixed amount of money (the face amount) at a stated date in the future. In exchange for this future sum, the investor must deposit an agreed lump sum or make scheduled installment payments over time. Face amount certificates are rarely issued these days, as most of the tax advantages that the investment once offered have been lost through changes in the tax laws.",explanatoryNote
+N7425321def0e4cbb88eb32a4bbb89e8c,owl#Restriction,22-rdf-syntax-ns#type
+BusinessIdentifierCodeScheme,scheme that specifies the elements of a unique business identifier code (BIC) scheme to identify financial and non-financial institutions used to facilitate automated processing of information for financial services,core#definition
+hasPortfolioCompany,has portfolio company,rdf-schema#label
+RiskPoolingInstitution,financial institution that provides some financial service while spreading the financial risk inherent in that service to lower the probability of a catastrophic financial event by aggregating customers across diverse dimensions as a risk management practice,core#definition
+hasDateEstablishmentTerminated,has date establishment terminated,rdf-schema#label
+Nad7257d198f640b29c71a11229430557,Instrumentality,owl#allValuesFrom
+Nb84881dd25e344f3ba5767829f8d3954,owl#Restriction,22-rdf-syntax-ns#type
+MortgageCompany,owl#Class,22-rdf-syntax-ns#type
+Ne73cdd232c41403d9eb022c728d77267,hasPortfolioCompany,owl#onProperty
+RiskPoolingInstitution,nonbank-financial-institution,adaptedFrom
+PaymentService,N26daad9c79894408ba908f00ac72c464,rdf-schema#subClassOf
+BankHoldingCompany,HoldingCompany,rdf-schema#subClassOf
+InvestmentBank,financial service provider that acts as an underwriter or agent that serves as intermediary between the issuer of securities and the investing public,core#definition
+ClearingHouse,FinancialServiceProvider,rdf-schema#subClassOf
+CreditUnion,DepositoryInstitution,rdf-schema#subClassOf
+isPortfolioCompanyOf,"indicates a venture capital firm, a buyout firm, or a holding company that is a financial sponsor (i.e. investor in) of the party",core#definition
+NonDepositoryInstitution,owl#Class,22-rdf-syntax-ns#type
+isPortfolioCompanyOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ne73cdd232c41403d9eb022c728d77267,ControlledParty,owl#onClass
+ElectronicFundsTransferService,"EFT services include transfers through automated teller machines, point-of-sale terminals, automated clearinghouse systems, telephone bill-payment plans in which periodic or recurring transfers are contemplated, and remote banking programs.",core#example
+Underwriter,owl#Class,22-rdf-syntax-ns#type
+Nb5ef0ddf5cad46f6bd4eeb142f6a36f5,NonGovernmentalOrganization,owl#someValuesFrom
+CentralBank,Bank,rdf-schema#subClassOf
+N1a533dc088b94e728d0ea4a6ad00390f,N30d2be94f3bf47c2a3850496e635b1d5,owl#unionOf
+RegisteredInvestmentAdvisor,registered agent and financial service provider that advises high net worth individuals on investments and manages their portfolios,core#definition
+MoneyServicesBusiness,"any person doing business, whether or not on a regular basis or as an organized business concern, in one of the following capacities: (1) currency dealer or exchanger, (2) check casher, (3) issuer of traveler's checks, money orders, or stored value, (4) seller or redeemer of traveler's checks, money orders, or stored value, (5) money transmitter, or (6) postal service",core#definition
+N2980cb50211f40169425e89402bc2191,owl#Restriction,22-rdf-syntax-ns#type
+Nb50a255a111c4eddb44535d388e8128e,owl#Restriction,22-rdf-syntax-ns#type
+CentralSecuritiesDepository,faq,adaptedFrom
+CentralSecuritiesDepository,owl#Class,22-rdf-syntax-ns#type
+CentralBank,"Its functions include issuing and managing the country's currency, controlling monetary policy and supervising money market operations, managing exchange and gold reserves, acting as lender of last resort to commercial banks, and providing banking services to the government. Central banks are state-controlled but are increasingly being given an independent status to insulate them from partisan politics.",explanatoryNote
+CommodityTradingAdvisor,party that directly or indirectly advises others as to the value or advisability of buying or selling futures contracts or options,core#definition
+MoneyServicesBusiness,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+Nd02cf02d3563419980418dbf85e56150,owl#Restriction,22-rdf-syntax-ns#type
+NonDepositoryInstitution,FinancialInstitution,rdf-schema#subClassOf
+BrokerageFirm,"firm in the business of buying and selling securities, operating as both a broker and a dealer, depending on the transaction",core#definition
+DataProcessingService,financial service offered by an entity primarily engaged in providing infrastructure for hosting or data processing services,core#definition
+FinancialServiceProviderIdentifier,N853bc61f0d814ff4b72f2448822da88d,rdf-schema#subClassOf
+InsuranceService,owl#Class,22-rdf-syntax-ns#type
+InsuranceCompany,"In the US, insurance companies are subject to supervision by the insurance commissioner or a similar official or agency of a State; or any receiver or similar official or any liquidating agent for such a company, in his capacity as such. Common forms of insurance include life, property and casualty, and health insurance. In addition to insuring against hazards, many insurance companies also sell investments or investment-like products. The most prevalent investment products offered by insurers are annuities and life insurance policies that also feature investment elements.
+
+A number of insurance companies operate brokerage arms that trade securities on behalf of clients.",explanatoryNote
+ClearingHouse,owl#Class,22-rdf-syntax-ns#type
+N2cbbbc0485ea42bd8cdc953596ae8e41,owl#Restriction,22-rdf-syntax-ns#type
+N265e224862c9437cb951a8c4d5f5c153,owl#Restriction,22-rdf-syntax-ns#type
+N4cbd56f6b9e84a538b4a3a5dd2863f4d,provides,owl#onProperty
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+ElectronicFundsTransferService,owl#Class,22-rdf-syntax-ns#type
+NonDepositoryInstitution,DepositoryInstitution,owl#disjointWith
+UnitInvestmentTrust,unit investment company,synonym
+ConsumerFinanceCompany,consumer finance company,rdf-schema#label
+N6534bef154cc4a8792566ffd99a3ca6c,N218ff40c52104ceb8bfe90bce8c8dd00,22-rdf-syntax-ns#rest
+ClearingBank,owl#Class,22-rdf-syntax-ns#type
+N1d9ca60042a44f41b6b1d9c55974902a,1,owl#qualifiedCardinality
+InvestmentService,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+N30d2be94f3bf47c2a3850496e635b1d5,N4f0160197e4248909b9a2fe14e7af893,22-rdf-syntax-ns#rest
+BusinessIdentifierCode,SWIFT code,synonym
+Nc2113445ca4044f2b78931ffccc2a44d,SpecialPurposeVehicle,22-rdf-syntax-ns#first
+ContractualSavingsInstitution,contractual savings institution,rdf-schema#label
+WealthManagementService,FinancialService,rdf-schema#subClassOf
+N7aaf930dd9af4271bf604dac1e6e6632,Underwriter,owl#someValuesFrom
+hasDateEstablished,hasExplicitDate,rdf-schema#subPropertyOf
+N265e224862c9437cb951a8c4d5f5c153,isPlayedBy,owl#onProperty
+DataProcessingService,N320de5f4049d4a4bb7bded6e14fd53e7,rdf-schema#subClassOf
+hasDateInsured,has date insured,rdf-schema#label
+hasDateEstablishmentTerminated,ExplicitDate,rdf-schema#range
+FuturesCommissionMerchant,"party that does both of the following: (1) solicits or accepts orders to buy or sell futures contracts, options on futures, retail off-exchange forex contracts, or swaps and (2) accepts money or other assets from customers to support such orders",core#definition
+ClearingService, Quarule,adaptedFrom
+UnderwritingArrangement,contractual agreement between parties that commits the underwriter to assuming risk,core#definition
+MoneyServicesBusiness,money services business,rdf-schema#label
+Nd6727e479f8947339e9122362b6c3b44,owl#Restriction,22-rdf-syntax-ns#type
+SalesFinanceCompany,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+CentralCounterpartyClearingHouse,central counterparty clearing house,rdf-schema#label
+NonDepositoryInstitution,non-depository institution,rdf-schema#label
+RegisteredInvestmentAdvisor,Nf5a0c4e376e6409f8fe713dfa232e10b,rdf-schema#subClassOf
+PrincipalUnderwriter,ica40.pdf,adaptedFrom
+MonetaryAuthority,monetary authority,rdf-schema#label
+Ne9dd323d44bf4dea81d761c060777e56,DepositoryInstitution,owl#someValuesFrom
+SalesFinanceCompany,sales finance company,rdf-schema#label
+InsuranceService,financial service in which the insurer promises to provide compensation for specific potential future losses in exchange for a periodic payment,core#definition
+BusinessPartyPrefix,business party prefix,rdf-schema#label
+BusinessIdentifierCodeScheme,OrganizationIdentificationScheme,rdf-schema#subClassOf
+MoneyServicesBusiness,NonDepositoryInstitution,rdf-schema#subClassOf
+Nb84881dd25e344f3ba5767829f8d3954,1,owl#qualifiedCardinality
+FinancialServiceProviderIdentifierScheme,Nb50a255a111c4eddb44535d388e8128e,rdf-schema#subClassOf
+BusinessIdentifierCode,"The BIC is used for addressing messages, routing business transactions and identifying business parties. Note that the use of OrganizationPartIdentifier in FIBO corresponds to the Branch Code in the SWIFT scheme.",explanatoryNote
+N4f0160197e4248909b9a2fe14e7af893,BrokerageFirm,22-rdf-syntax-ns#first
+regulatesSupplyOf,regulates supply of,rdf-schema#label
+CommercialBank,"depository institution that engages in various financial services, such as accepting deposits and making loans",core#definition
+regulatesSupplyOf,"The Federal Reserve System, whose banks together comprise the central bank of the United States, supervises banking system and regulates the money supply in the US.",core#example
+InvestmentService,investment service,rdf-schema#label
+InsuranceService,FinancialService,rdf-schema#subClassOf
+SavingsAssociation,1000-400.html#fdic1000sec.3a,adaptedFrom
+FinanceCompany,owl#Class,22-rdf-syntax-ns#type
+Nd6727e479f8947339e9122362b6c3b44,1,owl#qualifiedCardinality
+ElectronicFundsTransferService,FinancialService,rdf-schema#subClassOf
+InsuranceCompany,Institution%20Type%20Description.htm,adaptedFrom
+DepositoryInstitution,1813,adaptedFrom
+InsuranceCompany,owl#Class,22-rdf-syntax-ns#type
+RegisteredInvestmentAdvisor,registered investment advisor,rdf-schema#label
+N7aaf930dd9af4271bf604dac1e6e6632,owl#Restriction,22-rdf-syntax-ns#type
+ConsumerFinanceCompany,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+CommercialBank,Nff2f7a6d9d344e1da623fdc244dea214,rdf-schema#subClassOf
+InvestmentBank,"Major investment banks include Barclays, BofA Merrill Lynch, Warburgs, Goldman Sachs, Deutsche Bank, JP Morgan, Morgan Stanley, Salomon Brothers, UBS, Credit Suisse, Citibank and Lazard. Some investment banks specialize in particular industry sectors. Many investment banks also have retail operations that serve small, individual customers.",explanatoryNote
+N1d9ca60042a44f41b6b1d9c55974902a,comprises,owl#onProperty
+N26daad9c79894408ba908f00ac72c464,PaymentObligation,owl#someValuesFrom
+DevelopmentBank,development financial institution (DFI),synonym
+CommodityTradingAdvisor,commodity trading advisor,rdf-schema#label
+BankHoldingCompany,FinancialServiceProvider,rdf-schema#subClassOf
+ContractualSavingsInstitution,"Example institutional investors include banks, insurance companies, mutual funds, pension funds, and other similar large funds.",core#example
+SelfRegulatingOrganization,SRO,abbreviation
+BankHoldingCompany,or has direct or indirect control of one or more banks; BHCs may also own nonbanking subsidiaries such as broker-dealers and asset managers,core#definition
+DataProcessingServicer,owl#Class,22-rdf-syntax-ns#type
+UnderwritingArrangement,underwriting arrangement,rdf-schema#label
+Nf5a0c4e376e6409f8fe713dfa232e10b,Nfd4baab4f63c4b3ba01495b575b63197,owl#someValuesFrom
+N046393720da448ab9533c347c0d3dfa7,owl#Restriction,22-rdf-syntax-ns#type
+N850603f06f2c46a99f824437e0262131,BusinessIdentifierCodeScheme,owl#someValuesFrom
+isPortfolioCompanyOf,is portfolio company of,rdf-schema#label
+Bank,"Barron's Dictionary of Banking Terms, Sixth Edition, 2012",adaptedFrom
+BrokerageFirm,market maker,synonym
+RegisteredInvestmentAdvisor,RIA,abbreviation
+BankingProduct,product provided to consumers and businesses by a depository institution,core#definition
+Nd6727e479f8947339e9122362b6c3b44,isPlayedBy,owl#onProperty
+DataProcessingServicer,InstitutionTypes,adaptedFrom
+PrincipalUnderwriter,"Principal underwriter of or for a closed-end company or any issuer which is not an investment company, or of any security issued by such a company or issuer, means any underwriter who, in connection with a primary distribution of securities, (a) is in privity of contract with the issuer or an affiliated person of the issuer; (b) acting alone or in concert with one or more other persons, initiates or directs the formation of an underwriting syndicate; or (c) is allowed a rate of gross commission, spread, or other profit greater than the rate allowed another underwriter participating in the distribution.",explanatoryNote
+hasDateEstablishmentTerminated,last full day that the entity existed,core#definition
+PayrollService,payroll service,rdf-schema#label
+N1e689d6efb76439a9bc5fda77c488eb3,owl#Restriction,22-rdf-syntax-ns#type
+InsuranceCompany,ica40.pdf,adaptedFrom
+CommercialFinanceCompany,commercial credit company,synonym
+Nbe26b140232543a59bb477597350d61f,hasMember,owl#onProperty
+BusinessIdentifierCode,N4c5df48139044f4aab3087bb8c6f7f97,rdf-schema#subClassOf
+InvestmentCompany,investment company,rdf-schema#label
+hasPortfolioCompany,owl#ObjectProperty,22-rdf-syntax-ns#type
+MoneyServicesBusiness,This definition excludes banks and persons registered with or examined by the Securities and Exchange Commission or the Commodities Futures Trading Commission.,explanatoryNote

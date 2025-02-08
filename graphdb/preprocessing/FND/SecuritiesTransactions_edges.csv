@@ -1,0 +1,90 @@
+source_id,target_id,relationship
+embodies,owl#ObjectProperty,22-rdf-syntax-ns#type
+embodies,SecuritiesTransactionContract,rdf-schema#range
+N576956f7bb7e41399ab47c6616b9bbcf,consideration,owl#onProperty
+Nf74531a635d54cc6bf0e04c627dedd2e,Security,22-rdf-syntax-ns#first
+SecuritiesTransactionContract,The contract (written or implied) which governs the transaction of securities in the secondary Market.,core#definition
+FinancialSecuritiesSecondaryMarketTransaction,financial securities secondary market transaction,rdf-schema#label
+embodies,embodies,rdf-schema#label
+FinancialSecuritiesSecondaryMarketTransaction,N6a3ef267494840f6b3c58138a47e3fc0,rdf-schema#subClassOf
+SecuritiesTransactionPrincipal,securities transaction principal,rdf-schema#label
+SecuritiesTransactionCounterparty,owl#Class,22-rdf-syntax-ns#type
+N2d92913a92964d1f9257a49c3cf3efa3,owl#Restriction,22-rdf-syntax-ns#type
+SecuritiesTransactionCounterparty,securities transaction counterparty,rdf-schema#label
+SecuritiesTransactionPrincipal,TransactionPrincipal,rdf-schema#subClassOf
+,"Describes the basic concepts for securities transactions, as an extension of market transactions more generally. Incudes types of securities transactions, parties to the transaction, settlement and the covering contract for the transaction. This ontology would form the basis for more detailed securities transaction concepts that would ideally be derived from the FIX standard.",abstract
+follows,FinancialPrimaryMarketTransaction,rdf-schema#domain
+WhenIssuedTransaction,owl#Class,22-rdf-syntax-ns#type
+FinancialSecuritiesSecondaryMarketTransaction,N576956f7bb7e41399ab47c6616b9bbcf,rdf-schema#subClassOf
+offsetForWIIssueDate,offset for w i issue date,rdf-schema#label
+offsetForWIIssueDate,WhenIssuedTransaction,rdf-schema#domain
+,,owl#imports
+SecuritiesTransactionContract,securities transaction contract,rdf-schema#label
+FinancialPrimaryMarketTransaction,owl#Class,22-rdf-syntax-ns#type
+SecuritiesTransactionContract,owl#Class,22-rdf-syntax-ns#type
+N1f2ec4b3895f4754bbed139fbc2c928b,follows,owl#onProperty
+,,owl#versionIRI
+FinancialSecuritiesSecondaryMarketTransaction,owl#Class,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+Nf74531a635d54cc6bf0e04c627dedd2e,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,Securities Transactions Ontology,rdf-schema#label
+N777ee5cc4e544a468628e6b1bedf6721,AmountOfMoney,22-rdf-syntax-ns#first
+governs,governs,rdf-schema#label
+Nd107f36abb4b4843a2bf4190a83303ae,subject,owl#onProperty
+SecuritiesTransactionContract,"This is in line with the REA Ontology in which all Transactions are embodied in some Contract, whether written or implied. forms part of future ""Transaction"" model to be reviewed, but is ancestral to Options contract and transactions model.",core#editorialNote
+FinancialPrimaryMarketTransaction,ContractualTransaction,rdf-schema#subClassOf
+Nd107f36abb4b4843a2bf4190a83303ae,owl#Restriction,22-rdf-syntax-ns#type
+FinancialPrimaryMarketTransaction,N1f2ec4b3895f4754bbed139fbc2c928b,rdf-schema#subClassOf
+offsetForWIIssueDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+embodies,FinancialSecuritiesSecondaryMarketTransaction,rdf-schema#domain
+follows,transactionEventFollowsBusinessProcess,rdf-schema#subPropertyOf
+SecuritiesTransactionContract,N2d92913a92964d1f9257a49c3cf3efa3,rdf-schema#subClassOf
+FinancialSecuritiesSecondaryMarketTransaction,ContractualTransaction,rdf-schema#subClassOf
+Nbab54d06c9ff4223905b196fda7c222e,owl#Restriction,22-rdf-syntax-ns#type
+FinancialSecuritiesSecondaryMarketTransaction,Nad82374d72764cebbe51eafaa2114a69,rdf-schema#subClassOf
+FinancialSecuritiesSecondaryMarketTransaction,A Transaction in which some negotiable security is provided in exchange for some Consideration.,core#definition
+N777ee5cc4e544a468628e6b1bedf6721,Nf74531a635d54cc6bf0e04c627dedd2e,22-rdf-syntax-ns#rest
+embodies,transactionEmbodiesEconomicAgreement,rdf-schema#subPropertyOf
+follows,SettlementProcess,rdf-schema#range
+N2d92913a92964d1f9257a49c3cf3efa3,governs,owl#onProperty
+Nbab54d06c9ff4223905b196fda7c222e,SecuritiesTransactionCounterparty,owl#someValuesFrom
+FinancialPrimaryMarketTransaction,financial primary market transaction,rdf-schema#label
+FinancialPrimaryMarketTransaction,MarketTransaction,rdf-schema#subClassOf
+SecuritiesTransactionPrincipal,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+WhenIssuedTransaction,Trading in securities ahead of them being traded.,core#definition
+FinancialSecuritiesSecondaryMarketTransaction,MarketTransaction,rdf-schema#subClassOf
+offsetForWIIssueDate,"Used to calculate actual settlement date from given WI issue date. If issue date is unknwn, this determines how many days form the issue date it's going to settle.",core#definition
+WhenIssuedTransaction,FinancialSecuritiesSecondaryMarketTransaction,rdf-schema#subClassOf
+N576956f7bb7e41399ab47c6616b9bbcf,N63800c96fe57464cb513fbe1af840f86,owl#someValuesFrom
+governs,governs,rdf-schema#subPropertyOf
+WhenIssuedTransaction,when issued transaction,rdf-schema#label
+offsetForWIIssueDate,XMLSchema#integer,rdf-schema#range
+Nad82374d72764cebbe51eafaa2114a69,owl#Restriction,22-rdf-syntax-ns#type
+SettlementProcess,settlement process,rdf-schema#label
+governs,SecuritiesTransactionContract,rdf-schema#domain
+governs,embodies,owl#inverseOf
+,MIT,license
+N1f2ec4b3895f4754bbed139fbc2c928b,SettlementProcess,owl#someValuesFrom
+FinancialSecuritiesSecondaryMarketTransaction,Nbab54d06c9ff4223905b196fda7c222e,rdf-schema#subClassOf
+N63800c96fe57464cb513fbe1af840f86,owl#Class,22-rdf-syntax-ns#type
+,Informative,hasMaturityLevel
+N1f2ec4b3895f4754bbed139fbc2c928b,owl#Restriction,22-rdf-syntax-ns#type
+Nd107f36abb4b4843a2bf4190a83303ae,Security,owl#someValuesFrom
+N6a3ef267494840f6b3c58138a47e3fc0,owl#Restriction,22-rdf-syntax-ns#type
+FinancialSecuritiesSecondaryMarketTransaction,Nd107f36abb4b4843a2bf4190a83303ae,rdf-schema#subClassOf
+N63800c96fe57464cb513fbe1af840f86,N777ee5cc4e544a468628e6b1bedf6721,owl#unionOf
+N6a3ef267494840f6b3c58138a47e3fc0,hasPrincipalParty,owl#onProperty
+Nad82374d72764cebbe51eafaa2114a69,embodies,owl#onProperty
+Nad82374d72764cebbe51eafaa2114a69,SecuritiesTransactionContract,owl#someValuesFrom
+SecuritiesTransactionCounterparty,TransactionCounterparty,rdf-schema#subClassOf
+SettlementProcess,owl#Class,22-rdf-syntax-ns#type
+Nbab54d06c9ff4223905b196fda7c222e,hasCounterparty,owl#onProperty
+N6a3ef267494840f6b3c58138a47e3fc0,SecuritiesTransactionPrincipal,owl#someValuesFrom
+SecuritiesTransactionContract,EconomicContract,rdf-schema#subClassOf
+N2d92913a92964d1f9257a49c3cf3efa3,FinancialSecuritiesSecondaryMarketTransaction,owl#someValuesFrom
+follows,owl#ObjectProperty,22-rdf-syntax-ns#type
+governs,owl#ObjectProperty,22-rdf-syntax-ns#type
+N576956f7bb7e41399ab47c6616b9bbcf,owl#Restriction,22-rdf-syntax-ns#type
+governs,FinancialSecuritiesSecondaryMarketTransaction,rdf-schema#range
+follows,follows,rdf-schema#label

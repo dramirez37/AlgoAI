@@ -1,0 +1,37 @@
+source_id,target_id,relationship
+AutomatedSystem,automated system,rdf-schema#label
+Ne67db412e6934d8e88832bf107dee0c8,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#imports
+,"Agents.rdf version of this ontology was modified to loosen the range restriction on hasName to rdfs:Literal, facilitating multi-lingual name representation.",core#changeNote
+,Release,hasMaturityLevel
+,Agents.rdf version of this ontology was modified to eliminate duplication with concepts in LCC.,core#changeNote
+, eliminate it where it is used.,core#changeNote
+,MIT,license
+,Agents.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+AutomatedSystem,automated-system-c85583d0f17a632,adaptedFrom
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,"Agents.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+AutomatedSystem,owl#Class,22-rdf-syntax-ns#type
+,"ontology structure
+		(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.",core#changeNote
+AutomatedSystem,system that reduces or eliminates the need for human involvement in order to complete a task,core#definition
+,,owl#versionIRI
+,Agents.rdf version of this ontology was modified to add a custom datatype for text values (which might be either xsd:string or rdf:langString) and use that in the restriction on hasName on autonomous agent.,core#changeNote
+AutomatedSystem,Agent,rdf-schema#subClassOf
+,Agents.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+,owl#Ontology,22-rdf-syntax-ns#type
+Ne67db412e6934d8e88832bf107dee0c8,hasTextualName,owl#onProperty
+SoftwareAgent,AutomatedSystem,rdf-schema#subClassOf
+,Agents Ontology,rdf-schema#label
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+,"Agents.rdf version of this ontology was modified to support the FIBO 2.0 RFC, primarily with respect to equivalence relationships to LCC.",core#changeNote
+Agent,owl#Class,22-rdf-syntax-ns#type
+Ne67db412e6934d8e88832bf107dee0c8,0,owl#minQualifiedCardinality
+,"This ontology extends the Commons 1.1 Parties and Situations ontology to define defines the concept of a software system, which may or may not be autonomous. Other concepts that were originally defined in this ontology have been replaced with their corresponding concepts in Commons.",abstract
+,Agents.rdf version of the ontology was modified to eliminate elements that have been deprecated for several quarters (FND-386).,core#changeNote
+Ne67db412e6934d8e88832bf107dee0c8,Text,owl#onDataRange
+,.,core#changeNote
+Agent,Ne67db412e6934d8e88832bf107dee0c8,rdf-schema#subClassOf
+,Agents.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+,Agents.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+SoftwareAgent,owl#Class,22-rdf-syntax-ns#type

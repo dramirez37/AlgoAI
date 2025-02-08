@@ -1,0 +1,513 @@
+source_id,target_id,relationship
+isDefiningOf,isDefiningOf,rdf-schema#label
+flow,MBSSecuritizationStart,rdf-schema#range
+isPurchaseOf,is purchase of,rdf-schema#label
+PoolReadyForIssue,Nc0307c6f3dd146c4adcb217b39f74d6d,owl#equivalentClass
+N1d4e8d4e2d8b41508f8217747f88c6b5,NotYetIssuedNonAgencyMortgagePool,owl#someValuesFrom
+PotentialMBSInvestor,owl#Class,22-rdf-syntax-ns#type
+allocatesRatings,allocates ratings,rdf-schema#label
+PoolLifecycleStateSelection,owl#Class,22-rdf-syntax-ns#type
+hasCounterparty,TranchedMBSDealTransaction,rdf-schema#domain
+RemittanceReport,Report,rdf-schema#subClassOf
+hasResource.2,has resource,rdf-schema#label
+N3d8fabdb3543472fba4c7b47500327b9,maximumAmount,owl#onProperty
+N42e6a12198c843f399120756a5db62b7,owl#Restriction,22-rdf-syntax-ns#type
+IndividualTrancheDefinitions,N3190339c3a64478aaeb98d193cc535ec,rdf-schema#subClassOf
+CloseDeal,N10ee2ee3cd704014a506e1e811ea3641,rdf-schema#subClassOf
+NonAgencyPoolCreationProcess,non agency pool creation process,rdf-schema#label
+PotentialNonAgencyMBSIssuer,N62e322ef6f0c4db796deb7357db73a01,rdf-schema#subClassOf
+PrimaryInvestor,owl#Class,22-rdf-syntax-ns#type
+isAssessmentOf,is assessment of,rdf-schema#label
+hasPrimaryHolder,TranchedMBSInstrument,rdf-schema#domain
+TrancheNotesParameters,N3d8fabdb3543472fba4c7b47500327b9,rdf-schema#subClassOf
+DraftTrancheNotesParameters,owl#Class,22-rdf-syntax-ns#type
+resultsIn,TranchedMBSDealTransaction,rdf-schema#range
+TranchedMBSInstrument,owl#Class,22-rdf-syntax-ns#type
+N05816025b753499b8d81d58d0365239b,isIssueOf,owl#onProperty
+TranchedDraftProspectus,N8e2b314393c044229e9a980c545e7d18,rdf-schema#subClassOf
+MakeSecuritiesAvailableInMarket,N2be928bf6d75422582996d5c3d1f0988,rdf-schema#subClassOf
+Nb47ddee5f4664ba4a54bea23540207d5,SecurityUnderwriter,owl#someValuesFrom
+Nb44f25fb538a4b158f01b4779fe0fe6a,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+maximumAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+TrancheStructureAndTermsheet,TranchedMBSIssueProspectusPart,rdf-schema#subClassOf
+hasContent.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+resultsIn.2,results in,rdf-schema#label
+hasTrustee,owl#ObjectProperty,22-rdf-syntax-ns#type
+isIssueOf,is issue of,rdf-schema#label
+identifierIssuedBy,TranchedMBSInstrument,rdf-schema#domain
+PoolReadyForIssue,owl#Class,22-rdf-syntax-ns#type
+maximumAmount,MonetaryAmount,rdf-schema#range
+RatingsSuitableForIssue,owl#Class,22-rdf-syntax-ns#type
+N87ee8df1106c43228c18983b80e93f8c,addsTo,owl#onProperty
+AllocateRatings,IssuanceProcessActivity,rdf-schema#subClassOf
+N2be928bf6d75422582996d5c3d1f0988,TranchedMBSDealProspectus,owl#someValuesFrom
+CloseDeal,close deal,rdf-schema#label
+Nbccd26e0fc41428c829292334efd9789,NonAgencyMortgagePool,owl#someValuesFrom
+Nba5c740cd2324468adb43a94a64a91f4,hasContractualElement,owl#onProperty
+isDefiningOf,DefinePoolCharacteristics,rdf-schema#domain
+commitmentBasedOn,owl#ObjectProperty,22-rdf-syntax-ns#type
+IndividualTrancheDefinitions,TermSheet,rdf-schema#subClassOf
+,,owl#versionIRI
+requires.1,MakeSecuritiesAvailableInMarket,rdf-schema#domain
+requires.1,TranchedMBSDealProspectus,rdf-schema#range
+InAssemblyMortgagePool,Nfeb9884361cf4da280e460e6bdc74e23,rdf-schema#subClassOf
+DefinePoolCharacteristics,define pool characteristics,rdf-schema#label
+N8e2b314393c044229e9a980c545e7d18,TranchedMBSDealProspectus,owl#someValuesFrom
+DefineNotesParameters,define notes parameters,rdf-schema#label
+NotYetIssuedNonAgencyMortgagePool,not yet issued non agency mortgage pool,rdf-schema#label
+refersTo,refers to,rdf-schema#label
+RatingsAgency,Neb1e36e6085541b78422d227df05b8df,rdf-schema#subClassOf
+TranchedDraftProspectus,PreliminaryProspectus,rdf-schema#subClassOf
+TranchedMBSPrimaryDealTransactionSettlementProcess,The process by which the primary deal transaction is settled. Term origin:MBS PoC Reviews,core#definition
+hasPrincipalParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+DrawUpOfferingMemorandum,owl#Class,22-rdf-syntax-ns#type
+NumberingAgency,numbering agency,rdf-schema#label
+DrawUpOfferingMemorandum,IssuanceProcessActivity,rdf-schema#subClassOf
+Nbccd26e0fc41428c829292334efd9789,owl#Restriction,22-rdf-syntax-ns#type
+Investor,investor,rdf-schema#label
+Nceea2079763648a18a74a2d87f9281c0,owl#Restriction,22-rdf-syntax-ns#type
+Investor,owl#Class,22-rdf-syntax-ns#type
+TrancheStructureAndTermsheet,owl#Class,22-rdf-syntax-ns#type
+PrimaryInvestor,primary investor,rdf-schema#label
+AllocateRatings,owl#Class,22-rdf-syntax-ns#type
+N3d8fabdb3543472fba4c7b47500327b9,1,owl#maxQualifiedCardinality
+mayBecome,may become,rdf-schema#label
+NonAgencyPoolCreationStart,non agency pool creation start,rdf-schema#label
+resultsInPublicationOf,CloseDeal,rdf-schema#domain
+N90b48412b2964beebda24cdb3be41a87,owl#Restriction,22-rdf-syntax-ns#type
+hasPrimaryHolder,owl#ObjectProperty,22-rdf-syntax-ns#type
+PurchaseMortgageIntoPool,N87ee8df1106c43228c18983b80e93f8c,rdf-schema#subClassOf
+Nb8d34bacfe1449188d211348a0abda22,owl#Restriction,22-rdf-syntax-ns#type
+RegisterSecurity,register security,rdf-schema#label
+MBSSecuritizationStart,m b s securitization start,rdf-schema#label
+hasResource.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+NumberingAgency,owl#Class,22-rdf-syntax-ns#type
+Nc46500215590418cb2176b3398a3d810,resultsIn.1,owl#onProperty
+N1633408e231a4dccaaa85df89619dade,LoanSecuredByRealEstate,owl#someValuesFrom
+TranchedMBSDealSettlement,owl#Class,22-rdf-syntax-ns#type
+includesDetailsAbout,TrancheStructureAndTermsheet,rdf-schema#range
+DrawUpTrancheTermsheets,IssuanceProcessActivity,rdf-schema#subClassOf
+N777b077834ef44e2be980ce749704bf9,AllocatePrimaryIdentifier,owl#someValuesFrom
+isAssessmentOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+Neb1e36e6085541b78422d227df05b8df,owl#Restriction,22-rdf-syntax-ns#type
+hasResource.2,DraftTrancheNotesParameters,rdf-schema#range
+Nb44f25fb538a4b158f01b4779fe0fe6a,IdentifyConformingMortgage,22-rdf-syntax-ns#first
+N76f92c554e1b41dba4757e57368dd9a2,commitmentBasedOn,owl#onProperty
+N07eff4d9ec3d4b51a08e2d93d1f33e65,TranchedMBSPrimaryDealTransactionSettlementProcess,owl#someValuesFrom
+TrancheNotesParameters,TranchedMBSIssueProspectusPart,rdf-schema#subClassOf
+TranchedMBSProspectusOutline,owl#Class,22-rdf-syntax-ns#type
+NonAgencyPoolCreationEnd,owl#Class,22-rdf-syntax-ns#type
+hasResource.1,TranchedOfferingMemorandum,rdf-schema#range
+NonAgencyPoolCreationEnd,Na5673b62d93c4f1eb565bafcb75f4f02,rdf-schema#subClassOf
+N2be928bf6d75422582996d5c3d1f0988,requires.1,owl#onProperty
+Nc3cba8b4dd2241e6a1428e11cc2364c8,FinalizePoolContent,22-rdf-syntax-ns#first
+N1d4e8d4e2d8b41508f8217747f88c6b5,owl#Restriction,22-rdf-syntax-ns#type
+Nbccd26e0fc41428c829292334efd9789,requires,owl#onProperty
+NotYetIssuedNonAgencyMortgagePool,NonAgencyMortgagePool,rdf-schema#subClassOf
+RatingsAgency,owl#Class,22-rdf-syntax-ns#type
+allocatesIdentifier,allocates identifier,rdf-schema#label
+isDefiningOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nfb7e65ad6d814e27a49d94c5d8ffe91a,owl#Restriction,22-rdf-syntax-ns#type
+PoolTrustee,owl#Class,22-rdf-syntax-ns#type
+N3d8fabdb3543472fba4c7b47500327b9,owl#Restriction,22-rdf-syntax-ns#type
+hasContent,DraftTrancheStructure,rdf-schema#range
+Nda6be189d2294f41be925cdeb4299d1b,hasStage,owl#onProperty
+PrimaryInvestor,"A party which becomes the primary investor in the issue, by purchasing some of the tranches of the issue. Term origin:MBS PoC Reviews",core#definition
+allocatesRatings,RatingsAgency,rdf-schema#domain
+PotentialTranchedIssueUnderwriter,The entity which will become the underwriter for the tranched MBS issue. Term origin:MBS PoC Reviews,core#definition
+Nd7dd8518df0a47b2adbc025413097fdd,TranchedMBSDealProspectus,owl#someValuesFrom
+TrancheStructureAndTermsheet,tranche structure and termsheet,rdf-schema#label
+DrawUpTrancheTermsheets,draw up tranche termsheets,rdf-schema#label
+N2400dce0a16d40f0b255664def99f47a,PoolTrustee,owl#someValuesFrom
+identifierIssuedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+N07eff4d9ec3d4b51a08e2d93d1f33e65,follows,owl#onProperty
+denominationIncrement,MonetaryAmount,rdf-schema#range
+Nc6d174990412442db2fe16154ec6289e,DrawUpTrancheTermsheets,22-rdf-syntax-ns#first
+N3190339c3a64478aaeb98d193cc535ec,BondAmortizationPaymentTerms,owl#someValuesFrom
+TrancheNotesParameters,owl#Class,22-rdf-syntax-ns#type
+GetCommitmentFromInvestors,N76f92c554e1b41dba4757e57368dd9a2,rdf-schema#subClassOf
+InAssemblyMortgagePool,NonAgencyMortgagePool,rdf-schema#subClassOf
+MakeSecuritiesAvailableInMarket,IssuanceProcessActivity,rdf-schema#subClassOf
+NumberingAgency,The agency which will provide the primary securitiy identifier for the security. Term origin:MBS PoC Reviews,core#definition
+PoolTrustee,pool trustee,rdf-schema#label
+identifierIssuedBy,identifier issued by,rdf-schema#label
+N3d8fabdb3543472fba4c7b47500327b9,MonetaryAmount,owl#onClass
+isDefiningOf,NotYetIssuedNonAgencyMortgagePool,rdf-schema#range
+requires,requires,rdf-schema#label
+N075ffd3049d94893850a7d5dd95a0565,owl#Restriction,22-rdf-syntax-ns#type
+hasContent.1,DraftTrancheTermsheet,rdf-schema#range
+mayBecome,owl#ObjectProperty,22-rdf-syntax-ns#type
+AllocatePrimaryIdentifier,allocate primary identifier,rdf-schema#label
+hasPrincipalParty,has principal party,rdf-schema#label
+hasContent.1,TranchedMBSProspectusOutline,rdf-schema#domain
+TranchedOfferingMemorandum,owl#Class,22-rdf-syntax-ns#type
+PurchaseMortgageIntoPool,IssuanceProcessActivity,rdf-schema#subClassOf
+MakeSecuritiesAvailableInMarket,make securities available in market,rdf-schema#label
+hasPrincipalParty,TranchedMBSDealTransaction,rdf-schema#domain
+TranchedOfferingMemorandum,tranched offering memorandum,rdf-schema#label
+requires.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+PoolTrustee,PartyRole,rdf-schema#subClassOf
+N1633408e231a4dccaaa85df89619dade,isPurchaseOf,owl#onProperty
+denominationIncrement,TrancheNotesParameters,rdf-schema#domain
+DrawUpOfferingMemorandum,draw up offering memorandum,rdf-schema#label
+N075ffd3049d94893850a7d5dd95a0565,refersTo,owl#onProperty
+AllocatePrimaryIdentifier,IssuanceProcessActivity,rdf-schema#subClassOf
+commitsTo,commits to,rdf-schema#label
+MakeSecuritiesAvailableInMarket,owl#Class,22-rdf-syntax-ns#type
+CloseDeal,Nceea2079763648a18a74a2d87f9281c0,rdf-schema#subClassOf
+PurchaseMortgageIntoPool,purchase mortgage into pool,rdf-schema#label
+maximumAmount,"This has not been seen - incliuded as it's implicit but we might want to get rid of this. ACTION: Look at example prospectus document, mark up against this model; if this item is not seen, we could remove it",core#definition
+resultsInPublicationOf,RemittanceReport,rdf-schema#range
+N8e2b314393c044229e9a980c545e7d18,owl#Restriction,22-rdf-syntax-ns#type
+N777b077834ef44e2be980ce749704bf9,allocatesIdentifier,owl#onProperty
+commitsTo,GetCommitmentFromInvestors,rdf-schema#range
+hasResource.1,has resource,rdf-schema#label
+N5dd0d349c51540f48924cb08f5460ed8,isAbout,owl#onProperty
+Nb8f14dd956eb4ccfb1277b16dbd4c9fe,owl#Restriction,22-rdf-syntax-ns#type
+IdentifyConformingMortgage,IssuanceProcessActivity,rdf-schema#subClassOf
+resultsIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+RegisterSecurity,"After the deal is closed the security is formally registered with some registraton authority This is the ""official"" bit - there is not a separate ""Issue"" activity which is official ?????",core#definition
+N05816025b753499b8d81d58d0365239b,TranchedMBSDeal,owl#someValuesFrom
+Nba312dc9c4534206b8a31f7af98050d9,owl#Restriction,22-rdf-syntax-ns#type
+N3e221ae4eace47ab9440e7b71dc4b442,owl#Restriction,22-rdf-syntax-ns#type
+InAssemblyMortgagePool,in assembly mortgage pool,rdf-schema#label
+GetCommitmentFromInvestors,owl#Class,22-rdf-syntax-ns#type
+allocatesRatings,owl#ObjectProperty,22-rdf-syntax-ns#type
+PurchaseMortgageIntoPool,owl#Class,22-rdf-syntax-ns#type
+denominationIncrement,denomination increment,rdf-schema#label
+hasTrustee,PoolTrustee,rdf-schema#range
+N62e322ef6f0c4db796deb7357db73a01,owl#Restriction,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+AllocatePrimaryIdentifier,owl#Class,22-rdf-syntax-ns#type
+PotentialTranchedIssueUnderwriter,potential tranched issue underwriter,rdf-schema#label
+N5dd0d349c51540f48924cb08f5460ed8,MBSTrancheNote,owl#someValuesFrom
+MarketIssueToPrimaryInvestors,N71c870e0403e47c3b2071c8c3b4fbc2e,rdf-schema#subClassOf
+N87ee8df1106c43228c18983b80e93f8c,owl#Restriction,22-rdf-syntax-ns#type
+commitmentBasedOn,TranchedDraftProspectus,rdf-schema#range
+hasContent,owl#ObjectProperty,22-rdf-syntax-ns#type
+resultsIn.2,TranchedMBSDealProspectus,rdf-schema#range
+IdentifyUnderwriter,Nf9247313e3e5485bb0eebf01d81bd931,rdf-schema#subClassOf
+PotentialNonAgencyMBSIssuer,potential non agency m b s issuer,rdf-schema#label
+IdentifyConformingMortgage,identify conforming mortgage,rdf-schema#label
+TranchedOfferingMemorandum,"The offering memorandum for a tranched MBS issue, setting out basic information about a future issue, for the information of prospective investors and their agents.",core#definition
+IdentifyConformingMortgage,owl#Class,22-rdf-syntax-ns#type
+resultsIn.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+resultsIn.1,DraftTrancheNotesParameters,rdf-schema#range
+MakeSecuritiesAvailableInMarket,N05816025b753499b8d81d58d0365239b,rdf-schema#subClassOf
+N62e322ef6f0c4db796deb7357db73a01,AssessPoolSuitabilityForIssuance,owl#someValuesFrom
+isPurchaseOf,LoanSecuredByRealEstate,rdf-schema#range
+isIssueOf,TranchedMBSDeal,rdf-schema#range
+NonAgencyPoolCreationProcess,owl#Class,22-rdf-syntax-ns#type
+PotentialNonAgencyMBSIssuer,owl#Class,22-rdf-syntax-ns#type
+requires,NonAgencyMortgagePool,rdf-schema#range
+AllocateRatings,allocate ratings,rdf-schema#label
+N42e6a12198c843f399120756a5db62b7,includesDetailsAbout.1,owl#onProperty
+InIssuanceNonAgencyMortgagePool,owl#Class,22-rdf-syntax-ns#type
+requires.1,requires,rdf-schema#label
+includesDetailsAbout.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Process ontology for the process of issuance (securitization) of mortgage backed securities by commercial institutions rather than by government agencies.,abstract
+hasResource.1,MarketIssueToPrimaryInvestors,rdf-schema#domain
+hasContent.1,has content,rdf-schema#label
+N10ee2ee3cd704014a506e1e811ea3641,RemittanceReport,owl#someValuesFrom
+NotYetIssuedNonAgencyMortgagePool,N7200379006c24817b5f597b583a07842,rdf-schema#subClassOf
+includesDetailsAbout,TranchedOfferingMemorandum,rdf-schema#domain
+finalizes.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+DraftTrancheStructure,draft tranche structure,rdf-schema#label
+mayIncludeDetailsAbout,DraftTrancheNotesParameters,rdf-schema#range
+Nba5c740cd2324468adb43a94a64a91f4,CouponPaymentTerms,owl#someValuesFrom
+N3e221ae4eace47ab9440e7b71dc4b442,PrimaryInvestor,owl#someValuesFrom
+Neb1e36e6085541b78422d227df05b8df,allocatesRatings,owl#onProperty
+N8e2b314393c044229e9a980c545e7d18,precedes,owl#onProperty
+IdentifyUnderwriter,identify underwriter,rdf-schema#label
+mayIncludeDetailsAbout,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nf9247313e3e5485bb0eebf01d81bd931,owl#Restriction,22-rdf-syntax-ns#type
+IndividualTrancheDefinitions,owl#Class,22-rdf-syntax-ns#type
+TranchedMBSDealSettlement,tranched m b s deal settlement,rdf-schema#label
+N3190339c3a64478aaeb98d193cc535ec,hasContractualElement,owl#onProperty
+TrancheStructureAndTermsheet,"The termsheet with the terms for individual tranches is a separate component, known as the Tranche Termsheet or Individual Tranche Definitions. These may in practice be in one sheet or document deliverable but is a set of termsheets defining the terms for the set of tranches. Term origin:MBS PoC Reviews",core#definition
+Na5673b62d93c4f1eb565bafcb75f4f02,flow,owl#onProperty
+N125cf946d4744b2ca3febea63f123d19,finalizes.1,owl#onProperty
+FinalizePoolContent,IssuanceProcessActivity,rdf-schema#subClassOf
+Nfeb9884361cf4da280e460e6bdc74e23,owl#Restriction,22-rdf-syntax-ns#type
+includesDetailsAbout.1,IndividualTrancheDefinitions,rdf-schema#range
+DraftTrancheNotesParameters,Draft of set of information defining the notes breakdown of one tranche. covers denominations and amounts that you can byu of the instrument in this tranche. Term origin:MBS PoC Reviews,core#definition
+N7200379006c24817b5f597b583a07842,hasStage,owl#onProperty
+Nfeb9884361cf4da280e460e6bdc74e23,InAssembly,owl#someValuesFrom
+DraftTrancheNotesParameters,draft tranche notes parameters,rdf-schema#label
+Nc0307c6f3dd146c4adcb217b39f74d6d,Nc3cba8b4dd2241e6a1428e11cc2364c8,owl#unionOf
+hasResource,GetCommitmentFromInvestors,rdf-schema#domain
+denominationIncrement,owl#ObjectProperty,22-rdf-syntax-ns#type
+isAssessmentOf,AssessPoolSuitabilityForIssuance,rdf-schema#domain
+Nc6d174990412442db2fe16154ec6289e,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+GetCommitmentFromInvestors,N2f64cda690dd4802bde0fa0aca8a4ae8,rdf-schema#subClassOf
+allocatesRatings,AllocateRatings,rdf-schema#range
+hasCounterparty,PrimaryInvestor,rdf-schema#range
+MBSSecuritizationEnd,m b s securitization end,rdf-schema#label
+TranchedMBSIssueProspectusPart,ProspectusPart,rdf-schema#subClassOf
+TranchedMBSSecuritizationProcess,owl#Class,22-rdf-syntax-ns#type
+refersTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+N075ffd3049d94893850a7d5dd95a0565,LoanSecuredByRealEstate,owl#someValuesFrom
+TranchedOfferingMemorandum,N42e6a12198c843f399120756a5db62b7,rdf-schema#subClassOf
+MBSSecuritizationEnd,owl#Class,22-rdf-syntax-ns#type
+Nf9247313e3e5485bb0eebf01d81bd931,resultsIn,owl#onProperty
+hasTrustee,NonAgencyMortgagePool,rdf-schema#domain
+includesDetailsAbout.1,TranchedOfferingMemorandum,rdf-schema#domain
+InAssemblyMortgagePool,owl#Class,22-rdf-syntax-ns#type
+FinalizePoolContent,owl#Class,22-rdf-syntax-ns#type
+IdentifyConformingMortgage,N075ffd3049d94893850a7d5dd95a0565,rdf-schema#subClassOf
+Na5673b62d93c4f1eb565bafcb75f4f02,owl#Restriction,22-rdf-syntax-ns#type
+flow,owl#ObjectProperty,22-rdf-syntax-ns#type
+resultsIn.2,FinalizeProspectus,rdf-schema#domain
+RatingsAgency,ratings agency,rdf-schema#label
+Na5673b62d93c4f1eb565bafcb75f4f02,MBSSecuritizationStart,owl#someValuesFrom
+MarketIssueToPrimaryInvestors,IssuanceProcessActivity,rdf-schema#subClassOf
+Nc3cba8b4dd2241e6a1428e11cc2364c8,Nb44f25fb538a4b158f01b4779fe0fe6a,22-rdf-syntax-ns#rest
+TranchedMBSSecuritizationProcess,MBSSecuritizationProcess,rdf-schema#subClassOf
+Nc0307c6f3dd146c4adcb217b39f74d6d,owl#Class,22-rdf-syntax-ns#type
+mayIncludeDetailsAbout,TranchedOfferingMemorandum,rdf-schema#domain
+RemittanceReport,remittance report,rdf-schema#label
+FinalizeProspectus,IssuanceProcessActivity,rdf-schema#subClassOf
+commitsTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+DrawUpTrancheTermsheets,owl#Class,22-rdf-syntax-ns#type
+FinalizeProspectus,finalize prospectus,rdf-schema#label
+TranchedMBSProspectusOutline,"An outline of the tranched prospectus, provind an intial representation of the possible tranches and their features. Term origin:MBS PoC Reviews",core#definition
+MBSSecuritizationStart,owl#Class,22-rdf-syntax-ns#type
+Nd7dd8518df0a47b2adbc025413097fdd,resultsIn.2,owl#onProperty
+Nc595acef8dd24a7987ed450604de396a,owl#Class,22-rdf-syntax-ns#type
+TranchedMBSProspectusOutline,tranched m b s prospectus outline,rdf-schema#label
+TranchedOfferingMemorandum,OfferingDocument,rdf-schema#subClassOf
+NumberingAgency,N777b077834ef44e2be980ce749704bf9,rdf-schema#subClassOf
+Nbc780685a05740cdb7443d421c493c21,owl#Restriction,22-rdf-syntax-ns#type
+CloseDeal,owl#Class,22-rdf-syntax-ns#type
+TranchedMBSProspectusOutline,Neb874ee43078417094cb5a463e98d4b2,rdf-schema#subClassOf
+CloseDeal,IssuanceProcessActivity,rdf-schema#subClassOf
+hasPrimaryHolder,has primary holder,rdf-schema#label
+MarketIssueToPrimaryInvestors,market issue to primary investors,rdf-schema#label
+commitsTo,BrokerDealer,rdf-schema#domain
+requires,DrawUpTrancheTermsheets,rdf-schema#domain
+TranchedOfferingMemorandum,"The Offering Memorandum will include or attach the terms for two or more individual tranches that will make up the issue, and the structure of the tranches, including how they will relate to one another (priorities and so on). Term origin:MBS PoC Reviews",core#definition
+N2f64cda690dd4802bde0fa0aca8a4ae8,DraftTrancheNotesParameters,owl#someValuesFrom
+RatingsSuitableForIssue,ratings suitable for issue,rdf-schema#label
+TranchedMBSDealTransaction,tranched m b s deal transaction,rdf-schema#label
+MarketIssueToPrimaryInvestors,owl#Class,22-rdf-syntax-ns#type
+FinalizeProspectus,Nd7dd8518df0a47b2adbc025413097fdd,rdf-schema#subClassOf
+N76f92c554e1b41dba4757e57368dd9a2,owl#Restriction,22-rdf-syntax-ns#type
+resultsIn.1,results in,rdf-schema#label
+resultsIn,results in,rdf-schema#label
+FinalizeProspectus,owl#Class,22-rdf-syntax-ns#type
+N2f64cda690dd4802bde0fa0aca8a4ae8,hasResource.2,owl#onProperty
+resultsInPublicationOf,results in publication of,rdf-schema#label
+N07eff4d9ec3d4b51a08e2d93d1f33e65,owl#Restriction,22-rdf-syntax-ns#type
+decomposesInto,decomposes into,rdf-schema#label
+finalizes.1,InIssuanceNonAgencyMortgagePool,rdf-schema#range
+DraftTrancheTermsheet,Draft of set of information defining one tranche of a tranched issue. This will become the termsheet of an individual tranche within that issue. Term origin:MBS PoC Reviews,core#definition
+NumberingAgency,SecuritiesIssuanceProcessActor,rdf-schema#subClassOf
+TranchedMBSDealTransaction,N07eff4d9ec3d4b51a08e2d93d1f33e65,rdf-schema#subClassOf
+PotentialNonAgencyMBSIssuer,Nb8f14dd956eb4ccfb1277b16dbd4c9fe,rdf-schema#subClassOf
+TranchedMBSProspectusOutline,PreliminaryProspectus,rdf-schema#subClassOf
+TranchedMBSDealSettlement,Nba312dc9c4534206b8a31f7af98050d9,rdf-schema#subClassOf
+BrokerDealer,owl#Class,22-rdf-syntax-ns#type
+identifierIssuedBy,PrimaryIdentifierIssuer,rdf-schema#range
+maximumAmount,maximum amount,rdf-schema#label
+IndividualTrancheDefinitions,Nba5c740cd2324468adb43a94a64a91f4,rdf-schema#subClassOf
+DefineNotesParameters,Nc46500215590418cb2176b3398a3d810,rdf-schema#subClassOf
+isPurchaseOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasResource,DraftTrancheNotesParameters,rdf-schema#range
+allocatesIdentifier,NumberingAgency,rdf-schema#domain
+includesDetailsAbout,includes details about,rdf-schema#label
+N76f92c554e1b41dba4757e57368dd9a2,TranchedDraftProspectus,owl#someValuesFrom
+TranchedMBSDealTransaction,The deal transaction by which the MBS Issue is issued to primary investors. Term origin:MBS PoC Reviews,core#definition
+addsTo,InAssemblyMortgagePool,rdf-schema#range
+N2400dce0a16d40f0b255664def99f47a,hasTrustee,owl#onProperty
+hasResource,owl#ObjectProperty,22-rdf-syntax-ns#type
+PotentialNonAgencyMBSIssuer,PoolBackedSecuritySecuritizationProcessActor,rdf-schema#subClassOf
+Nceea2079763648a18a74a2d87f9281c0,TranchedMBSDealTransaction,owl#someValuesFrom
+N7200379006c24817b5f597b583a07842,NotYetIssued,owl#someValuesFrom
+flow,flow,rdf-schema#label
+Nba312dc9c4534206b8a31f7af98050d9,decomposesInto,owl#onProperty
+RegisterSecurity,IssuanceProcessActivity,rdf-schema#subClassOf
+hasContent,TranchedMBSProspectusOutline,rdf-schema#domain
+DraftTrancheStructure,owl#Class,22-rdf-syntax-ns#type
+Na4277d87ee3b4556b732ab0a104010f4,hasResource,owl#onProperty
+Nc595acef8dd24a7987ed450604de396a,Ne0d51b9b76834324bff264142cab0290,owl#unionOf
+minimumDenomination,minimum denomination,rdf-schema#label
+Nba5c740cd2324468adb43a94a64a91f4,owl#Restriction,22-rdf-syntax-ns#type
+mayBecome,SecurityUnderwriter,rdf-schema#range
+isIssueOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+addsTo,adds to,rdf-schema#label
+TrancheNotesParameters,tranche notes parameters,rdf-schema#label
+N2f64cda690dd4802bde0fa0aca8a4ae8,owl#Restriction,22-rdf-syntax-ns#type
+AssessRatings,assess ratings,rdf-schema#label
+TranchedMBSPrimaryDealTransactionSettlementProcess,tranched m b s primary deal transaction settlement process,rdf-schema#label
+hasTrustee,has trustee,rdf-schema#label
+TranchedDraftProspectus,tranched draft prospectus,rdf-schema#label
+Nfb7e65ad6d814e27a49d94c5d8ffe91a,AllocatePrimaryIdentifier,owl#someValuesFrom
+TranchedMBSSecuritizationProcess,tranched m b s securitization process,rdf-schema#label
+DraftTrancheNotesParameters,Document,rdf-schema#subClassOf
+N42e6a12198c843f399120756a5db62b7,IndividualTrancheDefinitions,owl#someValuesFrom
+N7200379006c24817b5f597b583a07842,owl#Restriction,22-rdf-syntax-ns#type
+finalizes.1,finalizes,rdf-schema#label
+NonAgencyPoolCreationStart,owl#Class,22-rdf-syntax-ns#type
+N2be928bf6d75422582996d5c3d1f0988,owl#Restriction,22-rdf-syntax-ns#type
+TranchedMBSDealTransaction,FinancialPrimaryMarketTransaction,rdf-schema#subClassOf
+TranchedDraftProspectus,owl#Class,22-rdf-syntax-ns#type
+N3e221ae4eace47ab9440e7b71dc4b442,hasCounterparty,owl#onProperty
+N4ecabfbf279f47819da6b857bcf4b72b,owl#Restriction,22-rdf-syntax-ns#type
+AssessPoolSuitabilityForIssuance,IssuanceProcessActivity,rdf-schema#subClassOf
+isPurchaseOf,PurchaseMortgageIntoPool,rdf-schema#domain
+hasCounterparty,has counterparty,rdf-schema#label
+BrokerDealer,broker dealer,rdf-schema#label
+RegisterSecurity,owl#Class,22-rdf-syntax-ns#type
+Nb47ddee5f4664ba4a54bea23540207d5,mayBecome,owl#onProperty
+TranchedOfferingMemorandum,N90b48412b2964beebda24cdb3be41a87,rdf-schema#subClassOf
+N3190339c3a64478aaeb98d193cc535ec,owl#Restriction,22-rdf-syntax-ns#type
+resultsInPublicationOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+refersTo,IdentifyConformingMortgage,rdf-schema#domain
+decomposesInto,TranchedMBSPrimaryDealTransactionSettlementProcess,rdf-schema#range
+BrokerDealer,Nbc780685a05740cdb7443d421c493c21,rdf-schema#subClassOf
+PurchaseMortgageIntoPool,N1633408e231a4dccaaa85df89619dade,rdf-schema#subClassOf
+requires,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Provisional,hasMaturityLevel
+hasPrimaryHolder,PrimaryInvestor,rdf-schema#range
+Nb8f14dd956eb4ccfb1277b16dbd4c9fe,AssessRatings,owl#someValuesFrom
+,MIT,license
+NonAgencyPoolCreationProcess,RetailAssetPoolCreationProcess,rdf-schema#subClassOf
+N125cf946d4744b2ca3febea63f123d19,owl#Restriction,22-rdf-syntax-ns#type
+GetCommitmentFromInvestors,get commitment from investors,rdf-schema#label
+Nc46500215590418cb2176b3398a3d810,DraftTrancheNotesParameters,owl#someValuesFrom
+BrokerDealer,An entity which may become a primary investor in the issue. Term origin:MBS PoC Reviews,core#definition
+RemittanceReport,owl#Class,22-rdf-syntax-ns#type
+mayIncludeDetailsAbout,may include details about,rdf-schema#label
+Ne0d51b9b76834324bff264142cab0290,Nc6d174990412442db2fe16154ec6289e,22-rdf-syntax-ns#rest
+hasContent,hasPart,rdf-schema#subPropertyOf
+hasResource,has resource,rdf-schema#label
+hasPrincipalParty,NonAgencyMBSIssuer,rdf-schema#range
+N125cf946d4744b2ca3febea63f123d19,InIssuanceNonAgencyMortgagePool,owl#someValuesFrom
+DefinePoolCharacteristics,owl#Class,22-rdf-syntax-ns#type
+hasResource.2,GetCommitmentFromInvestors,rdf-schema#domain
+N1d4e8d4e2d8b41508f8217747f88c6b5,isDefiningOf,owl#onProperty
+DefinePoolCharacteristics,IssuanceProcessActivity,rdf-schema#subClassOf
+Nfb7e65ad6d814e27a49d94c5d8ffe91a,allocatesIdentifier,owl#onProperty
+IndividualTrancheDefinitions,individual tranche definitions,rdf-schema#label
+minimumDenomination,MonetaryAmount,rdf-schema#range
+hasContent.1,hasPart,rdf-schema#subPropertyOf
+PoolLifecycleStateSelection,PoolLifecycleStateSelection,rdf-schema#label
+PotentialMBSInvestor,potential m b s investor,rdf-schema#label
+includesDetailsAbout.1,includes details about,rdf-schema#label
+resultsIn,CloseDeal,rdf-schema#domain
+Nb8d34bacfe1449188d211348a0abda22,isAssessmentOf,owl#onProperty
+RatingsSuitableForIssue,Nc595acef8dd24a7987ed450604de396a,owl#equivalentClass
+Ne0d51b9b76834324bff264142cab0290,DrawUpOfferingMemorandum,22-rdf-syntax-ns#first
+N4ecabfbf279f47819da6b857bcf4b72b,TrancheStructureAndTermsheet,owl#someValuesFrom
+N71c870e0403e47c3b2071c8c3b4fbc2e,TranchedOfferingMemorandum,owl#someValuesFrom
+NotYetIssuedNonAgencyMortgagePool,owl#Class,22-rdf-syntax-ns#type
+DraftTrancheTermsheet,draft tranche termsheet,rdf-schema#label
+Neb874ee43078417094cb5a463e98d4b2,hasContent.1,owl#onProperty
+N777b077834ef44e2be980ce749704bf9,owl#Restriction,22-rdf-syntax-ns#type
+N87ee8df1106c43228c18983b80e93f8c,InAssemblyMortgagePool,owl#someValuesFrom
+N90b48412b2964beebda24cdb3be41a87,DraftTrancheNotesParameters,owl#onClass
+PoolReadyForIssue,pool ready for issue,rdf-schema#label
+isIssueOf,MakeSecuritiesAvailableInMarket,rdf-schema#domain
+addsTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+N71c870e0403e47c3b2071c8c3b4fbc2e,hasResource.1,owl#onProperty
+TranchedMBSIssueProspectusPart,owl#Class,22-rdf-syntax-ns#type
+,PrivateLabelMBSIssuance,rdf-schema#label
+commitmentBasedOn,commitment based on,rdf-schema#label
+N1633408e231a4dccaaa85df89619dade,owl#Restriction,22-rdf-syntax-ns#type
+RemittanceReport,Report containing a specific and limited set of information about the Deal. Term origin:MBS PoC Reviews,core#definition
+DrawUpTrancheTermsheets,Nbccd26e0fc41428c829292334efd9789,rdf-schema#subClassOf
+flow,NonAgencyPoolCreationEnd,rdf-schema#domain
+resultsIn.2,owl#ObjectProperty,22-rdf-syntax-ns#type
+FinalizePoolContent,finalize pool content,rdf-schema#label
+TrancheNotesParameters,N5dd0d349c51540f48924cb08f5460ed8,rdf-schema#subClassOf
+NonAgencyMortgagePool,owl#Class,22-rdf-syntax-ns#type
+TranchedMBSDealTransaction,owl#Class,22-rdf-syntax-ns#type
+addsTo,PurchaseMortgageIntoPool,rdf-schema#domain
+allocatesIdentifier,AllocatePrimaryIdentifier,rdf-schema#range
+Nd7dd8518df0a47b2adbc025413097fdd,owl#Restriction,22-rdf-syntax-ns#type
+Nc46500215590418cb2176b3398a3d810,owl#Restriction,22-rdf-syntax-ns#type
+Nda6be189d2294f41be925cdeb4299d1b,owl#Restriction,22-rdf-syntax-ns#type
+Na4277d87ee3b4556b732ab0a104010f4,DraftTrancheNotesParameters,owl#someValuesFrom
+DefinePoolCharacteristics,N1d4e8d4e2d8b41508f8217747f88c6b5,rdf-schema#subClassOf
+,,owl#imports
+resultsIn.1,DefineNotesParameters,rdf-schema#domain
+InIssuanceNonAgencyMortgagePool,NonAgencyMortgagePool,rdf-schema#subClassOf
+PoolLifecycleStateSelection,LifecycleStage,rdf-schema#subClassOf
+Nba312dc9c4534206b8a31f7af98050d9,TranchedMBSPrimaryDealTransactionSettlementProcess,owl#someValuesFrom
+Nb8f14dd956eb4ccfb1277b16dbd4c9fe,evaluates,owl#onProperty
+TrancheStructureAndTermsheet,One sheet defining the MBS structure.,core#definition
+DraftTrancheStructure,Document,rdf-schema#subClassOf
+IndividualTrancheDefinitions,"In reality there is one termsheet that has sets of information for the terms for each Tranche. This class of information identifies the terms of one tranche, but it does not exist as a separate document in its own right. Further Notes ? We may need to firm up the relationship between the individual tranche termsheet and the information about the relationships among these (some of which are quite complex) and the terms that are common to more than one tranche. In practice these may be separate sections of one document. Term origin:MBS PoC Reviews",core#definition
+Neb874ee43078417094cb5a463e98d4b2,owl#Restriction,22-rdf-syntax-ns#type
+TranchedMBSDealTransaction,N3e221ae4eace47ab9440e7b71dc4b442,rdf-schema#subClassOf
+PotentialTranchedIssueUnderwriter,PotentialUnderwriter,rdf-schema#subClassOf
+Nbc780685a05740cdb7443d421c493c21,GetCommitmentFromInvestors,owl#someValuesFrom
+PotentialTranchedIssueUnderwriter,owl#Class,22-rdf-syntax-ns#type
+TranchedMBSPrimaryDealTransactionSettlementProcess,owl#Class,22-rdf-syntax-ns#type
+GetCommitmentFromInvestors,Na4277d87ee3b4556b732ab0a104010f4,rdf-schema#subClassOf
+DefineNotesParameters,the denom of the notes,core#definition
+Nfeb9884361cf4da280e460e6bdc74e23,hasStage,owl#onProperty
+IdentifyUnderwriter,IssuanceProcessActivity,rdf-schema#subClassOf
+hasResource.2,owl#ObjectProperty,22-rdf-syntax-ns#type
+PoolTrustee,Nb47ddee5f4664ba4a54bea23540207d5,rdf-schema#subClassOf
+N62e322ef6f0c4db796deb7357db73a01,evaluates,owl#onProperty
+minimumDenomination,TrancheNotesParameters,rdf-schema#domain
+maximumAmount,TrancheNotesParameters,rdf-schema#domain
+N71c870e0403e47c3b2071c8c3b4fbc2e,owl#Restriction,22-rdf-syntax-ns#type
+refersTo,LoanSecuredByRealEstate,rdf-schema#range
+Nceea2079763648a18a74a2d87f9281c0,resultsIn,owl#onProperty
+DraftTrancheStructure,Draft of set of information defining the tranches in the tranched issue and how these relate to one another. Term origin:MBS PoC Reviews,core#definition
+TranchedMBSIssueProspectusPart,tranched m b s issue prospectus part,rdf-schema#label
+finalizes.1,FinalizePoolContent,rdf-schema#domain
+N90b48412b2964beebda24cdb3be41a87,mayIncludeDetailsAbout,owl#onProperty
+TranchedDraftProspectus,"The draft prospectus for a tranched Mortgage Backed Securities issue, as determined by the issuing entity prior to marketing the issue. Certain terms in the draft prospectus will be finalized later in the issuance process to become the actual Prospectus. Term origin:MBS PoC Reviews",core#definition
+AssessRatings,owl#Class,22-rdf-syntax-ns#type
+AssessRatings,IssuanceProcessActivity,rdf-schema#subClassOf
+N10ee2ee3cd704014a506e1e811ea3641,resultsInPublicationOf,owl#onProperty
+Nb8d34bacfe1449188d211348a0abda22,InAssemblyMortgagePool,owl#someValuesFrom
+MakeSecuritiesAvailableInMarket,"dealer who bought it?) There's not really much of a secondary market - the initial investors would often hold on to these. There is something around Bloomberg - you can go there and see what's available, if someone has a number of notes from a iven tranche, that they are willing to sell. So there's no transpoarency (!!) Sales would be OTC but less transparent e.g. if you look up a normal OTC stock, you would be able to see more of this information, than in these (non Agency) MBS issues and other SF. DOES THIS APPLY IN ALL MBS??.",core#definition
+InIssuanceNonAgencyMortgagePool,in issuance non agency mortgage pool,rdf-schema#label
+N10ee2ee3cd704014a506e1e811ea3641,owl#Restriction,22-rdf-syntax-ns#type
+allocatesIdentifier,owl#ObjectProperty,22-rdf-syntax-ns#type
+NumberingAgency,Nfb7e65ad6d814e27a49d94c5d8ffe91a,rdf-schema#subClassOf
+Neb874ee43078417094cb5a463e98d4b2,DraftTrancheTermsheet,owl#someValuesFrom
+Neb1e36e6085541b78422d227df05b8df,AllocateRatings,owl#someValuesFrom
+PotentialNonAgencyMBSIssuer,The entity which will become the issuing party for the Tranched MBS Issue. This entity is the principal actor in most of the activities involved in the issue. Term origin:MBS PoC Reviews,core#definition
+Nda6be189d2294f41be925cdeb4299d1b,InIssuance,owl#someValuesFrom
+IdentifyUnderwriter,owl#Class,22-rdf-syntax-ns#type
+NonAgencyMortgagePool,N2400dce0a16d40f0b255664def99f47a,rdf-schema#subClassOf
+hasCounterparty,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+AssessPoolSuitabilityForIssuance,Nb8d34bacfe1449188d211348a0abda22,rdf-schema#subClassOf
+N4ecabfbf279f47819da6b857bcf4b72b,includesDetailsAbout,owl#onProperty
+includesDetailsAbout,owl#ObjectProperty,22-rdf-syntax-ns#type
+DefineNotesParameters,IssuanceProcessActivity,rdf-schema#subClassOf
+FinalizePoolContent,N125cf946d4744b2ca3febea63f123d19,rdf-schema#subClassOf
+InIssuanceNonAgencyMortgagePool,Nda6be189d2294f41be925cdeb4299d1b,rdf-schema#subClassOf
+TrancheNotesParameters,"One set of information defining the notes breakdown of one tranche. Covers denominations and amounts that you can byu of the instrument in this tranche. Q: Is this really defined in the prospectus? A: yes The prospectus lists the characteristics including e.g. ""The notes will be sold in denominations of X AND Increuemtns of Y e.g. $250 000 incremented by $1000. Parameters include: Denominations Minimum amounts what else? Term origin:MBS PoC Reviews",core#definition
+Nf9247313e3e5485bb0eebf01d81bd931,PotentialTranchedIssueUnderwriter,owl#someValuesFrom
+DraftTrancheTermsheet,TermSheet,rdf-schema#subClassOf
+TranchedMBSPrimaryDealTransactionSettlementProcess,SettlementProcess,rdf-schema#subClassOf
+Nbc780685a05740cdb7443d421c493c21,commitsTo,owl#onProperty
+AssessPoolSuitabilityForIssuance,assess pool suitability for issuance,rdf-schema#label
+NonAgencyPoolCreationEnd,non agency pool creation end,rdf-schema#label
+GetCommitmentFromInvestors,IssuanceProcessActivity,rdf-schema#subClassOf
+hasContent,has content,rdf-schema#label
+TranchedOfferingMemorandum,N4ecabfbf279f47819da6b857bcf4b72b,rdf-schema#subClassOf
+decomposesInto,owl#ObjectProperty,22-rdf-syntax-ns#type
+isAssessmentOf,InAssemblyMortgagePool,rdf-schema#range
+mayBecome,PoolTrustee,rdf-schema#domain
+IndividualTrancheDefinitions,TranchedMBSIssueProspectusPart,rdf-schema#subClassOf
+DraftTrancheTermsheet,owl#Class,22-rdf-syntax-ns#type
+decomposesInto,TranchedMBSDealSettlement,rdf-schema#domain
+N90b48412b2964beebda24cdb3be41a87,1,owl#maxQualifiedCardinality
+minimumDenomination,owl#ObjectProperty,22-rdf-syntax-ns#type
+Na4277d87ee3b4556b732ab0a104010f4,owl#Restriction,22-rdf-syntax-ns#type
+N2400dce0a16d40f0b255664def99f47a,owl#Restriction,22-rdf-syntax-ns#type
+DefineNotesParameters,owl#Class,22-rdf-syntax-ns#type
+commitmentBasedOn,GetCommitmentFromInvestors,rdf-schema#domain
+TranchedMBSIssueProspectusPart,A part or section of a prospectus for a tranched mortgage backed securities issue. Term origin:MBS PoC Reviews,core#definition
+Nb47ddee5f4664ba4a54bea23540207d5,owl#Restriction,22-rdf-syntax-ns#type
+AssessPoolSuitabilityForIssuance,owl#Class,22-rdf-syntax-ns#type
+N05816025b753499b8d81d58d0365239b,owl#Restriction,22-rdf-syntax-ns#type
+N5dd0d349c51540f48924cb08f5460ed8,owl#Restriction,22-rdf-syntax-ns#type

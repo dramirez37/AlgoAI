@@ -1,0 +1,238 @@
+source_id,target_id,relationship
+FinancialInstrumentIdentificationScheme,formal definition of the structure and application of a particular set of financial instrument identifiers,core#definition
+InternationalSecuritiesIdentificationNumberingScheme,formal definition of the structure and application of a ISINs as defined in ISO 6166,core#definition
+ProprietarySecurityIdentificationScheme,SecurityIdentificationScheme,rdf-schema#subClassOf
+NationalSecuritiesIdentifyingNumber,NSIN,abbreviation
+Nf5cf0f8ede2e4aa7a473b88bcab53bc2,owl#Restriction,22-rdf-syntax-ns#type
+," version of this ontology was modified to correct the target of a ticker symbol, which identifies a listing not a listed security, refine the restriction on financial instrument identifier to say that it identifies an instrument or listing, normalize definitions to be ISO 704 compliant, eliminate duplication of concepts in LCC, and merge countries with locations in FND.",core#changeNote
+NationalSecuritiesIdentifyingNumber,N81589a9480844ce49d0f4171fce01f36,rdf-schema#subClassOf
+N4181c386cdab4a779de94a73940f25fc,NationalSecuritiesIdentifyingNumber,owl#onClass
+Nc6b2e5a69b5f45cabe675844b2b8c2ea,NationalSecuritiesIdentifyingNumberRegistry,owl#someValuesFrom
+SecurityRegistry,Nc139cde71e1a4df6913a803ddadff9cb,rdf-schema#subClassOf
+InternationalSecuritiesIdentificationNumber,N4181c386cdab4a779de94a73940f25fc,rdf-schema#subClassOf
+TickerSymbol,reassignable identifier of relatively short character string length that is unique within an exchange for a particular financial instrument or listing for that instrument,core#definition
+InternationalSecuritiesIdentificationNumber,owl#Class,22-rdf-syntax-ns#type
+ProprietarySecurityIdentificationScheme,"Proprietary schemes may be unique to an exchange or data provider, for example.",explanatoryNote
+NationalSecuritiesIdentifyingNumber,National Securities Identifying Number,rdf-schema#label
+TickerSymbol,ReassignableIdentifier,rdf-schema#subClassOf
+Nba967ed54e9c444483414d46c2c28722,NationalSecuritiesIdentifyingNumberRegistryEntry,owl#someValuesFrom
+TickerSymbol,ticker symbol,rdf-schema#label
+N7d504083857344ee8b505e3e6a78ebb2,appliesTo,owl#onProperty
+SecurityRegistryEntry,N859fd0ef18ff4b23ac7f46ecb8cc6471,rdf-schema#subClassOf
+NationalNumberingAgency,NNA,abbreviation
+,"Copyright (c) 2018-2024 Object Management Group, Inc.",copyright
+N97c20ade6b594e9a9fd89677ae73f72c,defines,owl#onProperty
+N87ca41b6544f4e5d8278c99bb46cc767,NationalSecuritiesIdentifyingNumber,owl#someValuesFrom
+N81589a9480844ce49d0f4171fce01f36,isDefinedIn,owl#onProperty
+NationalSecurityIdentificationScheme,generally incorporated into the ISIN scheme as well,explanatoryNote
+InternationalSecuritiesIdentificationNumber,SecurityIdentifier,rdf-schema#subClassOf
+Nebba27c994b343dea9ed1b2797a69d8a,N8847afbf87874a25b857552f5c2f569e,owl#someValuesFrom
+SecurityRegistry,Registry,rdf-schema#subClassOf
+Na04b965b119443a0b4c6e8eaa1360efd,isDefinedIn,owl#onProperty
+Nad12d32bea434470859a8006ae1a94b3,Alpha2Code,owl#onClass
+InternationalSecuritiesIdentificationNumberingScheme,international securities identification numbering scheme,rdf-schema#label
+InternationalSecuritiesIdentificationNumber,"ISINs consist of two alphabetic characters, which are the ISO 3166-1 alpha-2 code for the issuing country, nine alpha-numeric characters (the National Securities Identifying Number, or NSIN, which identifies the security, padded as necessary with leading zeros), and one numerical check digit. The ISIN is specified as a class of identifiers because although there is a scheme associated with the structure of an ISIN, there are many country-specific variations issued by national numbering agencies.",explanatoryNote
+SecurityIdentifier,N2e307f413bf54f3cba85555294a8c291,rdf-schema#subClassOf
+Ncc7122f285404c3a8791837e796b32d8,N83389584b00e45429d6bac811fc33c21,22-rdf-syntax-ns#rest
+Nad12d32bea434470859a8006ae1a94b3,owl#Restriction,22-rdf-syntax-ns#type
+,Securities Identification Ontology,rdf-schema#label
+N83389584b00e45429d6bac811fc33c21,Listing,22-rdf-syntax-ns#first
+FinancialInstrumentIdentificationScheme,IdentificationScheme,rdf-schema#subClassOf
+Nd8ca51466ddf421f802b19588354ecce,owl#Restriction,22-rdf-syntax-ns#type
+ListedSecurityIdentifier,security identifier issued in the public domain and referred to in listings and other relevant publications,core#definition
+N7fe123c2cbb944789104f19114c02a43,identifies,owl#onProperty
+N7fe123c2cbb944789104f19114c02a43,Security,owl#someValuesFrom
+Listing,SecurityRegistryEntry,rdf-schema#subClassOf
+NationalSecuritiesIdentifyingNumberRegistry,Nd859fffd84444eceb40127b6bb6d254d,rdf-schema#subClassOf
+N6daf941be1b84da1aeedb80b66c681ab,hasMember,owl#onProperty
+NationalSecuritiesIdentifyingNumberRegistry,registry used by a national numbering agency to manage the financial instrument identifiers and related information that it registers,core#definition
+TickerSymbol,tickersymbol.asp,rdf-schema#seeAlso
+Nf6dc272887e340f4b89c43d7f56d2f7c,1,owl#qualifiedCardinality
+NationalSecurityIdentificationScheme,"security identification scheme, defining the format and structure of a National Securities Identifying Number (NSIN), published nationally on behalf of a country",core#definition
+Nc139cde71e1a4df6913a803ddadff9cb,owl#Restriction,22-rdf-syntax-ns#type
+Nebba27c994b343dea9ed1b2797a69d8a,owl#Restriction,22-rdf-syntax-ns#type
+Ncc7122f285404c3a8791837e796b32d8,ListedSecurity,22-rdf-syntax-ns#first
+Nf2b78793f30d4966b9e1e8a4433de104,owl#Restriction,22-rdf-syntax-ns#type
+NationalSecuritiesIdentifyingNumberRegistryEntry,national numbering agency registry entry,rdf-schema#label
+Nad651d7425644233bcb897454eb58d5e,NationalNumberingAgency,owl#someValuesFrom
+SecurityRegistry,owl#Class,22-rdf-syntax-ns#type
+Nc6b2e5a69b5f45cabe675844b2b8c2ea,owl#Restriction,22-rdf-syntax-ns#type
+, version of this ontology was modified to correct several logic issues.,core#changeNote
+InternationalSecuritiesIdentificationNumberingScheme,catalogue_detail?csnumber=44811,rdf-schema#seeAlso
+ProprietarySecurityIdentifier,identifier supplied by a commercial entity,core#definition
+NationalSecurityIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+N6daf941be1b84da1aeedb80b66c681ab,FinancialInstrumentIdentifier,owl#someValuesFrom
+InternationalSecuritiesIdentificationNumberingScheme,owl#Class,22-rdf-syntax-ns#type
+N49b856bfea2a4fffb1b0436daeafca45,defines,owl#onProperty
+,,owl#imports
+NationalSecurityIdentificationScheme,SecurityIdentificationScheme,rdf-schema#subClassOf
+N79124b4cf2844062aea0eeeeab6717f9,isManagedBy,owl#onProperty
+N56325a92782c44629b12b3e3890d0b7d,owl#Restriction,22-rdf-syntax-ns#type
+N1d587b5c9ab3451db3f9258566156997,isDefinedIn,owl#onProperty
+InternationalSecuritiesIdentificationNumberingScheme,SecurityIdentificationScheme,rdf-schema#subClassOf
+SecurityRegistryEntry,N12131b751de74c978c182f327a05ca91,rdf-schema#subClassOf
+N8847afbf87874a25b857552f5c2f569e,Ncc7122f285404c3a8791837e796b32d8,owl#unionOf
+Nc139cde71e1a4df6913a803ddadff9cb,isCharacterizedBy,owl#onProperty
+Nad651d7425644233bcb897454eb58d5e,owl#Restriction,22-rdf-syntax-ns#type
+TickerSymbol,Nebba27c994b343dea9ed1b2797a69d8a,rdf-schema#subClassOf
+N87ca41b6544f4e5d8278c99bb46cc767,registers,owl#onProperty
+SecurityIdentificationScheme,FinancialInstrumentIdentificationScheme,rdf-schema#subClassOf
+NationalSecuritiesIdentifyingNumberRegistry,Nf6dc272887e340f4b89c43d7f56d2f7c,rdf-schema#subClassOf
+ListedSecurityIdentifier,Na04b965b119443a0b4c6e8eaa1360efd,rdf-schema#subClassOf
+Nf5de3814f0eb44909db1f87cca7bc0b6,SecurityRegistryEntry,owl#someValuesFrom
+,"This ontology defines concepts required to identify securities, including a number of well-known securities identifiers and related schemes, registries, and registration authorities.",abstract
+NationalNumberingAgency,N87ca41b6544f4e5d8278c99bb46cc767,rdf-schema#subClassOf
+N79124b4cf2844062aea0eeeeab6717f9,RegistrationAuthority,owl#someValuesFrom
+ProprietarySecurityIdentificationScheme,proprietary security identification scheme,rdf-schema#label
+NationalSecuritiesIdentifyingNumberRegistry,NSIN registry,abbreviation
+N81589a9480844ce49d0f4171fce01f36,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#versionIRI
+Nd859fffd84444eceb40127b6bb6d254d,isManagedBy,owl#onProperty
+ProprietarySecurityIdentifier,N1d587b5c9ab3451db3f9258566156997,rdf-schema#subClassOf
+SecurityIdentifier,FinancialInstrumentIdentifier,rdf-schema#subClassOf
+N83389584b00e45429d6bac811fc33c21,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N6daf941be1b84da1aeedb80b66c681ab,owl#Restriction,22-rdf-syntax-ns#type
+Ne87dbffddb03424ba8ea345639b65ef8,identifies,owl#onProperty
+NationalSecuritiesIdentifyingNumberRegistryEntry,Nf5cf0f8ede2e4aa7a473b88bcab53bc2,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+N1d587b5c9ab3451db3f9258566156997,ProprietarySecurityIdentificationScheme,owl#someValuesFrom
+N859fd0ef18ff4b23ac7f46ecb8cc6471,owl#Restriction,22-rdf-syntax-ns#type
+N8847afbf87874a25b857552f5c2f569e,owl#Class,22-rdf-syntax-ns#type
+SecurityIdentifier,N7fe123c2cbb944789104f19114c02a43,rdf-schema#subClassOf
+N4181c386cdab4a779de94a73940f25fc,comprises,owl#onProperty
+N417f4328fb2f4b3197eb1d017bfbdff5,owl#Restriction,22-rdf-syntax-ns#type
+,SecuritiesIdentification.rdf version of this ontology was revised to leverage the notion of a composite identifier and address text formatting hygiene issues.,core#changeNote
+, version of this ontology was modified to make a ticker symbol reassignable and address circular or ambiguous definitions.,core#changeNote
+,SecuritiesIdentification.rdf version of this ontology was revised to eliminate confusion between listed security and listing (which caused reasoning issues).,core#changeNote
+ProprietarySecurityIdentificationScheme,Nf2b78793f30d4966b9e1e8a4433de104,rdf-schema#subClassOf
+N2e307f413bf54f3cba85555294a8c291,SecurityIdentificationScheme,owl#someValuesFrom
+NationalSecuritiesIdentifyingNumber,Nad651d7425644233bcb897454eb58d5e,rdf-schema#subClassOf
+ListedSecurityIdentifier,Ne87dbffddb03424ba8ea345639b65ef8,rdf-schema#subClassOf
+SecurityRegistryEntry,record for a security in a securities registry,core#definition
+N56325a92782c44629b12b3e3890d0b7d,Exchange,owl#someValuesFrom
+NationalSecuritiesIdentifyingNumberRegistryEntry,entry in a National Securities Identifying Number registry,core#definition
+N12131b751de74c978c182f327a05ca91,comprises,owl#onProperty
+Nf6dc272887e340f4b89c43d7f56d2f7c,NationalSecurityIdentificationScheme,owl#onClass
+NationalNumberingAgency,RegistrationAuthority,rdf-schema#subClassOf
+ListedSecurityIdentifier,N56325a92782c44629b12b3e3890d0b7d,rdf-schema#subClassOf
+Nc6b2e5a69b5f45cabe675844b2b8c2ea,manages,owl#onProperty
+N81589a9480844ce49d0f4171fce01f36,NationalSecurityIdentificationScheme,owl#someValuesFrom
+Nd8ca51466ddf421f802b19588354ecce,defines,owl#onProperty
+, version of this ontology was modified to restructure the concept of a listing and augment it with a number of relevant characteristics.,core#changeNote
+NationalSecuritiesIdentifyingNumber,owl#Class,22-rdf-syntax-ns#type
+Nf2b78793f30d4966b9e1e8a4433de104,defines,owl#onProperty
+NationalSecurityIdentificationScheme,national security identification scheme,rdf-schema#label
+InternationalSecuritiesIdentificationNumberingScheme,ISIN scheme,abbreviation
+InternationalSecuritiesIdentificationNumber,ISIN,abbreviation
+N417f4328fb2f4b3197eb1d017bfbdff5,hasCoverageArea,owl#onProperty
+,SecuritiesIdentification.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+InternationalSecuritiesIdentificationNumberingScheme,Nd8ca51466ddf421f802b19588354ecce,rdf-schema#subClassOf
+SecurityRegistry,N79124b4cf2844062aea0eeeeab6717f9,rdf-schema#subClassOf
+Nf5de3814f0eb44909db1f87cca7bc0b6,owl#Restriction,22-rdf-syntax-ns#type
+NationalSecuritiesIdentifyingNumber,SecurityIdentifier,rdf-schema#subClassOf
+Nba967ed54e9c444483414d46c2c28722,hasRegistryEntry,owl#onProperty
+InternationalSecuritiesIdentificationNumber,international securities identification number,rdf-schema#label
+InternationalSecuritiesIdentificationNumber,"security identifier that is defined as specified in ISO 6166, Securities and related financial instruments -- International securities identification numbering system (ISIN)",core#definition
+N1383c69499694ca2afa0fab014737a1b,isRegisteredIn,owl#onProperty
+SecurityIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+N1383c69499694ca2afa0fab014737a1b,owl#Restriction,22-rdf-syntax-ns#type
+N79124b4cf2844062aea0eeeeab6717f9,owl#Restriction,22-rdf-syntax-ns#type
+InternationalSecuritiesIdentificationNumber,StructuredIdentifier,rdf-schema#subClassOf
+NationalSecuritiesIdentifyingNumberRegistry,National Securities Identifying Number registry,rdf-schema#label
+,SecuritiesIdentification.rdf version of this ontology was modified to clarify the definition of ticker symbol (SEC-196).,core#changeNote
+Nad12d32bea434470859a8006ae1a94b3,comprises,owl#onProperty
+ListedSecurityIdentifier,listed security identifier,rdf-schema#label
+Na04b965b119443a0b4c6e8eaa1360efd,SecurityIdentificationScheme,owl#someValuesFrom
+N1ee65acd39184bd2b2fb329c633835d1,NationalSecuritiesIdentifyingNumber,owl#someValuesFrom
+FinancialInstrumentIdentificationScheme,financial instrument identification scheme,rdf-schema#label
+SecurityIdentificationScheme,RegistrationScheme,rdf-schema#subClassOf
+N417f4328fb2f4b3197eb1d017bfbdff5,GeopoliticalEntity,owl#someValuesFrom
+NationalNumberingAgency,registration authority responsible for issuing and managing National Securities Identifying Numbers for securities in accordance with the ISO 6166 standard in some jurisdiction (typically that of a country),core#definition
+N1383c69499694ca2afa0fab014737a1b,SecurityRegistry,owl#someValuesFrom
+TickerSymbol,FIGI,rdf-schema#seeAlso
+FinancialInstrumentIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+SecurityRegistry,"Securities registries may be managed by an exchange, clearing house, custodian, bank, or other financial services provider.",explanatoryNote
+Nba967ed54e9c444483414d46c2c28722,owl#Restriction,22-rdf-syntax-ns#type
+Nf2b78793f30d4966b9e1e8a4433de104,ProprietarySecurityIdentifier,owl#someValuesFrom
+SecurityIdentificationScheme,security identification scheme,rdf-schema#label
+N49b856bfea2a4fffb1b0436daeafca45,NationalSecuritiesIdentifyingNumber,owl#someValuesFrom
+N7d504083857344ee8b505e3e6a78ebb2,owl#Restriction,22-rdf-syntax-ns#type
+NationalSecuritiesIdentifyingNumberRegistryEntry,SecurityRegistryEntry,rdf-schema#subClassOf
+NationalSecurityIdentificationScheme,N7d504083857344ee8b505e3e6a78ebb2,rdf-schema#subClassOf
+, version of this ontology was modified to add the concept of a ticker symbol and rename (migrate) the hasDefinition property to isDefinedIn to clarify intent.,core#changeNote
+ListedSecurityIdentifier,owl#Class,22-rdf-syntax-ns#type
+Nad12d32bea434470859a8006ae1a94b3,1,owl#qualifiedCardinality
+N1ee65acd39184bd2b2fb329c633835d1,issues,owl#onProperty
+TickerSymbol,"Every listed security has at least one unique ticker symbol, facilitating the vast array of trade orders that flow through the financial markets every day. However, in some countries this relationship may be indirect, through the listing, rather than direct, as is the case in the United States. In the US, the relationship between a ticker symbol and the listed security is one-to-one. This is not, however, the case in Singapore, where there may be unique ticker symbols for the same security based on the lot size. Some well-known ticker symbols are commonly used by multiple exchanges for the same instrument, such as 'IBM', though exchanges attempt to coordinate to limit duplication.",explanatoryNote
+NationalSecuritiesIdentifyingNumberRegistryEntry,owl#Class,22-rdf-syntax-ns#type
+Nf5cf0f8ede2e4aa7a473b88bcab53bc2,NationalSecuritiesIdentifyingNumber,owl#someValuesFrom
+Nd8ca51466ddf421f802b19588354ecce,InternationalSecuritiesIdentificationNumber,owl#someValuesFrom
+NationalNumberingAgency,N417f4328fb2f4b3197eb1d017bfbdff5,rdf-schema#subClassOf
+Nf5cf0f8ede2e4aa7a473b88bcab53bc2,comprises,owl#onProperty
+SecurityRegistryEntry,owl#Class,22-rdf-syntax-ns#type
+NationalSecuritiesIdentifyingNumberRegistry,owl#Class,22-rdf-syntax-ns#type
+N97c20ade6b594e9a9fd89677ae73f72c,SecurityIdentifier,owl#someValuesFrom
+TickerSymbol,owl#Class,22-rdf-syntax-ns#type
+ProprietarySecurityIdentifier,owl#Class,22-rdf-syntax-ns#type
+Nc139cde71e1a4df6913a803ddadff9cb,1,owl#qualifiedCardinality
+Nf5de3814f0eb44909db1f87cca7bc0b6,hasRegistryEntry,owl#onProperty
+ProprietarySecurityIdentifier,proprietary security identifier,rdf-schema#label
+ProprietarySecurityIdentifier,SecurityIdentifier,rdf-schema#subClassOf
+Na04b965b119443a0b4c6e8eaa1360efd,owl#Restriction,22-rdf-syntax-ns#type
+,"SecuritiesIdentification.rdf version of this ontology was modified to use the hasCoverageArea property rather than hasJurisdiction for coverage of national numbering agencies, and eliminate redundant subclass relationships for two of the schemes defined herein.",core#changeNote
+NationalNumberingAgency,owl#Class,22-rdf-syntax-ns#type
+Nf6dc272887e340f4b89c43d7f56d2f7c,owl#Restriction,22-rdf-syntax-ns#type
+Listing,owl#Class,22-rdf-syntax-ns#type
+Nad651d7425644233bcb897454eb58d5e,isRegisteredBy,owl#onProperty
+SecurityRegistryEntry,security registry entry,rdf-schema#label
+SecurityRegistry,registry used to manage security identifiers and related information,core#definition
+NationalSecuritiesIdentifyingNumber,"generic, nine-digit alpha numeric code which identifies a fungible security, assigned by a national numbering agency under the ISO 6166 standard",core#definition
+SecurityRegistryEntry,RegistryEntry,rdf-schema#subClassOf
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+N4181c386cdab4a779de94a73940f25fc,owl#Restriction,22-rdf-syntax-ns#type
+TickerSymbol,"Ticker symbols are reusable, assigned to a given instrument by an exchange for some period of time.",usageNote
+N7d504083857344ee8b505e3e6a78ebb2,GeopoliticalEntity,owl#someValuesFrom
+N2e307f413bf54f3cba85555294a8c291,owl#Restriction,22-rdf-syntax-ns#type
+SecurityIdentifier,any publicly available identifier that is used to identify a security,core#definition
+,Release,hasMaturityLevel
+ListedSecurityIdentifier,N1383c69499694ca2afa0fab014737a1b,rdf-schema#subClassOf
+N97c20ade6b594e9a9fd89677ae73f72c,owl#Restriction,22-rdf-syntax-ns#type
+N12131b751de74c978c182f327a05ca91,owl#Restriction,22-rdf-syntax-ns#type
+Nd859fffd84444eceb40127b6bb6d254d,owl#Restriction,22-rdf-syntax-ns#type
+,MIT,license
+SecurityIdentificationScheme,formal definition of the structure and application of a particular set of securities identifiers,core#definition
+Nf6dc272887e340f4b89c43d7f56d2f7c,isCharacterizedBy,owl#onProperty
+NationalSecuritiesIdentifyingNumberRegistry,Nba967ed54e9c444483414d46c2c28722,rdf-schema#subClassOf
+InternationalSecuritiesIdentificationNumber,catalogue_detail?csnumber=44811,rdf-schema#seeAlso
+NationalNumberingAgency,Nc6b2e5a69b5f45cabe675844b2b8c2ea,rdf-schema#subClassOf
+NationalSecuritiesIdentifyingNumberRegistry,SecurityRegistry,rdf-schema#subClassOf
+SecurityIdentifier,owl#Class,22-rdf-syntax-ns#type
+SecurityIdentificationScheme,N97c20ade6b594e9a9fd89677ae73f72c,rdf-schema#subClassOf
+NationalNumberingAgency,N1ee65acd39184bd2b2fb329c633835d1,rdf-schema#subClassOf
+SecurityRegistry,Nf5de3814f0eb44909db1f87cca7bc0b6,rdf-schema#subClassOf
+N859fd0ef18ff4b23ac7f46ecb8cc6471,appliesTo,owl#onProperty
+,"SecuritiesIdentification.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+N1d587b5c9ab3451db3f9258566156997,owl#Restriction,22-rdf-syntax-ns#type
+N859fd0ef18ff4b23ac7f46ecb8cc6471,RegisteredSecurity,owl#someValuesFrom
+Nebba27c994b343dea9ed1b2797a69d8a,identifies,owl#onProperty
+FinancialInstrumentIdentificationScheme,N6daf941be1b84da1aeedb80b66c681ab,rdf-schema#subClassOf
+SecurityIdentifier,security identifier,rdf-schema#label
+Ne87dbffddb03424ba8ea345639b65ef8,ListedSecurity,owl#someValuesFrom
+Ne87dbffddb03424ba8ea345639b65ef8,owl#Restriction,22-rdf-syntax-ns#type
+NationalSecurityIdentificationScheme,N49b856bfea2a4fffb1b0436daeafca45,rdf-schema#subClassOf
+N56325a92782c44629b12b3e3890d0b7d,isRegisteredBy,owl#onProperty
+NationalNumberingAgency,national numbering agency,rdf-schema#label
+ListedSecurityIdentifier,SecurityIdentifier,rdf-schema#subClassOf
+N1ee65acd39184bd2b2fb329c633835d1,owl#Restriction,22-rdf-syntax-ns#type
+N12131b751de74c978c182f327a05ca91,SecurityIdentifier,owl#someValuesFrom
+InternationalSecuritiesIdentificationNumber,Nad12d32bea434470859a8006ae1a94b3,rdf-schema#subClassOf
+N4181c386cdab4a779de94a73940f25fc,1,owl#qualifiedCardinality
+SecurityRegistry,security registry,rdf-schema#label
+N87ca41b6544f4e5d8278c99bb46cc767,owl#Restriction,22-rdf-syntax-ns#type
+N2e307f413bf54f3cba85555294a8c291,isDefinedIn,owl#onProperty
+N7fe123c2cbb944789104f19114c02a43,owl#Restriction,22-rdf-syntax-ns#type
+N49b856bfea2a4fffb1b0436daeafca45,owl#Restriction,22-rdf-syntax-ns#type
+ProprietarySecurityIdentificationScheme,security identification scheme published by a commercial entity,core#definition
+Nc139cde71e1a4df6913a803ddadff9cb,SecurityIdentificationScheme,owl#onClass
+ProprietarySecurityIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+Nd859fffd84444eceb40127b6bb6d254d,NationalNumberingAgency,owl#someValuesFrom

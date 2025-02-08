@@ -1,0 +1,83 @@
+source_id,target_id,relationship
+,"Baskets.rdf version of this ontology was revised to augment the definitions of various baskets to include weighting and to be dated, as needed to represent various benchmarks and funds based on these baskets.",core#changeNote
+BasketOfIndices,basket composed of market indices,core#definition
+,"Copyright (c) 2018-2023 Object Management Group, Inc.",copyright
+,"or market rates, and identifies the elements that can be constituents of a such a basket.",abstract
+Na0f3a225d100451d8a46d0fc81d4f42f,hasConstituent,owl#onProperty
+MixedBasket,owl#Class,22-rdf-syntax-ns#type
+N80b553b13d7042feb7446020f0052ac8,N812d6ba06b04466cb598639d866f9d16,22-rdf-syntax-ns#rest
+Neda6774a35e04e689ee5d425b4501625,BasketOfIndicesConstituent,owl#someValuesFrom
+,"Baskets.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+N678060f57235440d9edc27de35a516ca,1,owl#maxQualifiedCardinality
+SecuritiesBasketConstituent,N678060f57235440d9edc27de35a516ca,rdf-schema#subClassOf
+Ndba1df17396a4e6c906242aac9407a08,owl#Class,22-rdf-syntax-ns#type
+BasketOfIndicesConstituent,DatedCollectionConstituent,rdf-schema#subClassOf
+N59a9adb368834775a99713e30105dac5,hasConstituent,owl#onProperty
+MixedBasket,N59a9adb368834775a99713e30105dac5,rdf-schema#subClassOf
+N79cc01de325a431a850f40b37d362796,hasDateAdded,owl#onProperty
+N1f4e65ceadc24eac87e1df6a133e3dec,N0169397d3a154ae995f4bad2c7bdc219,22-rdf-syntax-ns#rest
+N678060f57235440d9edc27de35a516ca,ExplicitDate,owl#onClass
+,,owl#imports
+,Baskets Ontology,rdf-schema#label
+,Baskets.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N79cc01de325a431a850f40b37d362796,1,owl#maxQualifiedCardinality
+,,owl#versionIRI
+SecuritiesBasketConstituent,securities basket constituent,rdf-schema#label
+N59a9adb368834775a99713e30105dac5,Ndba1df17396a4e6c906242aac9407a08,owl#someValuesFrom
+,owl#Ontology,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2023 EDM Council, Inc.",copyright
+BasketOfSecurities,owl#Class,22-rdf-syntax-ns#type
+MixedBasket,mixed basket,rdf-schema#label
+N0169397d3a154ae995f4bad2c7bdc219,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+BasketOfIndicesConstituent,Nb2fa896822db4953bdffc155ecba5fdd,rdf-schema#subClassOf
+N0169397d3a154ae995f4bad2c7bdc219,MarketRate,22-rdf-syntax-ns#first
+N83e4d6a5ed3d4985b1f99092eb4dcf3b,owl#Class,22-rdf-syntax-ns#type
+N812d6ba06b04466cb598639d866f9d16,SecuritiesBasketConstituent,22-rdf-syntax-ns#first
+Ndba1df17396a4e6c906242aac9407a08,N80b553b13d7042feb7446020f0052ac8,owl#unionOf
+BasketOfIndices,DatedStructuredCollection,rdf-schema#subClassOf
+BasketOfIndices,WeightedBasket,rdf-schema#subClassOf
+Nb2fa896822db4953bdffc155ecba5fdd,comprises,owl#onProperty
+,"Baskets.rdf version of this ontology was revised to add the date a given constituent is added to a basket, and use involves rather than hasIdentity to link a security or index to the basket constituent it is referenced by.",core#changeNote
+BasketOfIndices,"For example, certain equities derivatives have an underlying basket which is a basket of more than one index, not a basket of securities.",core#example
+BasketOfIndices,Neda6774a35e04e689ee5d425b4501625,rdf-schema#subClassOf
+Neda6774a35e04e689ee5d425b4501625,owl#Restriction,22-rdf-syntax-ns#type
+Na0f3a225d100451d8a46d0fc81d4f42f,SecuritiesBasketConstituent,owl#someValuesFrom
+SecuritiesBasketConstituent,owl#Class,22-rdf-syntax-ns#type
+BasketOfIndicesConstituent,single constituent of a basket of indices,core#definition
+N267ca69d4cbe479ca832a98c47fd207c,comprises,owl#onProperty
+BasketOfIndicesConstituent,WeightedBasketConstituent,rdf-schema#subClassOf
+MixedBasket,"basket that has a mix of constituents, including securities and indices",core#definition
+BasketOfIndicesConstituent,N79cc01de325a431a850f40b37d362796,rdf-schema#subClassOf
+SecuritiesBasketConstituent,WeightedBasketConstituent,rdf-schema#subClassOf
+N267ca69d4cbe479ca832a98c47fd207c,owl#Restriction,22-rdf-syntax-ns#type
+N812d6ba06b04466cb598639d866f9d16,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+SecuritiesBasketConstituent,DatedCollectionConstituent,rdf-schema#subClassOf
+BasketOfSecurities,"basket composed of securities, typically of a particular asset class such as equities or bonds",core#definition
+SecuritiesBasketConstituent,security identified as a component of a basket of securities,core#definition
+BasketOfSecurities,DatedStructuredCollection,rdf-schema#subClassOf
+BasketOfSecurities,WeightedBasket,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+MixedBasket,DatedStructuredCollection,rdf-schema#subClassOf
+,MIT,license
+MixedBasket,WeightedBasket,rdf-schema#subClassOf
+N678060f57235440d9edc27de35a516ca,hasDateAdded,owl#onProperty
+N80b553b13d7042feb7446020f0052ac8,BasketOfIndicesConstituent,22-rdf-syntax-ns#first
+N1f4e65ceadc24eac87e1df6a133e3dec,EconomicIndicator,22-rdf-syntax-ns#first
+Na0f3a225d100451d8a46d0fc81d4f42f,owl#Restriction,22-rdf-syntax-ns#type
+BasketOfIndicesConstituent,basket Of indices constituent,rdf-schema#label
+,"Baskets.rdf version of this ontology was revised to reflect the move of dated collections from arrangements to financial dates, and replace 'involves' with 'comprises' for consistency across basket definitions.",core#changeNote
+BasketOfIndicesConstituent,owl#Class,22-rdf-syntax-ns#type
+Neda6774a35e04e689ee5d425b4501625,hasConstituent,owl#onProperty
+N678060f57235440d9edc27de35a516ca,owl#Restriction,22-rdf-syntax-ns#type
+BasketOfIndices,owl#Class,22-rdf-syntax-ns#type
+N267ca69d4cbe479ca832a98c47fd207c,Security,owl#allValuesFrom
+SecuritiesBasketConstituent,N267ca69d4cbe479ca832a98c47fd207c,rdf-schema#subClassOf
+Nb2fa896822db4953bdffc155ecba5fdd,owl#Restriction,22-rdf-syntax-ns#type
+N83e4d6a5ed3d4985b1f99092eb4dcf3b,N1f4e65ceadc24eac87e1df6a133e3dec,owl#unionOf
+BasketOfIndices,market basket,rdf-schema#label
+N79cc01de325a431a850f40b37d362796,ExplicitDate,owl#onClass
+Nb2fa896822db4953bdffc155ecba5fdd,N83e4d6a5ed3d4985b1f99092eb4dcf3b,owl#allValuesFrom
+BasketOfSecurities,Na0f3a225d100451d8a46d0fc81d4f42f,rdf-schema#subClassOf
+N79cc01de325a431a850f40b37d362796,owl#Restriction,22-rdf-syntax-ns#type
+N59a9adb368834775a99713e30105dac5,owl#Restriction,22-rdf-syntax-ns#type
+BasketOfSecurities,basket of securities,rdf-schema#label

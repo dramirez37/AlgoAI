@@ -1,0 +1,207 @@
+id,type,name
+isPartOf,Entity,isPartOf
+XMLSchema#integer,Entity,XMLSchema#integer
+The date on which the transfer of positions to underwriters is expected to take place. This date is provided by underwriters as part of an announcement.,Entity,The date on which the transfer of positions to underwriters is expected to take place. This date is provided by underwriters as part of an announcement.
+required to make eligible,Entity,required to make eligible
+No definition,Entity,No definition
+OfferingDocument,Entity,OfferingDocument
+issuance process activity,Entity,issuance process activity
+subscription period,Entity,subscription period
+minimumIssueSubscription,Entity,minimumIssueSubscription
+Series identification for the individual Traded Financial Security.,Entity,Series identification for the individual Traded Financial Security.
+minimum issue subscription,Entity,minimum issue subscription
+isPotentialIssuer,Entity,isPotentialIssuer
+actualClosingDate,Entity,actualClosingDate
+givesRiseTo,Entity,givesRiseTo
+SecurityIssuanceGuarantor,Entity,SecurityIssuanceGuarantor
+N14ee5ffbe74c480ea41eb243984a739e,Entity,N14ee5ffbe74c480ea41eb243984a739e
+DateTime,Entity,DateTime
+subscriptionAmount,Entity,subscriptionAmount
+SecuritiesIssuanceProcessActor,Entity,SecuritiesIssuanceProcessActor
+owl#Restriction,Entity,owl#Restriction
+N42dea30c871c4caeb955de42515549ce,Entity,N42dea30c871c4caeb955de42515549ce
+UnderwriterTakedown,Entity,UnderwriterTakedown
+expectedClosingDate,Entity,expectedClosingDate
+SubscriptionClosingInformation,Entity,SubscriptionClosingInformation
+"Copyright (c) 2013-2024 EDM Council, Inc.",Entity,"Copyright (c) 2013-2024 EDM Council, Inc."
+"Question: Do securities issued through processes other than the one formally identified as ""Underwriting Process"", have Underwriters? Our research would indicate that agency and non agency MBS issuance processes are not ""Underwriting"" processes as defined for the DTCC Muni unwriting process, but they do have a step which involves identifying and appointing an underwriter, so the issue is underwritten. It may be that these two processes should be defined as types of (variants on) a more general Underwriting Process, which is itself more general than the one captured separately for DTCC Muni Issuance, which is where this term now lives. Modeling Note: Definition is too DTC specific, from DTCC earliy reviews on Muni process. Need to have a global definition and understanding of this term.",Entity,"Question: Do securities issued through processes other than the one formally identified as ""Underwriting Process"", have Underwriters? Our research would indicate that agency and non agency MBS issuance processes are not ""Underwriting"" processes as defined for the DTCC Muni unwriting process, but they do have a step which involves identifying and appointing an underwriter, so the issue is underwritten. It may be that these two processes should be defined as types of (variants on) a more general Underwriting Process, which is itself more general than the one captured separately for DTCC Muni Issuance, which is where this term now lives. Modeling Note: Definition is too DTC specific, from DTCC earliy reviews on Muni process. Need to have a global definition and understanding of this term."
+XMLSchema#string,Entity,XMLSchema#string
+takenDownBy,Entity,takenDownBy
+General ontology for the process by which securities are issued. Contains the process features common to all or most securities issuance. These are extended in the process ontologies that are specific to particular types of issuance,Entity,General ontology for the process by which securities are issued. Contains the process features common to all or most securities issuance. These are extended in the process ontologies that are specific to particular types of issuance
+It is assumed that this exists for all security types as the precise issuance process is defined among the Offering terms. Terms which only exist for specific types of instrument are given as specialized variants of this class of Thing.,Entity,It is assumed that this exists for all security types as the precise issuance process is defined among the Offering terms. Terms which only exist for specific types of instrument are given as specialized variants of this class of Thing.
+describesAllotmentOf,Entity,describesAllotmentOf
+1,Entity,1
+competitive sale method,Entity,competitive sale method
+SalesStrategy,Entity,SalesStrategy
+taken down by,Entity,taken down by
+has partially paid issuance schedule,Entity,has partially paid issuance schedule
+firstTradeDateAndTime,Entity,firstTradeDateAndTime
+N071e8a50e6254decaa7c0138fb5aac30,Entity,N071e8a50e6254decaa7c0138fb5aac30
+issuance programme,Entity,issuance programme
+IssuanceProcessActivity,Entity,IssuanceProcessActivity
+AllotmentInformation,Entity,AllotmentInformation
+owl#DatatypeProperty,Entity,owl#DatatypeProperty
+announcement,Entity,announcement
+MIT,Entity,MIT
+isAbout,Entity,isAbout
+potential underwriter,Entity,potential underwriter
+registration information,Entity,registration information
+ContractThirdParty,Entity,ContractThirdParty
+primary identifier issuer,Entity,primary identifier issuer
+PaymentSchedule,Entity,PaymentSchedule
+"time, as announced by the issuer, at which the securities were to be issued and subsequently were issued.",Entity,"time, as announced by the issuer, at which the securities were to be issued and subsequently were issued."
+Issuance Process,Entity,Issuance Process
+offeringRequestor,Entity,offeringRequestor
+SecuritiesIssuanceProcess,Entity,SecuritiesIssuanceProcess
+first trade settlement date,Entity,first trade settlement date
+securities issuance process,Entity,securities issuance process
+has distribution type,Entity,has distribution type
+firstTradeSettlementDate,Entity,firstTradeSettlementDate
+N51be0532da974226b90a2d9aa4f84c36,Entity,N51be0532da974226b90a2d9aa4f84c36
+securities issuance process actor,Entity,securities issuance process actor
+traded instrument issuance process information,Entity,traded instrument issuance process information
+subscriber,Entity,subscriber
+N02ea4db058cc48aca1189fae54e71046,Entity,N02ea4db058cc48aca1189fae54e71046
+N1901510b61d44603ab03738a642cc954,Entity,N1901510b61d44603ab03738a642cc954
+firstTradeDate,Entity,firstTradeDate
+SecuritiesOffering,Entity,SecuritiesOffering
+"The original sale of a company's securities, in which the proceeds from the sale are received directly by the company.",Entity,"The original sale of a company's securities, in which the proceeds from the sale are received directly by the company."
+Document,Entity,Document
+IssuedSecurityIssueInformation,Entity,IssuedSecurityIssueInformation
+MuniIssueUnderwriter,Entity,MuniIssueUnderwriter
+See for example MTN.,Entity,See for example MTN.
+offerIssueSeries,Entity,offerIssueSeries
+CompetitiveSaleMethod,Entity,CompetitiveSaleMethod
+owl#ObjectProperty,Entity,owl#ObjectProperty
+IssueSubscriptionInformation,Entity,IssueSubscriptionInformation
+time data or add a term for it?,Entity,time data or add a term for it?
+Number of units of the issue that an individual subscriber is allocated.,Entity,Number of units of the issue that an individual subscriber is allocated.
+The date of the first trade of the security in the secondary market.,Entity,The date of the first trade of the security in the secondary market.
+PrimaryIdentifierIssuer,Entity,PrimaryIdentifierIssuer
+subscription amount,Entity,subscription amount
+Nc56eb8fee06c41bdbb6e74c3e2c58d42,Entity,Nc56eb8fee06c41bdbb6e74c3e2c58d42
+XMLSchema#decimal,Entity,XMLSchema#decimal
+security offering sale method,Entity,security offering sale method
+first trade date and time,Entity,first trade date and time
+AgentRole,Entity,AgentRole
+underwriter takedown,Entity,underwriter takedown
+Method for sale of a new security offering.,Entity,Method for sale of a new security offering.
+underwriterTakedownShares,Entity,underwriterTakedownShares
+Na01c5fbbc39b493886d52f8a9305e02e,Entity,Na01c5fbbc39b493886d52f8a9305e02e
+comprises,Entity,comprises
+isIdentifiedBy,Entity,isIdentifiedBy
+overAlloted,Entity,overAlloted
+N14c908716c5845de8ddcb138098a7b7d,Entity,N14c908716c5845de8ddcb138098a7b7d
+has sale method,Entity,has sale method
+appliesTo,Entity,appliesTo
+underwriter takedown shares,Entity,underwriter takedown shares
+PotentialUnderwriter,Entity,PotentialUnderwriter
+The date the Issuer and Underwriter exchange money for bonds.,Entity,The date the Issuer and Underwriter exchange money for bonds.
+security offering distribution method,Entity,security offering distribution method
+N42b05d6c223f4a708c6ba8a86fc16271,Entity,N42b05d6c223f4a708c6ba8a86fc16271
+Nba3e4a249a3141059595c25d4648e085,Entity,Nba3e4a249a3141059595c25d4648e085
+IssuanceProgramme,Entity,IssuanceProgramme
+OfferingProcess,Entity,OfferingProcess
+An Offering of a security which has been previously issued.,Entity,An Offering of a security which has been previously issued.
+is issuance guarantor,Entity,is issuance guarantor
+Nea449666ec7f4fb0951bbf41a324b09c,Entity,Nea449666ec7f4fb0951bbf41a324b09c
+issueOfferingUnits,Entity,issueOfferingUnits
+hasIssuanceGuarantor,Entity,hasIssuanceGuarantor
+allotment information,Entity,allotment information
+Date,Entity,Date
+OccurrenceKind,Entity,OccurrenceKind
+SecurityOfferingDistributionMethod,Entity,SecurityOfferingDistributionMethod
+is potential issuer,Entity,is potential issuer
+PotentialIssuer,Entity,PotentialIssuer
+N17c1c8f19f7e4c548f4bb28765ff90ea,Entity,N17c1c8f19f7e4c548f4bb28765ff90ea
+N9c97d75da09142caae3ba03d032320f8,Entity,N9c97d75da09142caae3ba03d032320f8
+FinalProspectus,Entity,FinalProspectus
+over alloted,Entity,over alloted
+hasDistributionType,Entity,hasDistributionType
+expected closing date,Entity,expected closing date
+,Entity,
+announcementDate,Entity,announcementDate
+Partially paid issue: Schedule of partial payments and dates.,Entity,Partially paid issue: Schedule of partial payments and dates.
+"Information on one Security issue, arising from the Issuance Process. Note that one Issuance Process (Offering) may relate to more than on Issue, which itself may be the issue of more than one Traded Security.",Entity,"Information on one Security issue, arising from the Issuance Process. Note that one Issuance Process (Offering) may relate to more than on Issue, which itself may be the issue of more than one Traded Security."
+final state described in,Entity,final state described in
+series,Entity,series
+hasPartiallyPaidIssuanceSchedule,Entity,hasPartiallyPaidIssuanceSchedule
+first trade date,Entity,first trade date
+subscription closing information,Entity,subscription closing information
+Whether the subscriber has been over-alloted the requested number of units. REVIEW: Not seen in data terms but implied elsewhere.,Entity,Whether the subscriber has been over-alloted the requested number of units. REVIEW: Not seen in data terms but implied elsewhere.
+underwriting process details,Entity,underwriting process details
+announcement date,Entity,announcement date
+Nbda52726279842399018acc0de4cc6d7,Entity,Nbda52726279842399018acc0de4cc6d7
+Sale Method of the security.,Entity,Sale Method of the security.
+Total original quantity of securities issued.,Entity,Total original quantity of securities issued.
+Information specific to the Underwriting of the Issue.,Entity,Information specific to the Underwriting of the Issue.
+requiredToMakeEligible,Entity,requiredToMakeEligible
+TradedInstrumentIssuanceProcessInformation,Entity,TradedInstrumentIssuanceProcessInformation
+The entity which will become the underwriter for an issue. Term origin:MBS PoC Reviews,Entity,The entity which will become the underwriter for an issue. Term origin:MBS PoC Reviews
+issued security issue information,Entity,issued security issue information
+The process step of offering a security for issue. This is the making available of a new securities issue through an underwriting.,Entity,The process step of offering a security for issue. This is the making available of a new securities issue through an underwriting.
+SecuritiesUnderwritingIssuanceProcess,Entity,SecuritiesUnderwritingIssuanceProcess
+N7b7596ab8de64fc88b95c642d89f54d8,Entity,N7b7596ab8de64fc88b95c642d89f54d8
+describes allotment of,Entity,describes allotment of
+SecondarySecurityOfferingDistribution,Entity,SecondarySecurityOfferingDistribution
+issue subscription information,Entity,issue subscription information
+The distribution type of a securities Offering.,Entity,The distribution type of a securities Offering.
+N488a551ae6d2477fad6481c83bde7c4b,Entity,N488a551ae6d2477fad6481c83bde7c4b
+"bringing to market (also known as primary market or Initial Public Offering (IPO) issuance) through to issue date.""",Entity,"bringing to market (also known as primary market or Initial Public Offering (IPO) issuance) through to issue date."""
+Information about the allotment of quantities of the issue to different subscribers. This relates a single instrument allotment against the subscription amounts allotted to each Subscriber.,Entity,Information about the allotment of quantities of the issue to different subscribers. This relates a single instrument allotment against the subscription amounts allotted to each Subscriber.
+issue nominal number of units,Entity,issue nominal number of units
+XMLSchema#boolean,Entity,XMLSchema#boolean
+"The Closing Date for the Issue, recorded after the event.",Entity,"The Closing Date for the Issue, recorded after the event."
+NegotiatedSaleMethod,Entity,NegotiatedSaleMethod
+PrimarySecurityOfferingDistribution,Entity,PrimarySecurityOfferingDistribution
+The process by which a financial security is issued.,Entity,The process by which a financial security is issued.
+Provisional,Entity,Provisional
+hasSaleMethod,Entity,hasSaleMethod
+hasPotentialIssuer,Entity,hasPotentialIssuer
+actual closing date,Entity,actual closing date
+Security,Entity,Security
+secondary security offering distribution,Entity,secondary security offering distribution
+UnderwritingProcessDetails,Entity,UnderwritingProcessDetails
+produces,Entity,produces
+RegistrationInformation,Entity,RegistrationInformation
+subscriber.1,Entity,subscriber.1
+Information relating to the registration of a registered security.,Entity,Information relating to the registration of a registered security.
+Nf9d3367f44b24798ad478ae3f86ac6e4,Entity,Nf9d3367f44b24798ad478ae3f86ac6e4
+DatePeriod,Entity,DatePeriod
+ListedSecurityIdentifier,Entity,ListedSecurityIdentifier
+primary security offering distribution,Entity,primary security offering distribution
+Nc50d39017d454d64994d869a2c75f54b,Entity,Nc50d39017d454d64994d869a2c75f54b
+Period during which the security can be subscribed to.,Entity,Period during which the security can be subscribed to.
+N185a84d385d6461ca67e0748ee644940,Entity,N185a84d385d6461ca67e0748ee644940
+formal award date and time,Entity,formal award date and time
+Information relating to the subscription of the issue.,Entity,Information relating to the subscription of the issue.
+security issuance guarantor,Entity,security issuance guarantor
+N15f461c180684110a0349b6f2193df31,Entity,N15f461c180684110a0349b6f2193df31
+owl#Class,Entity,owl#Class
+SecurityOfferingSaleMethod,Entity,SecurityOfferingSaleMethod
+isIssuanceGuarantor,Entity,isIssuanceGuarantor
+finalStateDescribedIn,Entity,finalStateDescribedIn
+DistributionStrategy,Entity,DistributionStrategy
+N62b733e93a184e81976fb1357edc7a44,Entity,N62b733e93a184e81976fb1357edc7a44
+Quantity of all securities that is offered in an equity or Corporate Bond issue.,Entity,Quantity of all securities that is offered in an equity or Corporate Bond issue.
+Announcement,Entity,Announcement
+Minimum or incremental denomination required for the transfer or change of ownership of a security.,Entity,Minimum or incremental denomination required for the transfer or change of ownership of a security.
+offering,Entity,offering
+negotiated sale method,Entity,negotiated sale method
+issue offering units,Entity,issue offering units
+subscriptionPeriod,Entity,subscriptionPeriod
+subscribesTo,Entity,subscribesTo
+Uniquely identified collection of securities within an Issue with same Expected Closing Date. The text gives the Series Identifier within the Issuance process. There may be one or more Series within one Issue.,Entity,Uniquely identified collection of securities within an Issue with same Expected Closing Date. The text gives the Series Identifier within the Issuance process. There may be one or more Series within one Issue.
+owl#Ontology,Entity,owl#Ontology
+potential issuer,Entity,potential issuer
+Infomation on Takedown quantity of the security handled by the underwriter (that will be brought into DTC).,Entity,Infomation on Takedown quantity of the security handled by the underwriter (that will be brought into DTC).
+N72a3e1beb5b94b1c92a3ddb47771fc3e,Entity,N72a3e1beb5b94b1c92a3ddb47771fc3e
+N0fe2fc42d5bd45d393a1d5e0fc179179,Entity,N0fe2fc42d5bd45d393a1d5e0fc179179
+Takedown quantity of the security handled by the underwriter (that will be brought into DTC).,Entity,Takedown quantity of the security handled by the underwriter (that will be brought into DTC).
+issueNominalNumberOfUnits,Entity,issueNominalNumberOfUnits
+A series of issuances over time.,Entity,A series of issuances over time.
+Subscriber,Entity,Subscriber
+formalAwardDateAndTime,Entity,formalAwardDateAndTime
+First Date and Time a trade may be executed for this security. All times in Eastern Time Zone only. NOTE: This is a date in the future tense at the time of the Offering.,Entity,First Date and Time a trade may be executed for this security. All times in Eastern Time Zone only. NOTE: This is a date in the future tense at the time of the Offering.
+"Information about the Issuance of a Security, which is maintained throughout the life of the Security.",Entity,"Information about the Issuance of a Security, which is maintained throughout the life of the Security."
+The party which formally issues the primary security identifier to the security. Term origin:MBS PoC Reviews,Entity,The party which formally issues the primary security identifier to the security. Term origin:MBS PoC Reviews

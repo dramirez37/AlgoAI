@@ -1,0 +1,534 @@
+source_id,target_id,relationship
+N0a10353766e54bf69baffd4b7f6150b5,maximumOverAllotmentAmount,owl#onProperty
+Ne23cb167091e40149a38b6ed98d9eb06,IssuancePrinter,owl#someValuesFrom
+Obligor,owl#Class,22-rdf-syntax-ns#type
+prints,IssuancePrinter,rdf-schema#domain
+IssuanceFinancialAdvisor,issuance financial advisor,rdf-schema#label
+requestedBy,requested by,rdf-schema#label
+Trustee,trustee,rdf-schema#label
+saleMethod,Sale Method of the security.,core#definition
+RemarketingAgent,owl#Class,22-rdf-syntax-ns#type
+overAllotmentExpiryPeriodDays,over allotment expiry period days,rdf-schema#label
+SecuritiesUnderwritingIssuanceProcess,Ne23cb167091e40149a38b6ed98d9eb06,rdf-schema#subClassOf
+IssueOverAllotmentTerms,"Terms for Change to an Issue Amount. A provision in an underwriting agreement, which allows members of the underwriting syndicate to purchase additional shares at the original price.",core#definition
+PotentialMuniUnderwriter,PotentialUnderwriter,rdf-schema#subClassOf
+PotentialMuniUnderwriter,owl#Class,22-rdf-syntax-ns#type
+Nc63a3fb30f68479e8c0dcc3bcefc9b7c,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+subscriber.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+disseminationDecisionDateAndTime,DateTime,rdf-schema#range
+isAgentIn,IssuanceAgent,rdf-schema#domain
+AnnounceSecuritiesIssue,owl#Class,22-rdf-syntax-ns#type
+N543ea3c1067041d6b82d4968f3763a76,owl#Restriction,22-rdf-syntax-ns#type
+includesStep,includes step,rdf-schema#label
+overAllotmentExpiryPeriodDays,Number of calendar days after the closing of initial offering for expiry of over-allotment option.,core#definition
+DebtAuctionProcess,SecuritiesIssuanceProcess,rdf-schema#subClassOf
+N97667fce29144ac8afc326c4997fda50,owl#Restriction,22-rdf-syntax-ns#type
+maximumOverAllotmentPercentage,The percentage that is available as part of providing the over-allotment option.,core#definition
+Nf01c82ba83d847faaaad4cd8d2b17581,owl#Restriction,22-rdf-syntax-ns#type
+BondCounsel,bond counsel,rdf-schema#label
+TransferAgent,owl#Class,22-rdf-syntax-ns#type
+Correspondent,ContractThirdParty,rdf-schema#subClassOf
+N7e30c1a536ea4c01a01e2312aa8298d9,owl#Restriction,22-rdf-syntax-ns#type
+hasTrustee,owl#ObjectProperty,22-rdf-syntax-ns#type
+PotentialMuniUnderwriter,potential muni underwriter,rdf-schema#label
+DebtIssueOverAllotmentTerms,debt issue over allotment terms,rdf-schema#label
+hasPrinter,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nc8f988b9137644528662761e714208a4,PayingAgent,owl#someValuesFrom
+Registration,IssuanceProcessActivity,rdf-schema#subClassOf
+Registration,registration,rdf-schema#label
+Correspondent,N4d01c2db47504ed3a9ec6261cdeb3842,rdf-schema#subClassOf
+refersTo,UnderwritingIssuanceClosing,rdf-schema#domain
+isIssuerCounsel,is issuer counsel,rdf-schema#label
+SecuritiesUnderwritingIssuanceProcess,The process by which debt instruments are offered to the market by a syndicate of underwriters who underwrite the issue.,core#definition
+Nbab07099b6554af081a9d630a6e1d0fa,owl#Restriction,22-rdf-syntax-ns#type
+IssueOverAllotmentTerms,owl#Class,22-rdf-syntax-ns#type
+IssuanceProcessParticipant,issuance process participant,rdf-schema#label
+Nd92138e4a3f74cd9b8956a7f4c9725e5,hasBondCounsel,owl#onProperty
+ProcessParticipant,process participant,rdf-schema#label
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+saleMethod,XMLSchema#string,rdf-schema#range
+Nf3d55ee03f9043679fe0d555c4386640,step,owl#onProperty
+,,owl#versionIRI
+isTrustee,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasRemarketingAgent,has remarketing agent,rdf-schema#label
+Nee0dd49b05124070bc7f6c67284d5588,TransferAgent,owl#someValuesFrom
+hasIssuanceGuarantor,has issuance guarantor,rdf-schema#label
+includesStep,owl#ObjectProperty,22-rdf-syntax-ns#type
+refersTo,refers to,rdf-schema#label
+N320aad3f72fd47e0891986fd56e71523,owl#Restriction,22-rdf-syntax-ns#type
+,Ontology for the process in which municipal bonds are issued.,abstract
+subscribesTo.1,Subscriber,rdf-schema#domain
+N4d01c2db47504ed3a9ec6261cdeb3842,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+N4e18dfdc010f471a93841ecb1f4d20fb,RemarketingAgent,owl#someValuesFrom
+UnderwritingIssuanceRequestor,PotentialIssuer,rdf-schema#subClassOf
+Nad4002b0315247f082570bc829f03e6a,services,owl#onProperty
+BondCounsel,ContractThirdParty,rdf-schema#subClassOf
+makesDecisionOn,Dissemination,rdf-schema#range
+advises,advises,rdf-schema#label
+isIssuerCounsel,IssuerCounsel,rdf-schema#domain
+N4040f5c9a8b24cf2a2fa2b5732847755,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+UnderwritingIssuanceClosing,owl#Class,22-rdf-syntax-ns#type
+Nf3d55ee03f9043679fe0d555c4386640,DebtOffering,owl#someValuesFrom
+N2c3fbafff23c4f47ba7ef683d0b7d99c,makesDecisionOn,owl#onProperty
+saleMethod,MuniDebtOffering,rdf-schema#domain
+N4d01c2db47504ed3a9ec6261cdeb3842,participatesIn,owl#onProperty
+advises,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ne44609fc34684936a1ad7b4c9db9a3e3,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+isTrustee,is trustee,rdf-schema#label
+offeringRequestor,offering requestor,rdf-schema#label
+TransferAgent,N77cb94895be44747baede3fe9709fd89,rdf-schema#subClassOf
+facilitatesPayment,PayingAgent,rdf-schema#domain
+disseminationDecisionDateAndTime,Dissemination,rdf-schema#domain
+announcementComments,AnnounceSecuritiesIssue,rdf-schema#domain
+IssuanceSettlement,issuance settlement,rdf-schema#label
+PotentialMuniUnderwriter,An intermediary between an issuer of a security and the investing public. An underwriter can either be DTC Participant or Correspondent who would clear the underwriting deal using the Crediting Participant.,core#definition
+saleMethod,owl#DatatypeProperty,22-rdf-syntax-ns#type
+DebtUnderwritingClosing,debt underwriting closing,rdf-schema#label
+AnnounceSecuritiesIssue,announce securities issue,rdf-schema#label
+announcementComments,XMLSchema#string,rdf-schema#range
+RegisteredSecurityIssuanceProcess,owl#Class,22-rdf-syntax-ns#type
+hasPayingAgent,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+UnderwritingProcessActor,PartyRole,rdf-schema#subClassOf
+IssueOverAllotmentTerms,N0a10353766e54bf69baffd4b7f6150b5,rdf-schema#subClassOf
+Dissemination,UnderwritingProcessActivity,rdf-schema#subClassOf
+Nf1d4e18abdd5409a9a8f3733bbd28275,owl#Restriction,22-rdf-syntax-ns#type
+isCreditingParticipant,IssuanceCreditingParticipant,rdf-schema#domain
+N9610f46c31d642dcb3f44d2912f37b42,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+hasObligor,Obligor,rdf-schema#range
+N77cb94895be44747baede3fe9709fd89,owl#Restriction,22-rdf-syntax-ns#type
+N0c46d765ef19474cb635c24357a4d755,owl#Restriction,22-rdf-syntax-ns#type
+MuniDebtOffering,muni debt offering,rdf-schema#label
+N193056bdc390447db02b737aa3c9d4a6,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+services,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+SecuritiesUnderwritingIssuanceProcess,owl#Class,22-rdf-syntax-ns#type
+IssuanceProcessParticipant,owl#Class,22-rdf-syntax-ns#type
+Nad4002b0315247f082570bc829f03e6a,owl#Restriction,22-rdf-syntax-ns#type
+EquityUnderwritingIssuanceProcess,owl#Class,22-rdf-syntax-ns#type
+EquityDemutualizationProcess,SecuritiesIssuanceProcess,rdf-schema#subClassOf
+N948a3529f1c549f3a0540978474996d4,IssuanceFinancialAdvisor,owl#someValuesFrom
+N2d09c276efa243a08f06b98849b553cb,requestedBy,owl#onProperty
+N624030f8594540568182b9428a54505d,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+UnderwritingProcessActivity,IssuanceProcessActivity,rdf-schema#subClassOf
+Nc6bd66db01ef46ac99c372c981d14417,owl#Restriction,22-rdf-syntax-ns#type
+Nb4c79fef36bd4f9c97791e6e887d1773,owl#Restriction,22-rdf-syntax-ns#type
+isTrustee,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+Nf6526e03c0d143ce9c923670a11c1a2a,N00ed27ba59c7465490d546a67dda6e5b,owl#unionOf
+maximumOverAllotmentPercentage,IssueOverAllotmentTerms,rdf-schema#domain
+produces,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+Servicer,owl#Class,22-rdf-syntax-ns#type
+hasObligor,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+hasFinancialAdvisor,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+maximumOverAllotmentAmount,The maximum amount that is available as part of providing the over-allotment option.,core#definition
+facilitatesPayment,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+issuanceSettlementDate,IssuanceSettlement,rdf-schema#domain
+prints,prints,rdf-schema#label
+RegisteredSecurityIssuanceProcess,SecuritiesIssuanceProcess,rdf-schema#subClassOf
+hasObligor,owl#ObjectProperty,22-rdf-syntax-ns#type
+isTrustee,Trustee,rdf-schema#domain
+hasFinancialAdvisor,owl#ObjectProperty,22-rdf-syntax-ns#type
+AnnounceSecuritiesIssue,N97667fce29144ac8afc326c4997fda50,rdf-schema#subClassOf
+PrivatePlacement,private placement,rdf-schema#label
+EquityUnderwritingIssuanceProcess,equity underwriting issuance process,rdf-schema#label
+produces,produces,rdf-schema#label
+hasPayingAgent,owl#ObjectProperty,22-rdf-syntax-ns#type
+SecuritiesUnderwritingIssuanceProcess,Nf01c82ba83d847faaaad4cd8d2b17581,rdf-schema#subClassOf
+N5baa1e80ffa04316963648d489672384,underwrittenBy,owl#onProperty
+Nf3d55ee03f9043679fe0d555c4386640,owl#Restriction,22-rdf-syntax-ns#type
+facililtatesRemarketing,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+N0c46d765ef19474cb635c24357a4d755,hasSubscriber,owl#onProperty
+DebtIssueOverAllotmentTerms,owl#Class,22-rdf-syntax-ns#type
+SecuritiesUnderwritingIssuanceProcess,Nee0dd49b05124070bc7f6c67284d5588,rdf-schema#subClassOf
+includesStep,RegisteredSecurityIssuanceProcess,rdf-schema#domain
+underwrites,owl#ObjectProperty,22-rdf-syntax-ns#type
+actualClosingDate,The date in which closing has been done for the underwriter of a security.,core#definition
+N2e7ca5ac9d26480ea00d7ee5e78f00f3,refersTo,owl#onProperty
+maximumOverAllotmentPercentage,maximum over allotment percentage,rdf-schema#label
+isBondCounsel,is bond counsel,rdf-schema#label
+N77cb94895be44747baede3fe9709fd89,facilitatesTransfer,owl#onProperty
+step,DebtUnderwritingIssuanceProcess,rdf-schema#domain
+UnderwritingIssuanceClosing,underwriting issuance closing,rdf-schema#label
+Nc63a3fb30f68479e8c0dcc3bcefc9b7c,DTCCMember,22-rdf-syntax-ns#first
+requestedBy,UnderwritingIssuanceRequestor,rdf-schema#range
+BondCounsel,owl#Class,22-rdf-syntax-ns#type
+maximumOverAllotmentAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+SecuritiesIssuanceContext,owl#Class,22-rdf-syntax-ns#type
+requests,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+N05abd873d5dd41e287cf479a65990a92,owl#Restriction,22-rdf-syntax-ns#type
+,MuniIssuance,rdf-schema#label
+formalAwardDateAndTime,time data or add a term for it?,core#definition
+N68aeddc9bf01448cad426f82e3e4d5f5,produces,owl#onProperty
+isIssuerCounsel,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+Nc427d0dc623a4de18e3da0a9fa758744,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+N193056bdc390447db02b737aa3c9d4a6,prints,owl#onProperty
+N3802075982bf48f0837611f482ead867,hasIssuerCounsel,owl#onProperty
+facililtatesRemarketing,RemarketingAgent,rdf-schema#domain
+isBondCounsel,DebtUnderwritingIssuanceProcess,rdf-schema#range
+registeredUnder,Jurisdiction,rdf-schema#range
+hasPrinter,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+formalAwardDateAndTime,DebtOffering,rdf-schema#domain
+issuanceSettlementDate,issuance settlement date,rdf-schema#label
+MuniDebtOffering,The process step of offering a Municipal Debt security for issue.,core#definition
+Neebc9877a0dc4571be4c060062675ca3,SecuritiesOffering,owl#someValuesFrom
+issuanceSettlementDate,Settlement date for the initial Issuance transaction.,core#definition
+ProcessParticipant,owl#Class,22-rdf-syntax-ns#type
+UnderwritingIssuanceClosing,N7ecfd734b97c4501ad4ff67ea0252d39,rdf-schema#subClassOf
+Correspondent,owl#Class,22-rdf-syntax-ns#type
+Nfeec5ee9df9942e6896ac8f3fe126e02,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+services,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nd92138e4a3f74cd9b8956a7f4c9725e5,owl#Restriction,22-rdf-syntax-ns#type
+Nc8f988b9137644528662761e714208a4,hasPayingAgent,owl#onProperty
+N2e7ca5ac9d26480ea00d7ee5e78f00f3,Security,owl#someValuesFrom
+Nf1d4e18abdd5409a9a8f3733bbd28275,refersTo,owl#onProperty
+maximumOverAllotmentShares,IssueOverAllotmentTerms,rdf-schema#domain
+,owl#Ontology,22-rdf-syntax-ns#type
+N7ecfd734b97c4501ad4ff67ea0252d39,refersTo,owl#onProperty
+Nf1d4e18abdd5409a9a8f3733bbd28275,Security,owl#someValuesFrom
+EquityUnderwritingIssuanceProcess,RegisteredSecurityIssuanceProcess,rdf-schema#subClassOf
+participatesIn,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+DebtUnderwritingClosing,UnderwritingIssuanceClosing,rdf-schema#subClassOf
+hasPotentialIssuer,has potential issuer,rdf-schema#label
+makesDecisionOn,makes decision on,rdf-schema#label
+subscribesTo,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+disseminationDecisionDateAndTime,dissemination decision date and time,rdf-schema#label
+hasBondCounsel,DebtUnderwritingIssuanceProcess,rdf-schema#domain
+DebtUnderwritingIssuanceProcess,EquityUnderwritingIssuanceProcess,owl#disjointWith
+Nb4c79fef36bd4f9c97791e6e887d1773,hasObligor,owl#onProperty
+Correspondent,correspondent,rdf-schema#label
+subscribesTo, debt units based on interest.,core#definition
+BondCounsel,N4313dff5dc7f4e78b49e31d3d1c2f3c6,rdf-schema#subClassOf
+UnderwritingIssuanceRequestor,N4040f5c9a8b24cf2a2fa2b5732847755,rdf-schema#subClassOf
+N948a3529f1c549f3a0540978474996d4,hasFinancialAdvisor,owl#onProperty
+hasIssuerCounsel,IssuerCounsel,rdf-schema#range
+step,step,rdf-schema#label
+hasTransferAgent,has transfer agent,rdf-schema#label
+N05abd873d5dd41e287cf479a65990a92,refersTo,owl#onProperty
+actualClosingDate,IssuanceClosing,rdf-schema#domain
+IssuanceAgent,owl#Class,22-rdf-syntax-ns#type
+underwrites,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+DebtAuctionProcess,owl#Class,22-rdf-syntax-ns#type
+RegisteredSecurityIssuanceProcess,registered security issuance process,rdf-schema#label
+subscribesTo.1,SecuritiesIssuanceProcess,rdf-schema#range
+overAllotmentAvailable,Whether an over-allotment option is available for the security.,core#definition
+hasFinancialAdvisor,has financial advisor,rdf-schema#label
+DebtUnderwritingIssuanceProcess,Nf3d55ee03f9043679fe0d555c4386640,rdf-schema#subClassOf
+facililtatesRemarketing,owl#ObjectProperty,22-rdf-syntax-ns#type
+participatesIn,MuniIssuanceProcessParticipant,rdf-schema#domain
+hasTransferAgent,TransferAgent,rdf-schema#range
+SecuritiesIssuanceContext,securities issuance context,rdf-schema#label
+Na435384c0b3a4e33b7d8781b5c5f5032,owl#Restriction,22-rdf-syntax-ns#type
+overAllotmentAvailable,IssueOverAllotmentTerms,rdf-schema#domain
+IssuanceProcessParticipant,ProcessParticipant,rdf-schema#subClassOf
+TransferAgent,IssuanceAgent,rdf-schema#subClassOf
+makesDecisionOn,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasServicer,has servicer,rdf-schema#label
+step,owl#ObjectProperty,22-rdf-syntax-ns#type
+underwrites,PotentialMuniUnderwriter,rdf-schema#domain
+SecuritiesUnderwritingIssuance,"Underwriting, as a method of Securities Issuance.",core#definition
+PrivatePlacement,SecuritiesIssuanceProcess,rdf-schema#subClassOf
+UnderwritingIssuanceRequestor,owl#Class,22-rdf-syntax-ns#type
+maximumOverAllotmentShares,XMLSchema#integer,rdf-schema#range
+UnderwritingProcessActor,any actor within the DTCC Underwriting Process or any other Underwriting Process. Note: At present all these Actors (e.g. Underwriter) are defined simply as Process Actors and not as specializations of this type of Actor. Therefore this Actor is a Union of all of those.,core#definition
+PayingAgent,Nfeec5ee9df9942e6896ac8f3fe126e02,rdf-schema#subClassOf
+MuniDebtOffering,DebtOffering,rdf-schema#subClassOf
+Dissemination,owl#Class,22-rdf-syntax-ns#type
+requests,owl#ObjectProperty,22-rdf-syntax-ns#type
+DTCCMember,owl#Class,22-rdf-syntax-ns#type
+maximumOverAllotmentShares,maximum over allotment shares,rdf-schema#label
+DebtUnderwritingClosing,N05abd873d5dd41e287cf479a65990a92,rdf-schema#subClassOf
+facilitatesPayment,owl#ObjectProperty,22-rdf-syntax-ns#type
+PrivatePlacement,owl#Class,22-rdf-syntax-ns#type
+N5baa1e80ffa04316963648d489672384,PotentialMuniUnderwriter,owl#someValuesFrom
+actualClosingDate,actual closing date,rdf-schema#label
+EquityIPOProcess,owl#Class,22-rdf-syntax-ns#type
+Neebc9877a0dc4571be4c060062675ca3,owl#Restriction,22-rdf-syntax-ns#type
+Obligor,obligor,rdf-schema#label
+N543ea3c1067041d6b82d4968f3763a76,participatesIn,owl#onProperty
+saleMethod,sale method,rdf-schema#label
+SecuritiesUnderwritingIssuanceProcess,N68aeddc9bf01448cad426f82e3e4d5f5,rdf-schema#subClassOf
+hasBondCounsel,BondCounsel,rdf-schema#range
+hasRemarketingAgent,RemarketingAgent,rdf-schema#range
+ProcessParticipant,PartyRole,rdf-schema#subClassOf
+participatesIn,participates in,rdf-schema#label
+formalAwardDateAndTime,formal award date and time,rdf-schema#label
+N4040f5c9a8b24cf2a2fa2b5732847755,requests,owl#onProperty
+hasSubscriber,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+prints,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+SecuritiesUnderwritingIssuanceProcess,N2d09c276efa243a08f06b98849b553cb,rdf-schema#subClassOf
+EquityDemutualizationProcess,owl#Class,22-rdf-syntax-ns#type
+services,Servicer,rdf-schema#domain
+announcementComments,announcement comments,rdf-schema#label
+IssuanceCreditingParticipant,owl#Class,22-rdf-syntax-ns#type
+N47f9e25504de41aeb83060a97127c08f,hasTrustee,owl#onProperty
+N4313dff5dc7f4e78b49e31d3d1c2f3c6,owl#Restriction,22-rdf-syntax-ns#type
+UnderwritingIssuanceClosing,IssuanceClosing,rdf-schema#subClassOf
+refersTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+Correspondent,MuniIssuanceProcessParticipant,rdf-schema#subClassOf
+N543ea3c1067041d6b82d4968f3763a76,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+N4d01c2db47504ed3a9ec6261cdeb3842,owl#Restriction,22-rdf-syntax-ns#type
+N2e7ca5ac9d26480ea00d7ee5e78f00f3,owl#Restriction,22-rdf-syntax-ns#type
+DisseminationUnderwriter,N2c3fbafff23c4f47ba7ef683d0b7d99c,rdf-schema#subClassOf
+DebtIssueOverAllotmentTerms,IssueOverAllotmentTerms,rdf-schema#subClassOf
+subscribesTo,subscribes to,rdf-schema#label
+IssuanceSettlement,IssuanceProcessActivity,rdf-schema#subClassOf
+SecuritiesUnderwritingIssuanceProcess,Nc8f988b9137644528662761e714208a4,rdf-schema#subClassOf
+N47f9e25504de41aeb83060a97127c08f,Trustee,owl#someValuesFrom
+SecuritiesUnderwritingIssuanceProcess,N948a3529f1c549f3a0540978474996d4,rdf-schema#subClassOf
+Nbab07099b6554af081a9d630a6e1d0fa,facililtatesRemarketing,owl#onProperty
+IssuanceClosing,owl#Class,22-rdf-syntax-ns#type
+hasBondCounsel,has bond counsel,rdf-schema#label
+isAgentIn,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+announcementComments,"Free form description of Purpose of Issue, Source of funds etc.",core#definition
+hasServicer,Servicer,rdf-schema#range
+IssuanceClosing,IssuanceProcessActivity,rdf-schema#subClassOf
+announcesIssueOf,AnnounceSecuritiesIssue,rdf-schema#domain
+isIssuerCounsel,owl#ObjectProperty,22-rdf-syntax-ns#type
+Registration,owl#Class,22-rdf-syntax-ns#type
+hasAgent,owl#ObjectProperty,22-rdf-syntax-ns#type
+N8fd361c639b54f3b9bd32309d2c10f14,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+SecuritiesUnderwritingIssuanceProcess,securities underwriting issuance process,rdf-schema#label
+SecuritiesUnderwritingIssuance,securities underwriting issuance,rdf-schema#label
+DTCCMember,"A firm which is a member of DTCC. Note: this Actor may perform any of the Roles described elsewhere in this Issuance model, i.e. the DTCC Member may also be any of the Actors defined. REVIEW: does this apply to ALL the defined Actor types?",core#definition
+UnderwritingProcessActivity,owl#Class,22-rdf-syntax-ns#type
+PotentialMuniUnderwriter,N624030f8594540568182b9428a54505d,rdf-schema#subClassOf
+N68aeddc9bf01448cad426f82e3e4d5f5,owl#Restriction,22-rdf-syntax-ns#type
+underwrites,underwrites,rdf-schema#label
+maximumOverAllotmentAmount,DebtIssueOverAllotmentTerms,rdf-schema#domain
+N68aeddc9bf01448cad426f82e3e4d5f5,UnderwritingProcessDetails,owl#someValuesFrom
+maximumOverAllotmentShares,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Trustee,owl#Class,22-rdf-syntax-ns#type
+isCreditingParticipant,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+Nf01c82ba83d847faaaad4cd8d2b17581,Servicer,owl#someValuesFrom
+N2c3fbafff23c4f47ba7ef683d0b7d99c,owl#Restriction,22-rdf-syntax-ns#type
+formalAwardDateAndTime,DateTime,rdf-schema#range
+EquityIPOProcess,RegisteredSecurityIssuanceProcess,rdf-schema#subClassOf
+IssueOverAllotmentTerms,issue over allotment terms,rdf-schema#label
+IssuanceSettlement,owl#Class,22-rdf-syntax-ns#type
+Trustee,N9610f46c31d642dcb3f44d2912f37b42,rdf-schema#subClassOf
+IssueOverAllotmentTerms,OfferingDocumentTerms,rdf-schema#subClassOf
+announcesIssueOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+participatesIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+N7ecfd734b97c4501ad4ff67ea0252d39,UnderwriterTakedown,owl#someValuesFrom
+subscribesTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasSubscriber,owl#ObjectProperty,22-rdf-syntax-ns#type
+UnderwritingProcessActor,Nf6526e03c0d143ce9c923670a11c1a2a,rdf-schema#subClassOf
+N5baa1e80ffa04316963648d489672384,owl#Restriction,22-rdf-syntax-ns#type
+N320aad3f72fd47e0891986fd56e71523,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+maximumOverAllotmentAmount,IssueOverAllotmentTerms,rdf-schema#domain
+SecuritiesUnderwritingIssuance,Nf1d4e18abdd5409a9a8f3733bbd28275,rdf-schema#subClassOf
+disseminationDecisionDateAndTime,Date and Time when the Dissemination Underwriter made the Decision about Dissemination.,core#definition
+isCreditingParticipant,is crediting participant,rdf-schema#label
+N3802075982bf48f0837611f482ead867,owl#Restriction,22-rdf-syntax-ns#type
+IssuancePrinter,owl#Class,22-rdf-syntax-ns#type
+N7ecfd734b97c4501ad4ff67ea0252d39,owl#Restriction,22-rdf-syntax-ns#type
+announcesIssueOf,announces issue of,rdf-schema#label
+facilitatesTransfer,facilitates transfer,rdf-schema#label
+hasSubscriber,has subscriber,rdf-schema#label
+EquityIPOProcess,equity i p o process,rdf-schema#label
+hasRemarketingAgent,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+registeredUnder,registered under,rdf-schema#label
+Neebc9877a0dc4571be4c060062675ca3,announces,owl#onProperty
+Registration,Na435384c0b3a4e33b7d8781b5c5f5032,rdf-schema#subClassOf
+hasBondCounsel,owl#ObjectProperty,22-rdf-syntax-ns#type
+SecuritiesIssuanceContext,N2e7ca5ac9d26480ea00d7ee5e78f00f3,rdf-schema#subClassOf
+DTCCMember,MuniIssuanceProcessParticipant,rdf-schema#subClassOf
+TransferAgent,transfer agent,rdf-schema#label
+maximumOverAllotmentAmount,maximum over allotment amount,rdf-schema#label
+IssuerCounsel,issuer counsel,rdf-schema#label
+DebtUnderwritingIssuanceProcess,SecuritiesUnderwritingIssuanceProcess,rdf-schema#subClassOf
+overAllotmentAvailable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+isBondCounsel,BondCounsel,rdf-schema#domain
+N4e18dfdc010f471a93841ecb1f4d20fb,hasRemarketingAgent,owl#onProperty
+Dissemination,dissemination,rdf-schema#label
+PayingAgent,IssuanceAgent,rdf-schema#subClassOf
+Servicer,servicer,rdf-schema#label
+N4313dff5dc7f4e78b49e31d3d1c2f3c6,isBondCounsel,owl#onProperty
+hasServicer,owl#ObjectProperty,22-rdf-syntax-ns#type
+N05abd873d5dd41e287cf479a65990a92,UnderwriterTakedownForDebt,owl#someValuesFrom
+N4c57a86e2c10498984858335b20afacc,hasAgent,owl#onProperty
+SecuritiesUnderwritingIssuanceProcess,N3802075982bf48f0837611f482ead867,rdf-schema#subClassOf
+IssuanceCreditingParticipant,issuance crediting participant,rdf-schema#label
+prints,owl#ObjectProperty,22-rdf-syntax-ns#type
+N00ed27ba59c7465490d546a67dda6e5b,Correspondent,22-rdf-syntax-ns#first
+Nf01c82ba83d847faaaad4cd8d2b17581,hasServicer,owl#onProperty
+N624030f8594540568182b9428a54505d,underwrites,owl#onProperty
+isAgentIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+IssuanceFinancialAdvisor,N8fd361c639b54f3b9bd32309d2c10f14,rdf-schema#subClassOf
+hasPrinter,IssuancePrinter,rdf-schema#range
+maximumOverAllotmentPercentage,Percentage,rdf-schema#range
+issuanceSettlementDate,Date,rdf-schema#range
+Nee0dd49b05124070bc7f6c67284d5588,owl#Restriction,22-rdf-syntax-ns#type
+N4c57a86e2c10498984858335b20afacc,IssuanceAgent,owl#someValuesFrom
+IssuanceClosing,issuance closing,rdf-schema#label
+hasTrustee,has trustee,rdf-schema#label
+IssuanceClosing,The process of crediting the DTC participant account on settlement date with the position for the new issue. The overall closing process includes the exchange of funds that happens outside of DTC.,core#definition
+IssuanceAgent,issuance agent,rdf-schema#label
+hasRemarketingAgent,owl#ObjectProperty,22-rdf-syntax-ns#type
+Correspondent,"A bank, brokerage or other financial institution that is not a direct DTC member. Correspondents rely on direct DTC Participants to perform their DTC settlement services",core#definition
+AnnounceSecuritiesIssue,Neebc9877a0dc4571be4c060062675ca3,rdf-schema#subClassOf
+Na435384c0b3a4e33b7d8781b5c5f5032,registeredUnder,owl#onProperty
+MuniDebtOffering,owl#Class,22-rdf-syntax-ns#type
+isCreditingParticipant,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasPotentialIssuer,owl#ObjectProperty,22-rdf-syntax-ns#type
+DebtUnderwritingIssuanceProcess,Nd92138e4a3f74cd9b8956a7f4c9725e5,rdf-schema#subClassOf
+N0a10353766e54bf69baffd4b7f6150b5,1,owl#maxQualifiedCardinality
+obligorTo,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+DisseminationUnderwriter,dissemination underwriter,rdf-schema#label
+disseminationDecisionDateAndTime,owl#ObjectProperty,22-rdf-syntax-ns#type
+produces,UnderwritingProcessDetails,rdf-schema#range
+hasIssuerCounsel,has issuer counsel,rdf-schema#label
+,Provisional,hasMaturityLevel
+hasIssuanceGuarantor,owl#ObjectProperty,22-rdf-syntax-ns#type
+SecuritiesUnderwritingIssuanceProcess,N47f9e25504de41aeb83060a97127c08f,rdf-schema#subClassOf
+Ne44609fc34684936a1ad7b4c9db9a3e3,isCreditingParticipant,owl#onProperty
+IssuancePrinter,issuance printer,rdf-schema#label
+PayingAgent,paying agent,rdf-schema#label
+SecuritiesUnderwritingIssuance,SecuritiesIssuanceContext,rdf-schema#subClassOf
+,MIT,license
+IssuanceAgent,N320aad3f72fd47e0891986fd56e71523,rdf-schema#subClassOf
+DebtAuctionProcess,SecuritiesUnderwritingIssuanceProcess,owl#disjointWith
+Ne44609fc34684936a1ad7b4c9db9a3e3,owl#Restriction,22-rdf-syntax-ns#type
+givesRiseTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+actualClosingDate,Date,rdf-schema#range
+SecuritiesIssuanceContext,PrimaryMarket,rdf-schema#subClassOf
+DebtIssueOverAllotmentTerms,Terms for Change to an Issue Amount for Debt securities,core#definition
+Nc6bd66db01ef46ac99c372c981d14417,includesStep,owl#onProperty
+N4313dff5dc7f4e78b49e31d3d1c2f3c6,DebtUnderwritingIssuanceProcess,owl#someValuesFrom
+MuniIssuanceProcessParticipant,muni issuance process participant,rdf-schema#label
+hasAgent,IssuanceAgent,rdf-schema#range
+Obligor,Nc427d0dc623a4de18e3da0a9fa758744,rdf-schema#subClassOf
+services,services,rdf-schema#label
+SecuritiesUnderwritingIssuanceProcess,N5baa1e80ffa04316963648d489672384,rdf-schema#subClassOf
+DebtUnderwritingIssuanceProcess,owl#Class,22-rdf-syntax-ns#type
+overAllotmentExpiryPeriodDays,IssueOverAllotmentTerms,rdf-schema#domain
+Nee0dd49b05124070bc7f6c67284d5588,hasTransferAgent,owl#onProperty
+RegisteredSecurityIssuanceProcess,Nc6bd66db01ef46ac99c372c981d14417,rdf-schema#subClassOf
+Servicer,Nad4002b0315247f082570bc829f03e6a,rdf-schema#subClassOf
+step,DebtOffering,rdf-schema#range
+UnderwritingProcessActivity,underwriting process activity,rdf-schema#label
+N8fd361c639b54f3b9bd32309d2c10f14,owl#Restriction,22-rdf-syntax-ns#type
+DebtUnderwritingIssuanceProcess,debt underwriting issuance process,rdf-schema#label
+registeredUnder,Registration,rdf-schema#domain
+hasTrustee,Trustee,rdf-schema#range
+hasAgent,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+hasSubscriber,Subscriber,rdf-schema#range
+hasAgent,has agent,rdf-schema#label
+hasFinancialAdvisor,IssuanceFinancialAdvisor,rdf-schema#range
+N948a3529f1c549f3a0540978474996d4,owl#Restriction,22-rdf-syntax-ns#type
+N7e30c1a536ea4c01a01e2312aa8298d9,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+N4040f5c9a8b24cf2a2fa2b5732847755,owl#Restriction,22-rdf-syntax-ns#type
+DebtUnderwritingClosing,owl#Class,22-rdf-syntax-ns#type
+subscribesTo.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+N2c3fbafff23c4f47ba7ef683d0b7d99c,Dissemination,owl#someValuesFrom
+MuniIssuanceProcessParticipant,owl#Class,22-rdf-syntax-ns#type
+hasTransferAgent,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+subscribesTo.1,subscribes to,rdf-schema#label
+SecuritiesUnderwritingIssuance,owl#Class,22-rdf-syntax-ns#type
+facilitatesTransfer,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+hasServicer,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+Nbab07099b6554af081a9d630a6e1d0fa,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+UnderwritingProcessActor,owl#Class,22-rdf-syntax-ns#type
+IssuanceCreditingParticipant,Ne44609fc34684936a1ad7b4c9db9a3e3,rdf-schema#subClassOf
+hasObligor,has obligor,rdf-schema#label
+MuniIssuanceProcessParticipant,IssuanceProcessParticipant,rdf-schema#subClassOf
+N9610f46c31d642dcb3f44d2912f37b42,isTrustee,owl#onProperty
+IssuerCounsel,owl#Class,22-rdf-syntax-ns#type
+N4e18dfdc010f471a93841ecb1f4d20fb,owl#Restriction,22-rdf-syntax-ns#type
+N97667fce29144ac8afc326c4997fda50,announcesIssueOf,owl#onProperty
+Nd92138e4a3f74cd9b8956a7f4c9725e5,BondCounsel,owl#someValuesFrom
+N2d09c276efa243a08f06b98849b553cb,UnderwritingIssuanceRequestor,owl#someValuesFrom
+IssuancePrinter,N193056bdc390447db02b737aa3c9d4a6,rdf-schema#subClassOf
+DTCCMember,N543ea3c1067041d6b82d4968f3763a76,rdf-schema#subClassOf
+overAllotmentExpiryPeriodDays,XMLSchema#integer,rdf-schema#range
+registeredUnder,owl#ObjectProperty,22-rdf-syntax-ns#type
+announcesIssueOf,Security,rdf-schema#range
+advises,IssuanceFinancialAdvisor,rdf-schema#domain
+N624030f8594540568182b9428a54505d,owl#Restriction,22-rdf-syntax-ns#type
+IssueOverAllotmentTerms,"Also known as a green shoe. Note that this set of terms does not refer to over-allotment as change to a the total issue amount issued to an individual investor. That would require separate but similar terms. FIBIM has ""Over Allotment Amount"" as an individual term.",explanatoryNote
+isAgentIn,is agent in,rdf-schema#label
+,,owl#imports
+RemarketingAgent,remarketing agent,rdf-schema#label
+overAllotmentAvailable,XMLSchema#boolean,rdf-schema#range
+N97667fce29144ac8afc326c4997fda50,Security,owl#someValuesFrom
+obligorTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+makesDecisionOn,DisseminationUnderwriter,rdf-schema#domain
+Nc427d0dc623a4de18e3da0a9fa758744,obligorTo,owl#onProperty
+underwrittenBy,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+Ne23cb167091e40149a38b6ed98d9eb06,owl#Restriction,22-rdf-syntax-ns#type
+N0a10353766e54bf69baffd4b7f6150b5,owl#Restriction,22-rdf-syntax-ns#type
+EquityDemutualizationProcess,equity demutualization process,rdf-schema#label
+hasTransferAgent,owl#ObjectProperty,22-rdf-syntax-ns#type
+obligorTo,Obligor,rdf-schema#domain
+DisseminationUnderwriter,owl#Class,22-rdf-syntax-ns#type
+isBondCounsel,owl#ObjectProperty,22-rdf-syntax-ns#type
+maximumOverAllotmentPercentage,owl#ObjectProperty,22-rdf-syntax-ns#type
+underwrittenBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasIssuerCounsel,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+requests,UnderwritingIssuanceRequestor,rdf-schema#domain
+N9610f46c31d642dcb3f44d2912f37b42,owl#Restriction,22-rdf-syntax-ns#type
+N4c57a86e2c10498984858335b20afacc,owl#Restriction,22-rdf-syntax-ns#type
+N0a10353766e54bf69baffd4b7f6150b5,MonetaryAmount,owl#onClass
+N193056bdc390447db02b737aa3c9d4a6,owl#Restriction,22-rdf-syntax-ns#type
+includesStep,Registration,rdf-schema#range
+overAllotmentAvailable,over allotment available,rdf-schema#label
+SecuritiesUnderwritingIssuanceProcess,N0c46d765ef19474cb635c24357a4d755,rdf-schema#subClassOf
+Na435384c0b3a4e33b7d8781b5c5f5032,Jurisdiction,owl#someValuesFrom
+formalAwardDateAndTime,owl#ObjectProperty,22-rdf-syntax-ns#type
+underwrittenBy,PotentialMuniUnderwriter,rdf-schema#range
+refersTo,UnderwriterTakedown,rdf-schema#range
+Nc8f988b9137644528662761e714208a4,owl#Restriction,22-rdf-syntax-ns#type
+RemarketingAgent,Nbab07099b6554af081a9d630a6e1d0fa,rdf-schema#subClassOf
+Nfeec5ee9df9942e6896ac8f3fe126e02,facilitatesPayment,owl#onProperty
+hasPayingAgent,has paying agent,rdf-schema#label
+PayingAgent,owl#Class,22-rdf-syntax-ns#type
+underwrittenBy,underwritten by,rdf-schema#label
+N47f9e25504de41aeb83060a97127c08f,owl#Restriction,22-rdf-syntax-ns#type
+N00ed27ba59c7465490d546a67dda6e5b,Nc63a3fb30f68479e8c0dcc3bcefc9b7c,22-rdf-syntax-ns#rest
+Nc427d0dc623a4de18e3da0a9fa758744,owl#Restriction,22-rdf-syntax-ns#type
+requestedBy,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+SecuritiesUnderwritingIssuanceProcess,Nb4c79fef36bd4f9c97791e6e887d1773,rdf-schema#subClassOf
+subscribesTo,Subscriber,rdf-schema#domain
+Nad4002b0315247f082570bc829f03e6a,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+givesRiseTo,gives rise to,rdf-schema#label
+IssuanceFinancialAdvisor,owl#Class,22-rdf-syntax-ns#type
+hasPayingAgent,PayingAgent,rdf-schema#range
+SecuritiesUnderwritingIssuanceProcess,SecuritiesIssuanceProcess,rdf-schema#subClassOf
+Ne23cb167091e40149a38b6ed98d9eb06,hasPrinter,owl#onProperty
+subscriber.1,subscriber,rdf-schema#label
+N2d09c276efa243a08f06b98849b553cb,owl#Restriction,22-rdf-syntax-ns#type
+N7e30c1a536ea4c01a01e2312aa8298d9,isIssuerCounsel,owl#onProperty
+overAllotmentExpiryPeriodDays,owl#DatatypeProperty,22-rdf-syntax-ns#type
+requestedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+facilitatesTransfer,TransferAgent,rdf-schema#domain
+N3802075982bf48f0837611f482ead867,IssuerCounsel,owl#someValuesFrom
+N0c46d765ef19474cb635c24357a4d755,Subscriber,owl#someValuesFrom
+facilitatesTransfer,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasIssuerCounsel,owl#ObjectProperty,22-rdf-syntax-ns#type
+N8fd361c639b54f3b9bd32309d2c10f14,advises,owl#onProperty
+UnderwritingIssuanceRequestor,underwriting issuance requestor,rdf-schema#label
+announcementComments,owl#DatatypeProperty,22-rdf-syntax-ns#type
+requests,requests,rdf-schema#label
+Nfeec5ee9df9942e6896ac8f3fe126e02,owl#Restriction,22-rdf-syntax-ns#type
+Nb4c79fef36bd4f9c97791e6e887d1773,Obligor,owl#someValuesFrom
+Nc6bd66db01ef46ac99c372c981d14417,Registration,owl#someValuesFrom
+N77cb94895be44747baede3fe9709fd89,SecuritiesUnderwritingIssuanceProcess,owl#someValuesFrom
+facililtatesRemarketing,facililtates remarketing,rdf-schema#label
+offeringRequestor,owl#ObjectProperty,22-rdf-syntax-ns#type
+advises,SecuritiesUnderwritingIssuanceProcess,rdf-schema#range
+IssuerCounsel,N7e30c1a536ea4c01a01e2312aa8298d9,rdf-schema#subClassOf
+DebtAuctionProcess,debt auction process,rdf-schema#label
+maximumOverAllotmentShares,The maximum amount of shares that are available as part of providing the over-allotment option.,core#definition
+produces,owl#ObjectProperty,22-rdf-syntax-ns#type
+actualClosingDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+issuanceSettlementDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+facilitatesPayment,facilitates payment,rdf-schema#label
+N320aad3f72fd47e0891986fd56e71523,isAgentIn,owl#onProperty
+maximumOverAllotmentAmount,MonetaryAmount,rdf-schema#range
+SecuritiesUnderwritingIssuanceProcess,N4c57a86e2c10498984858335b20afacc,rdf-schema#subClassOf
+DTCCMember,d t c c member,rdf-schema#label
+UnderwritingProcessActor,underwriting process actor,rdf-schema#label
+hasPrinter,has printer,rdf-schema#label
+Nf6526e03c0d143ce9c923670a11c1a2a,owl#Class,22-rdf-syntax-ns#type
+obligorTo,obligor to,rdf-schema#label
+hasTrustee,SecuritiesUnderwritingIssuanceProcess,rdf-schema#domain
+SecuritiesUnderwritingIssuanceProcess,N4e18dfdc010f471a93841ecb1f4d20fb,rdf-schema#subClassOf
+DisseminationUnderwriter,PotentialMuniUnderwriter,rdf-schema#subClassOf

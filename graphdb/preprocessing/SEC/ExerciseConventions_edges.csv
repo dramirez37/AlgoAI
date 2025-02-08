@@ -1,0 +1,110 @@
+source_id,target_id,relationship
+AmericanExerciseTerms,owl#Class,22-rdf-syntax-ns#type
+AmericanExerciseTerms,N5d813368d77345f9b200f591766e025f,rdf-schema#subClassOf
+CanaryExerciseTerms,canary exercise terms,rdf-schema#label
+CanaryExerciseConvention,owl#NamedIndividual,22-rdf-syntax-ns#type
+N7ef953b6395847b6a8577d346d8e255e,uses,owl#onProperty
+EuropeanExerciseConvention,owl#NamedIndividual,22-rdf-syntax-ns#type
+EuropeanExerciseTerms,N4cf4c87f493f40f3b2e9760c2474ecb4,rdf-schema#subClassOf
+hasExerciseTerms,DerivativeInstrument,rdf-schema#domain
+Nba423a90d05b435f9503fbf250d531ca,owl#Restriction,22-rdf-syntax-ns#type
+BermudanExerciseTerms,Nddac170b7da446309513bc23995b88b1,rdf-schema#subClassOf
+BermudanExerciseTerms,"exercise terms that stipulate that an option may only be exercised on predetermined dates within some exercise window, often on one day each month or at the date of expiration",core#definition
+hasExerciseDate,ExplicitDate,rdf-schema#range
+hasExerciseWindow,has exercise window,rdf-schema#label
+N6dd6e897b6544afd89b82a29545a2ea7,owl#Restriction,22-rdf-syntax-ns#type
+EuropeanExerciseConvention,European exercise convention,rdf-schema#label
+EuropeanExerciseTerms,ExerciseTerms,rdf-schema#subClassOf
+ExerciseTerms,"contract terms specific to the conditions, conventions and other stipulations related to the exercise of an option or entitlement",core#definition
+hasExerciseTerms,"links a derivative, such as an option or entitlement, to any exercise terms that are specified therein",core#definition
+N4cf4c87f493f40f3b2e9760c2474ecb4,uses,owl#onProperty
+,"ExerciseConventions.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+N3fd052706e5d408cb0f2e35e60e42045,DatePeriod,owl#someValuesFrom
+ExerciseConvention,convention that determines when the holder or future holder of an option can implement the rights defined in the option,core#definition
+N5d813368d77345f9b200f591766e025f,uses,owl#onProperty
+N6666e5e6df7944cd929451eb004c3a4b,uses,owl#onProperty
+,,owl#imports
+AmericanExerciseTerms,American exercise terms,rdf-schema#label
+hasExerciseTerms,hasContractualElement,rdf-schema#subPropertyOf
+N4cf4c87f493f40f3b2e9760c2474ecb4,EuropeanExerciseConvention,owl#hasValue
+N6dd6e897b6544afd89b82a29545a2ea7,1,owl#qualifiedCardinality
+hasExerciseTerms,has exercise terms,rdf-schema#label
+,,owl#versionIRI
+hasExerciseDate,has exercise date,rdf-schema#label
+CanaryExerciseConvention,"call convention that stipulates that an option may only be exercised on predetermined dates until the first step is reached, but not after that point",core#definition
+AmericanExerciseTerms,EuropeanExerciseTerms,owl#disjointWith
+,owl#Ontology,22-rdf-syntax-ns#type
+hasExerciseDate,indicates a date on which an option may be exercised as specified in the terms of the contract,core#definition
+N3fd052706e5d408cb0f2e35e60e42045,hasExerciseWindow,owl#onProperty
+BermudanExerciseConvention,exercise convention that stipulates that an option may be exercised anytime between the purchase date and date of expiration,core#definition
+,"Copyright (c) 2015-2023 EDM Council, Inc.",copyright
+hasExerciseWindow,indicates a period of time during which the option may be exercised as specified in the terms of the contract,core#definition
+AmericanExerciseConvention,ExerciseConvention,22-rdf-syntax-ns#type
+CanaryExerciseConvention,canary exercise convention,rdf-schema#label
+BermudanExerciseTerms,ExerciseTerms,rdf-schema#subClassOf
+N6dd6e897b6544afd89b82a29545a2ea7,hasExerciseDate,owl#onProperty
+EuropeanExerciseConvention,ExerciseConvention,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2023 Object Management Group, Inc.",copyright
+ExerciseTerms,exercise terms,rdf-schema#label
+AmericanExerciseConvention,owl#NamedIndividual,22-rdf-syntax-ns#type
+AmericanExerciseTerms,BermudanExerciseTerms,owl#disjointWith
+hasExerciseTerms,owl#ObjectProperty,22-rdf-syntax-ns#type
+N5d813368d77345f9b200f591766e025f,owl#Restriction,22-rdf-syntax-ns#type
+N5d813368d77345f9b200f591766e025f,AmericanExerciseConvention,owl#hasValue
+N6dd6e897b6544afd89b82a29545a2ea7,ExplicitDate,owl#onClass
+hasExerciseWindow,DatePeriod,rdf-schema#range
+N7ef953b6395847b6a8577d346d8e255e,owl#Restriction,22-rdf-syntax-ns#type
+AmericanExerciseTerms,"Under certain circumstances, early exercise may be advantageous to the option holder.",explanatoryNote
+AmericanExerciseTerms,ExerciseTerms,rdf-schema#subClassOf
+EuropeanExerciseTerms,owl#Class,22-rdf-syntax-ns#type
+EuropeanExerciseTerms,N6dd6e897b6544afd89b82a29545a2ea7,rdf-schema#subClassOf
+ExerciseTerms,ContractualCommitment,rdf-schema#subClassOf
+BermudanExerciseTerms,Bermudan exercise terms,rdf-schema#label
+EuropeanExerciseConvention,exercise convention that stipulates that an option may only be exercised at the date of expiration,core#definition
+BermudanExerciseTerms,Nba423a90d05b435f9503fbf250d531ca,rdf-schema#subClassOf
+Nddac170b7da446309513bc23995b88b1,ExplicitDate,owl#someValuesFrom
+BermudanExerciseConvention,Bermudan exercise convention,rdf-schema#label
+Nba423a90d05b435f9503fbf250d531ca,BermudanExerciseConvention,owl#hasValue
+,"ExerciseConventions.rdf version of this ontology was added to support integration of Bonds and Options in SEC and DER, respectively.",core#changeNote
+hasExerciseDate,hasExplicitDate,rdf-schema#subPropertyOf
+ExerciseConvention,exercise convention,rdf-schema#label
+,ExerciseConventions.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+ExerciseTerms,N6666e5e6df7944cd929451eb004c3a4b,rdf-schema#subClassOf
+CanaryExerciseTerms,"exercise terms that stipulate that an option may only be exercised on predetermined dates until the first step is reached, but not after that point",core#definition
+N6666e5e6df7944cd929451eb004c3a4b,owl#Restriction,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+N6666e5e6df7944cd929451eb004c3a4b,ExerciseConvention,owl#someValuesFrom
+BermudanExerciseTerms,"The Bermuda option is named as such because its exercise dates are more flexible than European options and less flexible than American options. Thus, it is in the middle, just like Bermuda is between Europe and America. Bermuda options are also referred to as Mid-Atlantic, Quasi American, or Semi-American options.",explanatoryNote
+,MIT,license
+AmericanExerciseConvention,American exercise convention,rdf-schema#label
+,This ontology defines the various kinds of exercise conventions that are common to debt and options instruments. They are distinguished primarily in terms of the date period during which an optional contract clause may be exercised.,abstract
+CanaryExerciseTerms,BermudanExerciseTerms,rdf-schema#subClassOf
+EuropeanExerciseTerms,European exercise terms,rdf-schema#label
+hasExerciseWindow,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Exercise Conventions Ontology,rdf-schema#label
+BermudanExerciseTerms,N3fd052706e5d408cb0f2e35e60e42045,rdf-schema#subClassOf
+AmericanExerciseTerms,exercise terms that stipulate that an option may be exercised on or before the date of expiration,core#definition
+Nba423a90d05b435f9503fbf250d531ca,uses,owl#onProperty
+,ExerciseConventions.rdf version of this ontology was modified to eliminate duplication of concepts in LCC.,core#changeNote
+N3fd052706e5d408cb0f2e35e60e42045,owl#Restriction,22-rdf-syntax-ns#type
+hasExerciseTerms,ExerciseTerms,rdf-schema#range
+EuropeanExerciseTerms,exercise terms that stipulate that an option may only be exercised at the date of expiration,core#definition
+BermudanExerciseTerms,owl#Class,22-rdf-syntax-ns#type
+ExerciseTerms,owl#Class,22-rdf-syntax-ns#type
+,ExerciseConventions.rdf version of this ontology was modified to add the hasExerciseTerms property.,core#changeNote
+AmericanExerciseConvention,exercise convention that stipulates that an option may be exercised anytime between the purchase date and date of expiration,core#definition
+,ExerciseConventions.rdf version of this ontology was modified to revise the definition of American exercise terms to say that an option with such terms may be exercised on or before the expiration date of the contract.,core#changeNote
+CanaryExerciseTerms,N7ef953b6395847b6a8577d346d8e255e,rdf-schema#subClassOf
+N7ef953b6395847b6a8577d346d8e255e,CanaryExerciseConvention,owl#hasValue
+Nddac170b7da446309513bc23995b88b1,owl#Restriction,22-rdf-syntax-ns#type
+BermudanExerciseConvention,ExerciseConvention,22-rdf-syntax-ns#type
+ExerciseConvention,Convention,rdf-schema#subClassOf
+,ExerciseConventions.rdf version of this ontology was modified to loosen the domain of hasExerciseTerms to allow for entitlements to have such terms.,core#changeNote
+CanaryExerciseTerms,owl#Class,22-rdf-syntax-ns#type
+BermudanExerciseTerms,EuropeanExerciseTerms,owl#disjointWith
+BermudanExerciseConvention,owl#NamedIndividual,22-rdf-syntax-ns#type
+ExerciseConvention,owl#Class,22-rdf-syntax-ns#type
+N4cf4c87f493f40f3b2e9760c2474ecb4,owl#Restriction,22-rdf-syntax-ns#type
+CanaryExerciseConvention,ExerciseConvention,22-rdf-syntax-ns#type
+hasExerciseDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nddac170b7da446309513bc23995b88b1,hasExerciseDate,owl#onProperty

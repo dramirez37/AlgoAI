@@ -1,0 +1,182 @@
+source_id,target_id,relationship
+isSubUnitOf,isPartOf,rdf-schema#subPropertyOf
+isSubUnitOf,#org:subOrganizationOf,rdf-schema#seeAlso
+isMembershipPartyIn,MemberBearingOrganization,rdf-schema#domain
+hasMembership,has membership role,rdf-schema#label
+Organization,owl#Class,22-rdf-syntax-ns#type
+N2ba4c6f1b245434c893994b09ba5196c,Party,owl#someValuesFrom
+hasOrganizationMember,OrganizationMember,rdf-schema#range
+isOrganizationMember,owl#ObjectProperty,22-rdf-syntax-ns#type
+N5e60ec4cdf574a8d8a7a93bacca2d04a,isPlayedBy,owl#onProperty
+N17ca456c2c744361a310d943d4317662,owl#Restriction,22-rdf-syntax-ns#type
+OrganizationalSubUnit,organizational sub-unit,rdf-schema#label
+,Organizations.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+isMembershipPartyIn,indicates the context of membership in which the party plays the role of having members,core#definition
+Organization,#iso:std:iso-iec:6523:-1:ed-1:v1:en,adaptedFrom
+N49bcfe2b2c9d4811bf2f0ef6d0a1f845,owl#Restriction,22-rdf-syntax-ns#type
+N1b48d83dd07a44409be13e6db0df9708,owl#Restriction,22-rdf-syntax-ns#type
+OrganizationIdentifier,"identifier assigned to an organization within an organization identification scheme, and unique within that scheme",core#definition
+isOrganizationMember,is organization member,rdf-schema#label
+Nbef7bbb0816b4bccbb820bac60b334c1,OrganizationName,owl#onClass
+OrganizationIdentificationScheme,organization identification scheme,rdf-schema#label
+OrganizationMember,#org:Role,rdf-schema#seeAlso
+Membership,"situation, corresponding to an n-ary relation, in which some group or organization has at least one member (person or organization) for some period of time",core#definition
+OrganizationIdentificationScheme,IdentificationScheme,rdf-schema#subClassOf
+N2ed6d9738ad3471290768ea91473b780,owl#Restriction,22-rdf-syntax-ns#type
+hasOrganizationMember,hasUndergoer,rdf-schema#subPropertyOf
+Organization,"collection of one or more people, or groups of people formed together into a community or other social, commercial or political structure to act, or that is designated to act, towards some purpose, such as to meet a need or pursue collective goals on a continuing basis",core#definition
+Nc6e2e7c9bf0d437aaebbad0fa53051f4,hasGoal,owl#onProperty
+isSubUnitOf,relates a part of an organization to the larger entity,core#definition
+hasOrganizationMember,isOrganizationMember,owl#inverseOf
+hasOrganizationMember,Membership,rdf-schema#domain
+OrganizationMember,party (person or organization) that has a membership role with respect to some organization,core#definition
+OrganizationName,N531775bb7e80467e9ed7f3b73ceaaa5d,rdf-schema#subClassOf
+N49bcfe2b2c9d4811bf2f0ef6d0a1f845,isPlayedBy,owl#onProperty
+OrganizationIdentifier,owl#Class,22-rdf-syntax-ns#type
+OrganizationPartIdentifier,organization sub-unit identifier,synonym
+isOrganizationMember,OrganizationMember,rdf-schema#domain
+N531775bb7e80467e9ed7f3b73ceaaa5d,0,owl#minQualifiedCardinality
+Organization,#org:Organization,rdf-schema#seeAlso
+OrganizationIdentifier,#iso:std:iso-iec:6523:-1:ed-1:v1:en,adaptedFrom
+,.,core#changeNote
+hasSubUnit,has sub-unit,rdf-schema#label
+MemberBearingOrganization,N49bcfe2b2c9d4811bf2f0ef6d0a1f845,rdf-schema#subClassOf
+N2ed6d9738ad3471290768ea91473b780,hasMembership,owl#onProperty
+hasMembership,hasActor,rdf-schema#subPropertyOf
+N17ca456c2c744361a310d943d4317662,identifies,owl#onProperty
+Organization,Nd6a4d7a449d444e3bd273862e864f026,rdf-schema#subClassOf
+N1b48d83dd07a44409be13e6db0df9708,isMemberOf,owl#onProperty
+Organization,N3dcbccaae6f24a66b9f36a1ae991e404,rdf-schema#subClassOf
+Organization,Party,rdf-schema#subClassOf
+hasOrganizationMember,has organization member,rdf-schema#label
+Membership,N8f9a465831b348f5b1dd0bf2f6edd03b,rdf-schema#subClassOf
+hasSubUnit,#org:hasSubOrganization,rdf-schema#seeAlso
+hasMembership,isMembershipPartyIn,owl#inverseOf
+,,owl#imports
+N1b48d83dd07a44409be13e6db0df9708,1,owl#qualifiedCardinality
+,Organizations.rdf version of this ontology was modified to to move basic organization sub-unit and identifier definitions to FND from BE due to their fundamental nature and reusability and add links to the W3C organization ontology to provide hints as to which classes in this ontology map to the W3C ontology. Note that mappings are approximate and thus we used seeAlso rather than OWL equivalence relations.,core#changeNote
+Organization,Nc6e2e7c9bf0d437aaebbad0fa53051f4,rdf-schema#subClassOf
+N6b9c56571cfe4d4fbaebf7b5b956a6f1,Organization,owl#allValuesFrom
+isSubUnitOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+isOrganizationMember,undergoes,rdf-schema#subPropertyOf
+Membership,owl#Class,22-rdf-syntax-ns#type
+N1b48d83dd07a44409be13e6db0df9708,OrganizationIdentificationScheme,owl#onClass
+N8f9a465831b348f5b1dd0bf2f6edd03b,OrganizationMember,owl#someValuesFrom
+OrganizationPartIdentifier,identifier allocated to a particular organizational sub-unit,core#definition
+Membership,membership,rdf-schema#label
+N0c36b031f44c4fa7a36599d4943b7af3,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+OrganizationPartIdentifier,Identifier,rdf-schema#subClassOf
+OrganizationName,organization name,rdf-schema#label
+,,owl#versionIRI
+Organization,or informal social organization.,core#example
+isMembershipPartyIn,is membership party in,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+MemberBearingOrganization,PartyRole,rdf-schema#subClassOf
+OrganizationalSubUnit,owl#Class,22-rdf-syntax-ns#type
+Organization,organization,rdf-schema#label
+Nbef7bbb0816b4bccbb820bac60b334c1,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+hasOrganizationMember,indicates the party that is the member in an organizational membership situation,core#definition
+N5e60ec4cdf574a8d8a7a93bacca2d04a,N0c36b031f44c4fa7a36599d4943b7af3,owl#someValuesFrom
+N0c36b031f44c4fa7a36599d4943b7af3,Organization,owl#allValuesFrom
+N3dcbccaae6f24a66b9f36a1ae991e404,owl#Restriction,22-rdf-syntax-ns#type
+N4cc34cc0fcd0448ba1a97ded04cd647c,identifies,owl#onProperty
+OrganizationalSubUnit,#iso:std:iso-iec:6523:-1:ed-1:v1:en,adaptedFrom
+OrganizationIdentifier,N1b48d83dd07a44409be13e6db0df9708,rdf-schema#subClassOf
+hasMembership,MemberBearingOrganization,rdf-schema#range
+Nd6a4d7a449d444e3bd273862e864f026,owl#Restriction,22-rdf-syntax-ns#type
+N531775bb7e80467e9ed7f3b73ceaaa5d,Organization,owl#onClass
+N4cc34cc0fcd0448ba1a97ded04cd647c,1,owl#qualifiedCardinality
+OrganizationIdentifier,N4cc34cc0fcd0448ba1a97ded04cd647c,rdf-schema#subClassOf
+,"Organizations.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FND 1.1 RTF report, to revise a restriction on Organization to reference PhysicalAddress (vs. PostalAddress).",core#changeNote
+N4cc34cc0fcd0448ba1a97ded04cd647c,Organization,owl#onClass
+OrganizationalSubUnit,organization part,synonym
+N531775bb7e80467e9ed7f3b73ceaaa5d,isNameOf,owl#onProperty
+OrganizationMember,PartyRole,rdf-schema#subClassOf
+isOrganizationMember,Membership,rdf-schema#range
+Nbef7bbb0816b4bccbb820bac60b334c1,hasName,owl#onProperty
+N17ca456c2c744361a310d943d4317662,OrganizationalSubUnit,owl#onClass
+N531775bb7e80467e9ed7f3b73ceaaa5d,owl#Restriction,22-rdf-syntax-ns#type
+isSubUnitOf,Organization,rdf-schema#range
+N3dcbccaae6f24a66b9f36a1ae991e404,Organization,owl#allValuesFrom
+OrganizationalSubUnit,#org:OrganizationalUnit,rdf-schema#seeAlso
+MemberBearingOrganization,role of a group or organization that has members that are people or other organizations,core#definition
+OrganizationalSubUnit,N6b9c56571cfe4d4fbaebf7b5b956a6f1,rdf-schema#subClassOf
+OrganizationIdentifier,organization identifier,rdf-schema#label
+isSubUnitOf,OrganizationalSubUnit,rdf-schema#domain
+N2ba4c6f1b245434c893994b09ba5196c,hasMember,owl#onProperty
+OrganizationName,designation by which some organization is known in some context,core#definition
+Nd6a4d7a449d444e3bd273862e864f026,hasMember,owl#onProperty
+,"ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.",core#changeNote
+OrganizationMember,N5e60ec4cdf574a8d8a7a93bacca2d04a,rdf-schema#subClassOf
+OrganizationIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+hasSubUnit,hasPart,rdf-schema#subPropertyOf
+Nd6a4d7a449d444e3bd273862e864f026,Party,owl#allValuesFrom
+,"Organizations.rdf version of this ontology was modified per the FIBO 2.0 RFC, to revise the definition of Organization per ISO 6523.",core#changeNote
+OrganizationPartIdentifier,#iso:std:iso-iec:6523:-1:ed-1:v1:en,adaptedFrom
+MemberBearingOrganization,member-bearing organization,rdf-schema#label
+isSubUnitOf,is sub-unit of,rdf-schema#label
+OrganizationName,ContextualName,rdf-schema#subClassOf
+,Organizations.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+OrganizationIdentificationScheme,#iso:std:iso-iec:6523:-1:ed-1:v1:en,adaptedFrom
+N6b9c56571cfe4d4fbaebf7b5b956a6f1,isPartOf,owl#onProperty
+,"Organizations.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+N5e60ec4cdf574a8d8a7a93bacca2d04a,owl#Restriction,22-rdf-syntax-ns#type
+N8f9a465831b348f5b1dd0bf2f6edd03b,owl#Restriction,22-rdf-syntax-ns#type
+hasMembership,Membership,rdf-schema#domain
+isMembershipPartyIn,Membership,rdf-schema#range
+Membership,N2ed6d9738ad3471290768ea91473b780,rdf-schema#subClassOf
+OrganizationMember,organization member,rdf-schema#label
+Nbef7bbb0816b4bccbb820bac60b334c1,0,owl#minQualifiedCardinality
+Membership,#class-membership,rdf-schema#seeAlso
+hasMembership,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Organizations.rdf version of this ontology was modified to revise the definition of Organization to broaden its scope to individuals that may or may not be people and eliminate duplication with concepts in LCC.,core#changeNote
+OrganizationPartIdentifier,N17ca456c2c744361a310d943d4317662,rdf-schema#subClassOf
+hasMembership,#org:organization,rdf-schema#seeAlso
+,Organizations Ontology,rdf-schema#label
+hasOrganizationMember,#org:member,rdf-schema#seeAlso
+hasSubUnit,isSubUnitOf,owl#inverseOf
+hasMembership,identifies the organization acting in the role of having members in an organizational membership situation,core#definition
+hasOrganizationMember,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasSubUnit,OrganizationalSubUnit,rdf-schema#range
+,Organizations.rdf version of this ontology was modified to make having a goal optional for any given organization.,core#changeNote
+hasSubUnit,Organization,rdf-schema#domain
+isMembershipPartyIn,actsIn,rdf-schema#subPropertyOf
+,Organizations.rdf version of this ontology was modified to reflect the merge of Goals and Objectives.,core#changeNote
+isMembershipPartyIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Organizations.rdf version of this ontology was modified to allow the Organizations ontology to import Parties, rather than the other way around, to simplify the class hierarchy for ease of use in data mapping and alignment, including moving OrganizationMember from Parties to Organizations, and to add the basis for structured organization name representation.",core#changeNote
+isOrganizationMember,#org:role,rdf-schema#seeAlso
+OrganizationIdentifier,Identifier,rdf-schema#subClassOf
+N49bcfe2b2c9d4811bf2f0ef6d0a1f845,N2ba4c6f1b245434c893994b09ba5196c,owl#someValuesFrom
+hasSubUnit,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+N0c36b031f44c4fa7a36599d4943b7af3,isMemberOf,owl#onProperty
+,Organizations.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+OrganizationPartIdentifier,OPI,abbreviation
+isOrganizationMember,indicates the context of membership in which some party is an organization member,core#definition
+,MIT,license
+OrganizationPartIdentifier,organization part identifier,rdf-schema#label
+OrganizationalSubUnit,Organization,rdf-schema#subClassOf
+Nc6e2e7c9bf0d437aaebbad0fa53051f4,0,owl#minQualifiedCardinality
+N8f9a465831b348f5b1dd0bf2f6edd03b,hasOrganizationMember,owl#onProperty
+Nc6e2e7c9bf0d437aaebbad0fa53051f4,owl#Restriction,22-rdf-syntax-ns#type
+hasSubUnit,relates an organization to a part of that organization,core#definition
+OrganizationName,owl#Class,22-rdf-syntax-ns#type
+MemberBearingOrganization,owl#Class,22-rdf-syntax-ns#type
+OrganizationalSubUnit,"any department, service, and other entity within a larger organization that only has full recognition within the context of that organization, but requires identification for some purpose",core#definition
+OrganizationalSubUnit,"In other words, it is not a legal entity in its own right.",explanatoryNote
+N3dcbccaae6f24a66b9f36a1ae991e404,hasPart,owl#onProperty
+OrganizationIdentificationScheme,identification scheme dedicated to the unique identification of organizations,core#definition
+Nc6e2e7c9bf0d437aaebbad0fa53051f4,Goal,owl#onClass
+Membership,Situation,rdf-schema#subClassOf
+N6b9c56571cfe4d4fbaebf7b5b956a6f1,owl#Restriction,22-rdf-syntax-ns#type
+Organization,Nbef7bbb0816b4bccbb820bac60b334c1,rdf-schema#subClassOf
+N2ed6d9738ad3471290768ea91473b780,MemberBearingOrganization,owl#someValuesFrom
+N4cc34cc0fcd0448ba1a97ded04cd647c,owl#Restriction,22-rdf-syntax-ns#type
+N2ba4c6f1b245434c893994b09ba5196c,owl#Restriction,22-rdf-syntax-ns#type
+OrganizationPartIdentifier,owl#Class,22-rdf-syntax-ns#type
+N17ca456c2c744361a310d943d4317662,1,owl#qualifiedCardinality
+OrganizationMember,owl#Class,22-rdf-syntax-ns#type
+,"This ontology defines high-level concepts for organizations and related terms, which is purposefully underspecified to facilitate mapping to specific organization ontologies, such as the W3C organization ontology, organization from a BMM or BPMN perspective, organization from a records management (RMS) perspective, and so forth.",abstract

@@ -1,0 +1,343 @@
+source_id,target_id,relationship
+Na24dcf5faa2843119077078fee19385b,owl#Restriction,22-rdf-syntax-ns#type
+Ncf8b093da23e4602acab99bc43fba035,terminates,owl#onProperty
+hasCorrespondingAlternativeAspect,owl#ObjectProperty,22-rdf-syntax-ns#type
+UndertakingEvent,N1199e4038454458c808351e3e498fbcb,rdf-schema#subClassOf
+EconomicContractTermsSet,owl#Class,22-rdf-syntax-ns#type
+N1a9931c70761460caeb8433a63f9cb15,EconomicAgreement,owl#someValuesFrom
+hasPerspective,TransactionEventAspect,rdf-schema#range
+N63df08cb8e9b414cb65f335841027a7f,isGovernedBy,owl#onProperty
+CoveredTransaction,"The Master Agreement sets out the terms and conditions under which these transactions are to take place between the parties. These are Over the Counter transactions, including OTC Derivatives.",explanatoryNote
+N3eed129b4c9a4a97acdd7b5c77d8feb7,owl#Restriction,22-rdf-syntax-ns#type
+hasEnd,DischargingEvent,rdf-schema#range
+EconomicContract,From REA ontology.,core#editorialNote
+EconomicResource,"activity) which can be framed as an economic resource in the context of exchanging it for some other economic resource. Scope Note: Economic Resource may also define things which are not exchanged but are defined as resources in some other context, for example Capital is a kind of economic resource.",core#editorialNote
+EconomicAgreement,owl#Class,22-rdf-syntax-ns#type
+transactionEmbodiesEconomicAgreement,owl#ObjectProperty,22-rdf-syntax-ns#type
+TransactionEvent,The event component of a transaction,core#definition
+EconomicResource,economic resource,rdf-schema#label
+setsOutContractualEconomicCommitment,ContractualCommitment,rdf-schema#range
+triggers,triggers,rdf-schema#label
+N60ea2900f3d646f9a221a511e605a79c,hasPostingDate,owl#onProperty
+hasCorrespondingAlternativeAspect,TransactionEventAspect,rdf-schema#domain
+CoveredTransaction,covered transaction,rdf-schema#label
+takesMaterialForm,"The material form of the Economic Resource; that is the thing which is recognized as being an Economic Resource as defined here, Editorial Note: This would usually be some Independent Thing. However it is conceivable that the existence of some relative thing, for example an asset, may itself be regarded and defined as a resource, over and above the role or context already defined for it. Therefore this identity relationship has a range of Thing, but is modeled as a sub property of ""identity"" to make this conclusion explicit. Editorial Note: This is a relationship with the sense that some relative thing takes the form of something, but is distinct from the similar concept as applied to Asset, in which the thing which takes the form of some asset is owned by someone. Here it is a resource, irrespective of whether or by whom it is owned. Labeled as ""takes material form"" to disambiguate these two relationships.",core#definition
+Ncf8b093da23e4602acab99bc43fba035,owl#Restriction,22-rdf-syntax-ns#type
+hasPerspective,has perspective,rdf-schema#label
+isMadeAsPartOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+CoveredTransaction,N63df08cb8e9b414cb65f335841027a7f,rdf-schema#subClassOf
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,,owl#versionIRI
+N8f95d4f1623941c991777204c6df554f,LegalConstruct,owl#someValuesFrom
+TransactionEvent,This describes an event. The event may be delivery of something or settlement of monies in payment for something delivered. A Transaction Event will have terms describing the commitment embodied in that side of that transaction.,explanatoryNote
+TransactionBusinessEvent,Occurrence in time that partners to a business transaction wish to monitor or control.,core#definition
+isUndertakingTo,ContingentObligation,rdf-schema#range
+N1199e4038454458c808351e3e498fbcb,triggers,owl#onProperty
+Nbb285387b73741af999e7e3cc8668fa5,DischargingEvent,owl#someValuesFrom
+Na80c30fb399b43a192e666dc166d10f0,ContingentObligation,owl#someValuesFrom
+madeBy,made by,rdf-schema#label
+transactedUnder,EconomicTransaction,rdf-schema#domain
+N6d573ad5db5b49fe8728470fd4ab487d,owl#Restriction,22-rdf-syntax-ns#type
+N69bbba559db347229bc0243b81b89449,ContractualEconomicAgreement,owl#someValuesFrom
+Undertaking,Some undertaking to act.,core#definition
+givesRiseTo,Undertaking,rdf-schema#domain
+EconomicContractTermsSet,Na24dcf5faa2843119077078fee19385b,rdf-schema#subClassOf
+TransactionUndertaking,UndertakingEvent,rdf-schema#subClassOf
+EconomicAgreement,MutualContractualAgreement,rdf-schema#subClassOf
+Undertaking,N39044ec64b474677a54a8b3e051c973d,rdf-schema#subClassOf
+transactsWith,transacts with,rdf-schema#label
+LedgerEntry,N514d0de3b9d0414cb5818a8d3bc00373,rdf-schema#subClassOf
+Na24dcf5faa2843119077078fee19385b,ContractualCommitment,owl#someValuesFrom
+transactedUnder,transacted under,rdf-schema#label
+N63df08cb8e9b414cb65f335841027a7f,MasterAgreement,owl#someValuesFrom
+N514d0de3b9d0414cb5818a8d3bc00373,owl#Restriction,22-rdf-syntax-ns#type
+Undertaking,Nf280085520024b0582b1d65bb12575ea,rdf-schema#subClassOf
+Nf7578cd7443749398c875ec4422111dd,takesMaterialForm,owl#onProperty
+isUndertakingTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+DischargingEvent,TransactionBusinessEvent,rdf-schema#subClassOf
+N1a9931c70761460caeb8433a63f9cb15,owl#Restriction,22-rdf-syntax-ns#type
+TransactionEvent,N60e2f6fdbc12453eacd52ad48da81922,rdf-schema#subClassOf
+isImbalanceIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nbb285387b73741af999e7e3cc8668fa5,hasEnd,owl#onProperty
+TransactionParty,"Referred to in REA as Economic Agent (in the context of the economic event, known here as transaction).",core#editorialNote
+EconomicCommitment,economic commitment,rdf-schema#label
+UndertakingEvent,TransactionBusinessEvent,rdf-schema#subClassOf
+Nd81456567c514c6492a960dc39ae8502,hasContractParty,owl#onProperty
+ContractualTransactionParty,That which is party to a transaction which has contractual standing.,core#definition
+N1a9931c70761460caeb8433a63f9cb15,transactionEmbodiesEconomicAgreement,owl#onProperty
+N2ee36a6bff50443ab637bc7bba542d33,EconomicAgreement,owl#someValuesFrom
+hasTransactionComponent,has transaction component,rdf-schema#label
+Nb671ce8661894db097025167aed8fee7,EconomicContractTermsSet,owl#someValuesFrom
+N39044ec64b474677a54a8b3e051c973d,owl#Restriction,22-rdf-syntax-ns#type
+EconomicContract,A contract relating to and governing an economic transaction between two parties.,core#definition
+EconomicTransaction,owl#Class,22-rdf-syntax-ns#type
+Nb671ce8661894db097025167aed8fee7,owl#Restriction,22-rdf-syntax-ns#type
+N3eed129b4c9a4a97acdd7b5c77d8feb7,TransactionParty,owl#someValuesFrom
+hasStart,owl#ObjectProperty,22-rdf-syntax-ns#type
+REAClaim,N8f95d4f1623941c991777204c6df554f,rdf-schema#subClassOf
+EconomicCommitment,N2ee36a6bff50443ab637bc7bba542d33,rdf-schema#subClassOf
+transactionEmbodiesEconomicAgreement,governs,owl#inverseOf
+Nf405e4b554e34252b6d14bcbea40a1c7,isMadeAsPartOf,owl#onProperty
+EconomicResource,Anything that can bought sold or exchanged.,core#definition
+EconomicTransaction,economic transaction,rdf-schema#label
+ContractualEconomicAgreement,owl#Class,22-rdf-syntax-ns#type
+TransactionParty,or parting with some item of economic value or some payment or both.,core#definition
+N892f952c186a479d8acaf87d72048d95,owl#Restriction,22-rdf-syntax-ns#type
+Na0b33c4a0e784e799a4d6972306cd70e,hasCorrespondingAlternativeAspect,owl#onProperty
+Nf280085520024b0582b1d65bb12575ea,MutualCommitment,owl#someValuesFrom
+N0e0e770456ee4e878964e5010d9208d9,embodies,owl#onProperty
+N6d573ad5db5b49fe8728470fd4ab487d,ContractualCommitment,owl#someValuesFrom
+N69bbba559db347229bc0243b81b89449,owl#Restriction,22-rdf-syntax-ns#type
+ContractualTransaction,owl#Class,22-rdf-syntax-ns#type
+hasTransactionComponent,owl#ObjectProperty,22-rdf-syntax-ns#type
+TransactionParty,transaction party,rdf-schema#label
+N46e2c75ea2794213856f4079f6f57309,owl#Restriction,22-rdf-syntax-ns#type
+TransactionUndertaking,From REA ontology.,core#editorialNote
+LedgerEntry,DatedCollectionConstituent,rdf-schema#subClassOf
+Nc1115d56d13c4096b2bd62381966997f,owl#Restriction,22-rdf-syntax-ns#type
+transactedUnder,EconomicContractTermsSet,rdf-schema#range
+EconomicAgreement,N3eed129b4c9a4a97acdd7b5c77d8feb7,rdf-schema#subClassOf
+TransactionEvent,owl#Class,22-rdf-syntax-ns#type
+EconomicContract,owl#Class,22-rdf-syntax-ns#type
+transactionEventFollowsBusinessProcess,TransactionEvent,rdf-schema#domain
+Nf280085520024b0582b1d65bb12575ea,givesRiseTo,owl#onProperty
+bestows,owl#ObjectProperty,22-rdf-syntax-ns#type
+terminates,DischargingEvent,rdf-schema#domain
+TransactionEventAspect,A transaction side as seen from the perspective of one of the parties to the transaction.,core#definition
+EconomicContract,MutualContractualAgreement,rdf-schema#subClassOf
+EconomicAgreement,economic agreement,rdf-schema#label
+transactionEventFollowsBusinessProcess,transaction event follows business process,rdf-schema#label
+TransactionEvent,N0e0e770456ee4e878964e5010d9208d9,rdf-schema#subClassOf
+N1b1c9a8c119b4421928b4b5dccfcb1fa,EconomicCommitment,owl#someValuesFrom
+Na80c30fb399b43a192e666dc166d10f0,owl#Restriction,22-rdf-syntax-ns#type
+triggers,TransactionBusinessEvent,rdf-schema#domain
+DischargingEvent,owl#Class,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+hasEnd,owl#ObjectProperty,22-rdf-syntax-ns#type
+TransactionUndertaking,N0ffb09b9a51a41f59af3b1255c88af5a,rdf-schema#subClassOf
+N8f95d4f1623941c991777204c6df554f,owl#Restriction,22-rdf-syntax-ns#type
+N46e2c75ea2794213856f4079f6f57309,transactedUnder,owl#onProperty
+Nf280085520024b0582b1d65bb12575ea,owl#Restriction,22-rdf-syntax-ns#type
+isImbalanceIn,is imbalance in,rdf-schema#label
+Na628b5c50a3c45669eab7452ff5df437,EconomicTransaction,owl#someValuesFrom
+N436f9c1e261645e69f8fbdfe664c7a4c,triggers,owl#onProperty
+N3250a589cafd403f8d47deeb08e75188,owl#Restriction,22-rdf-syntax-ns#type
+TransactionBusinessEvent,owl#Class,22-rdf-syntax-ns#type
+Undertaking,undertaking,rdf-schema#label
+EconomicAgreement,N1b1c9a8c119b4421928b4b5dccfcb1fa,rdf-schema#subClassOf
+TransactionUndertaking,"A contractually defined and established commitment to deliver some goods, perform some service or make some payment in cash or in kind.",core#definition
+Nc1115d56d13c4096b2bd62381966997f,isPlayedBy,owl#onProperty
+transactionEmbodiesEconomicAgreement,transaction embodies economic agreement,rdf-schema#label
+setsOutContractualEconomicCommitment,The economic commitment set out in the terms to the contract which formalizes the agreement to the transaction.,core#definition
+N02101a2748f9474eb2b04a21d8c3a9cb,transactsWith,owl#onProperty
+transactsWith,TransactionParty,rdf-schema#range
+ContractualTransactionParty,TransactionParty,rdf-schema#subClassOf
+Undertaking,N892f952c186a479d8acaf87d72048d95,rdf-schema#subClassOf
+setsOutContractualEconomicCommitment,sets out contractual economic commitment,rdf-schema#label
+,REA Transactions Ontology,rdf-schema#label
+N2ee36a6bff50443ab637bc7bba542d33,owl#Restriction,22-rdf-syntax-ns#type
+setsOutContractualEconomicCommitment,EconomicContractTermsSet,rdf-schema#domain
+REAClaim,r e a claim,rdf-schema#label
+Nb2450c7493ef455bb253b2f9dfdeabd8,governs,owl#onProperty
+ContractualTransactionParty,Nc1115d56d13c4096b2bd62381966997f,rdf-schema#subClassOf
+Nb2450c7493ef455bb253b2f9dfdeabd8,owl#Restriction,22-rdf-syntax-ns#type
+ContractualEconomicAgreement,N6d573ad5db5b49fe8728470fd4ab487d,rdf-schema#subClassOf
+transactedUnder,owl#ObjectProperty,22-rdf-syntax-ns#type
+givesRiseTo,MutualCommitment,rdf-schema#range
+EconomicTransaction,N1a9931c70761460caeb8433a63f9cb15,rdf-schema#subClassOf
+N60ea2900f3d646f9a221a511e605a79c,owl#Restriction,22-rdf-syntax-ns#type
+N0ffb09b9a51a41f59af3b1255c88af5a,givesRiseTo,owl#onProperty
+N6d573ad5db5b49fe8728470fd4ab487d,confers,owl#onProperty
+subject,EconomicTransaction,rdf-schema#domain
+TransactionEventAspect,transaction event aspect,rdf-schema#label
+hasCorrespondingAlternativeAspect,has corresponding alternative aspect,rdf-schema#label
+TransactionUndertaking,owl#Class,22-rdf-syntax-ns#type
+Ncf8b093da23e4602acab99bc43fba035,EconomicCommitment,owl#someValuesFrom
+hasStart,TransactionUndertaking,rdf-schema#range
+Nf7578cd7443749398c875ec4422111dd,owl#Thing,owl#someValuesFrom
+hasCorresponding,has corresponding,rdf-schema#label
+LedgerEntry,Nc5504341d43c480db4724b1eff6cdd5f,rdf-schema#subClassOf
+N0e0e770456ee4e878964e5010d9208d9,owl#Restriction,22-rdf-syntax-ns#type
+Nc5504341d43c480db4724b1eff6cdd5f,owl#Restriction,22-rdf-syntax-ns#type
+EconomicContractTermsSet,economic contract commitment,rdf-schema#label
+isMadeAsPartOf,is made as part of,rdf-schema#label
+hasTransactionParty,has transaction party,rdf-schema#label
+N5b8bb360ba8f4731af598c2276176128,triggers,owl#onProperty
+Nf2a60258486f458cb4380f74308579ba,hasMonetaryAmount,owl#onProperty
+Na628b5c50a3c45669eab7452ff5df437,definedInContextOf,owl#onProperty
+terminates,owl#ObjectProperty,22-rdf-syntax-ns#type
+EconomicTransaction,N97e47becfdc6421c868e8f1ef1c2abea,rdf-schema#subClassOf
+N0ffb09b9a51a41f59af3b1255c88af5a,owl#Restriction,22-rdf-syntax-ns#type
+Nb2450c7493ef455bb253b2f9dfdeabd8,EconomicTransaction,owl#someValuesFrom
+TransactionEventAspect,Na0b33c4a0e784e799a4d6972306cd70e,rdf-schema#subClassOf
+N8f95d4f1623941c991777204c6df554f,isImbalanceIn,owl#onProperty
+subject,subject,rdf-schema#label
+N514d0de3b9d0414cb5818a8d3bc00373,hasTransactionDate,owl#onProperty
+LedgerEntry,N60ea2900f3d646f9a221a511e605a79c,rdf-schema#subClassOf
+Revaluation,N5b8bb360ba8f4731af598c2276176128,rdf-schema#subClassOf
+hasStart,has start,rdf-schema#label
+N39044ec64b474677a54a8b3e051c973d,ContingentRight,owl#someValuesFrom
+isUndertakingTo,Undertaking,rdf-schema#domain
+transactionEventFollowsBusinessProcess,owl#ObjectProperty,22-rdf-syntax-ns#type
+definedInContextOf,defined in context of,rdf-schema#label
+terminates,terminates,rdf-schema#label
+Nc5504341d43c480db4724b1eff6cdd5f,isRegisteredIn,owl#onProperty
+transactsWith,TransactionParty,rdf-schema#domain
+hasPerspective,TransactionEvent,rdf-schema#domain
+ContractualEconomicAgreement,EconomicAgreement,rdf-schema#subClassOf
+EconomicCommitment,N3250a589cafd403f8d47deeb08e75188,rdf-schema#subClassOf
+N60e2f6fdbc12453eacd52ad48da81922,owl#Restriction,22-rdf-syntax-ns#type
+ContractualEconomicAgreement,contractual economic agreement,rdf-schema#label
+N60ea2900f3d646f9a221a511e605a79c,1,owl#qualifiedCardinality
+Undertaking,owl#Class,22-rdf-syntax-ns#type
+hasCorresponding,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nd81456567c514c6492a960dc39ae8502,owl#Restriction,22-rdf-syntax-ns#type
+UndertakingEvent,Undertaking,rdf-schema#subClassOf
+hasTransactionComponent,TransactionEvent,rdf-schema#range
+TransactionEventAspect,owl#Class,22-rdf-syntax-ns#type
+hasTransactionParty,EconomicTransaction,rdf-schema#domain
+N514d0de3b9d0414cb5818a8d3bc00373,1,owl#qualifiedCardinality
+TransactionParty,owl#Class,22-rdf-syntax-ns#type
+N1b1c9a8c119b4421928b4b5dccfcb1fa,confers,owl#onProperty
+N60ea2900f3d646f9a221a511e605a79c,PostingDate,owl#onClass
+Ne5592bc7fd9a47f5b65f5991e0d3361d,owl#Restriction,22-rdf-syntax-ns#type
+Revaluation,TransactionBusinessEvent,rdf-schema#subClassOf
+madeBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+bestows,Undertaking,rdf-schema#domain
+N3250a589cafd403f8d47deeb08e75188,TransactionParty,owl#someValuesFrom
+ContractualEconomicAgreement,"The REA Economic Agreement may or may not be between two distinct legal persons, as the REA scope includes transactions within organizations. For REA based transaction models which are between separate legal entities or persons, the form of agreement in force is this Contractual Economic Agreement, that is the agreement, backed by a written or implied contract, which is in force between the parties to this agreement.",explanatoryNote
+isMadeAsPartOf,Agreement,rdf-schema#range
+Ne5592bc7fd9a47f5b65f5991e0d3361d,hasCorresponding,owl#onProperty
+ContractualTransaction,An economic transaction which has some contractual basis.,core#definition
+,This is the core REA-derived ontology for transactions. A transaction is defined as an exchange of commitments between parties. Other aspects of REA such as claims and transaction events (commitment lifecycles) are given in separate ontologies in this module.,abstract
+hasTransactionParty,TransactionParty,rdf-schema#range
+DischargingEvent,Ncf8b093da23e4602acab99bc43fba035,rdf-schema#subClassOf
+N3eed129b4c9a4a97acdd7b5c77d8feb7,hasPartyRole,owl#onProperty
+takesMaterialForm,owl#ObjectProperty,22-rdf-syntax-ns#type
+N60e2f6fdbc12453eacd52ad48da81922,hasStart,owl#onProperty
+bestows,bestows,rdf-schema#label
+Nc1115d56d13c4096b2bd62381966997f,LegalPerson,owl#someValuesFrom
+N46e2c75ea2794213856f4079f6f57309,EconomicContractTermsSet,owl#someValuesFrom
+Nb671ce8661894db097025167aed8fee7,hasContractualElement,owl#onProperty
+takesMaterialForm,takes material form,rdf-schema#label
+LedgerEntry,ledger entry,rdf-schema#label
+TransactionEventAspect,This describes one side of one transaction event. The event may be delivery of something or settlement of monies in payment for something delivered. A Transaction Event Side shows that side of that transaction from the perspective of one or other party.,explanatoryNote
+Undertaking,"This could be an undertaking to deliver something, to do something and so on. These correspond to negative and positive pledges in the contract.",explanatoryNote
+Nd81456567c514c6492a960dc39ae8502,ContractualTransactionParty,owl#someValuesFrom
+hasEnd,has end,rdf-schema#label
+EconomicAgreement,Nb2450c7493ef455bb253b2f9dfdeabd8,rdf-schema#subClassOf
+Na0b33c4a0e784e799a4d6972306cd70e,TransactionEventAspect,owl#someValuesFrom
+Revaluation,revaluation,rdf-schema#label
+transactionEmbodiesEconomicAgreement,EconomicTransaction,rdf-schema#domain
+EconomicResource,Na628b5c50a3c45669eab7452ff5df437,rdf-schema#subClassOf
+DischargingEvent,N436f9c1e261645e69f8fbdfe664c7a4c,rdf-schema#subClassOf
+EconomicResource,owl#Class,22-rdf-syntax-ns#type
+N97e47becfdc6421c868e8f1ef1c2abea,2,owl#minQualifiedCardinality
+ContractualTransactionParty,ContractParty,rdf-schema#subClassOf
+EconomicContractTermsSet,ContractualCommitment,rdf-schema#subClassOf
+isMadeAsPartOf,Undertaking,rdf-schema#domain
+EconomicContract,Nb671ce8661894db097025167aed8fee7,rdf-schema#subClassOf
+Undertaking,Nf405e4b554e34252b6d14bcbea40a1c7,rdf-schema#subClassOf
+,MIT,license
+givesRiseTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+TransactionParty,PartyRole,rdf-schema#subClassOf
+subject,EconomicResource,rdf-schema#range
+REAClaim,"Some imbalance, at a given point in time, between the respective rights and obligations of two parties with respect to one another.",core#definition
+N39044ec64b474677a54a8b3e051c973d,bestows,owl#onProperty
+bestows,ContingentRight,rdf-schema#range
+Nf2a60258486f458cb4380f74308579ba,owl#Restriction,22-rdf-syntax-ns#type
+TransactionEvent,Ne5592bc7fd9a47f5b65f5991e0d3361d,rdf-schema#subClassOf
+N892f952c186a479d8acaf87d72048d95,ContractParty,owl#someValuesFrom
+isImbalanceIn,LegalConstruct,rdf-schema#range
+ContractualEconomicAgreement,Contract,rdf-schema#subClassOf
+ContractualTransactionParty,"In REA, transactions may include those which are not between legal entities,such as for example internal transactions within a business and between business units. This term Contractual Transaction Party forms the basis for all party definitions for transactions which have some formal contractual basis as being between discrete legal entities (legal persons or other contractually capable entities e.g. non incorporated entities). This is the basis for all derivatives transactions, securities market transactions and so on.",explanatoryNote
+EconomicCommitment,owl#Class,22-rdf-syntax-ns#type
+transactsWith,owl#ObjectProperty,22-rdf-syntax-ns#type
+isImbalanceIn,REAClaim,rdf-schema#domain
+subject,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ne5592bc7fd9a47f5b65f5991e0d3361d,TransactionEvent,owl#someValuesFrom
+Undertaking,Na80c30fb399b43a192e666dc166d10f0,rdf-schema#subClassOf
+EconomicContract,economic contract,rdf-schema#label
+Revaluation,owl#Class,22-rdf-syntax-ns#type
+EconomicResource,Nf7578cd7443749398c875ec4422111dd,rdf-schema#subClassOf
+hasPerspective,owl#ObjectProperty,22-rdf-syntax-ns#type
+N97e47becfdc6421c868e8f1ef1c2abea,owl#Restriction,22-rdf-syntax-ns#type
+N0e0e770456ee4e878964e5010d9208d9,EconomicCommitment,owl#someValuesFrom
+isImbalanceIn,The imbalance in Obligations or Rights (depending on the viewpoint from which it is described) between one party and another.,core#definition
+Nf7578cd7443749398c875ec4422111dd,owl#Restriction,22-rdf-syntax-ns#type
+EconomicCommitment,"Some Commitment which forms part of the subject of some Transaction, being an undertaking by one or other of the parties to the transaction, extended to the other party to that same transaction.",core#definition
+definedInContextOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+TransactionBusinessEvent,transaction business event,rdf-schema#label
+Nf2a60258486f458cb4380f74308579ba,MonetaryAmount,owl#onClass
+,,owl#imports
+triggers,owl#ObjectProperty,22-rdf-syntax-ns#type
+ContractualTransaction,EconomicTransaction,rdf-schema#subClassOf
+N0ffb09b9a51a41f59af3b1255c88af5a,EconomicCommitment,owl#someValuesFrom
+N3250a589cafd403f8d47deeb08e75188,madeBy,owl#onProperty
+setsOutContractualEconomicCommitment,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasCorresponding,TransactionEvent,rdf-schema#range
+ContractualTransaction,contractual transaction,rdf-schema#label
+EconomicTransaction,N46e2c75ea2794213856f4079f6f57309,rdf-schema#subClassOf
+Na0b33c4a0e784e799a4d6972306cd70e,owl#Restriction,22-rdf-syntax-ns#type
+N69bbba559db347229bc0243b81b89449,embodies,owl#onProperty
+triggers,LedgerEntry,rdf-schema#range
+Na24dcf5faa2843119077078fee19385b,setsOutContractualEconomicCommitment,owl#onProperty
+Nf2a60258486f458cb4380f74308579ba,1,owl#qualifiedCardinality
+CoveredTransaction,A transaction covered by some Master Agreement.,core#definition
+N1199e4038454458c808351e3e498fbcb,owl#Restriction,22-rdf-syntax-ns#type
+N436f9c1e261645e69f8fbdfe664c7a4c,LedgerEntry,owl#someValuesFrom
+N1199e4038454458c808351e3e498fbcb,LedgerEntry,owl#someValuesFrom
+N514d0de3b9d0414cb5818a8d3bc00373,TransactionDate,owl#onClass
+ContractualTransactionParty,contractual transaction party,rdf-schema#label
+EconomicContract,N69bbba559db347229bc0243b81b89449,rdf-schema#subClassOf
+N02101a2748f9474eb2b04a21d8c3a9cb,TransactionParty,owl#someValuesFrom
+TransactionEvent,Nbb285387b73741af999e7e3cc8668fa5,rdf-schema#subClassOf
+Nf405e4b554e34252b6d14bcbea40a1c7,owl#Restriction,22-rdf-syntax-ns#type
+isUndertakingTo,is undertaking to,rdf-schema#label
+N2ee36a6bff50443ab637bc7bba542d33,isConferredBy,owl#onProperty
+ContractualTransaction,"This is distinct from a transaction between business units within an enterprise. This is the usual sense of ""Transaction"" and forms the basis for all securities and derivatives transactions, while the parent term ""Economic Transaction"" may also be used to define internal transactions and transactions that have no legal or contractual basis.",explanatoryNote
+CoveredTransaction,ContractualTransaction,rdf-schema#subClassOf
+EconomicTransaction,Some exchange of some items of economic value between two parties (economic agents).,core#definition
+Nbb285387b73741af999e7e3cc8668fa5,owl#Restriction,22-rdf-syntax-ns#type
+givesRiseTo,gives rise to,rdf-schema#label
+TransactionParty,N02101a2748f9474eb2b04a21d8c3a9cb,rdf-schema#subClassOf
+CoveredTransaction,owl#Class,22-rdf-syntax-ns#type
+N892f952c186a479d8acaf87d72048d95,hasContractParty,owl#onProperty
+DischargingEvent,discharging event,rdf-schema#label
+ContractualEconomicAgreement,Nd81456567c514c6492a960dc39ae8502,rdf-schema#subClassOf
+N63df08cb8e9b414cb65f335841027a7f,owl#Restriction,22-rdf-syntax-ns#type
+ContractualEconomicAgreement,"An economic agreement forming part of a transaction, which has contractual standing as evidenced by a contract between the two parties to the Agreement.",core#definition
+N436f9c1e261645e69f8fbdfe664c7a4c,owl#Restriction,22-rdf-syntax-ns#type
+EconomicCommitment,MutualCommitment,rdf-schema#subClassOf
+madeBy,TransactionParty,rdf-schema#range
+transactionEmbodiesEconomicAgreement,EconomicAgreement,rdf-schema#range
+hasCorrespondingAlternativeAspect,TransactionEventAspect,rdf-schema#range
+Nc5504341d43c480db4724b1eff6cdd5f,LedgerAccount,owl#someValuesFrom
+N1b1c9a8c119b4421928b4b5dccfcb1fa,owl#Restriction,22-rdf-syntax-ns#type
+LedgerEntry,owl#Class,22-rdf-syntax-ns#type
+UndertakingEvent,"Something which occurs at a point in time, at which a party makes some commitment to some other party.",core#definition
+ContractualTransactionParty,owl#Class,22-rdf-syntax-ns#type
+hasTransactionComponent,EconomicTransaction,rdf-schema#domain
+N02101a2748f9474eb2b04a21d8c3a9cb,owl#Restriction,22-rdf-syntax-ns#type
+TransactionEvent,transaction event,rdf-schema#label
+TransactionUndertaking,transaction undertaking,rdf-schema#label
+terminates,EconomicCommitment,rdf-schema#range
+,Informative,hasMaturityLevel
+UndertakingEvent,owl#Class,22-rdf-syntax-ns#type
+LedgerEntry,RegistryEntry,rdf-schema#subClassOf
+hasCorresponding,TransactionEvent,rdf-schema#domain
+UndertakingEvent,undertaking event,rdf-schema#label
+takesMaterialForm,EconomicResource,rdf-schema#domain
+Na628b5c50a3c45669eab7452ff5df437,owl#Restriction,22-rdf-syntax-ns#type
+TransactionBusinessEvent,or ISO 19135).,core#editorialNote
+N60e2f6fdbc12453eacd52ad48da81922,TransactionUndertaking,owl#someValuesFrom
+hasTransactionParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+N97e47becfdc6421c868e8f1ef1c2abea,subject,owl#onProperty
+Na80c30fb399b43a192e666dc166d10f0,isUndertakingTo,owl#onProperty
+N5b8bb360ba8f4731af598c2276176128,owl#Restriction,22-rdf-syntax-ns#type
+N5b8bb360ba8f4731af598c2276176128,LedgerEntry,owl#someValuesFrom
+LedgerEntry,Nf2a60258486f458cb4380f74308579ba,rdf-schema#subClassOf
+Nf405e4b554e34252b6d14bcbea40a1c7,Agreement,owl#someValuesFrom
+EconomicContractTermsSet,Terms underlying the contract for a transaction.,core#definition
+N97e47becfdc6421c868e8f1ef1c2abea,EconomicResource,owl#onClass
+REAClaim,owl#Class,22-rdf-syntax-ns#type

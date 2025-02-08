@@ -1,0 +1,270 @@
+source_id,target_id,relationship
+Naeaa6b37c9cd4a4083194542605bed13,CommodityBasketConstituent,owl#someValuesFrom
+CommodityOption,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+Nee244b331106454ab80499b13eb04e0d,CommodityUnderlyingAsset,owl#someValuesFrom
+BasketOfCommodities,owl#Class,22-rdf-syntax-ns#type
+hasGrade,has grade,rdf-schema#label
+CommodityReturnLeg,commodity return leg,rdf-schema#label
+CommodityFuture,A commodity future is an agreement to purchase or sell a commodity for delivery in the future: (1) at a price that is determined at initiation of the contract; (2) that obligates each party to the contract to fulfill the contract at the specified price; (3) that is used to assume or shift price risk; and (4) that may be satisfied by delivery or offset.,explanatoryNote
+Bullion,PreciousMetal,rdf-schema#subClassOf
+CommoditySpotContract,SpotContract,rdf-schema#subClassOf
+PolypropyleneResource,negotiable commodity including plastics,core#definition
+N6f6dff30856b47589fdc2ca957d7c564,owl#Restriction,22-rdf-syntax-ns#type
+CommoditySwap,"commodity derivative that includes, without limitation, any swap for which the primary underlying notional item is a physical commodity, or the price, or behavior of the price, or the level of a commodity index, or other aspect related to a physical commodity",core#definition
+N6f6dff30856b47589fdc2ca957d7c564,hasUnderlier,owl#onProperty
+ServiceResource,"negotiable commodity involving services such as transportation, communications, and trade",core#definition
+ExtractionResource,extraction resource,rdf-schema#label
+Metal,"material that, when freshly prepared, polished, or fractured, shows a lustrous appearance, and conducts electricity and heat relatively well",core#definition
+FertilizerResource,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+EnergyResource,Note that the concept of an energy resource overlaps with generated resource and extraction resource but is not identical to either.,core#scopeNote
+OilCommodity,"generated resource that is a viscous liquid derived from petroleum, including for use as fuel, or as a lubricant, and the manufacture of many types of paints, plastics, and other materials",core#definition
+GeneratedResource,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+GeneratedResource,generated resource,rdf-schema#label
+hasGrade,owl#ObjectProperty,22-rdf-syntax-ns#type
+BasketOfCommodities,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+CommodityReturnLeg,Nee244b331106454ab80499b13eb04e0d,rdf-schema#subClassOf
+PolypropyleneResource,owl#Class,22-rdf-syntax-ns#type
+EnvironmentalResource,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+N8839973d0a5f4c248d962f78797562d4,0,owl#minQualifiedCardinality
+Naeaa6b37c9cd4a4083194542605bed13,owl#Restriction,22-rdf-syntax-ns#type
+hasGrade,The grade of oil e.g. Brent Crude.,core#definition
+OilCommodity,N8b7939d18dd9403e89058ea00517c6d7,rdf-schema#subClassOf
+BasketOfCommodities,custom basket whose constituents consist of one or more negotiable commodities,core#definition
+CommodityIndex,commodity index,rdf-schema#label
+PolypropyleneResource,polypropylene resource,rdf-schema#label
+CommodityUnderlyingAsset,"The underlying of a commodity swap may include a physical commodity, or the price, or behavior of the price, or any other aspect of a physical commodity.",explanatoryNote
+CommodityDerivative,DerivativeInstrument,rdf-schema#subClassOf
+CommodityFuture,owl#Class,22-rdf-syntax-ns#type
+CommoditySpotContract,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+FertilizerResource,NegotiableCommodity,rdf-schema#subClassOf
+AgriculturalResource,NegotiableCommodity,rdf-schema#subClassOf
+GeneratedResource,NegotiableCommodity,rdf-schema#subClassOf
+ExtractionResource,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+MeatCommodity,AgriculturalResource,rdf-schema#subClassOf
+WeatherDerivative,owl#Class,22-rdf-syntax-ns#type
+CommodityUnderlyingAsset,"underlier of a commodity derivative, including, but not limited to, the negotiable commodity itself",core#definition
+Naeaa6b37c9cd4a4083194542605bed13,hasConstituent,owl#onProperty
+CommodityFuture,commodity future,rdf-schema#label
+CommodityDerivative,CommodityInstrument,rdf-schema#subClassOf
+CommoditySwap,"Commodities that can be swapped include: energy. metal, agriculture, environmental, freight, polypropylene products, fertilizer, paper, single and multiple commodity indexes and baskets, and multi-commodity assets where each leg references a different commodity.",explanatoryNote
+CommodityUnderlyingAsset,commodity underlying asset,rdf-schema#label
+CommodityIndex,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+OilGrade,measure of the viscosity of oil during operation,core#definition
+Bullion,owl#Class,22-rdf-syntax-ns#type
+CommodityForward,CommodityDerivative,rdf-schema#subClassOf
+CommodityOption,CommodityDerivative,rdf-schema#subClassOf
+FertilizerResource,fertilizer resource,rdf-schema#label
+Ndc680774f1d5465e92fd877facf1247d,BasketOfCommodities,owl#someValuesFrom
+FreightResource,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+EnergyResource,owl#Class,22-rdf-syntax-ns#type
+ExtractionResource,NegotiableCommodity,rdf-schema#subClassOf
+GeneratedResource,energy delivered through a utility network or provider,core#definition
+GrainCommodity,AgriculturalResource,rdf-schema#subClassOf
+Bullion,"In the United States, bullion that is eligible for reference in a commodities contract may include U.S. gold Buffalo coins minted by the U.S. Mint that are 1 troy ounce, 0.5 ounce, 0.25 ounce, or 0.10 ounce; 1 ounce silver coins; certain platinum coins; and gold, silver, palladium, and platinum bullion that meet or exceed the fineness requirements of a regulated futures contract. Bullion must also be certified by an approved certifier, typically identified by an exchange, including but not limited to the U.S. Mint.",core#example
+CommoditySpotContract,contract that involves physical delivery of the commodity asset at settlement,core#definition
+EnergyTransmissionRights,energy transmission rights,rdf-schema#label
+CommodityBasketConstituent,owl#Class,22-rdf-syntax-ns#type
+N8839973d0a5f4c248d962f78797562d4,MonetaryAmount,owl#onClass
+N4c73ce0d676b442d97001f31907b6bc7,hasAsOfDate,owl#onProperty
+N15606399771449bdaceaf2bda6123cdc,0,owl#minQualifiedCardinality
+Na412730d03124a9c9581712b1ae6725b,MonetaryAmount,owl#onClass
+CommodityIndex,investment vehicle that tracks a basket of commodities to measure their price and investment return performance,core#definition
+N6f6dff30856b47589fdc2ca957d7c564,0,owl#minQualifiedCardinality
+FreightResource,freight resource,rdf-schema#label
+Metal,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+CommodityReturnLeg,owl#Class,22-rdf-syntax-ns#type
+Metal,ExtractionResource,rdf-schema#subClassOf
+,,owl#imports
+N15606399771449bdaceaf2bda6123cdc,Commodity,owl#onClass
+FertilizerResource,owl#Class,22-rdf-syntax-ns#type
+BaseMetal,base metal,rdf-schema#label
+N061e6c3f0f87446ab10bdcf137e6e946,owl#Restriction,22-rdf-syntax-ns#type
+N2d5f3e16e6fb4f30b7a3f7dec528816f,0,owl#minQualifiedCardinality
+CommoditySwap,CFTC glossary,adaptedFrom
+BaseMetal,Metal,rdf-schema#subClassOf
+ServiceResource,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+CommodityUnderlyingAsset,Na412730d03124a9c9581712b1ae6725b,rdf-schema#subClassOf
+CommodityFuture,CFTC glossary,adaptedFrom
+PaperResource,owl#Class,22-rdf-syntax-ns#type
+WeatherDerivative,CommodityDerivative,rdf-schema#subClassOf
+,"CommoditiesContracts.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, and to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.",core#changeNote
+EnergyTransmissionRights,owl#Class,22-rdf-syntax-ns#type
+N5f450c9542c645f39c4bda812c4e13dc,owl#Restriction,22-rdf-syntax-ns#type
+CommodityIndex,owl#Class,22-rdf-syntax-ns#type
+,CommoditiesContracts.rdf version of this ontology was modified to fix spelling errors.,core#changeNote
+WeatherDerivative,"Such a derivative can be used to hedge risks related to the demand for heating fuel or electricity. The underlying 'asset' is not a negotiable commodity per se, but because the weather can impact the prices and other things related to other commodities, weather derivatives are treated as commodity derivatives for regulatory purposes.",explanatoryNote
+N4c73ce0d676b442d97001f31907b6bc7,ExplicitDate,owl#onClass
+CommodityBasketConstituent,WeightedBasketConstituent,rdf-schema#subClassOf
+BasketOfCommodities,A commodity basket may contain constituents from one of the potential underlying assets or from multiple underlying assets.,explanatoryNote
+CommodityDerivative,N6f6dff30856b47589fdc2ca957d7c564,rdf-schema#subClassOf
+N8b7939d18dd9403e89058ea00517c6d7,OilGrade,owl#someValuesFrom
+,,owl#versionIRI
+CommodityBasketConstituent,component of a custom commodity basket whose relative importance with respect to other basket constituents is known,core#definition
+PaperResource,"negotiable commodity that is a paper product, including containerboard, newsprint, pulp, recovered paper",core#definition
+CommodityFuture,FinancialFuture,owl#disjointWith
+CommodityUnderlyingAsset,N92d200d8d8924c3ca86b78cf7a891f80,rdf-schema#subClassOf
+FreightResource,negotiable commodity that is a freight index route,core#definition
+hasGrade,OilGrade,rdf-schema#range
+CommodityForward,Forward,rdf-schema#subClassOf
+N233594d312bf42a687023a8b0352d01c,0,owl#minQualifiedCardinality
+CommodityFuture,Future,rdf-schema#subClassOf
+IndustrialResource,"negotiable commodity that is obtained via some industrial process, including construction and manufacturing",core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+AgriculturalResource,"negotiable commodity that is obtained via some agricultural process, including forestry, fishing, livestock, grain, dairy, corn, cocoa, soybeans, sugar, coffee",core#definition
+N2d5f3e16e6fb4f30b7a3f7dec528816f,owl#Restriction,22-rdf-syntax-ns#type
+N15606399771449bdaceaf2bda6123cdc,involves,owl#onProperty
+PaperResource,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+CommoditySwap,owl#Class,22-rdf-syntax-ns#type
+Bullion,physical precious metal that is officially recognized as being at least 99.5 percent pure,core#definition
+CommoditySwap,N5f450c9542c645f39c4bda812c4e13dc,rdf-schema#subClassOf
+,"Copyright (c) 2015-2023 EDM Council, Inc.",copyright
+Metal,"Examples include precious or industrial metal, such as aluminium, copper, gold, lead, nickel, platinum, silver, tin, zinc.",core#example
+MeatCommodity,"agricultural resource derived from the flesh of an animal (especially a mammal), such as pork bellies",core#definition
+OilCommodity,oil commodity,rdf-schema#label
+EnvironmentalResource,NegotiableCommodity,rdf-schema#subClassOf
+Na412730d03124a9c9581712b1ae6725b,owl#Restriction,22-rdf-syntax-ns#type
+WeatherDerivative,weather derivative,rdf-schema#label
+ServiceResource,NegotiableCommodity,rdf-schema#subClassOf
+AgriculturalResource,agricultural resource,rdf-schema#label
+CommoditySwap,ReturnSwap,rdf-schema#subClassOf
+N061e6c3f0f87446ab10bdcf137e6e946,ScalarQuantityValue,owl#onClass
+N8839973d0a5f4c248d962f78797562d4,hasCommodityValueAsOfDate,owl#onProperty
+N92d200d8d8924c3ca86b78cf7a891f80,involves,owl#onProperty
+CommodityFuture,futures contract to buy or sell a predetermined amount of a commodity at a specific price on a specific date in the future,core#definition
+MeatCommodity,meat commodity,rdf-schema#label
+IndustrialResource,NegotiableCommodity,rdf-schema#subClassOf
+hasCommodityValueAsOfDate,hasMonetaryAmount,rdf-schema#subPropertyOf
+,"Copyright (c) 2015-2023 Object Management Group, Inc.",copyright
+ExtractionResource,"These resources include ores, which contain commercially valuable amounts of metals, such as iron and aluminum, as well as precious metals, such as silver, gold, and platinum; precious stones, such as diamonds; building stones, such as granite; and solid fuels, such as coal and oil shale.",explanatoryNote
+CommodityReturnLeg,"leg of a commodity return swap in which the return is based on a physical commodity, or the price, or behavior of the price, or any other aspect related to a physical commodity",core#definition
+N5f450c9542c645f39c4bda812c4e13dc,CommodityReturnLeg,owl#someValuesFrom
+CommodityBasketConstituent,N15606399771449bdaceaf2bda6123cdc,rdf-schema#subClassOf
+Metal,owl#Class,22-rdf-syntax-ns#type
+BaseMetal,owl#Class,22-rdf-syntax-ns#type
+CommodityUnderlyingAsset,Underlier,rdf-schema#subClassOf
+GeneratedResource,owl#Class,22-rdf-syntax-ns#type
+CommoditySpotContract,commodity spot contract,rdf-schema#label
+CommodityIndex,ReferenceIndex,rdf-schema#subClassOf
+CommodityUnderlyingAsset,N233594d312bf42a687023a8b0352d01c,rdf-schema#subClassOf
+OilGrade,oil grade,rdf-schema#label
+CommodityDerivative,owl#Class,22-rdf-syntax-ns#type
+CommodityUnderlyingAsset,owl#Class,22-rdf-syntax-ns#type
+EnergyResource,NegotiableCommodity,rdf-schema#subClassOf
+N233594d312bf42a687023a8b0352d01c,ScalarQuantityValue,owl#onClass
+BaseMetal,WPU101 for example.,explanatoryNote
+AgriculturalResource,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+CommodityFuture,CommodityDerivative,rdf-schema#subClassOf
+ExtractionResource,negotiable commodity that is a mineral resource obtained via withdrawal from the natural environment,core#definition
+IndustrialResource,owl#Class,22-rdf-syntax-ns#type
+CommoditySpotContract,owl#Class,22-rdf-syntax-ns#type
+EnergyResource,"energy delivered through a utility network of provider; diesel fuel, fuel oil, gas oil, gasoline, heating oil, jet fuel, kerosene, natural gas, oil (Brent, Tapis, Dubai, WTI)",core#definition
+CommodityUnderlyingAsset,N4c73ce0d676b442d97001f31907b6bc7,rdf-schema#subClassOf
+EnvironmentalResource,owl#Class,22-rdf-syntax-ns#type
+N15606399771449bdaceaf2bda6123cdc,owl#Restriction,22-rdf-syntax-ns#type
+CommoditySwap,commodity swap,rdf-schema#label
+PaperResource,paper resource,rdf-schema#label
+ExtractionResource,owl#Class,22-rdf-syntax-ns#type
+CommodityDerivative,commodity derivative,rdf-schema#label
+,Commodities Contracts Ontology,rdf-schema#label
+WeatherDerivative,"In the CFI standard, weather is classified as an environmental resource.",explanatoryNote
+,"CommoditiesContracts.rdf version of this ontology was modified to define a commodity index, and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).",core#changeNote
+PreciousMetal,owl#Class,22-rdf-syntax-ns#type
+OilGrade,Classifier,rdf-schema#subClassOf
+IndustrialResource,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+CommodityBasketConstituent,N061e6c3f0f87446ab10bdcf137e6e946,rdf-schema#subClassOf
+ServiceResource,service resource,rdf-schema#label
+FreightResource,owl#Class,22-rdf-syntax-ns#type
+EnergyTransmissionRights,EnergyResource,rdf-schema#subClassOf
+OilCommodity,owl#Class,22-rdf-syntax-ns#type
+EnvironmentalResource,environmental resource,rdf-schema#label
+N233594d312bf42a687023a8b0352d01c,owl#Restriction,22-rdf-syntax-ns#type
+N061e6c3f0f87446ab10bdcf137e6e946,hasQuantityValue,owl#onProperty
+CommodityReturnLeg,"The cash flows from a commodity may be negative as you have a cost from holding the commodity but there are no interim cash flows, so it equates to a negative interest rate. So a commodity swap is like a TRS in that it is based on the return on the increase in value.",explanatoryNote
+GasCommodity,EnergyResource,rdf-schema#subClassOf
+N92d200d8d8924c3ca86b78cf7a891f80,Commodity,owl#onClass
+hasCommodityValueAsOfDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+N92d200d8d8924c3ca86b78cf7a891f80,0,owl#minQualifiedCardinality
+GasCommodity,ExtractionResource,rdf-schema#subClassOf
+N92d200d8d8924c3ca86b78cf7a891f80,owl#Restriction,22-rdf-syntax-ns#type
+CommodityFuture,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+WeatherDerivative,"derivative instrument whose primary underlying notional item is based on something related to the weather, for example, the average temperature in Chicago in January",core#definition
+BasketOfCommodities,basket of commodities,rdf-schema#label
+hasCommodityValueAsOfDate,has commodity value as of date,rdf-schema#label
+BasketOfCommodities,Naeaa6b37c9cd4a4083194542605bed13,rdf-schema#subClassOf
+EnergyResource,energy resource,rdf-schema#label
+N2d5f3e16e6fb4f30b7a3f7dec528816f,hasAsOfDate,owl#onProperty
+N8b7939d18dd9403e89058ea00517c6d7,owl#Restriction,22-rdf-syntax-ns#type
+BasketOfCommodities,WeightedBasket,rdf-schema#subClassOf
+PolypropyleneResource,NegotiableCommodity,rdf-schema#subClassOf
+EnergyResource,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+PreciousMetal,Metal,rdf-schema#subClassOf
+,"CommoditiesContracts.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+CommodityForward,owl#Class,22-rdf-syntax-ns#type
+MeatCommodity,owl#Class,22-rdf-syntax-ns#type
+OilGrade,owl#Class,22-rdf-syntax-ns#type
+EnergyTransmissionRights,rights to the transmission of power across an electricity distribution network,core#definition
+IndustrialResource,industrial resource,rdf-schema#label
+CommodityOption,owl#Class,22-rdf-syntax-ns#type
+BaseMetal,PreciousMetal,owl#disjointWith
+WeatherDerivative,DerivativeInstrument,rdf-schema#subClassOf
+CommodityOption,"option where the option buyer has the right to buy or sell specified commodities or commodity related index at a fixed price or formula, on or before a specified date",core#definition
+CommoditySwap,Commodity swaps typically involve the exchange of a floating commodity price for a set price over an agreed-upon period.,explanatoryNote
+GrainCommodity,"agricultural resource that is a small, hard seed, of a food plant, especially of a cereal plant, such as wheat, corn, rye, oats, rice, and millet",core#definition
+Na412730d03124a9c9581712b1ae6725b,hasCommodityValueAsOfDate,owl#onProperty
+CommodityForward,commodity forward,rdf-schema#label
+N233594d312bf42a687023a8b0352d01c,hasQuantityValue,owl#onProperty
+Bullion,bullion,rdf-schema#label
+CommodityIndex,Ndc680774f1d5465e92fd877facf1247d,rdf-schema#subClassOf
+CommodityForward,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+,Release,hasMaturityLevel
+N2d5f3e16e6fb4f30b7a3f7dec528816f,ExplicitDate,owl#onClass
+N6f6dff30856b47589fdc2ca957d7c564,CommodityUnderlyingAsset,owl#onClass
+AgriculturalResource,owl#Class,22-rdf-syntax-ns#type
+hasGrade,OilCommodity,rdf-schema#domain
+Bullion,"Physical metals fall into two categories: (1) bullion, which are coins, ingots or bars of a specific weight and purity; and (2) ""numismatic"" or collectible coins, which can be rare or old coins, or special proofs that are newly minted as collectibles. If a particular asset is identified as ""numismatic"" or ""collectible"", it is, by definition, not considered bullion aside from its melt value.",explanatoryNote
+GrainCommodity,owl#Class,22-rdf-syntax-ns#type
+ServiceResource,owl#Class,22-rdf-syntax-ns#type
+,MIT,license
+CommodityBasketConstituent,commodity basket constituent,rdf-schema#label
+N8b7939d18dd9403e89058ea00517c6d7,hasGrade,owl#onProperty
+CommodityOption,commodity option,rdf-schema#label
+CommodityDerivative,"derivative instrument whose primary underlying notional item is a physical commodity, or the price, or related index, or any other aspect related to a physical commodity",core#definition
+CommodityForward,"Commodity forwards are often settled via cash transactions in many industries, including for the purposes of commodity merchandising. Terms may be more ""personalized"" than is the case with standardized futures contracts (i.e., delivery time and amount are as determined between seller and buyer). A price may be agreed upon in advance, or there may be agreement that the price will be determined at the time of delivery. A forward contract is a private and customizable agreement that settles at the end of the agreement and is traded over-the-counter.",explanatoryNote
+CommodityForward,forward contract in which a buyer and seller agree upon delivery of a specified quality and quantity of goods at a specified future date,core#definition
+OilCommodity,GeneratedResource,rdf-schema#subClassOf
+CommoditySwap,CommodityDerivative,rdf-schema#subClassOf
+,CommoditiesContracts.rdf version of this ontology was modified to reflect the move of precious metal from products and services to currency amount.,core#changeNote
+CommodityOption,VanillaOption,rdf-schema#subClassOf
+EnvironmentalResource,negotiable commodity including offset credits,core#definition
+PolypropyleneResource,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+N4c73ce0d676b442d97001f31907b6bc7,0,owl#minQualifiedCardinality
+Metal,Metal,adaptedFrom
+CommodityForward,CFTC glossary,adaptedFrom
+,CommoditiesContracts.rdf version of this ontology was modified to augment the definition of an underlying commodity with a quantity and value of that commodity as of some date.,core#changeNote
+N8839973d0a5f4c248d962f78797562d4,owl#Restriction,22-rdf-syntax-ns#type
+BaseMetal,"common metal that tarnishes, oxidizes, or corrodes relatively quickly when exposed to air or moisture, that is widely used in commercial and industrial applications, such as construction and manufacturing",core#definition
+Na412730d03124a9c9581712b1ae6725b,0,owl#minQualifiedCardinality
+FertilizerResource,"negotiable commodity that includes ammonia, diammonium phosphate (DAP), potash, sulphur, urea, urea and ammonium nitrate (UAN)",core#definition
+GasCommodity,extraction resource that is natural gas,core#definition
+GasCommodity,owl#Class,22-rdf-syntax-ns#type
+Metal,metal,rdf-schema#label
+CommoditySpotContract,CommodityInstrument,rdf-schema#subClassOf
+CommodityReturnLeg,ReturnLeg,rdf-schema#subClassOf
+N5f450c9542c645f39c4bda812c4e13dc,hasReturnLeg,owl#onProperty
+,"This ontology specifies core concepts for commodities-based derivatives and spot contracts, including the definitions of the most common categories of underlying negotiable commodities, corresponding to those outlined in the ISO 10962 CFI standard. Note that the ontology does not include any specific units of measure for these commodities. The intent is that FIBO users would select one of the many available units ontologies to use in specifying the details of individual contracts.",abstract
+Nee244b331106454ab80499b13eb04e0d,owl#Restriction,22-rdf-syntax-ns#type
+N4c73ce0d676b442d97001f31907b6bc7,owl#Restriction,22-rdf-syntax-ns#type
+Ndc680774f1d5465e92fd877facf1247d,owl#Restriction,22-rdf-syntax-ns#type
+hasCommodityValueAsOfDate,indicates the per unit value of a given commodity as of some specified date,core#definition
+Nee244b331106454ab80499b13eb04e0d,hasUnderlier,owl#onProperty
+CommoditySwap,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10",adaptedFrom
+Ndc680774f1d5465e92fd877facf1247d,isBasedOn,owl#onProperty
+PaperResource,NegotiableCommodity,rdf-schema#subClassOf
+hasCommodityValueAsOfDate,MonetaryAmount,rdf-schema#range
+WeatherDerivative,glossary_wxyz.html,adaptedFrom
+GrainCommodity,grain commodity,rdf-schema#label
+CommodityBasketConstituent,N2d5f3e16e6fb4f30b7a3f7dec528816f,rdf-schema#subClassOf
+GasCommodity,gas commodity,rdf-schema#label
+FreightResource,NegotiableCommodity,rdf-schema#subClassOf
+CommodityBasketConstituent,N8839973d0a5f4c248d962f78797562d4,rdf-schema#subClassOf
+N061e6c3f0f87446ab10bdcf137e6e946,0,owl#minQualifiedCardinality

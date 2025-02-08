@@ -1,0 +1,36 @@
+source_id,target_id,relationship
+Scheme,scheme,rdf-schema#label
+,"Arrangements.rdf version of this ontology was revised for the FIBO 2.0 RFC report to add a general definition for scheme, add dated collection, and add mappings to LCC.",core#changeNote
+Scheme,"structure or means of organizing information such as a blueprint, schema, numbering system, organization structure, measurement system, plan, taxonomy, or language for organizing information",core#definition
+,"Arrangements.rdf version of this ontology was revised to add a restriction to structured collection pointing to the arrangement used to organize that collection, and to revise the definition accordingly.",core#changeNote
+,Arrangements.rdf version of this ontology was revised to address hygiene issues with respect to text formatting.,core#changeNote
+,"Copyright (c) 2014-2023 EDM Council, Inc.",copyright
+,,owl#imports
+,"This ontology defines abstract structural concepts, extending the Commons concept of an arrangement to represent schemes.",abstract
+,Release,hasMaturityLevel
+CodeSet,Scheme,rdf-schema#subClassOf
+hasCollectionSize,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,Arrangements.rdf version of this ontology was revised to loosen the range on hasObservedDateTime such that it can be used more generally.,core#changeNote
+hasCollectionSize,indicates the number of elements in a given collection,core#definition
+,MIT,license
+,Arrangements Ontology,rdf-schema#label
+CodeSet,owl#Class,22-rdf-syntax-ns#type
+,Arrangements.rdf version of this ontology was revised as a part of the issue resolutions identified in the FIBO FND 1.2 RTF report to add a definition for a structured collection.,core#changeNote
+,"Arrangements.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+,,owl#versionIRI
+Scheme,Ncc8eda06f4fb463ca43cd10f73d51124,rdf-schema#subClassOf
+,Arrangements.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+hasCollectionSize,has collection size,rdf-schema#label
+Scheme,owl#Class,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+,Arrangements.rdf version of this ontology was revised to move the concepts of a dated collection and dated collection constituent to Financial Dates in order to improve usability and simplify reasoning and make definitions ISO 704 compliant.,core#changeNote
+,"Arrangements.rdf version of this ontology was revised to loosen the restriction on hasObservedDateTime so that it can be used with the new CombinedDateTime datatype (in FinancialDates, which is not imported herein to avoid circular dependencies), with finer granularity than seconds as appropriate for trades, for example.",core#changeNote
+Ncc8eda06f4fb463ca43cd10f73d51124,defines,owl#onProperty
+Ncc8eda06f4fb463ca43cd10f73d51124,owl#Restriction,22-rdf-syntax-ns#type
+hasCollectionSize,XMLSchema#nonNegativeInteger,rdf-schema#range
+,Arrangements.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Scheme,Arrangement,rdf-schema#subClassOf
+,"Arrangements.rdf version of this ontology was revised to eliminate duplication with concepts in LCC for classes including arrangement, collection, code element, code set, etc to simplify the hierarchy and usage for FIBO users.",core#changeNote
+,.,core#changeNote
+,"Copyright (c) 2014-2023 Object Management Group, Inc.",copyright
+Ncc8eda06f4fb463ca43cd10f73d51124,0,owl#minCardinality

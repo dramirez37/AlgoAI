@@ -1,0 +1,136 @@
+source_id,target_id,relationship
+,EquitySwaps.rdf version of this ontology was modified to add the concept of a high-level equity swap as well as an equity volatility swap per the ISO CFI standard and to add references to the CFI where appropriate.,core#changeNote
+N60d2cfad24ac41e4b11941dcf2dc09cd,hasContractualElement,owl#onProperty
+N5bf95f015fa34129b38fac90ea6d41da,owl#Restriction,22-rdf-syntax-ns#type
+DispersionSwapIndexConstituentsLeg,dispersion swap index constituents leg,rdf-schema#label
+N28e5d1c5d8604ea699b77fd6bb232d5d,owl#Restriction,22-rdf-syntax-ns#type
+N4f609df9bd5a40fa85f375bd9b035f7d,owl#Restriction,22-rdf-syntax-ns#type
+EquityTotalReturnSwap,owl#Class,22-rdf-syntax-ns#type
+EquityVarianceSwap,An equity variance swap is a forward swap that uses the variance (being the volatility squared) of an underlying's price movement over a period as the basis for the payoff calculation.,explanatoryNote
+N776d0fe9bb364e6ba748e8756f120fcc,EquityReturnLeg,22-rdf-syntax-ns#first
+EquitySwap,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15",adaptedFrom
+EquityPriceReturnSwap,"A price return equity swap is similar to a total return swap, except that dividends are not passed through to the buyer).",explanatoryNote
+DispersionSwapIndexLeg,owl#Class,22-rdf-syntax-ns#type
+SpecialDividendLegTerms,special dividend leg terms,rdf-schema#label
+N17cfcc7e41924bf8b9a5974bf27865ff,hasUnderlier,owl#onProperty
+EquityReturnLeg,return leg whose income is based on an equity observable,core#definition
+DividendLeg,N5bf95f015fa34129b38fac90ea6d41da,rdf-schema#subClassOf
+DispersionSwapIndexLeg,dispersion swap index leg,rdf-schema#label
+DividendLeg,owl#Class,22-rdf-syntax-ns#type
+EquityCorrelationSwap,owl#Class,22-rdf-syntax-ns#type
+EquityVolatilitySwap,dispersion swap that is a forward contract on the variability of movements in the price of its underlying equity observable,core#definition
+EquityPriceReturnSwap,EquitySwap,rdf-schema#subClassOf
+Nbe9a5dc1e91f49db9a8faccb9795019d,owl#Restriction,22-rdf-syntax-ns#type
+EquityReturnLeg,N17cfcc7e41924bf8b9a5974bf27865ff,rdf-schema#subClassOf
+EquityVolatilitySwap,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15",adaptedFrom
+EquitySwap,equity swap,rdf-schema#label
+N3155ed2f930a4808b5c1d041e38acaef,hasUnderlier,owl#onProperty
+DispersionSwapIndexLeg,dispersion leg whose underlying is an equity index,core#definition
+DividendLeg,dividend leg,rdf-schema#label
+N2f0e9d70172746c19d8b348c3207edda,owl#Class,22-rdf-syntax-ns#type
+,EquitySwaps.rdf version of this ontology was modified to fix spelling errors.,core#changeNote
+Nd92cb55ff5054c89881d0662c00ce66a,owl#Restriction,22-rdf-syntax-ns#type
+EquityCorrelationSwap,CorrelationSwap,rdf-schema#subClassOf
+EquityTotalReturnSwap,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15",adaptedFrom
+N4f609df9bd5a40fa85f375bd9b035f7d,EquityReturnLeg,owl#someValuesFrom
+DividendSwap,equity swap that has at least one leg whose underlier is a dividend stream,core#definition
+EquityCorrelationSwap,correlation swap that allows one to hedge risks associated with the observed average correlation of a collection of underlying equity products,core#definition
+QualifyingDividendPeriod,qualifying dividend period,rdf-schema#label
+,,owl#imports
+EquityReturnLeg,owl#Class,22-rdf-syntax-ns#type
+N60d2cfad24ac41e4b11941dcf2dc09cd,0,owl#minQualifiedCardinality
+EquityVarianceSwap,dispersion swap in which the parties agree to exchange payments based on the difference between (i) the realized variance of the price changes of a specified equity underlier over a stated observation period and (ii) a fixed amount of variance that is agreed when the contract is executed,core#definition
+EquityReturnLeg,equity return leg,rdf-schema#label
+EquityTotalReturnSwap,total return swap whose return leg underlier is an equity observable,core#definition
+SpecialDividendLegTerms,CashflowTerms,rdf-schema#subClassOf
+EquityPriceReturnSwap,ReturnSwap,rdf-schema#subClassOf
+N0a8126d870e54a67ae14444d71450778,DividendLeg,owl#someValuesFrom
+Nafc65bc508ea469aa2f1f4bc7f270ac1,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+DispersionSwapIndexConstituentsLeg,N37ae7099a6554d16a81805db1916c826,rdf-schema#subClassOf
+EquityPriceReturnSwap,equity price return swap,rdf-schema#label
+N17cfcc7e41924bf8b9a5974bf27865ff,owl#Restriction,22-rdf-syntax-ns#type
+EquityPriceReturnSwap,N4f609df9bd5a40fa85f375bd9b035f7d,rdf-schema#subClassOf
+N60d2cfad24ac41e4b11941dcf2dc09cd,owl#Restriction,22-rdf-syntax-ns#type
+Nd523d030bb3548dcb85688d020bbff00,isPlayedBy,owl#onProperty
+,,owl#versionIRI
+QualifyingDividendPeriod,ExplicitDatePeriod,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+EquityTotalReturnSwap,Nd92cb55ff5054c89881d0662c00ce66a,rdf-schema#subClassOf
+N37ae7099a6554d16a81805db1916c826,owl#Restriction,22-rdf-syntax-ns#type
+DividendLeg,SimpleReturnLeg,rdf-schema#subClassOf
+, version of this ontology was modified to eliminate deprecated swap elements.,core#changeNote
+DividendSwap,owl#Class,22-rdf-syntax-ns#type
+EquityVolatilitySwap,owl#Class,22-rdf-syntax-ns#type
+EquityVarianceSwap,DispersionSwap,rdf-schema#subClassOf
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+Nbe9a5dc1e91f49db9a8faccb9795019d,ReferenceIndex,owl#someValuesFrom
+N5bf95f015fa34129b38fac90ea6d41da,EquityObservable,owl#someValuesFrom
+EquitySwap,Equity swaps can be physically or cash settled.,explanatoryNote
+,EquitySwaps.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N3155ed2f930a4808b5c1d041e38acaef,owl#Restriction,22-rdf-syntax-ns#type
+EquityVarianceSwap,equity variance swap,rdf-schema#label
+DividendLeg,leg.,usageNote
+DispersionSwapIndexConstituentsLeg,dispersion leg whose underlying is a defined set of constituents of a given equity index,core#definition
+EquityTotalReturnSwap,TotalReturnSwap,rdf-schema#subClassOf
+QualifyingDividendPeriod,owl#Class,22-rdf-syntax-ns#type
+DispersionSwapIndexLeg,DispersionLeg,rdf-schema#subClassOf
+DividendSwap,dividend swap,rdf-schema#label
+,Equity Swaps Ontology,rdf-schema#label
+EquityTotalReturnSwap,EquitySwap,rdf-schema#subClassOf
+N60d2cfad24ac41e4b11941dcf2dc09cd,SpecialDividendLegTerms,owl#onClass
+SpecialDividendLegTerms,owl#Class,22-rdf-syntax-ns#type
+N2f0e9d70172746c19d8b348c3207edda,N776d0fe9bb364e6ba748e8756f120fcc,owl#intersectionOf
+EquityCorrelationSwap,EquitySwap,rdf-schema#subClassOf
+DividendLeg,N60d2cfad24ac41e4b11941dcf2dc09cd,rdf-schema#subClassOf
+N0a8126d870e54a67ae14444d71450778,hasLeg,owl#onProperty
+EquityVarianceSwap,owl#Class,22-rdf-syntax-ns#type
+EquitySwap,"swap whose payments are linked to the change in value of an underlying equity (e.g. shares, basket of equities or index) or its cashflow",core#definition
+SpecialDividendLegTerms,terms that are invoked if special dividend and memorial dividends are applicable,core#definition
+N4f609df9bd5a40fa85f375bd9b035f7d,hasReturnLeg,owl#onProperty
+DividendSwap,EquitySwap,rdf-schema#subClassOf
+N776d0fe9bb364e6ba748e8756f120fcc,Nafc65bc508ea469aa2f1f4bc7f270ac1,22-rdf-syntax-ns#rest
+DispersionSwapIndexLeg,N3155ed2f930a4808b5c1d041e38acaef,rdf-schema#subClassOf
+EquityReturnLeg,ReturnLeg,rdf-schema#subClassOf
+N0a8126d870e54a67ae14444d71450778,owl#Restriction,22-rdf-syntax-ns#type
+DividendSwap,N0a8126d870e54a67ae14444d71450778,rdf-schema#subClassOf
+N28e5d1c5d8604ea699b77fd6bb232d5d,QualifyingDividendPeriod,owl#someValuesFrom
+EquityPriceReturnSwap,owl#Class,22-rdf-syntax-ns#type
+EquitySwap,EquityDerivative,rdf-schema#subClassOf
+EquityVolatilitySwap,equity volatility swap,rdf-schema#label
+DispersionSwapIndexConstituentsLeg,owl#Class,22-rdf-syntax-ns#type
+EquityVolatilitySwap,DispersionSwap,rdf-schema#subClassOf
+EquitySwap,Swap,rdf-schema#subClassOf
+Nd523d030bb3548dcb85688d020bbff00,BasketOfEquities,owl#someValuesFrom
+N5bf95f015fa34129b38fac90ea6d41da,hasUnderlier,owl#onProperty
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+,"EquitySwaps.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, and to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.",core#changeNote
+N17cfcc7e41924bf8b9a5974bf27865ff,EquityObservable,owl#someValuesFrom
+N28e5d1c5d8604ea699b77fd6bb232d5d,hasDatePeriod,owl#onProperty
+,Release,hasMaturityLevel
+Nd92cb55ff5054c89881d0662c00ce66a,hasReturnLeg,owl#onProperty
+,MIT,license
+EquityVarianceSwap,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15",adaptedFrom
+Nd92cb55ff5054c89881d0662c00ce66a,N2f0e9d70172746c19d8b348c3207edda,owl#someValuesFrom
+EquityPriceReturnSwap,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15",adaptedFrom
+EquityTotalReturnSwap,equity total return swap,rdf-schema#label
+Nbe9a5dc1e91f49db9a8faccb9795019d,isPlayedBy,owl#onProperty
+EquityPriceReturnSwap,return swap whose return leg underlier is an equity observable,core#definition
+EquityVarianceSwap,EquitySwap,rdf-schema#subClassOf
+DispersionSwapIndexConstituentsLeg,DispersionLeg,rdf-schema#subClassOf
+Nafc65bc508ea469aa2f1f4bc7f270ac1,TotalReturnLeg,22-rdf-syntax-ns#first
+DividendSwap,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15",adaptedFrom
+N37ae7099a6554d16a81805db1916c826,hasUnderlier,owl#onProperty
+EquitySwap,owl#Class,22-rdf-syntax-ns#type
+,"EquitySwaps.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+DividendLeg,N28e5d1c5d8604ea699b77fd6bb232d5d,rdf-schema#subClassOf
+EquityVolatilitySwap,EquitySwap,rdf-schema#subClassOf
+QualifyingDividendPeriod,date period over which the sum of all qualifying dividends paid by the relevant issuers as identified in the swap terms is calculated,core#definition
+N37ae7099a6554d16a81805db1916c826,Nd523d030bb3548dcb85688d020bbff00,owl#someValuesFrom
+DividendSwap,Dividend swaps include those that are fixed-term contracts between two parties where one party makes an interest rate payment for each interval and the other party pays the total dividends received as pay-out by a selected underlying asset.,explanatoryNote
+EquityCorrelationSwap,"The underlier for the leg can be any of (1) dividend stream for a single stock, (2) change in value for a single share, (3) change in value for a basket of shares, (4) change in value for an index, (5) value of a dividend stream for a basket of shares, or (6) comparison of the change in value of a given share or basket or index against something else - for example, a single share against an index, which is the thing you are cross-correlating with the volatility of the share.",explanatoryNote
+,"This ontology defines concepts specific to swap contracts in which one leg gives some form of return on an equity asset, including dividend returns, total asset returns equity dispersion and correlation measurement terms. Many of these return calculations are based on a variety of calculation methods and may vary widely.",abstract
+N3155ed2f930a4808b5c1d041e38acaef,Nbe9a5dc1e91f49db9a8faccb9795019d,owl#someValuesFrom
+EquityVolatilitySwap,An equity volatility swap is a measure of the amount by which an asset's price is expected to fluctuate over a given period of time; it is normally measured by the annual standard deviation of daily price changes.,explanatoryNote
+Nd523d030bb3548dcb85688d020bbff00,owl#Restriction,22-rdf-syntax-ns#type
+EquityCorrelationSwap,equity correlation swap,rdf-schema#label
+DividendLeg,floating leg of a dividend swap,core#definition

@@ -1,0 +1,92 @@
+id,type,name
+hasBusinessCenter,Entity,hasBusinessCenter
+"identifies a country subdivision (state, province, region, etc.)",Entity,"identifies a country subdivision (state, province, region, etc.)"
+"indicates the name of a large, permanent, and densely settled place",Entity,"indicates the name of a large, permanent, and densely settled place"
+is located at,Entity,is located at
+Country,Entity,Country
+"Copyright (c) 2013-2024 EDM Council, Inc.",Entity,"Copyright (c) 2013-2024 EDM Council, Inc."
+"Typical working definitions for small-city populations start at around 100,000 people. Common population definitions for an urban area (city or town) range between 1,500 and 50,000 people, with most U.S states using a minimum between 1,500 and 5,000 inhabitants. Some jurisdictions set no such minima.",Entity,"Typical working definitions for small-city populations start at around 100,000 people. Common population definitions for an urban area (city or town) range between 1,500 and 50,000 people, with most U.S states using a minimum between 1,500 and 5,000 inhabitants. Some jurisdictions set no such minima."
+"This model includes representation of the capital administrative region of those federations for which the capital is situated other than within one of the states or provinces which make up the country as a whole. This is so that addresses and other references which may need to refer to any location within the country may do so. Examples include the District of Columbia in the US, and the Canberra area in Australia. Not all federations have such an area.",Entity,"This model includes representation of the capital administrative region of those federations for which the capital is situated other than within one of the states or provinces which make up the country as a whole. This is so that addresses and other references which may need to refer to any location within the country may do so. Examples include the District of Columbia in the US, and the Canberra area in Australia. Not all federations have such an area."
+lei-cdf-format-version-2-1,Entity,lei-cdf-format-version-2-1
+FederalState,Entity,FederalState
+federal capital area,Entity,federal capital area
+PopulatedPlace,Entity,PopulatedPlace
+owl#DatatypeProperty,Entity,owl#DatatypeProperty
+"community in which people live or have lived, without being specific as to size, population or importance",Entity,"community in which people live or have lived, without being specific as to size, population or importance"
+MIT,Entity,MIT
+"The territory over which a municipality has jurisdiction may encompass:
+- only one populated place such as a city, town, or village
+- several of such places (e.g., early jurisdictions in the state of New Jersey (1798-1899) as townships governing several villages, Municipalities of Mexico)
+- only parts of such places, sometimes boroughs of a city such as the 34 municipalities of Santiago, Chile.",Entity,"The territory over which a municipality has jurisdiction may encompass:
+- only one populated place such as a city, town, or village
+- several of such places (e.g., early jurisdictions in the state of New Jersey (1798-1899) as townships governing several villages, Municipalities of Mexico)
+- only parts of such places, sometimes boroughs of a city such as the 34 municipalities of Santiago, Chile."
+BusinessCenter,Entity,BusinessCenter
+urban administrative division having corporate status and usually powers of self-government or jurisdiction,Entity,urban administrative division having corporate status and usually powers of self-government or jurisdiction
+PhysicalLocation,Entity,PhysicalLocation
+has city,Entity,has city
+"indicates a geographic region in which some service is provided, or to which some policy applies, or in which something is available",Entity,"indicates a geographic region in which some service is provided, or to which some policy applies, or in which something is available"
+business center,Entity,business center
+.,Entity,.
+geopolitical entity that is or includes the municipality or capital city that acts as the seat of the federal government,Entity,geopolitical entity that is or includes the municipality or capital city that acts as the seat of the federal government
+true,Entity,true
+Locations.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.,Entity,Locations.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.
+Locations.rdf version of this ontology was modified eliminate deprecated elements.,Entity,Locations.rdf version of this ontology was modified eliminate deprecated elements.
+has country,Entity,has country
+"Locations.rdf version of this ontology was modified to revise definitions to improve them and make them ISO 704 compliant, and merge the concepts that were previously in the countries ontology into this one.",Entity,"Locations.rdf version of this ontology was modified to revise definitions to improve them and make them ISO 704 compliant, and merge the concepts that were previously in the countries ontology into this one."
+owl#ObjectProperty,Entity,owl#ObjectProperty
+populated place,Entity,populated place
+hasMunicipality,Entity,hasMunicipality
+Locations.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,Entity,Locations.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+Parcel,Entity,Parcel
+has business center,Entity,has business center
+federal state,Entity,federal state
+isLocatedAt,Entity,isLocatedAt
+hasCountry,Entity,hasCountry
+self-governing geopolitical unit which forms part of a wider geopolitical unit that is recognized as a country,Entity,self-governing geopolitical unit which forms part of a wider geopolitical unit that is recognized as a country
+Locations.rdf version of this ontology was modified for the FIBO 2.0 RFC to integrate it with LCC.,Entity,Locations.rdf version of this ontology was modified for the FIBO 2.0 RFC to integrate it with LCC.
+hasCounty,Entity,hasCounty
+indicates a country subdivision providing certain local governmental services,Entity,indicates a country subdivision providing certain local governmental services
+"disputed cities such as Jerusalem), thus hasMunicipality is a subproperty of hasRegion rather than hasSubdivision.",Entity,"disputed cities such as Jerusalem), thus hasMunicipality is a subproperty of hasRegion rather than hasSubdivision."
+identifies a country,Entity,identifies a country
+has region,Entity,has region
+county,Entity,county
+location in physical space,Entity,location in physical space
+Release,Entity,Release
+has municipality,Entity,has municipality
+,Entity,
+CountrySubdivision,Entity,CountrySubdivision
+"Copyright (c) 2013-2024 Object Management Group, Inc.",Entity,"Copyright (c) 2013-2024 Object Management Group, Inc."
+"This ontology provides a very high level definition of geographic region and geopolitical entity related concepts, including, but not limited to, countries, sub-country regions such as states and provinces, municipalities, etc., extending the Object Management Group (OMG)'s Languages, Countries, and Codes (LCC) ontologies as needed in FIBO. As such, these terms are automatically mapped to the LCC controlled vocabulary representing ISO 3166 country and country subdivision codes, and may be mapped to other de facto standards such as Geonames and the CIA World Factbook. The concept of a business center, defined herein, maps directly to the FpML concept with the same name, and to the set of business centers and broader municipalities included in ISO 10383, Codes for exchanges and market identification (MIC).",Entity,"This ontology provides a very high level definition of geographic region and geopolitical entity related concepts, including, but not limited to, countries, sub-country regions such as states and provinces, municipalities, etc., extending the Object Management Group (OMG)'s Languages, Countries, and Codes (LCC) ontologies as needed in FIBO. As such, these terms are automatically mapped to the LCC controlled vocabulary representing ISO 3166 country and country subdivision codes, and may be mapped to other de facto standards such as Geonames and the CIA World Factbook. The concept of a business center, defined herein, maps directly to the FpML concept with the same name, and to the set of business centers and broader municipalities included in ISO 10383, Codes for exchanges and market identification (MIC)."
+indicates a demarcated area on the surface of the Earth,Entity,indicates a demarcated area on the surface of the Earth
+has coverage area,Entity,has coverage area
+hasCityName,Entity,hasCityName
+Locations Ontology,Entity,Locations Ontology
+physical location,Entity,physical location
+Municipality,Entity,Municipality
+"A municipality can be any political jurisdiction from a sovereign state, such as the Principality of Monaco, or a small village, such as West Hampton Dunes, New York.",Entity,"A municipality can be any political jurisdiction from a sovereign state, such as the Principality of Monaco, or a small village, such as West Hampton Dunes, New York."
+"political and administrative division of a country, state or province, providing certain local governmental services",Entity,"political and administrative division of a country, state or province, providing certain local governmental services"
+"A municipality is a general-purpose administrative subdivision, as opposed to a special-purpose district.",Entity,"A municipality is a general-purpose administrative subdivision, as opposed to a special-purpose district."
+hasRegion,Entity,hasRegion
+"This property should be used in cases where a formal individual for the business center or municipality is not available. Note that Geonames could be used as a source in addition to FIBO, however, in cases where an individual is desired. Use the property fibo-fnd-plc-loc;hasMunicipality in cases where an individual is available. Also note that with respect to an address, this property may stand in for any village, town, or city of any size.",Entity,"This property should be used in cases where a formal individual for the business center or municipality is not available. Note that Geonames could be used as a source in addition to FIBO, however, in cases where an individual is desired. Use the property fibo-fnd-plc-loc;hasMunicipality in cases where an individual is available. Also note that with respect to an address, this property may stand in for any village, town, or city of any size."
+Location,Entity,Location
+"relates something to a location, which might be physical or virtual",Entity,"relates something to a location, which might be physical or virtual"
+GeopoliticalEntity,Entity,GeopoliticalEntity
+"indicates a business center, city, or municipality",Entity,"indicates a business center, city, or municipality"
+"municipality where business is conducted, especially one that is considered a financial center",Entity,"municipality where business is conducted, especially one that is considered a financial center"
+business-center-7-14.xml,Entity,business-center-7-14.xml
+"This type of entity, variously referred to as a state, province or canton, has a level of self government including its own legal system and court jurisdiction, but cedes a level of autonomy to the federation of which it forms a part.",Entity,"This type of entity, variously referred to as a state, province or canton, has a level of self government including its own legal system and court jurisdiction, but cedes a level of autonomy to the federation of which it forms a part."
+hasCoverageArea,Entity,hasCoverageArea
+Locations.rdf version of this ontology was modified to move definitions related to parcel and real estate to a new real property ontology (LOAN-168).,Entity,Locations.rdf version of this ontology was modified to move definitions related to parcel and real estate to a new real property ontology (LOAN-168).
+owl#Class,Entity,owl#Class
+"identifies a location where business is conducted, and hence the business calendar used to adjust dates",Entity,"identifies a location where business is conducted, and hence the business calendar used to adjust dates"
+has subdivision,Entity,has subdivision
+FederalCapitalArea,Entity,FederalCapitalArea
+RealEstate,Entity,RealEstate
+owl#Ontology,Entity,owl#Ontology
+City,Entity,City
+municipality,Entity,municipality
+GeographicRegion,Entity,GeographicRegion
+County,Entity,County
+has county,Entity,has county
+hasSubdivision,Entity,hasSubdivision

@@ -1,0 +1,126 @@
+id,type,name
+"structured collection of prices, such as market prices for some index or security, such that volatility or other analyses may be performed over the structure",Entity,"structured collection of prices, such as market prices for some index or security, such that volatility or other analyses may be performed over the structure"
+2,Entity,2
+N3d2b1fea2c9d4bf0ad88a61789ba7778,Entity,N3d2b1fea2c9d4bf0ad88a61789ba7778
+statistical measure of the rate of change in pricing for a given security or market index,Entity,statistical measure of the rate of change in pricing for a given security or market index
+implied volatility,Entity,implied volatility
+Indicators.rdf version of this ontology was modified to integrate the composite date value and reflect migration of statistical measures to Analytics.,Entity,Indicators.rdf version of this ontology was modified to integrate the composite date value and reflect migration of statistical measures to Analytics.
+HistoricalPriceVolatility,Entity,HistoricalPriceVolatility
+owl#Restriction,Entity,owl#Restriction
+Nfb82d6230d07417eb26adc7172cc7698,Entity,Nfb82d6230d07417eb26adc7172cc7698
+Indicators.rdf version of this ontology was modified to extend the definition of price structure to include a synonym of price history and state that it is intended to be used for any sort of analysis of historic prices.,Entity,Indicators.rdf version of this ontology was modified to extend the definition of price structure to include a synonym of price history and state that it is intended to be used for any sort of analysis of historic prices.
+PriceVolatility,Entity,PriceVolatility
+quoted price,Entity,quoted price
+MarketSpread,Entity,MarketSpread
+hasArgument,Entity,hasArgument
+1,Entity,1
+"This ontology provides the concepts common to all market rates, indices and indicators; that is concepts descriptive of the numeric parameters themselves. These are modeled independently of the values they may take over time.",Entity,"This ontology provides the concepts common to all market rates, indices and indicators; that is concepts descriptive of the numeric parameters themselves. These are modeled independently of the values they may take over time."
+"overall level of a given rate, calculated as the sum of some selected observed values of the rates for a particular reference rate, foreign exchange rate, lending rate, or other market rate divided by the number of samples collected over the course of a twenty-four (24) hour period for a specific date",Entity,"overall level of a given rate, calculated as the sum of some selected observed values of the rates for a particular reference rate, foreign exchange rate, lending rate, or other market rate divided by the number of samples collected over the course of a twenty-four (24) hour period for a specific date"
+hasDatePeriod,Entity,hasDatePeriod
+"Volatility can be determined using the standard deviation or variance among prices for the security or market index over some period of time. For a specific security, volatility may measure the amount and frequency in rapid price fluctuation. It is computed as the annualized standard deviation of the percentage change in a security's daily price.",Entity,"Volatility can be determined using the standard deviation or variance among prices for the security or market index over some period of time. For a specific security, volatility may measure the amount and frequency in rapid price fluctuation. It is computed as the annualized standard deviation of the percentage change in a security's daily price."
+Typically this property reflects a daily average or end of day quote.,Entity,Typically this property reflects a daily average or end of day quote.
+N9e987fb85c40435cb109373e2423ddbd,Entity,N9e987fb85c40435cb109373e2423ddbd
+statistical measure providing the difference (or spread) between two market rates,Entity,statistical measure providing the difference (or spread) between two market rates
+ImpliedVolatility,Entity,ImpliedVolatility
+has quotation date,Entity,has quotation date
+N0e709b01b00642998feae3e14014625e,Entity,N0e709b01b00642998feae3e14014625e
+owl#DatatypeProperty,Entity,owl#DatatypeProperty
+N0acfddfad24d4e9ea402d76897b785b8,Entity,N0acfddfad24d4e9ea402d76897b785b8
+MIT,Entity,MIT
+Dispersion,Entity,Dispersion
+ScopedMeasure,Entity,ScopedMeasure
+QuotedPrice,Entity,QuotedPrice
+"Historical prices are needed not only for various statistical analyses but for determining best prices for certain kinds of options, for example. Note that prices may be quoted or calculated.",Entity,"Historical prices are needed not only for various statistical analyses but for determining best prices for certain kinds of options, for example. Note that prices may be quoted or calculated."
+indicates something to which the volatility measure applies and of which it is a measure,Entity,indicates something to which the volatility measure applies and of which it is a measure
+measure of volatility that is a forward-looking metric used to calculate probability,Entity,measure of volatility that is a forward-looking metric used to calculate probability
+measure of volatility that represents the expected fluctuations of an underlying stock or index over a specific time frame,Entity,measure of volatility that represents the expected fluctuations of an underlying stock or index over a specific time frame
+DailyAverageMarketRate,Entity,DailyAverageMarketRate
+MarketRate,Entity,MarketRate
+hasQuotationDateTime,Entity,hasQuotationDateTime
+hasRateValue,Entity,hasRateValue
+Indicators.rdf version of this ontology was modified to eliminate deprecated elements.,Entity,Indicators.rdf version of this ontology was modified to eliminate deprecated elements.
+indicates the quotation date for a given market rate or indicator,Entity,indicates the quotation date for a given market rate or indicator
+EndOfDayMarketRate,Entity,EndOfDayMarketRate
+end-of-day market rate,Entity,end-of-day market rate
+hasDate,Entity,hasDate
+isVolatilityOf,Entity,isVolatilityOf
+Variance,Entity,Variance
+price history,Entity,price history
+value of a given market rate of the end of the business day for a specific date,Entity,value of a given market rate of the end of the business day for a specific date
+owl#ObjectProperty,Entity,owl#ObjectProperty
+"Indicators.rdf version of this ontology was modified to eliminate a redundant superclass declaration on MarketSpread, introduced by refactoring of FND analytics.",Entity,"Indicators.rdf version of this ontology was modified to eliminate a redundant superclass declaration on MarketSpread, introduced by refactoring of FND analytics."
+projected volatility,Entity,projected volatility
+XMLSchema#decimal,Entity,XMLSchema#decimal
+MonetaryPrice,Entity,MonetaryPrice
+"structured collection of rates, such as interest rates, or bond yields with different terms to maturity, such that a yield curve may be constructed for the structure",Entity,"structured collection of rates, such as interest rates, or bond yields with different terms to maturity, such that a yield curve may be constructed for the structure"
+StandardDeviation,Entity,StandardDeviation
+"Note that this property requires a reified date value, if used.",Entity,"Note that this property requires a reified date value, if used."
+hasConstituent,Entity,hasConstituent
+appliesTo,Entity,appliesTo
+volatility,Entity,volatility
+"or political region (e.g., SOFR, Prime)",Entity,"or political region (e.g., SOFR, Prime)"
+HistoricalVolatility,Entity,HistoricalVolatility
+"Copyright (c) 2014-2023 Object Management Group, Inc.",Entity,"Copyright (c) 2014-2023 Object Management Group, Inc."
+known collectively (in the CFI Standard) as referential instruments,Entity,known collectively (in the CFI Standard) as referential instruments
+"Copyright (c) 2014-2023 EDM Council, Inc.",Entity,"Copyright (c) 2014-2023 EDM Council, Inc."
+N94fa7bc5ee0c474c8066542cf27b9d63,Entity,N94fa7bc5ee0c474c8066542cf27b9d63
+TermStructure,Entity,TermStructure
+Nfa1859e10b7f42aebfff0106f9b25293,Entity,Nfa1859e10b7f42aebfff0106f9b25293
+Indicators Ontology,Entity,Indicators Ontology
+Date,Entity,Date
+historical volatility,Entity,historical volatility
+N6dcd6fe8c6a345a99ecb56972a0654a1,Entity,N6dcd6fe8c6a345a99ecb56972a0654a1
+ImpliedPriceVolatility,Entity,ImpliedPriceVolatility
+marketaverage.asp,Entity,marketaverage.asp
+"Indicators.rdf version of this ontology was modified per the FIBO 2.0 RFC, namely, to integrate concepts recently added to the FND domain including Rate, ExchangeRate, InterestRate and StructuredCollection and revise definitions of TermStructure and Volatility to better support concepts such as yield curves and analysis of market rates generally.",Entity,"Indicators.rdf version of this ontology was modified per the FIBO 2.0 RFC, namely, to integrate concepts recently added to the FND domain including Rate, ExchangeRate, InterestRate and StructuredCollection and revise definitions of TermStructure and Volatility to better support concepts such as yield curves and analysis of market rates generally."
+"indicates a quotation date and possibly a time for a given market rate, interest rate, indicator, or other quoted pricing information",Entity,"indicates a quotation date and possibly a time for a given market rate, interest rate, indicator, or other quoted pricing information"
+is volatility of,Entity,is volatility of
+has quotation date and time,Entity,has quotation date and time
+Release,Entity,Release
+"measure of volatility that uses actual values for pricing, rates, and other measurements calculated over some prior period",Entity,"measure of volatility that uses actual values for pricing, rates, and other measurements calculated over some prior period"
+,Entity,
+"Term structure refers to a set of discrete points; elements are ordered by time. Restrictions on the rate (see above) and a point in time, paired together, and then ordered in a structured collection is how this should ultimately be modeled. Then the concept of yield curve would be a child of term structure, for calculation of net present value, for example. Term structures consist of two or more observed or projected values, typically related to debt instruments or interest rates. assessment of monetary policy conditions, and so forth.",Entity,"Term structure refers to a set of discrete points; elements are ordered by time. Restrictions on the rate (see above) and a point in time, paired together, and then ordered in a structured collection is how this should ultimately be modeled. Then the concept of yield curve would be a child of term structure, for calculation of net present value, for example. Term structures consist of two or more observed or projected values, typically related to debt instruments or interest rates. assessment of monetary policy conditions, and so forth."
+implied price volatility,Entity,implied price volatility
+price structure,Entity,price structure
+market spread,Entity,market spread
+"Volatility is modeled here using a structured collection, comprised of a series of individual prices of something (a security, index, etc., typically quoted prices), dates, and the source for those prices for some overall period of time",Entity,"Volatility is modeled here using a structured collection, comprised of a series of individual prices of something (a security, index, etc., typically quoted prices), dates, and the source for those prices for some overall period of time"
+"Indicators.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",Entity,"Indicators.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate."
+historical volatility measure of past trading ranges of prices of underlying securities and indexes,Entity,historical volatility measure of past trading ranges of prices of underlying securities and indexes
+N3bf9d2bd35c24791a032b8d39698d239,Entity,N3bf9d2bd35c24791a032b8d39698d239
+N9021f0022f33499795067ff76327da91,Entity,N9021f0022f33499795067ff76327da91
+Indicators.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,Entity,Indicators.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+Ratio,Entity,Ratio
+Nbbfba9cd224c4c83a70ae2af02c141d6,Entity,Nbbfba9cd224c4c83a70ae2af02c141d6
+historical price volatility,Entity,historical price volatility
+hasObservedDateTime,Entity,hasObservedDateTime
+Indicators.rdf version of this ontology was modified per the issue resolutions identified in the FIBO IND 1.0 FTF 1 report.,Entity,Indicators.rdf version of this ontology was modified per the issue resolutions identified in the FIBO IND 1.0 FTF 1 report.
+price volatility,Entity,price volatility
+isValueOf,Entity,isValueOf
+"Indicators.rdf version of this ontology was modified to a restriction on isValueOf to MarketRate and eliminate its dependence on PublishedFinancialInformation, and to revise the definition of market rate, daily average market rate, and end of day market rate.",Entity,"Indicators.rdf version of this ontology was modified to a restriction on isValueOf to MarketRate and eliminate its dependence on PublishedFinancialInformation, and to revise the definition of market rate, daily average market rate, and end of day market rate."
+Redeposit issued instruments,Entity,Redeposit issued instruments
+Volatility,Entity,Volatility
+daily average market rate,Entity,daily average market rate
+22-rdf-syntax-ns#nil,Entity,22-rdf-syntax-ns#nil
+hasQuotationDate,Entity,hasQuotationDate
+Nc555f82e88f04f71841381adc73594c7,Entity,Nc555f82e88f04f71841381adc73594c7
+DatePeriod,Entity,DatePeriod
+realized volatility,Entity,realized volatility
+term structure,Entity,term structure
+DatedStructuredCollection,Entity,DatedStructuredCollection
+PriceStructure,Entity,PriceStructure
+Calculations for historical volatility are generally based on the change from one closing price to the next.,Entity,Calculations for historical volatility are generally based on the change from one closing price to the next.
+market rate,Entity,market rate
+owl#Class,Entity,owl#Class
+"Indicators.rdf version of this ontology was modified to loosen the nature of a price in a price structure to include any price, not limited to a quoted price from a specific source, to allow for calculated prices to be included in the structure and to deprecate redundant terms including financial information publisher, and published financial information.",Entity,"Indicators.rdf version of this ontology was modified to loosen the nature of a price in a price structure to include any price, not limited to a quoted price from a specific source, to allow for calculated prices to be included in the structure and to deprecate redundant terms including financial information publisher, and published financial information."
+statistical measure of the dispersion around the average of some random variable over some period of time,Entity,statistical measure of the dispersion around the average of some random variable over some period of time
+Na36026f3e6754e7dbfa2903bb0b7a773,Entity,Na36026f3e6754e7dbfa2903bb0b7a773
+0,Entity,0
+N403b9dae34a7473794e7b5d0f89a42bb,Entity,N403b9dae34a7473794e7b5d0f89a42bb
+CombinedDateTime,Entity,CombinedDateTime
+owl#Ontology,Entity,owl#Ontology
+Ne012b14154ca45b7bbca1bb55a693633,Entity,Ne012b14154ca45b7bbca1bb55a693633
+"Indicators.rdf version of this ontology was modified to add definitions for historical and implied volatility, and differentiate price volatility accordingly.",Entity,"Indicators.rdf version of this ontology was modified to add definitions for historical and implied volatility, and differentiate price volatility accordingly."
+"Financial market rates include, but are not limited to reference rates, foreign exchange rates, lending rates, bankers' acceptance rates, and so forth.",Entity,"Financial market rates include, but are not limited to reference rates, foreign exchange rates, lending rates, bankers' acceptance rates, and so forth."
+Indicators.rdf version of this ontology was modified to reflect the move of dated collection from arrangements to financial dates.,Entity,Indicators.rdf version of this ontology was modified to reflect the move of dated collection from arrangements to financial dates.
+a monetary price quoted by some publisher on a given date,Entity,a monetary price quoted by some publisher on a given date
+Indicators.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,Entity,Indicators.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).

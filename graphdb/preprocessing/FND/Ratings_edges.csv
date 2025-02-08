@@ -1,0 +1,230 @@
+source_id,target_id,relationship
+N9a67085f49254e4ca7d9b3471feadc3f,RatingScore,owl#someValuesFrom
+QuantitativeRatingScore,"rating score that is a simple numeric value on some scale, such as a credit rating for an individual",core#definition
+producesRatingsFor,RatingParty,rdf-schema#domain
+,"Copyright (c) 2019-2024 Object Management Group, Inc.",copyright
+RatingAssessmentEvent,AssessmentEvent,rdf-schema#subClassOf
+N57a274e69a24436b8d5a1c6e14ea4996,Date,owl#onClass
+RatingAssessmentActivity,AssessmentActivity,rdf-schema#subClassOf
+N80e2a14058424486a3da7d520f6ec001,1,owl#qualifiedCardinality
+rates,owl#ObjectProperty,22-rdf-syntax-ns#type
+RatingParty,rating party,rdf-schema#label
+N220fc7bebac04c0580b364d97e381374,FormalOrganization,owl#someValuesFrom
+N1ade68281d7642cc9fce20a7797f2838,owl#Restriction,22-rdf-syntax-ns#type
+hasWorstMeasure,RatingScale,rdf-schema#domain
+usesRatingParty,uses rating performer,rdf-schema#label
+N1ade68281d7642cc9fce20a7797f2838,RatingParty,owl#onClass
+hasRating,isClassifiedBy,rdf-schema#subPropertyOf
+RatingAssessmentActivity,rating assessment activity,rdf-schema#label
+N714c80c9f42142dba8ad0431aabb882a,hasMeasureWithinScale,owl#onProperty
+N89d273e24adf494fb1c6ac5c508e2347,1,owl#qualifiedCardinality
+RatingParty,owl#Class,22-rdf-syntax-ns#type
+Rating,N2b665ca0d1ee44328f9a3a4b66ba5c89,rdf-schema#subClassOf
+Rating,N1ade68281d7642cc9fce20a7797f2838,rdf-schema#subClassOf
+hasRating,indicates the rating assigned to a thing based on a grade or score according to a particular rating scale,core#definition
+N57a274e69a24436b8d5a1c6e14ea4996,owl#Restriction,22-rdf-syntax-ns#type
+RatingReport,rating report,rdf-schema#label
+RatingAssessmentActivity,assessment activity resulting in a grade or score and potentially a report describing the score and the process used to determine that score,core#definition
+hasWorstMeasure,owl#DatatypeProperty,22-rdf-syntax-ns#type
+RatingScalePublisher,party responsible for managing one or more rating schemes and potentially publishing ratings based on those schemes,core#definition
+Neb01e42099774b619e0cdc826c448e07,XMLSchema#string,owl#onDataRange
+N34b7034478144a21b43ab4817afb74ad,isDefinedIn,owl#onProperty
+,Ratings.rdf version of this ontology was revised to replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+hasRatingScore,has rating score,rdf-schema#label
+RatingIssuer,rating issuer,rdf-schema#label
+RatingScore,Nef59100c153b47cda4fe1e9c4f9fbe1a,rdf-schema#subClassOf
+N94e2a1c070ad4eb49dc753a7767dfe4e,RatingScore,owl#someValuesFrom
+hasRating,has rating,rdf-schema#label
+N220fc7bebac04c0580b364d97e381374,isPlayedBy,owl#onProperty
+N299a220d8a554d9387cdf9a66d934bfa,rates,owl#onProperty
+usesRatingParty,RatingParty,rdf-schema#range
+QuantitativeRatingScore,quantitative rating score,rdf-schema#label
+RatingScale,N9a67085f49254e4ca7d9b3471feadc3f,rdf-schema#subClassOf
+N1ade68281d7642cc9fce20a7797f2838,isGeneratedBy,owl#onProperty
+Nad01d414d8cd4b7987fc721b9bdfd363,owl#Restriction,22-rdf-syntax-ns#type
+RatingReport,owl#Class,22-rdf-syntax-ns#type
+N9a67085f49254e4ca7d9b3471feadc3f,owl#Restriction,22-rdf-syntax-ns#type
+RatingAssessmentEvent,Nfd0dbd48597c4838b39d920fc27accb4,rdf-schema#subClassOf
+RatingIssuer,owl#Class,22-rdf-syntax-ns#type
+hasWorstMeasure,Note that hasBestMeasure and hasWorstMeasure may be used together to determine the direction and range of a scale's measure values.,explanatoryNote
+hasRatingScore,indicates the grade or score associated with a rating with respect to a particular rating scale,core#definition
+Nc93d21af57bd4d31b5b5e983154e1a1b,manages,owl#onProperty
+N04be401f9fd044c98ec8128fb0f7ad35,1,owl#maxQualifiedCardinality
+hasBestMeasure,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N2b665ca0d1ee44328f9a3a4b66ba5c89,Date,owl#onClass
+QualitativeRatingScore,"Ratings for the creditworthiness of securities are often qualitative, rather than quantitative, such as a triple-A (i.e., AAA). Many ratings for products and businesses on the Internet are also qualitative, such as 5-star ratings for something.",explanatoryNote
+Ndc3197734c764c499fefae843b4c214c,generates,owl#onProperty
+Ndc3197734c764c499fefae843b4c214c,owl#Restriction,22-rdf-syntax-ns#type
+N6af844baac8b473a9c79960e0c92a109,RatingScalePublisher,owl#onClass
+hasWorstMeasure,has worst measure,rdf-schema#label
+hasWorstMeasure,XMLSchema#decimal,rdf-schema#range
+RatingAssessmentActivity,Neabbc0144fb541859f069a366f618329,rdf-schema#subClassOf
+RatingScalePublisher,PartyRole,rdf-schema#subClassOf
+N040add8e6e0548ee9d759701a0b7af6b,1,owl#maxQualifiedCardinality
+N299a220d8a554d9387cdf9a66d934bfa,owl#Restriction,22-rdf-syntax-ns#type
+Nda8362178bfb4887b32eb0974c87323d,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#imports
+N04be401f9fd044c98ec8128fb0f7ad35,owl#Restriction,22-rdf-syntax-ns#type
+N04be401f9fd044c98ec8128fb0f7ad35,XMLSchema#decimal,owl#onDataRange
+N94e2a1c070ad4eb49dc753a7767dfe4e,hasRatingScore,owl#onProperty
+N89d273e24adf494fb1c6ac5c508e2347,RatingAssessmentActivity,owl#onClass
+QualitativeRatingScore,RatingScore,rdf-schema#subClassOf
+,Ratings.rdf version of this ontology was revised to eliminate duplication with LCC.,core#changeNote
+RatingReport,Nf8d36ff96eec440c89f2e9b27b92a7fd,rdf-schema#subClassOf
+producesRatingsFor,issuer for which ratings are produced or posted through,core#definition
+N57a274e69a24436b8d5a1c6e14ea4996,hasDateOfIssuance,owl#onProperty
+QualitativeRatingScore,owl#Class,22-rdf-syntax-ns#type
+RatingScore,N34b7034478144a21b43ab4817afb74ad,rdf-schema#subClassOf
+N714c80c9f42142dba8ad0431aabb882a,owl#Restriction,22-rdf-syntax-ns#type
+hasRating,owl#ObjectProperty,22-rdf-syntax-ns#type
+N04be401f9fd044c98ec8128fb0f7ad35,hasWorstMeasure,owl#onProperty
+N57a274e69a24436b8d5a1c6e14ea4996,1,owl#qualifiedCardinality
+hasRatingScore,RatingScore,rdf-schema#range
+Nef59100c153b47cda4fe1e9c4f9fbe1a,1,owl#maxQualifiedCardinality
+Neabbc0144fb541859f069a366f618329,isProvidedBy,owl#onProperty
+hasBestMeasure,XMLSchema#decimal,rdf-schema#range
+hasMeasureWithinScale,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Nfd0dbd48597c4838b39d920fc27accb4,owl#Restriction,22-rdf-syntax-ns#type
+RatingIssuer,"A rating issuer is frequently, but not always the rating scale publisher. A rating issuer may delegate responsibility for producing a rating to a rating party.",explanatoryNote
+N040add8e6e0548ee9d759701a0b7af6b,XMLSchema#decimal,owl#onDataRange
+hasMeasureWithinScale,"indicates a relative, numeric measure or ordering on a rating scale",core#definition
+,,owl#versionIRI
+RatingScore,"grade, classification, or ranking of for something in accordance with some rating scale",core#definition
+Nf8d36ff96eec440c89f2e9b27b92a7fd,owl#Restriction,22-rdf-syntax-ns#type
+hasRatingScore,isClassifiedBy,rdf-schema#subPropertyOf
+Rating,"standing of something at a particular time, indicated by at least one scores with respect to some scale, based on an assessment by some party",core#definition
+RatingScalePublisher,Rating scale publishers are frequently also rating agencies.,explanatoryNote
+,owl#Ontology,22-rdf-syntax-ns#type
+RatingScore,"The meaning and methodology for determining a rating score for the rating of something is determined by a rating issuer. A given rating may apply at some point in time, as a part of a lifecycle or process, or generally. Typically ratings reflect an assessment of a state of affairs at some point in time.",explanatoryNote
+producesRatingsFor,usesRatingParty,owl#inverseOf
+rates,Rating,rdf-schema#domain
+N040add8e6e0548ee9d759701a0b7af6b,hasBestMeasure,owl#onProperty
+Ndc3197734c764c499fefae843b4c214c,Rating,owl#someValuesFrom
+Neabbc0144fb541859f069a366f618329,RatingParty,owl#someValuesFrom
+hasRating,Rating,rdf-schema#range
+Nef59100c153b47cda4fe1e9c4f9fbe1a,XMLSchema#decimal,owl#onDataRange
+RatingScale,N6af844baac8b473a9c79960e0c92a109,rdf-schema#subClassOf
+N9a67085f49254e4ca7d9b3471feadc3f,defines,owl#onProperty
+hasBestMeasure,has best measure,rdf-schema#label
+QualitativeRatingScore,rating score that is represented as a qualitative code with respect to some rating scale,core#definition
+RatingScore,Classifier,rdf-schema#subClassOf
+N6af844baac8b473a9c79960e0c92a109,owl#Restriction,22-rdf-syntax-ns#type
+usesRatingParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+N34b7034478144a21b43ab4817afb74ad,owl#Restriction,22-rdf-syntax-ns#type
+rates,"indicates the instrument, party or something else to which a rating applies",core#definition
+hasMeasureWithinScale,XMLSchema#decimal,rdf-schema#range
+Nfd0dbd48597c4838b39d920fc27accb4,RatingParty,owl#someValuesFrom
+RatingScale,ClassificationScheme,rdf-schema#subClassOf
+RatingAgency,owl#Class,22-rdf-syntax-ns#type
+RatingIssuer,Nad01d414d8cd4b7987fc721b9bdfd363,rdf-schema#subClassOf
+QuantitativeRatingScore,RatingScore,rdf-schema#subClassOf
+RatingReport,report describing a set of ratings,core#definition
+N714c80c9f42142dba8ad0431aabb882a,1,owl#qualifiedCardinality
+RatingAgency,rating agency,rdf-schema#label
+QuantitativeRatingScore,owl#Class,22-rdf-syntax-ns#type
+RatingScore,owl#Class,22-rdf-syntax-ns#type
+Rating,N299a220d8a554d9387cdf9a66d934bfa,rdf-schema#subClassOf
+RatingScale,rating scale,rdf-schema#label
+N714c80c9f42142dba8ad0431aabb882a,XMLSchema#decimal,owl#onDataRange
+hasWorstMeasure,indicates the 'worst' (least desirable) possible value for a rating score's hasMeasureWithinScale property,core#definition
+RatingReport,AssessmentReport,rdf-schema#subClassOf
+N1ade68281d7642cc9fce20a7797f2838,1,owl#qualifiedCardinality
+N34b7034478144a21b43ab4817afb74ad,RatingScale,owl#onClass
+hasBestMeasure,Note that hasBestMeasure and hasWorstMeasure may be used together to determine the direction and range of a scale's measure values.,explanatoryNote
+Rating,N57a274e69a24436b8d5a1c6e14ea4996,rdf-schema#subClassOf
+RatingAgency,RatingScalePublisher,rdf-schema#subClassOf
+RatingAssessmentActivity,owl#Class,22-rdf-syntax-ns#type
+hasRatingScore,owl#ObjectProperty,22-rdf-syntax-ns#type
+Neb01e42099774b619e0cdc826c448e07,owl#Restriction,22-rdf-syntax-ns#type
+RatingScalePublisher,Nc93d21af57bd4d31b5b5e983154e1a1b,rdf-schema#subClassOf
+N2b665ca0d1ee44328f9a3a4b66ba5c89,1,owl#maxQualifiedCardinality
+N23108ec26ca547feae6f3468852472d3,0,owl#minQualifiedCardinality
+N23108ec26ca547feae6f3468852472d3,owl#Restriction,22-rdf-syntax-ns#type
+RatingIssuer,party that is responsible for issuing ratings,core#definition
+N040add8e6e0548ee9d759701a0b7af6b,owl#Restriction,22-rdf-syntax-ns#type
+Nad01d414d8cd4b7987fc721b9bdfd363,Rating,owl#someValuesFrom
+RatingScore,rating score,rdf-schema#label
+,Ratings Ontology,rdf-schema#label
+RatingAgency,N220fc7bebac04c0580b364d97e381374,rdf-schema#subClassOf
+QualitativeRatingScore,CodeElement,rdf-schema#subClassOf
+RatingAssessmentEvent,owl#Class,22-rdf-syntax-ns#type
+hasRating,rates,owl#inverseOf
+rates,rates,rdf-schema#label
+N80e2a14058424486a3da7d520f6ec001,RatingIssuer,owl#onClass
+N89d273e24adf494fb1c6ac5c508e2347,owl#Restriction,22-rdf-syntax-ns#type
+RatingParty,PartyRole,rdf-schema#subClassOf
+,Ratings.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+QualitativeRatingScore,Neb01e42099774b619e0cdc826c448e07,rdf-schema#subClassOf
+producesRatingsFor,produces ratings for,rdf-schema#label
+RatingIssuer,PartyRole,rdf-schema#subClassOf
+Nfd0dbd48597c4838b39d920fc27accb4,isProvidedBy,owl#onProperty
+hasRatingScore,Rating,rdf-schema#domain
+RatingAssessmentEvent,individual assessment resulting in a grade or score and potentially a report describing the score,core#definition
+QualitativeRatingScore,qualitative rating score,rdf-schema#label
+Nf8d36ff96eec440c89f2e9b27b92a7fd,reportsOn,owl#onProperty
+Nc93d21af57bd4d31b5b5e983154e1a1b,RatingScale,owl#someValuesFrom
+hasMeasureWithinScale,has measure within scale,rdf-schema#label
+RatingAssessmentEvent,Nda8362178bfb4887b32eb0974c87323d,rdf-schema#subClassOf
+Rating,Opinion,rdf-schema#subClassOf
+RatingScale,N040add8e6e0548ee9d759701a0b7af6b,rdf-schema#subClassOf
+RatingScalePublisher,owl#Class,22-rdf-syntax-ns#type
+RatingScale,"system for assigning a value to something according to some scale with respect to quality, a standard, or ranking",core#definition
+N80e2a14058424486a3da7d520f6ec001,isIssuedBy,owl#onProperty
+RatingParty,Ndc3197734c764c499fefae843b4c214c,rdf-schema#subClassOf
+RatingAgency,RatingIssuer,rdf-schema#subClassOf
+N2b665ca0d1ee44328f9a3a4b66ba5c89,hasEffectiveDate,owl#onProperty
+Nda8362178bfb4887b32eb0974c87323d,Rating,owl#someValuesFrom
+Neb01e42099774b619e0cdc826c448e07,1,owl#qualifiedCardinality
+N23108ec26ca547feae6f3468852472d3,RatingReport,owl#onClass
+N94e2a1c070ad4eb49dc753a7767dfe4e,owl#Restriction,22-rdf-syntax-ns#type
+Neabbc0144fb541859f069a366f618329,owl#Restriction,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+producesRatingsFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+N220fc7bebac04c0580b364d97e381374,owl#Restriction,22-rdf-syntax-ns#type
+RatingAssessmentEvent,rating assessment event,rdf-schema#label
+Nf8d36ff96eec440c89f2e9b27b92a7fd,Rating,owl#someValuesFrom
+,MIT,license
+RatingAssessmentEvent,N23108ec26ca547feae6f3468852472d3,rdf-schema#subClassOf
+,Ratings.rdf version of this ontology was revised to address hygiene issues with respect to text formatting.,core#changeNote
+RatingAgency,"rating issuer that is also a rating scale publisher, frequently but not always an independent rating service",core#definition
+producesRatingsFor,RatingIssuer,rdf-schema#range
+Nda8362178bfb4887b32eb0974c87323d,hasOutput,owl#onProperty
+N89d273e24adf494fb1c6ac5c508e2347,exemplifies,owl#onProperty
+Neb01e42099774b619e0cdc826c448e07,hasTag,owl#onProperty
+Nad01d414d8cd4b7987fc721b9bdfd363,issues,owl#onProperty
+usesRatingParty,isProducedBy,rdf-schema#subPropertyOf
+N80e2a14058424486a3da7d520f6ec001,owl#Restriction,22-rdf-syntax-ns#type
+Rating,owl#Class,22-rdf-syntax-ns#type
+,Ratings.rdf version of this ontology was revised to add properties indicating the 'best' and 'worst' scores on a given scale.,core#changeNote
+,"Ratings.rdf version of this ontology was revised to replace uses of hasTag in Relations with hasTag from LCC, as the more complex union of datatypes in the Relations concept is not needed here.",core#changeNote
+,"Copyright (c) 2019-2024 EDM Council, Inc.",copyright
+usesRatingParty,rating performer an issuer uses to assess ratings,core#definition
+N23108ec26ca547feae6f3468852472d3,hasOutput,owl#onProperty
+Rating,rating,rdf-schema#label
+hasBestMeasure,RatingScale,rdf-schema#domain
+RatingParty,"person, organization or group that analyzes some aspect of something and develops a rating",core#definition
+rates,classifies,rdf-schema#subPropertyOf
+RatingAssessmentEvent,N89d273e24adf494fb1c6ac5c508e2347,rdf-schema#subClassOf
+Rating,N80e2a14058424486a3da7d520f6ec001,rdf-schema#subClassOf
+N6af844baac8b473a9c79960e0c92a109,1,owl#qualifiedCardinality
+N34b7034478144a21b43ab4817afb74ad,1,owl#qualifiedCardinality
+producesRatingsFor,produces,rdf-schema#subPropertyOf
+hasBestMeasure,indicates the 'best' (most desirable) possible value for a rating score's hasMeasureWithinScale property,core#definition
+,Ratings.rdf version of this ontology was revised to eliminate circular definitions.,core#changeNote
+N2b665ca0d1ee44328f9a3a4b66ba5c89,owl#Restriction,22-rdf-syntax-ns#type
+,Ratings.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N6af844baac8b473a9c79960e0c92a109,isManagedBy,owl#onProperty
+,Ratings.rdf version of the ontology was modified to replace an additional property with its equivalent in the Commons Ontology Library (Commons) v1.1 (FBC-322).,core#changeNote
+Rating,N94e2a1c070ad4eb49dc753a7767dfe4e,rdf-schema#subClassOf
+QuantitativeRatingScore,N714c80c9f42142dba8ad0431aabb882a,rdf-schema#subClassOf
+RatingScalePublisher,rating scale publisher,rdf-schema#label
+hasMeasureWithinScale,RatingScore,rdf-schema#domain
+Nef59100c153b47cda4fe1e9c4f9fbe1a,owl#Restriction,22-rdf-syntax-ns#type
+,"This ontology defines abstract concepts for representation of ratings and rating schemes, particularly for ratings describing aspects of business performance, credit worthiness, and investment quality at a high level.",abstract
+Nef59100c153b47cda4fe1e9c4f9fbe1a,hasMeasureWithinScale,owl#onProperty
+RatingScale,owl#Class,22-rdf-syntax-ns#type
+Nc93d21af57bd4d31b5b5e983154e1a1b,owl#Restriction,22-rdf-syntax-ns#type
+RatingScale,N04be401f9fd044c98ec8128fb0f7ad35,rdf-schema#subClassOf
+usesRatingParty,RatingIssuer,rdf-schema#domain
+,"Ratings.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+N299a220d8a554d9387cdf9a66d934bfa,1,owl#cardinality

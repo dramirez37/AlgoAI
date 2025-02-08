@@ -1,0 +1,143 @@
+source_id,target_id,relationship
+SettlementEvent,ContractLifecycleEventOccurrence,rdf-schema#subClassOf
+N3ffc6f2ed2ba46e1a302af1ffd37e6b5,MonetaryAmount,owl#someValuesFrom
+N2b4cd8b5b0b84ba1b107f60a81905731,hasPrice,owl#onProperty
+hasDeliveryMethod,hasStrategy,rdf-schema#subPropertyOf
+isFractionalEligible,owl#DatatypeProperty,22-rdf-syntax-ns#type
+NonDeliverableMethod,non-deliverable method,rdf-schema#label
+,Settlement Ontology,rdf-schema#label
+DeliveryInCash,DeliveryMethod,22-rdf-syntax-ns#type
+hasDeliveryMethod,SettlementTerms,rdf-schema#domain
+Nc8aa1062d82d45768b4f8bf30cb2e5d3,owl#Restriction,22-rdf-syntax-ns#type
+isFullyAutomatedSecuritiesTransferApplicable,SettlementTerms,rdf-schema#domain
+N3ffc6f2ed2ba46e1a302af1ffd37e6b5,hasSettlementAmount,owl#onProperty
+,"Copyright (c) 2018-2024 Object Management Group, Inc.",copyright
+Nc8aa1062d82d45768b4f8bf30cb2e5d3,XMLSchema#positiveInteger,owl#someValuesFrom
+SettlementEvent,settlement event,rdf-schema#label
+hasSettlementAmount,indicates the monetary amount required for cash settlement,core#definition
+DeliveryMethod,DistributionStrategy,rdf-schema#subClassOf
+Settlement,ContractLifecycleEvent,rdf-schema#subClassOf
+NonDeliverableMethod,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+,Settlement.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+SettlementEvent,"or legally recording documents, as applicable",core#definition
+isFullyAutomatedSecuritiesTransferApplicable,indicates whether the security is to be held at the transfer agent as part of the FAST (Fully Automated Securities Transfer) program,core#definition
+DeliveryMethod,ContractualCommitment,22-rdf-syntax-ns#type
+PhysicalSettlementTerms,physical settlement terms,rdf-schema#label
+hasPreferredSettlementCurrency,SettlementTerms,rdf-schema#domain
+SettlementTerms,N66dab79b037c4f75b0e8c8067d6d3597,rdf-schema#subClassOf
+SettlementEvent,N2b4cd8b5b0b84ba1b107f60a81905731,rdf-schema#subClassOf
+hasPreferredSettlementCurrency,has preferred settlement currency,rdf-schema#label
+Settlement,"or legally recording documents, as applicable",core#definition
+Nc7de08f5629e405f827093c5552198e1,involves,owl#onProperty
+,Settlement.rdf version of this ontology was revised to better integrate settlement with the overall lifecycle of a contract (FBC-317),core#changeNote
+Nba5b6d87d3c04df98c6705c64b05b635,PhysicalDeliveryMethod,owl#hasValue
+Nc8aa1062d82d45768b4f8bf30cb2e5d3,hasNumericValue,owl#onProperty
+isFractionalEligible,XMLSchema#boolean,rdf-schema#range
+isFullyAutomatedSecuritiesTransferApplicable,is FAST applicable,abbreviation
+N2b4cd8b5b0b84ba1b107f60a81905731,0,owl#minQualifiedCardinality
+SettlementEvent,Nff0d860d8ac9423fbb028fddafd62465,rdf-schema#subClassOf
+PhysicalDeliveryMethod,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+Nba5b6d87d3c04df98c6705c64b05b635,owl#Restriction,22-rdf-syntax-ns#type
+SettlementConvention,Nc8aa1062d82d45768b4f8bf30cb2e5d3,rdf-schema#subClassOf
+,,owl#imports
+SettlementConvention,"convention employed to determine the closing date (from the stated settlement date) in the process of settling a transaction on which securities or interests in securities are delivered, usually against (in simultaneous exchange for) payment of some consideration",core#definition
+SettlementConvention,Convention,rdf-schema#subClassOf
+Nff0d860d8ac9423fbb028fddafd62465,exemplifies,owl#onProperty
+N2b4cd8b5b0b84ba1b107f60a81905731,SecurityPrice,owl#onClass
+SettlementConvention,owl#Class,22-rdf-syntax-ns#type
+NonDeliverableMethod,DeliveryMethod,22-rdf-syntax-ns#type
+hasPreferredSettlementCurrency,Currency,rdf-schema#range
+hasPreferredSettlementCurrency,This property should only be used in cases where the settlement currency is distinct from the currency in which the instrument is denominated.,explanatoryNote
+isFullyAutomatedSecuritiesTransferApplicable,XMLSchema#boolean,rdf-schema#range
+Nba5b6d87d3c04df98c6705c64b05b635,hasDeliveryMethod,owl#onProperty
+,Settlement.rdf version of this ontology was revised to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+hasSettlementAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+Nff0d860d8ac9423fbb028fddafd62465,owl#Restriction,22-rdf-syntax-ns#type
+CashSettlementTerms,"Note that the security price represents a price per share or per lot, whereas the settlement amount represents a total.",explanatoryNote
+,,owl#versionIRI
+SettlementConvention,settlement convention,rdf-schema#label
+N66dab79b037c4f75b0e8c8067d6d3597,SettlementConvention,owl#someValuesFrom
+N95f2823f6f204e3299ee12950c753d82,SecurityPrice,owl#onClass
+DeliveryMethod,delivery method,rdf-schema#label
+SettlementEvent,Nc7de08f5629e405f827093c5552198e1,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+ElectAtExerciseMethod,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+isFullyAutomatedSecuritiesTransferApplicable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N5adba39644594b3ba7d6f836a551d6ac,Settlement,owl#someValuesFrom
+NonDeliverableMethod,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasSettlementAmount,has settlement amount,rdf-schema#label
+isFullyAutomatedSecuritiesTransferApplicable,The Fast Automated Securities Transfer Program (FAST) is a contract between DTC (and its subsidiaries) and transfer agents whereby FAST agents act as custodians for DTC.,explanatoryNote
+CashSettlementTerms,N95f2823f6f204e3299ee12950c753d82,rdf-schema#subClassOf
+,"Copyright (c) 2018-2024 EDM Council, Inc.",copyright
+N0f6acd66da214b9ca764ab43dd6b2784,owl#Restriction,22-rdf-syntax-ns#type
+DeliveryInCash,commitment to deliver an amount of money at the earliest available date as per settlement convention,core#definition
+hasDeliveryMethod,specifies the strategy for settlement from a delivery perspective,core#definition
+PhysicalDeliveryMethod,"commitment to settle an obligation through the receipt or delivery of the actual underlying instrument(s) or other asset, such as a commodity, instead of through cash settlement",core#definition
+PhysicalSettlementTerms,Nba5b6d87d3c04df98c6705c64b05b635,rdf-schema#subClassOf
+PhysicalDeliveryMethod,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasDeliveryMethod,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"This ontology defines high-level concepts for settlement that are applicable across FIBO domain areas, such as for loans, securities, and derivatives.",abstract
+ElectAtExerciseMethod,DeliveryMethod,22-rdf-syntax-ns#type
+CashSettlementTerms,SettlementTerms,rdf-schema#subClassOf
+hasSettlementAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+N0f6acd66da214b9ca764ab43dd6b2784,hasDeliveryMethod,owl#onProperty
+N2b4cd8b5b0b84ba1b107f60a81905731,owl#Restriction,22-rdf-syntax-ns#type
+PhysicalSettlementTerms,"If you sell a gold futures contract of say 100 troy ounces then you have to deliver real gold to the buyer on the mutually agreed date. Most derivatives are not actually exercised, but are traded out before their delivery date. However, physical delivery still occurs with some trades: it is most common with commodities, but can also occur with other financial instruments.",explanatoryNote
+SettlementTerms,owl#Class,22-rdf-syntax-ns#type
+DeliveryMethod,owl#Class,22-rdf-syntax-ns#type
+ElectAtExerciseMethod,owl#NamedIndividual,22-rdf-syntax-ns#type
+DeliveryMethod,"method and commitment to transfer a commodity, currency, security, cash or another instrument as defined in the settlement terms of the contract",core#definition
+N95f2823f6f204e3299ee12950c753d82,0,owl#minQualifiedCardinality
+N5c2e9337beca4e9bbc838f161f886248,hasDeliveryMethod,owl#onProperty
+N95f2823f6f204e3299ee12950c753d82,owl#Restriction,22-rdf-syntax-ns#type
+Nff0d860d8ac9423fbb028fddafd62465,Settlement,owl#onClass
+N0f6acd66da214b9ca764ab43dd6b2784,DeliveryInCash,owl#hasValue
+hasPreferredSettlementCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+isFullyAutomatedSecuritiesTransferApplicable,is fully automated securities transfer applicable,rdf-schema#label
+CashSettlementTerms,cash settlement terms,rdf-schema#label
+hasDeliveryMethod,DeliveryMethod,rdf-schema#range
+hasPreferredSettlementCurrency,hasCurrency,rdf-schema#subPropertyOf
+hasSettlementAmount,SettlementTerms,rdf-schema#domain
+PhysicalSettlementTerms,SettlementTerms,rdf-schema#subClassOf
+Nc7de08f5629e405f827093c5552198e1,0,owl#minQualifiedCardinality
+,"Settlement.rdf version of this ontology was revised to integrate the notion of a value assessment with a settlement event and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+PhysicalDeliveryMethod,DeliveryMethod,22-rdf-syntax-ns#type
+N66dab79b037c4f75b0e8c8067d6d3597,specifies,owl#onProperty
+DeliveryInCash,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+PhysicalSettlementTerms,"commitment to deliver the actual underlying asset on the specified delivery date, rather than cash",core#definition
+Nc7de08f5629e405f827093c5552198e1,owl#Restriction,22-rdf-syntax-ns#type
+N5adba39644594b3ba7d6f836a551d6ac,appliesTo,owl#onProperty
+SettlementConvention,This is often stated in the form 'T+n' where n is the number of business days from the specified settlement date (T).,explanatoryNote
+ElectAtExerciseMethod,elect at exercise method,rdf-schema#label
+N66dab79b037c4f75b0e8c8067d6d3597,owl#Restriction,22-rdf-syntax-ns#type
+Settlement,owl#Class,22-rdf-syntax-ns#type
+Nc7de08f5629e405f827093c5552198e1,ValueAssessment,owl#onClass
+Settlement,settlement,rdf-schema#label
+ElectAtExerciseMethod,commitment to determine the delivery strategy at the time of exercise,core#definition
+isFractionalEligible,amounts,core#definition
+N5c2e9337beca4e9bbc838f161f886248,owl#Restriction,22-rdf-syntax-ns#type
+PhysicalDeliveryMethod,physical delivery method,rdf-schema#label
+SettlementTerms,N5c2e9337beca4e9bbc838f161f886248,rdf-schema#subClassOf
+N5adba39644594b3ba7d6f836a551d6ac,owl#Restriction,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+CashSettlementTerms,contractual commitment to settle in cash,core#definition
+,MIT,license
+Nff0d860d8ac9423fbb028fddafd62465,1,owl#qualifiedCardinality
+SettlementTerms,N5adba39644594b3ba7d6f836a551d6ac,rdf-schema#subClassOf
+PhysicalSettlementTerms,owl#Class,22-rdf-syntax-ns#type
+N3ffc6f2ed2ba46e1a302af1ffd37e6b5,owl#Restriction,22-rdf-syntax-ns#type
+CashSettlementTerms,N3ffc6f2ed2ba46e1a302af1ffd37e6b5,rdf-schema#subClassOf
+DeliveryInCash,delivery in cash,rdf-schema#label
+hasPreferredSettlementCurrency,indicates the preferred currency for settlement purposes,core#definition
+CashSettlementTerms,N0f6acd66da214b9ca764ab43dd6b2784,rdf-schema#subClassOf
+N95f2823f6f204e3299ee12950c753d82,hasPrice,owl#onProperty
+hasSettlementAmount,MonetaryAmount,rdf-schema#range
+PhysicalSettlementTerms,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+DeliveryInCash,owl#NamedIndividual,22-rdf-syntax-ns#type
+isFractionalEligible,SettlementTerms,rdf-schema#domain
+isFractionalEligible,is fractional eligible,rdf-schema#label
+hasDeliveryMethod,has settlement method,rdf-schema#label
+NonDeliverableMethod,commitment with respect to synthetic options on foreign exchange forwards that are based on non-convertible or thinly traded currencies,core#definition
+SettlementEvent,owl#Class,22-rdf-syntax-ns#type
+CashSettlementTerms,owl#Class,22-rdf-syntax-ns#type
+N5c2e9337beca4e9bbc838f161f886248,DeliveryMethod,owl#someValuesFrom

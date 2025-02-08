@@ -1,0 +1,19 @@
+source_id,target_id,relationship
+ProspectusPart,A part or section of a prospectus for a securities issue.,core#definition
+includesDetailsAbout,owl#ObjectProperty,22-rdf-syntax-ns#type
+ProspectusPart,"This may for example be a termsheet, information about tranche breakdown and so on. These are defined as separate information entities in as far as each of these has some specific individual relationship to some other information deliverable, such as a draft of each part which is defined in separate process activities but becomes part of the whole prospectus. Term origin:MBS PoC Reviews",explanatoryNote
+includesDetailsAbout,includes details about,rdf-schema#label
+ProspectusPart,ContractualElement,rdf-schema#subClassOf
+ProspectusPart,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+MBSSecuritizationProcess,m b s securitization process,rdf-schema#label
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+,MBSIssuance,rdf-schema#label
+,,owl#versionIRI
+,Provisional,hasMaturityLevel
+MBSSecuritizationProcess,PoolBackedSecuritySecuritizationProcess,rdf-schema#subClassOf
+,Ontology of the overall process of issuing mortgage backed securities. These are the process elements that are common to different kinds of MBS issuance (agency and private label).,abstract
+,MIT,license
+ProspectusPart,prospectus part,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+MBSSecuritizationProcess,owl#Class,22-rdf-syntax-ns#type

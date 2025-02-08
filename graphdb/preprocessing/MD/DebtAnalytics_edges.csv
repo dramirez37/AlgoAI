@@ -1,0 +1,575 @@
+source_id,target_id,relationship
+Nc30eeeed18aa4d71b2af684a839e2de1,hasOutlookPeriod,owl#onProperty
+N99b4a1ad9db146cdbdf2f892f4ca7276,N0ead89cec39b462aa36b77497371b76e,22-rdf-syntax-ns#first
+N64587a4a85b14a9695d45aa632f0a4cd,RedemptionEvent,22-rdf-syntax-ns#first
+DurationAnalytic,duration analytic,rdf-schema#label
+N01be09204480419185f2d9b27a7ad7be,N3d99345535084bbdba9cfa48541f62ed,22-rdf-syntax-ns#rest
+YieldToNextPut,yield to next put,rdf-schema#label
+N426cac6f0f5c4e36bd365df0f7913af3,owl#Restriction,22-rdf-syntax-ns#type
+Na3715066d470495c96a7639c0910aff4,hasFormula,owl#onProperty
+DebtSecuritiesMarketMaker,ServiceProvider,rdf-schema#subClassOf
+RussianYieldCalculationMethod,N4aece698eac4460581b57d956d3e372f,rdf-schema#subClassOf
+NextCallDate,Date,rdf-schema#subClassOf
+DebtYieldToMaturity,debt yield to maturity,rdf-schema#label
+DebtPool,N65088075c3364e1cb7caac254a0c2191,rdf-schema#subClassOf
+PriceValueOfBasisPoint,owl#Class,22-rdf-syntax-ns#type
+N3317e18b5731476a963740a8243d3043,owl#Restriction,22-rdf-syntax-ns#type
+N05c605cc83b946adb51d5534ed5ae24d,owl#Restriction,22-rdf-syntax-ns#type
+ModifiedDurationAnalytic,owl#Class,22-rdf-syntax-ns#type
+YieldCalculationFormula,Ne7facb328b714c0599eabcaab3106fc8,rdf-schema#subClassOf
+LoanPrepaymentFormula,Formula,rdf-schema#subClassOf
+N32daece6be2343828cd478bd2da790cc,hasArgument,owl#onProperty
+FFIECUp300PrepaySpeed,PrepaymentSpeed,rdf-schema#subClassOf
+USCorporateBondYieldCalculationMethod,Na3715066d470495c96a7639c0910aff4,rdf-schema#subClassOf
+MortgageBackedSecurity,owl#Class,22-rdf-syntax-ns#type
+Nf593d41289b34e98a6c019e3894f14b0,isBasedOn,owl#onProperty
+PrepaymentSpeed,N67ea187460be48bebfe0a83fd1f534aa,rdf-schema#subClassOf
+WallStreetYieldCalculationMethod,No definition.Term put here from memory.,core#definition
+FFIECDown300PrepaySpeed,owl#Class,22-rdf-syntax-ns#type
+decimalPlaces,PoolFactor,rdf-schema#domain
+ImpliedForwardRate,InterestRate,rdf-schema#subClassOf
+hasAnalytic,DebtPool,rdf-schema#domain
+RelativeYieldCalculationMethod,relative yield calculation method,rdf-schema#label
+WallStreetYieldCalculationMethod,N85fcc28a19e644f5863a8735f0763c34,rdf-schema#subClassOf
+OptionAdjustedYield,owl#Class,22-rdf-syntax-ns#type
+SimpleYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+USCorporateBondYieldCalculationMethod,360 and semi-annual compounding.,core#definition
+Nf190ba7db74a41a884d583a45e0dc21a,owl#Restriction,22-rdf-syntax-ns#type
+N01be09204480419185f2d9b27a7ad7be,LifeAnalytic,22-rdf-syntax-ns#first
+N24527ab8bb5242f3a3ad4af65dac85a3,refersTo,owl#onProperty
+WeightedAverageTimeToReceiptOfCashflows,Formula,rdf-schema#subClassOf
+SpanishYieldCalculationMethod,spanish yield calculation method,rdf-schema#label
+NextCallDate,next call date,rdf-schema#label
+N4aece698eac4460581b57d956d3e372f,RussianYieldFormula,owl#someValuesFrom
+N326f73163a7c4c8eb6082392bc142078,DurationAnalytic,owl#someValuesFrom
+YieldCalculationMethod,Initial reviewer notes 18 Nov: this uses the combination of the day count and the compounding gives you the name of the yield calculation method. Names are associated with algorithms. What yield you use to determining the present value. These are typically defined in a prospectus (for exchange traded) or Info Memorandum if it's traded in an OTC market. where it also defines the method itself. Action: look at some prospecti or get this from a vendor. Additional features 25 nov: Question - maybe Holiday calendar? Also date roll rules and roll back rules. These all apply. YC feeds in to Yield itself.,core#editorialNote
+Nd384b94ba08e438e99f036b575102c31,NextPut,owl#someValuesFrom
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+Nbd59673c67914599aff3aeb8df92b574,PoolFactor,owl#someValuesFrom
+,,owl#versionIRI
+MaturityEquivalentPSA,maturity equivalent p s a,rdf-schema#label
+N32daece6be2343828cd478bd2da790cc,owl#Restriction,22-rdf-syntax-ns#type
+hasAnalytic,has analytic,rdf-schema#label
+DebtPriceSpread,N334fc8f7a8e84f038557666c16cb22dd,rdf-schema#subClassOf
+PriceValueOfBasisPoint,Price value of Basis Point Definition: The difference in price given 1 bp change in yield. This is like Duration but normalized to 1 basis point. Synonym DV01,explanatoryNote
+ModifiedDurationAnalytic,M)}]; where IRR is the internal rate of return and M is the number of compounding periods per year.,core#definition
+isRateOfChangeOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+DebtYieldToEquivalentLife,owl#Class,22-rdf-syntax-ns#type
+PriceValueOfBasisPoint,DebtPoolStatisticalMeasure,rdf-schema#subClassOf
+N6f5fda320bb54edab6d5ccbb8901a0d8,owl#Restriction,22-rdf-syntax-ns#type
+DebtConvexityAnalytic,debt convexity analytic,rdf-schema#label
+Ne7facb328b714c0599eabcaab3106fc8,appliesTo,owl#onProperty
+EffectiveYield,owl#Class,22-rdf-syntax-ns#type
+Na64322986fca4739bbdc7092d337b04e,hasOriginalTimeToMaturity,owl#onProperty
+LoanPrepaymentFormula,loan prepayment formula,rdf-schema#label
+DebtYieldToMaturity,owl#Class,22-rdf-syntax-ns#type
+EffectiveDuration,DurationAnalytic,rdf-schema#subClassOf
+DebtYieldToAverageLife,Nf190ba7db74a41a884d583a45e0dc21a,rdf-schema#subClassOf
+N25ebf76021db49fd94c0e1024234c60f,MacCaulaysDurationAnalytic,owl#someValuesFrom
+ImpliedForwardRate,implied forward rate,rdf-schema#label
+PartialCallsEstimationModel,partial calls estimation model,rdf-schema#label
+,"This ontology covers an extensive range of analytical measures for debt instruments and pools of debt instruments. These cover the well-known concepts of convexity, duration and life, as well as weighted average loan ages and maturities, prepayments speeds etc. for debt pools. Most of the widely referenced variants of these are included, for example modified duration. Some yield related concepts (e.g. for equivalent yield) are also included. Debt pricing and yields are intimately related, and this ontology sets out the basic concepts of debt price, including different ways in which debt and bod prices are described and calculated, as well as a range of different kinds of yield (simple yield, Wall Street Yield, Japanese Yield and so on). The pricing terms are supported by a range of trading and exchange related concepts that are used to differentiate different kinds of debt price, for example last, high and low exchange prices.",abstract
+DiscountedInstrumentYield,discounted instrument yield,rdf-schema#label
+PoolFactor,Would multiply the factor by the starting value of the pool. This determines how much it is paying down. Would take the form of a 10 digit decimal factor showing how much of the pool is outstanding. You get Factor information every month or so which includes the WAM figure (and the WALA and WAC). The rate can be derived from this. that would be the rate at which the pool is paying down. These all come from the issuer.,explanatoryNote
+NativeYield,RelativelyDefinedDebtInstrumentYield,rdf-schema#subClassOf
+USCorporateBondYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+PoolFactor,pool factor,rdf-schema#label
+hasOutlookPeriod,has outlook period,rdf-schema#label
+modifiedDurationValue,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ncd3600f28d2a40d6a3950e4f27767dab,hasAnalytic,owl#onProperty
+hasWac,owl#ObjectProperty,22-rdf-syntax-ns#type
+N334fc8f7a8e84f038557666c16cb22dd,SecurityPrice,owl#someValuesFrom
+hasYield,owl#ObjectProperty,22-rdf-syntax-ns#type
+DebtInstrumentYield,N6f669ebb4826401ab7a0ea201baf19f5,rdf-schema#subClassOf
+JapaneseSimpleYieldCalculationMethod,"No definition.Term put here from memory. 02 Dec changed from Japanese Yield to Japanese Simple Yield. note hat Japanese Compound yield also here (from FIBIM or anothe rlist, added 25 nov with the rest).",core#definition
+CurrentYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+WeightedAverageLifeAtIssue,The Average Life analytic at the time the security was issued.,core#definition
+hasWac,WeightedAverageCoupon,rdf-schema#range
+Nba91c278ccbb4bdf9674ca0065e04f9b,N99b4a1ad9db146cdbdf2f892f4ca7276,22-rdf-syntax-ns#rest
+Nfe8825fcd1294fc4b63f776a0b2689fd,OTCBondMarketPrice,owl#someValuesFrom
+isAggregateOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+PoolPaydownRate,pool paydown rate,rdf-schema#label
+Nfce4d4002e974d729d83272eb270fd17,hasFormula,owl#onProperty
+N25ebf76021db49fd94c0e1024234c60f,refersTo,owl#onProperty
+Nbd59673c67914599aff3aeb8df92b574,owl#Restriction,22-rdf-syntax-ns#type
+FFIECDown300PrepaySpeed,PrepaymentSpeed,rdf-schema#subClassOf
+N0d9dd12c06d844ec8ed65d9bed5a2e55,RedemptionEvent,22-rdf-syntax-ns#first
+OTCBondMarketPrice,The price determined for the marketplace for a bond which is traded over the counter.,core#definition
+decimalPlaces,XMLSchema#integer,rdf-schema#range
+N20c2047c498041a3beb3f7fd68059cd7,SecurityPrice,owl#someValuesFrom
+DebtYieldToWorst,Yield to the worst case of when the instrument might be called.,core#definition
+N334fc8f7a8e84f038557666c16cb22dd,appliesTo,owl#onProperty
+BondEquivalentYield,bond equivalent yield,rdf-schema#label
+WeightedAverageLifeAtIssue,WeightedAverageLife,rdf-schema#subClassOf
+priceQuotedExDividend,price quoted ex dividend,rdf-schema#label
+roundingConvention,owl#DatatypeProperty,22-rdf-syntax-ns#type
+NativeYieldCalculationMethod,RelativeYieldCalculationMethod,rdf-schema#subClassOf
+NativeYield,N3317e18b5731476a963740a8243d3043,rdf-schema#subClassOf
+isRateOfChangeOf,is rate of change of,rdf-schema#label
+DebtYieldToNextCall,owl#Class,22-rdf-syntax-ns#type
+SimpleYieldCalculationMethod,The annual rate of return expressed as a percentage. This is the return divided by the outlay and multiplied by 100 to express the figure as a percentage.,core#definition
+Nfe8825fcd1294fc4b63f776a0b2689fd,owl#Restriction,22-rdf-syntax-ns#type
+WeightedAverageTimeToReceiptOfCashflows,"A formal definition is needed for this. The name is almost self defining, but only to those who already know what this means. In particular we should define how the weighted average is weighted, and what this means, along with a formula for calculating this at the most generic level (cashflow, time, without assumptions about particular types of instrument).",core#editorialNote
+hasWac,has wac,rdf-schema#label
+ExchangeTradedBondPrice,OTCBondMarketPrice,owl#disjointWith
+Nbd59673c67914599aff3aeb8df92b574,hasFactor,owl#onProperty
+Nb5a0abb7658043e780cdf3aa9bd2e9a7,isBasedOn,owl#onProperty
+N725f29e30e1648998448d252c4d5d971,PrepaymentSpeed,owl#someValuesFrom
+N6e90352e63a446daa74c24dc49135c69,DirtyPrice,owl#someValuesFrom
+PrepaymentSpeed,"This is a model. Includes other factors such as homogeniety. Earlier notes: Same as Payment. Curtailment. Paydown is normally scheduled payments of the mortgage. Prepayment is when someone pays off the mortgage early I may send in 1500 when my monthly amount is 1000 a month. So the 500 is a prepayment. Scheduled principal payment. More notes 25 nov: Also factor in changes to the pool constituents where this is allowed for that kind of MBS. So we make estimates of how face value will will change. face value won't change but the underlying value of the Pf changes, so eg. the current mortgage factor. Model update note June 2010: Detailed types of ""Prepayment Speed"" analytic received from thomson Reuters, now modeled as sub types of this term. So term origin is PSA by extension, since this is the common super class of 3 specific prepayment speed analytic types defined by PSA. PSA stands for Public Securities Association. Type: PSA gives this as numeric, however definitions imply percentage, so defined as dated percentage for now. Many data models use numbers which are interpreted later as percentages so this may be the case here.",core#editorialNote
+KeyRateDuration,DurationAnalytic,rdf-schema#subClassOf
+WeightedAverageTimeToReceiptOfCashflows,The weighted average time to the receipt of cashflows for an instrument.,core#definition
+Nf593d41289b34e98a6c019e3894f14b0,owl#Restriction,22-rdf-syntax-ns#type
+N1eef295ad23b49f5ad1d77d45664e8d3,owl#Restriction,22-rdf-syntax-ns#type
+priceIsTraded,XMLSchema#boolean,rdf-schema#range
+decimalPlaces,The number of decimal places used in the publication of the factor value.,core#definition
+N9a718523dd5a446c84d7143e026d307e,RecurrenceInterval,owl#allValuesFrom
+equivalentLifeValue,The Equivalent Life in years at the stated date.,core#definition
+ModifiedDurationAnalytic,modified duration analytic,rdf-schema#label
+CurrentYieldCalculationMethod,The ratio of the interest payment amount to the clean price.,core#definition
+N24392bf6e12843f19f56ddebab1d26e7,comprises,owl#onProperty
+WorstCall,Note that the actual date associated with an occurrence of a worst call event might be calculated or explicit.,core#editorialNote
+YieldCalculationMethod,N32daece6be2343828cd478bd2da790cc,rdf-schema#subClassOf
+N9c120af7c7b84d038c4beba1e14d8245,NextCall,owl#someValuesFrom
+Nf190ba7db74a41a884d583a45e0dc21a,WeightedAverageLife,owl#someValuesFrom
+JapaneseSimpleYieldCalculationMethod,japanese simple yield calculation method,rdf-schema#label
+MortgageBackedSecurity,N426cac6f0f5c4e36bd365df0f7913af3,rdf-schema#subClassOf
+WallStreetYieldCalculationMethod,wall street yield calculation method,rdf-schema#label
+DebtInstrumentYield,Yield has a relationship to the price.,explanatoryNote
+N1eef295ad23b49f5ad1d77d45664e8d3,EquivalentLifeAnalytic,owl#someValuesFrom
+Ndeff9e33663241d9998d28ee1f2cb70b,hasYield,owl#onProperty
+hasYield,has yield,rdf-schema#label
+DebtYieldToWorst,owl#Class,22-rdf-syntax-ns#type
+DurationAnalytic,Weighted average time to receipt of all the payments.,core#definition
+DebtYieldToWorst,Nf8ec2d82e8ba4ce8a7df85be2e39e117,rdf-schema#subClassOf
+WorstCall,owl#Class,22-rdf-syntax-ns#type
+Nf593d41289b34e98a6c019e3894f14b0,PartialCallsEstimationModel,owl#someValuesFrom
+OptionAdjustedYield,option adjusted yield,rdf-schema#label
+FFIECDown300PrepaySpeed,f f i e c down 300 prepay speed,rdf-schema#label
+DebtInstrumentYield,owl#Class,22-rdf-syntax-ns#type
+Nd384b94ba08e438e99f036b575102c31,hasOutlookPeriod,owl#onProperty
+Nae06a32287c24b5a81b0b08a055480a6,DebtSecuritiesMarketMaker,owl#someValuesFrom
+LoanPoolPrepaymentModel,This model captures the parameters that may influence the prepayment of loans or mortgages and relates these mathematically.,explanatoryNote
+priceIsTraded,ExchangeTradedBondPrice,rdf-schema#domain
+JapaneseSimpleYieldCalculationMethod,YieldCalculationMethod,rdf-schema#subClassOf
+decimalPlaces,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N0ead89cec39b462aa36b77497371b76e,owl#Restriction,22-rdf-syntax-ns#type
+WeightedAverageLifeAtIssue,average life at issue,rdf-schema#label
+DebtYieldToMaturity,Nc30eeeed18aa4d71b2af684a839e2de1,rdf-schema#subClassOf
+Na8fc7623f1664b5d91f6e94d585a3a6b,ExplicitDuration,owl#someValuesFrom
+NextCall,N6f5fda320bb54edab6d5ccbb8901a0d8,rdf-schema#subClassOf
+RussianYieldCalculationMethod,YieldCalculationMethod,rdf-schema#subClassOf
+InternallyDeterminedPriceSpread,owl#Class,22-rdf-syntax-ns#type
+hasAnalytic,owl#ObjectProperty,22-rdf-syntax-ns#type
+PoolPaydownRate,Nb5a0abb7658043e780cdf3aa9bd2e9a7,rdf-schema#subClassOf
+N20c2047c498041a3beb3f7fd68059cd7,hasArgument,owl#onProperty
+Nba91c278ccbb4bdf9674ca0065e04f9b,LifeAnalytic,22-rdf-syntax-ns#first
+hasAnalytic,DebtPoolStatisticalMeasure,rdf-schema#range
+DebtPriceSpread,The difference between the [what?] of a security and the fair price value of a different security which is used as a point of reference. The spread is used to determine the price of the instrument. (draft definition),core#definition
+EquivalentYieldCalculationMethod,RelativeYieldCalculationMethod,rdf-schema#subClassOf
+Nc30eeeed18aa4d71b2af684a839e2de1,owl#Restriction,22-rdf-syntax-ns#type
+DebtSecuritiesMarketMaker,owl#Class,22-rdf-syntax-ns#type
+N6f5fda320bb54edab6d5ccbb8901a0d8,NextCallDate,owl#someValuesFrom
+KeyRateDuration,key rate duration,rdf-schema#label
+quotedExDividend,owl#DatatypeProperty,22-rdf-syntax-ns#type
+LifeAnalytic,life analytic,rdf-schema#label
+N0071edaf2763487690af753a9db6882c,InternalRateOfReturn,owl#someValuesFrom
+equivalentLifeValue,owl#ObjectProperty,22-rdf-syntax-ns#type
+DebtConvexityAnalytic,owl#Class,22-rdf-syntax-ns#type
+N99b4a1ad9db146cdbdf2f892f4ca7276,N3ef7cd9cd94f4054b37967cb2b75f273,22-rdf-syntax-ns#rest
+RelativeYieldCalculationMethod,YieldCalculationMethod,rdf-schema#subClassOf
+calculationFollowing,calculation following,rdf-schema#label
+SpanishYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+YieldCalculationMethod,N9a718523dd5a446c84d7143e026d307e,rdf-schema#subClassOf
+MacCaulaysDurationAnalytic,MacCaulays Duration Analytic,rdf-schema#label
+MaturityEquivalentPSA,owl#Class,22-rdf-syntax-ns#type
+DiscountedInstrumentYield,DebtInstrumentYield,rdf-schema#subClassOf
+N9c120af7c7b84d038c4beba1e14d8245,hasOutlookPeriod,owl#onProperty
+N3ef7cd9cd94f4054b37967cb2b75f273,PrescriptiveEvent,22-rdf-syntax-ns#first
+FFIECDown300PrepaySpeed,"Detailed parameters to follow, but basically these three PSA terms are differentiated by the fact that they reference 3 different prepayment models, so each of these will refer to a sub-type of the term ""Loan Pool Prepayment Model"". For now the semantics are defined only in this written definition. Add model variants and terms in a future version.",core#editorialNote
+,owl#Ontology,22-rdf-syntax-ns#type
+EffectiveDuration,owl#Class,22-rdf-syntax-ns#type
+DebtConvexityAnalytic,"The second derivative of a security's price with respect to its yield, divided by the security's price. A security exhibits positive convexity when its price rises more for a downward move in its yield than its price declines for an equal upward move in its yield. Further notes: A measure of the change in price for a given change in Modified Duration. This always (necessarily) refers to Modified Duration. This is used as another risk measurement. Numerator is always (a) duration - either MacCaulays or Modified. Always rate of change of (one of the) Duration against some other parameter. The other paramater can be characterised as a Yield (it may be the Price, but that has a relationship to the Yield in any case). REVIEW: Inconsistency in the above - is it always necessarily Modified Duration that is referred to, or ""any"" Duration measure (Macaulays and.or Modified)? notes 9 Dec A measure of the sensitivity of the price with reference to interest rates. This is normally determined with reference to maturity, but since there are different maturity dates, this figure gives an estimate of the equitvalent if you had a homogenous portfolio, i.e. this is an estimate based on a pure equivalent, homogenous portfolio. Convexity of instrument versus portfolio. Sees instrument in terms of the set of cashflows. The term Convexity can be applied either to a bond or to a portfolio. More notes: When you get Convexit in MD, it will tell you what Duration it is refrfering to, along with Redemption Date (logically). Also if there is Option Adjusted Yield, there is a third set of analytics. What are they? i.e. OA Convexity, Duration Yield and the rest. Conclusions: Agreed to revisit this in OTC.",core#definition
+CreditSpread,Nf82769a1aec242809215c8e5b66efb88,rdf-schema#subClassOf
+YieldCalculationMethod,"The method by which the yield is calculated. This includes a formula for calculation and a specific day count convention and compounding. You would apply this calculation method on top of the underlying terms and conditions, do for example the holiday calenders and so on, are used in these formulae. For final cash flow: Japanese yield will round down accrued interest. Add: The actual underlying math. Wall Street uses the same ICMA formula.",core#definition
+N183c68371c93420c82f8902479cbc4b2,owl#Restriction,22-rdf-syntax-ns#type
+CreditSpread,credit spread,rdf-schema#label
+Ncd3600f28d2a40d6a3950e4f27767dab,owl#Restriction,22-rdf-syntax-ns#type
+RussianYieldFormula,YieldCalculationFormula,rdf-schema#subClassOf
+Nb08c4c8dbb40489c82dfe9779123c02d,CleanPrice,owl#someValuesFrom
+DebtInstrumentYield,debt instrument yield,rdf-schema#label
+N7f8608241835449d97f2838bafb7e137,owl#Restriction,22-rdf-syntax-ns#type
+USTreasuryYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+Nae06a32287c24b5a81b0b08a055480a6,owl#Restriction,22-rdf-syntax-ns#type
+Nb5a0abb7658043e780cdf3aa9bd2e9a7,PoolFactor,owl#someValuesFrom
+N85fcc28a19e644f5863a8735f0763c34,hasFormula,owl#onProperty
+PartialCallsEstimationModel,Formula,rdf-schema#subClassOf
+roundingConvention,XMLSchema#string,rdf-schema#range
+WorstCall,call event representing the worst case with respect to when the instrument might be called,core#definition
+OTCBondMarketPrice,owl#Class,22-rdf-syntax-ns#type
+DebtPriceSpread,MarketSpread,rdf-schema#subClassOf
+KeyRateDuration,owl#Class,22-rdf-syntax-ns#type
+WallStreetYieldCalculationMethod,YieldCalculationMethod,rdf-schema#subClassOf
+PriceValueOfBasisPoint,"Sensitivity of the price for one basis point change in yield, defined as the difference in price given 1 bp change in yield.",core#definition
+hasOutlookPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+YieldToNextPut,DebtInstrumentYield,rdf-schema#subClassOf
+Nb5a0abb7658043e780cdf3aa9bd2e9a7,owl#Restriction,22-rdf-syntax-ns#type
+DebtPriceSpread,owl#Class,22-rdf-syntax-ns#type
+PrepaymentSpeed,owl#Class,22-rdf-syntax-ns#type
+EquivalentLifeAnalytic,Nf593d41289b34e98a6c019e3894f14b0,rdf-schema#subClassOf
+priceIsTraded,"The highest valuation over the period specified. Notes from Equity review, may apply to Debt also: this can be regarded as a derived price. See also note in LowPrice Difference: different rules used. May be based on trade OR quote price Analytic or Price?? this is a derived type but with a much simpler rule.",core#definition
+Nfce4d4002e974d729d83272eb270fd17,owl#Restriction,22-rdf-syntax-ns#type
+DebtYieldToEquivalentLife,"Some sources have Average Life and Equivalent Life as the same term, whereas we have separated them.",core#editorialNote
+DurationAnalytic,N1ccd16d04a004b4b8388a0b373157df4,rdf-schema#subClassOf
+N25ebf76021db49fd94c0e1024234c60f,owl#Restriction,22-rdf-syntax-ns#type
+Nf82769a1aec242809215c8e5b66efb88,owl#Restriction,22-rdf-syntax-ns#type
+FFIECUp300PrepaySpeed,f f i e c up 300 prepay speed,rdf-schema#label
+isDefaultMethodFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+EffectiveYield,effective yield,rdf-schema#label
+DebtYieldToAverageLife,DebtInstrumentYield,rdf-schema#subClassOf
+N0071edaf2763487690af753a9db6882c,refersTo,owl#onProperty
+N64587a4a85b14a9695d45aa632f0a4cd,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+LifeAnalytic,owl#Class,22-rdf-syntax-ns#type
+DebtYieldToMaturity,"The internal rate of return an investor would achieve if he or she purchased that bond at its current dirty price, and held it to maturity, assuming all coupon and principal payments are received as scheduled.",core#definition
+Nf82769a1aec242809215c8e5b66efb88,hasArgument,owl#onProperty
+calculationFollowing,owl#ObjectProperty,22-rdf-syntax-ns#type
+JapaneseCompoundYieldCalculationMethod,No definition in selection list.,core#definition
+PoolFactor,How much of the original pool is still outstanding. This is a number below one. Expressed as percentage.,core#definition
+DebtPool,Nbd59673c67914599aff3aeb8df92b574,rdf-schema#subClassOf
+OTCBondMarketPrice,SecurityPrice,rdf-schema#subClassOf
+PartialCallsEstimationModel,A model of how the early partial calls are estimated.,core#definition
+InternallyDeterminedPriceSpread,internally determined price spread,rdf-schema#label
+isCompounded,is compounded,rdf-schema#label
+N426cac6f0f5c4e36bd365df0f7913af3,hasWac,owl#onProperty
+YieldCalculationFormula,Formula,rdf-schema#subClassOf
+modifiedDurationValue,modified duration value,rdf-schema#label
+ImpliedForwardRate,owl#Class,22-rdf-syntax-ns#type
+Nb74a3d3e014e469dbd19cd10155133b9,YieldCalculationMethod,owl#someValuesFrom
+CurrentYieldCalculationMethod,"This is a kind of yield that applies to debt instruments only as it relates to the clean price. It differs from the simple yield in that simple yield relates to the actual price paid for the bond, which on will differ from the clean price by the amount of accrued interest.",explanatoryNote
+N326f73163a7c4c8eb6082392bc142078,isRateOfChangeOf,owl#onProperty
+EffectiveDuration,effective duration,rdf-schema#label
+priceQuotedExDividend,Whether or not the yield is based on a price which is quoted ex-dividend. When a bond is said to trade ex-dividend it means that there is a period of time prior to each coupon payment during which a bond purchaser does not receive custody of the next coupon. That payment is made to the previous bond holder and accrued interest is therefore negative during the ex-dividend period.,core#definition
+ModifiedDurationAnalytic,MacCaulaysDurationAnalytic,owl#disjointWith
+DebtInstrumentYield,Yield,rdf-schema#subClassOf
+YieldCalculationFormula,yield calculation formula,rdf-schema#label
+OTCBondMarketPrice,Review comment: Must include Attribution. This is in the model in the form of tha Market Maker (an actor in the activity of secondary market trading for OTC-traded debt).,core#editorialNote
+N6f669ebb4826401ab7a0ea201baf19f5,N483bec1692674216b032e1e0cfdd9ab6,owl#someValuesFrom
+JapaneseCompoundYieldCalculationMethod,YieldCalculationMethod,rdf-schema#subClassOf
+DebtPool,N725f29e30e1648998448d252c4d5d971,rdf-schema#subClassOf
+N960e24eaafa74586af5f88a1d1d873e5,isDefaultMethodFor,owl#onProperty
+ICMAYieldFormula,The calculation method specified by ICMA (formerly ISMA) for determination of yield for fixed-rate bonds.,core#definition
+LoanPrepaymentFormula,owl#Class,22-rdf-syntax-ns#type
+N3317e18b5731476a963740a8243d3043,isBasedOn,owl#onProperty
+BondEquivalentYield,Yield determined on an equivalent basis to the yield of another bond. This is used to be able to realistically compare prices between debt instruments across different markets.,core#definition
+LifeAnalytic,DebtPoolStatisticalMeasure,rdf-schema#subClassOf
+modifiedDurationValue,Duration,rdf-schema#range
+YieldCalculationMethod,N7f8608241835449d97f2838bafb7e137,rdf-schema#subClassOf
+WorstCall,CallEvent,rdf-schema#subClassOf
+isDefaultMethodFor,TradableDebtInstrument,rdf-schema#range
+ICMAYieldFormula,i c m a yield formula,rdf-schema#label
+RussianYieldFormula,This is based on a different Effective Yield than on another market.,core#definition
+USTreasuryYieldCalculationMethod,Nfce4d4002e974d729d83272eb270fd17,rdf-schema#subClassOf
+Ndeff9e33663241d9998d28ee1f2cb70b,owl#Restriction,22-rdf-syntax-ns#type
+NativeYield,The yield of the security as determined using the Yield Calculation Method that is the default for the market that the security is traded in.,core#definition
+WeightedAverageLifeAtIssue,owl#Class,22-rdf-syntax-ns#type
+Nf8ec2d82e8ba4ce8a7df85be2e39e117,hasOutlookPeriod,owl#onProperty
+TradableDebtInstrument,owl#Class,22-rdf-syntax-ns#type
+N1ccd16d04a004b4b8388a0b373157df4,refersTo,owl#onProperty
+YieldToNextPut,Nd384b94ba08e438e99f036b575102c31,rdf-schema#subClassOf
+Ne7facb328b714c0599eabcaab3106fc8,owl#Restriction,22-rdf-syntax-ns#type
+determinesMarketPriceForDebt,owl#ObjectProperty,22-rdf-syntax-ns#type
+quotedExDividend,quoted ex dividend,rdf-schema#label
+modifiedDurationValue,ModifiedDurationAnalytic,rdf-schema#domain
+isCompounded,owl#DatatypeProperty,22-rdf-syntax-ns#type
+NextCall,next call,rdf-schema#label
+RussianYieldFormula,owl#Class,22-rdf-syntax-ns#type
+N6e90352e63a446daa74c24dc49135c69,hasArgument,owl#onProperty
+hasFactor,owl#ObjectProperty,22-rdf-syntax-ns#type
+Na3715066d470495c96a7639c0910aff4,owl#Restriction,22-rdf-syntax-ns#type
+USTreasuryYieldCalculationMethod,u s treasury yield calculation method,rdf-schema#label
+WeightedAverageTimeToReceiptOfCashflows,owl#Class,22-rdf-syntax-ns#type
+calculationFollowing,YieldCalculationMethod,rdf-schema#range
+LoanPrepaymentFormula,"From SMER sessions: This is a model. Includes other factors such as homogeniety. To model this more completely we need to identify the parameters that go in to this formula. Among these is the above homogeneity measure - need to know how that is measured and in what terms it is expressed, e.g. as a percentage, with reference to some mean or standard deviation and so on. Also some of the parameters used in this model would presumably make reference to standard mathematical model constructs such as normal distribution, variaous deviation measures, Chi squared and so on. These are not presently in the semantics model, but can be modeled semantically if required. This would not however be a mathematical model - we only need to identify these and show meaningful relationships (not mathematical relationships) between them.",core#editorialNote
+FFIECUp300PrepaySpeed,"Public Securities Association (PSA) speed used for the underlying collateral for cash-flow calculations in the ""up 300"" scenario.",core#definition
+Na8fc7623f1664b5d91f6e94d585a3a6b,owl#Restriction,22-rdf-syntax-ns#type
+decimalPlaces,decimal places,rdf-schema#label
+MaturityEquivalentPSA,PrepaymentSpeed,rdf-schema#subClassOf
+Na150524f349f4d71b86b7124973d16a2,N0d9dd12c06d844ec8ed65d9bed5a2e55,22-rdf-syntax-ns#rest
+DebtPriceSpread,debt price spread,rdf-schema#label
+N3d99345535084bbdba9cfa48541f62ed,Na64322986fca4739bbdc7092d337b04e,22-rdf-syntax-ns#first
+N3ef7cd9cd94f4054b37967cb2b75f273,N64587a4a85b14a9695d45aa632f0a4cd,22-rdf-syntax-ns#rest
+isCompounded,DebtInstrumentYield,rdf-schema#domain
+hasMeasure,has measure,rdf-schema#label
+N67ea187460be48bebfe0a83fd1f534aa,LoanPoolPrepaymentModel,owl#someValuesFrom
+EquivalentYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+PoolPaydownRate,Ratio,rdf-schema#subClassOf
+hasDefaultRate,has default rate,rdf-schema#label
+N3d99345535084bbdba9cfa48541f62ed,Na150524f349f4d71b86b7124973d16a2,22-rdf-syntax-ns#rest
+EquivalentYieldCalculationMethod,equivalent yield calculation method,rdf-schema#label
+quotedExDividend,Whether or not the price is quoted ex-dividend. When a bond is said to trade ex-dividend it means that there is a period of time prior to each coupon payment during which a bond purchaser does not receive custody of the next coupon. That payment is made to the previous bond holder and accrued interest is therefore negative during the ex-dividend period.,core#definition
+YieldCalculationFormula,owl#Class,22-rdf-syntax-ns#type
+ICMAYieldFormula,"This basic formula is used across many markets, including the US and most of Europe. While individual markets may have different flavors (French round their bonds to 5 decimals, UK Gilts have ex-div), the formula is still the same. This would be the formula used by ""Wall Street Yield"", ""US Treasury Yield"", ""Corporate Bond Yield"" etc. Notes Origin:Fidessa",explanatoryNote
+isAggregateOf,is aggregate of,rdf-schema#label
+YieldToNextPut,owl#Class,22-rdf-syntax-ns#type
+Na64322986fca4739bbdc7092d337b04e,ExplicitDuration,owl#someValuesFrom
+InternallyDeterminedPriceSpread,"The spread determined internally within the organisation from information available at their own trading desks. Further Notes Internal prices within a bank would be determined by surveying their own traders. So e.g. corporate desk trades these 30 bonds, get the daily spreads on those at the end of the day and calculate the price. The traders determine the pricing during the based on market movements. (this is all for OTC traded bonds, not exchange traded bonds).",core#definition
+ExchangeTradedBondPrice,SecurityPrice,rdf-schema#subClassOf
+N0d9dd12c06d844ec8ed65d9bed5a2e55,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+ExchangeTradedBondPrice,owl#Class,22-rdf-syntax-ns#type
+determinesMarketPriceForDebt,DebtSecuritiesMarketMaker,rdf-schema#domain
+RussianYieldCalculationMethod,russian yield calculation method,rdf-schema#label
+N483bec1692674216b032e1e0cfdd9ab6,owl#Class,22-rdf-syntax-ns#type
+BondEquivalentYield,owl#Class,22-rdf-syntax-ns#type
+equivalentLifeValue,EquivalentLifeAnalytic,rdf-schema#domain
+roundingConvention,rounding convention,rdf-schema#label
+N32daece6be2343828cd478bd2da790cc,Variable,owl#allValuesFrom
+N725f29e30e1648998448d252c4d5d971,owl#Restriction,22-rdf-syntax-ns#type
+DiscountedInstrumentYield,"Yield quoted for a discount instrument. This is the ratio of the discount to the face value, divided by the period to maturity as a fraction of a year.",core#definition
+NextPut,PutEvent,rdf-schema#subClassOf
+DebtYieldToNextCall,The yield of a bond to the next possible call date.,core#definition
+PoolFactor,owl#Class,22-rdf-syntax-ns#type
+DebtPool,Ncd3600f28d2a40d6a3950e4f27767dab,rdf-schema#subClassOf
+N67ea187460be48bebfe0a83fd1f534aa,isBasedOn,owl#onProperty
+N24527ab8bb5242f3a3ad4af65dac85a3,DebtInstrumentYield,owl#someValuesFrom
+DiscountedInstrumentYield,owl#Class,22-rdf-syntax-ns#type
+N960e24eaafa74586af5f88a1d1d873e5,TradableDebtInstrument,owl#someValuesFrom
+DurationAnalytic,owl#Class,22-rdf-syntax-ns#type
+EffectiveYield," formula (e.g. Monte Carlo), and the method used to determine the actual figure for the MC method. eff Y for single instrument: E Y for bonds without calls and stuff. Variation in this: whether we look at a whole set of bonds YTM quoted by Bmb would be the YTM quoted according to whatever the market is - = the NAtive Yield. SO: Publicly quoted more: choose another adjective.",core#editorialNote
+Nd384b94ba08e438e99f036b575102c31,owl#Restriction,22-rdf-syntax-ns#type
+hasFactor,DebtPool,rdf-schema#domain
+NativeYieldCalculationMethod,native yield calculation method,rdf-schema#label
+N725f29e30e1648998448d252c4d5d971,hasMeasure,owl#onProperty
+DebtYieldToAverageLife,The yield achieved by substituting a bond's average life for the issue's final maturity date.,core#definition
+ICMAYieldFormula,owl#Class,22-rdf-syntax-ns#type
+YieldCalculationMethod,Formula,rdf-schema#subClassOf
+N24392bf6e12843f19f56ddebab1d26e7,LoanPrepaymentFormula,owl#someValuesFrom
+CreditSpread,owl#Class,22-rdf-syntax-ns#type
+hasDefaultRate,DefaultRate,rdf-schema#range
+FFIECUp300PrepaySpeed,"Detailed parameters to follow, but basically these three PSA terms are differentiated by the fact that they reference 3 different prepayment models, so each of these will refer to a sub-type of the term ""Loan Pool Prepayment Model"". For now the semantics are defined only in this written definition. Add model variants and terms in a future version.",core#editorialNote
+isRateOfChangeOf,DebtConvexityAnalytic,rdf-schema#domain
+DebtInstrumentYield,Nb74a3d3e014e469dbd19cd10155133b9,rdf-schema#subClassOf
+ModifiedDurationAnalytic,N25ebf76021db49fd94c0e1024234c60f,rdf-schema#subClassOf
+determinesMarketPriceForDebt,OTCBondMarketPrice,rdf-schema#range
+RussianYieldCalculationMethod,"The method used in determining Yield in the Russian markets. This is based on an effective yield with fundamentally different math. To give an example of the use of a different ""yield type"", we have Russia, which trades based on an effective yield. The price-yield math is fundamentally different. Notes Origin:Fidessa Uses a trade space and effective yield formula. MAy have same day types but different math.",core#definition
+Nd3d9bfc6e829489f8427b5590299f8ac,XMLSchema#decimal,owl#onDataRange
+SimpleYieldCalculationMethod,YieldCalculationMethod,rdf-schema#subClassOf
+N6f5fda320bb54edab6d5ccbb8901a0d8,hasDate,owl#onProperty
+modifiedDurationValue,The Modified Duration in Years.,core#definition
+N85fcc28a19e644f5863a8735f0763c34,owl#Restriction,22-rdf-syntax-ns#type
+priceQuotedExDividend,owl#DatatypeProperty,22-rdf-syntax-ns#type
+CreditSpread,YieldSpread,rdf-schema#subClassOf
+PriceValueOfBasisPoint,PVBP,abbreviation
+quotedExDividend,XMLSchema#boolean,rdf-schema#range
+BondEquivalentYield,"For example when comparing Treasury with Corp it's called a Corp Bond Equivalent Yield; when comparing other kinds of yields this would be labelled differently. Treasury bills typically in discount rates - that's one of the ways you would compare TB or MM or RePo to BEQ - by changing the day count. Detailed implementation of this: This term refers to the type of bond that it is equivalent to, that is the type of bond whose yield is normally determined according to the yield calculation method that is used in determining this Bond Equivalent Yield figure. The type of bond in this instance is defined in relation to the market on which that bond trades, for example the US Corporate Bond Market.",explanatoryNote
+N0ead89cec39b462aa36b77497371b76e,hasOriginalTimeToMaturity,owl#onProperty
+isCompounded, debt yields i..e where the income relates to interest payments. .,core#definition
+CreditSpread,yield spread that reflects the additional net yield an investor can earn from a security with more credit risk relative to one with less credit risk,core#definition
+equivalentLifeValue,equivalent life value,rdf-schema#label
+LoanPoolPrepaymentModel,Formula,rdf-schema#subClassOf
+N0071edaf2763487690af753a9db6882c,owl#Restriction,22-rdf-syntax-ns#type
+JapaneseCompoundYieldCalculationMethod,japanese compound yield calculation method,rdf-schema#label
+LoanPoolPrepaymentModel,loan pool prepayment model,rdf-schema#label
+CurrentYieldCalculationMethod,YieldCalculationMethod,rdf-schema#subClassOf
+N334fc8f7a8e84f038557666c16cb22dd,owl#Restriction,22-rdf-syntax-ns#type
+defaultRateValue,DefaultRate,rdf-schema#domain
+isDefaultMethodFor,NativeYieldCalculationMethod,rdf-schema#domain
+NextPut,owl#Class,22-rdf-syntax-ns#type
+DebtYieldToAverageLife,owl#Class,22-rdf-syntax-ns#type
+N9c120af7c7b84d038c4beba1e14d8245,owl#Restriction,22-rdf-syntax-ns#type
+DebtYieldToEquivalentLife,The yield achieved by substituting a bond's equivalent life for the issue's final maturity date.,core#definition
+equivalentLifeValue,Duration,rdf-schema#range
+YieldCalculationFormula,The formula used in determining the Yield.,core#definition
+hasDefaultRate,DebtPool,rdf-schema#domain
+DebtYieldToEquivalentLife,N1eef295ad23b49f5ad1d77d45664e8d3,rdf-schema#subClassOf
+DebtYieldToAverageLife,debt yield to average life,rdf-schema#label
+DurationAnalytic,DebtPoolStatisticalMeasure,rdf-schema#subClassOf
+LoanPoolPrepaymentModel,owl#Class,22-rdf-syntax-ns#type
+N20c2047c498041a3beb3f7fd68059cd7,owl#Restriction,22-rdf-syntax-ns#type
+USCorporateBondYieldCalculationMethod,YieldCalculationMethod,rdf-schema#subClassOf
+DebtConvexityAnalytic,DatedCollectionConstituent,rdf-schema#subClassOf
+NextPut,"The next available put date for the issue, as at the current time.",core#definition
+Nd3d9bfc6e829489f8427b5590299f8ac,hasRateValue,owl#onProperty
+NativeYieldCalculationMethod,N960e24eaafa74586af5f88a1d1d873e5,rdf-schema#subClassOf
+DurationAnalytic,"Duration in general is a measure of % price change for a given change in yield. See definition from BMB The duration on a traditional bond will be much shorter than the duration relative to the maturity. Duration is the first derivative of the curve between Price and Yield. There are multiple types of duration, all of which are variants of this. So Duration is the first derivative and the different type of duration measure are different ways of measuring this, for example a ""quick and dirty"" measure of duration or one which.",core#editorialNote
+DebtConvexityAnalytic,N326f73163a7c4c8eb6082392bc142078,rdf-schema#subClassOf
+Nd59a3b1f6f3c407bb548f2d1331af730,EquivalentYieldCalculationMethod,owl#someValuesFrom
+N02917d962e2a4815865df511d03a0cf8,owl#Restriction,22-rdf-syntax-ns#type
+PoolFactor,Percentage,rdf-schema#subClassOf
+YieldCalculationMethod,yield calculation method,rdf-schema#label
+N7f8608241835449d97f2838bafb7e137,YieldCalculationFormula,owl#someValuesFrom
+N02917d962e2a4815865df511d03a0cf8,BondWithPartialCall,owl#someValuesFrom
+InternallyDeterminedPriceSpread,DebtPriceSpread,rdf-schema#subClassOf
+NativeYield,native yield,rdf-schema#label
+N483bec1692674216b032e1e0cfdd9ab6,Nba91c278ccbb4bdf9674ca0065e04f9b,owl#unionOf
+MaturityEquivalentPSA,"Detailed parameters to follow, but basically these three PSA terms are differentiated by the fact that they reference 3 different prepayment models, so each of these will refer to a sub-type of the term ""Loan Pool Prepayment Model"". For now the semantics are defined only in this written definition. Add model variants and terms in a future version.",core#editorialNote
+MacCaulaysDurationAnalytic,N0071edaf2763487690af753a9db6882c,rdf-schema#subClassOf
+DebtPool,owl#Class,22-rdf-syntax-ns#type
+N6f669ebb4826401ab7a0ea201baf19f5,hasOutlookPeriod,owl#onProperty
+DebtConvexityAnalytic,N183c68371c93420c82f8902479cbc4b2,rdf-schema#subClassOf
+N4aece698eac4460581b57d956d3e372f,hasFormula,owl#onProperty
+DebtPriceSpread,"This was ""Spread"" in the Debt pricing reviews, however that word has at least 2 other uses (spread between equity bid and offer prices; spread for derivatives). Detailed notes from Debt Pricing Review session 5 Aug: Identify what the spread is in relation to e.g. LIBOR. ALSO If fixed of floating. So if it's a FRN, For a fixed rate bond, it's priced off the on-the-run, e.g. a 30 year bond is priced as a spread wrt a 30 year treasury bond. So e..g spread would be something like 10bp+the value of the 30 year on the run Treasury. On the Run: definition needed. Also class of Thing and where this should go.",core#editorialNote
+,Provisional,hasMaturityLevel
+DebtYieldToEquivalentLife,debt yield to equivalent life,rdf-schema#label
+,MIT,license
+PriceValueOfBasisPoint,N24527ab8bb5242f3a3ad4af65dac85a3,rdf-schema#subClassOf
+Ndeff9e33663241d9998d28ee1f2cb70b,DebtInstrumentYield,owl#someValuesFrom
+YieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+DebtInstrumentYield,N20c2047c498041a3beb3f7fd68059cd7,rdf-schema#subClassOf
+DebtYieldToWorst,DebtInstrumentYield,rdf-schema#subClassOf
+SimpleYieldCalculationMethod,N6e90352e63a446daa74c24dc49135c69,rdf-schema#subClassOf
+Nd59a3b1f6f3c407bb548f2d1331af730,isBasedOn,owl#onProperty
+Ne7facb328b714c0599eabcaab3106fc8,DebtInstrumentYield,owl#someValuesFrom
+N01d1d1e1395441ceb9af760394a0dbe3,N01be09204480419185f2d9b27a7ad7be,owl#unionOf
+N65088075c3364e1cb7caac254a0c2191,owl#Restriction,22-rdf-syntax-ns#type
+ICMAYieldFormula,YieldCalculationFormula,rdf-schema#subClassOf
+N02917d962e2a4815865df511d03a0cf8,refersTo,owl#onProperty
+PoolPaydownRate,Nd3d9bfc6e829489f8427b5590299f8ac,rdf-schema#subClassOf
+PoolPaydownRate,"The rate at which the pool is paying down. This is based on observed factor. CPR, SMM, etc. etc. Measured differently for different kinds of security. CBO might have a prepayment rate for example if the underlying bond is callable. with a non agency mortgge dela, defualts will effect this. so for instance there is principal is no lnger inthe pool because the mortgagee defaults. With agency these are not taken out in the case of default but for non agency these mortgages are removed from the pool if and when a mortgagee defualts.",core#definition
+EquivalentLifeAnalytic,N02917d962e2a4815865df511d03a0cf8,rdf-schema#subClassOf
+isCompounded,XMLSchema#boolean,rdf-schema#range
+N3317e18b5731476a963740a8243d3043,NativeYieldCalculationMethod,owl#someValuesFrom
+hasYield,TradableDebtInstrument,rdf-schema#domain
+N0ead89cec39b462aa36b77497371b76e,ExplicitDuration,owl#someValuesFrom
+determinesMarketPriceForDebt,determines market price for debt,rdf-schema#label
+N67ea187460be48bebfe0a83fd1f534aa,owl#Restriction,22-rdf-syntax-ns#type
+defaultRateValue,owl#ObjectProperty,22-rdf-syntax-ns#type
+RelativelyDefinedDebtInstrumentYield,DebtInstrumentYield,rdf-schema#subClassOf
+RussianYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+NativeYieldCalculationMethod,The convention used in the marketplace for that security.,core#definition
+Nb74a3d3e014e469dbd19cd10155133b9,owl#Restriction,22-rdf-syntax-ns#type
+Nb08c4c8dbb40489c82dfe9779123c02d,hasArgument,owl#onProperty
+USCorporateBondYieldCalculationMethod,u s corporate bond yield calculation method,rdf-schema#label
+DebtSecuritiesMarketMaker,An actor which has the role of Market Maker in a given market.,core#definition
+ExchangeTradedBondPrice,exchange traded bond price,rdf-schema#label
+Nae06a32287c24b5a81b0b08a055480a6,hasPricingSource,owl#onProperty
+N1ccd16d04a004b4b8388a0b373157df4,owl#Restriction,22-rdf-syntax-ns#type
+Nf190ba7db74a41a884d583a45e0dc21a,hasOutlookPeriod,owl#onProperty
+DebtSecuritiesMarketMaker,Nfe8825fcd1294fc4b63f776a0b2689fd,rdf-schema#subClassOf
+Na64322986fca4739bbdc7092d337b04e,owl#Restriction,22-rdf-syntax-ns#type
+OTCBondMarketPrice,Nae06a32287c24b5a81b0b08a055480a6,rdf-schema#subClassOf
+N326f73163a7c4c8eb6082392bc142078,owl#Restriction,22-rdf-syntax-ns#type
+roundingConvention,The rounding convention used in the calculation method.,core#definition
+NativeYield,"conventional yield for that security type and geo location, ie. would be in relation too",explanatoryNote
+EquivalentLifeAnalytic,owl#Class,22-rdf-syntax-ns#type
+NativeYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+isAggregateOf,DebtPoolStatisticalMeasure,rdf-schema#range
+SpanishYieldCalculationMethod,The method used in determining annual yield in Spanish corporate bonds.,core#definition
+DebtYieldToAverageLife,"Assume from this that there is also a Yield to Equivalent Life. Some sources have these as the same term, whereas we have separated them.",core#editorialNote
+LoanPoolPrepaymentModel,"Model of the prepayments of loans in a pool of individual loans, such as a mortgage pool or loan pool.",core#definition
+Nf8ec2d82e8ba4ce8a7df85be2e39e117,owl#Restriction,22-rdf-syntax-ns#type
+Nd3d9bfc6e829489f8427b5590299f8ac,owl#Restriction,22-rdf-syntax-ns#type
+PartialCallsEstimationModel,owl#Class,22-rdf-syntax-ns#type
+Nc30eeeed18aa4d71b2af684a839e2de1,Na8fc7623f1664b5d91f6e94d585a3a6b,owl#someValuesFrom
+RelativelyDefinedDebtInstrumentYield,relatively defined debt instrument yield,rdf-schema#label
+Nf82769a1aec242809215c8e5b66efb88,ReferenceInterestRate,owl#someValuesFrom
+JapaneseSimpleYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+EquivalentLifeAnalytic,equivalent life analytic,rdf-schema#label
+N183c68371c93420c82f8902479cbc4b2,MarketSpread,owl#someValuesFrom
+WorstCall,"We should refine what we mean by worst here - soonest, or most distant?",core#editorialNote
+DebtConvexityAnalytic,N05c605cc83b946adb51d5534ed5ae24d,rdf-schema#subClassOf
+N05c605cc83b946adb51d5534ed5ae24d,refersTo,owl#onProperty
+N7f8608241835449d97f2838bafb7e137,hasFormula,owl#onProperty
+isRateOfChangeOf,DurationAnalytic,rdf-schema#range
+Nb08c4c8dbb40489c82dfe9779123c02d,owl#Restriction,22-rdf-syntax-ns#type
+SpanishYieldCalculationMethod,YieldCalculationMethod,rdf-schema#subClassOf
+Nb74a3d3e014e469dbd19cd10155133b9,calculationFollowing,owl#onProperty
+N24392bf6e12843f19f56ddebab1d26e7,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#imports
+FFIECDown300PrepaySpeed,"Public Securities Association (PSA) speed used for the underlying collateral for cash-flow calculations in the ""down 300"" scenario.",core#definition
+hasOutlookPeriod,DebtInstrumentYield,rdf-schema#domain
+ModifiedDurationAnalytic,DurationAnalytic,rdf-schema#subClassOf
+OptionAdjustedYield,DebtInstrumentYield,rdf-schema#subClassOf
+MacCaulaysDurationAnalytic,DurationAnalytic,rdf-schema#subClassOf
+N9a718523dd5a446c84d7143e026d307e,owl#Restriction,22-rdf-syntax-ns#type
+Nfce4d4002e974d729d83272eb270fd17,ICMAYieldFormula,owl#someValuesFrom
+DebtInstrumentYield,The return on the debt instrument at the stated price.,core#definition
+YieldCalculationFormula,"The subject of this Formula is the Yield. The formula has an expression which can be defined either in tectual terms or by further local extension of the term ""Formula Expression"" to define the parameters used.",explanatoryNote
+WallStreetYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+RelativeYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+NextCallDate,"The next date on which the issue can be called, from the present date.",core#definition
+USTreasuryYieldCalculationMethod,YieldCalculationMethod,rdf-schema#subClassOf
+DebtYieldToNextCall,debt yield to next call,rdf-schema#label
+BondEquivalentYield,Nd59a3b1f6f3c407bb548f2d1331af730,rdf-schema#subClassOf
+DebtYieldToEquivalentLife,DebtInstrumentYield,rdf-schema#subClassOf
+defaultRateValue,Percentage,rdf-schema#range
+Na150524f349f4d71b86b7124973d16a2,PrescriptiveEvent,22-rdf-syntax-ns#first
+N4aece698eac4460581b57d956d3e372f,owl#Restriction,22-rdf-syntax-ns#type
+N6e90352e63a446daa74c24dc49135c69,owl#Restriction,22-rdf-syntax-ns#type
+OptionAdjustedYield,"NB specified as a spread. synonym: OAS Based on different Int Rate paths. There are different OAS models just like there are different Yield methods. Also would make reference to the Yield Curve - but these are parameters that go into that model. Limit this model at the point where it distinguishes the difference between things - we are not in a position to mathematically model the things themselves, just capture the basic facts.",core#definition
+N65088075c3364e1cb7caac254a0c2191,hasDefaultRate,owl#onProperty
+CreditSpread,"The credit spread of a particular security is often quoted in relation to the yield on a credit risk-free benchmark security or reference rate. Further Notes There are several measures of credit spread, including Z-spread and option-adjusted spread. Old definition (Algo) The spread between the credit rating of something and its maturity. THis is now defined as a different term pending further review with Algorithmics. Update from SMER. difference between risk free price (price of govt bond) and the price of this security. (matches Wikipedia definition above) i.e. price of this credit versus the price of a (near) risk free credit. The latter is a reference security with low risk such as a Treasury Bond. Is this between prices or between yields? can be expressed as either wrt price or yield, and this is detemined by context for different markets. Try and get a list. This is more generic - the meaning is not that it is speciufically wrt yield as such. Debt Price Spread is in context of price, whereas this is more generic.",explanatoryNote
+EffectiveYield,DebtInstrumentYield,rdf-schema#subClassOf
+Nfe8825fcd1294fc4b63f776a0b2689fd,determinesMarketPriceForDebt,owl#onProperty
+hasMeasure,owl#ObjectProperty,22-rdf-syntax-ns#type
+DebtYieldToMaturity,DebtInstrumentYield,rdf-schema#subClassOf
+NativeYield,owl#Class,22-rdf-syntax-ns#type
+NextCall,CallEvent,rdf-schema#subClassOf
+Nd59a3b1f6f3c407bb548f2d1331af730,owl#Restriction,22-rdf-syntax-ns#type
+OTCBondMarketPrice,o t c bond market price,rdf-schema#label
+BondEquivalentYield,RelativelyDefinedDebtInstrumentYield,rdf-schema#subClassOf
+EquivalentLifeAnalytic,WeightedAverageLife,owl#disjointWith
+hasDefaultRate,owl#ObjectProperty,22-rdf-syntax-ns#type
+TradableDebtInstrument,Ndeff9e33663241d9998d28ee1f2cb70b,rdf-schema#subClassOf
+NextCallDate,owl#Class,22-rdf-syntax-ns#type
+NextCall,"The next call of the issue, as at the current time.",core#definition
+hasYield,DebtInstrumentYield,rdf-schema#range
+hasWac,MortgageBackedSecurity,rdf-schema#domain
+EquivalentLifeAnalytic,LifeAnalytic,rdf-schema#subClassOf
+N960e24eaafa74586af5f88a1d1d873e5,owl#Restriction,22-rdf-syntax-ns#type
+MaturityEquivalentPSA,"Prepayment speed that results in the same average life as that computed for the Collateralized Mortgage Obligation (CMO), Asset Backed Securities (ABS) or Mortgage Backed Securities (MBS) using the Maturity Prepay Model.",core#definition
+LifeAnalytic,"Some measure of the life of a security, other than the actual time to maturity itself. This is a derived figure, based on certain parameters as appropriate to that type of instrument, to give a figure that is equivalent to and similar to the basic maturity of the instrument, for the purposes of analysing that security.",core#definition
+isAggregateOf,DebtPoolStatisticalMeasure,rdf-schema#domain
+priceQuotedExDividend,XMLSchema#boolean,rdf-schema#range
+Nd3d9bfc6e829489f8427b5590299f8ac,1,owl#qualifiedCardinality
+N1eef295ad23b49f5ad1d77d45664e8d3,hasOutlookPeriod,owl#onProperty
+DiscountedInstrumentYield,Applies to Debt only.,usageNote
+Na8fc7623f1664b5d91f6e94d585a3a6b,hasOriginalTimeToMaturity,owl#onProperty
+priceIsTraded,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasFactor,has factor,rdf-schema#label
+LoanPrepaymentFormula,The formula which embodies the model for loan pool prepayment speed.,core#definition
+N9a718523dd5a446c84d7143e026d307e,hasCompoundingFrequency,owl#onProperty
+defaultRateValue,default rate value,rdf-schema#label
+FFIECUp300PrepaySpeed,owl#Class,22-rdf-syntax-ns#type
+NextPut,next put,rdf-schema#label
+hasMeasure,PrepaymentSpeed,rdf-schema#range
+NextCall,owl#Class,22-rdf-syntax-ns#type
+WorstCall,worst call,rdf-schema#label
+DebtYieldToNextCall,N9c120af7c7b84d038c4beba1e14d8245,rdf-schema#subClassOf
+LoanPoolPrepaymentModel,N24392bf6e12843f19f56ddebab1d26e7,rdf-schema#subClassOf
+N05c605cc83b946adb51d5534ed5ae24d,DebtInstrumentYield,owl#someValuesFrom
+N426cac6f0f5c4e36bd365df0f7913af3,WeightedAverageCoupon,owl#someValuesFrom
+CurrentYieldCalculationMethod,current yield calculation method,rdf-schema#label
+roundingConvention,YieldCalculationMethod,rdf-schema#domain
+N65088075c3364e1cb7caac254a0c2191,DefaultRate,owl#someValuesFrom
+SimpleYieldCalculationMethod,"This is yield in its simplest sense, expressed as a percentage of return to outlay. As such, this is the same way that yield is determined for any investments, not just financial instruments or debt investments.",explanatoryNote
+DebtYieldToWorst,debt yield to worst,rdf-schema#label
+Nf8ec2d82e8ba4ce8a7df85be2e39e117,WorstCall,owl#someValuesFrom
+WeightedAverageTimeToReceiptOfCashflows,weighted average time to receipt of cashflows,rdf-schema#label
+quotedExDividend,SecurityPrice,rdf-schema#domain
+hasFactor,PoolFactor,rdf-schema#range
+Na3715066d470495c96a7639c0910aff4,ICMAYieldFormula,owl#someValuesFrom
+Ncd3600f28d2a40d6a3950e4f27767dab,DebtPoolStatisticalMeasure,owl#someValuesFrom
+hasMeasure,DebtPool,rdf-schema#domain
+DebtYieldToNextCall,DebtInstrumentYield,rdf-schema#subClassOf
+priceQuotedExDividend,DebtInstrumentYield,rdf-schema#domain
+DebtSecuritiesMarketMaker,debt securities market maker,rdf-schema#label
+N24527ab8bb5242f3a3ad4af65dac85a3,owl#Restriction,22-rdf-syntax-ns#type
+PoolPaydownRate,owl#Class,22-rdf-syntax-ns#type
+JapaneseCompoundYieldCalculationMethod,owl#Class,22-rdf-syntax-ns#type
+ModifiedDurationAnalytic,The higher the MD the greater the change in price for a given change in yield.,explanatoryNote
+SimpleYieldCalculationMethod,simple yield calculation method,rdf-schema#label
+PriceValueOfBasisPoint,price value of basis point,rdf-schema#label
+isDefaultMethodFor,is default method for,rdf-schema#label
+N85fcc28a19e644f5863a8735f0763c34,ICMAYieldFormula,owl#someValuesFrom
+,Debt Analytics Ontology,rdf-schema#label
+calculationFollowing,DebtInstrumentYield,rdf-schema#domain
+N183c68371c93420c82f8902479cbc4b2,hasArgument,owl#onProperty
+hasOutlookPeriod,N01d1d1e1395441ceb9af760394a0dbe3,rdf-schema#range
+N1ccd16d04a004b4b8388a0b373157df4,DebtInstrumentYield,owl#someValuesFrom
+MacCaulaysDurationAnalytic,owl#Class,22-rdf-syntax-ns#type
+CurrentYieldCalculationMethod,Nb08c4c8dbb40489c82dfe9779123c02d,rdf-schema#subClassOf
+N01d1d1e1395441ceb9af760394a0dbe3,owl#Class,22-rdf-syntax-ns#type
+RussianYieldFormula,russian yield formula,rdf-schema#label
+RelativelyDefinedDebtInstrumentYield,owl#Class,22-rdf-syntax-ns#type
+priceIsTraded,price is traded,rdf-schema#label
+N6f669ebb4826401ab7a0ea201baf19f5,owl#Restriction,22-rdf-syntax-ns#type

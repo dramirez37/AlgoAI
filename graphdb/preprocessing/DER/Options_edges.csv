@@ -1,0 +1,555 @@
+source_id,target_id,relationship
+ExtrinsicValue,MonetaryAmount,rdf-schema#subClassOf
+N717dbf7cc2604736938d858b9a83b7b0,isPlayedBy,owl#onProperty
+N7df02c1e73ba421ab1af01d44cde1b04,CallOption,owl#onClass
+Nffdf73f99c224cb69c1af5250543aa47,comprises,owl#onProperty
+ProtectivePut,owl#Class,22-rdf-syntax-ns#type
+Straddle,neutral option trading strategy that involves simultaneously buying both a put option and a call option for the underlying security with the same strike price and the same expiration date,core#definition
+Nb8797e4d20bc4ceda893b1660e0af45c,owl#Restriction,22-rdf-syntax-ns#type
+ProtectiveCollar,protective collar,rdf-schema#label
+RiskReversal,Nde9bc245cbba4593844cfcbdd52eed17,rdf-schema#subClassOf
+OptionIssuer,issuer granting the rights defined in the option in exchange for some consideration,core#definition
+Option,Nfd9d82731f2f46a5a57d7862b431def6,rdf-schema#subClassOf
+Fence,option trading strategy that uses options to limit the range of possible returns on a financial instrument,core#definition
+N9ada88f665b94882b0de9f46199f2bdc,comprises,owl#onProperty
+N0584d33ca63d4d508c5b22aa85b07cb0,MixedBasket,owl#someValuesFrom
+BasketOption,"option whose underlying asset is a group, or basket, of commodities, securities, indices, or currencies",core#definition
+hasExerciseDateOffset,indicates the period in days between the reset date and the exercise date,core#definition
+ExoticOption,"Exotic options include Asian options and lookback options, and are mostly traded in the over-the-counter market.",explanatoryNote
+Butterfly,strategy that combines bull and bear spreads with a fixed risk and capped profit,core#definition
+Ne9a463c3993e4ad396d58ba2d05db11e,2,owl#qualifiedCardinality
+Nace3d180945a427a8ed81971248371bc,hasExerciseTerms,owl#onProperty
+AtTheMoney,owl#NamedIndividual,22-rdf-syntax-ns#type
+InterestRateOption,N44893f366c5947f1b4a8f98a4c11f947,rdf-schema#subClassOf
+N29c9155ec70942819dc0cdedf9310e3d,CallOption,owl#onClass
+hasSettlementDateOffset,hasDuration,rdf-schema#subPropertyOf
+IronButterfly,Butterfly,rdf-schema#subClassOf
+Nb99d7f8ad363412da574bb84791e1511,owl#Restriction,22-rdf-syntax-ns#type
+N2755c47673a74b0e8a4cba96f8c0e8af,Option,owl#onClass
+hasExerciseSchedule,owl#ObjectProperty,22-rdf-syntax-ns#type
+VanillaOption,vanilla option,rdf-schema#label
+IronButterfly,The key to using this trade as part of a successful trading strategy is to forecast a time when option prices are likely to decline in value generally. This usually occurs during periods of sideways movement or a mild upward trend.,explanatoryNote
+FixedIncomeOption,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.",adaptedFrom
+hasOptionHolder,has option holder,rdf-schema#label
+LongTermEquityAnticipationSecurity,"equity option that allows the holder to buy or sell shares of stock with expiration dates that are longer than one year, and typically up to three years from issue",core#definition
+hasExerciseDateOffset,StripStrategy,rdf-schema#domain
+OptionHolder,Owner,rdf-schema#subClassOf
+IntrinsicValue,MonetaryAmount,rdf-schema#subClassOf
+N6152a800eccc4082811b37370d3e44c8,Schedule,owl#someValuesFrom
+Nffdf73f99c224cb69c1af5250543aa47,CoveredCall,owl#onClass
+N6544909a6d8a4b0484860751cdef71d5,OptionPremium,owl#someValuesFrom
+Nb99d7f8ad363412da574bb84791e1511,OptionHolder,owl#onClass
+BasketOption,N0584d33ca63d4d508c5b22aa85b07cb0,rdf-schema#subClassOf
+Straddle,N676b9fc4e19446b8b2c7cc3534249b58,rdf-schema#subClassOf
+,,owl#versionIRI
+OptionHolder,owl#Class,22-rdf-syntax-ns#type
+BondOption,bond option,rdf-schema#label
+ExtrinsicValue,IntrinsicValue,owl#disjointWith
+N0584d33ca63d4d508c5b22aa85b07cb0,owl#Restriction,22-rdf-syntax-ns#type
+BondOption,FixedIncomeOption,rdf-schema#subClassOf
+hasOptionWriter,"Typically, the option writer collects the premium when the option is initially sold.",explanatoryNote
+Nbef7df95ad424eb1b27cbac5cb6d44ba,hasExerciseStyle,owl#onProperty
+CallOption,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.",adaptedFrom
+VanillaOption,N7456a6f26d5a49769c8fdef635591212,rdf-schema#subClassOf
+StandardizedOptionsTerms,N3a839287096642cb99fa2585d7951b79,rdf-schema#subClassOf
+N6c0130039afe43d29800c57fbf8d2e9b,owl#Restriction,22-rdf-syntax-ns#type
+OptionHolder,option holder,rdf-schema#label
+N932592d2fefd40b28c84844832931d0c,hasContractDuration,owl#onProperty
+N1a052834fa7642d59dc4a5f277236995,Option,owl#someValuesFrom
+N12a743a8e90c463080e87531cd6acd8c,owl#Restriction,22-rdf-syntax-ns#type
+Nde9bc245cbba4593844cfcbdd52eed17,owl#Restriction,22-rdf-syntax-ns#type
+StandardizedOptionsTerms,"Such terms may relate to the underlying instruments, exercise price, expiration date, and contract size, for example.",explanatoryNote
+hasInterestAccrualDateOffset,indicates the period in days between each reset date and the commencement of interest accrual for the next period,core#definition
+ExtrinsicValue,"measure of the difference between the market price of an option, called the premium, and its intrinsic value",core#definition
+InterestRateOption,owl#Class,22-rdf-syntax-ns#type
+Straddle,straddle,rdf-schema#label
+N2755c47673a74b0e8a4cba96f8c0e8af,owl#Restriction,22-rdf-syntax-ns#type
+N714ef181465c403ebf9185ecda5142b1,owl#Restriction,22-rdf-syntax-ns#type
+Nfa42d96376d14e849d71d58b53895bd8,PriceDeterminationMethod,owl#someValuesFrom
+hasOptionWriter,hasContractParty,rdf-schema#subPropertyOf
+OutOfTheMoney,moneyness classifier that refers to an option whose value in terms of its strike price is not favorable in comparison to the prevailing market price of the underlying asset,core#definition
+hasStrikeRate,has strike rate,rdf-schema#label
+N2a6e0aed1d84440fa48f6adc42223c4e,owl#Restriction,22-rdf-syntax-ns#type
+N7456a6f26d5a49769c8fdef635591212,owl#Restriction,22-rdf-syntax-ns#type
+RiskReversal,N7df02c1e73ba421ab1af01d44cde1b04,rdf-schema#subClassOf
+InterestRateOption,"The amount of the payment will be based on the difference between the market rate on the exercise date and the strike rate, multiplied by the notional principal specified in the option contract, to calculate the total payment.",explanatoryNote
+N8dd0185e34334b0a90a0372b41dec758,Schedule,owl#someValuesFrom
+Ncd3cc77184344e7c8d21d117670d735e,2,owl#qualifiedCardinality
+N23cd9c14c45449d485e62d4b2d1b2955,hasMonetaryAmount,owl#onProperty
+LongTermEquityAnticipationSecurity,"By providing opportunities to control and manage risk or even to speculate, LEAPS are virtually identical to regular options. Expiration dates on LEAPs can range from nine months to three years, which is longer than the holding period for a traditional call or put option. Although they are not available on all stocks, LEAPS are available on most widely held issues.",explanatoryNote
+Option,N6152a800eccc4082811b37370d3e44c8,rdf-schema#subClassOf
+hasExerciseSchedule,Option,rdf-schema#domain
+hasStrikePercentageAmount,has strike percentage amount,rdf-schema#label
+StripStrategy,strip strategy,rdf-schema#label
+N206b64f9daed4199befd08df53310f65,Exchange,22-rdf-syntax-ns#first
+ProtectiveCollar,Nffdf73f99c224cb69c1af5250543aa47,rdf-schema#subClassOf
+Butterfly,N714ef181465c403ebf9185ecda5142b1,rdf-schema#subClassOf
+OptionPremium,option premium,rdf-schema#label
+OptionHolder,"In a call, the option holder has the right, but not the obligation, to buy the underlying asset, while, in a put, the option holder has the right to sell the underlying asset. An option holder may sell the option contract itself, at which point the buyer becomes the option holder. Once the instrument is exercised there are typically additional, relevant obligations with regard to settlement.",explanatoryNote
+ExoticOption,exotic option,rdf-schema#label
+AtTheMoney,at-the-money,rdf-schema#label
+hasExerciseStyle,has exercise style,rdf-schema#label
+BasketOption,basket option,rdf-schema#label
+hasStrikePercentageAmount,PercentageMonetaryAmount,rdf-schema#range
+CallOption,"option giving the buyer (holder) the right, but not the obligation, to buy the assets specified at a fixed price or formula, on or before a specified date",core#definition
+Nf7395176e1584b03a43e4ae1b88f3294,owl#Restriction,22-rdf-syntax-ns#type
+OptionPremium,N23cd9c14c45449d485e62d4b2d1b2955,rdf-schema#subClassOf
+N12a743a8e90c463080e87531cd6acd8c,PutOption,owl#onClass
+Nde9bc245cbba4593844cfcbdd52eed17,PutOption,owl#onClass
+N9ada88f665b94882b0de9f46199f2bdc,owl#Restriction,22-rdf-syntax-ns#type
+hasCalculatedMarketValue,has premium,synonym
+N5e8888446bff4c99beb1b4c8a2f1f430,CallOption,owl#onClass
+hasExerciseSchedule,links an option to the schedule specified in the contract that constrains when it may be exercised,core#definition
+hasSettlementDateOffset,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Options.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, and to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.",core#changeNote
+AtTheMoney,moneyness classifier that refers to an option whose value in terms of its strike price is the same or close to the current market price of the underlying security,core#definition
+N676b9fc4e19446b8b2c7cc3534249b58,owl#Restriction,22-rdf-syntax-ns#type
+InTheMoney,in-the-money,rdf-schema#label
+Nbef7df95ad424eb1b27cbac5cb6d44ba,owl#Restriction,22-rdf-syntax-ns#type
+ProtectivePut,PutOption,rdf-schema#subClassOf
+N0b395432fe334affa3a44ea17a11bf11,hasUnderlier,owl#onProperty
+StandardizedOptionsTerms,StandardizedTerms,rdf-schema#subClassOf
+OptionOnFuture,"option that gives the holder the right, but not the obligation, to buy or sell a specific futures contract at a specified price on or before the option's expiration date",core#definition
+N14d75fc3854645168f1efec586e42019,1,owl#qualifiedCardinality
+OptionTradingStrategy,TradingStrategy,rdf-schema#subClassOf
+N18dc58630a7c4b2c9a335b57239f9331,owl#Restriction,22-rdf-syntax-ns#type
+ProtectiveCollar,"A protective collar consists of a long position in the underlying security, a put option purchased to hedge the downside risk on a stock, a call option written on the stock to finance the put purchase.",explanatoryNote
+Strangle,N5e8888446bff4c99beb1b4c8a2f1f430,rdf-schema#subClassOf
+ProtectivePut,protective put,rdf-schema#label
+PutOption,"option giving the buyer (holder) the right, but not the obligation, to sell the assets specified at a fixed price or formula, on or before a specified date",core#definition
+N2755c47673a74b0e8a4cba96f8c0e8af,comprises,owl#onProperty
+N8dd0185e34334b0a90a0372b41dec758,owl#Restriction,22-rdf-syntax-ns#type
+Nde9bc245cbba4593844cfcbdd52eed17,1,owl#qualifiedCardinality
+N13d756234481458e9b45dac40afed192,owl#Restriction,22-rdf-syntax-ns#type
+N6152a800eccc4082811b37370d3e44c8,owl#Restriction,22-rdf-syntax-ns#type
+N13d756234481458e9b45dac40afed192,PutOption,owl#onClass
+EquityOption,"option giving the buyer (holder) the right, but not the obligation, to buy (via a call option) or sell (via a put option) the underlying equity assets specified at a pre-determined price (i.e., the strike price, fixed or calculated), on or before a specified date (the expiration date)",core#definition
+Moneyness,moneyness,rdf-schema#label
+N5add0a4064c24ab2a3b79bf511216035,hasExpression,owl#onProperty
+Nf574a37f7624469c98e6e8e9422cd954,Option,owl#someValuesFrom
+IronCondor,iron condor,rdf-schema#label
+hasCapPrice,has cap price,rdf-schema#label
+hasExercisePrice,StrikePrice,rdf-schema#range
+N676b9fc4e19446b8b2c7cc3534249b58,1,owl#qualifiedCardinality
+FixedIncomeOption,fixed income option,rdf-schema#label
+N3a839287096642cb99fa2585d7951b79,appliesTo,owl#onProperty
+hasCalculatedMarketValue,owl#ObjectProperty,22-rdf-syntax-ns#type
+N2a6e0aed1d84440fa48f6adc42223c4e,1,owl#qualifiedCardinality
+N714ef181465c403ebf9185ecda5142b1,StrikePrice,owl#onClass
+N9ada88f665b94882b0de9f46199f2bdc,PutOption,owl#onClass
+Collar,owl#Class,22-rdf-syntax-ns#type
+CondorSpread,owl#Class,22-rdf-syntax-ns#type
+N18dc58630a7c4b2c9a335b57239f9331,1,owl#qualifiedCardinality
+StrikePrice,MonetaryPrice,rdf-schema#subClassOf
+N59d024dde112480fb9a8f5f71970136b,Option,owl#someValuesFrom
+InterestRateOption,N7677b8bfd41b4bff9ef5890ac310e1f2,rdf-schema#subClassOf
+InterestRateOption,VanillaOption,rdf-schema#subClassOf
+N59d024dde112480fb9a8f5f71970136b,isAPartyTo,owl#onProperty
+IntrinsicValue,"measure of what an asset is worth, i.e. with respect to its current price",core#definition
+N6544909a6d8a4b0484860751cdef71d5,hasCalculatedMarketValue,owl#onProperty
+N13d756234481458e9b45dac40afed192,1,owl#qualifiedCardinality
+Moneyness,spot price or its future price.,explanatoryNote
+hasStrikePercentageAmount,indicates a strike price or level expressed as a percentage of the value of the underlying asset,core#definition
+Nde9bc245cbba4593844cfcbdd52eed17,comprises,owl#onProperty
+N0584d33ca63d4d508c5b22aa85b07cb0,hasUnderlier,owl#onProperty
+Fence,owl#Class,22-rdf-syntax-ns#type
+N18dc58630a7c4b2c9a335b57239f9331,PutOption,owl#onClass
+hasExercisePrice,specifies a predetermined price at which the holder commits to buy or sell an underlying asset,core#definition
+Option,Nf5f7a67147e5459db412624c958a147b,rdf-schema#subClassOf
+Nc5867e42de434dc0939dc4e46535c69c,Bond,owl#someValuesFrom
+EquityOption,EquityDerivative,rdf-schema#subClassOf
+PutOption,Option,rdf-schema#subClassOf
+StripStrategy,N14d75fc3854645168f1efec586e42019,rdf-schema#subClassOf
+IntrinsicValue,"This measure is arrived at by means of an objective calculation or complex financial model. In financial analysis this term is used in conjunction with the work of identifying, as nearly as possible, the underlying value of a company and its cash flow. In options pricing it refers to the difference between the strike price of the option and the current price of the underlying asset.",explanatoryNote
+Strangle,"option trading strategy in which the investor holds a position in both a call and a put option with different strike prices, but with the same expiration date and underlying asset",core#definition
+ExtrinsicValue,option time value,synonym
+Nf5f7a67147e5459db412624c958a147b,StrikePrice,owl#someValuesFrom
+hasInterestAccrualDateOffset,owl#ObjectProperty,22-rdf-syntax-ns#type
+N2a6e0aed1d84440fa48f6adc42223c4e,comprises,owl#onProperty
+Nc6884a42a9594661843bb564907025fd,Date,owl#someValuesFrom
+hasExerciseStyle,ExerciseConvention,rdf-schema#range
+hasCalculatedMarketValue,hasPrice,rdf-schema#subPropertyOf
+N3a839287096642cb99fa2585d7951b79,VanillaOption,owl#someValuesFrom
+Nf7395176e1584b03a43e4ae1b88f3294,StrikePrice,owl#onClass
+IronButterfly,"butterfly strategy that consists of two call options and two put options, three strike prices and the same expiration date",core#definition
+Nef538761c4b44b17b5c880486737bf4d,CallOption,owl#onClass
+VanillaOption,owl#Class,22-rdf-syntax-ns#type
+N44893f366c5947f1b4a8f98a4c11f947,hasStrikeRate,owl#onProperty
+OptionTradingStrategy,option trading strategy,rdf-schema#label
+OptionTradingStrategy,Nf293dabe14e441a08c9b5ab302fc7ba7,rdf-schema#subClassOf
+N4382278078b74fb2817d80b4d815f1b5,owl#Restriction,22-rdf-syntax-ns#type
+BondOption,Nc5867e42de434dc0939dc4e46535c69c,rdf-schema#subClassOf
+PutOption,owl#Class,22-rdf-syntax-ns#type
+EquityOption,"For an Equity Option, one contract represents 100 shares of stock. Equity options settle in 'American style'.",explanatoryNote
+PutOption,put option,rdf-schema#label
+OptionPremiumFormula,expression used to calculate the premium based either on the price per option or percentage of the notional amount,core#definition
+Collar,OptionTradingStrategy,rdf-schema#subClassOf
+Option,Nc6884a42a9594661843bb564907025fd,rdf-schema#subClassOf
+IronCondor,N29c9155ec70942819dc0cdedf9310e3d,rdf-schema#subClassOf
+StandardizedOptionsTerms,Nfa42d96376d14e849d71d58b53895bd8,rdf-schema#subClassOf
+N7537b21396f64224a59c8f4ad6493416,hasLotSize,owl#onProperty
+hasOptionHolder,indicates the owner of the option,core#definition
+StripStrategy,N9ada88f665b94882b0de9f46199f2bdc,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+VanillaOption,N4077dae7d1f04d17ae9f5023b15b8370,rdf-schema#subClassOf
+OptionPremium,"The option premium is the income received by the seller (writer) of an option contract to another party. In-the-money option premiums are composed of two factors: intrinsic and extrinsic value. Out-of-the-money options' premiums consist solely of extrinsic value. For stock options, the premium is quoted as a dollar amount per share, and most contracts represent the commitment of 100 shares.",explanatoryNote
+Neb9b9b2cae174d619ca487de423b4a30,1,owl#qualifiedCardinality
+RiskReversal,"A risk reversal is a position which simulates profit and loss behavior of owning an underlying security; therefore, it is sometimes called a synthetic long. This is an investment strategy that amounts to both buying and selling out-of-money options simultaneously. In this strategy, the investor will first make a market hunch; if that hunch is bullish, he will want to go long. However, instead of going long on the stock, he will buy an out of the money call option, and simultaneously sell an out of the money put option. Presumably he will use the money from the sale of the put option to purchase the call option. Then as the stock goes up in price, the call option will be worth more, and the put option will be worth less.",explanatoryNote
+N12a743a8e90c463080e87531cd6acd8c,comprises,owl#onProperty
+hasCalculatedMarketValue,Option,rdf-schema#domain
+N2755c47673a74b0e8a4cba96f8c0e8af,4,owl#qualifiedCardinality
+hasExercisePrice,has exercise price,rdf-schema#label
+N676b9fc4e19446b8b2c7cc3534249b58,comprises,owl#onProperty
+Fence,"A fence consists of the following elements:
+- long position in a financial instrument (e.g., a share, index or currency)
+- long put (normally with a strike price close to or at the current spot price of the financial instrument)
+- short put (with a strike price lower than the bought put - e.g., 80% of the current spot price)
+- short call (with a strike price higher than the current spot price).",explanatoryNote
+Ne0699bcf64af4e8db37e794375dc51fd,owl#Restriction,22-rdf-syntax-ns#type
+IronButterfly,Nfbca64b1be084868b13ad4bbd4e6ed80,rdf-schema#subClassOf
+IronCondor,"condor strategy consisting of two puts (one long and one short) and two calls (one long and one short), and four strike prices, all with the same expiration date",core#definition
+RiskReversal,owl#Class,22-rdf-syntax-ns#type
+hasExerciseDateOffset,Duration,rdf-schema#range
+IntrinsicValue,intrinsic value,rdf-schema#label
+Nfd9d82731f2f46a5a57d7862b431def6,hasOptionWriter,owl#onProperty
+N18dc58630a7c4b2c9a335b57239f9331,comprises,owl#onProperty
+Nc6884a42a9594661843bb564907025fd,hasExpirationDate,owl#onProperty
+N5add0a4064c24ab2a3b79bf511216035,0,owl#minQualifiedCardinality
+CappedOption,option with an established profit cap or cap price,core#definition
+InterestRateOption,interest rate option,rdf-schema#label
+Fence,"The expiration dates of all the options are usually the same. The call strike is normally chosen in such a way that the sum total of the three option premiums is equal to zero. This investment strategy will ensure that the value of the investment at expiry will be between the strike price on the short call and the strike price on the long put. Thus, possible gains and losses (the value of the financial instrument minus the cost of acquiring it) are confined to a specified range. However, if the price of the financial instrument falls below the strike level of the sold put the investor will start participating in any further price declines of the financial instrument.",explanatoryNote
+OptionPremium,MarketPrice,rdf-schema#subClassOf
+N717dbf7cc2604736938d858b9a83b7b0,N59d024dde112480fb9a8f5f71970136b,owl#someValuesFrom
+Fence,fence,rdf-schema#label
+Ncb937e614eb94097bc3913de5be42fd2,MonetaryPrice,owl#someValuesFrom
+N714ef181465c403ebf9185ecda5142b1,hasExercisePrice,owl#onProperty
+N7df02c1e73ba421ab1af01d44cde1b04,owl#Restriction,22-rdf-syntax-ns#type
+CoveredCall,call option in which the seller (investor) owns an equivalent amount of the underlying security,core#definition
+StandardizedOptionsTerms,standardized options terms,rdf-schema#label
+N13d756234481458e9b45dac40afed192,comprises,owl#onProperty
+N1a052834fa7642d59dc4a5f277236995,classifies,owl#onProperty
+OptionTradingStrategy,"or optimizing profits. Basically, these strategies utilize one or more combinations for the best outcome possible based on defined parameters. Simple combinations include option spread trades such as vertical spreads, calendar (or horizontal) spreads, and diagonal spreads. More involved combinations include trades such as condor or butterfly spreads which are actually combinations of two vertical spreads.",explanatoryNote
+IronCondor,"The iron condor earns the maximum profit when the underlying asset closes between the middle strike prices at expiration. In other words, the goal is to profit from low volatility in the underlying asset.",explanatoryNote
+Nfbca64b1be084868b13ad4bbd4e6ed80,2,owl#qualifiedCardinality
+Butterfly,owl#Class,22-rdf-syntax-ns#type
+hasExerciseStyle,owl#ObjectProperty,22-rdf-syntax-ns#type
+N92fd285c49eb4647b2fd1b4b87e6ed40,N206b64f9daed4199befd08df53310f65,owl#unionOf
+IronButterfly,iron butterfly,rdf-schema#label
+CappedOption,VanillaOption,rdf-schema#subClassOf
+Nfbca64b1be084868b13ad4bbd4e6ed80,CallOption,owl#onClass
+FixedIncomeOption,"Fixed income options, or debt options, are derivatives contracts that use bonds or other fixed-income securities as their underlying asset.",explanatoryNote
+N6b0eda61af0644088a2c1dd7fac4e5f9,owl#Restriction,22-rdf-syntax-ns#type
+N39c4c5b9905f490c99e06550f8d84760,PercentageMonetaryAmount,owl#onClass
+OptionPremium,N5add0a4064c24ab2a3b79bf511216035,rdf-schema#subClassOf
+hasCapPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+Fence,Neb9b9b2cae174d619ca487de423b4a30,rdf-schema#subClassOf
+Ne9a463c3993e4ad396d58ba2d05db11e,owl#Restriction,22-rdf-syntax-ns#type
+N714ef181465c403ebf9185ecda5142b1,3,owl#qualifiedCardinality
+Strangle,N18dc58630a7c4b2c9a335b57239f9331,rdf-schema#subClassOf
+LongTermEquityAnticipationSecurity,owl#Class,22-rdf-syntax-ns#type
+RiskReversal,OptionTradingStrategy,rdf-schema#subClassOf
+Moneyness,classifier for a derivative relating its strike price to the price of its underlying asset,core#definition
+hasExercisePrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+N7df02c1e73ba421ab1af01d44cde1b04,1,owl#qualifiedCardinality
+EquityOption,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.",adaptedFrom
+N23cd9c14c45449d485e62d4b2d1b2955,0,owl#minQualifiedCardinality
+Nf293dabe14e441a08c9b5ab302fc7ba7,owl#Restriction,22-rdf-syntax-ns#type
+N23cd9c14c45449d485e62d4b2d1b2955,owl#Restriction,22-rdf-syntax-ns#type
+BasketOption,N932592d2fefd40b28c84844832931d0c,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+N7677b8bfd41b4bff9ef5890ac310e1f2,owl#Restriction,22-rdf-syntax-ns#type
+CoveredCall,owl#Class,22-rdf-syntax-ns#type
+,Options.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+N7677b8bfd41b4bff9ef5890ac310e1f2,hasUnderlier,owl#onProperty
+N6c0130039afe43d29800c57fbf8d2e9b,PriceDeterminationMethod,owl#someValuesFrom
+N7456a6f26d5a49769c8fdef635591212,hasPriceDeterminationMethod,owl#onProperty
+N5add0a4064c24ab2a3b79bf511216035,owl#Restriction,22-rdf-syntax-ns#type
+Nbef7df95ad424eb1b27cbac5cb6d44ba,AmericanExerciseConvention,owl#hasValue
+N4077dae7d1f04d17ae9f5023b15b8370,ExplicitDuration,owl#someValuesFrom
+N7537b21396f64224a59c8f4ad6493416,XMLSchema#decimal,owl#someValuesFrom
+CoveredCall,covered call,rdf-schema#label
+N39c4c5b9905f490c99e06550f8d84760,0,owl#minQualifiedCardinality
+OutOfTheMoney,out-of-the-money,rdf-schema#label
+N39c4c5b9905f490c99e06550f8d84760,owl#Restriction,22-rdf-syntax-ns#type
+OptionOnFuture,Nace3d180945a427a8ed81971248371bc,rdf-schema#subClassOf
+Ncb937e614eb94097bc3913de5be42fd2,owl#Restriction,22-rdf-syntax-ns#type
+LongTermEquityAnticipationSecurity,long-term equity anticipation security,rdf-schema#label
+EquityOption,equity option,rdf-schema#label
+OutOfTheMoney,OTM,abbreviation
+N23cd9c14c45449d485e62d4b2d1b2955,MonetaryAmount,owl#onClass
+DerivativesClearingOrganization,owl#Class,22-rdf-syntax-ns#type
+hasSettlementDateOffset,Duration,rdf-schema#range
+InterestRateOption,"option that giving the buyer (holder) the right, but not the obligation, to receive a cash payment if market interest rate of a reference rate is higher or lower, depending on the option, than the strike rate of the option",core#definition
+N932592d2fefd40b28c84844832931d0c,ExplicitDuration,owl#someValuesFrom
+N14d75fc3854645168f1efec586e42019,owl#Restriction,22-rdf-syntax-ns#type
+N9ada88f665b94882b0de9f46199f2bdc,2,owl#qualifiedCardinality
+Nef538761c4b44b17b5c880486737bf4d,1,owl#qualifiedCardinality
+hasStrikePercentageAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+N5add0a4064c24ab2a3b79bf511216035,OptionPremiumFormula,owl#onClass
+Collar,N13d756234481458e9b45dac40afed192,rdf-schema#subClassOf
+hasSettlementDateOffset,StripStrategy,rdf-schema#domain
+hasExercisePrice,hasPrice,rdf-schema#subPropertyOf
+OptionPremium,N39c4c5b9905f490c99e06550f8d84760,rdf-schema#subClassOf
+Fence,Ncd3cc77184344e7c8d21d117670d735e,rdf-schema#subClassOf
+,"Options.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasExerciseStyle,Option,rdf-schema#domain
+hasExerciseSchedule,has exercise schedule,rdf-schema#label
+Ne0699bcf64af4e8db37e794375dc51fd,hasPublisher,owl#onProperty
+InTheMoney,moneyness classifier that refers to an option that has value in a strike price that is favorable in comparison to the prevailing market price of the underlying asset,core#definition
+OutOfTheMoney,"An OTM call option will have a strike price that is higher than the market price of the underlying asset. Alternatively, an OTM put option has a strike price that is lower than the market price of the underlying asset.",explanatoryNote
+Nfd9d82731f2f46a5a57d7862b431def6,owl#Restriction,22-rdf-syntax-ns#type
+IronCondor,owl#Class,22-rdf-syntax-ns#type
+Nb99d7f8ad363412da574bb84791e1511,hasOptionHolder,owl#onProperty
+CappedOption,Ncb937e614eb94097bc3913de5be42fd2,rdf-schema#subClassOf
+Nc5867e42de434dc0939dc4e46535c69c,owl#Restriction,22-rdf-syntax-ns#type
+ExtrinsicValue,owl#Class,22-rdf-syntax-ns#type
+Nc5867e42de434dc0939dc4e46535c69c,hasUnderlier,owl#onProperty
+StandardizedOptionsTerms,Ne0699bcf64af4e8db37e794375dc51fd,rdf-schema#subClassOf
+Nfcf9dcc892d64eed8375e4886048931a,DerivativesClearingOrganization,22-rdf-syntax-ns#first
+FixedIncomeOption,owl#Class,22-rdf-syntax-ns#type
+OptionPremiumFormula,option premium formula,rdf-schema#label
+Moneyness,owl#Class,22-rdf-syntax-ns#type
+Nf293dabe14e441a08c9b5ab302fc7ba7,comprises,owl#onProperty
+ProtectiveCollar,collar that consists of a covered call and protective put,core#definition
+hasExerciseDateOffset,hasDuration,rdf-schema#subPropertyOf
+N206b64f9daed4199befd08df53310f65,Nfcf9dcc892d64eed8375e4886048931a,22-rdf-syntax-ns#rest
+OptionHolder,Nf574a37f7624469c98e6e8e9422cd954,rdf-schema#subClassOf
+N7df02c1e73ba421ab1af01d44cde1b04,comprises,owl#onProperty
+InTheMoney,ITM,abbreviation
+StandardizedOptionsTerms,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.",adaptedFrom
+Ne9a463c3993e4ad396d58ba2d05db11e,PutOption,owl#onClass
+N6b0eda61af0644088a2c1dd7fac4e5f9,hasContractDuration,owl#onProperty
+hasCapPrice,hasPrice,rdf-schema#subPropertyOf
+N1a052834fa7642d59dc4a5f277236995,owl#Restriction,22-rdf-syntax-ns#type
+hasStrikeRate,Ratio,rdf-schema#range
+OptionOnFuture,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.",adaptedFrom
+hasOptionWriter,has option writer,rdf-schema#label
+OptionIssuer,option issuer,rdf-schema#label
+,Options.rdf version of this ontology was revised to add an explanatory note to basket option and make it a kind of exotic option and added interest rate derivative as the parent of interest rate option; added capped option as a kind of vanilla option.,core#changeNote
+IronButterfly,N12a743a8e90c463080e87531cd6acd8c,rdf-schema#subClassOf
+CallOption,owl#Class,22-rdf-syntax-ns#type
+OptionIssuer,N717dbf7cc2604736938d858b9a83b7b0,rdf-schema#subClassOf
+CappedOption,owl#Class,22-rdf-syntax-ns#type
+ExoticOption,OverTheCounterInstrument,rdf-schema#subClassOf
+N81e8b0ad791a42c1994ac5c2d66f52e1,1,owl#qualifiedCardinality
+StripStrategy,owl#Class,22-rdf-syntax-ns#type
+hasCalculatedMarketValue,has calculated market value,rdf-schema#label
+Nfd9d82731f2f46a5a57d7862b431def6,OptionIssuer,owl#someValuesFrom
+Collar,"option trading strategy that involves buying a downside put and selling an upside call that is implemented to protect against large losses, but which also limits large upside gains",core#definition
+OptionPremiumFormula,owl#Class,22-rdf-syntax-ns#type
+CallOption,call option,rdf-schema#label
+N81e8b0ad791a42c1994ac5c2d66f52e1,owl#Restriction,22-rdf-syntax-ns#type
+StrikePrice,strike price,rdf-schema#label
+Ncd3cc77184344e7c8d21d117670d735e,owl#Restriction,22-rdf-syntax-ns#type
+N7677b8bfd41b4bff9ef5890ac310e1f2,InterestRateBenchmark,owl#someValuesFrom
+IronButterfly,iron fly,synonym
+N14d75fc3854645168f1efec586e42019,comprises,owl#onProperty
+EquityOption,owl#Class,22-rdf-syntax-ns#type
+hasExerciseSchedule,hasSchedule,rdf-schema#subPropertyOf
+CallOption,Option,rdf-schema#subClassOf
+Option,N7537b21396f64224a59c8f4ad6493416,rdf-schema#subClassOf
+N6b0eda61af0644088a2c1dd7fac4e5f9,Duration,owl#someValuesFrom
+hasExerciseStyle,isClassifiedBy,rdf-schema#subPropertyOf
+Neb9b9b2cae174d619ca487de423b4a30,owl#Restriction,22-rdf-syntax-ns#type
+CondorSpread,There are two types of condor spreads. A long condor seeks to profit from low volatility and little to no movement in the underlying asset. A short condor seeks to profit from high volatility and a sizable move in the underlying asset in either direction. A Condor Spread uses either all calls or all puts.,explanatoryNote
+N7537b21396f64224a59c8f4ad6493416,owl#Restriction,22-rdf-syntax-ns#type
+EquityOption,Nbef7df95ad424eb1b27cbac5cb6d44ba,rdf-schema#subClassOf
+FixedIncomeOption,VanillaOption,rdf-schema#subClassOf
+Strangle,owl#Class,22-rdf-syntax-ns#type
+OptionTradingStrategy,owl#Class,22-rdf-syntax-ns#type
+Option,Nb8797e4d20bc4ceda893b1660e0af45c,rdf-schema#subClassOf
+OutOfTheMoney,Moneyness,22-rdf-syntax-ns#type
+N6152a800eccc4082811b37370d3e44c8,hasExerciseSchedule,owl#onProperty
+hasStrikePercentageAmount,hasPrice,rdf-schema#subPropertyOf
+CallOption,The seller (issuer) of the call option assumes the obligation of delivering the assets specified should the buyer exercise the option.,explanatoryNote
+ExoticOption,owl#Class,22-rdf-syntax-ns#type
+Ne0699bcf64af4e8db37e794375dc51fd,N92fd285c49eb4647b2fd1b4b87e6ed40,owl#someValuesFrom
+N81e8b0ad791a42c1994ac5c2d66f52e1,ProtectivePut,owl#onClass
+hasCapPrice,hasMonetaryAmount,rdf-schema#subPropertyOf
+ExtrinsicValue,extrinsic value,rdf-schema#label
+N5e8888446bff4c99beb1b4c8a2f1f430,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+CondorSpread,non-directional options strategy that limits both gains and losses while seeking to profit from either low or high volatility,core#definition
+ExtrinsicValue,"Extrinsic value is also the portion of the worth that has been assigned to an option by factors other than the underlying asset's price. The opposite of extrinsic value is intrinsic value, which is the inherent worth of an option.",explanatoryNote
+StandardizedOptionsTerms,owl#Class,22-rdf-syntax-ns#type
+IronCondor,Nf7395176e1584b03a43e4ae1b88f3294,rdf-schema#subClassOf
+hasExerciseDateOffset,owl#ObjectProperty,22-rdf-syntax-ns#type
+VanillaOption,"common option giving the buyer (holder) the right, but not the obligation, to buy (via a call option) or sell (via a put option) the underlying assets specified at a pre-determined price (i.e., the strike price, fixed or calculated), on or before a specified date (the expiration date)",core#definition
+Butterfly,butterfly,rdf-schema#label
+ProtectivePut,synthetic call,synonym
+N8dd0185e34334b0a90a0372b41dec758,hasSchedule,owl#onProperty
+hasSettlementDateOffset,has settlement date offset,rdf-schema#label
+Butterfly,"These spreads are intended as a market-neutral strategy and pay off the most if the underlying asset does not move prior to option expiration. They involve either four calls, four puts, or a combination of puts and calls with three strike prices. Butterfly spreads pay off the most if the underlying asset price doesn't change before the option expires. The upper and lower strike prices are equal distance from the middle, or at-the-money, strike price.",explanatoryNote
+CondorSpread,OptionTradingStrategy,rdf-schema#subClassOf
+ProtectiveCollar,Collar,rdf-schema#subClassOf
+Option,owl#Class,22-rdf-syntax-ns#type
+Nfa42d96376d14e849d71d58b53895bd8,hasPriceDeterminationMethod,owl#onProperty
+Ne9a463c3993e4ad396d58ba2d05db11e,comprises,owl#onProperty
+Nc6884a42a9594661843bb564907025fd,owl#Restriction,22-rdf-syntax-ns#type
+Ncd3cc77184344e7c8d21d117670d735e,PutOption,owl#onClass
+N44893f366c5947f1b4a8f98a4c11f947,owl#Restriction,22-rdf-syntax-ns#type
+N29c9155ec70942819dc0cdedf9310e3d,owl#Restriction,22-rdf-syntax-ns#type
+EquityOption,VanillaOption,rdf-schema#subClassOf
+Fence,OptionTradingStrategy,rdf-schema#subClassOf
+N44893f366c5947f1b4a8f98a4c11f947,InterestRate,owl#someValuesFrom
+N4077dae7d1f04d17ae9f5023b15b8370,owl#Restriction,22-rdf-syntax-ns#type
+N5e8888446bff4c99beb1b4c8a2f1f430,1,owl#qualifiedCardinality
+BasketOption,owl#Class,22-rdf-syntax-ns#type
+Nf574a37f7624469c98e6e8e9422cd954,owl#Restriction,22-rdf-syntax-ns#type
+N81e8b0ad791a42c1994ac5c2d66f52e1,comprises,owl#onProperty
+Moneyness,N1a052834fa7642d59dc4a5f277236995,rdf-schema#subClassOf
+IronButterfly,owl#Class,22-rdf-syntax-ns#type
+FixedIncomeOption,DebtInstrumentDerivative,rdf-schema#subClassOf
+ExoticOption,glossary_e.html,adaptedFrom
+hasOptionWriter,owl#ObjectProperty,22-rdf-syntax-ns#type
+OptionOnFuture,owl#Class,22-rdf-syntax-ns#type
+hasInterestAccrualDateOffset,has interest accrual date offset,rdf-schema#label
+,MIT,license
+CappedOption,capped option,rdf-schema#label
+Ncb937e614eb94097bc3913de5be42fd2,hasCapPrice,owl#onProperty
+Nb8797e4d20bc4ceda893b1660e0af45c,OptionPremium,owl#onClass
+N3a839287096642cb99fa2585d7951b79,owl#Restriction,22-rdf-syntax-ns#type
+N932592d2fefd40b28c84844832931d0c,owl#Restriction,22-rdf-syntax-ns#type
+Nb99d7f8ad363412da574bb84791e1511,0,owl#minQualifiedCardinality
+N59d024dde112480fb9a8f5f71970136b,owl#Restriction,22-rdf-syntax-ns#type
+CappedOption,The cap price is equal to the option's strike price plus a cap interval for a call option or the strike price minus a cap interval for a put option. A capped option is automatically exercised when the underlying security closes at or above (for a call) or at or below (for a put) the option's cap price.,explanatoryNote
+OutOfTheMoney,owl#NamedIndividual,22-rdf-syntax-ns#type
+ExoticOption,Option,rdf-schema#subClassOf
+Nf7395176e1584b03a43e4ae1b88f3294,4,owl#qualifiedCardinality
+N12a743a8e90c463080e87531cd6acd8c,2,owl#qualifiedCardinality
+ProtectivePut,N6544909a6d8a4b0484860751cdef71d5,rdf-schema#subClassOf
+VanillaOption,Option,rdf-schema#subClassOf
+Nfa42d96376d14e849d71d58b53895bd8,owl#Restriction,22-rdf-syntax-ns#type
+hasInterestAccrualDateOffset,StripStrategy,rdf-schema#domain
+OptionTradingStrategy,"Note that some trading strategies may be considered financial instruments in their own right, but most strategies are not. The critical differentiators include whether the strategy itself can be traded, whether it has a financial instrument identifier independently from the identifier(s) of the embedded instrument(s), such as a FIGI or ISIN, and so forth.",explanatoryNote
+Strangle,OptionTradingStrategy,rdf-schema#subClassOf
+N5e8888446bff4c99beb1b4c8a2f1f430,comprises,owl#onProperty
+PutOption,The seller of the put option assumes the obligation of buying the assets specified should the buyer exercise the option.,explanatoryNote
+InterestRateOption,InterestRateDerivativeInstrument,rdf-schema#subClassOf
+N92fd285c49eb4647b2fd1b4b87e6ed40,owl#Class,22-rdf-syntax-ns#type
+VanillaOption,"Vanilla options include call or put options that have no special or unusual features, and are typically exchange traded.",explanatoryNote
+hasCalculatedMarketValue,OptionPremium,rdf-schema#range
+Nb8797e4d20bc4ceda893b1660e0af45c,hasCalculatedMarketValue,owl#onProperty
+InTheMoney,Moneyness,22-rdf-syntax-ns#type
+LongTermEquityAnticipationSecurity,LEAP,abbreviation
+Moneyness,Classifier,rdf-schema#subClassOf
+Nef538761c4b44b17b5c880486737bf4d,owl#Restriction,22-rdf-syntax-ns#type
+ProtectivePut,"put option giving the buyer (holder) the right, but not the obligation, to sell the assets specified at with a strike price equal or close to the current price of the underlying asset, on or before a specified date",core#definition
+Nf7395176e1584b03a43e4ae1b88f3294,hasExercisePrice,owl#onProperty
+AtTheMoney,ATM,abbreviation
+,Options.rdf version of this ontology was revised to add the most common options trading strategies.,core#changeNote
+DerivativesClearingOrganization,"For options, the derivatives clearing organization is responsible for clearing transactions for put and call options on common stocks and other equity issues, stock indexes, foreign currencies, interest rate composites and single-stock futures.",explanatoryNote
+Ncd3cc77184344e7c8d21d117670d735e,comprises,owl#onProperty
+hasOptionWriter,indicates the issuer of the option,core#definition
+,Options.rdf version of this ontology was revised to add an expiration date as an important property of an option.,core#changeNote
+Neb9b9b2cae174d619ca487de423b4a30,comprises,owl#onProperty
+StandardizedOptionsTerms,standardized contract terms established by a securities or options exchange or by an options clearing entity,core#definition
+IronCondor,CondorSpread,rdf-schema#subClassOf
+Nf574a37f7624469c98e6e8e9422cd954,holds,owl#onProperty
+N2a6e0aed1d84440fa48f6adc42223c4e,CallOption,owl#onClass
+hasStrikeRate,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasExerciseStyle,indicates the exercise convention specified for the option,core#definition
+Nf5f7a67147e5459db412624c958a147b,hasExercisePrice,owl#onProperty
+hasOptionHolder,owl#ObjectProperty,22-rdf-syntax-ns#type
+N14d75fc3854645168f1efec586e42019,CallOption,owl#onClass
+N0b395432fe334affa3a44ea17a11bf11,Future,owl#someValuesFrom
+OptionIssuer,Issuer,rdf-schema#subClassOf
+,Options.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+hasOptionWriter,Option,rdf-schema#domain
+Butterfly,OptionTradingStrategy,rdf-schema#subClassOf
+Nfbca64b1be084868b13ad4bbd4e6ed80,owl#Restriction,22-rdf-syntax-ns#type
+OptionOnFuture,VanillaOption,rdf-schema#subClassOf
+ExoticOption,option that has a non-standard payout structure or other feature,core#definition
+Nace3d180945a427a8ed81971248371bc,AmericanExerciseTerms,owl#someValuesFrom
+StrikePrice,"For call options, the strike price is the price at which the security may be purchased by the option holder; for put options, the strike price is the price at which the security may be sold.",explanatoryNote
+hasStrikeRate,hasQuantityValue,rdf-schema#subPropertyOf
+PutOption,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.",adaptedFrom
+Nace3d180945a427a8ed81971248371bc,owl#Restriction,22-rdf-syntax-ns#type
+hasExercisePrice,has strike price,synonym
+N6544909a6d8a4b0484860751cdef71d5,owl#Restriction,22-rdf-syntax-ns#type
+BasketOption,"As with other options, a basket option gives the holder the right, but not the obligation, to buy or sell the basket at a specific price, on or before a certain date. This exotic option has all the characteristics of a standard option, but with the basis of the strike price on the weighted value of its components. Currency baskets are the most popular type of basket option, and they will settle in the holder's home currency. Because it involves just one transaction, a basket option often costs less than multiple single options as it saves on commissions and fees.",explanatoryNote
+StrikePrice,owl#Class,22-rdf-syntax-ns#type
+Butterfly,N2755c47673a74b0e8a4cba96f8c0e8af,rdf-schema#subClassOf
+OptionTradingStrategy,"trading tactic involving more than one option type, strike price, or expiration date on the same underlying asset",core#definition
+N4382278078b74fb2817d80b4d815f1b5,ExerciseConvention,owl#someValuesFrom
+RiskReversal,"option trading strategy that consists of being short (selling) an out of the money put and being long (i.e., buying) an out of the money call, both with the same maturity",core#definition
+,,owl#imports
+OptionIssuer,owl#Class,22-rdf-syntax-ns#type
+N4077dae7d1f04d17ae9f5023b15b8370,hasContractDuration,owl#onProperty
+Collar,N2a6e0aed1d84440fa48f6adc42223c4e,rdf-schema#subClassOf
+StripStrategy,N8dd0185e34334b0a90a0372b41dec758,rdf-schema#subClassOf
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+OptionPremiumFormula,Expression,rdf-schema#subClassOf
+ProtectivePut,"A protective put is a risk management and options strategy that involves holding a long position in the underlying asset (e.g., stock). A protective put strategy is analogous to the nature of insurance. The main goal of a protective put is to limit potential losses that may result from an unexpected price drop of the underlying asset",explanatoryNote
+hasInterestAccrualDateOffset,hasDuration,rdf-schema#subPropertyOf
+N717dbf7cc2604736938d858b9a83b7b0,owl#Restriction,22-rdf-syntax-ns#type
+CondorSpread,condor spread,rdf-schema#label
+Strangle,strangle,rdf-schema#label
+Nffdf73f99c224cb69c1af5250543aa47,owl#Restriction,22-rdf-syntax-ns#type
+Nf5f7a67147e5459db412624c958a147b,owl#Restriction,22-rdf-syntax-ns#type
+IntrinsicValue,owl#Class,22-rdf-syntax-ns#type
+,Options.rdf version of this ontology was revised to make certain values subclasses of MonetaryAmount instead of MonetaryMeasure.,core#changeNote
+hasCalculatedMarketValue,indicates a calculated price as of some relative date considered the market value of the option at that point in time,core#definition
+Straddle,The strategy is profitable only when the value of the underlier varies (rises or falls) from the strike price by more than the total premium paid.,explanatoryNote
+hasOptionWriter,OptionIssuer,rdf-schema#range
+Nef538761c4b44b17b5c880486737bf4d,comprises,owl#onProperty
+Strangle,"A strangle is a good strategy if you think the underlying security will experience a large price movement in the near future but are unsure of the direction. However, it is profitable mainly if the asset swings sharply in price.",explanatoryNote
+hasExerciseSchedule,"An exercise schedule may be as simple as a single date or date period. However, in more complex cases, it may be an ad hoc schedule of individual dates, or a regular schedule of periodic exercise dates.",explanatoryNote
+LongTermEquityAnticipationSecurity,EquityOption,rdf-schema#subClassOf
+N7456a6f26d5a49769c8fdef635591212,PriceDeterminationMethod,owl#someValuesFrom
+OptionPremium,current market price of an option contract,core#definition
+hasExerciseDateOffset,has exercise date offset,rdf-schema#label
+CoveredCall,CallOption,rdf-schema#subClassOf
+hasStrikeRate,rate at which the contract may be exercised,core#definition
+StripStrategy,"Typically, a strip is a strategy that involves being long in one call position and two put options, all with the same strike price on a single underlying stock. The investor who adopts this strategy believes that the underlying price of the stock will plummet in the near-term future. All three of the options will have the same expiration date and the same strike price. If the investor is correct and the price drastically decreases, the puts will pay out substantially. If the investor is wrong and the price of the underlying asset increases, the call option will mitigate the loss. The period between resets may be called a Caplet or Floorlet.",explanatoryNote
+hasCapPrice,MonetaryPrice,rdf-schema#range
+BasketOption,ExoticOption,rdf-schema#subClassOf
+hasOptionHolder,OptionHolder,rdf-schema#range
+BondOption,"option giving the buyer (holder) the right, but not the obligation, to buy or sell (depending on whether it is a call or a put) a bond at a certain price on or before a specified date",core#definition
+Straddle,owl#Class,22-rdf-syntax-ns#type
+N0b395432fe334affa3a44ea17a11bf11,owl#Restriction,22-rdf-syntax-ns#type
+Option,Nb99d7f8ad363412da574bb84791e1511,rdf-schema#subClassOf
+StripStrategy,"option trading strategy that involves a sequential set of options with periodic reset dates, such that each period between resets behaves like an individual option",core#definition
+N29c9155ec70942819dc0cdedf9310e3d,comprises,owl#onProperty
+,"Options.rdf version of this ontology was revised to correct a restriction on an option with respect to an optional option premium which was not well-formed, and modified the definition of interest rate option to reflect a benchmark, and to be a specialization of vanilla option.",core#changeNote
+hasOptionHolder,hasContractParty,rdf-schema#subPropertyOf
+hasCapPrice,price at which the contract may be exercised,core#definition
+N4382278078b74fb2817d80b4d815f1b5,hasExerciseStyle,owl#onProperty
+Nfcf9dcc892d64eed8375e4886048931a,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+AtTheMoney,"An ATM option has a delta of ±0.50, positive if it is a call, negative for a put.",explanatoryNote
+Neb9b9b2cae174d619ca487de423b4a30,CallOption,owl#onClass
+LongTermEquityAnticipationSecurity,N6b0eda61af0644088a2c1dd7fac4e5f9,rdf-schema#subClassOf
+BasketOption,N6c0130039afe43d29800c57fbf8d2e9b,rdf-schema#subClassOf
+StrikePrice,price at which a lot of the underlying asset may be bought or sold when the contract is exercised,core#definition
+InTheMoney,owl#NamedIndividual,22-rdf-syntax-ns#type
+AtTheMoney,Moneyness,22-rdf-syntax-ns#type
+RiskReversal,risk reversal,rdf-schema#label
+hasSettlementDateOffset,indicats the period in days between each reset date and the corresponding settlement date,core#definition
+OptionOnFuture,N0b395432fe334affa3a44ea17a11bf11,rdf-schema#subClassOf
+ProtectiveCollar,N81e8b0ad791a42c1994ac5c2d66f52e1,rdf-schema#subClassOf
+IronCondor,Ne9a463c3993e4ad396d58ba2d05db11e,rdf-schema#subClassOf
+N676b9fc4e19446b8b2c7cc3534249b58,PutOption,owl#onClass
+Nf293dabe14e441a08c9b5ab302fc7ba7,Option,owl#someValuesFrom
+Nb8797e4d20bc4ceda893b1660e0af45c,0,owl#minQualifiedCardinality
+OptionPremium,owl#Class,22-rdf-syntax-ns#type
+hasOptionHolder,Option,rdf-schema#domain
+,"Concepts common to all option contracts. An option gives one party (the holder) the right to purchase or sell the underlying instrument at a given time or times in the future (as determined by the exercise convention), if they choose to do so.",abstract
+Nfbca64b1be084868b13ad4bbd4e6ed80,comprises,owl#onProperty
+OptionOnFuture,option on future,rdf-schema#label
+BondOption,owl#Class,22-rdf-syntax-ns#type
+Straddle,OptionTradingStrategy,rdf-schema#subClassOf
+InTheMoney,An in-the-money call option means the option holder has the opportunity to buy the security below its current market price. An in-the-money put option means the option holder can sell the security above its current market price.,explanatoryNote
+OptionHolder,party that owns an option,core#definition
+StripStrategy,OptionTradingStrategy,rdf-schema#subClassOf
+,Options Ontology,rdf-schema#label
+N29c9155ec70942819dc0cdedf9310e3d,2,owl#qualifiedCardinality
+Collar,collar,rdf-schema#label
+Nffdf73f99c224cb69c1af5250543aa47,1,owl#qualifiedCardinality
+FixedIncomeOption,"option giving the buyer (holder) the right, but not the obligation, to buy (via a call option) or sell (via a put option) the underlying fixed income assets specified at a pre-determined price (i.e., the strike price, fixed or calculated), on or before a specified date (the expiration date)",core#definition
+N6c0130039afe43d29800c57fbf8d2e9b,hasPriceDeterminationMethod,owl#onProperty
+hasInterestAccrualDateOffset,Duration,rdf-schema#range
+Straddle,Nef538761c4b44b17b5c880486737bf4d,rdf-schema#subClassOf
+Option,N4382278078b74fb2817d80b4d815f1b5,rdf-schema#subClassOf
+hasExerciseSchedule,Schedule,rdf-schema#range
+N39c4c5b9905f490c99e06550f8d84760,hasQuantityValue,owl#onProperty
+ProtectiveCollar,owl#Class,22-rdf-syntax-ns#type

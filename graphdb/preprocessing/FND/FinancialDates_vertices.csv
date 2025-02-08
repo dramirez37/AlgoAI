@@ -1,0 +1,355 @@
+id,type,name
+Neb3eb26529254f4fb94d783e59917399,Entity,Neb3eb26529254f4fb94d783e59917399
+schedule consisting of some number of individual events that are not necessarily recurring,Entity,schedule consisting of some number of individual events that are not necessarily recurring
+hasOverallPeriod,Entity,hasOverallPeriod
+FromStart,Entity,FromStart
+frequency,Entity,frequency
+XMLSchema#integer,Entity,XMLSchema#integer
+"relates something to the date it arrived or was delivered, e.g., a loan application request",Entity,"relates something to the date it arrived or was delivered, e.g., a loan application request"
+hasStartDate,Entity,hasStartDate
+"The cmns-dt;hasDate property may be used to reify a date, if it is important to do so for a given application, or if not and typically, the inherited cmns-dt;hasObservedDateTime property may be used together with a cmns-dt;CombinedDateTime value, as long as the resulting schedule is consistent in using one or the other.",Entity,"The cmns-dt;hasDate property may be used to reify a date, if it is important to do so for a given application, or if not and typically, the inherited cmns-dt;hasObservedDateTime property may be used together with a cmns-dt;CombinedDateTime value, as long as the resulting schedule is consistent in using one or the other."
+time interval of seven calendar days starting on a Monday,Entity,time interval of seven calendar days starting on a Monday
+fixed reference point within a series or timeline,Entity,fixed reference point within a series or timeline
+N168402a0b65543589ec561f13043a343,Entity,N168402a0b65543589ec561f13043a343
+hasInitialStub,Entity,hasInitialStub
+has opening date time,Entity,has opening date time
+calendar period,Entity,calendar period
+DatedCollectionConstituent,Entity,DatedCollectionConstituent
+time interval that has duration 1 day and that meets a Tuesday,Entity,time interval that has duration 1 day and that meets a Tuesday
+"Copyright (c) 2014-2024 EDM Council, Inc.",Entity,"Copyright (c) 2014-2024 EDM Council, Inc."
+anchor date,Entity,anchor date
+"specifies the total number of things in a collection, such as the number of entries in a regular schedule",Entity,"specifies the total number of things in a collection, such as the number of entries in a regular schedule"
+Na6c89ed621994afabaa6f31ccab184cc,Entity,Na6c89ed621994afabaa6f31ccab184cc
+hasAsOfDate,Entity,hasAsOfDate
+calendar year,Entity,calendar year
+" version of this ontology was revised by the FIBO FND 1.2 RTF in order to introduce the definition of a time interval, which is a location, to ground some of the concepts such as a date period, and duration as well as to support the definition of business recurrence intervals for use in parametric schedules for securities.",Entity," version of this ontology was revised by the FIBO FND 1.2 RTF in order to introduce the definition of a time interval, which is a location, to ground some of the concepts such as a date period, and duration as well as to support the definition of business recurrence intervals for use in parametric schedules for securities."
+calculation period,Entity,calculation period
+has anchor date,Entity,has anchor date
+owl#Restriction,Entity,owl#Restriction
+CalculationPeriodLength,Entity,CalculationPeriodLength
+ version of this ontology was revised to add the concept of age and a corresponding property that supports its use.,Entity, version of this ontology was revised to add the concept of age and a corresponding property that supports its use.
+dated collection constituent,Entity,dated collection constituent
+hasDateReceived,Entity,hasDateReceived
+hasAge,Entity,hasAge
+It is different from the creation date and need not be the last date of the DatePeriod covered.,Entity,It is different from the creation date and need not be the last date of the DatePeriod covered.
+Thursday,Entity,Thursday
+owl#NamedIndividual,Entity,owl#NamedIndividual
+ad hoc schedule entry,Entity,ad hoc schedule entry
+AdHocSchedule,Entity,AdHocSchedule
+explicit recurrence interval,Entity,explicit recurrence interval
+XMLSchema#string,Entity,XMLSchema#string
+"Other ontologies can extend AdHocScheduleEntry as needed. In particular, the Occurrences ontology extends AdHocScheduleEntry to consist of occurrences (events) of a given OccurrenceKind. The meaning is that an ad hoc schedule entry comprises a date and an event which is scheduled to occur on that date.",Entity,"Other ontologies can extend AdHocScheduleEntry as needed. In particular, the Occurrences ontology extends AdHocScheduleEntry to consist of occurrences (events) of a given OccurrenceKind. The meaning is that an ad hoc schedule entry comprises a date and an event which is scheduled to occur on that date."
+"One Saturday is the time interval that has duration 1 day and that starts Gregorian year 2000. This requirement anchors the repeating sequence of days of week to specific Gregorian days. It requires that January 1, 2000 is a Saturday. It follows that January 2, 2000 must be the Sunday that it meets, and so on.",Entity,"One Saturday is the time interval that has duration 1 day and that starts Gregorian year 2000. This requirement anchors the repeating sequence of days of week to specific Gregorian days. It requires that January 1, 2000 is a Saturday. It follows that January 2, 2000 must be the Sunday that it meets, and so on."
+Saturday,Entity,Saturday
+"A settlement date, defined as T+3: three days after the trade date. The 'hasRelativeDuration' property is set to '3D'.",Entity,"A settlement date, defined as T+3: three days after the trade date. The 'hasRelativeDuration' property is set to '3D'."
+The first day of a calendar quarter. (The offsetDay is zero.),Entity,The first day of a calendar quarter. (The offsetDay is zero.)
+has closing date time,Entity,has closing date time
+1,Entity,1
+"time interval resulting from the division of a calendar year in 12 time intervals, each with a specific name and containing a specific number of calendar days",Entity,"time interval resulting from the division of a calendar year in 12 time intervals, each with a specific name and containing a specific number of calendar days"
+"A corporate bond pays interest for 10 years starting on the first day of 2015. Interest payments are due 15 days after the expiration of each 6 month period: on July 15 and January 16.
+
+The payment schedule is a RegularSchedule, with these properties:
+
+* comprises: identifies the interest payment details
+* overall DatePeriod starting date is '2015-01-01', ending date is '2025-01-15', and duration is 'P10Y15D'
+* hasCount is 20 (2 payments per year for 10 years)
+* hasRecurrenceInterval is 'P6M'
+* hasRecurrenceStartDate is '2015-01-15'",Entity,"A corporate bond pays interest for 10 years starting on the first day of 2015. Interest payments are due 15 days after the expiration of each 6 month period: on July 15 and January 16.
+
+The payment schedule is a RegularSchedule, with these properties:
+
+* comprises: identifies the interest payment details
+* overall DatePeriod starting date is '2015-01-01', ending date is '2025-01-15', and duration is 'P10Y15D'
+* hasCount is 20 (2 payments per year for 10 years)
+* hasRecurrenceInterval is 'P6M'
+* hasRecurrenceStartDate is '2015-01-15'"
+schedule,Entity,schedule
+hasDatePeriod,Entity,hasDatePeriod
+A relative duration may be negative.,Entity,A relative duration may be negative.
+hasCalendarPeriod,Entity,hasCalendarPeriod
+FinancialDates.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.,Entity,FinancialDates.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.
+calendar-specified interval,Entity,calendar-specified interval
+" version of this ontology was revised by the FIBO 2.0 RFC in order to introduce the definition of a time instant, to eliminate a reasoning issue with relative dates, and remove a circular dependency inadvertently incorporated in the ontology with a FIBO FND 1.2 modification.",Entity," version of this ontology was revised by the FIBO 2.0 RFC in order to introduce the definition of a time instant, to eliminate a reasoning issue with relative dates, and remove a circular dependency inadvertently incorporated in the ontology with a FIBO FND 1.2 modification."
+This ontology provides definitions of date and schedule concepts for use in other FIBO ontologies.,Entity,This ontology provides definitions of date and schedule concepts for use in other FIBO ontologies.
+the day and time at which something closes,Entity,the day and time at which something closes
+CalendarWeek,Entity,CalendarWeek
+"This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification. It is also needed to provide temporal relationships for Ownership and Control.
+
+These three ontologies are designed for use together:
+
+	* FinancialDates -- financial Dates and Schedules
+	* BusinessDates -- business day adjustments
+	* Occurrences -- occurrences (events) and kinds of occurrences
+
+They are modularized this way to minimize the ontological committments that are imposed upon ontologies that rely upon them. Ontologies can import FinancialDates alone, or FinancialDates + BusinessDates, or FinancialDates + Occurrences, or all three together.",Entity,"This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification. It is also needed to provide temporal relationships for Ownership and Control.
+
+These three ontologies are designed for use together:
+
+	* FinancialDates -- financial Dates and Schedules
+	* BusinessDates -- business day adjustments
+	* Occurrences -- occurrences (events) and kinds of occurrences
+
+They are modularized this way to minimize the ontological committments that are imposed upon ontologies that rely upon them. Ontologies can import FinancialDates alone, or FinancialDates + BusinessDates, or FinancialDates + Occurrences, or all three together."
+specifies a fixed reference point within a series or timeline,Entity,specifies a fixed reference point within a series or timeline
+duration between two explicit dates,Entity,duration between two explicit dates
+CalendarSpecifiedInterval,Entity,CalendarSpecifiedInterval
+element of a collection that is associated with a date and time,Entity,element of a collection that is associated with a date and time
+hasOpeningDateTime,Entity,hasOpeningDateTime
+relates something to the date on which it is accurate or valid (e.g. a credit report has an asOfDate that means the date when the information was drawn),Entity,relates something to the date on which it is accurate or valid (e.g. a credit report has an asOfDate that means the date when the information was drawn)
+indicates the frequency with which some event or publication occurs,Entity,indicates the frequency with which some event or publication occurs
+ version of this ontology was revised to add hasOpeningDateTime and hasClosingDateTime for use in defining trading days and sessions and eliminated the functional property declaration on hasExplicitDate.,Entity, version of this ontology was revised to add hasOpeningDateTime and hasClosingDateTime for use in defining trading days and sessions and eliminated the functional property declaration on hasExplicitDate.
+Nbd7b6b05a02c43eb94737449a78bfafd,Entity,Nbd7b6b05a02c43eb94737449a78bfafd
+owl#FunctionalProperty,Entity,owl#FunctionalProperty
+or times when they will be done,Entity,or times when they will be done
+owl#DatatypeProperty,Entity,owl#DatatypeProperty
+hasAnchorDate,Entity,hasAnchorDate
+"The nth day is an ordinal number, not a cardinal number. '1' means the first day of the calendar period.",Entity,"The nth day is an ordinal number, not a cardinal number. '1' means the first day of the calendar period."
+time direction indicating that a calendar-specified date is the nth day from the beginning of a calendar period.,Entity,time direction indicating that a calendar-specified date is the nth day from the beginning of a calendar period.
+date that is or will be determined based on some formula,Entity,date that is or will be determined based on some formula
+MIT,Entity,MIT
+Nded014cd38ad4fc08dc8d8d9679b27be,Entity,Nded014cd38ad4fc08dc8d8d9679b27be
+has final stub,Entity,has final stub
+hasDurationValue,Entity,hasDurationValue
+N72128dd7b5d549dbaf334831942c68ee,Entity,N72128dd7b5d549dbaf334831942c68ee
+Nf652f17c534b4e588717e9f5c6478397,Entity,Nf652f17c534b4e588717e9f5c6478397
+N98f0d0d4136f44398706ffa420e579fe,Entity,N98f0d0d4136f44398706ffa420e579fe
+hasClosingDateTime,Entity,hasClosingDateTime
+has initial stub,Entity,has initial stub
+calculation period length,Entity,calculation period length
+"The hasDateValue property of a CalculatedDate is not set until the Date is calculated. Since the calculation may depend upon future events that may or may not ever happen, the hasDateValue property may never be set.",Entity,"The hasDateValue property of a CalculatedDate is not set until the Date is calculated. Since the calculation may depend upon future events that may or may not ever happen, the hasDateValue property may never be set."
+time direction indicating that a calendar-specified date is the nth date from the end of a calendar period,Entity,time direction indicating that a calendar-specified date is the nth date from the end of a calendar period
+hasOrdinalNumber,Entity,hasOrdinalNumber
+Schedule,Entity,Schedule
+Monday,Entity,Monday
+"ISO 8601, clause 2.2.11",Entity,"ISO 8601, clause 2.2.11"
+calendar week,Entity,calendar week
+time interval that has duration 1 day and that meets a Monday,Entity,time interval that has duration 1 day and that meets a Monday
+"identifies a date period that includes all the dates of a schedule, including any schedule stubs",Entity,"identifies a date period that includes all the dates of a schedule, including any schedule stubs"
+"The last day of each quarter, specified as RelativeDay 1, and TimeDirection set to FromEnd.",Entity,"The last day of each quarter, specified as RelativeDay 1, and TimeDirection set to FromEnd."
+" version of this ontology was revised to introduce a composite date datatype to allow for cases whereby the representation of a date for certain purposes, such as GLEIF LEI data, is inconsistent, and to facilitate mapping FIBO to multiple data sources in user environments.",Entity," version of this ontology was revised to introduce a composite date datatype to allow for cases whereby the representation of a date for certain purposes, such as GLEIF LEI data, is inconsistent, and to facilitate mapping FIBO to multiple data sources in user environments."
+N99e7c32a4e36415c87f1680b4804b208,Entity,N99e7c32a4e36415c87f1680b4804b208
+time interval that has duration 1 day and that meets a Sunday,Entity,time interval that has duration 1 day and that meets a Sunday
+Age,Entity,Age
+has stub,Entity,has stub
+SpecifiedDate,Entity,SpecifiedDate
+The Occurrences ontology extends ScheduleStub to 'comprise' an OccurrenceKind. The meaning is that a schedule stub comprises a date period and an event which is scheduled to occur during that date period; in other words that an Occurrence of the OccurrenceKind should happen during the DatePeriod of the ScheduleStub.,Entity,The Occurrences ontology extends ScheduleStub to 'comprise' an OccurrenceKind. The meaning is that a schedule stub comprises a date period and an event which is scheduled to occur during that date period; in other words that an Occurrence of the OccurrenceKind should happen during the DatePeriod of the ScheduleStub.
+schedule stub,Entity,schedule stub
+CalendarQuarter,Entity,CalendarQuarter
+N33b28687257e4df1bd3e2b6d9cae1f78,Entity,N33b28687257e4df1bd3e2b6d9cae1f78
+hasDate,Entity,hasDate
+CalendarPeriod,Entity,CalendarPeriod
+"A RegularSchedule is a Schedule defined as a set of Dates that start on a recurrence start date and repeat after each recurrence interval. The size of this set is defined by a count.
+
+The 'initial ScheduleStub' associated with a RegularSchedule identifies any special treatment applied before the recurrence start date. Similarly, a 'final ScheduleStub' identifies any special handling at the end of the recurrences. For example, a mortgage loan that is due each calendar month may have an initial payment due before the first calendar month, or a final payment due after the last monthly payment.",Entity,"A RegularSchedule is a Schedule defined as a set of Dates that start on a recurrence start date and repeat after each recurrence interval. The size of this set is defined by a count.
+
+The 'initial ScheduleStub' associated with a RegularSchedule identifies any special treatment applied before the recurrence start date. Similarly, a 'final ScheduleStub' identifies any special handling at the end of the recurrences. For example, a mortgage loan that is due each calendar month may have an initial payment due before the first calendar month, or a final payment due after the last monthly payment."
+"time interval of 3 months, starting on January 1, April 1, July 1, or October 1",Entity,"time interval of 3 months, starting on January 1, April 1, July 1, or October 1"
+has date added,Entity,has date added
+ad hoc schedule,Entity,ad hoc schedule
+"The terms 'calendar xxx' are intended to reinforce that these are periods on a calendar, not durations. 
+
+For example, a calendar year always starts on a January 1 and ends on a December 31. The term 'calendar year' does not mean the same thing as a duration (an amount of time) of 1 year, nor can a calendar year start on any arbitrary day of a year. For example, a calendar year never starts on September 1.
+
+Similar points apply to other kinds of calendar periods, such as calendar week, calendar month, and calendar quarter.",Entity,"The terms 'calendar xxx' are intended to reinforce that these are periods on a calendar, not durations. 
+
+For example, a calendar year always starts on a January 1 and ends on a December 31. The term 'calendar year' does not mean the same thing as a duration (an amount of time) of 1 year, nor can a calendar year start on any arbitrary day of a year. For example, a calendar year never starts on September 1.
+
+Similar points apply to other kinds of calendar periods, such as calendar week, calendar month, and calendar quarter."
+has calendar period,Entity,has calendar period
+" version of this ontology was revised to move dated collection and dated collection constituent as well as hasObservedDateTime and hasAcquisitionDate to financial dates in order to improve usability, simplify reasoning, made definitions ISO 704 compliant, and eliminate redundant restrictions on ad hoc schedule entry.",Entity," version of this ontology was revised to move dated collection and dated collection constituent as well as hasObservedDateTime and hasAcquisitionDate to financial dates in order to improve usability, simplify reasoning, made definitions ISO 704 compliant, and eliminate redundant restrictions on ad hoc schedule entry."
+hasCount,Entity,hasCount
+ExplicitDatePeriod,Entity,ExplicitDatePeriod
+Wednesday,Entity,Wednesday
+Ne34fa7262e394faf92c626f75f00c51e,Entity,Ne34fa7262e394faf92c626f75f00c51e
+length of time that something or someone has been alive or existed,Entity,length of time that something or someone has been alive or existed
+owl#ObjectProperty,Entity,owl#ObjectProperty
+CalendarYear,Entity,CalendarYear
+hasRecurrenceInterval,Entity,hasRecurrenceInterval
+explicit number of days from the adjusted effective or start date to the adjusted termination or end date calculated in accordance with the applicable day count fraction,Entity,explicit number of days from the adjusted effective or start date to the adjusted termination or end date calculated in accordance with the applicable day count fraction
+hasTimeDirection,Entity,hasTimeDirection
+The use of custom datatypes is outside the OWL 2 RL profile and so users should consider commenting out the restriction on hasObservedDateTime altogether or change the data range to rdfs:Literal in applications that are constrained to OWL 2 RL.,Entity,The use of custom datatypes is outside the OWL 2 RL profile and so users should consider commenting out the restriction on hasObservedDateTime altogether or change the data range to rdfs:Literal in applications that are constrained to OWL 2 RL.
+time interval that has duration 1 day and that meets a Friday,Entity,time interval that has duration 1 day and that meets a Friday
+has recurrence interval,Entity,has recurrence interval
+It is an explicit date chosen to provide context or structure for analyzing data or events.,Entity,It is an explicit date chosen to provide context or structure for analyzing data or events.
+has age,Entity,has age
+The 15th day of each calendar month.,Entity,The 15th day of each calendar month.
+time interval that has duration 1 day and that meets a Saturday,Entity,time interval that has duration 1 day and that meets a Saturday
+Sunday,Entity,Sunday
+BusinessCalendar,Entity,BusinessCalendar
+rule that specifies how a specified date is computed,Entity,rule that specifies how a specified date is computed
+time direction,Entity,time direction
+has schedule,Entity,has schedule
+N1886c70826814906a22728bd89501124,Entity,N1886c70826814906a22728bd89501124
+calculated date,Entity,calculated date
+Nbc0bca9e1fd84059b9fc6ec564a839c8,Entity,Nbc0bca9e1fd84059b9fc6ec564a839c8
+FinancialDates.rdf version of the ontology was modified to eliminate elements that have been deprecated for several quarters (FND-386).,Entity,FinancialDates.rdf version of the ontology was modified to eliminate elements that have been deprecated for several quarters (FND-386).
+the day and time at which something opens,Entity,the day and time at which something opens
+specified date,Entity,specified date
+The use of custom datatypes is outside the OWL 2 RL profile and so users should consider commenting out the range restriction or change the range to rdfs:Literal in applications that are constrained to OWL 2 RL.,Entity,The use of custom datatypes is outside the OWL 2 RL profile and so users should consider commenting out the range restriction or change the range to rdfs:Literal in applications that are constrained to OWL 2 RL.
+"ISO 8601, clause 2.2.8",Entity,"ISO 8601, clause 2.2.8"
+recurrence interval,Entity,recurrence interval
+"Note that this property is distinct from hasDurationValue, as a relative duration may resolve to a relative date or date time (both of which are time points) rather than an interval, which would result in a logical inconsistency if its parent property is hasDurationValue.",Entity,"Note that this property is distinct from hasDurationValue, as a relative duration may resolve to a relative date or date time (both of which are time points) rather than an interval, which would result in a logical inconsistency if its parent property is hasDurationValue."
+indicates the date something was included in something else,Entity,indicates the date something was included in something else
+Friday,Entity,Friday
+relative date,Entity,relative date
+identifies a specific date that a relative date or relative date period references,Entity,identifies a specific date that a relative date or relative date period references
+links an abbreviated period at the start or end of some schedule to the overall schedule,Entity,links an abbreviated period at the start or end of some schedule to the overall schedule
+has acquisition date,Entity,has acquisition date
+regular schedule,Entity,regular schedule
+hasConstituent,Entity,hasConstituent
+age,Entity,age
+hasRelativeDuration,Entity,hasRelativeDuration
+"FinancialDates.rdf version of this ontology was modified to remove a functional declaration on hasObservedDateTime, which causes reasoning inconsistencies when there are multiple uses of that property for certain individuals, such as for LEI registration.",Entity,"FinancialDates.rdf version of this ontology was modified to remove a functional declaration on hasObservedDateTime, which causes reasoning inconsistencies when there are multiple uses of that property for certain individuals, such as for LEI registration."
+hasExplicitDate,Entity,hasExplicitDate
+CalculationPeriod,Entity,CalculationPeriod
+hasFinalStub,Entity,hasFinalStub
+"A calendar-specified date may be figured with respect to a calendar week, a calendar month, a calendar quarter, or a calendar year.",Entity,"A calendar-specified date may be figured with respect to a calendar week, a calendar month, a calendar quarter, or a calendar year."
+time interval that is consistent between elements of a regular schedule,Entity,time interval that is consistent between elements of a regular schedule
+ version of this ontology was revised to eliminate deprecated elements.,Entity, version of this ontology was revised to eliminate deprecated elements.
+has count,Entity,has count
+identifies any special period at the start of a regular schedule,Entity,identifies any special period at the start of a regular schedule
+business calendar,Entity,business calendar
+N5cb26d15c22b4e5ab0d83a84b04cb35c,Entity,N5cb26d15c22b4e5ab0d83a84b04cb35c
+Date,Entity,Date
+hasStub,Entity,hasStub
+"recurrence interval that is defined as the nth day of some calendar period (such as a calendar month), and a time direction (forward from the beginning of the month, or backwards from the end)",Entity,"recurrence interval that is defined as the nth day of some calendar period (such as a calendar month), and a time direction (forward from the beginning of the month, or backwards from the end)"
+TemporalEntity,Entity,TemporalEntity
+"Note that the use of several options for the representation of a date and time stamp enables extensions for milliseconds, nanoseconds using an xsd:string that has the format of an xsd:dateTime datatype but extends the level of granularity consistently. An example of where this is required is to represent prices that change multiple times in a given day.",Entity,"Note that the use of several options for the representation of a date and time stamp enables extensions for milliseconds, nanoseconds using an xsd:string that has the format of an xsd:dateTime datatype but extends the level of granularity consistently. An example of where this is required is to represent prices that change multiple times in a given day."
+identifies any special period at the end of a regular schedule,Entity,identifies any special period at the end of a regular schedule
+enumeration that indicates whether a calendar-specified date is figured from the start or the end of a calendar period,Entity,enumeration that indicates whether a calendar-specified date is figured from the start or the end of a calendar period
+FinancialDates.rdf version of the ontology was modified to add the general notions of explicit anchor date and calculation period (FBC-317) and to add the concept of a business calendar (FBC-319).,Entity,FinancialDates.rdf version of the ontology was modified to add the general notions of explicit anchor date and calculation period (FBC-317) and to add the concept of a business calendar (FBC-319).
+FinancialDates.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,Entity,FinancialDates.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.
+"Negative ordinal numbers mean 1st before, 2nd before, etc.",Entity,"Negative ordinal numbers mean 1st before, 2nd before, etc."
+Constituent,Entity,Constituent
+"The recurrence start date can be an ExplicitDate or any kind of CalculatedDate. Hence, the starting date could be relative to another Date (e.g. T+3) or triggered by the Occurrence of an OccurrenceKind, etc.
+
+The recurrence start date can also be relative to the starting Date of the overall DatePeriod of the Schedule.",Entity,"The recurrence start date can be an ExplicitDate or any kind of CalculatedDate. Hence, the starting date could be relative to another Date (e.g. T+3) or triggered by the Occurrence of an OccurrenceKind, etc.
+
+The recurrence start date can also be relative to the starting Date of the overall DatePeriod of the Schedule."
+recurrence interval defined via an explicit duration,Entity,recurrence interval defined via an explicit duration
+ISO 8601 clause 2.2.13,Entity,ISO 8601 clause 2.2.13
+controllee to the date or date and time of purchase,Entity,controllee to the date or date and time of purchase
+Release,Entity,Release
+Collection,Entity,Collection
+,Entity,
+has date specification,Entity,has date specification
+N3c2865b59ecd459ea476b01250f54cf4,Entity,N3c2865b59ecd459ea476b01250f54cf4
+" version of this ontology was revised to add the 'has date added' property, which is needed for the date a constituent is added to a basket, among other purposes, to add a TimeOfDay class, needed for representing rate reset times, eliminate duplication with concepts in LCC, and make AdHocScheduleEntry a child of DatedCollectionConstituent.",Entity," version of this ontology was revised to add the 'has date added' property, which is needed for the date a constituent is added to a basket, among other purposes, to add a TimeOfDay class, needed for representing rate reset times, eliminate duplication with concepts in LCC, and make AdHocScheduleEntry a child of DatedCollectionConstituent."
+"The overall period covers the entire DatePeriod of the Schedule, from the earliest Date to the final Date of the Schedule. Schedules may be ad hoc, essentially a list of dates and events without any consistency in the durations between events, regular, in which case there is a consistently recurring interval between events, or a combination of the two. There may be a single overall period, or more than one if the schedule is extended for some reason.",Entity,"The overall period covers the entire DatePeriod of the Schedule, from the earliest Date to the final Date of the Schedule. Schedules may be ad hoc, essentially a list of dates and events without any consistency in the durations between events, regular, in which case there is a consistently recurring interval between events, or a combination of the two. There may be a single overall period, or more than one if the schedule is extended for some reason."
+hasAcquisitionDate,Entity,hasAcquisitionDate
+RelativeDate,Entity,RelativeDate
+from the end,Entity,from the end
+N9cd507e435594ab9aff0252c80ad7a1c,Entity,N9cd507e435594ab9aff0252c80ad7a1c
+schedule whose time intervals recur regularly,Entity,schedule whose time intervals recur regularly
+time interval that has duration 1 day and that meets a Thursday,Entity,time interval that has duration 1 day and that meets a Thursday
+calendar month,Entity,calendar month
+AnchorDate,Entity,AnchorDate
+hasDateSpecification,Entity,hasDateSpecification
+has ordinal number,Entity,has ordinal number
+indicates whether a calendar-specified date is figured from the beginning or end of a calendar period,Entity,indicates whether a calendar-specified date is figured from the beginning or end of a calendar period
+is relative to,Entity,is relative to
+calculated date that is defined by a rule that is captured as a string by the 'hasDateSpecification' property,Entity,calculated date that is defined by a rule that is captured as a string by the 'hasDateSpecification' property
+"A 30 year mortgage calls for monthly payments on the first day of each month, according to a RegularSchedule. If the mortgage does not start on the first day of a calendar month, then an initial ScheduleStub specifies the payment due for the DatePeriod up to the first day of the next calendar month. Similarly, a final ScheduleStub specifies the last payment due for the DatePeriod after the end of the last full calendar month.",Entity,"A 30 year mortgage calls for monthly payments on the first day of each month, according to a RegularSchedule. If the mortgage does not start on the first day of a calendar month, then an initial ScheduleStub specifies the payment due for the DatePeriod up to the first day of the next calendar month. Similarly, a final ScheduleStub specifies the last payment due for the DatePeriod after the end of the last full calendar month."
+ScheduleStub,Entity,ScheduleStub
+ExplicitDate,Entity,ExplicitDate
+StructuredCollection,Entity,StructuredCollection
+ExplicitDuration,Entity,ExplicitDuration
+has overall period,Entity,has overall period
+FinancialDates.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,Entity,FinancialDates.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+explicit period from the start to the end of a specific interval or range within which a computational process or operation occurs,Entity,explicit period from the start to the end of a specific interval or range within which a computational process or operation occurs
+isRelativeTo,Entity,isRelativeTo
+hasObservedDateTime,Entity,hasObservedDateTime
+"academic calendar, bank holiday calendar",Entity,"academic calendar, bank holiday calendar"
+The rule is modeled as a simple String because OWL2 provides no way to model the semantics of such a rule.,Entity,The rule is modeled as a simple String because OWL2 provides no way to model the semantics of such a rule.
+has date received,Entity,has date received
+TimeDirection,Entity,TimeDirection
+Nd2bbe790a0634f66a450fb6c615a25d3,Entity,Nd2bbe790a0634f66a450fb6c615a25d3
+time interval that occurs within a system that fixes the beginning and length of a segment of the year with respect to that system,Entity,time interval that occurs within a system that fixes the beginning and length of a segment of the year with respect to that system
+"or AdHocScheduleEntry as needed to relate the date to something. In particular, the Occurrences ontology extends AdHocScheduleEntry to associate an OccurrenceKind with each entry. The intended meaning is that an Occurrence of the OccurrenceKind happens on the corresponding Date.",Entity,"or AdHocScheduleEntry as needed to relate the date to something. In particular, the Occurrences ontology extends AdHocScheduleEntry to associate an OccurrenceKind with each entry. The intended meaning is that an Occurrence of the OccurrenceKind happens on the corresponding Date."
+time interval that has duration 1 day and that meets a Wednesday,Entity,time interval that has duration 1 day and that meets a Wednesday
+or across organizations,Entity,or across organizations
+The BusinessDates ontology extends 'RegularSchedule' with an optional BusinessDayAdjustment that specifies what should happen if a scheduled date falls on a weekend or a holiday.,Entity,The BusinessDates ontology extends 'RegularSchedule' with an optional BusinessDayAdjustment that specifies what should happen if a scheduled date falls on a weekend or a holiday.
+relates something to the length of time it has existed,Entity,relates something to the length of time it has existed
+N6b40146fb50c40329a5f5fa485e20566,Entity,N6b40146fb50c40329a5f5fa485e20566
+22-rdf-syntax-ns#nil,Entity,22-rdf-syntax-ns#nil
+has time direction,Entity,has time direction
+cyclic time interval in a calendar which is required for one revolution of the Earth around the Sun and approximated to an integral number of calendar days; a year in the Gregorian calendar,Entity,cyclic time interval in a calendar which is required for one revolution of the Earth around the Sun and approximated to an integral number of calendar days; a year in the Gregorian calendar
+N105b9e8c40fd4e45b02d388bf769b012,Entity,N105b9e8c40fd4e45b02d388bf769b012
+DatePeriod,Entity,DatePeriod
+Two days before the end of a calendar month.,Entity,Two days before the end of a calendar month.
+"Copyright (c) 2014-2024 Object Management Group, Inc.",Entity,"Copyright (c) 2014-2024 Object Management Group, Inc."
+"A 30 year mortgage is payable monthly on the 10th of the month, starting July 2015. The mortgage is issued on June 15, 2015 so the first payment is for the period June 15-June 30, and the last payment is for June 1-14 2045.
+
+The payment schedule is a RegularSchedule with these properties:
+
+* comprises: regular payment OccurrenceKind (with payment details) (see the 'comprises' property of the Occurrences ontology)
+* hasInitialStub: June 15-30, 2015 for initial payment
+* hasFinalStub: June 1-14, 2045 for final payment
+* hasCount: 358
+* hasOverallPeriod starting Date: June 15, 2015 with a duration of 30 years
+* hasRecurrenceInterval: specifies 10th day of each calendar month
+* hasRecurrenceStartDate: July 1, 2015",Entity,"A 30 year mortgage is payable monthly on the 10th of the month, starting July 2015. The mortgage is issued on June 15, 2015 so the first payment is for the period June 15-June 30, and the last payment is for June 1-14 2045.
+
+The payment schedule is a RegularSchedule with these properties:
+
+* comprises: regular payment OccurrenceKind (with payment details) (see the 'comprises' property of the Occurrences ontology)
+* hasInitialStub: June 15-30, 2015 for initial payment
+* hasFinalStub: June 1-14, 2045 for final payment
+* hasCount: 358
+* hasOverallPeriod starting Date: June 15, 2015 with a duration of 30 years
+* hasRecurrenceInterval: specifies 10th day of each calendar month
+* hasRecurrenceStartDate: July 1, 2015"
+AdHocScheduleEntry,Entity,AdHocScheduleEntry
+DatedStructuredCollection,Entity,DatedStructuredCollection
+has as-of date,Entity,has as-of date
+FromEnd,Entity,FromEnd
+owl#Class,Entity,owl#Class
+dated structured collection,Entity,dated structured collection
+"date period before the start of the recurring part of a schedule or after the end of the recurring part, which may be associated with a specific occurrence kind",Entity,"date period before the start of the recurring part of a schedule or after the end of the recurring part, which may be associated with a specific occurrence kind"
+CalendarMonth,Entity,CalendarMonth
+from the start,Entity,from the start
+"entry, including a date or date and time, among multiple non-regularly-recurring entries in a schedule",Entity,"entry, including a date or date and time, among multiple non-regularly-recurring entries in a schedule"
+Nd52e928cf8a24971afbc8ccca9e345e3,Entity,Nd52e928cf8a24971afbc8ccca9e345e3
+hasDateAdded,Entity,hasDateAdded
+Nc73759ff1ad04f67b70800f9e6abc61b,Entity,Nc73759ff1ad04f67b70800f9e6abc61b
+calendar quarter,Entity,calendar quarter
+0,Entity,0
+TimeInterval,Entity,TimeInterval
+ExplicitRecurrenceInterval,Entity,ExplicitRecurrenceInterval
+CombinedDateTime,Entity,CombinedDateTime
+"When the 'hasRelativeDuration' property is negative, the RelativeDate is before the 'isRelativeTo' Date; otherwise the RelativeDate is after the 'isRelativeTo' Date.",Entity,"When the 'hasRelativeDuration' property is negative, the RelativeDate is before the 'isRelativeTo' Date; otherwise the RelativeDate is after the 'isRelativeTo' Date."
+RegularSchedule,Entity,RegularSchedule
+RecurrenceInterval,Entity,RecurrenceInterval
+has relative duration,Entity,has relative duration
+indicates a schedule for something,Entity,indicates a schedule for something
+owl#Ontology,Entity,owl#Ontology
+calculated date that is some duration before or after another date,Entity,calculated date that is some duration before or after another date
+Financial Dates Ontology,Entity,Financial Dates Ontology
+hasDuration,Entity,hasDuration
+XMLSchema#positiveInteger,Entity,XMLSchema#positiveInteger
+"specifies a number designating place in an ordered sequence, i.e., 1st, 2nd, 3rd, etc.",Entity,"specifies a number designating place in an ordered sequence, i.e., 1st, 2nd, 3rd, etc."
+"FinancialDates.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",Entity,"FinancialDates.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate."
+CalculatedDate,Entity,CalculatedDate
+"With respect to a scoped measure, such as an economic indicator, the anchor date specifies the reference date against which the value of a numeric index for a more recent date is compared (i.e., the starting point from which it stems).",Entity,"With respect to a scoped measure, such as an economic indicator, the anchor date specifies the reference date against which the value of a numeric index for a more recent date is compared (i.e., the starting point from which it stems)."
+"The Date of an AdHocScheduleEntry can be an ExplicitDate or any kind of CalculatedDate, such as:
+
+* An OccurrenceBasedDate -- a Date that itself is defined by an Occurrence (see the Occurrences ontology)
+* A RelativeDate - a Date relative to another Date, such as T+3
+* A SpecifiedDate - a Date that is defined by an arbitrary rule",Entity,"The Date of an AdHocScheduleEntry can be an ExplicitDate or any kind of CalculatedDate, such as:
+
+* An OccurrenceBasedDate -- a Date that itself is defined by an Occurrence (see the Occurrences ontology)
+* A RelativeDate - a Date relative to another Date, such as T+3
+* A SpecifiedDate - a Date that is defined by an arbitrary rule"
+N0abe731f398d4e948be77c1b695c28ab,Entity,N0abe731f398d4e948be77c1b695c28ab
+"Other ontologies can extend RegularSchedule as needed.
+
+In particular, the Occurrences ontology extends RegularSchedule to 'comprise' an 'OccurrenceKind'. The intended meaning is that a regular schedule comprises a number of scheduled dates and an event which is scheduled to occur on each of those dates, in other words an Occurrence of the OccurrenceKind should happen on each Date defined by the RegularSchedule.",Entity,"Other ontologies can extend RegularSchedule as needed.
+
+In particular, the Occurrences ontology extends RegularSchedule to 'comprise' an 'OccurrenceKind'. The intended meaning is that a regular schedule comprises a number of scheduled dates and an event which is scheduled to occur on each of those dates, in other words an Occurrence of the OccurrenceKind should happen on each Date defined by the RegularSchedule."
+Duration,Entity,Duration
+ eliminate it where it is used.,Entity, eliminate it where it is used.
+Nf323f17551004871ae069a9e41d5fe6e,Entity,Nf323f17551004871ae069a9e41d5fe6e
+Tuesday,Entity,Tuesday
+"identifies a period of time used in computing a calendar-specified date, such as a calendar week, calendar month, calendar quarter, or calendar year",Entity,"identifies a period of time used in computing a calendar-specified date, such as a calendar week, calendar month, calendar quarter, or calendar year"
+hasSchedule,Entity,hasSchedule
+structured collection whose elements are required to have a date and time,Entity,structured collection whose elements are required to have a date and time

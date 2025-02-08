@@ -1,0 +1,116 @@
+source_id,target_id,relationship
+N4f1db758fd90440a8089978b27c3888e,ParValue,owl#hasValue
+RepurchaseAgreement,MoneyMarketInstrument,rdf-schema#subClassOf
+RepurchaseAgreement,Nfc3aa9b426a940e480b4ba0ebd3f328d,rdf-schema#subClassOf
+CommercialPaper,commercial paper,rdf-schema#label
+RepurchaseAgreement,MutualContractualAgreement,rdf-schema#subClassOf
+BankersAcceptance,bankers' acceptance,rdf-schema#label
+RepurchaseAgreement,repurchase agreement,rdf-schema#label
+N8713d0be530744259141e952d5b71fc1,isPlayedBy,owl#onProperty
+BankersAcceptance,N32895c115dfb47acaeecde91ab06b36e,rdf-schema#subClassOf
+N16b05d812fe2443db8da4f7f3ef07b97,hasRelativePriceAtIssue,owl#onProperty
+,TradedShortTermDebt.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N6f594b344ed14e4fbc82b9b12f00a130,AtADiscount,owl#hasValue
+,"Copyright (c) 2018-2024 Object Management Group, Inc.",copyright
+Nfc3aa9b426a940e480b4ba0ebd3f328d,owl#Restriction,22-rdf-syntax-ns#type
+BillOfExchange,bill of exchange,rdf-schema#label
+Nb62d1309a53f4865be04ab1d6cb7a6dd,owl#Restriction,22-rdf-syntax-ns#type
+EurodollarDeposit,"A bank in Japan or Singapore may accept dollar deposits, but these are still called Eurodollar deposits. The market also includes other currencies, so there are Eurosterling, Euroyen, Euroswiss, etc. Eurocurrency is the general term for any currency deposited in bank branches outside countries where it is the national currency.",explanatoryNote
+EurodollarDeposit,CertificateOfDeposit,rdf-schema#subClassOf
+Nb8b02bd94eee452dbfb66002d3a5f177,isIssuedBy,owl#onProperty
+MoneyMarketInstrument,"a short-term debt security that gives the owner the unconditional right to receive a stated, fixed sum of money on a specified date",core#definition
+CommercialPaper,N4f1db758fd90440a8089978b27c3888e,rdf-schema#subClassOf
+Nb62d1309a53f4865be04ab1d6cb7a6dd,Bank,owl#someValuesFrom
+,TradedShortTermDebt.rdf version of this ontology was modified to clarify the definition of bill of exchange.,core#changeNote
+,Traded Short-Term Debt Ontology,rdf-schema#label
+BillOfExchange,owl#Class,22-rdf-syntax-ns#type
+Drawee,Payer,rdf-schema#subClassOf
+,TradedShortTermDebt.rdf version of this ontology was modified to eliminate a circular definition.,core#changeNote
+CommercialPaper,owl#Class,22-rdf-syntax-ns#type
+Ncb9eb4f0e45c4efdb7ea37aad904825f,Drawer,owl#someValuesFrom
+BillOfExchange,draft,synonym
+Ne4316ab41f22480b920b64e734a3d0a9,hasPartyRole,owl#onProperty
+Ne4316ab41f22480b920b64e734a3d0a9,Payee,owl#onClass
+Nd2ba7c0011b14dbd8aa7184680f95561,BillOfExchange,owl#someValuesFrom
+N32895c115dfb47acaeecde91ab06b36e,ParValue,owl#hasValue
+,,owl#imports
+Nd2ba7c0011b14dbd8aa7184680f95561,owl#Restriction,22-rdf-syntax-ns#type
+Drawer,N8713d0be530744259141e952d5b71fc1,rdf-schema#subClassOf
+N5f39dfffce17471e8b88105465427652,owl#Restriction,22-rdf-syntax-ns#type
+BillOfExchange,Ncb9eb4f0e45c4efdb7ea37aad904825f,rdf-schema#subClassOf
+CommercialPaper,MoneyMarketInstrument,rdf-schema#subClassOf
+EurodollarDeposit,"a certificate of deposit with a fixed interest rate issued in U.S. dollars outside the jurisdiction of the Federal Reserve, held at banks outside of the United States, including branches of U.S. banks located outside of the U.S.",core#definition
+Drawee,party that is required to pay the amount stated on the bill of exchange to the payee,core#definition
+Ne4316ab41f22480b920b64e734a3d0a9,0,owl#minQualifiedCardinality
+Ne4316ab41f22480b920b64e734a3d0a9,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#versionIRI
+N0f16da5152f64e4c859e6e53688715ac,BillOfExchange,owl#someValuesFrom
+,owl#Ontology,22-rdf-syntax-ns#type
+Drawee,drawee,rdf-schema#label
+Drawee,owl#Class,22-rdf-syntax-ns#type
+Nb8b02bd94eee452dbfb66002d3a5f177,FinancialInstitution,owl#onClass
+MoneyMarketInstrument,"These instruments usually are traded at a discount in organized markets; the discount is dependent upon the interest rate and the time remaining to maturity. Included are such instruments as treasury bills, commercial and financial paper, bankers' acceptances, negotiable certificates of deposit (with original maturities of one year or less), and short-term notes issued under note issuance facilities.",explanatoryNote
+Drawer,owl#Class,22-rdf-syntax-ns#type
+CommercialPaper,N16b05d812fe2443db8da4f7f3ef07b97,rdf-schema#subClassOf
+N5f39dfffce17471e8b88105465427652,isPlayedBy,owl#onProperty
+MoneyMarketInstrument,money market instrument,rdf-schema#label
+Nfc3aa9b426a940e480b4ba0ebd3f328d,1,owl#maxQualifiedCardinality
+N8713d0be530744259141e952d5b71fc1,Nd2ba7c0011b14dbd8aa7184680f95561,owl#someValuesFrom
+RepurchaseAgreement,REPO,abbreviation
+,"Copyright (c) 2018-2024 EDM Council, Inc.",copyright
+Drawee,N5f39dfffce17471e8b88105465427652,rdf-schema#subClassOf
+Nfc3aa9b426a940e480b4ba0ebd3f328d,Duration,owl#onClass
+BillOfExchange,N9ad3a4376f5a4d41863fecb9b9c7cc41,rdf-schema#subClassOf
+,TradedShortTermDebt.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N4f1db758fd90440a8089978b27c3888e,owl#Restriction,22-rdf-syntax-ns#type
+Nb8b02bd94eee452dbfb66002d3a5f177,owl#Restriction,22-rdf-syntax-ns#type
+BankersAcceptance,BillOfExchange,rdf-schema#subClassOf
+N4f1db758fd90440a8089978b27c3888e,hasRelativePriceAtMaturity,owl#onProperty
+EurodollarDeposit,eurodollar deposit,rdf-schema#label
+Drawer,drawer,rdf-schema#label
+MoneyMarketInstrument,owl#Class,22-rdf-syntax-ns#type
+BillOfExchange,Nb8b02bd94eee452dbfb66002d3a5f177,rdf-schema#subClassOf
+BankersAcceptance,short-term debt instrument that is guaranteed and paid by a bank and used as a relatively safe form of payment for large transactions,core#definition
+BillOfExchange,MoneyMarketInstrument,rdf-schema#subClassOf
+Nd2ba7c0011b14dbd8aa7184680f95561,isAPartyTo,owl#onProperty
+Nb62d1309a53f4865be04ab1d6cb7a6dd,hasGuarantor,owl#onProperty
+CommercialPaper,"an unsecured short-term debt instrument typically issued by a bank, corporation, or foreign government to obtain funds to meet short-term debt obligations, such as accounts receivable, inventories, or payroll, backed only by an issuing bank or company promise to pay the face amount on the maturity date specified on the note",core#definition
+N9ad3a4376f5a4d41863fecb9b9c7cc41,hasPartyRole,owl#onProperty
+BankersAcceptance,owl#Class,22-rdf-syntax-ns#type
+RepurchaseAgreement,owl#Class,22-rdf-syntax-ns#type
+BankersAcceptance,Nb62d1309a53f4865be04ab1d6cb7a6dd,rdf-schema#subClassOf
+Nfc3aa9b426a940e480b4ba0ebd3f328d,hasDuration,owl#onProperty
+N0f16da5152f64e4c859e6e53688715ac,owl#Restriction,22-rdf-syntax-ns#type
+BillOfExchange,"A bill of exchange is a written agreement between two parties - the buyer and the seller - used primarily in international trade. The buyer or seller typically employs a bank to issue the bill of exchange due to the risks involved with international transactions. Bills of exchange can be transferred by endorsement, much like a check. They can also require the buyer to pay a third party - a bank - in the event that the buyer fails to make good on his agreement with the seller.",explanatoryNote
+N6f594b344ed14e4fbc82b9b12f00a130,owl#Restriction,22-rdf-syntax-ns#type
+N8713d0be530744259141e952d5b71fc1,owl#Restriction,22-rdf-syntax-ns#type
+N0f16da5152f64e4c859e6e53688715ac,isAPartyTo,owl#onProperty
+N9ad3a4376f5a4d41863fecb9b9c7cc41,Drawee,owl#someValuesFrom
+RepurchaseAgreement,"Most repos are overnight transactions, with the sale taking place one day and being reversed the next day. Long-term repos - called term repos - can extend for a month or more. Usually, repos are for a fixed period of time, but open-ended deals are also possible. Reverse repo is a term used to describe the opposite side of a repo transaction. The party who sells and later repurchases a security is said to perform a repo. The other party - who purchases and later resells the security - is said to perform a reverse repo. While a repo functions like the sale and subsequent repurchase of a security, but the legal reality and the economic effect is that of a secured loan. This is a loan as the original owner retains the rights to the cashflows of the underlying security. Economically, the party purchasing the security makes funds available to the seller and holds the security as collateral. If the repurchased security pays a dividend, coupon or partial redemptions during the repo, the funds are returned to the original owner. The difference between the sale and repurchase prices paid for the security represent interest on the loan. Indeed, repos are quoted as interest rates. A repo always pays interest at maturity, i.e. there are no periodic interest payments.",explanatoryNote
+N9ad3a4376f5a4d41863fecb9b9c7cc41,owl#Restriction,22-rdf-syntax-ns#type
+BankersAcceptance,N6f594b344ed14e4fbc82b9b12f00a130,rdf-schema#subClassOf
+,"TradedShortTermDebt.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+BillOfExchange,"short-term negotiable financial instrument consisting of an order in writing addressed by one person (the seller of goods) to another (the buyer), requiring the latter to pay a fixed amount of money on demand (a sight draft) or on a predetermined date (a time draft)",core#definition
+N32895c115dfb47acaeecde91ab06b36e,owl#Restriction,22-rdf-syntax-ns#type
+Ncb9eb4f0e45c4efdb7ea37aad904825f,hasPartyRole,owl#onProperty
+,Release,hasMaturityLevel
+N16b05d812fe2443db8da4f7f3ef07b97,AtADiscount,owl#hasValue
+MoneyMarketInstrument,detail.asp?ID=6073,adaptedFrom
+N5f39dfffce17471e8b88105465427652,N0f16da5152f64e4c859e6e53688715ac,owl#someValuesFrom
+N32895c115dfb47acaeecde91ab06b36e,hasRelativePriceAtMaturity,owl#onProperty
+,MIT,license
+,"TradedShortTermDebt.rdf version of this ontology was modified to remove the subclass relationship with respect to fixed income from bankers' acceptance, make bill of exchange a subclass of money market instrument and fix spelling errors.",core#changeNote
+N16b05d812fe2443db8da4f7f3ef07b97,owl#Restriction,22-rdf-syntax-ns#type
+BankersAcceptance,"Considered negotiable instruments with features of a time draft, bankers' acceptances are created by the drawer and provide the bearer with the right to the amount noted on the face of the acceptance on the specified date. Unlike traditional checks, bankers' acceptances function based on the creditworthiness of the banking institution instead of the individual or business acting as the drawer. Additionally, the drawer must provide the funds necessary to support the bankers' acceptance, eliminating the risk associated with insufficient funds on the part of the drawer.",explanatoryNote
+,"This ontology defines a number of basic, traded short-term debt instruments, many of which are considered money market instruments that may be freely traded.",abstract
+RepurchaseAgreement,agreement between two parties whereby one party lends the other a security at a specified price with a commitment to take the security back at a later date for another specified price,core#definition
+N6f594b344ed14e4fbc82b9b12f00a130,hasRelativePriceAtIssue,owl#onProperty
+Ncb9eb4f0e45c4efdb7ea37aad904825f,owl#Restriction,22-rdf-syntax-ns#type
+CommercialPaper,"Commercial paper has a very-short to short maturity period (usually, 2 to 30 days, and rarely more than 270 days).",explanatoryNote
+BillOfExchange,bank draft,synonym
+EurodollarDeposit,owl#Class,22-rdf-syntax-ns#type
+BillOfExchange,Ne4316ab41f22480b920b64e734a3d0a9,rdf-schema#subClassOf
+MoneyMarketInstrument,FixedIncomeSecurity,rdf-schema#subClassOf
+Drawer,party that requires a drawee to pay either a third party or themselves with respect to a bill of exchange,core#definition
+Nb8b02bd94eee452dbfb66002d3a5f177,0,owl#minQualifiedCardinality
+Drawer,Obligee,rdf-schema#subClassOf

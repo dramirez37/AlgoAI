@@ -1,0 +1,171 @@
+source_id,target_id,relationship
+isRegulatedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+N370b36c7f9314c398c90a8e7939e22d3,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+TaxAuthority,"regulatory agency that has jurisdiction over the assessment, determination, collection, imposition and other aspects of any tax",core#definition
+Na768cf8711e84f4f80bb6fce6e092abb,owl#Class,22-rdf-syntax-ns#type
+N69f6079b1fd04fbdaa260baa191b79db,isPlayedBy,owl#onProperty
+RegulatoryService,owl#Class,22-rdf-syntax-ns#type
+RegulationIdentificationScheme,a scheme for organizing information and allocating identifiers to regulations,core#definition
+Nae8ee03b316b4861926d5723db35394b,isProvidedBy,owl#onProperty
+Ne7f21587f1194d24b01bfce5b6ca1615,hasJurisdiction,owl#onProperty
+RegulatoryService,Nae8ee03b316b4861926d5723db35394b,rdf-schema#subClassOf
+RegulatoryService,"a service provided by a regulatory agency, which may include, but not be limited to, examination, monitoring, supervision, testing, or other capabilities required to ensure the integrity, fairness, safety, or other capacity of a given industry, organization, or product",core#definition
+Nd597a3eb215e4a87be346670b10b01b0,owl#Class,22-rdf-syntax-ns#type
+Nd5318a2efc424204bfebe3951693b75d,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N43b16e7e97674746adc5f5e60aa80825,issues,owl#onProperty
+RegulatoryReport,N00cad85f82e64357bac5d13d75ba990a,rdf-schema#subClassOf
+Nc9d2b4d55ec34366904b530584cb374f,1,owl#qualifiedCardinality
+N06c2b7c626a944a183ca2c849f88045e,N330fee04b12349d09956657fb3e85c1b,22-rdf-syntax-ns#rest
+N910f2f9f567c4afaa0b0c13f777cc362,owl#Restriction,22-rdf-syntax-ns#type
+Nf76adc8fd6bc41a3b314cea5842132a3,owl#Restriction,22-rdf-syntax-ns#type
+Nc9d2b4d55ec34366904b530584cb374f,LegallyCompetentNaturalPerson,owl#onClass
+RegulatoryAgency,regulatory body,synonym
+RegulatoryCapacity,owl#Class,22-rdf-syntax-ns#type
+TaxAuthority,Ne7f21587f1194d24b01bfce5b6ca1615,rdf-schema#subClassOf
+Nb6a61338215946e4a7be7997e796509b,0,owl#minQualifiedCardinality
+Nf6037d3dcd744f05a52c023d743354a1,isPlayedBy,owl#onProperty
+Nf6037d3dcd744f05a52c023d743354a1,Nd597a3eb215e4a87be346670b10b01b0,owl#someValuesFrom
+TaxAuthority,RegulatoryAgency,rdf-schema#subClassOf
+Nae8ee03b316b4861926d5723db35394b,RegulatoryAgency,owl#someValuesFrom
+Nd597a3eb215e4a87be346670b10b01b0,N2ac9c1f447ac4f0cbffa4b0dd88f13ae,owl#intersectionOf
+,Regulatory Agencies Ontology,rdf-schema#label
+RegulatoryAgency,regulatory authority,synonym
+TaxAuthority,tax-authority,adaptedFrom
+regulates,regulates,rdf-schema#label
+Ne37af6eadf9d4abe93207c1278b63683,isIssuedBy,owl#onProperty
+N06c2b7c626a944a183ca2c849f88045e,Contract,22-rdf-syntax-ns#first
+Nb6a61338215946e4a7be7997e796509b,owl#Restriction,22-rdf-syntax-ns#type
+RegulationIdentifier,Identifier,rdf-schema#subClassOf
+N5e657dad83ed48f0924c1c166d0e7d4d,RegulatoryAgency,owl#onClass
+,RegulatoryAgencies.rdf version of this ontology was modified to address text formatting hygiene issues.,core#changeNote
+,,owl#imports
+Examiner,EDM Council,adaptedFrom
+Ne7f21587f1194d24b01bfce5b6ca1615,Jurisdiction,owl#someValuesFrom
+RegulatoryService,Service,rdf-schema#subClassOf
+N910f2f9f567c4afaa0b0c13f777cc362,isMemberOf,owl#onProperty
+Examiner,owl#Class,22-rdf-syntax-ns#type
+regulates,owl#ObjectProperty,22-rdf-syntax-ns#type
+RegulationIdentificationScheme,IdentificationScheme,rdf-schema#subClassOf
+N69f6079b1fd04fbdaa260baa191b79db,1,owl#qualifiedCardinality
+GovernmentIssuedLicense,"Barron's Dictionary of Business and Economics Terms, Fifth Edition, 2012",adaptedFrom
+N910f2f9f567c4afaa0b0c13f777cc362,1,owl#qualifiedCardinality
+N43b16e7e97674746adc5f5e60aa80825,GovernmentIssuedLicense,owl#onClass
+N69f6079b1fd04fbdaa260baa191b79db,FormalOrganization,owl#onClass
+TaxAuthority,owl#Class,22-rdf-syntax-ns#type
+N0db723ba57b043c6a5400baf181f7294,owl#Restriction,22-rdf-syntax-ns#type
+,RegulatoryAgencies.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N69f6079b1fd04fbdaa260baa191b79db,owl#Restriction,22-rdf-syntax-ns#type
+TaxAuthority,tax authority,rdf-schema#label
+Ne37af6eadf9d4abe93207c1278b63683,owl#Restriction,22-rdf-syntax-ns#type
+,RegulatoryAgencies.rdf version of this ontology was modified as a part of organizational hierarchy simplification.,core#changeNote
+regulates,"has regulatory authority over or directs according to rule or law, typically an industry, organization, or product",core#definition
+RegulationIdentifier,regulation identifier,rdf-schema#label
+RegulatoryAgency,regulatory+agency,adaptedFrom
+isRegulatedBy,RegulatoryAgency,rdf-schema#range
+Na768cf8711e84f4f80bb6fce6e092abb,N06c2b7c626a944a183ca2c849f88045e,owl#unionOf
+,,owl#versionIRI
+RegulatoryReport,"a report required to support operational transparency that demonstrates compliance with some specification, law, policy, restriction, or other rule specified by a regulatory agency",core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+RegulatoryAgency,Nac65e2ba68c24ab4bb42b70e41fb65b9,rdf-schema#subClassOf
+,"RegulatoryAgencies.rdf version of this ontology was modified to eliminate deprecated elements and duplication of concepts with LCC, and remove a redundant superclass declaration on GovernmentIssuedLicense.",core#changeNote
+,"Copyright (c) 2015-2023 EDM Council, Inc.",copyright
+GovernmentIssuedLicense,N472a2ca6a69b4bcb8a10b99dcb71bb90,rdf-schema#subClassOf
+Nd5318a2efc424204bfebe3951693b75d,N5e657dad83ed48f0924c1c166d0e7d4d,22-rdf-syntax-ns#first
+GovernmentIssuedLicense,government-issued license,rdf-schema#label
+N3511a8a7af7649f9a1b3e78b688551c5,hasJurisdiction,owl#onProperty
+N00cad85f82e64357bac5d13d75ba990a,Na768cf8711e84f4f80bb6fce6e092abb,owl#someValuesFrom
+Examiner,a party empowered as an official representative by a regulatory agency to investigate and review specified documents for accuracy and truthfulness,core#definition
+Nac65e2ba68c24ab4bb42b70e41fb65b9,owl#Restriction,22-rdf-syntax-ns#type
+RegulatoryCapacity,"the capacity of some natural person to regulate some industry, organization, or product by virtue of some certification program on behalf of some regulatory agency",core#definition
+RegulationIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+Examiner,examiner,rdf-schema#label
+N472a2ca6a69b4bcb8a10b99dcb71bb90,RegulatoryAgency,owl#someValuesFrom
+Nb6a61338215946e4a7be7997e796509b,TaxIdentifier,owl#onClass
+N2ac9c1f447ac4f0cbffa4b0dd88f13ae,N0db723ba57b043c6a5400baf181f7294,22-rdf-syntax-ns#first
+,RegulatoryAgencies.rdf version of this ontology was modified to clean up the definition of regulatory agency.,core#changeNote
+,"Copyright (c) 2015-2023 Object Management Group, Inc.",copyright
+RegulationIdentifier,an identifier associated with a regulation,core#definition
+RegulationIdentifier,N910f2f9f567c4afaa0b0c13f777cc362,rdf-schema#subClassOf
+RegulatoryAgency,N3511a8a7af7649f9a1b3e78b688551c5,rdf-schema#subClassOf
+Nae8ee03b316b4861926d5723db35394b,owl#Restriction,22-rdf-syntax-ns#type
+N330fee04b12349d09956657fb3e85c1b,N6f5e44c2fbd8463cb20aaefe02070958,22-rdf-syntax-ns#rest
+N00cad85f82e64357bac5d13d75ba990a,owl#Restriction,22-rdf-syntax-ns#type
+N0d26899633a5467682a933ede497726b,owl#Restriction,22-rdf-syntax-ns#type
+Examiner,,adaptedFrom
+Nfdc7adcb3fa4478c8a921fe7467fbb33,owl#Restriction,22-rdf-syntax-ns#type
+,RegulatoryAgencies.rdf version of this ontology was modified to add the concept of a tax authority.,core#changeNote
+GovernmentIssuedLicense,owl#Class,22-rdf-syntax-ns#type
+RegulatoryAgency,ServiceProvider,rdf-schema#subClassOf
+isRegulatedBy,is regulated by,rdf-schema#label
+Nc9d2b4d55ec34366904b530584cb374f,isPlayedBy,owl#onProperty
+Nfdc7adcb3fa4478c8a921fe7467fbb33,TaxIdentificationScheme,owl#someValuesFrom
+N2ac9c1f447ac4f0cbffa4b0dd88f13ae,Nd5318a2efc424204bfebe3951693b75d,22-rdf-syntax-ns#rest
+GovernmentIssuedLicense,License,rdf-schema#subClassOf
+RegulatoryAgency,N43b16e7e97674746adc5f5e60aa80825,rdf-schema#subClassOf
+GovernmentIssuedLicense,"grant of permission needed to legally perform some task, provide some service, exercise a certain privilege, or pursue some business or occupation",core#definition
+RegulatoryAgency,"Typically, a regulatory agency is chartered to protect some constituancy, (e.g., investors in the financial industry), to ensure the fairness and integrity of some market (e.g., the securities market), and fair and safe business practices among the service providers in that market.",explanatoryNote
+Ne7f21587f1194d24b01bfce5b6ca1615,owl#Restriction,22-rdf-syntax-ns#type
+N0db723ba57b043c6a5400baf181f7294,hasCapacity,owl#onProperty
+RegulatoryAgency,regulator,synonym
+regulates,RegulatoryAgency,rdf-schema#domain
+RegulatoryCapacity,LegalCapacity,rdf-schema#subClassOf
+RegulatoryCapacity,regulatory capacity,rdf-schema#label
+N5e657dad83ed48f0924c1c166d0e7d4d,owl#Restriction,22-rdf-syntax-ns#type
+Nb6a61338215946e4a7be7997e796509b,issues,owl#onProperty
+Examiner,Nc9d2b4d55ec34366904b530584cb374f,rdf-schema#subClassOf
+RegulatoryReport,regulatory report,rdf-schema#label
+RegulatoryAgency, for an example describing a regulatory agency.,core#example
+Regulation,Ne37af6eadf9d4abe93207c1278b63683,rdf-schema#subClassOf
+N370b36c7f9314c398c90a8e7939e22d3,Regulation,22-rdf-syntax-ns#first
+regulates,regulate,adaptedFrom
+N3511a8a7af7649f9a1b3e78b688551c5,Jurisdiction,owl#someValuesFrom
+N5e657dad83ed48f0924c1c166d0e7d4d,denotes,owl#onProperty
+,"This ontology defines general purpose concepts for representation of regulatory agencies, also known as regulatory authorities or regulators. Examples of financial industry regulatory agencies in the US include the Securities Exchange Commission, FINRA, and the FDIC, among others. The SEC and FINRA are both registration authorities and regulatory agencies. The FDIC is a regulatory agency and an insurer, and may be a registration authority for certain state-chartered banks in the US without bank holding companies.",abstract
+N0d26899633a5467682a933ede497726b,1,owl#qualifiedCardinality
+,"RegulatoryAgencies.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+RegulatoryAgency,Regulatory_agency,adaptedFrom
+N43b16e7e97674746adc5f5e60aa80825,0,owl#minQualifiedCardinality
+N43b16e7e97674746adc5f5e60aa80825,owl#Restriction,22-rdf-syntax-ns#type
+TaxAuthority,Nb6a61338215946e4a7be7997e796509b,rdf-schema#subClassOf
+Ne37af6eadf9d4abe93207c1278b63683,RegulatoryAgency,owl#onClass
+RegulationIdentificationScheme,Nf76adc8fd6bc41a3b314cea5842132a3,rdf-schema#subClassOf
+Nfdc7adcb3fa4478c8a921fe7467fbb33,manages,owl#onProperty
+isRegulatedBy,indicates a regulatory agency that has regulatory authority for something,core#definition
+N910f2f9f567c4afaa0b0c13f777cc362,RegulationIdentificationScheme,owl#onClass
+Regulation,owl#Class,22-rdf-syntax-ns#type
+Nf76adc8fd6bc41a3b314cea5842132a3,hasMember,owl#onProperty
+N0db723ba57b043c6a5400baf181f7294,RegulatoryCapacity,owl#someValuesFrom
+RegulatoryAgency,regulatory agency,rdf-schema#label
+N330fee04b12349d09956657fb3e85c1b,Constitution,22-rdf-syntax-ns#first
+Nac65e2ba68c24ab4bb42b70e41fb65b9,RegulatoryService,owl#someValuesFrom
+RegulatoryReport,owl#Class,22-rdf-syntax-ns#type
+N3511a8a7af7649f9a1b3e78b688551c5,owl#Restriction,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+,MIT,license
+N6f5e44c2fbd8463cb20aaefe02070958,N370b36c7f9314c398c90a8e7939e22d3,22-rdf-syntax-ns#rest
+Nf6037d3dcd744f05a52c023d743354a1,owl#Restriction,22-rdf-syntax-ns#type
+N5e657dad83ed48f0924c1c166d0e7d4d,1,owl#qualifiedCardinality
+Ne37af6eadf9d4abe93207c1278b63683,1,owl#qualifiedCardinality
+RegulationIdentifier,N0d26899633a5467682a933ede497726b,rdf-schema#subClassOf
+RegulatoryAgency,N69f6079b1fd04fbdaa260baa191b79db,rdf-schema#subClassOf
+N0d26899633a5467682a933ede497726b,Regulation,owl#onClass
+N472a2ca6a69b4bcb8a10b99dcb71bb90,isIssuedBy,owl#onProperty
+TaxAuthority,Nfdc7adcb3fa4478c8a921fe7467fbb33,rdf-schema#subClassOf
+Examiner,ResponsibleParty,rdf-schema#subClassOf
+,"RegulatoryAgencies.rdf version of this ontology was modified per the FIBO 2.0 RFC, including deprecation of the hasJurisdiction property that was duplicated in BE via the BE 1.1 RTF.",core#changeNote
+RegulationIdentifier,owl#Class,22-rdf-syntax-ns#type
+Nac65e2ba68c24ab4bb42b70e41fb65b9,provides,owl#onProperty
+Examiner,Nf6037d3dcd744f05a52c023d743354a1,rdf-schema#subClassOf
+RegulatoryAgency,owl#Class,22-rdf-syntax-ns#type
+N00cad85f82e64357bac5d13d75ba990a,isGovernedBy,owl#onProperty
+Nc9d2b4d55ec34366904b530584cb374f,owl#Restriction,22-rdf-syntax-ns#type
+Nf76adc8fd6bc41a3b314cea5842132a3,RegulationIdentifier,owl#someValuesFrom
+,RegulatoryAgencies.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+RegulatoryReport,Report,rdf-schema#subClassOf
+N0d26899633a5467682a933ede497726b,identifies,owl#onProperty
+RegulationIdentificationScheme,regulation identification scheme,rdf-schema#label
+N6f5e44c2fbd8463cb20aaefe02070958,Law,22-rdf-syntax-ns#first
+N472a2ca6a69b4bcb8a10b99dcb71bb90,owl#Restriction,22-rdf-syntax-ns#type
+RegulatoryReport,"Such a report may be needed for licensing, monitoring, taxation, or for other purposes that demonstrate the integrity, fairness, safety, or other capacity of a given industry, organization, or product",explanatoryNote
+RegulatoryService,regulatory service,rdf-schema#label
+RegulatoryAgency,public authority or government agency responsible for exercising authority over something in a regulatory or supervisory capacity,core#definition

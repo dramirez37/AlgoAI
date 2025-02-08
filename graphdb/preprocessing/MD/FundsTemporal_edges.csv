@@ -1,0 +1,80 @@
+source_id,target_id,relationship
+determinationPeriod,DatePeriod,rdf-schema#range
+incursTransactionFee,owl#ObjectProperty,22-rdf-syntax-ns#type
+incursFees,FeePayable,rdf-schema#range
+incursFees,incurs fees,rdf-schema#label
+AccruedTaxes,owl#Class,22-rdf-syntax-ns#type
+AccruedTaxes,accrued taxes,rdf-schema#label
+incursFees.1,incurs fees,rdf-schema#label
+determinationPeriod,determination period,rdf-schema#label
+FundsTax,Nc6deba6b6053495d8667f82768877789,rdf-schema#subClassOf
+hasPerformance,has performance,rdf-schema#label
+determinationDate.1,FundUnitPerformance,rdf-schema#domain
+incurs,FundPortfolio,rdf-schema#domain
+SigmaValueOfHoldings,sigma value of holdings,rdf-schema#label
+determinationDate.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+determines,FeePayable,rdf-schema#range
+incursTax.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+AccruedIncome,owl#Class,22-rdf-syntax-ns#type
+determines,CollectiveInvestmentVehicle,rdf-schema#domain
+Nc6deba6b6053495d8667f82768877789,Investor,owl#someValuesFrom
+,,owl#imports
+determinationPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+FeePayable,fee payable,rdf-schema#label
+incursTax,Investor,rdf-schema#domain
+netOrGrossOfFees,owl#DatatypeProperty,22-rdf-syntax-ns#type
+SwingPrice,swing price,rdf-schema#label
+determinationPeriod,FundUnitPerformance,rdf-schema#domain
+determinationDate.1,determination date,rdf-schema#label
+FeePayable,owl#Class,22-rdf-syntax-ns#type
+incursTransactionFee,FeePayable,rdf-schema#range
+Swing,swing,rdf-schema#label
+FundPrice,owl#Class,22-rdf-syntax-ns#type
+hasPerformance,FundUnitPerformance,rdf-schema#range
+,,owl#versionIRI
+incursFees.1,FeePayable,rdf-schema#range
+,owl#Ontology,22-rdf-syntax-ns#type
+netOrGrossOfFees,FundUnitPerformance,rdf-schema#domain
+incursTransactionFee,FundPortfolio,rdf-schema#domain
+incursFees,Investor,rdf-schema#domain
+FundsTax,owl#Class,22-rdf-syntax-ns#type
+incursFees,owl#ObjectProperty,22-rdf-syntax-ns#type
+incurs,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundUnitPerformance,owl#Class,22-rdf-syntax-ns#type
+netOrGrossOfFees,net or gross of fees,rdf-schema#label
+incursFees.1,FundUnit,rdf-schema#domain
+incursTransactionFee,incurs transaction fee,rdf-schema#label
+,"Terms which have a time component (either real time, intra-day or dated terms). These include Net Present Value (NPV) and related analytics.",abstract
+hasPerformance,owl#ObjectProperty,22-rdf-syntax-ns#type
+determines,owl#ObjectProperty,22-rdf-syntax-ns#type
+incursTax,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundPrice,SecurityPrice,rdf-schema#subClassOf
+FundPrice,fund price,rdf-schema#label
+determinationPeriod,THe period for which the performance is determined,core#definition
+FundsTax,funds tax,rdf-schema#label
+AccruedIncome,accrued income,rdf-schema#label
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+determines,determines,rdf-schema#label
+incursTax,incurs tax,rdf-schema#label
+Nc6deba6b6053495d8667f82768877789,owl#Restriction,22-rdf-syntax-ns#type
+incursTax,FundsTax,rdf-schema#range
+netOrGrossOfFees,XMLSchema#string,rdf-schema#range
+SigmaValueOfHoldings,owl#Class,22-rdf-syntax-ns#type
+incursFees.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+AccruedFees,accrued fees,rdf-schema#label
+,Provisional,hasMaturityLevel
+,MIT,license
+incurs,FundsTax,rdf-schema#range
+determinationDate.1,Date,rdf-schema#range
+AccruedFees,owl#Class,22-rdf-syntax-ns#type
+incursTax.1,incurs tax,rdf-schema#label
+incursTax.1,FundUnit,rdf-schema#domain
+Nc6deba6b6053495d8667f82768877789,appliesTo,owl#onProperty
+incursTax.1,FundsTax,rdf-schema#range
+incurs,incurs,rdf-schema#label
+FundUnitPerformance,fund unit performance,rdf-schema#label
+,FundsTemporal,rdf-schema#label
+Swing,owl#Class,22-rdf-syntax-ns#type
+SwingPrice,FundPrice,rdf-schema#subClassOf
+hasPerformance,FundUnit,rdf-schema#domain
+SwingPrice,owl#Class,22-rdf-syntax-ns#type

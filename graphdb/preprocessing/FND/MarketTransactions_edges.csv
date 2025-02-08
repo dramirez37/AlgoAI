@@ -1,0 +1,62 @@
+source_id,target_id,relationship
+paymentTerms,MarketTransactionPaymentTerms,rdf-schema#range
+consideration,EconomicResource,rdf-schema#range
+MarketTransactionPaymentTerms,N9fe4e92182154180ac825e46c7c1fb88,rdf-schema#subClassOf
+N9fe4e92182154180ac825e46c7c1fb88,Payment,owl#someValuesFrom
+MarketTransaction,owl#Class,22-rdf-syntax-ns#type
+MarketTransaction,N8a6c739fc7fa495aba2e1771b64ef79c,rdf-schema#subClassOf
+,,owl#imports
+paymentTerms,owl#ObjectProperty,22-rdf-syntax-ns#type
+N24666bd5409147e783e88e73cce45f43,owl#Restriction,22-rdf-syntax-ns#type
+TransactionCounterparty,Counterparty,rdf-schema#subClassOf
+MarketTransactionInvoicingTerms,EconomicContractTermsSet,rdf-schema#subClassOf
+MarketTransaction,market transaction,rdf-schema#label
+TransactionPrincipal,owl#Class,22-rdf-syntax-ns#type
+Nce947488ae2441df9d5bbda577269cc6,transactsWith,owl#onProperty
+,MIT,license
+N8a6c739fc7fa495aba2e1771b64ef79c,EconomicResource,owl#someValuesFrom
+N593f7583108a40d992668b2f16651d99,owl#Restriction,22-rdf-syntax-ns#type
+N593f7583108a40d992668b2f16651d99,hasPrincipalParty,owl#onProperty
+Nce947488ae2441df9d5bbda577269cc6,TransactionCounterparty,owl#someValuesFrom
+TransactionPrincipal,Nce947488ae2441df9d5bbda577269cc6,rdf-schema#subClassOf
+paymentTerms,MarketTransaction,rdf-schema#domain
+N24666bd5409147e783e88e73cce45f43,paymentTerms,owl#onProperty
+MarketTransaction,N24666bd5409147e783e88e73cce45f43,rdf-schema#subClassOf
+consideration,consideration,rdf-schema#label
+Ndb5d683b8c1e4711a34edb8abf5ed4ef,TransactionCounterparty,owl#someValuesFrom
+,Informative,hasMaturityLevel
+,"Defines the concepts for market transactions in general, on any kind of marketplace. 
+		This ontology is not used directly in FIBO content but provides the conceptual underpinnings for securities market transactions.",abstract
+,,owl#versionIRI
+TransactionCounterparty,owl#Class,22-rdf-syntax-ns#type
+N8a6c739fc7fa495aba2e1771b64ef79c,owl#Restriction,22-rdf-syntax-ns#type
+N24666bd5409147e783e88e73cce45f43,MarketTransactionPaymentTerms,owl#someValuesFrom
+MarketTransactionPaymentTerms,EconomicContractTermsSet,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+MarketTransactionPaymentTerms,market transaction payment terms,rdf-schema#label
+paymentTerms,transactedUnder,rdf-schema#subPropertyOf
+TransactionCounterparty,transaction counterparty,rdf-schema#label
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+TransactionPrincipal,TransactionParty,rdf-schema#subClassOf
+MarketTransactionInvoicingTerms,owl#Class,22-rdf-syntax-ns#type
+MarketTransaction,"Any transaction which defines a supply of some negotiable item in return for some Consideration. The Market Transaction has a Principal and a Counterparty, i.e. it is not symmetrical.",core#definition
+,Market Transactions Ontology,rdf-schema#label
+MarketTransaction,N593f7583108a40d992668b2f16651d99,rdf-schema#subClassOf
+TransactionPrincipal,ContractPrincipal,rdf-schema#subClassOf
+Ndb5d683b8c1e4711a34edb8abf5ed4ef,hasCounterparty,owl#onProperty
+consideration,subject,rdf-schema#subPropertyOf
+consideration,owl#ObjectProperty,22-rdf-syntax-ns#type
+TransactionCounterparty,TransactionParty,rdf-schema#subClassOf
+N8a6c739fc7fa495aba2e1771b64ef79c,consideration,owl#onProperty
+N9fe4e92182154180ac825e46c7c1fb88,governs,owl#onProperty
+MarketTransactionInvoicingTerms,market transaction invoicing terms,rdf-schema#label
+paymentTerms,payment terms,rdf-schema#label
+N593f7583108a40d992668b2f16651d99,TransactionPrincipal,owl#someValuesFrom
+consideration,MarketTransaction,rdf-schema#domain
+Nce947488ae2441df9d5bbda577269cc6,owl#Restriction,22-rdf-syntax-ns#type
+MarketTransaction,EconomicTransaction,rdf-schema#subClassOf
+MarketTransactionPaymentTerms,owl#Class,22-rdf-syntax-ns#type
+N9fe4e92182154180ac825e46c7c1fb88,owl#Restriction,22-rdf-syntax-ns#type
+MarketTransaction,Ndb5d683b8c1e4711a34edb8abf5ed4ef,rdf-schema#subClassOf
+Ndb5d683b8c1e4711a34edb8abf5ed4ef,owl#Restriction,22-rdf-syntax-ns#type
+TransactionPrincipal,transaction principal,rdf-schema#label

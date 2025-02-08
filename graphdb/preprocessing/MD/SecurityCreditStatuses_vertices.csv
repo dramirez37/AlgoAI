@@ -1,0 +1,37 @@
+id,type,name
+XMLSchema#boolean,Entity,XMLSchema#boolean
+LifecycleStatus,Entity,LifecycleStatus
+Provisional,Entity,Provisional
+security credit status,Entity,security credit status
+Security,Entity,Security
+interest payments expected,Entity,interest payments expected
+Not defaulted.,Entity,Not defaulted.
+"Specialize this for preferred stocks, debt tranches and so on.",Entity,"Specialize this for preferred stocks, debt tranches and so on."
+SecurityCashflowStatus,Entity,SecurityCashflowStatus
+owl#Restriction,Entity,owl#Restriction
+"Copyright (c) 2013-2023 EDM Council, Inc.",Entity,"Copyright (c) 2013-2023 EDM Council, Inc."
+,Entity,
+owl#Class,Entity,owl#Class
+SecurityCreditStatuses,Entity,SecurityCreditStatuses
+The issuer has failed to pay somthing that they are contractually obliged to pay.,Entity,The issuer has failed to pay somthing that they are contractually obliged to pay.
+accelerated principal payments expected,Entity,accelerated principal payments expected
+credit o k,Entity,credit o k
+principalPaymentsExpected,Entity,principalPaymentsExpected
+SecurityCreditStatus,Entity,SecurityCreditStatus
+security cashflow status,Entity,security cashflow status
+The status of the cashflow due to the holder from the security.,Entity,The status of the cashflow due to the holder from the security.
+owl#Ontology,Entity,owl#Ontology
+in default,Entity,in default
+appliesTo,Entity,appliesTo
+"This ontology extends the credit status ontology to define credit status concepts that are specific to issued securities. These include cashflow status and the basic credit statuses of being OK or in default. 
+		Note that in application data models these concepts would be represented as one or more selectable code lists or enumerations.",Entity,"This ontology extends the credit status ontology to define credit status concepts that are specific to issued securities. These include cashflow status and the basic credit statuses of being OK or in default. 
+		Note that in application data models these concepts would be represented as one or more selectable code lists or enumerations."
+owl#DatatypeProperty,Entity,owl#DatatypeProperty
+(review 7 Oct 09) Does this exist as a term? This is a characteristic of the instrument not the rating. Because it's in default you can expect the rating to drop. Applies to instrument not to debtor. So a company may have 3 bond issues and may be defualt on only one. 14 Oct: Degrees of defaults e.g. tranche not paying interest due to losses on the underlying portrfolio; tranches being used to pay down more senior tranches.,Entity,(review 7 Oct 09) Does this exist as a term? This is a characteristic of the instrument not the rating. Because it's in default you can expect the rating to drop. Applies to instrument not to debtor. So a company may have 3 bond issues and may be defualt on only one. 14 Oct: Degrees of defaults e.g. tranche not paying interest due to losses on the underlying portrfolio; tranches being used to pay down more senior tranches.
+acceleratedPrincipalPaymentsExpected,Entity,acceleratedPrincipalPaymentsExpected
+principal payments expected,Entity,principal payments expected
+CreditOK,Entity,CreditOK
+MIT,Entity,MIT
+N9237a9bf7511472da29bbba186ff424b,Entity,N9237a9bf7511472da29bbba186ff424b
+InDefault,Entity,InDefault
+interestPaymentsExpected,Entity,interestPaymentsExpected

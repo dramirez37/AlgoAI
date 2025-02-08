@@ -1,0 +1,1015 @@
+source_id,target_id,relationship
+hasFloor,XMLSchema#decimal,rdf-schema#range
+MunicipalTrustee,or transfer agent for the bonds.,explanatoryNote
+SpecialTaxBond,SecuredBond,rdf-schema#subClassOf
+VariableIncomeBond,owl#Class,22-rdf-syntax-ns#type
+hasPremiumAmount,CallFeature,rdf-schema#domain
+N5258318afe9e4b63b53d0b39a7802606,N24a9f86cb0234eb593a1611a6742aa2d,owl#someValuesFrom
+hasFirstPutPrice,MonetaryPrice,rdf-schema#range
+N8bdcea4850114c53a7104cbacae76d25,registers,owl#onProperty
+BondCoupon,nominal yield,synonym
+PercentageCumulativeAverageValue,rate basis calculated as a percentage of cumulative average value,core#definition
+SpecialAssessmentBond,MunicipalBond,rdf-schema#subClassOf
+hasResetDateOffset,hasDate,rdf-schema#subPropertyOf
+BondVariableCoupon,bond coupon that has a variable interest rate,core#definition
+BondAmortizationPaymentTerms,N6ecdcef7eaf94cd0bd57b452899f0f10,rdf-schema#subClassOf
+isBankQualified,"indicates whether or not a given municipal bond conforms with section 265(b)(3) of the IRS tax code; when purchased by a commercial bank for its portfolio, such designation allows the bank to deduct a portion of the interest cost of carry for the position",core#definition
+StripBond,Strip,rdf-schema#subClassOf
+SecuredBond,"bond that is backed by collateral, such as a tangible asset or income stream, in addition to a general promise to pay",core#definition
+Nba7c2cf26b15431bbfa3504d8534442b,XMLSchema#decimal,owl#onDataRange
+BondWithWarrant,"This need not be any specific type of bond. This is NOT a kind of Bond Contract but a kind of Issue Offer, and is modeled as such, in the Issuance Terms section of the model. This class of contract is retained in the model for now in order to provide traceability with the CFI term for ""Bond With Warrant"" only.",core#editorialNote
+StripBond,ZeroCouponBond,rdf-schema#subClassOf
+ZeroCouponTerms,terms for payment of interest on a zero coupon bond,core#definition
+CallableBond,bond that includes a stipulation allowing the issuer the right to repurchase and retire the bond at the call price after the call protection period,core#definition
+PartialCallFeature,owl#Class,22-rdf-syntax-ns#type
+,"Bonds.rdf version of this ontology was revised to eliminate false positives in hygiene tests due to concept names containing words, such as 'and', which might indicate that the concept actually reflects more than one thing, including distinguishing zero coupon from original issue discount bonds, and replace the use of call price and put price, which are overly constrained, with monetary price.",core#changeNote
+Nace469d7ecb94f339820b369892355fd,owl#Restriction,22-rdf-syntax-ns#type
+CouponPayment,owl#Class,22-rdf-syntax-ns#type
+hasPartialRedemptionAllocationConvention,PartialCallFeature,rdf-schema#domain
+VariableDebtPrincipal,Ncf1e8724e0694d1a936268944f1b1f23,rdf-schema#subClassOf
+hasFirstParCallDate,hasStartDate,rdf-schema#subPropertyOf
+,"Bonds.rdf version of this ontology was revised to eliminate references to the exercise conventions ontology, which are not needed for bonds.",core#changeNote
+SinkingFundAmortizationTerms,sinking fund amortization terms,rdf-schema#label
+OriginalIssueDiscountBond,owl#Class,22-rdf-syntax-ns#type
+N2d3b3d2a2aad414d8832e42444f98ba9,isPlayedBy,owl#onProperty
+RateBasisConvention,rate basis convention,rdf-schema#label
+isMandatory,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N5f19cbc1ffc7442a8fad3848b5b23a94,hasCallFeature,owl#onProperty
+BondPrincipalRepaymentTerms,owl#Class,22-rdf-syntax-ns#type
+Na6229b32c1f743eea915c0e5cb35ab0e,hasInterestRate,owl#onProperty
+GeneralObligationMunicipalBond,MunicipalBond,rdf-schema#subClassOf
+UKGovernmentSecurity,debt instrument issued by HM Treasury and listed on the London Stock Exchange,core#definition
+BondVariableCoupon,BondCoupon,rdf-schema#subClassOf
+SovereignDebtInstrument,debt security issued by the government of a country,core#definition
+N9651561ca411447c927c88d67a70cb11,owl#Restriction,22-rdf-syntax-ns#type
+PerpetualBond,consul,synonym
+hasMunicipalTrustee,"specifies the financial institution with trust powers, designated by the issuer, that acts, pursuant to a bond contract, in a fiduciary capacity for the benefit of the bondholders in enforcing the terms of the bond contract",core#definition
+OriginalIssueDiscountBond,N8312d7f59846458aba90451ee0b2999e,rdf-schema#subClassOf
+TaxAllocationBond,MunicipalBond,rdf-schema#subClassOf
+isBankQualified,XMLSchema#boolean,rdf-schema#range
+hasFirstParCallDate,ExplicitDate,rdf-schema#range
+hasPenultimateCouponPaymentDate,specifies the last coupon payment prior to maturity,core#definition
+hasLastCouponPaymentDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+AmortizingBond,owl#Class,22-rdf-syntax-ns#type
+N3c9b2c0dc8db421dbef5c6a6ac2d6931,XMLSchema#boolean,owl#onDataRange
+RedemptionSchedule,PaymentSchedule,rdf-schema#subClassOf
+Ndda22f80d6c94b15b1a2012d4d307a52,isMandatory,owl#onProperty
+GovernmentIssuedDebtSecurity,government issued debt security,rdf-schema#label
+SecuredBond,secured bond,rdf-schema#label
+ZeroInterestRate,0.00,hasRateValue
+ConvertibleBond,owl#Class,22-rdf-syntax-ns#type
+isBankQualified,owl#DatatypeProperty,22-rdf-syntax-ns#type
+VariableDebtPrincipal,"Not the same as principal paydown. This is when the principal itself varies over time, usually as a result of being defined in relation to some index such as an inflation index. Forms the debt principal in instruments such as inflation bonds.",explanatoryNote
+Nb5eeb89efe8543bbb96875488b4d2f08,owl#Restriction,22-rdf-syntax-ns#type
+hasPutDate,ExplicitDate,rdf-schema#range
+hasOriginalIssueDiscountAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+isBankQualified,is bank qualified,rdf-schema#label
+FullFaithCreditBond,bond secured by an unconditional promise to pay by another entity,core#definition
+ConventionalGilt,UKGovernmentSecurity,rdf-schema#subClassOf
+VariableInterestExpression,Nb19f803e82314ae99843b0bb6d416cd7,rdf-schema#subClassOf
+PartialCall,call of part of an issue,core#definition
+isMandatory,is mandatory,rdf-schema#label
+hasMunicipalTrustee,MunicipalBond,rdf-schema#domain
+RedemptionPayment,PaymentEvent,rdf-schema#subClassOf
+PutFeature,N3c9b2c0dc8db421dbef5c6a6ac2d6931,rdf-schema#subClassOf
+SpecialTaxBond,owl#Class,22-rdf-syntax-ns#type
+GeneralObligationMunicipalBond,FullFaithCreditBond,rdf-schema#subClassOf
+UnlistedBond,OTC Bond,synonym
+isLinkedToFallback,GovernmentBond,rdf-schema#range
+BondRegistrar,N8bdcea4850114c53a7104cbacae76d25,rdf-schema#subClassOf
+UnsecuredBond,"Most unsecured bonds pose limited risk of default, as the organizations that issue them are typically financially sound.",explanatoryNote
+hasRedemptionAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+TreasuryBill,N9e0ebb4ab7614965b6a537d9aa3bc6a6,rdf-schema#subClassOf
+hasFirstParCallPrice,CallFeature,rdf-schema#domain
+hasFirstPutPrice,has first put price,rdf-schema#label
+FullFaithCreditBond,full faith and credit bond,synonym
+hasFirstCallPrice,hasCallPrice,rdf-schema#subPropertyOf
+BondRegistrar,The trustee under a bond contract often also acts as registrar.,explanatoryNote
+ProRataConvention,owl#NamedIndividual,22-rdf-syntax-ns#type
+,,owl#versionIRI
+hasAwardDate,has award date,rdf-schema#label
+Nba7c2cf26b15431bbfa3504d8534442b,hasRateValue,owl#onProperty
+LotteryConvention,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasFundingSource,has funding source,rdf-schema#label
+TreasuryInflationProtectedSecurity,"Treasury Inflation-Protected Securities, or TIPS, provide protection against inflation. The principal of a TIPS increases with inflation and decreases with deflation, as measured by the Consumer Price Index. When a TIPS matures, you are paid the adjusted principal or original principal, whichever is greater.",explanatoryNote
+IndexLinkedBond,"bond whose income may vary over time, because either the coupon rate or principal amount is related to a specific index, such as the Consumer Price Index",core#definition
+hasPutDate,has put date,rdf-schema#label
+hasFirstPremiumCallPrice,MonetaryPrice,rdf-schema#range
+hasRemarketingAgent,has remarketing agent,rdf-schema#label
+VariablePrincipalBond,bond whose principal adjusts over time with changes in an index,core#definition
+CouponPaymentTerms,InterestPaymentTerms,rdf-schema#subClassOf
+hasCallPrice,CallFeature,rdf-schema#domain
+BondRegistrar,Registrar,rdf-schema#subClassOf
+Nd325f036fff14e43a85742703a9ee5b0,owl#Restriction,22-rdf-syntax-ns#type
+hasFirstCouponPaymentDate,The first coupon payment period can be long or short when this date doesn't coincide with the start of a normal coupon payment period.,explanatoryNote
+N7a7c7149697141d38245156b4ecdca69,0,owl#minQualifiedCardinality
+N4f5a456eb5204503a36a53d15449e819,hasCurrency,owl#onProperty
+SovereignDebtInstrument,owl#Class,22-rdf-syntax-ns#type
+hasConvertibleDate,hasExplicitDate,rdf-schema#subPropertyOf
+N63ac7be6c9e34042aec7ee274d830118,isBasedOn,owl#onProperty
+N57cf8b0a398c4a3ca72f4a48d49bda76,MunicipalEntity,22-rdf-syntax-ns#first
+RateBasisConvention,Convention,rdf-schema#subClassOf
+VariableCouponTerms,contractual terms specifying the calculation of the interest rate for a variable coupon bond,core#definition
+hasFirstParCallPrice,hasFirstCallPrice,rdf-schema#subPropertyOf
+hasPutFrequency,has put frequency,rdf-schema#label
+ExtraordinaryRedemptionProvision,owl#Class,22-rdf-syntax-ns#type
+SecuredBond,UnsecuredBond,owl#disjointWith
+IndexLinkedBond,owl#Class,22-rdf-syntax-ns#type
+hasFirstCallPrice,MonetaryPrice,rdf-schema#range
+VariableCouponBond,N99a148b5d77d478e8fe60b28f0fbe4b9,rdf-schema#subClassOf
+CouponSchedule,true,owl#deprecated
+Nba7c2cf26b15431bbfa3504d8534442b,1,owl#maxQualifiedCardinality
+MunicipalDebtRemarketingAgent,The remarketing agent also typically is responsible for resetting the interest rate for a variable rate issue and may act as tender agent.,explanatoryNote
+RegularCouponSchedule,true,owl#deprecated
+hasExtraordinaryRedemptionProvision,has extraordinary redemption provision,rdf-schema#label
+hasConvertibleDate,date on which a bond can be converted into the specified equity security,core#definition
+N3c9b2c0dc8db421dbef5c6a6ac2d6931,isMandatory,owl#onProperty
+Nb19f803e82314ae99843b0bb6d416cd7,XMLSchema#decimal,owl#onDataRange
+hasFundingSource,MunicipalDebtSourceOfFunds,rdf-schema#range
+VariableDebtPrincipal,"principal that is defined in relation to some variable and so varies over time, as principal",core#definition
+N1b2bc51f8f62450baa5f1bf6bdf57cf1,owl#Restriction,22-rdf-syntax-ns#type
+FullFaithCreditBond,full faith credit bond,rdf-schema#label
+PartialCall,owl#Class,22-rdf-syntax-ns#type
+hasCallPrice,has redemption price,synonym
+Nba7c336439d24409853543dfca406f2d,hasSchedule,owl#onProperty
+hasFirstCouponPaymentDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+CallableBond,Bond,rdf-schema#subClassOf
+hasAwardDate,hasExplicitDate,rdf-schema#subPropertyOf
+TreasuryInflationProtectedSecurity,InflationLinkedBond,rdf-schema#subClassOf
+N9d1a1a5178a14eed973b1652ed824355,VariableDebtPrincipal,owl#someValuesFrom
+hasFirstPutDate,hasExplicitDate,rdf-schema#subPropertyOf
+hasFirstParCallPrice,specifies the amount of the call on the first par call date as specified in the call schedule,core#definition
+StepUpBond,step up bond,rdf-schema#label
+PartialCallFeature,Nd325f036fff14e43a85742703a9ee5b0,rdf-schema#subClassOf
+N41a7abe73bb748fcb3cb5faa6eacb108,hasInterestPaymentTerms,owl#onProperty
+N99a148b5d77d478e8fe60b28f0fbe4b9,hasInterestRate,owl#onProperty
+BulletBond,AmortizingBond,owl#disjointWith
+MakeWholeCall,owl#Class,22-rdf-syntax-ns#type
+GreenBond,owl#Class,22-rdf-syntax-ns#type
+SpecialAssessmentBond,special assessment bond,rdf-schema#label
+CertificateOfObligation,"municipal security available to governing councils in case of emergency, such as a natural disaster, that needs immediate action without time for voter referendum",core#definition
+LotteryConvention,convention involving an impartial lottery for determining which securities are subject to partial call or partial redemption,core#definition
+MunicipalDebtRemarketingAgent,ContractThirdParty,rdf-schema#subClassOf
+VariableCouponTerms,owl#Class,22-rdf-syntax-ns#type
+VariableInterestCalculationFormula,variable interest calculation formula,rdf-schema#label
+MunicipalDebtRemarketingAgent,municipal debt remarketing agent,rdf-schema#label
+Ncf1e8724e0694d1a936268944f1b1f23,MonetaryAmount,owl#someValuesFrom
+StepSchedule,owl#Class,22-rdf-syntax-ns#type
+Nd325f036fff14e43a85742703a9ee5b0,hasPartialRedemptionAllocationConvention,owl#onProperty
+ZeroCouponTerms,FixedCouponTerms,rdf-schema#subClassOf
+USTreasurySecurity,U.S. Treasury security,rdf-schema#label
+SinkingFundAmortizationTerms,owl#Class,22-rdf-syntax-ns#type
+BondRegistrar,party responsible for maintaining records on behalf of the issuer that identify the owners of a registered bond issue,core#definition
+isProRated,XMLSchema#boolean,rdf-schema#range
+FixedCouponBond,owl#Class,22-rdf-syntax-ns#type
+SecuredBond,owl#Class,22-rdf-syntax-ns#type
+CertificateOfObligation,owl#Class,22-rdf-syntax-ns#type
+N82e016f449f84673971914147e75f71c,N57b577f9a78b46edb26ce94e9029dd3a,owl#unionOf
+N6b91821700674f5eaa49a344840fd6e8,specifiesConversionInto,owl#onProperty
+BondAmortizationPaymentTerms,bond amortization payment terms,rdf-schema#label
+Nb19f803e82314ae99843b0bb6d416cd7,1,owl#maxQualifiedCardinality
+PerpetualBond,"Perpetual bonds function much like dividend-paying stocks or certain preferred securities. Just as the owner of the stock receives a dividend payment as long as the stock is held, the perpetual bond owner receives an interest payment as long as the bond is held.",explanatoryNote
+N7a7c7149697141d38245156b4ecdca69,owl#Restriction,22-rdf-syntax-ns#type
+GeneralObligationMunicipalBond,GO bond,abbreviation
+hasOriginalIssueDiscountAmount,Bond,rdf-schema#domain
+SinkingFundAmortizationTerms,BondAmortizationPaymentTerms,rdf-schema#subClassOf
+CouponPaymentTerms,coupon payment terms,rdf-schema#label
+GovernmentIssuedDebtSecurity,Nada2625d49e4408d8c5589e7925c34e3,rdf-schema#subClassOf
+hasRedemptionAmount,indicates the amount of the principal paid with a redemption payment,core#definition
+TreasuryBond,res_tbond.htm,rdf-schema#seeAlso
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+InflationLinkedBond,Nb931112976d1419d9f8bcb53dfd82e1d,rdf-schema#subClassOf
+hasFirstPutDate,has first put date,rdf-schema#label
+hasFirstCouponPaymentDate,CouponPaymentTerms,rdf-schema#domain
+hasFirstPutPrice,PutFeature,rdf-schema#domain
+N12ebf92e636e4b858bcd9223f5299cca,owl#Restriction,22-rdf-syntax-ns#type
+FloatingRateNote,"The adjustments to the interest rate (coupon) are made periodically, usually on a quarterly or monthly basis, and are tied to a certain money-market index. Also known as a ""floater"". For example six months USD LIBOR + 0.20%.",explanatoryNote
+MunicipalNote,MunicipalSecurity,rdf-schema#subClassOf
+RedemptionPayment,repayment event involving payment of a bond's principal amount at maturity or when it is called,core#definition
+N9289098387b74246b1c94851c1d91399,owl#Restriction,22-rdf-syntax-ns#type
+TreasuryInflationProtectedSecurity,variable income bond whose principal is indexed to inflation or deflation and thus changes over the life of the security,core#definition
+RemarketableBond,CorporateBond,rdf-schema#subClassOf
+hasCeiling,XMLSchema#decimal,rdf-schema#range
+BondInsurance,owl#Class,22-rdf-syntax-ns#type
+Nba7c2cf26b15431bbfa3504d8534442b,owl#Restriction,22-rdf-syntax-ns#type
+SpecialAssessmentBond,municipal bond used to fund a development project that is payable from the revenues of an assessment (tax) on the community that is intended to benefit from the project,core#definition
+hasFirstPremiumCallPrice,CallFeature,rdf-schema#domain
+MunicipalSecurity,Nb7a35f253b2e4a0ca53adf3545314c73,rdf-schema#subClassOf
+hasOriginalIssueDiscountAmount,indicates the difference between the stated redemption price at maturity and the issue price,core#definition
+hasMunicipalTrustee,hasThirdParty,rdf-schema#subPropertyOf
+hasExtraordinaryRedemptionProvision,ExtraordinaryRedemptionProvision,rdf-schema#range
+TreasuryBond,USTreasurySecurity,rdf-schema#subClassOf
+Nb7cddcae30bc4b419cba965a84cb90b7,owl#Restriction,22-rdf-syntax-ns#type
+BulletBond,N64cdbe658abe4a148689052664f361e7,rdf-schema#subClassOf
+CorporateBond,corporate bond,rdf-schema#label
+hasFirstCouponPaymentDate,hasStartDate,rdf-schema#subPropertyOf
+VariableInterestCalculationFormula,owl#Class,22-rdf-syntax-ns#type
+MunicipalTrustee,"financial institution with trust powers, designated by the issuer, that acts, pursuant to a bond contract, in a fiduciary capacity for the benefit of the bondholders in enforcing the terms of the bond contract",core#definition
+N8f4764bc641a429db3f2d30d2b75f5c9,InterestPaymentSchedule,owl#someValuesFrom
+hasLastCouponPaymentDate,ExplicitDate,rdf-schema#range
+MunicipalDebtFundsUsage,LegalDocument,rdf-schema#subClassOf
+N5258318afe9e4b63b53d0b39a7802606,owl#Restriction,22-rdf-syntax-ns#type
+TreasuryNote,MediumTermNote,rdf-schema#subClassOf
+FixedCouponBond,VariableCouponBond,owl#disjointWith
+Ne478e7b7c1a242c48d24ec1b95e1f8ca,0,owl#minQualifiedCardinality
+SpecialAssessmentBond,SecuredBond,rdf-schema#subClassOf
+hasFirstPutDate,PutFeature,rdf-schema#domain
+hasPartialRedemptionAllocationConvention,PartialRedemptionAllocationConvention,rdf-schema#range
+IndexLinkedBond,index-linked bond,rdf-schema#label
+UnlistedBond,unlisted bond,rdf-schema#label
+MakeWholeCall,The issuer typically has to make a lump sum payment to the investor(s) derived from a formula based on the net present value (NPV) of future coupon payments that will not be paid incrementally because of the call combined with the principal payment the investor would have received at maturity.,explanatoryNote
+N6ecdcef7eaf94cd0bd57b452899f0f10,hasSchedule,owl#onProperty
+hasPenultimateCouponPaymentDate,hasExplicitDate,rdf-schema#subPropertyOf
+ProRataConvention,pro rata convention,rdf-schema#label
+hasCallRateBasis,RateBasisConvention,rdf-schema#range
+BulletBond,bullet bond,rdf-schema#label
+BondVariableCoupon,owl#Class,22-rdf-syntax-ns#type
+MunicipalNote,"short-term obligation to repay a specified principal amount on a certain date, together with interest at a stated rate, usually payable from a defined source of anticipated revenues",core#definition
+Bond,N41a7abe73bb748fcb3cb5faa6eacb108,rdf-schema#subClassOf
+hasFinalMaturityDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+SinkingFundAmortizationTerms,Ndda22f80d6c94b15b1a2012d4d307a52,rdf-schema#subClassOf
+ZeroCouponBond,zero coupon bond,rdf-schema#label
+MunicipalSecurity,"A municipal security is typically a bond, note, warrant, certificate or other similar obligation issued by a state or local government or their agencies or authorities (such as cities, towns, villages, counties or special districts or authorities). A prime feature of most municipal securities is that interest or other investment earnings on them are generally excluded from gross income of the bondholder for federal income tax purposes. Some municipal securities are subject to federal income tax, although the issuers or bondholders may receive other federal tax advantages for certain types of taxable municipal securities. Some examples include Build America Bonds, municipal fund securities and direct pay subsidy bonds.",explanatoryNote
+MediumTermNote,medium term note,rdf-schema#label
+N51bc4c6bbe1544d19f2455354809ce82,hasInterestRate,owl#onProperty
+SinkingFundAmortizationTerms,"At present there is only a schedule, there should be other terms for what happens on the scheduled dates. Sinking fund may be bullet e.g. x percent over year for y years. SF may be mandatory or contingent on some other economic event.",core#editorialNote
+FixedCouponTerms,VariableCouponTerms,owl#disjointWith
+RevenueBond,revenue bond,rdf-schema#label
+N5ca78753c15148cf9ba935ad5ce25cc4,1,owl#maxQualifiedCardinality
+UKGovernmentSecurity,,rdf-schema#seeAlso
+SpecialObligationBond,"bond secured by a limited revenue source, such as receipts derived from a designated project",core#definition
+BulletPrincipalRepaymentTerms,terms for repayment of the principal for a bond as a single payment covering the whole principal amount,core#definition
+hasFinalMaturityDate,has final maturity date,rdf-schema#label
+isLinkedToFallback,is linked to fallback,rdf-schema#label
+ConvertibleBond,bond that gives the holder the right to convert the bond into a fixed number of shares (conversion ratio) if the equity price rises above a specified level (strike price),core#definition
+StripBond,N63ac7be6c9e34042aec7ee274d830118,rdf-schema#subClassOf
+ZeroCouponBond,Bond,rdf-schema#subClassOf
+StepUpBond,owl#Class,22-rdf-syntax-ns#type
+BondCoupon,coupon rate,synonym
+MunicipalSecurity,owl#Class,22-rdf-syntax-ns#type
+hasLastCouponPaymentDate,"The last coupon date sometimes occurs at an irregular time; that is, if the bond pays coupons every six months, the last coupon period may be longer or shorter than six months.",explanatoryNote
+isSuperSinker,super sinker,rdf-schema#label
+hasFirstParCallDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+CorporateBond,GovernmentBond,owl#disjointWith
+N5ca78753c15148cf9ba935ad5ce25cc4,XMLSchema#decimal,owl#onDataRange
+hasPartialRedemptionAllocationConvention,has partial redemption allocation convention,rdf-schema#label
+Nd08a15d5d6cf41058b8056836a708d7c,XMLSchema#decimal,owl#onDataRange
+ConvertibleBond,convertible bond,rdf-schema#label
+ZeroInterestRate,zero interest rate,rdf-schema#label
+ZeroCouponTerms,N92dd9196d70f4a5ab11fcb6d06d50681,rdf-schema#subClassOf
+PartialCall,CallEvent,rdf-schema#subClassOf
+VariableIncomeBond,VariableIncomeSecurity,rdf-schema#subClassOf
+PartialRedemptionAllocationConvention,Convention,rdf-schema#subClassOf
+FixedCouponTerms,fixed coupon terms,rdf-schema#label
+GovernmentIssuedDebtSecurity,owl#Class,22-rdf-syntax-ns#type
+N63ac7be6c9e34042aec7ee274d830118,owl#Restriction,22-rdf-syntax-ns#type
+hasRedemptionAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+CouponPaymentTerms,N8f4764bc641a429db3f2d30d2b75f5c9,rdf-schema#subClassOf
+N2853555ede614348b29b8b558d20c8e0,hasRepaymentTerms,owl#onProperty
+BondAmortizationPaymentTerms,owl#Class,22-rdf-syntax-ns#type
+N57b577f9a78b46edb26ce94e9029dd3a,EconomicIndicator,22-rdf-syntax-ns#first
+hasFirstPremiumCallDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+TreasuryNote,medium term coupon bearing treasury obligation with original maturity ranging from two to ten years,core#definition
+hasFirstParCallDate,indicates the first date on which the bond may be called at par for redemption,core#definition
+InflationLinkedBond,inflation-linked bond,rdf-schema#label
+TreasuryBill,USTreasurySecurity,rdf-schema#subClassOf
+FullFaithCreditBond,owl#Class,22-rdf-syntax-ns#type
+Ne478e7b7c1a242c48d24ec1b95e1f8ca,owl#Restriction,22-rdf-syntax-ns#type
+N9651561ca411447c927c88d67a70cb11,MarketRate,owl#someValuesFrom
+SpecialAssessmentBond,owl#Class,22-rdf-syntax-ns#type
+N541f4e2059eb4a019d363ae9fba612f0,N00d5ace2a55c4f3b991d2fa588291605,owl#someValuesFrom
+TreasuryBill,T-bill,abbreviation
+hasFirstCallPrice,CallFeature,rdf-schema#domain
+hasAwardDate,has sale date,synonym
+BondPrincipalRepaymentTerms,terms for the repayment of the principal on a bond,core#definition
+hasFirstCouponPaymentDate,ExplicitDate,rdf-schema#range
+N8f4764bc641a429db3f2d30d2b75f5c9,hasSchedule,owl#onProperty
+N541f4e2059eb4a019d363ae9fba612f0,isIssuedBy,owl#onProperty
+Nb7cddcae30bc4b419cba965a84cb90b7,RedemptionEvent,owl#someValuesFrom
+VariableIncomeBond,Bond,rdf-schema#subClassOf
+MediumTermNote,Bond,rdf-schema#subClassOf
+VariableInterestExpression,variable interest expression,rdf-schema#label
+ListedBond,ListedSecurity,rdf-schema#subClassOf
+SovereignBond,GovernmentBond,rdf-schema#subClassOf
+N00d5ace2a55c4f3b991d2fa588291605,SovereignState,owl#someValuesFrom
+N99a148b5d77d478e8fe60b28f0fbe4b9,owl#Restriction,22-rdf-syntax-ns#type
+N8371c73a38ee4524bd81ca0b43c011f5,PartialCallFeature,owl#someValuesFrom
+Nfe56cc9c712e411dbd17a58573243aba,owl#Restriction,22-rdf-syntax-ns#type
+hasPutDate,indicates the date on which a security is subject to redemption by the bond holder,core#definition
+RevenueBond,municipal bond supported by the revenue from a specific project,core#definition
+ListedBond,Bond,rdf-schema#subClassOf
+BondCoupon,owl#Class,22-rdf-syntax-ns#type
+hasLockoutPeriod,DatePeriod,rdf-schema#range
+hasFundingSource,MunicipalSecurity,rdf-schema#domain
+Bond,CreditAgreementRepaidAtMaturity,rdf-schema#subClassOf
+MunicipalSecurity,debt obligation issued by a regional governmental entity,core#definition
+GeneralObligationMunicipalBond,owl#Class,22-rdf-syntax-ns#type
+Nb931112976d1419d9f8bcb53dfd82e1d,owl#Restriction,22-rdf-syntax-ns#type
+hasPenultimateCouponPaymentDate,"This is important since the securities processing area needs to start its procedures in anticipation of maturity. For zero coupon bonds, it is the last compounding date prior to maturity.",explanatoryNote
+BondAmortizationPaymentTerms,BondPrincipalRepaymentTerms,rdf-schema#subClassOf
+,Bonds.rdf version of this ontology was revised to reflect the refactored definition of a listing and improve the definition of corporate bond.,core#changeNote
+TaxAllocationBond,owl#Class,22-rdf-syntax-ns#type
+CouponSchedule,InterestPaymentSchedule,owl#equivalentClass
+CorporateBond,owl#Class,22-rdf-syntax-ns#type
+N8b1acfec4ef247269f76037faceefb1c,owl#Restriction,22-rdf-syntax-ns#type
+BondInsurance,insurance policy that a bond issuer purchases that guarantees the repayment of the principal and all associated interest payments to the bondholders in the event of default,core#definition
+Nfe56cc9c712e411dbd17a58573243aba,ReferenceInterestRate,owl#someValuesFrom
+,owl#Ontology,22-rdf-syntax-ns#type
+MakeWholeCall,CallEvent,rdf-schema#subClassOf
+N82e016f449f84673971914147e75f71c,owl#Class,22-rdf-syntax-ns#type
+Nd08a15d5d6cf41058b8056836a708d7c,hasRateValue,owl#onProperty
+SpecialAssessmentBond,"A special assessment is a charge imposed against a property in a particular locality because that property receives a special benefit by virtue of some public improvement, separate and apart from the general benefit accruing to the public at large. Special assessments may be apportioned according to the value of the benefit received, rather than merely the cost of the improvement.",explanatoryNote
+ZeroCouponBond,"Fannie Mae also issues zero-coupon callable debt securities. Zero-coupon notes are debt securities on which no coupon interest is paid to the investor. Rather, the security is purchased at a discounted dollar price and matures at par. If the option on a callable zero-coupon security is exercised, it is redeemed at a higher dollar price than the original issue price. The yield for a callable zero-coupon security is based on the difference between the original discounted price and the principal payment at the call date.",explanatoryNote
+N64cdbe658abe4a148689052664f361e7,owl#Restriction,22-rdf-syntax-ns#type
+ZeroCouponBond,z-bond,synonym
+BondRegistrar,bond registrar,rdf-schema#label
+MediumTermNote,"Medium term notes are typically issued by corporations and financial institutions, although GSEs also have MTN programs. MTNs may be issued under a shelf registration program which allows the company to issue bonds over time with varying maturities and coupons. Companies issue MTNs to have a more flexible source of funding. They may also issue MTN in response to 'reverse inquiry' by investors looking for bonds with specific maturities, issue size and coupon.",explanatoryNote
+ZeroInterestRate,an interest rate of zero (0) percent,core#definition
+BondConversionTerms,N6b91821700674f5eaa49a344840fd6e8,rdf-schema#subClassOf
+isLinkedToFallback,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasRemarketingAgent,MunicipalSecurity,rdf-schema#domain
+isBankQualified,MunicipalBond,rdf-schema#domain
+CertificateOfObligation,certificate of obligation,rdf-schema#label
+hasCallRateBasis,has call rate basis,rdf-schema#label
+Ne5f7eb345ac7428baff1580096f50974,owl#Restriction,22-rdf-syntax-ns#type
+N7d2bba858eaf4e26854895a954762f6b,owl#Restriction,22-rdf-syntax-ns#type
+BondInsurance,InsurancePolicy,rdf-schema#subClassOf
+hasMunicipalTrustee,owl#ObjectProperty,22-rdf-syntax-ns#type
+RemarketableBond,corporate bond program where the coupon rate on outstanding bonds is periodically reset through an auction process,core#definition
+AmortizingBond,Bond,rdf-schema#subClassOf
+hasCallRateBasis,CallEvent,rdf-schema#domain
+PercentageParValue,owl#NamedIndividual,22-rdf-syntax-ns#type
+N63ac7be6c9e34042aec7ee274d830118,Bond,owl#someValuesFrom
+TreasuryBill,res_tbill_rates.htm,rdf-schema#seeAlso
+FixedCouponTerms,terms for payment of interest on a bond with a fixed interest rate,core#definition
+Nb7cddcae30bc4b419cba965a84cb90b7,comprises,owl#onProperty
+MunicipalBond,"Municipal bonds may be issued by states, cities, counties, special tax districts or special agencies or authorities of state or local governments.",explanatoryNote
+hasPutFrequency,RecurrenceInterval,rdf-schema#range
+ConvertibleBond,Bond,rdf-schema#subClassOf
+MandatoryConvertibleBond,The conversion ratio at maturity reflects the equity price and par value of the bond when issued. There is also typically a second higher conversion ratio if the equity price rises above the strike during the term of the bond.,explanatoryNote
+hasFloor,hasRateValue,rdf-schema#subPropertyOf
+BondAmortizationPaymentTerms,BulletPrincipalRepaymentTerms,owl#disjointWith
+hasLastCouponPaymentDate,specifies the final date on which the issuer expects to make a final coupon payment,core#definition
+SpecialTaxBond,bond secured by revenues derived from designated taxes other than ad valorem taxes,core#definition
+hasPutDate,hasExplicitDate,rdf-schema#subPropertyOf
+InflationLinkedBond,"Inflation-linked bonds are primarily issued by sovereign governments, such as the U.S. and the UK.",explanatoryNote
+isLinkedToFallback,relates an index-linked instrument to a government bond that may be selected by a calculation agent,core#definition
+hasResetDateOffset,owl#ObjectProperty,22-rdf-syntax-ns#type
+SpecialObligationBond,MunicipalBond,rdf-schema#subClassOf
+MediumTermNote,"A medium-term note (MTN) is a debt note that usually matures (is paid back) in 5 to 10 years, but the term may be less than one year or as long as 100 years. They can be issued on a fixed or floating coupon basis.",explanatoryNote
+BondWithPartialCall,bond with partial call,rdf-schema#label
+RateBasisConvention,basis for a percentage quoted rate as used in specifying bond call percentage amounts,core#definition
+N9289098387b74246b1c94851c1d91399,ZeroCouponTerms,owl#someValuesFrom
+MakeWholeCall,call allowing the issuer to pay off remaining debt early,core#definition
+hasFloor,indicates the minimum variable interest payment amount,core#definition
+N57b577f9a78b46edb26ce94e9029dd3a,Nf5a0febbcd054141b6720df928a1fdde,22-rdf-syntax-ns#rest
+ExtraordinaryRedemptionProvision,"Such redemptions may occur when bond proceeds are not spent according to schedule; when bond proceeds are used in a way that makes nontaxable bond interest taxable; or when a catastrophe destroys the project being financed, among other reasons.",explanatoryNote
+N3bc6363545814a48859578c06ff673a0,isDenominatedIn,owl#onProperty
+N3e8a388b95264b6a8ce03645bdd6a067,hasContractualElement,owl#onProperty
+MunicipalSecurity,SovereignDebtInstrument,owl#disjointWith
+Nb7a35f253b2e4a0ca53adf3545314c73,hasFundingSource,owl#onProperty
+RedemptionSchedule,redemption schedule,rdf-schema#label
+BondWithPublishedSinkingFund,AmortizingBond,rdf-schema#subClassOf
+AmortizingBond,BulletBond,owl#disjointWith
+hasPenultimateCouponPaymentDate,has penultimate coupon payment date,rdf-schema#label
+TaxAllocationBond,tax allocation bond,rdf-schema#label
+InflationLinkedBond,ILB,abbreviation
+TreasuryBill,N9264bf2dec2c414b8c9f5b07ba4690e8,rdf-schema#subClassOf
+hasFirstCouponPaymentDate,specifies the first date on which the issuer or its agent expects or commits to make a coupon payment,core#definition
+N850bff1eaf7f4bd3a6995d876e2d7a09,hasInterestPaymentTerms,owl#onProperty
+hasLockoutPeriod,CallFeature,rdf-schema#domain
+hasLockoutPeriod,has lockout period,rdf-schema#label
+VariableCouponTerms,N9651561ca411447c927c88d67a70cb11,rdf-schema#subClassOf
+N5ca78753c15148cf9ba935ad5ce25cc4,owl#Restriction,22-rdf-syntax-ns#type
+RemarketableBond,owl#Class,22-rdf-syntax-ns#type
+Nfe56cc9c712e411dbd17a58573243aba,hasInterestRate,owl#onProperty
+ConvertibleBond,ConvertibleSecurity,rdf-schema#subClassOf
+BondWithWarrant,bond with warrant,rdf-schema#label
+MunicipalDebtSourceOfFunds,official statement identifying the source of funds for a new issue of municipal securities,core#definition
+hasFinalMaturityDate,ExplicitDate,rdf-schema#range
+ListedBond,listed bond,rdf-schema#label
+hasPartialRedemptionAllocationConvention,owl#ObjectProperty,22-rdf-syntax-ns#type
+SpecialObligationBond,special obligation bond,rdf-schema#label
+EquityLinkedBond,"bond based on the return on an equity over time, i.e. the price and dividend payments or the total return (similar to total return swaps)",core#definition
+hasFloor,owl#DatatypeProperty,22-rdf-syntax-ns#type
+CouponSchedule,owl#Class,22-rdf-syntax-ns#type
+BondWithWarrant,DebtOffering,rdf-schema#subClassOf
+StepEvent,true,owl#deprecated
+hasCallRateBasis,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasFirstPremiumCallDate,hasStartDate,rdf-schema#subPropertyOf
+RegularCouponSchedule,owl#Class,22-rdf-syntax-ns#type
+hasAwardDate,MunicipalBond,rdf-schema#domain
+TreasuryBill,N51bc4c6bbe1544d19f2455354809ce82,rdf-schema#subClassOf
+BondConversionTerms,bond conversion terms,rdf-schema#label
+N2853555ede614348b29b8b558d20c8e0,BondPrincipalRepaymentTerms,owl#someValuesFrom
+FirstRegularCouponDate,owl#Class,22-rdf-syntax-ns#type
+BondWithPartialCall,CallableBond,rdf-schema#subClassOf
+MunicipalBond,MunicipalSecurity,rdf-schema#subClassOf
+Nfed6c2b97b354326bd9369c664667b95,hasRelativePriceAtMaturity,owl#onProperty
+CallableConvertibleBond,owl#Class,22-rdf-syntax-ns#type
+SpecialObligationBond,owl#Class,22-rdf-syntax-ns#type
+hasLastCouponPaymentDate,CouponPaymentTerms,rdf-schema#domain
+isSuperSinker,SinkingFundAmortizationTerms,rdf-schema#domain
+UKGovernmentSecurity,gilt-edged security,synonym
+RemarketableBond,remarketable bond,rdf-schema#label
+N3bc6363545814a48859578c06ff673a0,USDollar,owl#hasValue
+hasPremiumAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+VariableInterestExpression,Expression,rdf-schema#subClassOf
+ImplicitFullFaithCreditBond,bond issued by a government sponsored agency or corporation rather than by the government directly,core#definition
+GeneralObligationMunicipalBond,RevenueBond,owl#disjointWith
+Nef66512a36494b0b9b5c3d76a84514a5,MunicipalDebtFundsUsage,owl#someValuesFrom
+N99a148b5d77d478e8fe60b28f0fbe4b9,BondVariableCoupon,owl#someValuesFrom
+SovereignDebtInstrument,GovernmentIssuedDebtSecurity,rdf-schema#subClassOf
+Nb5eeb89efe8543bbb96875488b4d2f08,ParValue,owl#hasValue
+N12ebf92e636e4b858bcd9223f5299cca,VariableInterestCalculationFormula,owl#someValuesFrom
+CertificateOfParticipation,COP,abbreviation
+MandatoryConvertibleBond,mandatory convertible bond,rdf-schema#label
+MunicipalDebtFundsUsage,official statement specifying how the funds raised via a new issue of municipal securities are to be applied,core#definition
+hasFirstParCallPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+isBankQualified,A bond that is bank qualified is also known as a qualified tax-exempt obligation.,explanatoryNote
+TreasuryInflationProtectedSecurity,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+ZeroCouponBond,N7a7c7149697141d38245156b4ecdca69,rdf-schema#subClassOf
+hasConvertibleDate,BondConversionTerms,rdf-schema#domain
+UnsecuredBond,bond that is only secured by the bond issuer's good credit standing,core#definition
+isLegalOpinionAvailable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+BulletBond,owl#Class,22-rdf-syntax-ns#type
+RevenueBond,"Revenue bonds are municipal bonds that finance income-producing projects, such as toll bridges, highways, or local stadiums, and are secured by a specified revenue source. Typically, revenue bonds can be issued by any government agency or fund that is managed in the manner of a business, such as entities having both operating revenues and expenses.",explanatoryNote
+USTreasurySecurity,debt instrument issued by the United States Department of the Treasury that carries a full faith and credit guarantee,core#definition
+Ne5f7eb345ac7428baff1580096f50974,hasInterestRate,owl#onProperty
+N9e0ebb4ab7614965b6a537d9aa3bc6a6,owl#Restriction,22-rdf-syntax-ns#type
+hasPremiumAmount,MonetaryAmount,rdf-schema#range
+GreenBond,"These bonds are typically asset-linked and backed by the issuer's balance sheet. Green bonds finance projects aimed at energy efficiency, pollution prevention, sustainable agriculture, fishery and forestry, the protection of aquatic and terrestrial ecosystems, clean transportation, sustainable water management and the cultivation of environmentally friendly technologies, and often include incentives such as tax exemption.",explanatoryNote
+hasCallPrice,"indicates the amount of the call on the specified call date, typically the sum of par value and the call premium, as specified in the contract",core#definition
+PercentageParValue,RateBasisConvention,22-rdf-syntax-ns#type
+TreasuryBond,long term term coupon bearing treasury obligation issued in terms of 20 years or 30 years that pays interest every six months until they mature,core#definition
+RedemptionPayment,redemption payment,rdf-schema#label
+ZeroInterestRate,owl#NamedIndividual,22-rdf-syntax-ns#type
+N48babd3ffa6a488194134ffdb70b756b,hasInterestPaymentTerms,owl#onProperty
+BondPrincipalRepaymentTerms,N8b1acfec4ef247269f76037faceefb1c,rdf-schema#subClassOf
+hasFirstPremiumCallDate,ExplicitDate,rdf-schema#range
+MandatoryConvertibleBond,ConvertibleBond,rdf-schema#subClassOf
+OriginalIssueDiscountBond,The principal amount accretes over time at a constant accrual rate and is redeemed at full face value at maturity.,explanatoryNote
+N90a2be09ac234aae8e2df83e4c3940ba,N2d3b3d2a2aad414d8832e42444f98ba9,owl#someValuesFrom
+GreenBond,Bond,rdf-schema#subClassOf
+hasPutDate,PutFeature,rdf-schema#domain
+hasFirstParCallDate,CallFeature,rdf-schema#domain
+N9264bf2dec2c414b8c9f5b07ba4690e8,owl#Restriction,22-rdf-syntax-ns#type
+RegulatoryCall,call triggered by some regulation-specific rule,core#definition
+MunicipalDebtFundsUsage,owl#Class,22-rdf-syntax-ns#type
+GovernmentIssuedDebtSecurity,DebtInstrument,rdf-schema#subClassOf
+N8371c73a38ee4524bd81ca0b43c011f5,hasCallFeature,owl#onProperty
+RateBasisConvention,Nd08a15d5d6cf41058b8056836a708d7c,rdf-schema#subClassOf
+hasFirstPremiumCallPrice,specifies the amount of the call on the first call date on which the bond may be called at a price above par as specified in the call schedule,core#definition
+Nd08a15d5d6cf41058b8056836a708d7c,owl#Restriction,22-rdf-syntax-ns#type
+hasExtraordinaryRedemptionProvision,hasContractualElement,rdf-schema#subPropertyOf
+hasFirstPremiumCallDate,indicates the first date on which the bond may be called for redemption at a price above par,core#definition
+TreasuryBill,res_tbill.htm,rdf-schema#seeAlso
+RedemptionSchedule,Nb7cddcae30bc4b419cba965a84cb90b7,rdf-schema#subClassOf
+TreasuryBill,treasury bill,rdf-schema#label
+FullFaithCreditBond,Full faith and credit bonds are typically backed by a government entity and are considered low risk.,explanatoryNote
+PercentageCumulativeAverageValue,owl#NamedIndividual,22-rdf-syntax-ns#type
+PercentageParValue,rate basis calculated as a percentage of par value,core#definition
+hasExtraordinaryRedemptionProvision,relates the redemption provision of a debt instrument to one-time provision that may be exercised by the issuer under certain circumstances,core#definition
+UnlistedBond,Bond,rdf-schema#subClassOf
+Nc8aade37a39249899d926657b8007b3a,1,owl#maxQualifiedCardinality
+N5a25aa102895463f8ef10e59b295d100,owl#Restriction,22-rdf-syntax-ns#type
+MandatoryConvertibleBond,convertible bond that converts into shares at maturity regardless of the equity price,core#definition
+InflationLinkedBond,bond indexed to inflation so that the principal or interest payments rise and fall with the rate of inflation,core#definition
+BondRegistrar,owl#Class,22-rdf-syntax-ns#type
+N3c9b2c0dc8db421dbef5c6a6ac2d6931,owl#Restriction,22-rdf-syntax-ns#type
+CorporateBond,"Corporate bonds are issued for purposes such as mergers and acquisitions, business expansion, or to cover ongoing operational needs, and are typically longer-term debt instruments that have a maturity of at least one year. Corporate debt instruments with maturity shorter than one year are referred to as commercial paper.",explanatoryNote
+ImplicitFullFaithCreditBond,owl#Class,22-rdf-syntax-ns#type
+hasLockoutPeriod,indicates the period of time for which a callable security cannot be called and only interest coupon payments are received by the security holder,core#definition
+AmortizingBond,amortizing bond,rdf-schema#label
+N51bc4c6bbe1544d19f2455354809ce82,owl#Restriction,22-rdf-syntax-ns#type
+EquityLinkedBond,equity linked bond,rdf-schema#label
+VariableDebtPrincipal,PubliclyIssuedDebt,rdf-schema#subClassOf
+BuildAmericaBond,owl#Class,22-rdf-syntax-ns#type
+hasLastCouponPaymentDate,hasExplicitDate,rdf-schema#subPropertyOf
+UnsecuredBond,owl#Class,22-rdf-syntax-ns#type
+ProRataConvention,PartialRedemptionAllocationConvention,22-rdf-syntax-ns#type
+MunicipalNote,"Notes usually mature in one year or less, although notes of longer maturities are also issued.",explanatoryNote
+BondConversionTerms,terms indicating when a convertible bond can be converted to another security (usually a publicly traded share issued by of the same issuer),core#definition
+Nb931112976d1419d9f8bcb53dfd82e1d,InflationRate,owl#someValuesFrom
+N90a2be09ac234aae8e2df83e4c3940ba,isIssuedBy,owl#onProperty
+UKGovernmentSecurity,"If a private investor wishes to purchase gilts the secondary market can be accessed through a stockbroker, bank or the DMO's Purchase and Sale Service.",explanatoryNote
+N6ae314bcc43a47f1ad5f786748b471d2,hasArgument,owl#onProperty
+OriginalIssueDiscountBond,interest-bearing bond issued at a deep discount to face value,core#definition
+N7351a30fe85847e3bcb8392d5e9b0f63,N57cf8b0a398c4a3ca72f4a48d49bda76,owl#unionOf
+VariableInterestCalculationFormula,formula for the calculation of variable interest,core#definition
+,Bonds.rdf version of this ontology was revised to address text formatting hygiene issues.,core#changeNote
+PercentageCumulativeAverageValue,RateBasisConvention,22-rdf-syntax-ns#type
+TaxAllocationBond,"Tax increment bonds, also known as tax allocation bonds, often are used to finance the redevelopment of blighted areas.",explanatoryNote
+MunicipalTrustee,owl#Class,22-rdf-syntax-ns#type
+Nada2625d49e4408d8c5589e7925c34e3,Nfe29704d11ab494ebf2956e56d9d0a9a,owl#someValuesFrom
+N1b2bc51f8f62450baa5f1bf6bdf57cf1,hasRepaymentTerms,owl#onProperty
+BulletBond,CallableBond,owl#disjointWith
+BuildAmericaBond,MunicipalBond,rdf-schema#subClassOf
+N5f19cbc1ffc7442a8fad3848b5b23a94,owl#Restriction,22-rdf-syntax-ns#type
+TreasuryInflationProtectedSecurity,TIPS,abbreviation
+CorporateBond,MunicipalBond,owl#disjointWith
+,Bonds.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+AmortizingBond,N1b2bc51f8f62450baa5f1bf6bdf57cf1,rdf-schema#subClassOf
+SovereignBond,SovereignDebtInstrument,rdf-schema#subClassOf
+VariableCouponTerms,N12ebf92e636e4b858bcd9223f5299cca,rdf-schema#subClassOf
+,"Bonds.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+FixedCouponBond,FixedIncomeSecurity,rdf-schema#subClassOf
+hasResetDateOffset,indicates the offset from the coupon payment date on which the rate is reset,core#definition
+N3c9b2c0dc8db421dbef5c6a6ac2d6931,1,owl#qualifiedCardinality
+N6b91821700674f5eaa49a344840fd6e8,ListedShare,owl#someValuesFrom
+hasPutFrequency,hasRecurrenceInterval,rdf-schema#subPropertyOf
+hasLockoutPeriod,hasDatePeriod,rdf-schema#subPropertyOf
+CorporateBond, supranational organizations such as the European Bank for Reconstruction and Development (EBRD) may also be considered corporate bonds rather than government bonds.,explanatoryNote
+CallableBond,N5f19cbc1ffc7442a8fad3848b5b23a94,rdf-schema#subClassOf
+SovereignBond,sovereign bond,rdf-schema#label
+VariablePrincipalBond,N9d1a1a5178a14eed973b1652ed824355,rdf-schema#subClassOf
+N1c8a14756a444138b0202045a59223df,RegionalSovereignty,22-rdf-syntax-ns#first
+GovernmentBond,government-issued bond,synonym
+N4f5a456eb5204503a36a53d15449e819,owl#Restriction,22-rdf-syntax-ns#type
+hasConvertibleDate,ExplicitDate,rdf-schema#range
+PartialCallFeature,CallFeature,rdf-schema#subClassOf
+N5f19cbc1ffc7442a8fad3848b5b23a94,CallFeature,owl#someValuesFrom
+hasFirstCouponPaymentDate,has first coupon payment date,rdf-schema#label
+MakeWholeCall,make whole call,rdf-schema#label
+FixedCouponBond,bond whose coupon rate and principal amount are fixed at the time of origination or sale and remain constant while the security is outstanding,core#definition
+ImplicitFullFaithCreditBond,implicit full faith credit bond,rdf-schema#label
+CallableBond,callable bond,rdf-schema#label
+MunicipalSecurity,municipal security,rdf-schema#label
+BondInsurance,bond insurance,rdf-schema#label
+Nba7c336439d24409853543dfca406f2d,StepSchedule,owl#someValuesFrom
+StripBond,bond that is part of a series of bonds formed by selling each interest payment and the principal amount of a bond as separate zero coupon bonds.,core#definition
+SteppedCouponTerms,Nba7c336439d24409853543dfca406f2d,rdf-schema#subClassOf
+N6ae314bcc43a47f1ad5f786748b471d2,owl#Restriction,22-rdf-syntax-ns#type
+UnsecuredBond,unsecured bond,rdf-schema#label
+LotteryConvention,PartialRedemptionAllocationConvention,22-rdf-syntax-ns#type
+N4f5a456eb5204503a36a53d15449e819,Currency,owl#someValuesFrom
+SteppedCouponTerms,owl#Class,22-rdf-syntax-ns#type
+CouponPaymentTerms,N4f5a456eb5204503a36a53d15449e819,rdf-schema#subClassOf
+VariableInterestExpression,N5ca78753c15148cf9ba935ad5ce25cc4,rdf-schema#subClassOf
+UnlistedBond,bond that is traded over the counter rather than via an exchange or other listing facility,core#definition
+CertificateOfParticipation,"A certificate of participation (COP) is a type of financing where an investor purchases a share of the lease revenues of a program rather than the bond being secured by those revenues. The certificate generally entitles the holder to receive a share, or participation, in the payments from a particular project. The payments are passed through the lessor to the certificate holders. The lessor typically assigns the lease and the payments to a trustee, which then distributes the payments to the certificate holders.",explanatoryNote
+Ncf1e8724e0694d1a936268944f1b1f23,owl#Restriction,22-rdf-syntax-ns#type
+N00d5ace2a55c4f3b991d2fa588291605,owl#Restriction,22-rdf-syntax-ns#type
+TreasuryNote,USTreasurySecurity,rdf-schema#subClassOf
+hasFirstPremiumCallPrice,has first premium call price,rdf-schema#label
+RateBasisConvention,owl#Class,22-rdf-syntax-ns#type
+Nc8aade37a39249899d926657b8007b3a,ExtraordinaryRedemptionProvision,owl#onClass
+FixedCouponTerms,CouponPaymentTerms,rdf-schema#subClassOf
+Bond,"or to repay the principal at maturity. The most common bonds are corporate or governmental, typically used to finance specific projects or operations.",explanatoryNote
+hasRemarketingAgent,hasThirdParty,rdf-schema#subPropertyOf
+BondWithWarrant,bond issue whereby the issue includes a warrant,core#definition
+ConvertibleBond,If the equity price remains below the strike price throughout the term of the bond it matures and is redeemed like a regular bond. The conversion ratio and strike price are usually set when the convertible bond is issued.,explanatoryNote
+Nb5eeb89efe8543bbb96875488b4d2f08,hasRelativePriceAtMaturity,owl#onProperty
+GovernmentBond,government bond,rdf-schema#label
+Nc8aade37a39249899d926657b8007b3a,owl#Restriction,22-rdf-syntax-ns#type
+FixedCouponTerms,owl#Class,22-rdf-syntax-ns#type
+VariablePrincipalBond,variable principal bond,rdf-schema#label
+ImplicitFullFaithCreditBond,implicit full faith and credit bond,synonym
+hasOriginalIssueDiscountAmount,MonetaryAmount,rdf-schema#range
+MandatoryConvertibleBond,owl#Class,22-rdf-syntax-ns#type
+N51bc4c6bbe1544d19f2455354809ce82,ReferenceInterestRate,owl#someValuesFrom
+PerpetualBond,perpetual bond,rdf-schema#label
+Nada2625d49e4408d8c5589e7925c34e3,isIssuedBy,owl#onProperty
+N3e8a388b95264b6a8ce03645bdd6a067,0,owl#minQualifiedCardinality
+Ne5f7eb345ac7428baff1580096f50974,BondCoupon,owl#someValuesFrom
+ZeroCouponBond,bond issued with a coupon rate of zero and that trades at a deep discount to face value,core#definition
+TreasuryBond,owl#Class,22-rdf-syntax-ns#type
+hasLastCouponPaymentDate,hasEndDate,rdf-schema#subPropertyOf
+N6ecdcef7eaf94cd0bd57b452899f0f10,AmortizationSchedule,owl#someValuesFrom
+MunicipalNote,municipal note,rdf-schema#label
+BuildAmericaBond,Build America Bond,rdf-schema#label
+hasFinalMaturityDate,RedemptionProvision,rdf-schema#domain
+PartialCall,partial call,rdf-schema#label
+Ncf1e8724e0694d1a936268944f1b1f23,hasMonetaryAmount,owl#onProperty
+N6b91821700674f5eaa49a344840fd6e8,owl#Restriction,22-rdf-syntax-ns#type
+hasCeiling,hasRateValue,rdf-schema#subPropertyOf
+GovernmentBond,owl#Class,22-rdf-syntax-ns#type
+BulletPrincipalRepaymentTerms,owl#Class,22-rdf-syntax-ns#type
+MunicipalBond,GovernmentBond,rdf-schema#subClassOf
+ZeroCouponBond,"The principal amount accretes over time at a constant accrual rate and is redeemed at full face value at maturity. In effect, the accrual rate is the coupon rate or yield which is added to the outstanding principal rather than being paid out to investors.",explanatoryNote
+,This ontology defines the basic concept of a bond and a number of bond variants including convertible and callable bonds. Medium term notes (MTNs) and debentures are also defined.,abstract
+hasFirstParCallPrice,MonetaryPrice,rdf-schema#range
+MunicipalDebtSourceOfFunds,owl#Class,22-rdf-syntax-ns#type
+Nace469d7ecb94f339820b369892355fd,true,owl#hasValue
+hasPenultimateCouponPaymentDate,ExplicitDate,rdf-schema#range
+MunicipalDebtRemarketingAgent,Dealer,rdf-schema#subClassOf
+BondWithPartialCall,owl#Class,22-rdf-syntax-ns#type
+hasFirstParCallPrice,has first par call price,rdf-schema#label
+PutFeature,owl#Class,22-rdf-syntax-ns#type
+CallableConvertibleBond,ConvertibleBond,rdf-schema#subClassOf
+BulletPrincipalRepaymentTerms,bond bullet principal repayment terms,rdf-schema#label
+MunicipalSecurity,GovernmentIssuedDebtSecurity,rdf-schema#subClassOf
+PerpetualBond,Bond,rdf-schema#subClassOf
+MunicipalSecurity,Nef66512a36494b0b9b5c3d76a84514a5,rdf-schema#subClassOf
+hasCallPrice,hasPrice,rdf-schema#subPropertyOf
+N541f4e2059eb4a019d363ae9fba612f0,owl#Restriction,22-rdf-syntax-ns#type
+hasFloor,VariableInterestExpression,rdf-schema#domain
+RemarketableBond,FloatingRateNote,rdf-schema#subClassOf
+,Bonds.rdf version of this ontology was modified to add an optional restriction on bond for 'has series' (FBC-322).,core#changeNote
+ListedBond,bond that may be traded on an exchange,core#definition
+FloatingRateNote,floating rate note,rdf-schema#label
+N3e8a388b95264b6a8ce03645bdd6a067,BondConversionTerms,owl#onClass
+RegularCouponSchedule,InterestPaymentSchedule,owl#equivalentClass
+ZeroInterestRate,FixedInterestRate,22-rdf-syntax-ns#type
+hasFirstPutPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasResetDateOffset,VariableCouponTerms,rdf-schema#domain
+isSuperSinker,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasFirstPremiumCallDate,has first premium call date,rdf-schema#label
+hasExtraordinaryRedemptionProvision,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasConvertibleDate,has convertible date,rdf-schema#label
+VariableCouponTerms,CouponPaymentTerms,rdf-schema#subClassOf
+VariableIncomeBond,"bond whose income may vary over time, because either the coupon rate or principal amount changes in line with an index or schedule over the life of the security",core#definition
+hasCeiling,owl#DatatypeProperty,22-rdf-syntax-ns#type
+BondWithPartialCall,bond with a feature whereby the issue can be partially called for amounts that are at the discretion of the issuer,core#definition
+VariableInterestCalculationFormula,FullyIndexedInterestRate,rdf-schema#subClassOf
+CertificateOfObligation,"CO's are similar to GO bonds, except that they do not require voter approval before they are issued. The CO's are also guaranteed by the City's taxation power and are counted in the calculation of the tax rate that is needed to support debt payments.",explanatoryNote
+Nfed6c2b97b354326bd9369c664667b95,owl#Restriction,22-rdf-syntax-ns#type
+CertificateOfParticipation,owl#Class,22-rdf-syntax-ns#type
+N8371c73a38ee4524bd81ca0b43c011f5,owl#Restriction,22-rdf-syntax-ns#type
+isMandatory,indicates whether something is required,core#definition
+BuildAmericaBond,"taxable municipal bond issued through December 31, 2010 under the American Recovery and Reinvestment Act of 2009 (ARRA)",core#definition
+hasMunicipalTrustee,MunicipalTrustee,rdf-schema#range
+BondWithPublishedSinkingFund,bond whereby amortization is via a known and published schedule,core#definition
+ExtraordinaryRedemptionProvision,extraordinary redemption provision,rdf-schema#label
+hasFirstPremiumCallPrice,hasFirstCallPrice,rdf-schema#subPropertyOf
+hasConvertibleDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasFirstCouponPaymentDate,hasExplicitDate,rdf-schema#subPropertyOf
+RedemptionPayment,owl#Class,22-rdf-syntax-ns#type
+ImplicitFullFaithCreditBond,UnsecuredBond,rdf-schema#subClassOf
+StepUpBond,Bond,rdf-schema#subClassOf
+hasFirstCallPrice,indicates the amount of the call on the first call date as specified in the call schedule,core#definition
+PercentageParValue,percentage par value,rdf-schema#label
+ExtraordinaryRedemptionProvision,CallFeature,rdf-schema#subClassOf
+hasFundingSource,owl#ObjectProperty,22-rdf-syntax-ns#type
+ZeroCouponBond,owl#Class,22-rdf-syntax-ns#type
+GeneralObligationMunicipalBond,general obligation municipal bond,rdf-schema#label
+hasPremiumAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+isProRated,InterestPaymentTerms,rdf-schema#domain
+N7d2bba858eaf4e26854895a954762f6b,BondConversionTerms,owl#someValuesFrom
+N3e8a388b95264b6a8ce03645bdd6a067,owl#Restriction,22-rdf-syntax-ns#type
+BondCoupon,coupon percent rate,synonym
+Nace469d7ecb94f339820b369892355fd,isCallable,owl#onProperty
+TreasuryBill,short-term zero coupon treasury obligation with a maturity ranging from one to twelve months,core#definition
+N5ca78753c15148cf9ba935ad5ce25cc4,hasCeiling,owl#onProperty
+Ndda22f80d6c94b15b1a2012d4d307a52,owl#Restriction,22-rdf-syntax-ns#type
+hasFirstCallPrice,has first call price,rdf-schema#label
+N57cf8b0a398c4a3ca72f4a48d49bda76,N1c8a14756a444138b0202045a59223df,22-rdf-syntax-ns#rest
+N850bff1eaf7f4bd3a6995d876e2d7a09,FixedCouponTerms,owl#someValuesFrom
+hasPartialRedemptionAllocationConvention,indicates the convention used to determine how the redemption is allocated over the set of bond holders,core#definition
+N48babd3ffa6a488194134ffdb70b756b,SteppedCouponTerms,owl#someValuesFrom
+isLinkedToFallback,"or redemption amount which is calculated by reference to the Inflation Index, with a maturity date which falls on the same day as the Maturity Date of the Inflation Linked Notes, or such other date as the Calculation Agent shall select if there is no such bond maturing on the Maturity Date of the Inflation Linked Notes. If any bond so selected is redeemed, the Calculation Agent will select a new Fallback Bond on the same basis, but selected from all eligible bonds in issue at the time the original Fallback Bond is redeemed (including any bond for which the redeemed bond is exchanged). Note the rate of the fallback bond is used as a substitute for the inflation index if, for example, it is no longer published.",explanatoryNote
+ConventionalGilt,conventional gilt,rdf-schema#label
+USTreasurySecurity,SovereignDebtInstrument,rdf-schema#subClassOf
+TreasuryBill,owl#Class,22-rdf-syntax-ns#type
+,"Bonds.rdf version of this ontology was modified to move details regarding step schedules to the debt instruments ontology for broader use and deprecate the use of a 'coupon' schedule in favor of interest payment schedule, which is the more modern terminology, aligning with other uses of the related terms in FIBO (FBC-317).",core#changeNote
+Nb19f803e82314ae99843b0bb6d416cd7,hasFloor,owl#onProperty
+TreasuryBond,treasury bond,rdf-schema#label
+hasPutFrequency,owl#ObjectProperty,22-rdf-syntax-ns#type
+OriginalIssueDiscountBond,Bond,rdf-schema#subClassOf
+Bond,Ne478e7b7c1a242c48d24ec1b95e1f8ca,rdf-schema#subClassOf
+RedemptionSchedule,repayment schedule whereby a given percentage of a bond issue is redeemed on predefined dates,core#definition
+hasRemarketingAgent,owl#ObjectProperty,22-rdf-syntax-ns#type
+N00d5ace2a55c4f3b991d2fa588291605,isPlayedBy,owl#onProperty
+LastRegularCouponDate,ExplicitDate,rdf-schema#subClassOf
+N3bc6363545814a48859578c06ff673a0,owl#Restriction,22-rdf-syntax-ns#type
+BondAmortizationPaymentTerms,"terms that include a schedule for repayment of the principal over the lifetime of the bond, typically in equal payments at regular intervals",core#definition
+TreasuryBond,SovereignBond,rdf-schema#subClassOf
+GovernmentBond,debt security issued by a government to fund government spending,core#definition
+hasFirstPutPrice,specifies the initial price at which the holder may sell the bond to the issuer prior to maturity,core#definition
+TreasuryInflationProtectedSecurity,VariablePrincipalBond,rdf-schema#subClassOf
+InflationLinkedBond,owl#Class,22-rdf-syntax-ns#type
+CouponPaymentTerms,terms for payment of interest on a bond,core#definition
+N6ae314bcc43a47f1ad5f786748b471d2,1,owl#qualifiedCardinality
+N24a9f86cb0234eb593a1611a6742aa2d,owl#Restriction,22-rdf-syntax-ns#type
+Nef66512a36494b0b9b5c3d76a84514a5,owl#Restriction,22-rdf-syntax-ns#type
+N12ebf92e636e4b858bcd9223f5299cca,hasExpression,owl#onProperty
+BulletBond,"bond whose entire principal value is paid on the maturity date, rather than amortized over its lifetime",core#definition
+StepUpBond,FixedIncomeSecurity,rdf-schema#subClassOf
+hasRedemptionAmount,has redemption amount,rdf-schema#label
+isLegalOpinionAvailable,XMLSchema#boolean,rdf-schema#range
+hasFundingSource,indicates the source of funds for a new issue of municipal securities,core#definition
+MunicipalBond,muni,abbreviation
+N92dd9196d70f4a5ab11fcb6d06d50681,hasInterestRate,owl#onProperty
+RevenueBond,SecuredBond,rdf-schema#subClassOf
+BulletPrincipalRepaymentTerms,BondPrincipalRepaymentTerms,rdf-schema#subClassOf
+MunicipalDebtRemarketingAgent,owl#Class,22-rdf-syntax-ns#type
+PartialRedemptionAllocationConvention,Nba7c2cf26b15431bbfa3504d8534442b,rdf-schema#subClassOf
+StripBond,strip bond,rdf-schema#label
+isLegalOpinionAvailable,MunicipalBond,rdf-schema#domain
+Nc8aade37a39249899d926657b8007b3a,hasExtraordinaryRedemptionProvision,owl#onProperty
+ExtraordinaryRedemptionProvision,"provision that gives a bond issuer the right to call its bonds due to an unusual one-time occurrence, as specified in the offering statement",core#definition
+hasOriginalIssueDiscountAmount,has original issue discount amount,rdf-schema#label
+FloatingRateNote,Nfe56cc9c712e411dbd17a58573243aba,rdf-schema#subClassOf
+ListedBond,owl#Class,22-rdf-syntax-ns#type
+BondConversionTerms,ConversionTerms,rdf-schema#subClassOf
+hasFirstPremiumCallPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+RemarketableBond,"A remarketing agent (dealer or underwriter) periodically surveys bond holders to identify those who want to sell bonds. The agent surveys market (or holds an auction) to determine interest rate at which the bonds can be resold. The rate on all outstanding bonds resets at the new rate. These programs are perpetual in the sense they often don't have a fixed maturity date, but the company can redeem them. If an auction fails, i.e., the agent can't place all the bonds then.",explanatoryNote
+Nd08a15d5d6cf41058b8056836a708d7c,1,owl#maxQualifiedCardinality
+StepEvent,StepEvent,owl#equivalentClass
+hasFirstParCallDate,hasExplicitDate,rdf-schema#subPropertyOf
+,MIT,license
+,Bonds.rdf version of the ontology was modified to replace concepts from additional FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+SecuredBond,"A secured bond may be collateralized by a claim on real assets, such as a factory or auto fleet; or by a claim on a revenue stream. A secured bond differs from a mortgage in that proceeds of the bond sale aren't used to acquire the asset.",explanatoryNote
+TreasuryInflationProtectedSecurity,prod_tips_glance.htm,rdf-schema#seeAlso
+IndexLinkedBond,VariableIncomeBond,rdf-schema#subClassOf
+Bond,bond,rdf-schema#label
+hasLockoutPeriod,"With a 10-year noncall 3-year (""10nc3"") debt security, the security cannot be called for the first three years.",core#example
+UnsecuredBond,debenture,synonym
+hasAwardDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+SovereignDebtInstrument,N541f4e2059eb4a019d363ae9fba612f0,rdf-schema#subClassOf
+PartialRedemptionAllocationConvention,convention used to determine how the partial call will be actioned with respect to bond selection,core#definition
+BondPrincipalRepaymentTerms,bond principal repayment terms,rdf-schema#label
+SovereignBond,MunicipalBond,owl#disjointWith
+isLegalOpinionAvailable,indicates whether a legal opinion exists for a given municipal bond,core#definition
+CallableConvertibleBond,convertible bond that is also callable,core#definition
+StepEvent,owl#Class,22-rdf-syntax-ns#type
+TreasuryInflationProtectedSecurity,USTreasurySecurity,rdf-schema#subClassOf
+GreenBond,bond issued specifically to fund climate or environmental projects,core#definition
+hasRemarketingAgent,identifies the dealer responsible for reselling to investors securities (such as variable rate demand obligations and other tender option bonds) that have been tendered for purchase by their owner.,core#definition
+LastRegularCouponDate,"scheduled date of the last regular coupon payment, that is the last of the payments that are made according to a regular repeating series of coupon periods, before any non-standard (long or short) final coupon period in the schedule",core#definition
+BondWithPartialCall,N8371c73a38ee4524bd81ca0b43c011f5,rdf-schema#subClassOf
+BuildAmericaBond,BABs may be direct pay subsidy bonds or tax credit bonds.,explanatoryNote
+BondWithWarrant,owl#Class,22-rdf-syntax-ns#type
+PartialRedemptionAllocationConvention,owl#Class,22-rdf-syntax-ns#type
+VariableInterestExpression,an expression used to determine a variable interest payment amount,core#definition
+USTreasurySecurity,owl#Class,22-rdf-syntax-ns#type
+FirstRegularCouponDate,ExplicitDate,rdf-schema#subClassOf
+Nba7c336439d24409853543dfca406f2d,owl#Restriction,22-rdf-syntax-ns#type
+Bond,tradable debt instrument representing a loan in which the issuer owes the holder(s) a debt,core#definition
+GeneralObligationMunicipalBond,"municipal bond that is backed by the full faith and credit and general resources of the issuing municipality, including its general taxing authority",core#definition
+VariableDebtPrincipal,variable debt principal,rdf-schema#label
+hasFinalMaturityDate,hasExplicitDate,rdf-schema#subPropertyOf
+CouponPayment,true,owl#deprecated
+StepUpBond,step down bond,synonym
+N41a7abe73bb748fcb3cb5faa6eacb108,CouponPaymentTerms,owl#someValuesFrom
+BondCoupon,bond coupon,rdf-schema#label
+hasCallPrice,has call price,rdf-schema#label
+MunicipalBond,owl#Class,22-rdf-syntax-ns#type
+TreasuryBill,"The pricing of T-bills is unique among U.S. government debt issues. Treasury bills are offered in multiples of $100 and in terms ranging from a few days to 52 weeks. Rather than providing interest payments as Treasury Bonds or Notes do, T-bills are sold at a discount, and the entire return is realized upon maturity. The price of a bill is determined at auction. The annualized interest rate earned on T-bills is equal to the difference between the purchase price and maturity value, divided by the maturity value.",explanatoryNote
+N7351a30fe85847e3bcb8392d5e9b0f63,owl#Class,22-rdf-syntax-ns#type
+Bond,owl#Class,22-rdf-syntax-ns#type
+TaxAllocationBond,"bond payable from the incremental increase in tax revenues realized from any increase in property value and other economic activity, often designed to capture the economic benefit resulting from a bond financing",core#definition
+InflationLinkedBond,inflation-indexed bond,synonym
+ListedBond,UnlistedBond,owl#disjointWith
+PercentageCumulativeAverageValue,percentage cumulative average value,rdf-schema#label
+hasFirstPutPrice,hasPrice,rdf-schema#subPropertyOf
+StripBond,owl#Class,22-rdf-syntax-ns#type
+LastRegularCouponDate,last regular coupon date,rdf-schema#label
+hasRedemptionAmount,RedemptionPayment,rdf-schema#domain
+PartialRedemptionAllocationConvention,partial redemption allocation convention,rdf-schema#label
+,Bonds.rdf version of this ontology was revised to eliminate duplication of concepts in LCC and eliminate a redundant superclass from RegularCouponSchedule.,core#changeNote
+SteppedCouponTerms,coupon payment terms for securities with a coupon that increases (steps up) while the bond is outstanding,core#definition
+MunicipalBond,"government bond that may be issued by a regional, rather than national, authority",core#definition
+ImplicitFullFaithCreditBond,It doesn't carry an explicit full faith and credit guarantee but the market believes the government wouldn't let it default or fail.,explanatoryNote
+Na6229b32c1f743eea915c0e5cb35ab0e,FixedInterestRate,owl#someValuesFrom
+FloatingRateNote,owl#Class,22-rdf-syntax-ns#type
+LastRegularCouponDate,owl#Class,22-rdf-syntax-ns#type
+isProRated,indicates whether the coupon is pro rated to the actual number of days in the payment period versus the number of payment periods,core#definition
+hasPenultimateCouponPaymentDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+N8bdcea4850114c53a7104cbacae76d25,Bond,owl#someValuesFrom
+StepUpBond,N48babd3ffa6a488194134ffdb70b756b,rdf-schema#subClassOf
+BondPrincipalRepaymentTerms,PrincipalRepaymentTerms,rdf-schema#subClassOf
+N9e0ebb4ab7614965b6a537d9aa3bc6a6,ParValue,owl#hasValue
+hasPremiumAmount,indicates the premium paid to a bond holder when the bond is called,core#definition
+N8b1acfec4ef247269f76037faceefb1c,hasSchedule,owl#onProperty
+BondPrincipalRepaymentTerms,CallFeature,owl#disjointWith
+hasResetDateOffset,RelativeDate,rdf-schema#range
+FirstRegularCouponDate,"scheduled date for the first regular coupon payment, in a regular repeating series of coupon periods, after any non standard (long or short) first coupon period in the schedule",core#definition
+N64cdbe658abe4a148689052664f361e7,BulletPrincipalRepaymentTerms,owl#someValuesFrom
+MunicipalDebtFundsUsage,municipal debt funds usage,rdf-schema#label
+N9d1a1a5178a14eed973b1652ed824355,definesTermsFor,owl#onProperty
+EquityLinkedBond,VariableCouponBond,rdf-schema#subClassOf
+BulletBond,Bond,rdf-schema#subClassOf
+SpecialTaxBond,"For example, bonds for a particular purpose might be supported by sales, cigarette, fuel or business license taxes.",core#example
+SovereignBond,"Sovereign bonds issued by G20 developed countries are generally full faith and credit obligations. Sovereign bonds issued by emerging and developing countries may be issued in local currency or a G7 currency, and may either be full faith and credit (unsecured) or secured.",explanatoryNote
+OriginalIssueDiscountBond,An original issue discount (OID) is the discount in price from a bond's face value at the time a bond or other debt instrument is first issued. The OID is the amount of discount or the difference between the original face value and the price paid for the bond.,explanatoryNote
+N9264bf2dec2c414b8c9f5b07ba4690e8,hasRelativePriceAtIssue,owl#onProperty
+Ndda22f80d6c94b15b1a2012d4d307a52,1,owl#qualifiedCardinality
+SpecialTaxBond,special tax bond,rdf-schema#label
+FirstRegularCouponDate,first regular coupon date,rdf-schema#label
+,"Copyright (c) 2018-2024 Object Management Group, Inc.",copyright
+N9289098387b74246b1c94851c1d91399,hasInterestPaymentTerms,owl#onProperty
+MediumTermNote,"By shelf registration we mean the security registration process where an issuer registers in advance, and can issue lots of securities for up to three years.",explanatoryNote
+RevenueBond,owl#Class,22-rdf-syntax-ns#type
+Nb7a35f253b2e4a0ca53adf3545314c73,owl#Restriction,22-rdf-syntax-ns#type
+ZeroCouponBond,Nb5eeb89efe8543bbb96875488b4d2f08,rdf-schema#subClassOf
+N9d1a1a5178a14eed973b1652ed824355,owl#Restriction,22-rdf-syntax-ns#type
+hasPutFrequency,indicates the recurring window of time in which the put feature can be exercised,core#definition
+EquityLinkedBond,owl#Class,22-rdf-syntax-ns#type
+hasFirstPremiumCallDate,hasExplicitDate,rdf-schema#subPropertyOf
+,"Bonds.rdf version of this ontology was revised to allow for variation in index-linked bonds, such as those whose interest payments vary with an index in addition to those that have a variable principal linked to an index and to make a number of corrections to the class hierarchy.",core#changeNote
+Ne478e7b7c1a242c48d24ec1b95e1f8ca,hasSeries,owl#onProperty
+Nef66512a36494b0b9b5c3d76a84514a5,hasObjective,owl#onProperty
+N7d2bba858eaf4e26854895a954762f6b,hasContractualElement,owl#onProperty
+FloatingRateNote,VariableCouponBond,rdf-schema#subClassOf
+SpecialTaxBond,MunicipalBond,rdf-schema#subClassOf
+CertificateOfParticipation,"debt instrument evidencing a pro rata share in a specific pledged revenue stream, usually lease payments by the issuer that are typically subject to annual appropriation",core#definition
+RegulatoryCall,CallEvent,rdf-schema#subClassOf
+N8312d7f59846458aba90451ee0b2999e,hasOriginalIssueDiscountAmount,owl#onProperty
+hasFirstCallPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasCeiling,VariableInterestExpression,rdf-schema#domain
+UnlistedBond,owl#Class,22-rdf-syntax-ns#type
+FixedCouponBond,Bond,rdf-schema#subClassOf
+N64cdbe658abe4a148689052664f361e7,hasRepaymentTerms,owl#onProperty
+hasOriginalIssueDiscountAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+SecuredBond,Bond,rdf-schema#subClassOf
+TreasuryInflationProtectedSecurity,treasury inflation-protected security,rdf-schema#label
+hasPenultimateCouponPaymentDate,CouponPaymentTerms,rdf-schema#domain
+hasResetDateOffset,has reset date offset,rdf-schema#label
+UnsecuredBond,Bond,rdf-schema#subClassOf
+VariableCouponBond,variable coupon bond,rdf-schema#label
+RevenueBond,MunicipalBond,rdf-schema#subClassOf
+hasMunicipalTrustee,has municipal trustee,rdf-schema#label
+N6ecdcef7eaf94cd0bd57b452899f0f10,owl#Restriction,22-rdf-syntax-ns#type
+VariablePrincipalBond,"The principal on variable principal bonds adjusts line with an index such as inflation or GDP. For example, for a bond linked to the CPI, if inflation rises two percent the principal increases by 2 percent. The coupon rate is typically fixed. The best-known example is TIPS or Treasury Inflation Protected Bonds, which are linked to the CPI. TIPs offer a real or inflation adjusted rate of return.",explanatoryNote
+Nada2625d49e4408d8c5589e7925c34e3,owl#Restriction,22-rdf-syntax-ns#type
+TreasuryNote,treasury note,rdf-schema#label
+ConventionalGilt,Conventional gilts are the simplest form of government bond and constitute around 75 percent of the gilt portfolio.,explanatoryNote
+Ne478e7b7c1a242c48d24ec1b95e1f8ca,XMLSchema#string,owl#onDataRange
+hasFirstPutDate,ExplicitDate,rdf-schema#range
+N8312d7f59846458aba90451ee0b2999e,0,owl#minQualifiedCardinality
+CertificateOfObligation,"For example, when a hurricane destroys the police and emergency services building, there is no time to go through the process of voter referendum. The local council must be able to borrow the money to set up provisional buildings and necessary equipment for police and emergency services so that the community is served in continuity.",explanatoryNote
+N8312d7f59846458aba90451ee0b2999e,owl#Restriction,22-rdf-syntax-ns#type
+Nb7a35f253b2e4a0ca53adf3545314c73,MunicipalDebtSourceOfFunds,owl#someValuesFrom
+hasFundingSource,hasDataSource,rdf-schema#subPropertyOf
+,,owl#imports
+OriginalIssueDiscountBond,Nfed6c2b97b354326bd9369c664667b95,rdf-schema#subClassOf
+N7a7c7149697141d38245156b4ecdca69,hasOriginalIssueDiscountAmount,owl#onProperty
+hasCallRateBasis,"for each call event on the schedule, indicates whether the rate is expressed as a percentage of par or percentage of percentage of cumulative average value (CAV)",core#definition
+hasAwardDate,"specifies the date on which bonds are awarded to the lead manager or syndicate on negotiated deals, or the date of bidding on competitive deals",core#definition
+isProRated,is pro-rated,rdf-schema#label
+isSuperSinker,indicates that the bond has a long-term coupon but short potential short maturity,core#definition
+Nd325f036fff14e43a85742703a9ee5b0,PartialRedemptionAllocationConvention,owl#someValuesFrom
+MunicipalBond,municipal bond,rdf-schema#label
+Nfe29704d11ab494ebf2956e56d9d0a9a,owl#Restriction,22-rdf-syntax-ns#type
+BondConversionTerms,owl#Class,22-rdf-syntax-ns#type
+N24a9f86cb0234eb593a1611a6742aa2d,isPlayedBy,owl#onProperty
+IndexLinkedBond,N5a25aa102895463f8ef10e59b295d100,rdf-schema#subClassOf
+MunicipalDebtRemarketingAgent,municipal securities dealer responsible for reselling to investors securities (such as variable rate demand obligations and other tender option bonds) that have been tendered for purchase by their owner,core#definition
+N850bff1eaf7f4bd3a6995d876e2d7a09,owl#Restriction,22-rdf-syntax-ns#type
+,"Bonds.rdf version of this ontology was revised to eliminate a duplicate 'isBasedOn' property and replace it with the property of the same name in the debt ontology, to revise the inheritance hierarchy for bond conversion terms to reflect changes in the representation of redemption more generally, to reflect the move of redemption provision from debt to financial instruments, and eliminate circular and ambiguous definitions.",core#changeNote
+CallableBond,owl#Class,22-rdf-syntax-ns#type
+isLinkedToFallback,FinancialInstrument,rdf-schema#domain
+BondVariableCoupon,bond variable coupon,rdf-schema#label
+MunicipalSecurity,N90a2be09ac234aae8e2df83e4c3940ba,rdf-schema#subClassOf
+FixedCouponBond,N850bff1eaf7f4bd3a6995d876e2d7a09,rdf-schema#subClassOf
+N8b1acfec4ef247269f76037faceefb1c,PaymentSchedule,owl#someValuesFrom
+FullFaithCreditBond,UnsecuredBond,rdf-schema#subClassOf
+N24a9f86cb0234eb593a1611a6742aa2d,LegalEntity,owl#someValuesFrom
+N6ae314bcc43a47f1ad5f786748b471d2,FullyIndexedInterestRate,owl#onClass
+isSuperSinker,XMLSchema#boolean,rdf-schema#range
+BondWithPublishedSinkingFund,owl#Class,22-rdf-syntax-ns#type
+VariableInterestExpression,N6ae314bcc43a47f1ad5f786748b471d2,rdf-schema#subClassOf
+StepUpBond,"The step change may be one time, or occur according to a schedule or at regular intervals.",explanatoryNote
+InflationLinkedBond,IndexLinkedBond,rdf-schema#subClassOf
+ProRataConvention,convention whereby securities that are subject to partial redemption are allocated proportionately,core#definition
+PartialCallFeature,partial call feature,rdf-schema#label
+FixedCouponTerms,Na6229b32c1f743eea915c0e5cb35ab0e,rdf-schema#subClassOf
+ConventionalGilt,owl#Class,22-rdf-syntax-ns#type
+MunicipalTrustee,FinancialInstitution,rdf-schema#subClassOf
+hasCallPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+CouponPaymentTerms,owl#Class,22-rdf-syntax-ns#type
+hasRedemptionAmount,MonetaryAmount,rdf-schema#range
+,Bonds.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N92dd9196d70f4a5ab11fcb6d06d50681,owl#Restriction,22-rdf-syntax-ns#type
+SovereignBond,owl#Class,22-rdf-syntax-ns#type
+SteppedCouponTerms,CouponPaymentTerms,rdf-schema#subClassOf
+hasFirstPremiumCallDate,CallFeature,rdf-schema#domain
+CertificateOfParticipation,DebtInstrument,rdf-schema#subClassOf
+GreenBond,green bond,rdf-schema#label
+StepSchedule,true,owl#deprecated
+VariableIncomeBond,variable income bond,rdf-schema#label
+isProRated,owl#DatatypeProperty,22-rdf-syntax-ns#type
+SteppedCouponTerms,stepped coupon terms,rdf-schema#label
+VariableDebtPrincipal,owl#Class,22-rdf-syntax-ns#type
+N9264bf2dec2c414b8c9f5b07ba4690e8,AtADiscount,owl#hasValue
+CertificateOfObligation,MunicipalSecurity,rdf-schema#subClassOf
+CouponPaymentTerms,Ne5f7eb345ac7428baff1580096f50974,rdf-schema#subClassOf
+ZeroCouponTerms,owl#Class,22-rdf-syntax-ns#type
+N2d3b3d2a2aad414d8832e42444f98ba9,owl#Restriction,22-rdf-syntax-ns#type
+MunicipalTrustee,municipal trustee,rdf-schema#label
+N9e0ebb4ab7614965b6a537d9aa3bc6a6,hasRelativePriceAtMaturity,owl#onProperty
+Nfe29704d11ab494ebf2956e56d9d0a9a,Polity,owl#someValuesFrom
+VariableInterestExpression,owl#Class,22-rdf-syntax-ns#type
+CallableBond,Nace469d7ecb94f339820b369892355fd,rdf-schema#subClassOf
+OriginalIssueDiscountBond,original issue discount bond,rdf-schema#label
+MediumTermNote,"bond issued over time under a shelf registration program, where each issue may have a different coupon and maturity typically ranging from one to ten years",core#definition
+RegulatoryCall,regulatory call,rdf-schema#label
+N7a7c7149697141d38245156b4ecdca69,MonetaryAmount,owl#onClass
+ConventionalGilt,FixedCouponBond,rdf-schema#subClassOf
+UKGovernmentSecurity,SovereignDebtInstrument,rdf-schema#subClassOf
+hasCeiling,has ceiling,rdf-schema#label
+N48babd3ffa6a488194134ffdb70b756b,owl#Restriction,22-rdf-syntax-ns#type
+MunicipalNote,owl#Class,22-rdf-syntax-ns#type
+hasAwardDate,ExplicitDate,rdf-schema#range
+hasExtraordinaryRedemptionProvision,RedemptionProvision,rdf-schema#domain
+hasLastCouponPaymentDate,has last coupon payment date,rdf-schema#label
+CertificateOfParticipation,certificate of participation,rdf-schema#label
+UKGovernmentSecurity,U.K. Government security,rdf-schema#label
+ConvertibleBond,N3e8a388b95264b6a8ce03645bdd6a067,rdf-schema#subClassOf
+Nf5a0febbcd054141b6720df928a1fdde,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+ZeroCouponTerms,BondAmortizationPaymentTerms,rdf-schema#subClassOf
+MunicipalDebtSourceOfFunds,municipal debt source of funds,rdf-schema#label
+FloatingRateNote,bond with a variable interest rate based on a published reference interest rate,core#definition
+N41a7abe73bb748fcb3cb5faa6eacb108,owl#Restriction,22-rdf-syntax-ns#type
+hasLockoutPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+GovernmentBond,Bond,rdf-schema#subClassOf
+VariableCouponBond,VariableIncomeBond,rdf-schema#subClassOf
+SinkingFundAmortizationTerms,terms for the paydown of principal in a sinking fund type of amortizing security,core#definition
+Nb931112976d1419d9f8bcb53dfd82e1d,isBasedOn,owl#onProperty
+USTreasurySecurity,N3bc6363545814a48859578c06ff673a0,rdf-schema#subClassOf
+hasCeiling,indicates the maximum variable interest payment amount,core#definition
+N2d3b3d2a2aad414d8832e42444f98ba9,N7351a30fe85847e3bcb8392d5e9b0f63,owl#someValuesFrom
+hasPutDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+CorporateBond,N5258318afe9e4b63b53d0b39a7802606,rdf-schema#subClassOf
+Na6229b32c1f743eea915c0e5cb35ab0e,owl#Restriction,22-rdf-syntax-ns#type
+N90a2be09ac234aae8e2df83e4c3940ba,owl#Restriction,22-rdf-syntax-ns#type
+StepUpBond,bond with a coupon that increases (steps up) while the bond is outstanding,core#definition
+N5a25aa102895463f8ef10e59b295d100,N82e016f449f84673971914147e75f71c,owl#someValuesFrom
+MunicipalDebtSourceOfFunds,LegalDocument,rdf-schema#subClassOf
+GovernmentBond,GovernmentIssuedDebtSecurity,rdf-schema#subClassOf
+ListedBond,Most exchange traded bonds are corporate bonds (but most corporate bonds are not exchange traded bonds).,explanatoryNote
+UKGovernmentSecurity,owl#Class,22-rdf-syntax-ns#type
+isLegalOpinionAvailable,is legal opinion available,rdf-schema#label
+ConventionalGilt,"fixed coupon bond issued by HM Treasury that guarantees to pay the holder of the gilt a fixed cash payment (coupon) every six months until the maturity date, at which point the holder receives the final coupon payment and the return of the principal",core#definition
+hasFirstCouponPaymentDate,"The first coupon date sometimes occurs at an irregular time; that is, if the bond pays coupons every six months, the first coupon period may be longer or shorter than six months.",explanatoryNote
+hasPutFrequency,PutFeature,rdf-schema#domain
+Bond,N2853555ede614348b29b8b558d20c8e0,rdf-schema#subClassOf
+PartialCallFeature,"call feature whereby the issuer can recall part of the issue on scheduled dates, where bonds are selected to be called according to some rule, or by selecting various bonds at random",core#definition
+hasFinalMaturityDate,"indicates the final payment date of a financial instrument, at which point the principal (and all remaining interest) is due to be paid",core#definition
+CallableConvertibleBond,callable convertible bond,rdf-schema#label
+N1c8a14756a444138b0202045a59223df,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N8312d7f59846458aba90451ee0b2999e,MonetaryAmount,owl#onClass
+TreasuryNote,owl#Class,22-rdf-syntax-ns#type
+FixedCouponBond,fixed coupon bond,rdf-schema#label
+Ndda22f80d6c94b15b1a2012d4d307a52,XMLSchema#boolean,owl#onDataRange
+RegulatoryCall,owl#Class,22-rdf-syntax-ns#type
+N2853555ede614348b29b8b558d20c8e0,owl#Restriction,22-rdf-syntax-ns#type
+hasFloor,has floor,rdf-schema#label
+hasCallPrice,MonetaryPrice,rdf-schema#range
+CorporateBond,bond issued by a company in order to raise financing,core#definition
+N92dd9196d70f4a5ab11fcb6d06d50681,ZeroInterestRate,owl#hasValue
+N9651561ca411447c927c88d67a70cb11,isBasedOn,owl#onProperty
+SovereignDebtInstrument,sovereign debt instrument,rdf-schema#label
+ZeroCouponBond,N9289098387b74246b1c94851c1d91399,rdf-schema#subClassOf
+BondCoupon,InterestRate,rdf-schema#subClassOf
+UKGovernmentSecurity,The term 'gilt' or 'gilt-edged security' is a reference to the primary characteristic of gilts as an investment: their security. This is a reflection of the fact that the British Government has never failed to make interest or principal payments on gilts as they fall due.,explanatoryNote
+CallableBond,Nc8aade37a39249899d926657b8007b3a,rdf-schema#subClassOf
+VariablePrincipalBond,owl#Class,22-rdf-syntax-ns#type
+TaxAllocationBond,SecuredBond,rdf-schema#subClassOf
+UKGovernmentSecurity,gilt,synonym
+N1b2bc51f8f62450baa5f1bf6bdf57cf1,BondAmortizationPaymentTerms,owl#someValuesFrom
+PercentageCumulativeAverageValue,percentage CAV,abbreviation
+ConventionalGilt,,rdf-schema#seeAlso
+isSuperSinker,"Super-sinker is a colloquial term for a term maturity, usually from a single family mortgage revenue issue with several term maturities, that will be the first to be called from a sinking fund into which all proceeds from prepayments of mortgages financed by the issue are deposited. The maturity's priority status under the call provisions means that it is likely to be redeemed in its entirety well before the stated maturity date.",explanatoryNote
+,"Bonds.rdf version of this ontology was revised to incorporate the concept of a credit agreement repaid at maturity, which is a component assumed to be part of the definition of a bond, and to add an explanatory note to the definition of Treasury Bill.",core#changeNote
+Nb19f803e82314ae99843b0bb6d416cd7,owl#Restriction,22-rdf-syntax-ns#type
+Bond,TradableDebtInstrument,rdf-schema#subClassOf
+N5258318afe9e4b63b53d0b39a7802606,isIssuedBy,owl#onProperty
+RedemptionSchedule,owl#Class,22-rdf-syntax-ns#type
+VariableCouponBond,bond that has a floating interest rate,core#definition
+isMandatory,XMLSchema#boolean,rdf-schema#range
+MediumTermNote,owl#Class,22-rdf-syntax-ns#type
+LotteryConvention,lottery convention,rdf-schema#label
+N8f4764bc641a429db3f2d30d2b75f5c9,owl#Restriction,22-rdf-syntax-ns#type
+hasFirstParCallDate,has first par call date,rdf-schema#label
+RedemptionPayment,RedemptionEvent,rdf-schema#subClassOf
+CallableConvertibleBond,CallableBond,rdf-schema#subClassOf
+StepSchedule,StepSchedule,owl#equivalentClass
+,Bonds Ontology,rdf-schema#label
+hasCallRateBasis,Zero coupon bonds and OID bonds are callable at an accreted value.,explanatoryNote
+VariablePrincipalBond,VariableIncomeBond,rdf-schema#subClassOf
+MunicipalTrustee,Trustee,rdf-schema#subClassOf
+isLinkedToFallback,refersTo,rdf-schema#subPropertyOf
+Nf5a0febbcd054141b6720df928a1fdde,MarketRate,22-rdf-syntax-ns#first
+PerpetualBond,owl#Class,22-rdf-syntax-ns#type
+hasCallPrice,"This is the price a bond issuer or preferred stock issuer must pay investors to buy back, or call, all or part of an issue before the maturity date.",explanatoryNote
+GovernmentIssuedDebtSecurity,"debt security issued by some government on behalf of some polity, including sovereign and municipal debt",core#definition
+N5a25aa102895463f8ef10e59b295d100,isBasedOn,owl#onProperty
+CorporateBond,Bond,rdf-schema#subClassOf
+PerpetualBond,"bond that has no maturity date, i.e., one that pays interest in perpetuity",core#definition
+hasFirstPutDate,hasPutDate,rdf-schema#subPropertyOf
+hasRemarketingAgent,MunicipalDebtRemarketingAgent,rdf-schema#range
+ZeroCouponBond,FixedIncomeSecurity,rdf-schema#subClassOf
+MandatoryConvertibleBond,N7d2bba858eaf4e26854895a954762f6b,rdf-schema#subClassOf
+CertificateOfObligation,CO,abbreviation
+hasFirstPutDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasFirstPutDate,indicates the initial date on which the holder may sell the bond to the issuer prior to maturity,core#definition
+CouponPayment,InterestPayment,owl#equivalentClass
+SovereignBond,bond issued by the government of a country,core#definition
+hasPremiumAmount,has premium amount,rdf-schema#label
+VariableCouponTerms,variable coupon terms,rdf-schema#label
+BondRegistrar,LegalAgent,rdf-schema#subClassOf
+N8bdcea4850114c53a7104cbacae76d25,owl#Restriction,22-rdf-syntax-ns#type
+Nfe29704d11ab494ebf2956e56d9d0a9a,isPlayedBy,owl#onProperty
+VariableCouponBond,The rate adjusts according to a predetermined formula outlined in the bond's prospectus or official statement.,explanatoryNote
+BondVariableCoupon,VariableInterestRate,rdf-schema#subClassOf
+VariableCouponBond,owl#Class,22-rdf-syntax-ns#type
+ZeroCouponTerms,zero coupon terms,rdf-schema#label
+Nfed6c2b97b354326bd9369c664667b95,ParValue,owl#hasValue
+OriginalIssueDiscountBond,OID bond,synonym
+AmortizingBond,bond that regularly pays down the principal (face value) on the debt along with its interest expense over the life of the bond,core#definition
+TreasuryBill,MoneyMarketInstrument,rdf-schema#subClassOf
+BondWithPublishedSinkingFund,bond with published sinking fund,rdf-schema#label
+BondCoupon,"interest rate on a debt security that the issuer promises to pay to the holder until maturity, expressed as an annual percentage of the face value",core#definition

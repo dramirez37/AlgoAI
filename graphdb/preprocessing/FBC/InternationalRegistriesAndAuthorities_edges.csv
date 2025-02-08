@@ -1,0 +1,237 @@
+source_id,target_id,relationship
+MarketIdentifierCodeRegistryEntry,Nd9ceba2180b241feb7797139a02cb5fd,rdf-schema#subClassOf
+BusinessIdentifierCodeRegistry,BusinessRegistry,22-rdf-syntax-ns#type
+SocietyForWorldwideInterbankFinancialTelecommunicationAddress,ConventionalStreetAddress,22-rdf-syntax-ns#type
+BankForInternationalSettlementsAddress,Tower building address for the Bank for International Settlements (BIS),core#definition
+IBANRegistrationAuthority,iban,adaptedFrom
+IBANRegistrationAuthority,BusinessIdentifierCodeRegistry,manages
+GlobalLEIIndex,"The reference data provides the information on a legal entity identifiable with an LEI. The Global LEI Index is the only global online source that provides open, standardized and high quality legal entity reference data.",explanatoryNote
+MarketIdentifierCodeRegistry,Registry,22-rdf-syntax-ns#type
+BusinessIdentifierCodeRegistry,registry for registering and maintaining information about bank and other business identifier codes that conform to ISO 9362,core#definition
+GlobalLEIIndex,LegalEntityIdentifierRegistry,22-rdf-syntax-ns#type
+Nbab60c7051e14012bc795b0cfa28b08a,isIncludedIn,owl#onProperty
+MarketIdentifierCodeRegistryEntry,market identifier code registry entry,rdf-schema#label
+BusinessIdentifierCodeRegistrationAuthority,FinancialServiceProvider,22-rdf-syntax-ns#type
+Nbd0bbed95e6f488ca6d78c530a41306b,isSelfMaintained,owl#onProperty
+LegalEntityIdentfierRegistrationAuthority,Legal Entity Identifier registration authority,rdf-schema#label
+N1f80d2b5d43e474994fa9a682d3ebb26,BusinessIdentifierCode,owl#someValuesFrom
+Nbab60c7051e14012bc795b0cfa28b08a,BusinessIdentifierCodeRegistry,owl#hasValue
+MarketIdentifierCodeRegistryEntry,iso-10383-market-identifier-codes,adaptedFrom
+GLEIFLegalEntityIdentifierRegistryEntry,Global LEI Index registry entry for Global Legal Entity Identifier Foundation (GLEIF),core#definition
+BusinessIdentifierCodeDataRecord,Nbab60c7051e14012bc795b0cfa28b08a,rdf-schema#subClassOf
+N5f1d59654f044550b0dfbecfee54ec62,XMLSchema#string,owl#onDataRange
+,"or managing various identifiers needed in banking applications occur, such as SWIFT. These individuals and in some cases, such as registry entries, are managed independently to reduce the import footprint for applications that do not require them, in other words, to support modularity needs of FIBO users.",abstract
+GlobalLegalEntityIdentifierFoundation,,hasWebsite
+BankForInternationalSettlementsAddress,ConventionalStreetAddress,22-rdf-syntax-ns#type
+MarketIdentifierCodeRegistryEntry,owl#Class,22-rdf-syntax-ns#type
+Nbbc32b07fe254d87867f49f5e2f88c49,MarketIdentifierCodeStatus,owl#onClass
+,"InternationalRegistriesAndAuthorities.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+IBANRegistrationAuthority,owl#NamedIndividual,22-rdf-syntax-ns#type
+MarketIdentifierCodeRegistry,iso-10383-market-identifier-codes,adaptedFrom
+L-HB7FFAZI0OMZ8PP8OE26-LEI,SocietyForWorldwideInterbankFinancialTelecommunication,identifies
+BusinessIdentifierCodeDataRecord,business identifier code data record,rdf-schema#label
+BankForInternationalSettlementsAsBankingServicesProvider,Bank for International Settlements as banking services provider,rdf-schema#label
+BankForInternationalSettlementsAddress,Bank for International Settlements address,rdf-schema#label
+BankForInternationalSettlements,owl#NamedIndividual,22-rdf-syntax-ns#type
+GlobalLEIIndex,Global LEI Index,rdf-schema#label
+MarketIdentifierCodeRegistry,MICRegistrationAuthority,isManagedBy
+BankForInternationalSettlementsAsBankingServicesProvider,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nadc98665e8d8403ab1567d1179de5dc6,hasInitialRegistrationDate,owl#onProperty
+BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry,IssuedStatus,hasRegistrationStatus
+L-506700GE1G29325QX363-LEI,LegalEntityIdentifier,22-rdf-syntax-ns#type
+BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry,EntityValidationLevelFullyCorroborated,hasValidationLevel
+MICRegistrationAuthority,MarketIdentifierCodeRegistry,manages
+L-506700GE1G29325QX363-LEI,Global Legal Entity Identifier Foundation legal entity identifier,rdf-schema#label
+N369b825fcd1746c880619afbbe6b6b97,comprises,owl#onProperty
+GLEIFLegalEntityIdentifierRegistryEntry,IssuedStatus,hasRegistrationStatus
+LegalEntityIdentfierRegistrationAuthority,GlobalLEIIndex,manages
+SWIFTLegalEntityIdentifierRegistryEntry,L-HB7FFAZI0OMZ8PP8OE26-LEI,comprises
+SWIFTLegalEntityIdentifierRegistryEntry,2022-01-20T00:21:00-08:00,hasRenewalDate
+GLEIFLegalEntityIdentifierRegistryEntry,EntityValidationLevelFullyCorroborated,hasValidationLevel
+GLEIFLegalEntityIdentifierRegistryEntry,2022-03-15T16:00:00-07:00,hasRenewalDate
+BankForInternationalSettlementsAsBankingServicesProvider,,rdf-schema#seeAlso
+SocietyForWorldwideInterbankFinancialTelecommunicationAddress,La Hulpe,hasCityName
+GlobalLegalEntityIdentifierFoundationAddress,Switzerland,hasCountry
+BankForInternationalSettlementsDateEstablished,ExplicitDate,22-rdf-syntax-ns#type
+MarketIdentifierCodeRegistryEntry,MIC registry entry,abbreviation
+BankForInternationalSettlements,"international financial organization that serves central banks in their pursuit of monetary and financial stability, helping to foster international cooperation in those areas and acting as a bank for central banks",core#definition
+L-UXIATLMNPCXXT5KR1S08-LEI,Bank for International Settlements legal entity identifier,rdf-schema#label
+BusinessIdentifierCodeRegistrationAuthority,BusinessIdentifierCodeRegistry,manages
+BusinessIdentifierCodeDataRecord,owl#Class,22-rdf-syntax-ns#type
+Nadc98665e8d8403ab1567d1179de5dc6,1,owl#qualifiedCardinality
+SocietyForWorldwideInterbankFinancialTelecommunicationAddress,Society for Worldwide Interbank Financial Telecommunication address,rdf-schema#label
+GlobalLegalEntityIdentifierFoundationAddress,physical address of the Global Legal Entity Identifier Foundation (GLEIF),core#definition
+GLEIFLegalEntityIdentifierRegistryEntry,LegalEntityIdentifierRegistryEntry,22-rdf-syntax-ns#type
+SocietyForWorldwideInterbankFinancialTelecommunication,CVBA,hasLegalName
+N5f1d59654f044550b0dfbecfee54ec62,owl#Restriction,22-rdf-syntax-ns#type
+GLEIFLegalEntityIdentifierRegistryEntry,2021-07-15T05:29:06-07:00,hasRegistrationRevisionDate
+BankForInternationalSettlementsAddress,4051,hasPostalCode
+,InternationalRegistriesAndAuthorities.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+L-HB7FFAZI0OMZ8PP8OE26-LEI,GlobalLEIIndex,isRegisteredIn
+MICRegistrationAuthority,owl#NamedIndividual,22-rdf-syntax-ns#type
+GlobalLegalEntityIdentifierFoundation,owl#NamedIndividual,22-rdf-syntax-ns#type
+GlobalLEIIndex,"registry that contains historical and current LEI records including related reference data in one authoritative, central repository",core#definition
+N1f80d2b5d43e474994fa9a682d3ebb26,comprises,owl#onProperty
+MICRegistrationAuthority,RegistrationAuthority,22-rdf-syntax-ns#type
+SWIFTLegalEntityIdentifierRegistryEntry,IssuedStatus,hasRegistrationStatus
+LegalEntityIdentfierRegistrationAuthority,RegistrationAuthority,22-rdf-syntax-ns#type
+MICRegistrationAuthority,MIC registration authority,rdf-schema#label
+L-HB7FFAZI0OMZ8PP8OE26-LEI,HB7FFAZI0OMZ8PP8OE26,hasTag
+,,owl#imports
+GlobalLegalEntityIdentifierFoundation,"Global Legal Entity Identifier Foundation (GLEIF) legal entity, tasked to support the implementation and use of the Legal Entity Identifier (LEI)",core#definition
+SocietyForWorldwideInterbankFinancialTelecommunication,,hasWebsite
+BankForInternationalSettlementsAsBankingServicesProvider,BankForInternationalSettlementsDateEstablished,hasDateEstablished
+L-506700GE1G29325QX363-LEI,owl#NamedIndividual,22-rdf-syntax-ns#type
+SocietyForWorldwideInterbankFinancialTelecommunication,Society for Worldwide Interbank Financial Telecommunication,rdf-schema#label
+MarketIdentifierCodeRegistry,MIC registry,abbreviation
+MarketIdentifierCodeRegistryEntry,Nadc98665e8d8403ab1567d1179de5dc6,rdf-schema#subClassOf
+L-UXIATLMNPCXXT5KR1S08-LEI,identifier and link to the official legal entity identifier registry entry for the Bank for International Settlements,core#definition
+L-HB7FFAZI0OMZ8PP8OE26-LEI,LegalEntityIdentifier,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+L-UXIATLMNPCXXT5KR1S08-LEI,LegalEntityIdentifier,22-rdf-syntax-ns#type
+LegalEntityIdentfierRegistrationAuthority,GlobalLegalEntityIdentifierFoundation,isPlayedBy
+BusinessIdentifierCodeDataRecord,BIC data record,abbreviation
+SocietyForWorldwideInterbankFinancialTelecommunicationAddress,corporate address for the Society for Worldwide Interbank Financial Telecommunication (SWIFT),core#definition
+,,owl#versionIRI
+BankForInternationalSettlements,"Office of Financial Research (OFR) Annual Report, 2012, Glossary",adaptedFrom
+BankForInternationalSettlementsDateEstablished,1930-05-01,hasDateValue
+SocietyForWorldwideInterbankFinancialTelecommunication,SocietyForWorldwideInterbankFinancialTelecommunicationAddress,hasHeadquartersAddress
+,owl#Ontology,22-rdf-syntax-ns#type
+BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry,2021-06-29T14:31:00-07:00,hasRegistrationRevisionDate
+Nd9ceba2180b241feb7797139a02cb5fd,owl#Restriction,22-rdf-syntax-ns#type
+BankForInternationalSettlementsAsBankingServicesProvider,"Office of Financial Research (OFR) Annual Report, 2012, Glossary",adaptedFrom
+SocietyForWorldwideInterbankFinancialTelecommunication,SocietyForWorldwideInterbankFinancialTelecommunicationAddress,hasLegalAddress
+LegalEntityIdentfierRegistrationAuthority,"registration authority appointed by the International Standards Organization (ISO) that is the official registration authority (RA) for ISO 17442, Financial services - Legal entity identifier (LEI)",core#definition
+MICRegistrationAuthority,SocietyForWorldwideInterbankFinancialTelecommunication,isPlayedBy
+MarketIdentifierCodeRegistryEntry,entry in a market identifier code registry that conforms to ISO 10383,core#definition
+GlobalLegalEntityIdentifierFoundationAddress,Global Legal Entity Identifier Foundation address,rdf-schema#label
+SocietyForWorldwideInterbankFinancialTelecommunication,NotForProfitOrganization,22-rdf-syntax-ns#type
+BusinessIdentifierCodeRegistrationAuthority,bic,adaptedFrom
+MarketIdentifierCodeRegistry,owl#NamedIndividual,22-rdf-syntax-ns#type
+MICRegistrationAuthority,,adaptedFrom
+SWIFTLegalEntityIdentifierRegistryEntry,Society for Worldwide Interbank Financial Telecommunication (SWIFT) legal entity identifier registry entry,rdf-schema#label
+GlobalLegalEntityIdentifierFoundationAddress,Basel,hasMunicipality
+IBANRegistrationAuthority,IBAN registration authority,rdf-schema#label
+SocietyForWorldwideInterbankFinancialTelecommunicationAddress,1310,hasPostalCode
+BusinessIdentifierCodeRegistrationAuthority,BIC code registrar,synonym
+MarketIdentifierCodeRegistryEntry,N5f1d59654f044550b0dfbecfee54ec62,rdf-schema#subClassOf
+,InternationalRegistriesAndAuthorities.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Nd9ceba2180b241feb7797139a02cb5fd,isIncludedIn,owl#onProperty
+N369b825fcd1746c880619afbbe6b6b97,owl#Restriction,22-rdf-syntax-ns#type
+MarketIdentifierCodeRegistryEntry,RegistryEntry,rdf-schema#subClassOf
+BankForInternationalSettlementsAddress,Switzerland,hasCountry
+BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry,LegalEntityIdentifierRegistryEntry,22-rdf-syntax-ns#type
+Nbd0bbed95e6f488ca6d78c530a41306b,owl#Restriction,22-rdf-syntax-ns#type
+SocietyForWorldwideInterbankFinancialTelecommunication,owl#NamedIndividual,22-rdf-syntax-ns#type
+SocietyForWorldwideInterbankFinancialTelecommunicationAddress,Avenue Adèle 1,hasAddressLine1
+BankForInternationalSettlements,BankForInternationalSettlementsAddress,hasHeadquartersAddress
+BankForInternationalSettlements,BankForInternationalSettlementsAddress,hasLegalAddress
+GLEIFLegalEntityIdentifierRegistryEntry,Global Legal Entity Identifier Foundation (GLEIF) legal entity identifier registry entry,rdf-schema#label
+SWIFTLegalEntityIdentifierRegistryEntry,EntityValidationLevelFullyCorroborated,hasValidationLevel
+GlobalLegalEntityIdentifierFoundationAddress,St. Alban-Vorstadt 5,hasAddressLine1
+BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry,2022-06-25T07:42:00-07:00,hasRenewalDate
+GLEIFLegalEntityIdentifierRegistryEntry,2018-03-15T22:13:33-07:00,hasInitialRegistrationDate
+SocietyForWorldwideInterbankFinancialTelecommunicationAddress,owl#NamedIndividual,22-rdf-syntax-ns#type
+BankForInternationalSettlementsAsBankingServicesProvider,Bank for International Settlements role as a banking services provider to central banks and other monetary authorities,core#definition
+MICRegistrationAuthority,MIC RA,abbreviation
+BusinessIdentifierCodeRegistry,owl#NamedIndividual,22-rdf-syntax-ns#type
+BusinessIdentifierCodeRegistry,BusinessIdentifierCodeRegistrationAuthority,isManagedBy
+N5f1d59654f044550b0dfbecfee54ec62,hasRegistrationRevisionDate,owl#onProperty
+L-UXIATLMNPCXXT5KR1S08-LEI,GlobalLEIIndex,isRegisteredIn
+SWIFTLegalEntityIdentifierRegistryEntry,LegalEntityIdentifierRegistryEntry,22-rdf-syntax-ns#type
+IBANRegistrationAuthority,SocietyForWorldwideInterbankFinancialTelecommunication,isPlayedBy
+L-HB7FFAZI0OMZ8PP8OE26-LEI,owl#NamedIndividual,22-rdf-syntax-ns#type
+BusinessIdentifierCodeDataRecord,N1f80d2b5d43e474994fa9a682d3ebb26,rdf-schema#subClassOf
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+SWIFTLegalEntityIdentifierRegistryEntry,2021-02-12T13:35:00-08:00,hasRegistrationRevisionDate
+BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry,owl#NamedIndividual,22-rdf-syntax-ns#type
+N1f80d2b5d43e474994fa9a682d3ebb26,owl#Restriction,22-rdf-syntax-ns#type
+GlobalLegalEntityIdentifierFoundationAddress,ConventionalStreetAddress,22-rdf-syntax-ns#type
+SocietyForWorldwideInterbankFinancialTelecommunication,"Society for Worldwide Interbank Financial Telecommunication (SWIFT) legal entity, which is a global member-owned cooperative and the world's leading provider of secure financial messaging services",core#definition
+L-506700GE1G29325QX363-LEI,GlobalLegalEntityIdentifierFoundation,identifies
+GlobalLegalEntityIdentifierFoundationAddress,4052,hasPostalCode
+BusinessIdentifierCodeRegistrationAuthority,owl#NamedIndividual,22-rdf-syntax-ns#type
+BankForInternationalSettlementsAddress,Centralbahnplatz 2,hasAddressLine1
+GLEIFLegalEntityIdentifierRegistryEntry,owl#NamedIndividual,22-rdf-syntax-ns#type
+MarketIdentifierCodeRegistry,market identifier code registry,rdf-schema#label
+Nadc98665e8d8403ab1567d1179de5dc6,XMLSchema#string,owl#onDataRange
+GlobalLegalEntityIdentifierFoundationAddress,owl#NamedIndividual,22-rdf-syntax-ns#type
+IBANRegistrationAuthority,FinancialServiceProvider,22-rdf-syntax-ns#type
+BusinessIdentifierCodeRegistry,BIC registry,abbreviation
+MarketIdentifierCodeRegistryEntry,Nbbc32b07fe254d87867f49f5e2f88c49,rdf-schema#subClassOf
+N5f1d59654f044550b0dfbecfee54ec62,1,owl#maxQualifiedCardinality
+BusinessIdentifierCodeDataRecord,entry in a registry that conforms to ISO 9362 for the management of BIC codes and related registration information,core#definition
+L-UXIATLMNPCXXT5KR1S08-LEI,BankForInternationalSettlements,identifies
+BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry,2012-06-06T08:55:00-07:00,hasInitialRegistrationDate
+BankForInternationalSettlementsAsBankingServicesProvider,"The Bank for International Settlements offers a wide range of financial services specifically designed to assist central banks and other official monetary institutions in the management of their foreign exchange reserves. BIS facilitates international financial cooperation and endeavors to make monetary policy more predictable and transparent. Its customers are central banks and international organizations; they do not accept deposits from, or provide financial services to, private individuals or corporate entities.",explanatoryNote
+BusinessIdentifierCodeDataRecord,BusinessRegistryEntry,rdf-schema#subClassOf
+BusinessIdentifierCodeRegistry,business identifier code registry,rdf-schema#label
+BusinessIdentifierCodeDataRecord,bic,adaptedFrom
+SocietyForWorldwideInterbankFinancialTelecommunicationAddress,Belgium,hasCountry
+BusinessIdentifierCodeRegistry,bic,adaptedFrom
+IBANRegistrationAuthority,RegistrationAuthority,22-rdf-syntax-ns#type
+,International Registries and Authorities Ontology,rdf-schema#label
+BankForInternationalSettlementsAddress,Basel,hasMunicipality
+Nbd0bbed95e6f488ca6d78c530a41306b,XMLSchema#string,owl#someValuesFrom
+BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry,Global LEI Index registry entry for Bank for International Settlements (BIS),core#definition
+BankForInternationalSettlementsDateEstablished,date that Bank for International Settlements was established to offer financial services to BIS member central banks,core#definition
+L-506700GE1G29325QX363-LEI,identifier and link to the official legal entity identifier registry entry for the Global Legal Entity Identifier Foundation as published in the Global LEI Index,core#definition
+SocietyForWorldwideInterbankFinancialTelecommunication,SWIFT,abbreviation
+BankForInternationalSettlementsDateEstablished,owl#NamedIndividual,22-rdf-syntax-ns#type
+BusinessIdentifierCodeRegistrationAuthority,SocietyForWorldwideInterbankFinancialTelecommunication,isPlayedBy
+MarketIdentifierCodeRegistry,registry for registering and maintaining information for market identifier codes that conform to ISO 10383,core#definition
+BankForInternationalSettlementsAsBankingServicesProvider,BankForInternationalSettlements,isPlayedBy
+GlobalLegalEntityIdentifierFoundation,GlobalLegalEntityIdentifierFoundationAddress,hasLegalAddress
+MICRegistrationAuthority,FinancialServiceProvider,22-rdf-syntax-ns#type
+Nadc98665e8d8403ab1567d1179de5dc6,owl#Restriction,22-rdf-syntax-ns#type
+BankForInternationalSettlements,Instrumentality,22-rdf-syntax-ns#type
+MarketIdentifierCodeRegistryEntry,N369b825fcd1746c880619afbbe6b6b97,rdf-schema#subClassOf
+BusinessIdentifierCodeDataRecord,Nbd0bbed95e6f488ca6d78c530a41306b,rdf-schema#subClassOf
+GlobalLegalEntityIdentifierFoundation,GLEIF,abbreviation
+MICRegistrationAuthority,"ISO 10383, Market Identifier Code (MIC) Registration Authority (RA) and financial service provider, appointed by the International Standards Organization (ISO), that is the official registration authority (RA) for ISO 10383, Codes for exchanges and market identification (MIC)",core#definition
+BankForInternationalSettlements,Banque Des Reglements Internationaux,rdf-schema#label
+SWIFTLegalEntityIdentifierRegistryEntry,Global LEI Index registry entry for the Society for Worldwide Interbank Financial Telecommunication (SWIFT),core#definition
+L-UXIATLMNPCXXT5KR1S08-LEI,UXIATLMNPCXXT5KR1S08,hasTag
+Nbab60c7051e14012bc795b0cfa28b08a,owl#Restriction,22-rdf-syntax-ns#type
+L-506700GE1G29325QX363-LEI,GlobalLEIIndex,isRegisteredIn
+,Release,hasMaturityLevel
+BankForInternationalSettlements,BIS,abbreviation
+Nbbc32b07fe254d87867f49f5e2f88c49,owl#Restriction,22-rdf-syntax-ns#type
+BusinessIdentifierCodeRegistrationAuthority,BusinessRegistrationAuthority,22-rdf-syntax-ns#type
+GlobalLEIIndex,owl#NamedIndividual,22-rdf-syntax-ns#type
+BusinessIdentifierCodeRegistrationAuthority,BIC RA,abbreviation
+,MIT,license
+L-506700GE1G29325QX363-LEI,506700GE1G29325QX363,hasTag
+BusinessIdentifierCodeRegistrationAuthority,"registration authority and financial service provider, appointed by the International Standards Organization (ISO), that is the official registration authority (RA) for ISO 9362, Banking - Banking telecommunication messages - Business identifier code (BIC)",core#definition
+L-UXIATLMNPCXXT5KR1S08-LEI,owl#NamedIndividual,22-rdf-syntax-ns#type
+BankForInternationalSettlementsAddress,owl#NamedIndividual,22-rdf-syntax-ns#type
+BusinessIdentifierCodeRegistrationAuthority,BIC registration authority,abbreviation
+SWIFTLegalEntityIdentifierRegistryEntry,2012-06-06T08:54:00-07:00,hasInitialRegistrationDate
+GLEIFLegalEntityIdentifierRegistryEntry,L-506700GE1G29325QX363-LEI,comprises
+IBANRegistrationAuthority,"ISO 13616:2007, International Bank Account Number (IBAN) Registration Authority (RA) and financial service provider, appointed by the International Standards Organization (ISO), that is the official registration authority (RA) for ISO 13616:2007, Financial services - International bank account number (IBAN)",core#definition
+L-HB7FFAZI0OMZ8PP8OE26-LEI,identifier and link to the official legal entity identifier registry entry for the Society for Worldwide Interbank Financial Telecommunication (SWIFT),core#definition
+,InternationalRegistriesAndAuthorities.rdf version of this ontology was revised to add details for the Global LEI Foundation and fix spelling errors.,core#changeNote
+BankForInternationalSettlements,Bank für Internationalen Zahlungsausgleich,rdf-schema#label
+BankForInternationalSettlementsDateEstablished,Bank for International Settlements date established,rdf-schema#label
+L-HB7FFAZI0OMZ8PP8OE26-LEI,Society for Worldwide Interbank Financial Telecommunication (SWIFT) legal entity identifier,rdf-schema#label
+BankForInternationalSettlementsAsBankingServicesProvider,Bank,22-rdf-syntax-ns#type
+,InternationalRegistriesAndAuthorities.rdf version of this ontology was revised to address text formatting issues uncovered via hygiene testing.,core#changeNote
+MICRegistrationAuthority,ISO 10383 Registration Authority,synonym
+BankForInternationalSettlements,Bank für Internationalen Zahlungsausgleich,hasLegalName
+SWIFTLegalEntityIdentifierRegistryEntry,owl#NamedIndividual,22-rdf-syntax-ns#type
+GlobalLegalEntityIdentifierFoundation,NotForProfitOrganization,22-rdf-syntax-ns#type
+GlobalLegalEntityIdentifierFoundation,Global Legal Entity Identifier Foundation,rdf-schema#label
+BankForInternationalSettlements,Bank for International Settlements,rdf-schema#label
+MICRegistrationAuthority,iso-10383-market-identifier-codes,adaptedFrom
+N369b825fcd1746c880619afbbe6b6b97,MarketIdentifier,owl#someValuesFrom
+GlobalLegalEntityIdentifierFoundation,Global Legal Entity Identifier Foundation,hasLegalName
+BankForInternationalSettlements,,hasWebsite
+BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry,L-UXIATLMNPCXXT5KR1S08-LEI,comprises
+Nd9ceba2180b241feb7797139a02cb5fd,MarketIdentifierCodeRegistry,owl#hasValue
+GlobalLegalEntityIdentifierFoundation,GlobalLegalEntityIdentifierFoundationAddress,hasHeadquartersAddress
+LegalEntityIdentfierRegistrationAuthority,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nbbc32b07fe254d87867f49f5e2f88c49,1,owl#qualifiedCardinality
+Nbbc32b07fe254d87867f49f5e2f88c49,hasMarketIdentifierCodeStatus,owl#onProperty
+BankForInternationalSettlements,"Established in 1930, the BIS is owned by 63 central banks, representing countries from around the world that together account for about 95 percent of world GDP. Its head office is in Basel, Switzerland and it has two representative offices: in Hong Kong SAR and in Mexico City, as well as Innovation Hub Centres around the world.",explanatoryNote
+BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry,Bank for International Settlements legal entity identifier registry entry,rdf-schema#label
+BusinessIdentifierCodeRegistrationAuthority,Business Identifier Code registration authority,rdf-schema#label

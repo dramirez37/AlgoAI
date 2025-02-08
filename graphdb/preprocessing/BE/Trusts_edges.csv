@@ -1,0 +1,177 @@
+source_id,target_id,relationship
+N9cd3fb6dfce8419389feda6e8ea01699,owl#Restriction,22-rdf-syntax-ns#type
+Trustor,trustor,rdf-schema#label
+N0f643075789e4086834b3915314def5c,owl#Restriction,22-rdf-syntax-ns#type
+hasTrustee,Trustee,rdf-schema#range
+TrustBeneficiary,trust beneficiary,rdf-schema#label
+,Trusts.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+hasBeneficiary,links a trust to a named beneficiary,core#definition
+Trust,owl#Class,22-rdf-syntax-ns#type
+LivingTrust,"trust created during an individual's lifetime where a designated person, the trustee, is given responsibility for managing that individual's assets for the benefit of the eventual beneficiary",core#definition
+,Trusts Ontology,rdf-schema#label
+N047dd24d3a39450da286b594b702af41,isPlayedBy,owl#onProperty
+hasTrustee,links a trust to a named trustee,core#definition
+N4b67e975f6e14a5da96a850d4498d6d1,owl#Restriction,22-rdf-syntax-ns#type
+Trustee,trustee,rdf-schema#label
+N52fbb40bdcc54556bbae0aa19b741706,owl#Restriction,22-rdf-syntax-ns#type
+Na814f66066334cdb9e0a9d880b2fd083,owl#Restriction,22-rdf-syntax-ns#type
+Trustee,owl#Class,22-rdf-syntax-ns#type
+TrustAgreement,trust deed,synonym
+TrustBeneficiary,"party for whose interest (benefit) an annuity, assignment (such as a letter of credit), contract, insurance policy, judgment, promise, trust, will, etc., is made",core#definition
+Trustee,"The trustee is legally obliged to make all trust-related decisions with the beneficiary's interests in mind, and may be liable for damages in the event of not doing so. Trustees may be entitled to a payment for their services, if specified in the trust agreement. In the specific case of the bond market, a trustee administers a bond issue for a borrower, and ensures that the issuer meets all the terms and conditions associated with the borrowing.",explanatoryNote
+,"Trusts.rdf version of this ontology was modified to add a number of kinds of trusts, clean-up extraneous concepts, and eliminate circularity and ambiguity in definitions.",core#changeNote
+N0adbfa3094074801b1e89fa4d6df5417,N52fbb40bdcc54556bbae0aa19b741706,owl#someValuesFrom
+isTrusteeOf,actsOn,rdf-schema#subPropertyOf
+isTrusteeOf,Trustee,rdf-schema#domain
+Trustor,"or one of the beneficiaries. In legal parlance, a trustor is called a settlor in the UK and a grantor in the US, whereas in common usage he or she may also be called a creator, donor, initiator, owner, or trust maker.",explanatoryNote
+Nc30d7285a65b41aba6f5949061358dbe,isAPartyTo,owl#onProperty
+Trustor,Nf33394b018c142d8afc67aae232fd73c,rdf-schema#subClassOf
+TrustFundManager,owl#Class,22-rdf-syntax-ns#type
+TestamentaryTrust,testamentary trust,rdf-schema#label
+isBeneficiaryOf,isAffectedBy,rdf-schema#subPropertyOf
+,Trusts.rdf version of this ontology was modified to eliminate duplication with concepts in LCC.,core#changeNote
+Trustor,OrganizationMember,rdf-schema#subClassOf
+Trustor,Na241c5a42da84aafb0e94bf3bdeb0af8,rdf-schema#subClassOf
+Na241c5a42da84aafb0e94bf3bdeb0af8,owl#Restriction,22-rdf-syntax-ns#type
+N71904523aff742428b42c3bd7e91979a,hasPartyRole,owl#onProperty
+TestamentaryTrust,trust established in accordance with the instructions contained in a last will and testament,core#definition
+, merge the legal person and formal organization class hierarchies.,core#changeNote
+Na52fcf81b41a469cb9e061d9a93c98f6,owl#Restriction,22-rdf-syntax-ns#type
+TrustAgreement,N0f643075789e4086834b3915314def5c,rdf-schema#subClassOf
+TrustAgreement,trust document,synonym
+N9366e9b4d9494ce6b135ec933d5e20df,Na814f66066334cdb9e0a9d880b2fd083,owl#someValuesFrom
+isBeneficiaryOf,is beneficiary of,rdf-schema#label
+hasTrustee,isAffectedBy,rdf-schema#subPropertyOf
+N9464b00ebaeb4750ab17e8731d486da4,isGovernedBy,owl#onProperty
+Trustee,OrganizationMember,rdf-schema#subClassOf
+hasTrustee,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasBeneficiary,isBeneficiaryOf,owl#inverseOf
+TrustAgreement,"A trust agreement typically states the (1) purpose for which the trust was established and fulfillment of which will terminate the trust, (2) details of the assets placed in the trust, (3) powers and limitations of the trustees, their reporting requirements, and other associated provisions, and (4) may also specify the trustees' compensation, if any. A trust agreement involving real estate requires its exact description and the trustor's express, written consent to create the trust to be valid.",explanatoryNote
+Nf33394b018c142d8afc67aae232fd73c,Party,owl#allValuesFrom
+Trustor,owl#Class,22-rdf-syntax-ns#type
+TrustBeneficiary,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+TrustFundManager,trust fund manager,rdf-schema#label
+N937f7a43f2804e369214569d9988bd03,isPlayedBy,owl#onProperty
+IrrevocableTrust,owl#Class,22-rdf-syntax-ns#type
+Nc2280dac0ee14f6a8d692e51bd2bc0d1,owl#Restriction,22-rdf-syntax-ns#type
+hasBeneficiary,TrustBeneficiary,rdf-schema#range
+isTrusteeOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+Na814f66066334cdb9e0a9d880b2fd083,manages,owl#onProperty
+Nfe9586b6ffbf40d3bf3596f275e76bb9,owl#Restriction,22-rdf-syntax-ns#type
+Nc30d7285a65b41aba6f5949061358dbe,1,owl#qualifiedCardinality
+N937f7a43f2804e369214569d9988bd03,N286e52f84a554c35941639c0519539e0,owl#someValuesFrom
+IrrevocableTrust,"trust that cannot be modified, amended or terminated except under certain legal circumstances and typically not without the permission of the grantor's named beneficiary or beneficiaries",core#definition
+RevocableTrust,revocable trust,rdf-schema#label
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+N9366e9b4d9494ce6b135ec933d5e20df,isPlayedBy,owl#onProperty
+,,owl#versionIRI
+isBeneficiaryOf,Trust,rdf-schema#range
+N9464b00ebaeb4750ab17e8731d486da4,owl#Restriction,22-rdf-syntax-ns#type
+N047dd24d3a39450da286b594b702af41,N184a8ad477854d5d80bd846395ecae03,owl#someValuesFrom
+,owl#Ontology,22-rdf-syntax-ns#type
+Ncba054495d574398800c11c38501f3c7,hasPartyRole,owl#onProperty
+N52fbb40bdcc54556bbae0aa19b741706,isAPartyTo,owl#onProperty
+hasBeneficiary,Trust,rdf-schema#domain
+Trustee,Nfe9586b6ffbf40d3bf3596f275e76bb9,rdf-schema#subClassOf
+TestamentaryTrust,owl#Class,22-rdf-syntax-ns#type
+N9cd3fb6dfce8419389feda6e8ea01699,Trustee,owl#someValuesFrom
+RevocableTrust,Trust,rdf-schema#subClassOf
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+N047dd24d3a39450da286b594b702af41,owl#Restriction,22-rdf-syntax-ns#type
+TrustBeneficiary,N0adbfa3094074801b1e89fa4d6df5417,rdf-schema#subClassOf
+Trust,N71904523aff742428b42c3bd7e91979a,rdf-schema#subClassOf
+LivingTrust,Trust,rdf-schema#subClassOf
+N184a8ad477854d5d80bd846395ecae03,owl#Restriction,22-rdf-syntax-ns#type
+hasBeneficiary,has beneficiary,rdf-schema#label
+Ncba054495d574398800c11c38501f3c7,Trustee,owl#someValuesFrom
+N52fbb40bdcc54556bbae0aa19b741706,TrustAgreement,owl#allValuesFrom
+Na814f66066334cdb9e0a9d880b2fd083,Trust,owl#allValuesFrom
+Nf33394b018c142d8afc67aae232fd73c,owl#Restriction,22-rdf-syntax-ns#type
+,"Trusts.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasBeneficiary,owl#ObjectProperty,22-rdf-syntax-ns#type
+N286e52f84a554c35941639c0519539e0,Trust,owl#allValuesFrom
+Ncba054495d574398800c11c38501f3c7,owl#Restriction,22-rdf-syntax-ns#type
+isTrusteeOf,Trust,rdf-schema#range
+Na52fcf81b41a469cb9e061d9a93c98f6,isAPartyTo,owl#onProperty
+N0f643075789e4086834b3915314def5c,Trustor,owl#someValuesFrom
+N0adbfa3094074801b1e89fa4d6df5417,owl#Restriction,22-rdf-syntax-ns#type
+N71904523aff742428b42c3bd7e91979a,TrustBeneficiary,owl#someValuesFrom
+hasBeneficiary,actsOn,rdf-schema#subPropertyOf
+Trustee,LegallyDelegatedAuthority,rdf-schema#subClassOf
+,Trusts.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+Nfe9586b6ffbf40d3bf3596f275e76bb9,Na52fcf81b41a469cb9e061d9a93c98f6,owl#someValuesFrom
+N9464b00ebaeb4750ab17e8731d486da4,1,owl#qualifiedCardinality
+Trust,Ncba054495d574398800c11c38501f3c7,rdf-schema#subClassOf
+Na241c5a42da84aafb0e94bf3bdeb0af8,Nc30d7285a65b41aba6f5949061358dbe,owl#someValuesFrom
+TrustAgreement,trust instrument,synonym
+isBeneficiaryOf,TrustBeneficiary,rdf-schema#domain
+,Trusts.rdf version of this ontology was modified per the FIBO 2.0 RFC.,core#changeNote
+N4b67e975f6e14a5da96a850d4498d6d1,TrustBeneficiary,owl#someValuesFrom
+RevocableTrust,"trust in which legal ownership of the trust property is transferred to the trustee, but the trustor retains full power to revoke, modify or amend the trust",core#definition
+N937f7a43f2804e369214569d9988bd03,owl#Restriction,22-rdf-syntax-ns#type
+TrustAgreement,OrganizationCoveringAgreement,rdf-schema#subClassOf
+N286e52f84a554c35941639c0519539e0,isMemberOf,owl#onProperty
+Na241c5a42da84aafb0e94bf3bdeb0af8,isPlayedBy,owl#onProperty
+N9cd3fb6dfce8419389feda6e8ea01699,hasPartyRole,owl#onProperty
+N0f643075789e4086834b3915314def5c,hasPartyRole,owl#onProperty
+Nc30d7285a65b41aba6f5949061358dbe,TrustAgreement,owl#onClass
+N0adbfa3094074801b1e89fa4d6df5417,isPlayedBy,owl#onProperty
+Trust,"fiduciary relationship and legal entity in which one party, known as a trustor, gives another party, the trustee, the right to hold title to and manage assets for the benefit of a third party, the beneficiary",core#definition
+hasTrustee,has trustee,rdf-schema#label
+Nc2280dac0ee14f6a8d692e51bd2bc0d1,hasPartyRole,owl#onProperty
+N184a8ad477854d5d80bd846395ecae03,manages,owl#onProperty
+Trust,Nc2280dac0ee14f6a8d692e51bd2bc0d1,rdf-schema#subClassOf
+LivingTrust,living trust,rdf-schema#label
+,"This ontology defines the fundamental common terms for trusts. Trusts are entities set up in terms of the applicable local statutes goerning trusts, and have as a minimum three specific, defined parties, known in many jurisdictions as trustor (sometimes sponsor), trustee and beneficiary. The terms in this ontology may be extended as necessary to represent specific types of trust, for example in the funds arena.",abstract
+Trustor,settlor,synonym
+Na52fcf81b41a469cb9e061d9a93c98f6,1,owl#qualifiedCardinality
+Trust,trust,rdf-schema#label
+Na52fcf81b41a469cb9e061d9a93c98f6,TrustAgreement,owl#onClass
+N9366e9b4d9494ce6b135ec933d5e20df,owl#Restriction,22-rdf-syntax-ns#type
+N286e52f84a554c35941639c0519539e0,owl#Restriction,22-rdf-syntax-ns#type
+LivingTrust,owl#Class,22-rdf-syntax-ns#type
+,Trusts.rdf version of this ontology was modified to eliminate references to external dictionary sites that no longer resolve.,core#changeNote
+Trustee,party that holds and manages assets for the benefit of another,core#definition
+LivingTrust,A living trust is designed to allow for the easy transfer of the trust creator or settlor's assets while bypassing the often complex and expensive legal process of probate. Living trust agreements designate a trustee who holds legal possession of assets and property that flow into the trust.,explanatoryNote
+isTrusteeOf,identifies the trust over which a trustee has some measure of control,core#definition
+N184a8ad477854d5d80bd846395ecae03,Trust,owl#allValuesFrom
+Trustee,N937f7a43f2804e369214569d9988bd03,rdf-schema#subClassOf
+IrrevocableTrust,Irrevocable trusts also offer asset protection from future creditors and lawsuits.,explanatoryNote
+TestamentaryTrust,IrrevocableTrust,rdf-schema#subClassOf
+,Trusts.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.,core#changeNote
+,Release,hasMaturityLevel
+TrustAgreement,"formal agreement that establishes a trust, whereby the trustor(s) gives the trustee(s) the responsibility to hold and manage assets for the beneficiary(ies)",core#definition
+Trustor,party that establishes a trust and places property under the protection and management of one or more trustees for the benefit of at least one beneficiary,core#definition
+Trustee,N9366e9b4d9494ce6b135ec933d5e20df,rdf-schema#subClassOf
+TrustFundManager,party empowered to act on behalf of the trustee to manage the assets of the trust,core#definition
+Nc2280dac0ee14f6a8d692e51bd2bc0d1,Trustor,owl#someValuesFrom
+isBeneficiaryOf,specifies the trust that a beneficiary is named in,core#definition
+,MIT,license
+Nf33394b018c142d8afc67aae232fd73c,isPlayedBy,owl#onProperty
+N71904523aff742428b42c3bd7e91979a,owl#Restriction,22-rdf-syntax-ns#type
+Nc30d7285a65b41aba6f5949061358dbe,owl#Restriction,22-rdf-syntax-ns#type
+TrustAgreement,owl#Class,22-rdf-syntax-ns#type
+N9464b00ebaeb4750ab17e8731d486da4,TrustAgreement,owl#onClass
+TrustBeneficiary,Beneficiary,rdf-schema#subClassOf
+Trust,N9464b00ebaeb4750ab17e8731d486da4,rdf-schema#subClassOf
+TrustFundManager,LegallyDelegatedAuthority,rdf-schema#subClassOf
+TestamentaryTrust,"A will could have more than one testamentary trust. The trustee named is responsible for managing and distributing the trustor's assets to the beneficiaries as directed in the will. Sometimes called a will trust, the testamentary trust is irrevocable.",explanatoryNote
+TrustFundManager,N047dd24d3a39450da286b594b702af41,rdf-schema#subClassOf
+Trust,LegalEntity,rdf-schema#subClassOf
+isTrusteeOf,is trustee of,rdf-schema#label
+hasTrustee,isTrusteeOf,owl#inverseOf
+Trustor,grantor,synonym
+,Trusts.rdf version of this ontology was modified to reflect the move of OrganizationMember from Parties to Organizations in FND.,core#changeNote
+Trust,BusinessEntity,rdf-schema#subClassOf
+hasTrustee,Trust,rdf-schema#domain
+isBeneficiaryOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+IrrevocableTrust,irrevocable trust,rdf-schema#label
+N4b67e975f6e14a5da96a850d4498d6d1,hasPartyRole,owl#onProperty
+RevocableTrust,IrrevocableTrust,owl#disjointWith
+TrustAgreement,N4b67e975f6e14a5da96a850d4498d6d1,rdf-schema#subClassOf
+Nfe9586b6ffbf40d3bf3596f275e76bb9,isPlayedBy,owl#onProperty
+TrustAgreement,trust agreement,rdf-schema#label
+TrustAgreement,N9cd3fb6dfce8419389feda6e8ea01699,rdf-schema#subClassOf
+RevocableTrust,owl#Class,22-rdf-syntax-ns#type
+IrrevocableTrust,Trust,rdf-schema#subClassOf

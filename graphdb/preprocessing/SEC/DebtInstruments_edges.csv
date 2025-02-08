@@ -1,0 +1,513 @@
+source_id,target_id,relationship
+NonTradableDebtInstrument,N7028aeb3069540bd8855c1eb1bfcdcd1,rdf-schema#subClassOf
+CallFeature,owl#Class,22-rdf-syntax-ns#type
+N8dfd16ca9b94473fb05c086040fc3720,owl#Restriction,22-rdf-syntax-ns#type
+hasRelativePriceAtRedemption,has relative price at redemption,rdf-schema#label
+allowsPaymentInKind,XMLSchema#boolean,rdf-schema#range
+PutNotificationProvision,a provision of a put feature defining notification requirements,core#definition
+PubliclyIssuedDebt,publicly issued debt,rdf-schema#label
+RelativePrice,security price specified in comparison with either a stated or market value for a debt instrument at some point in time,core#definition
+isCallable,is callable,rdf-schema#label
+isExchangeable,is exchangeable,rdf-schema#label
+DebtInstrument,N71c9670ea75c420194131a58c3db7e43,rdf-schema#subClassOf
+FullyIndexedInterestRate,FloatingInterestRate,rdf-schema#subClassOf
+Ned68a50632dd4a95a442fbe96166deaa,N43451ce6cfb14a63a8674e87d9800afe,owl#unionOf
+N6161553918b6400bbdfad74c3788368e,RelativePrice,owl#someValuesFrom
+N5abbbe8214bc4d038a51a033b84797cf,CallEvent,owl#someValuesFrom
+hasRelativePriceAtIssue,has relative price at issue,rdf-schema#label
+DebtInstrument,Nba860c6a90b2409381875021e44dd1ae,rdf-schema#subClassOf
+N2e6412081fb44ba8bfbda30efc9d48da,DebtOffering,22-rdf-syntax-ns#first
+RelativePrice,SecurityPrice,rdf-schema#subClassOf
+PutNotificationProvision,put notification provision,rdf-schema#label
+hasInterestPaymentTerms,InterestPaymentTerms,rdf-schema#range
+hasPoolNumber,indicates the pool number of the debt,core#definition
+N07d5b6a6cf6c4dd982fdf2b0b90689b5,AtADiscount,22-rdf-syntax-ns#first
+Nb1ce1f8dfa3a4013bbb28fbb298272e6,N814d7d8ed31a40adb8d44f8f9ffde1d3,owl#unionOf
+N6a68d22082744494a32089fd1f45fe7d,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+CallNotificationProvision,provision of a call feature defining notification requirements,core#definition
+FixedIncomeSecurity,tradeable debt instrument that provides a return in the form of fixed periodic payments and typically the return of principal at maturity,core#definition
+N2e6412081fb44ba8bfbda30efc9d48da,Nb985f1fd546747ffa1abf4ed09645579,22-rdf-syntax-ns#rest
+PutFeature,DebtTerms,rdf-schema#subClassOf
+PutPremium,MonetaryPrice,rdf-schema#subClassOf
+Nb2e94d722ce54142a54c1323b7397347,hasGuarantor,owl#onProperty
+NonTradableDebtInstrument,Low-risk instruments such as savings bonds are examples of nonnegotiable debt instruments.,core#example
+PutSchedule,put schedule,rdf-schema#label
+isExtendableByHolder,RedemptionProvision,rdf-schema#domain
+AtAPremium,above par,synonym
+hasPoolNumber,has pool number,rdf-schema#label
+,,owl#versionIRI
+FullyIndexedInterestRate,fully-indexed interest rate,rdf-schema#label
+PutWindow,owl#Class,22-rdf-syntax-ns#type
+N4f572d84372044f1bf3f5e24305f26a1,Nb3f49cc08365488b9f4c0a68921e7a19,22-rdf-syntax-ns#rest
+N70c438b9c7aa4955abfb3ffedf06c3a7,StepEvent,owl#someValuesFrom
+N03c4d9c6bd9442c08e64f8f745a7971e,isSubordinatedTo,owl#onProperty
+NotificationProvision,provision of a redemption feature defining notification requirements,core#definition
+Nd0c00670f7f1426bb0e2dcce6bef9c75,owl#Class,22-rdf-syntax-ns#type
+isSubordinated,"indicates whether the security is a subordinated security, meaning that the security has a lower priority than another security so that when the assets are liquidated this one is not first in line",core#definition
+N7d73433a60884a9294ffa7f450b2c8d8,hasDatePeriod,owl#onProperty
+RelativePrice,relative price,rdf-schema#label
+N0c2487a16afc4f76ae97bb7ea332c843,owl#AllDifferent,22-rdf-syntax-ns#type
+allowsPaymentInKind,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N71c9670ea75c420194131a58c3db7e43,hasOffering,owl#onProperty
+N998f4788ed794de18074f74f4dc962d7,N70357d15afac4215ba4ebc9773453e2b,22-rdf-syntax-ns#rest
+hasRepaymentTerms,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nb985f1fd546747ffa1abf4ed09645579,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N7d73433a60884a9294ffa7f450b2c8d8,CallWindow,owl#allValuesFrom
+Nc5771d239d474100a7a1a4ecc964c4a6,owl#Restriction,22-rdf-syntax-ns#type
+ParValue,face value,synonym
+isPutable,Nb1ce1f8dfa3a4013bbb28fbb298272e6,rdf-schema#domain
+N7028aeb3069540bd8855c1eb1bfcdcd1,hasRelativePriceAtIssue,owl#onProperty
+Margin,Variable,rdf-schema#subClassOf
+Nc2e8d4a9f85c43d1983a9c8c83a15b95,comprises,owl#onProperty
+isSubordinatedTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+TradableDebtInstrument,Nb2e94d722ce54142a54c1323b7397347,rdf-schema#subClassOf
+ParValue,"the stated value of a negotiable instrument, stock, or bond, as compared with the value that instrument might receive when sold",core#definition
+CallFeature,N2b78059972364ebc97b47a875524bc53,rdf-schema#subClassOf
+Nb3f49cc08365488b9f4c0a68921e7a19,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+FixedIncomeSecurity,fixed income security,rdf-schema#label
+isExchangeable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasDatedDate,specifies the date on which interest begins to accrue on a fixed-income security,core#definition
+N4f572d84372044f1bf3f5e24305f26a1,DebtOffering,22-rdf-syntax-ns#first
+Na772e1254061462ba2b758a6ac81c70f,owl#Restriction,22-rdf-syntax-ns#type
+Nb92a99abcc314538a83120577fa7c02f,owl#Restriction,22-rdf-syntax-ns#type
+N24eb0b2177e74287a3d4c79486e54b6b,N6a68d22082744494a32089fd1f45fe7d,22-rdf-syntax-ns#rest
+hasRelativePriceAtRedemption,owl#ObjectProperty,22-rdf-syntax-ns#type
+CallWindow,owl#Class,22-rdf-syntax-ns#type
+N190e54b7400344d8bd816b2687c5b9dc,owl#Class,22-rdf-syntax-ns#type
+N1cf1c0e19b3e4ba598b74c048c9689ae,hasArgument,owl#onProperty
+CallSchedule,a schedule of call prices and when they are in effect,core#definition
+N7855c3dbf9ec41c2a0c7e3f0ac7b1270,owl#Restriction,22-rdf-syntax-ns#type
+Nb1ce1f8dfa3a4013bbb28fbb298272e6,owl#Class,22-rdf-syntax-ns#type
+PutPremium,put premium,rdf-schema#label
+PutEvent,put event,rdf-schema#label
+VariableIncomeSecurity,TradableDebtInstrument,rdf-schema#subClassOf
+NonTradableDebtInstrument,a debt instrument that may not be bought or sold,core#definition
+hasInterestPaymentTerms,indicates the specific terms related to interest payments on the principal as specified in the instrument or a related contract document,core#definition
+FullyIndexedInterestRate,Expression,rdf-schema#subClassOf
+StepSchedule,owl#Class,22-rdf-syntax-ns#type
+hasNotificationProvision,NotificationProvision,rdf-schema#range
+Nba860c6a90b2409381875021e44dd1ae,PrincipalRepaymentTerms,owl#someValuesFrom
+hasPutFeature,hasRepaymentTerms,rdf-schema#subPropertyOf
+,"DebtInstruments.rdf version of this ontology was modified to move the property, 'is conferred on' to the Legal Capacity ontology and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+isExtendableByHolder,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N2818537dd57c4eaf92aa9553be18f490,owl#Restriction,22-rdf-syntax-ns#type
+N8dfd16ca9b94473fb05c086040fc3720,comprises,owl#onProperty
+PutEvent,RedemptionEvent,rdf-schema#subClassOf
+Ncbddff0fff214afc968e1f7aa5403634,owl#Restriction,22-rdf-syntax-ns#type
+IssuedDebt,debt that is set out by the borrower in some form of financial security in which the lender is the holder or counterparty of that security,core#definition
+N6161553918b6400bbdfad74c3788368e,hasRelativePriceAtRedemption,owl#onProperty
+N2b78059972364ebc97b47a875524bc53,0,owl#minQualifiedCardinality
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+hasInterestPaymentTerms,hasContractualElement,rdf-schema#subPropertyOf
+isSubordinatedTo,TradableDebtInstrument,rdf-schema#range
+ParValue,par,synonym
+,DebtInstruments.rdf version of this ontology was modified to support integration of the bonds ontology.,core#changeNote
+isPutable,XMLSchema#boolean,rdf-schema#range
+MakeWholeFeature,CallFeature,rdf-schema#subClassOf
+AtAPremium,premium,synonym
+DebtOffering,owl#Class,22-rdf-syntax-ns#type
+isPutable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+isCallable,XMLSchema#boolean,rdf-schema#range
+isExtendableByIssuer,is extendable by issuer,rdf-schema#label
+Nb92a99abcc314538a83120577fa7c02f,BaseRate,owl#onClass
+AtADiscount,at a discount,rdf-schema#label
+InterestOnlyStrip,owl#Class,22-rdf-syntax-ns#type
+hasDatedDate,ExplicitDate,rdf-schema#range
+AtAPremium,at a premium,rdf-schema#label
+MakeWholeFeature,a call provision allowing the issuer to pay off remaining debt early,core#definition
+CallSchedule,call schedule,rdf-schema#label
+Nb2e94d722ce54142a54c1323b7397347,Guarantor,owl#onClass
+Ncd455dc50c2d4181ad0f899c7e83dbe2,MonetaryPrice,22-rdf-syntax-ns#first
+StepEvent,CalculationEvent,rdf-schema#subClassOf
+PutNotificationProvision,owl#Class,22-rdf-syntax-ns#type
+Na772e1254061462ba2b758a6ac81c70f,hasDebtAmount,owl#onProperty
+N2818537dd57c4eaf92aa9553be18f490,N7110356baa8d4f66bf8a9b51b6333433,owl#someValuesFrom
+Strip,strip,rdf-schema#label
+CallWindow,call window,rdf-schema#label
+Nb92a99abcc314538a83120577fa7c02f,1,owl#qualifiedCardinality
+N2b78059972364ebc97b47a875524bc53,owl#Restriction,22-rdf-syntax-ns#type
+N71c9670ea75c420194131a58c3db7e43,DebtOffering,owl#onClass
+N16682277199d456ca5a57f20f3e95ca6,Ncd455dc50c2d4181ad0f899c7e83dbe2,22-rdf-syntax-ns#rest
+isExchangeable,indicates whether the security can be exchanged for another security at the issuers discretion,core#definition
+Nbb496a982716447abbd07a8df51dfc41,owl#Restriction,22-rdf-syntax-ns#type
+hasRelativePriceAtRedemption,"indicates a relative price with respect to the face value at the time an instrument is redeemed, namely par, discount or premium",core#definition
+PrescriptiveEvent,OccurrenceKind,rdf-schema#subClassOf
+Nc725ebdc857e43059235f2499f410845,CallFeature,owl#onClass
+N2b78059972364ebc97b47a875524bc53,CallNotificationProvision,owl#onClass
+N110ed37bb262448fb6cd17d63062aac1,owl#Restriction,22-rdf-syntax-ns#type
+hasCallFeature,hasRepaymentTerms,rdf-schema#subPropertyOf
+N7de524ef9020404fb2e34095cb90e233,N4f572d84372044f1bf3f5e24305f26a1,owl#unionOf
+IssuedDebt,Na772e1254061462ba2b758a6ac81c70f,rdf-schema#subClassOf
+Ne8db8f070c23403e8041ba92b6be3733,owl#Class,22-rdf-syntax-ns#type
+N73eac529402947d1b73e5164b659d241,TradableDebtInstrument,owl#allValuesFrom
+Nf00b55acd88c4fb08f538ed06cc18bc0,owl#Restriction,22-rdf-syntax-ns#type
+hasPutFeature,owl#ObjectProperty,22-rdf-syntax-ns#type
+N7753e5a4314f40d8a148c6b14b79eddb,MonetaryPrice,22-rdf-syntax-ns#first
+N4db8426d2a754bd7bd4f3a402831660c,owl#Restriction,22-rdf-syntax-ns#type
+DebtInstrument,Nf00b55acd88c4fb08f538ed06cc18bc0,rdf-schema#subClassOf
+isExtendableByIssuer,XMLSchema#boolean,rdf-schema#range
+N7028aeb3069540bd8855c1eb1bfcdcd1,RelativePrice,owl#someValuesFrom
+isCallable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Na772e1254061462ba2b758a6ac81c70f,MonetaryAmount,owl#allValuesFrom
+Nb985f1fd546747ffa1abf4ed09645579,DebtInstrument,22-rdf-syntax-ns#first
+N03c4d9c6bd9442c08e64f8f745a7971e,0,owl#minQualifiedCardinality
+allowsAutoReinvestment,indicates whether the security allows automatically re-investing the interest on that security towards purchasing additional shares or units of the same security,core#definition
+N03c4d9c6bd9442c08e64f8f745a7971e,owl#Restriction,22-rdf-syntax-ns#type
+CallFeature,Most corporate and municipal bonds have ten-year call features (termed call protection by holders); government securities typically have none.,explanatoryNote
+N7855c3dbf9ec41c2a0c7e3f0ac7b1270,isConferredBy,owl#onProperty
+DebtOffering,Nc5771d239d474100a7a1a4ecc964c4a6,rdf-schema#subClassOf
+hasRelativePriceAtIssue,"indicates a relative price with respect to the face value at which an instrument is issued, namely par, premium or discount",core#definition
+hasDefaultLotSize,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FixedIncomeSecurity,owl#Class,22-rdf-syntax-ns#type
+allowsPaymentInKind,allows payment in kind,rdf-schema#label
+isSubordinatedTo,TradableDebtInstrument,rdf-schema#domain
+PutEvent,"an event associated with the put schedule for a debt instrument, i.e., an event involving the 'put', or surrender of the instrument by the holder",core#definition
+CallPremium,MonetaryPrice,rdf-schema#subClassOf
+AtADiscount,owl#NamedIndividual,22-rdf-syntax-ns#type
+N0679d125e76f420991e2159a894144ea,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N2818537dd57c4eaf92aa9553be18f490,comprises,owl#onProperty
+hasDefaultLotSize,has default lot size,rdf-schema#label
+NonTradableDebtInstrument,non-tradable debt instrument,rdf-schema#label
+Ncbddff0fff214afc968e1f7aa5403634,comprises,owl#onProperty
+,"DebtInstruments.rdf version of this ontology was modified to loosen the constraint that a debt instrument must have at least one redemption provision, making it optional (LOAN-168).",core#changeNote
+N16682277199d456ca5a57f20f3e95ca6,CallPremium,22-rdf-syntax-ns#first
+hasCallFeature,owl#ObjectProperty,22-rdf-syntax-ns#type
+N07d5b6a6cf6c4dd982fdf2b0b90689b5,N998f4788ed794de18074f74f4dc962d7,22-rdf-syntax-ns#rest
+CallEvent,RedemptionEvent,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+CallNotificationProvision,N7d73433a60884a9294ffa7f450b2c8d8,rdf-schema#subClassOf
+NonTradableDebtInstrument,"Generally, a nonnegotiable instrument may be redeemed by the issuer, but this is often subject to some limitations.",explanatoryNote
+NotificationProvision,notification provision,rdf-schema#label
+hasRepaymentTerms,hasContractualElement,rdf-schema#subPropertyOf
+CallEvent,an event associated with the call schedule for a debt instrument,core#definition
+isExchangeable,XMLSchema#boolean,rdf-schema#range
+TradableDebtInstrument,N03c4d9c6bd9442c08e64f8f745a7971e,rdf-schema#subClassOf
+PrincipalOnlyStrip,owl#Class,22-rdf-syntax-ns#type
+RedemptionEvent,"a prescriptive event involving the return of an investor's principal in a fixed-income security, such as a preferred stock or bond, or the sale of units in a mutual fund",core#definition
+,"DebtInstruments.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380) and to augment the ontology with details regarding schedules for interest rate calculations, payment calculations, rate resets and the like (FBC-317).",core#changeNote
+Nba860c6a90b2409381875021e44dd1ae,hasRepaymentTerms,owl#onProperty
+hasDatedDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+CallFeature,redemption provision defining the rights of the issuer to buy back a security at a call price after a call protection period,core#definition
+VariableIncomeSecurity,tradeable debt instrument that provide their owners with a rate of return that is dynamic and determined by market forces,core#definition
+CallSchedule,Ncbddff0fff214afc968e1f7aa5403634,rdf-schema#subClassOf
+CallEvent,call event,rdf-schema#label
+hasPoolNumber,hasNumericValue,rdf-schema#subPropertyOf
+,DebtInstruments.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+hasNotificationProvision,"relates the redemption provision of a debt instrument to a notification provision (e.g., call or put notification)",core#definition
+FixedIncomeSecurity,"Fixed income securities provide payments according to a regular schedule. This does not necessarily mean that the payments themselves are of a fixed amount, however.",explanatoryNote
+StepSchedule,"schedule specifying the date(s) and change in a contractual term(s), e.g., rate or notional amount, for a contract that has a feature where stipulated changes occur at specified intervals or on specified dates",core#definition
+hasRightToRetain,right to retain,rdf-schema#label
+InterestOnlyStrip,IO strip,synonym
+N06444213c2d74513ab5186e3e9acbe5c,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nbb496a982716447abbd07a8df51dfc41,hasDatePeriod,owl#onProperty
+N24eb0b2177e74287a3d4c79486e54b6b,DebtOffering,22-rdf-syntax-ns#first
+N43451ce6cfb14a63a8674e87d9800afe,N08326ae02fd34649819730ddf8a12bf2,22-rdf-syntax-ns#rest
+PutSchedule,"a schedule that defines the events associated with the put feature of a debt instrument, i.e, the dates on which the debt instrument may be sold at what price by the holder",core#definition
+PutFeature,"FIBIM has term ""Putable Date"" which (by implication, and comparing with definition for ""Next Call Date"") is presumably a single calendar date in the future, at a given point in time. That does not cover the definition of formal terms defining when and how the issue may be put, which is what is modeled here.",core#editorialNote
+isCallable,indicates whether the issuer (writer) of the debt contract (the debtor) can call the debt prior to maturity,core#definition
+Margin,spread,synonym
+N8dfd16ca9b94473fb05c086040fc3720,CallSchedule,owl#someValuesFrom
+Nbb496a982716447abbd07a8df51dfc41,DatePeriod,owl#allValuesFrom
+TradableDebtInstrument,tradable debt instrument,rdf-schema#label
+Nc725ebdc857e43059235f2499f410845,hasCallFeature,owl#onProperty
+PrincipalOnlyStrip,"a strip that represents the principal portion of the monthly payments on the underlying debt instrument, such as a bond",core#definition
+N73eac529402947d1b73e5164b659d241,owl#Restriction,22-rdf-syntax-ns#type
+DebtOffering,an offering of one or more debt instruments for sale,core#definition
+N4db8426d2a754bd7bd4f3a402831660c,PutWindow,owl#allValuesFrom
+hasRelativePriceAtMaturity,RelativePrice,rdf-schema#range
+StepSchedule,N70c438b9c7aa4955abfb3ffedf06c3a7,rdf-schema#subClassOf
+DebtInstrument,Nc725ebdc857e43059235f2499f410845,rdf-schema#subClassOf
+VariableIncomeSecurity,Variable-income securities provide investors with both greater risks as well as rewards.,explanatoryNote
+CallFeature,call feature,rdf-schema#label
+PutNotificationProvision,NotificationProvision,rdf-schema#subClassOf
+isSubordinated,is subordinated,rdf-schema#label
+hasDefaultLotSize,Ne8db8f070c23403e8041ba92b6be3733,rdf-schema#domain
+N110ed37bb262448fb6cd17d63062aac1,comprises,owl#onProperty
+N5abbbe8214bc4d038a51a033b84797cf,owl#Restriction,22-rdf-syntax-ns#type
+Ncd455dc50c2d4181ad0f899c7e83dbe2,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+hasNotificationProvision,owl#ObjectProperty,22-rdf-syntax-ns#type
+IssuedDebt,owl#Class,22-rdf-syntax-ns#type
+StepEvent,PrescriptiveEvent,rdf-schema#subClassOf
+allowsAutoReinvestment,InterestPaymentTerms,rdf-schema#domain
+,Release,hasMaturityLevel
+N688d541912894472bd673e7dcfaffd18,0,owl#minQualifiedCardinality
+N688d541912894472bd673e7dcfaffd18,owl#Restriction,22-rdf-syntax-ns#type
+isCallable,Ned68a50632dd4a95a442fbe96166deaa,rdf-schema#domain
+PubliclyIssuedDebt,owl#Class,22-rdf-syntax-ns#type
+AtAPremium,RelativePrice,22-rdf-syntax-ns#type
+isStrippable,Nf00a97bbdfc64d189e8b0b6ef5547648,rdf-schema#domain
+AtADiscount,below par,synonym
+N190e54b7400344d8bd816b2687c5b9dc,N3b3fed838e444f3f97e76abd46a0d450,owl#unionOf
+hasCallFeature,CallFeature,rdf-schema#range
+CallSchedule,owl#Class,22-rdf-syntax-ns#type
+hasRelativePriceAtMaturity,owl#ObjectProperty,22-rdf-syntax-ns#type
+N0679d125e76f420991e2159a894144ea,DebtInstrument,22-rdf-syntax-ns#first
+CallNotificationProvision,owl#Class,22-rdf-syntax-ns#type
+isExtendableByHolder,XMLSchema#boolean,rdf-schema#range
+StepSchedule,step schedule,rdf-schema#label
+N43726d747c87424b9f15bc53482b7385,0,owl#minQualifiedCardinality
+N958ea9ea0f3a4c14a1b8aecf5175d027,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+isExtendableByIssuer,"If not, the issuer may only refinance the debt by calling the issue and creating a new issue.",explanatoryNote
+PrincipalOnlyStrip,principal-only strip,rdf-schema#label
+N814d7d8ed31a40adb8d44f8f9ffde1d3,DebtOffering,22-rdf-syntax-ns#first
+TradableDebtInstrument,owl#Class,22-rdf-syntax-ns#type
+Nbcce1ad903f94351aa6b2a1faf5acec7,0,owl#minQualifiedCardinality
+PrescriptiveEvent,prescriptive event,rdf-schema#label
+Nbcce1ad903f94351aa6b2a1faf5acec7,owl#Restriction,22-rdf-syntax-ns#type
+AtADiscount,RelativePrice,22-rdf-syntax-ns#type
+InterestOnlyStrip,Strip,rdf-schema#subClassOf
+allowsAutoReinvestment,allows auto-reinvestment,rdf-schema#label
+MakeWholeFeature,make whole provision,synonym
+hasRelativePriceAtMaturity,"indicates a relative price with respect to the face value at the time an instrument matures, namely par, discount or premium",core#definition
+N73eac529402947d1b73e5164b659d241,isConferredBy,owl#onProperty
+hasPutFeature,has put feature,rdf-schema#label
+NonTradableDebtInstrument,owl#Class,22-rdf-syntax-ns#type
+N2b78059972364ebc97b47a875524bc53,hasNotificationProvision,owl#onProperty
+N1cf1c0e19b3e4ba598b74c048c9689ae,owl#Restriction,22-rdf-syntax-ns#type
+CallPremium,the price over par paid by an issuer to redeem securities when exercising a call provision,core#definition
+isExtendableByHolder,indicates whether the expiration date or maturity date can be extended by the holder,core#definition
+PubliclyIssuedDebt,IssuedDebt,rdf-schema#subClassOf
+hasRelativePriceAtIssue,RelativePrice,rdf-schema#range
+NotificationProvision,RedemptionProvision,rdf-schema#subClassOf
+CallSchedule,Schedule,rdf-schema#subClassOf
+PutNotificationProvision,N4db8426d2a754bd7bd4f3a402831660c,rdf-schema#subClassOf
+PutEvent,owl#Class,22-rdf-syntax-ns#type
+hasRelativePriceAtMaturity,has relative price at maturity,rdf-schema#label
+N3b3fed838e444f3f97e76abd46a0d450,DebtOffering,22-rdf-syntax-ns#first
+N4db8426d2a754bd7bd4f3a402831660c,hasDatePeriod,owl#onProperty
+N814d7d8ed31a40adb8d44f8f9ffde1d3,N958ea9ea0f3a4c14a1b8aecf5175d027,22-rdf-syntax-ns#rest
+isSubordinatedTo,is subordinated to,rdf-schema#label
+Nc79011e08ede43778d3e8a8df0701df2,hasNotificationProvision,owl#onProperty
+StepSchedule,Schedule,rdf-schema#subClassOf
+isPutable,indicates whether the holder has the right to ask for redemption of the security prior to final maturity,core#definition
+Nf00b55acd88c4fb08f538ed06cc18bc0,hasInterestPaymentTerms,owl#onProperty
+,Debt Instruments Ontology,rdf-schema#label
+N6161553918b6400bbdfad74c3788368e,owl#Restriction,22-rdf-syntax-ns#type
+Ne8db8f070c23403e8041ba92b6be3733,N24eb0b2177e74287a3d4c79486e54b6b,owl#unionOf
+PutFeature,put provision,synonym
+N43726d747c87424b9f15bc53482b7385,owl#Restriction,22-rdf-syntax-ns#type
+InterestOnlyStrip,"a strip that represents the non-principal portion of the monthly payments on the underlying debt instrument, such as a bond",core#definition
+RedemptionEvent,redemption event,rdf-schema#label
+Nc7896c5721044a4d90ae72f73560da2a,DebtOffering,22-rdf-syntax-ns#first
+PutPremium,owl#Class,22-rdf-syntax-ns#type
+Nc725ebdc857e43059235f2499f410845,owl#Restriction,22-rdf-syntax-ns#type
+TradableDebtInstrument,"Details from Ecofin: A [debt] instrument can be traded, if its features depend only on one borrower. If the instrument has no bilateral or multilateral obligations, the investor can easily transfer it to another investor without asking the borrower (except the terms prohibit this explicitly). This is simplified with securitised instruments, where the debt is already split into handy denominations which trade easily (e.g. in round thousands or millions as with bonds, commercial paper, etc.). But in principle it works also with interbank loans and similar instruments. FIBIM Definition: Financial instruments evidencing moneys owed by the issuer to the holder on terms as specified.",explanatoryNote
+CallPremium,call premium,rdf-schema#label
+hasNotificationProvision,has notification provision,rdf-schema#label
+PutFeature,Nc2e8d4a9f85c43d1983a9c8c83a15b95,rdf-schema#subClassOf
+N3b3fed838e444f3f97e76abd46a0d450,N0b00dd069e6e4b898901b9ce7a67d1ca,22-rdf-syntax-ns#rest
+Nb3f49cc08365488b9f4c0a68921e7a19,DebtInstrument,22-rdf-syntax-ns#first
+PutWindow,DatePeriod,rdf-schema#subClassOf
+N6a68d22082744494a32089fd1f45fe7d,DebtInstrument,22-rdf-syntax-ns#first
+hasPoolNumber,PubliclyIssuedDebt,rdf-schema#domain
+PutFeature,owl#Class,22-rdf-syntax-ns#type
+hasRelativePriceAtMaturity,hasPrice,rdf-schema#subPropertyOf
+InterestOnlyStrip,"An interest-only strip holder is interested in rising rates and no prepayment, as prepayment would cause them forfeit future interest payments and receive nothing from the return of the principal.",explanatoryNote
+N5abbbe8214bc4d038a51a033b84797cf,comprises,owl#onProperty
+hasCallFeature,has call feature,rdf-schema#label
+MakeWholeFeature,make whole feature,rdf-schema#label
+Nc5771d239d474100a7a1a4ecc964c4a6,appliesTo,owl#onProperty
+CallFeature,RedemptionProvision,rdf-schema#subClassOf
+PutWindow,an explicit period of time prior to a put date during which holder or agent must give notice to an issuer,core#definition
+isStrippable,is strippable,rdf-schema#label
+PutSchedule,owl#Class,22-rdf-syntax-ns#type
+InterestOnlyStrip,"An interest-only strip can be reintegrated into other synthetic or engineered products. For example, interest-only strips can be pooled to create or make up a portion of a larger collateralized mortgage obligation (CMO), asset-backed security (ABS) or collateralized debt obligation (CDO) structure.",core#example
+NonTradableDebtInstrument,MutualContractualAgreement,rdf-schema#subClassOf
+hasRightToRetain,PutFeature,rdf-schema#domain
+hasNotificationProvision,hasContractualElement,rdf-schema#subPropertyOf
+N1cf1c0e19b3e4ba598b74c048c9689ae,Margin,owl#someValuesFrom
+allowsAutoReinvestment,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,DebtInstruments.rdf version of this ontology was modified to correct the declaration of the property 'has estate or death put feature' to remove an erroneous subproperty relationship and integrate the instrument pricing ontology.,core#changeNote
+hasRelativePriceAtIssue,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasPriceAndYieldDayCountConvention,hasBusinessRecurrenceIntervalConvention,rdf-schema#subPropertyOf
+Nb27b52b630a441c29c7b1709bbce46d8,N37ff01903183462d91df93cb83587a24,owl#unionOf
+isExtendableByIssuer,indicates whether the issuer has the option to extend the debt rather than refinancing,core#definition
+hasEstateOrDeathPutFeature,has estate or death put feature,rdf-schema#label
+PrincipalOnlyStrip,Strip,rdf-schema#subClassOf
+ParValue,RelativePrice,22-rdf-syntax-ns#type
+Nd0c00670f7f1426bb0e2dcce6bef9c75,N16682277199d456ca5a57f20f3e95ca6,owl#unionOf
+Nc79011e08ede43778d3e8a8df0701df2,PutNotificationProvision,owl#onClass
+MakeWholeFeature,owl#Class,22-rdf-syntax-ns#type
+hasPriceAndYieldDayCountConvention,DayCountConvention,rdf-schema#range
+Strip,owl#Class,22-rdf-syntax-ns#type
+CallNotificationProvision,call notification provision,rdf-schema#label
+CallNotificationProvision,NotificationProvision,rdf-schema#subClassOf
+hasPutFeature,instrument,core#definition
+Nb27b52b630a441c29c7b1709bbce46d8,owl#Class,22-rdf-syntax-ns#type
+N998f4788ed794de18074f74f4dc962d7,AtAPremium,22-rdf-syntax-ns#first
+TradableDebtInstrument,"a debt instrument that is also a security, i.e., that can be bought and sold by the holder",core#definition
+N110ed37bb262448fb6cd17d63062aac1,PutEvent,owl#someValuesFrom
+hasEstateOrDeathPutFeature,owl#DatatypeProperty,22-rdf-syntax-ns#type
+IssuedDebt,issued debt,rdf-schema#label
+AtAPremium,owl#NamedIndividual,22-rdf-syntax-ns#type
+VariableIncomeSecurity,variable income security,rdf-schema#label
+PrescriptiveEvent,owl#Class,22-rdf-syntax-ns#type
+RedemptionEvent,PrescriptiveEvent,rdf-schema#subClassOf
+N70357d15afac4215ba4ebc9773453e2b,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,"DebtInstruments.rdf version of this ontology was modified to reflect use of actualExpression as an annotation rather than datatype property, to deprecate maturity-related properties which have been moved to financial instruments more generally, and to simplify restrictions on tradable debt instrument.",core#changeNote
+hasRelativePriceAtIssue,hasPrice,rdf-schema#subPropertyOf
+hasDatedDate,InterestPaymentTerms,rdf-schema#domain
+NonTradableDebtInstrument,DebtInstrument,rdf-schema#subClassOf
+hasCallFeature,instrument,core#definition
+Strip,"STRIPS is an acronym for Separate Trading of Registered Interest and Principal of Securities, which has come to be used as a term in its own right.",explanatoryNote
+isSubordinated,XMLSchema#boolean,rdf-schema#range
+hasPoolNumber,XMLSchema#integer,rdf-schema#range
+,MIT,license
+CallEvent,owl#Class,22-rdf-syntax-ns#type
+Nc2e8d4a9f85c43d1983a9c8c83a15b95,PutSchedule,owl#someValuesFrom
+N70357d15afac4215ba4ebc9773453e2b,ParValue,22-rdf-syntax-ns#first
+CallSchedule,N5abbbe8214bc4d038a51a033b84797cf,rdf-schema#subClassOf
+N70c438b9c7aa4955abfb3ffedf06c3a7,owl#Restriction,22-rdf-syntax-ns#type
+AtADiscount,a selling price that is less than the face or nominal value,core#definition
+PrincipalOnlyStrip,InterestOnlyStrip,owl#disjointWith
+N03c4d9c6bd9442c08e64f8f745a7971e,TradableDebtInstrument,owl#onClass
+StepEvent,owl#Class,22-rdf-syntax-ns#type
+PutSchedule,Schedule,rdf-schema#subClassOf
+hasPriceAndYieldDayCountConvention,has price and yield day count convention,rdf-schema#label
+Nc7896c5721044a4d90ae72f73560da2a,N06444213c2d74513ab5186e3e9acbe5c,22-rdf-syntax-ns#rest
+PrescriptiveEvent,"event related to the imposition or enforcement of a rule, method, formula, etc.",core#definition
+Ned68a50632dd4a95a442fbe96166deaa,owl#Class,22-rdf-syntax-ns#type
+FullyIndexedInterestRate,a variable interest rate that is calculated by adding a margin to a specified index rate,core#definition
+TradableDebtInstrument,DebtInstrument,rdf-schema#subClassOf
+Nf00a97bbdfc64d189e8b0b6ef5547648,owl#Class,22-rdf-syntax-ns#type
+PutFeature,"redemption provision giving the holder the right, but not the obligation, to sell a specified amount of the debt instrument (i.e., redeem it), prior to maturity",core#definition
+isStrippable,"indicates whether or not the instrument can be stripped, so that interest and principal may be traded separately",core#definition
+hasCallFeature,N7de524ef9020404fb2e34095cb90e233,rdf-schema#domain
+CallFeature,N8dfd16ca9b94473fb05c086040fc3720,rdf-schema#subClassOf
+isExchangeable,Nac67d66072c5464b94979c6ac45269b3,rdf-schema#domain
+hasPutFeature,PutFeature,rdf-schema#range
+hasEstateOrDeathPutFeature,indicates that a security is subject to redemption upon the passing of the holder,core#definition
+Nc5771d239d474100a7a1a4ecc964c4a6,DebtInstrument,owl#someValuesFrom
+hasPoolNumber,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Nac67d66072c5464b94979c6ac45269b3,owl#Class,22-rdf-syntax-ns#type
+FullyIndexedInterestRate,Nb92a99abcc314538a83120577fa7c02f,rdf-schema#subClassOf
+StepEvent,step event,rdf-schema#label
+hasRepaymentTerms,PrincipalRepaymentTerms,rdf-schema#range
+DebtInstrument,N43726d747c87424b9f15bc53482b7385,rdf-schema#subClassOf
+,"DebtInstruments.rdf version of this ontology was modified to move the property, hasMaturityDate, to Financial Instruments, since a maturity date can apply to a preferred share in addition to a debt instrument or offering rename 'mayBeSubordinatedTo', which violates the policy related to masquerading properties, eliminate a circular definition and unnecessary references to external sources, eliminate call price and put price, which are overreaching and confusing, in favor of monetary price, and eliminate the restriction for hasTimeToMaturity from debt instrument, made redundant by the broader restriction in financial instruments.",core#changeNote
+,This ontology defines concepts that are specific to debt instruments (tradable and non-tradable).,abstract
+,DebtInstruments.rdf version of this ontology was modified to generalize the definition of fixed income security.,core#changeNote
+hasDefaultLotSize,indicates the default number of units of the security that may be held at any one time,core#definition
+Nd7ff8bede29540af8cae00e4ccd1abd9,PutPremium,22-rdf-syntax-ns#first
+hasEstateOrDeathPutFeature,PutFeature,rdf-schema#domain
+FullyIndexedInterestRate,N1cf1c0e19b3e4ba598b74c048c9689ae,rdf-schema#subClassOf
+hasNotificationProvision,RedemptionProvision,rdf-schema#domain
+IssuedDebt,N7855c3dbf9ec41c2a0c7e3f0ac7b1270,rdf-schema#subClassOf
+,"Copyright (c) 2018-2024 Object Management Group, Inc.",copyright
+N7de524ef9020404fb2e34095cb90e233,owl#Class,22-rdf-syntax-ns#type
+hasRelativePriceAtRedemption,RelativePrice,rdf-schema#range
+N43451ce6cfb14a63a8674e87d9800afe,DebtOffering,22-rdf-syntax-ns#first
+N0b00dd069e6e4b898901b9ce7a67d1ca,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nac67d66072c5464b94979c6ac45269b3,N2e6412081fb44ba8bfbda30efc9d48da,owl#unionOf
+NonTradableDebtInstrument,N688d541912894472bd673e7dcfaffd18,rdf-schema#subClassOf
+isSubordinated,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasDatedDate,"Investors who purchase a fixed-income security between interest payment dates must also pay the seller or issuer any interest that has accrued from the dated date to the purchase date, or settlement date, in addition to the face value.",explanatoryNote
+hasInterestPaymentTerms,has interest payment terms,rdf-schema#label
+ParValue,owl#NamedIndividual,22-rdf-syntax-ns#type
+ParValue,par value,rdf-schema#label
+PutSchedule,N110ed37bb262448fb6cd17d63062aac1,rdf-schema#subClassOf
+hasDefaultLotSize,hasLotSize,rdf-schema#subPropertyOf
+N688d541912894472bd673e7dcfaffd18,hasRedemptionProvision,owl#onProperty
+N7028aeb3069540bd8855c1eb1bfcdcd1,owl#Restriction,22-rdf-syntax-ns#type
+CallPremium,owl#Class,22-rdf-syntax-ns#type
+hasRightToRetain,XMLSchema#boolean,rdf-schema#range
+,,owl#imports
+N43726d747c87424b9f15bc53482b7385,hasPutFeature,owl#onProperty
+hasRightToRetain,owl#DatatypeProperty,22-rdf-syntax-ns#type
+CallWindow,an explicit period of time prior to a call date during which an issuer or agent must give notice to holders,core#definition
+hasRepaymentTerms,indicates the specific terms related to repayment of principal as specified in the instrument or a related contract document,core#definition
+AtAPremium,a selling price significantly above the stated face or redemption value due to high demand or timing of redemption,core#definition
+hasPutFeature,N190e54b7400344d8bd816b2687c5b9dc,rdf-schema#domain
+Strip,a tradeable debt instrument created either through the process of removing coupons from a bond and then selling the separate parts as a zero coupon bond and an interest paying coupon bond or through taking the opposite position from some variant in the options market,core#definition
+FixedIncomeSecurity,TradableDebtInstrument,rdf-schema#subClassOf
+N08326ae02fd34649819730ddf8a12bf2,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+PutFeature,Nc79011e08ede43778d3e8a8df0701df2,rdf-schema#subClassOf
+PutWindow,put window,rdf-schema#label
+hasPriceAndYieldDayCountConvention,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasDatedDate,hasExplicitDate,rdf-schema#subPropertyOf
+hasPriceAndYieldDayCountConvention,indicates the convention used to determine the number of days in a month and days in a year that are counted when performing calculations for yield and price figures,core#definition
+Nbcce1ad903f94351aa6b2a1faf5acec7,hasRedemptionProvision,owl#onProperty
+MakeWholeFeature,The issuer typically has to make a lump sum payment to the investor derived from a formula based on the net present value (NPV) of future interest or coupon payments that will not be paid incrementally because of the call combined with the principal payment the investor would have received at maturity.,explanatoryNote
+Margin,a variable that is added to a specified index rate to determine the fully indexed interest rate charged to a borrower on a credit balance,core#definition
+isExtendableByIssuer,RedemptionProvision,rdf-schema#domain
+DebtOffering,debt offering,rdf-schema#label
+N70c438b9c7aa4955abfb3ffedf06c3a7,comprises,owl#onProperty
+NonTradableDebtInstrument,TradableDebtInstrument,owl#disjointWith
+,"DebtInstruments.rdf version of this ontology was modified to reflect a change to make redemption provision a child of contractual commitment and move it to financial instruments, as such provisions apply to preferred shares and other instruments in addition to debt, and eliminate non-tradable and tradable debt instrument redemption provisions, which are synonymous, and adjust the hierarchy for call feature, notification provision, and put feature accordingly.",core#changeNote
+N37ff01903183462d91df93cb83587a24,DebtOffering,22-rdf-syntax-ns#first
+PutFeature,RedemptionProvision,rdf-schema#subClassOf
+N7753e5a4314f40d8a148c6b14b79eddb,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N71c9670ea75c420194131a58c3db7e43,0,owl#minQualifiedCardinality
+Nb2e94d722ce54142a54c1323b7397347,0,owl#minQualifiedCardinality
+Nb2e94d722ce54142a54c1323b7397347,owl#Restriction,22-rdf-syntax-ns#type
+DebtOffering,SecuritiesOffering,rdf-schema#subClassOf
+InterestOnlyStrip,interest-only strip,rdf-schema#label
+hasRelativePriceAtRedemption,hasPrice,rdf-schema#subPropertyOf
+PutPremium,an amount over par that a debt instrument holder must pay to sell the security early,core#definition
+CallFeature,call provision,synonym
+Nc725ebdc857e43059235f2499f410845,0,owl#minQualifiedCardinality
+isExtendableByHolder,is extendable by holder,rdf-schema#label
+TradableDebtInstrument,Security,rdf-schema#subClassOf
+isSubordinated,Nb27b52b630a441c29c7b1709bbce46d8,rdf-schema#domain
+Nc2e8d4a9f85c43d1983a9c8c83a15b95,owl#Restriction,22-rdf-syntax-ns#type
+Nd7ff8bede29540af8cae00e4ccd1abd9,N7753e5a4314f40d8a148c6b14b79eddb,22-rdf-syntax-ns#rest
+Margin,margin,rdf-schema#label
+allowsPaymentInKind,RedemptionProvision,rdf-schema#domain
+ParValue,nominal value,synonym
+Nb92a99abcc314538a83120577fa7c02f,hasArgument,owl#onProperty
+VariableIncomeSecurity,owl#Class,22-rdf-syntax-ns#type
+Nc79011e08ede43778d3e8a8df0701df2,0,owl#minQualifiedCardinality
+hasEstateOrDeathPutFeature,XMLSchema#boolean,rdf-schema#range
+Nc79011e08ede43778d3e8a8df0701df2,owl#Restriction,22-rdf-syntax-ns#type
+hasDefaultLotSize,XMLSchema#decimal,rdf-schema#range
+PubliclyIssuedDebt,an issued debt in the form of a tradable debt instrument (security),core#definition
+Ncbddff0fff214afc968e1f7aa5403634,Nd0c00670f7f1426bb0e2dcce6bef9c75,owl#someValuesFrom
+isPutable,is putable,rdf-schema#label
+PutFeature,put feature,rdf-schema#label
+PutSchedule,N2818537dd57c4eaf92aa9553be18f490,rdf-schema#subClassOf
+allowsAutoReinvestment,XMLSchema#boolean,rdf-schema#range
+N688d541912894472bd673e7dcfaffd18,RedemptionProvision,owl#onClass
+Margin,owl#Class,22-rdf-syntax-ns#type
+hasRepaymentTerms,has repayment terms,rdf-schema#label
+isSubordinatedTo,"indicates the target security (i.e., the one in the range) has a higher priority than the security in question",core#definition
+,DebtInstruments.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+NotificationProvision,owl#Class,22-rdf-syntax-ns#type
+N43726d747c87424b9f15bc53482b7385,PutFeature,owl#onClass
+N7110356baa8d4f66bf8a9b51b6333433,Nd7ff8bede29540af8cae00e4ccd1abd9,owl#unionOf
+N71c9670ea75c420194131a58c3db7e43,owl#Restriction,22-rdf-syntax-ns#type
+Strip,Separate Trading of Registered Interest and Principal of Securities,synonym
+CallWindow,DatePeriod,rdf-schema#subClassOf
+hasInterestPaymentTerms,owl#ObjectProperty,22-rdf-syntax-ns#type
+IssuedDebt,Debt,rdf-schema#subClassOf
+DebtInstrument,Nbcce1ad903f94351aa6b2a1faf5acec7,rdf-schema#subClassOf
+NotificationProvision,Nbb496a982716447abbd07a8df51dfc41,rdf-schema#subClassOf
+RedemptionEvent,owl#Class,22-rdf-syntax-ns#type
+isStrippable,XMLSchema#boolean,rdf-schema#range
+DebtInstrument,owl#Class,22-rdf-syntax-ns#type
+N7110356baa8d4f66bf8a9b51b6333433,owl#Class,22-rdf-syntax-ns#type
+FullyIndexedInterestRate,"Fully indexed interest rates are used for variable rate credit products. The interest rate on a variable (adjustable) rate mortgage corresponds to a specific benchmark (often the prime rate, but sometimes LIBOR, the one-year constant-maturity Treasury, or other benchmarks) plus a spread (also called the margin. The margin on a fully indexed interest rate product is determined by the underwriter and based on the borrower's credit quality.",explanatoryNote
+N37ff01903183462d91df93cb83587a24,N0679d125e76f420991e2159a894144ea,22-rdf-syntax-ns#rest
+Nbcce1ad903f94351aa6b2a1faf5acec7,RedemptionProvision,owl#onClass
+StepEvent,"event that prescribes a change in a contractual term, such as a rate or notional amount, for a given contract",core#definition
+NonTradableDebtInstrument,N6161553918b6400bbdfad74c3788368e,rdf-schema#subClassOf
+Nf00a97bbdfc64d189e8b0b6ef5547648,Nc7896c5721044a4d90ae72f73560da2a,owl#unionOf
+hasDefaultLotSize,This is the minimum denomination required for transfer or change of ownership of a tradable debt security.,explanatoryNote
+N06444213c2d74513ab5186e3e9acbe5c,DebtInstrument,22-rdf-syntax-ns#first
+isStrippable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasDatedDate,has dated date,rdf-schema#label
+PubliclyIssuedDebt,N73eac529402947d1b73e5164b659d241,rdf-schema#subClassOf
+N0b00dd069e6e4b898901b9ce7a67d1ca,DebtInstrument,22-rdf-syntax-ns#first
+N7d73433a60884a9294ffa7f450b2c8d8,owl#Restriction,22-rdf-syntax-ns#type
+FullyIndexedInterestRate,owl#Class,22-rdf-syntax-ns#type
+RelativePrice,owl#Class,22-rdf-syntax-ns#type
+N08326ae02fd34649819730ddf8a12bf2,DebtInstrument,22-rdf-syntax-ns#first
+Nf00b55acd88c4fb08f538ed06cc18bc0,InterestPaymentTerms,owl#someValuesFrom
+N7855c3dbf9ec41c2a0c7e3f0ac7b1270,DebtInstrument,owl#allValuesFrom
+N958ea9ea0f3a4c14a1b8aecf5175d027,DebtInstrument,22-rdf-syntax-ns#first
+Nba860c6a90b2409381875021e44dd1ae,owl#Restriction,22-rdf-syntax-ns#type
+hasRightToRetain,indicates whether the holder has an option to retain the security in the event of an issuer exercising the put feature,core#definition
+isExtendableByIssuer,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,DebtInstruments.rdf version of this ontology was modified to make hasDefaultLotSize a subproperty of hasLotSize.,core#changeNote
+allowsPaymentInKind,"indicates whether the principal may be repaid in kind (i.e., replaced with another instrument) rather than in cash",core#definition
+N0c2487a16afc4f76ae97bb7ea332c843,N07d5b6a6cf6c4dd982fdf2b0b90689b5,owl#distinctMembers
+Strip,FixedIncomeSecurity,rdf-schema#subClassOf

@@ -1,0 +1,230 @@
+source_id,target_id,relationship
+N7fd2e15cfc4e4fa984bb431ced1e3ac4,isLegallyRecordedIn,owl#onProperty
+,"DepositaryReceipts.rdf version of this ontology was modified to move the property, 'is conferred on' to the Legal Capacity ontology and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+LevelIIAmericanDepositaryReceipt,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasNumberOfDepositaryReceiptsIssued,XMLSchema#positiveInteger,rdf-schema#range
+Nde27530ad1974bd9941dbd52d2d40dc4,hasMultiplier,owl#onProperty
+AmericanDepositaryReceiptLevel,American depositary receipt level,rdf-schema#label
+hasTradedShare,Share,rdf-schema#range
+Nb1b9b114a5544f61b854ff45c3f616c9,hasTradedSecurity,owl#onProperty
+DepositaryReceipt,depositary receipt,rdf-schema#label
+UnsponsoredDepositaryReceipt,AmericanDepositaryReceipt,rdf-schema#subClassOf
+Ne01258605e97483aa41fa7130e34317b,JurisdictionOfLuxembourg,owl#hasValue
+N40769f421a7c4bafa0a481f84e31f9c2,hasRestriction,owl#onProperty
+LevelIIAmericanDepositaryReceipt,Level II American depositary receipt,rdf-schema#label
+LuxembourgDepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+hasNumberOfDepositaryReceiptsIssued,DepositaryReceipt,rdf-schema#domain
+GlobalDepositaryReceipt,GDR,abbreviation
+N40769f421a7c4bafa0a481f84e31f9c2,owl#Restriction,22-rdf-syntax-ns#type
+SponsoredDepositaryReceipt,"Although a sponsored ADR would be listed in the United States, the issuing company still has its revenue and profit denominated in its home currency.",explanatoryNote
+DepositaryReceipt,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+PrivatelyPlacedDepositaryReceipt,SponsoredDepositaryReceipt,rdf-schema#subClassOf
+DepositaryReceipt,"negotiable financial instrument issued by a trust company, security depositary, or bank that is evidence of the deposit of publicly traded securities and that facilitates the ownership of securities traded in other jurisdictions",core#definition
+,DepositaryReceipts.rdf version of this ontology was modified to address text formatting hygiene issues.,core#changeNote
+ParticipatoryNote,P-Note,abbreviation
+JapaneseDepositaryReceipt,"global depositary receipt that represents the purchase, or ownership, of foreign assets which are deposited in a trust bank in Japan",core#definition
+Nb52336bc128d49f18a2817274775f701,TradableDebtInstrument,owl#someValuesFrom
+DepositaryReceipt,"Depositary receipts are widely used in order to allow the trading of securities in jurisdictions other than
+the one where the original securities were issued, such as in a local market. Depositary receipts facilitate buying securities in foreign companies, because the securities do not have to leave the home country. They enable domestic investors to buy securities of foreign companies without the accompanying risks or inconveniences of cross-border and cross-currency transactions.",explanatoryNote
+LevelIAmericanDepositaryReceipt,owl#NamedIndividual,22-rdf-syntax-ns#type
+N40769f421a7c4bafa0a481f84e31f9c2,Rule144A,owl#hasValue
+UnsponsoredDepositaryReceipt,SponsoredDepositaryReceipt,owl#disjointWith
+EuropeanDepositaryReceipt,EDR,abbreviation
+LevelIAmericanDepositaryReceipt,"This level can apply to sponsored and unsponsored ADRs. However, this is the only level available for unsponsored ADRs. A Level I ADR is easier to set up for foreign companies since it does not require the same disclosures or the need to abide by generally accepted accounting principles (GAAP). There is some degree of risk with Level I ADRs given their relative lack of transparency.",explanatoryNote
+DepositaryReceipt,Nde27530ad1974bd9941dbd52d2d40dc4,rdf-schema#subClassOf
+IndianDepositoryReceipt,Indian_Depository_Receipt,rdf-schema#seeAlso
+LevelIIAmericanDepositaryReceipt,American Depositary Receipt level that is sponsored and can be listed on an exchange,core#definition
+IndianDepositoryReceipt,owl#Class,22-rdf-syntax-ns#type
+hasTradedSecurity,Security,rdf-schema#range
+Nde27530ad1974bd9941dbd52d2d40dc4,0,owl#minQualifiedCardinality
+AmericanDepositaryReceiptLevelScheme,classifier for American depositary receipts that categorizes ADRs into levels based on the extent to which the foreign company has access to the U.S. market,core#definition
+N1ded5935025e47d4abf71007071d0610,owl#Restriction,22-rdf-syntax-ns#type
+N7c76701443674157b2099d8ff1460fab,AmericanDepositaryReceiptLevel,owl#onClass
+AmericanDepositaryReceipt,American depositary receipt,rdf-schema#label
+N115e65969845437ab97d6df60471e43a,isLegallyRecordedIn,owl#onProperty
+hasTradedSecurity,denotes,rdf-schema#subPropertyOf
+LuxembourgDepositaryReceipt,Luxembourg depositary receipt,rdf-schema#label
+Nb1b9b114a5544f61b854ff45c3f616c9,Security,owl#someValuesFrom
+ChineseDepositaryReceipt,CDR,abbreviation
+N4dc906bbe9ea422d8b72492688df3da7,JurisdictionOfTheRepublicOfChina,owl#hasValue
+ParticipatoryNote,owl#Class,22-rdf-syntax-ns#type
+N4dc906bbe9ea422d8b72492688df3da7,isLegallyRecordedIn,owl#onProperty
+Nc696f80b0c714a52a059c217ef865be4,isLegallyRecordedIn,owl#onProperty
+ChineseDepositaryReceipt,GlobalDepositaryReceipt,rdf-schema#subClassOf
+,,owl#imports
+N7fd2e15cfc4e4fa984bb431ced1e3ac4,JurisdictionOfIndia,owl#hasValue
+Ne01258605e97483aa41fa7130e34317b,owl#Restriction,22-rdf-syntax-ns#type
+Nc10c1a7a30544a338c913bb44aef34ef,AmericanDepositaryReceipt,owl#someValuesFrom
+AmericanDepositaryReceipt,"Most ADRs are issued by a domestic custodian bank when the underlying securities are deposited in a foreign depositary bank, usually by a broker who has purchased the securities in the open market local to the foreign company. An ADR can represent a fraction of a share, a single share, or multiple shares of a foreign security. The holder of an ADR has the right to obtain the underlying foreign security that the ADR represents, but investors usually find it more convenient to own the ADR. The price of an ADR generally tracks the price of the foreign security in its home market, adjusted for the ratio of ADRs to foreign company shares. In the case of companies domiciled in the United Kingdom, creation of ADRs attracts a 1.5 percent creation fee; this creation fee is different than stamp duty reserve tax charge by the UK government. Depositary banks have various responsibilities to ADR holders and to the issuing foreign company the ADR represents.",explanatoryNote
+HongKongDepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+IndianDepositoryReceipt,IDR,abbreviation
+LevelIIAmericanDepositaryReceipt,AmericanDepositaryReceiptLevel,22-rdf-syntax-ns#type
+PrivatelyPlacedDepositaryReceipt,N40769f421a7c4bafa0a481f84e31f9c2,rdf-schema#subClassOf
+N4dc906bbe9ea422d8b72492688df3da7,owl#Restriction,22-rdf-syntax-ns#type
+JapaneseDepositaryReceipt,JDR,abbreviation
+OffshoreDepositaryReceipt,"This regulation means that the securities are not, and will not be registered with any U.S. securities regulation authority. Regulation S shares cannot be held or traded by any 'U.S. person' as defined by SEC Regulation S rules. The shares are registered and issued to offshore, non-U.S. residents.",explanatoryNote
+AmericanDepositaryReceiptLevel,classifier for American depositary receipts that categorizes ADRs into levels based on the extent to which the foreign company has access to the U.S. market,core#definition
+DepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+hasTradedSecurity,has traded security,rdf-schema#label
+LevelIIIAmericanDepositaryReceipt,"American Depositary Receipt level that can be listed on an exchange and permit companies to issue shares to raise capital for the foreign issuer, but require the highest level of compliance and disclosure",core#definition
+Nb8fde6d9bca54186b6ab4a79410b63aa,isDefinedIn,owl#onProperty
+ParticipatoryNote,DepositaryReceipt,rdf-schema#subClassOf
+SponsoredDepositaryReceipt,depositary receipt that is issued in collaboration with the foreign company enabling them to tap into international capital markets directly,core#definition
+ChineseDepositaryReceipt,global depositary receipt that represents ownership in the securities of a non-Chinese company that trades on a public exchange in China,core#definition
+ParticipatoryNote,PN,abbreviation
+ParticipatoryNote,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+AmericanDepositaryReceipt,N7c76701443674157b2099d8ff1460fab,rdf-schema#subClassOf
+,,owl#versionIRI
+AmericanDepositaryReceiptLevel,owl#Class,22-rdf-syntax-ns#type
+ParticipatoryNote,TradableDebtInstrument,rdf-schema#subClassOf
+EuropeanDepositaryReceipt,global depositary receipt that represents ownership in the securities of a non-European company that trades in European financial markets,core#definition
+OffshoreDepositaryReceipt,Nd50ae2649fab474391a54944b310fd8d,rdf-schema#subClassOf
+DepositaryReceipt,DR,abbreviation
+Nc10c1a7a30544a338c913bb44aef34ef,owl#Restriction,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+SponsoredDepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+HongKongDepositaryReceipt,Hong Kong depositary receipt,rdf-schema#label
+AmericanDepositaryReceiptLevel,Nc10c1a7a30544a338c913bb44aef34ef,rdf-schema#subClassOf
+AmericanDepositaryReceipt,ADR,abbreviation
+LevelIAmericanDepositaryReceipt,Level I ADR,abbreviation
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+IndianDepositoryReceipt,N7fd2e15cfc4e4fa984bb431ced1e3ac4,rdf-schema#subClassOf
+PrivatelyPlacedDepositaryReceipt,privately placed depositary receipt,rdf-schema#label
+LevelIIIAmericanDepositaryReceipt,AmericanDepositaryReceiptLevel,22-rdf-syntax-ns#type
+hasTradedSecurity,owl#ObjectProperty,22-rdf-syntax-ns#type
+LuxembourgDepositaryReceipt,Ne01258605e97483aa41fa7130e34317b,rdf-schema#subClassOf
+Nc696f80b0c714a52a059c217ef865be4,EuropeanUnionJurisdiction,owl#hasValue
+,Depositary receipts are certificates which represent ownership of some underlying security. They are issued by a bank and give the holder the ability to participate in the returns on an instrument that they may not be able to hold directly.,abstract
+HongKongDepositaryReceipt,"A Hong Kong Depositary Receipt (HDR) is a negotiable instrument issued by a depositary bank that evidences ownership of securities in a corporation organized outside Hong Kong. HDRs trade on the Hong Kong Stock Exchange (HKEx), thus enabling foreign issuers to tap the Hong Kong market and local investors to efficiently invest in quality international companies.",explanatoryNote
+JapaneseDepositaryReceipt,N115e65969845437ab97d6df60471e43a,rdf-schema#subClassOf
+LevelIIIAmericanDepositaryReceipt,Level III American depositary receipt,rdf-schema#label
+SponsoredDepositaryReceipt,AmericanDepositaryReceipt,rdf-schema#subClassOf
+N1ded5935025e47d4abf71007071d0610,UnitedStatesJurisdiction,owl#hasValue
+LevelIAmericanDepositaryReceipt,AmericanDepositaryReceiptLevel,22-rdf-syntax-ns#type
+UnsponsoredDepositaryReceipt,"For an unsponsored ADR, a depositary entity can issue certificates when there's heavy demand from investors for ownership in a specific company from abroad. The issuing entity is normally a broker-dealer that owns common stock in the company. Because they're issued without the consent or cooperation of the foreign company, unsponsored ADRs generally trade over-the-counter (OTC)—rather than on a stock exchange. Also, shareholder benefits and voting rights may not be extended to the holders of these particular securities. Many large global corporations use unsponsored ADRs to attract American capital. For example, American investors can invest in Royal Mail PLC, a postal and delivery service company from the United Kingdom that was founded by Henry VIII. The company's unsponsored ADR trades OTC under the ticker symbol ROYMY.",explanatoryNote
+,DepositaryReceipts.rdf version of this ontology was modified to expand the definition of a depositary receipt to cover a broader range of securities.,core#changeNote
+hasTradedShare,has traded share,rdf-schema#label
+Nb8fde6d9bca54186b6ab4a79410b63aa,AmericanDepositaryReceiptLevelScheme,owl#someValuesFrom
+AmericanDepositaryReceipt,depositary receipt that represents securities of a foreign company and allows that company's securities to trade in the U.S. financial markets,core#definition
+,DepositaryReceipts.rdf version of this ontology was modified to add the concept of a Chinese depositary receipt.,core#changeNote
+Nb52336bc128d49f18a2817274775f701,owl#Restriction,22-rdf-syntax-ns#type
+hasMultiplier,indicates the number of underlying shares (whether multiple or fractional) represented by a single depositary receipt,core#definition
+hasMultiplier,has multiplier,rdf-schema#label
+AmericanDepositaryReceipt,"For example, Accton Technology is traded on the Taiwanese exchange. In order for Accton Technology to be traded in the United States, Citibank, acting as a domestic custodian bank, purchases shares of Accton Technology and creates a security, ISIN US00437R1032, which can be traded on a U.S. exchange, in this case PORTAL. Note that the depositary shares do not have to equal the number of original shares. In the case of Accton Technology, one depositary share is equivalent to two original shares.",core#example
+Nde27530ad1974bd9941dbd52d2d40dc4,owl#Restriction,22-rdf-syntax-ns#type
+JapaneseDepositaryReceipt,"A Japanese Depositary Receipt (JDR) is an instrument issued by a trust bank in Japan that evidences ownership of securities in a corporation organized outside Japan. JDRs trade on the Tokyo Stock Exchange (TSE) in yen, and in accordance with Japanese market conventions, enabling foreign issuers to tap the Japanese capital market and local investors to efficiently invest in quality international companies.",explanatoryNote
+JapaneseDepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+AmericanDepositaryReceiptLevelScheme,N8d3acb8bae2d44f9846a1f5e3426493e,rdf-schema#subClassOf
+LevelIIIAmericanDepositaryReceipt,Level III ADR,abbreviation
+ChineseDepositaryReceipt,N4dc906bbe9ea422d8b72492688df3da7,rdf-schema#subClassOf
+EuropeanDepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+AmericanDepositaryReceiptLevelScheme,ADR level,abbreviation
+ParticipatoryNote,Nb52336bc128d49f18a2817274775f701,rdf-schema#subClassOf
+EuropeanDepositaryReceipt,European depositary receipt,rdf-schema#label
+UnsponsoredDepositaryReceipt,N2672b6a9b91d462eaad4a87e818237d3,rdf-schema#subClassOf
+EuropeanDepositaryReceipt,A European depositary receipt is a European equivalent of the original American depositary receipt (ADR). The EDR is issued by a bank in Europe representing securities traded on an exchange outside of the bank's home country.,explanatoryNote
+LevelIIAmericanDepositaryReceipt,"This level is visible to a wider market and requires the company to comply with the SEC regulatory rules. However, they cannot be used to raise capital.",explanatoryNote
+Nc696f80b0c714a52a059c217ef865be4,owl#Restriction,22-rdf-syntax-ns#type
+Nb1b9b114a5544f61b854ff45c3f616c9,owl#Restriction,22-rdf-syntax-ns#type
+PrivatelyPlacedDepositaryReceipt,depositary receipt that represents shares in a private placement under the SEC Rule 144-A,core#definition
+hasTradedShare,links a depositary receipt to the instrument (equity or exchange-traded fund) that it represents,core#definition
+N8d3acb8bae2d44f9846a1f5e3426493e,owl#Restriction,22-rdf-syntax-ns#type
+AmericanDepositaryReceiptLevel,ADR level,abbreviation
+DepositaryReceipt,Security,rdf-schema#subClassOf
+N8d3acb8bae2d44f9846a1f5e3426493e,defines,owl#onProperty
+GlobalDepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+LevelIIAmericanDepositaryReceipt,Level II ADR,abbreviation
+ChineseDepositaryReceipt,Chinese depositary receipt,rdf-schema#label
+ParticipatoryNote,"Depository receipts are widely used in order to allow the trading of debt instruments in
+jurisdictions other than the one where the original debt instruments were issued",explanatoryNote
+Nb8fde6d9bca54186b6ab4a79410b63aa,owl#Restriction,22-rdf-syntax-ns#type
+EuropeanDepositaryReceipt,Nc696f80b0c714a52a059c217ef865be4,rdf-schema#subClassOf
+OffshoreDepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+UnsponsoredDepositaryReceipt,unsponsored depositary receipt,rdf-schema#label
+ParticipatoryNote,Typically P-Notes are SPVs that are created to allow participation from outside that market. The SPV purchases a security on shore and issues a note that represents that security to offshore investors. They are similar to an ADR but always a debt security.,explanatoryNote
+hasNumberOfDepositaryReceiptsIssued,owl#DatatypeProperty,22-rdf-syntax-ns#type
+AmericanDepositaryReceiptLevel,FinancialInstrumentClassifier,rdf-schema#subClassOf
+hasMultiplier,owl#DatatypeProperty,22-rdf-syntax-ns#type
+LuxembourgDepositaryReceipt,"A Luxembourg Depositary Receipt (LDR) is a certificate which represents the purchase, or ownership, of foreign assets which are deposited in a Luxembourg-based account. An LDR functions in much the same way as a global depositary receipt (GDR). LDRs may represent ownership of either an underlying number of shares or a notional amount of bonds.",explanatoryNote
+,DepositaryReceipts.rdf version of this ontology was modified to address a deprecated term that was replaced with a new term over 6 months ago (FND-386) and eliminate punning issues (LOAN-169).,core#changeNote
+GlobalDepositaryReceipt,"depositary receipt where a certificate issued by a depositary bank, which purchases securities of foreign companies, creates a security on a local exchange backed by those securities",core#definition
+GlobalDepositaryReceipt,DepositaryReceipt,rdf-schema#subClassOf
+,Depositary Receipts,rdf-schema#label
+hasTradedShare,owl#ObjectProperty,22-rdf-syntax-ns#type
+AmericanDepositaryReceiptLevelScheme,American depositary receipt level scheme,rdf-schema#label
+JapaneseDepositaryReceipt,GlobalDepositaryReceipt,rdf-schema#subClassOf
+N1ded5935025e47d4abf71007071d0610,isLegallyRecordedIn,owl#onProperty
+Ne01258605e97483aa41fa7130e34317b,isLegallyRecordedIn,owl#onProperty
+Nb52336bc128d49f18a2817274775f701,hasTradedSecurity,owl#onProperty
+ChineseDepositaryReceipt,It refers to shares in non-Chinese companies that trade in China the same way that American depositary receipts (ADRs) allow non-U.S. company shares to trade on American exchanges.,explanatoryNote
+N115e65969845437ab97d6df60471e43a,JurisdictionOfJapan,owl#hasValue
+HongKongDepositaryReceipt,GlobalDepositaryReceipt,rdf-schema#subClassOf
+hasNumberOfDepositaryReceiptsIssued,has number of depositary receipts issued,rdf-schema#label
+Nd50ae2649fab474391a54944b310fd8d,RegulationS,owl#hasValue
+,"DepositaryReceipts.rdf version of this ontology was modified to further refine the definition of a depositary receipt, add participatory notes, and broaden explanatory notes to allow for coverage of Chinese ADRs.",core#changeNote
+Nc10c1a7a30544a338c913bb44aef34ef,classifies,owl#onProperty
+IndianDepositoryReceipt,"global depositary receipt that represents the purchase, or ownership, of foreign assets which are deposited in a Indian account managed by the Domestic Depository in India",core#definition
+OffshoreDepositaryReceipt,depositary receipt issued under SEC Regulation S,core#definition
+UnsponsoredDepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+DepositaryReceipt,depositary receipt,synonym
+GlobalDepositaryReceipt,global depositary receipt,rdf-schema#label
+N476a89f66c084d18a2f1695195691cdd,isLegallyRecordedIn,owl#onProperty
+JapaneseDepositaryReceipt,Japanese depositary receipt,rdf-schema#label
+LuxembourgDepositaryReceipt,GlobalDepositaryReceipt,rdf-schema#subClassOf
+hasTradedShare,DepositaryReceipt,rdf-schema#domain
+hasTradedSecurity,DepositaryReceipt,rdf-schema#domain
+AmericanDepositaryReceipt,N1ded5935025e47d4abf71007071d0610,rdf-schema#subClassOf
+UnsponsoredDepositaryReceipt,depositary receipt that is established without the company's cooperation,core#definition
+ParticipatoryNote,Participation notes are required by investors or hedge funds to invest in Indian securities without having to register with the Securities and Exchange Board of India (SEBI). P-Notes are among the group of investments considered to be Offshore Derivative Investments (ODIs) in Indian markets.,core#example
+LuxembourgDepositaryReceipt,LDR,abbreviation
+N7c76701443674157b2099d8ff1460fab,0,owl#minQualifiedCardinality
+N476a89f66c084d18a2f1695195691cdd,owl#Restriction,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+LuxembourgDepositaryReceipt,"global depositary receipt that represents the purchase, or ownership, of foreign assets which are deposited in a Luxembourg-based account",core#definition
+N7c76701443674157b2099d8ff1460fab,owl#Restriction,22-rdf-syntax-ns#type
+hasNumberOfDepositaryReceiptsIssued,indicates the number of receipts issued to the general public,core#definition
+N2672b6a9b91d462eaad4a87e818237d3,isClassifiedBy,owl#onProperty
+,MIT,license
+N7c76701443674157b2099d8ff1460fab,isClassifiedBy,owl#onProperty
+AmericanDepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+N115e65969845437ab97d6df60471e43a,owl#Restriction,22-rdf-syntax-ns#type
+PrivatelyPlacedDepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+ChineseDepositaryReceipt,owl#Class,22-rdf-syntax-ns#type
+SponsoredDepositaryReceipt,sponsored depositary receipt,rdf-schema#label
+ParticipatoryNote,participation note,synonym
+,DepositaryReceipts.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Nd50ae2649fab474391a54944b310fd8d,hasRestriction,owl#onProperty
+hasMultiplier,DepositaryReceipt,rdf-schema#domain
+HongKongDepositaryReceipt,HKDR,abbreviation
+Nd50ae2649fab474391a54944b310fd8d,owl#Restriction,22-rdf-syntax-ns#type
+N8d3acb8bae2d44f9846a1f5e3426493e,AmericanDepositaryReceiptLevel,owl#someValuesFrom
+ParticipatoryNote,tradable debt instrument that facilitates the ownership of securities traded in other jurisdictions,core#definition
+HongKongDepositaryReceipt,"global depositary receipt that represents the purchase, or ownership, of foreign assets which are deposited in a depositary bank in Hong Kong",core#definition
+hasTradedSecurity,links a depositary receipt to the instrument that it represents,core#definition
+hasTradedShare,hasTradedSecurity,rdf-schema#subPropertyOf
+IndianDepositoryReceipt,An Indian Depository Receipt (IDR) is an instrument denominated in Indian Rupees in the form of a depositary receipt created by a Domestic Depository (custodian of securities registered with the Securities and Exchange Board of India) against the underlying securities of issuing company to enable foreign companies to raise funds from the Indian securities Markets.,explanatoryNote
+AmericanDepositaryReceiptLevel,Nb8fde6d9bca54186b6ab4a79410b63aa,rdf-schema#subClassOf
+AmericanDepositaryReceiptLevelScheme,FinancialInstrumentClassificationScheme,rdf-schema#subClassOf
+OffshoreDepositaryReceipt,SponsoredDepositaryReceipt,rdf-schema#subClassOf
+LevelIIIAmericanDepositaryReceipt,owl#NamedIndividual,22-rdf-syntax-ns#type
+LevelIAmericanDepositaryReceipt,Level I American depositary receipt,rdf-schema#label
+N476a89f66c084d18a2f1695195691cdd,JurisdictionOfHongKong,owl#hasValue
+OffshoreDepositaryReceipt,offshore depositary receipt,rdf-schema#label
+LevelIAmericanDepositaryReceipt,American Depositary Receipt level indicating that the ADR can only be traded over-the-counter in the U.S.,core#definition
+IndianDepositoryReceipt,GlobalDepositaryReceipt,rdf-schema#subClassOf
+AmericanDepositaryReceipt,DepositaryReceipt,rdf-schema#subClassOf
+N2672b6a9b91d462eaad4a87e818237d3,LevelIAmericanDepositaryReceipt,owl#hasValue
+Nde27530ad1974bd9941dbd52d2d40dc4,XMLSchema#decimal,owl#onDataRange
+HongKongDepositaryReceipt,N476a89f66c084d18a2f1695195691cdd,rdf-schema#subClassOf
+EuropeanDepositaryReceipt,GlobalDepositaryReceipt,rdf-schema#subClassOf
+ParticipatoryNote,participatory note,rdf-schema#label
+PrivatelyPlacedDepositaryReceipt,"Some foreign companies will set up an ADR program under SEC Rule 144-A. This provision makes the issuance of shares a private placement. Shares of companies registered under Rule 144-A are restricted stock and may only be issued to or traded by qualified institutional buyers (QIBs). U.S. public shareholders are generally not permitted to invest in these ADR programs, and most are held exclusively through the Depository Trust & Clearing Corporation, so there is often very little information on these companies.",explanatoryNote
+GlobalDepositaryReceipt,international depositary receipt,synonym
+DepositaryReceipt,Nb1b9b114a5544f61b854ff45c3f616c9,rdf-schema#subClassOf
+hasMultiplier,XMLSchema#decimal,rdf-schema#range
+GlobalDepositaryReceipt,Global depositary receipts are the global equivalent of the original American depositary receipts (ADR) on which they are based. GDRs represent ownership of an underlying number of securities of a foreign company and are commonly used to invest in companies from developing or emerging markets by investors in developed markets.,explanatoryNote
+IndianDepositoryReceipt,Indian depositary receipt,rdf-schema#label
+N7fd2e15cfc4e4fa984bb431ced1e3ac4,owl#Restriction,22-rdf-syntax-ns#type
+N2672b6a9b91d462eaad4a87e818237d3,owl#Restriction,22-rdf-syntax-ns#type
+AmericanDepositaryReceiptLevelScheme,owl#Class,22-rdf-syntax-ns#type

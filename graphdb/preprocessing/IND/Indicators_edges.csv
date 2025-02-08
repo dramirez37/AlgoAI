@@ -1,0 +1,168 @@
+source_id,target_id,relationship
+,Indicators.rdf version of this ontology was modified to extend the definition of price structure to include a synonym of price history and state that it is intended to be used for any sort of analysis of historic prices.,core#changeNote
+Na36026f3e6754e7dbfa2903bb0b7a773,CombinedDateTime,owl#onDataRange
+N6dcd6fe8c6a345a99ecb56972a0654a1,hasQuotationDateTime,owl#onProperty
+MarketRate,market rate,rdf-schema#label
+N94fa7bc5ee0c474c8066542cf27b9d63,hasArgument,owl#onProperty
+N3bf9d2bd35c24791a032b8d39698d239,hasQuotationDateTime,owl#onProperty
+,"Indicators.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+,"Indicators.rdf version of this ontology was modified per the FIBO 2.0 RFC, namely, to integrate concepts recently added to the FND domain including Rate, ExchangeRate, InterestRate and StructuredCollection and revise definitions of TermStructure and Volatility to better support concepts such as yield curves and analysis of market rates generally.",core#changeNote
+ImpliedPriceVolatility,implied price volatility,rdf-schema#label
+EndOfDayMarketRate,Na36026f3e6754e7dbfa2903bb0b7a773,rdf-schema#subClassOf
+ImpliedVolatility,implied volatility,rdf-schema#label
+Na36026f3e6754e7dbfa2903bb0b7a773,hasQuotationDateTime,owl#onProperty
+N403b9dae34a7473794e7b5d0f89a42bb,owl#Restriction,22-rdf-syntax-ns#type
+MarketRate,"Financial market rates include, but are not limited to reference rates, foreign exchange rates, lending rates, bankers' acceptance rates, and so forth.",core#example
+MarketRate,owl#Class,22-rdf-syntax-ns#type
+N0acfddfad24d4e9ea402d76897b785b8,2,owl#qualifiedCardinality
+TermStructure,owl#Class,22-rdf-syntax-ns#type
+PriceVolatility,Nfb82d6230d07417eb26adc7172cc7698,rdf-schema#subClassOf
+Nc555f82e88f04f71841381adc73594c7,hasDatePeriod,owl#onProperty
+PriceStructure,owl#Class,22-rdf-syntax-ns#type
+Nc555f82e88f04f71841381adc73594c7,owl#Restriction,22-rdf-syntax-ns#type
+PriceStructure,"Historical prices are needed not only for various statistical analyses but for determining best prices for certain kinds of options, for example. Note that prices may be quoted or calculated.",explanatoryNote
+PriceVolatility,"Volatility is modeled here using a structured collection, comprised of a series of individual prices of something (a security, index, etc., typically quoted prices), dates, and the source for those prices for some overall period of time",core#editorialNote
+TermStructure,term structure,rdf-schema#label
+Nfa1859e10b7f42aebfff0106f9b25293,MonetaryPrice,owl#someValuesFrom
+Volatility,owl#Class,22-rdf-syntax-ns#type
+PriceStructure,"structured collection of prices, such as market prices for some index or security, such that volatility or other analyses may be performed over the structure",core#definition
+ImpliedVolatility,projected volatility,synonym
+N9021f0022f33499795067ff76327da91,owl#Restriction,22-rdf-syntax-ns#type
+Volatility,N94fa7bc5ee0c474c8066542cf27b9d63,rdf-schema#subClassOf
+HistoricalVolatility,realized volatility,synonym
+PriceVolatility,owl#Class,22-rdf-syntax-ns#type
+hasQuotationDateTime,has quotation date and time,rdf-schema#label
+DailyAverageMarketRate,daily average market rate,rdf-schema#label
+PriceStructure,price structure,rdf-schema#label
+QuotedPrice,quoted price,rdf-schema#label
+Nfa1859e10b7f42aebfff0106f9b25293,owl#Restriction,22-rdf-syntax-ns#type
+N403b9dae34a7473794e7b5d0f89a42bb,isValueOf,owl#onProperty
+Volatility,N9e987fb85c40435cb109373e2423ddbd,rdf-schema#subClassOf
+PriceStructure,DatedStructuredCollection,rdf-schema#subClassOf
+N0e709b01b00642998feae3e14014625e,Variance,22-rdf-syntax-ns#first
+N6dcd6fe8c6a345a99ecb56972a0654a1,CombinedDateTime,owl#onDataRange
+HistoricalVolatility,"measure of volatility that uses actual values for pricing, rates, and other measurements calculated over some prior period",core#definition
+Nfb82d6230d07417eb26adc7172cc7698,PriceStructure,owl#someValuesFrom
+MarketRate,Redeposit issued instruments,core#scopeNote
+,"Copyright (c) 2014-2023 EDM Council, Inc.",copyright
+,,owl#imports
+HistoricalPriceVolatility,historical volatility measure of past trading ranges of prices of underlying securities and indexes,core#definition
+,"Indicators.rdf version of this ontology was modified to add definitions for historical and implied volatility, and differentiate price volatility accordingly.",core#changeNote
+EndOfDayMarketRate,owl#Class,22-rdf-syntax-ns#type
+N9e987fb85c40435cb109373e2423ddbd,N0e709b01b00642998feae3e14014625e,owl#unionOf
+hasQuotationDate,Date,rdf-schema#range
+HistoricalPriceVolatility,PriceVolatility,rdf-schema#subClassOf
+Nbbfba9cd224c4c83a70ae2af02c141d6,1,owl#qualifiedCardinality
+N403b9dae34a7473794e7b5d0f89a42bb,ScopedMeasure,owl#onClass
+MarketRate,known collectively (in the CFI Standard) as referential instruments,core#scopeNote
+hasQuotationDateTime,"indicates a quotation date and possibly a time for a given market rate, interest rate, indicator, or other quoted pricing information",core#definition
+MarketRate,Ratio,rdf-schema#subClassOf
+TermStructure,"structured collection of rates, such as interest rates, or bond yields with different terms to maturity, such that a yield curve may be constructed for the structure",core#definition
+,Indicators.rdf version of this ontology was modified per the issue resolutions identified in the FIBO IND 1.0 FTF 1 report.,core#changeNote
+ImpliedVolatility,Volatility,rdf-schema#subClassOf
+ImpliedPriceVolatility,ImpliedVolatility,rdf-schema#subClassOf
+,"Indicators.rdf version of this ontology was modified to a restriction on isValueOf to MarketRate and eliminate its dependence on PublishedFinancialInformation, and to revise the definition of market rate, daily average market rate, and end of day market rate.",core#changeNote
+isVolatilityOf,appliesTo,rdf-schema#subPropertyOf
+,,owl#versionIRI
+hasQuotationDate,Typically this property reflects a daily average or end of day quote.,explanatoryNote
+,Indicators.rdf version of this ontology was modified to reflect the move of dated collection from arrangements to financial dates.,core#changeNote
+QuotedPrice,MonetaryPrice,rdf-schema#subClassOf
+,"Indicators.rdf version of this ontology was modified to loosen the nature of a price in a price structure to include any price, not limited to a quoted price from a specific source, to allow for calculated prices to be included in the structure and to deprecate redundant terms including financial information publisher, and published financial information.",core#changeNote
+hasQuotationDateTime,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N3d2b1fea2c9d4bf0ad88a61789ba7778,owl#Restriction,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+,Indicators.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+QuotedPrice,a monetary price quoted by some publisher on a given date,core#definition
+MarketSpread,owl#Class,22-rdf-syntax-ns#type
+N3d2b1fea2c9d4bf0ad88a61789ba7778,MarketRate,owl#someValuesFrom
+isVolatilityOf,Volatility,rdf-schema#domain
+DailyAverageMarketRate,owl#Class,22-rdf-syntax-ns#type
+PriceStructure,price history,synonym
+HistoricalVolatility,owl#Class,22-rdf-syntax-ns#type
+PriceVolatility,statistical measure of the rate of change in pricing for a given security or market index,core#definition
+MarketRate,"or political region (e.g., SOFR, Prime)",core#definition
+MarketSpread,statistical measure providing the difference (or spread) between two market rates,core#definition
+ImpliedPriceVolatility,PriceVolatility,rdf-schema#subClassOf
+ImpliedPriceVolatility,measure of volatility that represents the expected fluctuations of an underlying stock or index over a specific time frame,core#definition
+HistoricalPriceVolatility,owl#Class,22-rdf-syntax-ns#type
+Ne012b14154ca45b7bbca1bb55a693633,StandardDeviation,22-rdf-syntax-ns#first
+Nbbfba9cd224c4c83a70ae2af02c141d6,CombinedDateTime,owl#onDataRange
+N94fa7bc5ee0c474c8066542cf27b9d63,DatedStructuredCollection,owl#someValuesFrom
+Ne012b14154ca45b7bbca1bb55a693633,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+hasQuotationDate,indicates the quotation date for a given market rate or indicator,core#definition
+HistoricalPriceVolatility,historical price volatility,rdf-schema#label
+Nc555f82e88f04f71841381adc73594c7,DatePeriod,owl#someValuesFrom
+EndOfDayMarketRate,MarketRate,rdf-schema#subClassOf
+DailyAverageMarketRate,marketaverage.asp,adaptedFrom
+Nbbfba9cd224c4c83a70ae2af02c141d6,hasQuotationDateTime,owl#onProperty
+DailyAverageMarketRate,"overall level of a given rate, calculated as the sum of some selected observed values of the rates for a particular reference rate, foreign exchange rate, lending rate, or other market rate divided by the number of samples collected over the course of a twenty-four (24) hour period for a specific date",core#definition
+,"Copyright (c) 2014-2023 Object Management Group, Inc.",copyright
+Nfa1859e10b7f42aebfff0106f9b25293,hasConstituent,owl#onProperty
+N94fa7bc5ee0c474c8066542cf27b9d63,owl#Restriction,22-rdf-syntax-ns#type
+PriceVolatility,"Volatility can be determined using the standard deviation or variance among prices for the security or market index over some period of time. For a specific security, volatility may measure the amount and frequency in rapid price fluctuation. It is computed as the annualized standard deviation of the percentage change in a security's daily price.",explanatoryNote
+QuotedPrice,owl#Class,22-rdf-syntax-ns#type
+N3bf9d2bd35c24791a032b8d39698d239,CombinedDateTime,owl#onDataRange
+ImpliedVolatility,owl#Class,22-rdf-syntax-ns#type
+isVolatilityOf,indicates something to which the volatility measure applies and of which it is a measure,core#definition
+MarketRate,N9021f0022f33499795067ff76327da91,rdf-schema#subClassOf
+N9e987fb85c40435cb109373e2423ddbd,owl#Class,22-rdf-syntax-ns#type
+,Indicators.rdf version of this ontology was modified to integrate the composite date value and reflect migration of statistical measures to Analytics.,core#changeNote
+hasQuotationDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+TermStructure,N3d2b1fea2c9d4bf0ad88a61789ba7778,rdf-schema#subClassOf
+DailyAverageMarketRate,MarketRate,rdf-schema#subClassOf
+PriceStructure,Nfa1859e10b7f42aebfff0106f9b25293,rdf-schema#subClassOf
+Na36026f3e6754e7dbfa2903bb0b7a773,owl#Restriction,22-rdf-syntax-ns#type
+PriceVolatility,price volatility,rdf-schema#label
+MarketSpread,ScopedMeasure,rdf-schema#subClassOf
+hasQuotationDateTime,CombinedDateTime,rdf-schema#range
+N6dcd6fe8c6a345a99ecb56972a0654a1,owl#Restriction,22-rdf-syntax-ns#type
+N3d2b1fea2c9d4bf0ad88a61789ba7778,hasConstituent,owl#onProperty
+isVolatilityOf,is volatility of,rdf-schema#label
+N9021f0022f33499795067ff76327da91,1,owl#qualifiedCardinality
+HistoricalVolatility,historical volatility,rdf-schema#label
+ImpliedVolatility,measure of volatility that is a forward-looking metric used to calculate probability,core#definition
+,Indicators.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+PriceVolatility,Volatility,rdf-schema#subClassOf
+N9021f0022f33499795067ff76327da91,XMLSchema#decimal,owl#onDataRange
+HistoricalPriceVolatility,HistoricalVolatility,rdf-schema#subClassOf
+TermStructure,DatedStructuredCollection,rdf-schema#subClassOf
+MarketRate,N3bf9d2bd35c24791a032b8d39698d239,rdf-schema#subClassOf
+Volatility,statistical measure of the dispersion around the average of some random variable over some period of time,core#definition
+N0acfddfad24d4e9ea402d76897b785b8,hasArgument,owl#onProperty
+Volatility,volatility,rdf-schema#label
+hasQuotationDate,has quotation date,rdf-schema#label
+EndOfDayMarketRate,value of a given market rate of the end of the business day for a specific date,core#definition
+MarketSpread,N0acfddfad24d4e9ea402d76897b785b8,rdf-schema#subClassOf
+EndOfDayMarketRate,end-of-day market rate,rdf-schema#label
+,"This ontology provides the concepts common to all market rates, indices and indicators; that is concepts descriptive of the numeric parameters themselves. These are modeled independently of the values they may take over time.",abstract
+,Indicators Ontology,rdf-schema#label
+,Release,hasMaturityLevel
+N403b9dae34a7473794e7b5d0f89a42bb,0,owl#minQualifiedCardinality
+,MIT,license
+Volatility,Nc555f82e88f04f71841381adc73594c7,rdf-schema#subClassOf
+ImpliedPriceVolatility,owl#Class,22-rdf-syntax-ns#type
+hasQuotationDate,hasDate,rdf-schema#subPropertyOf
+Na36026f3e6754e7dbfa2903bb0b7a773,1,owl#qualifiedCardinality
+QuotedPrice,N6dcd6fe8c6a345a99ecb56972a0654a1,rdf-schema#subClassOf
+hasQuotationDate,"Note that this property requires a reified date value, if used.",usageNote
+Nbbfba9cd224c4c83a70ae2af02c141d6,owl#Restriction,22-rdf-syntax-ns#type
+N6dcd6fe8c6a345a99ecb56972a0654a1,1,owl#qualifiedCardinality
+N3bf9d2bd35c24791a032b8d39698d239,0,owl#minQualifiedCardinality
+,"Indicators.rdf version of this ontology was modified to eliminate a redundant superclass declaration on MarketSpread, introduced by refactoring of FND analytics.",core#changeNote
+N0acfddfad24d4e9ea402d76897b785b8,MarketRate,owl#onClass
+Volatility,Dispersion,rdf-schema#subClassOf
+N0e709b01b00642998feae3e14014625e,Ne012b14154ca45b7bbca1bb55a693633,22-rdf-syntax-ns#rest
+isVolatilityOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nfb82d6230d07417eb26adc7172cc7698,owl#Restriction,22-rdf-syntax-ns#type
+HistoricalVolatility,Volatility,rdf-schema#subClassOf
+DailyAverageMarketRate,Nbbfba9cd224c4c83a70ae2af02c141d6,rdf-schema#subClassOf
+TermStructure,"Term structure refers to a set of discrete points; elements are ordered by time. Restrictions on the rate (see above) and a point in time, paired together, and then ordered in a structured collection is how this should ultimately be modeled. Then the concept of yield curve would be a child of term structure, for calculation of net present value, for example. Term structures consist of two or more observed or projected values, typically related to debt instruments or interest rates. assessment of monetary policy conditions, and so forth.",explanatoryNote
+N0acfddfad24d4e9ea402d76897b785b8,owl#Restriction,22-rdf-syntax-ns#type
+MarketSpread,market spread,rdf-schema#label
+,Indicators.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N3bf9d2bd35c24791a032b8d39698d239,owl#Restriction,22-rdf-syntax-ns#type
+hasQuotationDateTime,hasObservedDateTime,rdf-schema#subPropertyOf
+MarketRate,N403b9dae34a7473794e7b5d0f89a42bb,rdf-schema#subClassOf
+N9021f0022f33499795067ff76327da91,hasRateValue,owl#onProperty
+Nfb82d6230d07417eb26adc7172cc7698,hasArgument,owl#onProperty
+HistoricalPriceVolatility,Calculations for historical volatility are generally based on the change from one closing price to the next.,explanatoryNote

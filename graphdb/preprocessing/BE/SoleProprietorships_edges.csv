@@ -1,0 +1,54 @@
+source_id,target_id,relationship
+SoleProprietorship,N4a98ba24be93429aa2ecae0f148d2c18,rdf-schema#subClassOf
+N4a98ba24be93429aa2ecae0f148d2c18,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#imports
+N1ece6fc8ed29406592047c4e0616080a,owl#Restriction,22-rdf-syntax-ns#type
+SoleProprietor,"party that owns a business, has the rights to all profits from that business and is considered a single entity (unincorporated) together with that business for tax and liability purposes",core#definition
+SoleProprietor,sole proprietor,rdf-schema#label
+,Release,hasMaturityLevel
+Ne61764c73aba401d8ca13c70f5ba048b,isOwnedAndControlledBy,owl#onProperty
+N150d7cf18c0a43eea848ae2125210586,hasInvestmentEntity,owl#onProperty
+N4a98ba24be93429aa2ecae0f148d2c18,hasCapacity,owl#onProperty
+N4a98ba24be93429aa2ecae0f148d2c18,LiabilityCapacity,owl#someValuesFrom
+SoleProprietor,A sole proprietor has unlimited liability with respect to any business debts.,explanatoryNote
+SoleProprietor,Nb616c5af7a814b06a7057ad0d64c341f,rdf-schema#subClassOf
+,"This ontology defines the fundamental concepts for representing sole proprietorships -- i.e., organizations that are owned by an individual that is responsible for the liabilities of the organization.",abstract
+,MIT,license
+,SoleProprietorships.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+,"SoleProprietorships.rdf version of this ontology was modified to eliminate a redundant subclass relationship, enhance ownership relations, and revise definitions to be ISO 704 compliant.",core#changeNote
+Nb616c5af7a814b06a7057ad0d64c341f,N1ece6fc8ed29406592047c4e0616080a,owl#someValuesFrom
+SoleProprietor,owl#Class,22-rdf-syntax-ns#type
+SoleProprietorship,BusinessEntity,rdf-schema#subClassOf
+N150d7cf18c0a43eea848ae2125210586,SoleProprietorship,owl#someValuesFrom
+,SoleProprietorships.rdf version of this ontology was modified per the FIBO 2.0 RFC.,core#changeNote
+,,owl#versionIRI
+N1ece6fc8ed29406592047c4e0616080a,ownsAndControls,owl#onProperty
+Ne4cfa83268ba46838c79757870518ef9,isPlayedBy,owl#onProperty
+SoleProprietor,N150d7cf18c0a43eea848ae2125210586,rdf-schema#subClassOf
+,SoleProprietorships.rdf version of this ontology was modified to make sole proprietorship a subclass of legal person.,core#changeNote
+Nb616c5af7a814b06a7057ad0d64c341f,owl#Restriction,22-rdf-syntax-ns#type
+,SoleProprietorships.rdf version of this ontology was modified to use natural person rather than legally capable person.,core#changeNote
+SoleProprietor,EntityOwner,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+,SoleProprietorships.rdf version of this ontology was modified to eliminate unnecessary references to external sources.,core#changeNote
+Ne4cfa83268ba46838c79757870518ef9,1,owl#qualifiedCardinality
+Ne61764c73aba401d8ca13c70f5ba048b,LegallyCompetentNaturalPerson,owl#onClass
+SoleProprietor,sole trader,synonym
+SoleProprietorship,unincorporated business owned by a single person,core#definition
+Ne61764c73aba401d8ca13c70f5ba048b,1,owl#qualifiedCardinality
+N150d7cf18c0a43eea848ae2125210586,owl#Restriction,22-rdf-syntax-ns#type
+SoleProprietor,Ne4cfa83268ba46838c79757870518ef9,rdf-schema#subClassOf
+SoleProprietor,sole owner,synonym
+SoleProprietorship,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+Ne61764c73aba401d8ca13c70f5ba048b,owl#Restriction,22-rdf-syntax-ns#type
+,Sole Proprietorships Ontology,rdf-schema#label
+,SoleProprietorships.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+Ne4cfa83268ba46838c79757870518ef9,LegallyCompetentNaturalPerson,owl#onClass
+N1ece6fc8ed29406592047c4e0616080a,SoleProprietorship,owl#someValuesFrom
+Ne4cfa83268ba46838c79757870518ef9,owl#Restriction,22-rdf-syntax-ns#type
+SoleProprietorship,LegalPerson,rdf-schema#subClassOf
+SoleProprietorship,sole proprietorship,rdf-schema#label
+Nb616c5af7a814b06a7057ad0d64c341f,isPlayedBy,owl#onProperty
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+SoleProprietorship,Ne61764c73aba401d8ca13c70f5ba048b,rdf-schema#subClassOf

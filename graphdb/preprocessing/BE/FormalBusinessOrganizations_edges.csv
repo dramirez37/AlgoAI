@@ -1,0 +1,122 @@
+source_id,target_id,relationship
+,FormalBusinessOrganizations.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+Neb41dcfa75a044f39cd12ee1d9d4ad0e,ProfitObjective,owl#someValuesFrom
+ValueAddedTaxIdentificationNumber,VAT identification number,synonym
+hasOperatingAddress,PhysicalAddress,rdf-schema#range
+hasRegisteredAddress,has registered address,rdf-schema#label
+N95557f84d91e4ef0bef2dc346203e376,isGovernedBy,owl#onProperty
+hasHeadquartersAddress,hasOperatingAddress,rdf-schema#subPropertyOf
+Division,OrganizationalSubUnit,rdf-schema#subClassOf
+ValueAddedTaxIdentificationNumber,VATIN,abbreviation
+JointVenture,"In a joint venture, each of the participants is responsible for profits, losses, and costs associated with it. However, the venture is its own entity, separate from the participants' other business interests.",explanatoryNote
+ValueAddedTaxIdentificationNumber,"If the ultimate consumer is a business that collects and pays to the government VAT on its products or services, it can reclaim the tax paid. Not all localities require VAT to be charged, and exports are often exempt. VAT is usually implemented as a destination-based tax, where the tax rate is based on the location of the consumer and applied to the sales price.",explanatoryNote
+hasRegisteredAddress,identifies an address that is officially recorded with some government authority and at which legal papers may be served,core#definition
+N26beb538b6d34661aff5e0eac57aeed8,0,owl#minQualifiedCardinality
+,Formal Business Organizations Ontology,rdf-schema#label
+N26beb538b6d34661aff5e0eac57aeed8,owl#Restriction,22-rdf-syntax-ns#type
+hasRegisteredAddress,hasAddress,rdf-schema#subPropertyOf
+JointVenture,owl#Class,22-rdf-syntax-ns#type
+NotForProfitOrganization,owl#Class,22-rdf-syntax-ns#type
+hasOperatingAddress,Organization,rdf-schema#domain
+Nc5989e5bedf9436680aeb64a73e3c8ff,owl#Restriction,22-rdf-syntax-ns#type
+Ne713c329919f457cbfbca39fb0c5ed61,PublicPurpose,owl#someValuesFrom
+,FormalBusinessOrganizations.rdf version of this ontology was revised to replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+hasHeadquartersAddress,lei-cdf-format-version-2-1,adaptedFrom
+Neb41dcfa75a044f39cd12ee1d9d4ad0e,hasObjective,owl#onProperty
+hasHeadquartersAddress,PhysicalAddress,rdf-schema#range
+LegalEntity,owl#Class,22-rdf-syntax-ns#type
+hasRegisteredAddress,Party,rdf-schema#domain
+hasEquity,hasExpression,rdf-schema#subPropertyOf
+,FormalBusinessOrganizations.rdf version of this ontology was revised to eliminate deprecated elements.,core#changeNote
+Ne713c329919f457cbfbca39fb0c5ed61,hasObjective,owl#onProperty
+TaxIdentifier,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+ValueAddedTaxIdentificationNumber,vat-identification-numbers_en,adaptedFrom
+NonGovernmentalOrganization,non-governmental organization,rdf-schema#label
+NotForProfitOrganization,Nc5989e5bedf9436680aeb64a73e3c8ff,rdf-schema#subClassOf
+Branch,owl#Class,22-rdf-syntax-ns#type
+NotForProfitOrganization,"The nonprofit landscape is highly varied, although many people have come to associate NPOs with charitable organizations. Although charities do comprise an often high profile or visible aspect of the sector, there are many other types of nonprofits. Overall, they tend to be either member-serving or community-serving. Member-serving organizations include mutual societies, cooperatives, trade unions, credit unions, industry associations, sports clubs, retired serviceman's clubs and other organizations that benefit a particular group of people - the members of the organization. Typically, community-serving organizations are focused on providing services to the community in general, either globally or locally: organizations delivering human services programs or projects, aid and development programs, medical research, education and health services, and so on.",explanatoryNote
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+N26beb538b6d34661aff5e0eac57aeed8,IndustrySectorClassifier,owl#onClass
+,,owl#versionIRI
+JointVenture,legal entity that is formed between parties that pool their resources for the purpose of accomplishing a specific task but otherwise retain their distinct identities,core#definition
+NotForProfitOrganization,not for profit organization,rdf-schema#label
+Na20ebd6268b8480587e642ebe8c538c9,owl#Class,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+hasHeadquartersAddress,owl#ObjectProperty,22-rdf-syntax-ns#type
+ValueAddedTaxIdentificationNumber,"tax identifier that identifies a taxable person (business) or non-taxable legal entity for a consumption tax that is assessed incrementally, levied on the price of a product or service at each stage of production, distribution, and sale to the end consumer",core#definition
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+ValueAddedTaxIdentificationNumber,VAT registration number,synonym
+hasOperatingAddress,owl#ObjectProperty,22-rdf-syntax-ns#type
+LegalEntity,N95557f84d91e4ef0bef2dc346203e376,rdf-schema#subClassOf
+NotForProfitOrganization,non-profit organization,synonym
+Neb41dcfa75a044f39cd12ee1d9d4ad0e,owl#Restriction,22-rdf-syntax-ns#type
+Branch,OrganizationalSubUnit,rdf-schema#subClassOf
+,FormalBusinessOrganizations.rdf version of this ontology was revised to eliminate the redundant hasSignatory property.,core#changeNote
+NonGovernmentalOrganization,NotForProfitOrganization,rdf-schema#subClassOf
+LegalEntity,N26beb538b6d34661aff5e0eac57aeed8,rdf-schema#subClassOf
+OrganizationCoveringAgreement,owl#Class,22-rdf-syntax-ns#type
+hasRegisteredAddress,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ne713c329919f457cbfbca39fb0c5ed61,owl#Restriction,22-rdf-syntax-ns#type
+N59056b9e390247c2ac2faa504494a859,Nde55ddb41d94486aab6b81cae059f7b7,22-rdf-syntax-ns#rest
+,FormalBusinessOrganizations.rdf version of this ontology was revised to address text formatting hygiene issues.,core#changeNote
+hasOperatingAddress,hasAddress,rdf-schema#subPropertyOf
+,"FormalBusinessOrganizations.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+NotForProfitOrganization,FormalOrganization,rdf-schema#subClassOf
+NonGovernmentalOrganization,NGO,abbreviation
+NotForProfitOrganization,"In the US, a nonprofit organization is an association that explicitly is not required to pay taxes on its income. Such organizations are qualified for this exemption due to their socially desirable objective (e.g. hospitals, charitable organizations, etc., or because they meet some set of requirements as determined by the US Internal Revenue Service.",explanatoryNote
+Nc5989e5bedf9436680aeb64a73e3c8ff,NotForProfitObjective,owl#someValuesFrom
+ValueAddedTaxIdentificationNumber,OrganizationIdentifier,rdf-schema#subClassOf
+NonGovernmentalOrganization,owl#Class,22-rdf-syntax-ns#type
+N95557f84d91e4ef0bef2dc346203e376,0,owl#minQualifiedCardinality
+N95557f84d91e4ef0bef2dc346203e376,owl#Restriction,22-rdf-syntax-ns#type
+N59056b9e390247c2ac2faa504494a859,OrganizationIdentifier,22-rdf-syntax-ns#first
+hasOperatingAddress,indicates an address at which an organization carries out operations,core#definition
+,"This ontology defines formal business organizations and related concepts. The ontology covers parts of organizations, membership, classification, address relations and other properties which are applicable to formal business organizations generally. The concept of a formal business organization forms the basis for articulation of types of organization, both incorporated and non-incorporated, in other FIBO-BE ontologies.",abstract
+Branch,part of a larger organization that might not be co-located with it,core#definition
+,"FormalBusinessOrganizations.rdf version of this ontology was revised to eliminate unnecessary references, some of which include wrong datatypes.",core#changeNote
+OrganizationCoveringAgreement,Also covers the aims and purposes of the Entity.,explanatoryNote
+,FormalBusinessOrganizations.rdf version of this ontology was modified as a part of a simplification strategy for the organizational class hierarchy.,core#changeNote
+NotForProfitOrganization,Neb41dcfa75a044f39cd12ee1d9d4ad0e,owl#disjointWith
+hasRegisteredAddress,ConventionalStreetAddress,rdf-schema#range
+NonGovernmentalOrganization,not-for-profit organization that functions independently of government,core#definition
+hasHeadquartersAddress,indicates the main address at which communications may be delivered for the organization,core#definition
+OrganizationCoveringAgreement,WrittenContract,rdf-schema#subClassOf
+hasHeadquartersAddress,has headquarters address,rdf-schema#label
+NonGovernmentalOrganization,Ne713c329919f457cbfbca39fb0c5ed61,rdf-schema#subClassOf
+hasEquity,LegalEntity,rdf-schema#domain
+,"FormalBusinessOrganizations.rdf version of this ontology was revised to eliminate duplication of concepts in LCC, simplify addresses, and correct the parent class of OrganizationSubUnit.",core#changeNote
+Division,"part of an organization, such as a line of business, that may have separate accounting and reporting requirements",core#definition
+Nde55ddb41d94486aab6b81cae059f7b7,NationalIdentificationNumber,22-rdf-syntax-ns#first
+,FormalBusinessOrganizations.rdf version of this ontology was modified to reflect the move of hasObjective to FND to enable higher level reuse.,core#changeNote
+OrganizationCoveringAgreement,"contract between the principals in a formal organization that specifies the relationship between the principals, and between the principals and the entity",core#definition
+Branch,branch,rdf-schema#label
+Nde55ddb41d94486aab6b81cae059f7b7,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+ValueAddedTaxIdentificationNumber,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+ValueAddedTaxIdentificationNumber,TaxIdentifier,rdf-schema#subClassOf
+,MIT,license
+,FormalBusinessOrganizations.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+hasEquity,owl#ObjectProperty,22-rdf-syntax-ns#type
+OrganizationCoveringAgreement,organization covering agreement,rdf-schema#label
+Division,owl#Class,22-rdf-syntax-ns#type
+hasEquity,OwnersEquity,rdf-schema#range
+,"FormalBusinessOrganizations.rdf version of this ontology was revised to extend the concept of a tax identifier, add a value-added tax identifier, and clean up definitions that were circular or ambiguous.",core#changeNote
+N26beb538b6d34661aff5e0eac57aeed8,isClassifiedBy,owl#onProperty
+N95557f84d91e4ef0bef2dc346203e376,OrganizationCoveringAgreement,owl#onClass
+,FormalBusinessOrganizations.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.,core#changeNote
+TaxIdentifier,Na20ebd6268b8480587e642ebe8c538c9,rdf-schema#subClassOf
+hasEquity,has equity,rdf-schema#label
+,"FormalBusinessOrganizations.rdf version of this ontology was revised to move certain fundamental concepts, such as organizational sub-unit, to FND.",core#changeNote
+hasEquity,indicates owners' equity associated with the entity,core#definition
+JointVenture,joint venture,rdf-schema#label
+,FormalBusinessOrganizations.rdf version of this ontology was modified per the FIBO 2.0 RFC to address minor bug fixes.,core#changeNote
+Na20ebd6268b8480587e642ebe8c538c9,N59056b9e390247c2ac2faa504494a859,owl#unionOf
+hasOperatingAddress,has operating address,rdf-schema#label
+Nc5989e5bedf9436680aeb64a73e3c8ff,hasObjective,owl#onProperty
+ValueAddedTaxIdentificationNumber,value-added tax identification number,rdf-schema#label
+JointVenture,LegalEntity,rdf-schema#subClassOf
+Division,division,rdf-schema#label
+NotForProfitOrganization, dividends,core#definition
+NonGovernmentalOrganization,"Some NGOs avoid formal funding altogether and are run primarily by volunteers. NGOs are highly diverse groups of organizations engaged in a wide range of activities, and take different forms in different parts of the world. Some may have charitable status, while others may be registered for tax exemption based on recognition of social purposes. Others may be fronts for political, religious, or other interests.",explanatoryNote
+NonGovernmentalOrganization,"NGOs, sometimes called civil societies, are organized on community, national and international levels to serve specific social or political purposes, and are cooperative, rather than commercial, in nature.",explanatoryNote

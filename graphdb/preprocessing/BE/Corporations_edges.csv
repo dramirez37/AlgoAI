@@ -1,0 +1,124 @@
+source_id,target_id,relationship
+RegistrationIdentifier,"In some jurisdictions, such as the State of California, registration identifiers are issued to corporations, including non-profit corporations, limited liability companies, certain partnerships, and foreign corporations doing business in California. The same or a very similar process is used for registration of corporations across the US.",core#scopeNote
+hasDateOfIncorporation,hasExplicitDate,rdf-schema#subPropertyOf
+StockCorporation,owl#Class,22-rdf-syntax-ns#type
+hasIssuedCapital,has subscribed share capital,synonym
+,"Copyright (c) 2013-2023 Object Management Group, Inc.",copyright
+BoardAgreement,owl#Class,22-rdf-syntax-ns#type
+StockCorporation,N9d075d369371426c9ab6369b81c5f81e,rdf-schema#subClassOf
+hasSharesAuthorized,has shares authorized,rdf-schema#label
+PrivatelyHeldCompany,closed corporation,synonym
+JointStockCompany,joint stock company,rdf-schema#label
+hasDateOfIncorporation,owl#ObjectProperty,22-rdf-syntax-ns#type
+RegistrationIdentifierScheme,registration identifier scheme,rdf-schema#label
+RegistrationIdentifierScheme,owl#Class,22-rdf-syntax-ns#type
+JointStockCompany,"for-profit, unincorporated business that has some characteristics of a corporation and some features of a partnership, with ownership interests represented by shares of stock",core#definition
+RegistrationIdentifier,"identifier that is officially allocated to an organization at the time of registration, typically in a jurisdiction in which said organization is organized or registered and used in that jurisdiction to identify the organization",core#definition
+hasSharesAuthorized,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasIssuedCapital,"A corporation can, at any time, issue new shares up to the full amount of authorized share capital.",explanatoryNote
+N5fd3116721264e42bdf57e0ef73facad,owl#Restriction,22-rdf-syntax-ns#type
+Nca603219aed24b209792b24fa4af23a7,1,owl#qualifiedCardinality
+,Corporations.rdf version of this ontology was modified to reflect moving hasObjective to FND.,core#changeNote
+hasDateOfRegistration, or for tax purposes,core#definition
+N8b48da7a589d4152ae9e5738499a03b0,ReligiousObjective,owl#someValuesFrom
+,Corporations.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary and revise definitions to be ISO 704 compliant as needed.,core#changeNote
+JointStockCompany,"1. In the UK, the original (17th century) name for a corporation in which the liability of the owners is limited to the nominal value of the stock (shares) held by them.
+2. In the US, a joint stock company is similar to a corporation, but with unlimited liability for the shareholders. Investors in a US joint stock company receive stock (shares) which can be transferred, and can elect a board of directors, but are jointly-and-severally liable for the company's debts and obligations. A US joint stock company cannot hold title to a real property.",explanatoryNote
+hasIssuedCapital,MonetaryAmount,rdf-schema#range
+,"Corporations.rdf version of this ontology was modified to eliminate references to external dictionary sites that no longer resolve, eliminate circular and ambiguous definitions and make incorporation date and registration date explicit dates.",core#changeNote
+RegistrationIdentifier,OrganizationIdentifier,rdf-schema#subClassOf
+ReligiousCorporation,N8b48da7a589d4152ae9e5738499a03b0,rdf-schema#subClassOf
+hasIssuedCapital,hasMonetaryAmount,rdf-schema#subPropertyOf
+,,owl#imports
+PrivatelyHeldCompany,privately held corporation,synonym
+ReligiousCorporation,NotForProfitCorporation,rdf-schema#subClassOf
+hasSharesAuthorized,XMLSchema#nonNegativeInteger,rdf-schema#range
+,Corporations.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+N9d075d369371426c9ab6369b81c5f81e,owl#Restriction,22-rdf-syntax-ns#type
+hasDateOfRegistration,ExplicitDate,rdf-schema#range
+,,owl#versionIRI
+,owl#Ontology,22-rdf-syntax-ns#type
+hasDateOfRegistration,hasExplicitDate,rdf-schema#subPropertyOf
+PrivatelyHeldCompany,StockCorporation,rdf-schema#subClassOf
+N8b48da7a589d4152ae9e5738499a03b0,owl#Restriction,22-rdf-syntax-ns#type
+N5fd3116721264e42bdf57e0ef73facad,isGovernedBy,owl#onProperty
+Ndd3a5e5e019c4312bcbd0387064648b4,hasDateOfRegistration,owl#onProperty
+hasDateOfIncorporation,indicates the formal date of incorporation as stated in filing documents,core#definition
+RegistrationIdentifier,Nabccf6949ab04931a9114568d0f459db,rdf-schema#subClassOf
+PrivatelyHeldCompany,"For British or Commonwealth companies, a privately held company limited by shares is a type of company incorporated under the laws of England and Wales, Scotland, certain Commonwealth countries and the Republic of Ireland. It has shareholders with limited liability and its shares may not be offered to the general public, unlike those of public limited companies. Limited by shares means that the company has shareholders, and that the liability of the shareholders to creditors of the company is limited to the capital originally invested, i.e. the nominal value of the shares and any premium paid in return for the issue of the shares by the company. A shareholders personal assets are thereby protected in the event of the company's insolvency, but money invested in the company will be lost. A limited company may be private or public. A private limited companys disclosure requirements are lighter, but for this reason its shares may not be offered to the general public (and therefore cannot be traded on a public stock exchange). This is the major distinguishing feature between a private limited company and a public limited company. Most companies, particularly small companies, are private. Private companies limited by shares are required to have the suffix Limited (often written Ltd or Ltd.) or Incorporated (Inc.) as part of their name, though the latter cannot be used in the UK or the Republic of Ireland. In the Republic of Ireland, Teoranta (Teo.) may be used instead, largely by Gaeltacht companies. Cyfyngedig (Cyf.) may be used by Welsh companies in a similar fashion.",explanatoryNote
+N0f59557cf18b41e7b276391ad471f75c,defines,owl#onProperty
+,Corporations.rdf version of this ontology was modified to reflect the move of some organization-specific concepts from BE to FND and to clean up typos.,core#changeNote
+RegistrationIdentifierScheme,scheme that defines the registration identifier per the issuing registration authority,core#definition
+hasIssuedCapital,has issued capital,rdf-schema#label
+N5fd3116721264e42bdf57e0ef73facad,0,owl#minQualifiedCardinality
+hasDateOfRegistration,owl#ObjectProperty,22-rdf-syntax-ns#type
+RegistrationIdentifier,owl#Class,22-rdf-syntax-ns#type
+hasIssuedCapital,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasDateOfRegistration,has date of registration,rdf-schema#label
+hasSharesAuthorized,"indicates the maximum number of shares that are permitted to be issued, as established by the board of directors",core#definition
+PubliclyHeldCompany,StockCorporation,rdf-schema#subClassOf
+N9d075d369371426c9ab6369b81c5f81e,isGovernedBy,owl#onProperty
+ReligiousCorporation,owl#Class,22-rdf-syntax-ns#type
+Nd3947c45f1b74acd9750782f79226733,owl#Restriction,22-rdf-syntax-ns#type
+N33d0c73c43de4ae3b8bfe906c73857e2,hasIssuedCapital,owl#onProperty
+,Corporations.rdf version of this ontology was modified to address text formatting hygiene issues and eliminate a dead link.,core#changeNote
+,Corporations.rdf version of this ontology was modified per the FIBO 2.0 RFC.,core#changeNote
+PubliclyHeldCompany,corporation whose shares are traded and held publicly,core#definition
+RegistrationIdentifierScheme,OrganizationIdentificationScheme,rdf-schema#subClassOf
+,Corporations Ontology,rdf-schema#label
+,"Corporations.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+BoardAgreement,OrganizationCoveringAgreement,rdf-schema#subClassOf
+N9d075d369371426c9ab6369b81c5f81e,BoardAgreement,owl#someValuesFrom
+JointStockCompany,BusinessEntity,rdf-schema#subClassOf
+RegistrationIdentifier,"A registration identifier may be required for official communications and is publicly available. The relationship to the jurisdiction in which the organization is organized or registered is typically required, but is optional here to cover cases where jurisdictions may overlap or are not as clearly defined.",explanatoryNote
+StockCorporation,Nca603219aed24b209792b24fa4af23a7,rdf-schema#subClassOf
+Nabccf6949ab04931a9114568d0f459db,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+Nca603219aed24b209792b24fa4af23a7,ExplicitDate,owl#onClass
+Nd3947c45f1b74acd9750782f79226733,1,owl#qualifiedCardinality
+Nabccf6949ab04931a9114568d0f459db,RegistrationIdentifierScheme,owl#someValuesFrom
+PrivatelyHeldCompany,privately held company,rdf-schema#label
+N0f59557cf18b41e7b276391ad471f75c,RegistrationIdentifier,owl#someValuesFrom
+Nd3947c45f1b74acd9750782f79226733,FormalOrganization,owl#onClass
+BoardAgreement,"formal, legally binding agreement between members of the Board of Directors of the organization",core#definition
+hasDateOfIncorporation,has date of incorporation,rdf-schema#label
+Ndd3a5e5e019c4312bcbd0387064648b4,ExplicitDate,owl#onClass
+Nca603219aed24b209792b24fa4af23a7,owl#Restriction,22-rdf-syntax-ns#type
+hasDateOfIncorporation,ExplicitDate,rdf-schema#range
+BoardAgreement,board agreement,rdf-schema#label
+,Release,hasMaturityLevel
+N5fd3116721264e42bdf57e0ef73facad,Jurisdiction,owl#onClass
+ReligiousCorporation,religious corporation,rdf-schema#label
+PrivatelyHeldCompany,owl#Class,22-rdf-syntax-ns#type
+PubliclyHeldCompany,publicly held company,rdf-schema#label
+RegistrationIdentifier,Nd3947c45f1b74acd9750782f79226733,rdf-schema#subClassOf
+,MIT,license
+N33d0c73c43de4ae3b8bfe906c73857e2,owl#Restriction,22-rdf-syntax-ns#type
+hasIssuedCapital,has subscribed capital,synonym
+,This ontology defines the fundamental concepts for companies incorporated by the issuance of shares. Terms defined in this ontology are those which are applicable to all such entities. Many of these concepts form the basis of the relationships of ownership and control which obtain between entities of this type.,abstract
+hasSharesAuthorized,hasAmount,rdf-schema#subPropertyOf
+StockCorporation,N33d0c73c43de4ae3b8bfe906c73857e2,rdf-schema#subClassOf
+Nabccf6949ab04931a9114568d0f459db,isDefinedIn,owl#onProperty
+,Corporations.rdf version of this ontology was modified per the FIBO 2.0 RFC to generalize certain unions where they were no longer required.,core#changeNote
+hasIssuedCapital,indicates the aggregate value of all shares held by shareholders,core#definition
+PubliclyHeldCompany,owl#Class,22-rdf-syntax-ns#type
+Nca603219aed24b209792b24fa4af23a7,hasDateOfIncorporation,owl#onProperty
+ReligiousCorporation,"not-for-profit corporation whose objective is specific to some fundamental set of beliefs and practices generally agreed upon by a number of people, and that is incorporated under the law",core#definition
+N33d0c73c43de4ae3b8bfe906c73857e2,MonetaryAmount,owl#onClass
+N0f59557cf18b41e7b276391ad471f75c,owl#Restriction,22-rdf-syntax-ns#type
+StockCorporation,Ndd3a5e5e019c4312bcbd0387064648b4,rdf-schema#subClassOf
+ReligiousCorporation,"Often religious corporations are recognized under the law on a sub-national level, for instance by a state or provincial government. The government agency responsible for regulating such corporations is usually the official holder of records, for instance a state department of corporations.",explanatoryNote
+N8b48da7a589d4152ae9e5738499a03b0,hasObjective,owl#onProperty
+hasSharesAuthorized,"An initial number of authorized shares is typically established at the time of incorporation, and is documented in articles of incorporation. The number of shares authorized may be extended from time to time by the board of directors as needed, and articles of incorporation and other legal documentation will be amended accordingly. It includes shares that are available, but not yet issued, for sale to generate capital, and shares available for distribution to insiders as part of their compensation packages.",explanatoryNote
+,Corporations.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.,core#changeNote
+JointStockCompany,owl#Class,22-rdf-syntax-ns#type
+RegistrationIdentifier,N5fd3116721264e42bdf57e0ef73facad,rdf-schema#subClassOf
+Nd3947c45f1b74acd9750782f79226733,identifies,owl#onProperty
+,Corporations.rdf version of this ontology was modified to eliminate duplication of concepts in LCC.,core#changeNote
+,Corporations.rdf version of this ontology was modified to replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+RegistrationIdentifierScheme,N0f59557cf18b41e7b276391ad471f75c,rdf-schema#subClassOf
+PrivatelyHeldCompany,"corporation whose issued shares are all held by a family or a small group of investors and, therefore, cannot be bought by the public",core#definition
+RegistrationIdentifier,registration identifier,rdf-schema#label
+Ndd3a5e5e019c4312bcbd0387064648b4,0,owl#minQualifiedCardinality
+Ndd3a5e5e019c4312bcbd0387064648b4,owl#Restriction,22-rdf-syntax-ns#type
+N33d0c73c43de4ae3b8bfe906c73857e2,1,owl#qualifiedCardinality

@@ -1,0 +1,539 @@
+source_id,target_id,relationship
+StandardIndustrialClassificationCode,CodeElement,rdf-schema#subClassOf
+hasEntityStatus,lei-cdf-format-version-2-1,adaptedFrom
+N6c1790b2601b48f491106b60aa5cbe1a,XMLSchema#string,owl#onDataRange
+hasPriorLegalName,wasFormerlyKnownAs,rdf-schema#subPropertyOf
+EntityLegalFormRegistry,Registry,rdf-schema#subClassOf
+FormalOrganization,Ne4c6ce401a68493185446c5ffa569598,rdf-schema#subClassOf
+EntityValidationLevel,CodeElement,rdf-schema#subClassOf
+hasValidationAuthority,"identifies the business registration authority for the legal entity, used by the Local Operating Unit (LOU) as the basis for validation, as defined in the GLEIF Registration Authorities List",core#definition
+LegalEntityIdentifierRegistry,lei-cdf-format-version-2-1,adaptedFrom
+PassportNumber,owl#Class,22-rdf-syntax-ns#type
+N3493e4e80b284bcea3e98188dab4b5ac,hasRegistrationStatus,owl#onProperty
+BusinessRegistry,Nd3cae07e926e4f219e4975fe0aed4d9d,rdf-schema#subClassOf
+EntityExpirationReasonCorporateAction,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasTransliteratedLegalName,hasTransliteratedName,rdf-schema#subPropertyOf
+Ndb41d8742592420eb04af15c05ca03c5,EntityLegalFormIdentifier,owl#someValuesFrom
+InactiveStatus,"or operating, whether as a result of business closure, acquisition by or merger with another (or new) entity, or determination of illegitimacy",core#definition
+hasRegistrationStatus,has registration status,rdf-schema#label
+Nf4063e5455094713ac464c23c0da4760,FormalOrganization,owl#someValuesFrom
+EntityLegalFormRegistry,iso-20275-entity-legal-forms-code-list,adaptedFrom
+IssuedStatus,lei-cdf-format-version-2-1,adaptedFrom
+hasRenewalDate,indicates the date by which a specific registration in the registry must be renewed or updated,core#definition
+N3ca2488eae4d4d7594e397b77ed426f1,isClassifiedBy,owl#onProperty
+NorthAmericanIndustryClassificationSystemScheme,owl#Class,22-rdf-syntax-ns#type
+hasRenewalDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+EntityValidationLevelFullyCorroborated,"Based on the validation procedures in use by the LOU responsible for the record, there is sufficient information contained in authoritative public sources to corroborate the information that the submitter has provided for the record.",core#definition
+hasAutomaticallyTransliteratedLegalName,hasTransliteratedLegalName,rdf-schema#subPropertyOf
+N04cd1882a7084c1e9a14f4491615f7b9,0,owl#minQualifiedCardinality
+N3c31da74ca9745a4be03e06c7776a791,hasRegistryEntry,owl#onProperty
+hasValidationAuthority,owl#ObjectProperty,22-rdf-syntax-ns#type
+DuplicateStatus,duplicate status,rdf-schema#label
+Nc3c75246bc704de8acc56945879737ae,hasEntityStatus,owl#onProperty
+N1a3475808eb24c829cbc6c0cdfac2216,LegalEntityIdentifier,owl#someValuesFrom
+Nd3cae07e926e4f219e4975fe0aed4d9d,hasRegistryName,owl#onProperty
+Nc3c75246bc704de8acc56945879737ae,1,owl#maxQualifiedCardinality
+hasValidationDate,hasRegistrationDate,rdf-schema#subPropertyOf
+CancelledStatus,lei-cdf-format-version-2-1,adaptedFrom
+PendingValidationStatus,pending validation status,rdf-schema#label
+N6c1790b2601b48f491106b60aa5cbe1a,hasTag,owl#onProperty
+,BusinessRegistries.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FBC 1.1 RTF report.,core#changeNote
+PendingTransferStatus,"status indicating that the registration has requested transfer to a different registration authority, and for which transfer is in progress",core#definition
+N5327166d234f4dc2bdecf5babefb87f4,StandardIndustrialClassificationScheme,owl#onClass
+isSelfMaintained,is self-maintained,rdf-schema#label
+N3c31da74ca9745a4be03e06c7776a791,BusinessRegistryEntry,owl#someValuesFrom
+hasAlternativeLanguageLegalName,denotes a registered legal name for the entity in an alternative language used in the legal jurisdiction in which the entity is registered,core#definition
+hasEntityStatus,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"BusinessRegistries.rdf version of this ontology was modified to generalize certain unions where they were no longer required, use the composite date datatype where appropriate, add individuals for entity expiration reason and validation level to better align with the GLEIF LEI data, and move international registration authorities, such as SWIFT, to a separate ontology for better modularity.",core#changeNote
+isSelfMaintained,bic?tl=en#BICPolicyandDatarecord,adaptedFrom
+BusinessRegistrationAuthority,N328c966de30f4c709b0f108b5765111b,rdf-schema#subClassOf
+hasAlternativeLanguageLegalName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasRenewalDate,bic?tl=en#BICPolicyandDatarecord,adaptedFrom
+hasRegistrationStatus,RegistrationStatus,rdf-schema#range
+hasValidationAuthority,lei-cdf-format-version-2-1,adaptedFrom
+EntityStatus,lei-cdf-format-version-2-1,adaptedFrom
+N03751a11ade849aa9031be8de27be48b,hasEntityExpirationReason,owl#onProperty
+PendingValidationStatus,"status indicating that an application for registration has been submitted and is in process, pending validation",core#definition
+EntityExpirationReasonOther,expiration reason indicating something that is neither due to disolution nor corporate action,core#definition
+EntityStatus,"In some jurisdictions, there may be other possible values for entity status, such as suspended in the State of California, thus the individuals provided herein are not intended to be exhaustive.",explanatoryNote
+hasRegistrationStatus,owl#ObjectProperty,22-rdf-syntax-ns#type
+EntityExpirationReason,lei-cdf-format-version-2-1,adaptedFrom
+Nd430535059574953aa072fe2cfd1a566,defines,owl#onProperty
+N1048227d4ed9423c81b770e9e7a42a51,isRegisteredBy,owl#onProperty
+BusinessRegistryEntry,business registry entry,rdf-schema#label
+EntityValidationLevelFullyCorroborated,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nd6dc7d63e89e4ea682ca748dc9769174,LegalEntityIdentifierRegistryEntry,owl#someValuesFrom
+DuplicateStatus,status indicating that the registration was determined to be a duplicate registration of the same entity as another registration; duplicate status is assigned to the non-surviving registration (i.e. the identifier that should no longer be used),core#definition
+EntityExpirationReasonDissolved,expiration reason indicating that an entity ceased to operate,core#definition
+,,owl#versionIRI
+,BusinessRegistries.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+EntityLegalFormRegistryEntry,ELF registry entry,abbreviation
+N3493e4e80b284bcea3e98188dab4b5ac,RegistrationStatus,owl#someValuesFrom
+EntityExpirationReason,owl#Class,22-rdf-syntax-ns#type
+,"BusinessRegistries.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+BusinessRegistry,business registry,rdf-schema#label
+hasPriorLegalName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+PendingArchivalStatus,RegistrationStatus,22-rdf-syntax-ns#type
+N1048227d4ed9423c81b770e9e7a42a51,BusinessRegistrationAuthority,owl#someValuesFrom
+EntityExpirationReason,N277bf1a247bc42b2bbdd103a477486d6,rdf-schema#subClassOf
+N04cd1882a7084c1e9a14f4491615f7b9,owl#Restriction,22-rdf-syntax-ns#type
+hasTransliteratedLegalName,denotes an optional ASCII-transliterated (i.e. Latin- or Romanized) representation of the legal name for the entity,core#definition
+EntityStatus,or legal status of an entity,core#definition
+EntityExpirationReasonDissolved,entity expiration reason - disolved,rdf-schema#label
+hasRegistrationRevisionDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,"BusinessRegistries.rdf version of this ontology was revised to eliminate duplication with concepts in LCC, simplify addresses, normalize definitions to be ISO 704 compliant, and rationalize address properties.",core#changeNote
+hasValidationAuthority,hasPartyRole,rdf-schema#subPropertyOf
+EntityLegalFormRegistryEntry,entry in an entity legal form registry that conforms to ISO 20275,core#definition
+EntityExpirationReasonCorporateAction,EntityExpirationReason,22-rdf-syntax-ns#type
+Nf4063e5455094713ac464c23c0da4760,owl#Restriction,22-rdf-syntax-ns#type
+EntityExpirationReasonCorporateAction,entity expiration reason - corporate action,rdf-schema#label
+NorthAmericanIndustryClassificationSystemScheme,IndustrySectorClassificationScheme,rdf-schema#subClassOf
+RegistrationAuthorityCode,gleif-registration-authorities-list,adaptedFrom
+BusinessRegistryEntry,Ne424154a80ba4a55815aa116976dc157,rdf-schema#subClassOf
+N3cd2fafc275341568ebd9b06d0922228,owl#Restriction,22-rdf-syntax-ns#type
+ActiveStatus,"status indicating that as of the last report or update, the entity was legally registered and operating",core#definition
+hasValidationAuthority,BusinessRegistrationAuthority,rdf-schema#range
+RetiredStatus,retired status,rdf-schema#label
+hasTransliteratedLegalName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+LegalEntityIdentifierRegistry,owl#Class,22-rdf-syntax-ns#type
+NorthAmericanIndustryClassificationSystemCode,North American Industry Classification System code,rdf-schema#label
+hasRenewalDate,CombinedDateTime,rdf-schema#range
+BusinessRegisterIdentifier,business register identifier,rdf-schema#label
+Nef91e44ca27043de89b68335692133b5,issues,owl#onProperty
+EntityValidationLevelPartiallyCorroborated,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasPreferredTransliteratedLegalName,has preferred transliterated legal name,rdf-schema#label
+N277bf1a247bc42b2bbdd103a477486d6,owl#Restriction,22-rdf-syntax-ns#type
+EntityExpirationReason,or operate,core#definition
+N1a3475808eb24c829cbc6c0cdfac2216,comprises,owl#onProperty
+hasInitialRegistrationDate,CombinedDateTime,rdf-schema#range
+EntityValidationLevelFullyCorroborated,entity validation level - fully corroborated,rdf-schema#label
+EntityValidationLevel,code for the level of validation performed by the GLEIF or LOU with respect to the reference data provided by the registrant,core#definition
+Nd430535059574953aa072fe2cfd1a566,StandardIndustrialClassificationCode,owl#someValuesFrom
+ActiveStatus,active status,rdf-schema#label
+PendingArchivalStatus,pending archival status,rdf-schema#label
+PendingValidationStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+ValueAddedTaxIdentificationNumber,owl#Class,22-rdf-syntax-ns#type
+hasRegistrationRevisionDate,CombinedDateTime,rdf-schema#range
+hasEntityExpirationDate,hasExpiryDate,rdf-schema#subPropertyOf
+LegalEntityIdentifierRegistryEntry,N04cd1882a7084c1e9a14f4491615f7b9,rdf-schema#subClassOf
+Nc3c75246bc704de8acc56945879737ae,owl#Restriction,22-rdf-syntax-ns#type
+N09b91a88ce744d73bb14b85330684073,isClassifiedBy,owl#onProperty
+PendingArchivalStatus,lei-cdf-format-version-2-1,adaptedFrom
+N30bd9febbe194dcb82ca535ec86b0401,LegalEntity,owl#onClass
+N4ba49054ea534a9baf9e06bf1f25a61f,classifies,owl#onProperty
+hasEntityExpirationReason,EntityExpirationReason,rdf-schema#range
+EntityStatus,LifecycleStage,rdf-schema#subClassOf
+RegistrationAuthorityCode,RegistryIdentifier,rdf-schema#subClassOf
+BusinessRegisterIdentifier,Nd25bf604c5fa4dc6bc23fce6ccc1a813,rdf-schema#subClassOf
+RegistrationStatus,"lifecycle stage indicating the status of a given registration of something, such as a business or legal entity, as specified by the registration authority",core#definition
+NorthAmericanIndustryClassificationSystemCode,NAICS code,abbreviation
+N040b7d69372242fe824dab7c14e5bf6a,EntityLegalFormRegistryEntry,owl#someValuesFrom
+PendingArchivalStatus,"status indicating that the registration is about to be transferred to a different registration authority, after which its registration status will revert to a non-pending status",core#definition
+BusinessRegistry,Registry,rdf-schema#subClassOf
+Nd25bf604c5fa4dc6bc23fce6ccc1a813,1,owl#qualifiedCardinality
+hasTransliteratedLegalName,has transliterated legal name,rdf-schema#label
+hasRegistrationRevisionDate,has registration status revision date,rdf-schema#label
+StandardIndustrialClassificationScheme,the scheme defining the Standard Industrial Classification (SIC) Code List,core#definition
+EntityLegalFormRegistry,ELF registry,abbreviation
+EntityLegalFormRegistryEntry,Ndb41d8742592420eb04af15c05ca03c5,rdf-schema#subClassOf
+StandardIndustrialClassificationCode,IndustrySectorClassifier,rdf-schema#subClassOf
+NorthAmericanIndustryClassificationSystemCode,CodeElement,rdf-schema#subClassOf
+hasRenewalDate,"This property is equivalent to the date of expiry in some registries, such as the BIC registry.",usageNote
+hasPriorLegalName,has prior legal name,rdf-schema#label
+EntityExpirationReasonOther,lei-cdf-format-version-2-1,adaptedFrom
+hasEntityStatus,EntityStatus,rdf-schema#range
+N98e388146be74f17adc457b31ffa2d8e,registers,owl#onProperty
+CancelledStatus,CANCELLED,hasTag
+N4a2fcd005a8045aaa83409b6cb207df9,PhysicalAddress,owl#onClass
+Nef91e44ca27043de89b68335692133b5,owl#Restriction,22-rdf-syntax-ns#type
+N3cd2fafc275341568ebd9b06d0922228,identifies,owl#onProperty
+LegalEntityIdentifierRegistry,Nd6dc7d63e89e4ea682ca748dc9769174,rdf-schema#subClassOf
+hasEntityExpirationReason,"indicates the reason that an entity ceased to exist (i.e., disolved, merged with another entity, etc.)",core#definition
+Ne424154a80ba4a55815aa116976dc157,owl#Restriction,22-rdf-syntax-ns#type
+EntityLegalFormRegistry,N040b7d69372242fe824dab7c14e5bf6a,rdf-schema#subClassOf
+LocalOperatingUnit,local operating unit,rdf-schema#label
+EntityValidationLevelPartiallyCorroborated,EntityValidationLevel,22-rdf-syntax-ns#type
+hasRenewalDate,lei-cdf-format-version-2-1,adaptedFrom
+hasExpiryDate,CombinedDateTime,rdf-schema#range
+StandardIndustrialClassificationCode,SIC code,abbreviation
+LegalEntity,N03751a11ade849aa9031be8de27be48b,rdf-schema#subClassOf
+Ne4c6ce401a68493185446c5ffa569598,0,owl#minQualifiedCardinality
+N3cd2fafc275341568ebd9b06d0922228,1,owl#qualifiedCardinality
+N328c966de30f4c709b0f108b5765111b,owl#Restriction,22-rdf-syntax-ns#type
+N02c8da89d01445d98efdaf0290a9d3fd,EntityValidationLevel,owl#someValuesFrom
+StandardIndustrialClassificationCode,standard industrial classification code,rdf-schema#label
+EntityValidationLevel,lei-cdf-format-version-2-1,adaptedFrom
+N3ca2488eae4d4d7594e397b77ed426f1,0,owl#minQualifiedCardinality
+N3ca2488eae4d4d7594e397b77ed426f1,owl#Restriction,22-rdf-syntax-ns#type
+Nd3cae07e926e4f219e4975fe0aed4d9d,XMLSchema#string,owl#onDataRange
+TransferredStatus,status indicating that the registration that has been transferred to a different registration authority,core#definition
+StandardIndustrialClassificationCode,owl#Class,22-rdf-syntax-ns#type
+hasRenewalDate,has renewal date,rdf-schema#label
+N277bf1a247bc42b2bbdd103a477486d6,1,owl#qualifiedCardinality
+hasValidationDate,indicates the date that a specific registration in the registry was most recently reviewed and validated,core#definition
+EntityValidationLevelEntitySuppliedOnly,owl#NamedIndividual,22-rdf-syntax-ns#type
+BusinessRegistry,registry for registering and maintaining information about business entities,core#definition
+LegalEntityIdentifierRegistryEntry,N1a3475808eb24c829cbc6c0cdfac2216,rdf-schema#subClassOf
+StandardIndustrialClassificationScheme,,rdf-schema#seeAlso
+Nf551fb2a81cb43be80adb3a743bb32f1,hasTag,owl#onProperty
+N01c76b27fb1f4771b1b8eec541f26d7f,CombinedDateTime,owl#someValuesFrom
+IssuedStatus,issued status,rdf-schema#label
+hasRegistrationStatus,hasStage,rdf-schema#subPropertyOf
+BusinessRegistry,N3c31da74ca9745a4be03e06c7776a791,rdf-schema#subClassOf
+N4a2fcd005a8045aaa83409b6cb207df9,hasHeadquartersAddress,owl#onProperty
+,"BusinessRegistries.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary and refine the definitions of certain date properties to allow for broader usage, such as for market-related content.",core#changeNote
+StandardIndustrialClassificationScheme,standard industrial classification scheme,rdf-schema#label
+NorthAmericanIndustryClassificationSystemScheme,"The North American Industry Classification System (NAICS) is the standard used by Federal statistical agencies in classifying business establishments for the purpose of collecting, analyzing, and publishing statistical data related to the U.S. business economy.
+
+NAICS was developed under the auspices of the Office of Management and Budget (OMB), and adopted in 1997 to replace the Standard Industrial Classification (SIC) system. It was developed jointly by the U.S. Economic Classification Policy Committee (ECPC), Statistics Canada and Mexico's Instituto Nacional Estadistica y Geografia, to allow for a high level of comparability in business statistics among the North American countries.",explanatoryNote
+EntityValidationLevelEntitySuppliedOnly,entity validation level - entity-supplied only,rdf-schema#label
+hasPriorLegalName,lei-cdf-format-version-2-1,adaptedFrom
+RegistrationStatus,registration status,rdf-schema#label
+hasEntityStatus,"indicates the status of the entity (i.e., active, inactive)",core#definition
+N040b7d69372242fe824dab7c14e5bf6a,owl#Restriction,22-rdf-syntax-ns#type
+LegalEntityIdentifierRegistryEntry,legal entity identifier registry entry,rdf-schema#label
+N1a3475808eb24c829cbc6c0cdfac2216,owl#Restriction,22-rdf-syntax-ns#type
+Na2f0abc2de9d4c53a2ca2903f2981881,hasRegistrationStatus,owl#onProperty
+hasInitialRegistrationDate,hasRegistrationDate,rdf-schema#subPropertyOf
+TransferredStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+ActiveStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasRegistrationRevisionDate,lei-cdf-format-version-2-1,adaptedFrom
+BusinessRegistrationAuthority,gleif-registration-authorities-list,adaptedFrom
+hasInitialRegistrationDate,lei-cdf-format-version-2-1,adaptedFrom
+N30bd9febbe194dcb82ca535ec86b0401,owl#Restriction,22-rdf-syntax-ns#type
+hasExpiryDate,lei-cdf-format-version-2-1,adaptedFrom
+LocalOperatingUnit,Nef91e44ca27043de89b68335692133b5,rdf-schema#subClassOf
+N328c966de30f4c709b0f108b5765111b,registers,owl#onProperty
+BusinessRegistrationAuthority,business registration authority,rdf-schema#label
+,"BusinessRegistries.rdf version of this ontology was revised to replace uses of hasTag in Relations with hasTag from LCC, as the more complex union of datatypes in the Relations concept is not needed here.",core#changeNote
+N277bf1a247bc42b2bbdd103a477486d6,XMLSchema#string,owl#onDataRange
+N01c76b27fb1f4771b1b8eec541f26d7f,hasRegistrationDate,owl#onProperty
+LegalEntityIdentifier,RegistryIdentifier,rdf-schema#subClassOf
+hasExpiryDate,indicates the date on which something ceases(d) to exist,core#definition
+BusinessRegisterIdentifier,N1048227d4ed9423c81b770e9e7a42a51,rdf-schema#subClassOf
+hasRegistryName,"denotes a name for the registry, for example, for a business registry in which a business registration identifier for the legal entity is registered",core#definition
+BusinessRegistryEntry,N01c76b27fb1f4771b1b8eec541f26d7f,rdf-schema#subClassOf
+MergedStatus,RegistrationStatus,22-rdf-syntax-ns#type
+FormalOrganization,N09b91a88ce744d73bb14b85330684073,rdf-schema#subClassOf
+EntityStatus,owl#Class,22-rdf-syntax-ns#type
+PendingTransferStatus,pending transfer status,rdf-schema#label
+Ne4c6ce401a68493185446c5ffa569598,NorthAmericanIndustryClassificationSystemCode,owl#onClass
+PendingTransferStatus,PENDING_TRANSFER,hasTag
+EntityExpirationReasonCorporateAction,lei-cdf-format-version-2-1,adaptedFrom
+N1048227d4ed9423c81b770e9e7a42a51,owl#Restriction,22-rdf-syntax-ns#type
+Nacdbbe23dd91498f9ed8b9c238e79b67,1,owl#maxQualifiedCardinality
+N30bd9febbe194dcb82ca535ec86b0401,precedes,owl#onProperty
+PassportNumber,RegistryIdentifier,rdf-schema#subClassOf
+EntityValidationLevelPartiallyCorroborated,PARTIALLY_CORROBORATED,hasTag
+N3c31da74ca9745a4be03e06c7776a791,owl#Restriction,22-rdf-syntax-ns#type
+N04cd1882a7084c1e9a14f4491615f7b9,hasValidationAuthority,owl#onProperty
+hasInitialRegistrationDate,has initial registration date,rdf-schema#label
+EntityValidationLevelFullyCorroborated,EntityValidationLevel,22-rdf-syntax-ns#type
+hasRegistrationStatus,"indicates the status of a specific registration, such as for an identifier or license",core#definition
+hasValidationDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+StandardIndustrialClassificationScheme,CodeSet,rdf-schema#subClassOf
+hasPreferredTransliteratedLegalName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasAutomaticallyTransliteratedLegalName,lei-cdf-format-version-2-1,adaptedFrom
+NorthAmericanIndustryClassificationSystemCode,IndustrySectorClassifier,rdf-schema#subClassOf
+N515c981bfac54f85b586d9657a38e21b,owl#Restriction,22-rdf-syntax-ns#type
+RegistrationAuthorityCode,CodeElement,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+PendingTransferStatus,RegistrationStatus,22-rdf-syntax-ns#type
+Nd430535059574953aa072fe2cfd1a566,owl#Restriction,22-rdf-syntax-ns#type
+PendingTransferStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasTradingOrOperationalName,hasTextualName,rdf-schema#subPropertyOf
+LegalEntityIdentifierRegistryEntry,N3493e4e80b284bcea3e98188dab4b5ac,rdf-schema#subClassOf
+CancelledStatus,cancelled status,rdf-schema#label
+LegalEntity,Nc3c75246bc704de8acc56945879737ae,rdf-schema#subClassOf
+MergedStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+N98e388146be74f17adc457b31ffa2d8e,owl#Restriction,22-rdf-syntax-ns#type
+Ne424154a80ba4a55815aa116976dc157,comprises,owl#onProperty
+N788694c58fc84c0492339a78e5ead315,defines,owl#onProperty
+LocalOperatingUnit,LOU,abbreviation
+Nd25bf604c5fa4dc6bc23fce6ccc1a813,owl#Restriction,22-rdf-syntax-ns#type
+EntityExpirationReasonDissolved,owl#NamedIndividual,22-rdf-syntax-ns#type
+BusinessRegisterIdentifier,"identifier that uniquely identifies a business register, such as a register identified by the Global Legal Entity Identifier Foundation (GLEIF) registration authorities list",core#definition
+BusinessRegisterIdentifier,owl#Class,22-rdf-syntax-ns#type
+EntityValidationLevelFullyCorroborated,lei-cdf-format-version-2-1,adaptedFrom
+N515c981bfac54f85b586d9657a38e21b,1,owl#qualifiedCardinality
+EntityValidationLevelPartiallyCorroborated,"Based on the validation procedures in use by the LOU responsible for the record, the information supplied by the registrant can be partially corroborated by public authoritative sources, while some of the record is dependent upon the information that the registrant submitted, either due to conflicts with authoritative information, or due to data unavailability.",core#definition
+BusinessRegisterIdentifier,Identifier,rdf-schema#subClassOf
+LegalEntityIdentifierRegistry,BusinessRegistry,rdf-schema#subClassOf
+LegalEntityIdentifierRegistryEntry,N02c8da89d01445d98efdaf0290a9d3fd,rdf-schema#subClassOf
+,BusinessRegistries.rdf version of this ontology was revised to replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+N98e388146be74f17adc457b31ffa2d8e,LegalEntityIdentifier,owl#someValuesFrom
+PendingValidationStatus,RegistrationStatus,22-rdf-syntax-ns#type
+N5327166d234f4dc2bdecf5babefb87f4,owl#Restriction,22-rdf-syntax-ns#type
+hasValidationDate,CombinedDateTime,rdf-schema#range
+NorthAmericanIndustryClassificationSystemCode,owl#Class,22-rdf-syntax-ns#type
+BusinessRegistry,owl#Class,22-rdf-syntax-ns#type
+LegalEntityIdentifierRegistryEntry,entry in a legal entity identifier registry that conforms to ISO 17442 and the Global Legal Entity Identifier Foundation (GLEIF) Common Data Format (CDF),core#definition
+NorthAmericanIndustryClassificationSystemScheme,,rdf-schema#seeAlso
+LapsedStatus,LAPSED,hasTag
+EntityValidationLevel,N6c1790b2601b48f491106b60aa5cbe1a,rdf-schema#subClassOf
+BusinessRegistryEntry,Na2f0abc2de9d4c53a2ca2903f2981881,rdf-schema#subClassOf
+MergedStatus,"status indicating that the registration is for an entity that has been merged into another legal entity, such that this legal entity no longer exists as an independently operating entity",core#definition
+LegalEntityIdentifierRegistry,legal entity identifier registry,rdf-schema#label
+Nf551fb2a81cb43be80adb3a743bb32f1,1,owl#qualifiedCardinality
+EntityLegalFormRegistryEntry,iso-20275-entity-legal-forms-code-list,adaptedFrom
+DuplicateStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+N3493e4e80b284bcea3e98188dab4b5ac,owl#Restriction,22-rdf-syntax-ns#type
+hasTradingOrOperationalName,has trading or operational name,rdf-schema#label
+InactiveStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+N04cd1882a7084c1e9a14f4491615f7b9,BusinessRegistrationAuthority,owl#onClass
+N67dd5391109941f29099d5e08b3678fa,isClassifiedBy,owl#onProperty
+hasRegistryName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+RetiredStatus,RETIRED,hasTag
+hasRegistryName,has registry name,rdf-schema#label
+PendingTransferStatus,lei-cdf-format-version-2-1,adaptedFrom
+N6c1790b2601b48f491106b60aa5cbe1a,owl#Restriction,22-rdf-syntax-ns#type
+hasValidationLevel,has validation level,rdf-schema#label
+NorthAmericanIndustryClassificationSystemScheme,N788694c58fc84c0492339a78e5ead315,rdf-schema#subClassOf
+RetiredStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+StandardIndustrialClassificationCode,N5327166d234f4dc2bdecf5babefb87f4,rdf-schema#subClassOf
+LocalOperatingUnit,Registrar,rdf-schema#subClassOf
+LegalEntityIdentifierRegistryEntry,lei-cdf-format-version-2-1,adaptedFrom
+StandardIndustrialClassificationScheme,Nd430535059574953aa072fe2cfd1a566,rdf-schema#subClassOf
+RegistrationAuthorityCode,N3cd2fafc275341568ebd9b06d0922228,rdf-schema#subClassOf
+hasEntityExpirationDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+MergedStatus,merged status,rdf-schema#label
+N02c8da89d01445d98efdaf0290a9d3fd,hasValidationLevel,owl#onProperty
+N5327166d234f4dc2bdecf5babefb87f4,1,owl#qualifiedCardinality
+EntityExpirationReasonCorporateAction,CORPORATE_ACTION,hasTag
+N4ba49054ea534a9baf9e06bf1f25a61f,FormalOrganization,owl#someValuesFrom
+Nacdbbe23dd91498f9ed8b9c238e79b67,owl#Restriction,22-rdf-syntax-ns#type
+hasTradingOrOperationalName,lei-cdf-format-version-2-1,adaptedFrom
+LegalEntityIdentifierRegistryEntry,LEI registry entry,abbreviation
+EntityValidationLevelPartiallyCorroborated,lei-cdf-format-version-2-1,adaptedFrom
+hasRenewalDate,hasRegistrationDate,rdf-schema#subPropertyOf
+Nb0855fdb631a464ba23242830dd00b29,owl#Restriction,22-rdf-syntax-ns#type
+hasTradingOrOperationalName,"denotes a 'trading as', 'brand name', 'doing business as', or 'operating under' name currently used by the entity in addition to, but not replacing, the (primary) legal, official registered name",core#definition
+TransferredStatus,RegistrationStatus,22-rdf-syntax-ns#type
+Nd25bf604c5fa4dc6bc23fce6ccc1a813,identifies,owl#onProperty
+BusinessRegistry,gleif-registration-authorities-list,adaptedFrom
+AnnulledStatus,RegistrationStatus,22-rdf-syntax-ns#type
+AnnulledStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasAlternativeLanguageLegalName,lei-cdf-format-version-2-1,adaptedFrom
+Nd6dc7d63e89e4ea682ca748dc9769174,owl#Restriction,22-rdf-syntax-ns#type
+PendingValidationStatus,lei-cdf-format-version-2-1,adaptedFrom
+StandardIndustrialClassificationScheme,"Standard Industrial Classifications are four-digit codes that categorize companies by the type of business activities they engage in. These codes were created by the U.S. government in 1937 to facilitate analysis of economic activity across government agencies and within industries. They were mostly replaced in 1997 by a new system of six-digit codes called the North American Industry Classification System (NAICS). The new codes were adopted in part to standardize industry data collection and analysis in between Canada, the United States and Mexico which had entered into the North American Free Trade Agreement. Note that certain organizations, such as the Securities and Exchange Commission (SEC) still use SIC codes for some purposes.",explanatoryNote
+LegalEntity,N30bd9febbe194dcb82ca535ec86b0401,rdf-schema#subClassOf
+ActiveStatus,ACTIVE,hasTag
+TransferredStatus,transferred status,rdf-schema#label
+Ndb41d8742592420eb04af15c05ca03c5,owl#Restriction,22-rdf-syntax-ns#type
+EntityExpirationReasonDissolved,EntityExpirationReason,22-rdf-syntax-ns#type
+N5327166d234f4dc2bdecf5babefb87f4,isDefinedIn,owl#onProperty
+Nb0855fdb631a464ba23242830dd00b29,1,owl#qualifiedCardinality
+NorthAmericanIndustryClassificationSystemScheme,North American Industry Classification System scheme,rdf-schema#label
+N040b7d69372242fe824dab7c14e5bf6a,hasRegistryEntry,owl#onProperty
+EntityValidationLevelEntitySuppliedOnly,EntityValidationLevel,22-rdf-syntax-ns#type
+InactiveStatus,lei-cdf-format-version-2-1,adaptedFrom
+EntityValidationLevelEntitySuppliedOnly,lei-cdf-format-version-2-1,adaptedFrom
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+EntityValidationLevelEntitySuppliedOnly,"Based on the validation procedures in use by the LOU responsible for the record, the information associated with this record has significant reliance on the information that a submitter provided due to the unavailability of corroborating information.",core#definition
+NorthAmericanIndustryClassificationSystemCode,N4ba49054ea534a9baf9e06bf1f25a61f,rdf-schema#subClassOf
+EntityExpirationReasonDissolved,DISSOLVED,hasTag
+hasRegistrationRevisionDate,indicates the date that the status of a specific registration in the registry was revised,core#definition
+CancelledStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+StandardIndustrialClassificationCode,the SIC code representing an industry,core#definition
+,BusinessRegistries.rdf version of this ontology was revised to reflect the move of certain organization-specific concepts from BE to FND.,core#changeNote
+hasPreferredTransliteratedLegalName,hasTransliteratedLegalName,rdf-schema#subPropertyOf
+LegalEntityIdentifier,owl#Class,22-rdf-syntax-ns#type
+Nc3c75246bc704de8acc56945879737ae,EntityStatus,owl#onClass
+EntityValidationLevel,entity validation level,rdf-schema#label
+BusinessRegistryEntry,owl#Class,22-rdf-syntax-ns#type
+,BusinessRegistries.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+EntityValidationLevelFullyCorroborated,FULLY_CORROBORATED,hasTag
+LegalEntity,N4a2fcd005a8045aaa83409b6cb207df9,rdf-schema#subClassOf
+N6c1790b2601b48f491106b60aa5cbe1a,1,owl#qualifiedCardinality
+hasAutomaticallyTransliteratedLegalName,denotes an auto-generated ASCII-transliterated representation of the legal name for the entity,core#definition
+hasRegistrationRevisionDate,hasRegistrationDate,rdf-schema#subPropertyOf
+StandardIndustrialClassificationScheme,IndustrySectorClassificationScheme,rdf-schema#subClassOf
+N30bd9febbe194dcb82ca535ec86b0401,0,owl#minQualifiedCardinality
+LegalEntityIdentifierRegistry,LEI registry,abbreviation
+N277bf1a247bc42b2bbdd103a477486d6,hasTag,owl#onProperty
+N02c8da89d01445d98efdaf0290a9d3fd,owl#Restriction,22-rdf-syntax-ns#type
+EntityLegalFormRegistryEntry,entity legal form registry entry,rdf-schema#label
+,"BusinessRegistries.rdf version of this ontology was modified per FIBO 2.0 RFC primarily to loosen the constraints on address properties and better support standards including ISO 9362 (BIC codes), ISO 13616 (IBAN and BBAN codes), and ISO 17442 (the GLIEF LEI standard).",core#changeNote
+hasEntityExpirationReason,owl#ObjectProperty,22-rdf-syntax-ns#type
+TransferredStatus,lei-cdf-format-version-2-1,adaptedFrom
+EntityValidationLevel,owl#Class,22-rdf-syntax-ns#type
+N4ba49054ea534a9baf9e06bf1f25a61f,owl#Restriction,22-rdf-syntax-ns#type
+RegistrationStatus,lei-cdf-format-version-2-1,adaptedFrom
+IssuedStatus,ISSUED,hasTag
+BusinessRegistrationAuthority,registration authority that is responsible for maintaining a registry of business entities,core#definition
+ActiveStatus,lei-cdf-format-version-2-1,adaptedFrom
+InactiveStatus,inactive status,rdf-schema#label
+AnnulledStatus,lei-cdf-format-version-2-1,adaptedFrom
+DuplicateStatus,DUPLICATE,hasTag
+NorthAmericanIndustryClassificationSystemCode,Nb0855fdb631a464ba23242830dd00b29,rdf-schema#subClassOf
+hasEntityExpirationDate,CombinedDateTime,rdf-schema#range
+TransferredStatus,TRANSFERRED,hasTag
+EntityLegalFormRegistry,entity legal form registry,rdf-schema#label
+IssuedStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+N0b848d676c5b4cd9804c666a97d7ffba,owl#Restriction,22-rdf-syntax-ns#type
+N03751a11ade849aa9031be8de27be48b,1,owl#maxQualifiedCardinality
+isSelfMaintained,owl#DatatypeProperty,22-rdf-syntax-ns#type
+EntityExpirationReasonOther,OTHER,hasTag
+,MIT,license
+N203f8610f85440c9b5b7bb71c6585414,owl#Restriction,22-rdf-syntax-ns#type
+Ne4c6ce401a68493185446c5ffa569598,isClassifiedBy,owl#onProperty
+,BusinessRegistries.rdf version of this ontology was revised to eliminate circular and ambiguous definitions.,core#changeNote
+MergedStatus,MERGED,hasTag
+hasRegistryName,hasTextualName,rdf-schema#subPropertyOf
+PendingArchivalStatus,PENDING_ARCHIVAL,hasTag
+RegistrationAuthorityCode,registration authority code,rdf-schema#label
+BusinessRegistrationAuthority,"A business registry may include any government-managed registry for registering a business, such as a state department of corporations in the US, as well as other registries such as a local operating unit (LOU) for registration of legal entity identifiers (LEIs). Any sanctioned registration authority as defined by the Registration Authorities List, published by GLEIF, is a business registration authority in this sense.",explanatoryNote
+EntityExpirationReason,entity expiration reason,rdf-schema#label
+hasValidationLevel,EntityValidationLevel,rdf-schema#range
+N3ca2488eae4d4d7594e397b77ed426f1,NorthAmericanIndustryClassificationSystemCode,owl#onClass
+IssuedStatus,"status indicating that the registration has been validated and issued, and which identifies an entity that was operating legally as of the last update",core#definition
+hasValidationLevel,indicates the level of validation performed by the registrar with respect to the legal entity,core#definition
+Na2f0abc2de9d4c53a2ca2903f2981881,1,owl#maxQualifiedCardinality
+RegistrationStatus,"There may be other possible values for registration status, depending on the registry, thus the individuals provided herein are not intended to be exhaustive.",explanatoryNote
+N3cd2fafc275341568ebd9b06d0922228,BusinessRegistry,owl#onClass
+N203f8610f85440c9b5b7bb71c6585414,manages,owl#onProperty
+hasEntityExpirationReason,lei-cdf-format-version-2-1,adaptedFrom
+BusinessRegistryEntry,RegistryEntry,rdf-schema#subClassOf
+AnnulledStatus,status indicating that the registration was determined to be erroneous or invalid after issuance,core#definition
+EntityLegalFormRegistry,registry for registering and maintaining information about the legal forms that are valid for business entities for a particular jurisdiction following the ISO 20275 standard,core#definition
+hasTransliteratedLegalName,lei-cdf-format-version-2-1,adaptedFrom
+hasRegistryName,lei-cdf-format-version-2-1,adaptedFrom
+EntityLegalFormRegistryEntry,RegistryEntry,rdf-schema#subClassOf
+hasPreferredTransliteratedLegalName,denotes a preferred ASCII-transliterated representation of the legal name for the entity,core#definition
+N4a2fcd005a8045aaa83409b6cb207df9,owl#Restriction,22-rdf-syntax-ns#type
+Ndb41d8742592420eb04af15c05ca03c5,comprises,owl#onProperty
+StandardIndustrialClassificationCode,Nf4063e5455094713ac464c23c0da4760,rdf-schema#subClassOf
+hasAlternativeLanguageLegalName,hasLegalName,rdf-schema#subPropertyOf
+LocalOperatingUnit,N98e388146be74f17adc457b31ffa2d8e,rdf-schema#subClassOf
+PendingArchivalStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+CancelledStatus,status indicating that the registration was abandoned prior to issuance,core#definition
+Nf551fb2a81cb43be80adb3a743bb32f1,owl#Restriction,22-rdf-syntax-ns#type
+hasValidationDate,bic?tl=en#BICPolicyandDatarecord,adaptedFrom
+EntityLegalFormRegistryEntry,owl#Class,22-rdf-syntax-ns#type
+LegalEntityIdentifierRegistryEntry,BusinessRegistryEntry,rdf-schema#subClassOf
+RetiredStatus,RegistrationStatus,22-rdf-syntax-ns#type
+hasInitialRegistrationDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Nb0855fdb631a464ba23242830dd00b29,NorthAmericanIndustryClassificationSystemScheme,owl#onClass
+RegistrationAuthorityCode,owl#Class,22-rdf-syntax-ns#type
+hasInitialRegistrationDate,or first registered,core#definition
+LegalEntity,owl#Class,22-rdf-syntax-ns#type
+MergedStatus,lei-cdf-format-version-2-1,adaptedFrom
+N0b848d676c5b4cd9804c666a97d7ffba,BusinessRegistrationAuthority,owl#onClass
+InactiveStatus,INACTIVE,hasTag
+Nacdbbe23dd91498f9ed8b9c238e79b67,hasEntityExpirationDate,owl#onProperty
+EntityExpirationReason,CodeElement,rdf-schema#subClassOf
+N0b848d676c5b4cd9804c666a97d7ffba,1,owl#qualifiedCardinality
+N09b91a88ce744d73bb14b85330684073,0,owl#minQualifiedCardinality
+hasValidationDate,has validation date,rdf-schema#label
+N09b91a88ce744d73bb14b85330684073,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#imports
+Nd3cae07e926e4f219e4975fe0aed4d9d,0,owl#minQualifiedCardinality
+hasExpiryDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Nd3cae07e926e4f219e4975fe0aed4d9d,owl#Restriction,22-rdf-syntax-ns#type
+hasExpiryDate,has expiry date,rdf-schema#label
+RegistrationStatus,owl#Class,22-rdf-syntax-ns#type
+FormalOrganization,owl#Class,22-rdf-syntax-ns#type
+hasEntityExpirationDate,has entity expiration date,rdf-schema#label
+N788694c58fc84c0492339a78e5ead315,NorthAmericanIndustryClassificationSystemCode,owl#someValuesFrom
+Na2f0abc2de9d4c53a2ca2903f2981881,RegistrationStatus,owl#onClass
+N4a2fcd005a8045aaa83409b6cb207df9,0,owl#minQualifiedCardinality
+,BusinessRegistries.rdf version of this ontology was revised to eliminate deprecated elements.,core#changeNote
+EntityValidationLevelEntitySuppliedOnly,ENTITY_SUPPLIED_ONLY,hasTag
+Nd25bf604c5fa4dc6bc23fce6ccc1a813,BusinessRegistry,owl#onClass
+LapsedStatus,RegistrationStatus,22-rdf-syntax-ns#type
+hasAutomaticallyTransliteratedLegalName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+N0b848d676c5b4cd9804c666a97d7ffba,isManagedBy,owl#onProperty
+N515c981bfac54f85b586d9657a38e21b,XMLSchema#string,owl#onDataRange
+hasRegistryName,Registry,rdf-schema#domain
+EntityValidationLevelPartiallyCorroborated,entity validation level - partially corroborated,rdf-schema#label
+hasEntityStatus,has entity status,rdf-schema#label
+N67dd5391109941f29099d5e08b3678fa,0,owl#minQualifiedCardinality
+N328c966de30f4c709b0f108b5765111b,RegistrationIdentifier,owl#someValuesFrom
+DuplicateStatus,RegistrationStatus,22-rdf-syntax-ns#type
+LocalOperatingUnit,lei-cdf-format-version-2-1,adaptedFrom
+N03751a11ade849aa9031be8de27be48b,owl#Restriction,22-rdf-syntax-ns#type
+N67dd5391109941f29099d5e08b3678fa,owl#Restriction,22-rdf-syntax-ns#type
+,BusinessRegistries.rdf version of this ontology was revised to eliminate dead links and address text formatting issues uncovered by hygiene testing.,core#changeNote
+PendingValidationStatus,PENDING_VALIDATION,hasTag
+N01c76b27fb1f4771b1b8eec541f26d7f,owl#Restriction,22-rdf-syntax-ns#type
+hasEntityExpirationDate,lei-cdf-format-version-2-1,adaptedFrom
+,BusinessRegistries.rdf version of this ontology was revised to eliminate deprecated content.,core#changeNote
+hasEntityExpirationReason,has entity expiration reason,rdf-schema#label
+EntityExpirationReasonOther,entity expiration reason - other,rdf-schema#label
+BusinessRegistrationAuthority,RegistrationAuthority,rdf-schema#subClassOf
+,"This ontology extends the Registration Authorities ontology to define specific kinds of registries, such as business entity registries, registries for identifiers and codes of various sorts, and registries for financial institutions and intermediaries based on jurisdiction, who regulates them, and the services they provide.",abstract
+N515c981bfac54f85b586d9657a38e21b,hasTag,owl#onProperty
+StandardIndustrialClassificationCode,N515c981bfac54f85b586d9657a38e21b,rdf-schema#subClassOf
+StandardIndustrialClassificationScheme,owl#Class,22-rdf-syntax-ns#type
+BusinessRegistrationAuthority,N203f8610f85440c9b5b7bb71c6585414,rdf-schema#subClassOf
+isSelfMaintained,XMLSchema#string,rdf-schema#range
+LapsedStatus,status indicating that the registration that has not been renewed by the specified renewal date and is not known by public sources to have ceased operation as of the last update,core#definition
+BusinessRegisterIdentifier,gleif-registration-authorities-list,adaptedFrom
+N203f8610f85440c9b5b7bb71c6585414,BusinessRegistry,owl#someValuesFrom
+hasPriorLegalName,denotes a primary legal name that was used previously for the entity,core#definition
+LegalEntityIdentifierRegistryEntry,owl#Class,22-rdf-syntax-ns#type
+EntityExpirationReasonDissolved,lei-cdf-format-version-2-1,adaptedFrom
+RegistrationAuthorityCode,"identifier that uniquely identifies a business registry, and is associated with a registration authority and jurisdiction, issued by the Global Legal Entity Identifier Foundation (GLEIF)",core#definition
+RetiredStatus,lei-cdf-format-version-2-1,adaptedFrom
+Ne424154a80ba4a55815aa116976dc157,RegistrationIdentifier,owl#someValuesFrom
+Nd6dc7d63e89e4ea682ca748dc9769174,hasRegistryEntry,owl#onProperty
+CancelledStatus,RegistrationStatus,22-rdf-syntax-ns#type
+hasEntityStatus,hasStage,rdf-schema#subPropertyOf
+hasEntityExpirationReason,isSignifiedBy,rdf-schema#subPropertyOf
+EntityExpirationReasonOther,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasEntityExpirationDate,indicates the date on which an entity ceases(d) to exist,core#definition
+hasPriorLegalName,hasLegalName,rdf-schema#subPropertyOf
+hasAutomaticallyTransliteratedLegalName,has automatically transliterated legal name,rdf-schema#label
+LapsedStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+Na2f0abc2de9d4c53a2ca2903f2981881,owl#Restriction,22-rdf-syntax-ns#type
+N788694c58fc84c0492339a78e5ead315,owl#Restriction,22-rdf-syntax-ns#type
+,Business Registries Ontology,rdf-schema#label
+NorthAmericanIndustryClassificationSystemScheme,CodeSet,rdf-schema#subClassOf
+N09b91a88ce744d73bb14b85330684073,StandardIndustrialClassificationCode,owl#onClass
+AnnulledStatus,ANNULLED,hasTag
+hasValidationAuthority,has validation authority,rdf-schema#label
+ValueAddedTaxIdentificationNumber,RegistryIdentifier,rdf-schema#subClassOf
+LegalEntity,Nacdbbe23dd91498f9ed8b9c238e79b67,rdf-schema#subClassOf
+BusinessRegistryEntry,entry in a business registry,core#definition
+hasAlternativeLanguageLegalName,has alternative language legal name,rdf-schema#label
+LegalEntity,N3ca2488eae4d4d7594e397b77ed426f1,rdf-schema#subClassOf
+LapsedStatus,lei-cdf-format-version-2-1,adaptedFrom
+LapsedStatus,lapsed status,rdf-schema#label
+LocalOperatingUnit,owl#Class,22-rdf-syntax-ns#type
+BusinessRegistrationAuthority,owl#Class,22-rdf-syntax-ns#type
+N67dd5391109941f29099d5e08b3678fa,StandardIndustrialClassificationCode,owl#onClass
+IssuedStatus,RegistrationStatus,22-rdf-syntax-ns#type
+,"BusinessRegistries.rdf version of this ontology was revised to clarify the definition of registry identifier and augment the definitions of certain identifiers, such as an LEI, to make them registry identifiers, as well as to modify the definition of an LOU to be a Registrar rather than RegistrationAuthority, and deprecate the redundant LOU identifier.",core#changeNote
+DuplicateStatus,lei-cdf-format-version-2-1,adaptedFrom
+Nb0855fdb631a464ba23242830dd00b29,isDefinedIn,owl#onProperty
+RegistrationStatus,LifecycleStage,rdf-schema#subClassOf
+NorthAmericanIndustryClassificationSystemCode,Nf551fb2a81cb43be80adb3a743bb32f1,rdf-schema#subClassOf
+EntityStatus,entity status,rdf-schema#label
+LocalOperatingUnit,"LOUs supply registration, renewal and other services, and act as the primary interface for legal entities wishing to obtain an LEI.",explanatoryNote
+Ne4c6ce401a68493185446c5ffa569598,owl#Restriction,22-rdf-syntax-ns#type
+hasTransliteratedLegalName,hasLegalName,rdf-schema#subPropertyOf
+Nef91e44ca27043de89b68335692133b5,LegalEntityIdentifier,owl#someValuesFrom
+EntityExpirationReasonOther,EntityExpirationReason,22-rdf-syntax-ns#type
+hasValidationLevel,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasTradingOrOperationalName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N03751a11ade849aa9031be8de27be48b,EntityExpirationReason,owl#onClass
+LegalEntity,N67dd5391109941f29099d5e08b3678fa,rdf-schema#subClassOf
+NorthAmericanIndustryClassificationSystemScheme,the scheme defining the North American Industry Classification System (NAICS) Codes,core#definition
+isSelfMaintained,indicates whether the information about the entity is maintained internally or by a third-party,core#definition
+Nacdbbe23dd91498f9ed8b9c238e79b67,CombinedDateTime,owl#onDataRange
+RetiredStatus,"status indicating that the registration is for an entity that has ceased operation, without having been merged into another entity",core#definition
+Nf4063e5455094713ac464c23c0da4760,classifies,owl#onProperty
+BusinessRegistry,N0b848d676c5b4cd9804c666a97d7ffba,rdf-schema#subClassOf
+LocalOperatingUnit,registrar that is authorized by the Global LEI Foundation to issue legal entity identifiers,core#definition
+EntityLegalFormRegistry,owl#Class,22-rdf-syntax-ns#type
+NorthAmericanIndustryClassificationSystemCode,the North American Industry Classification System (NAICS) code representing an industry,core#definition
+ActiveStatus,EntityStatus,22-rdf-syntax-ns#type
+InactiveStatus,EntityStatus,22-rdf-syntax-ns#type
+Nf551fb2a81cb43be80adb3a743bb32f1,XMLSchema#string,owl#onDataRange
+hasPreferredTransliteratedLegalName,lei-cdf-format-version-2-1,adaptedFrom
+EntityExpirationReasonCorporateAction,expiration reason indicating that an entity was acquired or merged with another entity,core#definition
+AnnulledStatus,annulled status,rdf-schema#label
+LegalEntityIdentifierRegistry,registry for registering and maintaining information about business entities for a particular jurisdiction,core#definition

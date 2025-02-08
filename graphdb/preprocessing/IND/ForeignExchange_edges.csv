@@ -1,0 +1,156 @@
+source_id,target_id,relationship
+CurrencyConversionService,ForeignExchangeService,rdf-schema#subClassOf
+Na5ed6c1c267047d59e523de6af189b1f,FinancialServiceProvider,22-rdf-syntax-ns#first
+CurrencyForwardRate,owl#Class,22-rdf-syntax-ns#type
+N6e893b8eb56a41b5a7acee632ac1b0b3,owl#Restriction,22-rdf-syntax-ns#type
+CurrencyForwardRate,"rate of exchange between two currencies for settlement at some future point in time, expressed as a premium on the spot rate",core#definition
+InternationalElectronicFundsTransferService,international wire transfer,synonym
+hasQuotedExchangeRate,rate of exchange between two currencies as specified as of some date and time as quoted by a specific source,core#definition
+CurrencySpotSellRate,owl#Class,22-rdf-syntax-ns#type
+hasExchangeRateQuotationSource,indicates the origin of a quoted exchange rate,core#definition
+,ForeignExchange.rdf version of this ontology was modified per the issue resolutions identified in the FIBO IND 1.0 FTF 1 report.,core#changeNote
+CurrencySpotMidRate,currency spot mid rate,rdf-schema#label
+,"ForeignExchange.rdf version of this ontology was modified per the issue resolutions identified in the FIBO IND 1.0 FTF 2 report, namely, to take advantage of content added via the FIBO FND 1.1 with respect to higher-level concepts of Rate, ExchangeRate, and InterestRate.",core#changeNote
+N81dfdfe4c2d344efbd42dd1f95643718,N6477b94a6f2e4afebc52326cbd168989,22-rdf-syntax-ns#rest
+CurrencySpotBuyRate,CurrencySpotRate,rdf-schema#subClassOf
+isPremiumOn,QuotedExchangeRate,rdf-schema#range
+Ned44e912c9a24d5282468b4b6ad36ae0,hasConstituent,owl#onProperty
+Ned44e912c9a24d5282468b4b6ad36ae0,ExchangeRate,owl#someValuesFrom
+N2ce66093e9154969b0228d665fa2cb01,hasExchangeRateQuotationSource,owl#onProperty
+QuotedExchangeRate,N2ce66093e9154969b0228d665fa2cb01,rdf-schema#subClassOf
+QuotedExchangeRate,An exchange rate of R represents a rate of R units of the quoted currency to 1 unit of the base currency.,explanatoryNote
+hasQuotationSettlementBasis,hasDuration,rdf-schema#subPropertyOf
+ExchangeRateVolatility,Volatility,rdf-schema#subClassOf
+,ForeignExchange.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+hasQuotationBlockAmountBasis,MonetaryAmount,rdf-schema#range
+N2c1b21f476df4297868390067bc3367b,owl#Restriction,22-rdf-syntax-ns#type
+hasQuotationBlockAmountBasis,has quotation block amount basis,rdf-schema#label
+CurrencySpotVolatility,ExchangeRateVolatility,rdf-schema#subClassOf
+CurrencyForwardRateVolatility,owl#Class,22-rdf-syntax-ns#type
+InternationalElectronicFundsTransferService,"electronic funds transfer (EFT) service involving the transfer of funds across national borders, that may also involve currency conversion",core#definition
+ExchangeRateVolatility,N2c1b21f476df4297868390067bc3367b,rdf-schema#subClassOf
+Nc83424f39c5846f48b793ceb01aa85a9,owl#Restriction,22-rdf-syntax-ns#type
+,ForeignExchange.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+QuotedExchangeRate,ExchangeRate,rdf-schema#subClassOf
+InternationalElectronicFundsTransferService,international electronic funds transfer service,rdf-schema#label
+CurrencySpotRate,currency spot rate,rdf-schema#label
+N693fdc7f4bfe48458baf0f7d663afd3b,owl#Class,22-rdf-syntax-ns#type
+CurrencyForwardRate,currency forward rate,rdf-schema#label
+ForeignExchangeService,owl#Class,22-rdf-syntax-ns#type
+hasQuoteCurrency,indicates the quote currency in an exchange rate; R units of this currency represent one unit of the base currency,core#definition
+hasQuoteCurrency,Currency,rdf-schema#range
+InternationalElectronicFundsTransferService,ElectronicFundsTransferService,rdf-schema#subClassOf
+,,owl#imports
+hasQuoteCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+CurrencySpotBuyRate,owl#Class,22-rdf-syntax-ns#type
+CurrencyForwardRate,QuotedExchangeRate,rdf-schema#subClassOf
+CurrencySpotMidRate,CurrencySpotRate,rdf-schema#subClassOf
+ExchangeRateVolatility,"Volatility is modeled here using a structured collection, comprised of a series of individual exchange rates (either projected or prior quoted rates), dates, and the source for those rates for some overall period of time",usageNote
+CurrencySpotVolatility,N6e893b8eb56a41b5a7acee632ac1b0b3,rdf-schema#subClassOf
+ExchangeRateStructure,Ned44e912c9a24d5282468b4b6ad36ae0,rdf-schema#subClassOf
+Ndcdb537c39964f2cbdf3c644fd0916e9,Na5ed6c1c267047d59e523de6af189b1f,22-rdf-syntax-ns#rest
+N6477b94a6f2e4afebc52326cbd168989,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+hasQuotationSettlementBasis,QuotedExchangeRate,rdf-schema#domain
+N110dda58668e42ebbf193b45738af779,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Na5ed6c1c267047d59e523de6af189b1f,N110dda58668e42ebbf193b45738af779,22-rdf-syntax-ns#rest
+N6e893b8eb56a41b5a7acee632ac1b0b3,isVolatilityOf,owl#onProperty
+,,owl#versionIRI
+ForeignExchangeService,foreign exchange service,rdf-schema#label
+isPremiumOn,CurrencyForwardRate,rdf-schema#domain
+hasQuotationBlockAmountBasis,owl#ObjectProperty,22-rdf-syntax-ns#type
+CurrencyForwardRateVolatility,measure of exchange rate fluctuation based on a range of projected values for exchange rates,core#definition
+ExchangeRateVolatility,statistical measure of the rate of change in the rate at which one currency can be exchanged for another,core#definition
+CurrencySpotBuyRate,indicative spot buying market rate as observed by the reporting source,core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+Nf32d362b98464784b0ac9990231df761,Currency,owl#onClass
+ForeignExchangeService,FinancialService,rdf-schema#subClassOf
+CurrencySpotRate,rate at which one currency may be exchanged for another for immediate delivery,core#definition
+CurrencyConversionService,"foreign exchange service involving the conversion of currency of one country or group of countries for another, typically, but not always, as a counter transaction",core#definition
+,"ForeignExchange.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasQuotationSettlementBasis,has quotation settlement basis,rdf-schema#label
+hasQuotationBlockAmountBasis,QuotedExchangeRate,rdf-schema#domain
+CurrencySpotSellRate,currency spot sell rate,rdf-schema#label
+ExchangeRateStructure,owl#Class,22-rdf-syntax-ns#type
+,"ForeignExchange.rdf version of this ontology was modified to eliminate unnecessary references, some of which had incorrect datatypes, rename FxSpotVolatility to CurrencySpotVolatility and improve its definition and related volatility definitions more generally.",core#changeNote
+N2c1b21f476df4297868390067bc3367b,ExchangeRateStructure,owl#someValuesFrom
+hasExchangeRateQuotationSource,has exchange rate quotation source,rdf-schema#label
+N2ce66093e9154969b0228d665fa2cb01,owl#Restriction,22-rdf-syntax-ns#type
+N6a5df9863ad84761b11b89bbfb28d7a5,isVolatilityOf,owl#onProperty
+N6e893b8eb56a41b5a7acee632ac1b0b3,CurrencySpotRate,owl#allValuesFrom
+hasQuotationSettlementBasis,Duration,rdf-schema#range
+CurrencySpotMidRate,indicative middle market (mean of spot buying and selling) rate as observed by the reporting source,core#definition
+N6477b94a6f2e4afebc52326cbd168989,Exchange,22-rdf-syntax-ns#first
+CurrencySpotRate,owl#Class,22-rdf-syntax-ns#type
+hasExchangeRateQuotationSource,N693fdc7f4bfe48458baf0f7d663afd3b,rdf-schema#range
+CurrencySpotMidRate,owl#Class,22-rdf-syntax-ns#type
+hasQuotedExchangeRate,QuotedExchangeRate,rdf-schema#range
+N81dfdfe4c2d344efbd42dd1f95643718,FinancialServiceProvider,22-rdf-syntax-ns#first
+N6a5df9863ad84761b11b89bbfb28d7a5,CurrencyForwardRate,owl#allValuesFrom
+hasQuotationSettlementBasis,indicates the settlement period for a trade for which the stated spot rate applies,core#definition
+,ForeignExchange.rdf version of this ontology was modified per the FIBO 2.0 RFC.,core#changeNote
+CurrencySpotRate,QuotedExchangeRate,rdf-schema#subClassOf
+QuotedExchangeRate,Nf32d362b98464784b0ac9990231df761,rdf-schema#subClassOf
+CurrencyForwardRateVolatility,currency forward rate volatility,rdf-schema#label
+hasExchangeRateQuotationSource,refersTo,rdf-schema#subPropertyOf
+hasQuotedExchangeRate,hasQuantityValue,rdf-schema#subPropertyOf
+ExchangeRateVolatility,exchange rate volatility,rdf-schema#label
+ExchangeRateVolatility,owl#Class,22-rdf-syntax-ns#type
+InternationalElectronicFundsTransferService,owl#Class,22-rdf-syntax-ns#type
+Nf17330edf2ec4a6f9c46da835be2c474,N81dfdfe4c2d344efbd42dd1f95643718,22-rdf-syntax-ns#rest
+ForeignExchangeService,"financial service involving the exchange of one currency for another, conversion of one currency for another, and transfer of money from one country to another whereby currency conversion is required",core#definition
+hasQuoteCurrency,has quote currency,rdf-schema#label
+isPremiumOn,owl#ObjectProperty,22-rdf-syntax-ns#type
+N6a5df9863ad84761b11b89bbfb28d7a5,owl#Restriction,22-rdf-syntax-ns#type
+CurrencySpotSellRate,indicative spot selling market rate as observed by the reporting source,core#definition
+Nf32d362b98464784b0ac9990231df761,hasQuoteCurrency,owl#onProperty
+ExchangeRateStructure,exchange rate structure,rdf-schema#label
+hasQuotedExchangeRate,has quoted exchange rate,rdf-schema#label
+Nf32d362b98464784b0ac9990231df761,owl#Restriction,22-rdf-syntax-ns#type
+Ndcdb537c39964f2cbdf3c644fd0916e9,Publisher,22-rdf-syntax-ns#first
+CurrencyConversionService,owl#Class,22-rdf-syntax-ns#type
+CurrencyForwardRateVolatility,ImpliedVolatility,rdf-schema#subClassOf
+hasExchangeRateQuotationSource,owl#ObjectProperty,22-rdf-syntax-ns#type
+N2ce66093e9154969b0228d665fa2cb01,Nceee5ab8d51e4ed9954d7d85a18bc4c2,owl#someValuesFrom
+CurrencySpotVolatility,owl#Class,22-rdf-syntax-ns#type
+isPremiumOn,is premium on,rdf-schema#label
+,ForeignExchange.rdf version of this ontology was modified to add the source for a quoted exchange rate (DER-143).,core#changeNote
+ExchangeRateStructure,"structured collection of quoted or projected exchange rates, such that volatility may be constructed for the structure",core#definition
+N110dda58668e42ebbf193b45738af779,Exchange,22-rdf-syntax-ns#first
+Nceee5ab8d51e4ed9954d7d85a18bc4c2,Ndcdb537c39964f2cbdf3c644fd0916e9,owl#unionOf
+ExchangeRateStructure,DatedStructuredCollection,rdf-schema#subClassOf
+CurrencySpotVolatility,HistoricalVolatility,rdf-schema#subClassOf
+,ForeignExchange.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N693fdc7f4bfe48458baf0f7d663afd3b,Nf17330edf2ec4a6f9c46da835be2c474,owl#unionOf
+,"This ontology provides the parameters for foreign exchange rates, covering spot and forward rates, as well as foreign exchange spot rate volatilities.",abstract
+CurrencySpotVolatility,measure of exchange rate fluctuation based on a range of past actual values for exchange rates,core#definition
+QuotedExchangeRate,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+QuotedExchangeRate,"exchange rate quoted at a specific point in time, for a given block amount of currency as quoted against another (base) currency",core#definition
+Nc83424f39c5846f48b793ceb01aa85a9,Date,owl#allValuesFrom
+hasQuotationSettlementBasis,owl#ObjectProperty,22-rdf-syntax-ns#type
+,MIT,license
+Ned44e912c9a24d5282468b4b6ad36ae0,owl#Restriction,22-rdf-syntax-ns#type
+hasQuoteCurrency,hasDealtCurrency,rdf-schema#subPropertyOf
+CurrencyConversionService,currency conversion service,rdf-schema#label
+CurrencyConversionService,A currency exchange service may be provided by a stand-alone business or may be part of the services offered by a bank or other financial institution. The currency exchange profits from its services either through adjusting the exchange rate or taking a commission.,explanatoryNote
+QuotedExchangeRate,quoted exchange rate,rdf-schema#label
+Nf32d362b98464784b0ac9990231df761,1,owl#qualifiedCardinality
+CurrencySpotSellRate,CurrencySpotRate,rdf-schema#subClassOf
+CurrencySpotRate,"Spot rates represent the prices buyers pay in one currency to purchase a second currency. Although the spot exchange rate is for delivery on the earliest value date, the standard settlement date for most spot transactions is two business days after the transaction date.",explanatoryNote
+,Foreign Exchange Ontology,rdf-schema#label
+CurrencyForwardRateVolatility,ExchangeRateVolatility,rdf-schema#subClassOf
+Nceee5ab8d51e4ed9954d7d85a18bc4c2,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2014-2024 Object Management Group, Inc.",copyright
+CurrencySpotVolatility,currency spot volatility,rdf-schema#label
+CurrencyForwardRateVolatility,N6a5df9863ad84761b11b89bbfb28d7a5,rdf-schema#subClassOf
+Nc83424f39c5846f48b793ceb01aa85a9,hasSettlementDate,owl#onProperty
+CurrencyForwardRate,Nc83424f39c5846f48b793ceb01aa85a9,rdf-schema#subClassOf
+Nf17330edf2ec4a6f9c46da835be2c474,Publisher,22-rdf-syntax-ns#first
+hasQuotationBlockAmountBasis,indicates the amount of the dealt currency which would be exchanged in a trade for which the stated spot rate applies,core#definition
+CurrencySpotBuyRate,currency spot buy rate,rdf-schema#label
+,"Copyright (c) 2014-2024 EDM Council, Inc.",copyright
+N2c1b21f476df4297868390067bc3367b,hasArgument,owl#onProperty
+InternationalElectronicFundsTransferService,ForeignExchangeService,rdf-schema#subClassOf
+QuotedExchangeRate,MarketRate,rdf-schema#subClassOf
+hasQuotedExchangeRate,owl#ObjectProperty,22-rdf-syntax-ns#type
+isPremiumOn,an exchange rate expressed as a premium on the spot rate for the currency pair,core#definition

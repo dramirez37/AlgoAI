@@ -1,0 +1,155 @@
+source_id,target_id,relationship
+ObligationDefault,DefaultEvent,rdf-schema#subClassOf
+WriteDown,ObligationSpecificCreditEvent,rdf-schema#subClassOf
+ObligationSpecificCreditEvent,credit event that relates to an individual credit agreement or debt instrument (reference obligation),core#definition
+hasGracePeriod,Note that this may be a period denominated in business days or calendar days.,explanatoryNote
+HardCreditEvent,DefaultEvent,rdf-schema#subClassOf
+ObligationAcceleration,obligation acceleration,rdf-schema#label
+Na563aba1e52840d6ae166834d9d7e022,BreachOfCovenant,owl#onClass
+Na563aba1e52840d6ae166834d9d7e022,0,owl#minQualifiedCardinality
+hasDefaultThresholdAmount,has default threshold amount,rdf-schema#label
+ObligationRestructuring,"credit event that materially impacts an obligation, such as an interest rate reduction, principal reduction, deferral of interest or principal, change in priority ranking, or change in currency or composition of payment",core#definition
+Moratorium,EntitySpecificCreditEvent,rdf-schema#subClassOf
+FilingForBankruptcy,EntitySpecificCreditEvent,rdf-schema#subClassOf
+Repudiation,repudiation,rdf-schema#label
+hasGracePeriod,window following any payment due date during which a party must fulfill its obligations before a failure to pay credit event occurs,core#definition
+hasDefaultThresholdAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+FailureToPay,owl#Class,22-rdf-syntax-ns#type
+DistressedRatingsDowngrade,Downgrade,rdf-schema#subClassOf
+N9a841dfbb9bc49a48a279f95f6e37943,CreditAgreement,owl#someValuesFrom
+CreditEvent,"event signifying a sudden change in credit standing, such as bankruptcy or a violation of a bond indenture or loan agreement, that raises doubts about the party's ability to meet current or future obligations",core#definition
+FilingForBankruptcy,credit event that involves a request to a court to be recognized as bankrupt,core#definition
+hasGracePeriod,hasDatePeriod,rdf-schema#subPropertyOf
+FailureToPay,failure to pay,rdf-schema#label
+ObligationDefault,ObligationSpecificCreditEvent,rdf-schema#subClassOf
+DefaultEvent,owl#Class,22-rdf-syntax-ns#type
+involvesMultipleEvents,indicates that the restructuring spans more than one credit event,core#definition
+hasDefaultThresholdAmount,MonetaryAmount,rdf-schema#range
+Moratorium,owl#Class,22-rdf-syntax-ns#type
+ObligationRestructuring,owl#Class,22-rdf-syntax-ns#type
+hasDefaultThresholdAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+Bankruptcy,,adaptedFrom
+N33d165065fe641fe9de37feaba397300,owl#Restriction,22-rdf-syntax-ns#type
+N1722f1f558f34985ae3becc1adf8ca71,LegalPerson,owl#someValuesFrom
+FailureToPayPrincipal,FailureToPay,rdf-schema#subClassOf
+Repudiation,ObligationSpecificCreditEvent,rdf-schema#subClassOf
+isGracePeriodExtendable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+FailureToPayPrincipal,failure to pay principal,rdf-schema#label
+ObligationSpecificCreditEvent,owl#Class,22-rdf-syntax-ns#type
+FailureToPay,N33d165065fe641fe9de37feaba397300,rdf-schema#subClassOf
+,,owl#imports
+hasGracePeriod,has grace period,rdf-schema#label
+Downgrade,credit event triggered when the credit rating of a party or obligation is lowered,core#definition
+ObligationRestructuring,obligation restructuring,rdf-schema#label
+InstallmentDefault,owl#Class,22-rdf-syntax-ns#type
+FailureToPayPrincipal,owl#Class,22-rdf-syntax-ns#type
+Ne1d9e30f93214ad488d17450aeefee24,hasDefaultThresholdAmount,owl#onProperty
+MaturityExtension,credit event involving extension of payments beyond the original maturity date of the obligation,core#definition
+EntitySpecificCreditEvent,owl#Class,22-rdf-syntax-ns#type
+DefaultEvent,"A default can occur when a borrower is unable to make timely payments, misses payments, or avoids or stops making payments, typically with respect to a single transaction. A default has adverse effects on the borrower's credit and ability to borrow in the future, and allows the creditor to demand immediate repayment of the obligation in full.",explanatoryNote
+hasGracePeriod,DatePeriod,rdf-schema#range
+Ne1d9e30f93214ad488d17450aeefee24,MonetaryAmount,owl#onClass
+ObligationAcceleration,"credit event triggered when one or more reference obligations become immediately due and payable as a result of a default or covenant breach on the reference entity's other debt instruments, subject to a materiality threshold",core#definition
+,,owl#versionIRI
+,owl#Ontology,22-rdf-syntax-ns#type
+EntitySpecificCreditEvent,CreditEvent,rdf-schema#subClassOf
+ObligationSpecificCreditEvent,Ne1d9e30f93214ad488d17450aeefee24,rdf-schema#subClassOf
+hasGracePeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+DefaultEvent,ObligationSpecificCreditEvent,rdf-schema#subClassOf
+SoftCreditEvent,HardCreditEvent,owl#disjointWith
+DefaultEvent,"credit event representing a failure to meet a contractual obligation, such as failure to repay a debt including interest or principal on a loan or security",core#definition
+ObligationRestructuring,ObligationSpecificCreditEvent,rdf-schema#subClassOf
+N9a841dfbb9bc49a48a279f95f6e37943,appliesTo,owl#onProperty
+EntitySpecificCreditEvent,entity-specific credit event,rdf-schema#label
+,Credit Events Ontology,rdf-schema#label
+FilingForBankruptcy,owl#Class,22-rdf-syntax-ns#type
+isGracePeriodExtendable,"indicates whether or not the grace period may be extended, which may be jurisdiction specific",core#definition
+,"Copyright (c) 2018-2024 EDM Council, Inc.",copyright
+involvesMultipleEvents,involves multiple events,rdf-schema#label
+Repudiation,credit event involving the refusal to honor the terms of a contract,core#definition
+SoftCreditEvent,soft credit event,rdf-schema#label
+,"CreditEvents.rdf version of this ontology was modified to move the property, 'is conferred on' to the Legal Capacity ontology and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+Moratorium,entity-specific credit event involving a temporary suspension of payments until related issues are resolved,core#definition
+HardCreditEvent,default event that is not repairable,core#definition
+InstallmentDefault,or a forfeit of partially paid securities.,explanatoryNote
+N9a841dfbb9bc49a48a279f95f6e37943,owl#Restriction,22-rdf-syntax-ns#type
+DistressedRatingsDowngrade,owl#Class,22-rdf-syntax-ns#type
+Bankruptcy,credit event involving a change in state or condition in which a party becomes insolvent,core#definition
+ObligationAcceleration,owl#Class,22-rdf-syntax-ns#type
+Ne1d9e30f93214ad488d17450aeefee24,owl#Restriction,22-rdf-syntax-ns#type
+Downgrade,CreditEvent,rdf-schema#subClassOf
+involvesMultipleEvents,owl#DatatypeProperty,22-rdf-syntax-ns#type
+DefaultEvent,Na563aba1e52840d6ae166834d9d7e022,rdf-schema#subClassOf
+,CreditEvents.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+HardCreditEvent,hard credit event,rdf-schema#label
+InstallmentDefault,installment default,rdf-schema#label
+EntitySpecificCreditEvent,N1722f1f558f34985ae3becc1adf8ca71,rdf-schema#subClassOf
+Bankruptcy,EntitySpecificCreditEvent,rdf-schema#subClassOf
+hasDefaultThresholdAmount,moratorium or restructuring event,core#definition
+N1722f1f558f34985ae3becc1adf8ca71,owl#Restriction,22-rdf-syntax-ns#type
+ObligationSpecificCreditEvent,N9a841dfbb9bc49a48a279f95f6e37943,rdf-schema#subClassOf
+CreditEvent,credit event,rdf-schema#label
+ObligationSpecificCreditEvent,obligation-specific credit event,rdf-schema#label
+FailureToPayInterest,failure to pay interest,rdf-schema#label
+,CreditEvents.rdf version of this ontology was revised to augment the definition of obligation-specific event with an optional default threshold to better support credit default swaps.,core#changeNote
+Downgrade,downgrade,rdf-schema#label
+DefaultEvent,default event,rdf-schema#label
+ObligationDefault,credit event triggered as a result of an obligation-specific default,core#definition
+FailureToPayPrincipal,default event that where either an expected principal payment is missed altogether or the amount paid is less than the required amount,core#definition
+InstallmentDefault,"default event involving non-payment of several installment payments as scheduled in the terms of the agreement, or non-payment of a call by the beneficial owner",core#definition
+involvesMultipleEvents,ObligationRestructuring,rdf-schema#domain
+FailureToPay,DefaultEvent,rdf-schema#subClassOf
+WriteDown,"obligation-specific credit event whereby the book value of the obligation, such as the outstanding principal amount, is reduced",core#definition
+Bankruptcy,owl#Class,22-rdf-syntax-ns#type
+involvesMultipleEvents,XMLSchema#boolean,rdf-schema#range
+EntitySpecificCreditEvent,credit event that applies to a given legal person,core#definition
+CreditEvent,owl#Class,22-rdf-syntax-ns#type
+MaturityExtension,owl#Class,22-rdf-syntax-ns#type
+Repudiation,owl#Class,22-rdf-syntax-ns#type
+Moratorium,A moratorium may be a legally-mandated hiatus in debt collection as a part of a bankruptcy process.,explanatoryNote
+FailureToPayInterest,FailureToPay,rdf-schema#subClassOf
+FailureToPay,default event that is triggered following any applicable grace period in which a payment obligation is missed,core#definition
+SoftCreditEvent,owl#Class,22-rdf-syntax-ns#type
+WriteDown,write-down,rdf-schema#label
+,Release,hasMaturityLevel
+DistressedRatingsDowngrade,credit event triggered when the credit rating of an obligation is downgraded to a distressed debt level,core#definition
+Na563aba1e52840d6ae166834d9d7e022,exemplifies,owl#onProperty
+N1722f1f558f34985ae3becc1adf8ca71,appliesTo,owl#onProperty
+Bankruptcy,bankruptcy,rdf-schema#label
+MaturityExtension,"As stipulated in the terms and conditions for a bond, for example, the issuer or the bondholder may prolong the maturity date. After extension, the security may differ from original issue (new rate or maturity date). May be subject to bondholder's approval.",explanatoryNote
+,MIT,license
+WriteDown,owl#Class,22-rdf-syntax-ns#type
+FailureToPayInterest,owl#Class,22-rdf-syntax-ns#type
+Downgrade,"On October 17, 2013, Dagong Global Credit Rating downgraded the United States from A to A- and maintained a negative outlook on the country's credit.",core#example
+SoftCreditEvent,DefaultEvent,rdf-schema#subClassOf
+FilingForBankruptcy,The bankruptcy process is initiated via a petition filed by the debtor or on behalf of creditors. The debtor's assets may be used to repay a portion of outstanding debt as specified by the court or a court-appointed individual.,explanatoryNote
+Na563aba1e52840d6ae166834d9d7e022,owl#Restriction,22-rdf-syntax-ns#type
+,CreditEvents.rdf version of this ontology was revised to address text formatting issues uncovered by hygiene testing.,core#changeNote
+MaturityExtension,maturity extension,rdf-schema#label
+,"CreditEvents.rdf version of this ontology was revised to move a restriction involving breach of covenant from credit event, since not all credit events involve breaches, to default event, and loosen the constraint since a breach depends on the contract.",core#changeNote
+SoftCreditEvent,"If the default is not repaired within a grace period, then a failure to repair (failure to pay) credit event is triggered, potentially as a hard default.",explanatoryNote
+ObligationSpecificCreditEvent,CreditEvent,rdf-schema#subClassOf
+ObligationDefault,obligation default,rdf-schema#label
+FilingForBankruptcy,filing for bankruptcy,rdf-schema#label
+N33d165065fe641fe9de37feaba397300,1,owl#maxQualifiedCardinality
+FailureToPayInterest,default event that where either an expected interest payment is missed altogether or the amount paid is less than the required amount,core#definition
+InstallmentDefault,DefaultEvent,rdf-schema#subClassOf
+,CreditEvents.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+isGracePeriodExtendable,XMLSchema#boolean,rdf-schema#range
+isGracePeriodExtendable,is grace period extendable,rdf-schema#label
+CreditEvent,Occurrence,rdf-schema#subClassOf
+Bankruptcy,"Barron's Dictionary of Banking Terms, Sixth Edition, 2012",adaptedFrom
+,"This ontology defines a range of credit events, that is events in which some payment or payments are not made. These include credit events relating to a specific debt obligation and events relating to the business entity as a whole. 
+		Note: the events defined herein are primarily business rather than consumer oriented, and are specified fairly generally. Many credit events are jurisdiction-specific, such as Chapter 11 restructuring and Chapter 7 bankruptcy in the United States. This ontology is designed to facilitate jurisdiction and instrument-specific extensions as needed.",abstract
+ObligationDefault,owl#Class,22-rdf-syntax-ns#type
+SoftCreditEvent,default event that is repairable,core#definition
+,"Copyright (c) 2020-2024 Object Management Group, Inc.",copyright
+Downgrade,owl#Class,22-rdf-syntax-ns#type
+DistressedRatingsDowngrade,distressed ratings downgrade,rdf-schema#label
+Ne1d9e30f93214ad488d17450aeefee24,0,owl#minQualifiedCardinality
+MaturityExtension,ObligationSpecificCreditEvent,rdf-schema#subClassOf
+N33d165065fe641fe9de37feaba397300,DatePeriod,owl#onClass
+HardCreditEvent,owl#Class,22-rdf-syntax-ns#type
+Moratorium,moratorium,rdf-schema#label
+N33d165065fe641fe9de37feaba397300,hasGracePeriod,owl#onProperty
+ObligationAcceleration,ObligationSpecificCreditEvent,rdf-schema#subClassOf

@@ -1,0 +1,163 @@
+source_id,target_id,relationship
+N43afdfc72fb940fa8c213473abbe7206,owl#Restriction,22-rdf-syntax-ns#type
+Nf391d45b71b642a7bf8a36ef122a80c7,hasOutput,owl#onProperty
+Nc63a46db08ef40b88106e7e199e83752,Asset,owl#onClass
+,"Assessments.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+AssessmentEvent,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2019-2024 Object Management Group, Inc.",copyright
+N60b408252bae44aca6d85b2318260ff9,owl#Restriction,22-rdf-syntax-ns#type
+hasEstimatedValue,has estimated value,rdf-schema#label
+estimatesValueAt,owl#ObjectProperty,22-rdf-syntax-ns#type
+ValueAssessment,Nd8834e0539fc464083f04fdd9488c13e,rdf-schema#subClassOf
+Appraisal,AssessmentReport,rdf-schema#subClassOf
+N4a8fda36298948e492ef1bb5fdd0a579,AssessmentActivity,owl#onClass
+ValueAssessment,assessment event to estimate the value of something,core#definition
+Appraisal,appraisal,rdf-schema#label
+AssessmentActivity,OccurrenceKind,rdf-schema#subClassOf
+N106def1531d44fa1a529b76342014c0b,0,owl#minQualifiedCardinality
+N106def1531d44fa1a529b76342014c0b,owl#Restriction,22-rdf-syntax-ns#type
+appliesMethodology,indicates the strategy used for the purposes of determining the fair market or present value of something,core#definition
+Nc2af4761503d4034a9508799f7a4d4b5,owl#Restriction,22-rdf-syntax-ns#type
+Nd8834e0539fc464083f04fdd9488c13e,AgentRole,owl#someValuesFrom
+AssessmentActivity,assessment activity,rdf-schema#label
+ValueAssessment,AssessmentEvent,rdf-schema#subClassOf
+ValueAssessment,value assessment,rdf-schema#label
+hasEstimatedValue,AppraisedValue,rdf-schema#range
+,Assessments.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+hasAppraiser,has appraiser,rdf-schema#label
+N60b408252bae44aca6d85b2318260ff9,reportsOn,owl#onProperty
+ValuationMethod,owl#Class,22-rdf-syntax-ns#type
+Nc63a46db08ef40b88106e7e199e83752,0,owl#minQualifiedCardinality
+N43afdfc72fb940fa8c213473abbe7206,Appraisal,owl#someValuesFrom
+Nd8834e0539fc464083f04fdd9488c13e,hasAppraiser,owl#onProperty
+AssessmentEvent,Occurrence,rdf-schema#subClassOf
+AssessmentEvent,Nd41c5e8373fa4a2b9c87c3e89fe0948c,rdf-schema#subClassOf
+hasDateOfAssessment,hasExplicitDate,rdf-schema#subPropertyOf
+,"This ontology defines abstract concepts for assessments, evaluations, and outcomes, as the basis for various analysis, such as for business performance, compliance and risk.",abstract
+AppraisedValue,estimated value of some asset as of a given point in time,core#definition
+Appraiser,owl#Class,22-rdf-syntax-ns#type
+AssessmentReport,"report that includes an opinion, judgement, appraisal, or view about something and typically the methodology and raw inputs used to arrive at that opinion",core#definition
+Neeee5c879da444928cbf7a2cc0c3c4b6,owl#Restriction,22-rdf-syntax-ns#type
+N74ed94d3e81e426caf80923cb1d257a0,owl#Restriction,22-rdf-syntax-ns#type
+Opinion,opinion,rdf-schema#label
+Nd8834e0539fc464083f04fdd9488c13e,owl#Restriction,22-rdf-syntax-ns#type
+isEstimatedValueOf,hasEstimatedValue,owl#inverseOf
+,,owl#imports
+appliesMethodology,ValuationMethod,rdf-schema#range
+Nc63a46db08ef40b88106e7e199e83752,evaluates,owl#onProperty
+N72db17025579465e9ecc25ba667f28cd,isGeneratedBy,owl#onProperty
+ValueAssessment,"Note that an appraiser in this context may be a licensed appraiser, such as a real estate appraiser or auction house, or a calculation agent, depending on the circumstances.",explanatoryNote
+Ne936a5f9ae304f808cb9097eabe141b6,isGeneratedBy,owl#onProperty
+N1e420d2eb56842978156b338cbacc7ce,0,owl#minQualifiedCardinality
+N4a8fda36298948e492ef1bb5fdd0a579,owl#Restriction,22-rdf-syntax-ns#type
+N4a8fda36298948e492ef1bb5fdd0a579,exemplifies,owl#onProperty
+AssessmentReport,N60b408252bae44aca6d85b2318260ff9,rdf-schema#subClassOf
+N74ed94d3e81e426caf80923cb1d257a0,evaluates,owl#onProperty
+ValuationMethod,"Asset valuation is the process of determining the fair market or present value of assets, using book values, absolute valuation models like discounted cash flow analysis, option pricing models or comparables. Such assets include investments in marketable securities such as stocks, bonds and options; tangible assets like buildings and equipment; or intangible assets such as brands, patents and trademarks.",explanatoryNote
+ValuationMethod,valuation method,rdf-schema#label
+Appraisal,Nc63a46db08ef40b88106e7e199e83752,rdf-schema#subClassOf
+N1d2f7032f43f4b889c1bd60dab69b4c2,isOutputFrom,owl#onProperty
+hasAppraiser,owl#ObjectProperty,22-rdf-syntax-ns#type
+,,owl#versionIRI
+appliesMethodology,applies methodology,rdf-schema#label
+hasDateOfAssessment,has date of assessment,rdf-schema#label
+estimatesValueAt,provides an approximate value of some asset as of some point in time,core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+appliesMethodology,hasStrategy,rdf-schema#subPropertyOf
+AssessmentActivity,"activity involving the evaluation or estimation of the nature, quality, ability, or value of someone or something",core#definition
+isEstimatedValueOf,isValueOf,rdf-schema#subPropertyOf
+hasAppraiser,isProvidedBy,rdf-schema#subPropertyOf
+ValuationMethod,Strategy,rdf-schema#subClassOf
+AppraisedValue,MonetaryAmount,rdf-schema#subClassOf
+hasEstimatedValue,relates something to its estimated value,core#definition
+isEstimatedValueOf,relates an appraised value to the asset of interest as of the date of the assessment,core#definition
+Nad9c9d16936e4894b255b68ea3e7c0d0,0,owl#minCardinality
+N9fde1e8ef907498ba6643f73d940f19c,AgentRole,owl#someValuesFrom
+Nf391d45b71b642a7bf8a36ef122a80c7,Opinion,owl#someValuesFrom
+AssessmentEvent,"event involving the evaluation or estimation of the nature, quality, or ability of someone or something",core#definition
+N72db17025579465e9ecc25ba667f28cd,0,owl#minQualifiedCardinality
+N72db17025579465e9ecc25ba667f28cd,Appraiser,owl#onClass
+N72db17025579465e9ecc25ba667f28cd,owl#Restriction,22-rdf-syntax-ns#type
+ValueAssessment,owl#Class,22-rdf-syntax-ns#type
+estimatesValueAt,estimates value at,rdf-schema#label
+N1e420d2eb56842978156b338cbacc7ce,AssessmentReport,owl#onClass
+Appraiser,appraiser,rdf-schema#label
+hasDateOfAssessment,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ne936a5f9ae304f808cb9097eabe141b6,owl#Restriction,22-rdf-syntax-ns#type
+N6fb54c511b164b0ea4cc45a9160022c9,0,owl#minQualifiedCardinality
+AssessmentEvent,Nf391d45b71b642a7bf8a36ef122a80c7,rdf-schema#subClassOf
+N106def1531d44fa1a529b76342014c0b,Appraisal,owl#onClass
+hasDateOfAssessment,date on which an assessment process was completed,core#definition
+Opinion,N1d2f7032f43f4b889c1bd60dab69b4c2,rdf-schema#subClassOf
+AssessmentActivity,Nad9c9d16936e4894b255b68ea3e7c0d0,rdf-schema#subClassOf
+Nc2af4761503d4034a9508799f7a4d4b5,AgentRole,owl#someValuesFrom
+Appraiser,N43afdfc72fb940fa8c213473abbe7206,rdf-schema#subClassOf
+Nad9c9d16936e4894b255b68ea3e7c0d0,owl#Restriction,22-rdf-syntax-ns#type
+N9fde1e8ef907498ba6643f73d940f19c,owl#Restriction,22-rdf-syntax-ns#type
+Nd41c5e8373fa4a2b9c87c3e89fe0948c,0,owl#minCardinality
+N1d2f7032f43f4b889c1bd60dab69b4c2,AssessmentEvent,owl#someValuesFrom
+N1e420d2eb56842978156b338cbacc7ce,owl#Restriction,22-rdf-syntax-ns#type
+N1e420d2eb56842978156b338cbacc7ce,hasOutput,owl#onProperty
+AssessmentActivity,Nc2af4761503d4034a9508799f7a4d4b5,rdf-schema#subClassOf
+Nad9c9d16936e4894b255b68ea3e7c0d0,evaluates,owl#onProperty
+,Assessments Ontology,rdf-schema#label
+Ne936a5f9ae304f808cb9097eabe141b6,AgentRole,owl#someValuesFrom
+,"Assessments.rdf version of this ontology was revised to add the concept of a valuation method, which is then applied in the context of a value assessment.",core#changeNote
+N106def1531d44fa1a529b76342014c0b,hasOutput,owl#onProperty
+Appraiser,"party that evaluates or estimates the nature, quality, ability, or value of someone or something",core#definition
+Appraisal,"written estimate of the market value of something as of some point in time, typically provided by a qualified appraiser",core#definition
+AssessmentEvent,N9fde1e8ef907498ba6643f73d940f19c,rdf-schema#subClassOf
+ValueAssessment,N6fb54c511b164b0ea4cc45a9160022c9,rdf-schema#subClassOf
+ValuationMethod,method used to determine the present or expected worth of an asset,core#definition
+, appraisals.,core#changeNote
+Opinion,"judgement, appraisal, or view about something",core#definition
+N60b408252bae44aca6d85b2318260ff9,Opinion,owl#onClass
+Appraiser,PartyRole,rdf-schema#subClassOf
+ValueAssessment,N106def1531d44fa1a529b76342014c0b,rdf-schema#subClassOf
+isEstimatedValueOf,is estimated value of,rdf-schema#label
+AssessmentActivity,owl#Class,22-rdf-syntax-ns#type
+Nc2af4761503d4034a9508799f7a4d4b5,isProvidedBy,owl#onProperty
+Appraiser,N74ed94d3e81e426caf80923cb1d257a0,rdf-schema#subClassOf
+Nd41c5e8373fa4a2b9c87c3e89fe0948c,evaluates,owl#onProperty
+hasEstimatedValue,hasMonetaryAmount,rdf-schema#subPropertyOf
+Opinion,owl#Class,22-rdf-syntax-ns#type
+N60b408252bae44aca6d85b2318260ff9,0,owl#minQualifiedCardinality
+Appraisal,owl#Class,22-rdf-syntax-ns#type
+N1d2f7032f43f4b889c1bd60dab69b4c2,owl#Restriction,22-rdf-syntax-ns#type
+N4a8fda36298948e492ef1bb5fdd0a579,1,owl#qualifiedCardinality
+,Release,hasMaturityLevel
+AssessmentEvent,N1e420d2eb56842978156b338cbacc7ce,rdf-schema#subClassOf
+,Assessments.rdf version of this ontology was revised to augment the definition of appraisal with an estimated value and correct a bug in the definition of hasAppraiser.,core#changeNote
+,Assessments.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+,MIT,license
+hasAppraiser,relates an assessment or report to an agent that conducts the assessment,core#definition
+AppraisedValue,owl#Class,22-rdf-syntax-ns#type
+N6fb54c511b164b0ea4cc45a9160022c9,owl#Restriction,22-rdf-syntax-ns#type
+Neeee5c879da444928cbf7a2cc0c3c4b6,estimatesValueAt,owl#onProperty
+,Assessments.rdf version of this ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N74ed94d3e81e426caf80923cb1d257a0,0,owl#minCardinality
+estimatesValueAt,hasMonetaryAmount,rdf-schema#subPropertyOf
+AppraisedValue,appraised value,rdf-schema#label
+Neeee5c879da444928cbf7a2cc0c3c4b6,AppraisedValue,owl#someValuesFrom
+appliesMethodology,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2019-2024 EDM Council, Inc.",copyright
+hasDateOfAssessment,ExplicitDate,rdf-schema#range
+AssessmentEvent,N4a8fda36298948e492ef1bb5fdd0a579,rdf-schema#subClassOf
+N9fde1e8ef907498ba6643f73d940f19c,isProvidedBy,owl#onProperty
+AssessmentReport,Report,rdf-schema#subClassOf
+Opinion,Ne936a5f9ae304f808cb9097eabe141b6,rdf-schema#subClassOf
+isEstimatedValueOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+isEstimatedValueOf,AppraisedValue,rdf-schema#domain
+AssessmentEvent,assessment event,rdf-schema#label
+hasEstimatedValue,owl#ObjectProperty,22-rdf-syntax-ns#type
+AssessmentReport,owl#Class,22-rdf-syntax-ns#type
+N43afdfc72fb940fa8c213473abbe7206,provides,owl#onProperty
+Appraisal,N72db17025579465e9ecc25ba667f28cd,rdf-schema#subClassOf
+AssessmentReport,assessment report,rdf-schema#label
+N6fb54c511b164b0ea4cc45a9160022c9,ValuationMethod,owl#onClass
+Nc63a46db08ef40b88106e7e199e83752,owl#Restriction,22-rdf-syntax-ns#type
+Appraisal,Neeee5c879da444928cbf7a2cc0c3c4b6,rdf-schema#subClassOf
+Nd41c5e8373fa4a2b9c87c3e89fe0948c,owl#Restriction,22-rdf-syntax-ns#type
+N6fb54c511b164b0ea4cc45a9160022c9,appliesMethodology,owl#onProperty
+estimatesValueAt,AppraisedValue,rdf-schema#range
+Nf391d45b71b642a7bf8a36ef122a80c7,owl#Restriction,22-rdf-syntax-ns#type

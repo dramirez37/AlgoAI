@@ -1,0 +1,172 @@
+source_id,target_id,relationship
+SyntheticBalanceSheetCDO,BalanceSheetCDO,rdf-schema#subClassOf
+N708bd2a4ae444246b09ed4ba17d76026,owl#Restriction,22-rdf-syntax-ns#type
+SyntheticDebtInstrumentPool," ABS using Total Returns Swaps and CDS. This does exist, it is just manufactured from different instruments.",core#definition
+SyntheticCDOPortfolioConstituent,owl#Class,22-rdf-syntax-ns#type
+ArbitrageSyntheticCDO,SyntheticBalanceSheetCDO,owl#disjointWith
+SyntheticDebtInstrumentPool,N2ff0d7d15c9743eaa6159d046329d1da,rdf-schema#subClassOf
+SyntheticCDOTranche,owl#Class,22-rdf-syntax-ns#type
+hasUnderlyingContract,owl#ObjectProperty,22-rdf-syntax-ns#type
+trancheType,tranche type,rdf-schema#label
+ArbitrageSyntheticCDO,SyntheticCDO,rdf-schema#subClassOf
+SyntheticCDOPortfolioConstituent,synthetic c d o portfolio constituent,rdf-schema#label
+N993429ebd74a4b6085e8808d6155e7b3,InstrumentCreditRating,owl#someValuesFrom
+N646b8ddf6dd344b6b079e57f7dc025a2,SyntheticDebtInstrumentPoolFundingAsset,owl#someValuesFrom
+N2ff0d7d15c9743eaa6159d046329d1da,owl#Restriction,22-rdf-syntax-ns#type
+N6a22a4a6842240d8990d8ceb9305334c,refersTo,owl#onProperty
+notionallyHolds,SyntheticCDOPortfolioConstituent,rdf-schema#range
+N1f1e52d982d0448d9b5f2826d0ee89b7,owl#Restriction,22-rdf-syntax-ns#type
+N1f1e52d982d0448d9b5f2826d0ee89b7,assetsManagedBy,owl#onProperty
+Na777c17bfff74d49a3748adc200802e0,SyntheticCDOTranche,owl#someValuesFrom
+N86197e47e6b44088bcf0420a4044f433,issues,owl#onProperty
+ArbitrageSyntheticCDO,owl#Class,22-rdf-syntax-ns#type
+SyntheticDebtSPV,SpecialPurposeVehicle,rdf-schema#subClassOf
+ArbitrageSyntheticCDO,N86197e47e6b44088bcf0420a4044f433,rdf-schema#subClassOf
+N708bd2a4ae444246b09ed4ba17d76026,isTrancheOf,owl#onProperty
+percentageOfDefaultsThisTranche,"The percentage of defaults which holders of this are exposed to, that is the percentage of defaults that this tranche represents. Further Notes Review session notes 21 April: The first, second and so on, to stop paying out when there is a default. In each case you get the first, second etc. x% of defaults. Base underlying may be high or low quality. Create the pool by buying or selling protection depending on hich way you want to go, e..g. have high quality funds, (borrowers), would sell protection. If low quality, would buy protection to improve quality. So risk is no longer bound to the funding. REVIEW: More likely this is a band of percentages (from and to); review and formalize. See also note on attachment and detachment points.",core#definition
+N2ff0d7d15c9743eaa6159d046329d1da,SyntheticDebtInstrumentPoolFundingAsset,owl#someValuesFrom
+Na462e46033f84498bfaed7fa9d2b45ce,hasUnderlyingContract,owl#onProperty
+SyntheticCDOPortfolio,owl#Class,22-rdf-syntax-ns#type
+makesReferenceTo,SyntheticDebtInstrumentPool,rdf-schema#domain
+N38810007c2164eba81f289b6d431bbd8,issues,owl#onProperty
+N38810007c2164eba81f289b6d431bbd8,SyntheticCDOTranche,owl#someValuesFrom
+SyntheticDebtSPV,synthetic debt s p v,rdf-schema#label
+SyntheticDebtSPV,"A Special Purpose Vehicle set up for the issuance of synthetics CDOs. This entity (like all SPVs) its itself registered as some kind of legal entity, distinct from the sponsoring organization. It becomes the Issuer of Synthetic CDO issues.",core#definition
+holds,owl#ObjectProperty,22-rdf-syntax-ns#type
+N9d110bc674c3499396d8600d20d24b31,CreditDefaultSwap,owl#someValuesFrom
+holds,SyntheticDebtSPV,rdf-schema#domain
+SyntheticStructuredFinanceInstrument,synthetic structured finance instrument,rdf-schema#label
+SyntheticStructuredFinanceInstrument,StructuredFinanceInstrument,rdf-schema#subClassOf
+SyntheticDebtInstrumentPoolFundingAsset,synthetic debt instrument pool funding asset,rdf-schema#label
+,,owl#imports
+isTrancheOf,SyntheticDebtInstrumentPool,rdf-schema#range
+notionallyHolds,notionally holds,rdf-schema#label
+isCash,is cash,rdf-schema#label
+hasInvestmentGrade,InstrumentCreditRating,rdf-schema#range
+Na462e46033f84498bfaed7fa9d2b45ce,CreditDefaultSwap,owl#someValuesFrom
+,SyntheticCDOs,rdf-schema#label
+SyntheticDebtSPV,"REVIEW: Whether this is (or is ever) a separate SPV for Synthetics, as it is for Cash CDO and other Cash structured finance. If not, how to define the facts at the level of SPV without contradictions. Moving stuff off the balance sheet is involved in putting it into the SPV. So talking a bout balance sheet or off balanc sheet, this is about creating the pool which is going to be sold off. This applies whether hte pool is cash (real holdings) or synthetics. Either way ,the instruments are transferred into the CPV to sell them off. conclusion: applies to cash and non cash. In the old days there were all sorts of guarantees added to that SPOV. Now if you provide support to that =SPV it is no longer ""Off balance sheet"" froma regulatory point of view. Accounting rules refer.",core#editorialNote
+assetsManagedBy,CDOPortfolioManager,rdf-schema#range
+SyntheticDebtInstrumentPool,N4a5d1fa4b4af46a981654687facfcb7d,rdf-schema#subClassOf
+N646b8ddf6dd344b6b079e57f7dc025a2,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#versionIRI
+SyntheticBalanceSheetCDO,synthetic balance sheet c d o,rdf-schema#label
+N86197e47e6b44088bcf0420a4044f433,SyntheticCDOTranche,owl#someValuesFrom
+holds,SyntheticDebtInstrumentPoolFundingAsset,rdf-schema#range
+isTrancheOf,SyntheticCDOTranche,rdf-schema#domain
+simulates.1,owl#ObjectProperty,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+simulates,owl#ObjectProperty,22-rdf-syntax-ns#type
+N708bd2a4ae444246b09ed4ba17d76026,SyntheticDebtInstrumentPool,owl#someValuesFrom
+isTrancheOf,is tranche of,rdf-schema#label
+N646b8ddf6dd344b6b079e57f7dc025a2,holds,owl#onProperty
+hasUnderlyingContract,The underlying CDS which is created to mechanise the cash flows in the synthetic portfolio.,core#definition
+SyntheticDebtInstrumentPool,synthetic debt instrument pool,rdf-schema#label
+,"Copyright (c) 2015-2023 EDM Council, Inc.",copyright
+trancheType,owl#ObjectProperty,22-rdf-syntax-ns#type
+SyntheticCDO,CDODeal,rdf-schema#subClassOf
+hasUnderlyingContract,CreditDefaultSwap,rdf-schema#range
+simulatedBy,SyntheticPoolAsset,rdf-schema#domain
+assetsManagedBy,ArbitrageSyntheticCDO,rdf-schema#domain
+SyntheticPoolAsset,synthetic pool asset,rdf-schema#label
+N6a22a4a6842240d8990d8ceb9305334c,owl#Restriction,22-rdf-syntax-ns#type
+SyntheticPoolAsset,N9d110bc674c3499396d8600d20d24b31,rdf-schema#subClassOf
+SyntheticCDO,synthetic c d o,rdf-schema#label
+SyntheticAmortizingSecurity,owl#Class,22-rdf-syntax-ns#type
+SyntheticDebtInstrumentPool,owl#Class,22-rdf-syntax-ns#type
+hasUnderlyingContract,has underlying contract,rdf-schema#label
+CashCDOTranche,owl#Class,22-rdf-syntax-ns#type
+isCash,owl#DatatypeProperty,22-rdf-syntax-ns#type
+fundedBy,funded by,rdf-schema#label
+N1f1e52d982d0448d9b5f2826d0ee89b7,CDOPortfolioManager,owl#someValuesFrom
+SyntheticAmortizingSecurity,Synthetic instruments can be created to mimic a wide range of debt instruments. These are not all shown here. This one is shown as an example,core#scopeNote
+hasInvestmentGrade,SyntheticDebtInstrumentPoolFundingAsset,rdf-schema#domain
+percentageOfDefaultsThisTranche,SyntheticCDOTranche,rdf-schema#domain
+SyntheticAmortizingSecurity,synthetic amortizing security,rdf-schema#label
+makesReferenceTo,SyntheticCDOPortfolio,rdf-schema#range
+fundedBy,SyntheticDebtInstrumentPoolFundingAsset,rdf-schema#range
+SyntheticCDOPortfolioConstituent,"An instrument which is defined as a constituent of a synthetic pool of instruments. These are not holdings because they are not held, but in all other respects they are the constituents of the portfolio.",core#definition
+hasInvestmentGrade,owl#ObjectProperty,22-rdf-syntax-ns#type
+SyntheticDebtInstrumentPoolFundingAsset,owl#Class,22-rdf-syntax-ns#type
+hasUnderlyingContract,SyntheticDebtInstrumentPool,rdf-schema#domain
+ArbitrageSyntheticCDO,"For arbitrage synthetic deals, two advantages are - an abbreviated ramp-up period (for managed deals), and - the possibility that selling protection through CDSs can be less expensive than directly buying the underlying bonds. This is often true at the lower end of the credit spectrum.",explanatoryNote
+ArbitrageSyntheticCDO,ArbitrageCDO,rdf-schema#subClassOf
+SyntheticAmortizingSecurity,Security constructed to emulate an amortizing security.,core#definition
+SyntheticBalanceSheetCDO,SyntheticCDO,rdf-schema#subClassOf
+SyntheticCDOPortfolio,N18d94379c290421abc0178b0db2394df,rdf-schema#subClassOf
+N9d110bc674c3499396d8600d20d24b31,simulatedBy,owl#onProperty
+simulates,simulates,rdf-schema#label
+simulates.1,simulates,rdf-schema#label
+SyntheticDebtInstrumentPoolFundingAsset,N993429ebd74a4b6085e8808d6155e7b3,rdf-schema#subClassOf
+SyntheticCDOTranche,N708bd2a4ae444246b09ed4ba17d76026,rdf-schema#subClassOf
+N18d94379c290421abc0178b0db2394df,notionallyHolds,owl#onProperty
+isCash,SyntheticCDOTranche,rdf-schema#domain
+N18d94379c290421abc0178b0db2394df,SyntheticCDOPortfolioConstituent,owl#someValuesFrom
+SyntheticCDO,N38810007c2164eba81f289b6d431bbd8,rdf-schema#subClassOf
+SyntheticBalanceSheetCDO,owl#Class,22-rdf-syntax-ns#type
+isCash,XMLSchema#boolean,rdf-schema#range
+N2ff0d7d15c9743eaa6159d046329d1da,fundedBy,owl#onProperty
+percentageOfDefaultsThisTranche,owl#ObjectProperty,22-rdf-syntax-ns#type
+SyntheticStructuredFinanceInstrument,N6a22a4a6842240d8990d8ceb9305334c,rdf-schema#subClassOf
+simulatedBy,The underlying CDS which is created to mechanise the cash flows in the synthetic portfolio.,core#definition
+N993429ebd74a4b6085e8808d6155e7b3,owl#Restriction,22-rdf-syntax-ns#type
+SyntheticCDOTranche,CollateralizedDebtObligation,rdf-schema#subClassOf
+Na777c17bfff74d49a3748adc200802e0,owl#Restriction,22-rdf-syntax-ns#type
+SyntheticDebtInstrumentPoolFundingAsset,"An asset which provides the funding for a synthetic debt instrument pool, as used in a synthetic CDO.",core#definition
+N4a5d1fa4b4af46a981654687facfcb7d,SyntheticCDOPortfolio,owl#someValuesFrom
+issues,issues,rdf-schema#label
+SyntheticAmortizingSecurity,SyntheticStructuredFinanceInstrument,rdf-schema#subClassOf
+N9d110bc674c3499396d8600d20d24b31,owl#Restriction,22-rdf-syntax-ns#type
+N18d94379c290421abc0178b0db2394df,owl#Restriction,22-rdf-syntax-ns#type
+ArbitrageSyntheticCDO,N1f1e52d982d0448d9b5f2826d0ee89b7,rdf-schema#subClassOf
+percentageOfDefaultsThisTranche,percentage of defaults this tranche,rdf-schema#label
+assetsManagedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Provisional,hasMaturityLevel
+SyntheticDebtInstrumentPool,DebtPool,rdf-schema#subClassOf
+N993429ebd74a4b6085e8808d6155e7b3,hasInvestmentGrade,owl#onProperty
+,MIT,license
+SyntheticCDOPortfolio,synthetic c d o portfolio,rdf-schema#label
+isTrancheOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+trancheType,CDOTrancheSenioritySelection,rdf-schema#range
+N4a5d1fa4b4af46a981654687facfcb7d,owl#Restriction,22-rdf-syntax-ns#type
+N38810007c2164eba81f289b6d431bbd8,owl#Restriction,22-rdf-syntax-ns#type
+ArbitrageSyntheticCDO,"Arbitrage synthetic CDO deals are motivated by regulatory or practical considerations that might make a bank want to retain ownership of debt while achieving capital relief through CDSs. In this case, the sponsoring bank has a portfolio of obligations, called the reference portfolio. It retains that portfolio, but offloads its credit risk by transacting CDSs with the CDO.",core#definition
+percentageOfDefaultsThisTranche,Percentage,rdf-schema#range
+,"Synthetic collateralized debt obligations are instruments designed to provide the same kind of structure and returns as a CDO, but these are not backed by an actual pool of debt assets.",abstract
+issues,SyntheticCDO,rdf-schema#domain
+ArbitrageSyntheticCDO,arbitrage synthetic c d o,rdf-schema#label
+Na462e46033f84498bfaed7fa9d2b45ce,owl#Restriction,22-rdf-syntax-ns#type
+SyntheticCDOTranche,synthetic c d o tranche,rdf-schema#label
+SyntheticPoolAsset,FinancialAsset,rdf-schema#subClassOf
+fundedBy,SyntheticDebtInstrumentPool,rdf-schema#domain
+SyntheticDebtSPV,N646b8ddf6dd344b6b079e57f7dc025a2,rdf-schema#subClassOf
+fundedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+notionallyHolds,owl#ObjectProperty,22-rdf-syntax-ns#type
+N4a5d1fa4b4af46a981654687facfcb7d,makesReferenceTo,owl#onProperty
+SyntheticDebtInstrumentPoolFundingAsset,"From April 28 review session: CDS mechanization: Q: Are the CDS taken out on the constituents of the (non owned) pool or on some other instrument? A: There is funding to underpin the pool. The funding may be high grade debt or may be low grade. There is an undedrlying source of funds. then you swap (using CDS) into other risks. so I might lend to a government institution, and then sell protection against a whole series of corporates. So I've taken the high quality portfolio and added other risks to it. Or the other way round. conclusions:",core#definition
+SyntheticBalanceSheetCDO,Na777c17bfff74d49a3748adc200802e0,rdf-schema#subClassOf
+issues,owl#ObjectProperty,22-rdf-syntax-ns#type
+N6a22a4a6842240d8990d8ceb9305334c,SyntheticPoolAsset,owl#someValuesFrom
+SyntheticCDOPortfolio,Review notes: What real stuff is this made of? Would be the actual contracts (the Ref Obligation contracts or the CDS contract)? Buyer of protection is buying protection and paying a fee. Similar to shorting on a stock. Seller of the protection is the one creating the instruments. So the Protection Seller is using the synthetic CDO as some kind of synthetic vehicle. Inside the portfolio is the actual contract that generates the cash.,core#editorialNote
+assetsManagedBy,assets managed by,rdf-schema#label
+simulates.1,SyntheticDebtInstrumentPool,rdf-schema#domain
+simulatedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+simulatedBy,simulated by,rdf-schema#label
+simulates,SyntheticPoolAsset,rdf-schema#domain
+Na777c17bfff74d49a3748adc200802e0,issues,owl#onProperty
+CashCDOTranche,SyntheticCDOTranche,owl#disjointWith
+SyntheticPoolAsset,owl#Class,22-rdf-syntax-ns#type
+SyntheticStructuredFinanceInstrument,owl#Class,22-rdf-syntax-ns#type
+makesReferenceTo,makes reference to,rdf-schema#label
+issues,SyntheticCDOTranche,rdf-schema#range
+hasInvestmentGrade,has investment grade,rdf-schema#label
+holds,holds,rdf-schema#label
+isCash,Whether the CDO has an underlying pool of real assets. This is No: the CDO has a synthetic pool of underlying assets.,core#definition
+notionallyHolds,SyntheticCDOPortfolio,rdf-schema#domain
+N86197e47e6b44088bcf0420a4044f433,owl#Restriction,22-rdf-syntax-ns#type
+SyntheticDebtInstrumentPool,Na462e46033f84498bfaed7fa9d2b45ce,rdf-schema#subClassOf
+simulatedBy,CreditDefaultSwap,rdf-schema#range
+SyntheticCDO,owl#Class,22-rdf-syntax-ns#type
+trancheType,SyntheticCDOTranche,rdf-schema#domain
+SyntheticDebtSPV,owl#Class,22-rdf-syntax-ns#type
+makesReferenceTo,owl#ObjectProperty,22-rdf-syntax-ns#type

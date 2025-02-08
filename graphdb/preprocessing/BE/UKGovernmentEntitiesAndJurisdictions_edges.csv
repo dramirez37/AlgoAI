@@ -1,0 +1,189 @@
+source_id,target_id,relationship
+GovernmentOfScotland,ScotlandJurisdiction,hasJurisdiction
+EnglandAndWalesJurisdiction,GB-ENG-Subdivision,hasReach
+IsleOfManEntity,IsleOfMan,hasSharedSovereigntyOver
+NorthernIrelandEntity,,rdf-schema#seeAlso
+NationalAssemblyForWales,RegionalGovernment,22-rdf-syntax-ns#type
+NorthernIrelandJurisdiction,Northern Ireland jurisdiction,rdf-schema#label
+NationalAssemblyForWales,owl#NamedIndividual,22-rdf-syntax-ns#type
+GovernmentOfJersey,default.aspx,rdf-schema#seeAlso
+WelshEntity,NationalAssemblyForWales,isRepresentedBy
+NorthernIrelandAssembly,NorthernIrelandJurisdiction,hasJurisdiction
+JurisdictionOfGuernsey,Guernsey#Politics,rdf-schema#seeAlso
+WelshEntity,owl#NamedIndividual,22-rdf-syntax-ns#type
+GovernmentOfScotland,Scottish government,synonym
+GuernseyEntity,owl#NamedIndividual,22-rdf-syntax-ns#type
+NorthernIrelandJurisdiction,NorthernIreland,hasReach
+NationalAssemblyForWales,,rdf-schema#seeAlso
+JurisdictionOfGuernsey,jurisdiction of Guernsey,rdf-schema#label
+WelshEntity,Wales,hasSharedSovereigntyOver
+GovernmentOfTheUnitedKingdom,Government of the United Kingdom,rdf-schema#label
+ScotlandJurisdiction,Courts_of_Scotland,rdf-schema#seeAlso
+ScotlandJurisdiction,about-the-court-of-session,rdf-schema#seeAlso
+JerseyEntity,regional sovereignty and polity that is the Bailiwick of Jersey,core#definition
+JerseyEntity,Jersey entity,rdf-schema#label
+IsleOfManEntity,regional sovereignty and polity that is the Isle of Man,core#definition
+GovernmentOfTheIsleOfMan,owl#NamedIndividual,22-rdf-syntax-ns#type
+GovernmentOfJersey,JurisdictionOfJersey,hasJurisdiction
+NorthernIrelandEntity,Northern Ireland entity,rdf-schema#label
+JerseyEntity,Jersey,hasSharedSovereigntyOver
+JurisdictionOfTheIsleOfMan,IsleOfMan,hasReach
+JurisdictionOfJersey,Jersey,hasReach
+WelshEntity,regional devolved sovereignty that is Wales,core#definition
+UnitedKingdomEntity,SovereignState,22-rdf-syntax-ns#type
+ScotlandJurisdiction,Scotland jurisdiction,rdf-schema#label
+GovernmentOfGuernsey,Gouvèrnément d'Guernési,rdf-schema#label
+,"Copyright (c) 2016-2023 Object Management Group, Inc.",copyright
+UnitedKingdomJurisdiction,owl#NamedIndividual,22-rdf-syntax-ns#type
+,This ontology provides government entities and jurisdictions for the United Kingdom of Great Britain and Northern Ireland use in other FIBO ontologies.,abstract
+GovernmentOfTheUnitedKingdom,owl#NamedIndividual,22-rdf-syntax-ns#type
+GovernmentOfGuernsey,RegionalGovernment,22-rdf-syntax-ns#type
+GovernmentOfGuernsey,"parliamentary representative democracy that is the central government of the Bailiwick of Guernsey, a self-governing dependency of the United Kingdom and one of the British Channel Islands off the coast of Normandy",core#definition
+GovernmentOfTheIsleOfMan,,rdf-schema#seeAlso
+,,owl#imports
+ScotlandEntity,Scottish_Government,rdf-schema#seeAlso
+JurisdictionOfTheIsleOfMan,owl#NamedIndividual,22-rdf-syntax-ns#type
+NorthernIrelandAssembly,Northern_Ireland_Assembly,rdf-schema#seeAlso
+JurisdictionOfJersey,owl#NamedIndividual,22-rdf-syntax-ns#type
+GovernmentOfScotland,devolved government of Scotland,core#definition
+NorthernIrelandAssembly,NorthernIreland,governs
+EnglandAndWalesJurisdiction,owl#NamedIndividual,22-rdf-syntax-ns#type
+GovernmentOfTheUnitedKingdom,,rdf-schema#seeAlso
+WelshEntity,Home.aspx,rdf-schema#seeAlso
+UnitedKingdomJurisdiction,"jurisdiction of the Supreme Court of the United Kingdom, the tribunal system, including the Asylum and Immigration Tribunal and the Special Immigration Appeals Commission, Employment tribunals and the Employment Appeal Tribunal",core#definition
+UnitedKingdomEntity,UnitedKingdomOfGreatBritainAndNorthernIreland,hasFullSovereigntyOver
+JurisdictionOfTheIsleOfMan,"jurisdiction of the judiciary of the Isle of Man, including the High Court of Justice of the Isle of Man, consisting of a Civil Division and an appeal division, called the Staff of Government Division",core#definition
+GovernmentOfScotland,RegionalGovernment,22-rdf-syntax-ns#type
+EnglandAndWalesJurisdiction,jurisdiction of the Courts of England and Wales,core#definition
+GovernmentOfTheIsleOfMan,IsleOfMan,governs
+GovernmentOfScotland,index.aspx,rdf-schema#seeAlso
+,,owl#versionIRI
+JurisdictionOfTheIsleOfMan,Jurisdiction,22-rdf-syntax-ns#type
+NorthernIrelandJurisdiction,Jurisdiction,22-rdf-syntax-ns#type
+IsleOfManEntity,GovernmentOfTheIsleOfMan,isRepresentedBy
+GovernmentOfTheIsleOfMan,Manx Government,synonym
+JurisdictionOfGuernsey,owl#NamedIndividual,22-rdf-syntax-ns#type
+GovernmentOfScotland,Scottish_Government,rdf-schema#seeAlso
+,owl#Ontology,22-rdf-syntax-ns#type
+ScotlandJurisdiction,owl#NamedIndividual,22-rdf-syntax-ns#type
+UnitedKingdomJurisdiction,"Note that the Courts of the United Kingdom are separated into three separate jurisdictions, the Courts of England and Wales, Courts of Scotland and the Courts of Northern Ireland, as the United Kingdom does not have a single unified judicial system, aside from the courts specifically identified in the definition of this individual.",core#scopeNote
+,"Copyright (c) 2016-2023 EDM Council, Inc.",copyright
+UnitedKingdomJurisdiction,Courts_of_the_United_Kingdom,rdf-schema#seeAlso
+ScotlandEntity,GovernmentOfScotland,isRepresentedBy
+GovernmentOfScotland,,rdf-schema#seeAlso
+GovernmentOfTheUnitedKingdom,British government,synonym
+NationalAssemblyForWales,Wales,governs
+GovernmentOfTheUnitedKingdom,UnitedKingdomOfGreatBritainAndNorthernIreland,governs
+NorthernIrelandAssembly,DevolvedGovernment,22-rdf-syntax-ns#type
+JurisdictionOfGuernsey,Guernsey,hasReach
+,UKGovernmentEntitiesAndJurisdictions.rdf version of this ontology was modified to include separate references to England and Wales in reach of the EnglandAndWalesJurisdiction.,core#changeNote
+NationalAssemblyForWales,National_Assembly_for_Wales,rdf-schema#seeAlso
+GuernseyEntity,Guernsey entity,rdf-schema#label
+,"UKGovernmentEntitiesAndJurisdictions.rdf version of this ontology was modified to add devolved government entities for Scotland, Wales, and Northern Ireland.",core#changeNote
+GovernmentOfTheUnitedKingdom,"constitutional monarchy that is the government of the United Kingdom of Great Britain and Northern Ireland, including the monarch, who is the head of state and sovereign, prime minister, who is the head of government, and cabinet, parliament (House of Lords and House of Commons), and other agencies and institutions that comprise the government",core#definition
+WelshEntity,Welsh entity,rdf-schema#label
+NorthernIrelandEntity,regional devolved sovereignty that is Northern Ireland,core#definition
+GovernmentOfScotland,Scotland,governs
+ScotlandJurisdiction,Jurisdiction,22-rdf-syntax-ns#type
+NationalAssemblyForWales,Senedd,synonym
+JerseyEntity,owl#NamedIndividual,22-rdf-syntax-ns#type
+NationalAssemblyForWales,devolved government of Wales,core#definition
+ScotlandJurisdiction,,rdf-schema#seeAlso
+ScotlandEntity,owl#NamedIndividual,22-rdf-syntax-ns#type
+UnitedKingdomJurisdiction,UnitedKingdomOfGreatBritainAndNorthernIreland,hasReach
+UnitedKingdomEntity,owl#NamedIndividual,22-rdf-syntax-ns#type
+NorthernIrelandJurisdiction,NorthernIrelandAssembly,isJurisdictionOf
+IsleOfManEntity,owl#NamedIndividual,22-rdf-syntax-ns#type
+ScotlandEntity,,rdf-schema#seeAlso
+ScotlandJurisdiction,Scotland,hasReach
+NorthernIrelandAssembly,Northern Ireland Assembly,rdf-schema#label
+WelshEntity,RegionalSovereignty,22-rdf-syntax-ns#type
+NorthernIrelandJurisdiction,Courts_of_Northern_Ireland,rdf-schema#seeAlso
+IsleOfManEntity,Isle of Man entity,rdf-schema#label
+UnitedKingdomEntity,,rdf-schema#seeAlso
+GovernmentOfJersey,owl#NamedIndividual,22-rdf-syntax-ns#type
+GuernseyEntity,RegionalSovereignty,22-rdf-syntax-ns#type
+NorthernIrelandAssembly,devolved government of Northern Ireland,core#definition
+JurisdictionOfJersey,"jurisdiction of the judiciary of Jersey, headed by is the Bailiff, who as well as performing the judicial functions of a chief justice is also the President (presiding officer) of the States of Jersey and has certain civic, ceremonial and executive functions",core#definition
+GovernmentOfGuernsey,Government of Guernsey,rdf-schema#label
+UnitedKingdomJurisdiction,,rdf-schema#seeAlso
+GovernmentOfScotland,owl#NamedIndividual,22-rdf-syntax-ns#type
+NationalAssemblyForWales,Home.aspx,rdf-schema#seeAlso
+GovernmentOfGuernsey,JurisdictionOfGuernsey,hasJurisdiction
+UnitedKingdomJurisdiction,GovernmentOfTheUnitedKingdom,isJurisdictionOf
+GovernmentOfTheUnitedKingdom,NationalGovernment,22-rdf-syntax-ns#type
+,"UKGovernmentEntitiesAndJurisdictions.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+UnitedKingdomJurisdiction,Jurisdiction,22-rdf-syntax-ns#type
+JurisdictionOfGuernsey,"jurisdiction of the bailiwick judiciary of Guernsey, headed by its Bailiff, which is derived from a combination of Norman Customary Law and principles taken from English common law and Equity, as well as from statute law enacted by the competent legislature(s)",core#definition
+GuernseyEntity,GovernmentOfGuernsey,isRepresentedBy
+JurisdictionOfTheIsleOfMan,Judiciary_of_the_Isle_of_Man,rdf-schema#seeAlso
+NorthernIrelandJurisdiction,jurisdiction of the Courts of Northern Ireland,core#definition
+IsleOfManEntity,Manx entity,synonym
+NationalAssemblyForWales,National Assembly for Wales,rdf-schema#label
+ScotlandEntity,regional devolved sovereignty that is Scotland,core#definition
+ScotlandJurisdiction,GovernmentOfScotland,isJurisdictionOf
+JurisdictionOfJersey,jurisdiction of Jersey,rdf-schema#label
+GovernmentOfTheIsleOfMan,"central government of the Isle of Man, a self-governing British Crown dependency in the Irish Sea between England and Ireland",core#definition
+ScotlandEntity,RegionalSovereignty,22-rdf-syntax-ns#type
+GovernmentOfJersey,Jersey,governs
+NorthernIrelandEntity,NorthernIreland,hasSharedSovereigntyOver
+EnglandAndWalesJurisdiction,England and Wales jurisdiction,rdf-schema#label
+GovernmentOfScotland,DevolvedGovernment,22-rdf-syntax-ns#type
+JurisdictionOfTheIsleOfMan,GovernmentOfTheIsleOfMan,isJurisdictionOf
+GuernseyEntity,regional sovereignty and polity that is the Bailiwick of Guernsey,core#definition
+IsleOfManEntity,RegionalSovereignty,22-rdf-syntax-ns#type
+GovernmentOfScotland,Government of Scotland,rdf-schema#label
+,UKGovernmentEntitiesAndJurisdictions.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+NorthernIrelandEntity,owl#NamedIndividual,22-rdf-syntax-ns#type
+UnitedKingdomJurisdiction,United Kingdom jurisdiction,rdf-schema#label
+JurisdictionOfGuernsey,Jurisdiction,22-rdf-syntax-ns#type
+JurisdictionOfGuernsey,GovernmentOfGuernsey,isJurisdictionOf
+EnglandAndWalesJurisdiction,Courts_of_England_and_Wales,rdf-schema#seeAlso
+NorthernIrelandJurisdiction,owl#NamedIndividual,22-rdf-syntax-ns#type
+JurisdictionOfTheIsleOfMan,jurisdiction of the Isle of Man,rdf-schema#label
+GovernmentOfGuernsey,Guernsey,governs
+GuernseyEntity,Guernsey,hasSharedSovereigntyOver
+GovernmentOfGuernsey,owl#NamedIndividual,22-rdf-syntax-ns#type
+ScotlandEntity,Scotland,hasSharedSovereigntyOver
+EnglandAndWalesJurisdiction,GB-WLS-Subdivision,hasReach
+GovernmentOfTheUnitedKingdom,UnitedKingdomJurisdiction,hasJurisdiction
+GovernmentOfTheIsleOfMan,Government of the Isle of Man,rdf-schema#label
+,Release,hasMaturityLevel
+NorthernIrelandJurisdiction,courts-and-tribunals,rdf-schema#seeAlso
+NorthernIrelandAssembly,RegionalGovernment,22-rdf-syntax-ns#type
+,MIT,license
+GovernmentOfGuernsey,,rdf-schema#seeAlso
+NorthernIrelandAssembly,owl#NamedIndividual,22-rdf-syntax-ns#type
+JerseyEntity,GovernmentOfJersey,isRepresentedBy
+GovernmentOfTheUnitedKingdom,Government_of_the_United_Kingdom,rdf-schema#seeAlso
+UnitedKingdomEntity,Government_of_the_United_Kingdom,rdf-schema#seeAlso
+EnglandAndWalesJurisdiction,NationalAssemblyForWales,isJurisdictionOf
+NorthernIrelandAssembly,,rdf-schema#seeAlso
+GovernmentOfJersey,RegionalGovernment,22-rdf-syntax-ns#type
+GovernmentOfTheIsleOfMan,JurisdictionOfTheIsleOfMan,hasJurisdiction
+NationalAssemblyForWales,EnglandAndWalesJurisdiction,hasJurisdiction
+NationalAssemblyForWales,Cynulliad Cenedlaethol Cymru,rdf-schema#label
+NorthernIrelandEntity,RegionalSovereignty,22-rdf-syntax-ns#type
+EnglandAndWalesJurisdiction,Jurisdiction,22-rdf-syntax-ns#type
+NorthernIrelandAssembly,Tionól Thuaisceart Éireann,rdf-schema#label
+GovernmentOfJersey,"central government of the Bailiwick of Jersey, a self-governing dependency of the United Kingdom that is the largest of the Channel Islands between England and France",core#definition
+ScotlandJurisdiction,jurisdiction of the Supreme Courts of Scotland,core#definition
+EnglandAndWalesJurisdiction,,rdf-schema#seeAlso
+JerseyEntity,RegionalSovereignty,22-rdf-syntax-ns#type
+JurisdictionOfJersey,Jurisdiction,22-rdf-syntax-ns#type
+UnitedKingdomEntity,Gibraltar,hasFullSovereigntyOver
+NorthernIrelandEntity,NorthernIrelandAssembly,isRepresentedBy
+UnitedKingdomEntity,United Kingdom entity,rdf-schema#label
+NationalAssemblyForWales,DevolvedGovernment,22-rdf-syntax-ns#type
+JurisdictionOfJersey,Law_of_Jersey#Judiciary,rdf-schema#seeAlso
+GovernmentOfJersey,Government of Jersey,rdf-schema#label
+GovernmentOfJersey,Gouvèrnément d'Jèrri,rdf-schema#label
+GovernmentOfTheIsleOfMan,RegionalGovernment,22-rdf-syntax-ns#type
+NationalAssemblyForWales,Welsh Assembly,synonym
+ScotlandEntity,Scotland entity,rdf-schema#label
+UnitedKingdomEntity,federated sovereignty and polity that is the United Kingdom of Great Britain and Northern Ireland,core#definition
+GovernmentOfScotland,Riaghaltas na h-Alba,rdf-schema#label
+UnitedKingdomEntity,GovernmentOfTheUnitedKingdom,isRepresentedBy
+UnitedKingdomJurisdiction,Judiciaries_of_the_United_Kingdom,rdf-schema#seeAlso
+,Government Entities and Jurisdictions for the United Kingdom of Great Britain and Northern Ireland Ontology,rdf-schema#label
+JurisdictionOfJersey,GovernmentOfJersey,isJurisdictionOf

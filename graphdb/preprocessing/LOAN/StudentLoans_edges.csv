@@ -1,0 +1,34 @@
+source_id,target_id,relationship
+,StudentLoans.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N44488258108245e2957ae6f3ea660655,LegallyCompetentNaturalPerson,owl#someValuesFrom
+,,owl#imports
+RegulatedStudentLoan,StudentLoan,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+StudentLoan,guardians to borrow money for college,core#definition
+RegulatedStudentLoan,"In the United States, certain student loans survive bankruptcy and are subject to additional tax regulations that do not apply to other kinds of loans.",explanatoryNote
+,MIT,license
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+StudentLoan,Na2f3db0c35c94fea91273938451aadc6,rdf-schema#subClassOf
+StudentLoan,owl#Class,22-rdf-syntax-ns#type
+,,owl#versionIRI
+RegulatedStudentLoan,regulated student loan,rdf-schema#label
+Na2f3db0c35c94fea91273938451aadc6,N44488258108245e2957ae6f3ea660655,owl#someValuesFrom
+,Student Loans Ontology,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+PrivateStudentLoan,owl#Class,22-rdf-syntax-ns#type
+N44488258108245e2957ae6f3ea660655,isPlayedBy,owl#onProperty
+,"A loan or series of loans made for the purposes of study at some institution of learning.
+		This ontology and much of the common supporting information on loan applications are based on extensive review and input from Sallie Mae in the US and there may be other variants of student loans that are not covered here. For example in principle a student loan may be framed as a credit facility in some arrangements and as a single loan with separate payment phases in others.",abstract
+,"Copyright (c) 2023-2024 Object Management Group, Inc.",copyright
+PrivateStudentLoan,StudentLoan,rdf-schema#subClassOf
+PrivateStudentLoan, regulated loan,core#definition
+StudentLoan,Loan,rdf-schema#subClassOf
+PrivateStudentLoan,RegulatedStudentLoan,rdf-schema#subClassOf
+StudentLoan,"Student loans may include loans for graduate and professional education. Student loans may be obtained from government institutions, from private sources such as a bank or financial institution, or from other organizations.",explanatoryNote
+Na2f3db0c35c94fea91273938451aadc6,owl#Restriction,22-rdf-syntax-ns#type
+RegulatedStudentLoan,or (2) that is treated uniquely due to tax regulations,core#definition
+N44488258108245e2957ae6f3ea660655,owl#Restriction,22-rdf-syntax-ns#type
+StudentLoan,student loan,rdf-schema#label
+Na2f3db0c35c94fea91273938451aadc6,hasBorrower,owl#onProperty
+PrivateStudentLoan,private student loan,rdf-schema#label
+RegulatedStudentLoan,owl#Class,22-rdf-syntax-ns#type

@@ -1,0 +1,18 @@
+source_id,target_id,relationship
+,CAFinancialServicesEntities.rdf version of this ontology was modified to generalize the definition of credit union.,core#changeNote
+,"Copyright (c) 2016-2023 EDM Council, Inc.",copyright
+,This ontology extends the primary financial services entities ontology in FBC with additional kinds of entities that are specific to Canada.,abstract
+,,owl#imports
+CanadianCreditUnion,"a not-for-profit financial institution, typically formed by the employees of a company, labor union, or religious group, operated as a cooperative association organized for the purpose of promoting thrift among its members and creating a source of credit for provident or productive purposes",core#definition
+,Release,hasMaturityLevel
+,Canadian Financial Services Entities Ontology,rdf-schema#label
+,CAFinancialServicesEntities.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+,,owl#versionIRI
+,CAFinancialServicesEntities.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+CanadianCreditUnion,creditunion.asp,rdf-schema#seeAlso
+CanadianCreditUnion,owl#Class,22-rdf-syntax-ns#type
+,MIT,license
+CanadianCreditUnion,CreditUnion,rdf-schema#subClassOf
+,"Copyright (c) 2016-2023 Object Management Group, Inc.",copyright
+,owl#Ontology,22-rdf-syntax-ns#type
+CanadianCreditUnion,Canadian credit union,rdf-schema#label

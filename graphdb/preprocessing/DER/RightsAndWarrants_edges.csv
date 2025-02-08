@@ -1,0 +1,369 @@
+source_id,target_id,relationship
+N4d4e904da78a4eb1b5b45e2aad5897c3,0,owl#minQualifiedCardinality
+CompanyWarrant,owl#Class,22-rdf-syntax-ns#type
+TraditionalWarrant,CoveredWarrant,owl#disjointWith
+hasOversubscribeOption,has oversubscribe option,rdf-schema#label
+SubscriptionRight,"privileges allotted to existing security holders, entitling them to subscribe to new securities at a price normally lower than the prevailing market price",core#definition
+BarrierInstrumentBasedMiniFutureCertificate,owl#Class,22-rdf-syntax-ns#type
+BondSubscriptionRight,owl#Class,22-rdf-syntax-ns#type
+PreferredShareSubscriptionRight,subscription right entitling existing preferred shareholders to subscribe to new securities at a price normally lower than the prevailing market price,core#definition
+Nfd77363ba83f4189af003c9b86f20ab8,0,owl#minQualifiedCardinality
+Na351ad4e8abc483688902b52082bb40d,owl#Restriction,22-rdf-syntax-ns#type
+ShortMiniFutureCertificate,MiniFutureCertificate,rdf-schema#subClassOf
+CallWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.",adaptedFrom
+BondPurchaseRight,purchase right that gives a prospective acquiree's bondholders the right to buy bonds of the firm or bonds of anyone who acquires the firm at a deep discount to their fair market value,core#definition
+AllotmentRightFormula,Note that there may be a combination of a rule expressed in text as well as an expression or more complex formula embedded in a contract for making this determination.,explanatoryNote
+BarrierUnderlyingMiniFutureCertificate,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+Warrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+N5129fef323cf47ec992fd32cfa7c1e09,owl#Restriction,22-rdf-syntax-ns#type
+PrivateWarrant,private warrant,rdf-schema#label
+Na7c029f082894a38b57f9fddc1f5a857,owl#Restriction,22-rdf-syntax-ns#type
+CommonShareSubscriptionRight,Ncea4e59946094cfc8e14c6e4ff98b5d3,rdf-schema#subClassOf
+CompanyWarrant,company warrant,rdf-schema#label
+AllotmentRightFormula,allotment right formula,rdf-schema#label
+N7a65bb926ffd4066b4b7ca1df80db694,owl#Restriction,22-rdf-syntax-ns#type
+PreferredConvertibleShareSubscriptionRight,"subscription right entitling existing preferred, convertible shareholders to subscribe to new securities at a price normally lower than the prevailing market price",core#definition
+CallPutWarrant,call put warrant,rdf-schema#label
+Nebaffd4d490541278eab4a12ab0b3dd3,owl#Restriction,22-rdf-syntax-ns#type
+NakedWarrant,Warrant,rdf-schema#subClassOf
+Na40a572cca954e4d883136c2a10f9cfc,BasketOfSecurities,owl#someValuesFrom
+AllotmentRight,"privileges allotted to existing security holders, entitling them to receive new securities free of charge",core#definition
+Nd25734de20454985b3073c2d8338bd7e,hasUnderlier,owl#onProperty
+BondPurchaseRight,N27ad2c1776f34c53902891b69c3085a5,rdf-schema#subClassOf
+,,owl#versionIRI
+Nfd77363ba83f4189af003c9b86f20ab8,owl#Restriction,22-rdf-syntax-ns#type
+CommonConvertibleSharePurchaseRight,common convertible share purchase right,rdf-schema#label
+BasketWarrant,warrant that permits the holder to acquire a package or group of assets at a specified price during a specified period,core#definition
+CombinedInstrumentsSubscriptionRight,owl#Class,22-rdf-syntax-ns#type
+SubscriptionRight,Entitlement,rdf-schema#subClassOf
+N281e0a0701c04ed1b68ea462c17e606c,isIssuedBy,owl#onProperty
+BondPurchaseRight,bond purchase right,rdf-schema#label
+CallPutWarrant,PutWarrant,rdf-schema#subClassOf
+N9bb91d06056e408a92d51888d29abca8,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+TraditionalWarrant,owl#Class,22-rdf-syntax-ns#type
+Na351ad4e8abc483688902b52082bb40d,isPlayedBy,owl#onProperty
+Warrant,N57845fb450f349b487c90a701a627ca2,rdf-schema#subClassOf
+N4d4e904da78a4eb1b5b45e2aad5897c3,isIssuedInForm,owl#onProperty
+,RightsAndWarrants.rdf version of this ontology was modified to add concepts including mini-future certificate and constant leverage certificate.,core#changeNote
+BondSubscriptionRight,bond subscription right,rdf-schema#label
+BondSubscriptionRight,SubscriptionRight,rdf-schema#subClassOf
+Nd25734de20454985b3073c2d8338bd7e,owl#Restriction,22-rdf-syntax-ns#type
+PreferredConvertibleSharePurchaseRight,Nac12979c1f6d4ca88be8dfaf0ef23d0e,rdf-schema#subClassOf
+CommonSharePurchaseRight,owl#Class,22-rdf-syntax-ns#type
+NakedWarrant,naked warrant,rdf-schema#label
+Nd25734de20454985b3073c2d8338bd7e,N2d10c226a8ce432cbfd9688d0f2fdd71,owl#someValuesFrom
+CommonSharePurchaseRight,common share purchase right,rdf-schema#label
+hasConversionRatio,Entitlement,rdf-schema#domain
+Ned4ed117c2334461b85c1c0e114dc7ef,isPlayedBy,owl#onProperty
+SubscriptionRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+PutWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.",adaptedFrom
+PreferredSharePurchaseRight,owl#Class,22-rdf-syntax-ns#type
+CallPutWarrant,"warrant that either does not specify call or put features, or that explicitly includes both a call and put feature",core#definition
+AllotmentRight,N7451f74738d34530988db5d0308b43cc,rdf-schema#subClassOf
+ShortMiniFutureCertificate,mini-future certificate that entitles the holder to acquire cash in exchange for specific underlying assets,core#definition
+CompanyWarrant,company-warrant,rdf-schema#seeAlso
+CallWarrant,Warrant,rdf-schema#subClassOf
+N5129fef323cf47ec992fd32cfa7c1e09,isPlayedBy,owl#onProperty
+BasketWarrant,owl#Class,22-rdf-syntax-ns#type
+AllotmentRight,allotment right,rdf-schema#label
+CoveredWarrant,"warrant that gives the holder the right, but not the obligation, to buy (call warrant) or to sell (put warrant) an underlying asset at a specified price (the strike or exercise price) by a predetermined date, issued without an accompanying security by a third party that holds as many securities as would be required if all the warrants are exercised",core#definition
+N4cd69fb196184d0da7f1d153511e8969,hasUnderlier,owl#onProperty
+ExchangeTradedWarrant,ListedSecurity,rdf-schema#subClassOf
+ShortMiniFutureCertificate,short mini-future certificate,rdf-schema#label
+SubscriptionRight,subscription right,rdf-schema#label
+SubscriptionRight,"A subscription rights issue increases the number of shares in the market, thus leading to a dilution in each share's value.",explanatoryNote
+NakedWarrant,N4120ef07b64a4700b52c194358fa86a9,rdf-schema#subClassOf
+N7a65bb926ffd4066b4b7ca1df80db694,isPlayedBy,owl#onProperty
+BarrierInstrumentBasedMiniFutureCertificate,MiniFutureCertificate,rdf-schema#subClassOf
+PreferredConvertibleShareSubscriptionRight,owl#Class,22-rdf-syntax-ns#type
+MiniFutureCertificate,owl#Class,22-rdf-syntax-ns#type
+CombinedInstrumentsSubscriptionRight,SubscriptionRight,rdf-schema#subClassOf
+N7a65bb926ffd4066b4b7ca1df80db694,ConvertibleCommonShare,owl#someValuesFrom
+Nb1ebf2aab56749b8a2c1a7050e3f306a,hasUnderlier,owl#onProperty
+N06d2a2e6b2eb453893d20a518192d66a,Na9529f6d0fbf44d0a506480eedee82a5,owl#unionOf
+CoveredWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+PreferredConvertibleSharePurchaseRight,PurchaseRight,rdf-schema#subClassOf
+BarrierUnderlyingMiniFutureCertificate,mini-future certificate that immediately expires if the barrier underlying level is breached during product lifetime,core#definition
+CommodityWarrant,commodity warrant,rdf-schema#label
+Nfd77363ba83f4189af003c9b86f20ab8,isPlayedBy,owl#onProperty
+PutWarrant,owl#Class,22-rdf-syntax-ns#type
+CallPutWarrant,CallWarrant,rdf-schema#subClassOf
+CommonSharePurchaseRight,PurchaseRight,rdf-schema#subClassOf
+Ndb3e179ecb3d4c17986bc3ddcd06762f,Nfd77363ba83f4189af003c9b86f20ab8,owl#someValuesFrom
+CommodityWarrant,owl#Class,22-rdf-syntax-ns#type
+PreferredSharePurchaseRight,PurchaseRight,rdf-schema#subClassOf
+PurchaseRight,purchase right,rdf-schema#label
+CurrencyWarrant,currency warrant,rdf-schema#label
+MiniFutureCertificate,"entitlement that combines the structure of an open-end certificate with a leverage option with no fixed term, making leverage available without a term restriction, and whose payoff depends on whether or not the underlying asset has reached or exceeded a predetermined price",core#definition
+PublicWarrant,owl#Class,22-rdf-syntax-ns#type
+CombinedInstrumentsPurchaseRight,combined instruments purchase right,rdf-schema#label
+PreferredConvertibleShareSubscriptionRight,SubscriptionRight,rdf-schema#subClassOf
+N4120ef07b64a4700b52c194358fa86a9,FinancialInstitution,owl#someValuesFrom
+SubscriptionRight,preemptive right,synonym
+PutWarrant,Warrant,rdf-schema#subClassOf
+PrivateWarrant,owl#Class,22-rdf-syntax-ns#type
+Nac12979c1f6d4ca88be8dfaf0ef23d0e,hasUnderlier,owl#onProperty
+TraditionalWarrant,traditional warrant,rdf-schema#label
+DebtWarrant,DebtInstrumentDerivative,rdf-schema#subClassOf
+CoveredWarrant,Warrant,rdf-schema#subClassOf
+AllotmentRight,bonus right,synonym
+N57845fb450f349b487c90a701a627ca2,ExerciseTerms,owl#someValuesFrom
+CoveredWarrant,"In contrast to traditional equity warrants, with covered warrants, no new issuance of common stock occurs if the warrant is exercised. The underlying shares of common stock are usually either owned by the issuer of the covered warrants or the issuer has a mechanism, such as owning equity warrants for the underlying shares, through which they can obtain the shares.",explanatoryNote
+CallWarrant,call warrant,rdf-schema#label
+Warrant,owl#Class,22-rdf-syntax-ns#type
+PreferredSharePurchaseRight,N99d8722f60b84d8a828912831d5a3d13,rdf-schema#subClassOf
+LongMiniFutureCertificate,MiniFutureCertificate,rdf-schema#subClassOf
+PreferredConvertibleSharePurchaseRight,preferred convertible share purchase right,rdf-schema#label
+N7451f74738d34530988db5d0308b43cc,hasExpression,owl#onProperty
+hasConversionRatio,has conversion ratio,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+NakedWarrant,owl#Class,22-rdf-syntax-ns#type
+N99d8722f60b84d8a828912831d5a3d13,owl#Restriction,22-rdf-syntax-ns#type
+PrivateWarrant,NonNegotiableSecurity,rdf-schema#subClassOf
+Warrant,"entitlement that permits the holder to purchase a specified amount of a financial instrument, commodity, currency or other asset during a specified period at a specified price",core#definition
+Nb1ebf2aab56749b8a2c1a7050e3f306a,owl#Restriction,22-rdf-syntax-ns#type
+CommonConvertibleShareSubscriptionRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+BondPurchaseRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+N549290795ab748a6ac4140ab3bbc8b30,isPlayedBy,owl#onProperty
+MiniFutureCertificate,"The price of a mini-future always corresponds to its intrinsic value, i.e. the capital outlay, plus the bid-ask spread. The financing costs associated with building up the leverage effect are offset against the capital outlay on a daily basis, thereby eliminating the need for a premium. Investors have to pay only financing costs they actually utilize. In contrast to options, factors like volatility have no influence at all on the price of mini-futures.",explanatoryNote
+Nac12979c1f6d4ca88be8dfaf0ef23d0e,owl#Restriction,22-rdf-syntax-ns#type
+CompanyWarrant,EquityWarrant,rdf-schema#subClassOf
+N7f5a8099272c41a590221ebf452d9c60,isIssuedBy,owl#onProperty
+CombinedInstrumentsPurchaseRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+hasConversionRatio,indicates the factor used to determine the number of warrants needed in order to buy or sell a specific number of securities or investment units,core#definition
+IndexWarrant,Ndb3e179ecb3d4c17986bc3ddcd06762f,rdf-schema#subClassOf
+N4799dabfbd6e4d89a00402f06bbed6fc,Bond,owl#someValuesFrom
+CompanyWarrant,equity warrant to purchase shares of capital stock issued by the corporation whose equity is the underlying asset,core#definition
+CallPutWarrant,owl#Class,22-rdf-syntax-ns#type
+CurrencyWarrant,warrant that permits the holder to acquire a specified amount in a certain currency at a specified exchange rate during a specified period,core#definition
+PreferredConvertibleSharePurchaseRight,"purchase right that gives a prospective acquiree's preferred, convertible shareholders the right to buy preferred, convertible shares of the firm or preferred, convertible shares of anyone who acquires the firm at a deep discount to their fair market value",core#definition
+PreferredConvertibleShareSubscriptionRight,preferred convertible share subscription right,rdf-schema#label
+hasConversionRatio,hasNumericValue,rdf-schema#subPropertyOf
+CallWarrant,owl#Class,22-rdf-syntax-ns#type
+N7451f74738d34530988db5d0308b43cc,owl#Restriction,22-rdf-syntax-ns#type
+CombinedInstrumentsPurchaseRight,owl#Class,22-rdf-syntax-ns#type
+Nb1ebf2aab56749b8a2c1a7050e3f306a,Ned4ed117c2334461b85c1c0e114dc7ef,owl#someValuesFrom
+BasketWarrant,Na40a572cca954e4d883136c2a10f9cfc,rdf-schema#subClassOf
+BondSubscriptionRight,subscription right entitling existing bond holders to subscribe to new securities at a price normally lower than the prevailing market price,core#definition
+hasOversubscribeOption,Entitlement,rdf-schema#domain
+NakedWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+ExchangeTradedWarrant,owl#Class,22-rdf-syntax-ns#type
+Entitlement,owl#Class,22-rdf-syntax-ns#type
+Na40a572cca954e4d883136c2a10f9cfc,owl#Restriction,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+Na40a572cca954e4d883136c2a10f9cfc,hasUnderlier,owl#onProperty
+hasConversionRatio,XMLSchema#decimal,rdf-schema#range
+N4120ef07b64a4700b52c194358fa86a9,isIssuedBy,owl#onProperty
+IndexWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+SubscriptionRight,owl#Class,22-rdf-syntax-ns#type
+IndexWarrant,Warrant,rdf-schema#subClassOf
+ConstantLeverageCertificate,Entitlement,rdf-schema#subClassOf
+Ncea4e59946094cfc8e14c6e4ff98b5d3,hasUnderlier,owl#onProperty
+ConstantLeverageCertificate,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+N99d8722f60b84d8a828912831d5a3d13,N7bbfc979e3fc46b4874ed211d86f110b,owl#someValuesFrom
+Ncf9843b2088243d0a9d1a85ed6d3a369,owl#Restriction,22-rdf-syntax-ns#type
+PurchaseRight,anti-takeover device that gives a prospective acquiree's shareholders the right to buy shares of the firm or shares of anyone who acquires the firm at a deep discount to their fair market value,core#definition
+PreferredShareSubscriptionRight,preferred share subscription right,rdf-schema#label
+PurchaseRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+PublicWarrant,warrant that may be traded over the counter (OTC) or through an exchange,core#definition
+CommonConvertibleSharePurchaseRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+LongMiniFutureCertificate,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+ExchangeTradedWarrant,exchange-traded warrant,rdf-schema#label
+BondSubscriptionRight,N0414e73216414dc399758eec92b52d7a,rdf-schema#subClassOf
+EquityWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+EquityWarrant,EquityDerivative,rdf-schema#subClassOf
+ShortMiniFutureCertificate,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+CurrencyWarrant,Warrant,rdf-schema#subClassOf
+IndexWarrant,index warrant,rdf-schema#label
+hasOversubscribeOption,XMLSchema#boolean,rdf-schema#range
+N281e0a0701c04ed1b68ea462c17e606c,N5129fef323cf47ec992fd32cfa7c1e09,owl#someValuesFrom
+EquityWarrant,Warrant,rdf-schema#subClassOf
+ConstantLeverageCertificate,SecurityBasedDerivative,rdf-schema#subClassOf
+AllotmentRight,EquityDerivative,rdf-schema#subClassOf
+Warrant,Warrants are for any kind of instrument. Warrants may be privately issued and may not necessarily be traded on an exchange.,explanatoryNote
+N27ad2c1776f34c53902891b69c3085a5,hasUnderlier,owl#onProperty
+hasOversubscribeOption,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N7f5a8099272c41a590221ebf452d9c60,FinancialInstitution,owl#someValuesFrom
+CommonConvertibleSharePurchaseRight,owl#Class,22-rdf-syntax-ns#type
+CommonConvertibleShareSubscriptionRight,common convertible share subscription right,rdf-schema#label
+CoveredWarrant,owl#Class,22-rdf-syntax-ns#type
+Ncea4e59946094cfc8e14c6e4ff98b5d3,owl#Restriction,22-rdf-syntax-ns#type
+DebtWarrant,Warrant,rdf-schema#subClassOf
+BarrierInstrumentBasedMiniFutureCertificate,mini-future certificate that immediately expires if the barrier instrument trading price level is breached during product lifetime,core#definition
+,"RightsAndWarrants.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.",core#changeNote
+PerpetualWarrant,perpetual warrant,rdf-schema#label
+BarrierInstrumentBasedMiniFutureCertificate,barrier instrument-based mini-future certificate,rdf-schema#label
+BarrierUnderlyingMiniFutureCertificate,MiniFutureCertificate,rdf-schema#subClassOf
+LongMiniFutureCertificate,mini-future certificate that typically entitles the holder to acquire specific underlying assets during a specified period at a specified price,core#definition
+N34913fa04c8e4392a1f5980f2e5eb697,owl#Restriction,22-rdf-syntax-ns#type
+CommonConvertibleShareSubscriptionRight,owl#Class,22-rdf-syntax-ns#type
+N549290795ab748a6ac4140ab3bbc8b30,owl#Restriction,22-rdf-syntax-ns#type
+ConstantLeverageCertificate,constant leverage certificate,rdf-schema#label
+N5129fef323cf47ec992fd32cfa7c1e09,StockCorporation,owl#allValuesFrom
+PublicWarrant,public warrant,rdf-schema#label
+DebtWarrant,warrant that permits the holder to acquire a specified amount of a debt instrument or related debt observable a specified period at a specified price,core#definition
+N99d8722f60b84d8a828912831d5a3d13,hasUnderlier,owl#onProperty
+N0414e73216414dc399758eec92b52d7a,hasUnderlier,owl#onProperty
+CombinedInstrumentsPurchaseRight,purchase right that gives a prospective acquiree's holders of multiple securities the right to buy securities of the firm or securities of anyone who acquires the firm at a deep discount to their fair market value,core#definition
+NakedWarrant,CoveredWarrant,owl#disjointWith
+Na9529f6d0fbf44d0a506480eedee82a5,EconomicIndicator,22-rdf-syntax-ns#first
+,RightsAndWarrants.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+Ncf9843b2088243d0a9d1a85ed6d3a369,ConvertiblePreferredShare,owl#someValuesFrom
+PerpetualWarrant,Warrant,rdf-schema#subClassOf
+PreferredShareSubscriptionRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+CommonSharePurchaseRight,Nb1ebf2aab56749b8a2c1a7050e3f306a,rdf-schema#subClassOf
+N4799dabfbd6e4d89a00402f06bbed6fc,owl#Restriction,22-rdf-syntax-ns#type
+Nfd77363ba83f4189af003c9b86f20ab8,N06d2a2e6b2eb453893d20a518192d66a,owl#onClass
+AllotmentRightFormula,"rule applied to calculate the number of securities for an allotment right, typically based on the number of these instruments that the holder holds",core#definition
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+PrivateWarrant,Warrant,rdf-schema#subClassOf
+PreferredShareSubscriptionRight,Nd25734de20454985b3073c2d8338bd7e,rdf-schema#subClassOf
+Ncf9843b2088243d0a9d1a85ed6d3a369,isPlayedBy,owl#onProperty
+MiniFutureCertificate,BarrierOption,rdf-schema#subClassOf
+N27ad2c1776f34c53902891b69c3085a5,owl#Restriction,22-rdf-syntax-ns#type
+Nba6735d3a9a142849653e850df51eb10,owl#Restriction,22-rdf-syntax-ns#type
+MiniFutureCertificate,SecurityBasedDerivative,rdf-schema#subClassOf
+AllotmentRightFormula,owl#Class,22-rdf-syntax-ns#type
+CombinedInstrumentsSubscriptionRight,subscription right entitling existing holders of multiple securities to subscribe to new securities at a price normally lower than the prevailing market price,core#definition
+SubscriptionRight,subscription privilege,synonym
+CommonShareSubscriptionRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+N34913fa04c8e4392a1f5980f2e5eb697,isPlayedBy,owl#onProperty
+,Rights and Warrants Ontology,rdf-schema#label
+PerpetualWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+MiniFutureCertificate,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+AllotmentRight,"Allotment generally means the distribution of equity, particularly shares granted to a participating underwriting firm during an initial public offering (IPO).",explanatoryNote
+CommodityWarrant,warrant that permits the holder to acquire a specified amount of a commodity during a specified period at a specified price,core#definition
+N2d10c226a8ce432cbfd9688d0f2fdd71,PreferredShare,owl#someValuesFrom
+NakedWarrant,"warrant that gives the holder the right, but not the obligation, to buy (call warrant) or to sell (put warrant) an underlying asset at a specified price (the strike or exercise price) by a predetermined date, issued without an accompanying security by a third party that does not hold as many securities as would be required if all the warrants are exercised",core#definition
+PerpetualWarrant,"The strike price, in the case of a perpetual warrant, is usually higher than the market value of the underlying asset at the time of issue.",explanatoryNote
+BondPurchaseRight,PurchaseRight,rdf-schema#subClassOf
+PreferredConvertibleShareSubscriptionRight,Nebaffd4d490541278eab4a12ab0b3dd3,rdf-schema#subClassOf
+PrivateWarrant,warrant that is not tradable,core#definition
+CombinedInstrumentsSubscriptionRight,combined instruments subscription right,rdf-schema#label
+EquityWarrant,warrant that permits the holder to acquire a specified amount of an equity instrument during a specified period at a specified price,core#definition
+EquityWarrant,equity warrant,rdf-schema#label
+,MIT,license
+N281e0a0701c04ed1b68ea462c17e606c,owl#Restriction,22-rdf-syntax-ns#type
+CommonShareSubscriptionRight,SubscriptionRight,rdf-schema#subClassOf
+CommonConvertibleSharePurchaseRight,"purchase right that gives a prospective acquiree's common, convertible shareholders the right to buy common, convertible shares of the firm or common, convertible shares of anyone who acquires the firm at a deep discount to their fair market value",core#definition
+N7bbfc979e3fc46b4874ed211d86f110b,PreferredShare,owl#someValuesFrom
+BarrierInstrumentBasedMiniFutureCertificate,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+CombinedInstrumentsPurchaseRight,PurchaseRight,rdf-schema#subClassOf
+BondSubscriptionRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+BondPurchaseRight,owl#Class,22-rdf-syntax-ns#type
+N57845fb450f349b487c90a701a627ca2,owl#Restriction,22-rdf-syntax-ns#type
+CommonSharePurchaseRight,purchase right that gives a prospective acquiree's common shareholders the right to buy common shares of the firm or common shares of anyone who acquires the firm at a deep discount to their fair market value,core#definition
+PurchaseRight,owl#Class,22-rdf-syntax-ns#type
+BarrierUnderlyingMiniFutureCertificate,barrier underlying mini-future certificate,rdf-schema#label
+Ned4ed117c2334461b85c1c0e114dc7ef,CommonShare,owl#someValuesFrom
+CommonConvertibleShareSubscriptionRight,SubscriptionRight,rdf-schema#subClassOf
+CommonConvertibleSharePurchaseRight,Na7c029f082894a38b57f9fddc1f5a857,rdf-schema#subClassOf
+N2d10c226a8ce432cbfd9688d0f2fdd71,owl#Restriction,22-rdf-syntax-ns#type
+LongMiniFutureCertificate,owl#Class,22-rdf-syntax-ns#type
+N27ad2c1776f34c53902891b69c3085a5,Na351ad4e8abc483688902b52082bb40d,owl#someValuesFrom
+Ncea4e59946094cfc8e14c6e4ff98b5d3,N549290795ab748a6ac4140ab3bbc8b30,owl#someValuesFrom
+N0414e73216414dc399758eec92b52d7a,owl#Restriction,22-rdf-syntax-ns#type
+PutWarrant,"warrant giving the buyer (holder) the right, but not the obligation, to sell the assets specified (i.e., acquire cash in exchange for the underlying assets) back to the issuer at a fixed price or formula, on or before a specified date",core#definition
+Ned4ed117c2334461b85c1c0e114dc7ef,owl#Restriction,22-rdf-syntax-ns#type
+N4799dabfbd6e4d89a00402f06bbed6fc,isPlayedBy,owl#onProperty
+Na9529f6d0fbf44d0a506480eedee82a5,N9bb91d06056e408a92d51888d29abca8,22-rdf-syntax-ns#rest
+PurchaseRight,Entitlement,rdf-schema#subClassOf
+N9bb91d06056e408a92d51888d29abca8,ReferenceIndex,22-rdf-syntax-ns#first
+Nac12979c1f6d4ca88be8dfaf0ef23d0e,Ncf9843b2088243d0a9d1a85ed6d3a369,owl#someValuesFrom
+PurchaseRight,"The underlying is usually shares but this not necessarily the case. Also known as ""Poison Pill"".",explanatoryNote
+CurrencyWarrant,CurrencyDerivative,rdf-schema#subClassOf
+Nba6735d3a9a142849653e850df51eb10,isPlayedBy,owl#onProperty
+Na7c029f082894a38b57f9fddc1f5a857,N7a65bb926ffd4066b4b7ca1df80db694,owl#someValuesFrom
+IndexWarrant,owl#Class,22-rdf-syntax-ns#type
+PerpetualWarrant,"warrant without an expiration date, giving the holder the right, but not the obligation, to buy (call warrant) or to sell (put warrant) an underlying asset at a certain strike price",core#definition
+,RightsAndWarrants.rdf version of this ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+IndexWarrant,warrant that permits the holder to acquire a specified amount based on the performance of an index during a specified period at a specified price,core#definition
+AllotmentRight,Entitlement,rdf-schema#subClassOf
+CommonShareSubscriptionRight,common share subscription right,rdf-schema#label
+CommonConvertibleShareSubscriptionRight,subscription right entitling existing common convertible shareholders to subscribe to new securities at a price normally lower than the prevailing market price,core#definition
+PreferredSharePurchaseRight,purchase right that gives a prospective acquiree's preferred shareholders the right to buy preferred shares of the firm or preferred shares of anyone who acquires the firm at a deep discount to their fair market value,core#definition
+Nebaffd4d490541278eab4a12ab0b3dd3,N34913fa04c8e4392a1f5980f2e5eb697,owl#someValuesFrom
+N4cd69fb196184d0da7f1d153511e8969,Nba6735d3a9a142849653e850df51eb10,owl#someValuesFrom
+CommodityWarrant,"Commodity Warrants Australia (CWA) sells warrants based on 12 commodities and financial markets - crude oil, gold, silver, live cattle, corn, orange juice, soy, coffee, cocoa, the Dow Jones Industrial Average, the NASDAQ Composite Index and the S&P 500 Index.",core#example
+Ndb3e179ecb3d4c17986bc3ddcd06762f,owl#Restriction,22-rdf-syntax-ns#type
+CurrencyWarrant,owl#Class,22-rdf-syntax-ns#type
+Ndb3e179ecb3d4c17986bc3ddcd06762f,hasUnderlier,owl#onProperty
+N7451f74738d34530988db5d0308b43cc,AllotmentRightFormula,owl#someValuesFrom
+Na351ad4e8abc483688902b52082bb40d,Bond,owl#someValuesFrom
+CommonConvertibleShareSubscriptionRight,N4cd69fb196184d0da7f1d153511e8969,rdf-schema#subClassOf
+EquityWarrant,owl#Class,22-rdf-syntax-ns#type
+N4120ef07b64a4700b52c194358fa86a9,owl#Restriction,22-rdf-syntax-ns#type
+ShortMiniFutureCertificate,owl#Class,22-rdf-syntax-ns#type
+N7bbfc979e3fc46b4874ed211d86f110b,owl#Restriction,22-rdf-syntax-ns#type
+ExchangeTradedWarrant,warrant that is listed on a securities exchange,core#definition
+CurrencyWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+,"The Rights and Warrants ontology covers a range of financial instruments providing the holder with the privilege to subscribe to or receive specific assets on terms specified. These include rights (privileges) extended to existing security holders to make new securities available to them at reduced prices or for free, and warrants whereby the holder can purchase or sell back a given quantity of the instrument, commodity or currency during a specified period at a pre-defined price.",abstract
+,,owl#imports
+Nba6735d3a9a142849653e850df51eb10,ConvertibleCommonShare,owl#someValuesFrom
+PreferredConvertibleSharePurchaseRight,owl#Class,22-rdf-syntax-ns#type
+CommonConvertibleSharePurchaseRight,PurchaseRight,rdf-schema#subClassOf
+ConstantLeverageCertificate,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+ConstantLeverageCertificate,"entitlement that combines the structure of an open-end certificate with a leverage option with no fixed term, making leverage available without a term restriction, without a knock-out barrier dependency",core#definition
+N7bbfc979e3fc46b4874ed211d86f110b,isPlayedBy,owl#onProperty
+DebtWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+N0414e73216414dc399758eec92b52d7a,N4799dabfbd6e4d89a00402f06bbed6fc,owl#someValuesFrom
+TraditionalWarrant,NakedWarrant,owl#disjointWith
+PublicWarrant,NegotiableSecurity,rdf-schema#subClassOf
+hasOversubscribeOption,indicates whether the holders of the rights instrument may get securities in the event that other right holders choose not to subscribe,core#definition
+CombinedInstrumentsSubscriptionRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+AllotmentRight,owl#Class,22-rdf-syntax-ns#type
+Warrant,warrant,rdf-schema#label
+CommonShareSubscriptionRight,subscription right entitling existing common shareholders to subscribe to new securities at a price normally lower than the prevailing market price,core#definition
+N57845fb450f349b487c90a701a627ca2,hasExerciseTerms,owl#onProperty
+CommodityWarrant,CommodityDerivative,rdf-schema#subClassOf
+DebtWarrant,owl#Class,22-rdf-syntax-ns#type
+CommonShareSubscriptionRight,owl#Class,22-rdf-syntax-ns#type
+N2d10c226a8ce432cbfd9688d0f2fdd71,isPlayedBy,owl#onProperty
+ExchangeTradedWarrant,PublicWarrant,rdf-schema#subClassOf
+DebtWarrant,debt warrant,rdf-schema#label
+TraditionalWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+CoveredWarrant,"Covered warrants are very similar to options in that they can be created to allow holders to benefit from either rising prices or falling prices, by having both put and call warrants. They can also be created on a wide variety of underlying instruments, not just equities and they are fairly standardised and are mostly traded on exchanges. The main difference is that warrants tend to have longer maturity dates, typically measured in years instead of months (as with options), and are easier to access for individuals as they can be bought and sold in the same way as shares in the stock exchange.",explanatoryNote
+AllotmentRightFormula,Expression,rdf-schema#subClassOf
+TraditionalWarrant,Warrant,rdf-schema#subClassOf
+BasketWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+AllotmentRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+PreferredConvertibleSharePurchaseRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+PreferredShareSubscriptionRight,owl#Class,22-rdf-syntax-ns#type
+CommodityWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+N549290795ab748a6ac4140ab3bbc8b30,CommonShare,owl#someValuesFrom
+hasConversionRatio,owl#DatatypeProperty,22-rdf-syntax-ns#type
+PreferredConvertibleShareSubscriptionRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+ConstantLeverageCertificate,Option,rdf-schema#subClassOf
+CommonSharePurchaseRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+BasketWarrant,Warrant,rdf-schema#subClassOf
+CompanyWarrant,N281e0a0701c04ed1b68ea462c17e606c,rdf-schema#subClassOf
+MiniFutureCertificate,Entitlement,rdf-schema#subClassOf
+CompanyWarrant,TraditionalWarrant,rdf-schema#subClassOf
+CoveredWarrant,covered warrant,rdf-schema#label
+PublicWarrant,Warrant,rdf-schema#subClassOf
+CallPutWarrant,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.",adaptedFrom
+PreferredSharePurchaseRight,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+N4d4e904da78a4eb1b5b45e2aad5897c3,owl#Restriction,22-rdf-syntax-ns#type
+PutWarrant,put warrant,rdf-schema#label
+BarrierUnderlyingMiniFutureCertificate,owl#Class,22-rdf-syntax-ns#type
+N4cd69fb196184d0da7f1d153511e8969,owl#Restriction,22-rdf-syntax-ns#type
+Warrant,Entitlement,rdf-schema#subClassOf
+LongMiniFutureCertificate,long mini-future certificate,rdf-schema#label
+TraditionalWarrant,"warrant that gives the holder the right, but not the obligation, to buy (call warrant) or to sell (put warrant) an underlying asset at a specified price (the strike or exercise price) by a predetermined date, issued by the issuer of the underlying instrument",core#definition
+CoveredWarrant,N7f5a8099272c41a590221ebf452d9c60,rdf-schema#subClassOf
+PerpetualWarrant,owl#Class,22-rdf-syntax-ns#type
+N7f5a8099272c41a590221ebf452d9c60,owl#Restriction,22-rdf-syntax-ns#type
+N34913fa04c8e4392a1f5980f2e5eb697,ConvertiblePreferredShare,owl#someValuesFrom
+BasketWarrant,basket warrant,rdf-schema#label
+Na7c029f082894a38b57f9fddc1f5a857,hasUnderlier,owl#onProperty
+Entitlement,N4d4e904da78a4eb1b5b45e2aad5897c3,rdf-schema#subClassOf
+SubscriptionRight,anti-dilution right,synonym
+N4d4e904da78a4eb1b5b45e2aad5897c3,SecurityForm,owl#onClass
+PreferredSharePurchaseRight,preferred share purchase right,rdf-schema#label
+PreferredShareSubscriptionRight,SubscriptionRight,rdf-schema#subClassOf
+CommodityWarrant,Warrant,rdf-schema#subClassOf
+MiniFutureCertificate,mini-future certificate,rdf-schema#label
+N06d2a2e6b2eb453893d20a518192d66a,owl#Class,22-rdf-syntax-ns#type
+Nebaffd4d490541278eab4a12ab0b3dd3,hasUnderlier,owl#onProperty
+CallWarrant,"warrant giving the buyer (holder) the right, but not the obligation, to acquire specific underlying assets during a specified period at a specified price",core#definition

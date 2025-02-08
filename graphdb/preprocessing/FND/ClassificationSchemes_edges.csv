@@ -1,0 +1,42 @@
+source_id,target_id,relationship
+,"Copyright (c) 2014-2023 EDM Council, Inc.",copyright
+IndustrySectorClassifier,industry sector classifier,rdf-schema#label
+,,owl#imports
+N82f5764c23c24711bba0672a8bc72055,defines,owl#onProperty
+,Release,hasMaturityLevel
+IndustrySectorClassificationScheme,system for allocating classifiers to organizations by industry sector,core#definition
+Nb844d8cd4e28481d8ccdaf127a5aabab,1,owl#qualifiedCardinality
+,MIT,license
+Nb844d8cd4e28481d8ccdaf127a5aabab,isDefinedIn,owl#onProperty
+Nb844d8cd4e28481d8ccdaf127a5aabab,owl#Restriction,22-rdf-syntax-ns#type
+ClassificationScheme,Scheme,rdf-schema#subClassOf
+,This ontology defines abstract concepts for representation of industry classification schemes.,abstract
+ClassificationScheme,Nabd8c96fbf6e4b92b60dc680be65792a,rdf-schema#subClassOf
+IndustrySectorClassificationScheme,"Examples include the North American Industry Classification System (NAICS) and Standardized Industry Classification (SIC) in the U.S. and Canada, and the NACE (Nomenclature Générale des Activités Économiques dans les Communautés Européennes) in the EU, developed by governments to classify industries. They also include commercial classification schemes, such as the Global Industry Standard Classification (GICS) developed jointly by Morgan Stanley Capital International (MSCI) and Standard and Poor's, and competing schemes including the Industry Classification Benchmark (ICB) system, maintained by Dow Jones and London's FTSE Group, among others.",core#example
+,ClassificationSchemes.rdf version of this ontology was introduced as a part of the initial FIBO FBC RFC and revised due to changes introduced in the FIBO 2.0 RFC.,core#changeNote
+IndustrySectorClassifier,owl#Class,22-rdf-syntax-ns#type
+,ClassificationSchemes.rdf version of this ontology was revised to eliminate circular definitions.,core#changeNote
+N82f5764c23c24711bba0672a8bc72055,IndustrySectorClassifier,owl#someValuesFrom
+Nabd8c96fbf6e4b92b60dc680be65792a,Classifier,owl#allValuesFrom
+,,owl#versionIRI
+ClassificationScheme,owl#Class,22-rdf-syntax-ns#type
+,ClassificationSchemes.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+Nabd8c96fbf6e4b92b60dc680be65792a,owl#Restriction,22-rdf-syntax-ns#type
+,Classification Schemes Ontology,rdf-schema#label
+IndustrySectorClassifier,Nb844d8cd4e28481d8ccdaf127a5aabab,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+Nabd8c96fbf6e4b92b60dc680be65792a,defines,owl#onProperty
+,ClassificationSchemes.rdf version of this ontology was revised to replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+IndustrySectorClassificationScheme,owl#Class,22-rdf-syntax-ns#type
+IndustrySectorClassificationScheme,ClassificationScheme,rdf-schema#subClassOf
+IndustrySectorClassifier,"standardized classification or delineation for an organization, or possibly for a security representing an interest in a given organization, per some scheme for such delineation, by industry",core#definition
+IndustrySectorClassificationScheme,industry sector classification scheme,rdf-schema#label
+,ClassificationSchemes.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+IndustrySectorClassificationScheme,N82f5764c23c24711bba0672a8bc72055,rdf-schema#subClassOf
+IndustrySectorClassifier,Classifier,rdf-schema#subClassOf
+,"ClassificationSchemes.rdf version of this ontology was modified to move the property, 'is conferred on' to the Legal Capacity ontology and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+,ClassificationSchemes.rdf version of this ontology was revised to eliminate duplication of concepts in LCC and change the parent class of Classifier to Aspect in Analytics.,core#changeNote
+,ClassificationSchemes.rdf version of this ontology was revised to address hygiene issues with respect to text formatting and loosen the constraint on classifier from classifies something to min 0.,core#changeNote
+N82f5764c23c24711bba0672a8bc72055,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2014-2023 Object Management Group, Inc.",copyright
+Nb844d8cd4e28481d8ccdaf127a5aabab,IndustrySectorClassificationScheme,owl#onClass

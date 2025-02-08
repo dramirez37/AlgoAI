@@ -1,0 +1,683 @@
+source_id,target_id,relationship
+MarketCategoryClassifier-SINT,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+operatesInMunicipality,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+DataReportingServicesProvider,data-reporting-services-providers,adaptedFrom
+hasMarketIdentifierCodeStatus,MarketIdentifierCodeStatus,rdf-schema#range
+QuoteDrivenMarket,"In a quote-driven market, dealers fill orders from their own inventory or by matching them with other orders. Note that this differs from a typical market, which is order-driven rather than quote-driven.",explanatoryNote
+AlternativeTradingSystem,Exchange,rdf-schema#subClassOf
+MarketCategoryClassifier-APPA,market category classifier for an approved publication arrangement,core#definition
+N8c7ef6e571a54ca79fe6140f428e9e31,Country,owl#someValuesFrom
+, version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+ExpiredMICStatus,"ISO 10383, Securities and related financial instruments - Codes for exchanges and market identification (MIC), Third edition, version 2.0",adaptedFrom
+Nfc608e1f2bf84f58bb53d6ec24c08516,MarketLevelClassifier-SGMT,owl#hasValue
+N6e873bbef9cb4323b1a4e8e6729e13ed,operatesInMunicipality,owl#onProperty
+MarketIdentifier,owl#Class,22-rdf-syntax-ns#type
+MarketCategoryClassifier-CTPS,market category classifier - CTPS,rdf-schema#label
+OffMarketFacility,off-book,synonym
+," version of this ontology was modified to eliminate duplication of concepts in LCC, simplify addresses, merge countries with locations in FND, and correct the declaration of the property 'operates in municipality' to be an object property.",core#changeNote
+DarkPool,owl#Class,22-rdf-syntax-ns#type
+N2b61947ef6e64bab9eec51779f743092,owl#Restriction,22-rdf-syntax-ns#type
+," version of this ontology was modified to revise the number and nature of 'market categories' per the latest version of ISO 10383, including the addition of ESMA-regulated data reporting service providers and other new categories, augment the representation of a market to reference the legal entity that is the market, add their LEI and other details that correspond to the entity vs. the market and so forth.",core#changeNote
+UpdatedMICStatus,"as of the last report or update, the exchange code was revised",core#definition
+RecognizedMarketOperator,RMO,abbreviation
+SystematicInternaliser,owl#Class,22-rdf-syntax-ns#type
+MarketCategoryClassifier-CTPS,MarketCategoryClassifier,22-rdf-syntax-ns#type
+MarketLevelClassifier-OPRT,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+DarkPool,AlternativeTradingSystem,rdf-schema#subClassOf
+MarketCategoryClassifier-TRFS,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+MarketCategoryClassifier-OTFS,OTFS,hasTag
+OrganizedTradingFacility,"multi-lateral system which is not an RM or an MTF and in which multiple third-party buying and selling interests in bonds, structured finance products, emission allowances or derivatives are able to interact in the system in a way that results in a contract in accordance with the provisions of Title II of MiFID II",core#definition
+,"Markets.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old, primarily due to the change in the MIC structure in 2021.",core#changeNote
+MarketCategoryClassifier-MLTF,MarketCategoryClassifier,22-rdf-syntax-ns#type
+N81441556fc1e4911917dfd59b4dea232,isRegisteredBy,owl#onProperty
+Nbd1d2691e32349a18853bbbb7c2b4d2d,isClassifiedBy,owl#onProperty
+ElectronicCommunicationNetwork,alternative trading system that automatically matches buy and sell orders for securities in the market,core#definition
+RegisteredMultilateralTradingFacility,"multilateral system operated by an investment firm or market operator, which brings together multiple third-party buying and selling interests in financial instruments in the system, in accordance with non-discretionary rules, in a way that results in a contract in accordance with the provisions of Title II of the MiFID II",core#definition
+N9da321cee37a492b9fd66e47a2219b23,N7d1fcfc7bb964c43a79773f2f1708f92,22-rdf-syntax-ns#rest
+RecognizedMarketOperator,77383,adaptedFrom
+Na65355ad2aa84e2e9d70bebcdc046e20,isRegulatedBy,owl#onProperty
+N906e6968eff84d0facfeb5bc5bc91971,isClassifiedBy,owl#onProperty
+MarketLevelClassifier-OPRT,owl#NamedIndividual,22-rdf-syntax-ns#type
+MarketCategoryClassifier-TRFS,owl#NamedIndividual,22-rdf-syntax-ns#type
+ApprovedReportingMechanism,DataReportingServicesProvider,rdf-schema#subClassOf
+N5b149ee182bf4cb4959074b5238d84d5,rdf-schema#Literal,owl#onDataRange
+OffMarketFacility,off-market facility,rdf-schema#label
+MarketCategoryClassifier-APPA,market category classifier - APPA,rdf-schema#label
+InterdealerQuotationSystem,inter-dealer-quotation-system,adaptedFrom
+MarketCategoryClassifier-OTHR,OTHR,hasTag
+CryptoAssetServicesProvider,N4d0fdddbb244410392d84fcf3af4b22d,rdf-schema#subClassOf
+DesignatedContractMarket,index.htm,adaptedFrom
+Exchange,"any organization, association, or group of persons, whether incorporated or unincorporated, which constitutes, maintains, or provides a facility for bringing together purchasers and sellers of financial instruments, commodities, or other products, services, or goods, and includes the market place and facilities maintained by such exchange",core#definition
+OrganizedTradingFacility,organized trading facility,rdf-schema#label
+QuoteDrivenMarket,owl#Class,22-rdf-syntax-ns#type
+RegulatedExchange,Na65355ad2aa84e2e9d70bebcdc046e20,rdf-schema#subClassOf
+MarketSegmentLevelMarket,"It is not required to have a MIC registered for all segments of a market, only for those segments that need to be identified.",core#note
+OrganizedTradingFacility,Nffedc13623c8445cae7df378ad4617c2,rdf-schema#subClassOf
+Na65355ad2aa84e2e9d70bebcdc046e20,RegulatoryAgency,owl#someValuesFrom
+DarkPool,dark pool,rdf-schema#label
+MarketSegmentLevelMarketIdentifier,trade reporting facility that specialises in one or more specific instruments or that is regulated differently,core#definition
+MarketCategoryClassifier-RMKT,market category classifier - RMKT,rdf-schema#label
+N0b6623dcfd5347739df89ca2eab1a325,MarketCategoryClassifier-APPA,owl#hasValue
+Nbe2ed754cec545469c8db84399d4637c,isClassifiedBy,owl#onProperty
+operatesInCountry,hasCountry,rdf-schema#subPropertyOf
+N65e87d46be9247b184c173e96a13ee80,rdf-schema#Literal,owl#onDataRange
+Nf295a073367042f1a6ad1cc20a01d492,Municipality,owl#someValuesFrom
+N65ac89e228314369989240ef238f5842,isClassifiedBy,owl#onProperty
+MarketCategoryClassifier-RMOS,market category classifier for a recognized market operator,core#definition
+,,owl#versionIRI
+Nffedc13623c8445cae7df378ad4617c2,isClassifiedBy,owl#onProperty
+Nd62d004ba0894c20a5d4a6e27cb50f88,MarketIdentifier,owl#onClass
+SystematicInternaliser,systematic internalizer,rdf-schema#label
+hasFacilityAcronym,hasAlias,rdf-schema#subPropertyOf
+MarketCategoryClassifier-ATSS,owl#NamedIndividual,22-rdf-syntax-ns#type
+SwapExecutionFacility,"Swap execution facilities, including trading systems and other platforms, allow for greater transparency and represent a significant shift in the way derivative trading has been done. The Dodd-Frank Act lays the foundation for this change of derivative execution.",explanatoryNote
+OffMarketFacility,off-facility,synonym
+N638a0bc45a914366980c6c3de0be8b91,Nf77c879d972840ffa243ebb0ce018b34,owl#someValuesFrom
+N505243cdad554518a9c5428709b89d45,owl#Restriction,22-rdf-syntax-ns#type
+DesignatedContractMarket,Exchange,rdf-schema#subClassOf
+N1e74615983214de9b07b0537ab7b4309,operatesInCountry,owl#onProperty
+MultilateralTradingFacility,MTF,abbreviation
+OrganizedTradingFacility,owl#Class,22-rdf-syntax-ns#type
+N1a09f3b0a1c646dfae15e40483c0227c,isIdentifiedBy,owl#onProperty
+OperatingLevelMarket,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N60e2cd61400b49d3aadd2c9f1de6fe38,isIdentifiedBy,owl#onProperty
+DataReportingServicesProvider,N60e2cd61400b49d3aadd2c9f1de6fe38,rdf-schema#subClassOf
+TradeReportingFacility,owl#Class,22-rdf-syntax-ns#type
+N8bbf4d50df7d411ba3753c95ceda5d4d,owl#Restriction,22-rdf-syntax-ns#type
+MarketCategoryClassifier,N352c6268e7674bc1b89e102fa543d173,rdf-schema#subClassOf
+OperatingLevelMarketIdentifier,MarketIdentifier,rdf-schema#subClassOf
+Nb40eea8aaf1241e78645cb01f3d1db03,rdf-schema#Literal,owl#onDataRange
+MarketCategoryClassifier-ATSS,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+TradeReportingFacility,trade-reporting-facility-trf,adaptedFrom
+ApprovedReportingMechanism,ARM,abbreviation
+UpdatedMICStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+OrganizedTradingFacility,"OTFs were introduced by the European Commission as part of MiFID II and are focused on non-equities such as derivatives and cash bond markets.
+
+OTFs are intended to be similar in scope to a swap execution facility (SEF), a type of entity created by the Dodd-Frank Act in the U.S. The goal of SEFs and OTFs is to bring transparency and structure to OTC derivatives trading.",explanatoryNote
+MarketCategoryClassifier-IDQS,MarketCategoryClassifier,22-rdf-syntax-ns#type
+Exchange,Nef95e7755dc4436abbf2901add01dd0e,rdf-schema#subClassOf
+ConsolidatedTapeProvider,esma-identifies-data-reporting-services-providers-be-supervised-directly,adaptedFrom
+ActiveMICStatus,"market identifier code status that indicates that as of the last report or update, the code was registered and actively in use",core#definition
+ApprovedReportingMechanism,approved reporting mechanism,rdf-schema#label
+N505029d0cf7546b386bd120d2a5c5ac2,DataReportingServicesProvider,22-rdf-syntax-ns#first
+SystematicInternaliser,SI,abbreviation
+MarketCategoryClassifier-TRFS,market category classifier for a trade reporting facility,core#definition
+hasMarketIdentifierCodeStatus,indicates the status of a specific market identifier code (MIC),core#definition
+RegisteredMultilateralTradingFacility,N8bbf4d50df7d411ba3753c95ceda5d4d,rdf-schema#subClassOf
+SwapExecutionFacility,SEF,abbreviation
+QuoteDrivenMarket,"exchange in which prices are determined from bid and ask quotations made by market makers, dealers, or specialists",core#definition
+ExchangeParticipant,owl#Class,22-rdf-syntax-ns#type
+MarketCategoryClassifier-CASP,CASP,hasTag
+RegulatedExchange,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+ExchangeParticipant,RegisteredAgent,rdf-schema#subClassOf
+MarketCategoryClassifier-NSPD,owl#NamedIndividual,22-rdf-syntax-ns#type
+N6be56f766bd54325a550967355d9634c,operatesInMunicipality,owl#onProperty
+hasMarketIdentifierCodeStatus,has market identifier code status,rdf-schema#label
+N537d8c19d6cb424d8780027d0dd61d53,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+MarketIdentifierCodeStatus,LifecycleStage,rdf-schema#subClassOf
+Nc764c44788a640a9b40fcc2b2980886d,owl#Restriction,22-rdf-syntax-ns#type
+DarkPool,"privately organized alternative trading system, that allows institutional investors the ability to trade without exposure until after the trade has been executed and reported",core#definition
+ApprovedReportingMechanism,data reporting services provider that is authorized to provide the service of reporting details of transactions to competent authorities or ESMA (the European Securities and Markets Authority) on behalf of investment firms,core#definition
+Nc9da3f392f9149dfac0f7006f2f7ec52,Jurisdiction,owl#someValuesFrom
+ISO10383-ClassificationScheme,ISO 10383 classification scheme,rdf-schema#label
+MarketCategoryClassifier-OTFS,owl#NamedIndividual,22-rdf-syntax-ns#type
+MultilateralTradingFacility,Nbe2ed754cec545469c8db84399d4637c,rdf-schema#subClassOf
+ExpiredMICStatus,expired MIC status,rdf-schema#label
+MarketCategoryClassifier-IDQS,market category classifier for an interdealer quotation system,core#definition
+N4c4b42d0fb1546828c7e2433c417932f,ISO10383-ClassificationScheme,owl#hasValue
+N0b1598639b3f408dac0372006ee82eb7,OperatingLevelMarket,owl#someValuesFrom
+ISO10383-ClassificationScheme,market-identifier-codes,adaptedFrom
+MarketSegmentLevelMarket,Nfc608e1f2bf84f58bb53d6ec24c08516,rdf-schema#subClassOf
+UpdatedMICStatus,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+ApprovedPublicationArrangement,DataReportingServicesProvider,rdf-schema#subClassOf
+Exchange,owl#Class,22-rdf-syntax-ns#type
+N738bbd20dcf3443aa7a909bd227bf499,rdf-schema#Literal,owl#onDataRange
+N277b5780ade8487d8cd70ee455c9080e,rdf-schema#Literal,owl#onDataRange
+N1e74615983214de9b07b0537ab7b4309,Country,owl#someValuesFrom
+Nd48e4bd028e842f38886bcbd6690bd87,N4269f866649543ecb6db5682adc019f4,owl#someValuesFrom
+Nfc608e1f2bf84f58bb53d6ec24c08516,owl#Restriction,22-rdf-syntax-ns#type
+RegisteredMultilateralTradingFacility,owl#Class,22-rdf-syntax-ns#type
+SystematicInternaliser,systematic-internaliser,adaptedFrom
+ApprovedReportingMechanism,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+DataReportingServicesProvider,DRSP,abbreviation
+TradeReportingFacility,TRF,abbreviation
+RegisteredMultilateralTradingFacility,Nd7e4efc5de7a4cf89dc2a8529c14c726,rdf-schema#subClassOf
+MarketCategoryClassifier-RMOS,MarketCategoryClassifier,22-rdf-syntax-ns#type
+MultilateralTradingFacility,multilateral_trading_facility.asp,adaptedFrom
+ApprovedPublicationArrangement,N0b6623dcfd5347739df89ca2eab1a325,rdf-schema#subClassOf
+DesignatedContractMarket,owl#Class,22-rdf-syntax-ns#type
+CryptoAssetServicesProvider,FinancialServiceProvider,rdf-schema#subClassOf
+MarketIdentifierCodeStatus,market-identifier-codes,adaptedFrom
+OperatingLevelMarket,"ISO 10383, Securities and related financial instruments - Codes for exchanges and market identification (MIC), Third edition, 2012-10-01, confirmed 2018-03-29, clause 2.1",adaptedFrom
+Ne21460e144e0466ab294a499cd11f000,isIdentifiedBy,owl#onProperty
+Nd48e4bd028e842f38886bcbd6690bd87,owl#Restriction,22-rdf-syntax-ns#type
+N7cc0a42c179e4daaacf9e5a469231803,owl#Restriction,22-rdf-syntax-ns#type
+Nbd1d2691e32349a18853bbbb7c2b4d2d,MarketCategoryClassifier-DCMS,owl#hasValue
+N0b6623dcfd5347739df89ca2eab1a325,owl#Restriction,22-rdf-syntax-ns#type
+operatesInMunicipality,"indicates the municipality or business center in which in which an exchange, data reporting services provider, or crypto asset services provider operates",core#definition
+N260da04419834331afb2f00a5291323d,0,owl#minQualifiedCardinality
+N260da04419834331afb2f00a5291323d,owl#Restriction,22-rdf-syntax-ns#type
+hasFacilityAcronym,owl#DatatypeProperty,22-rdf-syntax-ns#type
+," version of this ontology was modified to add: 'off-market', with synonyms of 'off-facility' and 'off-book', 'auction market' for periodic or on-demand auction markets, 'dark pool', and 'quote-driven market' for those that have QUOTE or RFQ in their name excluding QUOTED FUNDS, and other 'alternative trading system's; also moved 'designated contract market' and 'swap execution facility' from DER to the this ontology for use in generating proper classification of the ISO MIC codes.",core#changeNote
+MarketLevelClassifier-SGMT,market-level classifier - SGMT,rdf-schema#label
+N4ebbd0beef9d45f0a013a25cd2a1663e,Exchange,22-rdf-syntax-ns#first
+Exchange,N738bbd20dcf3443aa7a909bd227bf499,rdf-schema#subClassOf
+SystematicInternaliser,N09f79ef964a743808522639a98a1779a,rdf-schema#subClassOf
+operatesInCountry,"indicates the ISO 3166-1 country in which an exchange, data reporting services provider, or crypto asset services provider operates",core#definition
+Exchange,N5b149ee182bf4cb4959074b5238d84d5,rdf-schema#subClassOf
+ElectronicCommunicationNetwork,AlternativeTradingSystem,rdf-schema#subClassOf
+Nc7f173916e794fd78aa266edd4ffc37f,owl#Restriction,22-rdf-syntax-ns#type
+MarketCategoryClassifier-SINT,market category classifier - SINT,rdf-schema#label
+ActiveMICStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+DataReportingServicesProvider,N260da04419834331afb2f00a5291323d,rdf-schema#subClassOf
+MarketCategoryClassifier-DCMS,MarketCategoryClassifier,22-rdf-syntax-ns#type
+MarketLevelClassifier-SGMT,MarketLevelClassifier,22-rdf-syntax-ns#type
+N4d0fdddbb244410392d84fcf3af4b22d,isIdentifiedBy,owl#onProperty
+OrganizedTradingFacility,N0325a86dc09f4cdea230f0c3c4677026,rdf-schema#subClassOf
+MarketLevelClassifier,market level classifier,rdf-schema#label
+MarketCategoryClassifier,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N738bbd20dcf3443aa7a909bd227bf499,hasFacilityAcronym,owl#onProperty
+DesignatedContractMarket,DCM,abbreviation
+MarketCategoryClassifier-SEFS,MarketCategoryClassifier,22-rdf-syntax-ns#type
+InterdealerQuotationSystem,An IQS ties the price quotations of a number of exchanges together into one platform. This allows investors to more easily access security price quotations that would otherwise need to be monitored on several separate exchanges.,explanatoryNote
+RegulatedExchange,regulated exchange,rdf-schema#label
+Ne56c58ef495746b5be17d12738e5d2bc,0,owl#minQualifiedCardinality
+MarketSegmentLevelMarket,trade reporting facility that specialises in one or more specific instruments or that is regulated differently,core#definition
+N163332722ccd407aa57fb0806a4e69cb,ISO10383-ClassificationScheme,owl#hasValue
+MarketIdentifier,Market Identifier Code,synonym
+N5b149ee182bf4cb4959074b5238d84d5,owl#Restriction,22-rdf-syntax-ns#type
+Nb5885d879b7d4897a8cde9772f06861a,N1bff5c5cefab4eb6b935be69fffafa8e,22-rdf-syntax-ns#rest
+OperatingLevelMarketIdentifier,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N81441556fc1e4911917dfd59b4dea232,owl#Restriction,22-rdf-syntax-ns#type
+N638a0bc45a914366980c6c3de0be8b91,classifies,owl#onProperty
+ExpiredMICStatus,"as of the last report or update, the exchange code has expired",core#definition
+MultilateralTradingFacility,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+MarketCategoryClassifier-NSPD,market category classifier - NSPD,rdf-schema#label
+operatesInMunicipality,hasMunicipality,rdf-schema#subPropertyOf
+Nc31ccf478c6643df92aeef432b2bf218,Exchange,22-rdf-syntax-ns#first
+DesignatedContractMarket,"exchange, trading system, or platform that enables listing for trading futures or option contracts based on any underlying commodity, index or instrument",core#definition
+N65e87d46be9247b184c173e96a13ee80,0,owl#minQualifiedCardinality
+MarketIdentifier,"It is intended for use in any application and communication for identification of places
+- where a financial instrument is listed (place of official listing),
+- where a related trade is executed (place of trade), and
+- where trade details are reported (trade reporting facility).",explanatoryNote
+InterdealerQuotationSystem,Nc764c44788a640a9b40fcc2b2980886d,rdf-schema#subClassOf
+N65e87d46be9247b184c173e96a13ee80,hasFormalName,owl#onProperty
+MarketCategoryClassifier-OTHR,owl#NamedIndividual,22-rdf-syntax-ns#type
+SwapExecutionFacility,Ncf538def54244e999e774c107fc35f97,rdf-schema#subClassOf
+MarketIdentifier,MIC,abbreviation
+N48c6cf4e11074c04a8ba29f768722a9b,rdf-schema#Literal,owl#onDataRange
+N1bff5c5cefab4eb6b935be69fffafa8e,Nc31ccf478c6643df92aeef432b2bf218,22-rdf-syntax-ns#rest
+Nbe2ed754cec545469c8db84399d4637c,owl#Restriction,22-rdf-syntax-ns#type
+MultilateralTradingFacility,"Multilateral trading facilities allow eligible contract participants to gather and transfer a variety of securities, especially instruments that may not have an official market. These facilities are often electronic systems controlled by approved market operators or larger investment banks. Traders will usually submit orders electronically, where a matching software engine is used to pair buyers with sellers.",explanatoryNote
+N6be56f766bd54325a550967355d9634c,Municipality,owl#someValuesFrom
+ApprovedReportingMechanism,approved-reporting-mechanism,adaptedFrom
+MarketLevelClassifier,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N352c6268e7674bc1b89e102fa543d173,classifies,owl#onProperty
+Nd48e4bd028e842f38886bcbd6690bd87,isPlayedBy,owl#onProperty
+DataReportingServicesProvider,owl#Class,22-rdf-syntax-ns#type
+N505243cdad554518a9c5428709b89d45,operatesInCountry,owl#onProperty
+N1a09f3b0a1c646dfae15e40483c0227c,0,owl#minQualifiedCardinality
+N1a09f3b0a1c646dfae15e40483c0227c,owl#Restriction,22-rdf-syntax-ns#type
+operatesInMunicipality,owl#ObjectProperty,22-rdf-syntax-ns#type
+N60e2cd61400b49d3aadd2c9f1de6fe38,0,owl#minQualifiedCardinality
+N60e2cd61400b49d3aadd2c9f1de6fe38,owl#Restriction,22-rdf-syntax-ns#type
+SwapExecutionFacility,swap execution facility,rdf-schema#label
+Na53f973ed3d04f05b306b05eddbbd575,owl#Class,22-rdf-syntax-ns#type
+MarketSegmentLevelMarketIdentifier,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+operatesInCountry,operates in country,rdf-schema#label
+ExchangeParticipant,exchange participant,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+DataReportingServicesProvider,MarketDataProvider,rdf-schema#subClassOf
+N8047046c961c4869b206dd55fee75fe8,FinancialServiceProvider,owl#someValuesFrom
+N906e6968eff84d0facfeb5bc5bc91971,owl#Restriction,22-rdf-syntax-ns#type
+Ne56c58ef495746b5be17d12738e5d2bc,owl#Restriction,22-rdf-syntax-ns#type
+OrganizedTradingFacility,Organized_Trading_Facility,adaptedFrom
+N7cc0a42c179e4daaacf9e5a469231803,MarketCategoryClassifier-ARMS,owl#hasValue
+Ncf538def54244e999e774c107fc35f97,MarketCategoryClassifier-SEFS,owl#hasValue
+MarketSegmentLevelMarket,N0b1598639b3f408dac0372006ee82eb7,rdf-schema#subClassOf
+SwapExecutionFacility,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+MarketCategoryClassifier-ATSS,market category classifier for an alternative trading system,core#definition
+RecognizedMarketOperator,N65ac89e228314369989240ef238f5842,rdf-schema#subClassOf
+ConsolidatedTapeProvider,CTP,abbreviation
+OffMarketFacility,Exchange,rdf-schema#subClassOf
+RegisteredMultilateralTradingFacility,N8047046c961c4869b206dd55fee75fe8,rdf-schema#subClassOf
+MarketIdentifierCodeStatus,owl#Class,22-rdf-syntax-ns#type
+OrganizedTradingFacility,N7ec40668792349679f6e17583b947a5d,rdf-schema#subClassOf
+RecognizedMarketOperator,approved-exchange-ae-or-recognised-market-operator-rmo-licence,adaptedFrom
+MarketLevelClassifier-OPRT,MarketLevelClassifier,22-rdf-syntax-ns#type
+Nabae62f7dfcf44ca87ea47483bad69b6,MarketCategoryClassifier-RMKT,owl#hasValue
+N4269f866649543ecb6db5682adc019f4,owl#Restriction,22-rdf-syntax-ns#type
+N5654a0974e3b40c8818ced3be01456c3,rdf-schema#Literal,owl#onDataRange
+ApprovedPublicationArrangement,"data reporting services provider that is authorized to provide the service of publishing certain trade reports on behalf of banks, investment firms, or asset management companies",core#definition
+ConsolidatedTapeProvider,consolidated-tape-providers-hereinafter-referred-to-as-ctp,adaptedFrom
+N163332722ccd407aa57fb0806a4e69cb,owl#Restriction,22-rdf-syntax-ns#type
+OperatingLevelMarket,Exchange,rdf-schema#subClassOf
+DesignatedContractMarket,Nbd1d2691e32349a18853bbbb7c2b4d2d,rdf-schema#subClassOf
+MarketSegmentLevelMarketIdentifier,market segment-level market identifier,rdf-schema#label
+Nffedc13623c8445cae7df378ad4617c2,owl#Restriction,22-rdf-syntax-ns#type
+N7ec40668792349679f6e17583b947a5d,Jurisdiction,owl#someValuesFrom
+N2b61947ef6e64bab9eec51779f743092,isClassifiedBy,owl#onProperty
+DataReportingServicesProvider,N713f5e0af9df48d3a8ad37759fdc0f76,rdf-schema#subClassOf
+Ncf538def54244e999e774c107fc35f97,isClassifiedBy,owl#onProperty
+MarketSegmentLevelMarket,"ISO 10383, Securities and related financial instruments - Codes for exchanges and market identification (MIC), Third edition, 2012-10-01, confirmed 2018-03-29, clause 2.2",adaptedFrom
+N4c68a5eaa66140aa94a72906cac0d661,TradeReportingFacility,22-rdf-syntax-ns#first
+ExchangeParticipant,"registered agent who, in accordance with the rules of an exchange, may trade on or through the exchange and whose name is entered in a list, register or roll kept by the exchange as an agent who may trade on or through the exchange",core#definition
+MultilateralTradingFacility,trading system that facilitates the exchange of financial instruments between multiple parties,core#definition
+MarketCategoryClassifier-SINT,MarketCategoryClassifier,22-rdf-syntax-ns#type
+MarketCategoryClassifier-ATSS,ATSS,hasTag
+CryptoAssetServicesProvider,N48c6cf4e11074c04a8ba29f768722a9b,rdf-schema#subClassOf
+RecognizedMarketOperator,recognized-market,adaptedFrom
+SystematicInternaliser,"investment firm that, on an organised, frequent, systematic and substantial basis, deals on its own account by executing client orders outside a regulated exchange, MTF or OTF without operating a multilateral system",core#definition
+ApprovedPublicationArrangement,APA,abbreviation
+N505243cdad554518a9c5428709b89d45,Country,owl#someValuesFrom
+N6e873bbef9cb4323b1a4e8e6729e13ed,owl#Restriction,22-rdf-syntax-ns#type
+ApprovedPublicationArrangement,authorized publication arrangement,synonym
+MarketIdentifier,Identifier,rdf-schema#subClassOf
+Ne56c58ef495746b5be17d12738e5d2bc,isManagedBy,owl#onProperty
+N713f5e0af9df48d3a8ad37759fdc0f76,Country,owl#someValuesFrom
+N3a2ec508204240aa94da3a5a60f43a19,isClassifiedBy,owl#onProperty
+ApprovedPublicationArrangement,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+MarketCategoryClassifier-DCMS,DCMS,hasTag
+N0b1598639b3f408dac0372006ee82eb7,isPartOf,owl#onProperty
+Nbe2ed754cec545469c8db84399d4637c,MarketCategoryClassifier-MLTF,owl#hasValue
+ElectronicCommunicationNetwork,electronic communication network,rdf-schema#label
+Nabae62f7dfcf44ca87ea47483bad69b6,isClassifiedBy,owl#onProperty
+N277b5780ade8487d8cd70ee455c9080e,0,owl#minQualifiedCardinality
+MarketCategoryClassifier-NSPD,market category classifier indicating that the market category has not been specified by the reporting party,core#definition
+AuctionMarket,owl#Class,22-rdf-syntax-ns#type
+MarketCategoryClassifier-ARMS,market category classifier - ARMS,rdf-schema#label
+MarketCategoryClassifier-CTPS,market category classifier for a consolidated tape provider,core#definition
+OperatingLevelMarket,country,core#definition
+N906e6968eff84d0facfeb5bc5bc91971,MarketLevelClassifier-OPRT,owl#hasValue
+AlternativeTradingSystem,owl#Class,22-rdf-syntax-ns#type
+MarketCategoryClassifier-TRFS,MarketCategoryClassifier,22-rdf-syntax-ns#type
+N09f79ef964a743808522639a98a1779a,isClassifiedBy,owl#onProperty
+MarketCategoryClassifier-SINT,SINT,hasTag
+ExchangeParticipant,Nd48e4bd028e842f38886bcbd6690bd87,rdf-schema#subClassOf
+Ne21460e144e0466ab294a499cd11f000,0,owl#minQualifiedCardinality
+RegulatedExchange,Nc9da3f392f9149dfac0f7006f2f7ec52,rdf-schema#subClassOf
+Ne21460e144e0466ab294a499cd11f000,owl#Restriction,22-rdf-syntax-ns#type
+ConsolidatedTapeProvider,owl#Class,22-rdf-syntax-ns#type
+Nd7e4efc5de7a4cf89dc2a8529c14c726,RegistrationAuthority,owl#someValuesFrom
+RegulatedExchange,or managed by a market operator that brings together or facilitates the bringing together of multiple third-party buying and selling interests in financial instruments,core#definition
+OrganizedTradingFacility,AlternativeTradingSystem,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+InterdealerQuotationSystem,"The National Association of Securities Dealers Automatic Quotation (Nasdaq), Nasdaq SmallCap Market, and the Over-The-Counter Bulletin Board (OTCBB) exchange platforms are integrated into one IQS. By using this integrated system, investors have access to a wide range of securities, ranging from large blue-chip companies to smaller micro-caps.",core#example
+ExchangeParticipant,N81441556fc1e4911917dfd59b4dea232,rdf-schema#subClassOf
+CryptoAssetServicesProvider,Nc7f173916e794fd78aa266edd4ffc37f,rdf-schema#subClassOf
+Ne56c58ef495746b5be17d12738e5d2bc,FinancialServiceProvider,owl#onClass
+N638a0bc45a914366980c6c3de0be8b91,owl#Restriction,22-rdf-syntax-ns#type
+MarketCategoryClassifier-RMKT,RMKT,hasTag
+Nc764c44788a640a9b40fcc2b2980886d,MarketCategoryClassifier-IDQS,owl#hasValue
+OperatingLevelMarket,operating-level market,rdf-schema#label
+N3accc064f49748aa94c7ce30a97a1c1a,MarketCategoryClassifier-CTPS,owl#hasValue
+MarketIdentifierCodeStatus,market indicator code status,rdf-schema#label
+Ne345cdfc99764116a264b7a1379a0641,CryptoAssetServicesProvider,22-rdf-syntax-ns#first
+TradeReportingFacility,N277b5780ade8487d8cd70ee455c9080e,rdf-schema#subClassOf
+Nb40eea8aaf1241e78645cb01f3d1db03,hasFacilityAcronym,owl#onProperty
+InterdealerQuotationSystem,"In the United States, an IQS is an automated interdealer quotation system of a national securities association registered pursuant to section 15A(a) of the Exchange Act (15 U.S.C. 78o-3(a)).",explanatoryNote
+OperatingLevelMarketIdentifier,"ISO 10383, Securities and related financial instruments - Codes for exchanges and market identification (MIC), Third edition, 2012-10-01, confirmed 2018-03-29, clause 2.1",adaptedFrom
+MarketIdentifierCodeStatus,"lifecycle stage indicating the status of the MIC code, as specified by the registration authority",core#definition
+N4d0fdddbb244410392d84fcf3af4b22d,0,owl#minQualifiedCardinality
+MarketCategoryClassifier-DCMS,market category classifier - DCMS,rdf-schema#label
+N4d0fdddbb244410392d84fcf3af4b22d,owl#Restriction,22-rdf-syntax-ns#type
+OffMarketFacility,owl#Class,22-rdf-syntax-ns#type
+RecognizedMarketOperator,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+Na65355ad2aa84e2e9d70bebcdc046e20,owl#Restriction,22-rdf-syntax-ns#type
+TradeReportingFacility,N5654a0974e3b40c8818ced3be01456c3,rdf-schema#subClassOf
+MarketCategoryClassifier-DCMS,market category classifier for a designated contract market,core#definition
+,"Markets.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+MarketCategoryClassifier-ARMS,owl#NamedIndividual,22-rdf-syntax-ns#type
+MarketCategoryClassifier-ATSS,MarketCategoryClassifier,22-rdf-syntax-ns#type
+OperatingLevelMarket,N906e6968eff84d0facfeb5bc5bc91971,rdf-schema#subClassOf
+MarketCategoryClassifier,N4c4b42d0fb1546828c7e2433c417932f,rdf-schema#subClassOf
+MarketSegmentLevelMarket,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+Exchange,"Securities Exchange Act of 1934, as amended 12 August 2012",adaptedFrom
+MarketCategoryClassifier-RMKT,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+hasFacilityAcronym,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N163332722ccd407aa57fb0806a4e69cb,isDefinedIn,owl#onProperty
+N738bbd20dcf3443aa7a909bd227bf499,0,owl#minQualifiedCardinality
+MarketCategoryClassifier,classifier representing the controlled vocabulary that delineates the nature of the exchange or data reporting services provider where possible,core#definition
+N738bbd20dcf3443aa7a909bd227bf499,owl#Restriction,22-rdf-syntax-ns#type
+N09f79ef964a743808522639a98a1779a,MarketCategoryClassifier-SINT,owl#hasValue
+N352c6268e7674bc1b89e102fa543d173,owl#Restriction,22-rdf-syntax-ns#type
+N277b5780ade8487d8cd70ee455c9080e,owl#Restriction,22-rdf-syntax-ns#type
+OperatingLevelMarket,owl#Class,22-rdf-syntax-ns#type
+Ne5d13f8e6ce94ccb8b8805c3af3f752d,TradeReportingFacility,22-rdf-syntax-ns#first
+RegulatedExchange,Exchange,rdf-schema#subClassOf
+MarketCategoryClassifier-RMOS,RMOS,hasTag
+MarketLevelClassifier,N638a0bc45a914366980c6c3de0be8b91,rdf-schema#subClassOf
+MarketSegmentLevelMarket,Exchange,rdf-schema#subClassOf
+MarketCategoryClassifier-RMKT,owl#NamedIndividual,22-rdf-syntax-ns#type
+Ne345cdfc99764116a264b7a1379a0641,N505029d0cf7546b386bd120d2a5c5ac2,22-rdf-syntax-ns#rest
+MarketCategoryClassifier-OTFS,market category classifier - OTFS,rdf-schema#label
+AlternativeTradingSystem,trading venue that is more loosely regulated than a regulated exchange,core#definition
+MarketCategoryClassifier-APPA,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+CryptoAssetServicesProvider,crypto-asset-service-provider-casp,adaptedFrom
+TradeReportingFacility,trade reporting facility,rdf-schema#label
+MarketCategoryClassifier-RMKT,MarketCategoryClassifier,22-rdf-syntax-ns#type
+MarketCategoryClassifier-SEFS,SEFS,hasTag
+DataReportingServicesProvider,"or publishes data on securities transactions, including required regulatory reporting for such transactions, and as such is subject to regulatory supervision",core#definition
+ActiveMICStatus,active MIC status,rdf-schema#label
+MarketSegmentLevelMarket,market segment-level market,rdf-schema#label
+ExchangeParticipant,OrganizationMember,rdf-schema#subClassOf
+Nd7e4efc5de7a4cf89dc2a8529c14c726,isRegisteredBy,owl#onProperty
+MarketCategoryClassifier-APPA,owl#NamedIndividual,22-rdf-syntax-ns#type
+MarketCategoryClassifier-MLTF,market category classifier - MLTF,rdf-schema#label
+N4c4b42d0fb1546828c7e2433c417932f,owl#Restriction,22-rdf-syntax-ns#type
+MarketCategoryClassifier-NSPD,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N352c6268e7674bc1b89e102fa543d173,Na53f973ed3d04f05b306b05eddbbd575,owl#someValuesFrom
+MarketSegmentLevelMarket,owl#Class,22-rdf-syntax-ns#type
+Nef95e7755dc4436abbf2901add01dd0e,owl#Restriction,22-rdf-syntax-ns#type
+ExpiredMICStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+MarketCategoryClassifier-RMKT,market category classifier for a regulated market,core#definition
+Exchange,"An exchange is typically a corporation or mutual organization that provides securities trading services, where securities may be bought and sold by third parties. As a facility, an exchange is also a place of trade associated with a particular site, i.e., stock exchange, regulated market such as an Electronic Trading Platform (ECN), or unregulated market, such as an Automated Trading System (ATS), or market data provider. Stock exchanges also provide facilities for the issue and redemption of securities as well as other financial instruments and capital events including the payment of income and dividends.
+
+The securities traded on a stock exchange include: shares issued by companies, unit trusts, derivatives, pooled investment products and bonds. To be able to trade a security on a certain stock exchange, it has to be listed there. Usually there is a central location at least for recordkeeping, but trade is less and less linked to such a physical place, as modern markets are electronic networks, which gives them advantages of speed and cost of transactions. Trade on an exchange is by members only.",explanatoryNote
+Nc9da3f392f9149dfac0f7006f2f7ec52,isGovernedBy,owl#onProperty
+N2b61947ef6e64bab9eec51779f743092,MarketCategoryClassifier-ATSS,owl#hasValue
+MarketCategoryClassifier-OTFS,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+ConsolidatedTapeProvider,N3accc064f49748aa94c7ce30a97a1c1a,rdf-schema#subClassOf
+OperatingLevelMarket,Ne21460e144e0466ab294a499cd11f000,rdf-schema#subClassOf
+N60e2cd61400b49d3aadd2c9f1de6fe38,MarketIdentifier,owl#onClass
+InterdealerQuotationSystem,Exchange,rdf-schema#subClassOf
+N7d1fcfc7bb964c43a79773f2f1708f92,Exchange,22-rdf-syntax-ns#first
+AlternativeTradingSystem,"The SEC formally defines an alternative trading system as any organization, association, person, group of persons, or systems (1) that constitutes, maintains, or provides a market place or facilities for bringing together purchasers and sellers of securities or for otherwise performing with respect to securities the functions commonly performed by a stock exchange within the meaning of Rule 3b-16 under the Exchange Act; and (2) that does not (i) set rules governing the conduct of subscribers other than the conduct of such subscribers' trading on such organization, association, person, group of persons, or system, or (ii) discipline subscribers other than by exclusion from trading.",explanatoryNote
+,Markets.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+MarketCategoryClassifier-NSPD,MarketCategoryClassifier,22-rdf-syntax-ns#type
+MarketSegmentLevelMarketIdentifier,"ISO 10383, Securities and related financial instruments - Codes for exchanges and market identification (MIC), Third edition, 2012-10-01, confirmed 2018-03-29, clause 2.2",adaptedFrom
+operatesInCountry,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N4ebbd0beef9d45f0a013a25cd2a1663e,N537d8c19d6cb424d8780027d0dd61d53,22-rdf-syntax-ns#rest
+MarketCategoryClassifier-OTFS,MarketCategoryClassifier,22-rdf-syntax-ns#type
+MarketCategoryClassifier-CASP,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+MarketCategoryClassifier-SINT,market category classifier for a systematic internalizer,core#definition
+MarketCategoryClassifier-CTPS,owl#NamedIndividual,22-rdf-syntax-ns#type
+MarketIdentifier,market identifier,rdf-schema#label
+ExpiredMICStatus,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N277b5780ade8487d8cd70ee455c9080e,hasFacilityAcronym,owl#onProperty
+ConsolidatedTapeProvider,consolidated tape provider,rdf-schema#label
+Nfc608e1f2bf84f58bb53d6ec24c08516,isClassifiedBy,owl#onProperty
+InterdealerQuotationSystem,interdealer quotation system,rdf-schema#label
+ExchangeParticipant,exchange-participant,rdf-schema#seeAlso
+CryptoAssetServicesProvider,crypto asset services provider,rdf-schema#label
+ElectronicCommunicationNetwork,dark-pools-internalization-and-equity-market-quality-issue-brief,rdf-schema#seeAlso
+N10ac02d75ab4417db6eb89522b418d07,isManagedBy,owl#onProperty
+N9da321cee37a492b9fd66e47a2219b23,DataReportingServicesProvider,22-rdf-syntax-ns#first
+UpdatedMICStatus,updated MIC status,rdf-schema#label
+CryptoAssetServicesProvider,N65e87d46be9247b184c173e96a13ee80,rdf-schema#subClassOf
+,Markets Ontology,rdf-schema#label
+N81441556fc1e4911917dfd59b4dea232,Exchange,owl#someValuesFrom
+MarketCategoryClassifier-CASP,owl#NamedIndividual,22-rdf-syntax-ns#type
+ApprovedReportingMechanism,N7cc0a42c179e4daaacf9e5a469231803,rdf-schema#subClassOf
+N3accc064f49748aa94c7ce30a97a1c1a,isClassifiedBy,owl#onProperty
+TradeReportingFacility,N505243cdad554518a9c5428709b89d45,rdf-schema#subClassOf
+MarketLevelClassifier-SGMT,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+Nbd1d2691e32349a18853bbbb7c2b4d2d,owl#Restriction,22-rdf-syntax-ns#type
+CryptoAssetServicesProvider,"or that provide facilities for the safekeeping, or administration, of crypto assets, or instruments.",explanatoryNote
+MarketCategoryClassifier-MLTF,market category classifier for a multilateral trading facility,core#definition
+MarketIdentifier,"ISO 10383, Securities and related financial instruments - Codes for exchanges and market identification (MIC), Third edition, 2012-10-01",adaptedFrom
+SystematicInternaliser,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N8bbf4d50df7d411ba3753c95ceda5d4d,Jurisdiction,owl#someValuesFrom
+SystematicInternaliser,Exchange,rdf-schema#subClassOf
+MarketCategoryClassifier-APPA,APPA,hasTag
+N5654a0974e3b40c8818ced3be01456c3,0,owl#minQualifiedCardinality
+RegulatedExchange,owl#Class,22-rdf-syntax-ns#type
+N5654a0974e3b40c8818ced3be01456c3,hasFormalName,owl#onProperty
+MarketCategoryClassifier-IDQS,market category classifier - IDQS,rdf-schema#label
+N5b149ee182bf4cb4959074b5238d84d5,0,owl#minQualifiedCardinality
+InterdealerQuotationSystem,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+DataReportingServicesProvider,Nb40eea8aaf1241e78645cb01f3d1db03,rdf-schema#subClassOf
+ElectronicCommunicationNetwork,"ECNs allow brokerages and investors in different geographic areas to trade without a third party involved, offering privacy for investors. They also allow after-hours trading, but trading may be subject to commissions and other fees.",explanatoryNote
+Nf77c879d972840ffa243ebb0ce018b34,owl#Class,22-rdf-syntax-ns#type
+MarketLevelClassifier-SGMT,owl#NamedIndividual,22-rdf-syntax-ns#type
+CryptoAssetServicesProvider,N6e873bbef9cb4323b1a4e8e6729e13ed,rdf-schema#subClassOf
+UpdatedMICStatus,UPDATED,hasTag
+CryptoAssetServicesProvider,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N48c6cf4e11074c04a8ba29f768722a9b,0,owl#minQualifiedCardinality
+N48c6cf4e11074c04a8ba29f768722a9b,owl#Restriction,22-rdf-syntax-ns#type
+ActiveMICStatus,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+MarketCategoryClassifier-CASP,market category classifier - CASP,rdf-schema#label
+TradeReportingFacility,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+MarketCategoryClassifier,owl#Class,22-rdf-syntax-ns#type
+ActiveMICStatus,"ISO 10383, Securities and related financial instruments - Codes for exchanges and market identification (MIC), version 2.0",adaptedFrom
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+TradeReportingFacility,Nf295a073367042f1a6ad1cc20a01d492,rdf-schema#subClassOf
+Nf295a073367042f1a6ad1cc20a01d492,owl#Restriction,22-rdf-syntax-ns#type
+DataReportingServicesProvider,N6be56f766bd54325a550967355d9634c,rdf-schema#subClassOf
+N65e87d46be9247b184c173e96a13ee80,owl#Restriction,22-rdf-syntax-ns#type
+MarketIdentifier,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+ApprovedReportingMechanism,owl#Class,22-rdf-syntax-ns#type
+ConsolidatedTapeProvider,"data reporting services provider that is authorized to provide the service of collecting trade reports for financial instruments from regulated markets, MTFs, OTFs and APAs and consolidating them into a continuous electronic live data stream providing price and volume data per financial instrument",core#definition
+TradeReportingFacility,Facility,rdf-schema#subClassOf
+N8c7ef6e571a54ca79fe6140f428e9e31,owl#Restriction,22-rdf-syntax-ns#type
+, version of this ontology was modified to reflect issue resolutions detailed in the FIBO FBC 1.0 RTF report.,core#changeNote
+ConsolidatedTapeProvider,"Consolidated tape is an electronic system that collates real-time exchange-listed data, such as price and volume, and disseminates it to investors. Through the consolidated tape, various major exchanges, including the New York Stock Exchange, the NASDAQ, and the Chicago Board Options Exchange, report trades and quotes.",explanatoryNote
+AuctionMarket,"exchange in which buyers and sellers submit competitive bids that do not involve direct negotiations between parties, as part of an auction scheduled either on demand or on a periodic basis",core#definition
+SystematicInternaliser,systematic internaliser,rdf-schema#label
+Nffedc13623c8445cae7df378ad4617c2,MarketCategoryClassifier-OTFS,owl#hasValue
+MarketCategoryClassifier-CTPS,CTPS,hasTag
+N8047046c961c4869b206dd55fee75fe8,owl#Restriction,22-rdf-syntax-ns#type
+MarketLevelClassifier-OPRT,OPRT,hasTag
+SwapExecutionFacility,exchange that enables participants to execute and trade swaps,core#definition
+, version of this ontology was modified to replace the hasTag property in Relations with the LCC equivalent on nominals.,core#changeNote
+MarketCategoryClassifier-SEFS,market category classifier for a swap execution facility,core#definition
+N4c68a5eaa66140aa94a72906cac0d661,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nd62d004ba0894c20a5d4a6e27cb50f88,isIdentifiedBy,owl#onProperty
+MarketCategoryClassifier-SEFS,market category classifier - SEFS,rdf-schema#label
+MarketCategoryClassifier,market category classifier,rdf-schema#label
+ApprovedReportingMechanism,esma-identifies-data-reporting-services-providers-be-supervised-directly,adaptedFrom
+operatesInCountry,Country,rdf-schema#range
+OperatingLevelMarketIdentifier,country,core#definition
+MultilateralTradingFacility,owl#Class,22-rdf-syntax-ns#type
+Exchange,N8c7ef6e571a54ca79fe6140f428e9e31,rdf-schema#subClassOf
+TradeReportingFacility,facility that provides a mechanism for the reporting of transactions effected otherwise than on an exchange,core#definition
+N1a09f3b0a1c646dfae15e40483c0227c,MarketIdentifier,owl#onClass
+AlternativeTradingSystem,alternative trading system,rdf-schema#label
+Exchange,market,synonym
+N5654a0974e3b40c8818ced3be01456c3,owl#Restriction,22-rdf-syntax-ns#type
+MarketCategoryClassifier-OTHR,market category classifier - OTHR,rdf-schema#label
+MarketCategoryClassifier-OTHR,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+MarketCategoryClassifier-CTPS,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+QuoteDrivenMarket,quote-driven market,rdf-schema#label
+ISO10383-ClassificationScheme,classification scheme for market categories and related content per the ISO 10383 standard,core#definition
+RecognizedMarketOperator,recognized market operator,rdf-schema#label
+MarketLevelClassifier-OPRT,market-level classifier - OPRT,rdf-schema#label
+MarketCategoryClassifier-MLTF,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N4269f866649543ecb6db5682adc019f4,Nca8e5fdc32bf48d58a8ef69ad3622555,owl#someValuesFrom
+SwapExecutionFacility,Exchange,rdf-schema#subClassOf
+Nb40eea8aaf1241e78645cb01f3d1db03,0,owl#minQualifiedCardinality
+N0325a86dc09f4cdea230f0c3c4677026,FinancialServiceProvider,owl#allValuesFrom
+Nb40eea8aaf1241e78645cb01f3d1db03,owl#Restriction,22-rdf-syntax-ns#type
+MarketCategoryClassifier-ATSS,market category classifier - ATSS,rdf-schema#label
+RegisteredMultilateralTradingFacility,registered multilateral trading facility,rdf-schema#label
+MarketLevelClassifier,owl#Class,22-rdf-syntax-ns#type
+N9aecb7453383490eb7301262eaa6aad1,CryptoAssetServicesProvider,22-rdf-syntax-ns#first
+,MIT,license
+Nf6f0d819c9c34c56b61c052f71624fd7,N9aecb7453383490eb7301262eaa6aad1,owl#unionOf
+N7ec40668792349679f6e17583b947a5d,isGovernedBy,owl#onProperty
+CryptoAssetServicesProvider,"financial services provider that provides services for crypto assets that enable the control of crypto assets, and participate in, or provide, financial services for issuers' offers, or sale, of crypto assets",core#definition
+Nfbb87d4e37914204a6cddc5c79ce95bd,Nf6f0d819c9c34c56b61c052f71624fd7,owl#someValuesFrom
+InterdealerQuotationSystem,IQS,abbreviation
+MarketCategoryClassifier-MLTF,owl#NamedIndividual,22-rdf-syntax-ns#type
+N48c6cf4e11074c04a8ba29f768722a9b,hasFacilityAcronym,owl#onProperty
+N4c4b42d0fb1546828c7e2433c417932f,isDefinedIn,owl#onProperty
+ApprovedPublicationArrangement,approved-publication-arrangement-apa,adaptedFrom
+MarketCategoryClassifier-OTHR,MarketCategoryClassifier,22-rdf-syntax-ns#type
+MarketSegmentLevelMarketIdentifier,owl#Class,22-rdf-syntax-ns#type
+N3a2ec508204240aa94da3a5a60f43a19,owl#Restriction,22-rdf-syntax-ns#type
+Exchange,Facility,rdf-schema#subClassOf
+Nabae62f7dfcf44ca87ea47483bad69b6,owl#Restriction,22-rdf-syntax-ns#type
+N65ac89e228314369989240ef238f5842,owl#Restriction,22-rdf-syntax-ns#type
+N7d1fcfc7bb964c43a79773f2f1708f92,Ne5d13f8e6ce94ccb8b8805c3af3f752d,22-rdf-syntax-ns#rest
+DesignatedContractMarket,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+Nc31ccf478c6643df92aeef432b2bf218,N4c68a5eaa66140aa94a72906cac0d661,22-rdf-syntax-ns#rest
+ISO10383-ClassificationScheme,ClassificationScheme,22-rdf-syntax-ns#type
+N713f5e0af9df48d3a8ad37759fdc0f76,owl#Restriction,22-rdf-syntax-ns#type
+SwapExecutionFacility,owl#Class,22-rdf-syntax-ns#type
+InterdealerQuotationSystem,automated system for organizing and disseminating price quotes by brokers and dealer firms that facilitates electronic trading in securities,core#definition
+MarketCategoryClassifier-CASP,MarketCategoryClassifier,22-rdf-syntax-ns#type
+MarketCategoryClassifier-CASP,market category classifier for a crypto asset services provider,core#definition
+Nd7e4efc5de7a4cf89dc2a8529c14c726,owl#Restriction,22-rdf-syntax-ns#type
+RegulatedExchange,regulated market,synonym
+ElectronicCommunicationNetwork,ECN,abbreviation
+RecognizedMarketOperator,Exchange,rdf-schema#subClassOf
+OperatingLevelMarketIdentifier,owl#Class,22-rdf-syntax-ns#type
+RecognizedMarketOperator,recognised market operator,rdf-schema#label
+N4d0fdddbb244410392d84fcf3af4b22d,MarketIdentifier,owl#onClass
+MarketCategoryClassifier-IDQS,owl#NamedIndividual,22-rdf-syntax-ns#type
+OrganizedTradingFacility,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+MarketCategoryClassifier-ARMS,market category classifier for an approved reporting mechanism,core#definition
+Nb5885d879b7d4897a8cde9772f06861a,CryptoAssetServicesProvider,22-rdf-syntax-ns#first
+Nc9da3f392f9149dfac0f7006f2f7ec52,owl#Restriction,22-rdf-syntax-ns#type
+MarketCategoryClassifier-TRFS,market category classifier - TRFS,rdf-schema#label
+Ne5d13f8e6ce94ccb8b8805c3af3f752d,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+MarketCategoryClassifier-ARMS,ARMS,hasTag
+Ncf538def54244e999e774c107fc35f97,owl#Restriction,22-rdf-syntax-ns#type
+N505029d0cf7546b386bd120d2a5c5ac2,N4ebbd0beef9d45f0a013a25cd2a1663e,22-rdf-syntax-ns#rest
+Nfbb87d4e37914204a6cddc5c79ce95bd,owl#Restriction,22-rdf-syntax-ns#type
+CryptoAssetServicesProvider,CASP,abbreviation
+UpdatedMICStatus,MarketIdentifierCodeStatus,22-rdf-syntax-ns#type
+N10ac02d75ab4417db6eb89522b418d07,0,owl#minQualifiedCardinality
+N10ac02d75ab4417db6eb89522b418d07,owl#Restriction,22-rdf-syntax-ns#type
+N6e873bbef9cb4323b1a4e8e6729e13ed,Municipality,owl#someValuesFrom
+ApprovedPublicationArrangement,owl#Class,22-rdf-syntax-ns#type
+TradeReportingFacility,Nd62d004ba0894c20a5d4a6e27cb50f88,rdf-schema#subClassOf
+MarketSegmentLevelMarketIdentifier,MarketIdentifier,rdf-schema#subClassOf
+MarketCategoryClassifier-IDQS,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+MultilateralTradingFacility,multilateral trading facility,rdf-schema#label
+, version of this ontology was modified per the FIBO 2.0 RFC.,core#changeNote
+OrganizedTradingFacility,organised-trading-facilities-how-they-differ-from-mtfs,rdf-schema#seeAlso
+Nd62d004ba0894c20a5d4a6e27cb50f88,0,owl#minQualifiedCardinality
+ApprovedPublicationArrangement,esma-identifies-data-reporting-services-providers-be-supervised-directly,adaptedFrom
+MarketCategoryClassifier-RMOS,market category classifier - RMOS,rdf-schema#label
+Nf6f0d819c9c34c56b61c052f71624fd7,owl#Class,22-rdf-syntax-ns#type
+Exchange,"ISO 10383, Securities and related financial instruments - Codes for exchanges and market identification (MIC), Third edition, 2012-10-01, confirmed 2018-03-29",adaptedFrom
+QuoteDrivenMarket,price-driven market,synonym
+Na53f973ed3d04f05b306b05eddbbd575,Nb5885d879b7d4897a8cde9772f06861a,owl#unionOf
+,,owl#imports
+RegisteredMultilateralTradingFacility,MultilateralTradingFacility,rdf-schema#subClassOf
+MarketCategoryClassifier-OTFS,market category classifier for an organized trading facility,core#definition
+Nef95e7755dc4436abbf2901add01dd0e,operatesInMunicipality,owl#onProperty
+Nca8e5fdc32bf48d58a8ef69ad3622555,owl#Restriction,22-rdf-syntax-ns#type
+OffMarketFacility,facility used for reporting over-the-counter (OTC) and other direct trades that are not executed by the exchange but are reported through the exchange,core#definition
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+MarketCategoryClassifier-OTHR,market category classifier indicating that the reporting party believes that the market classifier is something other than any of the given market categories,core#definition
+TradeReportingFacility,N3a2ec508204240aa94da3a5a60f43a19,rdf-schema#subClassOf
+MarketCategoryClassifier-DCMS,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+RegulatedExchange,RM,abbreviation
+, version of this ontology was modified to generalize certain unions where they were no longer required and to move international registration authorities individuals to a separate ontology for better modularity.,core#changeNote
+N1e74615983214de9b07b0537ab7b4309,owl#Restriction,22-rdf-syntax-ns#type
+MarketCategoryClassifier-IDQS,IDQS,hasTag
+Exchange,N1a09f3b0a1c646dfae15e40483c0227c,rdf-schema#subClassOf
+N3accc064f49748aa94c7ce30a97a1c1a,owl#Restriction,22-rdf-syntax-ns#type
+ConsolidatedTapeProvider,DataReportingServicesProvider,rdf-schema#subClassOf
+MarketCategoryClassifier-SEFS,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+MarketCategoryClassifier,Classifier,rdf-schema#subClassOf
+RecognizedMarketOperator,owl#Class,22-rdf-syntax-ns#type
+Exchange,N10ac02d75ab4417db6eb89522b418d07,rdf-schema#subClassOf
+MarketCategoryClassifier-ARMS,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N260da04419834331afb2f00a5291323d,hasFormalName,owl#onProperty
+N8047046c961c4869b206dd55fee75fe8,isManagedBy,owl#onProperty
+N3a2ec508204240aa94da3a5a60f43a19,MarketCategoryClassifier-TRFS,owl#hasValue
+MarketIdentifier,"identifier that specifies a universal method of identifying exchanges, trading platforms, regulated or non-regulated markets, and data reporting services providers as sources of prices and related information in order to facilitate automated processing",core#definition
+Exchange,exchange,rdf-schema#label
+MarketIdentifier,Nfbb87d4e37914204a6cddc5c79ce95bd,rdf-schema#subClassOf
+MarketCategoryClassifier-DCMS,owl#NamedIndividual,22-rdf-syntax-ns#type
+MarketLevelClassifier,Classifier,rdf-schema#subClassOf
+MarketCategoryClassifier-SEFS,owl#NamedIndividual,22-rdf-syntax-ns#type
+InterdealerQuotationSystem,inter-dealer quotation system,synonym
+MarketCategoryClassifier-RMOS,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+RegulatedExchange,"or systems, and which is authorised and functions regularly and in accordance with the provisions of Title III of MiFID II.",explanatoryNote
+Nca8e5fdc32bf48d58a8ef69ad3622555,Exchange,owl#someValuesFrom
+AlternativeTradingSystem,ATS,abbreviation
+OrganizedTradingFacility,organised trading facility,rdf-schema#label
+hasMarketIdentifierCodeStatus,hasRegistrationStatus,rdf-schema#subPropertyOf
+RecognizedMarketOperator,exchange that is operated or maintained by an operator registered under certain securities regulations that brings together purchasers and sellers of capital market products,core#definition
+MarketLevelClassifier-OPRT,market-level classifier for an operating-level facility,core#definition
+MarketLevelClassifier,N163332722ccd407aa57fb0806a4e69cb,rdf-schema#subClassOf
+, version of this ontology was modified to integrated details from the redundant 'securities exchange' concept with 'exchange'.,core#changeNote
+ExpiredMICStatus,MarketIdentifierCodeStatus,22-rdf-syntax-ns#type
+Nc764c44788a640a9b40fcc2b2980886d,isClassifiedBy,owl#onProperty
+N0325a86dc09f4cdea230f0c3c4677026,isManagedBy,owl#onProperty
+hasMarketIdentifierCodeStatus,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nf77c879d972840ffa243ebb0ce018b34,Ne345cdfc99764116a264b7a1379a0641,owl#unionOf
+Nfbb87d4e37914204a6cddc5c79ce95bd,identifies,owl#onProperty
+Nd62d004ba0894c20a5d4a6e27cb50f88,owl#Restriction,22-rdf-syntax-ns#type
+RegulatedExchange,Nabae62f7dfcf44ca87ea47483bad69b6,rdf-schema#subClassOf
+MarketCategoryClassifier-RMOS,owl#NamedIndividual,22-rdf-syntax-ns#type
+operatesInMunicipality,operates in municipality,rdf-schema#label
+N6be56f766bd54325a550967355d9634c,owl#Restriction,22-rdf-syntax-ns#type
+ExpiredMICStatus,EXPIRED,hasTag
+OrganizedTradingFacility,OTF,abbreviation
+Ne21460e144e0466ab294a499cd11f000,OperatingLevelMarketIdentifier,owl#onClass
+TradeReportingFacility,Ne56c58ef495746b5be17d12738e5d2bc,rdf-schema#subClassOf
+N10ac02d75ab4417db6eb89522b418d07,FinancialServiceProvider,owl#onClass
+MarketIdentifier,market-identifier-codes,adaptedFrom
+,"This ontology defines the fundamental concepts for markets, exchanges, regulated markets, and multilateral trading facilities.",abstract
+RegulatedExchange,regulated-market.asp,adaptedFrom
+ActiveMICStatus,MarketIdentifierCodeStatus,22-rdf-syntax-ns#type
+MarketLevelClassifier-SGMT,market-level classifier for a segment-level facility,core#definition
+operatesInCountry,owl#ObjectProperty,22-rdf-syntax-ns#type
+AlternativeTradingSystem,N2b61947ef6e64bab9eec51779f743092,rdf-schema#subClassOf
+OrganizedTradingFacility,"Unlike RMs and MTFs, operators of OTFs will have discretion as to how to execute orders, subject to pre-transparency and best execution obligations.",explanatoryNote
+DataReportingServicesProvider,ReportingParty,rdf-schema#subClassOf
+MarketLevelClassifier-SGMT,SGMT,hasTag
+ActiveMICStatus,ACTIVE,hasTag
+hasFacilityAcronym,has facility acronym,rdf-schema#label
+OperatingLevelMarketIdentifier,operating-level market identifier,rdf-schema#label
+Nc7f173916e794fd78aa266edd4ffc37f,MarketCategoryClassifier-CASP,owl#hasValue
+N9aecb7453383490eb7301262eaa6aad1,N9da321cee37a492b9fd66e47a2219b23,22-rdf-syntax-ns#rest
+hasFacilityAcronym,indicates a known acronym of the market,core#definition
+N7ec40668792349679f6e17583b947a5d,owl#Restriction,22-rdf-syntax-ns#type
+DataReportingServicesProvider,data reporting services provider,rdf-schema#label
+N8bbf4d50df7d411ba3753c95ceda5d4d,isGovernedBy,owl#onProperty
+MarketLevelClassifier,classifier that indicates whether the exchange or data reporting services provider is an operating level or market segment level facility,core#definition
+TradeReportingFacility,"In the United States, for example, trades by FINRA members in Nasdaq-listed and other exchange-listed securities, as approved by the Securities and Exchange Commission (SEC), executed otherwise than on an exchange may be reported to a FINRA TRF. While each FINRA TRF is affiliated with a registered national securities exchange, each FINRA TRF is a FINRA facility and is subject to FINRA's registration as a national securities association.",core#example
+N65ac89e228314369989240ef238f5842,MarketCategoryClassifier-RMOS,owl#hasValue
+UpdatedMICStatus,"ISO 10383, Securities and related financial instruments - Codes for exchanges and market identification (MIC), Third edition, version 2.0",adaptedFrom
+Nf295a073367042f1a6ad1cc20a01d492,operatesInMunicipality,owl#onProperty
+MarketCategoryClassifier-MLTF,MLTF,hasTag
+operatesInMunicipality,Municipality,rdf-schema#range
+InterdealerQuotationSystem,interdealerquotationsystem.asp,adaptedFrom
+MarketCategoryClassifier-ARMS,MarketCategoryClassifier,22-rdf-syntax-ns#type
+N8c7ef6e571a54ca79fe6140f428e9e31,operatesInCountry,owl#onProperty
+ApprovedPublicationArrangement,approved publication arrangement,rdf-schema#label
+ISO10383-ClassificationScheme,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N260da04419834331afb2f00a5291323d,rdf-schema#Literal,owl#onDataRange
+,Markets.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N0b1598639b3f408dac0372006ee82eb7,owl#Restriction,22-rdf-syntax-ns#type
+Nc7f173916e794fd78aa266edd4ffc37f,isClassifiedBy,owl#onProperty
+MarketCategoryClassifier-SINT,owl#NamedIndividual,22-rdf-syntax-ns#type
+N713f5e0af9df48d3a8ad37759fdc0f76,operatesInCountry,owl#onProperty
+AuctionMarket,auction market,rdf-schema#label
+ISO10383-ClassificationScheme,owl#NamedIndividual,22-rdf-syntax-ns#type
+MarketCategoryClassifier,"As of October 2022, the controlled vocabulary includes two codes that are not semantically useful, namely 'not specified', or NSPD, and 'other', or OTHR. These are included for the sake of completeness but ignored with respect to how the exchange or market is classified. If something has one of these two codes as a market category, they will be classified either as an operating-level or segment-level marketas appropriate with no other distinction in terms of how they are instantiated.",core#scopeNote
+N537d8c19d6cb424d8780027d0dd61d53,TradeReportingFacility,22-rdf-syntax-ns#first
+N5b149ee182bf4cb4959074b5238d84d5,hasFormalName,owl#onProperty
+QuoteDrivenMarket,Exchange,rdf-schema#subClassOf
+CryptoAssetServicesProvider,N1e74615983214de9b07b0537ab7b4309,rdf-schema#subClassOf
+," version of this ontology was modified to add the definition of an exchange participant and loosen constraints on the location in which a given exchange operates, given that there are cases when an exchange may operate in multiple locations.",core#changeNote
+ElectronicCommunicationNetwork,owl#Class,22-rdf-syntax-ns#type
+InterdealerQuotationSystem,owl#Class,22-rdf-syntax-ns#type
+MarketCategoryClassifier-APPA,MarketCategoryClassifier,22-rdf-syntax-ns#type
+N7cc0a42c179e4daaacf9e5a469231803,isClassifiedBy,owl#onProperty
+DataReportingServicesProvider,esma-identifies-data-reporting-services-providers-be-supervised-directly,adaptedFrom
+MarketCategoryClassifier-NSPD,NSPD,hasTag
+N0b6623dcfd5347739df89ca2eab1a325,isClassifiedBy,owl#onProperty
+Nef95e7755dc4436abbf2901add01dd0e,Municipality,owl#someValuesFrom
+AlternativeTradingSystem,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+N4269f866649543ecb6db5682adc019f4,isMemberOf,owl#onProperty
+Nca8e5fdc32bf48d58a8ef69ad3622555,playsRole,owl#onProperty
+MarketCategoryClassifier-TRFS,TRFS,hasTag
+ApprovedPublicationArrangement,authorised publication arrangement,synonym
+DesignatedContractMarket,designated contract market,rdf-schema#label
+CryptoAssetServicesProvider,owl#Class,22-rdf-syntax-ns#type
+MarketSegmentLevelMarket,Dark pool,core#example
+N1bff5c5cefab4eb6b935be69fffafa8e,DataReportingServicesProvider,22-rdf-syntax-ns#first
+N09f79ef964a743808522639a98a1779a,owl#Restriction,22-rdf-syntax-ns#type
+MarketSegmentLevelMarket,exchange MIC already exists.,core#note
+ConsolidatedTapeProvider,ISO10383_MIC_Release_2_0_Factsheet.pdf,adaptedFrom
+AuctionMarket,Exchange,rdf-schema#subClassOf
+N0325a86dc09f4cdea230f0c3c4677026,owl#Restriction,22-rdf-syntax-ns#type
+MultilateralTradingFacility,AlternativeTradingSystem,rdf-schema#subClassOf

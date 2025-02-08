@@ -1,0 +1,364 @@
+source_id,target_id,relationship
+N021048a16da340abb2c4bedf76462f21,owl#Restriction,22-rdf-syntax-ns#type
+SustainabilityStructuringAgent,sustainability structuring agent,rdf-schema#label
+EnvironmentalProject,owl#Class,22-rdf-syntax-ns#type
+N6e5d17c530f54101b6d5533eb51acfbf,TransitionUseOfProceedsProvision,owl#someValuesFrom
+GreenLoan,N69f4f6099605445d9c9d4ee03ef811d5,rdf-schema#subClassOf
+hasAssessmentBoundary,has assessment boundary,rdf-schema#label
+N521a483d01b4440ca3eb7d621725714c,ContractMilestone,owl#onClass
+N1b47be0de52840eb8f0a46cd10572ee2,owl#Restriction,22-rdf-syntax-ns#type
+SustainabilityBusinessObjective,,adaptedFrom
+N2546edf5b9e64550af938dedd144750a,ContractMilestone,owl#onClass
+ObservedIndicatorValueStructure,collection of observations for some key performance indicator measured over a specified window of time,core#definition
+N1b47be0de52840eb8f0a46cd10572ee2,isCharacterizedBy,owl#onProperty
+ObservedIndicatorValueStructure,owl#Class,22-rdf-syntax-ns#type
+TransitionStrategy,"Note that although there are similarities with sustainability business strategies, they are not the same. KPIs and SPTs may, however, be defined similarly for a given project.",explanatoryNote
+N942ad4d8322344e985e55fdc20d019b0,Facility,owl#onClass
+N91b9448727794ad280c023a4e0fc96ae,owl#Restriction,22-rdf-syntax-ns#type
+TransitionUseOfProceedsProvision,Nc65c32ebffbc4cafbe4ea21e8eed5f50,rdf-schema#subClassOf
+,,owl#versionIRI
+AssessmentBoundary,Context,rdf-schema#subClassOf
+TransitionUseOfProceedsProvision,"use of proceeds provision specifying that funds obtained through financing, such as through a credit agreement, offering, warrant, or other instrument are intended to be used to fund specific projects, investments, or operational changes that support a company's transition toward sustainability",core#definition
+ObservedIndicatorValueStructure,DatedStructuredCollection,rdf-schema#subClassOf
+TransitionStrategy,N14533414fcd74882bf3aca8f4bfc5133,rdf-schema#subClassOf
+SustainabilityLinkedLoan,SLL,abbreviation
+N6955ff553ea24506ae062654808454f2,0,owl#minQualifiedCardinality
+TransitionProject,transition project,rdf-schema#label
+N224d44b1e2d94ae6901dfc3c2e852646,hasContractualElement,owl#onProperty
+SustainabilityPerformanceTarget,"collection of quantitative target values used to calibrate the level of achievement a borrower makes with respect to a key performance indicator, by date, including, but not limited to, the methodology used to calculate its value at any point over the lifetime of a loan",core#definition
+EnvironmentalProject,Ncd7297f47a0f4ec7b64edd2dd401f675,rdf-schema#subClassOf
+N6955ff553ea24506ae062654808454f2,Site,owl#onClass
+N35f5f4700acc4d1fbbb44516805561dd,owl#Restriction,22-rdf-syntax-ns#type
+Nfa867b868a334145b7759ab1640dc08c,SustainabilityKeyPerformanceIndicator,owl#someValuesFrom
+hasAssessmentBoundary,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ne866f10e1e3b47b0b260e7a9dc109432,owl#Restriction,22-rdf-syntax-ns#type
+SustainabilityLinkedLoan,N6931e1476bfb43508ba5baeb641c69fb,rdf-schema#subClassOf
+TransitionProject,"Sustainability-Linked Loans (SLLs): Transition loans share similarities with SLLs, as both tie terms (such as interest rates) to achieving predefined sustainability goals. However, transition loans are specifically framed within the context of long-term decarbonization or sustainability transitions.",explanatoryNote
+SustainabilityKeyPerformanceIndicatorIdentifier,sequence of characters uniquely identifying a specific sustainability-related key performance indicator,core#definition
+N6e182b56cd87406bb493c91a013b5299,SustainabilityKeyPerformanceIndicator,owl#someValuesFrom
+SustainabilityPerformanceTargetIdentifier,owl#Class,22-rdf-syntax-ns#type
+N14533414fcd74882bf3aca8f4bfc5133,hasObjective,owl#onProperty
+GreenLoan,owl#Class,22-rdf-syntax-ns#type
+N2a52e93a607b42169b281666f0c5b52e,owl#Restriction,22-rdf-syntax-ns#type
+N35f5f4700acc4d1fbbb44516805561dd,0,owl#minQualifiedCardinality
+N6955ff553ea24506ae062654808454f2,owl#Restriction,22-rdf-syntax-ns#type
+SustainabilityLinkedLoan,sustainability-linked loan,rdf-schema#label
+SustainabilityBusinessObjective,BusinessObjective,rdf-schema#subClassOf
+TransitionLoan,N1272f8e212f740d5b99168bfa0cf6221,rdf-schema#subClassOf
+N1272f8e212f740d5b99168bfa0cf6221,owl#Restriction,22-rdf-syntax-ns#type
+Na955a61d53ef493297172971e19c6ab6,hasTargetValue,owl#onProperty
+N1272f8e212f740d5b99168bfa0cf6221,hasStrategy,owl#onProperty
+N69f4f6099605445d9c9d4ee03ef811d5,owl#Restriction,22-rdf-syntax-ns#type
+Na16560f3960d4b569a0c551cf2bde796,owl#Restriction,22-rdf-syntax-ns#type
+SustainabilityLinkedLoan,or equivalent metrics that measure improvements in the borrower's sustainability profile.,explanatoryNote
+N707f67c833794741af61c1c62ab7ef18,ObservedIndicatorValueStructure,owl#onClass
+SustainabilityPerformanceTarget,or processes relating to sustainability.,explanatoryNote
+GreenLoan,green loan,rdf-schema#label
+N1b47be0de52840eb8f0a46cd10572ee2,SustainabilityKeyPerformanceIndicator,owl#someValuesFrom
+N58f6702e6d5c4dbd9cb159e6fb878fdc,owl#Restriction,22-rdf-syntax-ns#type
+GreenProjectUseOfProceedsProvision,owl#Class,22-rdf-syntax-ns#type
+N66434afa2c35443eab3814a38563d7c9,hasQuantityValue,owl#onProperty
+N58f6702e6d5c4dbd9cb159e6fb878fdc,GreenProjectUseOfProceedsProvision,owl#someValuesFrom
+N5a9fe82090eb43cd8ce64de679844fa9,hasStrategy,owl#onProperty
+hasSpatialBoundary,GeographicRegion,rdf-schema#range
+TransitionUseOfProceedsProvision,owl#Class,22-rdf-syntax-ns#type
+SustainabilityAndBusinessStrategy,owl#Class,22-rdf-syntax-ns#type
+N6a759cd12cf349b390f650f475551f6e,owl#Restriction,22-rdf-syntax-ns#type
+N34cfaceab6a04febaf7dfb7feacc0b9d,SustainabilityPerformanceTargetIdentifier,owl#onClass
+SustainabilityPerformanceTarget,sustainability performance target,rdf-schema#label
+,Copyright (c) 2024 FIUTUR,copyright
+SustainabilityLinkedLoan,owl#Class,22-rdf-syntax-ns#type
+SustainabilityPerformanceTargetIdentifier,sequence of characters uniquely identifying a specific sustainability-related performance target,core#definition
+N707f67c833794741af61c1c62ab7ef18,hasObservedValue,owl#onProperty
+SustainabilityLinkedLoan,CommercialLoan,rdf-schema#subClassOf
+N118985cb8f834430b2404c8ecb5d973b,owl#Restriction,22-rdf-syntax-ns#type
+N6e182b56cd87406bb493c91a013b5299,isCharacterizedBy,owl#onProperty
+GreenLoan,,adaptedFrom
+GreenProject,LMA_Green_Loan_Principles_Booklet-220318.pdf.,adaptedFrom
+EnvironmentalProgram,owl#Class,22-rdf-syntax-ns#type
+,"or existing eligible 'green projects'. Examples include loans whose purpose involves renewable energy, energy efficiency, climate change adaptation and green buildings that meet regional, national or internationally recognized standards or certifications.",abstract
+SustainabilityPerformanceTarget,owl#Class,22-rdf-syntax-ns#type
+ObservedIndicatorValue,observation (measurement) of a key performance indicator measured at specific date and time,core#definition
+Ndcffc71d3801448c91017ecd9e8c9cf3,GreenProject,owl#someValuesFrom
+TransitionStrategy,owl#Class,22-rdf-syntax-ns#type
+Ndcffc71d3801448c91017ecd9e8c9cf3,governs,owl#onProperty
+Nf4e3a84816cb4997a1c842355bcd50c2,owl#Restriction,22-rdf-syntax-ns#type
+N9bc90c6593d84e20b4a5782c543e4242,SustainabilityKeyPerformanceIndicatorIdentifier,owl#onClass
+GreenProjectUseOfProceedsProvision,"All designated Green Projects should provide clear environmental benefits, which will be assessed, and where feasible, quantified, measured and reported by the borrower, per requirements outlined in the LMA Green Loan Principles (GLP). Where funds are to be used, in whole or part, for refinancing, it is recommended that borrowers provide an estimate of the share of financing versus refinancing. Where appropriate, they should also clarify which investments or project portfolios may be refinanced, and, to the extent relevant, the expected look-back period for refinanced Green Projects. A green loan may take the form of one or more tranches of a loan facility. In such cases, the green tranche(s) must be clearly designated, with proceeds of the green tranche(s) credited to a separate account or tracked by the borrower in an appropriate manner. 
+		
+		The GLP explicitly recognise several broad categories of eligibility for Green Projects with the objective of addressing key areas of environmental concern such as climate change, natural resources depletion, loss of biodiversity, and air, water and soil pollution. This non-exhaustive list, set out in Appendix 1, is intended to capture the most usual types of projects supported, and expected to be supported, by the green loan market. However, it is recognised that definitions of green and green projects may vary depending on sector and geography",explanatoryNote
+TargetIndicatorValue,target indicator value,rdf-schema#label
+SustainabilityLinkedLoan,"or contingent facility (such as a bonding line, guarantee line or letter of credit) for which the economic characteristics can vary depending on whether the borrower achieves ambitious, material and quantifiable predetermined sustainability performance objectives aligned with Sustainability-Linked Loan Principles (SSLP)",core#definition
+AssessmentBoundary,assessment boundary,rdf-schema#label
+GreenLoan,N35f5f4700acc4d1fbbb44516805561dd,rdf-schema#subClassOf
+N9bc90c6593d84e20b4a5782c543e4242,isIdentifiedBy,owl#onProperty
+N021048a16da340abb2c4bedf76462f21,0,owl#minQualifiedCardinality
+N4ae7060acaf247f494a5a937f7d91454,XMLSchema#string,owl#someValuesFrom
+SustainabilityKeyPerformanceIndicator,Na955a61d53ef493297172971e19c6ab6,rdf-schema#subClassOf
+N58f6702e6d5c4dbd9cb159e6fb878fdc,isGovernedBy,owl#onProperty
+TransitionStrategy,N9b6afd350ad84a6c806fcfb7be817b1b,rdf-schema#subClassOf
+SustainabilityPerformanceTarget,,adaptedFrom
+SustainabilityLinkedLoan,"The use of proceeds in relation to a SLL is not a determinant in its categorisation and, in most instances, SLLs will be used for general corporate purposes. Instead, SLLs look to support a borrower in improving its sustainability performance.",core#example
+SustainabilityKeyPerformanceIndicatorIdentifier,ContextualIdentifier,rdf-schema#subClassOf
+AssessmentBoundary,owl#Class,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+Nec281ca5ea0746f18b829b72d99bd24c,isEvidencedBy,owl#onProperty
+N942ad4d8322344e985e55fdc20d019b0,0,owl#minQualifiedCardinality
+hasAssessmentBoundary,isApplicableIn,rdf-schema#subPropertyOf
+TransitionLoan,"or contingent facility (such as a bonding line, guarantee line or letter of credit) designed to help a business or organization shift from carbon-intensive or environmentally harmful practices to more sustainable and environmentally friendly operations",core#definition
+Nce52c6d3b8714bdd9aedf84c99bdb374,MilestoneSchedule,owl#onClass
+SustainabilityAndBusinessStrategy,or processes relating to sustainability.,explanatoryNote
+ObservedIndicatorValue,owl#Class,22-rdf-syntax-ns#type
+N6931e1476bfb43508ba5baeb641c69fb,MilestoneSchedule,owl#onClass
+Ncd7297f47a0f4ec7b64edd2dd401f675,0,owl#minQualifiedCardinality
+N3608fbb68f8b4073bf9769db32dd1045,EnvironmentalProject,owl#onClass
+TransitionLoan,transition loan,rdf-schema#label
+GreenLoan,CreditAgreementRepaidPeriodically,rdf-schema#subClassOf
+N3608fbb68f8b4073bf9769db32dd1045,hasMember,owl#onProperty
+SustainabilityKeyPerformanceIndicatorIdentifier,sustainability key performance indicator identifier,rdf-schema#label
+N66434afa2c35443eab3814a38563d7c9,owl#Restriction,22-rdf-syntax-ns#type
+Na16560f3960d4b569a0c551cf2bde796,hasDatePeriod,owl#onProperty
+SustainabilityPerformanceTarget,DatedStructuredCollection,rdf-schema#subClassOf
+N9b6afd350ad84a6c806fcfb7be817b1b,SustainabilityPerformanceTarget,owl#someValuesFrom
+SustainabilityAndBusinessStrategy,Nec281ca5ea0746f18b829b72d99bd24c,rdf-schema#subClassOf
+SustainabilityPerformanceTarget,N34cfaceab6a04febaf7dfb7feacc0b9d,rdf-schema#subClassOf
+hasAssessmentBoundary,"indicates the scope, limits, and context for an environmental or sustainability project",core#definition
+EnvironmentalProgram,"broad scale initiative, activity, or investment aimed at improving environmental sustainability, reducing ecological harm, or addressing environmental challenges",core#definition
+Nc65c32ebffbc4cafbe4ea21e8eed5f50,governs,owl#onProperty
+Nce52c6d3b8714bdd9aedf84c99bdb374,0,owl#minQualifiedCardinality
+N3608fbb68f8b4073bf9769db32dd1045,0,owl#minQualifiedCardinality
+N3608fbb68f8b4073bf9769db32dd1045,owl#Restriction,22-rdf-syntax-ns#type
+N6a759cd12cf349b390f650f475551f6e,ScalarQuantityValue,owl#someValuesFrom
+SustainabilityBusinessObjective,sustainability business objective,rdf-schema#label
+Ncd7297f47a0f4ec7b64edd2dd401f675,owl#Restriction,22-rdf-syntax-ns#type
+EnvironmentalProject,Nfa867b868a334145b7759ab1640dc08c,rdf-schema#subClassOf
+AssessmentBoundary,"The assessment boundary ensures consistency, transparency, and focus by specifying the parameters for the evaluation. It includes: (1) the scope of assessment, (2) the relevant spacial boundaries, (3) the time period(s) over which the assessment is to be conducted, (4) organizational boundaries - which parts of an organization or project are included in the evaluation, (5) impact categories - which environmental or sustainability impacts are included, (6) lifecycle boundaries - which stages of the lifecycle are included, (7) exclusions - specific elements, processes, or impacts that are excluded from the assessment and justification for these exclusions, and (8) stakeholder boundaries - the extent to which external stakeholders or externalities (e.g., indirect social impacts) are considered.
+		
+		- The scope statement specifies which aspects, activities, processes, or entities are included in the evaluation. For example, in a greenhouse gas (GHG) emissions assessment, the boundary might cover Scope 1 (direct emissions), Scope 2 (indirect emissions from energy use), and Scope 3 (upstream and downstream emissions in the value chain).
+		
+		- The spatial boundaries cover the geographic region(s) relevant for the assessment, including but not limited to a specific site, facility, region, or global operations of a company or project.
+		
+		- The relevant timeframe may be a single year, the entire lifecycle of a product, or a specific project phase.
+		
+		- Organizational boundaries may include a parent company, subsidiaries, joint ventures, or specific divisions based on control, ownership, or influence.
+		
+		- Impact may include carbon emissions, energy use, water consumption, biodiversity impact, and waste generation.
+		
+		- Lifecycle boundaries may cover product or process evaluations (e.g., Life Cycle Assessment or LCA). If so, the boundary defines which stages of the lifecycle are included: Cradle-to-Grave: Includes all stages, from raw material extraction to disposal, Cradle-to-Gate: Covers stages up to the point where the product leaves the manufacturing facility. or Gate-to-Gate: Focuses on a specific segment of the lifecycle, such as manufacturing processes, for example.
+		
+		- Small, immaterial emissions sources might be excluded if their impact is negligible.
+		
+		- Stakeholder boundaries with respect to a given sustainability evaluation might include impacts on local communities or supply chain partners.",explanatoryNote
+TransitionUseOfProceedsProvision,transition use of proceeds provision,rdf-schema#label
+N118985cb8f834430b2404c8ecb5d973b,hasObjective,owl#onProperty
+Ncd7297f47a0f4ec7b64edd2dd401f675,hasAssessmentBoundary,owl#onProperty
+Nc65c32ebffbc4cafbe4ea21e8eed5f50,TransitionProject,owl#someValuesFrom
+TransitionStrategy,transition strategy,rdf-schema#label
+SustainabilityAndBusinessStrategy,or governance (ESG) perspective),core#definition
+SustainabilityAndBusinessStrategy,"or external. The KPIs must be material to the borrower's core sustainability and business strategy, and address relevant ESG challenges of its industry sector.",explanatoryNote
+SustainabilityStructuringAgent,owl#Class,22-rdf-syntax-ns#type
+Ncd7297f47a0f4ec7b64edd2dd401f675,AssessmentBoundary,owl#onClass
+SustainabilityKeyPerformanceIndicator,KeyPerformanceIndicator,rdf-schema#subClassOf
+SustainabilityBusinessObjective,objective related to improving the sustainability profile of the business,core#definition
+ObservedIndicatorValue,observed indicator value,rdf-schema#label
+Nce52c6d3b8714bdd9aedf84c99bdb374,owl#Restriction,22-rdf-syntax-ns#type
+Nc65c32ebffbc4cafbe4ea21e8eed5f50,owl#Restriction,22-rdf-syntax-ns#type
+N14533414fcd74882bf3aca8f4bfc5133,SustainabilityBusinessObjective,owl#someValuesFrom
+N5239a8930e0e4ef6b270f3f1d8cec171,owl#Restriction,22-rdf-syntax-ns#type
+AssessmentBoundary,N5239a8930e0e4ef6b270f3f1d8cec171,rdf-schema#subClassOf
+N6931e1476bfb43508ba5baeb641c69fb,0,owl#minQualifiedCardinality
+SustainabilityKeyPerformanceIndicatorIdentifier,Ncca91fcc0bbb4a7c8cecafb25dbd53e4,rdf-schema#subClassOf
+N6931e1476bfb43508ba5baeb641c69fb,owl#Restriction,22-rdf-syntax-ns#type
+SustainabilityKeyPerformanceIndicator,N9bc90c6593d84e20b4a5782c543e4242,rdf-schema#subClassOf
+AssessmentBoundary,N942ad4d8322344e985e55fdc20d019b0,rdf-schema#subClassOf
+Na29359c3a2684004b8d16e2fea694592,TargetIndicatorValue,owl#someValuesFrom
+N69f4f6099605445d9c9d4ee03ef811d5,GreenProjectUseOfProceedsProvision,owl#someValuesFrom
+N66434afa2c35443eab3814a38563d7c9,ScalarQuantityValue,owl#someValuesFrom
+N118985cb8f834430b2404c8ecb5d973b,SustainabilityBusinessObjective,owl#someValuesFrom
+AssessmentBoundary,N6955ff553ea24506ae062654808454f2,rdf-schema#subClassOf
+SustainabilityLinkedLoan,N4f2c4a41ea2f4844b66aa3819773c57d,rdf-schema#subClassOf
+N4ae7060acaf247f494a5a937f7d91454,isCalculatedViaMethodology,owl#onProperty
+SustainabilityPerformanceTargetIdentifier,ContextualIdentifier,rdf-schema#subClassOf
+Ne34cde05872542bd88fc346d62b775e5,hasContractualElement,owl#onProperty
+SustainabilityKeyPerformanceIndicator,owl#Class,22-rdf-syntax-ns#type
+N9bc90c6593d84e20b4a5782c543e4242,0,owl#minQualifiedCardinality
+N9bc90c6593d84e20b4a5782c543e4242,owl#Restriction,22-rdf-syntax-ns#type
+Ncca91fcc0bbb4a7c8cecafb25dbd53e4,owl#Restriction,22-rdf-syntax-ns#type
+N5a9fe82090eb43cd8ce64de679844fa9,owl#Restriction,22-rdf-syntax-ns#type
+SustainabilityAndBusinessStrategy,N118985cb8f834430b2404c8ecb5d973b,rdf-schema#subClassOf
+N021048a16da340abb2c4bedf76462f21,isMemberOf,owl#onProperty
+Nec281ca5ea0746f18b829b72d99bd24c,SustainabilityPerformanceTarget,owl#onClass
+ObservedIndicatorValue,N66434afa2c35443eab3814a38563d7c9,rdf-schema#subClassOf
+TransitionStrategy,N2bb73f117b4342ad9b7b2a94988098d4,rdf-schema#subClassOf
+GreenLoan,N2546edf5b9e64550af938dedd144750a,rdf-schema#subClassOf
+EnvironmentalProject,"Key characteristics of an environmental or sustainability project include achieving measurable positive environmental outcomes, and aligning with broader sustainability goals, such as those outlined in international frameworks (e.g., the United Nations Sustainable Development Goals (SDGs), Paris Agreement).",explanatoryNote
+N91b9448727794ad280c023a4e0fc96ae,CalculationPeriod,owl#someValuesFrom
+TransitionLoan,owl#Class,22-rdf-syntax-ns#type
+GreenLoan,Ne34cde05872542bd88fc346d62b775e5,rdf-schema#subClassOf
+Na29359c3a2684004b8d16e2fea694592,hasMember,owl#onProperty
+N4f2c4a41ea2f4844b66aa3819773c57d,owl#Restriction,22-rdf-syntax-ns#type
+Ncca91fcc0bbb4a7c8cecafb25dbd53e4,identifies,owl#onProperty
+SustainabilityKeyPerformanceIndicator,,adaptedFrom
+TransitionProject,"Borrowers must demonstrate a credible transition plan, which include: (a) clear sustainability performance targets (SPTs), (b) alignment with recognized climate goals and frameworks (e.g., the Science Based Targets initiative, SBTi), and (c) transparency in reporting progress and outcomes. Third-party verification or certification of the transition plan and its alignment with best practices is often required.",explanatoryNote
+TransitionLoan,CommercialLoan,rdf-schema#subClassOf
+N2a52e93a607b42169b281666f0c5b52e,hasSchedule,owl#onProperty
+hasSpatialBoundary,owl#ObjectProperty,22-rdf-syntax-ns#type
+EnvironmentalProject,environmental project,rdf-schema#label
+Nec281ca5ea0746f18b829b72d99bd24c,0,owl#minQualifiedCardinality
+SustainabilityAndBusinessStrategy,,adaptedFrom
+TransitionProject,owl#Class,22-rdf-syntax-ns#type
+SustainabilityLinkedLoan,,adaptedFrom
+N224d44b1e2d94ae6901dfc3c2e852646,DisclosureProvision,owl#someValuesFrom
+EnvironmentalProgram,"Key characteristics of an environmental or sustainability program include achieving measurable positive environmental outcomes, and aligning with broader sustainability goals, such as those outlined in international frameworks (e.g., the United Nations Sustainable Development Goals (SDGs), Paris Agreement). Large scale environmental programs may consist of a number of projects aimed at addressing specific requirements that support the broader challenges outlined under the program.",explanatoryNote
+N35f5f4700acc4d1fbbb44516805561dd,hasSchedule,owl#onProperty
+GreenProject,Green_Loan_Principles_23_February_2023.pdf,adaptedFrom
+TargetIndicatorValue,DatedCollectionConstituent,rdf-schema#subClassOf
+Na29359c3a2684004b8d16e2fea694592,owl#Restriction,22-rdf-syntax-ns#type
+TransitionLoan,Transition loans are part of the broader sustainable finance market and are specifically tailored for companies in industries that are not inherently green but are committed to adopting practices that align with a low-carbon or sustainable economy.,explanatoryNote
+SustainabilityPerformanceTarget,Na29359c3a2684004b8d16e2fea694592,rdf-schema#subClassOf
+Ndee948ceda64496f9d897eb006d30708,isGovernedBy,owl#onProperty
+TargetIndicatorValue,N6a759cd12cf349b390f650f475551f6e,rdf-schema#subClassOf
+N2a52e93a607b42169b281666f0c5b52e,MilestoneSchedule,owl#someValuesFrom
+N5239a8930e0e4ef6b270f3f1d8cec171,hasSpatialBoundary,owl#onProperty
+N4f2c4a41ea2f4844b66aa3819773c57d,0,owl#minQualifiedCardinality
+Ne34cde05872542bd88fc346d62b775e5,DisclosureProvision,owl#someValuesFrom
+Nfa867b868a334145b7759ab1640dc08c,owl#Restriction,22-rdf-syntax-ns#type
+GreenProjectUseOfProceedsProvision,LMA_Green_Loan_Principles_Booklet-220318.pdf.,source
+TransitionUseOfProceedsProvision,UseOfProceedsProvision,rdf-schema#subClassOf
+GreenProject,project-vs-programme,adaptedFrom
+hasSpatialBoundary,has spatial boundary,rdf-schema#label
+N5239a8930e0e4ef6b270f3f1d8cec171,GeographicRegion,owl#someValuesFrom
+GreenProject,"project that contributes to environmental sustainability by addressing climate change, conserving natural resources, reducing pollution, or promoting ecological balance",core#definition
+SustainabilityKeyPerformanceIndicator,N707f67c833794741af61c1c62ab7ef18,rdf-schema#subClassOf
+SustainabilityStructuringAgent,"This role is typically present in sustainability-linked loans (SLLs) or green loans, which tie the loan's terms to the borrower's environmental, social, and governance (ESG) performance. The sustainability structuring agent's role is crucial in ensuring that the loan's sustainability metrics align with both the borrower's goals and the expectations of the participating lenders.",explanatoryNote
+Nec281ca5ea0746f18b829b72d99bd24c,owl#Restriction,22-rdf-syntax-ns#type
+TransitionProject,"project that supports broad, sector-specific efforts to reduce environmental impact",core#definition
+TransitionLoan,N521a483d01b4440ca3eb7d621725714c,rdf-schema#subClassOf
+N942ad4d8322344e985e55fdc20d019b0,owl#Restriction,22-rdf-syntax-ns#type
+GreenProject,"The borrower must demonstrate that the project meets predefined eligibility criteria for green financing. These criteria are usually aligned with the taxonomy or standards set forth by the Green Loan Principles, the EU Taxonomy for Sustainable Activities, or other regional or international guidelines.",explanatoryNote
+SustainabilityPerformanceTarget,SPT,abbreviation
+SustainabilityAndBusinessStrategy,N6e182b56cd87406bb493c91a013b5299,rdf-schema#subClassOf
+GreenProjectUseOfProceedsProvision,"use of proceeds provision specifying that funds obtained through financing, such as through a credit agreement, offering, warrant, or other instrument are intended to be used for Green Projects (including other related and supporting expenditures, including research and development)",core#definition
+SustainabilityLinkedLoan,CreditAgreementRepaidPeriodically,rdf-schema#subClassOf
+Na16560f3960d4b569a0c551cf2bde796,CalculationPeriod,owl#someValuesFrom
+N021048a16da340abb2c4bedf76462f21,EnvironmentalProgram,owl#onClass
+N69f4f6099605445d9c9d4ee03ef811d5,hasContractualElement,owl#onProperty
+SustainabilityKeyPerformanceIndicator,or industry peers where feasible.,explanatoryNote
+,Provisional,hasMaturityLevel
+TransitionLoan,CreditAgreementRepaidPeriodically,rdf-schema#subClassOf
+,MIT,license
+Ncca91fcc0bbb4a7c8cecafb25dbd53e4,SustainabilityKeyPerformanceIndicator,owl#someValuesFrom
+Nf4e3a84816cb4997a1c842355bcd50c2,identifies,owl#onProperty
+ObservedIndicatorValue,DatedCollectionConstituent,rdf-schema#subClassOf
+AssessmentBoundary,N82bd97835d61405ea0ba0188323bc981,rdf-schema#subClassOf
+N6e5d17c530f54101b6d5533eb51acfbf,hasContractualElement,owl#onProperty
+SustainabilityLinkedLoan,N5a9fe82090eb43cd8ce64de679844fa9,rdf-schema#subClassOf
+TargetIndicatorValue,target value for a key performance indicator as of a specific date and time,core#definition
+N34cfaceab6a04febaf7dfb7feacc0b9d,isIdentifiedBy,owl#onProperty
+N82bd97835d61405ea0ba0188323bc981,isApplicableIn,owl#onProperty
+Ne34cde05872542bd88fc346d62b775e5,owl#Restriction,22-rdf-syntax-ns#type
+AssessmentBoundary,"defined scope, limits, and criteria used to determine what is included or excluded in an evaluation, analysis, or measurement of environmental impacts, sustainability performance, or related objectives",core#definition
+EnvironmentalProject,N021048a16da340abb2c4bedf76462f21,rdf-schema#subClassOf
+SustainabilityPerformanceTargetIdentifier,Nf4e3a84816cb4997a1c842355bcd50c2,rdf-schema#subClassOf
+TransitionLoan,"Transition loans are structured to assist companies in reducing greenhouse gas (GHG) emissions, improving energy efficiency, adopting renewable energy sources, or meeting other sustainability targets aligned with climate transition goals. They support initiatives such as retrofitting fossil fuel-based systems, decarbonizing supply chains, or adopting cleaner production methods. Transition loans align with emerging Climate Transition Finance principles (developed by groups such as the International Capital Market Association, ICMA). Borrowers are expected to demonstrate that the loan aligns with long-term, science-based climate goals, such as those outlined in the Paris Agreement (e.g., limiting global warming to well below 2°C).",explanatoryNote
+hasSpatialBoundary,"specifies a geographic region included in an environmental or sustainability assessment, which may cover a specific site, facility, region, or the global operations of a company or project",core#definition
+N521a483d01b4440ca3eb7d621725714c,hasMilestoneProvision,owl#onProperty
+Nf4e3a84816cb4997a1c842355bcd50c2,SustainabilityPerformanceTarget,owl#someValuesFrom
+SustainabilityPerformanceTarget,Na16560f3960d4b569a0c551cf2bde796,rdf-schema#subClassOf
+N224d44b1e2d94ae6901dfc3c2e852646,owl#Restriction,22-rdf-syntax-ns#type
+N6a759cd12cf349b390f650f475551f6e,hasQuantityValue,owl#onProperty
+N2546edf5b9e64550af938dedd144750a,hasMilestoneProvision,owl#onProperty
+N4f2c4a41ea2f4844b66aa3819773c57d,ContractMilestone,owl#onClass
+N82bd97835d61405ea0ba0188323bc981,Jurisdiction,owl#onClass
+EnvironmentalProject,"Such projects are designed to align with environmental goals, such as mitigating climate change, conserving natural resources, protecting biodiversity, and promoting a circular economy.",explanatoryNote
+SustainabilityLinkedLoan,Ne866f10e1e3b47b0b260e7a9dc109432,rdf-schema#subClassOf
+ObservedIndicatorValueStructure,N91b9448727794ad280c023a4e0fc96ae,rdf-schema#subClassOf
+TransitionProject,Ndee948ceda64496f9d897eb006d30708,rdf-schema#subClassOf
+EnvironmentalProject,N2a52e93a607b42169b281666f0c5b52e,rdf-schema#subClassOf
+SustainabilityKeyPerformanceIndicator,sustainability key performance indicator,rdf-schema#label
+Na955a61d53ef493297172971e19c6ab6,SustainabilityPerformanceTarget,owl#onClass
+N4f2c4a41ea2f4844b66aa3819773c57d,hasMilestoneProvision,owl#onProperty
+ObservedIndicatorValueStructure,observed indicator value structure,rdf-schema#label
+EnvironmentalProgram,environmental program,rdf-schema#label
+Ne866f10e1e3b47b0b260e7a9dc109432,hasContractualElement,owl#onProperty
+N2bb73f117b4342ad9b7b2a94988098d4,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2024 Object Management Group, Inc.",copyright
+N4ae7060acaf247f494a5a937f7d91454,owl#Restriction,22-rdf-syntax-ns#type
+GreenProject,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+GreenLoan,or existing eligible green projects that are aligned to the four core components of the Green Loan Principles (GLP),core#definition
+Nd675972d9b704a6ebd5c5de9c3c7037d,owl#Restriction,22-rdf-syntax-ns#type
+TransitionStrategy,BusinessStrategy,rdf-schema#subClassOf
+SustainabilityPerformanceTarget,N4ae7060acaf247f494a5a937f7d91454,rdf-schema#subClassOf
+SustainabilityAndBusinessStrategy,BusinessStrategy,rdf-schema#subClassOf
+SustainabilityPerformanceTarget,"The process for calibration of the SPT(s) per KPI is key to the structuring of SLLs, since it will be the expression of the level of ambition the borrower is ready to commit to. The SPTs must be set in good faith and remain relevant (so long as they apply) and ambitious throughout the life of the loan.",explanatoryNote
+Ndee948ceda64496f9d897eb006d30708,owl#Restriction,22-rdf-syntax-ns#type
+N707f67c833794741af61c1c62ab7ef18,0,owl#minQualifiedCardinality
+EnvironmentalProgram,N1b47be0de52840eb8f0a46cd10572ee2,rdf-schema#subClassOf
+GreenProject,"Examples include: renewable energy projects (e.g., solar, wind, hydroelectric power), green buildings certified by recognized standards (e.g., LEED, BREEAM), sustainable water and wastewater management systems, pollution reduction technologies and systems, sustainable forestry and agriculture initiatives, circular economy projects, such as recycling or waste-to-energy facilities, low-carbon transportation infrastructure (e.g., electric vehicle charging stations, public transit projects), and the like.",core#example
+SustainabilityBusinessObjective,The borrower of an SLL should clearly communicate to its lenders its sustainability objective(s) and how such objectives align with its proposed sustainability performance targets (SPTs).,explanatoryNote
+N2bb73f117b4342ad9b7b2a94988098d4,isCharacterizedBy,owl#onProperty
+GreenProjectUseOfProceedsProvision,Ndcffc71d3801448c91017ecd9e8c9cf3,rdf-schema#subClassOf
+Nd675972d9b704a6ebd5c5de9c3c7037d,hasMember,owl#onProperty
+SustainabilityAndBusinessStrategy,sustainability and business strategy,rdf-schema#label
+TransitionStrategy,strategy for achieving specific business objectives related to sustainability in the context of long-term decarbonization or sustainability transitions,core#definition
+N707f67c833794741af61c1c62ab7ef18,owl#Restriction,22-rdf-syntax-ns#type
+N6931e1476bfb43508ba5baeb641c69fb,hasSchedule,owl#onProperty
+SustainabilityStructuringAgent,"financial institution appointed to help design, implement, and monitor the sustainability aspects of a syndicated green loan",core#definition
+GreenProjectUseOfProceedsProvision,green project use of proceeds provision,rdf-schema#label
+N2546edf5b9e64550af938dedd144750a,0,owl#minQualifiedCardinality
+N2546edf5b9e64550af938dedd144750a,owl#Restriction,22-rdf-syntax-ns#type
+EnvironmentalProject,"specific initiative, activity, or investment aimed at improving environmental sustainability, reducing ecological harm, or addressing environmental challenges",core#definition
+GreenProject,"Green projects must align with established green finance principles, such as the Green Loan Principles (GLP) issued by the Loan Market Association (LMA), or other recognized sustainability frameworks.",explanatoryNote
+TransitionLoan,Nce52c6d3b8714bdd9aedf84c99bdb374,rdf-schema#subClassOf
+GreenProject,"To qualify as a green project within a green loan: (a) the project must meet use-of-proceeds requirements, meaning that funds must be exclusively allocated to activities that qualify as green, (b) the borrower must establish clear processes for evaluating and selecting eligible projects, (c) there must be transparency in how funds are managed and allocated, often verified through audits or certifications, and (d) the borrower must report regularly on the environmental impact of the project, typically through measurable metrics (e.g., tons of CO₂ avoided, energy saved).",explanatoryNote
+TransitionLoan,N224d44b1e2d94ae6901dfc3c2e852646,rdf-schema#subClassOf
+ObservedIndicatorValueStructure,Nd675972d9b704a6ebd5c5de9c3c7037d,rdf-schema#subClassOf
+N91b9448727794ad280c023a4e0fc96ae,hasDatePeriod,owl#onProperty
+N6955ff553ea24506ae062654808454f2,involves,owl#onProperty
+SustainabilityKeyPerformanceIndicatorIdentifier,owl#Class,22-rdf-syntax-ns#type
+SustainabilityKeyPerformanceIndicator,measurable performance indicator that is sustainability specific,core#definition
+hasAssessmentBoundary,AssessmentBoundary,rdf-schema#range
+GreenProjectUseOfProceedsProvision,UseOfProceedsProvision,rdf-schema#subClassOf
+Nce52c6d3b8714bdd9aedf84c99bdb374,hasSchedule,owl#onProperty
+GreenProject,N58f6702e6d5c4dbd9cb159e6fb878fdc,rdf-schema#subClassOf
+N521a483d01b4440ca3eb7d621725714c,0,owl#minQualifiedCardinality
+Na955a61d53ef493297172971e19c6ab6,0,owl#minQualifiedCardinality
+N942ad4d8322344e985e55fdc20d019b0,appliesTo,owl#onProperty
+N1272f8e212f740d5b99168bfa0cf6221,TransitionStrategy,owl#someValuesFrom
+,"Copyright (c) 2024 EDM Council, Inc.",copyright
+N9b6afd350ad84a6c806fcfb7be817b1b,isEvidencedBy,owl#onProperty
+,Green Loans Ontology,rdf-schema#label
+GreenLoan,"Example categories of eligibility contained in the LMA's Green Loan Principles (GLP) include loans designed to facilitate renewable energy, energy efficiency, climate change adaptation and green buildings that meet regional, national or internationally recognised standards or certifications.",core#example
+N9b6afd350ad84a6c806fcfb7be817b1b,owl#Restriction,22-rdf-syntax-ns#type
+EnvironmentalProgram,N3608fbb68f8b4073bf9769db32dd1045,rdf-schema#subClassOf
+GreenProject,green project,rdf-schema#label
+N82bd97835d61405ea0ba0188323bc981,0,owl#minQualifiedCardinality
+N82bd97835d61405ea0ba0188323bc981,owl#Restriction,22-rdf-syntax-ns#type
+N34cfaceab6a04febaf7dfb7feacc0b9d,0,owl#minQualifiedCardinality
+N34cfaceab6a04febaf7dfb7feacc0b9d,owl#Restriction,22-rdf-syntax-ns#type
+SustainabilityStructuringAgent,SyndicateMember,rdf-schema#subClassOf
+Ndee948ceda64496f9d897eb006d30708,TransitionUseOfProceedsProvision,owl#someValuesFrom
+GreenProject,EnvironmentalProject,rdf-schema#subClassOf
+TargetIndicatorValue,owl#Class,22-rdf-syntax-ns#type
+N5a9fe82090eb43cd8ce64de679844fa9,SustainabilityAndBusinessStrategy,owl#someValuesFrom
+TransitionProject,"Green loans focus on funding projects with direct and measurable environmental benefits (e.g., solar farms, green buildings). Transition loans are for broader initiatives aimed at improving sustainability in traditionally carbon-intensive sectors.",explanatoryNote
+AssessmentBoundary,Specification,rdf-schema#subClassOf
+N6e5d17c530f54101b6d5533eb51acfbf,owl#Restriction,22-rdf-syntax-ns#type
+Ndcffc71d3801448c91017ecd9e8c9cf3,owl#Restriction,22-rdf-syntax-ns#type
+hasSpatialBoundary,hasRegion,rdf-schema#subPropertyOf
+Na955a61d53ef493297172971e19c6ab6,owl#Restriction,22-rdf-syntax-ns#type
+N521a483d01b4440ca3eb7d621725714c,owl#Restriction,22-rdf-syntax-ns#type
+TransitionLoan,N6e5d17c530f54101b6d5533eb51acfbf,rdf-schema#subClassOf
+N14533414fcd74882bf3aca8f4bfc5133,owl#Restriction,22-rdf-syntax-ns#type
+SustainabilityPerformanceTargetIdentifier,sustainability performance target identifier,rdf-schema#label
+N6e182b56cd87406bb493c91a013b5299,owl#Restriction,22-rdf-syntax-ns#type
+Nfa867b868a334145b7759ab1640dc08c,isCharacterizedBy,owl#onProperty
+EnvironmentalProject,Project,rdf-schema#subClassOf
+Ne866f10e1e3b47b0b260e7a9dc109432,DisclosureProvision,owl#someValuesFrom
+N2bb73f117b4342ad9b7b2a94988098d4,SustainabilityKeyPerformanceIndicator,owl#someValuesFrom
+SustainabilityBusinessObjective,owl#Class,22-rdf-syntax-ns#type
+Nd675972d9b704a6ebd5c5de9c3c7037d,ObservedIndicatorValue,owl#someValuesFrom
+N35f5f4700acc4d1fbbb44516805561dd,MilestoneSchedule,owl#onClass
+EnvironmentalProgram,Program,rdf-schema#subClassOf
+TransitionProject,EnvironmentalProject,rdf-schema#subClassOf

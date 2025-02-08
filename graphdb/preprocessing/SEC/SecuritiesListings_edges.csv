@@ -1,0 +1,190 @@
+source_id,target_id,relationship
+Listing,N366159301c284bbdbe140cad3ab566fb,rdf-schema#subClassOf
+Nf1635f8084de4fa5868a7f8b0aa89a46,owl#Restriction,22-rdf-syntax-ns#type
+N882ceb42724f4a0b93a04c1a05729f17,BookEntryForm,22-rdf-syntax-ns#first
+,"SecuritiesListings.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+,Securities Listings Ontology,rdf-schema#label
+isListedVia,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2018-2023 Object Management Group, Inc.",copyright
+Nd512212154ce4040ba569f7b06575ff8,0,owl#minQualifiedCardinality
+Listing,Na0e09e16fd854e09adb1984152a03fb3,rdf-schema#subClassOf
+N78981a660bbd4159927ca5c75034d0ce,0,owl#minQualifiedCardinality
+Listing,Nf1635f8084de4fa5868a7f8b0aa89a46,rdf-schema#subClassOf
+RegisteredSecurity,N7a400142ff174b30aee5e50ad0dcf25c,rdf-schema#subClassOf
+isTradedOn,identifies the trading facility on which the security is traded,core#definition
+N0854cf561c054882a3840bac6409deb5,1,owl#qualifiedCardinality
+hasDelistingDate,specifies the date set by the exchange for delisting a security,core#definition
+hasListingDate,indicates the date on which a security is listed,core#definition
+RegisteredSecurity,security that is registered with some registration authority,core#definition
+Ne801260740e340bca42c745cab20ed46,owl#Class,22-rdf-syntax-ns#type
+Na0e09e16fd854e09adb1984152a03fb3,owl#Restriction,22-rdf-syntax-ns#type
+,SecuritiesListings.rdf version of this ontology was modified to normalize the representation of security forms (all individuals rather than a mixed representation).,core#changeNote
+N2823f58510714c349c6023f94a1b4378,0,owl#minQualifiedCardinality
+hasHomeExchange,owl#ObjectProperty,22-rdf-syntax-ns#type
+ListedSecurity,Nc638d29e1d164f12a239e367609b9f8f,rdf-schema#subClassOf
+hasTickSize,Listing,rdf-schema#domain
+,SecuritiesListings.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Nf5ad909b5d924f1a877cbcbb093b6a9b,owl#Restriction,22-rdf-syntax-ns#type
+N0bcba1fb20024cbf81a5e469dd28cc32,isIssuedInForm,owl#onProperty
+N7a400142ff174b30aee5e50ad0dcf25c,owl#Restriction,22-rdf-syntax-ns#type
+N339008a4a2904960b838f8414fa0017e,hasLotSize,owl#onProperty
+Nf1635f8084de4fa5868a7f8b0aa89a46,lists,owl#onProperty
+N882ceb42724f4a0b93a04c1a05729f17,N6564338dd2fd44c7bbb9464a8f3d2b16,22-rdf-syntax-ns#rest
+N366159301c284bbdbe140cad3ab566fb,owl#Restriction,22-rdf-syntax-ns#type
+N3bb7d44be9434d3eb5f8ac7e8091c5b1,CombinedDateTime,owl#onDataRange
+isSeasoned,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N6a6df98b1da84833996f1e449eeb74ad,owl#Restriction,22-rdf-syntax-ns#type
+hasTickSize,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nd512212154ce4040ba569f7b06575ff8,Exchange,owl#onClass
+N0854cf561c054882a3840bac6409deb5,Exchange,owl#onClass
+Listing,catalog entry for a securities offering managed by an exchange that provides the terms under which that security is made available on that exchange,core#definition
+hasLastTradingDateTime,has last trading date and time,rdf-schema#label
+Nf5f799ff091243f1a0818c80e4f7eba2,provides,owl#onProperty
+isListedVia,Listing,rdf-schema#range
+isTradedOn,isProvidedBy,rdf-schema#subPropertyOf
+,"SecuritiesListings.rdf version of this ontology was revised to eliminate an unused ontology import, changed the range of hasLotSize to xsd:decimal, and modified the definition of listing to point to an offering rather than directly to the instrument that the offering pertains to.",core#changeNote
+Nc638d29e1d164f12a239e367609b9f8f,isListedVia,owl#onProperty
+RegisteredSecurity,registered security,rdf-schema#label
+N2823f58510714c349c6023f94a1b4378,Exchange,owl#onClass
+N2823f58510714c349c6023f94a1b4378,isProvisionedBy,owl#onProperty
+ListedSecurity,registered security listed on at least one exchange,core#definition
+isTradedOn,ListedSecurity,rdf-schema#domain
+,,owl#imports
+hasOriginalPlaceOfListing,indicates the original exchange that listed the security,core#definition
+N78981a660bbd4159927ca5c75034d0ce,Listing,owl#onClass
+Na0e09e16fd854e09adb1984152a03fb3,RegistrationStatus,owl#onClass
+ListingService,owl#Class,22-rdf-syntax-ns#type
+Nf0b6b4ffc92b4c8e88287022277b1390,owl#Restriction,22-rdf-syntax-ns#type
+Nad78bbada0cc4f21a24fdbe1fad5bb92,owl#Restriction,22-rdf-syntax-ns#type
+hasOriginalPlaceOfListing,has original place of listing,rdf-schema#label
+isTradedOn,is traded on,rdf-schema#label
+N198cf1d9c29e4317ba8721f4b3125412,owl#Restriction,22-rdf-syntax-ns#type
+N78981a660bbd4159927ca5c75034d0ce,provides,owl#onProperty
+isSeasoned,Short-term volatility may be with respect to price or trading volume.,explanatoryNote
+RegisteredSecurity,Nf0b6b4ffc92b4c8e88287022277b1390,rdf-schema#subClassOf
+N0bcba1fb20024cbf81a5e469dd28cc32,owl#Restriction,22-rdf-syntax-ns#type
+RegisteredSecurity,owl#Class,22-rdf-syntax-ns#type
+,SecuritiesListings.rdf version of this ontology was revised to eliminate duplication of concepts in LCC and to eliminate the redundancy between hasIssue and lists.,core#changeNote
+hasHomeExchange,has home exchange,rdf-schema#label
+N366159301c284bbdbe140cad3ab566fb,DateTime,owl#onClass
+Nad78bbada0cc4f21a24fdbe1fad5bb92,Currency,owl#someValuesFrom
+N366159301c284bbdbe140cad3ab566fb,hasLastTradingDateTime,owl#onProperty
+N6a6df98b1da84833996f1e449eeb74ad,1,owl#qualifiedCardinality
+isSeasoned,XMLSchema#boolean,rdf-schema#range
+N7a400142ff174b30aee5e50ad0dcf25c,isRegisteredWith,owl#onProperty
+,,owl#versionIRI
+Nd512212154ce4040ba569f7b06575ff8,owl#Restriction,22-rdf-syntax-ns#type
+hasListingDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+hasLastTradingDateTime,specifies the last date and time that the security was traded on the exchange,core#definition
+,"Copyright (c) 2016-2023 EDM Council, Inc.",copyright
+Nf0b6b4ffc92b4c8e88287022277b1390,CombinedDateTime,owl#someValuesFrom
+isListedVia,identifies the service responsible for listing the security,core#definition
+N366159301c284bbdbe140cad3ab566fb,0,owl#minQualifiedCardinality
+isListedVia,ListedSecurity,rdf-schema#domain
+Ne801260740e340bca42c745cab20ed46,Na0b5210150634f49b4f58a8bd8998e4f,owl#oneOf
+,"SecuritiesListings.rdf version of this ontology was revised to eliminate confusion between listed security and listing (which caused reasoning issues), adjust definitions to eliminate ambiguity, add a property for lot size on listing, and eliminate the now redundant and confusing registered security form class.",core#changeNote
+hasHomeExchange,isProvidedBy,rdf-schema#subPropertyOf
+N6a6df98b1da84833996f1e449eeb74ad,hasHomeExchange,owl#onProperty
+lists,lists,rdf-schema#label
+N6564338dd2fd44c7bbb9464a8f3d2b16,RegisteredForm,22-rdf-syntax-ns#first
+ListedSecurity,owl#Class,22-rdf-syntax-ns#type
+isSeasoned,indicates that the security has been publicly traded long enough to eliminate any short-term volume volatility from its initial public offering,core#definition
+hasHomeExchange,"A security may have been originally listed on the Frankfurt exchange, but its current home is the London Stock Exchange, for example.",core#example
+N3bb7d44be9434d3eb5f8ac7e8091c5b1,owl#Restriction,22-rdf-syntax-ns#type
+lists,ListedSecurity,rdf-schema#range
+hasTickSize,has tick size,rdf-schema#label
+Nf1635f8084de4fa5868a7f8b0aa89a46,1,owl#qualifiedCardinality
+Listing,Nad78bbada0cc4f21a24fdbe1fad5bb92,rdf-schema#subClassOf
+N339008a4a2904960b838f8414fa0017e,owl#Restriction,22-rdf-syntax-ns#type
+N0854cf561c054882a3840bac6409deb5,hasOriginalPlaceOfListing,owl#onProperty
+ListedSecurity,exchange-traded security,synonym
+hasTickSize,MonetaryAmount,rdf-schema#range
+Exchange,Nf5f799ff091243f1a0818c80e4f7eba2,rdf-schema#subClassOf
+Nf1635f8084de4fa5868a7f8b0aa89a46,SecuritiesOffering,owl#onClass
+hasDelistingDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasTickSize,hasMonetaryAmount,rdf-schema#subPropertyOf
+ListedSecurity,listed security,rdf-schema#label
+N198cf1d9c29e4317ba8721f4b3125412,0,owl#minQualifiedCardinality
+N198cf1d9c29e4317ba8721f4b3125412,hasTickSize,owl#onProperty
+Nad78bbada0cc4f21a24fdbe1fad5bb92,hasCurrency,owl#onProperty
+ListingService,N2823f58510714c349c6023f94a1b4378,rdf-schema#subClassOf
+Listing,N3bb7d44be9434d3eb5f8ac7e8091c5b1,rdf-schema#subClassOf
+,"This ontology defines the fundamental concepts for listing securities, such as registered, listed, and exchange-traded security, the notion of a securities exchange, and related services.",abstract
+Na0e09e16fd854e09adb1984152a03fb3,hasRegistrationStatus,owl#onProperty
+lists,Listing,rdf-schema#domain
+Nf5ad909b5d924f1a877cbcbb093b6a9b,hasDelistingDate,owl#onProperty
+isSeasoned,is seasoned,rdf-schema#label
+,SecuritiesListings.rdf version of this ontology was revised to reuse the composite date value datatype and add disjointness between registered security and exempt security.,core#changeNote
+N0854cf561c054882a3840bac6409deb5,owl#Restriction,22-rdf-syntax-ns#type
+,"SecuritiesListings.rdf version of this ontology was revised to rename isIssuedIn to isIssuedOn, which is more natural to most securities SMEs, generalized certain references to securities exchanges, and eliminate deprecated elements.",core#changeNote
+isSeasoned,ListedSecurity,rdf-schema#domain
+Nc638d29e1d164f12a239e367609b9f8f,Listing,owl#someValuesFrom
+Listing,N198cf1d9c29e4317ba8721f4b3125412,rdf-schema#subClassOf
+Nd512212154ce4040ba569f7b06575ff8,isProvidedBy,owl#onProperty
+ListingService,listing service,rdf-schema#label
+hasOriginalPlaceOfListing,Exchange,rdf-schema#range
+N198cf1d9c29e4317ba8721f4b3125412,MonetaryAmount,owl#onClass
+N0bcba1fb20024cbf81a5e469dd28cc32,Ne801260740e340bca42c745cab20ed46,owl#someValuesFrom
+isTradedOn,Exchange,rdf-schema#range
+ListingService,FinancialService,rdf-schema#subClassOf
+Na0b5210150634f49b4f58a8bd8998e4f,BearerAndRegisteredForm,22-rdf-syntax-ns#first
+N7a400142ff174b30aee5e50ad0dcf25c,RegistrationAuthority,owl#someValuesFrom
+Listing,owl#Class,22-rdf-syntax-ns#type
+,SecuritiesListings.rdf version of this ontology was revised to eliminate an extraneous subclass axiom.,core#changeNote
+N339008a4a2904960b838f8414fa0017e,XMLSchema#decimal,owl#onDataRange
+hasListingDate,has listing date,rdf-schema#label
+Listing,N339008a4a2904960b838f8414fa0017e,rdf-schema#subClassOf
+Listing,Nf5ad909b5d924f1a877cbcbb093b6a9b,rdf-schema#subClassOf
+Listing,listing,rdf-schema#label
+Na0e09e16fd854e09adb1984152a03fb3,1,owl#maxQualifiedCardinality
+,SecuritiesListings.rdf version of this ontology was revised to eliminate a false positive hygiene testing issue due to a concept whose name included 'and' but that actually was a singular concept.,core#changeNote
+Nf5ad909b5d924f1a877cbcbb093b6a9b,CombinedDateTime,owl#onDataRange
+Exchange,owl#Class,22-rdf-syntax-ns#type
+hasHomeExchange,has primary market,synonym
+RegisteredSecurity,N0bcba1fb20024cbf81a5e469dd28cc32,rdf-schema#subClassOf
+Nf5f799ff091243f1a0818c80e4f7eba2,ListingService,owl#someValuesFrom
+hasLastTradingDateTime,DateTime,rdf-schema#range
+,Release,hasMaturityLevel
+ListingService,Nd512212154ce4040ba569f7b06575ff8,rdf-schema#subClassOf
+,MIT,license
+hasLastTradingDateTime,Listing,rdf-schema#domain
+RegisteredSecurity,ExemptSecurity,owl#disjointWith
+hasHomeExchange,has primary trading market,synonym
+hasHomeExchange,"A primary market is one that issues new securities on an exchange for companies, governments, and other groups to obtain financing through debt-based or equity-based securities.",explanatoryNote
+hasTickSize,specifies a minimum price movement for the security with respect to an exchange,core#definition
+N78981a660bbd4159927ca5c75034d0ce,owl#Restriction,22-rdf-syntax-ns#type
+isListedVia,lists,owl#inverseOf
+lists,relates a given exchange-specific security listing to its issue,core#definition
+Nf5ad909b5d924f1a877cbcbb093b6a9b,0,owl#minQualifiedCardinality
+ListedSecurity,RegisteredSecurity,rdf-schema#subClassOf
+hasDelistingDate,has delisting date,rdf-schema#label
+N6564338dd2fd44c7bbb9464a8f3d2b16,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N3bb7d44be9434d3eb5f8ac7e8091c5b1,hasListingDate,owl#onProperty
+Nc638d29e1d164f12a239e367609b9f8f,owl#Restriction,22-rdf-syntax-ns#type
+hasOriginalPlaceOfListing,owl#ObjectProperty,22-rdf-syntax-ns#type
+ListedSecurity,"One can, as appropriate, multiply classify a share as being a common share and listed share, and, in the case whereby multiple securities are issued in different currencies (i.e., there are multiple listed shares corresponding to a given common share that have different identifiers, including more than one ISIN, CUSIP, share class FIGI), multiply classify the listed share individuals as individuals of the same common share.",usageNote
+lists,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nf0b6b4ffc92b4c8e88287022277b1390,hasRegistrationDate,owl#onProperty
+isTradedOn,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasHomeExchange,Exchange,rdf-schema#range
+N2823f58510714c349c6023f94a1b4378,owl#Restriction,22-rdf-syntax-ns#type
+ListingService,service provided by an exchange to facilitate securities trading,core#definition
+hasLastTradingDateTime,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasListingDate,CombinedDateTime,rdf-schema#range
+Listing,market listing,synonym
+,SecuritiesListings.rdf version of this ontology was revised to restructure the concept of a listing and augment it with a number of relevant characteristics.,core#changeNote
+hasLastTradingDateTime,hasDateTime,rdf-schema#subPropertyOf
+Na0b5210150634f49b4f58a8bd8998e4f,N882ceb42724f4a0b93a04c1a05729f17,22-rdf-syntax-ns#rest
+ListedSecurity,N0854cf561c054882a3840bac6409deb5,rdf-schema#subClassOf
+N339008a4a2904960b838f8414fa0017e,0,owl#minQualifiedCardinality
+RegisteredSecurity,Security,rdf-schema#subClassOf
+isListedVia,is listed via,rdf-schema#label
+N3bb7d44be9434d3eb5f8ac7e8091c5b1,1,owl#qualifiedCardinality
+ListedSecurity,N6a6df98b1da84833996f1e449eeb74ad,rdf-schema#subClassOf
+N6a6df98b1da84833996f1e449eeb74ad,Exchange,owl#onClass
+,SecuritiesListings.rdf version of this ontology was revised to incorporate the form of registration and loosen the restriction on the number of possible registration authorities for a registered security.,core#changeNote
+hasHomeExchange,"indicates the exchange that is considered the primary market for a security; typically, but not always, in the country in which the security was originally issued",core#definition
+ListingService,N78981a660bbd4159927ca5c75034d0ce,rdf-schema#subClassOf
+Nf5f799ff091243f1a0818c80e4f7eba2,owl#Restriction,22-rdf-syntax-ns#type
+hasDelistingDate,CombinedDateTime,rdf-schema#range

@@ -1,0 +1,323 @@
+source_id,target_id,relationship
+Nce2e241613e44ef0a3a37c6b33c0a6ab,owl#Restriction,22-rdf-syntax-ns#type
+ServiceAgreement,owl#Class,22-rdf-syntax-ns#type
+N78c89069b733493f830cebe544f41e19,owl#Class,22-rdf-syntax-ns#type
+Consumer,PartyRole,rdf-schema#subClassOf
+Ne32c1cfc08f54a4493ef46c98a34dd68,owl#Restriction,22-rdf-syntax-ns#type
+ProductIdentifier,owl#Class,22-rdf-syntax-ns#type
+Ne88d1a57efe44937bf2a5127192bf4ed,owl#Restriction,22-rdf-syntax-ns#type
+Nb47b4d4444c5480c832cd7778e7003e3,owl#Restriction,22-rdf-syntax-ns#type
+N635bf59894f9443d9bad9cc30dcbccda,buysFrom,owl#onProperty
+isSuppliedBy,is supplied by,rdf-schema#label
+Nbdbb9ee340024891849005bebe1c0f1b,isEvidencedBy,owl#onProperty
+OffTheShelfProduct,Product,rdf-schema#subClassOf
+Service,N64f70cf01a854ce8bcbc095e4ff029e6,rdf-schema#subClassOf
+Consumer,"The general notion of a consumer includes an end user, and is not limited to a purchaser, in the distribution chain of a good or service",explanatoryNote
+supplies,provides,rdf-schema#subPropertyOf
+N66ebf81cd5704600aba3fd9301e20eb0,owl#Restriction,22-rdf-syntax-ns#type
+Nbdbb9ee340024891849005bebe1c0f1b,owl#Restriction,22-rdf-syntax-ns#type
+ContractualProduct,contractual product,rdf-schema#label
+,ProductsAndServices.rdf version of this ontology was revised to eliminate deprecated elements.,core#changeNote
+ClientIdentifier,client identifier,rdf-schema#label
+OffTheShelfProduct,COTS product,abbreviation
+CustomerIdentifier,customer identifier,rdf-schema#label
+N9e00f7212c3d49cba399992c144b6801,Product,owl#onClass
+ServiceProvider,N71bfb3275a1a4604a3ce1fdd8a4fb7fe,rdf-schema#subClassOf
+N42604ba5276547f5bfa2c8b127f5686c,Product,owl#someValuesFrom
+ServiceAgreement,service contract,synonym
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,,owl#versionIRI
+Ned842fd6eed940ed96a460b60fb5d1bc,produces,owl#onProperty
+hasBuyer,owl#ObjectProperty,22-rdf-syntax-ns#type
+Producer,Ned842fd6eed940ed96a460b60fb5d1bc,rdf-schema#subClassOf
+,"This ontology defines fundamental concepts for buyers, sellers, clients, customers, products, goods and services for use in other FIBO ontologies.",abstract
+Nf83fcdabf63e4988a95461902e79346d,ContractualRight,22-rdf-syntax-ns#first
+ServiceProvider,N77d669dc4f6b4a05b803afcf11f47cf1,rdf-schema#subClassOf
+ServiceAgreement,MutualContractualAgreement,rdf-schema#subClassOf
+CustomProduct,made to order product,synonym
+sells,Product,rdf-schema#range
+Product,"Financial products include contracts that are developed via a financial service-specific process, such as a life insurance policy, demand deposit account or financial instrument, for example. Leases and rentals are similar in that they are initiated via some contractual development process, wherein the product is the right to use something for some period of time.",explanatoryNote
+N77d669dc4f6b4a05b803afcf11f47cf1,Service,owl#someValuesFrom
+PreciousMetal,NegotiableCommodity,rdf-schema#subClassOf
+Producer,"grower, maker, fabricator, or manufacturer of some product or other good",core#definition
+ServiceProvider,Role,rdf-schema#subClassOf
+Sale,TransactionEvent,rdf-schema#subClassOf
+Sale,N641bde6ede844b518971d7fe1372f9a5,rdf-schema#subClassOf
+CustomerIdentifier,owl#Class,22-rdf-syntax-ns#type
+Nff52e405488a4b52b2a7529aefae1cef,owl#Restriction,22-rdf-syntax-ns#type
+ProductIdentifier,product identifier,rdf-schema#label
+,ProductsAndServices.rdf version of the ontology was modified to replace the definition of real estate with the new definition in the real property ontology (LOAN-168).,core#changeNote
+hasBuyer,indicates the purchasing party in the context of a sales transaction,core#definition
+Nb0d11b8385a845b5b29b286c52663d2e,Good,22-rdf-syntax-ns#first
+N71bfb3275a1a4604a3ce1fdd8a4fb7fe,provisions,owl#onProperty
+ServiceProvider,owl#Class,22-rdf-syntax-ns#type
+Product,product,rdf-schema#label
+sells,owl#ObjectProperty,22-rdf-syntax-ns#type
+isSuppliedBy,Product,rdf-schema#domain
+OffTheShelfProduct,commercial off-the-shelf product,synonym
+Buyer,purchaser,synonym
+ServiceAgreement,service agreement,rdf-schema#label
+TransactionConfirmation,LegalDocument,rdf-schema#subClassOf
+Product,"commercially distributed good that is (1) tangible property, (2) the output or result of a fabrication, manufacturing, or production process, or (3) something that passes through a distribution channel before being consumed or used.",core#definition
+N641bde6ede844b518971d7fe1372f9a5,Product,owl#someValuesFrom
+Supplier,owl#Class,22-rdf-syntax-ns#type
+Buyer,"A buyer is the party that acquires, or agrees to acquire, ownership (in case of goods), or benefit or usage (in case of rights or services), something in the context of a sale, and may or may not be an end user of the product, good, service, or right.",explanatoryNote
+Service,Nff52e405488a4b52b2a7529aefae1cef,rdf-schema#subClassOf
+N71bfb3275a1a4604a3ce1fdd8a4fb7fe,Facility,owl#onClass
+,ProductsAndServices.rdf version of this ontology was revised to eliminate duplication with concepts in LCC.,core#changeNote
+sellsTo,sells to,rdf-schema#label
+hasBuyer,Buyer,rdf-schema#range
+ContractualTemplateProduct,OffTheShelfProduct,rdf-schema#subClassOf
+N9e00f7212c3d49cba399992c144b6801,owl#Restriction,22-rdf-syntax-ns#type
+buys,Product,rdf-schema#range
+Supplier,"A supplier may be distinguished from a contractor or subcontractor, who commonly adds specialized input to deliverables.",explanatoryNote
+Nce2e241613e44ef0a3a37c6b33c0a6ab,Service,owl#someValuesFrom
+N635bf59894f9443d9bad9cc30dcbccda,Supplier,owl#someValuesFrom
+Service,Ne32c1cfc08f54a4493ef46c98a34dd68,rdf-schema#subClassOf
+Service,intangible activity performed by some party for the benefit of another party,core#definition
+ClientIdentifier,Nb49c04c5f3524c0e86d3e1de85fe8112,rdf-schema#subClassOf
+N9db220cc0f7e463aaeaecfe79f3e8904,N66ebf81cd5704600aba3fd9301e20eb0,owl#someValuesFrom
+N635bf59894f9443d9bad9cc30dcbccda,owl#Restriction,22-rdf-syntax-ns#type
+Commodity,"Commodities are most often used as inputs in the production of other goods or services. The quality of a given commodity may differ slightly, but it is essentially uniform across producers.",explanatoryNote
+Nce2e241613e44ef0a3a37c6b33c0a6ab,governs,owl#onProperty
+CustomProduct,custom product,rdf-schema#label
+N87a5e673b3e44eb8bb2a14ce2d627703,supplies,owl#onProperty
+,ProductsAndServices.rdf version of this ontology was revised to eliminate deprecated elements related to precious metals.,core#changeNote
+hasBuyer,hasPartyRole,rdf-schema#subPropertyOf
+Nf2f7f325b4d4429e9c3cd7fe1f2ab417,provisions,owl#onProperty
+Product,owl#Class,22-rdf-syntax-ns#type
+Nff52e405488a4b52b2a7529aefae1cef,ServiceProvider,owl#someValuesFrom
+Good,RealEstate,owl#disjointWith
+Service,"Sometimes services are difficult to identify because they are closely associated with a good; such as the combination of a diagnosis with the administration of a medicine. No transfer of possession or ownership takes place when services are sold, and they (1) cannot be stored or transported, (2) are instantly perishable, and (3) come into existence at the time they are bought and consumed.",explanatoryNote
+Customer,N635bf59894f9443d9bad9cc30dcbccda,rdf-schema#subClassOf
+buysFrom,Seller,rdf-schema#range
+NegotiableCommodity,negotiable commodity,rdf-schema#label
+,ProductsAndServices.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+TransactionEvent,owl#Class,22-rdf-syntax-ns#type
+N310e88b1f63e47c2b26fa33148b8e389,owl#Restriction,22-rdf-syntax-ns#type
+buys,links a party in the role of purchaser to something that they have purchased or plan to purchase,core#definition
+NegotiableCommodity,Commodity,rdf-schema#subClassOf
+Sale,Ne88d1a57efe44937bf2a5127192bf4ed,rdf-schema#subClassOf
+,"ProductsAndServices.rdf version of this ontology was revised to add properties for hasBuyer and hasSeller, integrate properties with the party lattice, and clean-up circular or ambiguous definitions.",core#changeNote
+NegotiableCommodity,owl#Class,22-rdf-syntax-ns#type
+Supplier,"party that provides goods or services that some party wants or needs, especially over a long period of time",core#definition
+N641bde6ede844b518971d7fe1372f9a5,appliesTo,owl#onProperty
+,ProductsAndServices.rdf version of this ontology was modified to include classes to support automated inclusion of all ISO 4217 codes published as of 2018-06-04.,core#changeNote
+N9e00f7212c3d49cba399992c144b6801,identifies,owl#onProperty
+N6b89def390934377a523e95724bf9949,Product,owl#someValuesFrom
+Producer,owl#Class,22-rdf-syntax-ns#type
+buysFrom,links a party in the role of purchaser to a party from which they have made or are planning to make a purchase,core#definition
+Ne32c1cfc08f54a4493ef46c98a34dd68,0,owl#minQualifiedCardinality
+provisions,"customizes, provides, or outfits something required for use in delivering a service",core#definition
+N310e88b1f63e47c2b26fa33148b8e389,1,owl#qualifiedCardinality
+,owl#Ontology,22-rdf-syntax-ns#type
+Service,service,rdf-schema#label
+Sale,Situation,rdf-schema#subClassOf
+ProductIdentifier,Identifier,rdf-schema#subClassOf
+isProvisionedBy,isProvidedBy,rdf-schema#subPropertyOf
+Ne88d1a57efe44937bf2a5127192bf4ed,Buyer,owl#someValuesFrom
+,ProductsAndServices.rdf version of this ontology was revised move the definition of precious metal and the corresponding identifier to CurrencyAmount from this ontology to simplify imports in cases where the broader definitions for commodities are not required.,core#changeNote
+Customer,party that receives or consumes products (goods or services) and has the ability to choose between different products and suppliers,core#definition
+Buyer,owl#Class,22-rdf-syntax-ns#type
+Product,N78c89069b733493f830cebe544f41e19,rdf-schema#subClassOf
+hasSeller,Seller,rdf-schema#range
+OffTheShelfProduct,owl#Class,22-rdf-syntax-ns#type
+N6b89def390934377a523e95724bf9949,sells,owl#onProperty
+buysFrom,buys from,rdf-schema#label
+ServiceProvider,Nf2f7f325b4d4429e9c3cd7fe1f2ab417,rdf-schema#subClassOf
+buysFrom,owl#ObjectProperty,22-rdf-syntax-ns#type
+buys,buys,rdf-schema#label
+Good,trade-in-goods.htm,adaptedFrom
+sellsTo,buysFrom,owl#inverseOf
+CustomProduct,bespoke product,synonym
+N66ebf81cd5704600aba3fd9301e20eb0,ServiceAgreement,owl#someValuesFrom
+provisions,ServiceProvider,rdf-schema#domain
+,ProductsAndServices.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FND 1.1 RTF report to replace MoneyAmount with AmountOfMoney.,core#changeNote
+Good,good,rdf-schema#label
+ClientIdentifier,owl#Class,22-rdf-syntax-ns#type
+isSuppliedBy,"identifies the party (supplier, vendor, distributor, etc.) that makes a product available",core#definition
+Ne32c1cfc08f54a4493ef46c98a34dd68,isProvisionedBy,owl#onProperty
+sellsTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+ContractualTemplateProduct,ContractualProduct,rdf-schema#subClassOf
+CustomProduct,"product that is made to order, commissioned based on a customer's specifications",core#definition
+Ned842fd6eed940ed96a460b60fb5d1bc,Good,owl#someValuesFrom
+OffTheShelfProduct,off-the-shelf product,rdf-schema#label
+Client,owl#Class,22-rdf-syntax-ns#type
+Buyer,buyer,synonym
+,Release,hasMaturityLevel
+Producer,producer,rdf-schema#label
+ClientIdentifier,sequence of characters uniquely identifying a client within the context of some organization,core#definition
+buysFrom,isAffectedBy,rdf-schema#subPropertyOf
+isProvisionedBy,is provisioned by,rdf-schema#label
+ServiceAgreement,or expertise in exchange for compensation,core#definition
+,ProductsAndServices.rdf version of this ontology was modified for the FIBO 2.0 RFC to add NegotiableCommodity and Consumer.,core#changeNote
+Good,"From the Universal Commercial Code (UCC) in the United States, the term 'good' includes (i) fixtures, (ii) standing timber that is to be cut and removed under a conveyance or contract for sale, (iii) the unborn young of animals, (iv) crops grown, growing, or to be grown, even if the crops are produced on trees, vines, or bushes, and (v) manufactured homes. The term also includes a computer program embedded in goods and any supporting information provided in connection with a transaction relating to the program if (i) the program is associated with the goods in such a manner that it customarily is considered part of the goods, or (ii) by becoming the owner of the goods, a person acquires a right to use the program in connection with the goods. The term does not include a computer program embedded in goods that consist solely of the medium in which the program is embedded. The term also does not include accounts, chattel paper, commercial tort claims, deposit accounts, documents, general intangibles, instruments, investment property, letter-of-credit rights, letters of credit, money, or oil, gas, or other minerals before extraction.",explanatoryNote
+Buyer,party that purchases something in exchange for money or other consideration under a contract of sale,core#definition
+supplies,Product,rdf-schema#range
+CustomProduct,custom-made product,synonym
+ContractualTemplateProduct,contractual product that is finalized through specification of values for parameters defined in a template,core#definition
+N77d669dc4f6b4a05b803afcf11f47cf1,provides,owl#onProperty
+N71bfb3275a1a4604a3ce1fdd8a4fb7fe,0,owl#minQualifiedCardinality
+N71bfb3275a1a4604a3ce1fdd8a4fb7fe,owl#Restriction,22-rdf-syntax-ns#type
+N87a5e673b3e44eb8bb2a14ce2d627703,owl#Restriction,22-rdf-syntax-ns#type
+isSuppliedBy,supplies,owl#inverseOf
+Seller,owl#Class,22-rdf-syntax-ns#type
+Good,owl#Class,22-rdf-syntax-ns#type
+Nb47b4d4444c5480c832cd7778e7003e3,ServiceProvider,owl#onClass
+CustomerIdentifier,sequence of characters uniquely identifying a customer within the context of some organization,core#definition
+CustomProduct,Product,rdf-schema#subClassOf
+ContractualTemplateProduct,owl#Class,22-rdf-syntax-ns#type
+TransactionConfirmation,transaction confirmation,rdf-schema#label
+Seller,seller,rdf-schema#label
+ServiceProvider,service provider,rdf-schema#label
+N64f70cf01a854ce8bcbc095e4ff029e6,provides,owl#onProperty
+CustomProduct,owl#Class,22-rdf-syntax-ns#type
+supplies,Supplier,rdf-schema#domain
+Nf2f7f325b4d4429e9c3cd7fe1f2ab417,Service,owl#onClass
+,Products and Services Ontology,rdf-schema#label
+Client,"party that purchases professional services from, or has a formal relationship to purchase services from another party",core#definition
+sells,Seller,rdf-schema#domain
+Customer,owl#Class,22-rdf-syntax-ns#type
+isSuppliedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+Seller,N6b89def390934377a523e95724bf9949,rdf-schema#subClassOf
+isProvisionedBy,ServiceProvider,rdf-schema#range
+OffTheShelfProduct,"product that is readily available from merchandise in stock, or can be quickly and easily configured to order, not specially designed or custom-made",core#definition
+isSuppliedBy,isProvidedBy,rdf-schema#subPropertyOf
+N310e88b1f63e47c2b26fa33148b8e389,isEvidenceFor,owl#onProperty
+Good,"An inherently useful and relatively scarce tangible item produced from agricultural, construction, manufacturing, or mining activities. Off-the-shelf products, including off-the-shelf software products and customization of software products, are generally considered to be goods. Energy, such as electricity, is also considered to be a good from a legal perspective, and meets the criteria of being manufactured or produced via some process, including but not limited to a mining process. According to the UN Convention On Contract For The International Sale Of Goods, the term 'good' does not include (1) items bought for personal use, (2) items bought at an auction or foreclosure sale, (3) aircraft or ocean-going vessels.",explanatoryNote
+Nb0d11b8385a845b5b29b286c52663d2e,Nf83fcdabf63e4988a95461902e79346d,22-rdf-syntax-ns#rest
+N9db220cc0f7e463aaeaecfe79f3e8904,owl#Restriction,22-rdf-syntax-ns#type
+buys,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasSeller,owl#ObjectProperty,22-rdf-syntax-ns#type
+Client,PartyRole,rdf-schema#subClassOf
+Commodity,commodity,rdf-schema#label
+Supplier,supplier,rdf-schema#label
+TransactionConfirmation,written communication from a seller or service provider reciting the relevant details of a transaction,core#definition
+Nb49c04c5f3524c0e86d3e1de85fe8112,Client,owl#onClass
+,ProductsAndServices.rdf version of this ontology was modified to move (deprecate) the properties produces and isProducedBy to Relations for more general usability.,core#changeNote
+N9db220cc0f7e463aaeaecfe79f3e8904,isPlayedBy,owl#onProperty
+Buyer,buyer,rdf-schema#label
+ContractualProduct,Product,rdf-schema#subClassOf
+CustomerIdentifier,Ne18c1b05d8724d2aa44d9ef7fe71110c,rdf-schema#subClassOf
+N42604ba5276547f5bfa2c8b127f5686c,buys,owl#onProperty
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+ServiceProvider,"party that provides and typically provisions professional services, such as consulting, financial, legal, real estate, education, communications, storage, or processing services, to other parties, typically defined in a service agreement",core#definition
+,ProductsAndServices.rdf version of this ontology was revised to leverage the new party identifier.,core#changeNote
+isSuppliedBy,Supplier,rdf-schema#range
+ContractualProduct,owl#Class,22-rdf-syntax-ns#type
+provisions,provisions,rdf-schema#label
+Seller,purveyor,synonym
+supplies,"links a party in the role of outfitter, provisioner, distributor, etc. to something that they provide",core#definition
+ServiceAgreement,Nce2e241613e44ef0a3a37c6b33c0a6ab,rdf-schema#subClassOf
+Nb47b4d4444c5480c832cd7778e7003e3,hasContractParty,owl#onProperty
+buysFrom,Buyer,rdf-schema#domain
+OffTheShelfProduct,commercially available off-the-shelf product,synonym
+Seller,vendor,synonym
+Supplier,PartyRole,rdf-schema#subClassOf
+Sale,N1d31cd1016c547c9a64e2ee0b4fe7896,rdf-schema#subClassOf
+N8a9e677023124a53990f884c0b289104,Seller,owl#someValuesFrom
+N2c675fffba5944eca9ebed7fcb8b8055,Service,22-rdf-syntax-ns#first
+sells,"links a party in the role of broker, dealer, vendor, or merchandiser to something that they make available for sale",core#definition
+Nbdbb9ee340024891849005bebe1c0f1b,TransactionConfirmation,owl#onClass
+Sale,sale,rdf-schema#label
+Consumer,"party that utilizes economic goods or services, typically for personal, family, or household purposes",core#definition
+TransactionEvent,"any sale, assignment, lease, license, loan, advance, contribution, or other transfer of any interest in or right to use any property (tangible or intangible) or money, however that transaction is effected, and regardless of whether the terms of the transaction are formally documented",core#definition
+TransactionConfirmation,N310e88b1f63e47c2b26fa33148b8e389,rdf-schema#subClassOf
+Service,"Services include intangible products, such as accounting, banking, cleaning, consultancy, education, insurance, expertise, medical treatment, or transportation services.",core#example
+isProvisionedBy,identifies the service provider that provisions the service or facility,core#definition
+N78c89069b733493f830cebe544f41e19,Nb0d11b8385a845b5b29b286c52663d2e,owl#unionOf
+N42604ba5276547f5bfa2c8b127f5686c,owl#Restriction,22-rdf-syntax-ns#type
+N1d31cd1016c547c9a64e2ee0b4fe7896,owl#Restriction,22-rdf-syntax-ns#type
+sellsTo,Seller,rdf-schema#domain
+ServiceAgreement,Nb47b4d4444c5480c832cd7778e7003e3,rdf-schema#subClassOf
+CustomProduct,OffTheShelfProduct,owl#disjointWith
+provisions,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nb49c04c5f3524c0e86d3e1de85fe8112,owl#Restriction,22-rdf-syntax-ns#type
+Buyer,N42604ba5276547f5bfa2c8b127f5686c,rdf-schema#subClassOf
+,MIT,license
+Ne18c1b05d8724d2aa44d9ef7fe71110c,owl#Restriction,22-rdf-syntax-ns#type
+Ne18c1b05d8724d2aa44d9ef7fe71110c,Customer,owl#onClass
+Seller,"party that makes, offers or contracts to make a sale to an actual or potential buyer",core#definition
+ContractualProduct,product that takes the form of an agreement,core#definition
+hasSeller,has seller,rdf-schema#label
+Nf83fcdabf63e4988a95461902e79346d,N2c675fffba5944eca9ebed7fcb8b8055,22-rdf-syntax-ns#rest
+Ne18c1b05d8724d2aa44d9ef7fe71110c,identifies,owl#onProperty
+Client,N9db220cc0f7e463aaeaecfe79f3e8904,rdf-schema#subClassOf
+Nb47b4d4444c5480c832cd7778e7003e3,1,owl#qualifiedCardinality
+Buyer,PartyRole,rdf-schema#subClassOf
+Customer,Buyer,rdf-schema#subClassOf
+N641bde6ede844b518971d7fe1372f9a5,owl#Restriction,22-rdf-syntax-ns#type
+Producer,PartyRole,rdf-schema#subClassOf
+Supplier,N87a5e673b3e44eb8bb2a14ce2d627703,rdf-schema#subClassOf
+Sale,owl#Class,22-rdf-syntax-ns#type
+TransactionEvent,Nbdbb9ee340024891849005bebe1c0f1b,rdf-schema#subClassOf
+,"ProductsAndServices.rdf version of this ontology was revised to replace uses of hasTag in Relations with hasTag from LCC, as the more complex union of datatypes in the Relations concept is not needed here.",core#changeNote
+NegotiableCommodity,commodity that can be bought or sold in some marketplace,core#definition
+Nb49c04c5f3524c0e86d3e1de85fe8112,identifies,owl#onProperty
+hasBuyer,has buyer,rdf-schema#label
+provisions,provides,rdf-schema#subPropertyOf
+ClientIdentifier,PartyRoleIdentifier,rdf-schema#subClassOf
+Nb49c04c5f3524c0e86d3e1de85fe8112,1,owl#qualifiedCardinality
+Good,"physical, produced item over which ownership rights can be established, whose ownership can be passed from one party to another by engaging in transactions, and that is not money or real estate",core#definition
+,,owl#imports
+Nf2f7f325b4d4429e9c3cd7fe1f2ab417,0,owl#minQualifiedCardinality
+Nf2f7f325b4d4429e9c3cd7fe1f2ab417,owl#Restriction,22-rdf-syntax-ns#type
+Ne18c1b05d8724d2aa44d9ef7fe71110c,1,owl#qualifiedCardinality
+TransactionConfirmation,owl#Class,22-rdf-syntax-ns#type
+N8a9e677023124a53990f884c0b289104,hasSeller,owl#onProperty
+ProductIdentifier,N9e00f7212c3d49cba399992c144b6801,rdf-schema#subClassOf
+,"ProductsAndServices.rdf version of this ontology was revised to incorporate the concept of a right into the definition of product, to cover leases and rentals, such as the right to use a piece of property or other asset for some period of time, as products.",core#changeNote
+N77d669dc4f6b4a05b803afcf11f47cf1,owl#Restriction,22-rdf-syntax-ns#type
+Good,9-102#goods,adaptedFrom
+buys,Buyer,rdf-schema#domain
+,"ProductsAndServices.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+sellsTo,Buyer,rdf-schema#range
+Ne32c1cfc08f54a4493ef46c98a34dd68,ServiceProvider,owl#onClass
+Service,owl#Class,22-rdf-syntax-ns#type
+N87a5e673b3e44eb8bb2a14ce2d627703,Product,owl#someValuesFrom
+supplies,supplies,rdf-schema#label
+sells,sells,rdf-schema#label
+N6b89def390934377a523e95724bf9949,owl#Restriction,22-rdf-syntax-ns#type
+TransactionEvent,OccurrenceKind,rdf-schema#subClassOf
+N64f70cf01a854ce8bcbc095e4ff029e6,owl#Restriction,22-rdf-syntax-ns#type
+ProductIdentifier,sequence of characters uniquely identifying a product in some context,core#definition
+Consumer,owl#Class,22-rdf-syntax-ns#type
+Commodity,owl#Class,22-rdf-syntax-ns#type
+isProvisionedBy,provisions,owl#inverseOf
+PreciousMetal,owl#Class,22-rdf-syntax-ns#type
+Sale,N8a9e677023124a53990f884c0b289104,rdf-schema#subClassOf
+Client,client,rdf-schema#label
+N2c675fffba5944eca9ebed7fcb8b8055,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Seller,PartyRole,rdf-schema#subClassOf
+Consumer,,rdf-schema#seeAlso
+Commodity,Good,rdf-schema#subClassOf
+Good,AmountOfMoney,owl#disjointWith
+N310e88b1f63e47c2b26fa33148b8e389,TransactionEvent,owl#onClass
+Commodity,material resource used in commerce that is interchangeable with other commodities of the same type,core#definition
+N66ebf81cd5704600aba3fd9301e20eb0,isAPartyTo,owl#onProperty
+supplies,owl#ObjectProperty,22-rdf-syntax-ns#type
+Sale,exchange of goods or services for money,core#definition
+ServiceAgreement,WrittenContract,rdf-schema#subClassOf
+Ned842fd6eed940ed96a460b60fb5d1bc,owl#Restriction,22-rdf-syntax-ns#type
+Customer,customer,rdf-schema#label
+N8a9e677023124a53990f884c0b289104,owl#Restriction,22-rdf-syntax-ns#type
+CustomerIdentifier,PartyRoleIdentifier,rdf-schema#subClassOf
+N1d31cd1016c547c9a64e2ee0b4fe7896,hasPrice,owl#onProperty
+hasSeller,indicates the vendor in the context of a sales transaction,core#definition
+N9e00f7212c3d49cba399992c144b6801,1,owl#qualifiedCardinality
+hasBuyer,hasUndergoer,rdf-schema#subPropertyOf
+hasSeller,hasActor,rdf-schema#subPropertyOf
+TransactionEvent,transaction event,rdf-schema#label
+sellsTo,actsOn,rdf-schema#subPropertyOf
+sellsTo,"links a party in the role of broker, dealer, vendor, or merchandiser to a purchaser or potential purchasing party",core#definition
+isProvisionedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+N64f70cf01a854ce8bcbc095e4ff029e6,Capability,owl#someValuesFrom
+N1d31cd1016c547c9a64e2ee0b4fe7896,MonetaryAmount,owl#someValuesFrom
+,ProductsAndServices.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+,ProductsAndServices.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+Nbdbb9ee340024891849005bebe1c0f1b,0,owl#minQualifiedCardinality
+Nff52e405488a4b52b2a7529aefae1cef,isProvidedBy,owl#onProperty
+Consumer,consumer,rdf-schema#label
+Ne88d1a57efe44937bf2a5127192bf4ed,hasBuyer,owl#onProperty
+ContractualProduct,"This represents the case where the product itself is a contract, such as a life insurance policy or financial instrument, rather than a product or service whose terms of use, license to use, or terms of service are specified in a product.",explanatoryNote
+ContractualTemplateProduct,contractual template product,rdf-schema#label

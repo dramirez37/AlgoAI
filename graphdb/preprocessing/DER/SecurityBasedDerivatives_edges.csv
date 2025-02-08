@@ -1,0 +1,166 @@
+source_id,target_id,relationship
+DebtObservable,debt observable,rdf-schema#label
+Na5e53225c5a74e8582a9bf5110135255,N8aef4ee57d4d40ffac467156d6b8ae5f,owl#someValuesFrom
+N9835eb2b9eb24f8fbcf947db94eccbb8,ListedShare,22-rdf-syntax-ns#first
+LocalLinesOfCreditDebtBasket,local lines of credit debt basket,rdf-schema#label
+GeneralDebtBasket,The general debt basket has increasingly become a basket for additional secured debt. Lenders providing funding to companies need to carefully consider whether any previous debt incurred by the company using this basket has reduced the available capacity.,explanatoryNote
+N25a541b68e624780a914f0a468e860d9,isPlayedBy,owl#onProperty
+,SecurityBasedDerivatives.rdf version of this ontology was modified to augment the concept of a basket of debt instruments with several variants (SEC-181).,core#changeNote
+RatioDebtBasket,basket of debt instruments whose constituents are specified based on a leverage ratio based on total debt rather than only secured debt,core#definition
+CreditFacilityDebtBasket,owl#Class,22-rdf-syntax-ns#type
+Nae7c236cdb6b4c588ac3e53fe99cc4e3,N085cf152d5f64228842ca0fc0c2c4e7f,owl#unionOf
+Nba11030c392b4ec48aded8418a32f8ca,Lease,owl#allValuesFrom
+Nba9235b04b90419e8aa3b7e339242a54,owl#Restriction,22-rdf-syntax-ns#type
+N37aae93febce4646843bbb2076ada26c,BasketOfDebtInstruments,22-rdf-syntax-ns#first
+EquityDerivative,SecurityBasedDerivative,rdf-schema#subClassOf
+EquityObservable,SecurityUnderlier,rdf-schema#subClassOf
+N35594f96b5234407a4338554876bd671,isPlayedBy,owl#onProperty
+Na4c33befd27042f1843d56a270f00a86,hasConstituent,owl#onProperty
+SecurityBasedDerivative,owl#Class,22-rdf-syntax-ns#type
+Non-GuarantorDebtBasket,"In U.S. law, a non-guarantor debt basket is a shared basket in an amount not to exceed the greater of $150,000,000 and 20% of Consolidated EBITDA for the most recently ended Test Period at any time outstanding that may be used for (A) the incurrence of certain Indebtedness by Restricted Subsidiaries that are not Loan Parties under Sections 6.01(a)(xii), 6.01(a)(xix) and 6.01(a)(xx) and (B) Secured Cash Management Obligations of any Restricted Subsidiary that is not a Loan Party.",explanatoryNote
+CreditFacilityDebtBasket,credit facility debt basket,rdf-schema#label
+N9835eb2b9eb24f8fbcf947db94eccbb8,N2303e185c9cc440b8dabda83357049e5,22-rdf-syntax-ns#rest
+EquityObservable,N35594f96b5234407a4338554876bd671,rdf-schema#subClassOf
+Non-GuarantorDebtBasket,BasketOfDebtInstruments,rdf-schema#subClassOf
+DebtInstrumentDerivative,SecurityBasedDerivative,rdf-schema#subClassOf
+N5a927b029f4c49959b08c2ee93f65a42,owl#Restriction,22-rdf-syntax-ns#type
+N5c56a704f1144f55946f0bc839ea1d2e,Security,22-rdf-syntax-ns#first
+ContributionDebtBasket,"In U.S. law, a non-guarantor debt basket is a shared basket in an amount not to exceed the greater of $150,000,000 and 20% of Consolidated EBITDA for the most recently ended Test Period at any time outstanding that may be used for (A) the incurrence of certain Indebtedness by Restricted Subsidiaries that are not Loan Parties under Sections 6.01(a)(xii), 6.01(a)(xix) and 6.01(a)(xx) and (B) Secured Cash Management Obligations of any Restricted Subsidiary that is not a Loan Party.",explanatoryNote
+EquityObservable,equity observable,rdf-schema#label
+Non-GuarantorDebtBasket,borrower or guarantors.,explanatoryNote
+CreditFacilityDebtBasket,"euro amount and a percentage of total assets, total tangible assets or EBITDA.",explanatoryNote
+DebtObservable,SecurityUnderlier,rdf-schema#subClassOf
+N085cf152d5f64228842ca0fc0c2c4e7f,BasketOfEquities,22-rdf-syntax-ns#first
+N082c4032e6c941adad14b4c49044dd80,owl#Restriction,22-rdf-syntax-ns#type
+LocalLinesOfCreditDebtBasket,owl#Class,22-rdf-syntax-ns#type
+N116d361a884a4ede8802cffcd8c85e8e,DebtInstrument,owl#allValuesFrom
+Nfd6157c038ec41aab77078c0dd4f1721,TradableDebtInstrument,22-rdf-syntax-ns#first
+N085cf152d5f64228842ca0fc0c2c4e7f,N9835eb2b9eb24f8fbcf947db94eccbb8,22-rdf-syntax-ns#rest
+IncrementalFacilityDebtBasket,owl#Class,22-rdf-syntax-ns#type
+ContributionDebtBasket,owl#Class,22-rdf-syntax-ns#type
+N082c4032e6c941adad14b4c49044dd80,RevolvingLineOfCredit,owl#allValuesFrom
+CapitalizedLeaseObligationDebtBasket,Na4c33befd27042f1843d56a270f00a86,rdf-schema#subClassOf
+Nae7c236cdb6b4c588ac3e53fe99cc4e3,owl#Class,22-rdf-syntax-ns#type
+BasketOfDebtInstruments,basket of debt instruments,rdf-schema#label
+Nb81a0e2a20504a108efc098e0fd0192f,EquityObservable,owl#someValuesFrom
+N7a63286aa6ad4c26ad88564fae8deab3,CreditIndex,22-rdf-syntax-ns#first
+,Security-Based Derivatives Ontology,rdf-schema#label
+Nba314b191ce44a8b9944e8d803fa8f36,N082c4032e6c941adad14b4c49044dd80,owl#someValuesFrom
+BasketOfDebtInstruments,N5a927b029f4c49959b08c2ee93f65a42,rdf-schema#subClassOf
+GeneralDebtBasket,basket of debt instruments that provides additional capacity for potential funding and does not require the proceeds to be used for any particular purpose,core#definition
+DebtObservable,owl#Class,22-rdf-syntax-ns#type
+N0627015484eb455a819bffe904593a9b,ReferenceIndex,22-rdf-syntax-ns#first
+N1c5b298491e14fc2b49322275ff93f20,Nf89a568609b04040b8e56f55a83d470f,owl#someValuesFrom
+,,owl#imports
+Nf89a568609b04040b8e56f55a83d470f,owl#Restriction,22-rdf-syntax-ns#type
+BasketOfDebtInstruments,basket of securities whose constituents are debt instruments,core#definition
+,"SecurityBasedDerivatives.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+DebtObservable,N25a541b68e624780a914f0a468e860d9,rdf-schema#subClassOf
+N07131c1c6d7b4edfab97edb284c91af9,owl#Class,22-rdf-syntax-ns#type
+Nb965361736b443c98758a21596c1ced9,BasketOfCreditRisks,22-rdf-syntax-ns#first
+Nf89a568609b04040b8e56f55a83d470f,CreditFacility,owl#allValuesFrom
+SecurityUnderlier,Underlier,rdf-schema#subClassOf
+,,owl#versionIRI
+EquityDerivative,owl#Class,22-rdf-syntax-ns#type
+LocalLinesOfCreditDebtBasket,BasketOfDebtInstruments,rdf-schema#subClassOf
+IncrementalFacilityDebtBasket,builder basket,synonym
+N5525bf78772249bcad95062f8a1b11a6,N7caed8903aa2438a8a082e92e3fc7c71,owl#onClass
+,owl#Ontology,22-rdf-syntax-ns#type
+LocalLinesOfCreditDebtBasket,"basket of debt instruments that may be relevant for companies with international operations, often permitting debt to be incurred by a non-guarantor restricted subsidiary",core#definition
+DebtInstrumentDerivative,security-based derivative whose underlier is a debt observable,core#definition
+EquityObservable,"security underlier that is equity based, such as individual shares, equity indices, and custom basket of equity assets",core#definition
+N7caed8903aa2438a8a082e92e3fc7c71,N704798019603434bbf9c2fcc9d52eaaa,owl#unionOf
+N5a927b029f4c49959b08c2ee93f65a42,hasConstituent,owl#onProperty
+N5525bf78772249bcad95062f8a1b11a6,isPlayedBy,owl#onProperty
+,"This ontology defines common concepts for derivatives based on securities as their underliers, including those based on indices or baskets of these assets.",abstract
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+CapitalizedLeaseObligationDebtBasket,capitalized lease obligation debt basket,rdf-schema#label
+Nba11030c392b4ec48aded8418a32f8ca,comprises,owl#onProperty
+RatioDebtBasket,owl#Class,22-rdf-syntax-ns#type
+N704798019603434bbf9c2fcc9d52eaaa,N5c56a704f1144f55946f0bc839ea1d2e,22-rdf-syntax-ns#rest
+N116d361a884a4ede8802cffcd8c85e8e,comprises,owl#onProperty
+Nfd6157c038ec41aab77078c0dd4f1721,N7a63286aa6ad4c26ad88564fae8deab3,22-rdf-syntax-ns#rest
+CapitalizedLeaseObligationDebtBasket,owl#Class,22-rdf-syntax-ns#type
+GeneralDebtBasket,BasketOfDebtInstruments,rdf-schema#subClassOf
+SecurityUnderlier,security underlier,rdf-schema#label
+,SecurityBasedDerivatives.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N116d361a884a4ede8802cffcd8c85e8e,owl#Restriction,22-rdf-syntax-ns#type
+CreditFacilityDebtBasket,N1c5b298491e14fc2b49322275ff93f20,rdf-schema#subClassOf
+Nba9235b04b90419e8aa3b7e339242a54,SecurityUnderlier,owl#someValuesFrom
+Nba9235b04b90419e8aa3b7e339242a54,hasUnderlier,owl#onProperty
+N8aef4ee57d4d40ffac467156d6b8ae5f,isPlayedBy,owl#onProperty
+CapitalizedLeaseObligationDebtBasket,"basket of debt instruments whose constituents are contracts entitling a renter the temporary use of an asset and, in accounting terms, has asset ownership characteristics",core#definition
+N2303e185c9cc440b8dabda83357049e5,EquityIndex,22-rdf-syntax-ns#first
+Nb81a0e2a20504a108efc098e0fd0192f,owl#Restriction,22-rdf-syntax-ns#type
+N07131c1c6d7b4edfab97edb284c91af9,N37aae93febce4646843bbb2076ada26c,owl#unionOf
+SecurityUnderlier,owl#Class,22-rdf-syntax-ns#type
+N35594f96b5234407a4338554876bd671,owl#Restriction,22-rdf-syntax-ns#type
+Na4c33befd27042f1843d56a270f00a86,Nba11030c392b4ec48aded8418a32f8ca,owl#someValuesFrom
+Na5e53225c5a74e8582a9bf5110135255,owl#Restriction,22-rdf-syntax-ns#type
+Na5e53225c5a74e8582a9bf5110135255,hasUnderlier,owl#onProperty
+IncrementalFacilityDebtBasket,CreditFacilityDebtBasket,rdf-schema#subClassOf
+BasketOfDebtInstruments,BasketOfSecurities,rdf-schema#subClassOf
+N25a541b68e624780a914f0a468e860d9,owl#Restriction,22-rdf-syntax-ns#type
+Non-GuarantorDebtBasket,"basket of debt instruments that include a provision allowing certain subsidiaries within a corporate group, which are not part of the loan guarantee, to incur a specified amount of indebtedness",core#definition
+SecurityBasedDerivative,DerivativeInstrument,rdf-schema#subClassOf
+N25a541b68e624780a914f0a468e860d9,N07131c1c6d7b4edfab97edb284c91af9,owl#someValuesFrom
+N5a927b029f4c49959b08c2ee93f65a42,N116d361a884a4ede8802cffcd8c85e8e,owl#someValuesFrom
+N7caed8903aa2438a8a082e92e3fc7c71,owl#Class,22-rdf-syntax-ns#type
+N2303e185c9cc440b8dabda83357049e5,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nf89a568609b04040b8e56f55a83d470f,comprises,owl#onProperty
+DebtInstrumentDerivative,owl#Class,22-rdf-syntax-ns#type
+Non-GuarantorDebtBasket,owl#Class,22-rdf-syntax-ns#type
+CreditFacilityDebtBasket,BasketOfDebtInstruments,rdf-schema#subClassOf
+N1c5b298491e14fc2b49322275ff93f20,owl#Restriction,22-rdf-syntax-ns#type
+RatioDebtBasket,"The ratio basket provides different ratio tests depending on the type of indebtedness being incurred (for example, first lien leverage ratio in respect of first lien indebtedness, senior secured leverage ratio in respect of indebtedness secured by a junior lien and a total net leverage ratio or interest coverage ratio in respect of unsecured indebtedness). A ratio basket would typically allow the borrower to incur debt secured on a senior secured basis subject to a maximum senior secured leverage ratio and unsecured debt subject to a maximum total leverage ratio.",explanatoryNote
+N37aae93febce4646843bbb2076ada26c,Nfd6157c038ec41aab77078c0dd4f1721,22-rdf-syntax-ns#rest
+N35594f96b5234407a4338554876bd671,Nae7c236cdb6b4c588ac3e53fe99cc4e3,owl#someValuesFrom
+ContributionDebtBasket,"basket of debt instruments that allows a company to incur an amount of indebtedness that is equal to (or in top tier sponsor transactions in the U.S., up to two times) the amount of equity contributed to the group",core#definition
+Non-GuarantorDebtBasket,non-guarantor debt basket,rdf-schema#label
+N5525bf78772249bcad95062f8a1b11a6,0,owl#minQualifiedCardinality
+N5525bf78772249bcad95062f8a1b11a6,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+EquityDerivative,security-based derivative whose underlier is an equity observable,core#definition
+N1c5b298491e14fc2b49322275ff93f20,hasConstituent,owl#onProperty
+,"SecurityBasedDerivatives.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.",core#changeNote
+,Release,hasMaturityLevel
+CapitalizedLeaseObligationDebtBasket,"A capitalized lease obligation basket is increasingly broadly drafted to include indebtedness incurred to finance the purchase, improvement, repair, renewal etc. of property (including the purchase of stock of a person owning such property).",explanatoryNote
+Na4c33befd27042f1843d56a270f00a86,owl#Restriction,22-rdf-syntax-ns#type
+N8aef4ee57d4d40ffac467156d6b8ae5f,DebtObservable,owl#someValuesFrom
+N082c4032e6c941adad14b4c49044dd80,comprises,owl#onProperty
+Nb965361736b443c98758a21596c1ced9,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N5c56a704f1144f55946f0bc839ea1d2e,N0627015484eb455a819bffe904593a9b,22-rdf-syntax-ns#rest
+Nba11030c392b4ec48aded8418a32f8ca,owl#Restriction,22-rdf-syntax-ns#type
+,MIT,license
+SecurityBasedDerivative,security-based derivative,rdf-schema#label
+N7a63286aa6ad4c26ad88564fae8deab3,Nb965361736b443c98758a21596c1ced9,22-rdf-syntax-ns#rest
+DebtObservable,"security underlier that is debt-based, such as individual debt instruments, credit indices, and custom baskets of debt assets",core#definition
+N704798019603434bbf9c2fcc9d52eaaa,BasketOfSecurities,22-rdf-syntax-ns#first
+CapitalizedLeaseObligationDebtBasket,BasketOfDebtInstruments,rdf-schema#subClassOf
+EquityDerivative,Nb81a0e2a20504a108efc098e0fd0192f,rdf-schema#subClassOf
+Nb81a0e2a20504a108efc098e0fd0192f,hasUnderlier,owl#onProperty
+N8aef4ee57d4d40ffac467156d6b8ae5f,owl#Restriction,22-rdf-syntax-ns#type
+DebtInstrumentDerivative,Na5e53225c5a74e8582a9bf5110135255,rdf-schema#subClassOf
+Nba314b191ce44a8b9944e8d803fa8f36,owl#Restriction,22-rdf-syntax-ns#type
+IncrementalFacilityDebtBasket,"The incremental debt basket is available to borrowers and guarantors only; it cannot be used by non-guarantor entities to raise indebtedness. The size of the incremental debt basket varies depending on the size and creditworthiness of the credit group. The principle of a basket consists of allowing the borrower, up to a maximum determined amount, to make restricted payments, disposals or investments, or take on incremental debt. Commonly, a basket is expressed as subject to restrictions based on a fixed ('hard cap') amount (e.g., may not exceed EUR 5,000,000).",explanatoryNote
+DebtInstrumentDerivative,debt instrument derivative,rdf-schema#label
+ContributionDebtBasket,BasketOfDebtInstruments,rdf-schema#subClassOf
+LocalLinesOfCreditDebtBasket,Nba314b191ce44a8b9944e8d803fa8f36,rdf-schema#subClassOf
+RatioDebtBasket,BasketOfDebtInstruments,rdf-schema#subClassOf
+GeneralDebtBasket,general debt basket,rdf-schema#label
+ContributionDebtBasket,contribution debt basket,rdf-schema#label
+ContributionDebtBasket,borrower or guarantors.,explanatoryNote
+IncrementalFacilityDebtBasket,"basket of credit facilities whose constituents are extensible, allowing companies to borrow an additional term loan or revolving credit facility (or increase the commitments applicable thereto) under the same credit agreement subject to certain parameters",core#definition
+EquityDerivative,equity derivative,rdf-schema#label
+SecurityUnderlier,"underlier consisting of security-based assets, such as baskets of securities, individual securities, reference indices, and combinations thereof",core#definition
+IncrementalFacilityDebtBasket,incremental facility debt basket,rdf-schema#label
+Nba314b191ce44a8b9944e8d803fa8f36,hasConstituent,owl#onProperty
+SecurityBasedDerivative,Nba9235b04b90419e8aa3b7e339242a54,rdf-schema#subClassOf
+SecurityUnderlier,N5525bf78772249bcad95062f8a1b11a6,rdf-schema#subClassOf
+EquityObservable,owl#Class,22-rdf-syntax-ns#type
+CreditFacilityDebtBasket,basket of securities whose constituents are credit agreements that allow the borrower to periodically take out money over an extended period of time rather than reapplying for a loan every time they need funds,core#definition
+RatioDebtBasket,ratio debt basket,rdf-schema#label
+N0627015484eb455a819bffe904593a9b,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+BasketOfDebtInstruments,owl#Class,22-rdf-syntax-ns#type
+GeneralDebtBasket,owl#Class,22-rdf-syntax-ns#type
+SecurityBasedDerivative,"derivative instrument whose underlier is based on a security, including collections of securities and indices based on securities",core#definition

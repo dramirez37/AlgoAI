@@ -1,0 +1,184 @@
+source_id,target_id,relationship
+N60b285d38c52452b8e4f3a92cb928a02,Party,owl#onClass
+MajorityControllingParty,majority controlling party,rdf-schema#label
+N686d3157c90d47ccbb4cf007c66909f8,isControllingPartyIn,owl#onProperty
+N655a655316424a2292937ae4434a1007,LegalEntity,owl#someValuesFrom
+EntityControllingParty,party that has the authority to control some legal entity,core#definition
+,ControlParties.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+TotalOwner,ConstitutionalOwner,rdf-schema#subClassOf
+ControllingAlliance,group that has formed some alliance to jointly exercise control over some entity,core#definition
+EntityControllingParty,"It is assumed that since control follows from some form of ownership or contractual instrument, that the range of entities which may fulfil this party role is the same as that for entity ownership, namely a logical union of natural persons, legal persons and formal organizations.",core#scopeNote
+ControlledParty,N60b285d38c52452b8e4f3a92cb928a02,rdf-schema#subClassOf
+DeJureControllingInterestParty,party that has the legal authority to exercise control,core#definition
+,Control Parties Ontology,rdf-schema#label
+InvestmentBasedDeFactoControl,investment-based de facto control,rdf-schema#label
+JointControllingParty,party that collectively has the authority to control the affairs of some business organization,core#definition
+isAdvisedBy,hasControllingParty,rdf-schema#subPropertyOf
+,"ControlParties.rdf version of the ontology was modified to simplify control concepts and relations, eliminate ambiguity in definitions, restate definitions to be ISO 704 compliant, and add properties relating control parties to control situations.",core#changeNote
+JointControllingParty,owl#Class,22-rdf-syntax-ns#type
+,"ControlParties.rdf version of this ontology was modified to integrate the concept of a situation, situational roles, and corresponding relations with the definition of control and eliminate an unused and logically inconsistent property.",core#changeNote
+isBasedOnInvestmentEquity,is based on investment equity,rdf-schema#label
+isControllingMemberOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasMajorityControllingParty,indicates a party that owns a controlling stake (over 50 percent) in the entity,core#definition
+SoleControllingParty,sole controlling party,rdf-schema#label
+InvestmentBasedDeFactoControllingInterestParty,owl#Class,22-rdf-syntax-ns#type
+hasControllingOrganizationMember,owl#ObjectProperty,22-rdf-syntax-ns#type
+N686d3157c90d47ccbb4cf007c66909f8,CourtAppointedControl,owl#someValuesFrom
+N5be626727b0f4cfa83e01013cd2edbf2,owl#Restriction,22-rdf-syntax-ns#type
+DeFactoControllingInterestParty,divides further into financial leverage via loans; non fiscal types of leverage (influence),core#scopeNote
+,ControlParties.rdf version of this ontology was modified to eliminate duplication of concepts with LCC.,core#changeNote
+TotalOwner,owl#Class,22-rdf-syntax-ns#type
+Receiver,party appointed by some court for the purposes of winding up the affairs of some entity which is no longer solvent,core#definition
+N655a655316424a2292937ae4434a1007,isControllingPartyOf,owl#onProperty
+Nde3c1d271f20446e87602b6bbb486b0f,Contract,owl#someValuesFrom
+N615a2284c9a74f788fb87d9b1fc01cd6,isControllingPartyIn,owl#onProperty
+Receiver,owl#Class,22-rdf-syntax-ns#type
+advises,ControllingParty,rdf-schema#domain
+Nc8fec839a4d4414eb270879f918248cb,owl#Restriction,22-rdf-syntax-ns#type
+InvestmentBasedDeFactoControl,owl#Class,22-rdf-syntax-ns#type
+DeFactoControllingInterestParty,ControllingParty,rdf-schema#subClassOf
+,ControlParties.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.,core#changeNote
+isControllingMemberOf,ControlledParty,rdf-schema#range
+isControllingMemberOf,OrganizationMember,rdf-schema#domain
+N60b285d38c52452b8e4f3a92cb928a02,1,owl#qualifiedCardinality
+isAdvisedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nde3c1d271f20446e87602b6bbb486b0f,owl#Restriction,22-rdf-syntax-ns#type
+N6e44d03378544f6e81f555542a80ab0d,isPlayedBy,owl#onProperty
+isBasedOnInvestmentEquity,"indicates investment-based de facto control, which is is based on the holding of some investment equity by some party",core#definition
+Nc0cedad97eaa4320b729c759530c7e44,isControllingPartyIn,owl#onProperty
+InvestmentBasedDeFactoControllingInterestParty,party that holds investment-based control over some other party,core#definition
+ContractualControl,Nde3c1d271f20446e87602b6bbb486b0f,rdf-schema#subClassOf
+JointControllingParty,joint controlling party,rdf-schema#label
+ControlledParty,owl#Class,22-rdf-syntax-ns#type
+EntityControllingParty,"This type of party is either asserted to be the case by the entity itself or some other party, or is determined through some analysis or calculation based on the available information about controlling interests.",core#editorialNote
+DeJureControllingInterestParty,Nc0cedad97eaa4320b729c759530c7e44,rdf-schema#subClassOf
+,,owl#imports
+isAdvisedBy,ControllingParty,rdf-schema#range
+CourtAppointedControl,DeJureControl,rdf-schema#subClassOf
+N60b285d38c52452b8e4f3a92cb928a02,owl#Restriction,22-rdf-syntax-ns#type
+N535480bce8204928bcb2b8d4b31f0e6e,isControllingPartyIn,owl#onProperty
+SoleControllingParty,EntityControllingParty,rdf-schema#subClassOf
+EntityControllingParty,N655a655316424a2292937ae4434a1007,rdf-schema#subClassOf
+Nc0cedad97eaa4320b729c759530c7e44,DeJureControl,owl#someValuesFrom
+DeFactoControllingInterestParty,"party that exercises some control over an entity other than via explicit, legal means",core#definition
+hasMajorityControllingParty,LegalEntity,rdf-schema#domain
+advises,provides counsel or guidance to,core#definition
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,,owl#versionIRI
+InfluenceBasedDeFactoControl,influence-based de facto control,rdf-schema#label
+InfluenceBasedDeFactoControllingParty,DeFactoControllingInterestParty,rdf-schema#subClassOf
+isBasedOnInvestmentEquity,isConferredBy,rdf-schema#subPropertyOf
+isBasedOnInvestmentEquity,InvestmentEquity,rdf-schema#range
+,owl#Ontology,22-rdf-syntax-ns#type
+DeFactoControllingInterestParty,"a silent partner, i.e. where someone has made a large investment, which is bilateral (not part of the constitutional framework of the company)",core#example
+ControllingAlliance,controlling alliance,rdf-schema#label
+ContractualControl,contractual control,rdf-schema#label
+InfluenceBasedDeFactoControllingParty,influence-based de facto controlling party,rdf-schema#label
+InfluenceBasedDeFactoControl,DeFactoControl,rdf-schema#subClassOf
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+Na0a30388860f4045b8b7e99b57e570f0,isControllingPartyIn,owl#onProperty
+TotalOwner,total owner,rdf-schema#label
+ContractualControl,control established through the terms of some contract,core#definition
+hasMajorityControllingParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+N4afcf9e9cb734c86808b71e721b694e2,InvestmentEquity,owl#allValuesFrom
+hasControllingOrganizationMember,isControllingMemberOf,owl#inverseOf
+ControllingAlliance,"The types of entity which may enter into such an alliance are the same types of entity as may exercise control in their own right, i.e. independent parties (that is a logical union of natural persons, legal persons and formal organizations).",core#editorialNote
+EntityControllingParty,ControllingParty,rdf-schema#subClassOf
+InfluenceBasedDeFactoControl,owl#Class,22-rdf-syntax-ns#type
+Receiver,DeJureControllingInterestParty,rdf-schema#subClassOf
+SoleControllingParty,party that has sole control over and directs the affairs of some legal entity,core#definition
+hasControllingOrganizationMember,relates a controlled party to a controlling member of the organization,core#definition
+,ControlParties.rdf version of this ontology was modified as a part of a simplification strategy for the organizational class hierarchy and to correct reasoning anomalies.,core#changeNote
+InvestmentBasedDeFactoControl,DeFactoControl,rdf-schema#subClassOf
+CourtAppointedControl,"control conferred by the actions of some court, for example in the context of receivership",core#definition
+InfluenceBasedDeFactoControl,informal control that involves influence over some party,core#definition
+advises,isAdvisedBy,owl#inverseOf
+CourtAppointedControl,owl#Class,22-rdf-syntax-ns#type
+Naec56425757d4cff8a7c0ee0f93cab14,hasPartyInControl,owl#onProperty
+isControllingMemberOf,identifies a controlled organization over which the member has some measure of control,core#definition
+Naec56425757d4cff8a7c0ee0f93cab14,InfluenceBasedDeFactoControllingParty,owl#someValuesFrom
+hasControllingOrganizationMember,hasControllingParty,rdf-schema#subPropertyOf
+Receiver,receiver,rdf-schema#label
+N535480bce8204928bcb2b8d4b31f0e6e,DeFactoControl,owl#someValuesFrom
+advises,advises,rdf-schema#label
+DeFactoControllingInterestParty,de facto controlling interest party,rdf-schema#label
+ContractualControl,DeJureControl,rdf-schema#subClassOf
+CourtAppointedControl,court appointed control,rdf-schema#label
+N4afcf9e9cb734c86808b71e721b694e2,isConferredBy,owl#onProperty
+EntityControllingParty,owl#Class,22-rdf-syntax-ns#type
+N655a655316424a2292937ae4434a1007,owl#Restriction,22-rdf-syntax-ns#type
+N615a2284c9a74f788fb87d9b1fc01cd6,owl#Restriction,22-rdf-syntax-ns#type
+,"ControlParties.rdf version of this ontology was modified per the FIBO 2.0 RFC to add missing labels and definitions, eliminate references to BusinessFacingTypes, etc.",core#changeNote
+ControllingAlliance,owl#Class,22-rdf-syntax-ns#type
+InfluenceBasedDeFactoControllingParty,owl#Class,22-rdf-syntax-ns#type
+N6e44d03378544f6e81f555542a80ab0d,owl#Restriction,22-rdf-syntax-ns#type
+advises,owl#ObjectProperty,22-rdf-syntax-ns#type
+InvestmentBasedDeFactoControl,N5be626727b0f4cfa83e01013cd2edbf2,rdf-schema#subClassOf
+ControlledParty,ControlledThing,rdf-schema#subClassOf
+,"This ontology defines concepts relating to types of controlling parties. The concepts defined here are party in role concepts, which define the nature of some entity such as an organization or a legal person, in some role such as that of owning a controlling interest in the entity or of controlling that entity. These roles are defined in terms of the types of control enjoyed by the party, for example de facto or de jure control. An important feature of this ontology is the distinction between the holding of a controlling interest (such as voting shares), and the de facto existence of control of one body by another as asserted in company filings or as a conclusion drawn from computational analysis of controlling interests.",abstract
+Receiver,N686d3157c90d47ccbb4cf007c66909f8,rdf-schema#subClassOf
+DeJureControllingInterestParty,owl#Class,22-rdf-syntax-ns#type
+MajorityControllingParty,"Electronic Code of Federal Regulations, Title 17, Chapter 1, Section 49.2",adaptedFrom
+ControllingAlliance,Group,rdf-schema#subClassOf
+N615a2284c9a74f788fb87d9b1fc01cd6,InvestmentBasedDeFactoControl,owl#allValuesFrom
+N535480bce8204928bcb2b8d4b31f0e6e,owl#Restriction,22-rdf-syntax-ns#type
+InfluenceBasedDeFactoControllingParty,party that holds influence-based control over some other party,core#definition
+MajorityControllingParty,EntityControllingParty,rdf-schema#subClassOf
+InvestmentBasedDeFactoControllingInterestParty,DeFactoControllingInterestParty,rdf-schema#subClassOf
+DeFactoControllingInterestParty,owl#Class,22-rdf-syntax-ns#type
+advises,isPartyControlling,rdf-schema#subPropertyOf
+hasControllingOrganizationMember,has controlling organization member,rdf-schema#label
+ContractualControl,owl#Class,22-rdf-syntax-ns#type
+advises,ControlledParty,rdf-schema#range
+InfluenceBasedDeFactoControllingParty,Na0a30388860f4045b8b7e99b57e570f0,rdf-schema#subClassOf
+,"ControlParties.rdf version of the ontology was modified to correct the label on hasControllingOrganizationMember and reflect the move of OrganizationMember from Parties to Organizations in FND, and to incorporate the latest insights into how control relations should integrate with the control situation.",core#changeNote
+InfluenceBasedDeFactoControl,Naec56425757d4cff8a7c0ee0f93cab14,rdf-schema#subClassOf
+TotalOwner,"By virtue of holding 100 percent of the equity ownership, the Total Owner also holds 100 percent of the controlling equity, if there is a difference. Therefore it is both a total owner and a total controlling party.",core#editorialNote
+isBasedOnInvestmentEquity,InvestmentBasedDeFactoControl,rdf-schema#domain
+isBasedOnInvestmentEquity,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasControllingOrganizationMember,OrganizationMember,rdf-schema#range
+isAdvisedBy,indicates the party that acts in an advisory capacity to the controlled party,core#definition
+isControllingMemberOf,is controlling member of,rdf-schema#label
+Naec56425757d4cff8a7c0ee0f93cab14,owl#Restriction,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+N5be626727b0f4cfa83e01013cd2edbf2,InvestmentBasedDeFactoControllingInterestParty,owl#someValuesFrom
+MajorityControllingParty,owl#Class,22-rdf-syntax-ns#type
+Na0a30388860f4045b8b7e99b57e570f0,owl#Restriction,22-rdf-syntax-ns#type
+JointControllingParty,N6e44d03378544f6e81f555542a80ab0d,rdf-schema#subClassOf
+,MIT,license
+hasMajorityControllingParty,MajorityControllingParty,rdf-schema#range
+hasMajorityControllingParty,isControlledPartyOf,rdf-schema#subPropertyOf
+InvestmentBasedDeFactoControllingInterestParty,Investor,rdf-schema#subClassOf
+N6e44d03378544f6e81f555542a80ab0d,ControllingAlliance,owl#allValuesFrom
+Nc8fec839a4d4414eb270879f918248cb,isConferredBy,owl#onProperty
+InvestmentBasedDeFactoControllingInterestParty,investment-based de facto controlling interest party,rdf-schema#label
+isAdvisedBy,ControlledParty,rdf-schema#domain
+DeJureControllingInterestParty,de jure controlling interest party,rdf-schema#label
+Nde3c1d271f20446e87602b6bbb486b0f,isConferredBy,owl#onProperty
+CourtAppointedControl,Nc8fec839a4d4414eb270879f918248cb,rdf-schema#subClassOf
+EntityControllingParty,entity controlling party,rdf-schema#label
+SoleControllingParty,owl#Class,22-rdf-syntax-ns#type
+DeFactoControllingInterestParty,N535480bce8204928bcb2b8d4b31f0e6e,rdf-schema#subClassOf
+hasMajorityControllingParty,has majority controlling party,rdf-schema#label
+JointControllingParty,SoleControllingParty,owl#disjointWith
+N5be626727b0f4cfa83e01013cd2edbf2,hasPartyInControl,owl#onProperty
+InvestmentBasedDeFactoControl,"control that arises through some investment in some entity, other than via the holding of constitutional equity (shares etc.) in that entity",core#definition
+N4afcf9e9cb734c86808b71e721b694e2,owl#Restriction,22-rdf-syntax-ns#type
+MajorityControllingParty,"controlling party that possesses, either directly or indirectly, the power to direct or cause the direction of the management and policies of a legal person, whether through the ownership of a majority of voting securities, by contract, or otherwise",core#definition
+isControllingMemberOf,isPartyControlling,rdf-schema#subPropertyOf
+N686d3157c90d47ccbb4cf007c66909f8,owl#Restriction,22-rdf-syntax-ns#type
+Nc0cedad97eaa4320b729c759530c7e44,owl#Restriction,22-rdf-syntax-ns#type
+Nc8fec839a4d4414eb270879f918248cb,CourtOfLaw,owl#allValuesFrom
+N60b285d38c52452b8e4f3a92cb928a02,isPlayedBy,owl#onProperty
+DeJureControllingInterestParty,ControllingParty,rdf-schema#subClassOf
+InvestmentBasedDeFactoControl,N4afcf9e9cb734c86808b71e721b694e2,rdf-schema#subClassOf
+Na0a30388860f4045b8b7e99b57e570f0,InfluenceBasedDeFactoControl,owl#someValuesFrom
+InvestmentBasedDeFactoControllingInterestParty,N615a2284c9a74f788fb87d9b1fc01cd6,rdf-schema#subClassOf
+InfluenceBasedDeFactoControllingParty,Regulatory or jurisdictional control would fall under this control. Court appointed control is de jure control BUT the scenario in which a government takes over something and then hands it over to some new de jure controller i.e. administrator - in the meantime this is de facto control by e.g. the government.,core#editorialNote
+,ControlParties.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+JointControllingParty,EntityControllingParty,rdf-schema#subClassOf
+hasControllingOrganizationMember,ControlledParty,rdf-schema#domain
+ControlledParty,controlled party,rdf-schema#label
+TotalOwner,party that has 100 percent ownership some legal entity,core#definition
+isAdvisedBy,has advisor,rdf-schema#label
+ControlledParty,person or organization over which some party exercises some form of authority or influence with respect to some situation,core#definition

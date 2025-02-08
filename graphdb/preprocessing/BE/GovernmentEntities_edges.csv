@@ -1,0 +1,377 @@
+source_id,target_id,relationship
+Nc28081e6047a4909a6f32f5884dffdd5,owl#Restriction,22-rdf-syntax-ns#type
+N6a951a95edfc4320b379370ef7cee844,governs,owl#onProperty
+Nc1b60c70d62c4c9fa57cc6356cd3c5e6,GovernmentMinister,owl#onClass
+Polity,"legal person that is a supranational entity, crown, state, or subordinate civil authority, such as a province, prefecture, county, municipality, city, or district representing the people of that entity",core#definition
+N45ef32aeec6b47c29c6279107602ee66,hasSovereigntyOver,owl#onProperty
+N6a951a95edfc4320b379370ef7cee844,owl#Restriction,22-rdf-syntax-ns#type
+Ne49752d09f0a42b7b7be18ddf7b2f4fd,GeopoliticalEntity,owl#someValuesFrom
+Nebd39562c3db48c49cdfe3ff022e80d0,GovernmentBody,owl#onClass
+isInstrumentOf,relates an instrumentality of some government to the government that it supports,core#definition
+GovernmentBody,"Identifying government bodies is a pre-requisite for identifying government officials. This information is needed to help ensure compliance with applicable laws relating to bribery or corruption, including the U.S. Foreign Corrupt Practices Act (FCPA), the UK Bribery Act 2010 (UKBA), the U.S. Bank Bribery Act (Bribery Act), and other anti-bribery and corruption laws in the jurisdictions where financial institutions conduct business.",explanatoryNote
+GovernmentBody,N44d000248b524b68a792c79b04dc48d5,rdf-schema#subClassOf
+N9463dc72a780488dbcc5daaabfc605f3,owl#Restriction,22-rdf-syntax-ns#type
+,GovernmentEntities.rdf version of this ontology was modified to address text formatting hygiene issues and to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+GovernmentAgency,GovernmentBody,rdf-schema#subClassOf
+N45ef32aeec6b47c29c6279107602ee66,Municipality,owl#someValuesFrom
+GovernmentBody,government body,rdf-schema#label
+N6a951a95edfc4320b379370ef7cee844,FederalCapitalArea,owl#onClass
+RegionalSovereignty,owl#Class,22-rdf-syntax-ns#type
+Nae8ca23b9b1e4a1aac2d229cb4db30af,owl#Restriction,22-rdf-syntax-ns#type
+TribalEntity,N198a57ef406d460aa1f6a7185acdaed8,rdf-schema#subClassOf
+N0c5bfac39861448b87e1d94752958845,Nca32c49b02f44b3b86f45e8349c47b30,22-rdf-syntax-ns#first
+BranchOfGovernment,GovernmentBody,rdf-schema#subClassOf
+N3681f5ab269244a9871b5f8367507448,owl#Restriction,22-rdf-syntax-ns#type
+TribalArea,designation for geographic region administered by a group of indigenous people rather than by a sovereign state or regional governmental entity,core#definition
+Government,the system by which a state or community is controlled,core#definition
+BranchOfGovernment,"division of the government of a state, with separate and independent powers and areas of responsibility so that the powers of one branch are not in conflict with the powers associated with the other branches",core#definition
+GovernmentAgency,owl#Class,22-rdf-syntax-ns#type
+N9aa6ed4731604124b5acff6f14ed0d04,Country,owl#someValuesFrom
+,,owl#versionIRI
+hasSovereigntyOver,has sovereignty over,rdf-schema#label
+SupranationalEntity,Polity,rdf-schema#subClassOf
+N37808c9c493a4b8fbf0a8134c686f880,N6a951a95edfc4320b379370ef7cee844,22-rdf-syntax-ns#first
+Judiciary,"The judiciary also provides a mechanism for the resolution of disputes. Under the doctrine of the separation of powers, the judiciary generally does not make law (that is, in a plenary fashion, which is the responsibility of the legislature) or enforce law (which is the responsibility of the executive), but rather interprets law and applies it to the facts of each case.",explanatoryNote
+Ne49752d09f0a42b7b7be18ddf7b2f4fd,governs,owl#onProperty
+Nae8ca23b9b1e4a1aac2d229cb4db30af,isMandatedBy,owl#onProperty
+TribalEntity,Polity,rdf-schema#subClassOf
+BranchOfGovernment,owl#Class,22-rdf-syntax-ns#type
+GovernmentDepartment,government department,rdf-schema#label
+MunicipalGovernment,municipal government,rdf-schema#label
+Nebd39562c3db48c49cdfe3ff022e80d0,0,owl#minQualifiedCardinality
+Na280b2a61f78481897938beff281ed32,GovernmentBody,owl#onClass
+GovernmentAppointee,"individual designated by government decree to lead, or participate in some capacity in a government body",core#definition
+Judiciary,"branch of government that comprises the system of courts that interprets and applies the law in the name of the supranational, national, federal, or regional government, depending on its jurisdiction",core#definition
+N0dbe4b8503fd4737b01cdc522f29bf31,Nba89c80b50bf42aea3767f52f46d1c60,22-rdf-syntax-ns#first
+,Government Entities Ontology,rdf-schema#label
+Neb71cd7cb8c44bc597bbf8163ed2894e,hasConstituent,owl#onProperty
+RegionalGovernment,Government,rdf-schema#subClassOf
+MunicipalEntity,N45ef32aeec6b47c29c6279107602ee66,rdf-schema#subClassOf
+N44d000248b524b68a792c79b04dc48d5,hasObjective,owl#onProperty
+ExecutiveBranch,executive branch,rdf-schema#label
+isRepresentedBy,is represented by,rdf-schema#label
+hasSovereigntyOver,relates a polity to a geopolitical entity where the polity exercises dominion and authority of a political state,core#definition
+N25a63b9075eb41e0a7e5bb0b1258fdff,hasSharedSovereigntyOver,owl#onProperty
+NationalIdentificationNumber,owl#Class,22-rdf-syntax-ns#type
+FederatedSovereignty,Na24aec47840b48c793cc290011879b56,rdf-schema#subClassOf
+hasJurisdiction,owl#ObjectProperty,22-rdf-syntax-ns#type
+N42bd719fed1042538a8017381fb91557,owl#Restriction,22-rdf-syntax-ns#type
+Nfc2aa00c241142cdbf77bec35781b3a9,Country,owl#someValuesFrom
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+N2f28da36dc7a48e8ad29a5459ec5d135,MunicipalGovernment,owl#someValuesFrom
+Nebd39562c3db48c49cdfe3ff022e80d0,owl#Restriction,22-rdf-syntax-ns#type
+Government,"In the Commonwealth of Nations, the word government is also used more narrowly to refer to the collective group of people that exercises executive authority in a state. This usage is analogous to what is called an 'administration' in American English. Furthermore, especially in American English, the concepts of the state and the government may be used synonymously to refer to the person or group of people exercising authority over a politically organized territory.",explanatoryNote
+GovernmentMinister,Executive,rdf-schema#subClassOf
+Judiciary,BranchOfGovernment,rdf-schema#subClassOf
+TribalGovernment,"government representing a group of indigenous people that has legal authority to govern those people, including authority to legislate the existence of tribal entities",core#definition
+Nb525d759eea94786854249d2dc262fc8,owl#Restriction,22-rdf-syntax-ns#type
+isInstrumentOf,is an instrument of,rdf-schema#label
+Polity,LegalPerson,rdf-schema#subClassOf
+,GovernmentEntities.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.2 RTF report.,core#changeNote
+SovereignState,owl#Class,22-rdf-syntax-ns#type
+ExecutiveBranch,branches-of-government,adaptedFrom
+N42bd719fed1042538a8017381fb91557,1,owl#qualifiedCardinality
+N603c4e09d8c54b5f815a8aa990a9de66,NationalGovernment,owl#someValuesFrom
+Polity,GovernmentBody,rdf-schema#subClassOf
+NationalGovernment,government and the politicians that that run a country as a whole (as opposed to local government),core#definition
+N755deaed15ec43448db3c6a09ddcfc7c,governs,owl#onProperty
+isElectedBy,elects,owl#inverseOf
+Nca32c49b02f44b3b86f45e8349c47b30,isRepresentedBy,owl#onProperty
+N93f29805b1704ec7acee1ce48a23d0d5,0,owl#minQualifiedCardinality
+DevolvedGovernment,"government and the politicians that that run a subnational territory with powers that may be temporary and reversible, ultimately residing with the central government",core#definition
+N93f29805b1704ec7acee1ce48a23d0d5,owl#Restriction,22-rdf-syntax-ns#type
+N3c16f345885b4ea1a8f95614ca16861b,owl#Restriction,22-rdf-syntax-ns#type
+SovereignState,sovereign state,rdf-schema#label
+FederalGovernment,"A federation is a political entity characterized by a union of partially self-governing states or regions under a central (federal) government. In a federation, the self-governing status of the component states, as well as the division of power between them and the central government, are typically constitutionally entrenched and may not be altered by a unilateral decision of either party, the states or the federal political body.",explanatoryNote
+Nb525d759eea94786854249d2dc262fc8,governs,owl#onProperty
+N5c241a014b5b4b39a22ce2812d678332,owl#Restriction,22-rdf-syntax-ns#type
+Nd899704a338649348b3ba46bae92f148,isRepresentedBy,owl#onProperty
+Instrumentality,instrumentality,rdf-schema#label
+Nb8fbcc4f563743a1a1431c6a107a7bdf,owl#Restriction,22-rdf-syntax-ns#type
+Polity,owl#Class,22-rdf-syntax-ns#type
+N188b2843ba1249ff9030c19fd498bad1,owl#Restriction,22-rdf-syntax-ns#type
+,GovernmentEntities.rdf version of this ontology was modified to reflect the move of hasObjective to FND to enable higher level reuse and eliminate a reasoning error.,core#changeNote
+Instrumentality,Nc28081e6047a4909a6f32f5884dffdd5,rdf-schema#subClassOf
+RegionalSovereignty,Polity,rdf-schema#subClassOf
+Neb71cd7cb8c44bc597bbf8163ed2894e,GovernmentDepartment,owl#onClass
+N44d000248b524b68a792c79b04dc48d5,0,owl#minQualifiedCardinality
+TribalGovernment,owl#Class,22-rdf-syntax-ns#type
+GovernmentMinister,government minister,rdf-schema#label
+BranchOfGovernment,branches-of-government,adaptedFrom
+Judiciary,judiciary,rdf-schema#label
+hasJurisdiction,has jurisdiction,rdf-schema#label
+N45dd83b99cb5487897a6e9422a0d6a0a,owl#Restriction,22-rdf-syntax-ns#type
+NationalGovernment,N7af9b251e39248559d6ed09358166f15,rdf-schema#subClassOf
+N5c241a014b5b4b39a22ce2812d678332,GovernmentAppointee,owl#onClass
+Na24aec47840b48c793cc290011879b56,owl#Class,22-rdf-syntax-ns#type
+,"GovernmentEntities.rdf version of this ontology was added to Business Entities, per the issue resolutions identified in the FIBO BE 1.1 RTF report.",core#changeNote
+N755deaed15ec43448db3c6a09ddcfc7c,Municipality,owl#someValuesFrom
+,This ontology defines the fundamental concepts for representing polities and government entities and their relations.,abstract
+N5c241a014b5b4b39a22ce2812d678332,0,owl#minQualifiedCardinality
+N188b2843ba1249ff9030c19fd498bad1,1,owl#qualifiedCardinality
+,GovernmentEntities.rdf version of this ontology was modified to fix spelling errors.,core#changeNote
+N603c4e09d8c54b5f815a8aa990a9de66,owl#Restriction,22-rdf-syntax-ns#type
+Instrumentality,Nae8ca23b9b1e4a1aac2d229cb4db30af,rdf-schema#subClassOf
+TribalEntity,tribal entity,rdf-schema#label
+FederalGovernment,N87f0f986655d40239aa166ba4ecde5f4,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+FederatedSovereignty,"The federated sovereignty is the legal entity that can incur debt for a federal government, as distinct from the Federal government.",explanatoryNote
+Nf0a42eb28b4e4617b1cf3f27789eb80a,hasSharedSovereigntyOver,owl#onProperty
+NationalIdentificationNumber,N188b2843ba1249ff9030c19fd498bad1,rdf-schema#subClassOf
+N65a9684d0c7749abbbf07d9e96ac76b0,owl#Class,22-rdf-syntax-ns#type
+ExecutiveBranch,BranchOfGovernment,rdf-schema#subClassOf
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+N42bd719fed1042538a8017381fb91557,Government,owl#onClass
+MunicipalGovernment,N755deaed15ec43448db3c6a09ddcfc7c,rdf-schema#subClassOf
+N9aa6ed4731604124b5acff6f14ed0d04,hasFullSovereigntyOver,owl#onProperty
+isJurisdictionOf,relates a jurisdiction to a polity or other government entity or court that has some level of legal authority over it,core#definition
+GovernmentAppointee,government appointee,rdf-schema#label
+N3681f5ab269244a9871b5f8367507448,Country,owl#someValuesFrom
+Instrumentality,LegalEntity,rdf-schema#subClassOf
+,GovernmentEntities.rdf version of this ontology was modified to augment the definition of instrumentality with additional notes.,core#changeNote
+Nd899704a338649348b3ba46bae92f148,owl#Restriction,22-rdf-syntax-ns#type
+,"GovernmentEntities.rdf version of this ontology was modified to eliminate references to external dictionary sites that no longer resolve, revise circular or ambiguous definitions, and to eliminate 'hasPartialSovereigntyOver' in favor of 'hasSharedSovereigntyOver'.",core#changeNote
+BranchOfGovernment,branch of government,rdf-schema#label
+GovernmentDepartment,Nc1b60c70d62c4c9fa57cc6356cd3c5e6,rdf-schema#subClassOf
+N81638b99e83948e0ae028536ab09bb66,isRepresentedBy,owl#onProperty
+N06d18043019640fd8e5985f31f943274,Nebd39562c3db48c49cdfe3ff022e80d0,owl#someValuesFrom
+RegionalGovernment,regional government,rdf-schema#label
+GovernmentOfficial,ResponsibleParty,rdf-schema#subClassOf
+Ndbd2e9f66bc8494a85c4cb363d3974a4,owl#Restriction,22-rdf-syntax-ns#type
+isElectedBy,identifies an official or government chosen to hold office by voting,core#definition
+Instrumentality,"organization that serves a public purpose and is closely tied to a government, but is not a government agency",core#definition
+Na9b6c38774784e2aadde828abf27c9cd,Government,owl#someValuesFrom
+N45dd83b99cb5487897a6e9422a0d6a0a,1,owl#qualifiedCardinality
+TribalArea,GeopoliticalEntity,rdf-schema#subClassOf
+Legislature,Laws enacted by legislatures are known as legislation. Legislatures observe and steer governing actions and usually have exclusive authority to amend the budget or budgets involved in the process.,explanatoryNote
+isJurisdictionOf,is jurisdiction of,rdf-schema#label
+hasSovereigntyOver,GeopoliticalEntity,rdf-schema#range
+Nebd39562c3db48c49cdfe3ff022e80d0,isMemberOf,owl#onProperty
+Nfec345dcb66c453a8352b0322a640310,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,GovernmentEntities.rdf version of this ontology was modified to eliminate duplication of concepts in LCC and merge the countries ontology with locations.,core#changeNote
+MunicipalGovernment,"regional government of a city, township, or other administrative subdivision",core#definition
+,Release,hasMaturityLevel
+MunicipalGovernment,owl#Class,22-rdf-syntax-ns#type
+N45dd83b99cb5487897a6e9422a0d6a0a,isPlayedBy,owl#onProperty
+GovernmentAppointee,N841b2de0efd34df2af76e247c70c9794,rdf-schema#subClassOf
+MunicipalEntity,Polity,rdf-schema#subClassOf
+RegionalGovernment,Ne49752d09f0a42b7b7be18ddf7b2f4fd,rdf-schema#subClassOf
+DevolvedGovernment,devolved government,rdf-schema#label
+FederalGovernment,union of states under a central government distinct from the individual governments of the separate states,core#definition
+N5c241a014b5b4b39a22ce2812d678332,isManagedBy,owl#onProperty
+hasJurisdiction,"relates a polity or government entity to one or more jurisdictions, over which it has some level of legal authority",core#definition
+GovernmentMinister,owl#Class,22-rdf-syntax-ns#type
+SupranationalEntity,"ISO 20275:2017, Financial services - Entity legal forms (ELF), First Edition, July 2017.",adaptedFrom
+NationalGovernment,owl#Class,22-rdf-syntax-ns#type
+hasSharedSovereigntyOver,has shared sovereignty over,rdf-schema#label
+Nba89c80b50bf42aea3767f52f46d1c60,FederalGovernment,owl#onClass
+isElectedBy,is elected by,rdf-schema#label
+SovereignState,"A legal entity that is represented by one centralized government, has a permanent population, defined territory, and the capacity to enter into relations with other sovereign states.",explanatoryNote
+N81638b99e83948e0ae028536ab09bb66,owl#Restriction,22-rdf-syntax-ns#type
+,"GovernmentEntities.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+Nfc2aa00c241142cdbf77bec35781b3a9,owl#Restriction,22-rdf-syntax-ns#type
+FederatedSovereignty,owl#Class,22-rdf-syntax-ns#type
+RegionalSovereignty,Nd899704a338649348b3ba46bae92f148,rdf-schema#subClassOf
+MunicipalEntity,"polity that typically represents a city, township, or other administrative subdivision having corporate status and powers of self-government or jurisdiction",core#definition
+N7af9b251e39248559d6ed09358166f15,governs,owl#onProperty
+TribalEntity,owl#Class,22-rdf-syntax-ns#type
+RegionalGovernment,owl#Class,22-rdf-syntax-ns#type
+,"GovernmentEntities.rdf version of this ontology was modified to replace isAppointedBy with isDesignatedBy due to a name change in Relations, and to add a class for devolved government.",core#changeNote
+hasFullSovereigntyOver,hasSovereigntyOver,rdf-schema#subPropertyOf
+N93f29805b1704ec7acee1ce48a23d0d5,hasConstituent,owl#onProperty
+N823372dc4ea24a599e597dec39faaa40,owl#Restriction,22-rdf-syntax-ns#type
+hasSovereigntyOver,governs,rdf-schema#subPropertyOf
+N25a63b9075eb41e0a7e5bb0b1258fdff,TribalArea,owl#someValuesFrom
+N7af9b251e39248559d6ed09358166f15,owl#Restriction,22-rdf-syntax-ns#type
+N4a55357a84614c7fa68d57ccaae1dd27,Nfc2aa00c241142cdbf77bec35781b3a9,22-rdf-syntax-ns#first
+Nfc2aa00c241142cdbf77bec35781b3a9,hasFullSovereigntyOver,owl#onProperty
+TribalGovernment,Government,rdf-schema#subClassOf
+N603c4e09d8c54b5f815a8aa990a9de66,isRepresentedBy,owl#onProperty
+FederatedSovereignty,polity characterized by a union of partially self-governing states or regions under a central (federal) government,core#definition
+FederatedSovereignty,federated sovereignty,rdf-schema#label
+Judiciary,owl#Class,22-rdf-syntax-ns#type
+RegionalSovereignty,"A country may be divided into provinces, which, in turn, are divided into counties, which, in turn, may be divided in whole or in part into municipalities; and so on.",core#example
+isJurisdictionOf,Jurisdiction,rdf-schema#domain
+N2f28da36dc7a48e8ad29a5459ec5d135,owl#Restriction,22-rdf-syntax-ns#type
+Polity,N3c16f345885b4ea1a8f95614ca16861b,rdf-schema#subClassOf
+Nb525d759eea94786854249d2dc262fc8,FederalState,owl#someValuesFrom
+Legislature,legislature,rdf-schema#label
+TribalEntity,N25a63b9075eb41e0a7e5bb0b1258fdff,rdf-schema#subClassOf
+TribalGovernment,N9463dc72a780488dbcc5daaabfc605f3,rdf-schema#subClassOf
+Government,Neb71cd7cb8c44bc597bbf8163ed2894e,rdf-schema#subClassOf
+Legislature,owl#Class,22-rdf-syntax-ns#type
+Government,Ndbd2e9f66bc8494a85c4cb363d3974a4,rdf-schema#subClassOf
+GovernmentBody,"formal organization that is an agency, instrumentality, or other body of a supranational, national, federal, state, or local government, including certain multijurisdictional agencies and departments that carry out the business of government",core#definition
+Nba89c80b50bf42aea3767f52f46d1c60,isRepresentedBy,owl#onProperty
+N45dd83b99cb5487897a6e9422a0d6a0a,LegallyCompetentNaturalPerson,owl#onClass
+isJurisdictionOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+N45ef32aeec6b47c29c6279107602ee66,owl#Restriction,22-rdf-syntax-ns#type
+Na9b6c38774784e2aadde828abf27c9cd,isRepresentedBy,owl#onProperty
+SupranationalEntity,supranational entity,rdf-schema#label
+hasFullSovereigntyOver,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nc1b60c70d62c4c9fa57cc6356cd3c5e6,0,owl#minQualifiedCardinality
+Nc1b60c70d62c4c9fa57cc6356cd3c5e6,owl#Restriction,22-rdf-syntax-ns#type
+Government,government,rdf-schema#label
+N841b2de0efd34df2af76e247c70c9794,0,owl#minQualifiedCardinality
+isRepresentedBy,relates a system of governance to its chosen representatives,core#definition
+,GovernmentEntities.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 and loosened restrictions causing reasoning and representational challenges (FND-380).,core#changeNote
+N25a63b9075eb41e0a7e5bb0b1258fdff,owl#Restriction,22-rdf-syntax-ns#type
+N841b2de0efd34df2af76e247c70c9794,Na280b2a61f78481897938beff281ed32,owl#onClass
+Legislature,"the law-making body of a political unit, usually a national government, that has power to enact, amend, and repeal public policy",core#definition
+Nb8fbcc4f563743a1a1431c6a107a7bdf,FederalState,owl#someValuesFrom
+DevolvedGovernment,owl#Class,22-rdf-syntax-ns#type
+Government,owl#Class,22-rdf-syntax-ns#type
+Judiciary,Ne72807d9673b4a0ca189958456050765,rdf-schema#subClassOf
+Nba89c80b50bf42aea3767f52f46d1c60,owl#Restriction,22-rdf-syntax-ns#type
+N06d18043019640fd8e5985f31f943274,owl#Restriction,22-rdf-syntax-ns#type
+isJurisdictionOf,hasJurisdiction,owl#inverseOf
+Instrumentality,"An instrumentality is a non-governmental agency that acts independently but whose obligations are backed by a government because of its role in providing a public service. Many instrumentalities are private companies, and some are chartered directly by government. Instrumentalities are subject to a unique set of laws that shape their activities. Certain organizations, such as Sallie Mae in the United States, may be considered instrumentalities from some perspectives but not others. Sallie Mae's status was changed in 2004, when it was privatized, and since that time it is no longer considered a government-sponsored enterprise (GSE).",explanatoryNote
+MunicipalEntity,"Municipal entity in the sense of a legal entity, that is, what it is that incurs debt for a municipality, as distinct from the Municipal government. A municipal entity has a Government which sets laws applicable within the geographical area corresponding to its jurisdiction.",explanatoryNote
+GovernmentMinister,"Minister of Finance, Secretary of State, Attorney General of California",core#example
+Na9b6c38774784e2aadde828abf27c9cd,owl#Restriction,22-rdf-syntax-ns#type
+hasFullSovereigntyOver,"relates a polity to a geopolitical entity where the polity has absolute, supreme and ultimate dominion and authority of a political state subject to no higher power, expressed within its territory in full self-government and in complete freedom from any outside influence",core#definition
+TribalArea,owl#Class,22-rdf-syntax-ns#type
+ExecutiveBranch,The executive branch executes and enforces the law.,explanatoryNote
+GovernmentOfficial,N45dd83b99cb5487897a6e9422a0d6a0a,rdf-schema#subClassOf
+Government,N93f29805b1704ec7acee1ce48a23d0d5,rdf-schema#subClassOf
+RegionalGovernment,"administrative body for a geographic area, such as a county, smaller town, or other similar community",core#definition
+hasJurisdiction,governs,rdf-schema#subPropertyOf
+N06d18043019640fd8e5985f31f943274,isPlayedBy,owl#onProperty
+Instrumentality,GovernmentBody,rdf-schema#subClassOf
+FederalGovernment,owl#Class,22-rdf-syntax-ns#type
+Polity,polity,rdf-schema#label
+Government,N823372dc4ea24a599e597dec39faaa40,rdf-schema#subClassOf
+Nba89c80b50bf42aea3767f52f46d1c60,1,owl#qualifiedCardinality
+N841b2de0efd34df2af76e247c70c9794,owl#Restriction,22-rdf-syntax-ns#type
+IdentityDocument,owl#Class,22-rdf-syntax-ns#type
+SupranationalEntity,N3681f5ab269244a9871b5f8367507448,rdf-schema#subClassOf
+N3681f5ab269244a9871b5f8367507448,hasSharedSovereigntyOver,owl#onProperty
+RegionalGovernment,"A local government will typically only have control over their specific geographical region, and cannot pass or enforce laws that will affect a wider area. Local governments can elect officials, enact taxes, and do many other things that a national government would do, just on a smaller scale.",explanatoryNote
+hasSharedSovereigntyOver,hasSovereigntyOver,rdf-schema#subPropertyOf
+GovernmentAgency,N5c241a014b5b4b39a22ce2812d678332,rdf-schema#subClassOf
+isRepresentedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+SupranationalEntity,"Kiljunen, Kimmo (2004). The European Constitution in the Making. Centre for European Policy Studies. pp. 21-26. ISBN 978-92-9079-493-6",adaptedFrom
+isInstrumentOf,Instrumentality,rdf-schema#domain
+,MIT,license
+Nc28081e6047a4909a6f32f5884dffdd5,isInstrumentOf,owl#onProperty
+RegionalGovernment,local government,synonym
+NationalGovernment,national government,rdf-schema#label
+N9aa6ed4731604124b5acff6f14ed0d04,owl#Restriction,22-rdf-syntax-ns#type
+Nc28081e6047a4909a6f32f5884dffdd5,Government,owl#someValuesFrom
+GovernmentBody,owl#Class,22-rdf-syntax-ns#type
+Ndbd2e9f66bc8494a85c4cb363d3974a4,0,owl#minQualifiedCardinality
+Instrumentality,owl#Class,22-rdf-syntax-ns#type
+FederalGovernment,federal government,rdf-schema#label
+SovereignState,non-physical juridical entity that is represented by one centralized government that has sovereignty over a geographic area,core#definition
+hasSovereigntyOver,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ndbd2e9f66bc8494a85c4cb363d3974a4,hasConstituent,owl#onProperty
+RegionalSovereignty,Nf0a42eb28b4e4617b1cf3f27789eb80a,rdf-schema#subClassOf
+N841b2de0efd34df2af76e247c70c9794,isPlayedBy,owl#onProperty
+Na24aec47840b48c793cc290011879b56,N4a55357a84614c7fa68d57ccaae1dd27,owl#intersectionOf
+N44d000248b524b68a792c79b04dc48d5,PublicPurpose,owl#onClass
+isInstrumentOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+N3c16f345885b4ea1a8f95614ca16861b,hasSovereigntyOver,owl#onProperty
+Ne72807d9673b4a0ca189958456050765,CourtOfLaw,owl#someValuesFrom
+GovernmentAppointee,GovernmentOfficial,rdf-schema#subClassOf
+TribalGovernment,tribal government,rdf-schema#label
+hasSharedSovereigntyOver,relates a polity to a geopolitical entity where the polity exercises shared dominion and authority of a political state,core#definition
+Government,Instrumentality,owl#disjointWith
+GovernmentAgency,GovernmentDepartment,owl#disjointWith
+SupranationalEntity,governmental or non-governmental entity that is established by international law or treaty or incorporated at an international level,core#definition
+hasJurisdiction,Jurisdiction,rdf-schema#range
+GovernmentAgency,government agency,rdf-schema#label
+Nf0a42eb28b4e4617b1cf3f27789eb80a,owl#Restriction,22-rdf-syntax-ns#type
+Neb71cd7cb8c44bc597bbf8163ed2894e,0,owl#minQualifiedCardinality
+GovernmentOfficial,government official,rdf-schema#label
+N65a9684d0c7749abbbf07d9e96ac76b0,N0c5bfac39861448b87e1d94752958845,owl#intersectionOf
+GovernmentBody,FormalOrganization,rdf-schema#subClassOf
+N0c5bfac39861448b87e1d94752958845,N0dbe4b8503fd4737b01cdc522f29bf31,22-rdf-syntax-ns#rest
+SovereignState,N603c4e09d8c54b5f815a8aa990a9de66,rdf-schema#subClassOf
+N823372dc4ea24a599e597dec39faaa40,governs,owl#onProperty
+TribalEntity,legal entity that represents fundamental unit of sovereign tribal (indigenous) government,core#definition
+SupranationalEntity,N81638b99e83948e0ae028536ab09bb66,rdf-schema#subClassOf
+MunicipalGovernment,Government,rdf-schema#subClassOf
+N93f29805b1704ec7acee1ce48a23d0d5,GovernmentAgency,owl#onClass
+hasSharedSovereigntyOver,owl#ObjectProperty,22-rdf-syntax-ns#type
+RegionalSovereignty,"legal person that corresponds to an administrative division, administrative unit, administrative entity or country subdivision (or, sometimes, geopolitical division or subnational entity), that has the capacity to incur debt, issue contracts, and enter into relations with other similar entities",core#definition
+N188b2843ba1249ff9030c19fd498bad1,Government,owl#onClass
+SupranationalEntity,"A supranational union is a supranational polity which lies somewhere between a confederation that is an association of states and a federation that is a state. Unlike states in a federal super-state, member states retain ultimate sovereignty, although some sovereignty is shared with, or ceded to, the supranational body.",explanatoryNote
+FederatedSovereignty,SovereignState,rdf-schema#subClassOf
+N3c16f345885b4ea1a8f95614ca16861b,GeopoliticalEntity,owl#someValuesFrom
+Nc1b60c70d62c4c9fa57cc6356cd3c5e6,isManagedBy,owl#onProperty
+Ne72807d9673b4a0ca189958456050765,hasPart,owl#onProperty
+Ne49752d09f0a42b7b7be18ddf7b2f4fd,owl#Restriction,22-rdf-syntax-ns#type
+TribalEntity,Any indigenous group or community which is recognized as having rights and obligations independent of the central government.,explanatoryNote
+Nca32c49b02f44b3b86f45e8349c47b30,RegionalGovernment,owl#someValuesFrom
+N3d97e1bf4e3f42ecac64cb768a276478,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+MunicipalEntity,N2f28da36dc7a48e8ad29a5459ec5d135,rdf-schema#subClassOf
+Polity,Na9b6c38774784e2aadde828abf27c9cd,rdf-schema#subClassOf
+N823372dc4ea24a599e597dec39faaa40,GeopoliticalEntity,owl#someValuesFrom
+SupranationalEntity,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+SovereignState,Polity,rdf-schema#subClassOf
+Neb71cd7cb8c44bc597bbf8163ed2894e,owl#Restriction,22-rdf-syntax-ns#type
+isElectedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+N3d97e1bf4e3f42ecac64cb768a276478,Nb525d759eea94786854249d2dc262fc8,22-rdf-syntax-ns#first
+Nae8ca23b9b1e4a1aac2d229cb4db30af,StatuteLaw,owl#onClass
+GovernmentDepartment,owl#Class,22-rdf-syntax-ns#type
+Nfec345dcb66c453a8352b0322a640310,Nb8fbcc4f563743a1a1431c6a107a7bdf,22-rdf-syntax-ns#first
+GovernmentDepartment,specialized organization responsible for a sector of government public administration,core#definition
+N2f28da36dc7a48e8ad29a5459ec5d135,isRepresentedBy,owl#onProperty
+RegionalSovereignty,regional sovereignty,rdf-schema#label
+N37808c9c493a4b8fbf0a8134c686f880,N3d97e1bf4e3f42ecac64cb768a276478,22-rdf-syntax-ns#rest
+NationalGovernment,Government,rdf-schema#subClassOf
+MunicipalEntity,municipality,synonym
+Government,FunctionalEntity,rdf-schema#subClassOf
+FederalGovernment,NationalGovernment,rdf-schema#subClassOf
+IdentityDocument,N42bd719fed1042538a8017381fb91557,rdf-schema#subClassOf
+N755deaed15ec43448db3c6a09ddcfc7c,owl#Restriction,22-rdf-syntax-ns#type
+GovernmentDepartment,GovernmentBody,rdf-schema#subClassOf
+GovernmentOfficial,person elected or appointed to administer some aspect of a government,core#definition
+N0dbe4b8503fd4737b01cdc522f29bf31,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nd899704a338649348b3ba46bae92f148,RegionalGovernment,owl#someValuesFrom
+GovernmentAppointee,owl#Class,22-rdf-syntax-ns#type
+Nb8fbcc4f563743a1a1431c6a107a7bdf,hasSharedSovereigntyOver,owl#onProperty
+N42bd719fed1042538a8017381fb91557,isIssuedBy,owl#onProperty
+Na280b2a61f78481897938beff281ed32,0,owl#minQualifiedCardinality
+Na280b2a61f78481897938beff281ed32,owl#Restriction,22-rdf-syntax-ns#type
+GovernmentAgency,"There is a notable variety of agency types. Although usage differs, a government agency is normally distinct both from a department or ministry, and other types of public body established by government. The functions of an agency are normally executive in character, since different types of organizations (such as commissions) are most often constituted in an advisory role; this distinction is often blurred in practice however.",explanatoryNote
+N81638b99e83948e0ae028536ab09bb66,GovernmentBody,owl#someValuesFrom
+FederatedSovereignty,N65a9684d0c7749abbbf07d9e96ac76b0,rdf-schema#subClassOf
+TribalArea,tribal area,rdf-schema#label
+N198a57ef406d460aa1f6a7185acdaed8,isRepresentedBy,owl#onProperty
+Ndbd2e9f66bc8494a85c4cb363d3974a4,BranchOfGovernment,owl#onClass
+N4a55357a84614c7fa68d57ccaae1dd27,Nfec345dcb66c453a8352b0322a640310,22-rdf-syntax-ns#rest
+ExecutiveBranch,the branch of government that is authorized and responsible for the daily administration of the government,core#definition
+,GovernmentEntities.rdf version of this ontology was modified per the FIBO 2.0 RFC to integrate LCC.,core#changeNote
+Na280b2a61f78481897938beff281ed32,isDesignatedBy,owl#onProperty
+GovernmentAgency,"permanent or semi-permanent organization, often an appointed commission, in the machinery of government that is responsible for the oversight and administration of specific functions",core#definition
+hasFullSovereigntyOver,has full sovereignty over,rdf-schema#label
+GovernmentOfficial,owl#Class,22-rdf-syntax-ns#type
+," merge the legal person and formal organization class hierarchies, and revise certain definitions, such as for supranational entity, to correspond to ISO definitions.",core#changeNote
+GovernmentAppointee,Executive,rdf-schema#subClassOf
+N87f0f986655d40239aa166ba4ecde5f4,N37808c9c493a4b8fbf0a8134c686f880,owl#intersectionOf
+N9463dc72a780488dbcc5daaabfc605f3,TribalArea,owl#someValuesFrom
+MunicipalEntity,municipal entity,rdf-schema#label
+N198a57ef406d460aa1f6a7185acdaed8,owl#Restriction,22-rdf-syntax-ns#type
+N6a951a95edfc4320b379370ef7cee844,0,owl#minQualifiedCardinality
+N7af9b251e39248559d6ed09358166f15,Country,owl#someValuesFrom
+Legislature,BranchOfGovernment,rdf-schema#subClassOf
+N9463dc72a780488dbcc5daaabfc605f3,governs,owl#onProperty
+N198a57ef406d460aa1f6a7185acdaed8,TribalGovernment,owl#someValuesFrom
+Nca32c49b02f44b3b86f45e8349c47b30,owl#Restriction,22-rdf-syntax-ns#type
+N87f0f986655d40239aa166ba4ecde5f4,owl#Class,22-rdf-syntax-ns#type
+N44d000248b524b68a792c79b04dc48d5,owl#Restriction,22-rdf-syntax-ns#type
+Nf0a42eb28b4e4617b1cf3f27789eb80a,GeopoliticalEntity,owl#someValuesFrom
+isInstrumentOf,Government,rdf-schema#range
+GovernmentOfficial,N06d18043019640fd8e5985f31f943274,rdf-schema#subClassOf
+GovernmentMinister,"government official that is an executive, who is either appointed or elected to a high office in the government",core#definition
+ExecutiveBranch,owl#Class,22-rdf-syntax-ns#type
+Ne72807d9673b4a0ca189958456050765,owl#Restriction,22-rdf-syntax-ns#type
+SovereignState,N9aa6ed4731604124b5acff6f14ed0d04,rdf-schema#subClassOf
+Nae8ca23b9b1e4a1aac2d229cb4db30af,0,owl#minQualifiedCardinality
+hasSovereigntyOver,Polity,rdf-schema#domain
+MunicipalEntity,owl#Class,22-rdf-syntax-ns#type
+N188b2843ba1249ff9030c19fd498bad1,isIssuedBy,owl#onProperty
+DevolvedGovernment,Government,rdf-schema#subClassOf
+GovernmentMinister,GovernmentOfficial,rdf-schema#subClassOf

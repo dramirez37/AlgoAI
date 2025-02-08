@@ -1,0 +1,435 @@
+source_id,target_id,relationship
+,InstrumentPricing.rdf version of this ontology was modified to reflect the move of dated collection from arrangements to financial dates.,core#changeNote
+ClosingPriceDeterminationMethod,"The official closing price is typically the final price at which something trades during regular market hours on an exchange or trading venue. Because of the evolving nature of online trading in a 24 hour world, every exchange has a method of calculating its official closing price, although that methodology changes from time to time. They may also publish an adjusted closing price, which reflects changes to the price that reflect corporate actions and after hours trading that occur before the opening of the exchange on the following day. Understanding how the closing price is determined is important to ensure price comparability for a given security across exchanges.",explanatoryNote
+Na6e2da87b8cd44f1b06f7b6c32fdc246,owl#Restriction,22-rdf-syntax-ns#type
+Nb8e3f5d5f4844219bd7a5ebe1bf6d1cc,hasApplicablePeriod,owl#onProperty
+BestOffer,Nfe67cf6833c14c8a8cc4342892340640,rdf-schema#subClassOf
+hasPriceDeterminationMethod,PriceDeterminationMethod,rdf-schema#range
+hasLotSize,"magnitude of an item (i.e., total quantity)",core#definition
+CalculatedPrice,owl#Class,22-rdf-syntax-ns#type
+RateOfReturn,"net gain or loss on an investment over a specified time period, expressed as a percentage of the investment's initial cost or value as of a specific point in time",core#definition
+hasRateOfReturn,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasQuoteLotSize,SecurityPrice,rdf-schema#domain
+hasNumberOfDaysAccrued,hasNumericValue,rdf-schema#subPropertyOf
+CompositeMarket,N8d8697a2553c4ee59c04f6c035e17e39,rdf-schema#subClassOf
+VolumeWeightedOpenPrice,volume-weighted open price,rdf-schema#label
+Yield,owl#Class,22-rdf-syntax-ns#type
+OfficialClosingPrice,end-of-day price,synonym
+MidPrice,N50055e3cf423463ab64cb48a77390fcb,rdf-schema#subClassOf
+HighPrice,highest price for a given security over the period specified,core#definition
+Ne49bf73c7fca474397f2294ebc379e16,CombinedDateTime,owl#onDataRange
+AdjustedClosingPrice,owl#Class,22-rdf-syntax-ns#type
+hasClosingPriceDeterminationMethod,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ncbefc89a70be405180619789423cdf48,isPriceFor,owl#onProperty
+SecurityPrice,MonetaryPrice,rdf-schema#subClassOf
+OfferPrice,price suggested by a prospective seller at a particular time for a given security,core#definition
+,"InstrumentPricing.rdf version of this ontology was modified to move the nominal for auction market from CDS to the pricing ontology (its IRI was that of this instrument pricing ontology but it was mistakenly in the CDS ontology) and simplify the definition (DER-140), and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).",core#changeNote
+PriceDeterminationMethod,price determination method,rdf-schema#label
+Nb01aa6fe3e284ad5b87f57b9fcf4d3c6,Publisher,22-rdf-syntax-ns#first
+BestOffer,owl#Class,22-rdf-syntax-ns#type
+hasNumberOfDaysAccrued,has number of days accrued,rdf-schema#label
+RateOfReturn,N816ecb06822944c8a6b0241fbc8907f6,rdf-schema#subClassOf
+IntraDayPrice,intra day price,rdf-schema#label
+TradingDay,time span that a particular trading venue is open,core#definition
+CleanPrice,owl#Class,22-rdf-syntax-ns#type
+,,owl#versionIRI
+N6ffbe5f504d94cfd9b7c3906d0834b6d,hasObservedDateTime,owl#onProperty
+N73f8b41f403349709a6de3565351e7b4,owl#Restriction,22-rdf-syntax-ns#type
+ClosingPriceDeterminationMethod,closing price determination method,rdf-schema#label
+YieldSpread,Difference,rdf-schema#subClassOf
+DerivedPrice,price that stems from another source or calculation rather than being quoted or based on actual trading data,core#definition
+Nb6e201de5bc64dcabf692b117ceb8b57,owl#Restriction,22-rdf-syntax-ns#type
+PriceSpread,owl#Class,22-rdf-syntax-ns#type
+N86d5edaa7f01488cb982f97d73fd6070,Publisher,22-rdf-syntax-ns#first
+hasRateOfReturn,FinancialInstrument,rdf-schema#domain
+Nace38d3e2afa459f902639188d0c0836,1,owl#qualifiedCardinality
+Na121fc3fb9cc401bb5927dceefb7e101,owl#Class,22-rdf-syntax-ns#type
+N856bc486c3ad406f86cf02c8a9b0e7f7,BidPrice,owl#someValuesFrom
+MarketPrice,market price,rdf-schema#label
+BestOffer,best offer,rdf-schema#label
+,"InstrumentPricing.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasLotSize,"The lot size, referenced in offerings, listings, orders, and trades, typically refers to the number of shares or units in a single contract.",explanatoryNote
+YieldSpread,owl#Class,22-rdf-syntax-ns#type
+hasPriceDeterminationMethod,owl#ObjectProperty,22-rdf-syntax-ns#type
+N4c43d8f5e6c448e0a3a15b0e534d378b,N884680fc55fd477aa50f3e75485b2654,22-rdf-syntax-ns#rest
+CleanPrice,SecurityPrice,rdf-schema#subClassOf
+N73f8b41f403349709a6de3565351e7b4,Day,owl#hasValue
+N1e44b86954e542e0ae2d5b4804e6d52d,hasApplicablePeriod,owl#onProperty
+N6ffbe5f504d94cfd9b7c3906d0834b6d,CombinedDateTime,owl#onDataRange
+TradingSession,"An exchange may have several trading sessions during a day. For example, the exchange may be open from 9 a.m. until 10:30 a.m., from 11:30 a.m. until 1 p.m., and from 2 p.m. to 3:30 p.m. Holding several trading sessions gives the market more time to digest information rationally without having to respond immediately.",explanatoryNote
+Ne6bd0af418e748f88f066e1206e59b08,hasApplicablePeriod,owl#onProperty
+hasPricingSource,refersTo,rdf-schema#subPropertyOf
+N6c67acc91f3241e481e74134548c6f39,SecurityPrice,owl#someValuesFrom
+DerivedPrice,"There are evaluated prices in which an independent source evaluates a price they have derived, and there are prices which are derived within a firm, from supplied, published end of day price spreads or other market data.",explanatoryNote
+LowPrice,lowest value for a given security over the period specified,core#definition
+Nfc86ae64f0e64f55999ad69f6666366e,N37063a9ee7dd4ba885c30995e82c4986,22-rdf-syntax-ns#rest
+PriceAnalytic,owl#Class,22-rdf-syntax-ns#type
+Ncbefc89a70be405180619789423cdf48,Security,owl#someValuesFrom
+OfferPrice,offering price,synonym
+BidPrice,OfferPrice,owl#disjointWith
+Ne6bd0af418e748f88f066e1206e59b08,owl#Restriction,22-rdf-syntax-ns#type
+N8d8697a2553c4ee59c04f6c035e17e39,hasConstituent,owl#onProperty
+hasTradingDateTime,owl#ObjectProperty,22-rdf-syntax-ns#type
+N50055e3cf423463ab64cb48a77390fcb,owl#Restriction,22-rdf-syntax-ns#type
+hasClosingPriceDeterminationMethod,This method itself changes quite frequently i.e. the exchange may change the way it computes closing prices.,explanatoryNote
+N162c1e3a9e884d459891e620e06d271e,CombinedDateTime,owl#onDataRange
+BestBid,best bid,rdf-schema#label
+Nf423d3473da44eb189c825f361aefaa5,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+MidPrice,mid price,rdf-schema#label
+hasQuoteLotSize,hasLotSize,rdf-schema#subPropertyOf
+BidPrice," market makers with respect to a given security, and that are prepared to buy or sell round lots at publicly quoted prices, and by specialists in certain instruments that perform similar functions on an exchange.",explanatoryNote
+PricingModel,expression used to determine a value for an instrument at a given point in time,core#definition
+Nf7640f17ec114c62b4d2f2557579b4f7,Dealer,22-rdf-syntax-ns#first
+N8d8697a2553c4ee59c04f6c035e17e39,Exchange,owl#someValuesFrom
+PriceAnalytic,N2a716a2b152f45809b32362997189caf,rdf-schema#subClassOf
+hasPricingSource,indicates the origin of a given quote or price for a financial instrument,core#definition
+PriceDeterminationMethod,strategy for calculating or otherwise establishing a price for something,core#definition
+N6fe795ecbd404d33802b6f6ddf8757df,OfferPrice,owl#someValuesFrom
+hasBookDepth,has book depth,rdf-schema#label
+Na121fc3fb9cc401bb5927dceefb7e101,N86d5edaa7f01488cb982f97d73fd6070,owl#unionOf
+IntraDayPrice,MarketPrice,rdf-schema#subClassOf
+N2c39c38f70db41d6ac0328d1f1c68da5,AccruedInterest,owl#someValuesFrom
+N8ed951034bcd4e52b34f42841602bb0a,DatePeriod,owl#someValuesFrom
+OfferPrice,SecurityPrice,rdf-schema#subClassOf
+hasPriceDeterminationMethod,indicates a strategy by which a given price is determined,core#definition
+OfferPrice,owl#Class,22-rdf-syntax-ns#type
+N1e44b86954e542e0ae2d5b4804e6d52d,owl#Restriction,22-rdf-syntax-ns#type
+N73f8b41f403349709a6de3565351e7b4,hasDuration,owl#onProperty
+N37063a9ee7dd4ba885c30995e82c4986,PricingModel,22-rdf-syntax-ns#first
+VolumeWeightedAveragePrice,owl#Class,22-rdf-syntax-ns#type
+BestBid,owl#Class,22-rdf-syntax-ns#type
+VolumeWeightedAveragePrice,"average price at which a given security has traded throughout a trading day, determined by multiplying each trade by its volume, adding the results, then dividing by the volume traded for the day",core#definition
+Nb6e201de5bc64dcabf692b117ceb8b57,hasPricingSource,owl#onProperty
+MidPrice,N1e44b86954e542e0ae2d5b4804e6d52d,rdf-schema#subClassOf
+HighPrice,owl#Class,22-rdf-syntax-ns#type
+SecurityPrice,security price,rdf-schema#label
+Yield,N8ed951034bcd4e52b34f42841602bb0a,rdf-schema#subClassOf
+N2869b02e1e864877ba47e7ca1b43e7e4,uses,owl#onProperty
+N856bc486c3ad406f86cf02c8a9b0e7f7,owl#Restriction,22-rdf-syntax-ns#type
+Nf9482c280b9b4ea29650e66d7beedeef,appliesTo,owl#onProperty
+VolumeWeightedAveragePrice,PriceAnalytic,rdf-schema#subClassOf
+,"InstrumentPricing.rdf version of this ontology was modified to add trading day and trading session, to address ambiguity in some definitions, to add adjusted price and to create a more general hasLotSize property that can be used in various contexts.",core#changeNote
+CompositeMarket,group of exchanges and trading venues referenced for pricing purposes,core#definition
+N8ed951034bcd4e52b34f42841602bb0a,owl#Restriction,22-rdf-syntax-ns#type
+SecurityPrice,N6ffbe5f504d94cfd9b7c3906d0834b6d,rdf-schema#subClassOf
+hasQuoteLotSize,XMLSchema#decimal,rdf-schema#range
+N86d5edaa7f01488cb982f97d73fd6070,Ne66e9c9e014b480da656293becce5d93,22-rdf-syntax-ns#rest
+DirtyPrice,debt instrument price that includes accrued interest,core#definition
+hasPriceDeterminationMethod,has price determination method,rdf-schema#label
+N50055e3cf423463ab64cb48a77390fcb,1,owl#qualifiedCardinality
+TradingDay,"In the United States, and with respect to common stock in particular, trading day means any day on which the stock is traded on the principal market, or, if the principal market is not the principal trading market for the common stock, then on the principal securities exchange or securities market on which the common stock is then traded, provided that 'Trading Day' shall not include any day on which the common stock is scheduled to trade on such exchange or market for less than 4.5 hours or any day that the common stock is suspended from trading during the final hour of trading on such exchange or market (or if such exchange or market does not designate in advance the closing time of trading on such exchange or market, then during the hour ending at 4:00:00 p.m., New York time) unless such day is otherwise designated as a trading day in writing by the holder.",explanatoryNote
+HighPrice,SecurityPrice,rdf-schema#subClassOf
+CleanPrice,clean price,rdf-schema#label
+Nace38d3e2afa459f902639188d0c0836,hasCurrency,owl#onProperty
+hasLotSize,XMLSchema#decimal,rdf-schema#range
+hasBookDepth,XMLSchema#integer,rdf-schema#range
+PriceDeterminationMethod,Strategy,rdf-schema#subClassOf
+N884680fc55fd477aa50f3e75485b2654,N09730ee1d3dd40ba8db74ca621635a4b,22-rdf-syntax-ns#rest
+Nbcb9b2acd63d4016b80d0d1e7967b067,hasApplicablePeriod,owl#onProperty
+YieldSpread,N412535f2b04d4a99834c7d44ca419cc6,rdf-schema#subClassOf
+ClosingPriceDeterminationMethod,strategy for calculating or otherwise determining an official closing price,core#definition
+ClosingPrice,cash value of the last transacted price before the market closes,core#definition
+SecurityPrice,Ncbefc89a70be405180619789423cdf48,rdf-schema#subClassOf
+N6c67acc91f3241e481e74134548c6f39,owl#Restriction,22-rdf-syntax-ns#type
+VolumeWeightedOpenPrice,PriceAnalytic,rdf-schema#subClassOf
+hasTradingVolume,XMLSchema#decimal,rdf-schema#range
+Na6e2da87b8cd44f1b06f7b6c32fdc246,MonetaryPrice,owl#onClass
+Nbcb9b2acd63d4016b80d0d1e7967b067,owl#Restriction,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+hasQuoteLotSize,magnitude of something to which the quote price refers,core#definition
+hasNumberOfDaysAccrued,XMLSchema#integer,rdf-schema#range
+MarketPrice,last reported price at which a security was sold,core#definition
+TradingDay,"By convention it is sufficient to provide a value for hasOpeningDateTime, with hasClosingDateTime being optional.",usageNote
+PriceSpread,difference between two prices,core#definition
+OpeningPrice,opening price,rdf-schema#label
+N2b743ce0ca224ab5ae9df46a7aa96eb3,Exchange,22-rdf-syntax-ns#first
+N620d0a6ca6884b8080f76f81464a1c02,hasApplicablePeriod,owl#onProperty
+RateOfReturn,owl#Class,22-rdf-syntax-ns#type
+N874496d775414cd6b8937810cd0a1748,0,owl#minQualifiedCardinality
+,Instrument Pricing Ontology,rdf-schema#label
+Nb495ba19ade74ae8b665d2848c6f1298,hasClosingPriceDeterminationMethod,owl#onProperty
+RateOfReturn,Ne6bd0af418e748f88f066e1206e59b08,rdf-schema#subClassOf
+Nb8e3f5d5f4844219bd7a5ebe1bf6d1cc,DatePeriod,owl#someValuesFrom
+MidPrice,Nbd3b64cb122c4df0acd27cd40162bd90,rdf-schema#subClassOf
+DerivedPrice,owl#Class,22-rdf-syntax-ns#type
+CollectionOfSecurityPrices,N6c67acc91f3241e481e74134548c6f39,rdf-schema#subClassOf
+Ncbefc89a70be405180619789423cdf48,owl#Restriction,22-rdf-syntax-ns#type
+PriceAnalytic,Nf9482c280b9b4ea29650e66d7beedeef,rdf-schema#subClassOf
+N620d0a6ca6884b8080f76f81464a1c02,owl#Restriction,22-rdf-syntax-ns#type
+TradingDay,N73f8b41f403349709a6de3565351e7b4,rdf-schema#subClassOf
+N2a716a2b152f45809b32362997189caf,hasApplicablePeriod,owl#onProperty
+OfferPrice,offer price,rdf-schema#label
+PriceSpread,Difference,rdf-schema#subClassOf
+N6fe795ecbd404d33802b6f6ddf8757df,owl#Restriction,22-rdf-syntax-ns#type
+N22a730509316415cb8256ae41dbced09,owl#Restriction,22-rdf-syntax-ns#type
+,"InstrumentPricing.rdf version of this ontology was modified to replace a redundant concept, calculation formula with formula, add a general price determination class needed for options, add a restriction on SecurityPrice to point to the security, and add hasRoundLotSize.",core#changeNote
+BestBid,highest bid price a prospective buyer is willing to pay at a particular time for a given security,core#definition
+Ne66e9c9e014b480da656293becce5d93,FinancialServiceProvider,22-rdf-syntax-ns#first
+Nf3dd00cb899744eaba037700cabbf905,OfferPrice,owl#someValuesFrom
+Nb6e201de5bc64dcabf692b117ceb8b57,N011ca5e0a1ee4cfc8851ff18512f992d,owl#someValuesFrom
+hasBookDepth,owl#DatatypeProperty,22-rdf-syntax-ns#type
+MeanPriceDetermination,mean price determination,rdf-schema#label
+TradingSession,window of time within a trading day in which orders may be placed and filled,core#definition
+PriceAnalytic,ScopedMeasure,rdf-schema#subClassOf
+N6fe795ecbd404d33802b6f6ddf8757df,hasArgument,owl#onProperty
+,"Copyright (c) 2020-2024 EDM Council, Inc.",copyright
+hasBookDepth,"An order book is the list of orders (manual or electronic) that a trading venue (in particular stock exchanges) uses to record the interest of buyers and sellers in a particular financial instrument. The book depth refers to the number of price levels available at a particular time in the book. Sometimes the book is represented to a fixed depth, and orders beyond that depth are ignored or rejected, and in other cases the book can contain unlimited levels.",explanatoryNote
+AuctionMethod,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nb8e3f5d5f4844219bd7a5ebe1bf6d1cc,owl#Restriction,22-rdf-syntax-ns#type
+AuctionMethod,auction method,rdf-schema#label
+N412535f2b04d4a99834c7d44ca419cc6,2,owl#qualifiedCardinality
+N18b9bf5571de4890aa3dc410598a7983,owl#Restriction,22-rdf-syntax-ns#type
+ClosingPriceDeterminationMethod,PriceDeterminationMethod,rdf-schema#subClassOf
+N22a730509316415cb8256ae41dbced09,refersTo,owl#onProperty
+N874496d775414cd6b8937810cd0a1748,owl#Restriction,22-rdf-syntax-ns#type
+N816ecb06822944c8a6b0241fbc8907f6,Security,owl#someValuesFrom
+Nfc86ae64f0e64f55999ad69f6666366e,Dealer,22-rdf-syntax-ns#first
+hasBookDepth,indicates depth of the order book to which the price refers,core#definition
+ClosingPrice,MarketPrice,rdf-schema#subClassOf
+hasRoundLotSize,hasLotSize,rdf-schema#subPropertyOf
+TradingDay,trading day,rdf-schema#label
+,Release,hasMaturityLevel
+AdjustedClosingPrice,ClosingPrice,rdf-schema#subClassOf
+Yield,Nace38d3e2afa459f902639188d0c0836,rdf-schema#subClassOf
+Yield,"Yield reflects income over some period of time which is then annualized, and typically projected into the future, assuming that conditions and rates remain the same, whereas return on investment is retrospective.",explanatoryNote
+hasRoundLotSize,has round lot size,rdf-schema#label
+N162c1e3a9e884d459891e620e06d271e,0,owl#minQualifiedCardinality
+VolumeWeightedOpenPrice,"price determined by multiplying each trade by its volume, adding the results, then dividing by the volume over a certain period during the trading day (rather than over the course of the entire day)",core#definition
+OfficialClosingPrice,owl#Class,22-rdf-syntax-ns#type
+N09730ee1d3dd40ba8db74ca621635a4b,CompositeMarket,22-rdf-syntax-ns#first
+LowPrice,owl#Class,22-rdf-syntax-ns#type
+BidAskSpread,N856bc486c3ad406f86cf02c8a9b0e7f7,rdf-schema#subClassOf
+MeanPriceDetermination,owl#NamedIndividual,22-rdf-syntax-ns#type
+PriceSpread,price spread,rdf-schema#label
+N011ca5e0a1ee4cfc8851ff18512f992d,owl#Class,22-rdf-syntax-ns#type
+hasQuoteLotSize,has quote lot size,rdf-schema#label
+N18b9bf5571de4890aa3dc410598a7983,1,owl#qualifiedCardinality
+N8019314ccc3b4b8197773b8b5745e68b,owl#Restriction,22-rdf-syntax-ns#type
+InternalRateOfReturn,internal rate of return,rdf-schema#label
+hasTradingVolume,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N50055e3cf423463ab64cb48a77390fcb,hasCurrency,owl#onProperty
+ClosingPriceDeterminationMethod,owl#Class,22-rdf-syntax-ns#type
+Nace38d3e2afa459f902639188d0c0836,Currency,owl#onClass
+N2a716a2b152f45809b32362997189caf,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2020-2024 Object Management Group, Inc.",copyright
+PricingModel,pricing model,rdf-schema#label
+N1e44b86954e542e0ae2d5b4804e6d52d,DatePeriod,owl#someValuesFrom
+SecurityPrice,N874496d775414cd6b8937810cd0a1748,rdf-schema#subClassOf
+hasLotSize,has lot size,rdf-schema#label
+Ne6bd0af418e748f88f066e1206e59b08,DatePeriod,owl#someValuesFrom
+N22a730509316415cb8256ae41dbced09,Security,owl#someValuesFrom
+Yield,N22a730509316415cb8256ae41dbced09,rdf-schema#subClassOf
+CollectionOfSecurityPrices,collection of security prices,rdf-schema#label
+hasTradingDateTime,DateTime,rdf-schema#range
+Yield,yield,rdf-schema#label
+InternalRateOfReturn,"This concept is central to many definitions of debt instrument analytics, and is the inverse of net present value.",explanatoryNote
+N874496d775414cd6b8937810cd0a1748,hasPricingSource,owl#onProperty
+CollectionOfSecurityPrices,owl#Class,22-rdf-syntax-ns#type
+TradingDay,N162c1e3a9e884d459891e620e06d271e,rdf-schema#subClassOf
+N884680fc55fd477aa50f3e75485b2654,Exchange,22-rdf-syntax-ns#first
+PriceSpread,Na6e2da87b8cd44f1b06f7b6c32fdc246,rdf-schema#subClassOf
+TradingDay,ExplicitDatePeriod,rdf-schema#subClassOf
+hasTradingDateTime,indicates the specific date and time associated with a given price,core#definition
+OpeningPrice,owl#Class,22-rdf-syntax-ns#type
+hasRateOfReturn,RateOfReturn,rdf-schema#range
+Na8c8eadaa0e342539e49114acac9eec0,hasApplicablePeriod,owl#onProperty
+hasRoundLotSize,XMLSchema#decimal,rdf-schema#range
+hasPricingSource,owl#ObjectProperty,22-rdf-syntax-ns#type
+BestBid,N620d0a6ca6884b8080f76f81464a1c02,rdf-schema#subClassOf
+BidAskSpread,bid ask spread,rdf-schema#label
+Nf9482c280b9b4ea29650e66d7beedeef,CollectionOfSecurityPrices,owl#someValuesFrom
+OfficialClosingPrice,A stock's closing price is the standard benchmark used by investors to track its performance over time.,explanatoryNote
+YieldSpread,the spread between the yields of two items,core#definition
+BestOffer,lowest price acceptable to a prospective seller for a given security at a particular point in time,core#definition
+CollectionOfSecurityPrices,DatedStructuredCollection,rdf-schema#subClassOf
+TradingDay,RTH,abbreviation
+BidAskSpread,PriceSpread,rdf-schema#subClassOf
+MeanPriceDetermination,PriceDeterminationMethod,22-rdf-syntax-ns#type
+Yield,return on the investor's capital investment,core#definition
+CleanPrice,DirtyPrice,owl#disjointWith
+hasClosingPriceDeterminationMethod,ClosingPriceDeterminationMethod,rdf-schema#range
+N2869b02e1e864877ba47e7ca1b43e7e4,0,owl#minQualifiedCardinality
+N8019314ccc3b4b8197773b8b5745e68b,refersTo,owl#onProperty
+TradingDay,N18b9bf5571de4890aa3dc410598a7983,rdf-schema#subClassOf
+TradingDay,owl#Class,22-rdf-syntax-ns#type
+AuctionMethod,PriceDeterminationMethod,22-rdf-syntax-ns#type
+MidPrice,SecurityPrice,rdf-schema#subClassOf
+PriceAnalytic,statistical measure involving security prices,core#definition
+hasRoundLotSize,"In stocks, a round lot is considered 100 shares or a larger number that can be evenly divided by 100. In bonds, a round lot is usually $100,000 worth. Odd lots and smaller lots have become increasingly common due to technology advances and small investor demand.",explanatoryNote
+MidPrice,owl#Class,22-rdf-syntax-ns#type
+hasRoundLotSize,standard number of securities traded on an exchange,core#definition
+N816ecb06822944c8a6b0241fbc8907f6,owl#Restriction,22-rdf-syntax-ns#type
+PriceAnalytic,N8019314ccc3b4b8197773b8b5745e68b,rdf-schema#subClassOf
+hasLotSize,"For example, with respect to corn, 5000 bushels is a typical contract size. For some oil commodities trades, 1000 barrels is considered a single contract. For equity options, the lot size is typically 100 shares of the underlying.",core#example
+N18b9bf5571de4890aa3dc410598a7983,hasOpeningDateTime,owl#onProperty
+N4c9e653f194c4bf9a6a5623b32dfa6ce,0,owl#minQualifiedCardinality
+N4c9e653f194c4bf9a6a5623b32dfa6ce,owl#Restriction,22-rdf-syntax-ns#type
+SecurityPrice,owl#Class,22-rdf-syntax-ns#type
+RateOfReturn,Percentage,rdf-schema#subClassOf
+DirtyPrice,N2c39c38f70db41d6ac0328d1f1c68da5,rdf-schema#subClassOf
+Nf3dd00cb899744eaba037700cabbf905,hasArgument,owl#onProperty
+N50055e3cf423463ab64cb48a77390fcb,Currency,owl#onClass
+Nfe67cf6833c14c8a8cc4342892340640,DatePeriod,owl#someValuesFrom
+hasTradingDateTime,hasDateTime,rdf-schema#subPropertyOf
+PriceSpread,Nb8e3f5d5f4844219bd7a5ebe1bf6d1cc,rdf-schema#subClassOf
+DerivedPrice,"For example, a product's price can be derived from another pricing source, such as an asset or product, using various contributing factors. Derived prices can also be calculated within a firm using published price spreads or other market data. An interpolated price is determined by interpolation between available price figures, using some algorithm or curve, such as between bid and offer (among others). It also includes yield curves and implied forward curves. That is, interpolation may either be linear (straight line interpolation between two values) or may be expressed as a non linear curve such as a yield curve or an implied forward curve.",core#example
+Na6e2da87b8cd44f1b06f7b6c32fdc246,2,owl#qualifiedCardinality
+,"InstrumentPricing.rdf version of this ontology was modified to eliminate a redundant restriction on CollectionOfSecurityPrices, better integrate pricing methods, loosen the domain restriction on hasPricingSource and add dealer to the set of possible sources for prices.",core#changeNote
+hasPriceDeterminationMethod,hasStrategy,rdf-schema#subPropertyOf
+Nb01aa6fe3e284ad5b87f57b9fcf4d3c6,Nf7640f17ec114c62b4d2f2557579b4f7,22-rdf-syntax-ns#rest
+OfficialClosingPrice,Nb495ba19ade74ae8b665d2848c6f1298,rdf-schema#subClassOf
+BidAskSpread,difference between an offer (ask) price and a bid price,core#definition
+N2c39c38f70db41d6ac0328d1f1c68da5,owl#Restriction,22-rdf-syntax-ns#type
+TradingSession,N4c9e653f194c4bf9a6a5623b32dfa6ce,rdf-schema#subClassOf
+MidPrice,Nf3dd00cb899744eaba037700cabbf905,rdf-schema#subClassOf
+Na6e2da87b8cd44f1b06f7b6c32fdc246,hasArgument,owl#onProperty
+N6c67acc91f3241e481e74134548c6f39,hasConstituent,owl#onProperty
+ClosingPrice,closing price,rdf-schema#label
+Ne49bf73c7fca474397f2294ebc379e16,0,owl#minQualifiedCardinality
+RateOfReturn,RoR,abbreviation
+TradingSession,trading session,rdf-schema#label
+N8019314ccc3b4b8197773b8b5745e68b,Security,owl#someValuesFrom
+Ne49bf73c7fca474397f2294ebc379e16,owl#Restriction,22-rdf-syntax-ns#type
+Yield,"A Yield must be based on a price, and must be in reference to some event or duration of time. It has a calculation method, and may have other qualifying terms such as for compounded yield.",explanatoryNote
+AuctionMethod,method for determining a price that represents use of an independently administered synthetic auction,core#definition
+Nf9482c280b9b4ea29650e66d7beedeef,owl#Restriction,22-rdf-syntax-ns#type
+HighPrice,high price,rdf-schema#label
+Nf3dd00cb899744eaba037700cabbf905,owl#Restriction,22-rdf-syntax-ns#type
+OpeningPrice,MarketPrice,rdf-schema#subClassOf
+OfficialClosingPrice,official closing price,rdf-schema#label
+Ne66e9c9e014b480da656293becce5d93,Nfc86ae64f0e64f55999ad69f6666366e,22-rdf-syntax-ns#rest
+N6ffbe5f504d94cfd9b7c3906d0834b6d,0,owl#minQualifiedCardinality
+BestOffer,OfferPrice,rdf-schema#subClassOf
+CompositeMarket,composite market,rdf-schema#label
+BidPrice,price a prospective buyer is willing to pay,core#definition
+PriceDeterminationMethod,owl#Class,22-rdf-syntax-ns#type
+Nbcb9b2acd63d4016b80d0d1e7967b067,DatePeriod,owl#someValuesFrom
+DerivedPrice,matrix price,synonym
+BestBid,BidPrice,rdf-schema#subClassOf
+N2b743ce0ca224ab5ae9df46a7aa96eb3,Nf423d3473da44eb189c825f361aefaa5,22-rdf-syntax-ns#rest
+hasRateOfReturn,has rate of return,rdf-schema#label
+MarketPrice,Nb6e201de5bc64dcabf692b117ceb8b57,rdf-schema#subClassOf
+hasRoundLotSize,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasQuoteLotSize,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,MIT,license
+DerivedPrice,derived price,rdf-schema#label
+N620d0a6ca6884b8080f76f81464a1c02,DatePeriod,owl#someValuesFrom
+BidAskSpread,owl#Class,22-rdf-syntax-ns#type
+,"InstrumentPricing.rdf version of this ontology was modified to change one of the subclasses of price determination method to a named individual and correct the definition of mean price determination. Note that there may be multiple individuals of type 'closing price determination method', depending on the exchange and other factors. Also revised the lot size properties to have a range of xsd:decimal to allow for fractional shares or number of elements, revised the explanatory note, and added examples.",core#changeNote
+BidPrice,owl#Class,22-rdf-syntax-ns#type
+,InstrumentPricing.rdf version of this ontology was enhanced to incorporate additional definitions for pricing terminology (SEC-185).,core#changeNote
+PriceAnalytic,price analytic,rdf-schema#label
+N6ffbe5f504d94cfd9b7c3906d0834b6d,owl#Restriction,22-rdf-syntax-ns#type
+N874496d775414cd6b8937810cd0a1748,Na121fc3fb9cc401bb5927dceefb7e101,owl#onClass
+CompositeMarket,StructuredCollection,rdf-schema#subClassOf
+hasTradingDateTime,has trading date time,rdf-schema#label
+N816ecb06822944c8a6b0241fbc8907f6,refersTo,owl#onProperty
+Nf7640f17ec114c62b4d2f2557579b4f7,N4c43d8f5e6c448e0a3a15b0e534d378b,22-rdf-syntax-ns#rest
+Nbd3b64cb122c4df0acd27cd40162bd90,BidPrice,owl#someValuesFrom
+Ne49bf73c7fca474397f2294ebc379e16,hasClosingDateTime,owl#onProperty
+N09730ee1d3dd40ba8db74ca621635a4b,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,InstrumentPricing.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Nb495ba19ade74ae8b665d2848c6f1298,ClosingPriceDeterminationMethod,owl#someValuesFrom
+DerivedPrice,SecurityPrice,rdf-schema#subClassOf
+hasLotSize,owl#DatatypeProperty,22-rdf-syntax-ns#type
+TradingSession,ExplicitDatePeriod,rdf-schema#subClassOf
+OpeningPrice,"Investors that want to buy or sell as soon as the market opens will put in an order at the opening price. Depending on how the closing price for the prior day is determined, and if there is no after hours trading (AFT), the opening price will be the same as the prior trading day's closing price. Otherwise, the opening price may differ from the prior trading day's official closing price.",explanatoryNote
+N18b9bf5571de4890aa3dc410598a7983,CombinedDateTime,owl#onDataRange
+LowPrice,SecurityPrice,rdf-schema#subClassOf
+AdjustedClosingPrice,"amended closing price to reflect a security's value after accounting for any corporate actions, such as stock splits, dividends, and rights offerings",core#definition
+TradingSession,Ne49bf73c7fca474397f2294ebc379e16,rdf-schema#subClassOf
+Nb495ba19ade74ae8b665d2848c6f1298,owl#Restriction,22-rdf-syntax-ns#type
+BidPrice,SecurityPrice,rdf-schema#subClassOf
+DerivedPrice,interpolated price,synonym
+N37063a9ee7dd4ba885c30995e82c4986,N2b743ce0ca224ab5ae9df46a7aa96eb3,22-rdf-syntax-ns#rest
+IntraDayPrice,owl#Class,22-rdf-syntax-ns#type
+N162c1e3a9e884d459891e620e06d271e,owl#Restriction,22-rdf-syntax-ns#type
+hasClosingPriceDeterminationMethod,has closing price determination method,rdf-schema#label
+CollectionOfSecurityPrices,"collection consisting of a series of prices, each of which has a specific date and time associated with it, for some security",core#definition
+N2c39c38f70db41d6ac0328d1f1c68da5,comprises,owl#onProperty
+LowPrice,low price,rdf-schema#label
+N2869b02e1e864877ba47e7ca1b43e7e4,PricingModel,owl#onClass
+BidPrice,bid price,rdf-schema#label
+CollectionOfSecurityPrices,"Note that such a collection is of prices that may be quoted or may be established through analysis, such as an average over a number of markets (composite market) or developed via some pricing model (e.g., matrix pricing).",explanatoryNote
+N412535f2b04d4a99834c7d44ca419cc6,owl#Restriction,22-rdf-syntax-ns#type
+AdjustedClosingPrice,"A particularly dramatic change in price occurs when a company announces a stock split. When the change is made, the price displayed will immediately reflect the split. For example, if a company splits its stock 2-for-1, the last closing price will be cut in half. That's the adjusted closing price.",explanatoryNote
+DirtyPrice,owl#Class,22-rdf-syntax-ns#type
+,"This ontology provides a basic set of definitions related to pricing, yield, and spread that are extended in other instrument-specific ontologies.",abstract
+PricingModel,owl#Class,22-rdf-syntax-ns#type
+,,owl#imports
+N2a716a2b152f45809b32362997189caf,DatePeriod,owl#someValuesFrom
+OfferPrice,ask price,synonym
+RateOfReturn,rate of return,rdf-schema#label
+N4c9e653f194c4bf9a6a5623b32dfa6ce,hasOpeningDateTime,owl#onProperty
+CleanPrice,debt instrument price that does not include accrued interest,core#definition
+N2869b02e1e864877ba47e7ca1b43e7e4,owl#Restriction,22-rdf-syntax-ns#type
+N412535f2b04d4a99834c7d44ca419cc6,hasArgument,owl#onProperty
+N011ca5e0a1ee4cfc8851ff18512f992d,Nb01aa6fe3e284ad5b87f57b9fcf4d3c6,owl#unionOf
+hasClosingPriceDeterminationMethod,indicates a strategy by which the official closing price is determined,core#definition
+hasNumberOfDaysAccrued,indicates the number of days for which interest has accrued and has not yet been received,core#definition
+AdjustedClosingPrice,adjusted closing price,rdf-schema#label
+DirtyPrice,dirty price,rdf-schema#label
+TradingDay,trading-day,adaptedFrom
+hasNumberOfDaysAccrued,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N8d8697a2553c4ee59c04f6c035e17e39,owl#Restriction,22-rdf-syntax-ns#type
+hasTradingVolume,units traded on a given trading day,core#definition
+Nbd3b64cb122c4df0acd27cd40162bd90,hasArgument,owl#onProperty
+MidPrice,ArithmeticMean,rdf-schema#subClassOf
+OfficialClosingPrice,ClosingPrice,rdf-schema#subClassOf
+hasClosingPriceDeterminationMethod,hasPriceDeterminationMethod,rdf-schema#subPropertyOf
+N8ed951034bcd4e52b34f42841602bb0a,hasApplicablePeriod,owl#onProperty
+VolumeWeightedOpenPrice,VWOP,abbreviation
+DirtyPrice,SecurityPrice,rdf-schema#subClassOf
+MidPrice,arithmetic mean between bid and offer prices,core#definition
+VolumeWeightedAveragePrice,volume-weighted average price,rdf-schema#label
+hasRateOfReturn,indicates the retrospective rate of return for a given financial instrument over some period of time,core#definition
+InternalRateOfReturn,RateOfReturn,rdf-schema#subClassOf
+hasRoundLotSize,unit of trading,synonym
+TradingSession,owl#Class,22-rdf-syntax-ns#type
+OfferPrice,asking price,synonym
+N162c1e3a9e884d459891e620e06d271e,hasClosingDateTime,owl#onProperty
+OfficialClosingPrice,price of the final trade of a security at the end of a trading day on a given exchange,core#definition
+N856bc486c3ad406f86cf02c8a9b0e7f7,hasArgument,owl#onProperty
+Nfe67cf6833c14c8a8cc4342892340640,hasApplicablePeriod,owl#onProperty
+hasRoundLotSize,normal trading unit,synonym
+Na8c8eadaa0e342539e49114acac9eec0,DatePeriod,owl#someValuesFrom
+Nbd3b64cb122c4df0acd27cd40162bd90,owl#Restriction,22-rdf-syntax-ns#type
+hasTradingDateTime,SecurityPrice,rdf-schema#domain
+OpeningPrice,price at which something first trades at the start of a trading day,core#definition
+MarketPrice,owl#Class,22-rdf-syntax-ns#type
+YieldSpread,yield spread,rdf-schema#label
+MeanPriceDetermination,method for determining a price that represents the arithmetic mean of some set of prices consolidated across sources,core#definition
+HighPrice,Na8c8eadaa0e342539e49114acac9eec0,rdf-schema#subClassOf
+,InstrumentPricing.rdf version of this ontology was modified to address text formatting issues uncovered by hygiene testing.,core#changeNote
+InternalRateOfReturn,owl#Class,22-rdf-syntax-ns#type
+hasPricingSource,has pricing source,rdf-schema#label
+N412535f2b04d4a99834c7d44ca419cc6,Yield,owl#onClass
+N4c9e653f194c4bf9a6a5623b32dfa6ce,CombinedDateTime,owl#onDataRange
+AuctionMethod,"Auction method refers to a process where buyers enter competitive bids and sellers submit competitive offers at the same time. The price at which a security trades represents the highest price that a buyer is willing to pay and the lowest price that a seller is willing to accept. Matching bids and offers are then paired together, and the orders are executed.",explanatoryNote
+Nf423d3473da44eb189c825f361aefaa5,CompositeMarket,22-rdf-syntax-ns#first
+IntraDayPrice,price for a given security at some point between the opening and official closing price on an exchange,core#definition
+DerivedPrice,CalculatedPrice,rdf-schema#subClassOf
+hasLotSize,hasNumericValue,rdf-schema#subPropertyOf
+Na8c8eadaa0e342539e49114acac9eec0,owl#Restriction,22-rdf-syntax-ns#type
+Yield,Percentage,rdf-schema#subClassOf
+TradingSession,Trading+Sessions,adaptedFrom
+MarketPrice,SecurityPrice,rdf-schema#subClassOf
+CalculatedPrice,N2869b02e1e864877ba47e7ca1b43e7e4,rdf-schema#subClassOf
+N4c43d8f5e6c448e0a3a15b0e534d378b,FinancialServiceProvider,22-rdf-syntax-ns#first
+VolumeWeightedOpenPrice,owl#Class,22-rdf-syntax-ns#type
+SecurityPrice,monetary price for a financial instrument at some point in time,core#definition
+hasTradingVolume,has trading volume,rdf-schema#label
+hasTradingVolume,hasNumericValue,rdf-schema#subPropertyOf
+LowPrice,Nbcb9b2acd63d4016b80d0d1e7967b067,rdf-schema#subClassOf
+hasRateOfReturn,hasQuantityValue,rdf-schema#subPropertyOf
+Nace38d3e2afa459f902639188d0c0836,owl#Restriction,22-rdf-syntax-ns#type
+VolumeWeightedAveragePrice,VWAP,abbreviation
+InternalRateOfReturn,discount rate that results in a net present value (NPV) of zero for a series of future cash flows,core#definition
+TradingDay,regular trading hours,synonym
+hasBookDepth,SecurityPrice,rdf-schema#domain
+PricingModel,Expression,rdf-schema#subClassOf
+Nfe67cf6833c14c8a8cc4342892340640,owl#Restriction,22-rdf-syntax-ns#type
+BidAskSpread,N6fe795ecbd404d33802b6f6ddf8757df,rdf-schema#subClassOf
+CompositeMarket,owl#Class,22-rdf-syntax-ns#type
+SecurityPrice,"A security price may be the price that some party is willing to pay, has recently paid, or would like to be paid, depending on the circumstances.",explanatoryNote
+ClosingPrice,owl#Class,22-rdf-syntax-ns#type

@@ -1,0 +1,388 @@
+source_id,target_id,relationship
+FinancialInstrumentIdentifier,N643118d0fab74b3eb26b58e5ec17f12c,rdf-schema#subClassOf
+Option,derivative instrument that grants to the holder either the privilege to purchase or the privilege to sell the assets specified at a predetermined price or formula at or within a time period in the future,core#definition
+, version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+CurrencyInstrument,N84ebfabdbf084e068703f421898a6cd6,rdf-schema#subClassOf
+RedemptionProvision,owl#Class,22-rdf-syntax-ns#type
+StandardizedTerms,ContractualCommitment,rdf-schema#subClassOf
+PackagedFinancialProduct,"Certain properties of the instruments, such as their term, interest rate, eligibility of the client, etc., may be set as a part of the product specification. Some of these are intrinsic but variable properties of the instrument, for example the exact interest rate, whereas others are extrinsic, such as client eligibility. Product offerings have prices, which may build in various fees, that are components of the cost of carry on a trader's books.",explanatoryNote
+Underlier,owl#Class,22-rdf-syntax-ns#type
+N10e33acc841840bea7f0684c61daa536,owl#Restriction,22-rdf-syntax-ns#type
+DerivativeInstrument,derivative instrument,rdf-schema#label
+hasCommodityValueAsOfExecutionDate,MonetaryAmount,rdf-schema#range
+Nb5144c1a67c648458d5dd3f0160b7951,FinancialProductCatalog,owl#onClass
+CashInstrument,owl#Class,22-rdf-syntax-ns#type
+RedemptionProvision,redemption provision,rdf-schema#label
+ExemptSecurity,exempt security,rdf-schema#label
+NegotiableSecurity,N47d841b0bc04478b928a55a2b9272d6b,rdf-schema#subClassOf
+Issuer,"Securities Exchange Act of 1934, as amended 12 August 2012",adaptedFrom
+isDenominatedIn,hasCurrency,rdf-schema#subPropertyOf
+NegotiableSecurity,TransferableContract,rdf-schema#subClassOf
+FinancialInstrument,owl#Class,22-rdf-syntax-ns#type
+N1d9a7ff20d1f4297bec331f2856251b5,Ndaf2281bd1e84164a0b5e332312bb203,owl#unionOf
+hasUnderlier,relates a derivative to something on which the contract is based,core#definition
+NonNegotiableSecurity,NegotiableSecurity,owl#disjointWith
+hasNominalValue,Nominal value of a security is its redemption price and will vary from its market value. A preferred stock's nominal (par) value is important in that it is used to calculate its dividend while the nominal value of common stock is an arbitrary value assigned for balance sheet purposes.,explanatoryNote
+Nf4eadb519e2c446f8cb0d5f0ec41737a,0,owl#minQualifiedCardinality
+N6ad4902990bf42d3987b0b3d62ded5c2,Currency,owl#onClass
+Nf4eadb519e2c446f8cb0d5f0ec41737a,owl#Restriction,22-rdf-syntax-ns#type
+hasRedemptionProvision,indicates the specific terms related to redemption as specified in the instrument or a related contract document,core#definition
+CommodityInstrument,N5dab2317883e4045a423e77f522460e9,rdf-schema#subClassOf
+hasBuyingCurrency,Note that the buying and selling currencies could be the same under certain circumstances.,explanatoryNote
+,,owl#versionIRI
+N7c76fcb06e884c56a9f3191d858c5e47,FinancialInstrument,owl#someValuesFrom
+hasShareholder,indicates a party that holds shares in the issuer,core#definition
+FinancialInstrumentIdentifier,owl#Class,22-rdf-syntax-ns#type
+PackagedFinancialProduct,owl#Class,22-rdf-syntax-ns#type
+Nf831db67ee554533a9905a8ca40e8d7d,owl#Restriction,22-rdf-syntax-ns#type
+FinancialInstrumentIdentifier,Identifier,rdf-schema#subClassOf
+," version of this ontology was modified to eliminate deprecated content, i.e., properties related to maturity that are now in the Debt ontology and revise the definition of a securities transaction identifier to align with ISO 23897.",core#changeNote
+PackagedFinancialProduct,Nf831db67ee554533a9905a8ca40e8d7d,rdf-schema#subClassOf
+Nb5144c1a67c648458d5dd3f0160b7951,0,owl#minQualifiedCardinality
+Nc4086aeb873049e9ba8dadda0f1bd5a6,isLegallyRecordedIn,owl#onProperty
+Nb5144c1a67c648458d5dd3f0160b7951,owl#Restriction,22-rdf-syntax-ns#type
+Security,security,rdf-schema#label
+DerivativeInstrument,"Parameswaran, Sunil. Fundamentals of Financial Instruments: An Introduction to Stocks, Bonds, Foreign Exchange, and Derivatives. John Wiley and Sons (Asia) Pte. Lte., Singapore, 2011.",adaptedFrom
+N686554ffcc12421a9fcfe9557cfb66de,Jurisdiction,owl#onClass
+holdsSharesIn,Issuer,rdf-schema#range
+DerivativeInstrument,CashInstrument,owl#disjointWith
+SpotContract,spot contract,rdf-schema#label
+CashInstrument,"Cash instruments can be classified into two subgroups, as securities and other cash instruments such as loans and deposits.",core#scopeNote
+CommodityInstrument,commodity instrument,rdf-schema#label
+CashInstrument,cash instrument,rdf-schema#label
+PackagedFinancialProduct,c101872fwp.htm,rdf-schema#seeAlso
+Nc21310972b7748c4866d6afedb50ecd4,N4bd1ca0186fe4a7d85d17cea3d241e55,owl#someValuesFrom
+Security,financial instrument that can be bought or sold,core#definition
+isDenominatedIn,is denominated in,rdf-schema#label
+PackagedFinancialProduct,"financial product that acts as a container for at least one financial instrument, including other financial products, and whose value is derived from, or based on a reference asset, market measure, or investment strategy",core#definition
+CurrencyInstrument,"Example currencies include UK pounds, US dollars, Euro. An example currency instrument is spot currency instrument.",core#example
+CommodityInstrument,"ISO 10962, Securities and related financial instruments - Classification of Financial Instruments (CFI code), Fourth edition, 2019-10.",adaptedFrom
+Nf4eadb519e2c446f8cb0d5f0ec41737a,MonetaryAmount,owl#onClass
+EquityInstrument,Security,rdf-schema#subClassOf
+N6ad4902990bf42d3987b0b3d62ded5c2,hasSellingCurrency,owl#onProperty
+FinancialInstrumentIdentifier,financial instrument identifier,rdf-schema#label
+hasSellingCurrency,indicates the currency sold with respect to a currency or related instrument,core#definition
+UniqueTransactionIdentifier,owl#Class,22-rdf-syntax-ns#type
+hasPrincipalExecutiveOfficeAddress,ConventionalStreetAddress,rdf-schema#range
+N5dab2317883e4045a423e77f522460e9,hasQuantityValue,owl#onProperty
+Future,"derivative instrument that obligates the buyer to receive and the seller to deliver the assets specified at an agreed price, at some later point in time",core#definition
+N5a69b93dbc544025967d5c6cc3081103,CreditAgreement,22-rdf-syntax-ns#first
+hasCommodityValueAsOfExecutionDate,has commodity value as of execution date,rdf-schema#label
+Na0a436174f2b4df6abcf00681991ce03,0,owl#minQualifiedCardinality
+Na0a436174f2b4df6abcf00681991ce03,owl#Restriction,22-rdf-syntax-ns#type
+Nc21310972b7748c4866d6afedb50ecd4,owl#Restriction,22-rdf-syntax-ns#type
+N686554ffcc12421a9fcfe9557cfb66de,isLegallyRecordedIn,owl#onProperty
+Nf831db67ee554533a9905a8ca40e8d7d,comprises,owl#onProperty
+N686554ffcc12421a9fcfe9557cfb66de,0,owl#minQualifiedCardinality
+hasCommodityValueAsOfExecutionDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+DerivativeInstrument,owl#Class,22-rdf-syntax-ns#type
+N556a67efb5184a37950dcac9eadfb94e,FinancialInstrumentIdentifier,owl#onClass
+Nc7c67f24276f4104b3c416fd9b2fd0ed,FinancialInstrument,22-rdf-syntax-ns#first
+hasRedemptionProvision,has redemption terms,rdf-schema#label
+N7c76fcb06e884c56a9f3191d858c5e47,owl#Restriction,22-rdf-syntax-ns#type
+N512205edf6ae43c9804dae18b117db37,0,owl#minQualifiedCardinality
+hasBuyingCurrency,Currency,rdf-schema#range
+SpotContract,FinancialInstrument,rdf-schema#subClassOf
+Nc4086aeb873049e9ba8dadda0f1bd5a6,1,owl#qualifiedCardinality
+NonNegotiableSecurity,non-negotiable security,rdf-schema#label
+Security,FinancialInstrument,rdf-schema#subClassOf
+hasValueExpressedIn,hasCurrency,rdf-schema#subPropertyOf
+isLegallyRecordedIn,or tax purposes,core#definition
+Underlier,"Underlier means any rate (including interest and foreign exchange rates), currency, commodity, security, instrument of indebtedness, index, quantitative measure, occurrence or non-occurrence of an event, or other financial or economic interest, or property of any kind, or any interest therein or based on the value thereof, in or by reference to which any payment or delivery under a transaction is to be made or determined.",explanatoryNote
+CreditFacility,owl#Class,22-rdf-syntax-ns#type
+N6ad4902990bf42d3987b0b3d62ded5c2,0,owl#minQualifiedCardinality
+RedemptionProvision,contract provision enabling the issuer (writer) to regain possession through repayment of some stipulated price,core#definition
+Underlier,underlier,rdf-schema#label
+hasPrincipalExecutiveOfficeAddress,hasRegisteredAddress,rdf-schema#subPropertyOf
+hasSellingCurrency,hasBaseCurrency,rdf-schema#subPropertyOf
+PackagedFinancialProduct,market-linked investment,synonym
+Nc4086aeb873049e9ba8dadda0f1bd5a6,Jurisdiction,owl#onClass
+N84ebfabdbf084e068703f421898a6cd6,0,owl#minQualifiedCardinality
+SecuritiesTransaction,securities transaction,rdf-schema#label
+N5dab2317883e4045a423e77f522460e9,ScalarQuantityValue,owl#onClass
+DebtInstrument,"ISO 10962, Securities and related financial instruments - Classification of Financial Instruments (CFI code), Fourth edition, 2019-10.",adaptedFrom
+," version of this ontology was modified as a part of organizational hierarchy simplification, to add maturity-related properties, and to add exempt security.",core#changeNote
+Issuer,ContractPrincipal,rdf-schema#subClassOf
+holdsSharesIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+N686554ffcc12421a9fcfe9557cfb66de,owl#Restriction,22-rdf-syntax-ns#type
+hasSellingCurrency,Currency,rdf-schema#range
+N8a2bb367dfab4a9c866a4d62697477af,PromissoryNote,owl#someValuesFrom
+DebtInstrument,CreditAgreement,rdf-schema#subClassOf
+hasShareholder,Shareholder,rdf-schema#range
+Nc21310972b7748c4866d6afedb50ecd4,isPlayedBy,owl#onProperty
+NegotiableSecurity,security that can be transferred to another party,core#definition
+N512205edf6ae43c9804dae18b117db37,owl#Restriction,22-rdf-syntax-ns#type
+hasNominalValue,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nb0bd6e96f913488f8a8e7358af6e1e46,isIssuedBy,owl#onProperty
+, version of this ontology was modified to address dead links and text formatting issues uncovered by hygiene testing.,core#changeNote
+Entitlement,financial instrument that provides the holder the privilege to subscribe to or to receive specific assets on terms specified,core#definition
+N512205edf6ae43c9804dae18b117db37,MonetaryAmount,owl#onClass
+Nc1ff6d4c954340ff80f2e069cf22b3ef,SecuritiesTransaction,owl#onClass
+N3683537cf11e442aa37bc981577c1336,FinancialInstrument,22-rdf-syntax-ns#first
+N6ad4902990bf42d3987b0b3d62ded5c2,owl#Restriction,22-rdf-syntax-ns#type
+hasSellingCurrency,has selling currency,rdf-schema#label
+N4463995bfb5c47b1a5663ebc3a1b2754,involves,owl#onProperty
+Nb0bd6e96f913488f8a8e7358af6e1e46,Issuer,owl#someValuesFrom
+PackagedFinancialProduct,Nb5144c1a67c648458d5dd3f0160b7951,rdf-schema#subClassOf
+ExemptSecurity,Security,rdf-schema#subClassOf
+Issuer,N10e33acc841840bea7f0684c61daa536,rdf-schema#subClassOf
+ExemptSecurity,security that is exempt from certain regulatory rules,core#definition
+CreditFacility,N8a2bb367dfab4a9c866a4d62697477af,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+StandardizedTerms,"contract terms that, grouped together, that are generally and consistently reused across many contracts, published by some organization, and capable of being incorporated into a contract by reference",core#definition
+CurrencyInstrument,"Parameswaran, Sunil. Fundamentals of Financial Instruments: An Introduction to Stocks, Bonds, Foreign Exchange, and Derivatives. John Wiley and Sons (Asia) Pte. Lte., Singapore, 2011.",adaptedFrom
+N84ebfabdbf084e068703f421898a6cd6,owl#Restriction,22-rdf-syntax-ns#type
+SecuritiesTransaction,transaction between two or more parties involving the exchange of commonly defined financial products,core#definition
+CommodityInstrument,Nf4eadb519e2c446f8cb0d5f0ec41737a,rdf-schema#subClassOf
+CurrencyInstrument,financial instrument used for the purposes of currency trading,core#definition
+DebtInstrument,FinancialInstrument,rdf-schema#subClassOf
+PackagedFinancialProduct,structured product,synonym
+NonNegotiableSecurity,owl#Class,22-rdf-syntax-ns#type
+holdsSharesIn,Shareholder,rdf-schema#domain
+hasShareholder,owl#ObjectProperty,22-rdf-syntax-ns#type
+N556a67efb5184a37950dcac9eadfb94e,isIdentifiedBy,owl#onProperty
+isLegallyRecordedIn,FinancialInstrument,rdf-schema#domain
+EquityInstrument,financial instrument representing an ownership interest in an entity or pool of assets,core#definition
+Ndaf2281bd1e84164a0b5e332312bb203,FinancialProduct,22-rdf-syntax-ns#first
+Option,DerivativeInstrument,rdf-schema#subClassOf
+N911947510e4e4256900a8cfd4c591013,owl#Restriction,22-rdf-syntax-ns#type
+Issuer,role of a party that issues (or proposes to issue in a formal filing) one or more financial instruments,core#definition
+isDenominatedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+Security,"Some securities may be traded over the counter, or through an exchange, or via some other trading venue such as an electronic trading platform.",explanatoryNote
+Issuer,owl#Class,22-rdf-syntax-ns#type
+Na0a436174f2b4df6abcf00681991ce03,ExplicitDate,owl#onClass
+CurrencyInstrument,Each instance of a currency instrument has a one to one relationship with its associated currency.,core#scopeNote
+," version of this ontology was modified to move redemption provision from debt to financial instruments, given that it is a broader concept needed for equities.",core#changeNote
+SpotContract,"A spot transaction is a transaction in which some goods or instrument(s) are exchanged for some other goods or instruments, including currency, with no future delivery provision, i.e., within the minimum number of days possible. Examples include currency spots and commodity spot transactions, whose settlement convention is determined by the relevant market.",explanatoryNote
+hasNominalValue,MonetaryAmount,rdf-schema#range
+hasShareholder,Issuer,rdf-schema#domain
+CurrencyInstrument,currency instrument,rdf-schema#label
+N643118d0fab74b3eb26b58e5ec17f12c,0,owl#minQualifiedCardinality
+StandardizedTerms,owl#Class,22-rdf-syntax-ns#type
+FinancialInstrument,N657582a105254e76945205515e37516c,rdf-schema#subClassOf
+,"FinancialInstruments.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasPrincipalExecutiveOfficeAddress,has principal executive office address,rdf-schema#label
+PromissoryNote,debt instrument that is a written promise by one party to another that commits that party to pay a specified sum on demand or within a specified time frame under specified terms,core#definition
+hasPrincipalExecutiveOfficeAddress,"Note that in most cases, the principal executive office address is also the headquarters address for a company.",explanatoryNote
+,FinancialInstruments.rdf version of this ontology was modified to augment the definition of a commodity contract with a quantity and price as of contract execution.,core#changeNote
+," version of this ontology was modified to add the concept of a spot contract and clarify the definition of time to maturity, as well as add a property for days to maturity.",core#changeNote
+N643118d0fab74b3eb26b58e5ec17f12c,owl#Restriction,22-rdf-syntax-ns#type
+hasShareholder,isAffectedBy,rdf-schema#subPropertyOf
+hasCommodityValueAsOfExecutionDate,hasMonetaryAmount,rdf-schema#subPropertyOf
+NegotiableSecurity,Security,rdf-schema#subClassOf
+CommodityInstrument,"The value of the contract is derived from the market value of an underlying commodity or commodity index. Commodity derivatives can be physically or cash settled. Primary underliers include metals, agricultural goods and energy.",explanatoryNote
+DerivativeInstrument,derivative contract,synonym
+Underlier,something that can be assigned a value in the marketplace that forms the basis for a derivative or pool-backed instrument,core#definition
+holdsSharesIn,specifies the issuer in which a shareholder holds an equity position,core#definition
+,FinancialInstruments.rdf version of this ontology was modified to add a restriction related to initial exchange date.,core#changeNote
+FinancialInstrument,ias-32-financial-instruments-presentation.pdf,adaptedFrom
+FinancialInstrument,N911947510e4e4256900a8cfd4c591013,rdf-schema#subClassOf
+N911947510e4e4256900a8cfd4c591013,Currency,owl#someValuesFrom
+Entitlement,owl#Class,22-rdf-syntax-ns#type
+CurrencyInstrument,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+FinancialInstrument,N512205edf6ae43c9804dae18b117db37,rdf-schema#subClassOf
+hasSellingCurrency,Note that the buying and selling currencies could be the same under certain circumstances.,explanatoryNote
+N7c76fcb06e884c56a9f3191d858c5e47,appliesTo,owl#onProperty
+SecuritiesTransaction,owl#Class,22-rdf-syntax-ns#type
+Future,future,rdf-schema#label
+Na0a436174f2b4df6abcf00681991ce03,hasInitialExchangeDate,owl#onProperty
+SpotContract,financial instrument that settles for immediate delivery on a specified date,core#definition
+isNegotiable,FinancialInstrument,rdf-schema#domain
+,Financial Instruments Ontology,rdf-schema#label
+,"FinancialInstruments.rdf version of this ontology was modified to loosen the constraint on financial instrument with respect to having exactly 1 currency (DER-113), and to move the definition of promissory note from debt to financial instruments (LOAN-168).",core#changeNote
+N47d841b0bc04478b928a55a2b9272d6b,owl#Restriction,22-rdf-syntax-ns#type
+DerivativeInstrument,Derivatives can be characterized by whether they are exchange-traded or traded over-the-counter (OTC).,core#scopeNote
+Entitlement,entitlement,rdf-schema#label
+,FinancialInstruments.rdf version of this ontology was modified to refine the definition of issuer (FBC-284).,core#changeNote
+Nb18a62663da34841b6fbd687370e16e0,Nc7c67f24276f4104b3c416fd9b2fd0ed,owl#unionOf
+ExemptSecurity,"Some exemptions from the registration requirement include: private offerings to a limited number of persons or institutions; offerings of limited size; intrastate offerings; and securities of municipal, state, and federal governments.",core#example
+PackagedFinancialProduct,"or foreign currencies, as well as baskets of these reference assets or market measures. Like other well-known market instruments such as convertible bonds, many structured products are hybrid securities. Structured products typically have two components - a debt instrument and a derivative, which is often an option. The debt instrument, in some instances, may pay interest at a specified rate and interval. The derivative component establishes payment at maturity, which may give the issuer the right to buy from you, or sell you, the referenced security or securities at a predetermined price. For example, structured products may combine characteristics of debt and equity or of debt and commodities.",explanatoryNote
+, version of this ontology was modified to reflect issue resolutions detailed in the FIBO FBC 1.0 FTF report.,core#changeNote
+hasBuyingCurrency,has buying currency,rdf-schema#label
+," version of this ontology was modified for the FIBO 2.0 RFC, including minor bug fixes.",core#changeNote
+hasNominalValue,hasMonetaryAmount,rdf-schema#subPropertyOf
+Entitlement,"ISO 10962, Securities and related financial instruments - Classification of Financial Instruments (CFI code), Fourth edition, 2019-10.",adaptedFrom
+Future,owl#Class,22-rdf-syntax-ns#type
+Nc4086aeb873049e9ba8dadda0f1bd5a6,owl#Restriction,22-rdf-syntax-ns#type
+RedemptionProvision,"In general, redemption is synonymous with 'buy back' or 'cash in', depending on the kind of instrument. Redemption provisions are commonly applicable to the process of annulling a defeasible title, such as for a mortgage or tax sale, by paying the debt or fulfilling an obligation.",explanatoryNote
+PackagedFinancialProduct,"SEC Rule 434 defines structured securities as 'securities whose cash flow characteristics depend upon one or more indices or that have embedded forwards or options or securities where an investor's investment return and the issuer's payment obligations are contingent on, or highly sensitive to, changes in the value of underlying assets, indices, interest rates or cash flows'.",explanatoryNote
+N643118d0fab74b3eb26b58e5ec17f12c,identifies,owl#onProperty
+PromissoryNote,promissory note,rdf-schema#label
+hasNominalValue,has nominal value,rdf-schema#label
+Future,"ISO 10962, Securities and related financial instruments - Classification of Financial Instruments (CFI code), Fourth edition, 2019-10.",adaptedFrom
+Security,"Securities Exchange Act of 1934, as amended 12 August 2012",adaptedFrom
+Security,"A security can be any note, stock, treasury stock, security future, security-based swap, bond, debenture,certificate of interest or participation in any profit-sharing agreement or in any oil, gas, or other mineral royalty or lease, any collateral-trust certificate, preorganization certificate or subscription, transferable share, investment contract, voting-trust certificate, certificate of deposit for a security, any put, call, straddle, option, or privilege on any security, certificate of deposit, or group or index of securities (including any interest therein or based on the value thereof), or any put, call, straddle, option, or privilege entered into on a national securities exchange relating to foreign currency, or in general, any instrument commonly known as a security, or any certificate of interest or participation in, temporary or interim certificate for, receipt for, or warrant or right to subscribe to or purchase, any of the foregoing; but shall not include currency or any note, draft, bill of exchange, or bankers' acceptance which has a maturity at the time of issuance of not exceeding nine months, exclusive of days of grace, or any renewal thereof the maturity of which is likewise limited.",explanatoryNote
+N8a2bb367dfab4a9c866a4d62697477af,owl#Restriction,22-rdf-syntax-ns#type
+isDenominatedIn,Currency,rdf-schema#range
+DerivativeInstrument,"financial instrument that confers on its holders certain rights or obligations, whose value is derived from one or more underlying assets",core#definition
+hasValueExpressedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+isLegallyRecordedIn,is legally recorded in,rdf-schema#label
+Issuer,"An issuer can be any legal person, including a legally competent natural person, company, government, or political subdivision, agency, or instrumentality of a government, depending on the nature of the instrument. A person might provide a loan directly to another party, but most instruments are issued by legal entities.",explanatoryNote
+CommodityInstrument,FinancialInstrument,rdf-schema#subClassOf
+Neaa2e7d2dadc40068339d545f2e11daf,hasBorrower,owl#onProperty
+N556a67efb5184a37950dcac9eadfb94e,0,owl#minQualifiedCardinality
+N1d9a7ff20d1f4297bec331f2856251b5,owl#Class,22-rdf-syntax-ns#type
+DerivativeInstrument,"The three major categories of derivatives are (1) forward and future contracts, (2) options contracts, and (3) swaps. The most common underlying assets include stocks, bonds, commodities, currencies, interest rates and market indexes.",core#example
+hasPrincipalExecutiveOfficeAddress,LegalPerson,rdf-schema#domain
+Nb0bd6e96f913488f8a8e7358af6e1e46,owl#Restriction,22-rdf-syntax-ns#type
+,FinancialInstruments.rdf version of this ontology was modified to augment the definition of currency instrument with the notions of buying and selling currencies as well as the source(s) for anticipated rates (DER-143).,core#changeNote
+CommodityInstrument,"financial instrument representing an ownership interest in bulk goods, such as raw materials and primary agricultural products",core#definition
+hasBuyingCurrency,indicates the currency purchased with respect to a currency or related instrument,core#definition
+UniqueTransactionIdentifier,Nc1ff6d4c954340ff80f2e069cf22b3ef,rdf-schema#subClassOf
+N84ebfabdbf084e068703f421898a6cd6,hasBuyingCurrency,owl#onProperty
+N657582a105254e76945205515e37516c,1,owl#qualifiedCardinality
+,"FinancialInstruments.rdf version of this ontology was modified to tease out the distinction between the nominal and notional amount, which were confused (DER-127)and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).",core#changeNote
+N10e33acc841840bea7f0684c61daa536,Nb18a62663da34841b6fbd687370e16e0,owl#someValuesFrom
+FinancialInstrumentIdentifier,sequence of characters uniquely identifying a financial instrument for some purpose and within a specified context,core#definition
+N657582a105254e76945205515e37516c,owl#Restriction,22-rdf-syntax-ns#type
+ExemptSecurity,"Generally, securities must be filed with the appropriate regulatory agencies in the jurisdiction in which they are sold. The registration forms companies file provide essential facts while minimizing the burden and expense of complying with the law. Not all securities must be registered, however. By exempting many small offerings from the registration process, regulators seek to foster capital formation by lowering the cost of offering securities to the public.",explanatoryNote
+NonNegotiableSecurity,security that is not transferable to another party,core#definition
+N4bd1ca0186fe4a7d85d17cea3d241e55,isAPartyTo,owl#onProperty
+hasRedemptionProvision,owl#ObjectProperty,22-rdf-syntax-ns#type
+DerivativeInstrument,FinancialInstrument,rdf-schema#subClassOf
+ExemptSecurity,owl#Class,22-rdf-syntax-ns#type
+hasBuyingCurrency,hasDealtCurrency,rdf-schema#subPropertyOf
+FinancialInstrument,financial instrument,rdf-schema#label
+FinancialInstrument,written contract that gives rise to both a financial asset of one entity and a financial liability of another entity,core#definition
+FinancialInstrument,"Examples of financial instruments include: cash, evidence of an ownership interest in an entity, or a contractual right to receive (or deliver) cash, or another financial instrument.",core#example
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+," version of this ontology was modified to add a property indicating the currency that an instrument is issued in, simplify the contract party hierarchy and add properties relating financial instruments to shareholders.",core#changeNote
+Nc1ff6d4c954340ff80f2e069cf22b3ef,1,owl#qualifiedCardinality
+hasUnderlier,"The domain of this property can be either a derivative instrument or, in the case of a swap contract, one leg of the swap.",usageNote
+NonNegotiableSecurity,"Certain securities that can be redeemed by the issuer may not be 'negotiable', such as savings bonds and certificates of deposit.",explanatoryNote
+SecuritiesTransaction,"ISO 23897:2020, Financial services - Unique transaction identifier (UTI), clause 3.3",adaptedFrom
+N556a67efb5184a37950dcac9eadfb94e,owl#Restriction,22-rdf-syntax-ns#type
+N3683537cf11e442aa37bc981577c1336,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+SecuritiesTransaction,Trade,rdf-schema#subClassOf
+hasNominalValue,indicates the face value of a contract,core#definition
+Option,owl#Class,22-rdf-syntax-ns#type
+Issuer,issuer,rdf-schema#label
+hasCommodityValueAsOfExecutionDate,indicates the per unit value of a given commodity as of the date that the contract is executed,core#definition
+N5dab2317883e4045a423e77f522460e9,0,owl#minQualifiedCardinality
+Issuer,Nc21310972b7748c4866d6afedb50ecd4,rdf-schema#subClassOf
+Security,"In the U.S., the Supreme Court has adopted a flexible and liberal approach in determining what constitutes a security. In its famous decision of SEC v. W.J. Howey Co., 328 U.S. 293, 90 L.Ed. 1244, 66 S.Ct. 1100 (1946), the Court held that land sales contracts for citrus groves in Florida, coupled with warranty deeds for the land and a contract to service the land, were 'investment contracts' and thus securities. The Court stated that [a]n investment contract for purposes of the Securities Act means a contract, transaction or scheme whereby a person invests his money in a common enterprise and is led to expect profits solely from the efforts of the promoter or a third party. 66 S.Ct. at 1103. According to the Court, it is immaterial whether the shares in the enterprise are evidenced by formal certificates or by nominal interests in the physical assets employed in the enterprise. 66 S.Ct. at 1104.",explanatoryNote
+N4bd1ca0186fe4a7d85d17cea3d241e55,FinancialInstrument,owl#someValuesFrom
+hasValueExpressedIn,has value expressed in,rdf-schema#label
+holdsSharesIn,holds shares in,rdf-schema#label
+NonNegotiableSecurity,Security,rdf-schema#subClassOf
+CashInstrument,financial instrument whose value is determined by the market and that is readily transferable (highly liquid),core#definition
+holdsSharesIn,hasShareholder,owl#inverseOf
+N643118d0fab74b3eb26b58e5ec17f12c,FinancialInstrument,owl#onClass
+hasUnderlier,owl#ObjectProperty,22-rdf-syntax-ns#type
+N47d841b0bc04478b928a55a2b9272d6b,isNegotiable,owl#onProperty
+FinancialInstrument,N686554ffcc12421a9fcfe9557cfb66de,rdf-schema#subClassOf
+RedemptionProvision,ContractualCommitment,rdf-schema#subClassOf
+,MIT,license
+Security,Nc4086aeb873049e9ba8dadda0f1bd5a6,rdf-schema#subClassOf
+isNegotiable,specifies whether a particular financial instrument is or is not transferable,core#definition
+ExemptSecurity,Securities Act of 1933,adaptedFrom
+FinancialInstrument,A financial instrument can be thought of as a template that defines an arrangement structure that remains to be fleshed out with terms and parameters in order to establish a specific instance of the contract.,explanatoryNote
+PromissoryNote,owl#Class,22-rdf-syntax-ns#type
+isNegotiable,is negotiable,rdf-schema#label
+FinancialInstrument,WrittenContract,rdf-schema#subClassOf
+StandardizedTerms,standardized terms,rdf-schema#label
+hasSellingCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+N5dab2317883e4045a423e77f522460e9,owl#Restriction,22-rdf-syntax-ns#type
+N4bd1ca0186fe4a7d85d17cea3d241e55,owl#Restriction,22-rdf-syntax-ns#type
+hasBuyingCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+DebtInstrument,Neaa2e7d2dadc40068339d545f2e11daf,rdf-schema#subClassOf
+isDenominatedIn,indicates the currency in which the financial instrument was issued,core#definition
+PromissoryNote,PromissoryNote,owl#equivalentClass
+SecuritiesTransaction,financial transaction,synonym
+DebtInstrument,debt instrument,rdf-schema#label
+Issuer,"With respect to certificates of deposit for securities, voting-trust certificates, or collateral- trust certificates, or with respect to certificates of interest or shares in an unincorporated investment trust not having a board of directors or of the fixed, restricted management, or unit type, the term issuer means the person or persons performing the acts and assuming the duties of depositor or manager pursuant to the provisions of the trust or other agreement or instrument under which such securities are issued; and except that with respect to equipment-trust certificates or like securities, the term issuer means the person by whom the equipment or property is, or is to be, used.",explanatoryNote
+NegotiableSecurity,owl#Class,22-rdf-syntax-ns#type
+hasValueExpressedIn,This should be the same currency that was declared at the time of issuance.,explanatoryNote
+CashInstrument,FinancialInstrument,rdf-schema#subClassOf
+N657582a105254e76945205515e37516c,isNegotiable,owl#onProperty
+CommodityInstrument,owl#Class,22-rdf-syntax-ns#type
+isDenominatedIn,FinancialInstrument,rdf-schema#domain
+isNegotiable,XMLSchema#boolean,rdf-schema#range
+N512205edf6ae43c9804dae18b117db37,hasNominalValue,owl#onProperty
+N84ebfabdbf084e068703f421898a6cd6,Currency,owl#onClass
+Nf4eadb519e2c446f8cb0d5f0ec41737a,hasCommodityValueAsOfExecutionDate,owl#onProperty
+Nea799ac98e2e48e6b2a96a68deb3a7d8,Lender,owl#someValuesFrom
+DerivativeInstrument,Derivative contracts owe their availability to the existence of markets for an underlying asset or a portfolio of assets on which such agreements are written. The derivative itself is merely a contract between two or more parties. Its value is determined by fluctuations in the underlying asset. Most derivatives are characterized by high leverage.,explanatoryNote
+N911947510e4e4256900a8cfd4c591013,isDenominatedIn,owl#onProperty
+isNegotiable,owl#DatatypeProperty,22-rdf-syntax-ns#type
+DebtInstrument,financial instrument and credit agreement evidencing monies owed by the issuer to the holder on terms as specified,core#definition
+N8a2bb367dfab4a9c866a4d62697477af,hasConstituent,owl#onProperty
+,FinancialInstruments.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+, version of this ontology was modified to make Entitlement a subclass of Security and fix spelling.,core#changeNote
+Neaa2e7d2dadc40068339d545f2e11daf,owl#Restriction,22-rdf-syntax-ns#type
+Nc7c67f24276f4104b3c416fd9b2fd0ed,N5a69b93dbc544025967d5c6cc3081103,22-rdf-syntax-ns#rest
+holdsSharesIn,actsOn,rdf-schema#subPropertyOf
+," version of this ontology was modified to change the restriction on financial instrument identifier from some values to min 0, to allow for cases when an instrument identifier identifies a listing, eliminate duplication of concepts in LCC, and simplify addresses.",core#changeNote
+Nea799ac98e2e48e6b2a96a68deb3a7d8,hasLender,owl#onProperty
+Nb18a62663da34841b6fbd687370e16e0,owl#Class,22-rdf-syntax-ns#type
+Security,Whether a contract or other economic right is a security essentially depends on whether the holder of the contract is acting as an investor who seeks financial benefits based on the work of a promoter or a third party.,explanatoryNote
+,,owl#imports
+Neaa2e7d2dadc40068339d545f2e11daf,Borrower,owl#someValuesFrom
+hasRedemptionProvision,RedemptionProvision,rdf-schema#range
+EquityInstrument,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+PromissoryNote,Promissory notes are generally fully fungible. They may or may not be negotiable.,explanatoryNote
+Entitlement,Security,rdf-schema#subClassOf
+EquityInstrument,"ISO 10962, Securities and related financial instruments - Classification of Financial Instruments (CFI code), Fourth edition, 2019-10.",adaptedFrom
+Security,owl#Class,22-rdf-syntax-ns#type
+hasNominalValue,has face value,synonym
+CurrencyInstrument,FinancialInstrument,rdf-schema#subClassOf
+isLegallyRecordedIn,Jurisdiction,rdf-schema#range
+NegotiableSecurity,negotiable security,rdf-schema#label
+N657582a105254e76945205515e37516c,XMLSchema#boolean,owl#onDataRange
+hasNominalValue,"The nominal amount of a financial instrument is the face amount used to calculate payments made on that instrument. This amount generally does not change.
+		
+		For securities the nominal value is often referred to as the face or par value. This is the redemption price of the security and is normally stated on the front of that security. With respect to bonds and stocks, it is the stated value of an issued security, as opposed to its market value.",explanatoryNote
+hasRedemptionProvision,hasContractualElement,rdf-schema#subPropertyOf
+," Listing in SEC, added a synonym and additional explanatory note to packaged financial product, added hasNominalValue, which was a gap, and added back restrictions on debt instrument for hasMaturityDate (min 0 to account for rare instruments (e.g., consul) that have no maturity date), hasDurationToMaturity and hasTimeToMaturity.",core#changeNote
+PackagedFinancialProduct,FinancialProduct,rdf-schema#subClassOf
+FinancialInstrument,N556a67efb5184a37950dcac9eadfb94e,rdf-schema#subClassOf
+N4463995bfb5c47b1a5663ebc3a1b2754,Commodity,owl#onClass
+N10e33acc841840bea7f0684c61daa536,issues,owl#onProperty
+Nc1ff6d4c954340ff80f2e069cf22b3ef,identifies,owl#onProperty
+Nea799ac98e2e48e6b2a96a68deb3a7d8,owl#Restriction,22-rdf-syntax-ns#type
+hasPrincipalExecutiveOfficeAddress,"relates an organization, specifically the issuer of a financial instrument, to its principal executive address, as required for issuance of that instrument",core#definition
+SpotContract,owl#Class,22-rdf-syntax-ns#type
+Entitlement,DerivativeInstrument,rdf-schema#subClassOf
+hasPrincipalExecutiveOfficeAddress,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ndaf2281bd1e84164a0b5e332312bb203,N3683537cf11e442aa37bc981577c1336,22-rdf-syntax-ns#rest
+DerivativeInstrument,Na0a436174f2b4df6abcf00681991ce03,rdf-schema#subClassOf
+,"This ontology defines the fundamental concepts for financial instruments in general, providing the high-level hooks for build-out in more detail in the relevant domain areas. These include, but are not limited to, equities, options, debt instruments, and so forth, some of which may be negotiable.",abstract
+Option,option,rdf-schema#label
+PackagedFinancialProduct,"Packaged products are typically included in an institution's approved product catalog, i.e., pre-approved by compliance organizations for sale to clients. Not all institutions maintain such a catalog, with internal identifiers for such products, but many do. Such core products may have as attributes: Type (product and possibly asset class), product identifier, status and approval date, product family approval (as appropriate), and so forth.",core#scopeNote
+Future,DerivativeInstrument,rdf-schema#subClassOf
+Nc1ff6d4c954340ff80f2e069cf22b3ef,owl#Restriction,22-rdf-syntax-ns#type
+," version of this ontology was modified to move properties and restrictions related to maturity to the Debt ontology, on credit agreement, and deprecate them here as well as to restructure the relationship between the two ontologies.",core#changeNote
+, version of this ontology was modified to correct the label on packaged financial product.,core#changeNote
+hasUnderlier,Underlier,rdf-schema#range
+CommodityInstrument,N4463995bfb5c47b1a5663ebc3a1b2754,rdf-schema#subClassOf
+PackagedFinancialProduct,packaged financial product,rdf-schema#label
+Nf831db67ee554533a9905a8ca40e8d7d,N1d9a7ff20d1f4297bec331f2856251b5,owl#someValuesFrom
+DebtInstrument,Nea799ac98e2e48e6b2a96a68deb3a7d8,rdf-schema#subClassOf
+N4463995bfb5c47b1a5663ebc3a1b2754,0,owl#minQualifiedCardinality
+N4463995bfb5c47b1a5663ebc3a1b2754,owl#Restriction,22-rdf-syntax-ns#type
+isLegallyRecordedIn,hasGoverningJurisdiction,rdf-schema#subPropertyOf
+Nb5144c1a67c648458d5dd3f0160b7951,isIncludedIn,owl#onProperty
+DebtInstrument,owl#Class,22-rdf-syntax-ns#type
+hasShareholder,has shareholder,rdf-schema#label
+N47d841b0bc04478b928a55a2b9272d6b,true,owl#hasValue
+PromissoryNote,DebtInstrument,rdf-schema#subClassOf
+isLegallyRecordedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasValueExpressedIn,FinancialInstrument,rdf-schema#domain
+CurrencyInstrument,N6ad4902990bf42d3987b0b3d62ded5c2,rdf-schema#subClassOf
+hasValueExpressedIn,relates an instrument to the currency its value is typically expressed in,core#definition
+,"FinancialInstruments.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary and to add a new property, has underlier, which is needed in both securities and derivatives.",core#changeNote
+N5a69b93dbc544025967d5c6cc3081103,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+PackagedFinancialProduct,ContractualProduct,rdf-schema#subClassOf
+Underlier,Role,rdf-schema#subClassOf
+Option,"ISO 10962, Securities and related financial instruments - Classification of Financial Instruments (CFI code), Fourth edition, 2019-10.",adaptedFrom
+FinancialInstrument,Nb0bd6e96f913488f8a8e7358af6e1e46,rdf-schema#subClassOf
+EquityInstrument,equity instrument,rdf-schema#label
+hasValueExpressedIn,Currency,rdf-schema#range
+Entitlement,right,synonym
+StandardizedTerms,"Each exchange has a set of terms they apply to membership agreements and with respect to the instruments that may be traded on that exchange. For example, there is a set expiration date that exchanges will publish for exchange-traded options - in the US it is the Saturday following the third Friday of every month. Similarly, there are set incremental dates for strike for exchange traded options. Contract sizes are also stipulated, for example in the US these are standardized by the OPRA Convention (Options Pricing Reporting Authority).",core#example
+FinancialInstrumentIdentifier,"Identifiers for financial instruments may include an ISIN, Sedol, CUSIP, BBGID, FIGI, or other identifier issued approximately when the instrument itself is issued, and based on the kind of instrument and jurisdiction in which it is issued.",core#scopeNote
+SecuritiesTransaction,N7c76fcb06e884c56a9f3191d858c5e47,rdf-schema#subClassOf
+hasUnderlier,has underlier,rdf-schema#label
+,FinancialInstruments.rdf version of this ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote

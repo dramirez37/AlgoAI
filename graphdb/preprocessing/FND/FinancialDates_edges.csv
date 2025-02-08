@@ -1,0 +1,438 @@
+source_id,target_id,relationship
+hasAge,relates something to the length of time it has existed,core#definition
+hasSchedule,owl#ObjectProperty,22-rdf-syntax-ns#type
+RegularSchedule,N98f0d0d4136f44398706ffa420e579fe,rdf-schema#subClassOf
+Thursday,owl#NamedIndividual,22-rdf-syntax-ns#type
+CalendarSpecifiedInterval,Nc73759ff1ad04f67b70800f9e6abc61b,rdf-schema#subClassOf
+hasDateReceived,"relates something to the date it arrived or was delivered, e.g., a loan application request",core#definition
+Saturday,owl#NamedIndividual,22-rdf-syntax-ns#type
+N9cd507e435594ab9aff0252c80ad7a1c,XMLSchema#string,owl#onDataRange
+," version of this ontology was revised to move dated collection and dated collection constituent as well as hasObservedDateTime and hasAcquisitionDate to financial dates in order to improve usability, simplify reasoning, made definitions ISO 704 compliant, and eliminate redundant restrictions on ad hoc schedule entry.",core#changeNote
+hasOrdinalNumber,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasDateAdded,indicates the date something was included in something else,core#definition
+CalendarYear,CalendarPeriod,22-rdf-syntax-ns#type
+N33b28687257e4df1bd3e2b6d9cae1f78,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,FinancialDates.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+CalculationPeriodLength,calculation period length,rdf-schema#label
+CalculationPeriodLength,ExplicitDuration,rdf-schema#subClassOf
+CalendarSpecifiedInterval,calendar-specified interval,rdf-schema#label
+Friday,TimeInterval,22-rdf-syntax-ns#type
+Nbd7b6b05a02c43eb94737449a78bfafd,owl#Restriction,22-rdf-syntax-ns#type
+Saturday,time interval that has duration 1 day and that meets a Sunday,core#definition
+isRelativeTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+N5cb26d15c22b4e5ab0d83a84b04cb35c,XMLSchema#positiveInteger,owl#onDataRange
+hasSchedule,Schedule,rdf-schema#range
+RegularSchedule,Nd52e928cf8a24971afbc8ccca9e345e3,rdf-schema#subClassOf
+hasCount,owl#DatatypeProperty,22-rdf-syntax-ns#type
+SpecifiedDate,Nf323f17551004871ae069a9e41d5fe6e,rdf-schema#subClassOf
+CalendarSpecifiedInterval,"The nth day is an ordinal number, not a cardinal number. '1' means the first day of the calendar period.",explanatoryNote
+hasRecurrenceInterval,RecurrenceInterval,rdf-schema#range
+,,owl#versionIRI
+Schedule,Collection,rdf-schema#subClassOf
+Nbc0bca9e1fd84059b9fc6ec564a839c8,owl#Restriction,22-rdf-syntax-ns#type
+SpecifiedDate,CalculatedDate,rdf-schema#subClassOf
+Sunday,owl#NamedIndividual,22-rdf-syntax-ns#type
+N99e7c32a4e36415c87f1680b4804b208,owl#Restriction,22-rdf-syntax-ns#type
+Tuesday,time interval that has duration 1 day and that meets a Wednesday,core#definition
+RecurrenceInterval,time interval that is consistent between elements of a regular schedule,core#definition
+CalculatedDate,"The hasDateValue property of a CalculatedDate is not set until the Date is calculated. Since the calculation may depend upon future events that may or may not ever happen, the hasDateValue property may never be set.",explanatoryNote
+hasAcquisitionDate,owl#FunctionalProperty,22-rdf-syntax-ns#type
+Wednesday,Wednesday,rdf-schema#label
+Saturday,TimeInterval,22-rdf-syntax-ns#type
+AdHocSchedule,schedule consisting of some number of individual events that are not necessarily recurring,core#definition
+hasRelativeDuration,has relative duration,rdf-schema#label
+Nd52e928cf8a24971afbc8ccca9e345e3,owl#Restriction,22-rdf-syntax-ns#type
+DatedCollectionConstituent,owl#Class,22-rdf-syntax-ns#type
+CalendarWeek,time interval of seven calendar days starting on a Monday,core#definition
+isRelativeTo,Date,rdf-schema#range
+DatedCollectionConstituent,"Note that the use of several options for the representation of a date and time stamp enables extensions for milliseconds, nanoseconds using an xsd:string that has the format of an xsd:dateTime datatype but extends the level of granularity consistently. An example of where this is required is to represent prices that change multiple times in a given day.",explanatoryNote
+hasAsOfDate,It is different from the creation date and need not be the last date of the DatePeriod covered.,explanatoryNote
+AdHocSchedule,Schedule,rdf-schema#subClassOf
+Schedule,schedule,rdf-schema#label
+CalendarPeriod,owl#Class,22-rdf-syntax-ns#type
+N105b9e8c40fd4e45b02d388bf769b012,hasDuration,owl#onProperty
+FromEnd,owl#NamedIndividual,22-rdf-syntax-ns#type
+CalendarYear,owl#NamedIndividual,22-rdf-syntax-ns#type
+RecurrenceInterval,frequency,synonym
+Age,Duration,rdf-schema#subClassOf
+AdHocScheduleEntry,ad hoc schedule entry,rdf-schema#label
+N99e7c32a4e36415c87f1680b4804b208,1,owl#qualifiedCardinality
+RegularSchedule,"A 30 year mortgage is payable monthly on the 10th of the month, starting July 2015. The mortgage is issued on June 15, 2015 so the first payment is for the period June 15-June 30, and the last payment is for June 1-14 2045.
+
+The payment schedule is a RegularSchedule with these properties:
+
+* comprises: regular payment OccurrenceKind (with payment details) (see the 'comprises' property of the Occurrences ontology)
+* hasInitialStub: June 15-30, 2015 for initial payment
+* hasFinalStub: June 1-14, 2045 for final payment
+* hasCount: 358
+* hasOverallPeriod starting Date: June 15, 2015 with a duration of 30 years
+* hasRecurrenceInterval: specifies 10th day of each calendar month
+* hasRecurrenceStartDate: July 1, 2015",core#example
+Schedule,"The overall period covers the entire DatePeriod of the Schedule, from the earliest Date to the final Date of the Schedule. Schedules may be ad hoc, essentially a list of dates and events without any consistency in the durations between events, regular, in which case there is a consistently recurring interval between events, or a combination of the two. There may be a single overall period, or more than one if the schedule is extended for some reason.",explanatoryNote
+Ne34fa7262e394faf92c626f75f00c51e,hasCalendarPeriod,owl#onProperty
+Nf652f17c534b4e588717e9f5c6478397,hasFinalStub,owl#onProperty
+hasAsOfDate,has as-of date,rdf-schema#label
+AdHocScheduleEntry,owl#Class,22-rdf-syntax-ns#type
+N98f0d0d4136f44398706ffa420e579fe,hasAnchorDate,owl#onProperty
+N0abe731f398d4e948be77c1b695c28ab,owl#Restriction,22-rdf-syntax-ns#type
+RegularSchedule,The BusinessDates ontology extends 'RegularSchedule' with an optional BusinessDayAdjustment that specifies what should happen if a scheduled date falls on a weekend or a holiday.,core#editorialNote
+N99e7c32a4e36415c87f1680b4804b208,XMLSchema#string,owl#onDataRange
+Nf323f17551004871ae069a9e41d5fe6e,XMLSchema#string,owl#onDataRange
+Thursday,TimeInterval,22-rdf-syntax-ns#type
+N5cb26d15c22b4e5ab0d83a84b04cb35c,owl#Restriction,22-rdf-syntax-ns#type
+," version of this ontology was revised by the FIBO FND 1.2 RTF in order to introduce the definition of a time interval, which is a location, to ground some of the concepts such as a date period, and duration as well as to support the definition of business recurrence intervals for use in parametric schedules for securities.",core#changeNote
+Nbc0bca9e1fd84059b9fc6ec564a839c8,hasAsOfDate,owl#onProperty
+Sunday,Sunday,rdf-schema#label
+hasSchedule,has schedule,rdf-schema#label
+hasAge,has age,rdf-schema#label
+hasStub,RegularSchedule,rdf-schema#domain
+CalendarQuarter,"time interval of 3 months, starting on January 1, April 1, July 1, or October 1",core#definition
+Nded014cd38ad4fc08dc8d8d9679b27be,hasOverallPeriod,owl#onProperty
+AnchorDate,It is an explicit date chosen to provide context or structure for analyzing data or events.,explanatoryNote
+N99e7c32a4e36415c87f1680b4804b208,hasDurationValue,owl#onProperty
+FromEnd,from the end,rdf-schema#label
+SpecifiedDate,owl#Class,22-rdf-syntax-ns#type
+TimeDirection,TemporalEntity,rdf-schema#subClassOf
+TimeDirection,owl#Class,22-rdf-syntax-ns#type
+CalendarMonth,"ISO 8601, clause 2.2.11",adaptedFrom
+CalendarWeek,owl#NamedIndividual,22-rdf-syntax-ns#type
+CalculatedDate,calculated date,rdf-schema#label
+hasAnchorDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+CalculatedDate,date that is or will be determined based on some formula,core#definition
+N72128dd7b5d549dbaf334831942c68ee,N33b28687257e4df1bd3e2b6d9cae1f78,22-rdf-syntax-ns#rest
+CalendarWeek,CalendarPeriod,22-rdf-syntax-ns#type
+hasOpeningDateTime,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasDateReceived,hasDate,rdf-schema#subPropertyOf
+Friday,time interval that has duration 1 day and that meets a Saturday,core#definition
+N3c2865b59ecd459ea476b01250f54cf4,isRelativeTo,owl#onProperty
+Wednesday,TimeInterval,22-rdf-syntax-ns#type
+BusinessCalendar,"academic calendar, bank holiday calendar",core#example
+N5cb26d15c22b4e5ab0d83a84b04cb35c,1,owl#qualifiedCardinality
+BusinessCalendar,Schedule,rdf-schema#subClassOf
+,"Copyright (c) 2014-2024 EDM Council, Inc.",copyright
+RegularSchedule,regular schedule,rdf-schema#label
+hasAcquisitionDate,has acquisition date,rdf-schema#label
+RecurrenceInterval,TimeInterval,rdf-schema#subClassOf
+hasAnchorDate,specifies a fixed reference point within a series or timeline,core#definition
+RegularSchedule,Nd2bbe790a0634f66a450fb6c615a25d3,rdf-schema#subClassOf
+ScheduleStub,"A 30 year mortgage calls for monthly payments on the first day of each month, according to a RegularSchedule. If the mortgage does not start on the first day of a calendar month, then an initial ScheduleStub specifies the payment due for the DatePeriod up to the first day of the next calendar month. Similarly, a final ScheduleStub specifies the last payment due for the DatePeriod after the end of the last full calendar month.",core#example
+Friday,Friday,rdf-schema#label
+hasOpeningDateTime,the day and time at which something opens,core#definition
+RegularSchedule,N5cb26d15c22b4e5ab0d83a84b04cb35c,rdf-schema#subClassOf
+, eliminate it where it is used.,core#changeNote
+hasAge,Duration,rdf-schema#range
+CalendarPeriod,"The terms 'calendar xxx' are intended to reinforce that these are periods on a calendar, not durations. 
+
+For example, a calendar year always starts on a January 1 and ends on a December 31. The term 'calendar year' does not mean the same thing as a duration (an amount of time) of 1 year, nor can a calendar year start on any arbitrary day of a year. For example, a calendar year never starts on September 1.
+
+Similar points apply to other kinds of calendar periods, such as calendar week, calendar month, and calendar quarter.",core#editorialNote
+Sunday,TimeInterval,22-rdf-syntax-ns#type
+hasDateReceived,owl#ObjectProperty,22-rdf-syntax-ns#type
+RegularSchedule,Nf652f17c534b4e588717e9f5c6478397,rdf-schema#subClassOf
+hasOpeningDateTime,hasObservedDateTime,rdf-schema#subPropertyOf
+hasAnchorDate,has anchor date,rdf-schema#label
+RegularSchedule,"A corporate bond pays interest for 10 years starting on the first day of 2015. Interest payments are due 15 days after the expiration of each 6 month period: on July 15 and January 16.
+
+The payment schedule is a RegularSchedule, with these properties:
+
+* comprises: identifies the interest payment details
+* overall DatePeriod starting date is '2015-01-01', ending date is '2025-01-15', and duration is 'P10Y15D'
+* hasCount is 20 (2 payments per year for 10 years)
+* hasRecurrenceInterval is 'P6M'
+* hasRecurrenceStartDate is '2015-01-15'",core#example
+DatedCollectionConstituent,Constituent,rdf-schema#subClassOf
+Saturday,"One Saturday is the time interval that has duration 1 day and that starts Gregorian year 2000. This requirement anchors the repeating sequence of days of week to specific Gregorian days. It requires that January 1, 2000 is a Saturday. It follows that January 2, 2000 must be the Sunday that it meets, and so on.",explanatoryNote
+BusinessCalendar,or across organizations,core#definition
+hasStub,has stub,rdf-schema#label
+hasRelativeDuration,A relative duration may be negative.,explanatoryNote
+hasOpeningDateTime,The use of custom datatypes is outside the OWL 2 RL profile and so users should consider commenting out the range restriction or change the range to rdfs:Literal in applications that are constrained to OWL 2 RL.,usageNote
+N6b40146fb50c40329a5f5fa485e20566,owl#Class,22-rdf-syntax-ns#type
+hasClosingDateTime,has closing date time,rdf-schema#label
+CalendarPeriod,time interval that occurs within a system that fixes the beginning and length of a segment of the year with respect to that system,core#definition
+ScheduleStub,"date period before the start of the recurring part of a schedule or after the end of the recurring part, which may be associated with a specific occurrence kind",core#definition
+DatedStructuredCollection,owl#Class,22-rdf-syntax-ns#type
+Monday,time interval that has duration 1 day and that meets a Tuesday,core#definition
+,Financial Dates Ontology,rdf-schema#label
+DatedStructuredCollection,StructuredCollection,rdf-schema#subClassOf
+Nbd7b6b05a02c43eb94737449a78bfafd,hasConstituent,owl#onProperty
+N105b9e8c40fd4e45b02d388bf769b012,CalculationPeriodLength,owl#onClass
+RegularSchedule,schedule whose time intervals recur regularly,core#definition
+hasOpeningDateTime,CombinedDateTime,rdf-schema#range
+AdHocScheduleEntry,"The cmns-dt;hasDate property may be used to reify a date, if it is important to do so for a given application, or if not and typically, the inherited cmns-dt;hasObservedDateTime property may be used together with a cmns-dt;CombinedDateTime value, as long as the resulting schedule is consistent in using one or the other.",usageNote
+,owl#Ontology,22-rdf-syntax-ns#type
+CalculationPeriod,N105b9e8c40fd4e45b02d388bf769b012,rdf-schema#subClassOf
+hasCount,has count,rdf-schema#label
+FromStart,from the start,rdf-schema#label
+Thursday,time interval that has duration 1 day and that meets a Friday,core#definition
+RegularSchedule,Schedule,rdf-schema#subClassOf
+," version of this ontology was revised by the FIBO 2.0 RFC in order to introduce the definition of a time instant, to eliminate a reasoning issue with relative dates, and remove a circular dependency inadvertently incorporated in the ontology with a FIBO FND 1.2 modification.",core#changeNote
+N168402a0b65543589ec561f13043a343,DatePeriod,owl#onClass
+hasDateSpecification,rule that specifies how a specified date is computed,core#definition
+Nc73759ff1ad04f67b70800f9e6abc61b,owl#Restriction,22-rdf-syntax-ns#type
+hasDateAdded,hasExplicitDate,rdf-schema#subPropertyOf
+CalendarYear,calendar year,rdf-schema#label
+DatedCollectionConstituent,The use of custom datatypes is outside the OWL 2 RL profile and so users should consider commenting out the restriction on hasObservedDateTime altogether or change the data range to rdfs:Literal in applications that are constrained to OWL 2 RL.,usageNote
+Ne34fa7262e394faf92c626f75f00c51e,owl#Restriction,22-rdf-syntax-ns#type
+Ne34fa7262e394faf92c626f75f00c51e,CalendarPeriod,owl#onClass
+,FinancialDates.rdf version of the ontology was modified to eliminate elements that have been deprecated for several quarters (FND-386).,core#changeNote
+N5cb26d15c22b4e5ab0d83a84b04cb35c,hasCount,owl#onProperty
+N72128dd7b5d549dbaf334831942c68ee,CalculatedDate,22-rdf-syntax-ns#first
+DatedCollectionConstituent,N0abe731f398d4e948be77c1b695c28ab,rdf-schema#subClassOf
+Sunday,time interval that has duration 1 day and that meets a Monday,core#definition
+hasCalendarPeriod,has calendar period,rdf-schema#label
+Nd2bbe790a0634f66a450fb6c615a25d3,hasInitialStub,owl#onProperty
+AdHocSchedule,"or AdHocScheduleEntry as needed to relate the date to something. In particular, the Occurrences ontology extends AdHocScheduleEntry to associate an OccurrenceKind with each entry. The intended meaning is that an Occurrence of the OccurrenceKind happens on the corresponding Date.",usageNote
+hasDateSpecification,has date specification,rdf-schema#label
+CalculationPeriodLength,explicit number of days from the adjusted effective or start date to the adjusted termination or end date calculated in accordance with the applicable day count fraction,core#definition
+ScheduleStub,schedule stub,rdf-schema#label
+CalculatedDate,ExplicitDate,owl#disjointWith
+Nc73759ff1ad04f67b70800f9e6abc61b,1,owl#qualifiedCardinality
+Age,owl#Class,22-rdf-syntax-ns#type
+hasRelativeDuration,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasDateReceived,has date received,rdf-schema#label
+ExplicitRecurrenceInterval,N99e7c32a4e36415c87f1680b4804b208,rdf-schema#subClassOf
+Ne34fa7262e394faf92c626f75f00c51e,1,owl#qualifiedCardinality
+Nd2bbe790a0634f66a450fb6c615a25d3,0,owl#minQualifiedCardinality
+," version of this ontology was revised to introduce a composite date datatype to allow for cases whereby the representation of a date for certain purposes, such as GLEIF LEI data, is inconsistent, and to facilitate mapping FIBO to multiple data sources in user environments.",core#changeNote
+AnchorDate,anchor date,rdf-schema#label
+hasTimeDirection,indicates whether a calendar-specified date is figured from the beginning or end of a calendar period,core#definition
+RelativeDate,"When the 'hasRelativeDuration' property is negative, the RelativeDate is before the 'isRelativeTo' Date; otherwise the RelativeDate is after the 'isRelativeTo' Date.",explanatoryNote
+CalendarPeriod,TimeInterval,rdf-schema#subClassOf
+Nc73759ff1ad04f67b70800f9e6abc61b,TimeDirection,owl#onClass
+hasCount,"specifies the total number of things in a collection, such as the number of entries in a regular schedule",core#definition
+AdHocScheduleEntry,DatedCollectionConstituent,rdf-schema#subClassOf
+RegularSchedule,Neb3eb26529254f4fb94d783e59917399,rdf-schema#subClassOf
+ScheduleStub,owl#Class,22-rdf-syntax-ns#type
+Age,length of time that something or someone has been alive or existed,core#definition
+,Release,hasMaturityLevel
+Monday,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasOrdinalNumber,has ordinal number,rdf-schema#label
+isRelativeTo,identifies a specific date that a relative date or relative date period references,core#definition
+SpecifiedDate,specified date,rdf-schema#label
+hasRecurrenceInterval,has recurrence interval,rdf-schema#label
+N1886c70826814906a22728bd89501124,hasOrdinalNumber,owl#onProperty
+hasOverallPeriod,hasDatePeriod,rdf-schema#subPropertyOf
+Nf323f17551004871ae069a9e41d5fe6e,hasDateSpecification,owl#onProperty
+hasInitialStub,identifies any special period at the start of a regular schedule,core#definition
+CalendarSpecifiedInterval,ExplicitRecurrenceInterval,owl#disjointWith
+hasSchedule,indicates a schedule for something,core#definition
+hasTimeDirection,TimeDirection,rdf-schema#range
+Na6c89ed621994afabaa6f31ccab184cc,owl#Restriction,22-rdf-syntax-ns#type
+N98f0d0d4136f44398706ffa420e579fe,0,owl#minQualifiedCardinality
+Na6c89ed621994afabaa6f31ccab184cc,hasConstituent,owl#onProperty
+CalendarSpecifiedInterval,"The last day of each quarter, specified as RelativeDay 1, and TimeDirection set to FromEnd.",core#example
+,"FinancialDates.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+CalendarMonth,"time interval resulting from the division of a calendar year in 12 time intervals, each with a specific name and containing a specific number of calendar days",core#definition
+hasRecurrenceInterval,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nd2bbe790a0634f66a450fb6c615a25d3,owl#Restriction,22-rdf-syntax-ns#type
+AdHocSchedule,ad hoc schedule,rdf-schema#label
+N98f0d0d4136f44398706ffa420e579fe,owl#Restriction,22-rdf-syntax-ns#type
+AdHocScheduleEntry,"Other ontologies can extend AdHocScheduleEntry as needed. In particular, the Occurrences ontology extends AdHocScheduleEntry to consist of occurrences (events) of a given OccurrenceKind. The meaning is that an ad hoc schedule entry comprises a date and an event which is scheduled to occur on that date.",usageNote
+Wednesday,time interval that has duration 1 day and that meets a Thursday,core#definition
+hasAcquisitionDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasAge,hasDuration,rdf-schema#subPropertyOf
+BusinessCalendar,business calendar,rdf-schema#label
+,"FinancialDates.rdf version of this ontology was modified to remove a functional declaration on hasObservedDateTime, which causes reasoning inconsistencies when there are multiple uses of that property for certain individuals, such as for LEI registration.",core#changeNote
+Neb3eb26529254f4fb94d783e59917399,RecurrenceInterval,owl#someValuesFrom
+Nc73759ff1ad04f67b70800f9e6abc61b,hasTimeDirection,owl#onProperty
+, version of this ontology was revised to add hasOpeningDateTime and hasClosingDateTime for use in defining trading days and sessions and eliminated the functional property declaration on hasExplicitDate.,core#changeNote
+AnchorDate,owl#Class,22-rdf-syntax-ns#type
+RelativeDate,"A settlement date, defined as T+3: three days after the trade date. The 'hasRelativeDuration' property is set to '3D'.",core#example
+Na6c89ed621994afabaa6f31ccab184cc,AdHocScheduleEntry,owl#someValuesFrom
+N98f0d0d4136f44398706ffa420e579fe,AnchorDate,owl#onClass
+RecurrenceInterval,recurrence interval,rdf-schema#label
+Nded014cd38ad4fc08dc8d8d9679b27be,owl#Restriction,22-rdf-syntax-ns#type
+RegularSchedule,"A RegularSchedule is a Schedule defined as a set of Dates that start on a recurrence start date and repeat after each recurrence interval. The size of this set is defined by a count.
+
+The 'initial ScheduleStub' associated with a RegularSchedule identifies any special treatment applied before the recurrence start date. Similarly, a 'final ScheduleStub' identifies any special handling at the end of the recurrences. For example, a mortgage loan that is due each calendar month may have an initial payment due before the first calendar month, or a final payment due after the last monthly payment.",explanatoryNote
+, version of this ontology was revised to eliminate deprecated elements.,core#changeNote
+N0abe731f398d4e948be77c1b695c28ab,hasObservedDateTime,owl#onProperty
+hasClosingDateTime,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasAcquisitionDate,The use of custom datatypes is outside the OWL 2 RL profile and so users should consider commenting out the range restriction or change the range to rdfs:Literal in applications that are constrained to OWL 2 RL.,usageNote
+FromEnd,Two days before the end of a calendar month.,core#example
+hasAsOfDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+N0abe731f398d4e948be77c1b695c28ab,CombinedDateTime,owl#someValuesFrom
+N33b28687257e4df1bd3e2b6d9cae1f78,ExplicitDate,22-rdf-syntax-ns#first
+N168402a0b65543589ec561f13043a343,owl#Restriction,22-rdf-syntax-ns#type
+TimeDirection,enumeration that indicates whether a calendar-specified date is figured from the start or the end of a calendar period,core#definition
+hasClosingDateTime,the day and time at which something closes,core#definition
+hasCalendarPeriod,CalendarPeriod,rdf-schema#range
+hasCount,XMLSchema#positiveInteger,rdf-schema#range
+N9cd507e435594ab9aff0252c80ad7a1c,owl#Restriction,22-rdf-syntax-ns#type
+Monday,TimeInterval,22-rdf-syntax-ns#type
+CalendarYear,cyclic time interval in a calendar which is required for one revolution of the Earth around the Sun and approximated to an integral number of calendar days; a year in the Gregorian calendar,core#definition
+hasRelativeDuration,duration between two explicit dates,core#definition
+AdHocSchedule,owl#Class,22-rdf-syntax-ns#type
+Nf652f17c534b4e588717e9f5c6478397,0,owl#minQualifiedCardinality
+CalculationPeriod,calculation period,rdf-schema#label
+hasAnchorDate,AnchorDate,rdf-schema#range
+N1886c70826814906a22728bd89501124,owl#Restriction,22-rdf-syntax-ns#type
+hasAcquisitionDate,CombinedDateTime,rdf-schema#range
+FromStart,time direction indicating that a calendar-specified date is the nth day from the beginning of a calendar period.,core#definition
+CalendarSpecifiedInterval,RecurrenceInterval,rdf-schema#subClassOf
+hasAnchorDate,hasExplicitDate,rdf-schema#subPropertyOf
+hasAcquisitionDate,controllee to the date or date and time of purchase,core#definition
+CalendarSpecifiedInterval,N1886c70826814906a22728bd89501124,rdf-schema#subClassOf
+CalendarQuarter,owl#NamedIndividual,22-rdf-syntax-ns#type
+N168402a0b65543589ec561f13043a343,1,owl#qualifiedCardinality
+hasRelativeDuration,XMLSchema#string,rdf-schema#range
+CalendarQuarter,CalendarPeriod,22-rdf-syntax-ns#type
+Nf323f17551004871ae069a9e41d5fe6e,owl#Restriction,22-rdf-syntax-ns#type
+hasOverallPeriod,has overall period,rdf-schema#label
+Schedule,Nded014cd38ad4fc08dc8d8d9679b27be,rdf-schema#subClassOf
+hasFinalStub,owl#ObjectProperty,22-rdf-syntax-ns#type
+RelativeDate,CalculatedDate,rdf-schema#subClassOf
+, version of this ontology was revised to add the concept of age and a corresponding property that supports its use.,core#changeNote
+N6b40146fb50c40329a5f5fa485e20566,N72128dd7b5d549dbaf334831942c68ee,owl#unionOf
+N9cd507e435594ab9aff0252c80ad7a1c,1,owl#qualifiedCardinality
+CalendarMonth,calendar month,rdf-schema#label
+N105b9e8c40fd4e45b02d388bf769b012,owl#Restriction,22-rdf-syntax-ns#type
+hasAsOfDate,relates something to the date on which it is accurate or valid (e.g. a credit report has an asOfDate that means the date when the information was drawn),core#definition
+,FinancialDates.rdf version of the ontology was modified to add the general notions of explicit anchor date and calculation period (FBC-317) and to add the concept of a business calendar (FBC-319).,core#changeNote
+CalendarPeriod,calendar period,rdf-schema#label
+RelativeDate,SpecifiedDate,owl#disjointWith
+TimeDirection,time direction,rdf-schema#label
+hasDateAdded,hasStartDate,rdf-schema#subPropertyOf
+Age,age,rdf-schema#label
+Nf652f17c534b4e588717e9f5c6478397,owl#Restriction,22-rdf-syntax-ns#type
+,MIT,license
+CalculationPeriod,explicit period from the start to the end of a specific interval or range within which a computational process or operation occurs,core#definition
+hasDateSpecification,The rule is modeled as a simple String because OWL2 provides no way to model the semantics of such a rule.,core#editorialNote
+hasDateAdded,has date added,rdf-schema#label
+Schedule,or times when they will be done,core#definition
+Saturday,Saturday,rdf-schema#label
+,This ontology provides definitions of date and schedule concepts for use in other FIBO ontologies.,abstract
+hasAnchorDate,"With respect to a scoped measure, such as an economic indicator, the anchor date specifies the reference date against which the value of a numeric index for a more recent date is compared (i.e., the starting point from which it stems).",core#example
+Neb3eb26529254f4fb94d783e59917399,hasRecurrenceInterval,owl#onProperty
+hasFinalStub,hasStub,rdf-schema#subPropertyOf
+CalculationPeriodLength,owl#Class,22-rdf-syntax-ns#type
+CalculationPeriod,ExplicitDatePeriod,rdf-schema#subClassOf
+Wednesday,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasStub,links an abbreviated period at the start or end of some schedule to the overall schedule,core#definition
+hasOpeningDateTime,has opening date time,rdf-schema#label
+DatedCollectionConstituent,dated collection constituent,rdf-schema#label
+hasInitialStub,owl#ObjectProperty,22-rdf-syntax-ns#type
+ExplicitRecurrenceInterval,recurrence interval defined via an explicit duration,core#definition
+ScheduleStub,The Occurrences ontology extends ScheduleStub to 'comprise' an OccurrenceKind. The meaning is that a schedule stub comprises a date period and an event which is scheduled to occur during that date period; in other words that an Occurrence of the OccurrenceKind should happen during the DatePeriod of the ScheduleStub.,core#editorialNote
+ExplicitRecurrenceInterval,owl#Class,22-rdf-syntax-ns#type
+hasDateSpecification,SpecifiedDate,rdf-schema#domain
+CalendarWeek,"ISO 8601, clause 2.2.8",adaptedFrom
+Nd2bbe790a0634f66a450fb6c615a25d3,ScheduleStub,owl#onClass
+hasFinalStub,has final stub,rdf-schema#label
+N1886c70826814906a22728bd89501124,1,owl#qualifiedCardinality
+N9cd507e435594ab9aff0252c80ad7a1c,hasRelativeDuration,owl#onProperty
+hasOverallPeriod,"identifies a date period that includes all the dates of a schedule, including any schedule stubs",core#definition
+hasOrdinalNumber,"specifies a number designating place in an ordered sequence, i.e., 1st, 2nd, 3rd, etc.",core#definition
+RegularSchedule,"The recurrence start date can be an ExplicitDate or any kind of CalculatedDate. Hence, the starting date could be relative to another Date (e.g. T+3) or triggered by the Occurrence of an OccurrenceKind, etc.
+
+The recurrence start date can also be relative to the starting Date of the overall DatePeriod of the Schedule.",usageNote
+hasInitialStub,has initial stub,rdf-schema#label
+," version of this ontology was revised to add the 'has date added' property, which is needed for the date a constituent is added to a basket, among other purposes, to add a TimeOfDay class, needed for representing rate reset times, eliminate duplication with concepts in LCC, and make AdHocScheduleEntry a child of DatedCollectionConstituent.",core#changeNote
+Tuesday,owl#NamedIndividual,22-rdf-syntax-ns#type
+AnchorDate,ExplicitDate,rdf-schema#subClassOf
+hasOverallPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+RelativeDate,owl#Class,22-rdf-syntax-ns#type
+CalendarMonth,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nbc0bca9e1fd84059b9fc6ec564a839c8,ExplicitDate,owl#someValuesFrom
+Nf323f17551004871ae069a9e41d5fe6e,1,owl#qualifiedCardinality
+ExplicitRecurrenceInterval,RecurrenceInterval,rdf-schema#subClassOf
+RelativeDate,relative date,rdf-schema#label
+hasDateSpecification,owl#DatatypeProperty,22-rdf-syntax-ns#type
+CalendarWeek,calendar week,rdf-schema#label
+CalendarMonth,CalendarPeriod,22-rdf-syntax-ns#type
+N3c2865b59ecd459ea476b01250f54cf4,Date,owl#onClass
+CalculatedDate,Date,rdf-schema#subClassOf
+N3c2865b59ecd459ea476b01250f54cf4,owl#Restriction,22-rdf-syntax-ns#type
+hasDateAdded,ExplicitDate,rdf-schema#range
+Tuesday,Tuesday,rdf-schema#label
+CalendarSpecifiedInterval,Ne34fa7262e394faf92c626f75f00c51e,rdf-schema#subClassOf
+FromStart,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasInitialStub,hasStub,rdf-schema#subPropertyOf
+ScheduleStub,Collection,rdf-schema#subClassOf
+Nbd7b6b05a02c43eb94737449a78bfafd,DatedCollectionConstituent,owl#someValuesFrom
+N1886c70826814906a22728bd89501124,XMLSchema#integer,owl#onDataRange
+hasCalendarPeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+Schedule,owl#Class,22-rdf-syntax-ns#type
+RelativeDate,calculated date that is some duration before or after another date,core#definition
+,,owl#imports
+ExplicitRecurrenceInterval,explicit recurrence interval,rdf-schema#label
+Nd52e928cf8a24971afbc8ccca9e345e3,hasStartDate,owl#onProperty
+hasFinalStub,identifies any special period at the end of a regular schedule,core#definition
+FromEnd,TimeDirection,22-rdf-syntax-ns#type
+DatedStructuredCollection,structured collection whose elements are required to have a date and time,core#definition
+hasOverallPeriod,Schedule,rdf-schema#domain
+CalculationPeriod,owl#Class,22-rdf-syntax-ns#type
+hasTimeDirection,has time direction,rdf-schema#label
+AnchorDate,fixed reference point within a series or timeline,core#definition
+BusinessCalendar,owl#Class,22-rdf-syntax-ns#type
+Age,Nbc0bca9e1fd84059b9fc6ec564a839c8,rdf-schema#subClassOf
+N168402a0b65543589ec561f13043a343,hasDatePeriod,owl#onProperty
+DatedCollectionConstituent,element of a collection that is associated with a date and time,core#definition
+AdHocScheduleEntry,"entry, including a date or date and time, among multiple non-regularly-recurring entries in a schedule",core#definition
+CalendarYear,ISO 8601 clause 2.2.13,adaptedFrom
+FromStart,TimeDirection,22-rdf-syntax-ns#type
+CalendarQuarter,calendar quarter,rdf-schema#label
+ScheduleStub,N168402a0b65543589ec561f13043a343,rdf-schema#subClassOf
+Nded014cd38ad4fc08dc8d8d9679b27be,DatePeriod,owl#someValuesFrom
+RelativeDate,N3c2865b59ecd459ea476b01250f54cf4,rdf-schema#subClassOf
+Nd52e928cf8a24971afbc8ccca9e345e3,N6b40146fb50c40329a5f5fa485e20566,owl#someValuesFrom
+hasAcquisitionDate,hasObservedDateTime,rdf-schema#subPropertyOf
+hasAsOfDate,hasDate,rdf-schema#subPropertyOf
+DatedStructuredCollection,Nbd7b6b05a02c43eb94737449a78bfafd,rdf-schema#subClassOf
+hasOrdinalNumber,"Negative ordinal numbers mean 1st before, 2nd before, etc.",explanatoryNote
+RecurrenceInterval,owl#Class,22-rdf-syntax-ns#type
+hasClosingDateTime,hasObservedDateTime,rdf-schema#subPropertyOf
+N3c2865b59ecd459ea476b01250f54cf4,1,owl#qualifiedCardinality
+DatedStructuredCollection,dated structured collection,rdf-schema#label
+N105b9e8c40fd4e45b02d388bf769b012,1,owl#maxQualifiedCardinality
+hasOrdinalNumber,XMLSchema#integer,rdf-schema#range
+FromStart,The first day of a calendar quarter. (The offsetDay is zero.),core#example
+FromEnd,time direction indicating that a calendar-specified date is the nth date from the end of a calendar period,core#definition
+SpecifiedDate,calculated date that is defined by a rule that is captured as a string by the 'hasDateSpecification' property,core#definition
+CalendarSpecifiedInterval,owl#Class,22-rdf-syntax-ns#type
+AdHocScheduleEntry,"The Date of an AdHocScheduleEntry can be an ExplicitDate or any kind of CalculatedDate, such as:
+
+* An OccurrenceBasedDate -- a Date that itself is defined by an Occurrence (see the Occurrences ontology)
+* A RelativeDate - a Date relative to another Date, such as T+3
+* A SpecifiedDate - a Date that is defined by an arbitrary rule",usageNote
+,"This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification. It is also needed to provide temporal relationships for Ownership and Control.
+
+These three ontologies are designed for use together:
+
+	* FinancialDates -- financial Dates and Schedules
+	* BusinessDates -- business day adjustments
+	* Occurrences -- occurrences (events) and kinds of occurrences
+
+They are modularized this way to minimize the ontological committments that are imposed upon ontologies that rely upon them. Ontologies can import FinancialDates alone, or FinancialDates + BusinessDates, or FinancialDates + Occurrences, or all three together.",core#changeNote
+hasClosingDateTime,The use of custom datatypes is outside the OWL 2 RL profile and so users should consider commenting out the range restriction or change the range to rdfs:Literal in applications that are constrained to OWL 2 RL.,usageNote
+,FinancialDates.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+isRelativeTo,is relative to,rdf-schema#label
+hasDateAdded,owl#ObjectProperty,22-rdf-syntax-ns#type
+CalendarSpecifiedInterval,The 15th day of each calendar month.,core#example
+Tuesday,TimeInterval,22-rdf-syntax-ns#type
+Monday,Monday,rdf-schema#label
+hasCalendarPeriod,"identifies a period of time used in computing a calendar-specified date, such as a calendar week, calendar month, calendar quarter, or calendar year",core#definition
+RegularSchedule,"Other ontologies can extend RegularSchedule as needed.
+
+In particular, the Occurrences ontology extends RegularSchedule to 'comprise' an 'OccurrenceKind'. The intended meaning is that a regular schedule comprises a number of scheduled dates and an event which is scheduled to occur on each of those dates, in other words an Occurrence of the OccurrenceKind should happen on each Date defined by the RegularSchedule.",usageNote
+hasRelativeDuration,"Note that this property is distinct from hasDurationValue, as a relative duration may resolve to a relative date or date time (both of which are time points) rather than an interval, which would result in a logical inconsistency if its parent property is hasDurationValue.",explanatoryNote
+AdHocSchedule,Na6c89ed621994afabaa6f31ccab184cc,rdf-schema#subClassOf
+hasDateSpecification,XMLSchema#string,rdf-schema#range
+Nf652f17c534b4e588717e9f5c6478397,ScheduleStub,owl#onClass
+CalendarPeriod,"A calendar-specified date may be figured with respect to a calendar week, a calendar month, a calendar quarter, or a calendar year.",explanatoryNote
+Neb3eb26529254f4fb94d783e59917399,owl#Restriction,22-rdf-syntax-ns#type
+hasStub,owl#ObjectProperty,22-rdf-syntax-ns#type
+,FinancialDates.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+hasStub,ScheduleStub,rdf-schema#range
+hasClosingDateTime,CombinedDateTime,rdf-schema#range
+Thursday,Thursday,rdf-schema#label
+RegularSchedule,owl#Class,22-rdf-syntax-ns#type
+CalculatedDate,owl#Class,22-rdf-syntax-ns#type
+RegularSchedule,StructuredCollection,rdf-schema#subClassOf
+,"Copyright (c) 2014-2024 Object Management Group, Inc.",copyright
+hasAge,owl#ObjectProperty,22-rdf-syntax-ns#type
+RelativeDate,N9cd507e435594ab9aff0252c80ad7a1c,rdf-schema#subClassOf
+hasTimeDirection,owl#ObjectProperty,22-rdf-syntax-ns#type
+Friday,owl#NamedIndividual,22-rdf-syntax-ns#type
+CalendarSpecifiedInterval,"recurrence interval that is defined as the nth day of some calendar period (such as a calendar month), and a time direction (forward from the beginning of the month, or backwards from the end)",core#definition
+hasRecurrenceInterval,indicates the frequency with which some event or publication occurs,core#definition

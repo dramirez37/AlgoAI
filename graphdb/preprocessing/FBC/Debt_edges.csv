@@ -1,0 +1,951 @@
+source_id,target_id,relationship
+hasPrincipal,"This is not the balance of the debt at a point in time, but the amount drawn down at a specific point in time, after which (for interest bearing debts) interest becomes payable. Semantic Modeling note This term is over-ridden for specific kinds of debt (securities, loans) and is therefore not needed in any data model. It is included here to define part of the meaning of the Debt Finance term. It is a Relationship Fact and strictly speaking should be regarded as being specialized and over-ridden by the terms in the Loan and Security classes, however it is modeled here as a ""Referenceable Archetype"" meaning that it appears in diagrams as a textual entry not a relationship line, and so it is not possible to formally show this specialization.",core#editorialNote
+isInterestOn,Interest,rdf-schema#domain
+ProjectedContractEventSchedule,N9d2f7723999e4fccba7c7f610a68d805,rdf-schema#subClassOf
+ExplicitContractEventSchedule,owl#Class,22-rdf-syntax-ns#type
+CommittedSubFacility,Nfc380cb6ce5e477b90dd8f184f2a3ba6,rdf-schema#subClassOf
+NonPhysicalCollateral,"asset pledged as collateral that is a financial asset, rather than physical asset",core#definition
+hasAvailableAmount,,rdf-schema#isDefinedBy
+governsPaymentOf,governs payment of,rdf-schema#label
+DayCountConvention-Actual360,day-count convention that uses the actual number of days in each month and 360 days in a year for calculating interest payments,core#definition
+PrincipalPaymentSchedule,PaymentSchedule,rdf-schema#subClassOf
+Nf0b4acfef6dd41689ac12596f80259ef,Date,owl#onClass
+isBasedOn,appliesTo,rdf-schema#subPropertyOf
+DayCountConvention-30E360ISDA,German,synonym
+BorrowerIdentifier,"sequence of characters, capable of uniquely identifying a borrower",core#definition
+Nb38488f7495f468bafcc8e712b87b3cd,owes,owl#onProperty
+,Debt.rdf version of this ontology was modified to add the starting point value of some collateral when it was acquired (DER-138) and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+isOwedBy,Debt,rdf-schema#domain
+hasDebtAmount,Represents the total debt amount including principal and interest,explanatoryNote
+isOwed,Debt,rdf-schema#range
+InterestRateResetSchedule,ProjectedContractEventSchedule,rdf-schema#subClassOf
+Amortization,N702f696484a04998b61ba777622df9dd,rdf-schema#subClassOf
+DayCountConvention-Actual365Fixed,DayCountConvention,22-rdf-syntax-ns#type
+hasInterestPaymentFrequency,RecurrenceInterval,rdf-schema#range
+N205119be107748f7ad798478cb8f5760,Nd657c2111ba7455a97d6d07031723068,owl#someValuesFrom
+N21983ae4de9145a6ab9ad497e9aa399c,hasOccurrence,owl#onProperty
+InterestPaymentSchedule,"regular, contract-specific schedule including the dates on which interest is due to be paid",core#definition
+UncommittedCreditFacility,owl#Class,22-rdf-syntax-ns#type
+SecurityAgreement,Examples include deeds of trust and uniform commercial code (UCC) agreements.,core#example
+Creditor,Nfb78eb91c53d42aaa8203bd312938e9d,rdf-schema#subClassOf
+InterestPaymentSchedule,PaymentSchedule,rdf-schema#subClassOf
+hasPrincipalPaymentDay,has principal payment day,rdf-schema#label
+DayCountConvention-Actual365Fixed,English,synonym
+isAmortizationOf,Amortization,rdf-schema#domain
+hasCompoundingFrequency,hasRecurrenceInterval,rdf-schema#subPropertyOf
+CreditAgreement,credit agreement,rdf-schema#label
+PartialAmortization,owl#Class,22-rdf-syntax-ns#type
+Na194afa614594b7781aa83cd6bf4db6b,hasMonetaryAmount,owl#onProperty
+CreditAgreementRepaidAtMaturity,credit agreement repaid at maturity,rdf-schema#label
+DebtTerms,owl#Class,22-rdf-syntax-ns#type
+hasInterestPaymentFrequency,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasFinalInterestPaymentDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+DayCountConvention-30E360ISDA,2006-isda-definitions.pdf for more details on the calculation.,explanatoryNote
+N02272d6c56c64661a0848e2588ee2a16,owl#Restriction,22-rdf-syntax-ns#type
+N0a56e411f2464b62a612c36153e4fbd1,NegotiableCommodity,22-rdf-syntax-ns#first
+," version of this ontology was modified to move the concept of an extension provision from Debt to Contracts to support representation of preferred shares and other extendable contracts, eliminate remaining circular definitions, integrate concepts defining credit facilities, and refine the concept of collateral to differentiate collateral that is real property from financial assets such as cash, various accounts, securities, and receivables.",core#changeNote
+InterestCalculation,owl#Class,22-rdf-syntax-ns#type
+Accrual,accrual,rdf-schema#label
+hasOriginalTimeToMaturity,has time to maturity,rdf-schema#label
+isCollateralizationOf,relates some collateral to an agreement pledging the asset as security,core#definition
+Borrower,Customer,rdf-schema#subClassOf
+Na6a18b549cf540dba4f2d9bc180902b0,hasOccurrence,owl#onProperty
+N0df37b0f5cb647948329388e1d6f92d8,owl#Restriction,22-rdf-syntax-ns#type
+Ncf856807f2964b42a292f3f02d722a2b,hasInitialExchangeDate,owl#onProperty
+InterestPaymentTerms,N4b4e4a93fd2942f0a285b1a2e5a0294c,rdf-schema#subClassOf
+InterestRateResetSchedule,N21983ae4de9145a6ab9ad497e9aa399c,rdf-schema#subClassOf
+hasAvailableAmount,has available amount,rdf-schema#label
+N77007f7643ad4a58876a2859246e2419,AssessmentReport,owl#someValuesFrom
+Creditor,creditor,rdf-schema#label
+N2642019526d549b085e92ef47bc22854,InterestRate,owl#onClass
+N5543b844e0ca43c8a94bd206a0e42990,isPlayedBy,owl#onProperty
+N36679013357045f3b3b732fb0dbe7290,1,owl#qualifiedCardinality
+Nd657c2111ba7455a97d6d07031723068,isAPartyTo,owl#onProperty
+N576d00c4289c415c86e62b8d310e3d23,MonetaryAmount,owl#someValuesFrom
+BorrowerIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+Accrual,,rdf-schema#isDefinedBy
+,,owl#versionIRI
+UncommittedSubFacility,SubFacility,rdf-schema#subClassOf
+hasInitialInterestAccrualDate,has initial interest accrual date,rdf-schema#label
+N4c61bf80aeca4f08a5887f82cdd0ba2a,0,owl#minQualifiedCardinality
+DayCountConvention-Actual365Fixed,2006-isda-definitions.pdf for more details on the calculation.,explanatoryNote
+Principal,,rdf-schema#isDefinedBy
+hasMaturityDate,"Maturity dates typically apply to debt instruments, such as notes, drafts, bonds, and other loans, but may also apply to preferred shares and other financial instruments.",explanatoryNote
+Debt,Na87024f5f4344410b414f47b1a64d2f9,rdf-schema#subClassOf
+Collateral,,rdf-schema#isDefinedBy
+SecurityAgreement,N576d00c4289c415c86e62b8d310e3d23,rdf-schema#subClassOf
+N24d98e655db94a4ea43ed8e10b7649a8,hasInterestRateCap,owl#onProperty
+N46d2f82630d04627856866bc3f649ec8,Debt,owl#someValuesFrom
+VariableInterestRate,,rdf-schema#isDefinedBy
+N291bdf1610424401a89b2be92e56d167,BorrowerIdentificationScheme,owl#onClass
+Na71aaf8cc4e042c79e43444ae2da5afc,0,owl#minQualifiedCardinality
+Lease,"The lessor is the legal owner of the asset, while the lessee obtains the right to use the asset in return for rental payments. The lessee also agrees to abide by various conditions regarding their use of the property or equipment. For example, a person leasing a car may agree to the condition that the car will only be used for personal use.",explanatoryNote
+Na71aaf8cc4e042c79e43444ae2da5afc,owl#Restriction,22-rdf-syntax-ns#type
+InterestPaymentTerms,N24d98e655db94a4ea43ed8e10b7649a8,rdf-schema#subClassOf
+hasPrincipalPaymentDay,the day of the month on which payments on the principal must be made,core#definition
+Naa30e018601b4b93b627bbe59713a194,isInterestOn,owl#onProperty
+hasDebtAmount,has debt amount,rdf-schema#label
+CommittedCreditFacility,CreditFacility,rdf-schema#subClassOf
+InterestCalculation,Calculation,rdf-schema#subClassOf
+hasInitialExchangeDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+PrincipalPayment,Payment,rdf-schema#subClassOf
+AmortizationSchedule,PaymentSchedule,rdf-schema#subClassOf
+ManagedInterestRate,variable interest rate charged by a financial institution for borrowing that is not prescribed as a margin over base rate but is set from time to time by the institution,core#definition
+InterestRateSettingEvent,owl#Class,22-rdf-syntax-ns#type
+Nfb78eb91c53d42aaa8203bd312938e9d,Debt,owl#someValuesFrom
+Ncf856807f2964b42a292f3f02d722a2b,owl#Restriction,22-rdf-syntax-ns#type
+N28c8899b1084434aae128939e678e540,isCollateralizedBy,owl#onProperty
+DayCountConvention-30360BondBasis,day-count convention that uses 30 days in a month and 360 days in a year for calculating interest payments,core#definition
+Nb38488f7495f468bafcc8e712b87b3cd,Debt,owl#someValuesFrom
+Nf443ec15ba074056a7d5a359528933f6,0,owl#minQualifiedCardinality
+isOwedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+DayCountConvention-ActualActualICMA,day-count convention that uses the actual number of days in each month and actual number of days in that year for calculating interest payments,core#definition
+N3daf2a5fac7846c5b47972193ac89da2,InterestPaymentSchedule,owl#onClass
+N9d2f7723999e4fccba7c7f610a68d805,XMLSchema#positiveInteger,owl#someValuesFrom
+AccruedInterest,"amount of interest that has been incurred, as of a specific date, on a loan or other financial obligation but has not yet been paid out",core#definition
+,Debt.rdf version of this ontology was extended to incorporate the concept of a lease.,core#changeNote
+hasOriginalTimeToMaturity,ExplicitDuration,rdf-schema#range
+Ncd88ba67d6414c759580721880237f0c,0,owl#minQualifiedCardinality
+Nf443ec15ba074056a7d5a359528933f6,owl#Restriction,22-rdf-syntax-ns#type
+N205119be107748f7ad798478cb8f5760,owl#Restriction,22-rdf-syntax-ns#type
+DayCountConvention-Actual360,360,synonym
+hasOriginalTimeToMaturity,owl#ObjectProperty,22-rdf-syntax-ns#type
+Accrual,Role,rdf-schema#subClassOf
+hasOutstandingAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+InterestRateResetSchedule,interest rate reset schedule,rdf-schema#label
+isCollateralizationOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+InterestPaymentTerms,interest payment terms,rdf-schema#label
+N105fe90f52284ae9a4a5d85bbab46053,owl#Restriction,22-rdf-syntax-ns#type
+N2518458ad6eb4911bb91787ef3bdb2af,MonetaryAmount,owl#someValuesFrom
+N0df37b0f5cb647948329388e1d6f92d8,ExplicitDate,owl#someValuesFrom
+DayCountConvention-Actual360,DayCountConvention,22-rdf-syntax-ns#type
+N77007f7643ad4a58876a2859246e2419,isEvidencedBy,owl#onProperty
+isOwed,is owed,rdf-schema#label
+hasAvailableAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+N6f191a749fb64f5c98c89b523dbb1c24,RecurrenceInterval,owl#onClass
+Interest,MonetaryAmount,rdf-schema#subClassOf
+hasAccrualBasis,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ncd88ba67d6414c759580721880237f0c,Date,owl#onClass
+CreditAgreement,N72b177ddfda14c31a797c9fea6fdf8e5,rdf-schema#subClassOf
+DayCountConvention, actual convention uses the actual number of days in the given interest period and year.,explanatoryNote
+isCollateralizationOf,,rdf-schema#isDefinedBy
+DayCountConvention-ActualActualICMA,"This method ensures that all coupon payments are always for the same amount. It also ensures that all days in a coupon period are valued equally. This is the convention used for US Treasury bonds and notes, among other securities.",explanatoryNote
+FloatingInterestRate,,rdf-schema#isDefinedBy
+BorrowingCapacity,"The notion of borrowing capacity is related to management decisions pertaining to credit, i.e., the creditworthiness of the borrower, loan amount, risk tolerance, and so forth, and may be reassessed from time to time depending on the type of credit agreement and regulatory requirements. Determining borrowing capacity is typically done as a part of loan origination, especially for residential mortgages.",explanatoryNote
+hasOutstandingAmount,"indicates an amount of money representing the principal, interest, or other amount owed at a specific point in time",core#definition
+hasAccrualBasis,"identifies the convention that defines how interest accrues on something, that is the number of days in a month and days in a year that are counted when performing interest accrual calculations",core#definition
+ProjectedContractEventSchedule,N29f359e925da4979827b6e6cd6ac03d7,rdf-schema#subClassOf
+N9d2f7723999e4fccba7c7f610a68d805,hasAnticipatedNumberOfPayments,owl#onProperty
+N0df37b0f5cb647948329388e1d6f92d8,hasAsOfDate,owl#onProperty
+BorrowerIdentifier,facilities owed by a given borrower.,explanatoryNote
+N22dda1c96a4747dd981a7ff0ddd7de3c,owl#Restriction,22-rdf-syntax-ns#type
+hasDebtAmount,,rdf-schema#isDefinedBy
+NegativeAmortization,owl#Class,22-rdf-syntax-ns#type
+BorrowerIdentificationScheme,guidance-customer-identification-regulations-financial,rdf-schema#seeAlso
+Debt,owl#Class,22-rdf-syntax-ns#type
+N0fac8b91c74a4f9fae26ab336c0de67f,hasInterestRate,owl#onProperty
+N0db93e4a569742a1a45eece7566b3c53,isCollateralizationOf,owl#onProperty
+CollateralValueAsOfDate,Nc67f84e1da9a460e8e81bfb9e31c73f0,rdf-schema#subClassOf
+N28c8899b1084434aae128939e678e540,owl#Restriction,22-rdf-syntax-ns#type
+hasCompoundingFrequency,has compounding frequency,rdf-schema#label
+UncommittedCreditFacility,uncommitted credit facility,rdf-schema#label
+N28c8899b1084434aae128939e678e540,0,owl#minQualifiedCardinality
+ExplicitContractEventSchedule,AdHocSchedule,rdf-schema#subClassOf
+DayCountConvention,,rdf-schema#isDefinedBy
+hasDebtAmount,CreditAgreement,rdf-schema#domain
+BorrowingCapacity,N44a0712c62674c41ba9f18337e5bcf61,rdf-schema#subClassOf
+hasPrincipal,,rdf-schema#isDefinedBy
+Ncf856807f2964b42a292f3f02d722a2b,ExplicitDate,owl#onClass
+Ncd27483f1cbf4ed0a1a28c5eaefab902,embodies,owl#onProperty
+hasInitialPrincipalPaymentDate,Date,rdf-schema#range
+N105fe90f52284ae9a4a5d85bbab46053,CreditFacility,owl#onClass
+FloatingInterestRate,owl#Class,22-rdf-syntax-ns#type
+Lease,CreditAgreementRepaidPeriodically,rdf-schema#subClassOf
+BorrowerIdentifier,N36679013357045f3b3b732fb0dbe7290,rdf-schema#subClassOf
+Lender,"a party that extends credit or money to a borrower with the expectation of being repaid, usually with interest",core#definition
+isOwedBy,links a debt to the party that owes it,core#definition
+DayCountConvention-Actual360,French,synonym
+Accrual,owl#Class,22-rdf-syntax-ns#type
+N06372e6cb70949238b5db93db0ddabf9,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+hasPrincipalPaymentFrequency,has principal payment frequency,rdf-schema#label
+N105fe90f52284ae9a4a5d85bbab46053,1,owl#qualifiedCardinality
+hasInitialInterestAccrualDate,the date from which interest begins to accrue,core#definition
+CapitalLease,lease that must be reflected on an organization's balance sheet as an asset and as a corresponding liability,core#definition
+Principal,owl#Class,22-rdf-syntax-ns#type
+hasInitialExchangeDate,hasStartDate,rdf-schema#subPropertyOf
+N0a56e411f2464b62a612c36153e4fbd1,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+BorrowerIdentifier,PartyRoleIdentifier,rdf-schema#subClassOf
+Debtor,,rdf-schema#isDefinedBy
+CreditAgreement,N690de3d451714babad42ad26b4495ec8,rdf-schema#subClassOf
+CommittedSubFacility,SubFacility,rdf-schema#subClassOf
+DayCountConvention,owl#Class,22-rdf-syntax-ns#type
+isOwed,,rdf-schema#isDefinedBy
+N21983ae4de9145a6ab9ad497e9aa399c,InterestRateReset,owl#someValuesFrom
+AmortizationSchedule,N2fe821ecdaaf4a47adfac7bdbe52cb75,rdf-schema#subClassOf
+isPrincipalOf,,rdf-schema#isDefinedBy
+UncommittedCreditFacility,CreditFacility,rdf-schema#subClassOf
+NegativeAmortization,negative amortization,rdf-schema#label
+RevolvingLineOfCredit,Nc88fb14215bd438fa209e66c636430ef,rdf-schema#subClassOf
+Principal,principal,rdf-schema#label
+FixedInterestRate,,rdf-schema#isDefinedBy
+governsPaymentOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+DayCountConvention-30360US,day-count convention that uses 30 days in a month and 360 days in a year for calculating interest payments,core#definition
+isOwed,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasInterestRateCap,InterestRate,rdf-schema#range
+N70a38858b3324b149a70f95709697598,owl#Restriction,22-rdf-syntax-ns#type
+InterestCalculation,N2642019526d549b085e92ef47bc22854,rdf-schema#subClassOf
+hasInitialExchangeDate,indicates the specific date when the initial exchange of assets or funds takes place,core#definition
+N2fe821ecdaaf4a47adfac7bdbe52cb75,PrincipalPaymentSchedule,owl#onClass
+PrincipalPayment,principal payment,rdf-schema#label
+AccruedInterest,Interest,rdf-schema#subClassOf
+FloatingInterestRate,floating interest rate,rdf-schema#label
+N690de3d451714babad42ad26b4495ec8,hasMaturityDate,owl#onProperty
+DayCountConvention-ActualActualICMA,DayCountConvention,22-rdf-syntax-ns#type
+AccruedInterest,accrued interest,rdf-schema#label
+DayCountConvention,BusinessRecurrenceIntervalConvention,rdf-schema#subClassOf
+N8ddbbb8cd34d4382a1677c4c87cd2cc6,Interest,owl#onClass
+CollateralAgreement,owl#Class,22-rdf-syntax-ns#type
+hasAccrualBasis,,rdf-schema#isDefinedBy
+Na6a18b549cf540dba4f2d9bc180902b0,PrincipalPayment,owl#someValuesFrom
+N6f191a749fb64f5c98c89b523dbb1c24,0,owl#minQualifiedCardinality
+N44a0712c62674c41ba9f18337e5bcf61,owl#Restriction,22-rdf-syntax-ns#type
+PrincipalPaymentSchedule,owl#Class,22-rdf-syntax-ns#type
+hasDenomination,,rdf-schema#isDefinedBy
+hasDebtAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+UncommittedSubFacility,sub-facility that has yet to be confirmed as a source of financing for the borrower,core#definition
+N2518458ad6eb4911bb91787ef3bdb2af,hasMonetaryAmount,owl#onProperty
+N22dda1c96a4747dd981a7ff0ddd7de3c,Creditor,owl#someValuesFrom
+DayCountConvention-Actual365Fixed,365 fixed,synonym
+RevolvingLineOfCredit,revolving line of credit,rdf-schema#label
+N105fe90f52284ae9a4a5d85bbab46053,isConstituentOf,owl#onProperty
+hasPrincipal,owl#ObjectProperty,22-rdf-syntax-ns#type
+Debt,"obligation to pay something, such as an amount of money, good, service, or instrument",core#definition
+Nb954963758204782896fa170afc23ee7,0,owl#minQualifiedCardinality
+Debtor,owl#Class,22-rdf-syntax-ns#type
+Nb954963758204782896fa170afc23ee7,owl#Restriction,22-rdf-syntax-ns#type
+PrincipalRepaymentTerms,,rdf-schema#isDefinedBy
+PrincipalRepaymentTerms,Nedd5552b386347bbae239aded51e81e2,rdf-schema#subClassOf
+SecurityAgreement,security agreement,rdf-schema#label
+N0e5cbf3e86104711a95d6c26209384ac,owl#Restriction,22-rdf-syntax-ns#type
+," version of this ontology was modified to add several common day count conventions used to calculate the amount of accrued interest or the present value when the next coupon payment is less than a full coupon period away, to support collateral agreements such as deeds of trust, UCC filings and the like, to add the concept of a rate reset time of day, to eliminate duplication of concepts in LCC, to simplify addresses, and to merge countries with locations.",core#changeNote
+N3fe313089669436d819a6f1488078f0c,0,owl#minQualifiedCardinality
+FixedInterestRate,owl#Class,22-rdf-syntax-ns#type
+SubFacility,owl#Class,22-rdf-syntax-ns#type
+CreditFacility,owl#Class,22-rdf-syntax-ns#type
+PrincipalRepaymentTerms,Ncd88ba67d6414c759580721880237f0c,rdf-schema#subClassOf
+ProjectedContractEventSchedule,"A projected schedule is a regular schedule that documents the anchor dates and frequency of occurrences, using rules, rather than providing an explicit list of dates. This method will project future event dates (transaction event dates), based on the frequencies specified and may be adjusted due to calendar restrictions and other rules to deal with holidays, weekends, and so forth in addition to contract-specific events.",explanatoryNote
+CommittedSubFacility,contractually committed portion of a credit facility that is available to the borrower and may be associated with some specific collateral,core#definition
+,Debt.rdf version of this ontology was modified to address a punning issue due to the use of hasMethod as the parent property for hasAccrualBasis that was not detected before the latest Commons ontologies were posted to the OMG site.,core#changeNote
+isCollateralizedBy,relates an agreement to an asset pledged as security,core#definition
+hasAvailableAmount,indicates an amount of money available for an individual or organization to borrow,core#definition
+DayCountConvention-30E360ISDA,Eurobond basis (ISDA 2006),synonym
+Amortization,amortization,rdf-schema#label
+hasInitialInterestPaymentDate,has initial interest payment date,rdf-schema#label
+N0db93e4a569742a1a45eece7566b3c53,0,owl#minQualifiedCardinality
+N0db93e4a569742a1a45eece7566b3c53,owl#Restriction,22-rdf-syntax-ns#type
+AmortizationSchedule,"Payments are divided into equal amounts for the duration of the loan or debt instrument, making it the simplest repayment model. A greater amount of the payment is applied to interest at the beginning of the amortization schedule, while more money is applied to principal at the end.",explanatoryNote
+InterestCalculation,Nca29c3985d6a4ee88ecb9642a9d5d6c0,rdf-schema#subClassOf
+Nd657c2111ba7455a97d6d07031723068,owl#Restriction,22-rdf-syntax-ns#type
+isPrincipalOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+CreditAgreementRepaidAtMaturity,CreditAgreement,rdf-schema#subClassOf
+BorrowingCapacity,"upper bound on the total amount of money that a lender believes a party has the ability to repay an obligation when due, as of some point in time",core#definition
+CollateralValueAsOfDate,owl#Class,22-rdf-syntax-ns#type
+PrincipalRepaymentTerms,owl#Class,22-rdf-syntax-ns#type
+InterestPayment,owl#Class,22-rdf-syntax-ns#type
+N76b72ed9ef7f4191b7a0e901042312b4,owl#Restriction,22-rdf-syntax-ns#type
+N0fac8b91c74a4f9fae26ab336c0de67f,0,owl#minQualifiedCardinality
+DayCountConvention-ActualActualICMA,2006-isda-definitions.pdf for more details on the calculation.,explanatoryNote
+hasCompoundingFrequency,the frequency at which interest is added to the principal of the debt over the course of the agreement,core#definition
+N46d2f82630d04627856866bc3f649ec8,isPrincipalOf,owl#onProperty
+Principal,Aspect,rdf-schema#subClassOf
+InterestCalculationSchedule,"The dates may be fixed, or relative to the corresponding interest payment date. It may be the same as the payment date, in arrears, or forward looking to the next interest payment.",explanatoryNote
+AmortizationSchedule,schedule of periodic payments (repayment installments) that specify changes in the balance of the debt over time,core#definition
+hasDenomination,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasPrincipalRepaymentDate,"Depending on the terms of the instrument (debt security, such as a bond, loan, etc.), this may be the date of a single payment of the debt principal or of the completion of scheduled partial redemption payments.",explanatoryNote
+DayCountConvention-Actual360,360,rdf-schema#label
+isOwedTo,Creditor,rdf-schema#range
+isCollateralizedBy,,rdf-schema#isDefinedBy
+InterestPaymentSchedule,interest payment schedule,rdf-schema#label
+hasInitialExchangeDate,ExplicitDate,rdf-schema#range
+ProjectedContractEventSchedule,"schedule of events, including but not limited to anticipated payment events, rate reset events and others that are expected to occur over the lifetime of the contract",core#definition
+N6f191a749fb64f5c98c89b523dbb1c24,owl#Restriction,22-rdf-syntax-ns#type
+Na194afa614594b7781aa83cd6bf4db6b,owl#Restriction,22-rdf-syntax-ns#type
+isOwedBy,owes,owl#inverseOf
+Lender,,rdf-schema#isDefinedBy
+N205119be107748f7ad798478cb8f5760,isPlayedBy,owl#onProperty
+Na6a18b549cf540dba4f2d9bc180902b0,owl#Restriction,22-rdf-syntax-ns#type
+Debtor,Nfcf95e04f2e24e4d9cb55b87c124dc80,rdf-schema#subClassOf
+hasDenomination,MonetaryAmount,rdf-schema#range
+CreditAgreement,Ncf856807f2964b42a292f3f02d722a2b,rdf-schema#subClassOf
+NonPhysicalCollateral,owl#Class,22-rdf-syntax-ns#type
+N0e5cbf3e86104711a95d6c26209384ac,CommittedSubFacility,owl#onClass
+AmortizationSchedule,,rdf-schema#isDefinedBy
+N5543b844e0ca43c8a94bd206a0e42990,N02272d6c56c64661a0848e2588ee2a16,owl#someValuesFrom
+RevolvingLineOfCredit,owl#Class,22-rdf-syntax-ns#type
+Lease,lease,rdf-schema#label
+,Debt.rdf version of this ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+DayCountConvention-30E360ISDA,day-count convention that uses 30 days in a month and 360 days in a year for calculating interest payments,core#definition
+CollateralAgreement,true,owl#deprecated
+N44a0712c62674c41ba9f18337e5bcf61,LegalPerson,owl#someValuesFrom
+hasInterestPaymentFrequency,hasRecurrenceInterval,rdf-schema#subPropertyOf
+PrincipalRepaymentTerms,principal repayment terms,rdf-schema#label
+hasAccrualBasis,hasBusinessRecurrenceIntervalConvention,rdf-schema#subPropertyOf
+N28c8899b1084434aae128939e678e540,Collateral,owl#onClass
+N57992ea139004417b6c2f0f197e6bbc3,owl#Restriction,22-rdf-syntax-ns#type
+InterestPaymentSchedule,"The dates may be fixed, or expressed as an offset of the calculation dates. Typically the payment dates are fixed and calculation dates are expressed as an offset, however.",explanatoryNote
+RevolvingLineOfCredit,Revolving credit facilities are essentially lines of credit with variable interest rates.,explanatoryNote
+UncommittedSubFacility,uncommitted sub-facility,rdf-schema#label
+hasInitialPrincipalPaymentDate,hasStartDate,rdf-schema#subPropertyOf
+NonPhysicalCollateral,Nf46f566cf72549b4aad4edf799d097c1,rdf-schema#subClassOf
+N3fe313089669436d819a6f1488078f0c,owl#Restriction,22-rdf-syntax-ns#type
+hasInitialPrincipalPaymentDate,the date on which the first payment against the principal is due,core#definition
+InterestRateReset,"Note that depending on the contract, a rate reset can occur daily or on some other timetable, and depending on the underlying benchmark, the actual rate may or may not change. Rate resets may be associated with variable interest rate loans, scheduled reset dates for loans and other debt instruments, for example, interest rate swaps, certain kinds of bonds, and the like. The date on which interest is (re)calculated may be an explicit or date relative.",explanatoryNote
+CreditAgreementRepaidPeriodically,"Examples include revolving lines of credit, commercial loans, construction loans, residential mortgages and so forth.",core#example
+DayCountConvention-30E360,2006-isda-definitions.pdf for more details on the calculation.,explanatoryNote
+Interest,owl#Class,22-rdf-syntax-ns#type
+InterestPaymentTerms,"Interest is usually payable on any outstanding principal amount, therefore interest relates to the amount of debt outstanding at any given point of time, not to the principal amount advanced at the time that the loan was advanced or the debt security issued (aside from the initial payment).",explanatoryNote
+InterestPaymentSchedule,owl#Class,22-rdf-syntax-ns#type
+DayCountConvention-30E360ISDA,360 ICMA,synonym
+Ndc7bc422bb3841a1a0ccf8000617387e,Asset,owl#onClass
+hasAccrualBasis,DayCountConvention,rdf-schema#range
+isAmortizationOf,links the process of reduction of debt or other costs through periodic charges to the relevant asset or liability,core#definition
+DayCountConvention-30E360,DayCountConvention,22-rdf-syntax-ns#type
+hasLender,,rdf-schema#isDefinedBy
+RevolvingLineOfCredit,"credit facility that enables the borrower to withdraw funds, repay, and withdraw again",core#definition
+N181b4a8407a34dbd9d569fb8e998aea8,InterestRate,owl#allValuesFrom
+isPrincipalOf,is principal of,rdf-schema#label
+InterestPaymentTerms,Nc7b6f752c9c24e42ac87238fe7cf23ba,rdf-schema#subClassOf
+InterestPaymentTerms,Nb954963758204782896fa170afc23ee7,rdf-schema#subClassOf
+Na1d8b33a0b3142ce8225282d0c2ef644,isOwedTo,owl#onProperty
+PrincipalPaymentSchedule,"regular, contract-specific schedule including the dates on which some percentage or all of the principal is due to be (re)paid",core#definition
+isCollateralizedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+N0fac8b91c74a4f9fae26ab336c0de67f,owl#Restriction,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+Debt,debt,rdf-schema#label
+SubFacility,MutualContractualAgreement,rdf-schema#subClassOf
+hasFinalInterestPaymentDate,has final interest payment date,rdf-schema#label
+," version of this ontology was modified to (1) add concepts including credit agreement whose principal is repaid at maturity and those whose principal is repaid over the course of the agreement, (2) move properties related to maturity to this ontology from FinancialInstruments and restructure the relationship between these two ontologies, (3) add the concept of a borrower identifier and the related scheme, (4) add the concept of an interest rate cap as a potential provision with respect to interest rate terms, and (5) clarified the definition of promissory note.",core#changeNote
+DayCountConvention,day-count convention,rdf-schema#label
+N06372e6cb70949238b5db93db0ddabf9,isPlayedBy,owl#onProperty
+hasDenomination,has denomination,rdf-schema#label
+AccruedInterest,N0df37b0f5cb647948329388e1d6f92d8,rdf-schema#subClassOf
+,Debt and LOAN.,abstract
+N36679013357045f3b3b732fb0dbe7290,owl#Restriction,22-rdf-syntax-ns#type
+governsPaymentOf,"links contractual terms embedded in a contract, such as interest or repayment terms to the element those terms apply to",core#definition
+N72b177ddfda14c31a797c9fea6fdf8e5,DebtTerms,owl#someValuesFrom
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+N8ddbbb8cd34d4382a1677c4c87cd2cc6,appliesTo,owl#onProperty
+BorrowingCapacity,,rdf-schema#isDefinedBy
+ManagedInterestRate,VariableInterestRate,rdf-schema#subClassOf
+CapitalLease,"In the United States, such leases must be reported per Statement 13 of the Financial Accounting Standards Board. Generally, this applies to leases where the lessee acquires essentially all of the economic benefits and risks of the leased property.",explanatoryNote
+FloatingInterestRate,variable interest rate that is based on a specific index or benchmark rate,core#definition
+N9de8c0a5d7e74ba495a112fcdc43b166,Debtor,owl#someValuesFrom
+hasPrincipalPaymentDay,RecurrenceInterval,rdf-schema#range
+CreditAgreement,N28c8899b1084434aae128939e678e540,rdf-schema#subClassOf
+InterestPaymentTerms,N149c140981984de18126f4d274eac875,rdf-schema#subClassOf
+Amortization,,rdf-schema#isDefinedBy
+InterestRateReset,"event reflecting a potential adjustment to an interest rate, typically corresponding to a change in the underlying benchmark interest rate or index specified in the contract",core#definition
+N4d4d5c157ddb46469083674540ca5f05,MonetaryAmount,22-rdf-syntax-ns#first
+DayCountConvention-30E360,360,synonym
+hasPrincipalRepaymentDate,has principal repayment date,rdf-schema#label
+CreditAgreementRepaidAtMaturity,The most common example of a credit agreement repaid at maturity is a bond.,core#example
+isOwedBy,Debtor,rdf-schema#range
+DayCountConvention-Actual365Fixed,365 fixed,rdf-schema#label
+DayCountConvention-ActualActualICMA,actual ICMA,rdf-schema#label
+hasMaturityDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nc7b6f752c9c24e42ac87238fe7cf23ba,governsPaymentOf,owl#onProperty
+ProjectedContractEventSchedule,projected contract event schedule,rdf-schema#label
+N690de3d451714babad42ad26b4495ec8,0,owl#minQualifiedCardinality
+Lender,owl#Class,22-rdf-syntax-ns#type
+hasLender,owl#ObjectProperty,22-rdf-syntax-ns#type
+BorrowingCapacity,N57992ea139004417b6c2f0f197e6bbc3,rdf-schema#subClassOf
+N36679013357045f3b3b732fb0dbe7290,Borrower,owl#onClass
+, version of this ontology was added to the FBC domain via the FIBO 2.0 RFC in support of several FIBO debt-oriented initiatives.,core#changeNote
+InterestPaymentTerms,contract terms for payment of interest on a debt,core#definition
+DayCountConvention-ActualActualISDA,owl#NamedIndividual,22-rdf-syntax-ns#type
+owes,owl#ObjectProperty,22-rdf-syntax-ns#type
+DayCountConvention-30360BondBasis,360 bond basis,rdf-schema#label
+AmortizationSchedule,owl#Class,22-rdf-syntax-ns#type
+N36679013357045f3b3b732fb0dbe7290,identifies,owl#onProperty
+CreditAgreement,,rdf-schema#isDefinedBy
+hasInterestPaymentDay,the day of the month on which interest payments must be made on the debt,core#definition
+CreditAgreement,N22dda1c96a4747dd981a7ff0ddd7de3c,rdf-schema#subClassOf
+CapitalLease,Lease,rdf-schema#subClassOf
+hasAnticipatedNumberOfPayments,XMLSchema#positiveInteger,rdf-schema#range
+owes,,rdf-schema#isDefinedBy
+InterestPaymentTerms,N49d1204707464c4bb46b4d7f3fea6ace,rdf-schema#subClassOf
+DayCountConvention-ActualActualISDA,actual ISDA,rdf-schema#label
+Nba4e55e3eecf4a6fb333fc4bd8fba106,owl#Restriction,22-rdf-syntax-ns#type
+InterestCalculationSchedule,"regular, contract-specific schedule including the dates on which interest is calculated",core#definition
+N3fe313089669436d819a6f1488078f0c,hasPrincipalPaymentDay,owl#onProperty
+PrincipalRepaymentTerms,contract terms that specify requirements for repayment of the principal,core#definition
+hasPrincipalRepaymentDate,hasEndDate,rdf-schema#subPropertyOf
+Nfc380cb6ce5e477b90dd8f184f2a3ba6,CommittedCreditFacility,owl#someValuesFrom
+hasDebtAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+RetailCreditFacility,owl#Class,22-rdf-syntax-ns#type
+PromissoryNote,true,owl#deprecated
+hasBorrower,"relates a contract, such as a debt instrument or credit agreement, to one or more parties that are incurring the debt",core#definition
+N761148871068497397fb925ac6625109,hasBusinessCenter,owl#onProperty
+ManagedInterestRate,managed interest rate,rdf-schema#label
+FullAmortization,full amortization,rdf-schema#label
+hasPrincipalPaymentFrequency,the frequency at which payments on the principal must be made,core#definition
+SecurityAgreement,"collateral agreement that grants a financial interest in some collateral to a party that is not an owner of that collateral, specifying terms including relative duties and rights, over and above those specified in the primary contract, uregarding the disposition of the asset used as collateral",core#definition
+isAmortizationOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ncd88ba67d6414c759580721880237f0c,hasPrincipalRepaymentDate,owl#onProperty
+CapitalLease,owl#Class,22-rdf-syntax-ns#type
+InterestRateSettingEvent,"event on which an initial rate for a given contract is set, which may be relative the the occurrence of some other contract lifecycle event, such as the execution date",core#definition
+DayCountConvention-30360BondBasis,owl#NamedIndividual,22-rdf-syntax-ns#type
+N3daf2a5fac7846c5b47972193ac89da2,0,owl#minQualifiedCardinality
+Lender,ContractParty,rdf-schema#subClassOf
+N3daf2a5fac7846c5b47972193ac89da2,owl#Restriction,22-rdf-syntax-ns#type
+N702f696484a04998b61ba777622df9dd,Debt,owl#onClass
+FloatingInterestRate,"The index used to determine the specific interest rate is generally included in the terms of the loan. In most cases, lenders will also charge a spread, or added percentage points on top of the established index rate. If a loan is billed as prime plus 2.5 percent, for a prime rate of 3.5 percent, the terms of the loan will require the borrower to pay off a 6 percent interest. Floating interest rates typically involve periodic reset dates for the loan, particularly when the index rate changes. Resets may also occur online at market predetermined intervals, with yearly adjustments being a common arrangement.",explanatoryNote
+InterestPaymentTerms,Nf0b4acfef6dd41689ac12596f80259ef,rdf-schema#subClassOf
+ProjectedContractEventSchedule,owl#Class,22-rdf-syntax-ns#type
+hasLender,hasContractParty,rdf-schema#subPropertyOf
+PhysicalCollateral,"asset pledged as collateral that has a material form, i.e., is a physical asset of the obligor",core#definition
+DayCountConvention,Expression,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+N6f191a749fb64f5c98c89b523dbb1c24,hasPrincipalPaymentFrequency,owl#onProperty
+Nedd5552b386347bbae239aded51e81e2,1,owl#maxQualifiedCardinality
+N44a0712c62674c41ba9f18337e5bcf61,appliesTo,owl#onProperty
+hasInitialInterestAccrualDate,Date,rdf-schema#range
+InterestRateResetSchedule,owl#Class,22-rdf-syntax-ns#type
+N702f696484a04998b61ba777622df9dd,isAmortizationOf,owl#onProperty
+N0fac8b91c74a4f9fae26ab336c0de67f,InterestRate,owl#onClass
+Nca29c3985d6a4ee88ecb9642a9d5d6c0,hasMonetaryAmount,owl#onProperty
+N22dda1c96a4747dd981a7ff0ddd7de3c,hasContractParty,owl#onProperty
+Nb200bfae9c60472c898bf3d26fe8b4ef,governsPaymentOf,owl#onProperty
+isOwedBy,,rdf-schema#isDefinedBy
+N3fe313089669436d819a6f1488078f0c,DayOfMonth,owl#onClass
+hasInterestPaymentFrequency,has interest payment frequency,rdf-schema#label
+CollateralValueAsOfDate,appraised value of the collateral for an obligation as of a given date,core#definition
+Collateral,owl#Class,22-rdf-syntax-ns#type
+N690de3d451714babad42ad26b4495ec8,owl#Restriction,22-rdf-syntax-ns#type
+BorrowingCapacity,owl#Class,22-rdf-syntax-ns#type
+hasInterestPaymentFrequency,the frequency at which interest payments must be made on the debt,core#definition
+CollateralAgreement,CollateralAgreement,owl#equivalentClass
+VariableInterestRate,variable interest rate,rdf-schema#label
+hasInitialInterestPaymentDate,Date,rdf-schema#range
+DayCountConvention-30360US,owl#NamedIndividual,22-rdf-syntax-ns#type
+owes,Debtor,rdf-schema#domain
+Ncd88ba67d6414c759580721880237f0c,owl#Restriction,22-rdf-syntax-ns#type
+CommittedCreditFacility,UncommittedCreditFacility,owl#disjointWith
+PrincipalRepaymentTerms,N3fe313089669436d819a6f1488078f0c,rdf-schema#subClassOf
+N9de8c0a5d7e74ba495a112fcdc43b166,hasContractParty,owl#onProperty
+isBasedOn,is based on,rdf-schema#label
+Amortization,owl#Class,22-rdf-syntax-ns#type
+N05b7d6be65644993af2342e6b032927c,owl#Restriction,22-rdf-syntax-ns#type
+CreditAgreementRepaidPeriodically,credit agreement in which the principal and accrued interest may be periodically repaid or exchanged,core#definition
+DayCountConvention-ActualActualISDA,act,synonym
+N24d98e655db94a4ea43ed8e10b7649a8,0,owl#minQualifiedCardinality
+isCollateralizationOf,Collateral,rdf-schema#domain
+N9ceb48f35cd64f01aec304a5ac62e3af,FinancialServiceProvider,owl#someValuesFrom
+N06372e6cb70949238b5db93db0ddabf9,LegalPerson,owl#allValuesFrom
+InterestCalculation,event reflecting the calculation of interest,core#definition
+Lender,lender,rdf-schema#label
+N29f359e925da4979827b6e6cd6ac03d7,appliesTo,owl#onProperty
+CreditAgreement,"contractual agreement in which a debtor receives something of value and typically agrees to repay the creditor by some date in the future, in some form (e.g., cash, securities, etc.), generally with interest",core#definition
+isCollateralizedBy,Collateral,rdf-schema#range
+CollateralValueAsOfDate,collateral value as of date,rdf-schema#label
+Nca29c3985d6a4ee88ecb9642a9d5d6c0,1,owl#qualifiedCardinality
+DayCountConvention-30360US,2006-isda-definitions.pdf for more details on the calculation,explanatoryNote
+Debt,"In cases where the debtor and payer are the same legal person, then a debt is equivalent to a payment obligation.",explanatoryNote
+CreditAgreement,WrittenContract,rdf-schema#subClassOf
+Nf46f566cf72549b4aad4edf799d097c1,FinancialAsset,owl#onClass
+Nb954963758204782896fa170afc23ee7,RecurrenceInterval,owl#onClass
+hasInitialInterestAccrualDate,has dated date,synonym
+BorrowingCapacity,borrowing capacity,rdf-schema#label
+Nfc380cb6ce5e477b90dd8f184f2a3ba6,isConstituentOf,owl#onProperty
+N24d98e655db94a4ea43ed8e10b7649a8,owl#Restriction,22-rdf-syntax-ns#type
+N57992ea139004417b6c2f0f197e6bbc3,ExplicitDate,owl#someValuesFrom
+MotorVehicleLease,owl#Class,22-rdf-syntax-ns#type
+CreditAgreement,Nf443ec15ba074056a7d5a359528933f6,rdf-schema#subClassOf
+Principal,"with respect to a debt: the value of an obligation, such as a bond or loan, raised and that must be repaid at maturity; for investments: the original amount of money invested, separate from any associated interest, dividends or capital gains",core#definition
+CreditAgreement,owl#Class,22-rdf-syntax-ns#type
+isAmortizationOf,,rdf-schema#isDefinedBy
+hasInitialPrincipalPaymentDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+owes,owes,rdf-schema#label
+Lease,owl#Class,22-rdf-syntax-ns#type
+hasInterestRate,has interest rate,rdf-schema#label
+FullAmortization,Amortization,rdf-schema#subClassOf
+Nf3cb60d3b0dc43779332faacf1357135,owl#Restriction,22-rdf-syntax-ns#type
+N8b0c32b4d88e422d9d22c0f974f416fa,Date,owl#onClass
+N8b0c32b4d88e422d9d22c0f974f416fa,0,owl#minQualifiedCardinality
+N8b0c32b4d88e422d9d22c0f974f416fa,owl#Restriction,22-rdf-syntax-ns#type
+InterestCalculationSchedule,ProjectedContractEventSchedule,rdf-schema#subClassOf
+N291bdf1610424401a89b2be92e56d167,owl#Restriction,22-rdf-syntax-ns#type
+hasBorrower,has borrower,rdf-schema#label
+Borrower,Nb38488f7495f468bafcc8e712b87b3cd,rdf-schema#subClassOf
+SecurityAgreement,ISO 20022,adaptedFrom
+VariableInterestRate,owl#Class,22-rdf-syntax-ns#type
+Nedd5552b386347bbae239aded51e81e2,ExtensionProvision,owl#onClass
+N2518458ad6eb4911bb91787ef3bdb2af,owl#Restriction,22-rdf-syntax-ns#type
+Nf46f566cf72549b4aad4edf799d097c1,isCollateralizationOf,owl#onProperty
+N9d2f7723999e4fccba7c7f610a68d805,0,owl#minQualifiedCardinality
+hasInitialInterestPaymentDate,the date on which the first interest payment is due,core#definition
+N77007f7643ad4a58876a2859246e2419,owl#Restriction,22-rdf-syntax-ns#type
+DayCountConvention-30E360,360,rdf-schema#label
+Nc88fb14215bd438fa209e66c636430ef,0,owl#minQualifiedCardinality
+N4c61bf80aeca4f08a5887f82cdd0ba2a,hasContractualElement,owl#onProperty
+PrincipalPaymentSchedule,"The dates may be fixed, or expressed as an offset of the calculation dates. Typically the payment dates are fixed and calculation dates are expressed as an offset, however.",explanatoryNote
+N9d2f7723999e4fccba7c7f610a68d805,owl#Restriction,22-rdf-syntax-ns#type
+CommittedSubFacility,UncommittedSubFacility,owl#disjointWith
+CreditFacility,credit agreement that allows the borrower to periodically take out money over an extended period of time rather than reapplying for a loan every time they need funds,core#definition
+Nb200bfae9c60472c898bf3d26fe8b4ef,owl#Restriction,22-rdf-syntax-ns#type
+MotorVehicleLease,Lease,rdf-schema#subClassOf
+FixedInterestRate,InterestRate,rdf-schema#subClassOf
+, version of this ontology was modified to add more detailed schedule information to support management of the various kinds of events that can impact a given contract as well as the concept of a revolving line of credit.,core#changeNote
+, version of this ontology was modified to use the generic statistical measures and measurements now in FND.,core#changeNote
+AmortizationSchedule,Ncd27483f1cbf4ed0a1a28c5eaefab902,rdf-schema#subClassOf
+Nf46f566cf72549b4aad4edf799d097c1,0,owl#minQualifiedCardinality
+N149c140981984de18126f4d274eac875,0,owl#minQualifiedCardinality
+N149c140981984de18126f4d274eac875,RecurrenceInterval,owl#onClass
+isOwedTo,links a debt to the party to which it is payable,core#definition
+N2fdb2a798246451d86f21beec08cde6a,hasOccurrence,owl#onProperty
+Nb6b17c4902f94b519df43367e8e1e859,0,owl#minQualifiedCardinality
+hasMaturityDate,or the date on which the instrument may be redeemed,core#definition
+Nb6b17c4902f94b519df43367e8e1e859,owl#Restriction,22-rdf-syntax-ns#type
+SecurityAgreement,CollateralAgreement,rdf-schema#subClassOf
+Creditor,,rdf-schema#isDefinedBy
+," version of this ontology was modified to make redemption provision a child of contractual commitment and move it to financial instruments, as such provisions apply to preferred shares and other instruments in addition to debt.",core#changeNote
+hasInitialExchangeDate,hasExplicitDate,rdf-schema#subPropertyOf
+Ndc7bc422bb3841a1a0ccf8000617387e,isCollateralizationOf,owl#onProperty
+Debtor,N06372e6cb70949238b5db93db0ddabf9,rdf-schema#subClassOf
+BorrowingCapacity,MonetaryAmount,rdf-schema#subClassOf
+PhysicalCollateral,physical collateral,rdf-schema#label
+hasBorrower,owl#ObjectProperty,22-rdf-syntax-ns#type
+DayCountConvention-ActualActualICMA,ISMA-99,synonym
+Nc88fb14215bd438fa209e66c636430ef,isCollateralizedBy,owl#onProperty
+Na71aaf8cc4e042c79e43444ae2da5afc,DayCountConvention,owl#onClass
+Na87024f5f4344410b414f47b1a64d2f9,Debtor,owl#someValuesFrom
+Nba4e55e3eecf4a6fb333fc4bd8fba106,Collateral,owl#onClass
+RevolvingLineOfCredit,CommittedCreditFacility,rdf-schema#subClassOf
+CapitalLease,capital lease,rdf-schema#label
+Lease,lease agreement,synonym
+RateResetTimeOfDay,"Examples include certain rates published by the Federal Reserve Board in their H.15 schedule, which are published at 4:15 pm on business days that are not holidays in the US.",core#example
+BorrowerIdentifier,N291bdf1610424401a89b2be92e56d167,rdf-schema#subClassOf
+RateResetTimeOfDay,"time of day that an interest rate is reset, as indicated by some interest rate authority or market data provider",core#definition
+hasMaturityDate,ExplicitDate,rdf-schema#range
+CommittedSubFacility,committed sub-facility,rdf-schema#label
+N291bdf1610424401a89b2be92e56d167,1,owl#qualifiedCardinality
+hasInterestRateCap,hasInterestRate,rdf-schema#subPropertyOf
+Na71aaf8cc4e042c79e43444ae2da5afc,hasAccrualBasis,owl#onProperty
+Principal,bond-glossary#p,rdf-schema#seeAlso
+Nc67f84e1da9a460e8e81bfb9e31c73f0,ExplicitDate,owl#someValuesFrom
+hasBorrower,,rdf-schema#isDefinedBy
+Nfcf95e04f2e24e4d9cb55b87c124dc80,Debt,owl#onClass
+N690de3d451714babad42ad26b4495ec8,ExplicitDate,owl#onClass
+NonPhysicalCollateral,Collateral,rdf-schema#subClassOf
+DayCountConvention-ActualActualISDA,365,synonym
+N0e5cbf3e86104711a95d6c26209384ac,hasConstituent,owl#onProperty
+CreditFacility,"lines of credit, committed facilities, letters of credit, and most retail credit accounts. They may define sub-facilities to which the lender is prepared to commit for specific purposes.",explanatoryNote
+Nf443ec15ba074056a7d5a359528933f6,hasContractualElement,owl#onProperty
+ManagedInterestRate,,rdf-schema#isDefinedBy
+CommittedCreditFacility,N0e5cbf3e86104711a95d6c26209384ac,rdf-schema#subClassOf
+Debtor,Obligor,rdf-schema#subClassOf
+hasInterestRateCap,"relates something, such as an agreement, or debt instrument, to the upper bound (ceiling) rate (typically annual) of interest on variable-rate debt that is to be paid by the debtor to the creditor on the debt",core#definition
+PhysicalCollateral,"Examples of physical collateral include, but are not limited to, real estate, equipment, vehicles, spare parts, inventory, goods, supplies, fixtures, and leasehold improvements.",core#example
+AmortizationSchedule,amortization schedule,rdf-schema#label
+InterestRateReset,InterestCalculation,rdf-schema#subClassOf
+BorrowerIdentificationScheme,borrower identification scheme,rdf-schema#label
+CreditFacility,N2518458ad6eb4911bb91787ef3bdb2af,rdf-schema#subClassOf
+hasFinalInterestPaymentDate,hasEndDate,rdf-schema#subPropertyOf
+RetailCreditFacility,"Most consumer credit cards are retail credit facilities, for example.",core#example
+ExplicitContractEventSchedule,This is a schedule of actual dates and events that are terms of the contract.,explanatoryNote
+isOwed,links a creditor to a debt that is outstanding and payable to them,core#definition
+DayCountConvention-30E360ISDA,360 ISDA,rdf-schema#label
+CreditAgreementRepaidPeriodically,owl#Class,22-rdf-syntax-ns#type
+N49d1204707464c4bb46b4d7f3fea6ace,0,owl#minQualifiedCardinality
+N49d1204707464c4bb46b4d7f3fea6ace,owl#Restriction,22-rdf-syntax-ns#type
+N181b4a8407a34dbd9d569fb8e998aea8,hasInterestRate,owl#onProperty
+Borrower,,rdf-schema#isDefinedBy
+N9ceb48f35cd64f01aec304a5ac62e3af,isManagedBy,owl#onProperty
+hasMaturityDate,hasEndDate,rdf-schema#subPropertyOf
+Interest,interest,rdf-schema#label
+FloatingInterestRate,"Certain revolving credit, such as credit-card related debt, may adjust after a specified period of time to an absolute rate stated in the agreement (variable but not floating) rather than based on a benchmark rate (variable, floating).",core#example
+RetailCreditFacility,retail credit facility,rdf-schema#label
+DayCountConvention-Actual360,"This convention is used in money markets for short-term lending of currencies, including the US dollar and Euro, and is applied in ESCB monetary policy operations. It is the convention used with repurchase agreements.",explanatoryNote
+N4b4e4a93fd2942f0a285b1a2e5a0294c,hasInterestPaymentDay,owl#onProperty
+Ncd27483f1cbf4ed0a1a28c5eaefab902,owl#Restriction,22-rdf-syntax-ns#type
+PrincipalRepaymentTerms,Nb200bfae9c60472c898bf3d26fe8b4ef,rdf-schema#subClassOf
+Nc88fb14215bd438fa209e66c636430ef,owl#Restriction,22-rdf-syntax-ns#type
+Accrual,N8ddbbb8cd34d4382a1677c4c87cd2cc6,rdf-schema#subClassOf
+DebtTerms,contract terms that specify the formal rights and obligations of borrower and lender under a contract in which funds are lent from the one party to the other,core#definition
+N3daf2a5fac7846c5b47972193ac89da2,comprises,owl#onProperty
+Amortization,"the process of reduction of debt or other costs through periodic charges to assets or liabilities, such as through principal payments on mortgages",core#definition
+FloatingInterestRate,,rdf-schema#seeAlso
+hasInitialExchangeDate,IED,abbreviation
+Nedd5552b386347bbae239aded51e81e2,owl#Restriction,22-rdf-syntax-ns#type
+PartialAmortization,Amortization,rdf-schema#subClassOf
+Interest,Naa30e018601b4b93b627bbe59713a194,rdf-schema#subClassOf
+BorrowerIdentificationScheme,PartyRoleIdentificationScheme,rdf-schema#subClassOf
+Nf46f566cf72549b4aad4edf799d097c1,owl#Restriction,22-rdf-syntax-ns#type
+Borrower,ContractParty,rdf-schema#subClassOf
+N149c140981984de18126f4d274eac875,owl#Restriction,22-rdf-syntax-ns#type
+hasPrincipalRepaymentDate,PrincipalRepaymentTerms,rdf-schema#domain
+Na87024f5f4344410b414f47b1a64d2f9,isOwedBy,owl#onProperty
+hasAnticipatedNumberOfPayments,specifies the number payments promised per the terms of the contract over the lifetime of the contract assuming all payments are made,core#definition
+DayCountConvention-30E360ISDA,owl#NamedIndividual,22-rdf-syntax-ns#type
+Creditor,Obligee,rdf-schema#subClassOf
+AccruedInterest,owl#Class,22-rdf-syntax-ns#type
+hasOutstandingAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ndc7bc422bb3841a1a0ccf8000617387e,0,owl#minQualifiedCardinality
+DayCountConvention-30E360,day-count convention that uses 30 days in a month and 360 days in a year for calculating interest payments,core#definition
+AccruedInterest,"Accrued interest refers to the interest that has accumulated on a bond or other financial obligation since the last interest payment up to, but not including, the settlement date. This interest is earned over time but not yet paid out to the bondholder, for example. If this is a dirty price, this is the amount of accrued interest that is included in the price. This is therefore passed on to the purchaser of the bond or debt instrument.",explanatoryNote
+DayCountConvention-30360US,360 US,rdf-schema#label
+Collateral,Undergoer,rdf-schema#subClassOf
+governsPaymentOf,governs,rdf-schema#subPropertyOf
+hasLender,Lender,rdf-schema#range
+InterestRateResetSchedule,"regular, contract-specific schedule including the dates on which a rate reset, and corresponding actual rate, is recalculated",core#definition
+PrincipalPayment,owl#Class,22-rdf-syntax-ns#type
+NonPhysicalCollateral,non-physical collateral,rdf-schema#label
+hasInitialPrincipalPaymentDate,has initial principal payment date,rdf-schema#label
+DebtTerms,,rdf-schema#isDefinedBy
+RetailCreditFacility,credit facility that is a loan or line of credit used by retailers and real estate companies,core#definition
+N2fdb2a798246451d86f21beec08cde6a,InterestCalculation,owl#someValuesFrom
+ExplicitContractEventSchedule,explicit contract event schedule,rdf-schema#label
+N4d4d5c157ddb46469083674540ca5f05,N0a56e411f2464b62a612c36153e4fbd1,22-rdf-syntax-ns#rest
+hasOriginalTimeToMaturity,"indicates the lifespan of credit agreement or offering, from the date of issuance to the scheduled maturity date",core#definition
+SubFacility,N105fe90f52284ae9a4a5d85bbab46053,rdf-schema#subClassOf
+hasInterestRate,owl#ObjectProperty,22-rdf-syntax-ns#type
+CommittedCreditFacility,committed credit facility,rdf-schema#label
+DayCountConvention-Actual365Fixed,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasPrincipalPaymentDay,hasRecurrenceInterval,rdf-schema#subPropertyOf
+InterestPayment,event reflecting the actual payment of interest,core#definition
+N49d1204707464c4bb46b4d7f3fea6ace,Date,owl#onClass
+hasPrincipalPaymentFrequency,RecurrenceInterval,rdf-schema#range
+N2642019526d549b085e92ef47bc22854,owl#Restriction,22-rdf-syntax-ns#type
+InterestPaymentTerms,DebtTerms,rdf-schema#subClassOf
+N4ee005ba3588401e85f21cd88a1714be,owl#Restriction,22-rdf-syntax-ns#type
+hasInitialInterestPaymentDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+ExplicitContractEventSchedule,N05b7d6be65644993af2342e6b032927c,rdf-schema#subClassOf
+hasBorrower,Borrower,rdf-schema#range
+Nedd5552b386347bbae239aded51e81e2,hasExtensionProvision,owl#onProperty
+Ncd27483f1cbf4ed0a1a28c5eaefab902,Amortization,owl#someValuesFrom
+ManagedInterestRate,owl#Class,22-rdf-syntax-ns#type
+CapitalLease,financial lease,synonym
+Nf3cb60d3b0dc43779332faacf1357135,isPlayedBy,owl#onProperty
+BorrowerIdentifier,fil9786.pdf,rdf-schema#seeAlso
+hasInterestRate,hasQuantityValue,rdf-schema#subPropertyOf
+N702f696484a04998b61ba777622df9dd,0,owl#minQualifiedCardinality
+PhysicalCollateral,N0db93e4a569742a1a45eece7566b3c53,rdf-schema#subClassOf
+hasBorrower,hasContractParty,rdf-schema#subPropertyOf
+,"Debt.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+isInterestOn,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasInterestRate,"relates something, such as an agreement, or debt instrument, to the rate (typically annual) of interest that is to be paid by the debtor to the creditor on the debt",core#definition
+Interest,N4ee005ba3588401e85f21cd88a1714be,rdf-schema#subClassOf
+hasOutstandingAmount,has outstanding amount,rdf-schema#label
+Nfb78eb91c53d42aaa8203bd312938e9d,isOwed,owl#onProperty
+hasPrincipalPaymentFrequency,owl#ObjectProperty,22-rdf-syntax-ns#type
+isOwedTo,Debt,rdf-schema#domain
+RetailCreditFacility,CommittedCreditFacility,rdf-schema#subClassOf
+InterestCalculation,interest calculation,rdf-schema#label
+Creditor,"a party to whom an obligation, such as an amount of money, or good, or performance of some service exists",core#definition
+, version of this ontology was modified to address text formatting issues uncovered by hygiene testing.,core#changeNote
+isInterestOn,is interest on,rdf-schema#label
+DayCountConvention-Actual360,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasPrincipal,has principal,rdf-schema#label
+Ndc7bc422bb3841a1a0ccf8000617387e,owl#Restriction,22-rdf-syntax-ns#type
+CreditFacility,credit facility,rdf-schema#label
+Nb200bfae9c60472c898bf3d26fe8b4ef,Principal,owl#someValuesFrom
+DayCountConvention-ActualActualISDA,day-count convention that uses the actual number of days in each month and actual number of days in that year for calculating interest payments,core#definition
+NegativeAmortization,amortization in which the payments made do not cover the interest due,core#definition
+CreditFacility,N4c61bf80aeca4f08a5887f82cdd0ba2a,rdf-schema#subClassOf
+,MIT,license
+hasLender,"relates a contract, such as a debt instrument or credit agreement, to one or more parties that are financing the debt",core#definition
+N05b7d6be65644993af2342e6b032927c,appliesTo,owl#onProperty
+Nba4e55e3eecf4a6fb333fc4bd8fba106,isCollateralizedBy,owl#onProperty
+DayCountConvention-ActualActualICMA,act ICMA,synonym
+isInterestOn,links a monetary amount that is the cost of using credit to the debt that it applies to,core#definition
+hasOutstandingAmount,MonetaryAmount,rdf-schema#range
+CollateralValueAsOfDate,N76b72ed9ef7f4191b7a0e901042312b4,rdf-schema#subClassOf
+InterestPaymentTerms,"Note that in most cases, the dates and payment frequencies for interest will coincide with the dates and payment frequencies related to the principal.",explanatoryNote
+N2642019526d549b085e92ef47bc22854,1,owl#qualifiedCardinality
+N149c140981984de18126f4d274eac875,hasCompoundingFrequency,owl#onProperty
+Borrower,borrower,rdf-schema#label
+hasPrincipalPaymentDay,owl#ObjectProperty,22-rdf-syntax-ns#type
+CreditFacility,CreditAgreementRepaidPeriodically,rdf-schema#subClassOf
+Nfc380cb6ce5e477b90dd8f184f2a3ba6,owl#Restriction,22-rdf-syntax-ns#type
+FullAmortization,"amortization in which the very last payment (which, if the schedule was calculated correctly, should be equal to all others) pays off all remaining principal and interest on the loan",core#definition
+Nf0b4acfef6dd41689ac12596f80259ef,hasInitialInterestAccrualDate,owl#onProperty
+Nca29c3985d6a4ee88ecb9642a9d5d6c0,MonetaryAmount,owl#onClass
+hasAvailableAmount,MonetaryAmount,rdf-schema#range
+N2fe821ecdaaf4a47adfac7bdbe52cb75,0,owl#minQualifiedCardinality
+owes,links a party to a debt that they owe,core#definition
+hasInterestRate,,rdf-schema#isDefinedBy
+hasMaturityDate,has maturity date,rdf-schema#label
+hasOriginalTimeToMaturity,hasDuration,rdf-schema#subPropertyOf
+PhysicalCollateral,owl#Class,22-rdf-syntax-ns#type
+hasInterestPaymentDay,RecurrenceInterval,rdf-schema#range
+N4b4e4a93fd2942f0a285b1a2e5a0294c,DayOfMonth,owl#onClass
+PromissoryNote,owl#Class,22-rdf-syntax-ns#type
+N576d00c4289c415c86e62b8d310e3d23,owl#Restriction,22-rdf-syntax-ns#type
+N2642019526d549b085e92ef47bc22854,hasInterestRate,owl#onProperty
+Nba4e55e3eecf4a6fb333fc4bd8fba106,0,owl#minQualifiedCardinality
+DebtTerms,ContractualCommitment,rdf-schema#subClassOf
+Collateral,Ndc7bc422bb3841a1a0ccf8000617387e,rdf-schema#subClassOf
+PrincipalPaymentSchedule,Na6a18b549cf540dba4f2d9bc180902b0,rdf-schema#subClassOf
+N576d00c4289c415c86e62b8d310e3d23,hasEstimatedValue,owl#onProperty
+Nc88fb14215bd438fa209e66c636430ef,Collateral,owl#onClass
+Ncf856807f2964b42a292f3f02d722a2b,0,owl#minQualifiedCardinality
+isInterestOn,,rdf-schema#isDefinedBy
+Lender,N205119be107748f7ad798478cb8f5760,rdf-schema#subClassOf
+SecurityAgreement,owl#Class,22-rdf-syntax-ns#type
+,"Debt.rdf version of this ontology was modified to include a definition for accrued interest, needed for pricing, and correct certain process (methodology) issues in the class hierarchy (SEC-185).",core#changeNote
+N702f696484a04998b61ba777622df9dd,owl#Restriction,22-rdf-syntax-ns#type
+FixedInterestRate,interest rate that does not fluctuate over the lifetime of a loan or other debt instrument,core#definition
+isOwedTo,,rdf-schema#isDefinedBy
+BorrowerIdentifier,owl#Class,22-rdf-syntax-ns#type
+Creditor,Nf3cb60d3b0dc43779332faacf1357135,rdf-schema#subClassOf
+N8ddbbb8cd34d4382a1677c4c87cd2cc6,0,owl#minQualifiedCardinality
+N8ddbbb8cd34d4382a1677c4c87cd2cc6,owl#Restriction,22-rdf-syntax-ns#type
+governsPaymentOf,DebtTerms,rdf-schema#domain
+PrincipalPaymentSchedule,ProjectedContractEventSchedule,rdf-schema#subClassOf
+hasInterestPaymentDay,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nca29c3985d6a4ee88ecb9642a9d5d6c0,owl#Restriction,22-rdf-syntax-ns#type
+DayCountConvention-30365,365,rdf-schema#label
+UncommittedSubFacility,owl#Class,22-rdf-syntax-ns#type
+InterestPaymentTerms,N0fac8b91c74a4f9fae26ab336c0de67f,rdf-schema#subClassOf
+CreditFacility,Nb6b17c4902f94b519df43367e8e1e859,rdf-schema#subClassOf
+DayCountConvention-30365,owl#NamedIndividual,22-rdf-syntax-ns#type
+NegativeAmortization,,rdf-schema#isDefinedBy
+N06e54131a25c4186af710b63597cdf97,InterestPayment,owl#someValuesFrom
+VariableInterestRate,InterestRate,rdf-schema#subClassOf
+PrincipalRepaymentTerms,DebtTerms,rdf-schema#subClassOf
+Amortization,Role,rdf-schema#subClassOf
+Na1d8b33a0b3142ce8225282d0c2ef644,owl#Restriction,22-rdf-syntax-ns#type
+N29f359e925da4979827b6e6cd6ac03d7,CreditAgreement,owl#onClass
+InterestPayment,Payment,rdf-schema#subClassOf
+Nf443ec15ba074056a7d5a359528933f6,UseOfProceedsProvision,owl#onClass
+Debt,,rdf-schema#isDefinedBy
+isAmortizationOf,is amortization of,rdf-schema#label
+N181b4a8407a34dbd9d569fb8e998aea8,owl#Restriction,22-rdf-syntax-ns#type
+CreditAgreementRepaidPeriodically,credit agreement repaid periodically,rdf-schema#label
+RateResetTimeOfDay,,rdf-schema#isDefinedBy
+InterestPaymentTerms,,rdf-schema#isDefinedBy
+N06e54131a25c4186af710b63597cdf97,owl#Restriction,22-rdf-syntax-ns#type
+Borrower,party to a credit agreement that is obligated to repay the amount borrowed (principal) with interest and other fees according to the terms of the instrument,core#definition
+MotorVehicleLease,lease of a motor vehicle for a fixed period of time at an agreed amount of money,core#definition
+SubFacility,sub-facility,rdf-schema#label
+N717e2279ef1340fb95a889543031c96a,N4d4d5c157ddb46469083674540ca5f05,owl#unionOf
+DayCountConvention-30360BondBasis,DayCountConvention,22-rdf-syntax-ns#type
+N2fdb2a798246451d86f21beec08cde6a,owl#Restriction,22-rdf-syntax-ns#type
+Principal,N46d2f82630d04627856866bc3f649ec8,rdf-schema#subClassOf
+Lease,lease contract,synonym
+CollateralValueAsOfDate,AppraisedValue,rdf-schema#subClassOf
+hasCompoundingFrequency,RecurrenceInterval,rdf-schema#range
+hasInitialInterestAccrualDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+InterestPaymentSchedule,N06e54131a25c4186af710b63597cdf97,rdf-schema#subClassOf
+Debt,Na1d8b33a0b3142ce8225282d0c2ef644,rdf-schema#subClassOf
+hasAnticipatedNumberOfPayments,hasCount,rdf-schema#subPropertyOf
+Nfb78eb91c53d42aaa8203bd312938e9d,owl#Restriction,22-rdf-syntax-ns#type
+CreditAgreementRepaidAtMaturity,owl#Class,22-rdf-syntax-ns#type
+N72b177ddfda14c31a797c9fea6fdf8e5,hasContractualElement,owl#onProperty
+N4c61bf80aeca4f08a5887f82cdd0ba2a,owl#Restriction,22-rdf-syntax-ns#type
+Nfcf95e04f2e24e4d9cb55b87c124dc80,owes,owl#onProperty
+NonPhysicalCollateral,PhysicalCollateral,owl#disjointWith
+NegativeAmortization,Amortization,rdf-schema#subClassOf
+hasAnticipatedNumberOfPayments,has anticipated number of payments,rdf-schema#label
+DayCountConvention-ActualActualISDA,DayCountConvention,22-rdf-syntax-ns#type
+PrincipalPayment,event reflecting the actual payment of some amount of the principal of a debt,core#definition
+AmortizationSchedule,N3daf2a5fac7846c5b47972193ac89da2,rdf-schema#subClassOf
+N9ceb48f35cd64f01aec304a5ac62e3af,owl#Restriction,22-rdf-syntax-ns#type
+N2fe821ecdaaf4a47adfac7bdbe52cb75,owl#Restriction,22-rdf-syntax-ns#type
+,Debt.rdf version of this ontology was modified to add initial exchange date to any credit agreement.,core#changeNote
+Na87024f5f4344410b414f47b1a64d2f9,owl#Restriction,22-rdf-syntax-ns#type
+hasFinalInterestPaymentDate,Date,rdf-schema#range
+BorrowerIdentifier,borrower identifier,rdf-schema#label
+hasCompoundingFrequency,owl#ObjectProperty,22-rdf-syntax-ns#type
+ExplicitContractEventSchedule,"schedule of events, including but not limited to payment events, rate reset events and others that will occur over the lifetime of the credit agreement",core#definition
+PrincipalRepaymentTerms,N6f191a749fb64f5c98c89b523dbb1c24,rdf-schema#subClassOf
+VariableInterestRate,adjustable rate,synonym
+Nfcf95e04f2e24e4d9cb55b87c124dc80,0,owl#minQualifiedCardinality
+Nfcf95e04f2e24e4d9cb55b87c124dc80,owl#Restriction,22-rdf-syntax-ns#type
+FullAmortization,,rdf-schema#isDefinedBy
+isOwedBy,is owed by,rdf-schema#label
+PrincipalRepaymentTerms,N8b0c32b4d88e422d9d22c0f974f416fa,rdf-schema#subClassOf
+DayCountConvention-ActualActualISDA,This convention accounts for days in the period based on the portion in a leap year and the portion in a non-leap year.,explanatoryNote
+hasInterestPaymentDay,has interest payment day,rdf-schema#label
+Nf3cb60d3b0dc43779332faacf1357135,LegalPerson,owl#allValuesFrom
+SecurityAgreement,Nba4e55e3eecf4a6fb333fc4bd8fba106,rdf-schema#subClassOf
+hasDenomination,hasMonetaryAmount,rdf-schema#subPropertyOf
+Interest,N181b4a8407a34dbd9d569fb8e998aea8,rdf-schema#subClassOf
+DayCountConvention-30365,day-count convention that uses 30 days in a month and 365 days in a year for calculating interest payments,core#definition
+Naa30e018601b4b93b627bbe59713a194,Debt,owl#someValuesFrom
+hasOriginalTimeToMaturity,has term to maturity,synonym
+isOwedTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+CreditAgreement,N9de8c0a5d7e74ba495a112fcdc43b166,rdf-schema#subClassOf
+BorrowingCapacity,N77007f7643ad4a58876a2859246e2419,rdf-schema#subClassOf
+Borrower,N5543b844e0ca43c8a94bd206a0e42990,rdf-schema#subClassOf
+hasPrincipal,Principal,rdf-schema#range
+DayCountConvention-30360BondBasis,360,synonym
+Collateral,"something pledged as security to ensure fulfillment of an obligation to another party, to lend money, extend credit, or provision securities",core#definition
+DayCountConvention-30365,DayCountConvention,22-rdf-syntax-ns#type
+isOwed,Creditor,rdf-schema#domain
+Nb6b17c4902f94b519df43367e8e1e859,SubFacility,owl#onClass
+DayCountConvention-Actual360,2006-isda-definitions.pdf for more details on the calculation.,explanatoryNote
+,,owl#imports
+MotorVehicleLease,motor vehicle lease,rdf-schema#label
+N46d2f82630d04627856866bc3f649ec8,owl#Restriction,22-rdf-syntax-ns#type
+Na1d8b33a0b3142ce8225282d0c2ef644,Creditor,owl#someValuesFrom
+FixedInterestRate,fixed interest rate,rdf-schema#label
+DayCountConvention-30360BondBasis,2006-isda-definitions.pdf for more details on the calculation.,explanatoryNote
+DayCountConvention-ActualActualICMA,owl#NamedIndividual,22-rdf-syntax-ns#type
+hasDebtAmount,indicates the monetary amount of the debt,core#definition
+isOwedTo,is owed to,rdf-schema#label
+Lease,"credit agreement permitting the use of real estate, equipment or another asset, such as a vehicle, by the owner of that asset (the lessor) to a user (the lessee) for a specific period of time in return for payment as specified in the agreement",core#definition
+DayCountConvention-30360US,2006-isda-definitions.pdf for more details on the calculation.,explanatoryNote
+DayCountConvention-30E360,Eurobond basis (ISDA 2006),synonym
+Naa30e018601b4b93b627bbe59713a194,owl#Restriction,22-rdf-syntax-ns#type
+DayCountConvention-ActualActualISDA,actual,synonym
+ManagedInterestRate,N9ceb48f35cd64f01aec304a5ac62e3af,rdf-schema#subClassOf
+InterestRateReset,owl#Class,22-rdf-syntax-ns#type
+DayCountConvention-ActualActualISDA,2006-isda-definitions.pdf for more details on the calculation.,explanatoryNote
+hasPrincipalRepaymentDate,,rdf-schema#isDefinedBy
+DayCountConvention-30360US,DayCountConvention,22-rdf-syntax-ns#type
+hasInitialInterestAccrualDate,hasStartDate,rdf-schema#subPropertyOf
+Nb38488f7495f468bafcc8e712b87b3cd,owl#Restriction,22-rdf-syntax-ns#type
+DayCountConvention,"a business recurrence interval convention that is used to calculate the number of days in an interest payment, which applies to the amount of accrued interest or the present value for debt instruments",core#definition
+InterestPaymentSchedule,ProjectedContractEventSchedule,rdf-schema#subClassOf
+Debtor,debtor,rdf-schema#label
+N4ee005ba3588401e85f21cd88a1714be,hasDatePeriod,owl#onProperty
+hasInitialExchangeDate,has initial exchange date,rdf-schema#label
+N02272d6c56c64661a0848e2588ee2a16,CreditAgreement,owl#someValuesFrom
+DayCountConvention-Actual365Fixed,365f,synonym
+InterestPaymentTerms,owl#Class,22-rdf-syntax-ns#type
+RateResetTimeOfDay,owl#Class,22-rdf-syntax-ns#type
+InterestRateSettingEvent,InterestCalculation,rdf-schema#subClassOf
+isPrincipalOf,"links the value of a debt, excluding any interest or other costs of using credit, to the debt that it applies to",core#definition
+Nc67f84e1da9a460e8e81bfb9e31c73f0,owl#Restriction,22-rdf-syntax-ns#type
+N29f359e925da4979827b6e6cd6ac03d7,0,owl#minQualifiedCardinality
+DebtTerms,debt terms,rdf-schema#label
+CreditFacility,master commitment,synonym
+isBasedOn,"relates something to something else on which it rests, or that supports it in some way",core#definition
+CreditAgreementRepaidPeriodically,CreditAgreement,rdf-schema#subClassOf
+PartialAmortization,partial amortization,rdf-schema#label
+N9de8c0a5d7e74ba495a112fcdc43b166,owl#Restriction,22-rdf-syntax-ns#type
+hasInterestRateCap,has interest rate cap,rdf-schema#label
+hasAnticipatedNumberOfPayments,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Nb6b17c4902f94b519df43367e8e1e859,hasConstituent,owl#onProperty
+hasPrincipalPaymentFrequency,hasRecurrenceInterval,rdf-schema#subPropertyOf
+hasInitialInterestPaymentDate,hasStartDate,rdf-schema#subPropertyOf
+hasFinalInterestPaymentDate,the date on which the last interest payment is due,core#definition
+hasMaturityDate,hasExplicitDate,rdf-schema#subPropertyOf
+N21983ae4de9145a6ab9ad497e9aa399c,owl#Restriction,22-rdf-syntax-ns#type
+isCollateralizationOf,is collateralization of,rdf-schema#label
+hasAccrualBasis,has accrual basis,rdf-schema#label
+CommittedSubFacility,owl#Class,22-rdf-syntax-ns#type
+Borrower,owl#Class,22-rdf-syntax-ns#type
+N4ee005ba3588401e85f21cd88a1714be,DatePeriod,owl#allValuesFrom
+Accrual,"There are legal contractual terms for the accrual of interest, as distinct from the payment of interest.",explanatoryNote
+BorrowerIdentificationScheme,"Many banks and other financial institutions have internal systems for assigning identifiers to borrowers. In the United States, larger banks may use a Customer Information File (CIF) number, assigned as a part of their federally mandated Customer Information Program (CIP).",explanatoryNote
+FloatingInterestRate,VariableInterestRate,rdf-schema#subClassOf
+DayCountConvention-30E360,owl#NamedIndividual,22-rdf-syntax-ns#type
+N05b7d6be65644993af2342e6b032927c,CreditAgreement,owl#someValuesFrom
+N4c61bf80aeca4f08a5887f82cdd0ba2a,ConditionPrecedent,owl#onClass
+hasInterestRate,InterestRate,rdf-schema#range
+Principal,N717e2279ef1340fb95a889543031c96a,rdf-schema#subClassOf
+VariableInterestRate,an interest rate that is allowed to vary over the maturity of a loan or other debt instrument,core#definition
+Debt,Commitment,rdf-schema#subClassOf
+governsPaymentOf,,rdf-schema#isDefinedBy
+N02272d6c56c64661a0848e2588ee2a16,isAPartyTo,owl#onProperty
+,Debt.rdf version of this ontology was modified to incorporate certain general debt schedule terms that were previously in more specific ontologies (FBC-317).,core#changeNote
+DayCountConvention-30360US,360,synonym
+N76b72ed9ef7f4191b7a0e901042312b4,isEstimatedValueOf,owl#onProperty
+hasInitialExchangeDate,"For a credit agreement, this is the initial funding date, such as the funding of the principal amount, or a portion thereof, but for other kinds of instruments, it may be something else. In the context of contracts related to swaps, options, or other derivative instruments, the initial exchange date marks the point where the parties legally commit to the terms of the agreement and exchange the initial required amounts.",explanatoryNote
+,Debt Ontology,rdf-schema#label
+DayCountConvention-30E360,Special German,synonym
+FullAmortization,owl#Class,22-rdf-syntax-ns#type
+InterestCalculation,ContractLifecycleEventOccurrence,rdf-schema#subClassOf
+hasPrincipalRepaymentDate,Date,rdf-schema#range
+PrincipalPaymentSchedule,principal payment schedule,rdf-schema#label
+SubFacility,"Each sub-facility may have separate terms, and may be or include individual promissory notes, depending on the facility. The amount of associated with the individual sub-facilities sums to the total credit facility amount. Sub-facilities may, individually, have a stated purpose, such as to cover inventory, equipment, accounts receivable, working capital, letters of credit, and so forth.",explanatoryNote
+N0db93e4a569742a1a45eece7566b3c53,PhysicalAsset,owl#onClass
+,"Debt.rdf version of this ontology was modified to include a synonym of 'has dated date' for 'has initial interest accrual date' (FBC-322), to move the definition of promissory note to financial instruments and clarify the definitions of collateral and collateral agreement(LOAN-168), and to add a use of proceeds provision, optionally, to any credit agreement (LOAN-169).",core#changeNote
+N4b4e4a93fd2942f0a285b1a2e5a0294c,0,owl#minQualifiedCardinality
+hasPrincipalRepaymentDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+isCollateralizedBy,is collateralized by,rdf-schema#label
+owes,Debt,rdf-schema#range
+DayCountConvention-30E360,360 ICMA,synonym
+N70a38858b3324b149a70f95709697598,hasMaturityDate,owl#onProperty
+Creditor,owl#Class,22-rdf-syntax-ns#type
+DayCountConvention-ActualActualICMA,act ISMA,synonym
+PartialAmortization,amortization in which the very last payment the last payment due may be a large balloon payment of all remaining principal and interest,core#definition
+DebtTerms,These may be terms in a loan contract (including for example a mortgage contract) or they may be the contractual terms of a debt security.,explanatoryNote
+Nc67f84e1da9a460e8e81bfb9e31c73f0,hasDateOfAssessment,owl#onProperty
+,Debt.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+hasLender,has lender,rdf-schema#label
+MotorVehicleLease,"Motor vehicle leasing is commonly offered by dealers as an alternative to a vehicle purchase but is widely used by businesses as a method of acquiring (or having the use of) vehicles for business use, without the usually needed cash outlay. The key difference in a lease is that after the primary term (usually 2, 3 or 4 years) the vehicle has to either be returned to the leasing company or purchased for the residual value.",explanatoryNote
+N70a38858b3324b149a70f95709697598,ExplicitDate,owl#someValuesFrom
+CreditAgreement,MutualContractualAgreement,rdf-schema#subClassOf
+SubFacility,Na194afa614594b7781aa83cd6bf4db6b,rdf-schema#subClassOf
+CreditAgreementRepaidAtMaturity,N70a38858b3324b149a70f95709697598,rdf-schema#subClassOf
+N0e5cbf3e86104711a95d6c26209384ac,0,owl#minQualifiedCardinality
+ProjectedContractEventSchedule,RegularSchedule,rdf-schema#subClassOf
+Collateral,collateral,rdf-schema#label
+N761148871068497397fb925ac6625109,owl#Restriction,22-rdf-syntax-ns#type
+CreditAgreementRepaidAtMaturity,"credit agreement in which accrued interest may be periodically repaid or paid at maturity, but principal is paid at maturity",core#definition
+Nc7b6f752c9c24e42ac87238fe7cf23ba,owl#Restriction,22-rdf-syntax-ns#type
+Accrual,the process of accumulating interest or other income that has been earned but not paid,core#definition
+SubFacility,"portion of a credit facility extended to the borrower for some purpose, possibly per some schedule specified in the facility",core#definition
+hasDebtAmount,MonetaryAmount,rdf-schema#range
+N06e54131a25c4186af710b63597cdf97,hasOccurrence,owl#onProperty
+BorrowerIdentificationScheme,system for allocating identifiers to borrowers,core#definition
+Nb954963758204782896fa170afc23ee7,hasInterestPaymentFrequency,owl#onProperty
+AmortizationSchedule,ProjectedContractEventSchedule,rdf-schema#subClassOf
+InterestCalculationSchedule,N2fdb2a798246451d86f21beec08cde6a,rdf-schema#subClassOf
+hasInterestPaymentDay,hasRecurrenceInterval,rdf-schema#subPropertyOf
+N29f359e925da4979827b6e6cd6ac03d7,owl#Restriction,22-rdf-syntax-ns#type
+N717e2279ef1340fb95a889543031c96a,owl#Class,22-rdf-syntax-ns#type
+RateResetTimeOfDay,N761148871068497397fb925ac6625109,rdf-schema#subClassOf
+InterestPayment,interest payment,rdf-schema#label
+InterestRateSettingEvent,interest rate setting event,rdf-schema#label
+N76b72ed9ef7f4191b7a0e901042312b4,Collateral,owl#someValuesFrom
+hasPrincipal,"indicates the face value of an obligation, such as a bond or loan, that must be repaid at maturity, i.e., the base amount raised by a mortgage or other debt instrument",core#definition
+N2fe821ecdaaf4a47adfac7bdbe52cb75,comprises,owl#onProperty
+hasAvailableAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nf0b4acfef6dd41689ac12596f80259ef,0,owl#minQualifiedCardinality
+Nf0b4acfef6dd41689ac12596f80259ef,owl#Restriction,22-rdf-syntax-ns#type
+Lender,Creditor,rdf-schema#subClassOf
+hasOutstandingAmount,,rdf-schema#isDefinedBy
+N8b0c32b4d88e422d9d22c0f974f416fa,hasInitialPrincipalPaymentDate,owl#onProperty
+RateResetTimeOfDay,rate reset time of day,rdf-schema#label
+DayCountConvention-ActualActualICMA,actual,synonym
+PartialAmortization,,rdf-schema#isDefinedBy
+hasDenomination,"the face value of currency units, coins, or securities",core#definition
+CommittedCreditFacility,owl#Class,22-rdf-syntax-ns#type
+UncommittedCreditFacility,credit facility that has yet to be confirmed as a source of financing for the borrower,core#definition
+Interest,,rdf-schema#isDefinedBy
+isBasedOn,owl#ObjectProperty,22-rdf-syntax-ns#type
+isPrincipalOf,Principal,rdf-schema#domain
+Na194afa614594b7781aa83cd6bf4db6b,MonetaryAmount,owl#someValuesFrom
+N49d1204707464c4bb46b4d7f3fea6ace,hasInitialInterestPaymentDate,owl#onProperty
+RateResetTimeOfDay,TimeOfDay,rdf-schema#subClassOf
+N761148871068497397fb925ac6625109,BusinessCenter,owl#onClass
+N72b177ddfda14c31a797c9fea6fdf8e5,owl#Restriction,22-rdf-syntax-ns#type
+Interest,"the cost of using credit, or another's money, expressed as a rate per period of time, payable by a debtor to a creditor in consideration of the credit extended to the debtor",core#definition
+N24d98e655db94a4ea43ed8e10b7649a8,InterestRate,owl#onClass
+Nc7b6f752c9c24e42ac87238fe7cf23ba,Interest,owl#someValuesFrom
+N4b4e4a93fd2942f0a285b1a2e5a0294c,owl#Restriction,22-rdf-syntax-ns#type
+N761148871068497397fb925ac6625109,0,owl#minQualifiedCardinality
+isBasedOn,,rdf-schema#isDefinedBy
+hasInterestRateCap,owl#ObjectProperty,22-rdf-syntax-ns#type
+N57992ea139004417b6c2f0f197e6bbc3,hasDateOfAssessment,owl#onProperty
+NonPhysicalCollateral,"Examples of non-physical collateral include, but are not limited to, bank deposits, accounts receivable, stocks, bonds, other securities, and the like.",core#example
+Nd657c2111ba7455a97d6d07031723068,CreditAgreement,owl#someValuesFrom
+PhysicalCollateral,Collateral,rdf-schema#subClassOf
+InterestCalculationSchedule,owl#Class,22-rdf-syntax-ns#type
+VariableInterestRate,FixedInterestRate,owl#disjointWith
+DayCountConvention-Actual365Fixed,day-count convention that uses the actual number of days in each month and 365 days in a year for calculating interest payments,core#definition
+InterestRateReset,interest rate reset,rdf-schema#label
+CommittedCreditFacility,"credit facility that is a confirmed source of financing for the borrower, as long as the borrower meets the conditions of the agreement",core#definition
+Borrower,Debtor,rdf-schema#subClassOf
+N5543b844e0ca43c8a94bd206a0e42990,owl#Restriction,22-rdf-syntax-ns#type
+hasPrincipalRepaymentDate,relates an instrument to the date by which the principal must be repaid in full,core#definition
+DayCountConvention-30E360ISDA,DayCountConvention,22-rdf-syntax-ns#type
+InterestPaymentTerms,Na71aaf8cc4e042c79e43444ae2da5afc,rdf-schema#subClassOf
+InterestCalculationSchedule,interest calculation schedule,rdf-schema#label
+Debtor,a party that owes a debt or other obligation to another party,core#definition
+N291bdf1610424401a89b2be92e56d167,isDefinedIn,owl#onProperty

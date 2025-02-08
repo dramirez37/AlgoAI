@@ -1,0 +1,121 @@
+source_id,target_id,relationship
+isObligationOf,identifies a party that has a given obligation,core#definition
+CommitmentAtLarge,commitment at large,rdf-schema#label
+Nb558c7faec2a468c89dc782f6ff6f3ea,isPlayedBy,owl#onProperty
+Beneficiary,owl#Class,22-rdf-syntax-ns#type
+N58eb3f870d27470d920fbbedcaf1c9ef,0,owl#minQualifiedCardinality
+Obligor,owl#Class,22-rdf-syntax-ns#type
+N58eb3f870d27470d920fbbedcaf1c9ef,owl#Restriction,22-rdf-syntax-ns#type
+Obligee,PartyRole,rdf-schema#subClassOf
+Agreement,owl#Class,22-rdf-syntax-ns#type
+N72d2de91a0a14ef9ba9758a69c88659d,2,owl#minQualifiedCardinality
+Obligee,"party to whom some commitment or obligation is owed, either legally or per the terms of an agreement",core#definition
+N5ea5e8480ba94de390472e7471da3285,owl#Restriction,22-rdf-syntax-ns#type
+IndividualUnilateralCommitment,owl#Class,22-rdf-syntax-ns#type
+MutualCommitment,mutual commitment,rdf-schema#label
+Nec1ae7d36c57420698f0a3cefd90e3ce,MutualCommitment,owl#someValuesFrom
+Commitment,owl#Class,22-rdf-syntax-ns#type
+N0d1768e4de374aba87360ac53d2f78f4,Agreement,owl#onClass
+Nb14a94e1d4984702841d9ba57b7cf522,isPlayedBy,owl#onProperty
+Nec1ae7d36c57420698f0a3cefd90e3ce,confers,owl#onProperty
+Agreement,Naf648e169098430785a007d48944b387,rdf-schema#subClassOf
+Nb14a94e1d4984702841d9ba57b7cf522,N900d286c522c44c993ab6d9f9b85be70,owl#someValuesFrom
+Naf648e169098430785a007d48944b387,PartyRole,owl#onClass
+MutualCommitment,owl#Class,22-rdf-syntax-ns#type
+MutualAgreement,Nec1ae7d36c57420698f0a3cefd90e3ce,rdf-schema#subClassOf
+isObligationOf,hasPartyRole,rdf-schema#subPropertyOf
+Nb558c7faec2a468c89dc782f6ff6f3ea,Nf3481731adc64dc788d88de619f4bb83,owl#someValuesFrom
+N72d2de91a0a14ef9ba9758a69c88659d,owl#Restriction,22-rdf-syntax-ns#type
+Nf3481731adc64dc788d88de619f4bb83,owl#Restriction,22-rdf-syntax-ns#type
+Obligee,owl#Class,22-rdf-syntax-ns#type
+,Agreements Ontology,rdf-schema#label
+,.,core#changeNote
+N72d2de91a0a14ef9ba9758a69c88659d,PartyRole,owl#onClass
+,"Agreement.rdf version of the ontology was modified per FIBO 2.0 RFC to add general concepts including obligor, obligee, and beneficiary in support of other FIBO domain areas.",core#changeNote
+,,owl#imports
+Beneficiary,N5ea5e8480ba94de390472e7471da3285,rdf-schema#subClassOf
+Beneficiary,PartyRole,rdf-schema#subClassOf
+Nf3481731adc64dc788d88de619f4bb83,Agreement,owl#onClass
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,,owl#versionIRI
+isObligationOf,Obligor,rdf-schema#range
+,owl#Ontology,22-rdf-syntax-ns#type
+Agreement,N58eb3f870d27470d920fbbedcaf1c9ef,rdf-schema#subClassOf
+CommitmentAtLarge,commitment made by some party without direct involvement from the potential beneficiaries of that commitment,core#definition
+Agreement,agreement,rdf-schema#label
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+Commitment,"Such a promise often results a corresponding right or obligation with respect to another party to the commitment. Thus, obligations and rights are considered as reciprocal aspects of a commitment.",explanatoryNote
+N58eb3f870d27470d920fbbedcaf1c9ef,confers,owl#onProperty
+MutualAgreement,agreement between two or more specific named parties whereby the rights and obligations embodied in the agreement cannot be transferred to another party without prior agreement,core#definition
+Obligor,obligated party,synonym
+MutualAgreement,Agreement,rdf-schema#subClassOf
+Obligor,obligator,synonym
+,"Agreement.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, clean up definitions to conform with ISO 704, add a missing restriction to mutual commitment, and eliminate an unnecessary reference to LCC.",core#changeNote
+N900d286c522c44c993ab6d9f9b85be70,owl#Restriction,22-rdf-syntax-ns#type
+Commitment,Situation,rdf-schema#subClassOf
+UnilateralCommitment,owl#Class,22-rdf-syntax-ns#type
+N0d1768e4de374aba87360ac53d2f78f4,owl#Restriction,22-rdf-syntax-ns#type
+N5ea5e8480ba94de390472e7471da3285,isPlayedBy,owl#onProperty
+hasObligation,isObligationOf,owl#inverseOf
+Naf648e169098430785a007d48944b387,hasPartyRole,owl#onProperty
+CommitmentAtLarge,UnilateralCommitment,rdf-schema#subClassOf
+Nf3481731adc64dc788d88de619f4bb83,isAPartyTo,owl#onProperty
+Nec1ae7d36c57420698f0a3cefd90e3ce,owl#Restriction,22-rdf-syntax-ns#type
+CommitmentAtLarge,A commitment at large forms the basis for negotiable securities including transferable contracts and potentially other kinds of agreements such as software licenses.,core#scopeNote
+UnilateralCommitment,Commitment,rdf-schema#subClassOf
+isObligationOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nb558c7faec2a468c89dc782f6ff6f3ea,owl#Restriction,22-rdf-syntax-ns#type
+,Agreement.rdf version of the ontology was modified to eliminate duplication of concepts in LCC.,core#changeNote
+Commitment,commitment,rdf-schema#label
+Obligor,Nb558c7faec2a468c89dc782f6ff6f3ea,rdf-schema#subClassOf
+,"ontology structure
+   (5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.
+   (6) to revise a few of the definitions based on more formal sources.",core#changeNote
+N900d286c522c44c993ab6d9f9b85be70,0,owl#minQualifiedCardinality
+MutualCommitment,N72d2de91a0a14ef9ba9758a69c88659d,rdf-schema#subClassOf
+N63978170473a4a07929f4d9a427f0d22,Commitment,owl#someValuesFrom
+Agreement,Situation,rdf-schema#subClassOf
+N0d1768e4de374aba87360ac53d2f78f4,0,owl#minQualifiedCardinality
+Nb14a94e1d4984702841d9ba57b7cf522,owl#Restriction,22-rdf-syntax-ns#type
+N900d286c522c44c993ab6d9f9b85be70,isAPartyTo,owl#onProperty
+CommitmentAtLarge,owl#Class,22-rdf-syntax-ns#type
+Obligee,obligee,rdf-schema#label
+Obligor,obligor,rdf-schema#label
+IndividualUnilateralCommitment,individual unilateral commitment,rdf-schema#label
+isObligationOf,is obligation of,rdf-schema#label
+N63978170473a4a07929f4d9a427f0d22,owl#Restriction,22-rdf-syntax-ns#type
+Naf648e169098430785a007d48944b387,2,owl#minQualifiedCardinality
+,Agreement.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+Beneficiary,party that receives some benefit or advantage or profits from something,core#definition
+IndividualUnilateralCommitment,commitment made by some party unilaterally to another specific party,core#definition
+,Release,hasMaturityLevel
+Obligor,PartyRole,rdf-schema#subClassOf
+MutualCommitment,Commitment,rdf-schema#subClassOf
+,MIT,license
+MutualAgreement,"This may or may not be a contractual agreement - it also forms the basis of REA transaction models which may or may not refer to contractual agreements, since REA is also used to frame transactions internal to an individual organization.",core#scopeNote
+N72d2de91a0a14ef9ba9758a69c88659d,hasPartyRole,owl#onProperty
+N900d286c522c44c993ab6d9f9b85be70,Agreement,owl#onClass
+MutualAgreement,owl#Class,22-rdf-syntax-ns#type
+UnilateralCommitment,commitment made by one party without reference any other the party to which the commitment is made,core#definition
+Obligor,N63978170473a4a07929f4d9a427f0d22,rdf-schema#subClassOf
+hasObligation,owl#ObjectProperty,22-rdf-syntax-ns#type
+IndividualUnilateralCommitment,UnilateralCommitment,rdf-schema#subClassOf
+MutualCommitment,commitment between two or more parties,core#definition
+hasObligation,identifies a duty or obligation that a given party has taken on,core#definition
+,"This ontology defines the concept of an agreement and roles that parties to an agreement play in the context of financial agreements. Agreements represent an understanding between parties, whereas contracts typically formalize such agreements.",abstract
+N63978170473a4a07929f4d9a427f0d22,hasObligation,owl#onProperty
+UnilateralCommitment,unilateral commitment,rdf-schema#label
+Obligor,"party that is bound legally or by agreement to repay a debt, make a payment, do something, or refrain from doing something",core#definition
+hasObligation,Obligor,rdf-schema#domain
+Obligee,Nb14a94e1d4984702841d9ba57b7cf522,rdf-schema#subClassOf
+Agreement,"negotiated understanding between two or more parties, reflecting the offer and acceptance of commitments on the part of either party",core#definition
+Commitment,promise made by some party to act or refrain from acting in some manner,core#definition
+Naf648e169098430785a007d48944b387,owl#Restriction,22-rdf-syntax-ns#type
+Agreement,"All agreements are time bound, whether implicit or explicitly stated, and thus an agreement reflects a state of affairs that holds for some period of time.",explanatoryNote
+Nf3481731adc64dc788d88de619f4bb83,0,owl#minQualifiedCardinality
+MutualAgreement,mutual agreement,rdf-schema#label
+N58eb3f870d27470d920fbbedcaf1c9ef,Commitment,owl#onClass
+N5ea5e8480ba94de390472e7471da3285,N0d1768e4de374aba87360ac53d2f78f4,owl#someValuesFrom
+Beneficiary,beneficiary,rdf-schema#label
+hasObligation,has obligation,rdf-schema#label
+N0d1768e4de374aba87360ac53d2f78f4,isAPartyTo,owl#onProperty

@@ -1,0 +1,120 @@
+source_id,target_id,relationship
+RegulationS,QualifiedInvestorRestriction,22-rdf-syntax-ns#type
+Nc36628f69dbc44b8b8b817390336b49d,N1679e152305e42aabfee0efae4082819,22-rdf-syntax-ns#rest
+N1679e152305e42aabfee0efae4082819,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+TEFRACRule,UnitedStatesJurisdiction,isApplicableIn
+SECRule201,"On February 26, 2010, the Commission adopted Rule 201 of Regulation SHO. Rule 201 restricts the price at which short sales may be effected when a stock has experienced significant downward price pressure. Rule 201 became effective on May 10, 2010. (Securities Exchange Act Release No. 61595 (Feb. 26, 2010), 75 FR 11232 (Mar. 10, 2010) ('Rule 201 Adopting Release')). Compliance with the new rule is required as of February 28, 2011. (Securities Exchange Act Release No. 63247 (Nov. 4, 2010), 75 FR 68702 (Nov. 9, 2010)).",explanatoryNote
+TEFRADRule,SecuritiesRegulation,22-rdf-syntax-ns#type
+TEFRADRule,TEFRA D provides for a restricted period of 40 days from the closing date of the issue and requires that certification of non-U.S. beneficial ownership be obtained before definitive securities can be issued or interest paid to security holders.,explanatoryNote
+SECRule201,SEC Rule 201,rdf-schema#label
+TEFRADRule,TEFRA D rule,rdf-schema#label
+RegulationD,securities regulation defining an exemption through which corporations do not have to register their securities and usually do not have to file reports with the SEC,core#definition
+SECRule201,owl#NamedIndividual,22-rdf-syntax-ns#type
+isEmployeeRetirementIncomeSecurityActConformant,N1b7afef69ac94dab8400c5fea731e525,rdf-schema#domain
+N1b7afef69ac94dab8400c5fea731e525,Nc36628f69dbc44b8b8b817390336b49d,owl#unionOf
+Nc946688671dc495b95e04f211dc55598,owl#Restriction,22-rdf-syntax-ns#type
+SECExemption3c7,private-fund-adviser-resources,adaptedFrom
+TEFRADRule,"securities regulation that is a U.S. Treasury Regulation section 1.163-5(c)(2)(i)(D), or any successor regulation, established under the Tax Equity and Fiscal Responsibility Act of 1982 (TEFRA), that relates to the classification of debt obligations as either 'bearer' or 'registered' for U.S. tax purposes, applies to most straightforward issues of bearer debt in the Euromarkets, and ensures that an issue of bearer debt satisfied 'reasonable arrangement' requirements",core#definition
+RegulationS,securities regulation defining an exemption through which corporations can issue unregistered securities to qualified foreign investors and foreign institutions,core#definition
+isFederalDepositInsuranceCorporationInsured,indicates whether the security is covered by Federal Deposit Insurance Corporation (FDIC) insurance,core#definition
+Rule144A,owl#NamedIndividual,22-rdf-syntax-ns#type
+RegulationD,Regulation D,rdf-schema#label
+BlueSkyLaw,"state-level securities regulation, designed to protect investors against securities fraud that require issuers to be registered and to disclose details of their offerings",core#definition
+,"This ontology defines the concepts related to restrictions issued by the US Securities Exchange Commission and other US regulatory agencies on finanicial instruments, securities and listings.",abstract
+isFederalDepositInsuranceCorporationInsured,is Federal Deposit Insurance Corporation insured,rdf-schema#label
+Nc946688671dc495b95e04f211dc55598,isApplicableIn,owl#onProperty
+isSubjectToFederalReserveBoardRegulationT,"Federal Reserve Board (FRB) Regulation T governs the extension of credit by securities brokers and dealers in the United States. Its best-known function is the control of margin requirements for stocks bought on margin. Regulation T gives an investor a maximum of four business days to pay for securities purchased in a cash or margin account. If payment due exceeds $1,000 and is not received by the end of this time period, the broker-dealer must either liquidate the position or apply for and receive an extensionfrom its designated examining authority, such as FINRA.",explanatoryNote
+TEFRADRule,us-regulation-of-debt-capital-markets-one-minute-guide,adaptedFrom
+SECRule201,"Activated', C - 'Flag Continued' and N - 'Flag Not in Effect'. If not given the default is 'N - Flag Not in Effect'. When a stock is triggered, traders can only execute short sales of the stock above the National Best Bid (NBB) price.",explanatoryNote
+SECRule201,rule201faq.htm,adaptedFrom
+BlueSkyLaw,This allows investors to base their judgments on trustworthy data.,explanatoryNote
+BlueSkyLaw,blue sky law,rdf-schema#label
+RegulationS,"Regulation S covers rules governing offers and sales made outside the United States without registration under the Securities Act of 1933. Created in 1990, this regulation was intended to encourage foreign investors to purchase American stocks in order to increase the liquidity of American markets.",explanatoryNote
+RegulationS,UnitedStatesJurisdiction,isApplicableIn
+RegulationS,part-230?toc=1 for the actual text of the regulation.,adaptedFrom
+,"Copyright (c) 2024 Object Management Group, Inc.",copyright
+,,owl#imports
+SECExemption3c7,UnitedStatesJurisdiction,isApplicableIn
+RegulationD,owl#NamedIndividual,22-rdf-syntax-ns#type
+isFederalDepositInsuranceCorporationInsured,owl#DatatypeProperty,22-rdf-syntax-ns#type
+SECRule15c3-3,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nc946688671dc495b95e04f211dc55598,0,owl#minQualifiedCardinality
+RegulationD,Issuers must file what's known as a 'Form D' after they first sell their securities if they qualify for registration under Regulation D.,explanatoryNote
+TEFRACRule,SecuritiesRegulation,22-rdf-syntax-ns#type
+TEFRADRule,owl#NamedIndividual,22-rdf-syntax-ns#type
+SECRule201,TradingRestriction,22-rdf-syntax-ns#type
+SECRule15c3-3,SEC Rule 15c3-3,rdf-schema#label
+,,owl#versionIRI
+isEmployeeRetirementIncomeSecurityActConformant,or insured by an employer,core#definition
+Rule144A,ecfrlinks,rdf-schema#seeAlso
+,owl#Ontology,22-rdf-syntax-ns#type
+TEFRACRule,tefra-c-rules,adaptedFrom
+isEmployeeRetirementIncomeSecurityActConformant,1002.,adaptedFrom
+isFederalDepositInsuranceCorporationInsured,,rdf-schema#seeAlso
+Rule144A,part-230?toc=1 for the actual text of the regulation.,adaptedFrom
+SECRule201,UnitedStatesJurisdiction,isApplicableIn
+isFederalDepositInsuranceCorporationInsured,XMLSchema#boolean,rdf-schema#range
+SECExemption3c7,securities regulation that is a provision under the Investment Company Act of 1940 that allows certain privately offered funds to operate without registering with the SEC,core#definition
+RegulationD,ecfrlinks,rdf-schema#seeAlso
+RegulationS,SecuritiesRegulation,22-rdf-syntax-ns#type
+isSubjectToFederalReserveBoardRegulationT,is subject to Federal Reserve Board Regulation T,rdf-schema#label
+isFederalDepositInsuranceCorporationInsured,"Note that this property applies to the account rather than to the associated instrument that, if it exists, exemplifies the account.",usageNote
+SECRule201,securities regulation that is part of Regulation SHO that is a circuit breaker limiting short sales to prevent them from causing a security's price to drop further after a significant decline,core#definition
+Rule144A,N682b7a65044645e3a013e7d1ce069097,22-rdf-syntax-ns#type
+TEFRACRule,TEFRA C is used only if all parties are comfortable that there is no intention to place any of the securities in the U.S. and that it is unlikely that there will be any interest in the U.S. in such securities.,explanatoryNote
+SECExemption3c7,SecuritiesRegulation,22-rdf-syntax-ns#type
+Rule144A,LegalHoldingRestriction,22-rdf-syntax-ns#type
+BlueSkyLaw,"Blue sky law is modeled as a class, rather than as a named individual, because there are numerous state-specific laws that qualify as blue sky laws that could be added to support state-specific definitions and other analyses.",usageNote
+,US Securities Restrictions Ontology,rdf-schema#label
+TEFRACRule,owl#NamedIndividual,22-rdf-syntax-ns#type
+isSubjectToFederalReserveBoardRegulationT,regulation-t-filings,rdf-schema#seeAlso
+N1b7afef69ac94dab8400c5fea731e525,owl#Class,22-rdf-syntax-ns#type
+Rule144A,QIBs are institutional investors with at least $100 million invested in securities. Rule 144A provides an exemption from SEC registration for these resales.,explanatoryNote
+isSubjectToFederalReserveBoardRegulationT,XMLSchema#boolean,rdf-schema#range
+isFederalDepositInsuranceCorporationInsured,NonTransactionDepositAccount,rdf-schema#domain
+BlueSkyLaw,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2024 EDM Council, Inc.",copyright
+isFederalDepositInsuranceCorporationInsured,"FDIC coverage extends to Certificates of Deposit (CDs) and Money Market Accounts (MMAs) held at FDIC-insured institutions up to $250,000 per account.",explanatoryNote
+Rule144A,securities regulation that allows investors to resell privately placed securities to qualified institutional buyers (QIBs) under certain conditions,core#definition
+N682b7a65044645e3a013e7d1ce069097,hasHoldingPeriod,owl#onProperty
+Rule144A,Rule 144 section A is a Securities & Exchange Commission rule that establishes specific criteria for determining whether a person is not engaged in a distribution and creates a safe harbor from the Section 2(a)(11) definition of 'underwriter'. It modifies holding period requirements on privately placed securities to permit qualified institutional buyers to trade these positions among themselves.,explanatoryNote
+SECRule15c3-3,"securities regulation that applies to broker-dealers registered under section 15(b) of the Securities Exchange Act of 1934 (15 U.S.C. 78o(b)), or that are security-based swap dealers or major security-based swap participants under section 15F(b) of the Act (15 U.S.C. 78o-10(b)), requiring them to maintain reserve accounts to protect customer funds, segregate customer securities in custody accounts, and if a security sold long has not been delivered within 10 business days after the settlement date, requires them to either buy the customer in, or apply for and receive an extension from its designated examining authority",core#definition
+Nc36628f69dbc44b8b8b817390336b49d,FinancialInstrument,22-rdf-syntax-ns#first
+TEFRACRule,"securities regulation that is a U.S. Treasury Regulation section 1.163-5(c)(2)(i)(C), or any successor regulation, established under the Tax Equity and Fiscal Responsibility Act of 1982 (TEFRA), that relates to the classification of debt obligations as either 'bearer' or 'registered' for U.S. tax purposes and ensures that an issue of bearer debt satisfied 'reasonable arrangement' requirements",core#definition
+RegulationD,UnitedStatesJurisdiction,isApplicableIn
+SECExemption3c7,SEC Exemption 3(c)(7),rdf-schema#label
+isSubjectToFederalReserveBoardRegulationT,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,.rdf version of this ontology was revised to eliminate typos in a few annotations.,core#changeNote
+isEmployeeRetirementIncomeSecurityActConformant,XMLSchema#boolean,rdf-schema#range
+TEFRADRule,UnitedStatesJurisdiction,isApplicableIn
+isSubjectToFederalReserveBoardRegulationT,indicates whether a given cash or margin account is subject to Federal Reserve Board (FRB) margin requirements,core#definition
+isSubjectToFederalReserveBoardRegulationT,Account,rdf-schema#domain
+N682b7a65044645e3a013e7d1ce069097,DatePeriod,owl#allValuesFrom
+isEmployeeRetirementIncomeSecurityActConformant,"The Employee Retirement Income Security Act (ERISA) is a federal law that establishes standards for certain employer-sponsored retirement and health plans. It has undergone several changes since its initial enactment in 1974. ERISA aims to protect individuals participating in these plans by prohibiting fiduciaries from misusing funds and setting standards for participation, benefit accrual, vesting, and funding of retirement plans",explanatoryNote
+SECRule201,SecuritiesRegulation,22-rdf-syntax-ns#type
+SECRule15c3-3,UnitedStatesJurisdiction,isApplicableIn
+SECExemption3c7,"Funds that meet the requirements of exemption 3(c)(7) are not required to register with the SEC or provide ongoing disclosure. They are also exempt from issuing a prospectus that would outline investment positions. To qualify for the exemption, a private investment company must demonstrate that it has no plans of making an initial public offering (IPO), and its investors must be qualified purchasers. Qualified purchasers include individuals or family-owned businesses with at least $5 million in investments, trusts managed by qualified purchasers, and entities solely owned by qualified purchasers.",explanatoryNote
+BlueSkyLaw,SecuritiesRegulation,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+N1679e152305e42aabfee0efae4082819,Listing,22-rdf-syntax-ns#first
+Rule144A,UnitedStatesJurisdiction,isApplicableIn
+,MIT,license
+isEmployeeRetirementIncomeSecurityActConformant,owl#DatatypeProperty,22-rdf-syntax-ns#type
+isEmployeeRetirementIncomeSecurityActConformant,is Employee Retirement Income Security Act conformant,rdf-schema#label
+RegulationS,ecfrlinks,rdf-schema#seeAlso
+RegulationS,owl#NamedIndividual,22-rdf-syntax-ns#type
+SECExemption3c7,owl#NamedIndividual,22-rdf-syntax-ns#type
+SECRule15c3-3,sea-rule-15c3-3-and-related-interpretations,adaptedFrom
+RegulationS,Regulation S,rdf-schema#label
+Nc946688671dc495b95e04f211dc55598,GeographicRegion,owl#onClass
+N682b7a65044645e3a013e7d1ce069097,owl#Restriction,22-rdf-syntax-ns#type
+RegulationD,part-230?toc=1 for the actual text of the regulation.,adaptedFrom
+SECRule201,alternative uptick rule,synonym
+RegulationS,InvestorsDomicileRestriction,22-rdf-syntax-ns#type
+isSubjectToFederalReserveBoardRegulationT,"Note that this property applies to the account, which may be a ledger account.",usageNote
+Rule144A,Rule 144A,rdf-schema#label
+TEFRACRule,TEFRA C rule,rdf-schema#label
+BlueSkyLaw,Nc946688671dc495b95e04f211dc55598,rdf-schema#subClassOf
+RegulationD,SecuritiesRegulation,22-rdf-syntax-ns#type
+,.rdf version of this ontology was revised to eliminate references to deprecated elements (FND-386).,core#changeNote
+SECRule15c3-3,SecuritiesRegulation,22-rdf-syntax-ns#type

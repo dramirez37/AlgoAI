@@ -1,0 +1,108 @@
+source_id,target_id,relationship
+,Locations.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+hasCoverageArea,hasRegion,rdf-schema#subPropertyOf
+PhysicalLocation,physical location,rdf-schema#label
+PopulatedPlace,PhysicalLocation,rdf-schema#subClassOf
+,Locations.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+Municipality,GeopoliticalEntity,rdf-schema#subClassOf
+hasCounty,owl#ObjectProperty,22-rdf-syntax-ns#type
+PopulatedPlace,populated place,rdf-schema#label
+PopulatedPlace,"community in which people live or have lived, without being specific as to size, population or importance",core#definition
+hasCoverageArea,GeographicRegion,rdf-schema#range
+hasRegion,has region,rdf-schema#label
+Municipality,municipality,rdf-schema#label
+BusinessCenter,"municipality where business is conducted, especially one that is considered a financial center",core#definition
+FederalState,federal state,rdf-schema#label
+hasMunicipality,Municipality,rdf-schema#range
+hasRegion,isLocatedAt,rdf-schema#subPropertyOf
+isLocatedAt,Location,rdf-schema#range
+PhysicalLocation,Location,rdf-schema#subClassOf
+,Locations.rdf version of this ontology was modified to move definitions related to parcel and real estate to a new real property ontology (LOAN-168).,core#changeNote
+hasMunicipality,hasRegion,rdf-schema#subPropertyOf
+hasRegion,GeographicRegion,rdf-schema#range
+hasCityName,"Typical working definitions for small-city populations start at around 100,000 people. Common population definitions for an urban area (city or town) range between 1,500 and 50,000 people, with most U.S states using a minimum between 1,500 and 5,000 inhabitants. Some jurisdictions set no such minima.",explanatoryNote
+FederalState,"This type of entity, variously referred to as a state, province or canton, has a level of self government including its own legal system and court jurisdiction, but cedes a level of autonomy to the federation of which it forms a part.",explanatoryNote
+hasCityName,City,adaptedFrom
+,.,core#changeNote
+FederalCapitalArea,owl#Class,22-rdf-syntax-ns#type
+FederalState,owl#Class,22-rdf-syntax-ns#type
+hasCityName,has city,rdf-schema#label
+County,county,rdf-schema#label
+,,owl#imports
+isLocatedAt,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasRegion,indicates a demarcated area on the surface of the Earth,core#definition
+hasBusinessCenter,hasMunicipality,rdf-schema#subPropertyOf
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,,owl#versionIRI
+hasCountry,hasRegion,rdf-schema#subPropertyOf
+,owl#Ontology,22-rdf-syntax-ns#type
+Municipality,"A municipality can be any political jurisdiction from a sovereign state, such as the Principality of Monaco, or a small village, such as West Hampton Dunes, New York.",core#example
+Municipality,"A municipality is a general-purpose administrative subdivision, as opposed to a special-purpose district.",explanatoryNote
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+hasCityName,"This property should be used in cases where a formal individual for the business center or municipality is not available. Note that Geonames could be used as a source in addition to FIBO, however, in cases where an individual is desired. Use the property fibo-fnd-plc-loc;hasMunicipality in cases where an individual is available. Also note that with respect to an address, this property may stand in for any village, town, or city of any size.",usageNote
+BusinessCenter,business-center-7-14.xml,adaptedFrom
+hasSubdivision,owl#ObjectProperty,22-rdf-syntax-ns#type
+FederalState,CountrySubdivision,rdf-schema#subClassOf
+BusinessCenter,business center,rdf-schema#label
+hasCounty,hasSubdivision,rdf-schema#subPropertyOf
+hasCounty,indicates a country subdivision providing certain local governmental services,core#definition
+,"Locations.rdf version of this ontology was modified to revise definitions to improve them and make them ISO 704 compliant, and merge the concepts that were previously in the countries ontology into this one.",core#changeNote
+FederalCapitalArea,geopolitical entity that is or includes the municipality or capital city that acts as the seat of the federal government,core#definition
+BusinessCenter,Municipality,rdf-schema#subClassOf
+hasCityName,lei-cdf-format-version-2-1,adaptedFrom
+PhysicalLocation,owl#Class,22-rdf-syntax-ns#type
+hasSubdivision,has subdivision,rdf-schema#label
+County,owl#Class,22-rdf-syntax-ns#type
+hasCoverageArea,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasBusinessCenter,BusinessCenter,rdf-schema#range
+PopulatedPlace,owl#Class,22-rdf-syntax-ns#type
+BusinessCenter,owl#Class,22-rdf-syntax-ns#type
+hasMunicipality,has municipality,rdf-schema#label
+hasCoverageArea,has coverage area,rdf-schema#label
+hasCityName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,Locations.rdf version of this ontology was modified for the FIBO 2.0 RFC to integrate it with LCC.,core#changeNote
+hasBusinessCenter,has business center,rdf-schema#label
+,Locations.rdf version of this ontology was modified eliminate deprecated elements.,core#changeNote
+FederalState,self-governing geopolitical unit which forms part of a wider geopolitical unit that is recognized as a country,core#definition
+hasRegion,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasCounty,has county,rdf-schema#label
+hasBusinessCenter,owl#ObjectProperty,22-rdf-syntax-ns#type
+Municipality,urban administrative division having corporate status and usually powers of self-government or jurisdiction,core#definition
+hasMunicipality,owl#ObjectProperty,22-rdf-syntax-ns#type
+FederalCapitalArea,federal capital area,rdf-schema#label
+hasMunicipality,"indicates a business center, city, or municipality",core#definition
+hasSubdivision,hasRegion,rdf-schema#subPropertyOf
+isLocatedAt,"relates something to a location, which might be physical or virtual",core#definition
+PhysicalLocation,location in physical space,core#definition
+County,CountrySubdivision,rdf-schema#subClassOf
+RealEstate,owl#Class,22-rdf-syntax-ns#type
+hasCoverageArea,"indicates a geographic region in which some service is provided, or to which some policy applies, or in which something is available",core#definition
+hasSubdivision,"identifies a country subdivision (state, province, region, etc.)",core#definition
+FederalCapitalArea,"This model includes representation of the capital administrative region of those federations for which the capital is situated other than within one of the states or provinces which make up the country as a whole. This is so that addresses and other references which may need to refer to any location within the country may do so. Examples include the District of Columbia in the US, and the Canberra area in Australia. Not all federations have such an area.",core#scopeNote
+,Release,hasMaturityLevel
+,"This ontology provides a very high level definition of geographic region and geopolitical entity related concepts, including, but not limited to, countries, sub-country regions such as states and provinces, municipalities, etc., extending the Object Management Group (OMG)'s Languages, Countries, and Codes (LCC) ontologies as needed in FIBO. As such, these terms are automatically mapped to the LCC controlled vocabulary representing ISO 3166 country and country subdivision codes, and may be mapped to other de facto standards such as Geonames and the CIA World Factbook. The concept of a business center, defined herein, maps directly to the FpML concept with the same name, and to the set of business centers and broader municipalities included in ISO 10383, Codes for exchanges and market identification (MIC).",abstract
+,MIT,license
+hasCityName,"indicates the name of a large, permanent, and densely settled place",core#definition
+Parcel,true,owl#deprecated
+,Locations Ontology,rdf-schema#label
+RealEstate,true,owl#deprecated
+FederalCapitalArea,GeopoliticalEntity,rdf-schema#subClassOf
+hasSubdivision,CountrySubdivision,rdf-schema#range
+hasCountry,owl#ObjectProperty,22-rdf-syntax-ns#type
+isLocatedAt,is located at,rdf-schema#label
+hasCountry,identifies a country,core#definition
+hasCountry,has country,rdf-schema#label
+hasMunicipality,"disputed cities such as Jerusalem), thus hasMunicipality is a subproperty of hasRegion rather than hasSubdivision.",usageNote
+hasCountry,Country,rdf-schema#range
+County,"political and administrative division of a country, state or province, providing certain local governmental services",core#definition
+hasCountry,lei-cdf-format-version-2-1,adaptedFrom
+hasCounty,County,rdf-schema#range
+hasSubdivision,lei-cdf-format-version-2-1,adaptedFrom
+Municipality,"The territory over which a municipality has jurisdiction may encompass:
+- only one populated place such as a city, town, or village
+- several of such places (e.g., early jurisdictions in the state of New Jersey (1798-1899) as townships governing several villages, Municipalities of Mexico)
+- only parts of such places, sometimes boroughs of a city such as the 34 municipalities of Santiago, Chile.",core#scopeNote
+Parcel,owl#Class,22-rdf-syntax-ns#type
+hasBusinessCenter,"identifies a location where business is conducted, and hence the business calendar used to adjust dates",core#definition
+Municipality,Municipality,adaptedFrom
+Municipality,owl#Class,22-rdf-syntax-ns#type

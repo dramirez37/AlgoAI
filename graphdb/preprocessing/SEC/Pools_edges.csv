@@ -1,0 +1,123 @@
+source_id,target_id,relationship
+Nabe587d3f61d4330b8499b581ac1b36e,owl#Restriction,22-rdf-syntax-ns#type
+N0ba126882c004472a4d6358afdbc23de,owl#Restriction,22-rdf-syntax-ns#type
+DebtPool,"a pool consisting of debt instruments, such as bonds, loans or mortgages",core#definition
+Ne310b533c1944557a248beca6a64f69c,owl#Restriction,22-rdf-syntax-ns#type
+, version of this ontology was modified to deprecate the concept of 'pool equity' which was not used elsewhere and was poorly defined and eliminate an improper restriction on managed investment.,core#changeNote
+PoolConstituent,"The pool may be a pool of almost anything, brought together for some purpose. It differs from a less formal collection in that there are facts defined about the constituents and the proportions of these in the pool. Modeling note: A constituent of a pool may have facts which vary over time (such as balances) but the basic nature of the thing as a member of the pool remains the same, along with some facts which vary over time but which have a value as of the time they become members of the pool.",explanatoryNote
+,"Copyright (c) 2018-2024 Object Management Group, Inc.",copyright
+PooledFund,pooled fund,rdf-schema#label
+,"Pools.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+FundFamily,owl#Class,22-rdf-syntax-ns#type
+SecuritiesPoolConstituent,owl#Class,22-rdf-syntax-ns#type
+Nfe21fc8f4aa04c1fae9216bb47045601,owl#Restriction,22-rdf-syntax-ns#type
+ManagedInvestment,PooledFund,rdf-schema#subClassOf
+N98964be6078e4c249408096c9fb271db,hasConstituent,owl#onProperty
+Nd067c443cb07412f836a8b61e7c6d5fe,AmountOfMoney,owl#someValuesFrom
+InstrumentPool,Pool,rdf-schema#subClassOf
+N6caeba37f4ab4fa09dbc3eb46d94bbe3,owl#Restriction,22-rdf-syntax-ns#type
+Nb4082844875349f69379eec494feb48b,InstrumentPool,owl#someValuesFrom
+SecuritiesPoolConstituent,securities pool constituent,rdf-schema#label
+InstrumentPoolAsAsset,N4a12ceca3f9f4c34a5a6105cae0513c2,rdf-schema#subClassOf
+PoolConstituent,owl#Class,22-rdf-syntax-ns#type
+DebtPool,debt pool,rdf-schema#label
+PooledFund,owl#Class,22-rdf-syntax-ns#type
+ManagedInvestment,owl#Class,22-rdf-syntax-ns#type
+PoolConstituent,pool constituent,rdf-schema#label
+InstrumentPoolAsAsset,instrument pool as asset,rdf-schema#label
+FundFamily,Collection,rdf-schema#subClassOf
+FundFamily,a collection of managed investments that are all managed by a single investment institution,core#definition
+N4a12ceca3f9f4c34a5a6105cae0513c2,N6d705d2af1f849b4a44e981506acfd06,owl#someValuesFrom
+,,owl#imports
+N4a12ceca3f9f4c34a5a6105cae0513c2,isAssetOf,owl#onProperty
+SecuritiesPoolConstituent,PoolConstituent,rdf-schema#subClassOf
+N3d83b62db30b46cc8452fd84885407c8,owl#Restriction,22-rdf-syntax-ns#type
+N6d705d2af1f849b4a44e981506acfd06,owl#Class,22-rdf-syntax-ns#type
+InstrumentPoolAsAsset,financial asset in the form of an instrument pool,core#definition
+PooledFund,Nd067c443cb07412f836a8b61e7c6d5fe,rdf-schema#subClassOf
+DebtPool,InstrumentPool,rdf-schema#subClassOf
+,This ontology defines concepts related to high-level securities pools.,abstract
+Nd067c443cb07412f836a8b61e7c6d5fe,owl#Restriction,22-rdf-syntax-ns#type
+, version of this ontology was modified to eliminate the deprecated concept for pool equity.,core#changeNote
+N8f3c0e60b34b4828b2bbed20ea9d1657,owl#Restriction,22-rdf-syntax-ns#type
+Pool,"Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014",adaptedFrom
+,,owl#versionIRI
+N0ba126882c004472a4d6358afdbc23de,SpecialPurposeVehicle,owl#someValuesFrom
+Nb4082844875349f69379eec494feb48b,isPlayedBy,owl#onProperty
+InstrumentPool,N3d83b62db30b46cc8452fd84885407c8,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+SecuritiesPool,InstrumentPool,rdf-schema#subClassOf
+Nfe21fc8f4aa04c1fae9216bb47045601,hasConstituent,owl#onProperty
+,Pools.rdf version of this ontology was modified to move the definition of SpecialPurposeVehicle to this ontology to make it available for use more generally and augment the definition of an instrument pool with ownership.,core#changeNote
+N98964be6078e4c249408096c9fb271db,DebtInstrument,owl#someValuesFrom
+Pool,a combination of resources for a common purpose or benefit,core#definition
+N6caeba37f4ab4fa09dbc3eb46d94bbe3,hasConstituent,owl#onProperty
+SecuritiesPool,securities pool,rdf-schema#label
+DebtPool,N98964be6078e4c249408096c9fb271db,rdf-schema#subClassOf
+Ncc30ed1aba404a16b7b65caeee02ea58,1,owl#qualifiedCardinality
+FundFamily,fund family,rdf-schema#label
+, version of this ontology was modified to correct a logical inconsistency with respect to the representation of baskets.,core#changeNote
+N6d705d2af1f849b4a44e981506acfd06,N6ee75f5278d847f19f2ac5cc6b1397a2,owl#unionOf
+Ncc30ed1aba404a16b7b65caeee02ea58,isManagedBy,owl#onProperty
+Ne310b533c1944557a248beca6a64f69c,isManagedBy,owl#onProperty
+InstrumentPool,pool consisting of financial instruments that may be included in the same investment vehicle,core#definition
+Pool,N636ebc225e0f440092a7c7354a146ed4,rdf-schema#subClassOf
+, version of this ontology was modified to eliminate duplication with concepts in LCC.,core#changeNote
+SecuritiesPoolConstituent,Nabe587d3f61d4330b8499b581ac1b36e,owl#equivalentClass
+InstrumentPoolAsAsset,FinancialAsset,rdf-schema#subClassOf
+InstrumentPool,instrument pool,rdf-schema#label
+InstrumentPoolAsAsset,owl#Class,22-rdf-syntax-ns#type
+ManagedInvestment,Ne310b533c1944557a248beca6a64f69c,rdf-schema#subClassOf
+PoolConstituent,component of a pool,core#definition
+Pool,owl#Class,22-rdf-syntax-ns#type
+FundFamily,Nfe21fc8f4aa04c1fae9216bb47045601,rdf-schema#subClassOf
+ManagedInvestment,investment pool that is controlled by a professional investment manager who invests the pool in various financial instruments and assets that align with their investment objectives and is overseen by a board of directors,core#definition
+InstrumentPool,owl#Class,22-rdf-syntax-ns#type
+N3d83b62db30b46cc8452fd84885407c8,hasConstituent,owl#onProperty
+N636ebc225e0f440092a7c7354a146ed4,owl#Restriction,22-rdf-syntax-ns#type
+SecuritiesPoolConstituent,security that is included in a securities pool,core#definition
+PoolConstituent,Constituent,rdf-schema#subClassOf
+Nabe587d3f61d4330b8499b581ac1b36e,isConstituentOf,owl#onProperty
+N636ebc225e0f440092a7c7354a146ed4,PoolConstituent,owl#someValuesFrom
+Nbfa2e95ad09b4a5197c698488c543974,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nd067c443cb07412f836a8b61e7c6d5fe,hasConstituent,owl#onProperty
+ManagedInvestment,managed investment,rdf-schema#label
+N636ebc225e0f440092a7c7354a146ed4,hasConstituent,owl#onProperty
+N0ba126882c004472a4d6358afdbc23de,isPlayedBy,owl#onProperty
+SecuritiesPoolConstituent,"This is a pool of any kind of security, and not therefore necessarily a pool of debt, though usually it is debt securities which are pooled.",explanatoryNote
+Pool,Collection,rdf-schema#subClassOf
+N6ee75f5278d847f19f2ac5cc6b1397a2,Nbfa2e95ad09b4a5197c698488c543974,22-rdf-syntax-ns#rest
+Nfe21fc8f4aa04c1fae9216bb47045601,ManagedInvestment,owl#someValuesFrom
+Nb4082844875349f69379eec494feb48b,owl#Restriction,22-rdf-syntax-ns#type
+PooledFund,"An investment club pools the funds of its members, giving them the opportunity to share in a portfolio offering greater diversification and the hope of a better return on their money than they could get individually.",core#example
+SecuritiesPool,a pool of securities organized for the purpose of issuing notes against those securities,core#definition
+N3d83b62db30b46cc8452fd84885407c8,FinancialInstrument,owl#someValuesFrom
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+N8f3c0e60b34b4828b2bbed20ea9d1657,Pool,owl#someValuesFrom
+DebtPool,owl#Class,22-rdf-syntax-ns#type
+PooledFund,Pool,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+FundFamily,Ncc30ed1aba404a16b7b65caeee02ea58,rdf-schema#subClassOf
+SecuritiesPool,owl#Class,22-rdf-syntax-ns#type
+Pool,pool,rdf-schema#label
+,MIT,license
+ManagedInvestment,Bloomberg LP,adaptedFrom
+N98964be6078e4c249408096c9fb271db,owl#Restriction,22-rdf-syntax-ns#type
+,Securities Pools Ontology,rdf-schema#label
+SecuritiesPool,N6caeba37f4ab4fa09dbc3eb46d94bbe3,rdf-schema#subClassOf
+Ncc30ed1aba404a16b7b65caeee02ea58,FinancialInstitution,owl#onClass
+N6ee75f5278d847f19f2ac5cc6b1397a2,FinancialInstitution,22-rdf-syntax-ns#first
+Nbfa2e95ad09b4a5197c698488c543974,N0ba126882c004472a4d6358afdbc23de,22-rdf-syntax-ns#first
+InstrumentPoolAsAsset,Nb4082844875349f69379eec494feb48b,rdf-schema#subClassOf
+,Pools.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+,Pools.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+PooledFund,a pool of funds that a group of investors combines for common benefit,core#definition
+PoolConstituent,N8f3c0e60b34b4828b2bbed20ea9d1657,owl#equivalentClass
+SecuritiesPoolConstituent,Security,rdf-schema#subClassOf
+N4a12ceca3f9f4c34a5a6105cae0513c2,owl#Restriction,22-rdf-syntax-ns#type
+N6caeba37f4ab4fa09dbc3eb46d94bbe3,SecuritiesPoolConstituent,owl#someValuesFrom
+Ne310b533c1944557a248beca6a64f69c,FinancialInstitution,owl#someValuesFrom
+Ncc30ed1aba404a16b7b65caeee02ea58,owl#Restriction,22-rdf-syntax-ns#type
+, version of this ontology was modified to replace equity with owners equity in the definition of pool equity.,core#changeNote
+N8f3c0e60b34b4828b2bbed20ea9d1657,isConstituentOf,owl#onProperty
+Nabe587d3f61d4330b8499b581ac1b36e,SecuritiesPool,owl#someValuesFrom

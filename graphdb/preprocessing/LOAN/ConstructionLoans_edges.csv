@@ -1,0 +1,58 @@
+source_id,target_id,relationship
+hasMaximumAllowedBalance,hasAvailableAmount,rdf-schema#subPropertyOf
+Nc99dd6cf6e9640939877f355ef1a30ca,SubFacility,22-rdf-syntax-ns#first
+ConstructionLoan,MasterAgreement,rdf-schema#subClassOf
+,,owl#imports
+N62e492ab82504cf1be45983b7a8c9ada,ConstructionLoan,22-rdf-syntax-ns#first
+hasMaximumAnticipatedBalance,MonetaryAmount,rdf-schema#range
+N54e965cd57eb4c8e9d287fe695b674ba,owl#Restriction,22-rdf-syntax-ns#type
+hasMilestoneMaximumDrawdownAmount,has milestone maximum drawdown amount,rdf-schema#label
+N519ff8cb7bac43958754607036c0cd36,SubFacility,22-rdf-syntax-ns#first
+,Provisional,hasMaturityLevel
+N54e965cd57eb4c8e9d287fe695b674ba,0,owl#minQualifiedCardinality
+hasMaximumAnticipatedBalance,hasAvailableAmount,rdf-schema#subPropertyOf
+,MIT,license
+N62e492ab82504cf1be45983b7a8c9ada,N519ff8cb7bac43958754607036c0cd36,22-rdf-syntax-ns#rest
+ConstructionLoan,"loan covering construction and development costs, secured by a mortgage on the property financed",core#definition
+hasMaximumAllowedBalance,MonetaryAmount,rdf-schema#range
+N526f151ce3074c41b434f13c4beb4a7b,0,owl#minQualifiedCardinality
+hasMaximumAllowedBalance,has maximum allowed balance,rdf-schema#label
+,Construction Loans Ontology,rdf-schema#label
+hasMaximumAnticipatedBalance,has maximum anticipated balance,rdf-schema#label
+Nc99dd6cf6e9640939877f355ef1a30ca,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,,owl#versionIRI
+N2d902c3ba13849248e511db5566ace48,N62e492ab82504cf1be45983b7a8c9ada,owl#unionOf
+N2d902c3ba13849248e511db5566ace48,owl#Class,22-rdf-syntax-ns#type
+,"Construction loans are credit facilities with separate draw-downs (which may be specified through sub-facilities for large projects) allowed given evidence of completion, or substantial completion, of agreed milestones of the construction project.",abstract
+,owl#Ontology,22-rdf-syntax-ns#type
+hasMaximumAllowedBalance,"maximum balance that may be outstanding at any time, below the credit limit, for loans with flexible re-draw facilities",core#definition
+hasMaximumAnticipatedBalance,"maximum balance the borrower believes they might need, below the credit limit, for planning purposes, for loans with flexible re-draw facilities",core#definition
+ConstructionLoan,CreditFacility,rdf-schema#subClassOf
+N526f151ce3074c41b434f13c4beb4a7b,owl#Restriction,22-rdf-syntax-ns#type
+N526f151ce3074c41b434f13c4beb4a7b,ContractMilestone,owl#onClass
+hasMilestoneMaximumDrawdownAmount,ContractMilestone,rdf-schema#domain
+N519ff8cb7bac43958754607036c0cd36,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+hasMilestoneMaximumDrawdownAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasMilestoneMaximumDrawdownAmount,hasAvailableAmount,rdf-schema#subPropertyOf
+ConstructionLoan,"The Project Management Institute (PMI) breaks down most construction projects into five phases, which are initiation, planning, execution, monitoring and control, and closeout. Construction loans also typically include milestones at which a portion of the total facility is advanced to the borrower given proof of completion or meeting other requirements with respect to the work.",explanatoryNote
+ConstructionLoan,N54e965cd57eb4c8e9d287fe695b674ba,rdf-schema#subClassOf
+N12167d0509d7440ca6d9aa86b6679c0b,owl#Class,22-rdf-syntax-ns#type
+N54e965cd57eb4c8e9d287fe695b674ba,isCollateralizedBy,owl#onProperty
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+hasMaximumAnticipatedBalance,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasMilestoneMaximumDrawdownAmount,MonetaryAmount,rdf-schema#range
+ConstructionLoan,CollateralizedLoan,rdf-schema#subClassOf
+ConstructionLoan,N526f151ce3074c41b434f13c4beb4a7b,rdf-schema#subClassOf
+ConstructionLoan,"A construction loan credit facility tranche (sub-facility) is a portion of a construction loan that is released in stages, or tranches, to fund specific phases of a construction project. Each tranche (committed sub-facility) is released once the borrower reaches a certain milestone, such as pouring concrete or completing the foundation. The borrower typically only pays interest on the amount that has been released at any given time.",explanatoryNote
+Nef6322ebbd414adbbfb2694134db6d01,Nc99dd6cf6e9640939877f355ef1a30ca,22-rdf-syntax-ns#rest
+hasMaximumAllowedBalance,N2d902c3ba13849248e511db5566ace48,rdf-schema#domain
+Nef6322ebbd414adbbfb2694134db6d01,ConstructionLoan,22-rdf-syntax-ns#first
+ConstructionLoan,owl#Class,22-rdf-syntax-ns#type
+ConstructionLoan,construction loan,rdf-schema#label
+N12167d0509d7440ca6d9aa86b6679c0b,Nef6322ebbd414adbbfb2694134db6d01,owl#unionOf
+hasMilestoneMaximumDrawdownAmount,maximum amount of the loan that can be drawn by the borrower on completion of the milestone,core#definition
+N526f151ce3074c41b434f13c4beb4a7b,hasMilestoneProvision,owl#onProperty
+hasMaximumAllowedBalance,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasMaximumAnticipatedBalance,N12167d0509d7440ca6d9aa86b6679c0b,rdf-schema#domain
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+N54e965cd57eb4c8e9d287fe695b674ba,RealProperty,owl#onClass

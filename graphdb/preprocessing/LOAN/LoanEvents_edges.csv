@@ -1,0 +1,98 @@
+source_id,target_id,relationship
+CourtJudgment,Nfd8b51f6fcbf41388fb5586fb565e412,rdf-schema#subClassOf
+hasJudgementAmount,p&gt;,core#definition
+CollateralValuation,AssessmentActivity,rdf-schema#subClassOf
+hasDisbursementDate,ExplicitDate,rdf-schema#range
+Nb548b4b5a41c40a4a24c8cc87d311b0d,Jurisdiction,owl#someValuesFrom
+LegalProceeding,N4be09aa9c8564b54b74b0b6b6ed37c53,rdf-schema#subClassOf
+CourtJudgment,court judgment,rdf-schema#label
+inDefault,Loan,rdf-schema#domain
+Nfd8b51f6fcbf41388fb5586fb565e412,hasJudgementAmount,owl#onProperty
+CollateralValuation,collateral valuation,rdf-schema#label
+LoanDefaultProceeding,owl#Class,22-rdf-syntax-ns#type
+N7a81e429002e4835b1192bc840606674,CourtOfLaw,owl#someValuesFrom
+N4be09aa9c8564b54b74b0b6b6ed37c53,owl#Restriction,22-rdf-syntax-ns#type
+hasDefaultAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+LoanDefaultProceeding, approved = servicing mode. Something happens (non payment) =&gt; Default Grace Period followed by negotiation. Some threshold whereby after a given amount of delinquency it needs to go into some other process moving towards foreclosure. Do State Diagram. Stages of loan.,core#definition
+LegalProceeding,Occurrence,rdf-schema#subClassOf
+LoanPaidInFull,owl#Class,22-rdf-syntax-ns#type
+hasDefaultAmount,>,explanatoryNote
+hasDefaultAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+RepaymentPhase,LoanPhase,rdf-schema#subClassOf
+,,owl#imports
+CourtJudgment,decision by a court or other tribunal that resolves a controversy and determines the rights and obligations of the parties,core#definition
+hasDefaultAmount,has default amount,rdf-schema#label
+inDefault,Whether the loan is in default.,core#definition
+,"This ontology defines a wide range of events relating to loans. These include legal proceedings, prepayments, and so forth.",abstract
+CollateralValuation,assessment activity resulting in the valuation of real property as collateral,core#definition
+,,owl#versionIRI
+N2d728a38b73848749730de5f4d3e8d94,Appraiser,owl#someValuesFrom
+N2d728a38b73848749730de5f4d3e8d94,isProvidedBy,owl#onProperty
+LoanPhase,owl#Class,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+RepaymentPhase,owl#Class,22-rdf-syntax-ns#type
+inDefault,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2023 EDM Council, Inc.",copyright
+Nfd8b51f6fcbf41388fb5586fb565e412,0,owl#minQualifiedCardinality
+CollateralValuation,N704261a79fc04f1897eece39009daebf,rdf-schema#subClassOf
+LegalProceeding,Nb548b4b5a41c40a4a24c8cc87d311b0d,rdf-schema#subClassOf
+hasJudgementAmount,has judgement amount,rdf-schema#label
+N704261a79fc04f1897eece39009daebf,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2023 Object Management Group, Inc.",copyright
+hasDisbursementDate,disbursement date,rdf-schema#label
+LegalProceeding,owl#Class,22-rdf-syntax-ns#type
+hasDefaultAmount,MonetaryAmount,rdf-schema#range
+N704261a79fc04f1897eece39009daebf,evaluates,owl#onProperty
+RepaymentPhase,repayment phase,rdf-schema#label
+hasJudgementAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+isDeferred,owl#DatatypeProperty,22-rdf-syntax-ns#type
+isAgainst,owl#ObjectProperty,22-rdf-syntax-ns#type
+isAgainst,LegalPerson,rdf-schema#range
+N4be09aa9c8564b54b74b0b6b6ed37c53,LegalPerson,owl#someValuesFrom
+hasDefaultAmount,LoanDefaultProceeding,rdf-schema#domain
+inDefault,XMLSchema#boolean,rdf-schema#range
+isAgainst,LegalProceeding,rdf-schema#domain
+hasJudgementAmount,MonetaryAmount,rdf-schema#range
+isDeliveredBy,CourtOfLaw,rdf-schema#range
+hasJudgementAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+isAgainst,is against,rdf-schema#label
+hasDisbursementDate,hasExplicitDate,rdf-schema#subPropertyOf
+N7a81e429002e4835b1192bc840606674,owl#Restriction,22-rdf-syntax-ns#type
+LoanPaidInFull,loan paid in full,rdf-schema#label
+isDeliveredBy,CourtJudgment,rdf-schema#domain
+Prepayment,Payment,rdf-schema#subClassOf
+N7a81e429002e4835b1192bc840606674,isDeliveredBy,owl#onProperty
+isDeliveredBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+CollateralValuation,N2d728a38b73848749730de5f4d3e8d94,rdf-schema#subClassOf
+Nb548b4b5a41c40a4a24c8cc87d311b0d,owl#Restriction,22-rdf-syntax-ns#type
+hasDisbursementDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nfd8b51f6fcbf41388fb5586fb565e412,owl#Restriction,22-rdf-syntax-ns#type
+hasJudgementAmount,CourtJudgment,rdf-schema#domain
+Prepayment,owl#Class,22-rdf-syntax-ns#type
+isDeferred,XMLSchema#boolean,rdf-schema#range
+hasDisbursementDate,Loan,rdf-schema#domain
+N4be09aa9c8564b54b74b0b6b6ed37c53,isAgainst,owl#onProperty
+,Provisional,hasMaturityLevel
+Nfd8b51f6fcbf41388fb5586fb565e412,MonetaryAmount,owl#onClass
+CollateralValuation,owl#Class,22-rdf-syntax-ns#type
+N2d728a38b73848749730de5f4d3e8d94,owl#Restriction,22-rdf-syntax-ns#type
+,MIT,license
+isDeferred,is deferred,rdf-schema#label
+CourtJudgment,N7a81e429002e4835b1192bc840606674,rdf-schema#subClassOf
+LoanPhase,LifecycleStage,rdf-schema#subClassOf
+N704261a79fc04f1897eece39009daebf,Collateral,owl#allValuesFrom
+Nb548b4b5a41c40a4a24c8cc87d311b0d,isGovernedBy,owl#onProperty
+inDefault,in default,rdf-schema#label
+LoanDefaultProceeding,LegalProceeding,rdf-schema#subClassOf
+LegalProceeding,"legal step or action taken at the direction of, or by the authority of, a court or agency",core#definition
+LoanPhase,loan phase,rdf-schema#label
+LegalProceeding,legal proceeding,rdf-schema#label
+,LoanEvents,rdf-schema#label
+CourtJudgment,owl#Class,22-rdf-syntax-ns#type
+Prepayment,prepayment,rdf-schema#label
+LoanDefaultProceeding,loan default proceeding,rdf-schema#label
+isDeliveredBy,is delivered by,rdf-schema#label
+LoanPaidInFull,LoanPhase,rdf-schema#subClassOf
+CourtJudgment,LegalProceeding,rdf-schema#subClassOf
+isDeferred,Loan,rdf-schema#domain
+hasDefaultAmount,amount before the application of sale proceeds and recoveries,core#definition

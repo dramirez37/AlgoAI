@@ -1,0 +1,121 @@
+id,type,name
+recurrence interval that is defined per a specific convention that determines how recurring days should be handled,Entity,recurrence interval that is defined per a specific convention that determines how recurring days should be handled
+hasBusinessCenter,Entity,hasBusinessCenter
+" version of this ontology was revised to loosen domains on properties related to business day and day count (recurrence interval) conventions, eliminate a duplicate individual, normalize definitions to be ISO 704 compliant, eliminate duplication of concepts in LCC, move hasBusinessCenter to locations, where the class BusinessCenter is defined and merge countries with locations.",Entity," version of this ontology was revised to loosen domains on properties related to business day and day count (recurrence interval) conventions, eliminate a duplicate individual, normalize definitions to be ISO 704 compliant, eliminate duplication of concepts in LCC, move hasBusinessCenter to locations, where the class BusinessCenter is defined and merge countries with locations."
+" version of this ontology was revised by the FIBO FND 1.2 RTF in order to add definitions for business recurrence intervals such as the day of the month and week, and to revise the representation of the end of the month to correspond to the way that the other intervals are represented for use in parametric schedules.",Entity," version of this ontology was revised by the FIBO FND 1.2 RTF in order to add definitions for business recurrence intervals such as the day of the month and week, and to revise the representation of the end of the month to correspond to the way that the other intervals are represented for use in parametric schedules."
+"Copyright (c) 2014-2024 EDM Council, Inc.",Entity,"Copyright (c) 2014-2024 EDM Council, Inc."
+BusinessDayFollowing,Entity,BusinessDayFollowing
+hasBusinessRecurrenceIntervalConvention,Entity,hasBusinessRecurrenceIntervalConvention
+owl#Restriction,Entity,owl#Restriction
+Thursday,Entity,Thursday
+owl#NamedIndividual,Entity,owl#NamedIndividual
+has business day adjustment,Entity,has business day adjustment
+"convention specifying that a non-business date will be adjusted to the first preceding day that is a business day unless that day falls in the previous month, in which case that date will be the first following day that is a business day",Entity,"convention specifying that a non-business date will be adjusted to the first preceding day that is a business day unless that day falls in the previous month, in which case that date will be the first following day that is a business day"
+Saturday,Entity,Saturday
+1,Entity,1
+ version of this ontology was revised to eliminate a remaining circular definition.,Entity, version of this ontology was revised to eliminate a remaining circular definition.
+N6e326cee52204d0b995b6b1d1321115c,Entity,N6e326cee52204d0b995b6b1d1321115c
+convention that specifies what happens when a date falls on a day that is a weekend or a holiday in one or more business centers,Entity,convention that specifies what happens when a date falls on a day that is a weekend or a holiday in one or more business centers
+"This ontology extends definitions of date and schedule concepts from the FinancialDates ontology with concepts defining dates that may be adjusted when they fall on weekends or holidays as defined in a given business center, for use in other FIBO ontologies.",Entity,"This ontology extends definitions of date and schedule concepts from the FinancialDates ontology with concepts defining dates that may be adjusted when they fall on weekends or holidays as defined in a given business center, for use in other FIBO ontologies."
+"This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification. It is also needed to provide temporal relationships for Ownership and Control.
+
+These three ontologies are designed for use together:
+
+	* FinancialDates -- financial Dates and Schedules
+	* BusinessDates -- business day adjustments
+	* Occurrences -- occurrences (events) and kinds of occurrences
+
+They are modularized this way to minimize the ontological committments that are imposed upon ontologies that rely upon them. Ontologies can import FinancialDates alone, or FinancialDates + BusinessDates, or FinancialDates + Occurrences, or all three together.",Entity,"This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification. It is also needed to provide temporal relationships for Ownership and Control.
+
+These three ontologies are designed for use together:
+
+	* FinancialDates -- financial Dates and Schedules
+	* BusinessDates -- business day adjustments
+	* Occurrences -- occurrences (events) and kinds of occurrences
+
+They are modularized this way to minimize the ontological committments that are imposed upon ontologies that rely upon them. Ontologies can import FinancialDates alone, or FinancialDates + BusinessDates, or FinancialDates + Occurrences, or all three together."
+business day nearest,Entity,business day nearest
+Nf52dec4d999844709422d0d268bc9419,Entity,Nf52dec4d999844709422d0d268bc9419
+day of the week,Entity,day of the week
+MIT,Entity,MIT
+BusinessCenter,Entity,BusinessCenter
+N475d308200c34166840de53d0f4b6272,Entity,N475d308200c34166840de53d0f4b6272
+business recurrence interval,Entity,business recurrence interval
+BusinessRecurrenceIntervalConvention,Entity,BusinessRecurrenceIntervalConvention
+hasOrdinalNumber,Entity,hasOrdinalNumber
+XMLSchema#nonNegativeInteger,Entity,XMLSchema#nonNegativeInteger
+Monday,Entity,Monday
+BusinessRecurrenceInterval,Entity,BusinessRecurrenceInterval
+"convention specifying that a non-business date will be adjusted to the first following day that is a business day unless that day falls in the next calendar month, in which case that date will be the first preceding day that is a calendar date",Entity,"convention specifying that a non-business date will be adjusted to the first following day that is a business day unless that day falls in the next calendar month, in which case that date will be the first preceding day that is a calendar date"
+convention specifying that a date will be adjusted to the first previous day that is a business day,Entity,convention specifying that a date will be adjusted to the first previous day that is a business day
+Business Dates Ontology,Entity,Business Dates Ontology
+convention specifying that a non-business date will be adjusted to the first following day that is a business day,Entity,convention specifying that a non-business date will be adjusted to the first following day that is a business day
+day of month,Entity,day of month
+"specific, recurring day of the week",Entity,"specific, recurring day of the week"
+"convention specifying that a non-business date will be adjusted to the nearest day that is a business day -- i.e. if the non-business day falls on any day other than a Sunday or a Monday, it will be the first preceding day that is a business day, and will be the first following business day if it falls on a Sunday or a Monday",Entity,"convention specifying that a non-business date will be adjusted to the nearest day that is a business day -- i.e. if the non-business day falls on any day other than a Sunday or a Monday, it will be the first preceding day that is a business day, and will be the first following business day if it falls on a Sunday or a Monday"
+"FPML 5.1 ""BusinessDayConventionEnum""",Entity,"FPML 5.1 ""BusinessDayConventionEnum"""
+Wednesday,Entity,Wednesday
+Ne28830b7a5c4432fa6d388c93e8a0a79,Entity,Ne28830b7a5c4432fa6d388c93e8a0a79
+BusinessDayPreceding,Entity,BusinessDayPreceding
+owl#ObjectProperty,Entity,owl#ObjectProperty
+Convention,Entity,Convention
+Sunday,Entity,Sunday
+Friday,Entity,Friday
+Nc19e281922d148fe9d61dcecafea71a2,Entity,Nc19e281922d148fe9d61dcecafea71a2
+EndOfMonth,Entity,EndOfMonth
+N4869392f48224eb39d4830d2538254d5,Entity,N4869392f48224eb39d4830d2538254d5
+N508befaa8cf0404894366d758a39e562,Entity,N508befaa8cf0404894366d758a39e562
+hasBusinessDayConvention,Entity,hasBusinessDayConvention
+identifies a convention for adjustment of the business day for handling weekends and holidays,Entity,identifies a convention for adjustment of the business day for handling weekends and holidays
+BusinessDates.rdf version of this ontology was modified to eliminate elements that have been deprecated for several quarters (FND-386).,Entity,BusinessDates.rdf version of this ontology was modified to eliminate elements that have been deprecated for several quarters (FND-386).
+"specific, recurring day of the month",Entity,"specific, recurring day of the month"
+hasBusinessDayAdjustment,Entity,hasBusinessDayAdjustment
+business day none,Entity,business day none
+Release,Entity,Release
+,Entity,
+Nabafa3f4c2c4427aacf2f3b810d0c807,Entity,Nabafa3f4c2c4427aacf2f3b810d0c807
+Ndb2ee30cd15e4fc197c47883757ab0f4,Entity,Ndb2ee30cd15e4fc197c47883757ab0f4
+DayOfWeek,Entity,DayOfWeek
+BusinessDayModifiedFollowing,Entity,BusinessDayModifiedFollowing
+Nc56cd64c9bdf46f8baee8c953cf88e41,Entity,Nc56cd64c9bdf46f8baee8c953cf88e41
+has business recurrence interval convention,Entity,has business recurrence interval convention
+"identifies a convention regarding how certain recurring dates should be handled with respect to a given schedule, such as the end of the month",Entity,"identifies a convention regarding how certain recurring dates should be handled with respect to a given schedule, such as the end of the month"
+BusinessDayNone,Entity,BusinessDayNone
+business day adjustment,Entity,business day adjustment
+Ne624546831b34291bbc975e121634434,Entity,Ne624546831b34291bbc975e121634434
+Nb49c0514f23345f291caba4890736291,Entity,Nb49c0514f23345f291caba4890736291
+business day convention,Entity,business day convention
+N9ee29bf909544012a2b664df6e42b7dd,Entity,N9ee29bf909544012a2b664df6e42b7dd
+ version of this ontology was revised to better support definitions related to business day adjustments.,Entity, version of this ontology was revised to better support definitions related to business day adjustments.
+business day following,Entity,business day following
+BusinessDayNearest,Entity,BusinessDayNearest
+BusinessDayAdjustment,Entity,BusinessDayAdjustment
+convention,Entity,convention
+BusinessDates.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,Entity,BusinessDates.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+convention that enumerates the possible ways to handle a date that falls on a weekend or holiday,Entity,convention that enumerates the possible ways to handle a date that falls on a weekend or holiday
+22-rdf-syntax-ns#nil,Entity,22-rdf-syntax-ns#nil
+end of the month,Entity,end of the month
+business recurrence interval convention,Entity,business recurrence interval convention
+business day preceding,Entity,business day preceding
+widely accepted or established way of doing 'something' within some community of practice,Entity,widely accepted or established way of doing 'something' within some community of practice
+BusinessDates.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,Entity,BusinessDates.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+"Copyright (c) 2014-2024 Object Management Group, Inc.",Entity,"Copyright (c) 2014-2024 Object Management Group, Inc."
+"BusinessDates.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",Entity,"BusinessDates.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate."
+identifies a convention regarding how a date should be handled when it falls on a day that is not a business day,Entity,identifies a convention regarding how a date should be handled when it falls on a day that is not a business day
+owl#Class,Entity,owl#Class
+business day modified preceding,Entity,business day modified preceding
+business day modified following,Entity,business day modified following
+"convention that specifies how recurring days should be handled, such as the end of the month, a particular day of the month, a day of the week, or more specifically, a t-bill auction date",Entity,"convention that specifies how recurring days should be handled, such as the end of the month, a particular day of the month, a day of the week, or more specifically, a t-bill auction date"
+ version of this ontology was revised to address hygiene issues with respect to text processing.,Entity, version of this ontology was revised to address hygiene issues with respect to text processing.
+BusinessDayConvention,Entity,BusinessDayConvention
+RegularSchedule,Entity,RegularSchedule
+RecurrenceInterval,Entity,RecurrenceInterval
+BusinessDayModifiedPreceding,Entity,BusinessDayModifiedPreceding
+owl#Ontology,Entity,owl#Ontology
+Nf139b93cce7247f4950b18219e2e1f11,Entity,Nf139b93cce7247f4950b18219e2e1f11
+convention specifying that a date will not be adjusted if it falls on a day that is not a business day,Entity,convention specifying that a date will not be adjusted if it falls on a day that is not a business day
+CalculatedDate,Entity,CalculatedDate
+DayOfMonth,Entity,DayOfMonth
+"the last day of a calendar month, irrespective of the length of the calendar month",Entity,"the last day of a calendar month, irrespective of the length of the calendar month"
+Tuesday,Entity,Tuesday
+has business day convention,Entity,has business day convention

@@ -1,0 +1,317 @@
+source_id,target_id,relationship
+hasAmount,total number or quantity,core#definition
+N18ddc86e30e8436e8ff234342645b25d,Currency,owl#someValuesFrom
+UnitPrice,N2956db9cb65e44fdbaf3c7842bc5e390,rdf-schema#subClassOf
+Funds,"Codes for the representation of currencies and funds, ISO 4217, Eighth edition, 2015-08-01, section 3.3",definitionOrigin
+Nc1dae753eb4e446b8aeecec4559e446f,hasTag,owl#onProperty
+,"Copyright (c) 2013-2023 Object Management Group, Inc.",copyright
+, version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+CalculatedPrice,owl#Class,22-rdf-syntax-ns#type
+FundsIdentifier,sequence of characters that can be used to uniquely identify funds,core#definition
+isPriceFor,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"CurrencyAmount.rdf version of this ontology was modified to include several classes to support automated inclusion of all ISO 4217 codes published as of 2018-06-04, and to revise definitions per the eighth edition of the specification.",core#changeNote
+N13c39a8568ef4c0e88f219bfd9f6c497,owl#Restriction,22-rdf-syntax-ns#type
+N2b8763db49684f5ea3f5c8ba208ffd31,owl#Restriction,22-rdf-syntax-ns#type
+Nae3e143dd7854681af37cfaa7d7923c0,owl#Restriction,22-rdf-syntax-ns#type
+hasMinorUnit,"Requirements sometimes arise for values to be expressed in terms of minor units of currency. When this occurs, it is necessary to know the decimal relationship that exists between the currency concerned and its minor unit. 
+- 0 means that there is no minor unit for the currency; 
+- 1, 2, and 3 signify a ratio of 10 to 1, 100 to 1 and 1000 to 1 respectively.",core#scopeNote
+hasNumericCode,hasTextValue,rdf-schema#subPropertyOf
+,"(1) The present version of the ontology covers the English sections of the ISO 4217 standard only, and (2) UTF-8 character encodings are employed in names in the currency codes ontology to support the broadest number of tools.",core#editorialNote
+N0377312d8afb4d2fbce2ac3a2259e4ad,XMLSchema#string,owl#someValuesFrom
+InterestRate,owl#Class,22-rdf-syntax-ns#type
+AmountOfMoney,"This is an actual sum of money, not the measure of a sum of money in monetary units, although it has the same basic properties (decimal number with a currenct unit).",core#editorialNote
+MonetaryAmount,monetary amount,rdf-schema#label
+N2412cfaed98b4cc2a97750590ca64951,hasTextualName,owl#onProperty
+CalculatedPrice,N5f441c5eb9894be2a7cb8b556d225b0d,rdf-schema#subClassOf
+InterestRate,"Interest rates are typically noted on an annual basis, known as the annual percentage rate (APR). The assets borrowed could include cash, consumer goods, and large assets such as a vehicle or building. The rate is derived by dividing the amount of interest by the amount of principal borrowed. Interest rates are quoted on bills, notes, bonds, credit cards, and many kinds of consumer and business loans.",explanatoryNote
+," version of this ontology was modified to move the definition of precious metal and the corresponding identifier to this ontology from Products and Services to simplify imports in cases where the broader definitions for commodities are not required and deprecated isTenderIn, given that we have used the property isUsedBy for this purpose in the currency codes themselves.",core#changeNote
+N3a416bd6586f41ed8c804f99742d3801,hasCurrency,owl#onProperty
+FundsIdentifier,"Codes for the representation of currencies and funds, ISO 4217, Eighth edition, 2015-08-01, section 3.2",adaptedFrom
+MonetaryPrice,price that that is expressed as a monetary amount,core#definition
+PreciousMetal,N0377312d8afb4d2fbce2ac3a2259e4ad,rdf-schema#subClassOf
+UnitOfAccount,unit of account,rdf-schema#label
+Currency,N2412cfaed98b4cc2a97750590ca64951,rdf-schema#subClassOf
+ExchangeRate,owl#Class,22-rdf-syntax-ns#type
+hasRateValue,has a value for a rate expressed as a number (may be a percentage or raw number),core#definition
+FundsIdentifier,CodeElement,rdf-schema#subClassOf
+,,owl#versionIRI
+hasCurrency,Currency,rdf-schema#range
+,CurrencyAmount.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.,core#changeNote
+hasNotionalAmount,"For certain kinds of derivative instruments, including but not limited to swaps, the notional amount indicates face amount of a swap upon which the payment streams for that swap are based. While this is typically constant throughout the lifetime of a contract, it can be accreting, amortizing, or custom, such as in the case of a notional step schedule.",explanatoryNote
+ExchangeRate,exchange rate,rdf-schema#label
+hasNotionalAmount,MonetaryAmount,rdf-schema#range
+N90a66745a3654654a027b029208fb0c9,owl#Restriction,22-rdf-syntax-ns#type
+Nae40975c641d4b1095cd6f75e0d99198,identifies,owl#onProperty
+CurrencyIdentifier,owl#Class,22-rdf-syntax-ns#type
+Currency,MeasurementUnit,rdf-schema#subClassOf
+hasBaseCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+N21a65e19a8824a70860c0b7dfb94596d,owl#Restriction,22-rdf-syntax-ns#type
+PreciousMetalIdentifier,sequence of characters uniquely identifying the precious metal in some context,core#definition
+CurrencyIdentifier,N36dd42866e704b0c9e1f13359681f461,rdf-schema#subClassOf
+N90a66745a3654654a027b029208fb0c9,1,owl#qualifiedCardinality
+ExchangeRate,N63a68fb7d87840a9b183de9d0730041f,rdf-schema#subClassOf
+hasFundsType,"indicates the type of funds, such as next day for US funds",core#definition
+N2b8763db49684f5ea3f5c8ba208ffd31,1,owl#qualifiedCardinality
+PercentageMonetaryAmount,"measure of some amount of money expressed as a percentage of some other amount, some notional amount or some concrete money amount",core#definition
+," version of this ontology was modified to add a restriction to indicate the currency on percentage monetary amount, make currency a subclass of unit of measure, and deprecate the notion of monetary measure, which is more about monetary policy and was incorrectly used in a few places, and is out of scope for our current set of use cases.",core#changeNote
+N13c39a8568ef4c0e88f219bfd9f6c497,XMLSchema#string,owl#onDataRange
+Nae3e143dd7854681af37cfaa7d7923c0,1,owl#qualifiedCardinality
+Currency,Nfeafd70ba98b42f8baff9ad1cd117a47,rdf-schema#subClassOf
+Nfeafd70ba98b42f8baff9ad1cd117a47,owl#Restriction,22-rdf-syntax-ns#type
+AmountOfMoney,owl#Class,22-rdf-syntax-ns#type
+Currency,currency unit,synonym
+N36dd42866e704b0c9e1f13359681f461,owl#Restriction,22-rdf-syntax-ns#type
+N18ddc86e30e8436e8ff234342645b25d,hasConstituent,owl#onProperty
+UnitPrice,monetary price expressed in relation to a well-known measurable unit by which the goods or services are allocated,core#definition
+N21a65e19a8824a70860c0b7dfb94596d,1,owl#qualifiedCardinality
+FundsIdentifier,N5cb93c40754e494aafb2b418f51e866c,rdf-schema#subClassOf
+PercentageMonetaryAmount,N19cda6d6e2df4907b398de576b53f89b,rdf-schema#subClassOf
+hasRateValue,hasNumericValue,rdf-schema#subPropertyOf
+hasBaseCurrency,hasCurrency,rdf-schema#subPropertyOf
+Currency,"Codes for the representation of currencies and funds, ISO 4217, Eighth edition, 2015-08-01, section 3.2",definitionOrigin
+Price,owl#Class,22-rdf-syntax-ns#type
+hasPrice,Price,rdf-schema#range
+,CurrencyAmount.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+MonetaryPrice,Price,rdf-schema#subClassOf
+isPriceFor,refersTo,rdf-schema#subPropertyOf
+hasAmount,XMLSchema#decimal,rdf-schema#range
+UnitPrice,unit price,rdf-schema#label
+hasMinorUnit,has minor unit,rdf-schema#label
+N36dd42866e704b0c9e1f13359681f461,Currency,owl#someValuesFrom
+isPriceFor,is price for,rdf-schema#label
+N5cb93c40754e494aafb2b418f51e866c,XMLSchema#string,owl#onDataRange
+CurrencyBasket,currency basket,rdf-schema#label
+hasNumericCode,"relates a numeric code to something, such as a currency or fund",core#definition
+hasRateValue,XMLSchema#decimal,rdf-schema#range
+N36dd42866e704b0c9e1f13359681f461,identifies,owl#onProperty
+UnitOfAccountIdentifier,owl#Class,22-rdf-syntax-ns#type
+isPriceFor,links a price to something it provides a value for,core#definition
+N5f441c5eb9894be2a7cb8b556d225b0d,hasExpression,owl#onProperty
+UnitOfAccountIdentifier,Identifier,rdf-schema#subClassOf
+,"ISO 4217 Codes for the representation of currencies and funds, Eighth edition, 2015-08-01",directSource
+N2956db9cb65e44fdbaf3c7842bc5e390,owl#Restriction,22-rdf-syntax-ns#type
+N19cda6d6e2df4907b398de576b53f89b,hasCurrency,owl#onProperty
+N63a68fb7d87840a9b183de9d0730041f,Currency,owl#onClass
+ExchangeRate,N2cc6349fd1c74d28928f923c270cf653,rdf-schema#subClassOf
+MonetaryPrice,MonetaryAmount,rdf-schema#subClassOf
+hasNotionalAmount,has notional amount,rdf-schema#label
+N3a416bd6586f41ed8c804f99742d3801,Currency,owl#onClass
+ExchangeRate,Ratio,rdf-schema#subClassOf
+CalculatedPrice,monetary price determined by a formula,core#definition
+N5cb93c40754e494aafb2b418f51e866c,hasTag,owl#onProperty
+hasAmount,has amount,rdf-schema#label
+Nfc43cab15b74430987f0a2f4c364cac9,Currency,owl#onClass
+PreciousMetalIdentifier,Nae3e143dd7854681af37cfaa7d7923c0,rdf-schema#subClassOf
+hasNotionalAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasRateValue,has rate value,rdf-schema#label
+Nb38b16bab4f54d3bb63ec67dcc18aad4,owl#Restriction,22-rdf-syntax-ns#type
+,"CurrencyAmount.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+,owl#Ontology,22-rdf-syntax-ns#type
+N2956db9cb65e44fdbaf3c7842bc5e390,isPriceFor,owl#onProperty
+hasNotionalAmount,"ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10, clause 6.8.2",adaptedFrom
+Currency,"medium of exchange value, defined by reference to the geographical location of the monetary authorities responsible for it",core#definition
+hasNumericCode,"In the case of currency codes, the numeric currency code is derived, where possible, from the United Nations Standard Country or Area Code. Additional codes to meet special requirements (as described in 5.1.3) and in respect of funds will be allocated as necessary from within the user-assigned range of codes 950 to 998. Funds codes are allocated in descending order commencing at 998.",core#scopeNote
+PreciousMetalIdentifier,N554ae10c5f2846cb8acd300fe2e179a5,rdf-schema#subClassOf
+ExchangeRate,rate at which one currency can be exchanged for another,core#definition
+PreciousMetalIdentifier,CodeElement,rdf-schema#subClassOf
+,"This ontology defines currency and monetary amount related concepts for use in defining other FIBO ontology elements. There are two distinct kinds of concepts that correspond to money and amounts: a concrete, actual amount of money, and the monetary measure of something denominated in some currency. These are dimensionally the same but whereas 'money amount' is defined as an amount of money, 'monetary amount' is an abstract monetary measure.
+
+The definition of currency provided herein is compliant with the definitions given in ISO 4217. ISO 4217 provides universally applicable coded representations of names of currencies and funds, used internationally for financial transaction support. The ontology has been partitioned into 2 parts: (1) the essential concept system describing the standard (this module), and (2) ISO4217-1-CurrencyCodes, which contains all of the individuals specified in ISO 4217.",abstract
+CurrencyIdentifier,Identifier,rdf-schema#subClassOf
+N2412cfaed98b4cc2a97750590ca64951,XMLSchema#string,owl#someValuesFrom
+hasMonetaryAmount,has monetary amount,rdf-schema#label
+N9dc9db809c64484da9cd8f598cdedb01,1,owl#maxQualifiedCardinality
+PreciousMetal,or have a high economic value,core#definition
+Price,price,rdf-schema#label
+CurrencyIdentifier,"Codes for the representation of currencies and funds, ISO 4217, Eighth edition, 2015-08-01, section 3.2",adaptedFrom
+N5f441c5eb9894be2a7cb8b556d225b0d,owl#Restriction,22-rdf-syntax-ns#type
+hasDealtCurrency,hasCurrency,rdf-schema#subPropertyOf
+hasDealtCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+Currency,currency,rdf-schema#label
+CurrencyIdentifier,sequence of characters representing some currency,core#definition
+,Release,hasMaturityLevel
+AmountOfMoney,cash,synonym
+Nfc43cab15b74430987f0a2f4c364cac9,hasCurrency,owl#onProperty
+Nfeafd70ba98b42f8baff9ad1cd117a47,GeopoliticalEntity,owl#someValuesFrom
+," version of this ontology was modified to loosen a restriction on currency to allow for more than one numeric currency code, which was necessitated by the October 2021 update to the ISO currency code definitions.",core#changeNote
+MonetaryPrice,owl#Class,22-rdf-syntax-ns#type
+UnitPrice,MonetaryPrice,rdf-schema#subClassOf
+N40f37daf30c84288955d7df530d158f6,XMLSchema#decimal,owl#onDataRange
+N40f37daf30c84288955d7df530d158f6,hasRateValue,owl#onProperty
+hasPrice,hasQuantityValue,rdf-schema#subPropertyOf
+CurrencyIdentifier,"The first (left-most) two characters of the ISO 4217 3-letter currency identifier relate to the currency authority that issues the currency, and is, in most cases the ISO 3166-1 alpha 2 code for the geopolitical entity whose central bank is the issuer. The third (right-most) character of the identifier (alphabetic code) is an indicator derived from the name of the major currency unit or fund. If the currency is not associated with a single geographical entity as described in ISO 3166-1, typically a specially allocated identifier (alpha-2 code) is used to describe the currency authority. This code has been allocated by the Maintenance Agency from within the user-assigned range of codes XA to XZ specified in 8.1.3 of ISO 3166-1:2013. The character following X will be a mnemonic, where possible, derived from the name of the geographical area concerned.",explanatoryNote
+N90a66745a3654654a027b029208fb0c9,XMLSchema#string,owl#onDataRange
+FundsIdentifier,funds identifier,rdf-schema#label
+Nc1dae753eb4e446b8aeecec4559e446f,1,owl#qualifiedCardinality
+Nae3e143dd7854681af37cfaa7d7923c0,XMLSchema#string,owl#onDataRange
+Currency,N9dc9db809c64484da9cd8f598cdedb01,rdf-schema#subClassOf
+isPriceFor,hasPrice,owl#inverseOf
+UnitOfAccount,Currency,rdf-schema#subClassOf
+Nc1dae753eb4e446b8aeecec4559e446f,owl#Restriction,22-rdf-syntax-ns#type
+MonetaryPrice,"As the consideration given in exchange for transfer of ownership, price forms the essential basis of commercial transactions. It may be fixed by a contract, left to be determined by an agreed upon formula at a future date, or discovered or negotiated during the course of dealings between the parties involved. In commerce, price is determined by what (1) a buyer is willing to pay, (2) a seller is willing to accept, and (3) the competition is allowing to be charged.",explanatoryNote
+,"ISO 4217 Codes for the representation of currencies and funds, Seventh edition, 2008-07-15",directSource
+N21a65e19a8824a70860c0b7dfb94596d,hasDealtCurrency,owl#onProperty
+N63a68fb7d87840a9b183de9d0730041f,hasBaseCurrency,owl#onProperty
+hasPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+FundsIdentifier,Nd40d2015c66841618f0ae01cf80b9911,rdf-schema#subClassOf
+hasBaseCurrency,"specifies a unit of currency representing R units of the dealt currency, where R is the exchange rate value, in an exchange rate",core#definition
+N13c39a8568ef4c0e88f219bfd9f6c497,hasTag,owl#onProperty
+, version of this ontology was modified to use the generic statistical measures and measurements now in FND.,core#changeNote
+hasCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+N19cda6d6e2df4907b398de576b53f89b,Currency,owl#onClass
+N5f441c5eb9894be2a7cb8b556d225b0d,1,owl#qualifiedCardinality
+N40f37daf30c84288955d7df530d158f6,owl#Restriction,22-rdf-syntax-ns#type
+N3a416bd6586f41ed8c804f99742d3801,1,owl#qualifiedCardinality
+hasNumericCode,has numeric code,rdf-schema#label
+MonetaryPrice,monetary price,rdf-schema#label
+MonetaryAmount,owl#Class,22-rdf-syntax-ns#type
+UnitOfAccountIdentifier,unit of account identifier,rdf-schema#label
+Price,"amount of money, goods, or services requested, expected, required, or given in exchange for something else",core#definition
+ExchangeRate,The exchange rate between the U.S. dollar and British pound is distinct from the exchange rate between the U.S. dollar and the euro.,core#example
+hasDealtCurrency,specifies a unit of currency representing the exchanged (target) currency in an exchange rate; R units of this currency represent one unit of the base currency,core#definition
+N9dc9db809c64484da9cd8f598cdedb01,owl#Restriction,22-rdf-syntax-ns#type
+Nd40d2015c66841618f0ae01cf80b9911,owl#Restriction,22-rdf-syntax-ns#type
+Nac02e91c7c044b7eada78fd3cdea7d5e,hasAmount,owl#onProperty
+,Currency Amount Ontology,rdf-schema#label
+isPriceFor,Price,rdf-schema#domain
+Nb38b16bab4f54d3bb63ec67dcc18aad4,hasNumericCode,owl#onProperty
+N63a68fb7d87840a9b183de9d0730041f,1,owl#qualifiedCardinality
+CalculatedPrice,MonetaryPrice,rdf-schema#subClassOf
+hasNotionalAmount,hasMonetaryAmount,rdf-schema#subPropertyOf
+hasNumericCode,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasBaseCurrency,Currency,rdf-schema#range
+N2cc6349fd1c74d28928f923c270cf653,hasRateValue,owl#onProperty
+InterestRate,interest rate,rdf-schema#label
+hasFundsType,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N2cc6349fd1c74d28928f923c270cf653,XMLSchema#decimal,owl#onDataRange
+N0377312d8afb4d2fbce2ac3a2259e4ad,owl#Restriction,22-rdf-syntax-ns#type
+CurrencyBasket,N18ddc86e30e8436e8ff234342645b25d,rdf-schema#subClassOf
+Nd40d2015c66841618f0ae01cf80b9911,identifies,owl#onProperty
+hasAmount,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasMinorUnit,XMLSchema#string,rdf-schema#range
+hasMonetaryAmount,specifies a value for something in terms of an amount of money and the currency in which it is denoted,core#definition
+Currency,Nb38b16bab4f54d3bb63ec67dcc18aad4,rdf-schema#subClassOf
+PreciousMetalIdentifier,owl#Class,22-rdf-syntax-ns#type
+N2b8763db49684f5ea3f5c8ba208ffd31,hasCurrency,owl#onProperty
+N9dc9db809c64484da9cd8f598cdedb01,hasMinorUnit,owl#onProperty
+N40f37daf30c84288955d7df530d158f6,1,owl#qualifiedCardinality
+N2cc6349fd1c74d28928f923c270cf653,owl#Restriction,22-rdf-syntax-ns#type
+UnitPrice,"For example, gold is commonly measured in troy ounces, grams, etc., and oil is measured in terms of barrels.",core#example
+N90a66745a3654654a027b029208fb0c9,hasNumericCode,owl#onProperty
+Nae40975c641d4b1095cd6f75e0d99198,UnitOfAccount,owl#someValuesFrom
+CurrencyIdentifier,currency identifier,rdf-schema#label
+Nac02e91c7c044b7eada78fd3cdea7d5e,XMLSchema#decimal,owl#onDataRange
+PercentageMonetaryAmount,owl#Class,22-rdf-syntax-ns#type
+hasRateValue,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasNotionalAmount,"has a generally unchangeable value used for certain calculations, expressed as some monetary amount",core#definition
+,MIT,license
+N9dc9db809c64484da9cd8f598cdedb01,XMLSchema#string,owl#onDataRange
+UnitOfAccountIdentifier,Nae40975c641d4b1095cd6f75e0d99198,rdf-schema#subClassOf
+UnitPrice,owl#Class,22-rdf-syntax-ns#type
+hasMinorUnit,relates a code for the minor unit of currency to the currency or fund,core#definition
+InterestRate,"amount charged, expressed as a percentage of principal, in exchange for the use of assets",core#definition
+hasNumericCode,XMLSchema#string,rdf-schema#range
+N19cda6d6e2df4907b398de576b53f89b,owl#Restriction,22-rdf-syntax-ns#type
+AmountOfMoney,N3a416bd6586f41ed8c804f99742d3801,rdf-schema#subClassOf
+UnitOfAccountIdentifier,Nc1dae753eb4e446b8aeecec4559e446f,rdf-schema#subClassOf
+hasPrice,has price,rdf-schema#label
+N554ae10c5f2846cb8acd300fe2e179a5,owl#Restriction,22-rdf-syntax-ns#type
+hasFundsType,hasTextValue,rdf-schema#subPropertyOf
+, version of this ontology was modified to correct the explanatory note on currency identifier.,core#changeNote
+AmountOfMoney,amount of money,rdf-schema#label
+hasMinorUnit,owl#DatatypeProperty,22-rdf-syntax-ns#type
+InterestRate,PercentageMonetaryAmount,rdf-schema#subClassOf
+CurrencyBasket,owl#Class,22-rdf-syntax-ns#type
+hasBaseCurrency,owl#InverseFunctionalProperty,22-rdf-syntax-ns#type
+,"CurrencyAmount.rdf) version of this ontology was modified per FIBO 2.0 RFC, including the addition of a new hasMonetaryAmount property as a superproperty of others required by various FIBO domain teams and integration with LCC.",core#changeNote
+PreciousMetalIdentifier,Identifier,rdf-schema#subClassOf
+CurrencyBasket,StructuredCollection,rdf-schema#subClassOf
+hasMonetaryAmount,MonetaryAmount,rdf-schema#range
+Funds,N2b8763db49684f5ea3f5c8ba208ffd31,rdf-schema#subClassOf
+FundsIdentifier,owl#Class,22-rdf-syntax-ns#type
+N13c39a8568ef4c0e88f219bfd9f6c497,1,owl#qualifiedCardinality
+FundsIdentifier,Identifier,rdf-schema#subClassOf
+CurrencyIdentifier,CodeElement,rdf-schema#subClassOf
+N0377312d8afb4d2fbce2ac3a2259e4ad,hasTextualName,owl#onProperty
+PercentageMonetaryAmount,percentage monetary amount,rdf-schema#label
+CurrencyIdentifier,N13c39a8568ef4c0e88f219bfd9f6c497,rdf-schema#subClassOf
+PreciousMetal,precious metal,rdf-schema#label
+N2cc6349fd1c74d28928f923c270cf653,1,owl#qualifiedCardinality
+MonetaryAmount,Nfc43cab15b74430987f0a2f4c364cac9,rdf-schema#subClassOf
+PercentageMonetaryAmount,Percentage,rdf-schema#subClassOf
+,", including adding support for ISO 4217 currency codes.",core#changeNote
+CurrencyBasket,"Codes for the representation of currencies and funds, ISO 4217, Eighth edition, 2015-08-01, section 3.2",definitionOrigin
+N5f441c5eb9894be2a7cb8b556d225b0d,Expression,owl#onClass
+hasFundsType,has funds type,rdf-schema#label
+,,owl#imports
+," version of this ontology was modified to replace a redundant concept, calculation formula with formula.",core#changeNote
+N3a416bd6586f41ed8c804f99742d3801,owl#Restriction,22-rdf-syntax-ns#type
+Currency,owl#Class,22-rdf-syntax-ns#type
+N554ae10c5f2846cb8acd300fe2e179a5,identifies,owl#onProperty
+hasAmount,hasNumericValue,rdf-schema#subPropertyOf
+N19cda6d6e2df4907b398de576b53f89b,1,owl#qualifiedCardinality
+hasFundsType,XMLSchema#string,rdf-schema#range
+N554ae10c5f2846cb8acd300fe2e179a5,PreciousMetal,owl#someValuesFrom
+N2b8763db49684f5ea3f5c8ba208ffd31,Currency,owl#onClass
+hasCurrency,hasMeasurementUnit,rdf-schema#subPropertyOf
+Nae3e143dd7854681af37cfaa7d7923c0,hasTag,owl#onProperty
+hasMinorUnit,hasTextValue,rdf-schema#subPropertyOf
+N18ddc86e30e8436e8ff234342645b25d,owl#Restriction,22-rdf-syntax-ns#type
+hasDealtCurrency,Currency,rdf-schema#range
+N63a68fb7d87840a9b183de9d0730041f,owl#Restriction,22-rdf-syntax-ns#type
+,"CurrencyAmount.rdf version of this ontology was modified to tease out the distinction between the nominal and notional amount, which were confused (DER-127) and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).",core#changeNote
+," version of this ontology was modified to eliminate duplication with concepts in LCC, dependencies on a couple of ontologies that were unnecessary, eliminate references to external dictionary sites that no longer resolve, clean up ambiguity in definitions, eliminate a redundant property, and add unit price.",core#changeNote
+Currency,monetary unit,synonym
+Nfeafd70ba98b42f8baff9ad1cd117a47,isUsedBy,owl#onProperty
+Funds,Currency,rdf-schema#subClassOf
+Nac02e91c7c044b7eada78fd3cdea7d5e,owl#Restriction,22-rdf-syntax-ns#type
+N5cb93c40754e494aafb2b418f51e866c,owl#Restriction,22-rdf-syntax-ns#type
+CurrencyBasket,A currency basket functions as a benchmark for regional currency movements; its composition and weighting depends on its purpose.,core#note
+N21a65e19a8824a70860c0b7dfb94596d,Currency,owl#onClass
+Nfc43cab15b74430987f0a2f4c364cac9,owl#Restriction,22-rdf-syntax-ns#type
+hasBaseCurrency,has base currency,rdf-schema#label
+hasFundsType,Funds,rdf-schema#domain
+hasDealtCurrency,has dealt currency,rdf-schema#label
+Nb38b16bab4f54d3bb63ec67dcc18aad4,XMLSchema#string,owl#someValuesFrom
+hasNotionalAmount,"The notional amount (or notional principal amount or notional value) on a financial instrument is typically the face amount used to calculate payments made on that instrument. This amount generally does not change and is thus referred to as notional.
+		
+		When applied to a swap this is the amount used for calculating the actual value of the interest due. Also known as notional value when describing derivative contracts in the options, futures, and currency markets, this term is often used to value the underlying asset in a derivatives trade. It can be the total value of a position, how much value a position controls, or an agreed-upon amount in a contract.
+
+		An example is that a firm might have a variable rate loan on $100,000 but decide to swap only $40,000. The $40,000 is the notional amount of the swap and becomes the amount on which interest is paid.",explanatoryNote
+Nc1dae753eb4e446b8aeecec4559e446f,XMLSchema#string,owl#onDataRange
+UnitOfAccount,"nominal monetary unit of measure used to represent the real value (or cost) of any economic item; i.e. goods, services, assets, liabilities, income, expenses",core#definition
+PreciousMetal,owl#Class,22-rdf-syntax-ns#type
+AmountOfMoney,ScalarQuantityValue,rdf-schema#subClassOf
+InterestRate,N40f37daf30c84288955d7df530d158f6,rdf-schema#subClassOf
+MonetaryAmount,ScalarQuantityValue,rdf-schema#subClassOf
+Funds,funds,rdf-schema#label
+N2412cfaed98b4cc2a97750590ca64951,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+, version of this ontology was modified to improve definitions for notional amount and currency identifier.,core#changeNote
+Nac02e91c7c044b7eada78fd3cdea7d5e,1,owl#qualifiedCardinality
+hasCurrency,"specifies the medium of exchange value in which something, such as a monetary amount is denominated",core#definition
+N5cb93c40754e494aafb2b418f51e866c,1,owl#qualifiedCardinality
+Funds,owl#Class,22-rdf-syntax-ns#type
+UnitOfAccountIdentifier,CodeElement,rdf-schema#subClassOf
+Nfc43cab15b74430987f0a2f4c364cac9,1,owl#qualifiedCardinality
+UnitOfAccountIdentifier,sequence of characters that can be used to uniquely identify a nominal monetary unit,core#definition
+ExchangeRate,N21a65e19a8824a70860c0b7dfb94596d,rdf-schema#subClassOf
+MonetaryAmount,Nac02e91c7c044b7eada78fd3cdea7d5e,rdf-schema#subClassOf
+hasCurrency,has currency,rdf-schema#label
+hasMonetaryAmount,hasQuantityValue,rdf-schema#subPropertyOf
+UnitOfAccount,owl#Class,22-rdf-syntax-ns#type
+Price,ScalarQuantityValue,rdf-schema#subClassOf
+CalculatedPrice,calculated price,rdf-schema#label
+CurrencyBasket,"selected group of currencies, in which the weighted average is used as a measure of the value or the amount of an obligation",core#definition
+N2956db9cb65e44fdbaf3c7842bc5e390,owl#Thing,owl#someValuesFrom
+AmountOfMoney,amount of readily available cash in banknotes and coins,core#definition
+, version of this ontology was modified to eliminate hygiene errors with respect to text formatting.,core#changeNote
+PreciousMetal,N90a66745a3654654a027b029208fb0c9,rdf-schema#subClassOf
+hasMonetaryAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+PreciousMetalIdentifier,precious metal identifier,rdf-schema#label
+Funds,artificial currency used as calculation basis for another currency(s) and accounting purposes,core#definition
+hasPrice,indicates the value of something expressed as an amount of money or goods,core#definition
+MonetaryAmount,measure that is an amount of money specified in monetary units,core#definition
+Nd40d2015c66841618f0ae01cf80b9911,Funds,owl#someValuesFrom
+Nae40975c641d4b1095cd6f75e0d99198,owl#Restriction,22-rdf-syntax-ns#type

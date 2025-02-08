@@ -1,0 +1,70 @@
+source_id,target_id,relationship
+ElectronicMailAddress,VirtualAddress,rdf-schema#subClassOf
+hasURL,has uniform resource locator,synonym
+,,owl#imports
+hasElectronicMailAddress,specifies an electronic messaging endpoint at which some entity may be located or contacted or may receive correspondence,core#definition
+NotionalPlace,Location,rdf-schema#subClassOf
+hasWebsite,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+NetworkLocation,network location,rdf-schema#label
+,VirtualPlaces.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+,"Copyright (c) 2013-2023 Object Management Group, Inc.",copyright
+VirtualLocation,virtual location,rdf-schema#label
+hasElectronicMailAddress,has electronic mail address,rdf-schema#label
+,VirtualPlaces.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+hasTelephoneNumber,owl#ObjectProperty,22-rdf-syntax-ns#type
+,MIT,license
+,VirtualPlaces.rdf version of this ontology was modified for the FIBO 2.0 RFC to integrate it with LCC.,core#changeNote
+VirtualLocation,Location,rdf-schema#subClassOf
+hasElectronicMailAddress,hasAddress,rdf-schema#subPropertyOf
+,This ontology provides scaffolding for use in describing virtual location-oriented concepts.,abstract
+hasWebsite,"links something to a page or set of related web pages located under a single domain name, typically produced by a single person or organization",core#definition
+ElectronicMailAddress,owl#Class,22-rdf-syntax-ns#type
+hasURL,has URL,rdf-schema#label
+hasElectronicMailAddress,has email address,abbreviation
+,"VirtualPlaces.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasTelephoneNumber,has telephone number,rdf-schema#label
+TelephoneNumber,VirtualAddress,rdf-schema#subClassOf
+N0fa7480b29e1490eba8fa247dfa963c6,isIdentifiedBy,owl#onProperty
+ElectronicMailAddress,"virtual address that defines an electronic messaging endpoint to which email messages can be delivered, typically via an Simple Mail Transfer Protocol (SMTP) based communications system",core#definition
+hasWebsite,hasURL,rdf-schema#subPropertyOf
+,,owl#versionIRI
+NotionalPlace,"an abstract place; one of many commonly understood concepts such as domestic, Eurozone etc.",core#definition
+NetworkLocation,owl#Class,22-rdf-syntax-ns#type
+N0fa7480b29e1490eba8fa247dfa963c6,Address,owl#onClass
+NetworkLocation,VirtualLocation,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+TelephoneNumber,phone number,abbreviation
+ElectronicMailAddress,e-mail address,abbreviation
+hasTelephoneNumber,"indicates a virtual address composed of a sequence of digits and symbols that may be assigned to a fixed-line telephone subscriber station, a wireless electronic telephony device, such as a radio telephone or a mobile telephone, or other similar device or service",core#definition
+hasURL,XMLSchema#anyURI,rdf-schema#range
+hasWebsite,"Web Design and Applications involve the standards for building and Rendering Web pages, including HTML, CSS, SVG, device APIs, and other technologies for Web Applications ('WebApps'). HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices and services.",explanatoryNote
+NotionalPlace,notional place,rdf-schema#label
+hasElectronicMailAddress,ElectronicMailAddress,rdf-schema#range
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+hasTelephoneNumber,hasAddress,rdf-schema#subPropertyOf
+hasWebsite,,rdf-schema#seeAlso
+NetworkLocation,a virtual location that may be identified by a network address (an identifier for a node or interface),core#definition
+hasElectronicMailAddress,has e-mail address,abbreviation
+ElectronicMailAddress,"Electronic mail, abbreviated e-mail or email, is a method of composing, sending, and receiving messages over electronic communication systems. The term e-mail applies both to the Internet e-mail system based on the Simple Mail Transfer Protocol (SMTP) and to intranet systems allowing users within one company or organization to send messages to each other. Often these workgroup collaboration systems natively use non-standard protocols but have some form of gateway to allow them to send and receive Internet e-mail. Some organizations may use the Internet protocols for internal e-mail service.",explanatoryNote
+VirtualLocation,owl#Class,22-rdf-syntax-ns#type
+hasURL,links something to a web resource that specifies its location on a computer network and a method for retrieving it,core#definition
+NotionalPlace,owl#Class,22-rdf-syntax-ns#type
+N0fa7480b29e1490eba8fa247dfa963c6,1,owl#qualifiedCardinality
+hasElectronicMailAddress,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasWebsite,has website,rdf-schema#label
+TelephoneNumber,"virtual address that may be assigned to a fixed-line telephone subscriber station connected to a telephone line or to a wireless electronic telephony device, such as a radio telephone or a mobile telephone, or to other devices or services for data transmission via the public switched telephone network (PSTN) or other public and private networks",core#definition
+hasTelephoneNumber,TelephoneNumber,rdf-schema#range
+TelephoneNumber,telephone number,rdf-schema#label
+TelephoneNumber,owl#Class,22-rdf-syntax-ns#type
+hasURL,owl#DatatypeProperty,22-rdf-syntax-ns#type
+VirtualLocation,place that is not located in any single physical location; a network location without geographic boundaries,core#definition
+N0fa7480b29e1490eba8fa247dfa963c6,owl#Restriction,22-rdf-syntax-ns#type
+,VirtualPlaces.rdf version of this ontology was modified to eliminate duplication of concepts in LCC and email address and telephone number.,core#changeNote
+hasWebsite,XMLSchema#anyURI,rdf-schema#range
+,Virtual Places Ontology,rdf-schema#label
+ElectronicMailAddress,electronic mail address,rdf-schema#label
+,This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification.,core#changeNote
+NetworkLocation,N0fa7480b29e1490eba8fa247dfa963c6,rdf-schema#subClassOf
+ElectronicMailAddress,email address,abbreviation
+TelephoneNumber,"Telephone numbers are assigned within the framework of a national or regional telephone numbering plan to subscribers by telephone service operators, which may be commercial entities, state-controlled administrations, or other telecommunication industry associations.",explanatoryNote

@@ -1,0 +1,170 @@
+source_id,target_id,relationship
+Request,Occurrence,rdf-schema#subClassOf
+isSubmittedBy,isProvidedBy,rdf-schema#subPropertyOf
+isRequestedBy,indicates the party that asks for something,core#definition
+Submitter,owl#Class,22-rdf-syntax-ns#type
+isRequestedOf,hasPartyRole,rdf-schema#subPropertyOf
+hasRequestDate,ExplicitDate,rdf-schema#range
+Nabc47e4355734e5c9dcbf90ce9464b80,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2018-2024 Object Management Group, Inc.",copyright
+Nd9e94ec9f44f4f60a0220efec1905161,0,owl#minQualifiedCardinality
+Na64e07110058484daf4b40226dbc1652,owl#Restriction,22-rdf-syntax-ns#type
+N0480ba14e6a24d9384f16f9b381c9c31,DateTime,owl#onClass
+,Reporting.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+submits,owl#ObjectProperty,22-rdf-syntax-ns#type
+Na64e07110058484daf4b40226dbc1652,RequestActivity,owl#someValuesFrom
+isRequestedBy,is requested by,rdf-schema#label
+Nb21a6fcac2734e258c10452f8c157f29,owl#Restriction,22-rdf-syntax-ns#type
+Request,N0480ba14e6a24d9384f16f9b381c9c31,rdf-schema#subClassOf
+Nb21a6fcac2734e258c10452f8c157f29,Report,owl#someValuesFrom
+N0480ba14e6a24d9384f16f9b381c9c31,0,owl#minQualifiedCardinality
+N9a4daa38d2da4171930bbd851402efe8,Requester,owl#someValuesFrom
+Request,Na64e07110058484daf4b40226dbc1652,rdf-schema#subClassOf
+N39e40b81f81e4631b33667992a678ac0,owl#Restriction,22-rdf-syntax-ns#type
+RequestActivity,OccurrenceKind,rdf-schema#subClassOf
+Report,"Reports may refer to specific periods, events, occurrences, or subjects, and may be communicated or presented in oral, electronic, or written form.",explanatoryNote
+Nabc47e4355734e5c9dcbf90ce9464b80,submits,owl#onProperty
+ReportingParty,Nb21a6fcac2734e258c10452f8c157f29,rdf-schema#subClassOf
+isSubmittedTo,indicates the party to which something is submitted,core#definition
+Request,Nd9e94ec9f44f4f60a0220efec1905161,rdf-schema#subClassOf
+isReportedTo,PartyRole,rdf-schema#range
+,Reporting.rdf version of this ontology was modified to incorporate evaluates and isEvaluatedBy.,core#changeNote
+N12d2af69a32440a6918b22daa6fc2676,0,owl#minQualifiedCardinality
+N252b691c14614b32a4e3bfd80faa1a1c,requests,owl#onProperty
+hasReportDate,has report date,rdf-schema#label
+isRequestedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+isReportedTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+isSubmittedBy,indicates the party that submits something,core#definition
+Nd8fab6c2237f4566b101b60b3a579c87,isSubmittedBy,owl#onProperty
+Report,Nebef3546651144fe9f7ab2360c7ec0b8,rdf-schema#subClassOf
+Nebef3546651144fe9f7ab2360c7ec0b8,PartyRole,owl#someValuesFrom
+N252b691c14614b32a4e3bfd80faa1a1c,owl#Thing,owl#someValuesFrom
+,,owl#imports
+hasReportDate,ExplicitDate,rdf-schema#range
+hasRequestDate,has request date,rdf-schema#label
+N3160918ed0e34a96966e088a9c427773,owl#Restriction,22-rdf-syntax-ns#type
+Nb21a6fcac2734e258c10452f8c157f29,provides,owl#onProperty
+,"Reporting.rdf version of this ontology was modified to eliminate references to deprecated elements and to external dictionary sites that no longer resolve, and to integrate concepts related to making a request for something.",core#changeNote
+Request,event in which some party asks another party for something at some point in time,core#definition
+N62daa11964a14d3d8cf2a3533c407780,0,owl#minQualifiedCardinality
+Submitter,"party presenting something, such as a regulatory report",core#definition
+,,owl#versionIRI
+hasRequestDateTime,date and time at which a request was made,core#definition
+N12d2af69a32440a6918b22daa6fc2676,hasReportDate,owl#onProperty
+Nd8fab6c2237f4566b101b60b3a579c87,0,owl#minQualifiedCardinality
+Nd8fab6c2237f4566b101b60b3a579c87,owl#Restriction,22-rdf-syntax-ns#type
+Requester,requester,rdf-schema#label
+Submitter,Nabc47e4355734e5c9dcbf90ce9464b80,rdf-schema#subClassOf
+Report,N39e40b81f81e4631b33667992a678ac0,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+hasRequestDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+isSubmittedTo,is submitted to,rdf-schema#label
+Request,request,rdf-schema#label
+isSubmittedTo,PartyRole,rdf-schema#range
+Requester,owl#Class,22-rdf-syntax-ns#type
+hasRequestDate,hasExplicitDate,rdf-schema#subPropertyOf
+N62daa11964a14d3d8cf2a3533c407780,PartyRole,owl#onClass
+isRequestedOf,indicates the party that is asked for something,core#definition
+N62daa11964a14d3d8cf2a3533c407780,owl#Restriction,22-rdf-syntax-ns#type
+N3160918ed0e34a96966e088a9c427773,PartyRole,owl#someValuesFrom
+Report,N62daa11964a14d3d8cf2a3533c407780,rdf-schema#subClassOf
+submits,"presents something (a proposal, application, report, or other document) for consideration or review",core#definition
+isSubmittedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+N0480ba14e6a24d9384f16f9b381c9c31,owl#Restriction,22-rdf-syntax-ns#type
+requests,isAbout,rdf-schema#subPropertyOf
+,Reporting.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+submits,submits,rdf-schema#label
+ReportingParty,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2018-2024 EDM Council, Inc.",copyright
+isSubmittedBy,Submitter,rdf-schema#range
+N06ac28b4b7e641868a4ecb9573aaffc9,DatePeriod,owl#onClass
+Request,N9a4daa38d2da4171930bbd851402efe8,rdf-schema#subClassOf
+N3160918ed0e34a96966e088a9c427773,isRequestedOf,owl#onProperty
+isSubmittedBy,submits,owl#inverseOf
+Report,Document,rdf-schema#subClassOf
+Nd9e94ec9f44f4f60a0220efec1905161,hasRequestDate,owl#onProperty
+isSubmittedBy,is submitted by,rdf-schema#label
+N62daa11964a14d3d8cf2a3533c407780,isSubmittedTo,owl#onProperty
+Submitter,PartyRole,rdf-schema#subClassOf
+RequestActivity,activity in which some party asks another party for something or to do something,core#definition
+hasRequestDateTime,DateTime,rdf-schema#range
+Report,owl#Class,22-rdf-syntax-ns#type
+hasReportDate,hasExplicitDate,rdf-schema#subPropertyOf
+hasReportDateTime,date and time at which a report was issued,core#definition
+RequestActivity,request activity,rdf-schema#label
+isRequestedOf,is requested of,rdf-schema#label
+ReportingParty,reporting party,rdf-schema#label
+requests,asks for something,core#definition
+isRequestedBy,hasPartyRole,rdf-schema#subPropertyOf
+submits,provides,rdf-schema#subPropertyOf
+hasReportDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+N252b691c14614b32a4e3bfd80faa1a1c,owl#Restriction,22-rdf-syntax-ns#type
+,This ontology defines the notion of a Report and related party concepts.,abstract
+N99a35ac2319f4dcaa0bad997e5c6a7e1,owl#Restriction,22-rdf-syntax-ns#type
+isSubmittedTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasReportDateTime,DateTime,rdf-schema#range
+reportsOn,isAbout,rdf-schema#subPropertyOf
+hasRequestDate,date on which a request was made,core#definition
+Requester,PartyRole,rdf-schema#subClassOf
+isRequestedOf,PartyRole,rdf-schema#range
+Nebef3546651144fe9f7ab2360c7ec0b8,owl#Restriction,22-rdf-syntax-ns#type
+,"Reporting.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+isRequestedOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+requests,owl#ObjectProperty,22-rdf-syntax-ns#type
+N06ac28b4b7e641868a4ecb9573aaffc9,0,owl#minQualifiedCardinality
+,Reporting.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Nd8fab6c2237f4566b101b60b3a579c87,Submitter,owl#onClass
+,Reporting Ontology,rdf-schema#label
+N39e40b81f81e4631b33667992a678ac0,isProvidedBy,owl#onProperty
+hasReportDate,date on which a report was issued,core#definition
+requests,requests,rdf-schema#label
+Report,N12d2af69a32440a6918b22daa6fc2676,rdf-schema#subClassOf
+N9a4daa38d2da4171930bbd851402efe8,isRequestedBy,owl#onProperty
+Nebef3546651144fe9f7ab2360c7ec0b8,isReportedTo,owl#onProperty
+RequestActivity,owl#Class,22-rdf-syntax-ns#type
+Report,Nd8fab6c2237f4566b101b60b3a579c87,rdf-schema#subClassOf
+Report,report,rdf-schema#label
+N06ac28b4b7e641868a4ecb9573aaffc9,owl#Restriction,22-rdf-syntax-ns#type
+hasReportDate,hasDateOfIssuance,rdf-schema#subPropertyOf
+Request,N3160918ed0e34a96966e088a9c427773,rdf-schema#subClassOf
+Nd9e94ec9f44f4f60a0220efec1905161,ExplicitDate,owl#onClass
+,Release,hasMaturityLevel
+hasReportDateTime,hasDateTime,rdf-schema#subPropertyOf
+Requester,party that asks for something,core#definition
+N39e40b81f81e4631b33667992a678ac0,ReportingParty,owl#someValuesFrom
+Report,N99a35ac2319f4dcaa0bad997e5c6a7e1,rdf-schema#subClassOf
+,MIT,license
+Report,"document that provides a structured description of something, prepared on ad hoc, periodic, recurring, regular, or as required basis",core#definition
+isReportedTo,hasPartyRole,rdf-schema#subPropertyOf
+reportsOn,Report,rdf-schema#domain
+Nd9e94ec9f44f4f60a0220efec1905161,owl#Restriction,22-rdf-syntax-ns#type
+RequestActivity,N252b691c14614b32a4e3bfd80faa1a1c,rdf-schema#subClassOf
+Na64e07110058484daf4b40226dbc1652,exemplifies,owl#onProperty
+N99a35ac2319f4dcaa0bad997e5c6a7e1,DateTime,owl#onClass
+reportsOn,reports on,rdf-schema#label
+N99a35ac2319f4dcaa0bad997e5c6a7e1,0,owl#minQualifiedCardinality
+isRequestedBy,Requester,rdf-schema#range
+ReportingParty,"party providing a report, typically in response to some contractual, legal, regulatory or other business requirement",core#definition
+Request,owl#Class,22-rdf-syntax-ns#type
+Nabc47e4355734e5c9dcbf90ce9464b80,Report,owl#someValuesFrom
+Submitter,submitter,rdf-schema#label
+Report,N06ac28b4b7e641868a4ecb9573aaffc9,rdf-schema#subClassOf
+reportsOn,"indicates a subject matter, observation(s), assessment(s), focus or other topic of a report",core#definition
+N0480ba14e6a24d9384f16f9b381c9c31,hasRequestDateTime,owl#onProperty
+isReportedTo,indicates the party to which something is reported,core#definition
+hasRequestDateTime,owl#ObjectProperty,22-rdf-syntax-ns#type
+submits,Submitter,rdf-schema#domain
+reportsOn,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasReportDateTime,has report date time,rdf-schema#label
+hasRequestDateTime,hasDateTime,rdf-schema#subPropertyOf
+hasRequestDateTime,has request date time,rdf-schema#label
+N06ac28b4b7e641868a4ecb9573aaffc9,hasReportingPeriod,owl#onProperty
+N9a4daa38d2da4171930bbd851402efe8,owl#Restriction,22-rdf-syntax-ns#type
+N12d2af69a32440a6918b22daa6fc2676,ExplicitDate,owl#onClass
+ReportingParty,PartyRole,rdf-schema#subClassOf
+,Reporting.rdf version of the ontology was modified to replace an additional property with its counterpart from the Commons Ontology Library (Commons) v1.1 (FBC-322).,core#changeNote
+hasReportDateTime,owl#ObjectProperty,22-rdf-syntax-ns#type
+N99a35ac2319f4dcaa0bad997e5c6a7e1,hasReportDateTime,owl#onProperty
+N12d2af69a32440a6918b22daa6fc2676,owl#Restriction,22-rdf-syntax-ns#type
+isReportedTo,is reported to,rdf-schema#label
+isSubmittedTo,hasPartyRole,rdf-schema#subPropertyOf

@@ -1,0 +1,148 @@
+source_id,target_id,relationship
+employs,playsActiveRoleThatDirectlyAffects,rdf-schema#subPropertyOf
+Employment,"In the broadest sense, employment is the situation in which someone is fully engaged in doing something that they want to do. From a FIBO perspective, however, employment is understood to be more specific. It is the relationship between two parties, evidenced by an implicit or explicit contract, in which work is compensated and in which one party, a legal person, typically a formal organization, acts as the employer and the other, typically a legally capable natural person, as the employee.",explanatoryNote
+isEmployedBy,indicates the party (legal person or formal organization) that employs someone,core#definition
+isDomiciledIn,GeopoliticalEntity,rdf-schema#range
+InformalOrganization,owl#Class,22-rdf-syntax-ns#type
+InformalOrganization,organization that is not formally constituted in some way,core#definition
+hasEmployingParty,Employer,rdf-schema#range
+,"This ontology defines the high level concept of a formal organization, which is purposefully underspecified to facilitate mapping to other organization ontologies, such as the W3C organization ontology, or others defined for specific business and financial services standards. It also defines general concepts related to employment by a formal organization.",abstract
+isDomiciledIn,"indicates the principal place where an entity conducts business, such as where its headquarters is located",core#definition
+Group,Collection,rdf-schema#subClassOf
+Employer,employer,rdf-schema#label
+hasEmployedParty,isEmployedIn,owl#inverseOf
+isEmployingParty,is employing party,rdf-schema#label
+Nc5da3dadda2d48ac800189ad79d5d76c,isEmployeeOf,owl#onProperty
+Ned98f77514194983807beab77320237e,OrganizationalSubUnit,22-rdf-syntax-ns#first
+Nf385fbc624924ce2a4f1ff13fbd7e3f9,owl#Class,22-rdf-syntax-ns#type
+,FormalOrganizations.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+isEmployeeOf,Employee,rdf-schema#domain
+isEmployingParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+N3f56c9e322424e55bf29a117058c6857,owl#Restriction,22-rdf-syntax-ns#type
+hasEmployingParty,hasMembership,rdf-schema#subPropertyOf
+hasEmployee,Employee,rdf-schema#range
+employs,indicates someone that is employed by the legal person,core#definition
+hasEmployedParty,identifies the employee in an employment situation,core#definition
+,FormalOrganizations.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Employer,N6057fd03b4d0472488b651af703262df,rdf-schema#subClassOf
+hasEmployingParty,identifies employer in an employment situation,core#definition
+N047af1736cf8408e8fb5a24a4041fec7,FormalOrganization,22-rdf-syntax-ns#first
+isDomiciledIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+Employee,owl#Class,22-rdf-syntax-ns#type
+hasEmployee,owl#ObjectProperty,22-rdf-syntax-ns#type
+,.,core#changeNote
+N6057fd03b4d0472488b651af703262df,owl#Restriction,22-rdf-syntax-ns#type
+Nb935d5af366045618b035080f6e4a1f1,owl#Restriction,22-rdf-syntax-ns#type
+isEmployingParty,Employment,rdf-schema#range
+N93091ed8c63f4bdb992e3e133949eb8d,isEmployedIn,owl#onProperty
+Nf385fbc624924ce2a4f1ff13fbd7e3f9,N047af1736cf8408e8fb5a24a4041fec7,owl#unionOf
+Employer,Nb935d5af366045618b035080f6e4a1f1,rdf-schema#subClassOf
+hasEmployingParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+,,owl#imports
+Employment,"situation representing the state of being employed, i.e., the relationship that holds between an employer and employee for some period of time",core#definition
+Employment,employment,rdf-schema#label
+N74cc91a03fb5420cb5e8523cfa77bd2a,Employee,owl#someValuesFrom
+hasEmployedParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+isEmployeeOf,identifies the formal organization for which the employee works,core#definition
+FormalOrganization,"organization that is recognized in some legal jurisdiction, with associated rights and responsibilities",core#definition
+FormalOrganization,owl#Class,22-rdf-syntax-ns#type
+N3f56c9e322424e55bf29a117058c6857,GeopoliticalEntity,owl#someValuesFrom
+isDomiciledIn,Nf385fbc624924ce2a4f1ff13fbd7e3f9,rdf-schema#domain
+isEmployedIn,Employment,rdf-schema#range
+employs,Person,rdf-schema#range
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+Employee,OrganizationMember,rdf-schema#subClassOf
+N74cc91a03fb5420cb5e8523cfa77bd2a,hasEmployedParty,owl#onProperty
+,"FormalOrganizations.rdf version of this ontology was modified to loosen the domain of 'is domiciled in' to include organization sub-units, such as branches and divisions.",core#changeNote
+N93091ed8c63f4bdb992e3e133949eb8d,Employment,owl#someValuesFrom
+,,owl#versionIRI
+isEmployeeOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+,owl#Ontology,22-rdf-syntax-ns#type
+hasEmployedParty,has employed party,rdf-schema#label
+isEmployeeOf,Employer,rdf-schema#range
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+FormalOrganization,#class-formalorganization,adaptedFrom
+isEmployingParty,Employer,rdf-schema#domain
+Employee,Nc5da3dadda2d48ac800189ad79d5d76c,rdf-schema#subClassOf
+isEmployedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+N3f56c9e322424e55bf29a117058c6857,isDomiciledIn,owl#onProperty
+Nc5da3dadda2d48ac800189ad79d5d76c,owl#Restriction,22-rdf-syntax-ns#type
+InformalOrganization,Organization,rdf-schema#subClassOf
+Nb935d5af366045618b035080f6e4a1f1,Employment,owl#someValuesFrom
+Employment,Membership,rdf-schema#subClassOf
+N6057fd03b4d0472488b651af703262df,hasEmployee,owl#onProperty
+hasEmployedParty,hasOrganizationMember,rdf-schema#subPropertyOf
+,"FormalOrganizations.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasEmployee,Employer,rdf-schema#domain
+isEmployingParty,isMembershipPartyIn,rdf-schema#subPropertyOf
+N4fb84685201640acb97aedd43a0da787,hasMember,owl#onProperty
+N6057fd03b4d0472488b651af703262df,Employee,owl#someValuesFrom
+Ned98f77514194983807beab77320237e,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nca5c5125e8eb443c8621d1134dbbf89a,owl#Restriction,22-rdf-syntax-ns#type
+,"ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.",core#changeNote
+hasEmployee,actsOn,rdf-schema#subPropertyOf
+isEmployeeOf,is employee of,rdf-schema#label
+hasEmployingParty,has employing party,rdf-schema#label
+InformalOrganization,informal organization,rdf-schema#label
+Employee,N93091ed8c63f4bdb992e3e133949eb8d,rdf-schema#subClassOf
+hasEmployedParty,Employment,rdf-schema#domain
+Nc5da3dadda2d48ac800189ad79d5d76c,Employer,owl#someValuesFrom
+hasEmployee,indicates an employee that is employed by the employer,core#definition
+isEmployedIn,Employee,rdf-schema#domain
+Employee,N27e2b6d56ef544c6bb6f4a53e6b3bec7,rdf-schema#subClassOf
+isEmployedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+employs,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nb935d5af366045618b035080f6e4a1f1,isEmployingParty,owl#onProperty
+Employee,"person in the service of another under any contract of hire, express or implied, oral or written, where the employer has the right to control and direct that person in the material details of how the work is to be performed",core#definition
+hasEmployee,has employee,rdf-schema#label
+FormalOrganization,InformalOrganization,owl#disjointWith
+Nca5c5125e8eb443c8621d1134dbbf89a,Employer,owl#someValuesFrom
+FormalOrganization,Organization,rdf-schema#subClassOf
+N27e2b6d56ef544c6bb6f4a53e6b3bec7,owl#Restriction,22-rdf-syntax-ns#type
+isEmployedBy,experiencesDirectly,rdf-schema#subPropertyOf
+N27e2b6d56ef544c6bb6f4a53e6b3bec7,Person,owl#someValuesFrom
+Group,"collection of agents (people, organizations, software agents, etc.) that are considered as a unit",core#definition
+hasEmployee,isEmployeeOf,owl#inverseOf
+isEmployedIn,indicates the context of employment in which someone is employed,core#definition
+,Release,hasMaturityLevel
+Employer,"party that provides compensation, including wages or a salary and potentially other benefits, in exchange for work performed by one or more people, and that has the right to control and direct the employee in the material details of how the work is to be performed",core#definition
+Employment,owl#Class,22-rdf-syntax-ns#type
+,"FormalOrganizations.rdf version of this ontology was revised to loosen the constraints on the range of isDomiciledIn, allow for multiple values, update definitions to be ISO 704 compliant, and eliminate duplication with concepts in LCC.",core#changeNote
+,MIT,license
+Employment,N74cc91a03fb5420cb5e8523cfa77bd2a,rdf-schema#subClassOf
+N047af1736cf8408e8fb5a24a4041fec7,Ned98f77514194983807beab77320237e,22-rdf-syntax-ns#rest
+N93091ed8c63f4bdb992e3e133949eb8d,owl#Restriction,22-rdf-syntax-ns#type
+isEmployedBy,Person,rdf-schema#domain
+employs,employs,rdf-schema#label
+Group,owl#Class,22-rdf-syntax-ns#type
+isDomiciledIn,"Corporate domicile refers to a place where a company's affairs are discharged. It is also typically the legal home of a corporation because the place is considered by law as the center of corporate affairs. In cases where a business has incorporated in one location for convenience, such as for taxation, legal, or regulatory purposes, but operates primarily in one or more other locations, domicile in FIBO refers to the operational location(s) rather than legal location. Many companies in the US have incorporated in the State of Delaware, for example, but do not have operational facilities in Delaware (or only have small offices there).",explanatoryNote
+,"FormalOrganizations.rdf version of this ontology was revised to incorporate the concept of employment, required to support regulatory reporting.",core#changeNote
+isEmployedBy,is employed by,rdf-schema#label
+FormalOrganization,"Examples include a corporation, charity, government or church.",core#example
+hasEmployingParty,Employment,rdf-schema#domain
+Employee,art1full.pdf,rdf-schema#seeAlso
+N27e2b6d56ef544c6bb6f4a53e6b3bec7,isPlayedBy,owl#onProperty
+isEmployeeOf,isAffectedBy,rdf-schema#subPropertyOf
+Group,N4fb84685201640acb97aedd43a0da787,rdf-schema#subClassOf
+N4fb84685201640acb97aedd43a0da787,Agent,owl#allValuesFrom
+Employer,MemberBearingOrganization,rdf-schema#subClassOf
+Employer,owl#Class,22-rdf-syntax-ns#type
+FormalOrganization,N3f56c9e322424e55bf29a117058c6857,rdf-schema#subClassOf
+isEmployingParty,relates a party in the role of employer to the context of employment,core#definition
+Employment,"This definition does not include workers in contingent arrangements, such as independent contractors, leased employees, temporary employees, on-call workers, and others that do not have a direct contractual relationship with the employer. The distinction is important for legal reasons, particularly for regulatory reporting with respect to responsible parties such as corporate officers, lending officers, others authorized or licensed to perform certain tasks, and traders, for example.",core#scopeNote
+,Formal Organizations Ontology,rdf-schema#label
+hasEmployingParty,isEmployingParty,owl#inverseOf
+isEmployedIn,is employed in,rdf-schema#label
+Group,group,rdf-schema#label
+,FormalOrganizations.rdf version of this ontology was revised to address hygiene issues with respect to text formatting.,core#changeNote
+FormalOrganization,formal organization,rdf-schema#label
+isEmployedIn,isOrganizationMember,rdf-schema#subPropertyOf
+Nca5c5125e8eb443c8621d1134dbbf89a,hasEmployingParty,owl#onProperty
+N74cc91a03fb5420cb5e8523cfa77bd2a,owl#Restriction,22-rdf-syntax-ns#type
+Employee,employee,rdf-schema#label
+Employment,Nca5c5125e8eb443c8621d1134dbbf89a,rdf-schema#subClassOf
+,FormalOrganizations.rdf version of this ontology was modified per the FIBO 2.0 RFC to integrate concepts from LCC.,core#changeNote
+hasEmployedParty,Employee,rdf-schema#range
+isDomiciledIn,is domiciled in,rdf-schema#label
+N4fb84685201640acb97aedd43a0da787,owl#Restriction,22-rdf-syntax-ns#type

@@ -1,0 +1,475 @@
+source_id,target_id,relationship
+hasFullLegalName,hasPersonName,rdf-schema#subPropertyOf
+LegalWorkingAgePerson,person whose age is greater than the minimum legal working age specified in a jurisdiction in which they work,core#definition
+Nd3396cbb925246dea1719afc7b850421,BirthCertificateIdentifier,owl#onClass
+DateOfDeath,death date,synonym
+Minor,Person,rdf-schema#subClassOf
+NationalIdentificationNumberScheme,owl#Class,22-rdf-syntax-ns#type
+hasFamilyName,has family name,rdf-schema#label
+PassportNumber,national identification number associated with a passport,core#definition
+PassportNumber,owl#Class,22-rdf-syntax-ns#type
+Nd419e7f0c25540d0922b715d4c57939e,0,owl#minQualifiedCardinality
+DateOfBirth,ExplicitDate,rdf-schema#subClassOf
+DriversLicense,owl#Class,22-rdf-syntax-ns#type
+PersonName,Ne2b74a2ad0334d78a8242e9871a85ef9,rdf-schema#subClassOf
+DeathCertificateIdentificationScheme,Ne7efc86ce623442a906cee1e9c0ec5a7,rdf-schema#subClassOf
+Ndd82959d203d4a70a8f7ed6e980e2c96,DriversLicenseIdentifier,owl#onClass
+LegalAge,owl#Class,22-rdf-syntax-ns#type
+hasFamilyName,'Family name' is more commonly used in the United Kingdom than in the United States to refer to someone's surname.,explanatoryNote
+,People.rdf version of the ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+Nf7e366d433ae446295c2f6f105a452c0,isDefinedIn,owl#onProperty
+EmancipatedMinor,a minor who is allowed to conduct a business or any other occupation on his or her own behalf or for their own account outside the control of a parent or guardian,core#definition
+hasGender,owl#FunctionalProperty,22-rdf-syntax-ns#type
+hasNameSuffix,has name suffix,rdf-schema#label
+Passport,"The elements of identity contained in all standardized passports include information about the holder, including name, date of birth, gender and place of birth.",explanatoryNote
+hasPersonName,links a name to an individual,core#definition
+Passport,IdentityDocument,rdf-schema#subClassOf
+Ndd408910a85843fabab40b4ca7e85c03,BirthCertificateIdentifier,owl#someValuesFrom
+,People.rdf version of the ontology was modified to eliminate deprecated elements.,core#changeNote
+LegalWorkingAge,LegalAge,rdf-schema#subClassOf
+N0eca3c70176c453eb67f9d845ad9ec5d,hasAge,owl#onProperty
+hasMaidenName,"indicates the name shared in common to identify the members of a family, that predates any changes of name due to marriage",core#definition
+DeathCertificateIdentificationScheme,"Schemes for death certificate identification are typically regionally defined, and there may be jurisdiction-specific scope required as an additional restriction on a specific scheme.",explanatoryNote
+N33858c4a0ee541548b0f7023f9c6e0b2,owl#Restriction,22-rdf-syntax-ns#type
+IncapacitatedAdult,owl#Class,22-rdf-syntax-ns#type
+Nf7e366d433ae446295c2f6f105a452c0,BirthCertificateIdentificationScheme,owl#onClass
+DeathCertificateIdentificationScheme,IdentificationScheme,rdf-schema#subClassOf
+N8c7fae17d57a4cc280586892d4bbf414,identifies,owl#onProperty
+hasDateOfDeath,hasExplicitDate,rdf-schema#subPropertyOf
+hasGivenName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N02e76c87839a419e9c3da1e556cfc3a9,DriversLicenseIdentifier,owl#someValuesFrom
+PersonName,N11ea5cdd9b9d4f82bf354846fba3998e,rdf-schema#subClassOf
+DeathCertificate,IdentityDocument,rdf-schema#subClassOf
+N85a8742457024aca94b0be1acaa43956,owl#Restriction,22-rdf-syntax-ns#type
+hasNamePrefix,"indicates a character or sequence of characters, preceding a person's name, that provides additional information about the person, such as a form of address representing a title, honorific, or military rank",core#definition
+DeathCertificateIdentifier,identifier associated with a vital record documenting the death of an individual,core#definition
+Person,Ne9a79e524ca4423fb4d00a7fcd672bfb,rdf-schema#subClassOf
+AgeOfMajority,age at which someone acquires the rights and responsibilities of an adult in some jurisdiction,core#definition
+DriversLicenseIdentifier,N6909c51c169e43368b2a698d22b5ccf7,rdf-schema#subClassOf
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+BirthCertificate,Birth_certificate,adaptedFrom
+,,owl#versionIRI
+DriversLicenseIdentifier,owl#Class,22-rdf-syntax-ns#type
+N33858c4a0ee541548b0f7023f9c6e0b2,1,owl#qualifiedCardinality
+hasPersonName,has person name,rdf-schema#label
+PersonName,ContextualName,rdf-schema#subClassOf
+Nba1029e65c00488bbdba059a22a51f57,hasAgeOfMajority,owl#onProperty
+Ne2b74a2ad0334d78a8242e9871a85ef9,Person,owl#onClass
+hasDateOfDeath,Person,rdf-schema#domain
+N0eca3c70176c453eb67f9d845ad9ec5d,Age,owl#onClass
+Person,N0eca3c70176c453eb67f9d845ad9ec5d,rdf-schema#subClassOf
+IdentityDocument,identity document,rdf-schema#label
+N9932f089c4ef477ca09f4bd07c882a3c,owl#Restriction,22-rdf-syntax-ns#type
+hasPrimaryResidence,identifies a dwelling where an individual resides the majority of the year,core#definition
+hasLastName,hasPersonName,rdf-schema#subPropertyOf
+Nd419e7f0c25540d0922b715d4c57939e,PersonName,owl#onClass
+IncapacitatedAdult,Adult,rdf-schema#subClassOf
+IdentityDocument,Identification_card,adaptedFrom
+N80408c3cb1bf439f95a31f32828f78c0,owl#Restriction,22-rdf-syntax-ns#type
+N02e76c87839a419e9c3da1e556cfc3a9,owl#Restriction,22-rdf-syntax-ns#type
+hasNamePrefix,has name prefix,rdf-schema#label
+hasFirstName,"indicates the given name or first name of a person, that is, the name chosen for them at birth or changed by them subsequently from the name given at birth",core#definition
+BirthCertificateIdentifier,Identifier,rdf-schema#subClassOf
+N75b16f487be845aeba4e2f8657c05388,owl#Restriction,22-rdf-syntax-ns#type
+IncapacitatedAdult,LegallyCapableAdult,owl#disjointWith
+DriversLicense,IdentityDocument,rdf-schema#subClassOf
+hasGender,links a particular gender value with a person,core#definition
+hasMiddleNameOrInitial,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasPrimaryResidence,Person,rdf-schema#domain
+,"People.rdf version of the ontology was modified per the FIBO 2.0 RFC, including integration of LCC.",core#changeNote
+LegalWorkingAgePerson,Person,rdf-schema#subClassOf
+hasNameSuffix,"indicates a character or sequence of characters, following a person's name, that provides additional information about the person, such as their position, educational degree, accreditation, office, or honor",core#definition
+Minor,owl#Class,22-rdf-syntax-ns#type
+DeathCertificateIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+BirthCertificate,Certificate,rdf-schema#subClassOf
+hasPlaceOfBirth,PlaceOfBirth,rdf-schema#range
+LegalWorkingAge,legal working age,rdf-schema#label
+hasPersonName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N80408c3cb1bf439f95a31f32828f78c0,identifies,owl#onProperty
+hasResidence,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasDateOfBirth,has date of birth,rdf-schema#label
+hasGender,Person,rdf-schema#domain
+DriversLicenseIdentifier,Identifier,rdf-schema#subClassOf
+hasFamilyName,"indicates the name shared in common to identify the members of a family, as distinguished from each member's given name",core#definition
+hasGender,owl#DatatypeProperty,22-rdf-syntax-ns#type
+NationalIdentificationNumber,owl#Class,22-rdf-syntax-ns#type
+DriversLicenseIdentificationScheme,"system for allocating identifiers to driver's, operating, or non-driver identification documents",core#definition
+,"People.rdf version of the ontology was was modified to revise a restriction on IdentityDocument to reference the appropriate identifier rather than use a tag. The impetus behind this change is to support privacy legislation, such as GDPR, which requires protection of both identifiers, such as a passport number, drivers' license number, etc. as well as the documents themselves. Thus, properties and individuals related to those identifiers are urgently needed.",core#changeNote
+N75b16f487be845aeba4e2f8657c05388,0,owl#minQualifiedCardinality
+hasCitizenship,Country,rdf-schema#range
+Person,natural person,synonym
+LegallyCapableAdult,legally capable adult,rdf-schema#label
+hasLastName,hasSurname,owl#equivalentProperty
+Adult,Person,rdf-schema#subClassOf
+PlaceOfBirth,birth place,synonym
+hasDateOfDeath,has date of death,rdf-schema#label
+,People.rdf version of the ontology was modified to replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+N77e3e819f0524905acbc4bde5fc2dd9e,hasExpirationDate,owl#onProperty
+AgeOfMajority,LegalAge,rdf-schema#subClassOf
+hasMinimumLegalWorkingAge,relates someone to the minimum legal working age for the jurisdiction in which they reside,core#definition
+LegalWorkingAge,owl#Class,22-rdf-syntax-ns#type
+PassportNumber,NationalIdentificationNumber,rdf-schema#subClassOf
+BirthCertificateIdentificationScheme,birth certificate identification scheme,rdf-schema#label
+hasGivenName,has given name,rdf-schema#label
+Person,N75b16f487be845aeba4e2f8657c05388,rdf-schema#subClassOf
+hasAgeOfMajority,relates someone to the age required to attain the capacity to engage in certain transactions or be treated legally as an adult in some jurisdiction,core#definition
+IncapacitatedAdult,Capacity_(law),adaptedFrom
+Nd419e7f0c25540d0922b715d4c57939e,hasName,owl#onProperty
+DeathCertificate,N33858c4a0ee541548b0f7023f9c6e0b2,rdf-schema#subClassOf
+NationalIdentificationNumberScheme,system for allocating identifiers to national identification numbers,core#definition
+Adult,person who has attained the age of majority as defined in some jurisdiction,core#definition
+PassportNumberIdentificationScheme,system for allocating identifiers to passports,core#definition
+Naa7e3737c3974cf4b5e3754983fce398,owl#Restriction,22-rdf-syntax-ns#type
+NationalIdentificationNumber,Ne7d8b57ed718471cbb49d0387de0c7a4,rdf-schema#subClassOf
+Passport,owl#Class,22-rdf-syntax-ns#type
+DeathCertificateIdentifier,owl#Class,22-rdf-syntax-ns#type
+Ne9a79e524ca4423fb4d00a7fcd672bfb,Country,owl#onClass
+hasSurname,"indicates the name shared in common to identify the members of a family, as distinguished from each member's given name",core#definition
+N77e3e819f0524905acbc4bde5fc2dd9e,Date,owl#onClass
+Naa7e3737c3974cf4b5e3754983fce398,PlaceOfBirth,owl#onClass
+N938876807cb84b9b89b87dd0015f85e8,PassportNumberIdentificationScheme,owl#onClass
+Minor,minor,rdf-schema#label
+PassportNumberIdentificationScheme,passport number identification scheme,rdf-schema#label
+BirthCertificateIdentificationScheme,system for allocating identifiers to birth certificates,core#definition
+hasFirstName,hasPersonName,rdf-schema#subPropertyOf
+hasCitizenship,Person,rdf-schema#domain
+BirthCertificateIdentifier,Nf7e366d433ae446295c2f6f105a452c0,rdf-schema#subClassOf
+DeathCertificateIdentificationScheme,system for allocating identifiers to death certificates,core#definition
+IncapacitatedAdult,"an adult who is legally identified as not having legal capacity, typically as a result of some inherent physical or mental incapacity or as a result of having contracted some illness which temporarily deprives them of such capacity",core#definition
+hasGender,XMLSchema#string,rdf-schema#range
+hasMiddleNameOrInitial,one or more additional names or initial letters for names that occur between a person's first and last name,core#definition
+hasDateOfBirth,DateOfBirth,rdf-schema#range
+Ne7efc86ce623442a906cee1e9c0ec5a7,owl#Restriction,22-rdf-syntax-ns#type
+N85a8742457024aca94b0be1acaa43956,ConventionalStreetAddress,owl#onClass
+hasGender,has gender,rdf-schema#label
+hasPersonName,hasTextValue,rdf-schema#subPropertyOf
+Nba1029e65c00488bbdba059a22a51f57,owl#Restriction,22-rdf-syntax-ns#type
+Nb63c07070aba4428ad8c61ad47b1e46b,DriversLicense,owl#onClass
+N75b16f487be845aeba4e2f8657c05388,DateOfDeath,owl#onClass
+DriversLicenseIdentificationScheme,"Schemes for driver's license identification are typically regionally defined, and there may be jurisdiction-specific scope required as an additional restriction on a specific scheme.",explanatoryNote
+Naa7e3737c3974cf4b5e3754983fce398,1,owl#qualifiedCardinality
+hasPrimaryResidence,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ncc1eb7152bc84ce7903a146f38483980,owl#Restriction,22-rdf-syntax-ns#type
+Minor,Minor_(law),adaptedFrom
+N6909c51c169e43368b2a698d22b5ccf7,owl#Restriction,22-rdf-syntax-ns#type
+BirthCertificate,certificate of live birth,synonym
+hasGivenName,"indicates the given name or first name of a person, that is, the name chosen for them at birth or changed by them subsequently from the name given at birth",core#definition
+DriversLicense,driving licence,synonym
+hasNamePrefix,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Person,Nd419e7f0c25540d0922b715d4c57939e,rdf-schema#subClassOf
+Ndd408910a85843fabab40b4ca7e85c03,defines,owl#onProperty
+Nac8d36b4edc649a0b3611edbfbca122d,Text,owl#onDataRange
+N0eca3c70176c453eb67f9d845ad9ec5d,0,owl#minQualifiedCardinality
+N0eca3c70176c453eb67f9d845ad9ec5d,owl#Restriction,22-rdf-syntax-ns#type
+N17f2d26fee4e48b99d6cbc88282b063c,owl#Restriction,22-rdf-syntax-ns#type
+NationalIdentificationNumberScheme,Schemes for national identification numbers are jurisdiction-specific by country.,explanatoryNote
+N938876807cb84b9b89b87dd0015f85e8,owl#Restriction,22-rdf-syntax-ns#type
+hasPlaceOfBirth,has place of birth,rdf-schema#label
+PassportNumberIdentificationScheme,Schemes for passport identification are jurisdiction-specific by country.,explanatoryNote
+N9932f089c4ef477ca09f4bd07c882a3c,Identifier,owl#onClass
+DeathCertificate,owl#Class,22-rdf-syntax-ns#type
+DateOfBirth,"explicit date, i.e., the day, month and year, on which an individual was born",core#definition
+PersonName,Ne6112355e7514ee382127f1c21e6768b,rdf-schema#subClassOf
+hasPersonName,hasTextualName,rdf-schema#subPropertyOf
+Ncc1eb7152bc84ce7903a146f38483980,hasDateOfIssuance,owl#onProperty
+Person,Nce14d6277e4544cea44d36c08f212cb6,rdf-schema#subClassOf
+Nba1029e65c00488bbdba059a22a51f57,0,owl#minQualifiedCardinality
+,owl#Ontology,22-rdf-syntax-ns#type
+IdentityDocument,N80408c3cb1bf439f95a31f32828f78c0,rdf-schema#subClassOf
+Person,N62cf157017194f798ab24fa58e7c8e61,rdf-schema#subClassOf
+Nb63c07070aba4428ad8c61ad47b1e46b,1,owl#qualifiedCardinality
+hasSurname,owl#DatatypeProperty,22-rdf-syntax-ns#type
+PassportNumber,passport number,rdf-schema#label
+PassportNumber,N938876807cb84b9b89b87dd0015f85e8,rdf-schema#subClassOf
+,"People.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+Person,person,rdf-schema#label
+N8c7fae17d57a4cc280586892d4bbf414,Person,owl#onClass
+PersonName,Nac8d36b4edc649a0b3611edbfbca122d,rdf-schema#subClassOf
+hasAgeOfMajority,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ncc1eb7152bc84ce7903a146f38483980,Date,owl#onClass
+EmancipatedMinor,owl#Class,22-rdf-syntax-ns#type
+N6909c51c169e43368b2a698d22b5ccf7,DriversLicenseIdentificationScheme,owl#onClass
+DriversLicenseIdentifier,Nb63c07070aba4428ad8c61ad47b1e46b,rdf-schema#subClassOf
+hasResidence,identifies a dwelling where an individual lives,core#definition
+N80408c3cb1bf439f95a31f32828f78c0,Person,owl#someValuesFrom
+N938876807cb84b9b89b87dd0015f85e8,1,owl#qualifiedCardinality
+BirthCertificate,birth certificate,rdf-schema#label
+Ne6112355e7514ee382127f1c21e6768b,Text,owl#onDataRange
+LegalAge,age at which someone acquires the capacity to do something that they were prohibited from doing before under the law in some jurisdiction,core#definition
+IdentityDocument,LegalDocument,rdf-schema#subClassOf
+Nd3396cbb925246dea1719afc7b850421,isIdentifiedBy,owl#onProperty
+Nfb5297dcd303443788f6c9723e5c6284,owl#Restriction,22-rdf-syntax-ns#type
+Ne85b4905822345cb8ac3cd8cb17ba958,0,owl#minQualifiedCardinality
+Ne85b4905822345cb8ac3cd8cb17ba958,owl#Restriction,22-rdf-syntax-ns#type
+DriversLicenseIdentificationScheme,driver's license identification scheme,rdf-schema#label
+Ne9a79e524ca4423fb4d00a7fcd672bfb,hasCitizenship,owl#onProperty
+hasFamilyName,hasLastName,owl#equivalentProperty
+DriversLicenseIdentificationScheme,IdentificationScheme,rdf-schema#subClassOf
+hasDateOfDeath,DateOfDeath,rdf-schema#range
+Nfb5297dcd303443788f6c9723e5c6284,BirthCertificate,owl#onClass
+hasPlaceOfBirth,owl#ObjectProperty,22-rdf-syntax-ns#type
+,People.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+NationalIdentificationNumber,national identity number,synonym
+hasDateOfBirth,hasExplicitDate,rdf-schema#subPropertyOf
+hasFullLegalName,hasLegalName,rdf-schema#subPropertyOf
+Ncc1eb7152bc84ce7903a146f38483980,1,owl#qualifiedCardinality
+N6909c51c169e43368b2a698d22b5ccf7,1,owl#qualifiedCardinality
+PlaceOfBirth,owl#Class,22-rdf-syntax-ns#type
+hasNameSuffix,owl#DatatypeProperty,22-rdf-syntax-ns#type
+DeathCertificate,"A death certificate is a vital record documenting information (including age, occupation, place of birth, place of residence, and often identifying the parents and possibly spouse of the deceased) relating to a dead person and including a doctor's certification of the cause of death.",explanatoryNote
+LegalWorkingAgePerson,owl#Class,22-rdf-syntax-ns#type
+NationalIdentificationNumber,National_identification_number,adaptedFrom
+Naa7e3737c3974cf4b5e3754983fce398,hasPlaceOfBirth,owl#onProperty
+Ne2b74a2ad0334d78a8242e9871a85ef9,0,owl#minQualifiedCardinality
+DeathCertificate,death certificate,rdf-schema#label
+N17f2d26fee4e48b99d6cbc88282b063c,comprises,owl#onProperty
+Ne2c0a6824d1e4647b900fb0a44ccbe47,PassportNumber,owl#someValuesFrom
+,People.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+hasGivenName,hasPersonName,rdf-schema#subPropertyOf
+N33858c4a0ee541548b0f7023f9c6e0b2,DeathCertificateIdentifier,owl#onClass
+N8cce051235eb467f873bd40341886074,1,owl#qualifiedCardinality
+hasMaidenName,has maiden name,rdf-schema#label
+,Release,hasMaturityLevel
+N17f2d26fee4e48b99d6cbc88282b063c,1,owl#qualifiedCardinality
+Nbe7c4255a3184170804195f1b0754cec,hasNamePrefix,owl#onProperty
+N8cce051235eb467f873bd40341886074,owl#Restriction,22-rdf-syntax-ns#type
+IncapacitatedAdult,incapacitated adult,rdf-schema#label
+BirthCertificateIdentifier,birth certificate identifier,rdf-schema#label
+NationalIdentificationNumber,national identification number,rdf-schema#label
+Ndd82959d203d4a70a8f7ed6e980e2c96,isIdentifiedBy,owl#onProperty
+DateOfDeath,"explicit date, i.e., the day, month and year, on which an individual died",core#definition
+hasResidence,ConventionalStreetAddress,rdf-schema#range
+IdentityDocument,N77e3e819f0524905acbc4bde5fc2dd9e,rdf-schema#subClassOf
+Nf4eb4d08a93241548a7c51232ba6513d,NationalIdentificationNumber,owl#someValuesFrom
+Ne7d8b57ed718471cbb49d0387de0c7a4,owl#Restriction,22-rdf-syntax-ns#type
+N6909c51c169e43368b2a698d22b5ccf7,isDefinedIn,owl#onProperty
+Ne7efc86ce623442a906cee1e9c0ec5a7,defines,owl#onProperty
+hasPrimaryResidence,has primary residence,rdf-schema#label
+Ne9a79e524ca4423fb4d00a7fcd672bfb,0,owl#minQualifiedCardinality
+Ne9a79e524ca4423fb4d00a7fcd672bfb,owl#Restriction,22-rdf-syntax-ns#type
+BirthCertificateIdentificationScheme,"Schemes for birth certificate identification are typically regionally defined, and there may be jurisdiction-specific scope required as an additional restriction on a specific scheme.",explanatoryNote
+AgeOfMajority,owl#Class,22-rdf-syntax-ns#type
+hasAgeOfMajority,has age of majority,rdf-schema#label
+Ne6112355e7514ee382127f1c21e6768b,hasSurname,owl#onProperty
+Nf4eb4d08a93241548a7c51232ba6513d,hasMember,owl#onProperty
+NationalIdentificationNumber,Identifier,rdf-schema#subClassOf
+N8cce051235eb467f873bd40341886074,isDefinedIn,owl#onProperty
+Nfb5297dcd303443788f6c9723e5c6284,identifies,owl#onProperty
+Ne2b74a2ad0334d78a8242e9871a85ef9,owl#Restriction,22-rdf-syntax-ns#type
+N17f2d26fee4e48b99d6cbc88282b063c,PassportNumber,owl#onClass
+N11ea5cdd9b9d4f82bf354846fba3998e,hasNameSuffix,owl#onProperty
+DriversLicenseIdentifier,driver's license number,synonym
+NationalIdentificationNumber,"A national identification number, national identity number, or national insurance number is used by the governments of many countries as a means of tracking their citizens, permanent residents, and temporary residents for the purposes of work, taxation, government benefits, health care, and other governmentally-related functions. The number will appear on an identity document issued by a country.
+
+The ways in which such a system is implemented are dependent on the country, but in most cases, a citizen is issued an identification number at birth or when they reach a legal age (typically the age of 18). Non-citizens may be issued such numbers when they enter the country, or when granted a temporary or permanent residence permit.
+
+Many countries issued such numbers ostensibly for a singular purpose, but over time, they become a de facto national identification number. For example, the United States originally developed its Social Security number system as a means of disbursing Social Security benefits. However, due to function creep, the number has become utilized for other purposes to the point where it is almost essential to have one to, among other things, open a bank account, obtain a credit card, or drive a car.",explanatoryNote
+N85a8742457024aca94b0be1acaa43956,hasResidence,owl#onProperty
+hasPrimaryResidence,"For tax purposes, in cases when an individual owns more than one home, their primary residence is the home in which they reside most of the time, and for which they can provide evidence to that effect. Having said this, there are cases, such as for individuals that have dual citizenship, where they may have multiple primary residences, one in each country in which they maintain a home. There may also be subtle issues related to 'rent control' that may impact the statements an individual makes about their primary residence. In other words, one cannot necessarily infer a person's identity from their primary place of residence.",explanatoryNote
+DriversLicenseIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+Nfb5297dcd303443788f6c9723e5c6284,1,owl#qualifiedCardinality
+hasMiddleNameOrInitial,hasPersonName,rdf-schema#subPropertyOf
+Ne7d8b57ed718471cbb49d0387de0c7a4,NationalIdentificationNumberScheme,owl#onClass
+hasDateOfBirth,Person,rdf-schema#domain
+Nce14d6277e4544cea44d36c08f212cb6,owl#Restriction,22-rdf-syntax-ns#type
+hasAgeOfMajority,hasAge,rdf-schema#subPropertyOf
+N62cf157017194f798ab24fa58e7c8e61,owl#Restriction,22-rdf-syntax-ns#type
+BirthCertificate,Nd3396cbb925246dea1719afc7b850421,rdf-schema#subClassOf
+Minor,"a person under a certain age, usually the age of majority in a given jurisdiction, which legally demarcates childhood from adulthood",core#definition
+hasMinimumLegalWorkingAge,has minimum legal working age,rdf-schema#label
+Person,Party,rdf-schema#subClassOf
+EmancipatedMinor,"The minor will then have full contractual capacity to conclude contracts with regard to the business. Whether parental consent is needed to achieve emancipated status varies from case to case. In some cases, court permission is necessary. Protocols vary by jurisdiction.",explanatoryNote
+LegalAge,Age,rdf-schema#subClassOf
+Person,Naa7e3737c3974cf4b5e3754983fce398,rdf-schema#subClassOf
+Nbe7c4255a3184170804195f1b0754cec,0,owl#minQualifiedCardinality
+N75b16f487be845aeba4e2f8657c05388,hasDateOfDeath,owl#onProperty
+Nbe7c4255a3184170804195f1b0754cec,owl#Restriction,22-rdf-syntax-ns#type
+hasFullLegalName,has full legal name,rdf-schema#label
+,.,core#changeNote
+BirthCertificate,"A birth certificate is a vital record that documents the birth of a child. Depending on the jurisdiction, a record of birth might or might not contain verification of the event by such as a midwife or doctor.",explanatoryNote
+EmancipatedMinor,Minor,rdf-schema#subClassOf
+hasDateOfDeath,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"People.rdf version of the ontology was was modified per the issue resolutions identified in the FIBO FND 1.1 RTF report, primarily to use the hasAddress property in addresses, and change PostalAddress to PhysicalAddress in a restriction on Person. Also revised the identifiesAddress property in favor of verifiesAddress, and revised hasDateofBirth with respect to an identity document to be verifiesDateOfBirth, which was determined to be more appropriate by the RTF.",core#changeNote
+BirthCertificate,IdentityDocument,rdf-schema#subClassOf
+N77e3e819f0524905acbc4bde5fc2dd9e,owl#Restriction,22-rdf-syntax-ns#type
+Ne2c0a6824d1e4647b900fb0a44ccbe47,hasMember,owl#onProperty
+Nce14d6277e4544cea44d36c08f212cb6,1,owl#qualifiedCardinality
+hasPrimaryResidence,hasResidence,rdf-schema#subPropertyOf
+Minor,"The age depends upon jurisdiction and application, but is generally 18.",explanatoryNote
+N62cf157017194f798ab24fa58e7c8e61,1,owl#qualifiedCardinality
+DeathCertificateIdentifier,Identifier,rdf-schema#subClassOf
+Person,"individual human being, with consciousness of self",core#definition
+hasLastName,"indicates the name shared in common to identify the members of a family, as distinguished from each member's given name",core#definition
+hasDateOfDeath,owl#FunctionalProperty,22-rdf-syntax-ns#type
+Ne7d8b57ed718471cbb49d0387de0c7a4,1,owl#qualifiedCardinality
+Ne7d8b57ed718471cbb49d0387de0c7a4,isDefinedIn,owl#onProperty
+hasPrimaryResidence,ConventionalStreetAddress,rdf-schema#range
+Nf7e366d433ae446295c2f6f105a452c0,owl#Restriction,22-rdf-syntax-ns#type
+IdentityDocument,Ncc1eb7152bc84ce7903a146f38483980,rdf-schema#subClassOf
+Nba1029e65c00488bbdba059a22a51f57,AgeOfMajority,owl#onClass
+NationalIdentificationNumber,N8c7fae17d57a4cc280586892d4bbf414,rdf-schema#subClassOf
+LegallyCapableAdult,person who has attained the age of majority as defined in some jurisdiction and who is allowed to conduct a business or any other occupation on his or her own behalf or for their own account,core#definition
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+N62cf157017194f798ab24fa58e7c8e61,XMLSchema#string,owl#onDataRange
+hasMaidenName,hasPersonName,rdf-schema#subPropertyOf
+Ne85b4905822345cb8ac3cd8cb17ba958,LegalWorkingAge,owl#onClass
+DriversLicense,"an official document which states that a person may operate a motorized vehicle, such as a motorcycle, car, truck or a bus, on a public roadway or provides official identifying information for a non-driver",core#definition
+Nd3396cbb925246dea1719afc7b850421,owl#Restriction,22-rdf-syntax-ns#type
+PersonName,Nbe7c4255a3184170804195f1b0754cec,rdf-schema#subClassOf
+Adult,adult,rdf-schema#label
+DriversLicenseIdentifier,driver's license identifier,rdf-schema#label
+Ne85b4905822345cb8ac3cd8cb17ba958,hasMinimumLegalWorkingAge,owl#onProperty
+LegalWorkingAgePerson,legal working age person,rdf-schema#label
+hasAgeOfMajority,AgeOfMajority,rdf-schema#range
+Nb63c07070aba4428ad8c61ad47b1e46b,owl#Restriction,22-rdf-syntax-ns#type
+hasFullLegalName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasFullLegalName,"indicates the complete name of a person, typically used in formal situations including those of a legal or contractual nature",core#definition
+N77e3e819f0524905acbc4bde5fc2dd9e,1,owl#qualifiedCardinality
+Ne2c0a6824d1e4647b900fb0a44ccbe47,owl#Restriction,22-rdf-syntax-ns#type
+hasCitizenship,isClassifiedBy,rdf-schema#subPropertyOf
+hasResidence,has residence,rdf-schema#label
+DateOfDeath,date of death,rdf-schema#label
+hasMinimumLegalWorkingAge,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasPlaceOfBirth,identifies the location where an individual was born,core#definition
+BirthCertificate,"an original document certifying the circumstances of the birth, or a certified copy of or representation of the ensuing registration of that birth",core#definition
+hasFamilyName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+BirthCertificateIdentifier,birth certificate number,synonym
+PersonName,designation by which someone is known in some context,core#definition
+Passport,"formal identity document, issued by a national government, which certifies the identity and nationality of its holder for the purpose of international travel",core#definition
+DateOfDeath,owl#Class,22-rdf-syntax-ns#type
+Ndd82959d203d4a70a8f7ed6e980e2c96,owl#Restriction,22-rdf-syntax-ns#type
+hasLastName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Person,N85a8742457024aca94b0be1acaa43956,rdf-schema#subClassOf
+hasCitizenship,has citizenship,rdf-schema#label
+N02e76c87839a419e9c3da1e556cfc3a9,defines,owl#onProperty
+IdentityDocument,owl#Class,22-rdf-syntax-ns#type
+,"People.rdf version of the ontology was modified to add explicit DateOfBirth and DateOfDeath, added DeathCertificate and related concepts, streamlined related properties and restrictions.",core#changeNote
+BirthCertificateIdentifier,Nfb5297dcd303443788f6c9723e5c6284,rdf-schema#subClassOf
+N8c7fae17d57a4cc280586892d4bbf414,owl#Restriction,22-rdf-syntax-ns#type
+Nac8d36b4edc649a0b3611edbfbca122d,0,owl#minQualifiedCardinality
+N938876807cb84b9b89b87dd0015f85e8,isDefinedIn,owl#onProperty
+BirthCertificateIdentificationScheme,IdentificationScheme,rdf-schema#subClassOf
+hasCitizenship,links a person to their country of citizenship,core#definition
+PassportNumberIdentificationScheme,Ne2c0a6824d1e4647b900fb0a44ccbe47,rdf-schema#subClassOf
+PersonName,person name,rdf-schema#label
+N62cf157017194f798ab24fa58e7c8e61,hasGender,owl#onProperty
+,MIT,license
+hasResidence,Person,rdf-schema#domain
+DriversLicenseIdentificationScheme,N02e76c87839a419e9c3da1e556cfc3a9,rdf-schema#subClassOf
+PassportNumberIdentificationScheme,IdentificationScheme,rdf-schema#subClassOf
+Nac8d36b4edc649a0b3611edbfbca122d,owl#Restriction,22-rdf-syntax-ns#type
+hasFamilyName,hasPersonName,rdf-schema#subPropertyOf
+N11ea5cdd9b9d4f82bf354846fba3998e,0,owl#minQualifiedCardinality
+N11ea5cdd9b9d4f82bf354846fba3998e,owl#Restriction,22-rdf-syntax-ns#type
+Nf7e366d433ae446295c2f6f105a452c0,1,owl#qualifiedCardinality
+IdentityDocument,N9932f089c4ef477ca09f4bd07c882a3c,rdf-schema#subClassOf
+Nb63c07070aba4428ad8c61ad47b1e46b,identifies,owl#onProperty
+IdentityDocument,"If issued in the form of a small, mostly standard-sized card, it is usually called an identity card (IC). Countries which do not have formal identity documents may require informal documents. In the absence of a formal identity document, driving licenses can be used in many countries as a method of proof of identity, although some countries do not accept driving licenses for identification, often because in those countries they don't expire as documents and can be old and easily forged. Most countries accept passports as a form of identification. Most countries have the rule that foreign citizens need to have their passport or occasionally a national identity card from their country available at any time if they do not have residence permit in the country.",explanatoryNote
+N8cce051235eb467f873bd40341886074,DeathCertificateIdentificationScheme,owl#onClass
+PlaceOfBirth,place of birth,rdf-schema#label
+Nd3396cbb925246dea1719afc7b850421,1,owl#qualifiedCardinality
+BirthCertificateIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+,"People.rdf version of the ontology was modified to add hasResidence, hasMailingAddress, and hasPrimaryResidence properties and a restriction on person with respect to residence accordingly, then to move hasMailingAddress to Parties.",core#changeNote
+Passport,Passport,definitionOrigin
+DeathCertificateIdentifier,N8cce051235eb467f873bd40341886074,rdf-schema#subClassOf
+hasSurname,hasPersonName,rdf-schema#subPropertyOf
+N8c7fae17d57a4cc280586892d4bbf414,1,owl#qualifiedCardinality
+Adult,owl#Class,22-rdf-syntax-ns#type
+DeathCertificateIdentifier,death certificate identifier,rdf-schema#label
+hasCitizenship,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ndd408910a85843fabab40b4ca7e85c03,owl#Restriction,22-rdf-syntax-ns#type
+hasNamePrefix,hasTextValue,rdf-schema#subPropertyOf
+hasResidence,hasAddress,rdf-schema#subPropertyOf
+Ne6112355e7514ee382127f1c21e6768b,0,owl#minQualifiedCardinality
+DeathCertificateIdentificationScheme,death certificate identification scheme,rdf-schema#label
+Adult,Adult,adaptedFrom
+AgeOfMajority,age of majority,rdf-schema#label
+DateOfBirth,birthday,synonym
+N418cae34ab61476ea6e5e5ffae390979,DeathCertificate,owl#onClass
+BirthCertificate,owl#Class,22-rdf-syntax-ns#type
+Ndd82959d203d4a70a8f7ed6e980e2c96,1,owl#qualifiedCardinality
+Adult,Nba1029e65c00488bbdba059a22a51f57,rdf-schema#subClassOf
+hasDateOfDeath,identifies the date on which an individual died,core#definition
+BirthCertificateIdentifier,owl#Class,22-rdf-syntax-ns#type
+,"ontology structure
+		(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.
+		(6) to revise and extend the set of properties about people required to fulfill the set of use cases listed above.",core#changeNote
+DateOfBirth,owl#Class,22-rdf-syntax-ns#type
+LegallyCapableAdult,owl#Class,22-rdf-syntax-ns#type
+,"This ontology defines concepts for people and human related terms, for use in other FIBO ontology elements. People as defined here are human persons only. This ontology sets out a number of basic properties which are held by people or are definitive of a small number of specific types of people such as minors or adults. Primary use cases for determining the set of personal information definitions included are the common elements required to (1) open a bank account, (2) identify a sophisticated investor, and (3) establish foreign account ownership for money laundering purposes.",abstract
+,"People.rdf version of the ontology was modified to add concepts specific to legal age, age of majority, legal working age and legal working age person.",core#changeNote
+hasMinimumLegalWorkingAge,hasAge,rdf-schema#subPropertyOf
+LegalWorkingAge,age at which someone acquires the capacity to work legally in some jurisdiction,core#definition
+EmancipatedMinor,Emancipated_minor,adaptedFrom
+LegallyCapableAdult,Adult,rdf-schema#subClassOf
+PassportNumberIdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+,People.rdf version of the ontology was modified to eliminate duplication with concepts in LCC and correct a bug in a restriction on identity document.,core#changeNote
+DeathCertificate,"original document certifying the circumstances of the death (such as how and when it occurred), or a certified copy of or representation of the ensuing registration of that death",core#definition
+hasFirstName,hasGivenName,owl#equivalentProperty
+,,owl#imports
+NationalIdentificationNumberScheme,national identification number scheme,rdf-schema#label
+DriversLicense,Ndd82959d203d4a70a8f7ed6e980e2c96,rdf-schema#subClassOf
+,People.rdf version of the ontology was modified to deprecate legally capable person in favor of natural person (defined in Business Entities).,core#changeNote
+hasFirstName,has first name,rdf-schema#label
+hasFirstName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Ne6112355e7514ee382127f1c21e6768b,owl#Restriction,22-rdf-syntax-ns#type
+Nce14d6277e4544cea44d36c08f212cb6,DateOfBirth,owl#onClass
+N33858c4a0ee541548b0f7023f9c6e0b2,isIdentifiedBy,owl#onProperty
+,"People.rdf version of the ontology was modified to allow the People ontology to import Parties, rather than the other way around, to simplify the class hierarchy for ease of use in data mapping and alignment, and to add person name as a first class concept, revising property definitions to allow for structured names by loosening constraints.",core#changeNote
+NationalIdentificationNumberScheme,Nf4eb4d08a93241548a7c51232ba6513d,rdf-schema#subClassOf
+hasLastName,has last name,rdf-schema#label
+N9932f089c4ef477ca09f4bd07c882a3c,1,owl#qualifiedCardinality
+hasMinimumLegalWorkingAge,LegalWorkingAge,rdf-schema#range
+PersonName,owl#Class,22-rdf-syntax-ns#type
+Nbe7c4255a3184170804195f1b0754cec,Text,owl#onDataRange
+PlaceOfBirth,"physical location, including country, region, and municipality where an individual was born",core#definition
+IdentityDocument,any legal document which may be used to verify aspects of a person's identity,core#definition
+BirthCertificateIdentifier,identifier associated with a vital record documenting the birth of a child,core#definition
+hasDateOfBirth,identifies the date on which an individual was born,core#definition
+DriversLicense,Non-driver_identification_card#Non-driver_identification_cards,adaptedFrom
+BirthCertificateIdentificationScheme,Ndd408910a85843fabab40b4ca7e85c03,rdf-schema#subClassOf
+Nf4eb4d08a93241548a7c51232ba6513d,owl#Restriction,22-rdf-syntax-ns#type
+,People Ontology,rdf-schema#label
+hasNameSuffix,hasTextValue,rdf-schema#subPropertyOf
+Passport,passport,rdf-schema#label
+DeathCertificateIdentifier,death certificate number,synonym
+N418cae34ab61476ea6e5e5ffae390979,identifies,owl#onProperty
+hasFamilyName,hasSurname,owl#equivalentProperty
+Ne7efc86ce623442a906cee1e9c0ec5a7,DeathCertificateIdentifier,owl#someValuesFrom
+Nce14d6277e4544cea44d36c08f212cb6,hasDateOfBirth,owl#onProperty
+Passport,N17f2d26fee4e48b99d6cbc88282b063c,rdf-schema#subClassOf
+N418cae34ab61476ea6e5e5ffae390979,owl#Restriction,22-rdf-syntax-ns#type
+DateOfDeath,ExplicitDate,rdf-schema#subClassOf
+DriversLicenseIdentifier,identifier associated with a drivers' or operating license for operating a motor vehicle or non-driver identification card,core#definition
+N9932f089c4ef477ca09f4bd07c882a3c,isIdentifiedBy,owl#onProperty
+hasMaidenName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,People.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+NationalIdentificationNumber,number or text which appears on an identity document issued by a country or jurisdiction,core#definition
+DateOfBirth,birth date,synonym
+hasPersonName,"Note that the concept of a person name may include symbology as long as the symbols are properly encoded. Because person name is a class, other iconography or symbology that cannot be encoded in UTF-8 can, alternatively, be linked or attached as a separate image or in another form.",explanatoryNote
+LegalAge,legal age,rdf-schema#label
+DeathCertificateIdentifier,N418cae34ab61476ea6e5e5ffae390979,rdf-schema#subClassOf
+EmancipatedMinor,emancipated minor,rdf-schema#label
+hasPlaceOfBirth,isCharacterizedBy,rdf-schema#subPropertyOf
+,People.rdf version of the ontology was modified to revise the definition of passport number as a national identification number and eliminate restrictions that would cause people to be inferred to be passports.,core#changeNote
+N418cae34ab61476ea6e5e5ffae390979,1,owl#qualifiedCardinality
+hasPlaceOfBirth,Person,rdf-schema#domain
+LegalWorkingAgePerson,Ne85b4905822345cb8ac3cd8cb17ba958,rdf-schema#subClassOf
+hasSurname,has surname,rdf-schema#label
+N11ea5cdd9b9d4f82bf354846fba3998e,Text,owl#onDataRange
+IncapacitatedAdult,"Individuals may have an inherent physical condition which prevents them from achieving the normal levels of performance expected from persons of comparable age, or their inability to match current levels of performance may be caused by contracting an illness. Whatever the cause, if the resulting condition is such that individuals cannot care for themselves, or may act in ways that are against their interests, those persons are vulnerable through dependency and require the protection of the state against the risks of abuse or exploitation. Hence, any agreements that were made are voidable, and a court may declare that person a ward of the state and grant power of attorney to an appointed legal guardian.",explanatoryNote
+PlaceOfBirth,PhysicalLocation,rdf-schema#subClassOf
+Nd419e7f0c25540d0922b715d4c57939e,owl#Restriction,22-rdf-syntax-ns#type
+DeathCertificate,Certificate,rdf-schema#subClassOf
+NationalIdentificationNumberScheme,IdentificationScheme,rdf-schema#subClassOf
+DateOfBirth,date of birth,rdf-schema#label
+Nac8d36b4edc649a0b3611edbfbca122d,hasFullLegalName,owl#onProperty
+DriversLicense,driver's license,rdf-schema#label
+hasMiddleNameOrInitial,has middle name or initial,rdf-schema#label
+,People.rdf version of the ontology was modified to replace an additional property with its equivalent from the OMG Commons Ontology Library (Commons) v1.1 (FBC-322).,core#changeNote
+hasDateOfBirth,owl#ObjectProperty,22-rdf-syntax-ns#type
+IdentityDocument,identity card,synonym
+Person,owl#Class,22-rdf-syntax-ns#type
+N85a8742457024aca94b0be1acaa43956,0,owl#minQualifiedCardinality
+Ne2b74a2ad0334d78a8242e9871a85ef9,isNameOf,owl#onProperty
+hasDateOfBirth,owl#FunctionalProperty,22-rdf-syntax-ns#type

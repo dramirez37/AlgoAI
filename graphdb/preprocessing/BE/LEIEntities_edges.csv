@@ -1,0 +1,318 @@
+source_id,target_id,relationship
+Ndea5b60a69254bd7b7e1c5e0b99fc463,0,owl#minQualifiedCardinality
+ContractuallyCapableEntity,N8c503a024dec4265850a5f25b8af1b63,rdf-schema#subClassOf
+Ndea5b60a69254bd7b7e1c5e0b99fc463,owl#Restriction,22-rdf-syntax-ns#type
+AccountingFramework,owl#Class,22-rdf-syntax-ns#type
+Nc5e7da131a8c456fa3df08828d093aa9,owl#Restriction,22-rdf-syntax-ns#type
+AccountingPeriod,relationship-record-cdf-format#,adaptedFrom
+,Legal Entity Identifier (LEI) Entities Ontology,rdf-schema#label
+LEIRegisteredEntity,Nc5e7da131a8c456fa3df08828d093aa9,owl#equivalentClass
+N233d9a58bb284d3a8f9cb0750cc914e8,owl#Restriction,22-rdf-syntax-ns#type
+RelationshipStatus,owl#Class,22-rdf-syntax-ns#type
+LegalEntity,N352a1626e29b41d9968061ba0ca71854,rdf-schema#subClassOf
+ContractuallyCapableEntity,"a unique entity that is legally or financially responsible for the performance of financial transactions, or has the legal right in its jurisdiction to enter independently into legal contracts, regardless of whether it is incorporated or constituted in some other way (e.g. trust, partnership, contractual). This excludes natural persons, but includes governmental organizations and supranationals.",core#definition
+RelationshipPeriodQualifier,relationship-record-cdf-format#,adaptedFrom
+N5705821371724f999682149fbbb70752,0,owl#minQualifiedCardinality
+RelationshipQualifier,relationship-record-cdf-format#,adaptedFrom
+EntityLegalFormScheme,entity legal form scheme,rdf-schema#label
+RelationshipStatusActive,owl#NamedIndividual,22-rdf-syntax-ns#type
+GenerallyAcceptedAccountingPrinciples,Generally Accepted Accounting Principles,rdf-schema#label
+ISO17442-CodeSet,ISO 17442 code set,rdf-schema#label
+EntityLegalFormIdentifier,owl#Class,22-rdf-syntax-ns#type
+OtherAccountingFramework,an accounting framework of unstated origin (other than IFRS or US GAAP),core#definition
+isUltimatelyConsolidatedBy,LegalEntity,rdf-schema#range
+GenerallyAcceptedAccountingPrinciples,relationship-record-cdf-format#,adaptedFrom
+Na9ceeac2e7a446598e2298711ca2cb17,XMLSchema#decimal,owl#onDataRange
+RelationshipRecord,relationship record,rdf-schema#label
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,,owl#versionIRI
+,LEIEntities.rdf version of this ontology was revised to eliminate deprecated elements.,core#changeNote
+hasLegalFormAbbreviation,has legal form abbreviation,rdf-schema#label
+hasLegalFormAbbreviation,"the precise abbreviation for the entity legal form as defined in the jurisdiction in which it is registered, for example LLC, LLP, Ltd, PLC, Corp.",core#definition
+isUltimatelyConsolidatedBy,relationship-record-cdf-format#,adaptedFrom
+EntityLegalFormScheme,ClassificationScheme,rdf-schema#subClassOf
+GenerallyAcceptedAccountingPrinciples,owl#NamedIndividual,22-rdf-syntax-ns#type
+ISO17442-CodeSet,owl#NamedIndividual,22-rdf-syntax-ns#type
+Ne8b052112463455db3f1d42728d9b0d4,owl#Restriction,22-rdf-syntax-ns#type
+N263fe004e2a24c26a3b7b11b27673d86,owl#Restriction,22-rdf-syntax-ns#type
+N233d9a58bb284d3a8f9cb0750cc914e8,isDefinedIn,owl#onProperty
+hasOwnershipPercentage,isQuantifiedBy,rdf-schema#subPropertyOf
+EntityLegalForm,Classifier,rdf-schema#subClassOf
+ContractuallyCapableEntity,contractually capable entity,rdf-schema#label
+N26be5de4e2a14c6d996e6ec425368798,ConventionalStreetAddress,owl#onClass
+hasLegalForm,isClassifiedBy,rdf-schema#subPropertyOf
+GenerallyAcceptedAccountingPrinciples,an accounting framework developed by the US Financial Accounting Standards Board (FASB),core#definition
+LEIRegisteredEntity,LEI registered entity,rdf-schema#label
+InternationalFinancialReportingStandard,an accounting framework developed by the International Accounting Standards Board (IASB),core#definition
+Na9ceeac2e7a446598e2298711ca2cb17,0,owl#minQualifiedCardinality
+,LEIEntities.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+LegalEntityIdentifierScheme,lei-cdf-format-version-2-1,adaptedFrom
+InternationalFinancialReportingStandard,IFRS,abbreviation
+N3b70e77eb0084d4c9f3c4d32a3e95ba7,hasLegalFormAbbreviation,owl#onProperty
+LegalEntityIdentifier,legal entity identifier,rdf-schema#label
+ISO17442-CodeSet,GLEIF LEI CDF v2.1 legal entity identifier (LEI) code set,synonym
+hasLegalAddress,LegalEntity,rdf-schema#domain
+hasTransliteratedName,has transliterated name,rdf-schema#label
+isInternationalBranchOf,isConsolidatedBy,rdf-schema#subPropertyOf
+RelationshipStatus,Classifier,rdf-schema#subClassOf
+AccountingPeriod,qualifier indicating that the relationship period reflects the period of time covered by the most recent validation documents from an accounting perspective for this relationship,core#definition
+RelationshipStatus,a classifier that specifies the status of the relationship between consolidated entities during the reporting period (active or inactive),core#definition
+isConsolidatedBy,relationship-record-cdf-format#,adaptedFrom
+AccountingFramework,accounting framework,rdf-schema#label
+N352a1626e29b41d9968061ba0ca71854,EntityLegalForm,owl#onClass
+N81c19edd79b54fdcb23a1c9fff70db04,isQualifiedBy,owl#onProperty
+GenerallyAcceptedAccountingPrinciples,US GAAP,abbreviation
+LegalEntityIdentifierScheme,59771.html,adaptedFrom
+EntityLegalFormIdentifier,#iso:std:iso:20275:ed-1:v1:en,adaptedFrom
+Na9ceeac2e7a446598e2298711ca2cb17,owl#Restriction,22-rdf-syntax-ns#type
+hasTransliteratedName,hasTextValue,rdf-schema#subPropertyOf
+InternationalFinancialReportingStandard,owl#NamedIndividual,22-rdf-syntax-ns#type
+Ne9266065ee44407db1d3220acce57f59,denotes,owl#onProperty
+Ne24e0e8222c84673b18015ba25a0ce6c,owl#Restriction,22-rdf-syntax-ns#type
+ContractuallyCapableEntity,AgentRole,rdf-schema#subClassOf
+isQuantifiedBy,indicates that something is limited to or conditional due to some rate or other statistical value,core#definition
+EntityLegalFormScheme,iso-20275-entity-legal-forms-code-list,adaptedFrom
+RelationshipStatusInactive,RelationshipStatus,22-rdf-syntax-ns#type
+EntityLegalForm,N263fe004e2a24c26a3b7b11b27673d86,rdf-schema#subClassOf
+,"LEIEntities.rdf version of this ontology was revised to change the restriction on EntityLegalForm from identifies to denotes, in line with the definition of a code as opposed to an identifier, given the nature of an entity legal form.",core#changeNote
+RelationshipPeriodQualifier,"a classifier that qualifies something about the reporting period specified, such as that the date period reflects an accounting or document filing period",core#definition
+Ne24e0e8222c84673b18015ba25a0ce6c,LegalEntityIdentifier,owl#someValuesFrom
+Ne8b052112463455db3f1d42728d9b0d4,isDefinedIn,owl#onProperty
+Ne9266065ee44407db1d3220acce57f59,EntityLegalForm,owl#onClass
+,"LEIEntities.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.1 RTF report. Changes include deprecation of the MunicipalEntity, Sovereign, and SupranationalEntity classes and making them equivalent to classes in the Government Entities ontology.",core#changeNote
+Nfd5f5662e29141d3a76c9c2a299830a2,owl#Restriction,22-rdf-syntax-ns#type
+Ndea5b60a69254bd7b7e1c5e0b99fc463,Text,owl#onDataRange
+isInternationalBranchOf,relationship-record-cdf-format#,adaptedFrom
+RelationshipQualifier,relationship qualifier,rdf-schema#label
+hasTransliteratedName,hasTextualName,rdf-schema#subPropertyOf
+isConsolidationOf,LegalEntity,rdf-schema#range
+isInternationalBranchOf,LegalEntity,rdf-schema#range
+LegalEntityIdentifier,OrganizationIdentifier,rdf-schema#subClassOf
+LegalEntityIdentifier,59771.html,adaptedFrom
+RelationshipRecord,a record describing relationships between legal entities,core#definition
+OrganizationName,N5705821371724f999682149fbbb70752,rdf-schema#subClassOf
+N5a2600838ed84848a5edf586888ac464,owl#Restriction,22-rdf-syntax-ns#type
+hasTransliteratedName,lei-cdf-format-version-2-1,adaptedFrom
+N233d9a58bb284d3a8f9cb0750cc914e8,EntityLegalFormScheme,owl#someValuesFrom
+DocumentFilingPeriod,relationship-record-cdf-format#,adaptedFrom
+EntityLegalFormIdentifier,entity legal form identifier,rdf-schema#label
+AccountingPeriod,owl#NamedIndividual,22-rdf-syntax-ns#type
+isDirectlyConsolidatedBy,LegalEntity,rdf-schema#range
+isConsolidationOf,comprises,rdf-schema#subPropertyOf
+N81c19edd79b54fdcb23a1c9fff70db04,RelationshipQualifier,owl#onClass
+hasTransliteratedLegalFormAbbreviation,"a transliterated (i.e., in Latin or Romanized ASCII) representation of the abbreviation for the entity legal form",core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+Nd553977f738d4758abdc9b5b58db547b,classifies,owl#onProperty
+RelationshipStatusActive,"or operating, and that the relationship detailed in this relationship record is still valid",core#definition
+isDirectlyConsolidatedBy,isConsolidatedBy,rdf-schema#subPropertyOf
+Nc54db72f48364d76a918739f86feea78,owl#Restriction,22-rdf-syntax-ns#type
+isDirectlyConsolidatedBy,relationship-record-cdf-format#,adaptedFrom
+DocumentFilingPeriod,owl#NamedIndividual,22-rdf-syntax-ns#type
+LEIRegisteredEntity,"Note that the GLEIF data includes multiple LEIs for some entities due to corporate actions or other situations. The duplicates are typically archived after some period of time, but in order to reflect the reality in the data, the restriction is modeled as someValuesFrom rather than exactly 1 LEI for a given entity.",explanatoryNote
+Nfd5f5662e29141d3a76c9c2a299830a2,LegalEntityIdentifier,owl#onClass
+,LEIEntities.rdf version of this ontology was revised to eliminate duplication with concepts in LCC and to correct the parent of relationship record.,core#changeNote
+hasLegalForm,has legal form,rdf-schema#label
+EntityLegalFormIdentifier,CodeElement,rdf-schema#subClassOf
+N22b2c5085f6e4e8db15d989df94a4b55,LegalPerson,owl#onClass
+EntityLegalForm,Nd553977f738d4758abdc9b5b58db547b,rdf-schema#subClassOf
+LegalEntity,N26be5de4e2a14c6d996e6ec425368798,rdf-schema#subClassOf
+ISO17442-CodeSet,LegalEntityIdentifierScheme,22-rdf-syntax-ns#type
+Nc54db72f48364d76a918739f86feea78,EntityLegalFormIdentifier,owl#someValuesFrom
+N8c503a024dec4265850a5f25b8af1b63,1,owl#qualifiedCardinality
+N8c503a024dec4265850a5f25b8af1b63,owl#Restriction,22-rdf-syntax-ns#type
+LegalEntityIdentifierScheme,OrganizationIdentificationScheme,rdf-schema#subClassOf
+isUltimatelyConsolidatedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+RelationshipStatusInactive,relationship-record-cdf-format#,adaptedFrom
+,"This ontology defines concepts around contractually capable business entities. The terms defined here are those which are relevant to the Legal Entity Identifier (LEI) work. The term known as legal entity in that work is identified as a formal organization which is recognized in some jurisdiction as being capable of incurring some liability, whether or not is a legal person as understood by the legal community. This is labeled as contractually capable entity, to avoid confusion with the accepted legal term for Legal Entity. Such entities are recognized as requiring an LEI, but the identifier itself is allocated to the formal organization which is recognized as being contractually capable.",abstract
+RelationshipRecord,Constituent,rdf-schema#subClassOf
+EntityLegalFormIdentifier,Ne9266065ee44407db1d3220acce57f59,rdf-schema#subClassOf
+hasLegalForm,#iso:std:iso:20275:ed-1:v1:en,adaptedFrom
+N8c503a024dec4265850a5f25b8af1b63,isPlayedBy,owl#onProperty
+EntityLegalForm,Ndea5b60a69254bd7b7e1c5e0b99fc463,rdf-schema#subClassOf
+isQuantifiedBy,XMLSchema#decimal,rdf-schema#range
+EntityLegalForm,N3b70e77eb0084d4c9f3c4d32a3e95ba7,rdf-schema#subClassOf
+hasLegalAddress,owl#ObjectProperty,22-rdf-syntax-ns#type
+RelationshipStatus,relationship status,rdf-schema#label
+,Release,hasMaturityLevel
+isConsolidatedBy,indicates the entity considered the 'end node' or consolidating entity (parent) from an ISO 17442 perspective,core#definition
+,"LEIEntities.rdf version of this ontology was modified to incorporate LEIEligibleEntity and LEIRegisteredEntity, as well as add restrictions in support of the ISO 17442 LEI effort and related changes to the GLEIF Common Data Format for the FIBO 2.0 RFC.",core#changeNote
+RelationshipStatusInactive,owl#NamedIndividual,22-rdf-syntax-ns#type
+N26be5de4e2a14c6d996e6ec425368798,hasLegalAddress,owl#onProperty
+N352a1626e29b41d9968061ba0ca71854,owl#Restriction,22-rdf-syntax-ns#type
+EntityLegalFormIdentifier,code that denotes an entity legal form as defined in ISO 20275,core#definition
+isQuantifiedBy,is quantified by,rdf-schema#label
+,LEIEntities.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+hasLegalAddress,lei-cdf-format-version-2-1,adaptedFrom
+N81c19edd79b54fdcb23a1c9fff70db04,0,owl#minQualifiedCardinality
+isConsolidatedBy,LegalEntity,rdf-schema#range
+EntityLegalFormIdentifier,N5a2600838ed84848a5edf586888ac464,rdf-schema#subClassOf
+hasLegalForm,EntityLegalForm,rdf-schema#range
+InternationalFinancialReportingStandard,AccountingFramework,22-rdf-syntax-ns#type
+hasOwnershipPercentage,XMLSchema#decimal,rdf-schema#range
+N3b70e77eb0084d4c9f3c4d32a3e95ba7,0,owl#minQualifiedCardinality
+EntityLegalFormScheme,owl#Class,22-rdf-syntax-ns#type
+hasOwnershipPercentage,lei-cdf-format-version-2-1,adaptedFrom
+RelationshipStatus,N3a4bde327c6c45cea16dd23e74da5789,owl#equivalentClass
+,LEIEntities.rdf version of this ontology was revised to replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+hasLegalFormAbbreviation,owl#DatatypeProperty,22-rdf-syntax-ns#type
+EntityLegalForm,entity legal form,rdf-schema#label
+N19d507e666724107bb560155074868e6,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+hasTransliteratedName,"a transliterated (i.e., in Latin or Romanized ASCII) representation of a name for the entity",core#definition
+RelationshipPeriodQualifier,owl#Class,22-rdf-syntax-ns#type
+RelationshipQualifier,owl#Class,22-rdf-syntax-ns#type
+LEIRegisteredEntity,LegalPerson,rdf-schema#subClassOf
+hasTransliteratedLegalFormAbbreviation,has transliterated legal form abbreviation,rdf-schema#label
+N057953a6cc7947348e9feea8fea9fdee,0,owl#minQualifiedCardinality
+N057953a6cc7947348e9feea8fea9fdee,owl#Restriction,22-rdf-syntax-ns#type
+AccountingFramework,relationship-record-cdf-format#,adaptedFrom
+Ndea5b60a69254bd7b7e1c5e0b99fc463,hasTransliteratedName,owl#onProperty
+N263fe004e2a24c26a3b7b11b27673d86,Jurisdiction,owl#someValuesFrom
+LegalEntityIdentifierScheme,owl#Class,22-rdf-syntax-ns#type
+RelationshipStatus,relationship-record-cdf-format#,adaptedFrom
+N3b70e77eb0084d4c9f3c4d32a3e95ba7,owl#Restriction,22-rdf-syntax-ns#type
+LegalEntityIdentifier,lei-cdf-format-version-2-1,adaptedFrom
+isDirectlyConsolidatedBy,is directly consolidated by,rdf-schema#label
+Nd553977f738d4758abdc9b5b58db547b,owl#Restriction,22-rdf-syntax-ns#type
+N26be5de4e2a14c6d996e6ec425368798,1,owl#qualifiedCardinality
+RelationshipQualifier,"a classifier that qualifies something about the relationship between consolidated entities during the reporting period, such as the accounting framework used",core#definition
+N26be5de4e2a14c6d996e6ec425368798,owl#Restriction,22-rdf-syntax-ns#type
+EntityLegalFormScheme,"scheme that specifies the elements of the codes for entity legal forms, such as those that are sanctioned in a given jurisdiction as defined in ISO 20725",core#definition
+ISO20275-CodeSet,entity legal form (ELF) code set,synonym
+LegalEntityIdentifierScheme,Ne24e0e8222c84673b18015ba25a0ce6c,rdf-schema#subClassOf
+LegalEntityIdentifier,Ne8b052112463455db3f1d42728d9b0d4,rdf-schema#subClassOf
+OtherAccountingFramework,AccountingFramework,22-rdf-syntax-ns#type
+hasLegalForm,indicates the nature of the entity as defined from a legal or regulatory perspective in a given jurisdiction,core#definition
+N5705821371724f999682149fbbb70752,Text,owl#onDataRange
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+LEIRegisteredEntity,a legal person that has registered for and is identified by a legal entity identifier,core#definition
+hasLegalAddress,has legal address,rdf-schema#label
+AccountingFramework,RelationshipQualifier,rdf-schema#subClassOf
+Nc54db72f48364d76a918739f86feea78,defines,owl#onProperty
+N352a1626e29b41d9968061ba0ca71854,1,owl#maxQualifiedCardinality
+N403025b1da774a5cb3a81afb0c192880,0,owl#minQualifiedCardinality
+N22b2c5085f6e4e8db15d989df94a4b55,owl#Restriction,22-rdf-syntax-ns#type
+EntityLegalFormScheme,#iso:std:iso:20275:ed-1:v1:en,adaptedFrom
+EntityLegalForm,lei-cdf-format-version-2-1,adaptedFrom
+GenerallyAcceptedAccountingPrinciples,AccountingFramework,22-rdf-syntax-ns#type
+EntityLegalFormScheme,Nc54db72f48364d76a918739f86feea78,rdf-schema#subClassOf
+RelationshipRecord,owl#Class,22-rdf-syntax-ns#type
+LegalEntityIdentifier,owl#Class,22-rdf-syntax-ns#type
+DocumentFilingPeriod,"a qualifier indicating that the relationship period reflects the validity period for any regulatory filing, accounting document, other document demonstrating the relationship's validity",core#definition
+ISO20275-CodeSet,the set of entity legal form identifiers that comprise the ISO 20275 entity legal form specification,core#definition
+hasLegalForm,LegalEntity,rdf-schema#domain
+EntityLegalForm,owl#Class,22-rdf-syntax-ns#type
+,LEIEntities.rdf version of this ontology was revised to reflect the move of some organization-specific concepts from BE to FND.,core#changeNote
+N22b2c5085f6e4e8db15d989df94a4b55,identifies,owl#onProperty
+N22b2c5085f6e4e8db15d989df94a4b55,1,owl#qualifiedCardinality
+N5a2600838ed84848a5edf586888ac464,EntityLegalFormScheme,owl#someValuesFrom
+hasLegalAddress,ConventionalStreetAddress,rdf-schema#range
+isConsolidatedBy,is consolidated by,rdf-schema#label
+isInternationalBranchOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+N403025b1da774a5cb3a81afb0c192880,owl#Restriction,22-rdf-syntax-ns#type
+Ne9266065ee44407db1d3220acce57f59,owl#Restriction,22-rdf-syntax-ns#type
+,MIT,license
+AccountingPeriod,accounting period,rdf-schema#label
+ContractuallyCapableEntity,owl#Class,22-rdf-syntax-ns#type
+RelationshipStatusInactive,or operating; or the relationship is no longer valid for other reasons,core#definition
+Nc5e7da131a8c456fa3df08828d093aa9,LegalEntityIdentifier,owl#someValuesFrom
+LegalPerson,Nfd5f5662e29141d3a76c9c2a299830a2,rdf-schema#subClassOf
+InternationalFinancialReportingStandard,,rdf-schema#seeAlso
+Nc5e7da131a8c456fa3df08828d093aa9,isIdentifiedBy,owl#onProperty
+LegalEntityIdentifierScheme,a scheme that specifies the elements of an unambiguous legal entity identifier (LEI) scheme to identify the legal entities relevant to any financial transaction,core#definition
+Ne8b052112463455db3f1d42728d9b0d4,LegalEntityIdentifierScheme,owl#someValuesFrom
+hasTransliteratedLegalFormAbbreviation,owl#DatatypeProperty,22-rdf-syntax-ns#type
+isConsolidationOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+RelationshipStatusActive,relationship status - active,rdf-schema#label
+RelationshipStatusActive,relationship-record-cdf-format#,adaptedFrom
+N3a4bde327c6c45cea16dd23e74da5789,owl#Class,22-rdf-syntax-ns#type
+isQuantifiedBy,relationship-record-cdf-format#,adaptedFrom
+N5a2600838ed84848a5edf586888ac464,isDefinedIn,owl#onProperty
+Na9ceeac2e7a446598e2298711ca2cb17,isQuantifiedBy,owl#onProperty
+isUltimatelyConsolidatedBy,is ultimately consolidated by,rdf-schema#label
+ISO17442-CodeSet,the set of legal entity identifiers that comprise the ISO 17442 legal entity identifier specification,core#definition
+,"LEIEntities.rdf version of this ontology was modified to deprecate LEIEligibleEntity as a part of a simplification strategy for the organizational class hierarchy, to support GLEIF LEI Level 2 ownership relationships, and eliminate a circular dependency with government entities by removing elements that had been deprecated for the last several FIBO revisions (municipal entity, sovereign, and supranational entity).",core#changeNote
+GenerallyAcceptedAccountingPrinciples,GAAP,abbreviation
+Nfd5f5662e29141d3a76c9c2a299830a2,isIdentifiedBy,owl#onProperty
+hasTransliteratedName,owl#DatatypeProperty,22-rdf-syntax-ns#type
+OtherAccountingFramework,,rdf-schema#seeAlso
+N057953a6cc7947348e9feea8fea9fdee,Text,owl#onDataRange
+N057953a6cc7947348e9feea8fea9fdee,hasTransliteratedLegalFormAbbreviation,owl#onProperty
+InternationalFinancialReportingStandard,International Financial Reporting Standard,rdf-schema#label
+isInternationalBranchOf,indicates that the entity considered the 'start node' or consolidated entity (child) is an international subsidiary of the 'end node' (parent) in the jurisdiction of the child,core#definition
+GenerallyAcceptedAccountingPrinciples,home,rdf-schema#seeAlso
+LegalEntity,lei-cdf-format-version-2-1,adaptedFrom
+EntityLegalFormIdentifier,iso-20275-entity-legal-forms-code-list,adaptedFrom
+hasLegalAddress,"indicates the legal address for the entity, in the jurisdiction in which the entity is established, used for registration purposes with respect to obtaining an LEI",core#definition
+isInternationalBranchOf,is an international branch of,rdf-schema#label
+Na5acc92908a04772a48083b0cf91ed99,N19d507e666724107bb560155074868e6,22-rdf-syntax-ns#rest
+,LEIEntities.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.,core#changeNote
+EntityLegalForm,#iso:std:iso:20275:ed-1:v1:en,adaptedFrom
+LegalEntityIdentifier,N22b2c5085f6e4e8db15d989df94a4b55,rdf-schema#subClassOf
+isDirectlyConsolidatedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+LegalEntity,owl#Class,22-rdf-syntax-ns#type
+isConsolidatedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+RelationshipStatusActive,RelationshipStatus,22-rdf-syntax-ns#type
+N352a1626e29b41d9968061ba0ca71854,hasLegalForm,owl#onProperty
+isDirectlyConsolidatedBy,"indicates that the entity considered the 'end node' or consolidating entity (parent) fully consolidates the accounting of the 'start node' (child) per the accounting rules specified, and is the closest consolidating entity to that child in any applicable ownership hierarchy",core#definition
+Ne9266065ee44407db1d3220acce57f59,1,owl#qualifiedCardinality
+,,owl#imports
+RelationshipPeriodQualifier,relationship period qualifier,rdf-schema#label
+RelationshipRecord,Na9ceeac2e7a446598e2298711ca2cb17,rdf-schema#subClassOf
+N19d507e666724107bb560155074868e6,RelationshipStatusInactive,22-rdf-syntax-ns#first
+hasLegalAddress,hasRegisteredAddress,rdf-schema#subPropertyOf
+N263fe004e2a24c26a3b7b11b27673d86,isApplicableIn,owl#onProperty
+Ne24e0e8222c84673b18015ba25a0ce6c,defines,owl#onProperty
+N403025b1da774a5cb3a81afb0c192880,hasTextualName,owl#onProperty
+ContractuallyCapableEntity,ISO 17442,adaptedFrom
+isConsolidationOf,is consolidation of,rdf-schema#label
+N3b70e77eb0084d4c9f3c4d32a3e95ba7,Text,owl#onDataRange
+hasTransliteratedLegalFormAbbreviation,hasTextValue,rdf-schema#subPropertyOf
+N81c19edd79b54fdcb23a1c9fff70db04,owl#Restriction,22-rdf-syntax-ns#type
+,LEIEntities.rdf version of this ontology was revised to address text formatting hygiene issues.,core#changeNote
+RelationshipRecord,relationship-record-cdf-format#,adaptedFrom
+ISO20275-CodeSet,owl#NamedIndividual,22-rdf-syntax-ns#type
+isConsolidationOf,indicates the entity considered the 'start node' or consolidated entity from an ISO 17442 perspective,core#definition
+OtherAccountingFramework,other accounting framework,rdf-schema#label
+RelationshipStatusInactive,relationship status - inactive,rdf-schema#label
+DocumentFilingPeriod,RelationshipPeriodQualifier,22-rdf-syntax-ns#type
+Na5acc92908a04772a48083b0cf91ed99,RelationshipStatusActive,22-rdf-syntax-ns#first
+N5705821371724f999682149fbbb70752,hasTransliteratedName,owl#onProperty
+RelationshipRecord,N81c19edd79b54fdcb23a1c9fff70db04,rdf-schema#subClassOf
+LegalPerson,owl#Class,22-rdf-syntax-ns#type
+EntityLegalForm,N057953a6cc7947348e9feea8fea9fdee,rdf-schema#subClassOf
+InternationalFinancialReportingStandard,relationship-record-cdf-format#,adaptedFrom
+isQuantifiedBy,owl#DatatypeProperty,22-rdf-syntax-ns#type
+AccountingFramework,"framework, including policies, methods, rules, and processes, used to measure, recognize, present, and disclose the information appearing in an entity's financial statements, and, from a legal ownership perspective, that is applied for accounting consolidation determination",core#definition
+Nfd5f5662e29141d3a76c9c2a299830a2,0,owl#minQualifiedCardinality
+AccountingPeriod,RelationshipPeriodQualifier,22-rdf-syntax-ns#type
+RelationshipQualifier,Classifier,rdf-schema#subClassOf
+Nd553977f738d4758abdc9b5b58db547b,LegalPerson,owl#someValuesFrom
+EntityLegalFormScheme,CodeSet,rdf-schema#subClassOf
+N3a4bde327c6c45cea16dd23e74da5789,Na5acc92908a04772a48083b0cf91ed99,owl#oneOf
+EntityLegalForm,"a classifier for a legal entity that indicates the nature of that entity as defined from a legal or regulatory perspective, in the jurisdiction in which it was established",core#definition
+N403025b1da774a5cb3a81afb0c192880,Text,owl#onDataRange
+N8c503a024dec4265850a5f25b8af1b63,LegalEntity,owl#onClass
+isUltimatelyConsolidatedBy,"indicates that the entity considered the 'end node' or consolidating entity (parent) fully consolidates the accounting of the 'start node' (child) per the accounting rules specified, and is the most distant consolidating entity to that child in any applicable ownership hierarchy",core#definition
+hasLegalForm,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasLegalFormAbbreviation,hasTextValue,rdf-schema#subPropertyOf
+ISO20275-CodeSet,ISO 20275 code set,rdf-schema#label
+hasOwnershipPercentage,has ownership percentage,rdf-schema#label
+DocumentFilingPeriod,document filing period,rdf-schema#label
+OtherAccountingFramework,relationship-record-cdf-format#,adaptedFrom
+hasOwnershipPercentage,owl#DatatypeProperty,22-rdf-syntax-ns#type
+LegalEntityIdentifier,an organization identifier that uniquely identifies a legal person as defined in ISO 17442,core#definition
+LegalEntityIdentifierScheme,legal entity identifier scheme,rdf-schema#label
+,"LEIEntities.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+LEIRegisteredEntity,owl#Class,22-rdf-syntax-ns#type
+ISO20275-CodeSet,EntityLegalFormScheme,22-rdf-syntax-ns#type
+hasLegalForm,lei-cdf-format-version-2-1,adaptedFrom
+OrganizationName,owl#Class,22-rdf-syntax-ns#type
+isUltimatelyConsolidatedBy,isConsolidatedBy,rdf-schema#subPropertyOf
+EntityLegalForm,N233d9a58bb284d3a8f9cb0750cc914e8,rdf-schema#subClassOf
+EntityLegalForm,N403025b1da774a5cb3a81afb0c192880,rdf-schema#subClassOf
+,"LEIEntities.rdf version of this ontology was revised to clean up circular definitions and augment it to incorporate the Text datatype and structure names, including eliminating redundant restrictions on LegalEntity.",core#changeNote
+isConsolidationOf,relationship-record-cdf-format#,adaptedFrom
+RelationshipPeriodQualifier,Classifier,rdf-schema#subClassOf
+hasOwnershipPercentage,"the percentage ownership interest in the owned entity owned by owning entity, if known",core#definition
+N5705821371724f999682149fbbb70752,owl#Restriction,22-rdf-syntax-ns#type
+OtherAccountingFramework,owl#NamedIndividual,22-rdf-syntax-ns#type

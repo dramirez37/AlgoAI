@@ -1,0 +1,192 @@
+source_id,target_id,relationship
+isOrganizedIn,is organized in,rdf-schema#label
+N4894d78b418a4eae8835a5f32f004815,owl#Restriction,22-rdf-syntax-ns#type
+Na17c696318e94370acc6d2a1b53784cd,1,owl#qualifiedCardinality
+LegalPerson,Party,rdf-schema#subClassOf
+isOrganizedIn,isRecognizedIn,rdf-schema#subPropertyOf
+N5ec143a7928b4168af1329e1705c2b3d,License,owl#onClass
+CharteredLegalPerson,a legal person created by a royal charter or decree,core#definition
+NotForProfitObjective,not for profit objective,rdf-schema#label
+LegallyCompetentNaturalPerson,"The definition of mental competence, and potentially of the age of majority, is a function of the situation and law in a given jurisdiction.",explanatoryNote
+,LegalPersons.rdf version of this ontology was modified to eliminate references to external dictionary sites that no longer resolve.,core#changeNote
+ReligiousObjective,not-for-profit objective that reflects the religious goals of an organization,core#definition
+N9f4b035be7a34659992a597d5ad75653,1,owl#qualifiedCardinality
+N26277c7105a14617a463a66efd2b6476,Agreement,22-rdf-syntax-ns#first
+Nc41474ff49dc442eacc7444f0e88dbcd,BusinessEntity,owl#onClass
+SpecialPurposeVehicle,fonds commun de placement,rdf-schema#label
+VariableInterestEntity,"Variable interest entity (VIE) is a term used by the Financial Accounting Standards Board (FASB) to refer to a legal entity with certain characteristics such that a public company with a financial interest in the entity is subject to certain financial reporting requirements. Examples include certain Chinese companies, such as Alibaba, that leverage VIEs to gain access to foreign capital that would otherwise not be available due to Chinese government regulations.",explanatoryNote
+,LegalPersons.rdf version of this ontology was modified to move business objective to FND to enable higher level reuse.,core#changeNote
+N1bf0e1345671464f9b6a5d549bf1b5f8,N65b73a2595a24a2d97c03300bb30371b,owl#unionOf
+Na17c696318e94370acc6d2a1b53784cd,LegalPerson,owl#onClass
+LegallyCompetentNaturalPerson,LegalPerson,rdf-schema#subClassOf
+LegalEntity,juridical person,synonym
+StatutoryBody,statutory body,rdf-schema#label
+SpecialPurposeVehicle,LegalEntity,rdf-schema#subClassOf
+ProfitObjective,for profit objective,synonym
+CharteredLegalPerson,owl#Class,22-rdf-syntax-ns#type
+isOrganizedIn,Jurisdiction,rdf-schema#range
+BusinessEntity,FormalOrganization,rdf-schema#subClassOf
+N195441fcbd3b4c5588fbbcd158fe2a37,0,owl#minQualifiedCardinality
+isRecognizedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+LegallyCompetentNaturalPerson,Person,rdf-schema#subClassOf
+VariableInterestEntity,legal entity whose shareholders are entitled to a percentage of a named company's profits via a private contract,core#definition
+ContractParty,Na17c696318e94370acc6d2a1b53784cd,rdf-schema#subClassOf
+StatutoryBody,legal entity established by a government to consider evidence and make judgements in some field of activity,core#definition
+LegalEntity,owl#Class,22-rdf-syntax-ns#type
+employs,LegalPerson,rdf-schema#domain
+PublicPurpose,public purpose,rdf-schema#label
+NotForProfitObjective,ProfitObjective,owl#disjointWith
+PowerOfAttorney,N56d332f3311f4be9875d6dd320363c95,rdf-schema#subClassOf
+SpecialPurposeVehicle,special purpose entity,synonym
+N9f4b035be7a34659992a597d5ad75653,isOrganizedIn,owl#onProperty
+BusinessEntity,business entity,rdf-schema#label
+ProfitObjective,BusinessObjective,rdf-schema#subClassOf
+N56d332f3311f4be9875d6dd320363c95,hasEffectiveDate,owl#onProperty
+Ndf50bc67a98a42f780b2396c7ce26202,isRecognizedIn,owl#onProperty
+,This ontology defines legal personhood concepts. A legal person as defined here is any natural person or organization which is capable of accruing liability on its own part.,abstract
+,,owl#imports
+CharteredLegalPerson,LegalEntity,rdf-schema#subClassOf
+Employer,N4894d78b418a4eae8835a5f32f004815,rdf-schema#subClassOf
+isOrganizedIn,indicates the jurisdiction whose laws a legal entity is organized under,core#definition
+SpecialPurposeVehicle,owl#Class,22-rdf-syntax-ns#type
+VariableInterestEntity,VIE,abbreviation
+N5d02687aa3114d038a15764c06059a60,Jurisdiction,owl#someValuesFrom
+N5ec143a7928b4168af1329e1705c2b3d,holds,owl#onProperty
+,LegalPersons.rdf version of this ontology was modified to augment the definition of a contract party to be a legal person.,core#changeNote
+LegalEntity,"legal person that is a partnership, corporation, or other organization having the capacity to negotiate contracts, assume financial obligations, and pay off debts, organized under the laws of some jurisdiction",core#definition
+LegallyCompetentNaturalPerson,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,LegalPersons.rdf version of this ontology was modified to move the concept of a signatory and related properties to the executives ontology for better semantic integration.,core#changeNote
+SpecialPurposeVehicle,"A special purpose vehicle (SPV), also known as a special purpose entity (SPE), refers to a legal entity, typically a limited company or partnership, created to isolate a parent company from financial risk, including bankruptcy.",explanatoryNote
+,,owl#versionIRI
+LegalEntity,"Examples of eligible legal entities include, without limitation:
+- all financial intermediaries;
+- banks and finance companies;
+- all entities that issue equity, debt or other securities for other capital structures;
+- all entities listed on an exchange;
+- all entities that trade stock or debt, investment vehicles, including mutual funds, pension funds and alternative investment vehicles constituted as corporate entities or collective investment agreements (including umbrella funds as well as funds under an umbrella structure, hedge funds, private equity funds, etc.);
+- all entities under the purview of a financial regulator and their affiliates, subsidiaries and holding companies;
+- counterparties to financial transactions.",core#example
+,owl#Ontology,22-rdf-syntax-ns#type
+ProfitObjective,profit motive,synonym
+,LegalPersons.rdf version of the ontology was modified to add a French label to special purpose vehicle.,core#changeNote
+BusinessEntity,N5ec143a7928b4168af1329e1705c2b3d,rdf-schema#subClassOf
+N5d02687aa3114d038a15764c06059a60,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+LegallyCompetentNaturalPerson,"person who is considered competent, under the circumstances, to enter into a contract, conduct business, or participate in other activities that generally require the mental ability to understand problems and make decisions on his or her own behalf",core#definition
+ReligiousObjective,owl#Class,22-rdf-syntax-ns#type
+N56d332f3311f4be9875d6dd320363c95,0,owl#minQualifiedCardinality
+Ne6d3f230611c454ba557529e7f53cd40,LegallyCompetentNaturalPerson,owl#someValuesFrom
+BusinessLicense,Ndf50bc67a98a42f780b2396c7ce26202,rdf-schema#subClassOf
+,LegalPersons.rdf version of this ontology was modified per the FIBO 2.0 RFC to normalize restrictions on business license.,core#changeNote
+PowerOfAttorney,LegalCapacity,rdf-schema#subClassOf
+LegalEntity,juridical entity,synonym
+PublicPurpose,public interest,synonym
+BusinessLicense,Nc41474ff49dc442eacc7444f0e88dbcd,rdf-schema#subClassOf
+Ne6d3f230611c454ba557529e7f53cd40,isConferredOn,owl#onProperty
+N65b73a2595a24a2d97c03300bb30371b,LegalPerson,22-rdf-syntax-ns#first
+ProfitObjective,"Any profit that is gained goes to the business's owners, who may or may not decide to spend it on the business.",explanatoryNote
+N195441fcbd3b4c5588fbbcd158fe2a37,BusinessObjective,owl#onClass
+isRecognizedIn,Jurisdiction,rdf-schema#range
+isOrganizedIn,LegalEntity,rdf-schema#domain
+N195441fcbd3b4c5588fbbcd158fe2a37,owl#Restriction,22-rdf-syntax-ns#type
+N9f4b035be7a34659992a597d5ad75653,Jurisdiction,owl#onClass
+ProfitObjective,owl#Class,22-rdf-syntax-ns#type
+N65b73a2595a24a2d97c03300bb30371b,N26277c7105a14617a463a66efd2b6476,22-rdf-syntax-ns#rest
+CharteredLegalPerson,"Anything with 'Royal Institute' in the name. Also universities are generally set up by royal charter in a monarchy or principality, (often pre-dating any Privy Council i.e. directly be the monarch in the case of older universities). The Bank of England and the British Broadcasting Council (BBC) are also incorporated through Royal Charter.",core#example
+,LegalPersons.rdf version of this ontology was modified to clarify the definition of legal person.,core#changeNote
+LegallyCompetentNaturalPerson,IncapacitatedAdult,owl#disjointWith
+Na17c696318e94370acc6d2a1b53784cd,isPlayedBy,owl#onProperty
+LegalEntity,LegallyCompetentNaturalPerson,owl#disjointWith
+SpecialPurposeVehicle,SPV,abbreviation
+VariableInterestEntity,variable interest entity,rdf-schema#label
+N5d02687aa3114d038a15764c06059a60,isRecognizedIn,owl#onProperty
+N1bf0e1345671464f9b6a5d549bf1b5f8,owl#Class,22-rdf-syntax-ns#type
+ProfitObjective,profit objective,rdf-schema#label
+BusinessLicense,business license,rdf-schema#label
+NotForProfitObjective,The objective of all business activities is not to earn profits for its owners. All of the money earned by or donated to a not for profit organization is used in pursuing the organization's objectives.,explanatoryNote
+LegalPerson,owl#Class,22-rdf-syntax-ns#type
+CharteredLegalPerson,chartered legal person,rdf-schema#label
+BusinessLicense,owl#Class,22-rdf-syntax-ns#type
+,LegalPersons.rdf version of this ontology was modified to address text formatting hygiene issues.,core#changeNote
+,LegalPersons.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+N26277c7105a14617a463a66efd2b6476,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+LegalEntity,"The term 'legal entities' includes, but is not limited to, unique parties that are legally or financially responsible for the performance of financial transactions or have the legal right in their jurisdiction to enter independently into legal contracts, regardless of whether they are incorporated or constituted in some other way (e.g. trust, partnership, contractual). It excludes natural persons, but includes governmental organizations and supranationals.",core#scopeNote
+PowerOfAttorney,power of attorney,rdf-schema#label
+Nc41474ff49dc442eacc7444f0e88dbcd,owl#Restriction,22-rdf-syntax-ns#type
+isOrganizedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+PowerOfAttorney,legal authorization given by one party (the principal) to another (the agent or attorney-in-fact) to perform certain acts on the principal's behalf,core#definition
+SpecialPurposeVehicle,SPE,abbreviation
+LegallyCompetentNaturalPerson,legally competent natural person,rdf-schema#label
+N4894d78b418a4eae8835a5f32f004815,LegalPerson,owl#someValuesFrom
+," merge the legal person and formal organization class hierarchies, and correct certain definitions, including power of attorney.",core#changeNote
+NotForProfitObjective,owl#Class,22-rdf-syntax-ns#type
+StatutoryBody,LegalEntity,rdf-schema#subClassOf
+LegalPerson,"autonomous agent that is recognized as having rights and obligations under the law, including but not limited to the right to sue and be sued, enter into contracts, own property, and incur financial and other obligations",core#definition
+PublicPurpose,objective that reflects values generally thought to be shared by and that is intended to benefit the populace as a whole,core#definition
+N195441fcbd3b4c5588fbbcd158fe2a37,hasObjective,owl#onProperty
+LegalEntity,"ISO 17442, Financial services - Legal Entity Identifier (LEI), first edition, 2012-06-01, section 3.1",adaptedFrom
+VariableInterestEntity,owl#Class,22-rdf-syntax-ns#type
+NotForProfitObjective,nonprofit objective,synonym
+,"LegalPersons.rdf version of this ontology was modified to add the definition of a variable interest entity and eliminate or loosen restrictions that are unnecessarily burdensome on FIBO users, such as that a legal person has liability capacity, which is true by definition but would never be realized when mapped to any data source.",core#changeNote
+PublicPurpose,Objective,rdf-schema#subClassOf
+VariableInterestEntity,shell company,synonym
+isEmployedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+employs,owl#ObjectProperty,22-rdf-syntax-ns#type
+N56d332f3311f4be9875d6dd320363c95,Date,owl#onClass
+N5ec143a7928b4168af1329e1705c2b3d,0,owl#minQualifiedCardinality
+N4894d78b418a4eae8835a5f32f004815,isPlayedBy,owl#onProperty
+N5ec143a7928b4168af1329e1705c2b3d,owl#Restriction,22-rdf-syntax-ns#type
+ReligiousObjective,religious objective,rdf-schema#label
+CharteredLegalPerson,"In a monarchy or principality, the monarch typically vests the power to create such bodies, in an entity called (for example) the Privy Council.",explanatoryNote
+BusinessEntity,owl#Class,22-rdf-syntax-ns#type
+ReligiousObjective,NotForProfitObjective,rdf-schema#subClassOf
+BusinessEntity,"There are many types of business entities defined in the legal systems of various countries. These include corporations, cooperatives, partnerships, sole proprietorships, sole traders, limited liability companies, certain trusts and trust companies, and so forth. The rules vary by country and by state or province. Some of the more widely recognized types in the US, UK, and EU are defined in FIBO, by region. However, the regulations governing particular types of entity, even those described as roughly equivalent, differ from jurisdiction to jurisdiction.",explanatoryNote
+,LegalPersons.rdf version of this ontology was modified to make legal person a subclass of independent party rather than autonomous agent.,core#changeNote
+Ndf50bc67a98a42f780b2396c7ce26202,Jurisdiction,owl#someValuesFrom
+PowerOfAttorney,owl#Class,22-rdf-syntax-ns#type
+isRecognizedIn,N1bf0e1345671464f9b6a5d549bf1b5f8,rdf-schema#domain
+VariableInterestEntity,LegalEntity,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+StatutoryBody,owl#Class,22-rdf-syntax-ns#type
+Nc41474ff49dc442eacc7444f0e88dbcd,appliesTo,owl#onProperty
+,"LegalPersons.rdf version of the ontology was modified to move the property, 'is conferred on' from Relations to the Legal Capacity ontology.",core#changeNote
+LegalEntity,N9f4b035be7a34659992a597d5ad75653,rdf-schema#subClassOf
+,MIT,license
+Nc41474ff49dc442eacc7444f0e88dbcd,1,owl#qualifiedCardinality
+,LegalPersons.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.,core#changeNote
+Na17c696318e94370acc6d2a1b53784cd,owl#Restriction,22-rdf-syntax-ns#type
+LegalEntity,juristic person,synonym
+,"LegalPersons.rdf version of this ontology was modified to incorporate the concept of employment, required to support regulatory reporting, and add the concept of a special purpose vehicle.",core#changeNote
+,LegalPersons.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+isRecognizedIn,is recognized in,rdf-schema#label
+SpecialPurposeVehicle,special purpose vehicle,rdf-schema#label
+BusinessEntity,N195441fcbd3b4c5588fbbcd158fe2a37,rdf-schema#subClassOf
+Ndf50bc67a98a42f780b2396c7ce26202,owl#Restriction,22-rdf-syntax-ns#type
+PowerOfAttorney,Ne6d3f230611c454ba557529e7f53cd40,rdf-schema#subClassOf
+N9f4b035be7a34659992a597d5ad75653,owl#Restriction,22-rdf-syntax-ns#type
+NotForProfitObjective,Objective,rdf-schema#subClassOf
+ProfitObjective,"objective that reflects pursuit of a financial benefit that may be realized when the amount of revenue gained from a business activity exceeds the expenses, costs and taxes needed to sustain that activity",core#definition
+LegalPerson,legal person,rdf-schema#label
+Ne6d3f230611c454ba557529e7f53cd40,owl#Restriction,22-rdf-syntax-ns#type
+BusinessLicense,License,rdf-schema#subClassOf
+LegalEntity,legal entity,rdf-schema#label
+ContractParty,owl#Class,22-rdf-syntax-ns#type
+PowerOfAttorney,"The appointment can be effective immediately or if the principal is unable to make decisions or perform certain actions on their own. It may be a (1) general power of attorney that authorizes the agent to act generally on behalf of the principal, such as to transfer funds from one account to another, pay debts, make investments, and so forth, or (2) limited to a specific act or situation, such as for management of an individual's finances in a single account, such as a brokerage account, or for management of healthcare. Decisions made and actions taken by an attorney in fact (within the scope of his or her authority) are legally binding on the principal.",explanatoryNote
+BusinessLicense,license that allows the holder to conduct business or carry out a specific profession within some jurisdiction for some period of time,core#definition
+LegalEntity,artificial person,synonym
+Employer,owl#Class,22-rdf-syntax-ns#type
+,LegalPersons.rdf version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+,LegalPersons.rdf version of this ontology was modified to fix spelling errors.,core#changeNote
+BusinessEntity,entity that is formed and administered as per commercial law in order to engage in business activities,core#definition
+LegalPerson,"To have legal personality means to be capable of having legal rights and duties within a certain legal system, such as to enter into contracts, sue, and be sued. Legal personality is a prerequisite to legal capacity, the ability of any legal person to amend (enter into, transfer, etc.) rights and obligations.",explanatoryNote
+LegalEntity,FormalOrganization,rdf-schema#subClassOf
+NotForProfitObjective,"objective that reflects the charitable, educational, religious, humanitarian, public services, or other not for profit goals of an organization",core#definition
+PublicPurpose,owl#Class,22-rdf-syntax-ns#type
+,Legal Persons Ontology,rdf-schema#label
+N56d332f3311f4be9875d6dd320363c95,owl#Restriction,22-rdf-syntax-ns#type
+isEmployedBy,LegalPerson,rdf-schema#range
+LegalPerson,N5d02687aa3114d038a15764c06059a60,rdf-schema#subClassOf
+SpecialPurposeVehicle,"legal entity created to fulfill narrow, specific, and frequently temporary objectives",core#definition
+LegalEntity,LegalPerson,rdf-schema#subClassOf
+isRecognizedIn,"indicates the jurisdiction in which a legal person is considered competent to enter into a contract, conduct business, or participate in other activities, or in which an agreement may be acknowledged and possibly enforceable",core#definition

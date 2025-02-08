@@ -1,0 +1,94 @@
+source_id,target_id,relationship
+Nf3dfe02c7f34480bb8a630f2e20aa56b,owl#Restriction,22-rdf-syntax-ns#type
+DocumentationAgent,SyndicateMember,rdf-schema#subClassOf
+N4c2ccd24a87346b5a1c28ba6814f7f90,FinanceSyndicateMember,22-rdf-syntax-ns#first
+N22efe5cc3d6a4d02b9581dbe3de21f88,N12f30d9c62ca42ed8157d74e8b8cc0a3,22-rdf-syntax-ns#rest
+FinanceSyndicate,finance syndicate,rdf-schema#label
+AdministrativeAgent,owl#Class,22-rdf-syntax-ns#type
+LeadArranger,financial institution that spearheads the loan structuring and syndication process on behalf of the borrower,core#definition
+SyndicationAgent,owl#Class,22-rdf-syntax-ns#type
+FinanceSyndicateMember,"Syndicate members may include a variety of financial institutions, such as commercial banks, investment banks, institutional investors - insurance companies, pension funds, and hedge funds, and specialty finance firms, focused on specific industries or credit profiles, which may join syndicates for specialized or higher-risk loans.",explanatoryNote
+LeadArranger,"The lead arranger acts as the primary point of contact for the borrower. They perform credit analysis and due diligence, ensure that the structure meets borrowers goals, and coordinates with potential lenders regarding the initial structure and commitments.",explanatoryNote
+Bookrunner,"A 'bookrunner' is primarily responsible for managing the distribution and sale of a security during a new issuance, while a 'lead arranger' is the primary bank that structures and leads a syndicated loan, often assigning portions of the loan to other banks to participate in the deal; essentially, the bookrunner focuses on selling the security to investors, while the lead arranger focuses on structuring the loan itself and coordinating the syndicate of lenders involved.",explanatoryNote
+FinanceSyndicateMember,Nf3dfe02c7f34480bb8a630f2e20aa56b,rdf-schema#subClassOf
+FinanceSyndicate,group of financial institutions or lenders that collectively agree to provide funding for a large loan to a single borrower,core#definition
+FinanceSyndicateMember,FinancialServiceProvider,rdf-schema#subClassOf
+AdministrativeAgent,"An administrative agent is designated by the syndicate and granted the authority to disburse funds, collect payments, monitor compliance and act as the communications intermediary with the borrower on behalf of the syndicate. This coordination role is crucial to ensuring that lenders' rights and oblications are properly coordinated and to streamline operations. Their authority and the scope of what they can do is explicitly stated in the loan agreement, and does not allow unilateral decision making with respect to the terms of the loan.",explanatoryNote
+LeadArranger,lead bank,synonym
+LoanParticipationNote,LPN,abbreviation
+LoanParticipationNote,loan participation note,rdf-schema#label
+DocumentationAgent,"financial institution designated to oversee the drafting, negotiation, and finalization of the loan documentation",core#definition
+SyndicatedLoan,syndicated loan,rdf-schema#label
+N538b954b0efd446f8b5d570695762ad5,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2024 Object Management Group, Inc.",copyright
+,,owl#imports
+N46b782505277476eaec2320d56e26880,N4c2ccd24a87346b5a1c28ba6814f7f90,22-rdf-syntax-ns#rest
+LoanParticipationNote,FixedIncomeSecurity,rdf-schema#subClassOf
+,This ontology defines contracts which give the holder some formal participation in some loan.,abstract
+Ncffbe5e57bac438ba39e8e0dd97fd737,N22efe5cc3d6a4d02b9581dbe3de21f88,22-rdf-syntax-ns#rest
+FinanceSyndicateMember,syndicate member that is a financial services provider that contributes funds to a syndicated loan or loan participation note,core#definition
+SyndicationAgent,"financial institution (typically a commercial or investment bank) designated to help structure, arrange, and manage the loan syndication process",core#definition
+SyndicatedLoan,owl#Class,22-rdf-syntax-ns#type
+Bookrunner,FinancialInstitution,rdf-schema#subClassOf
+,,owl#versionIRI
+N0726c6f5d5bd4585a829679e11f3cc30,N46b782505277476eaec2320d56e26880,22-rdf-syntax-ns#rest
+SyndicatedLoan,"credit agreement in which a group of lenders, known as a syndicate, collectively provides a large loan to a single borrower",core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+Bookrunner,bookrunner,rdf-schema#label
+SyndicationAgent,syndication agent,rdf-schema#label
+Nbd0de04c375943f698de2a730d4a12e4,owl#Restriction,22-rdf-syntax-ns#type
+LeadArranger,owl#Class,22-rdf-syntax-ns#type
+N3d6777f399fa4c8192adcb69a6515db4,N538b954b0efd446f8b5d570695762ad5,owl#someValuesFrom
+N0f07dca3b1dd4490beddcb4b28a1dd44,1,owl#qualifiedCardinality
+N12f30d9c62ca42ed8157d74e8b8cc0a3,N0726c6f5d5bd4585a829679e11f3cc30,22-rdf-syntax-ns#rest
+Nf3dfe02c7f34480bb8a630f2e20aa56b,isPlayedBy,owl#onProperty
+LeadArranger,lead manager,synonym
+LeadArranger,arranger,synonym
+SyndicatedLoan,CommercialLoan,rdf-schema#subClassOf
+N46b782505277476eaec2320d56e26880,SyndicationAgent,22-rdf-syntax-ns#first
+LeadArranger,lead arranger,rdf-schema#label
+N0f07dca3b1dd4490beddcb4b28a1dd44,LeadArranger,owl#onClass
+SyndicationAgent,"Syndication agents are important at the beginning of the process, including setting up the syndicate, supporting distribution of the loan across lenders, marketing, and the like. They are far less involved in loan administration, which is managed by the administrative agent.",explanatoryNote
+LoanParticipationNote,CommercialLoan,rdf-schema#subClassOf
+N538b954b0efd446f8b5d570695762ad5,Ncffbe5e57bac438ba39e8e0dd97fd737,owl#unionOf
+FinanceSyndicate,Syndicate,rdf-schema#subClassOf
+LoanParticipationNote,CreditFacility,rdf-schema#subClassOf
+N0726c6f5d5bd4585a829679e11f3cc30,DocumentationAgent,22-rdf-syntax-ns#first
+FinanceSyndicate,"Syndicates are formed to enable the provision of substantial financing amounts that would be challenging or risky for any one lender to offer alone. The syndicate structure allows lenders to share the loan amount, spreading both the funding and associated risks among multiple participants.",explanatoryNote
+DocumentationAgent,owl#Class,22-rdf-syntax-ns#type
+SyndicationAgent,FinancialInstitution,rdf-schema#subClassOf
+AdministrativeAgent,role of a financial institution (often one of the primary lenders in the syndicate) designated to act as an intermediary between the borrowers and the syndicate lenders,core#definition
+,Distributed Loans Ontology,rdf-schema#label
+SyndicatedLoan,"A syndicated loan enables pooling of funds from multiple financial institutions, typically under the leadership of one or more arranging banks. These kinds of credit agreements are often used by large corporations, private equity investors and government entities for significant capital needs such as acquisitions, project financing, or to meet operational requirements.",explanatoryNote
+LeadArranger,FinancialInstitution,rdf-schema#subClassOf
+N0f07dca3b1dd4490beddcb4b28a1dd44,hasActor,owl#onProperty
+FinanceSyndicate,owl#Class,22-rdf-syntax-ns#type
+N3d6777f399fa4c8192adcb69a6515db4,hasActor,owl#onProperty
+Bookrunner,owl#Class,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+N4c2ccd24a87346b5a1c28ba6814f7f90,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,Release,hasMaturityLevel
+,MIT,license
+Nbd0de04c375943f698de2a730d4a12e4,isMemberOf,owl#onProperty
+Nf3dfe02c7f34480bb8a630f2e20aa56b,Nbd0de04c375943f698de2a730d4a12e4,owl#someValuesFrom
+N22efe5cc3d6a4d02b9581dbe3de21f88,Bookrunner,22-rdf-syntax-ns#first
+FinanceSyndicateMember,finance syndicate member,rdf-schema#label
+N3d6777f399fa4c8192adcb69a6515db4,owl#Restriction,22-rdf-syntax-ns#type
+LoanParticipationNote,credit facility and fixed-income security that may be distributed across a group of lenders,core#definition
+Bookrunner,"financial institution (typically a commercial or investment bank) responsible for coordinating the arrangement, structuring, and marketing of the loan to potential lenders",core#definition
+LoanParticipationNote,N0f07dca3b1dd4490beddcb4b28a1dd44,rdf-schema#subClassOf
+LoanParticipationNote,"With an LPN, a lead bank underwrites and issues the loan. This lending institution then recruits other banks to participate and share the risks and profits on a pro rata basis. The lead lender keeps a partial interest in the loan and is responsible for servicing it.",explanatoryNote
+N12f30d9c62ca42ed8157d74e8b8cc0a3,AdministrativeAgent,22-rdf-syntax-ns#first
+AdministrativeAgent,administrative agent,rdf-schema#label
+LoanParticipationNote,"The main difference between a loan participation and a loan syndication is that in a loan participation, one lender sells ownership interests in a loan to other lenders, while in a loan syndication, the lenders work together to originate and lend on the loan.",explanatoryNote
+DocumentationAgent,documentation agent,rdf-schema#label
+N0f07dca3b1dd4490beddcb4b28a1dd44,owl#Restriction,22-rdf-syntax-ns#type
+FinanceSyndicateMember,SyndicateMember,rdf-schema#subClassOf
+Nbd0de04c375943f698de2a730d4a12e4,FinanceSyndicate,owl#allValuesFrom
+LoanParticipationNote,owl#Class,22-rdf-syntax-ns#type
+SyndicatedLoan,N3d6777f399fa4c8192adcb69a6515db4,rdf-schema#subClassOf
+,Copyright (c) 2024 FIUTUR,copyright
+SyndicatedLoan,CreditFacility,rdf-schema#subClassOf
+Ncffbe5e57bac438ba39e8e0dd97fd737,LeadArranger,22-rdf-syntax-ns#first
+AdministrativeAgent,SyndicateMember,rdf-schema#subClassOf
+FinanceSyndicateMember,owl#Class,22-rdf-syntax-ns#type

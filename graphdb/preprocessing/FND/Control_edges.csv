@@ -1,0 +1,136 @@
+source_id,target_id,relationship
+involvesControlledThing,involves controlled thing,rdf-schema#label
+isControlledThingIn,is controlled thing in,rdf-schema#label
+N2bcf7e25d57e4dda8a48f17f6e3e4f2c,isControlledThingIn,owl#onProperty
+ControlledThing,controlled thing,rdf-schema#label
+N2b4e282dac6d4496a3165624ce7c081c,Control,owl#someValuesFrom
+ControlledThing,owl#Class,22-rdf-syntax-ns#type
+,"This ontology defines high-level, control-related concepts, including the distinction between de jure and de facto control, the former being derived with reference to terms in the Legal Capacity ontology.",abstract
+Nf24d10ed769b48ff970bbe3211543444,ControllingParty,owl#someValuesFrom
+Ncc43562671a54bb29982d7e93c0aad4f,ControllingParty,owl#someValuesFrom
+isInitiallyControlledOn,owl#FunctionalProperty,22-rdf-syntax-ns#type
+,Control.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+isPartyControlling,is party controlling,rdf-schema#label
+ControllingParty,Actor,rdf-schema#subClassOf
+ControllingParty,owl#Class,22-rdf-syntax-ns#type
+DeJureControl,"control that exists as a matter of law, i.e., legitimate, legal control of something",core#definition
+DeJureControl,Control,rdf-schema#subClassOf
+isControlledThingIn,involvesControlledThing,owl#inverseOf
+isControllingPartyIn,Control,rdf-schema#range
+Nf5216e5f57d447d995ee658545420e32,1,owl#qualifiedCardinality
+N7430a1e41cc0402688c329d3648e1305,isPartyControlling,owl#onProperty
+DeJureControl,de jure control,rdf-schema#label
+ControllingParty,actor that exercises some form of control in the context of some situation,core#definition
+hasPartyInControl,ControllingParty,rdf-schema#range
+,Control.rdf version of the ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+,.,core#changeNote
+isInitiallyControlledOn,CombinedDateTime,rdf-schema#range
+hasControllingParty,ControllingParty,rdf-schema#range
+controls,owl#ObjectProperty,22-rdf-syntax-ns#type
+Control,Nf24d10ed769b48ff970bbe3211543444,rdf-schema#subClassOf
+isInitiallyControlledOn,hasObservedDateTime,rdf-schema#subPropertyOf
+DeJureControl,LegalConstruct,rdf-schema#subClassOf
+Nd4ce45f05a294c19a072ccbbeffffe1f,involvesControlledThing,owl#onProperty
+,,owl#imports
+hasControllingParty,ControlledThing,rdf-schema#domain
+N2bcf7e25d57e4dda8a48f17f6e3e4f2c,owl#Restriction,22-rdf-syntax-ns#type
+Control,owl#Class,22-rdf-syntax-ns#type
+DeFactoControl,Control,rdf-schema#subClassOf
+Nf5216e5f57d447d995ee658545420e32,isInitiallyControlledOn,owl#onProperty
+isControlledThingIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+Control,"Control may be direct (explicit) or indirect (implicit), derived through ownership of voting shares, beneficial ownership, other ownership relations, through provisions of a contract, or otherwise.",explanatoryNote
+isControllingPartyIn,hasPartyInControl,owl#inverseOf
+involvesControlledThing,ControlledThing,rdf-schema#range
+isControlledBy,Party,rdf-schema#range
+DeFactoControl,de facto control,rdf-schema#label
+,Control.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+isControlledPartyOf,ControllingParty,rdf-schema#range
+isPartyControlling,indicates something controlled that a controlling party has some amount of authority or influence over,core#definition
+,,owl#versionIRI
+N7430a1e41cc0402688c329d3648e1305,ControlledThing,owl#someValuesFrom
+,owl#Ontology,22-rdf-syntax-ns#type
+ControlledThing,N2bcf7e25d57e4dda8a48f17f6e3e4f2c,rdf-schema#subClassOf
+DeJureControl,owl#Class,22-rdf-syntax-ns#type
+DeFactoControl,DeJureControl,owl#disjointWith
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+Nd4ce45f05a294c19a072ccbbeffffe1f,owl#Restriction,22-rdf-syntax-ns#type
+isControlledBy,experiencesDirectly,rdf-schema#subPropertyOf
+Ncc43562671a54bb29982d7e93c0aad4f,owl#Restriction,22-rdf-syntax-ns#type
+Control,Nd4ce45f05a294c19a072ccbbeffffe1f,rdf-schema#subClassOf
+isControllingPartyOf,indicates something that a controlling party has some amount of authority or influence over,core#definition
+Nf24d10ed769b48ff970bbe3211543444,owl#Restriction,22-rdf-syntax-ns#type
+hasPartyInControl,indicates the actor in the context of a control situation,core#definition
+ControllingParty,N2b4e282dac6d4496a3165624ce7c081c,rdf-schema#subClassOf
+hasControllingParty,indicates the party that exercises authority or influence over something,core#definition
+isControllingPartyIn,ControllingParty,rdf-schema#domain
+hasPartyInControl,hasActor,rdf-schema#subPropertyOf
+Ncc43562671a54bb29982d7e93c0aad4f,hasControllingParty,owl#onProperty
+isControllingPartyIn,is controlling party in,rdf-schema#label
+DeFactoControl,owl#Class,22-rdf-syntax-ns#type
+isControlledPartyOf,isDirectlyAffectedBy,rdf-schema#subPropertyOf
+Control,situation in which some party has the power to direct or strongly influence the direction of the management and policies related to something,core#definition
+,"ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.",core#changeNote
+involvesControlledThing,Control,rdf-schema#domain
+hasPartyInControl,has party in control,rdf-schema#label
+controls,playsActiveRoleThatDirectlyAffects,rdf-schema#subPropertyOf
+isControllingPartyOf,is controlling party of,rdf-schema#label
+ControlledThing,Nf5216e5f57d447d995ee658545420e32,rdf-schema#subClassOf
+ControllingParty,"At this level of abstraction it is not defined whether the control is some degree of controlling interest, or some level of actual control (asserted or calculated) in some entity.",core#editorialNote
+,Control.rdf version of the ontology was modified to incorporate the latest insights into how control relations should integrate with the control situation and to unwind confusion around the various properties used to represent aspects of control with respect to their domains and ranges.,core#changeNote
+isControllingPartyIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+isControllingPartyIn,indicates the context of control in which the party plays the role of controlling something,core#definition
+isControllingPartyOf,directlyAffects,rdf-schema#subPropertyOf
+isControlledBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+ControlledThing,something over which some party exercises some form of control with respect to some situation,core#definition
+N2b4e282dac6d4496a3165624ce7c081c,owl#Restriction,22-rdf-syntax-ns#type
+Control,Situation,rdf-schema#subClassOf
+,Control Ontology,rdf-schema#label
+involvesControlledThing,hasUndergoer,rdf-schema#subPropertyOf
+isControllingPartyOf,ControllingParty,rdf-schema#domain
+isControlledPartyOf,is controlled party of,rdf-schema#label
+isPartyControlling,ControllingParty,rdf-schema#domain
+hasPartyInControl,Control,rdf-schema#domain
+Nf5216e5f57d447d995ee658545420e32,owl#Restriction,22-rdf-syntax-ns#type
+,"Control.rdf version of the ontology was modified to integrate the concept of a situation, situational roles, and corresponding relations with the definition of control and eliminate minimum cardinality of 1 restrictions.",core#changeNote
+DeFactoControl,"control that exists informally and is accepted, although not formally recognized",core#definition
+N2b4e282dac6d4496a3165624ce7c081c,isControllingPartyIn,owl#onProperty
+ControlledThing,Undergoer,rdf-schema#subClassOf
+involvesControlledThing,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Control.rdf version of the ontology was modified to eliminate references to external dictionary sites that no longer resolve.,core#changeNote
+isControlledPartyOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+,MIT,license
+isInitiallyControlledOn,is initially controlled on,rdf-schema#label
+isPartyControlling,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nd4ce45f05a294c19a072ccbbeffffe1f,ControlledThing,owl#someValuesFrom
+isControlledThingIn,undergoes,rdf-schema#subPropertyOf
+Nf5216e5f57d447d995ee658545420e32,CombinedDateTime,owl#onDataRange
+isControllingPartyOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+isControlledPartyOf,indicates a controlling party that has some amount of authority or influence over it,core#definition
+ControlledThing,Ncc43562671a54bb29982d7e93c0aad4f,rdf-schema#subClassOf
+isControlledThingIn,Control,rdf-schema#range
+,"Control.rdf version of the ontology was modified to simplify control concepts and relations, complete the control patterns, and eliminate ambiguity in definitions.",core#changeNote
+isControllingPartyIn,actsIn,rdf-schema#subPropertyOf
+isInitiallyControlledOn,indicates the date or date and time that some level of authority or influence was first put in place,core#definition
+hasControllingParty,isAffectedBy,rdf-schema#subPropertyOf
+ControllingParty,controlling party,rdf-schema#label
+hasControllingParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nf24d10ed769b48ff970bbe3211543444,hasPartyInControl,owl#onProperty
+,"Control.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasControllingParty,has controlling party,rdf-schema#label
+N2bcf7e25d57e4dda8a48f17f6e3e4f2c,Control,owl#someValuesFrom
+isPartyControlling,hasControllingParty,owl#inverseOf
+hasPartyInControl,owl#ObjectProperty,22-rdf-syntax-ns#type
+isControlledThingIn,ControlledThing,rdf-schema#domain
+isControlledThingIn,indicates the context of control in which something is being controlled,core#definition
+N7430a1e41cc0402688c329d3648e1305,owl#Restriction,22-rdf-syntax-ns#type
+ControllingParty,N7430a1e41cc0402688c329d3648e1305,rdf-schema#subClassOf
+isPartyControlling,actsOn,rdf-schema#subPropertyOf
+isInitiallyControlledOn,owl#DatatypeProperty,22-rdf-syntax-ns#type
+DeFactoControl,"For example, de facto acquisition or change of control means the acquisition, directly or indirectly, by any person or group of persons acting jointly or in concert, of beneficial ownership of, or control or direction over, sufficient voting shares of some legal entity to permit such person or persons to exercise, or to control or direct the voting of, 50 percent or more of the total number of votes in that entity.",explanatoryNote
+isPartyControlling,ControlledThing,rdf-schema#range
+controls,Party,rdf-schema#domain
+Control,control,rdf-schema#label
+involvesControlledThing,indicates something controlled in the context of a control situation,core#definition

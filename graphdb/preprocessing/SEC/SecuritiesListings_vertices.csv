@@ -1,0 +1,126 @@
+id,type,name
+N6564338dd2fd44c7bbb9464a8f3d2b16,Entity,N6564338dd2fd44c7bbb9464a8f3d2b16
+isProvisionedBy,Entity,isProvisionedBy
+"Copyright (c) 2018-2023 Object Management Group, Inc.",Entity,"Copyright (c) 2018-2023 Object Management Group, Inc."
+isRegisteredWith,Entity,isRegisteredWith
+Nc638d29e1d164f12a239e367609b9f8f,Entity,Nc638d29e1d164f12a239e367609b9f8f
+Nf1635f8084de4fa5868a7f8b0aa89a46,Entity,Nf1635f8084de4fa5868a7f8b0aa89a46
+isTradedOn,Entity,isTradedOn
+DateTime,Entity,DateTime
+owl#Restriction,Entity,owl#Restriction
+exchange-traded security,Entity,exchange-traded security
+Na0e09e16fd854e09adb1984152a03fb3,Entity,Na0e09e16fd854e09adb1984152a03fb3
+Nad78bbada0cc4f21a24fdbe1fad5bb92,Entity,Nad78bbada0cc4f21a24fdbe1fad5bb92
+hasTickSize,Entity,hasTickSize
+isIssuedInForm,Entity,isIssuedInForm
+1,Entity,1
+service provided by an exchange to facilitate securities trading,Entity,service provided by an exchange to facilitate securities trading
+ExemptSecurity,Entity,ExemptSecurity
+indicates the date on which a security is listed,Entity,indicates the date on which a security is listed
+indicates that the security has been publicly traded long enough to eliminate any short-term volume volatility from its initial public offering,Entity,indicates that the security has been publicly traded long enough to eliminate any short-term volume volatility from its initial public offering
+Nf5f799ff091243f1a0818c80e4f7eba2,Entity,Nf5f799ff091243f1a0818c80e4f7eba2
+BearerAndRegisteredForm,Entity,BearerAndRegisteredForm
+N78981a660bbd4159927ca5c75034d0ce,Entity,N78981a660bbd4159927ca5c75034d0ce
+Listing,Entity,Listing
+RegisteredForm,Entity,RegisteredForm
+hasDateTime,Entity,hasDateTime
+owl#DatatypeProperty,Entity,owl#DatatypeProperty
+RegistrationStatus,Entity,RegistrationStatus
+MIT,Entity,MIT
+has original place of listing,Entity,has original place of listing
+N7a400142ff174b30aee5e50ad0dcf25c,Entity,N7a400142ff174b30aee5e50ad0dcf25c
+Nf0b6b4ffc92b4c8e88287022277b1390,Entity,Nf0b6b4ffc92b4c8e88287022277b1390
+specifies the last date and time that the security was traded on the exchange,Entity,specifies the last date and time that the security was traded on the exchange
+hasMonetaryAmount,Entity,hasMonetaryAmount
+SecuritiesListings.rdf version of this ontology was revised to eliminate duplication of concepts in LCC and to eliminate the redundancy between hasIssue and lists.,Entity,SecuritiesListings.rdf version of this ontology was revised to eliminate duplication of concepts in LCC and to eliminate the redundancy between hasIssue and lists.
+specifies the date set by the exchange for delisting a security,Entity,specifies the date set by the exchange for delisting a security
+Securities Listings Ontology,Entity,Securities Listings Ontology
+N0bcba1fb20024cbf81a5e469dd28cc32,Entity,N0bcba1fb20024cbf81a5e469dd28cc32
+specifies a minimum price movement for the security with respect to an exchange,Entity,specifies a minimum price movement for the security with respect to an exchange
+SecuritiesOffering,Entity,SecuritiesOffering
+RegisteredSecurity,Entity,RegisteredSecurity
+"One can, as appropriate, multiply classify a share as being a common share and listed share, and, in the case whereby multiple securities are issued in different currencies (i.e., there are multiple listed shares corresponding to a given common share that have different identifiers, including more than one ISIN, CUSIP, share class FIGI), multiply classify the listed share individuals as individuals of the same common share.",Entity,"One can, as appropriate, multiply classify a share as being a common share and listed share, and, in the case whereby multiple securities are issued in different currencies (i.e., there are multiple listed shares corresponding to a given common share that have different identifiers, including more than one ISIN, CUSIP, share class FIGI), multiply classify the listed share individuals as individuals of the same common share."
+has home exchange,Entity,has home exchange
+ListingService,Entity,ListingService
+has delisting date,Entity,has delisting date
+registered security,Entity,registered security
+has primary trading market,Entity,has primary trading market
+owl#ObjectProperty,Entity,owl#ObjectProperty
+Currency,Entity,Currency
+is traded on,Entity,is traded on
+market listing,Entity,market listing
+hasLotSize,Entity,hasLotSize
+"SecuritiesListings.rdf version of this ontology was revised to rename isIssuedIn to isIssuedOn, which is more natural to most securities SMEs, generalized certain references to securities exchanges, and eliminate deprecated elements.",Entity,"SecuritiesListings.rdf version of this ontology was revised to rename isIssuedIn to isIssuedOn, which is more natural to most securities SMEs, generalized certain references to securities exchanges, and eliminate deprecated elements."
+identifies the service responsible for listing the security,Entity,identifies the service responsible for listing the security
+registered security listed on at least one exchange,Entity,registered security listed on at least one exchange
+XMLSchema#decimal,Entity,XMLSchema#decimal
+listing,Entity,listing
+"SecuritiesListings.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",Entity,"SecuritiesListings.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate."
+hasListingDate,Entity,hasListingDate
+SecuritiesListings.rdf version of this ontology was revised to reuse the composite date value datatype and add disjointness between registered security and exempt security.,Entity,SecuritiesListings.rdf version of this ontology was revised to reuse the composite date value datatype and add disjointness between registered security and exempt security.
+N339008a4a2904960b838f8414fa0017e,Entity,N339008a4a2904960b838f8414fa0017e
+ListedSecurity,Entity,ListedSecurity
+Short-term volatility may be with respect to price or trading volume.,Entity,Short-term volatility may be with respect to price or trading volume.
+"SecuritiesListings.rdf version of this ontology was revised to eliminate an unused ontology import, changed the range of hasLotSize to xsd:decimal, and modified the definition of listing to point to an offering rather than directly to the instrument that the offering pertains to.",Entity,"SecuritiesListings.rdf version of this ontology was revised to eliminate an unused ontology import, changed the range of hasLotSize to xsd:decimal, and modified the definition of listing to point to an offering rather than directly to the instrument that the offering pertains to."
+hasLastTradingDateTime,Entity,hasLastTradingDateTime
+"Copyright (c) 2016-2023 EDM Council, Inc.",Entity,"Copyright (c) 2016-2023 EDM Council, Inc."
+listed security,Entity,listed security
+hasDelistingDate,Entity,hasDelistingDate
+"A security may have been originally listed on the Frankfurt exchange, but its current home is the London Stock Exchange, for example.",Entity,"A security may have been originally listed on the Frankfurt exchange, but its current home is the London Stock Exchange, for example."
+has listing date,Entity,has listing date
+listing service,Entity,listing service
+is seasoned,Entity,is seasoned
+isListedVia,Entity,isListedVia
+RegistrationAuthority,Entity,RegistrationAuthority
+is listed via,Entity,is listed via
+Nd512212154ce4040ba569f7b06575ff8,Entity,Nd512212154ce4040ba569f7b06575ff8
+isSeasoned,Entity,isSeasoned
+Release,Entity,Release
+,Entity,
+N6a6df98b1da84833996f1e449eeb74ad,Entity,N6a6df98b1da84833996f1e449eeb74ad
+N0854cf561c054882a3840bac6409deb5,Entity,N0854cf561c054882a3840bac6409deb5
+hasRegistrationStatus,Entity,hasRegistrationStatus
+SecuritiesListings.rdf version of this ontology was revised to eliminate a false positive hygiene testing issue due to a concept whose name included 'and' but that actually was a singular concept.,Entity,SecuritiesListings.rdf version of this ontology was revised to eliminate a false positive hygiene testing issue due to a concept whose name included 'and' but that actually was a singular concept.
+has last trading date and time,Entity,has last trading date and time
+SecuritiesListings.rdf version of this ontology was revised to incorporate the form of registration and loosen the restriction on the number of possible registration authorities for a registered security.,Entity,SecuritiesListings.rdf version of this ontology was revised to incorporate the form of registration and loosen the restriction on the number of possible registration authorities for a registered security.
+N882ceb42724f4a0b93a04c1a05729f17,Entity,N882ceb42724f4a0b93a04c1a05729f17
+catalog entry for a securities offering managed by an exchange that provides the terms under which that security is made available on that exchange,Entity,catalog entry for a securities offering managed by an exchange that provides the terms under which that security is made available on that exchange
+has primary market,Entity,has primary market
+SecuritiesListings.rdf version of this ontology was revised to restructure the concept of a listing and augment it with a number of relevant characteristics.,Entity,SecuritiesListings.rdf version of this ontology was revised to restructure the concept of a listing and augment it with a number of relevant characteristics.
+lists,Entity,lists
+N2823f58510714c349c6023f94a1b4378,Entity,N2823f58510714c349c6023f94a1b4378
+MonetaryAmount,Entity,MonetaryAmount
+Nf5ad909b5d924f1a877cbcbb093b6a9b,Entity,Nf5ad909b5d924f1a877cbcbb093b6a9b
+XMLSchema#boolean,Entity,XMLSchema#boolean
+Ne801260740e340bca42c745cab20ed46,Entity,Ne801260740e340bca42c745cab20ed46
+provides,Entity,provides
+"indicates the exchange that is considered the primary market for a security; typically, but not always, in the country in which the security was originally issued",Entity,"indicates the exchange that is considered the primary market for a security; typically, but not always, in the country in which the security was originally issued"
+Security,Entity,Security
+N198cf1d9c29e4317ba8721f4b3125412,Entity,N198cf1d9c29e4317ba8721f4b3125412
+22-rdf-syntax-ns#nil,Entity,22-rdf-syntax-ns#nil
+Exchange,Entity,Exchange
+"A primary market is one that issues new securities on an exchange for companies, governments, and other groups to obtain financing through debt-based or equity-based securities.",Entity,"A primary market is one that issues new securities on an exchange for companies, governments, and other groups to obtain financing through debt-based or equity-based securities."
+SecuritiesListings.rdf version of this ontology was revised to eliminate an extraneous subclass axiom.,Entity,SecuritiesListings.rdf version of this ontology was revised to eliminate an extraneous subclass axiom.
+hasHomeExchange,Entity,hasHomeExchange
+security that is registered with some registration authority,Entity,security that is registered with some registration authority
+BookEntryForm,Entity,BookEntryForm
+hasCurrency,Entity,hasCurrency
+"This ontology defines the fundamental concepts for listing securities, such as registered, listed, and exchange-traded security, the notion of a securities exchange, and related services.",Entity,"This ontology defines the fundamental concepts for listing securities, such as registered, listed, and exchange-traded security, the notion of a securities exchange, and related services."
+has tick size,Entity,has tick size
+N366159301c284bbdbe140cad3ab566fb,Entity,N366159301c284bbdbe140cad3ab566fb
+SecuritiesListings.rdf version of this ontology was modified to normalize the representation of security forms (all individuals rather than a mixed representation).,Entity,SecuritiesListings.rdf version of this ontology was modified to normalize the representation of security forms (all individuals rather than a mixed representation).
+owl#Class,Entity,owl#Class
+hasOriginalPlaceOfListing,Entity,hasOriginalPlaceOfListing
+hasRegistrationDate,Entity,hasRegistrationDate
+relates a given exchange-specific security listing to its issue,Entity,relates a given exchange-specific security listing to its issue
+SecuritiesListings.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,Entity,SecuritiesListings.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+isProvidedBy,Entity,isProvidedBy
+FinancialService,Entity,FinancialService
+N3bb7d44be9434d3eb5f8ac7e8091c5b1,Entity,N3bb7d44be9434d3eb5f8ac7e8091c5b1
+0,Entity,0
+CombinedDateTime,Entity,CombinedDateTime
+owl#Ontology,Entity,owl#Ontology
+"SecuritiesListings.rdf version of this ontology was revised to eliminate confusion between listed security and listing (which caused reasoning issues), adjust definitions to eliminate ambiguity, add a property for lot size on listing, and eliminate the now redundant and confusing registered security form class.",Entity,"SecuritiesListings.rdf version of this ontology was revised to eliminate confusion between listed security and listing (which caused reasoning issues), adjust definitions to eliminate ambiguity, add a property for lot size on listing, and eliminate the now redundant and confusing registered security form class."
+indicates the original exchange that listed the security,Entity,indicates the original exchange that listed the security
+identifies the trading facility on which the security is traded,Entity,identifies the trading facility on which the security is traded
+Na0b5210150634f49b4f58a8bd8998e4f,Entity,Na0b5210150634f49b4f58a8bd8998e4f

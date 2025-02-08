@@ -1,0 +1,58 @@
+source_id,target_id,relationship
+FuturesVega,futures vega,rdf-schema#label
+,Futures Temporal Ontology,rdf-schema#label
+InitialMargin,Asset,rdf-schema#subClassOf
+InitialMargin,"When you open a futures contract, the futures exchange will state a minimum amount of money that you must deposit into your account. This original deposit of money is called the initial margin. When your contract is liquidated, you will be refunded the initial margin plus or minus any gains or losses that occur over the span of the futures contract. In other words, the amount in your margin account changes daily as the market fluctuates in relation to your futures contract. The minimum-level margin is determined by the futures exchange and is usually 5% to 10% of the futures contract. These predetermined initial margin amounts are continuously under review: at times of high market volatility, initial margin requirements can be raised.",explanatoryNote
+,,owl#imports
+FuturesVega,FuturesGreek,rdf-schema#subClassOf
+FuturesDailySettlementPrice,Review whether this exists,core#definition
+,Provisional,hasMaturityLevel
+FuturesTradingAccountHolder,futures trading account holder,rdf-schema#label
+FuturesVega,owl#Class,22-rdf-syntax-ns#type
+N60e80343a6e545e8b1bb168721c1bcd5,owl#Restriction,22-rdf-syntax-ns#type
+FuturesDailySettlementPrice,futures daily settlement price,rdf-schema#label
+Nfcd6d6758e394cefa6e1b282be78fdcb,FuturesTradingAccountHolder,owl#someValuesFrom
+ExchangeFuturesPrice,exchange futures price,rdf-schema#label
+,MIT,license
+FuturesTradingAccountHolder,owl#Class,22-rdf-syntax-ns#type
+MinimumMargin,N60e80343a6e545e8b1bb168721c1bcd5,rdf-schema#subClassOf
+FuturesGreek,quantity representing the sensitivity of the price of a future or futures to a change in underlying parameters on which the value depends,core#definition
+N51ce546931ef4baaa9404097b3e8cf72,FuturesTradingAccountHolder,owl#someValuesFrom
+FuturesGreek,owl#Class,22-rdf-syntax-ns#type
+FuturesClosingPrice,owl#Class,22-rdf-syntax-ns#type
+FuturesClosingPrice,futures closing price,rdf-schema#label
+FuturesClosingPrice,ExchangeFuturesPrice,rdf-schema#subClassOf
+N60e80343a6e545e8b1bb168721c1bcd5,ExplicitDate,owl#someValuesFrom
+InitialMargin,N8e1d8ce129c141d9aa0fb51f2144b2d1,rdf-schema#subClassOf
+ExchangeFuturesPrice,owl#Class,22-rdf-syntax-ns#type
+ExchangeFuturesPrice,SecurityPrice,rdf-schema#subClassOf
+,Exchange traded futures date and time dependent terms such as prices and margining. Also covers greeks (thetas etc.),abstract
+,,owl#versionIRI
+FuturesDailySettlementPrice,SecurityPrice,rdf-schema#subClassOf
+FuturesTradingAccountHolder,A party who has an account for futures trading at a derivatives exchange. Further notes: The trader opens an account with a given amount known as a margin.,core#definition
+N8e1d8ce129c141d9aa0fb51f2144b2d1,owl#Restriction,22-rdf-syntax-ns#type
+FuturesTheta,FuturesGreek,rdf-schema#subClassOf
+MinimumMargin,owl#Class,22-rdf-syntax-ns#type
+InitialMargin,initial margin,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+FuturesTheta,owl#Class,22-rdf-syntax-ns#type
+InitialMargin,N51ce546931ef4baaa9404097b3e8cf72,rdf-schema#subClassOf
+MinimumMargin,minimum margin,rdf-schema#label
+N8e1d8ce129c141d9aa0fb51f2144b2d1,ExplicitDate,owl#someValuesFrom
+N60e80343a6e545e8b1bb168721c1bcd5,hasAsOfDate,owl#onProperty
+FuturesDailySettlementPrice,owl#Class,22-rdf-syntax-ns#type
+FuturesTheta,futures theta,rdf-schema#label
+MinimumMargin,Asset,rdf-schema#subClassOf
+,"Copyright (c) 2013-2023 EDM Council, Inc.",copyright
+Nfcd6d6758e394cefa6e1b282be78fdcb,owl#Restriction,22-rdf-syntax-ns#type
+N51ce546931ef4baaa9404097b3e8cf72,owl#Restriction,22-rdf-syntax-ns#type
+FuturesGreek,futures greek,rdf-schema#label
+InitialMargin,owl#Class,22-rdf-syntax-ns#type
+Nfcd6d6758e394cefa6e1b282be78fdcb,isHeldBy,owl#onProperty
+InitialMargin,money or securities put up as a good faith deposit assuring that a future contract will be fulfilled,core#definition
+N8e1d8ce129c141d9aa0fb51f2144b2d1,hasAsOfDate,owl#onProperty
+N51ce546931ef4baaa9404097b3e8cf72,isHeldBy,owl#onProperty
+MinimumMargin,Nfcd6d6758e394cefa6e1b282be78fdcb,rdf-schema#subClassOf
+InitialMargin,security deposit,synonym
+FuturesGreek,PriceAnalytic,rdf-schema#subClassOf
+MinimumMargin,The lowest amount an account can reach before needing to be replenished.,core#definition

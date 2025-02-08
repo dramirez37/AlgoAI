@@ -1,0 +1,138 @@
+source_id,target_id,relationship
+CurrencyOption,"option giving the buyer (holder) the right, but not the obligation, to buy or sell currency at a specified exchange rate during a specified period of time",core#definition
+CurrencySwap,currency swap,rdf-schema#label
+CurrencySpotForwardSwap,Nf506bcc1a38b4ce6864704ab54eff4e8,rdf-schema#subClassOf
+CurrencyDerivative,currency derivative,rdf-schema#label
+hasSpotExchangeRate,QuotedExchangeRate,rdf-schema#range
+CurrencySpotContract,CurrencyInstrument,rdf-schema#subClassOf
+N736ba288f0354349a04355ab714faa2b,owl#Restriction,22-rdf-syntax-ns#type
+Nb8a602c3591349e79a316a4b73d33ac3,hasForwardExchangeRate,owl#onProperty
+CurrencyForwardOutright,currency forward outright,rdf-schema#label
+CurrencySwap,"In the case of a 'forward-forward' swap, both legs will be of type CurrencyFoward.",core#note
+CurrencyForward,CurrencyDerivative,rdf-schema#subClassOf
+CurrencyFuture,owl#Class,22-rdf-syntax-ns#type
+CurrencySpotForwardSwap,currency spot forward swap,rdf-schema#label
+,CurrencyContracts.rdf version of this ontology was modified to eliminate a reference to a deprecated property.,core#changeNote
+CurrencySpotContract,N13151f7b2c314d1dad6c02be6936b631,rdf-schema#subClassOf
+CurrencyDerivative,foreign exchange derivative,synonym
+N2f56cef551e0420f8f2c301c78792c8a,CurrencyForward,owl#someValuesFrom
+Ne975a195f8c946ad90caaf46f92af0da,Ndeacbc5df1e949b485ef203fd28c8a0c,22-rdf-syntax-ns#rest
+," version of this ontology was modified to reflect the addition of the concept of a rates swap and the corresponding rate-based leg to the Swaps ontology, as well as the concept of a spot forward currency swap, to facilitate mapping to the CFI standard.",core#changeNote
+Ndeacbc5df1e949b485ef203fd28c8a0c,Nc6f2572288844791914f011d0b030d8d,22-rdf-syntax-ns#rest
+CurrencySpotContract,foreign exchange spot contract,synonym
+Nd14e9a6140d54154bf062680d5e9dc1d,hasExchangeRateQuotationSource,owl#onProperty
+,"CurrencyContracts.rdf version of this ontology was modified to move properties related to buying and selling currency to a higher level in the ontology, to be available on all currency instruments (DER-143).",core#changeNote
+N4a0443e3f3344b04a88e1f4b3d5d0a54,owl#Restriction,22-rdf-syntax-ns#type
+N248ce91f9a2244a28e39ed43650d0830,owl#Restriction,22-rdf-syntax-ns#type
+CurrencyDerivative,forex derivative,synonym
+,Currency Contracts Ontology,rdf-schema#label
+Nf506bcc1a38b4ce6864704ab54eff4e8,hasLeg,owl#onProperty
+hasBuyingCurrency,true,owl#deprecated
+,CurrencyContracts.rdf version of this ontology was modified to simplify the currency derivative class hierarchy (DER-126).,core#changeNote
+CurrencyForwardOutright,owl#Class,22-rdf-syntax-ns#type
+N16d065005ee448acb0c877b4fe3c5bd0,owl#Restriction,22-rdf-syntax-ns#type
+hasForwardExchangeRate,has forward exchange rate,rdf-schema#label
+N248ce91f9a2244a28e39ed43650d0830,CurrencySpotVolatility,owl#someValuesFrom
+CurrencySwap,CurrencyDerivative,rdf-schema#subClassOf
+CurrencyForward,owl#Class,22-rdf-syntax-ns#type
+Nd14e9a6140d54154bf062680d5e9dc1d,owl#Restriction,22-rdf-syntax-ns#type
+Nf506bcc1a38b4ce6864704ab54eff4e8,CurrencySpotContract,owl#someValuesFrom
+CurrencyForward,foreign exchange forward,synonym
+Nf506bcc1a38b4ce6864704ab54eff4e8,owl#Restriction,22-rdf-syntax-ns#type
+hasSpotExchangeRate,has spot exchange rate,rdf-schema#label
+CurrencyFuture,CurrencyDerivative,rdf-schema#subClassOf
+,,owl#imports
+hasBuyingCurrency,hasBuyingCurrency,owl#equivalentProperty
+CurrencyForwardOutright,forward outright,synonym
+hasSpotExchangeRate,owl#ObjectProperty,22-rdf-syntax-ns#type
+CurrencyVolatilityOption,CurrencyOption,rdf-schema#subClassOf
+CurrencyOption,FX option,abbreviation
+CurrencySpotForwardSwap,CurrencySwap,rdf-schema#subClassOf
+,"CurrencyContracts.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate, and to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.",core#changeNote
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+CurrencySpotContract,SpotContract,rdf-schema#subClassOf
+CurrencyDerivative,Nd14e9a6140d54154bf062680d5e9dc1d,rdf-schema#subClassOf
+CurrencyDerivative,DerivativeInstrument,rdf-schema#subClassOf
+,,owl#versionIRI
+CurrencySwap,owl#Class,22-rdf-syntax-ns#type
+hasForwardExchangeRate,CurrencyForward,rdf-schema#domain
+Nc6f2572288844791914f011d0b030d8d,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,owl#Ontology,22-rdf-syntax-ns#type
+hasSellingCurrency,true,owl#deprecated
+N2f56cef551e0420f8f2c301c78792c8a,hasLeg,owl#onProperty
+CurrencyDerivative,"agreement to deliver and settle a given amount of money in one currency, in exchange for a given amount in another currency at an agreed rate of exchange",core#definition
+CurrencyVolatilityOption,N248ce91f9a2244a28e39ed43650d0830,rdf-schema#subClassOf
+hasForwardExchangeRate,ExchangeRate,rdf-schema#range
+CurrencySwap,Swap,rdf-schema#subClassOf
+CurrencyForwardOutright,N16d065005ee448acb0c877b4fe3c5bd0,rdf-schema#subClassOf
+Nb76004bf187d4557a7b1d65d6d2469dd,CurrencySpotBuyRate,owl#onClass
+CurrencySwap,foreign exchange agreement between two parties to exchange a given amount of one currency for another currency for spot delivery or for forward delivery at an agreed rate after a specified period of time,core#definition
+Nb8a602c3591349e79a316a4b73d33ac3,ExchangeRate,owl#someValuesFrom
+,CurrencyContracts.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+CurrencyDerivative,owl#Class,22-rdf-syntax-ns#type
+CurrencyOption,CurrencyDerivative,rdf-schema#subClassOf
+CurrencySpotForwardSwap,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15",adaptedFrom
+Nc6f2572288844791914f011d0b030d8d,Exchange,22-rdf-syntax-ns#first
+CurrencySpotContract,foreign-exchange contract for immediate delivery,core#definition
+hasForwardExchangeRate,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+Ne975a195f8c946ad90caaf46f92af0da,Publisher,22-rdf-syntax-ns#first
+CurrencyOption,foreign exchange option,synonym
+CurrencyOption,owl#Class,22-rdf-syntax-ns#type
+Nf6fd8baca0df4885b24d203692bae603,Ne975a195f8c946ad90caaf46f92af0da,owl#unionOf
+,"This ontology defines concepts common to currency spot contracts and foreign exchange derivatives (forwards, options and swaps).",abstract
+CurrencyOption,currency option,rdf-schema#label
+Nf6fd8baca0df4885b24d203692bae603,owl#Class,22-rdf-syntax-ns#type
+CurrencySwap,N2f56cef551e0420f8f2c301c78792c8a,rdf-schema#subClassOf
+CurrencyForward,FX forward,synonym
+hasForwardExchangeRate,hasQuantityValue,rdf-schema#subPropertyOf
+CurrencyOption,VanillaOption,rdf-schema#subClassOf
+CurrencyForwardOutright,outright forward currency transaction,synonym
+CurrencyVolatilityOption,currency volatility option,rdf-schema#label
+CurrencyVolatilityOption,owl#Class,22-rdf-syntax-ns#type
+CurrencySpotForwardSwap,foreign exchange agreement between two parties involving an exchange of two currencies at agreed fixed rates: a) on the spot settlement date and b) a reverse exchange on a later specified date,core#definition
+CurrencyDerivative,FX derivative,abbreviation
+CurrencyOption,N4a0443e3f3344b04a88e1f4b3d5d0a54,rdf-schema#subClassOf
+Ndeacbc5df1e949b485ef203fd28c8a0c,FinancialServiceProvider,22-rdf-syntax-ns#first
+N248ce91f9a2244a28e39ed43650d0830,hasUnderlier,owl#onProperty
+N16d065005ee448acb0c877b4fe3c5bd0,hasPart,owl#onProperty
+Nb76004bf187d4557a7b1d65d6d2469dd,hasUnderlier,owl#onProperty
+CurrencyDerivative,CurrencyInstrument,rdf-schema#subClassOf
+N4a0443e3f3344b04a88e1f4b3d5d0a54,ExchangeRate,owl#someValuesFrom
+CurrencyForwardOutright,forward contract in a foreign exchange market that locks in the price at which an entity must buy or sell a currency on a future date,core#definition
+N2f56cef551e0420f8f2c301c78792c8a,owl#Restriction,22-rdf-syntax-ns#type
+N736ba288f0354349a04355ab714faa2b,CurrencySwap,owl#someValuesFrom
+CurrencyOption,forex option,synonym
+CurrencySpotForwardSwap,owl#Class,22-rdf-syntax-ns#type
+N4a0443e3f3344b04a88e1f4b3d5d0a54,hasStrikeRate,owl#onProperty
+CurrencyForwardOutright,"The holders of a currency forward are obligated to buy or sell the currency at a specified price, at a specified quantity and on a specified future date. These contracts cannot be transferred. Jan 10 Review Notes Outright Forward is the term for the professional markets. Spot + Swap where Swap is 2 simultaneous transactions.",explanatoryNote
+CurrencyForwardOutright,CurrencyForward,rdf-schema#subClassOf
+CurrencySpotContract,"Spot rates represent the price that a buyer expects to pay for a foreign currency in another currency at the time of the quote. Though the spot exchange rate is said to be settled immediately, the globally accepted settlement cycle for foreign-exchange contracts is two days. Foreign-exchange contracts are therefore settled on the second day after the day the deal is made.",explanatoryNote
+CurrencyForwardOutright,N736ba288f0354349a04355ab714faa2b,rdf-schema#subClassOf
+CurrencyVolatilityOption,currency option whose underlying asset is based on the volatility of a foreign exchange rate,core#definition
+hasSpotExchangeRate,"rate of exchange between two currencies as specified as of some date and time as quoted by a specific source, typically for a spot contract",core#definition
+,Release,hasMaturityLevel
+,MIT,license
+CurrencyForward,currency forward,rdf-schema#label
+hasForwardExchangeRate,rate of exchange between two currencies as specified in a forward contract,core#definition
+N736ba288f0354349a04355ab714faa2b,hasPart,owl#onProperty
+CurrencySwap,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15",adaptedFrom
+CurrencyOption,EUR so that he or she could stand to gain from an increase in the exchange rate (or the USD rise).,explanatoryNote
+N13151f7b2c314d1dad6c02be6936b631,owl#Restriction,22-rdf-syntax-ns#type
+CurrencySpotContract,currency spot contract,rdf-schema#label
+CurrencySpotContract,owl#Class,22-rdf-syntax-ns#type
+Nd14e9a6140d54154bf062680d5e9dc1d,Nf6fd8baca0df4885b24d203692bae603,owl#someValuesFrom
+CurrencyForward,Forward,rdf-schema#subClassOf
+hasSpotExchangeRate,hasQuotedExchangeRate,rdf-schema#subPropertyOf
+CurrencyForward,"agreement to deliver and settle a given amount of money in one currency, in exchange for a given amount in another currency, at an agreed date in the future and at an agreed rate of exchange",core#definition
+N16d065005ee448acb0c877b4fe3c5bd0,CurrencySpotContract,owl#someValuesFrom
+hasSellingCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nb8a602c3591349e79a316a4b73d33ac3,owl#Restriction,22-rdf-syntax-ns#type
+hasBuyingCurrency,owl#ObjectProperty,22-rdf-syntax-ns#type
+N13151f7b2c314d1dad6c02be6936b631,QuotedExchangeRate,owl#someValuesFrom
+CurrencyForward,Nb8a602c3591349e79a316a4b73d33ac3,rdf-schema#subClassOf
+hasSellingCurrency,hasSellingCurrency,owl#equivalentProperty
+N13151f7b2c314d1dad6c02be6936b631,hasSpotExchangeRate,owl#onProperty
+CurrencyOption,Nb76004bf187d4557a7b1d65d6d2469dd,rdf-schema#subClassOf
+Nb76004bf187d4557a7b1d65d6d2469dd,0,owl#minQualifiedCardinality
+Nb76004bf187d4557a7b1d65d6d2469dd,owl#Restriction,22-rdf-syntax-ns#type

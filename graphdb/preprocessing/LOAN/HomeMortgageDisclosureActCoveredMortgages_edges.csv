@@ -1,0 +1,146 @@
+source_id,target_id,relationship
+N4189c2a40e704c73831f297d7488ff20,N6bf78694e78d47a7bfad57cd9822bc20,owl#someValuesFrom
+HowSubmitted,2015 Revised HMDA regulation,adaptedFrom
+HMDA-Disposition,Classifier,rdf-schema#subClassOf
+Na68d853b8a9a4a41a98f481c4f1e10da,owl#Restriction,22-rdf-syntax-ns#type
+HMDA-Disposition-PreapprovalRequestApprovedButNotAccepted,owl#NamedIndividual,22-rdf-syntax-ns#type
+N3a4ef2ccb9f642f5879e9dfac1459a81,classifies,owl#onProperty
+HMDA-PreApprovalRequest,owl#Class,22-rdf-syntax-ns#type
+Na6c36d0ba7f144cab3af74aebb8e6a0f,Nef1e53feea1647abaf849554e058fba2,22-rdf-syntax-ns#rest
+HMDA-Report,"The filter class on the hasReportingAgent restriction comes from the hasIdentity restriction on FinancialServiceProvider, which, unfortunately,  is a PartyInRole.",core#editorialNote
+UniversalLoanIdentifier,"In the US, the structure of this identifier is defined in the 2015 revision to the Home Mortgage Disclosure Act.",explanatoryNote
+HMDA-Disposition-ApplicationWithdrawn,owl#NamedIndividual,22-rdf-syntax-ns#type
+N6bf78694e78d47a7bfad57cd9822bc20,Na6c36d0ba7f144cab3af74aebb8e6a0f,owl#intersectionOf
+N710e8f3c38e343be81baa2bec8a46134,HowSubmitted,owl#someValuesFrom
+HMDA-PreApprovalRequest,the 2015 Revised HMDA regulation.,adaptedFrom
+HMDA-CoveredLoanContract,the Revised HMDA regulatory text.,adaptedFrom
+Nf854f699f9864556930d0394210306d4,LoanSecuredByRealEstate,owl#onClass
+Race,N237ff145b2f14cc095a8f2692851a9d2,rdf-schema#subClassOf
+ConstructionType_SiteBuilt,owl#NamedIndividual,22-rdf-syntax-ns#type
+HMDA-Report,Na68d853b8a9a4a41a98f481c4f1e10da,rdf-schema#subClassOf
+HMDA-Disposition-LoanPurchasedByYourInstitution,HMDA-Disposition,22-rdf-syntax-ns#type
+hasHMDA-DispositionDate,the date associated with the HMDA Disposition for a HMDA Covered Loan,core#definition
+N710e8f3c38e343be81baa2bec8a46134,owl#Restriction,22-rdf-syntax-ns#type
+N237ff145b2f14cc095a8f2692851a9d2,Race,owl#someValuesFrom
+N0af04fed34fd4dc2b73ed3dcc7d2b840,LegallyCompetentNaturalPerson,owl#someValuesFrom
+Na6c36d0ba7f144cab3af74aebb8e6a0f,LegalPerson,22-rdf-syntax-ns#first
+ConstructionType,construction type,rdf-schema#label
+HMDA-Disposition-ApplicationDenied,HMDA-Disposition,22-rdf-syntax-ns#type
+HMDA-Disposition-ApplicationApprovedButNotAccepted,HMDA-Disposition,22-rdf-syntax-ns#type
+ConstructionType_MobileHome,owl#NamedIndividual,22-rdf-syntax-ns#type
+UniversalLoanIdentifier,FinancialInstrumentIdentifier,rdf-schema#subClassOf
+ConstructionType,owl#Class,22-rdf-syntax-ns#type
+HMDA-Disposition-FileClosedForIncompleteness,HMDA-Disposition,22-rdf-syntax-ns#type
+N4189c2a40e704c73831f297d7488ff20,owl#Restriction,22-rdf-syntax-ns#type
+ConstructionType_MobileHome,a dwelling unit constructed on a base frame which features wheels and axles to be used in transporting home from place to place,core#definition
+N3a4ef2ccb9f642f5879e9dfac1459a81,LegallyCompetentNaturalPerson,owl#someValuesFrom
+ConstructionType_SiteBuilt,"describes construction process, indicating that most elements are created at the homes permanent site. May include some prefabricated components",core#definition
+ConstructionType_OnFrameModular,on frame modular,rdf-schema#label
+Nf249c179dcc442f7bac5b75976c18317,isSubmittedBy,owl#onProperty
+HowSubmitted,category indicating whether the applicant or borrower submitted the application for the covered loan directly to the reporting financial institution,core#definition
+HMDA-Disposition-PreapprovalRequestDenied,owl#NamedIndividual,22-rdf-syntax-ns#type
+ConstructionType_Modular,ConstructionType,22-rdf-syntax-ns#type
+,,owl#imports
+ConstructionType_MobileHome,mobile home,rdf-schema#label
+Nf854f699f9864556930d0394210306d4,owl#Restriction,22-rdf-syntax-ns#type
+HMDA-CoveredLoanContract,HMDA covered loan contract,rdf-schema#label
+N1d30fc9a3ad741c280945dc5459c5572,LegalEntityIdentifier,owl#onClass
+ConstructionType_Manufactured,manufactured,rdf-schema#label
+N4ac30ed00b434cfe988a6d3a3fe364a0,owl#Restriction,22-rdf-syntax-ns#type
+hasHMDA-DispositionDate,hasDate,rdf-schema#subPropertyOf
+hasHMDA-DispositionDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+,,owl#versionIRI
+HMDA-Report,owl#Class,22-rdf-syntax-ns#type
+,"This ontology defines concepts specific to mortgages that are covered by the Home Mortgage Disclosure Act (HMDA) and related regulations. This includes the concept of a HMDA report as well as specializations of the core classes for pre-approval requests, covered loan contracts.",abstract
+HMDA-PreApprovalRequest,"a request for pre-approval of a home purchase loan up to a certain amount, and subject to certain non-credit related conditions",core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+ConstructionType_Modular,a factory-built dwelling not on a permanent chassis,core#definition
+Ethnicity,Classifier,rdf-schema#subClassOf
+Nf249c179dcc442f7bac5b75976c18317,0,owl#minQualifiedCardinality
+HMDA-Disposition,owl#Class,22-rdf-syntax-ns#type
+N6bf78694e78d47a7bfad57cd9822bc20,owl#Class,22-rdf-syntax-ns#type
+Nf249c179dcc442f7bac5b75976c18317,owl#Restriction,22-rdf-syntax-ns#type
+HMDA-PreApprovalRequest,PreApprovalRequest,rdf-schema#subClassOf
+ConstructionType_SiteBuilt,site built,rdf-schema#label
+Race,race,rdf-schema#label
+,"Copyright (c) 2016-2024 Object Management Group, Inc.",copyright
+UniversalLoanIdentifier,owl#Class,22-rdf-syntax-ns#type
+HMDA-Report,HMDA report,rdf-schema#label
+ConstructionType_Manufactured,ConstructionType,22-rdf-syntax-ns#type
+Nef1e53feea1647abaf849554e058fba2,FormalOrganization,22-rdf-syntax-ns#first
+HMDA-Disposition-FileClosedForIncompleteness,owl#NamedIndividual,22-rdf-syntax-ns#type
+HowSubmitted,Classifier,rdf-schema#subClassOf
+Nf854f699f9864556930d0394210306d4,1,owl#qualifiedCardinality
+N4ac30ed00b434cfe988a6d3a3fe364a0,isSubmittedTo,owl#onProperty
+HMDA-Disposition-LoanOriginated,HMDA-Disposition,22-rdf-syntax-ns#type
+ConstructionType_Modular,owl#NamedIndividual,22-rdf-syntax-ns#type
+Na68d853b8a9a4a41a98f481c4f1e10da,hasNumberOfEntries,owl#onProperty
+HMDA-Report,Nf249c179dcc442f7bac5b75976c18317,rdf-schema#subClassOf
+HMDA-Report,Report,rdf-schema#subClassOf
+N1d30fc9a3ad741c280945dc5459c5572,owl#Restriction,22-rdf-syntax-ns#type
+HMDA-Disposition,HMDA disposition,rdf-schema#label
+UniversalLoanIdentifier,unique identifier given to unequivocally identify a specific loan secured by real estate,core#definition
+HMDA-CoveredLoanContract,owl#Class,22-rdf-syntax-ns#type
+Nf249c179dcc442f7bac5b75976c18317,N4189c2a40e704c73831f297d7488ff20,owl#onClass
+HMDA-CoveredLoanContract,a closed-end mortgage loan or open-end line of credit that is not an excluded transaction for HMDA reporting under US section 1003.3(c) of the Revised Home Mortgage Disclosure Act of 2015,core#definition
+HMDA-Report,a report prepared to satisfy HMDA regulatory reporting requirements as described US section 1003.3(c) of the Revised Home Mortgage Disclosure Act of 2015,core#definition
+HowSubmitted,owl#Class,22-rdf-syntax-ns#type
+Race,"a category based on a person's physical characteristics, such as bone structure and skin, hair, or eye color",core#definition
+HowSubmitted,how submitted,rdf-schema#label
+HMDA-CoveredLoanContract,LoanSecuredByRealEstate,rdf-schema#subClassOf
+N0af04fed34fd4dc2b73ed3dcc7d2b840,owl#Restriction,22-rdf-syntax-ns#type
+HMDA-PreApprovalRequest,HMDA pre-approval request,rdf-schema#label
+HMDA-Disposition-PreapprovalRequestApprovedButNotAccepted,HMDA-Disposition,22-rdf-syntax-ns#type
+ConstructionType_OnFrameModular,a factory built dwelling on a permanent chassis which does not have a HUD label,core#definition
+HMDA-PreApprovalRequest,This request is approved only after a comprehensive analysis of the credit worthiness of the borrower is carried out.,explanatoryNote
+HowSubmitted-directly,HowSubmitted,22-rdf-syntax-ns#type
+Nef1e53feea1647abaf849554e058fba2,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N237ff145b2f14cc095a8f2692851a9d2,owl#Restriction,22-rdf-syntax-ns#type
+Ethnicity,N3a4ef2ccb9f642f5879e9dfac1459a81,rdf-schema#subClassOf
+ConstructionType_OnFrameModular,ConstructionType,22-rdf-syntax-ns#type
+HowSubmitted-notDirectly,HowSubmitted,22-rdf-syntax-ns#type
+HMDA-Disposition-ApplicationApprovedButNotAccepted,owl#NamedIndividual,22-rdf-syntax-ns#type
+ConstructionType_MobileHome,ConstructionType,22-rdf-syntax-ns#type
+N4189c2a40e704c73831f297d7488ff20,isPlayedBy,owl#onProperty
+ConstructionType_Modular,modular,rdf-schema#label
+HMDA-Report,the Revised HMDA regulatory text.,adaptedFrom
+N3a4ef2ccb9f642f5879e9dfac1459a81,owl#Restriction,22-rdf-syntax-ns#type
+Na68d853b8a9a4a41a98f481c4f1e10da,XMLSchema#positiveInteger,owl#someValuesFrom
+N1d30fc9a3ad741c280945dc5459c5572,1,owl#qualifiedCardinality
+HowSubmitted-notDirectly,owl#NamedIndividual,22-rdf-syntax-ns#type
+N4ac30ed00b434cfe988a6d3a3fe364a0,RegulatoryAgency,owl#someValuesFrom
+Nf854f699f9864556930d0394210306d4,identifies,owl#onProperty
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+Ethnicity,owl#Class,22-rdf-syntax-ns#type
+UniversalLoanIdentifier,universal loan identifier,rdf-schema#label
+Race,Classifier,rdf-schema#subClassOf
+Ethnicity,ethnicity,rdf-schema#label
+,Provisional,hasMaturityLevel
+,MIT,license
+Race,N0af04fed34fd4dc2b73ed3dcc7d2b840,rdf-schema#subClassOf
+UniversalLoanIdentifier,Nf854f699f9864556930d0394210306d4,rdf-schema#subClassOf
+HMDA-Disposition-PreapprovalRequestDenied,HMDA-Disposition,22-rdf-syntax-ns#type
+HMDA-Disposition-LoanPurchasedByYourInstitution,owl#NamedIndividual,22-rdf-syntax-ns#type
+ConstructionType_MobileHome,It does not meet HUD code.,explanatoryNote
+ConstructionType_SiteBuilt,ConstructionType,22-rdf-syntax-ns#type
+ConstructionType,Classifier,rdf-schema#subClassOf
+hasHMDA-DispositionDate,HMDA disposition date,rdf-schema#label
+Race,owl#Class,22-rdf-syntax-ns#type
+ConstructionType_Manufactured,a factory-built dwelling built in compliance with the Federal Manufactured Home Construction and Safety Standards in effect at the time the home was manufactured as evidenced by the HUD label,core#definition
+HMDA-CoveredLoanContract,N710e8f3c38e343be81baa2bec8a46134,rdf-schema#subClassOf
+N710e8f3c38e343be81baa2bec8a46134,isClassifiedBy,owl#onProperty
+,Home Mortgage Disclosure Act (HMDA) Covered Mortgages Ontology,rdf-schema#label
+ConstructionType_OnFrameModular,owl#NamedIndividual,22-rdf-syntax-ns#type
+HMDA-Disposition-ApplicationWithdrawn,HMDA-Disposition,22-rdf-syntax-ns#type
+HMDA-Disposition-ApplicationDenied,owl#NamedIndividual,22-rdf-syntax-ns#type
+HMDA-Disposition-LoanOriginated,owl#NamedIndividual,22-rdf-syntax-ns#type
+N1d30fc9a3ad741c280945dc5459c5572,comprises,owl#onProperty
+HMDA-Report,N4ac30ed00b434cfe988a6d3a3fe364a0,rdf-schema#subClassOf
+N0af04fed34fd4dc2b73ed3dcc7d2b840,classifies,owl#onProperty
+UniversalLoanIdentifier,N1d30fc9a3ad741c280945dc5459c5572,rdf-schema#subClassOf
+HowSubmitted-directly,owl#NamedIndividual,22-rdf-syntax-ns#type
+HMDA-Disposition,a type of action taken regarding an application for a HMDA covered loan,core#definition
+ConstructionType,particular kind of construction,core#definition
+Ethnicity,"category based on a cultural factors, including nationality, regional culture, ancestry, and language",core#definition
+N237ff145b2f14cc095a8f2692851a9d2,core#broaderTransitive,owl#onProperty
+ConstructionType_Manufactured,owl#NamedIndividual,22-rdf-syntax-ns#type

@@ -1,0 +1,38 @@
+source_id,target_id,relationship
+hasBusinessPurposeDescription,hasDescription,rdf-schema#subPropertyOf
+,,owl#imports
+,Release,hasMaturityLevel
+N82036f857a074fc68ae1768613d5669e,hasObjective,owl#onProperty
+N6a853bfaeda3481385f4d90cfe337354,isPlayedBy,owl#onProperty
+N82036f857a074fc68ae1768613d5669e,0,owl#minQualifiedCardinality
+CommercialLoan,"or improvement of facilities, and so forth, and are typically secured.",explanatoryNote
+CommercialLoan,N7ca92f96f602497f833ef640c1f34dba,rdf-schema#subClassOf
+,MIT,license
+CommercialLoan,Loan,rdf-schema#subClassOf
+Na7482c0d311a4389b4e8417d41bda4bb,owl#Restriction,22-rdf-syntax-ns#type
+Na7482c0d311a4389b4e8417d41bda4bb,0,owl#minQualifiedCardinality
+hasBusinessPurposeDescription,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+N82036f857a074fc68ae1768613d5669e,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#versionIRI
+hasBusinessPurposeDescription,provides a description of the purpose of the loan from the perspective of the borrower,core#definition
+CommercialLoan,owl#Class,22-rdf-syntax-ns#type
+CommercialLoan,commercial and industrial loan,synonym
+,owl#Ontology,22-rdf-syntax-ns#type
+N82036f857a074fc68ae1768613d5669e,BusinessObjective,owl#onClass
+CommercialLoan,commercial loan,rdf-schema#label
+N6a853bfaeda3481385f4d90cfe337354,LegalEntity,owl#someValuesFrom
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+Na7482c0d311a4389b4e8417d41bda4bb,XMLSchema#string,owl#onDataRange
+,"Commercial loans are loans where the loan purpose is some commercial purpose. Note that these are distinguished by the loan purpose not by the borrower type - borrowers may be corporate or personal, though in the majority of cases they would also be corporate loans that is loans with a corporate borrower.",abstract
+N7ca92f96f602497f833ef640c1f34dba,owl#Restriction,22-rdf-syntax-ns#type
+hasBusinessPurposeDescription,has business purpose description,rdf-schema#label
+,Commercial Loans Ontology,rdf-schema#label
+CommercialLoan,Na7482c0d311a4389b4e8417d41bda4bb,rdf-schema#subClassOf
+N7ca92f96f602497f833ef640c1f34dba,hasBorrower,owl#onProperty
+N6a853bfaeda3481385f4d90cfe337354,owl#Restriction,22-rdf-syntax-ns#type
+N7ca92f96f602497f833ef640c1f34dba,N6a853bfaeda3481385f4d90cfe337354,owl#someValuesFrom
+Na7482c0d311a4389b4e8417d41bda4bb,hasBusinessPurposeDescription,owl#onProperty
+hasBusinessPurposeDescription,CommercialLoan,rdf-schema#domain
+CommercialLoan,"loan extended to a corporation, commercial enterprise, joint venture, or other organization as opposed to a consumer",core#definition
+CommercialLoan,N82036f857a074fc68ae1768613d5669e,rdf-schema#subClassOf

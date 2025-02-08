@@ -1,0 +1,852 @@
+source_id,target_id,relationship
+CumulativePreferredShare,These dividends have precedence over ordinary dividends which cannot be paid until any cumulative dividend obligations have been paid. Dividends are typically deferred due to insufficient earnings or other business reasons.,explanatoryNote
+SharePaymentStatus,"When a company issues shares upon incorporation or through an initial or secondary issuance, shareholders are required to pay a set amount for those shares. Once the company has received the full amount from shareholders, the shares become fully paid shares.",explanatoryNote
+CommonShare,Share,rdf-schema#subClassOf
+N263761722645401c9ef65130a91e512b,XMLSchema#nonNegativeInteger,owl#onDataRange
+N3afdf877402148e392834714af3d0d90,AdjustableRateDividend,owl#onClass
+DividendSchedule,owl#Class,22-rdf-syntax-ns#type
+VariableInterestEntityShare,share that certifies ownership of a contractual right to a percentage of a company's profits,core#definition
+hasShareClass,has share class,rdf-schema#label
+Dividend,owl#Class,22-rdf-syntax-ns#type
+confersOwnershipOf,confers,rdf-schema#subPropertyOf
+Na562ffeca0bf482980600af4d24c8de8,Share,owl#someValuesFrom
+PartiallyPaidShare,Share,rdf-schema#subClassOf
+EquityRedemptionProvision,owl#Class,22-rdf-syntax-ns#type
+hasSharesOutstanding,XMLSchema#nonNegativeInteger,rdf-schema#range
+isSeniorTo,Share,rdf-schema#range
+hasSharePaymentStatus,SharePaymentStatus,rdf-schema#range
+PreferredShareWithFixedMaturityDate,N23755addde5f4007a4ae27c23cd08262,rdf-schema#subClassOf
+hasRecordDate,hasExplicitDate,rdf-schema#subPropertyOf
+hasExDividendDate,ex-dividend-dates-when-are-you-entitled-stock-and,adaptedFrom
+hasDividendGracePeriod,PreferredDividend,rdf-schema#domain
+RetractablePreferredShare,PreferredShare,rdf-schema#subClassOf
+FullyPaidShare,share whose payment status indicates that no additional money is owed to the company by shareholders on the value of the shares,core#definition
+hasRedemptionPremium,MonetaryPrice,rdf-schema#range
+EquityPosition,Position,rdf-schema#subClassOf
+hasEarliestRedemptionDate,has earliest redemption date,rdf-schema#label
+N8a7364238d4041acbbd878461fcd446e,0,owl#minQualifiedCardinality
+Nf91bacf96b634c19bcbf23bd5b240fd7,hasRedemptionPremium,owl#onProperty
+N2a2087fa9106420e91f87879738ea19d,true,owl#hasValue
+VariableInterestEntityShare,variable interest entity share,rdf-schema#label
+DistributionByReinvestment,distribution by reinvestment,rdf-schema#label
+N93f9833f9c2143c28a94abe11d5870aa,isPlayedBy,owl#onProperty
+hasSharesOutstanding,"The number of outstanding shares is used in calculating key metrics such as a company's market capitalization, as well as its earnings per share (EPS) and cash flow per share (CFPS).",explanatoryNote
+hasSharePaymentStatus,indicates the payment status for shares issued,core#definition
+Nf91bacf96b634c19bcbf23bd5b240fd7,MonetaryPrice,owl#onClass
+DividendSchedule,PaymentSchedule,rdf-schema#subClassOf
+hasTreasuryShares,XMLSchema#nonNegativeInteger,rdf-schema#range
+EquityConversionTerms,N407fd0b4752b4ae89f85dffe97920085,rdf-schema#subClassOf
+UnrestrictedShare,unrestricted share,rdf-schema#label
+Nd3dc1a327ecc4afa86178bacd899dba6,owl#Restriction,22-rdf-syntax-ns#type
+SharePaymentStatus,LifecycleStatus,rdf-schema#subClassOf
+QualifiedDividend,Dividend,rdf-schema#subClassOf
+N8a7364238d4041acbbd878461fcd446e,owl#Restriction,22-rdf-syntax-ns#type
+CumulativePreferredShare,owl#Class,22-rdf-syntax-ns#type
+N9ee2014844134aab91296b46b2e181b4,N367934a427984df388a6a909ef187425,owl#withRestrictions
+EquityRedemptionProvision,N214e0ab065d84df6b6c9b336f2cb52db,rdf-schema#subClassOf
+PreferredShareWithFixedRateDividend,N0f110b05a74141adaa654693e0cae0b5,rdf-schema#subClassOf
+N5668275edf9d48e981ee2939d14312d4,hasSharesIssued,owl#onProperty
+hasRecordDate,Share,rdf-schema#domain
+hasVotingRestriction,XMLSchema#string,rdf-schema#range
+PartiallyPaidShare,partially paid share,rdf-schema#label
+AdjustableRateDividend,PreferredDividend,rdf-schema#subClassOf
+DistributionByReinvestment,owl#NamedIndividual,22-rdf-syntax-ns#type
+N8f8b19da77274b1ba185ad88f51691b8,owl#Restriction,22-rdf-syntax-ns#type
+N44b8e5b615744b2c8ccbe226431021c7,hasSharePaymentStatus,owl#onProperty
+,EquityInstruments.rdf version of this ontology was revised to add the notion of a VIE share and integrate dividend distribution method with strategy.,core#changeNote
+specifiesConversionDate,Date,rdf-schema#range
+Nd986463417a649f2a3d52f69eb458439,Custodian,22-rdf-syntax-ns#first
+OrdinaryDividend,Dividend,rdf-schema#subClassOf
+DistributionByCashPayment,owl#NamedIndividual,22-rdf-syntax-ns#type
+Share,N263761722645401c9ef65130a91e512b,rdf-schema#subClassOf
+N8eb9a5330c014dd2aaa395d0060f88c7,owl#Restriction,22-rdf-syntax-ns#type
+EnhancedVotingShare,enhanced voting share,rdf-schema#label
+ConvertibleCommonShare,ConvertibleSecurity,rdf-schema#subClassOf
+LimitedPartnershipUnit,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+N9d8dfb6c24ce425ebc3b58d56c2a149c,owl#Restriction,22-rdf-syntax-ns#type
+Nc27c945fa4e74b97afde242f8fab3513,true,owl#hasValue
+NonCumulativePreferredShare,preferred share whose dividend payments are not carried forward,core#definition
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,Equity Instruments Ontology,rdf-schema#label
+hasExtendableMaturityDate,or holders of redeemable shares with a fixed maturity date have the option to extend the maturity date,core#definition
+N580a8f3123f14af886f97ca9b28e1f83,isIssuedBy,owl#onProperty
+RestrictedShare,restricted share,rdf-schema#label
+,,owl#versionIRI
+N8bbbf4a2be874dcdb571d6260e4cafe7,owl#Restriction,22-rdf-syntax-ns#type
+RedeemablePreferredShare,redeemable preferred share,rdf-schema#label
+ShareYield,share yield,rdf-schema#label
+N85570bfbbea14f1fa1c5ba6f569d9345,hasVotingRestriction,owl#onProperty
+hasAdjustableDividendRate,PreferredDividend,rdf-schema#domain
+N0f0892b90f804da79027002412d078b8,0,owl#minQualifiedCardinality
+N0f0892b90f804da79027002412d078b8,owl#Restriction,22-rdf-syntax-ns#type
+LimitedPartnershipUnit,Share,rdf-schema#subClassOf
+,"EquityInstruments.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+hasShareClass,"indicates the class to which the share belongs, typically differentiated by privileges, such as voting rights",core#definition
+N648a760b5c244646bddd101e2670a7fa,0,owl#minQualifiedCardinality
+DividendDistributionMethod,owl#Class,22-rdf-syntax-ns#type
+OrdinaryDividend,"Most dividends are considered ordinary, unless they are specifically designated as qualified dividends.",explanatoryNote
+Share,Necd8edd3fa594e7f80d2a97ec018a59c,rdf-schema#subClassOf
+CommonShare,Ne754ede5a2bd4391bf034f584dbb4c98,rdf-schema#subClassOf
+hasDistributionMethod,has distribution method,rdf-schema#label
+PreferredShareWithAuctionRateDividend,preferred share with auction rate dividend,rdf-schema#label
+RetractablePreferredShare,"When retractable preferred shares reach maturity, the shareholder has the right to sell them back to the stock issuer at the price stated on the agreement. In some cases, the issuer can force the shareholder to sell, and may have the option of exchanging retractable preferred shares for common shares instead of cash.",explanatoryNote
+PreferredDividend,preferred dividend,rdf-schema#label
+PrivatelyHeldShare,owl#Class,22-rdf-syntax-ns#type
+EquityConversionTerms,Neca4b2776423453ead4aba5d5c66e1bb,rdf-schema#subClassOf
+RestrictedVotingShare,Nd3dc1a327ecc4afa86178bacd899dba6,rdf-schema#subClassOf
+SharePaymentStatus,owl#Class,22-rdf-syntax-ns#type
+Na9d903b3c17d4663a742c8dfa5d2c0dd,owl#Restriction,22-rdf-syntax-ns#type
+confersOwnershipOf,Contract,rdf-schema#domain
+Dividend,N648a760b5c244646bddd101e2670a7fa,rdf-schema#subClassOf
+PrivatelyHeldShare,privately held share,rdf-schema#label
+N648a760b5c244646bddd101e2670a7fa,owl#Restriction,22-rdf-syntax-ns#type
+EquityRedemptionProvision,redemption provision that specifies the conditions under which the issuer or shareholder may redeem the shares,core#definition
+Share,N0f0892b90f804da79027002412d078b8,rdf-schema#subClassOf
+hasAvailableShares,hasAmount,rdf-schema#subPropertyOf
+PreferredShareWithAuctionRateDividend,PreferredShareWithFixedRateDividend,owl#disjointWith
+N670688351d094969af234a0c50898f64,0,owl#minQualifiedCardinality
+N7e3c160d15dc43be9f91a4be1069e78c,indicatesNumberOfShares,owl#onProperty
+N670688351d094969af234a0c50898f64,owl#Restriction,22-rdf-syntax-ns#type
+ShareYield,ratio of the annualized dividend per share divided by the (current) price per share,core#definition
+RetractablePreferredShareWithExtendableMaturityDate,Na836609ab0694a73a8e0232f5f8d9c57,rdf-schema#subClassOf
+ExtendablePreferredShare,preferred share whose redemption date can be extended at the issuer or holder option,core#definition
+N23755addde5f4007a4ae27c23cd08262,hasMaturityDate,owl#onProperty
+Naa538f17f552483dad06f3fdf6afcaf3,owl#Restriction,22-rdf-syntax-ns#type
+isSeniorTo,Share,rdf-schema#domain
+Nc7e277e5c6e742f88d3595ff817e8faf,1,owl#maxQualifiedCardinality
+N648a760b5c244646bddd101e2670a7fa,MonetaryAmount,owl#onClass
+N0ba513319ae14e9b9c82936e6f71c15c,EquityRedemptionProvisionWithExtendableRedemptionDate,owl#someValuesFrom
+hasDistributionMethod,hasStrategy,rdf-schema#subPropertyOf
+ExtendablePreferredShare,or of the shareholder with an extendable redemption (meturity) date.,explanatoryNote
+RestrictedVotingShare,restricted voting share,rdf-schema#label
+UnrestrictedShare,owl#Class,22-rdf-syntax-ns#type
+ConvertiblePreferredShare,PreferredShare,rdf-schema#subClassOf
+Custodian,custodian,rdf-schema#label
+hasSharesOutstanding,has shares outstanding,rdf-schema#label
+N1ded9fa1516b4813a56489ad1dba1065,WrittenContract,owl#someValuesFrom
+hasExDividendDate,has ex-dividend date,rdf-schema#label
+EquityRedemptionProvision,equity redemption provision,rdf-schema#label
+hasSharePaymentStatus,has share payment status,rdf-schema#label
+EquityPosition,equity position,rdf-schema#label
+QualifiedDividend,owl#Class,22-rdf-syntax-ns#type
+N0f0892b90f804da79027002412d078b8,XMLSchema#nonNegativeInteger,owl#onDataRange
+RedeemablePreferredShareWithExtendableRedemptionDate,redeemable preferred share whose redemption date can be modified,core#definition
+hasExtendableRedemptionDate,has extendable redemption date,rdf-schema#label
+FullyPaidShare,Share,rdf-schema#subClassOf
+N1b7ce1ed2f894dbcb4d945da650ff3c9,0,owl#maxQualifiedCardinality
+hasVotingRestriction,"specifies restrictions on voting rights, if any",core#definition
+HardRetractablePreferredShare,owl#Class,22-rdf-syntax-ns#type
+SingleVotingShare,Naa538f17f552483dad06f3fdf6afcaf3,rdf-schema#subClassOf
+N214e0ab065d84df6b6c9b336f2cb52db,0,owl#minQualifiedCardinality
+PreferredShareWithAuctionRateDividend,owl#Class,22-rdf-syntax-ns#type
+N16eebe5a61f74cd0ad6eaf478a2ca119,0,owl#hasValue
+LimitedPartnershipUnit,"Like shareholders in a corporation, the LPs have limited liability, i.e., they are only liable on debts incurred by the firm to the extent of their registered investment and they have no management authority. The GPs pay the LPs the equivalent of a dividend on their investment, the nature and extent of which is usually defined in the partnership agreement.",explanatoryNote
+hasVotingRestriction,has voting restriction,rdf-schema#label
+RestrictedVotingShare,owl#Class,22-rdf-syntax-ns#type
+hasMinimumRedemptionPrice,MonetaryAmount,rdf-schema#range
+PreferredShare,N482ae95eb8fa4d74bc21d67c7862824c,rdf-schema#subClassOf
+ExchangeablePreferredShare,preferred share that may be exchanged for a security of another issuer,core#definition
+N8a7364238d4041acbbd878461fcd446e,describesActualExpression,owl#onProperty
+ConvertiblePreferredShare,preferred share that includes an option for the holder to convert the shares into a fixed number of common shares after a predetermined date,core#definition
+N1e37cbfedf1240e1bd1a2987be7820f5,owl#Restriction,22-rdf-syntax-ns#type
+VotingRight,"contractual right that specifies shareholder voting entitlements, such as to elect directors, elect outside auditors, and vote on matters of corporate policy",core#definition
+hasEarliestRedemptionDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Naaf05c00bf6348a09c00fc1a355d7549,N9ee2014844134aab91296b46b2e181b4,owl#someValuesFrom
+CumulativePreferredShare,cumulative preferred share,rdf-schema#label
+N2d94bda39af843eb9025ef4bb8d7ff0b,AuctionRateDividend,owl#onClass
+RetractablePreferredShareWithExtendableMaturityDate,owl#Class,22-rdf-syntax-ns#type
+Nf623c0d4ebdf429d8a829f0062e90181,owl#Restriction,22-rdf-syntax-ns#type
+OrdinaryDividend,owl#Class,22-rdf-syntax-ns#type
+EquityPosition,N7e3c160d15dc43be9f91a4be1069e78c,rdf-schema#subClassOf
+indicatesNumberOfShares,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N214e0ab065d84df6b6c9b336f2cb52db,hasEarliestRedemptionDate,owl#onProperty
+ConvertibleCommonShare,common share that is convertible into another security,core#definition
+ListedShare,owl#Class,22-rdf-syntax-ns#type
+hasDividendGracePeriod,hasDuration,rdf-schema#subPropertyOf
+N4bfee9c7a26a4131a629acd2c005fc5f,owl#Restriction,22-rdf-syntax-ns#type
+N07d28aa8354b471db2e4bbf1f13e253f,hasSharesAuthorized,owl#onProperty
+RedeemablePreferredShareWithExtendableRedemptionDate,extendible preferred share,synonym
+N8bbbf4a2be874dcdb571d6260e4cafe7,EquityRedemptionProvision,owl#someValuesFrom
+hasDistributionMethod,indicates the method by which dividend payments are to be distributed,core#definition
+PreferredShare,share that pays dividends at a specified rate and has preference over common shares in the payment of dividends and liquidation of corporate assets,core#definition
+EquityRedemptionProvision,RedemptionProvision,rdf-schema#subClassOf
+N6cb87985ea164709835bc75bf24dab93,owl#Restriction,22-rdf-syntax-ns#type
+Nbac781f73672497aa13dadf5cbcb4bcf,Duration,owl#onClass
+hasMinimumRedemptionPrice,EquityRedemptionProvision,rdf-schema#domain
+FullyPaidShareStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+Nf3869d63d397463f98530ff6afaaa093,N8cab10e2ee144ef68e8a468e184455df,22-rdf-syntax-ns#first
+,"EquityInstruments.rdf version of this ontology was revised to add concepts covering additional features of preferred shares, move the two exhaustive CFI-specific classes to the Equity CFI individuals ontology, rename EquityIssuer to ShareIssuer to be clearer about the intent, and add the concept of a price per share.",core#changeNote
+,"EquityInstruments.rdf version of this ontology was revised to refine the definition of share to include a restriction for hasSharesOutstanding, eliminate duplication of concepts in LCC, and add the concept of an equity issuer.",core#changeNote
+ShareYield,dividend-price ratio,synonym
+DistributionByCashPayment,distribution by payment,rdf-schema#label
+Nc1f72d4810734e1abc3bf5d78f4fa386,DividendSchedule,owl#onClass
+Nc5ad4622dda44391915538561a3df0da,CommonShare,owl#someValuesFrom
+hasMinimumRedemptionPrice,hasPrice,rdf-schema#subPropertyOf
+hasSharesOutstanding,owl#DatatypeProperty,22-rdf-syntax-ns#type
+SharePaymentStatus,N8eb9a5330c014dd2aaa395d0060f88c7,rdf-schema#subClassOf
+PreferredDividend,"commitment to distribute a portion of earnings to shareholders, similar to a dividend but often with a fixed payment amount and schedule",core#definition
+QualifiedDividend,dividend that falls under capital gains tax rates that are lower than the income tax rates on unqualified (ordinary) dividends,core#definition
+FullyPaidShareStatus,status indicating that no additional money is owed to the company by shareholders on the value of the shares,core#definition
+N6a9619c317134716b2cd52a161eda1bb,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Necd8edd3fa594e7f80d2a97ec018a59c,hasSharePaymentStatus,owl#onProperty
+N3148b62f65de40199c709622745886f9,hasExtendableRedemptionDate,owl#onProperty
+ConvertiblePreferredShare,convertible preferred share,rdf-schema#label
+N4bfee9c7a26a4131a629acd2c005fc5f,hasExtendableMaturityDate,owl#onProperty
+PreferredShareWithAdjustableRateDividend,preferred share with adjustable rate dividend,rdf-schema#label
+N6bd908b1b93f4c0fa79059c0879b23d1,1,XMLSchema#minExclusive
+hasRecordDate,"indicates the date on which the issuer checks to determine whether a party was on the company's books as a shareholder when required (i.e., they must have been on the books prior to the ex-dividend date), to identify who is eligible to receive the next dividend",core#definition
+hasDividendDeclarationDate,ExplicitDate,rdf-schema#range
+,"EquityInstruments.rdf version of this ontology was revised to incorporate a property allowing representation of the share class, streamline the representation of voting rights and payment form, clean up ambiguous definitions, and eliminate redundant restrictions related to security form.",core#changeNote
+N5d686bac075143649d9f3d85f1100e03,0,owl#minQualifiedCardinality
+N1e37cbfedf1240e1bd1a2987be7820f5,hasExtensionProvision,owl#onProperty
+N214e0ab065d84df6b6c9b336f2cb52db,owl#Restriction,22-rdf-syntax-ns#type
+ExtendablePreferredShare,extendable preferred share,rdf-schema#label
+isSeniorTo,"indicates that a given share (share class) has higher seniority than the related share, meaning that it gives the holder a higher claim on the assets of the issuer",core#definition
+isSeniorTo,is senior to,rdf-schema#label
+Nbe9b2efa70b64997894358c268ef80ff,owl#Restriction,22-rdf-syntax-ns#type
+HardRetractablePreferredShare,hard retractable preferred share,rdf-schema#label
+NonVotingShare,Share,rdf-schema#subClassOf
+SingleVotingShare,Share,rdf-schema#subClassOf
+N69f5880f45f9488eadd1d0a66dc8cf32,0,owl#minQualifiedCardinality
+EquityConversionTerms,equity conversion terms,rdf-schema#label
+N5d686bac075143649d9f3d85f1100e03,owl#Restriction,22-rdf-syntax-ns#type
+N670688351d094969af234a0c50898f64,hasMinimumRedemptionPrice,owl#onProperty
+Nc7e277e5c6e742f88d3595ff817e8faf,hasDistributionMethod,owl#onProperty
+RedeemablePreferredShareWithExtendableMaturityDate,owl#Class,22-rdf-syntax-ns#type
+CommonShare,ordinary share,synonym
+hasAdjustableDividendRate,hasQuantityValue,rdf-schema#subPropertyOf
+hasExDividendDate,Share,rdf-schema#domain
+N5668275edf9d48e981ee2939d14312d4,owl#Restriction,22-rdf-syntax-ns#type
+N6cb87985ea164709835bc75bf24dab93,XMLSchema#nonNegativeInteger,owl#onDataRange
+hasFloatingShares,has floating shares,rdf-schema#label
+N58e79c57fd6d4abba0cfc56b6efd1bee,InterestRateBenchmark,owl#onClass
+PricePerShare,UnitPrice,rdf-schema#subClassOf
+RetractablePreferredShareWithExtendableMaturityDate,retractable preferred share with extendable maturity date,rdf-schema#label
+NilPaidShareStatus,"Unpaid shares may be issued, for example, for convenience by a start-up company.",core#example
+isRedeemableAtShareholderOption,RedemptionProvision,rdf-schema#domain
+N1313a2bbfb164b1398c6a3a29e6e358b,NilPaidShareStatus,owl#hasValue
+confersNumberOfVotesPerShare,number of votes per share,rdf-schema#label
+CommonShare,owl#Class,22-rdf-syntax-ns#type
+PartiallyPaidShareStatus,FullyPaidShareStatus,owl#differentFrom
+ListedShare,listed share,rdf-schema#label
+hasExDividendDate,"Once the company sets the record date, the ex-dividend date is set based on stock exchange rules. If you purchase a stock on its ex-dividend date or after, you will not receive the next dividend payment.",explanatoryNote
+Ne754ede5a2bd4391bf034f584dbb4c98,OrdinaryDividend,owl#onClass
+AdjustableRateDividend,adjustable rate dividend,rdf-schema#label
+EquityRedemptionProvisionWithExtendableRedemptionDate,EquityRedemptionProvision,rdf-schema#subClassOf
+hasExtendableMaturityDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Nabf1c697218047c58860f6f00729157d,LimitedPartnership,owl#someValuesFrom
+NonCumulativePreferredShare,owl#Class,22-rdf-syntax-ns#type
+AuctionRateDividend,owl#Class,22-rdf-syntax-ns#type
+,"EquityInstruments.rdf version of this ontology was revised to refine the definition of listed share, update definitions to remove leading articles, add missing properties and restrictions, revise the definition of dividend.",core#changeNote
+confersNumberOfVotesPerShare,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Neb7b113e9c7c42b6833813555b321cf3,isRedeemableAtIssuerOption,owl#onProperty
+AdjustableRateDividend,N8a7364238d4041acbbd878461fcd446e,rdf-schema#subClassOf
+Nc7e277e5c6e742f88d3595ff817e8faf,owl#Restriction,22-rdf-syntax-ns#type
+N367934a427984df388a6a909ef187425,N6bd908b1b93f4c0fa79059c0879b23d1,22-rdf-syntax-ns#first
+ExtendablePreferredShare,owl#Class,22-rdf-syntax-ns#type
+hasDividendGracePeriod,owl#ObjectProperty,22-rdf-syntax-ns#type
+N8e057f8f3dd44b96a51948081b912626,owl#Restriction,22-rdf-syntax-ns#type
+hasAvailableShares,has available shares,rdf-schema#label
+NilPaidShare,owl#Class,22-rdf-syntax-ns#type
+N16eebe5a61f74cd0ad6eaf478a2ca119,owl#Restriction,22-rdf-syntax-ns#type
+N862e035168d8465788f56ac352525988,owl#Restriction,22-rdf-syntax-ns#type
+Na9d903b3c17d4663a742c8dfa5d2c0dd,EquityRedemptionProvision,owl#someValuesFrom
+PricePerShare,PPS,abbreviation
+PreferredShareWithAuctionRateDividend,"preferred share whose dividend rate is periodically reset through an auction, such as a Dutch auction",core#definition
+ConvertibleCommonShare,convertible common share,rdf-schema#label
+specifiesConversionDate,EquityConversionTerms,rdf-schema#domain
+SpecialDividend,special dividend,rdf-schema#label
+Dividend,Nc1f72d4810734e1abc3bf5d78f4fa386,rdf-schema#subClassOf
+N8eb9a5330c014dd2aaa395d0060f88c7,Share,owl#someValuesFrom
+ConvertiblePreferredShare,ConvertibleSecurity,rdf-schema#subClassOf
+NilPaidShareStatus,status indicating that none of the market value has been received by the company for the shares,core#definition
+PartiallyPaidShareStatus,SharePaymentStatus,22-rdf-syntax-ns#type
+N6610d45203854b629de733a0013a66fa,Nc2c5ea40799c4494a124325015d3fed0,owl#unionOf
+hasExtendableMaturityDate,has extendable maturity date,rdf-schema#label
+N5668275edf9d48e981ee2939d14312d4,0,owl#minQualifiedCardinality
+ParticipatingPreferredShare,Nb868191658e345be8f4cbd0ae77dc6f1,rdf-schema#subClassOf
+Neb7b113e9c7c42b6833813555b321cf3,XMLSchema#boolean,owl#onDataRange
+N9d8dfb6c24ce425ebc3b58d56c2a149c,Share,owl#someValuesFrom
+N4825c892977b4a4e9398fb8282dac145,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N263761722645401c9ef65130a91e512b,hasAvailableShares,owl#onProperty
+hasTreasuryShares,owl#DatatypeProperty,22-rdf-syntax-ns#type
+specifiesConversionDate,specifies conversion date,rdf-schema#label
+Na54816881cb947f4bec06be33a04dc29,Shareholder,22-rdf-syntax-ns#first
+EquityRedemptionProvisionWithExtendableRedemptionDate,N2a2087fa9106420e91f87879738ea19d,rdf-schema#subClassOf
+FixedRateDividend,fixed rate dividend,rdf-schema#label
+N5668275edf9d48e981ee2939d14312d4,XMLSchema#nonNegativeInteger,owl#onDataRange
+indicatesNumberOfShares,EquityPosition,rdf-schema#domain
+hasFloatingShares,"indicates the number of shares that are available for trading, i.e., the number of shares outstanding less closely held shares (those held by insiders) and restricted shares",core#definition
+,owl#Ontology,22-rdf-syntax-ns#type
+Necd8edd3fa594e7f80d2a97ec018a59c,owl#Restriction,22-rdf-syntax-ns#type
+Neca4b2776423453ead4aba5d5c66e1bb,owl#Restriction,22-rdf-syntax-ns#type
+AdjustableRateDividend,owl#Class,22-rdf-syntax-ns#type
+N5f48d1fdc49142e6adb5d6a930d5f259,owl#Restriction,22-rdf-syntax-ns#type
+hasShareClass,"Classes of shares, including shares in a mutual fund, are designated by name or a character (letter), such as A, B, C, etc. In the case of a mutual fund, different classes of shares may incur different fees and expenses.",explanatoryNote
+hasDividend,Share,rdf-schema#domain
+RetractablePreferredShareWithExtendableRedemptionDate,owl#Class,22-rdf-syntax-ns#type
+hasDividendDeclarationDate,"indicates a date on which an organization states that a dividend payment may be anticipated, including the the dividend amount and the ex-dividend and payment dates",core#definition
+PartiallyPaidShare,owl#Class,22-rdf-syntax-ns#type
+hasSharePaymentStatus,isClassifiedBy,rdf-schema#subPropertyOf
+Nc1f72d4810734e1abc3bf5d78f4fa386,0,owl#minQualifiedCardinality
+Nabf1c697218047c58860f6f00729157d,owl#Restriction,22-rdf-syntax-ns#type
+RedeemablePreferredShareWithExtendableMaturityDate,Nc27c945fa4e74b97afde242f8fab3513,rdf-schema#subClassOf
+PreferredDividend,owl#Class,22-rdf-syntax-ns#type
+N3148b62f65de40199c709622745886f9,0,owl#minQualifiedCardinality
+Na8b3c1b57f3d476cb86f4c3b6a3b564f,hasPaymentAmount,owl#onProperty
+EquityPosition,position in an equity instrument,core#definition
+N2a2087fa9106420e91f87879738ea19d,hasExtendableRedemptionDate,owl#onProperty
+hasEarliestRedemptionDate,ExplicitDate,rdf-schema#range
+Share,Nc43fd84160b34e60a11e7a12cc014025,rdf-schema#subClassOf
+hasVotingRestriction,Such restrictions may apply regardless of the number of votes per share.,explanatoryNote
+hasRedemptionPremium,EquityRedemptionProvision,rdf-schema#domain
+N9ee2014844134aab91296b46b2e181b4,rdf-schema#Datatype,22-rdf-syntax-ns#type
+NilPaidShare,nil paid share,rdf-schema#label
+N580a8f3123f14af886f97ca9b28e1f83,owl#Restriction,22-rdf-syntax-ns#type
+N6cb87985ea164709835bc75bf24dab93,hasFloatingShares,owl#onProperty
+HardRetractablePreferredShare,RetractablePreferredShare,rdf-schema#subClassOf
+N597cb9f653704f8f84921ccaac125860,PartiallyPaidShareStatus,owl#hasValue
+RedeemablePreferredShare,PreferredShare,rdf-schema#subClassOf
+SpecialDividend,owl#Class,22-rdf-syntax-ns#type
+N482ae95eb8fa4d74bc21d67c7862824c,hasMaturityDate,owl#onProperty
+Dividend,"The amount and timing of payment is set by the board of directors, typically quarterly. Dividends may be paid in the form of money, shares, scrip, or on rare occasion, property.",explanatoryNote
+N6610d45203854b629de733a0013a66fa,owl#Class,22-rdf-syntax-ns#type
+DividendDistributionMethod,convention by which dividends are provided to shareholders,core#definition
+ConvertiblePreferredShare,"Most convertible preferred stock is exchanged at the request of the shareholder, but sometimes there is a provision that allows the company, or issuer, to force conversion. The value of a convertible preferred stock is ultimately based on the performance of the common stock.",explanatoryNote
+hasAdjustableDividendRate,owl#ObjectProperty,22-rdf-syntax-ns#type
+N8bbbf4a2be874dcdb571d6260e4cafe7,hasRedemptionProvision,owl#onProperty
+N0ba513319ae14e9b9c82936e6f71c15c,owl#Restriction,22-rdf-syntax-ns#type
+isRedeemableAtIssuerOption,RedemptionProvision,rdf-schema#domain
+Nd3b0243231494654aefe848500c85e44,0,owl#minQualifiedCardinality
+specifiesConversionDate,"indicates the date on which, or after which, conversion may occur",core#definition
+Nd3b0243231494654aefe848500c85e44,owl#Restriction,22-rdf-syntax-ns#type
+N07d28aa8354b471db2e4bbf1f13e253f,owl#Restriction,22-rdf-syntax-ns#type
+LimitedPartnershipUnit,owl#Class,22-rdf-syntax-ns#type
+EquityPosition,owl#Class,22-rdf-syntax-ns#type
+Nb868191658e345be8f4cbd0ae77dc6f1,OrdinaryDividend,owl#onClass
+Nc2c5ea40799c4494a124325015d3fed0,OrdinaryDividend,22-rdf-syntax-ns#first
+ListedShare,share that is listed on at least one platform,core#definition
+hasRedemptionPremium,has redemption premium,rdf-schema#label
+N773efb6f37d04e958c6605eed68b3bec,owl#Class,22-rdf-syntax-ns#type
+hasExtendableMaturityDate,PreferredShare,rdf-schema#domain
+ExtendablePreferredShare,"ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019",adaptedFrom
+OrdinaryDividend,dividend that is paid to shareholders periodically,core#definition
+DistributionByCashPayment,distribution method involving payment of cash to the shareholder,core#definition
+hasDividendDeclarationDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasAvailableShares,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N5f48d1fdc49142e6adb5d6a930d5f259,1,owl#qualifiedCardinality
+specifiesConversionDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+RetractablePreferredShareWithExtendableMaturityDate,RetractablePreferredShare,rdf-schema#subClassOf
+PreferredShareWithFixedMaturityDate,owl#Class,22-rdf-syntax-ns#type
+Custodian,owl#Class,22-rdf-syntax-ns#type
+ParticipatingPreferredShare,"Participating preferred shares are rare, typically only issued when needed to attract investors.",explanatoryNote
+Nbe9b2efa70b64997894358c268ef80ff,PercentageMonetaryAmount,owl#someValuesFrom
+FullyPaidShareStatus,SharePaymentStatus,22-rdf-syntax-ns#type
+NonVotingShare,N16eebe5a61f74cd0ad6eaf478a2ca119,rdf-schema#subClassOf
+Nc43fd84160b34e60a11e7a12cc014025,XMLSchema#string,owl#onDataRange
+hasAdjustableDividendRate,has adjustable dividend rate,rdf-schema#label
+NonCumulativePreferredShare,PreferredShare,rdf-schema#subClassOf
+ParticipatingPreferredShare,PreferredShare,rdf-schema#subClassOf
+Naa538f17f552483dad06f3fdf6afcaf3,1,owl#hasValue
+isRedeemableAtShareholderOption,owl#DatatypeProperty,22-rdf-syntax-ns#type
+ShareIssuer,issuer of securities that represent an ownership interest in something,core#definition
+hasExtendableRedemptionDate,or holders of redeemable shares with a specified redemption date have the option to extend that date,core#definition
+hasDistributionMethod,DividendDistributionMethod,rdf-schema#range
+Nc1f72d4810734e1abc3bf5d78f4fa386,owl#Restriction,22-rdf-syntax-ns#type
+N8f8b19da77274b1ba185ad88f51691b8,hasCounterparty,owl#onProperty
+Necd8edd3fa594e7f80d2a97ec018a59c,SharePaymentStatus,owl#someValuesFrom
+,EquityInstruments.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Custodian,FinancialInstitution,rdf-schema#subClassOf
+N7cd3f4cb6e0b4161b397b9267110717c,owl#Class,22-rdf-syntax-ns#type
+N3148b62f65de40199c709622745886f9,owl#Restriction,22-rdf-syntax-ns#type
+Naaf05c00bf6348a09c00fc1a355d7549,confersNumberOfVotesPerShare,owl#onProperty
+Nc43fd84160b34e60a11e7a12cc014025,hasShareClass,owl#onProperty
+RetractablePreferredShareWithExtendableMaturityDate,N36268f95ec76414da27480605743b2bd,rdf-schema#subClassOf
+RedeemablePreferredShareWithExtendableMaturityDate,PreferredShareWithFixedMaturityDate,rdf-schema#subClassOf
+RedeemablePreferredShareWithExtendableRedemptionDate,redeemable preferred share with extendable redemption date,rdf-schema#label
+VotingRight,N1ded9fa1516b4813a56489ad1dba1065,rdf-schema#subClassOf
+SoftRetractablePreferredShare,owl#Class,22-rdf-syntax-ns#type
+isRedeemableAtIssuerOption,"indicates whether the issuer has the option of initiating the buy-back, similar to a call feature",core#definition
+hasAdjustableDividendRate,"indicates a variable dividend rate, typically specified in the prospectus as a formula based on a benchmark or set at auction",core#definition
+N23755addde5f4007a4ae27c23cd08262,owl#Restriction,22-rdf-syntax-ns#type
+ExchangeablePreferredShare,PreferredShare,rdf-schema#subClassOf
+Nadba6467500a42ac92d2017bde215eed,N6a9619c317134716b2cd52a161eda1bb,22-rdf-syntax-ns#rest
+Nd3b0243231494654aefe848500c85e44,XMLSchema#nonNegativeInteger,owl#onDataRange
+VariableInterestEntityShare,VIE share,synonym
+Ne754ede5a2bd4391bf034f584dbb4c98,0,owl#minQualifiedCardinality
+hasRecordDate,ExplicitDate,rdf-schema#range
+Ne754ede5a2bd4391bf034f584dbb4c98,owl#Restriction,22-rdf-syntax-ns#type
+FullyPaidShare,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+isRedeemableAtShareholderOption,"indicates whether the shareholder has the option of initiating the buy-back, similar to a put feature",core#definition
+hasDividendGracePeriod,has dividend grace period,rdf-schema#label
+N773efb6f37d04e958c6605eed68b3bec,Na54816881cb947f4bec06be33a04dc29,owl#unionOf
+FixedRateDividend,PreferredDividend,rdf-schema#subClassOf
+N4c824ce8ea44455fb2cc9cef4cdef9b8,hasFixedDividendRate,owl#onProperty
+PreferredShare,Ne2212bc81e5c4487bc839d651b536689,rdf-schema#subClassOf
+Na836609ab0694a73a8e0232f5f8d9c57,hasExtensionProvision,owl#onProperty
+PartiallyPaidShareStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+FixedRateDividend,N8e057f8f3dd44b96a51948081b912626,rdf-schema#subClassOf
+,"EquityInstruments.rdf version of the ontology was modified to add a link to the formula used to calculate an adjustable rate dividend and loosen some constraints to make the ontology more useful in cases where one could have information about a preferred share, such as having an adjustable rate dividend, but not necessarily having the details (SEC-138).",core#changeNote
+PartiallyPaidShare,share whose payment status indicates that only a portion of the market value has been received by the company for the shares,core#definition
+Nb868191658e345be8f4cbd0ae77dc6f1,0,owl#minQualifiedCardinality
+isRedeemableAtIssuerOption,is redeemable at issuer option,rdf-schema#label
+Nb868191658e345be8f4cbd0ae77dc6f1,owl#Restriction,22-rdf-syntax-ns#type
+Dividend,dividend,rdf-schema#label
+N670688351d094969af234a0c50898f64,MonetaryPrice,owl#onClass
+N407fd0b4752b4ae89f85dffe97920085,owl#Restriction,22-rdf-syntax-ns#type
+Share,share,rdf-schema#label
+hasFloatingShares,hasAmount,rdf-schema#subPropertyOf
+PrecedenceRight,precedence right,rdf-schema#label
+Nc77f78d79d3e466996fff35555bc0874,confersNumberOfVotesPerShare,owl#onProperty
+PreferredShareWithFixedRateDividend,owl#Class,22-rdf-syntax-ns#type
+hasSharePaymentStatus,owl#ObjectProperty,22-rdf-syntax-ns#type
+N9e3e333063994380b2889642974a9825,owl#Restriction,22-rdf-syntax-ns#type
+Nadba6467500a42ac92d2017bde215eed,OrdinaryDividend,22-rdf-syntax-ns#first
+ShareYield,owl#Class,22-rdf-syntax-ns#type
+N58e79c57fd6d4abba0cfc56b6efd1bee,0,owl#minQualifiedCardinality
+N8cab10e2ee144ef68e8a468e184455df,1,XMLSchema#maxExclusive
+N58e79c57fd6d4abba0cfc56b6efd1bee,owl#Restriction,22-rdf-syntax-ns#type
+RestrictedShare,Share,rdf-schema#subClassOf
+Nb84d629ee60a4f7e82ae47f7af471f7e,PercentageMonetaryAmount,owl#someValuesFrom
+PreferredShareWithAuctionRateDividend,N2d94bda39af843eb9025ef4bb8d7ff0b,rdf-schema#subClassOf
+Custodian,"The custodian may hold stocks or other assets in electronic or physical form for mutual funds, individuals, and organizational clients.",explanatoryNote
+Na9d903b3c17d4663a742c8dfa5d2c0dd,hasRedemptionProvision,owl#onProperty
+confersOwnershipOf,grants ownership via contract,core#definition
+N69f5880f45f9488eadd1d0a66dc8cf32,Shareholder,owl#onClass
+hasExDividendDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+RetractablePreferredShareWithExtendableRedemptionDate,retractable preferred share with extendable redemption date,rdf-schema#label
+hasMinimumRedemptionPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+N9ee2014844134aab91296b46b2e181b4,XMLSchema#decimal,owl#onDatatype
+RetractablePreferredShareWithExtendableMaturityDate,PreferredShareWithFixedMaturityDate,rdf-schema#subClassOf
+N8e057f8f3dd44b96a51948081b912626,hasFixedDividendRate,owl#onProperty
+N07d28aa8354b471db2e4bbf1f13e253f,XMLSchema#nonNegativeInteger,owl#someValuesFrom
+hasRecordDate,has date of record,synonym
+N2d94bda39af843eb9025ef4bb8d7ff0b,0,owl#minQualifiedCardinality
+PartiallyPaidShareStatus,partially paid share status,rdf-schema#label
+SoftRetractablePreferredShare,soft retractable preferred share,rdf-schema#label
+hasAvailableShares,XMLSchema#nonNegativeInteger,rdf-schema#range
+N36268f95ec76414da27480605743b2bd,owl#Restriction,22-rdf-syntax-ns#type
+CommonShare,common share,rdf-schema#label
+PreferredDividend,Dividend,rdf-schema#subClassOf
+N8a7364238d4041acbbd878461fcd446e,XMLSchema#string,owl#onDataRange
+RetractablePreferredShareWithExtendableRedemptionDate,RetractablePreferredShare,rdf-schema#subClassOf
+hasExDividendDate,has ex-date,synonym
+N23755addde5f4007a4ae27c23cd08262,1,owl#qualifiedCardinality
+isRedeemableAtIssuerOption,XMLSchema#boolean,rdf-schema#range
+PrecedenceRight,right that give the shareholder higher priority with respect to certain pre-defined dividend payments over other shareholders and that pay out first in the case of liquidation,core#definition
+VariableInterestEntityShare,Share,rdf-schema#subClassOf
+EnhancedVotingShare,Share,rdf-schema#subClassOf
+Na836609ab0694a73a8e0232f5f8d9c57,ExtensionProvision,owl#someValuesFrom
+PerpetualPreferredShare,N1b7ce1ed2f894dbcb4d945da650ff3c9,rdf-schema#subClassOf
+PrecedenceRight,ContractualRight,rdf-schema#subClassOf
+hasDividendDeclarationDate,has declaration date,rdf-schema#label
+SpecialDividend,Dividend,rdf-schema#subClassOf
+Nabf1c697218047c58860f6f00729157d,isPlayedBy,owl#onProperty
+N1313a2bbfb164b1398c6a3a29e6e358b,hasSharePaymentStatus,owl#onProperty
+VariableInterestEntityShare,N580a8f3123f14af886f97ca9b28e1f83,rdf-schema#subClassOf
+PerpetualPreferredShare,PreferredShare,rdf-schema#subClassOf
+hasFloatingShares,XMLSchema#nonNegativeInteger,rdf-schema#range
+isRedeemableAtIssuerOption,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasFixedDividendRate,PreferredDividend,rdf-schema#domain
+Nc27c945fa4e74b97afde242f8fab3513,owl#Restriction,22-rdf-syntax-ns#type
+HardRetractablePreferredShare,SoftRetractablePreferredShare,owl#disjointWith
+N0f110b05a74141adaa654693e0cae0b5,0,owl#minQualifiedCardinality
+PrecedenceRight,owl#Class,22-rdf-syntax-ns#type
+N36268f95ec76414da27480605743b2bd,hasExtendableMaturityDate,owl#onProperty
+Nd3dc1a327ecc4afa86178bacd899dba6,confersNumberOfVotesPerShare,owl#onProperty
+RetractablePreferredShare,owl#Class,22-rdf-syntax-ns#type
+DividendSchedule,RegularSchedule,rdf-schema#subClassOf
+Share,N5668275edf9d48e981ee2939d14312d4,rdf-schema#subClassOf
+NilPaidShareStatus,nil paid share status,rdf-schema#label
+N69f5880f45f9488eadd1d0a66dc8cf32,hasOwningParty,owl#onProperty
+PartiallyPaidShareStatus,"In the case of partially paid shares, the shareholder is still required to pay the remaining amount to the company. Typically, partially paid shares are only issued to a shareholder if there are compelling business reasons to do so.",explanatoryNote
+RedeemablePreferredShareWithExtendableMaturityDate,redeemable preferred share with a fixed maturity date whose issuer has the option to extend the maturity date,core#definition
+N5f48d1fdc49142e6adb5d6a930d5f259,isHeldBy,owl#onProperty
+confersNumberOfVotesPerShare,grants the right to vote on a per share basis to the shareholder,core#definition
+RetractablePreferredShareWithExtendableMaturityDate,N4bfee9c7a26a4131a629acd2c005fc5f,rdf-schema#subClassOf
+N2a2087fa9106420e91f87879738ea19d,owl#Restriction,22-rdf-syntax-ns#type
+N0f110b05a74141adaa654693e0cae0b5,hasDividend,owl#onProperty
+SingleVotingShare,owl#Class,22-rdf-syntax-ns#type
+N8f8b19da77274b1ba185ad88f51691b8,Nabf1c697218047c58860f6f00729157d,owl#someValuesFrom
+hasSharesIssued,hasAmount,rdf-schema#subPropertyOf
+N482ae95eb8fa4d74bc21d67c7862824c,0,owl#minQualifiedCardinality
+hasFixedDividendRate,"indicates a pre-arranged fixed dividend rate, typically specified in the prospectus, for a preferred share",core#definition
+ConvertibleCommonShare,CommonShare,rdf-schema#subClassOf
+ListedShare,Share,rdf-schema#subClassOf
+hasTreasuryShares,has treasury shares,rdf-schema#label
+PricePerShare,price per share,rdf-schema#label
+N23755addde5f4007a4ae27c23cd08262,ExplicitDate,owl#onClass
+N2d94bda39af843eb9025ef4bb8d7ff0b,owl#Restriction,22-rdf-syntax-ns#type
+Nbe9b2efa70b64997894358c268ef80ff,hasAdjustableDividendRate,owl#onProperty
+ListedShare,listedsecurity.asp,rdf-schema#seeAlso
+N2d94bda39af843eb9025ef4bb8d7ff0b,hasDividend,owl#onProperty
+SpecialDividend,dividend that is paid to shareholders on a one-time basis,core#definition
+ExchangeablePreferredShare,exchangeable preferred share,rdf-schema#label
+NonParticipatingPreferredShare,preferred share that is not a participating preferred share,core#definition
+N1313a2bbfb164b1398c6a3a29e6e358b,owl#Restriction,22-rdf-syntax-ns#type
+SingleVotingShare,share that has the right to exactly one vote,core#definition
+NilPaidShare,share whose payment status indicates that none of the market value has been received by the company for the shares,core#definition
+N85570bfbbea14f1fa1c5ba6f569d9345,0,owl#minQualifiedCardinality
+N85570bfbbea14f1fa1c5ba6f569d9345,owl#Restriction,22-rdf-syntax-ns#type
+Nb84d629ee60a4f7e82ae47f7af471f7e,hasAdjustableDividendRate,owl#onProperty
+ShareIssuer,"This includes shares that represent equity ownership in a corporation, or ownership in a mutual fund, or an interest in a general or limited partnership, or ownership in a structured product, such as a real estate investment trust.",explanatoryNote
+VariableInterestEntityShare,"Unlike a traditional stock certificate, the VIE share provides a legal proprietary interest in a completely separate company's assets, sometimes referred to as a shell company. The contractual right certified by the VIE share is derived from a contract between (1) the company named on the VIE share and (2) the shell company. In other words, VIE shareholders only have a traditional stock certificate in the completely separate shell company, which is entitled to a percentage of the named company's profits via a private contract.",explanatoryNote
+PrivatelyHeldShare,"or low trading volume, and fulfill their financing requirements in other ways, including through smaller offerings.",explanatoryNote
+N9e3e333063994380b2889642974a9825,confersOwnershipOf,owl#onProperty
+RestrictedVotingShare,Share,rdf-schema#subClassOf
+Custodian,financial institution that holds customers' securities for safekeeping,core#definition
+hasRecordDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+PerpetualPreferredShare,preferred share that has no fixed maturity date,core#definition
+hasDistributionMethod,Dividend,rdf-schema#domain
+hasExtendableMaturityDate,XMLSchema#boolean,rdf-schema#range
+,"Core terms are those fundamental to all equity instruments. This ontology also distinguishes between privately held and publicly traded equity instruments, and defines a number of related concepts, such as voting rights.",abstract
+NonVotingShare,owl#Class,22-rdf-syntax-ns#type
+N69f5880f45f9488eadd1d0a66dc8cf32,owl#Restriction,22-rdf-syntax-ns#type
+AuctionRateDividend,"preferred share dividend whose rate is periodically reset through an auction, typically every 7, 14, 28, or 35 days",core#definition
+N0f110b05a74141adaa654693e0cae0b5,owl#Restriction,22-rdf-syntax-ns#type
+Na54816881cb947f4bec06be33a04dc29,Nd986463417a649f2a3d52f69eb458439,22-rdf-syntax-ns#rest
+hasSharesIssued,XMLSchema#nonNegativeInteger,rdf-schema#range
+N0f110b05a74141adaa654693e0cae0b5,FixedRateDividend,owl#onClass
+hasExDividendDate,Shares listed on the New York Stock Exchange go ex-dividend four business days prior to the record date.,explanatoryNote
+Dividend,Nc7e277e5c6e742f88d3595ff817e8faf,rdf-schema#subClassOf
+Ne31a5fcea0b74adeb70cd8c11e43366d,owl#Restriction,22-rdf-syntax-ns#type
+NonCumulativePreferredShare,CumulativePreferredShare,owl#disjointWith
+PricePerShare,share price,synonym
+hasExtendableRedemptionDate,XMLSchema#boolean,rdf-schema#range
+isSeniorTo,owl#TransitiveProperty,22-rdf-syntax-ns#type
+N862e035168d8465788f56ac352525988,N6610d45203854b629de733a0013a66fa,owl#someValuesFrom
+Nc2c5ea40799c4494a124325015d3fed0,N4825c892977b4a4e9398fb8282dac145,22-rdf-syntax-ns#rest
+FullyPaidShare,N44b8e5b615744b2c8ccbe226431021c7,rdf-schema#subClassOf
+hasDividend,has dividend,rdf-schema#label
+QualifiedDividend,qualified dividend,rdf-schema#label
+Nd656d8e7d8c24975aab9bedabed0ac4c,owl#Restriction,22-rdf-syntax-ns#type
+hasEarliestRedemptionDate,indicates a date on or after which a stock can be redeemed,core#definition
+Nbac781f73672497aa13dadf5cbcb4bcf,hasDividendGracePeriod,owl#onProperty
+PartiallyPaidShare,N597cb9f653704f8f84921ccaac125860,rdf-schema#subClassOf
+EquityRedemptionProvisionWithExtendableRedemptionDate,owl#Class,22-rdf-syntax-ns#type
+Nc27c945fa4e74b97afde242f8fab3513,hasExtendableMaturityDate,owl#onProperty
+SpecialDividend,"Special dividends may be included in a dividend schedule as an ad-hoc entry, since they still need to be tracked based on the date of issuance.",usageNote
+SingleVotingShare,single voting share,rdf-schema#label
+hasExtendableRedemptionDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+CumulativePreferredShare,PreferredShare,rdf-schema#subClassOf
+hasFixedDividendRate,PercentageMonetaryAmount,rdf-schema#range
+hasExtendableRedemptionDate,EquityRedemptionProvision,rdf-schema#domain
+EquityPosition,N69f5880f45f9488eadd1d0a66dc8cf32,rdf-schema#subClassOf
+N482ae95eb8fa4d74bc21d67c7862824c,owl#Restriction,22-rdf-syntax-ns#type
+Naa538f17f552483dad06f3fdf6afcaf3,confersNumberOfVotesPerShare,owl#onProperty
+RestrictedShare,sale is subject to special conditions including country-specific restrictions,core#definition
+PreferredShare,Nc5ad4622dda44391915538561a3df0da,rdf-schema#subClassOf
+isRedeemableAtShareholderOption,is redeemable at shareholder option,rdf-schema#label
+hasRedemptionPremium,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nf623c0d4ebdf429d8a829f0062e90181,N93f9833f9c2143c28a94abe11d5870aa,owl#someValuesFrom
+Nc5ad4622dda44391915538561a3df0da,owl#Restriction,22-rdf-syntax-ns#type
+N407fd0b4752b4ae89f85dffe97920085,Security,owl#someValuesFrom
+FullyPaidShare,fully paid share,rdf-schema#label
+OrdinaryDividend,Note that the terms related to ordinary dividend payment are typically specified in the context of a board resolution rather than contractually.,explanatoryNote
+Nf91bacf96b634c19bcbf23bd5b240fd7,0,owl#minQualifiedCardinality
+SoftRetractablePreferredShare,RetractablePreferredShare,rdf-schema#subClassOf
+RedeemablePreferredShareWithExtendableRedemptionDate,RedeemablePreferredShare,rdf-schema#subClassOf
+AuctionRateDividend,auction rate dividend,rdf-schema#label
+hasDividendGracePeriod,Duration,rdf-schema#range
+RetractablePreferredShareWithExtendableMaturityDate,or holders have the option to extend the maturity date,core#definition
+N1ded9fa1516b4813a56489ad1dba1065,owl#Restriction,22-rdf-syntax-ns#type
+OrdinaryDividend,Na8b3c1b57f3d476cb86f4c3b6a3b564f,rdf-schema#subClassOf
+EquityRedemptionProvisionWithExtendableRedemptionDate,equity redemption provision with extendable redemption date,rdf-schema#label
+Custodian,ThirdPartyAgent,rdf-schema#subClassOf
+isRedeemableAtShareholderOption,XMLSchema#boolean,rdf-schema#range
+hasExDividendDate,ExplicitDate,rdf-schema#range
+Nd3b0243231494654aefe848500c85e44,hasSharesOutstanding,owl#onProperty
+,"EquityInstruments.rdf version of the ontology was modified to add a property for the number of available shares, required for MiFID reporting (SEC-97).",core#changeNote
+Nd3dc1a327ecc4afa86178bacd899dba6,Nfdc55654df5d46e09e9e683ea1264e53,owl#someValuesFrom
+NonParticipatingPreferredShare,ParticipatingPreferredShare,owl#disjointWith
+DividendDistributionMethod,Convention,rdf-schema#subClassOf
+EnhancedVotingShare,share that confers more than one vote per share,core#definition
+DividendDistributionMethod,"Distribution may be by payment of a monetary amount or by reinvestment, as specified by the board of directors at the time a decision to issue a dividend is made.",explanatoryNote
+ParticipatingPreferredShare,"preferred share that, in addition to paying a stipulated dividend, gives the holder the right to participate with common share holders in additional distributions of earnings under specified conditions",core#definition
+PreferredShareWithAuctionRateDividend,PreferredShare,rdf-schema#subClassOf
+isSeniorTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+VotingRight,owl#Class,22-rdf-syntax-ns#type
+SharePaymentStatus,classifier that specifies the overall payment status for shares issued,core#definition
+hasEarliestRedemptionDate,hasExplicitDate,rdf-schema#subPropertyOf
+Share,N85570bfbbea14f1fa1c5ba6f569d9345,rdf-schema#subClassOf
+N648a760b5c244646bddd101e2670a7fa,hasPaymentAmount,owl#onProperty
+,"EquityInstruments.rdf version of this ontology was revised to replace 'publicly-traded share' with 'exchange-specific share', which is the more commonly used designation and corresponds better with the intended semantics of this concept, to merge in concepts that were formerly in a separate ShareTerms ontology, and eliminate deprecated elements.",core#changeNote
+,"EquityInstruments.rdf version of this ontology was revised to deprecate the notion of a securities restriction specific to a limited partnership fund unit, which required import of unnecessary content and would not be used in practice.",core#changeNote
+Ne31a5fcea0b74adeb70cd8c11e43366d,VariableInterestEntity,owl#someValuesFrom
+N214e0ab065d84df6b6c9b336f2cb52db,ExplicitDate,owl#onClass
+RetractablePreferredShare,retractable preferred share,rdf-schema#label
+RestrictedShare,owl#Class,22-rdf-syntax-ns#type
+PreferredShareWithAdjustableRateDividend,PreferredShareWithFixedRateDividend,owl#disjointWith
+Nd656d8e7d8c24975aab9bedabed0ac4c,holds,owl#onProperty
+Share,EquityInstrument,rdf-schema#subClassOf
+RestrictedVotingShare,share that confers less than one vote per share,core#definition
+N7cd3f4cb6e0b4161b397b9267110717c,Nadba6467500a42ac92d2017bde215eed,owl#unionOf
+hasDistributionMethod,owl#ObjectProperty,22-rdf-syntax-ns#type
+,MIT,license
+DividendSchedule,payment schedule indicating the dates on which dividends are due to be paid,core#definition
+AdjustableRateDividend,dividend that varies with a benchmark,core#definition
+ParticipatingPreferredShare,participating preferred share,rdf-schema#label
+hasRecordDate,has record date,rdf-schema#label
+EquityRedemptionProvision,Neb7b113e9c7c42b6833813555b321cf3,rdf-schema#subClassOf
+EquityConversionTerms,owl#Class,22-rdf-syntax-ns#type
+hasShareClass,Share,rdf-schema#domain
+Ne2212bc81e5c4487bc839d651b536689,hasDividend,owl#onProperty
+Share,N6cb87985ea164709835bc75bf24dab93,rdf-schema#subClassOf
+NilPaidShareStatus,PartiallyPaidShareStatus,owl#differentFrom
+EquityRedemptionProvisionWithExtendableRedemptionDate,equity redemption provision that allows modification of the redemption date beyond the original specified date,core#definition
+NonVotingShare,share that has no voting right,core#definition
+NilPaidShare,Share,rdf-schema#subClassOf
+hasFixedDividendRate,has fixed dividend rate,rdf-schema#label
+Nf91bacf96b634c19bcbf23bd5b240fd7,owl#Restriction,22-rdf-syntax-ns#type
+PreferredShareWithAdjustableRateDividend,N3afdf877402148e392834714af3d0d90,rdf-schema#subClassOf
+PerpetualPreferredShare,PreferredShareWithFixedMaturityDate,owl#disjointWith
+PreferredDividend,N4c824ce8ea44455fb2cc9cef4cdef9b8,rdf-schema#subClassOf
+hasExDividendDate,has expected dividend date,synonym
+RetractablePreferredShareWithExtendableRedemptionDate,extendible preferred share,synonym
+hasSharesOutstanding,"indicates the number of shares currently held by shareholders, including those held by retail investors, institutional investors and insiders, and typically available for trading",core#definition
+hasSharesIssued,has shares issued,rdf-schema#label
+VariableInterestEntityShare,owl#Class,22-rdf-syntax-ns#type
+EquityRedemptionProvision,Nf91bacf96b634c19bcbf23bd5b240fd7,rdf-schema#subClassOf
+ExtendablePreferredShare,extendible preferred share,synonym
+N85570bfbbea14f1fa1c5ba6f569d9345,XMLSchema#string,owl#onDataRange
+FixedRateDividend,"In other words, the return is not variable depending on whether or not the company makes a profit. Annual dividends are calculated as a percentage of the par value, which is the price of the preferred stock at the time it was issued. Most preferred shares have fixed rate dividends.",explanatoryNote
+hasSharesIssued,"indicates the actual number of shares held by shareholders (i.e., shares outstanding) and treasury shares",core#definition
+,EquityInstruments.rdf version of this ontology was revised to address text formatting hygiene issues.,core#changeNote
+N1b7ce1ed2f894dbcb4d945da650ff3c9,owl#Restriction,22-rdf-syntax-ns#type
+confersOwnershipOf,confers ownership of,rdf-schema#label
+hasExDividendDate,"indicates a date on which a stock 'goes ex-dividend', typically about three weeks before the dividend is paid to shareholders of record",core#definition
+VotingRight,ContractualRight,rdf-schema#subClassOf
+N482ae95eb8fa4d74bc21d67c7862824c,ExplicitDate,owl#onClass
+Ne2212bc81e5c4487bc839d651b536689,N7cd3f4cb6e0b4161b397b9267110717c,owl#someValuesFrom
+N4825c892977b4a4e9398fb8282dac145,SecurityPrice,22-rdf-syntax-ns#first
+,"EquityInstruments.rdf version of this ontology was revised to reflect the move of hasMaturityDate from FinancialInstruments to Debt in FBC and eliminate named individuals for specifying voting rights, which caused issues for some tools.",core#changeNote
+EquityRedemptionProvision,N670688351d094969af234a0c50898f64,rdf-schema#subClassOf
+PreferredShareWithFixedMaturityDate,"preferred share whose maturity date is set, typically according to the terms of the prospectus",core#definition
+hasTreasuryShares,"indicates the number of shares issued but not outstanding, including those that were available in the market at one time but have been repurchased by the company",core#definition
+FixedRateDividend,owl#Class,22-rdf-syntax-ns#type
+ConvertibleCommonShare,owl#Class,22-rdf-syntax-ns#type
+EquityRedemptionProvision,N5d686bac075143649d9f3d85f1100e03,rdf-schema#subClassOf
+RedeemablePreferredShare,Na9d903b3c17d4663a742c8dfa5d2c0dd,rdf-schema#subClassOf
+DividendDistributionMethod,Strategy,rdf-schema#subClassOf
+hasFloatingShares,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N7e3c160d15dc43be9f91a4be1069e78c,XMLSchema#decimal,owl#onDataRange
+N16eebe5a61f74cd0ad6eaf478a2ca119,confersNumberOfVotesPerShare,owl#onProperty
+N1b7ce1ed2f894dbcb4d945da650ff3c9,hasMaturityDate,owl#onProperty
+hasRecordDate,ex-dividend-dates-when-are-you-entitled-stock-and,adaptedFrom
+N93f9833f9c2143c28a94abe11d5870aa,Share,owl#someValuesFrom
+PreferredShareWithAdjustableRateDividend,preferred share whose dividend rate varies according to some benchmark,core#definition
+confersNumberOfVotesPerShare,"A given share may have zero, fractional, one, or more votes per share, depending on the contract.",explanatoryNote
+PreferredShareWithFixedMaturityDate,preferred share with fixed maturity date,rdf-schema#label
+ShareIssuer,Issuer,rdf-schema#subClassOf
+Neb7b113e9c7c42b6833813555b321cf3,0,owl#minQualifiedCardinality
+RestrictedShare,UnrestrictedShare,owl#disjointWith
+Neb7b113e9c7c42b6833813555b321cf3,owl#Restriction,22-rdf-syntax-ns#type
+PreferredShare,preference share,synonym
+PrivatelyHeldShare,ListedShare,owl#disjointWith
+EquityConversionTerms,conversion terms specifying the details regarding conversion of shares into other securities,core#definition
+Ne2212bc81e5c4487bc839d651b536689,owl#Restriction,22-rdf-syntax-ns#type
+, restrictions that define how many shares have been issued from the issuer to the share.,core#changeNote
+Nf623c0d4ebdf429d8a829f0062e90181,hasOwnedAsset,owl#onProperty
+PricePerShare,Na562ffeca0bf482980600af4d24c8de8,rdf-schema#subClassOf
+N44b8e5b615744b2c8ccbe226431021c7,FullyPaidShareStatus,owl#hasValue
+N5d686bac075143649d9f3d85f1100e03,isRedeemableAtShareholderOption,owl#onProperty
+hasRedemptionPremium,hasPrice,rdf-schema#subPropertyOf
+Ne31a5fcea0b74adeb70cd8c11e43366d,isPlayedBy,owl#onProperty
+N4c824ce8ea44455fb2cc9cef4cdef9b8,1,owl#maxQualifiedCardinality
+N4bfee9c7a26a4131a629acd2c005fc5f,true,owl#hasValue
+N58e79c57fd6d4abba0cfc56b6efd1bee,hasQuantityKind,owl#onProperty
+hasDividend,Dividend,rdf-schema#range
+confersNumberOfVotesPerShare,hasAmount,rdf-schema#subPropertyOf
+PreferredDividend,Nbac781f73672497aa13dadf5cbcb4bcf,rdf-schema#subClassOf
+,"Copyright (c) 2018-2024 Object Management Group, Inc.",copyright
+PreferredShare,Share,rdf-schema#subClassOf
+hasShareClass,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Dividend,Commitment,rdf-schema#subClassOf
+ShareYield,Yield,rdf-schema#subClassOf
+Ne754ede5a2bd4391bf034f584dbb4c98,hasDividend,owl#onProperty
+PreferredShareWithFixedRateDividend,preferred share with fixed rate dividend,rdf-schema#label
+SharePaymentStatus,share payment status,rdf-schema#label
+UnrestrictedShare,NegotiableSecurity,rdf-schema#subClassOf
+Nc1f72d4810734e1abc3bf5d78f4fa386,hasSchedule,owl#onProperty
+VotingRight,voting right,rdf-schema#label
+ShareYield,N862e035168d8465788f56ac352525988,rdf-schema#subClassOf
+PricePerShare,SecurityPrice,rdf-schema#subClassOf
+Nbac781f73672497aa13dadf5cbcb4bcf,1,owl#maxQualifiedCardinality
+EnhancedVotingShare,owl#Class,22-rdf-syntax-ns#type
+PricePerShare,owl#Class,22-rdf-syntax-ns#type
+PreferredShareWithAdjustableRateDividend,owl#Class,22-rdf-syntax-ns#type
+hasMinimumRedemptionPrice,has minimum redemption price,rdf-schema#label
+DividendDistributionMethod,dividend distribution method,rdf-schema#label
+NonVotingShare,non-voting share,rdf-schema#label
+Nb868191658e345be8f4cbd0ae77dc6f1,hasDividend,owl#onProperty
+RetractablePreferredShare,N8bbbf4a2be874dcdb571d6260e4cafe7,rdf-schema#subClassOf
+hasFloatingShares,"A relatively small float results in higher volatility, as a large purchase or sell order will have significant influence on the value of the stock.",explanatoryNote
+Neca4b2776423453ead4aba5d5c66e1bb,specifiesConversionDate,owl#onProperty
+indicatesNumberOfShares,indicates number of shares,rdf-schema#label
+N4c824ce8ea44455fb2cc9cef4cdef9b8,PercentageMonetaryAmount,owl#onClass
+N1ded9fa1516b4813a56489ad1dba1065,isConferredBy,owl#onProperty
+Nd656d8e7d8c24975aab9bedabed0ac4c,Share,owl#someValuesFrom
+Na8b3c1b57f3d476cb86f4c3b6a3b564f,owl#Restriction,22-rdf-syntax-ns#type
+PrivatelyHeldShare,share in a security that signifies ownership in an entity that is not publicly traded,core#definition
+NonParticipatingPreferredShare,owl#Class,22-rdf-syntax-ns#type
+hasDividendGracePeriod,"indicates a period of time after a dividend payment becomes due, before the issuer is subject to penalties",core#definition
+hasMinimumRedemptionPrice,indicates the lowest market price above which a share may be redeemed,core#definition
+NilPaidShare,N1313a2bbfb164b1398c6a3a29e6e358b,rdf-schema#subClassOf
+hasSharesIssued,owl#DatatypeProperty,22-rdf-syntax-ns#type
+,,owl#imports
+CommonShare,share that signifies a unit of ownership in a corporation and represents a claim on part of the corporation's assets and earnings,core#definition
+Share,N07d28aa8354b471db2e4bbf1f13e253f,rdf-schema#subClassOf
+,"EquityInstruments.rdf version of this ontology was modified to clarify a restriction on perpetual preferred share, add extendible preferred share, and add the CFI definition for limited partnership unit.",core#changeNote
+N367934a427984df388a6a909ef187425,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Na8b3c1b57f3d476cb86f4c3b6a3b564f,MonetaryAmount,owl#onClass
+hasDividend,isClassifiedBy,rdf-schema#subPropertyOf
+N6cb87985ea164709835bc75bf24dab93,0,owl#minQualifiedCardinality
+N5f48d1fdc49142e6adb5d6a930d5f259,N773efb6f37d04e958c6605eed68b3bec,owl#onClass
+PreferredShareWithFixedRateDividend,"preferred share whose dividends are set, typically according to the terms of the prospectus",core#definition
+N1b7ce1ed2f894dbcb4d945da650ff3c9,ExplicitDate,owl#onClass
+Na562ffeca0bf482980600af4d24c8de8,owl#Restriction,22-rdf-syntax-ns#type
+SoftRetractablePreferredShare,"retractable preferred share whose retraction value may be paid in cash or in an equal value of common stock of the issuer, at the option of the issuer",core#definition
+NonParticipatingPreferredShare,non-participating preferred share,rdf-schema#label
+Custodian,Nd656d8e7d8c24975aab9bedabed0ac4c,rdf-schema#subClassOf
+ListedShare,"Listing requirements vary by exchange and include minimum stockholder's equity, a minimum share price and a minimum number of shareholders. Exchanges have listing requirements to ensure that only high quality securities are traded on them and to uphold the exchange's reputation among investors.",explanatoryNote
+VotingRight,"Voting may involve decisions on issuing securities, initiating stock splits, and making substantial changes in the corporation's operations. Note that a given share may not have voting rights, in which case the number of votes per share would be zero.",explanatoryNote
+N8e057f8f3dd44b96a51948081b912626,PercentageMonetaryAmount,owl#someValuesFrom
+N9e3e333063994380b2889642974a9825,ShareholdersEquity,owl#someValuesFrom
+EquityRedemptionProvision,N3148b62f65de40199c709622745886f9,rdf-schema#subClassOf
+AdjustableRateDividend,N58e79c57fd6d4abba0cfc56b6efd1bee,rdf-schema#subClassOf
+RedeemablePreferredShareWithExtendableRedemptionDate,owl#Class,22-rdf-syntax-ns#type
+N5d686bac075143649d9f3d85f1100e03,XMLSchema#boolean,owl#onDataRange
+confersOwnershipOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+ShareIssuer,owl#Class,22-rdf-syntax-ns#type
+,EquityInstruments.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380) and to clean up details related to regular schedules (FBC-317).,core#changeNote
+N597cb9f653704f8f84921ccaac125860,hasSharePaymentStatus,owl#onProperty
+,"EquityInstruments.rdf version of this ontology was revised to incorporate additional features required to map the CFI classification scheme to equity instruments, including features specific to preferred shares.",core#changeNote
+N4c824ce8ea44455fb2cc9cef4cdef9b8,owl#Restriction,22-rdf-syntax-ns#type
+Na8b3c1b57f3d476cb86f4c3b6a3b564f,1,owl#qualifiedCardinality
+Nfdc55654df5d46e09e9e683ea1264e53,rdf-schema#Datatype,22-rdf-syntax-ns#type
+ListedShare,ListedSecurity,rdf-schema#subClassOf
+RetractablePreferredShare,preferred share that gives the owner (shareholder) the right to redeem the stock under specified conditions,core#definition
+NilPaidShareStatus,owl#NamedIndividual,22-rdf-syntax-ns#type
+DistributionByReinvestment,"distribution method involving automatic reinvestment of shareholders' dividends in additional, potentially fractional, shares in the same asset",core#definition
+N44b8e5b615744b2c8ccbe226431021c7,owl#Restriction,22-rdf-syntax-ns#type
+ExtendablePreferredShare,PreferredShare,rdf-schema#subClassOf
+,"EquityInstruments.rdf version of this ontology was revised to clean up deprecated elements, most of which had been in the ontology for awhile.",core#changeNote
+PartiallyPaidShareStatus,status indicating that only a portion of the market value has been received by the company for the shares,core#definition
+hasDividendDeclarationDate,Share,rdf-schema#domain
+HardRetractablePreferredShare,retractable preferred share whose retraction value must be paid in cash,core#definition
+RedeemablePreferredShareWithExtendableMaturityDate,redeemable preferred share with extendable maturity date,rdf-schema#label
+CumulativePreferredShare,"preferred share whose dividends, if not paid on time, accumulate until paid out",core#definition
+N263761722645401c9ef65130a91e512b,0,owl#minQualifiedCardinality
+hasDividend,"relates a share to a dividend that applies to that share, or that the share may pay",core#definition
+Share,N9e3e333063994380b2889642974a9825,rdf-schema#subClassOf
+Neca4b2776423453ead4aba5d5c66e1bb,Date,owl#someValuesFrom
+N7e3c160d15dc43be9f91a4be1069e78c,owl#Restriction,22-rdf-syntax-ns#type
+Nbac781f73672497aa13dadf5cbcb4bcf,owl#Restriction,22-rdf-syntax-ns#type
+RedeemablePreferredShareWithExtendableRedemptionDate,N0ba513319ae14e9b9c82936e6f71c15c,rdf-schema#subClassOf
+N9d8dfb6c24ce425ebc3b58d56c2a149c,issues,owl#onProperty
+hasDividendDeclarationDate,hasExplicitDate,rdf-schema#subPropertyOf
+confersNumberOfVotesPerShare,XMLSchema#decimal,rdf-schema#range
+RetractablePreferredShareWithExtendableRedemptionDate,N1e37cbfedf1240e1bd1a2987be7820f5,rdf-schema#subClassOf
+N93f9833f9c2143c28a94abe11d5870aa,owl#Restriction,22-rdf-syntax-ns#type
+N0ba513319ae14e9b9c82936e6f71c15c,hasExtensionProvision,owl#onProperty
+FullyPaidShareStatus,fully paid share status,rdf-schema#label
+hasRedemptionPremium,"indicates the premium price per share over the market price, if any, that must be paid in order to redeem the stock",core#definition
+hasShareClass,XMLSchema#string,rdf-schema#range
+N3afdf877402148e392834714af3d0d90,0,owl#minQualifiedCardinality
+RetractablePreferredShareWithExtendableRedemptionDate,retractable preferred share whose redemption date can be modified,core#definition
+FixedRateDividend,dividend that provides a specified annual return on the nominal value (and any premium) paid on shares,core#definition
+Nc77f78d79d3e466996fff35555bc0874,XMLSchema#decimal,owl#someValuesFrom
+Na562ffeca0bf482980600af4d24c8de8,isPriceFor,owl#onProperty
+EquityPosition,N5f48d1fdc49142e6adb5d6a930d5f259,rdf-schema#subClassOf
+EnhancedVotingShare,Naaf05c00bf6348a09c00fc1a355d7549,rdf-schema#subClassOf
+Nc5ad4622dda44391915538561a3df0da,isSeniorTo,owl#onProperty
+PerpetualPreferredShare,perpetual preferred share,rdf-schema#label
+hasRecordDate,"Companies also use this date to determine who is sent proxy statements, financial reports, and other information.",explanatoryNote
+N6a9619c317134716b2cd52a161eda1bb,PreferredDividend,22-rdf-syntax-ns#first
+N1e37cbfedf1240e1bd1a2987be7820f5,EquityRedemptionProvisionWithExtendableRedemptionDate,owl#someValuesFrom
+PrivatelyHeldShare,Share,rdf-schema#subClassOf
+Custodian,custodian.asp,adaptedFrom
+N3afdf877402148e392834714af3d0d90,hasDividend,owl#onProperty
+PreferredShareWithFixedMaturityDate,PreferredShare,rdf-schema#subClassOf
+hasExDividendDate,hasExplicitDate,rdf-schema#subPropertyOf
+indicatesNumberOfShares,indicates the number of shares associated with the position,core#definition
+CommonShare,"In the event that the corporation is liquidated, claims of secured and unsecured creditors and owners of bonds and preferred shares take precedence over claims of common share holders.",explanatoryNote
+LimitedPartnershipUnit,N8f8b19da77274b1ba185ad88f51691b8,rdf-schema#subClassOf
+N8eb9a5330c014dd2aaa395d0060f88c7,classifies,owl#onProperty
+LimitedPartnershipUnit,"share in a form of partnership similar to a general partnership, except that in addition to one or more general partners (GPs), there are one or more limited partners (LPs)",core#definition
+OrdinaryDividend,ordinary dividend,rdf-schema#label
+hasEarliestRedemptionDate,EquityRedemptionProvision,rdf-schema#domain
+N7e3c160d15dc43be9f91a4be1069e78c,1,owl#qualifiedCardinality
+N0f0892b90f804da79027002412d078b8,hasTreasuryShares,owl#onProperty
+CommonShare,PreferredShare,owl#disjointWith
+AuctionRateDividend,Nb84d629ee60a4f7e82ae47f7af471f7e,rdf-schema#subClassOf
+Nfdc55654df5d46e09e9e683ea1264e53,Nf3869d63d397463f98530ff6afaaa093,owl#withRestrictions
+indicatesNumberOfShares,hasAmount,rdf-schema#subPropertyOf
+ExchangeablePreferredShare,owl#Class,22-rdf-syntax-ns#type
+RedeemablePreferredShare,owl#Class,22-rdf-syntax-ns#type
+AdjustableRateDividend,Nbe9b2efa70b64997894358c268ef80ff,rdf-schema#subClassOf
+N3148b62f65de40199c709622745886f9,XMLSchema#boolean,owl#onDataRange
+hasAdjustableDividendRate,PercentageMonetaryAmount,rdf-schema#range
+hasVotingRestriction,Share,rdf-schema#domain
+PricePerShare,price for one share of a given security at some point in time,core#definition
+UnrestrictedShare,Share,rdf-schema#subClassOf
+AuctionRateDividend,PreferredDividend,rdf-schema#subClassOf
+hasAvailableShares,"indicates the number of shares outstanding less those shares that are restricted, i.e., those that are available for trading",core#definition
+hasSharePaymentStatus,Share,rdf-schema#domain
+N263761722645401c9ef65130a91e512b,owl#Restriction,22-rdf-syntax-ns#type
+N862e035168d8465788f56ac352525988,hasArgument,owl#onProperty
+ShareIssuer,share issuer,rdf-schema#label
+Nb84d629ee60a4f7e82ae47f7af471f7e,owl#Restriction,22-rdf-syntax-ns#type
+hasDividend,owl#ObjectProperty,22-rdf-syntax-ns#type
+NonCumulativePreferredShare,non-cumulative preferred share,rdf-schema#label
+Dividend,"announced commitment to make a specific distribution of a portion of earnings to shareholders, prorated by class of security",core#definition
+Share,Nd3b0243231494654aefe848500c85e44,rdf-schema#subClassOf
+hasVotingRestriction,owl#DatatypeProperty,22-rdf-syntax-ns#type
+NilPaidShareStatus,FullyPaidShareStatus,owl#differentFrom
+Nc43fd84160b34e60a11e7a12cc014025,owl#Restriction,22-rdf-syntax-ns#type
+ShareYield,dividend yield,synonym
+Nc43fd84160b34e60a11e7a12cc014025,0,owl#minQualifiedCardinality
+hasFixedDividendRate,hasQuantityValue,rdf-schema#subPropertyOf
+PerpetualPreferredShare,owl#Class,22-rdf-syntax-ns#type
+Na836609ab0694a73a8e0232f5f8d9c57,owl#Restriction,22-rdf-syntax-ns#type
+N597cb9f653704f8f84921ccaac125860,owl#Restriction,22-rdf-syntax-ns#type
+N3afdf877402148e392834714af3d0d90,owl#Restriction,22-rdf-syntax-ns#type
+LimitedPartnershipUnit,limited partnership unit,rdf-schema#label
+EquityConversionTerms,ConversionTerms,rdf-schema#subClassOf
+PreferredShareWithFixedRateDividend,PreferredShare,rdf-schema#subClassOf
+RedeemablePreferredShare,preferred share that gives the issuer the right to redeem the stock under specified conditions,core#definition
+hasSharesOutstanding,hasAmount,rdf-schema#subPropertyOf
+indicatesNumberOfShares,XMLSchema#decimal,rdf-schema#range
+Share,"financial instrument that signifies a unit of equity ownership in a corporation, or a unit of ownership in a mutual fund, or interest in a general or limited partnership, or a unit of ownership in a structured product, such as a real estate investment trust",core#definition
+Share,Nc77f78d79d3e466996fff35555bc0874,rdf-schema#subClassOf
+Nc77f78d79d3e466996fff35555bc0874,owl#Restriction,22-rdf-syntax-ns#type
+PreferredShareWithAdjustableRateDividend,PreferredShare,rdf-schema#subClassOf
+Nd986463417a649f2a3d52f69eb458439,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nc7e277e5c6e742f88d3595ff817e8faf,DividendDistributionMethod,owl#onClass
+Share,owl#Class,22-rdf-syntax-ns#type
+Nfdc55654df5d46e09e9e683ea1264e53,XMLSchema#decimal,owl#onDatatype
+,EquityInstruments.rdf version of this ontology was revised to revise the definition of dividend to explicitly state that it reflects the announced commitment of a specific dividend rather than a more general policy.,core#changeNote
+ConvertiblePreferredShare,owl#Class,22-rdf-syntax-ns#type
+EquityPosition,Nf623c0d4ebdf429d8a829f0062e90181,rdf-schema#subClassOf
+UnrestrictedShare,sale is not subject to special conditions including country-specific restrictions,core#definition
+ParticipatingPreferredShare,owl#Class,22-rdf-syntax-ns#type
+PreferredShare,owl#Class,22-rdf-syntax-ns#type
+AdjustableRateDividend,"The value of the dividend from the preferred share is set by a predetermined formula to move with rates, and because of this flexibility preferred prices are often more stable then fixed-rate preferred stocks.",explanatoryNote
+NonParticipatingPreferredShare,PreferredShare,rdf-schema#subClassOf
+DividendSchedule,dividend schedule,rdf-schema#label
+N407fd0b4752b4ae89f85dffe97920085,specifiesConversionInto,owl#onProperty
+DistributionByReinvestment,DividendDistributionMethod,22-rdf-syntax-ns#type
+hasFixedDividendRate,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasDividendDeclarationDate,has announcement date,synonym
+NilPaidShareStatus,SharePaymentStatus,22-rdf-syntax-ns#type
+RedeemablePreferredShareWithExtendableMaturityDate,RedeemablePreferredShare,rdf-schema#subClassOf
+PreferredShare,preferred share,rdf-schema#label
+hasTreasuryShares,hasAmount,rdf-schema#subPropertyOf
+,EquityInstruments.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+ShareIssuer,N9d8dfb6c24ce425ebc3b58d56c2a149c,rdf-schema#subClassOf
+Nf3869d63d397463f98530ff6afaaa093,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+DistributionByCashPayment,DividendDistributionMethod,22-rdf-syntax-ns#type
+Naaf05c00bf6348a09c00fc1a355d7549,owl#Restriction,22-rdf-syntax-ns#type
+N36268f95ec76414da27480605743b2bd,true,owl#hasValue
+N580a8f3123f14af886f97ca9b28e1f83,Ne31a5fcea0b74adeb70cd8c11e43366d,owl#someValuesFrom

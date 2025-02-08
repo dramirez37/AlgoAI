@@ -1,0 +1,896 @@
+source_id,target_id,relationship
+N15b8fe01e0424817b2d5d85c29ca46d7,1,owl#qualifiedCardinality
+ContractLifecycleEvent,contract lifecycle event,rdf-schema#label
+ProductLifecycleStageOccurrence,Nfe7561273e82461bb7efa7111d3c01cf,rdf-schema#subClassOf
+N769b1e189ec946f68bce356dd37ed777,ProductLifecycle,owl#someValuesFrom
+TradeLifecycleEvent,trade lifecycle event,rdf-schema#label
+TerminatedTrade,owl#NamedIndividual,22-rdf-syntax-ns#type
+FinancialProduct,N43ca1be3e0dc4068a294eaea7ebcd24d,rdf-schema#subClassOf
+TradeLifecycleOccurrence,LifecycleOccurrence,rdf-schema#subClassOf
+, version of this ontology was modified to eliminate deprecated elements.,core#changeNote
+Basket,Nf5848b7b11a645f8bc0d319900d3b304,rdf-schema#subClassOf
+N43ca1be3e0dc4068a294eaea7ebcd24d,isProvidedBy,owl#onProperty
+isEmbodiedIn,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nc313f16b52a24036a3d721d1bfba6586,FinancialService,owl#someValuesFrom
+Nec10dc0589ff418b81fe76055cf25416,RegulatoryAgency,owl#allValuesFrom
+N15b8fe01e0424817b2d5d85c29ca46d7,ProductLifecycle,owl#onClass
+hasGeneratingEntity,specifies a legal entity that generates something,core#definition
+hasOfferingUnits,owl#DatatypeProperty,22-rdf-syntax-ns#type
+ClearedTrade,cleared trade,rdf-schema#label
+ContractLifecycleStageOccurrence,Ne420597e79f04165ae895ba8e149b74e,rdf-schema#subClassOf
+TradeIdentifier,owl#Class,22-rdf-syntax-ns#type
+Trader,ServiceProvider,rdf-schema#subClassOf
+Nc5ba09f58df64e86a3a85114094cfbb5,TradeLifecycleStage,owl#onClass
+N254569f578e1441982bbee8f90e64753,exemplifies,owl#onProperty
+N254569f578e1441982bbee8f90e64753,owl#Restriction,22-rdf-syntax-ns#type
+Nef9887dc90244c708fbfa19f953989fa,N2f0595c665704b7faf3e595a8a2c8915,owl#unionOf
+Nf9e203b48afd43b496ebd28dc198cdac,Seller,22-rdf-syntax-ns#first
+, version of this ontology was modified to fix spelling errors.,core#changeNote
+ProductLifecycleStageOccurrence,Ncf765a18452c461eba1c1f408ac20711,rdf-schema#subClassOf
+AgencyAgreement,"agreement that designates a party as a registered agent to represent and act on behalf of another party in some, typically legal, financial, or medical capacity",core#definition
+, version of this ontology was modified to replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+TradeLifecycleStage,phase in the lifecycle of a trade,core#definition
+N6efecc98cb624522a45f2bcbf541d234,N88e81d8b7594401bbf99c03a249f3e70,22-rdf-syntax-ns#rest
+Ne72d3774c9ec4e9a946011d28bfa31aa,ProductLifecycleEvent,owl#onClass
+ContractLifecycleEventOccurrence,LifecycleEventOccurrence,rdf-schema#subClassOf
+Offeror,owl#Class,22-rdf-syntax-ns#type
+WeightedBasketConstituent,owl#Class,22-rdf-syntax-ns#type
+TradeLifecycleStageOccurrence,owl#Class,22-rdf-syntax-ns#type
+N0e7b7a4637634e0db57ca7bd49eb59aa,appliesTo,owl#onProperty
+hasGeneratingEntityIdentifier,specifies an identifier for the entity that generated a unique transaction identifier,core#definition
+FinancialProductCatalog,owl#Class,22-rdf-syntax-ns#type
+N8fc1c8e9056042f0b23488381cad611b,owl#Restriction,22-rdf-syntax-ns#type
+N35a2ede9fd104fb1be9b7998c0fef15c,isIdentifiedBy,owl#onProperty
+Naa6a2f8659cb43cc866ddcad996d0b53,owl#Restriction,22-rdf-syntax-ns#type
+Trader,N4f709f194fc742db9c21fad3cf177f5b,rdf-schema#subClassOf
+N0326bd1b48ef49dcbfd89391e2609edf,owl#Restriction,22-rdf-syntax-ns#type
+N570cccab81524569bb4f08312af8a91a,ProductLifecycleEvent,owl#onClass
+Nd7c9e8da4e934872af27afcc8a794310,0,owl#minQualifiedCardinality
+isFacilitatedBy,hasActiveParty,rdf-schema#subPropertyOf
+N022f6b5a70864b2ca3be4f836458ec16,0,owl#minQualifiedCardinality
+N8c43a2c721ad459e81f2184b4360df23,TradeLifecycleStageOccurrence,owl#someValuesFrom
+Broker,"17 CFR 45.1, Definitions - see the definition of agent",adaptedFrom
+N022f6b5a70864b2ca3be4f836458ec16,owl#Restriction,22-rdf-syntax-ns#type
+TerminatedTrade,"cancel, knock-out, etc.",explanatoryNote
+TradeLifecycleStage,N360f17ea47ea40d4a23eec4ebf3ffe63,rdf-schema#subClassOf
+ThirdPartyAgent,any service provider that is licensed to perform a legally binding function and has been legally empowered to act on behalf of another party,core#definition
+Na0bad6e4fdbe4a97a48a0d74f1d94fa6,succeeds,owl#onProperty
+Nbf240250489c4facb40c6a7dac204209,LegalEntity,owl#someValuesFrom
+Nb84025c582bd40c4b2938b29defaa880,isDefinedIn,owl#onProperty
+Nc137f3a23b63444890a9311d84816b53,owl#Restriction,22-rdf-syntax-ns#type
+Position,owl#Class,22-rdf-syntax-ns#type
+UniqueTransactionIdentifier,unique transaction identifier,rdf-schema#label
+N1933a722ed164ca7a2e0cdb494bffab6,N6efecc98cb624522a45f2bcbf541d234,owl#unionOf
+ProductLifecycleEvent,N654287767a434bfbb0ae5e25a07ffde5,rdf-schema#subClassOf
+AgencyAgreement,Nc137f3a23b63444890a9311d84816b53,rdf-schema#subClassOf
+Ncd1b2ac30ae74a648ecd309ae2e84efc,hasStage,owl#onProperty
+hasOfferingAmount,has offering amount,rdf-schema#label
+Nc313f16b52a24036a3d721d1bfba6586,provides,owl#onProperty
+ContractLifecycleOccurrence,owl#Class,22-rdf-syntax-ns#type
+TradeLifecycleEventOccurrence,owl#Class,22-rdf-syntax-ns#type
+N7f3b1e63f4764c5284fb28f152606b80,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N778d8a9aa779499289649c6a2aeea1b3,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,,owl#versionIRI
+," version of this ontology was modified to add the notion of a weighted basket, whose consituents are weighted.",core#changeNote
+Offeror,N1d5a251adda8484fa29771c03b8fcb60,rdf-schema#subClassOf
+N223bb379e1aa45bd8badafc23978a128,isDefinedIn,owl#onProperty
+FinancialIntermediationService,any financial service in which a third party (the intermediary) matches lenders and investors with entrepreneurs and other borrowers in need of capital,core#definition
+Trader,N35822577dff24421909d2942b4a632c4,rdf-schema#subClassOf
+hasSettlementDate,CalculatedDate,rdf-schema#range
+hasGeneratingEntityIdentifier,owl#ObjectProperty,22-rdf-syntax-ns#type
+Offeror,offeror,rdf-schema#label
+Na7ca2f504b4e4c5dbba22945c40524c2,issues,owl#onProperty
+AgentForServiceOfProcess,"The person may be an officer of the corporation or a third party, such as the corporation's attorney, or a company providing such agency services.",explanatoryNote
+Nee574d667047438787b4968aad59926a,owl#Restriction,22-rdf-syntax-ns#type
+N0664876cbf6f4cb8bb4112b060b4c357,ProductLifecycleStageOccurrence,owl#someValuesFrom
+SettlementTerms,settlement terms,rdf-schema#label
+TradeLifecycleEvent,LifecycleEvent,rdf-schema#subClassOf
+Nece0f3fee57a40a19573f7988ba67ed3,N073be5c250684d83833e86746f99afe9,22-rdf-syntax-ns#rest
+ProductLifecycleEvent,Na47d2bef951f4637a13cf4d5a78787f9,rdf-schema#subClassOf
+TradeIdentifier,"Note that a given trade may consist of multiple transactions, and thus there may be multiple identifiers for such transactions associated with a specific trade.",core#note
+N115b1184f0d64de3b68b7d0c521f1dbd,isProvidedBy,owl#onProperty
+Position,"an investor's stake, i.e., a holding, in a particular asset (such as an individual security)",core#definition
+N30acf3d7541f45508d8b2aa5083da9fa,Offeror,owl#someValuesFrom
+Nb7868e2d45ca46878f1ff4b7b9100930,Offering,owl#someValuesFrom
+Nef4d697f4f8741c3be0bdb857dd57296,defines,owl#onProperty
+TradeLifecycleStage,LifecycleStage,rdf-schema#subClassOf
+N3fb71d2431784eb3996b63aac68c8115,isLifecycleOf,owl#onProperty
+Ne870103e25824e2daafc930610b558d7,succeeds,owl#onProperty
+WeightedBasket,weighted basket,rdf-schema#label
+Na47d2bef951f4637a13cf4d5a78787f9,ProductLifecycleStage,owl#someValuesFrom
+FinancialServiceProvider,"or businesses or established by law to provide financial services, such as a central bank",core#definition
+Broker,ContractThirdParty,rdf-schema#subClassOf
+N2918fdf2d69044038a76c1ab6cad1674,owl#Restriction,22-rdf-syntax-ns#type
+ProductLifecycleStage,product lifecycle stage,rdf-schema#label
+Ncc298d37dd744a86b86514b7630d1ae0,ContractualCapability,owl#someValuesFrom
+N7b50ca773acd4623b8eca3237267997b,ContractLifecycleStageOccurrence,owl#someValuesFrom
+N797d581eb95048248df6b69f8eb1c8e5,TradeLifecycleStage,owl#onClass
+Ncb81c4230520478199611dc1b27d68d0,defines,owl#onProperty
+BreachOfContract,ContractLifecycleEvent,rdf-schema#subClassOf
+RegulatedCommodity,"The CFTC polices matters of information and disclosure, fair trading practices, registration of firms and individuals, protection of customer funds, record keeping, and maintenance of orderly options and futures markets in the United States.",explanatoryNote
+TradeLifecycleEvent,Nd7c9e8da4e934872af27afcc8a794310,rdf-schema#subClassOf
+Nd67da342cc7b4bc8b2ee3bb2ef894227,comprises,owl#onProperty
+N0f0af55de01c494a9851ad956de3d6ab,TradeLifecycleStage,owl#someValuesFrom
+ProductLifecycleEvent,kind of event that occurs during one or more stages of a product lifecycle,core#definition
+ProductLifecycleOccurrence,product lifecycle occurrence,rdf-schema#label
+N2a0ccd4553de4890a19f131196d21ae8,owl#Restriction,22-rdf-syntax-ns#type
+N6b67c308f9244457932c6d5f4554e467,ContractLifecycleEvent,owl#someValuesFrom
+AgencyAgreement,agency agreement,rdf-schema#label
+Offeree,offeree,rdf-schema#label
+N4297a108336645bbadb73b6b256c5f29,AgencyAgreement,owl#someValuesFrom
+N7459e9374bda49a88d2049fc0fe69292,0,owl#minQualifiedCardinality
+LicensedAgent,"Insurance agents, realtors, financial advisors, certain attorneys, and brokers are examples of legal agents.",core#example
+Holding,"Note that a holding may refer to a single asset, such as a piece of real estate, a portfolio of assets, multiple portfolios, and so forth, and is frequently aggregated over multiple assets.",explanatoryNote
+UniqueTransactionIdentifier,TradeIdentifier,rdf-schema#subClassOf
+N4ef64439ac06453499bb1154f7638db1,succeeds,owl#onProperty
+N254569f578e1441982bbee8f90e64753,1,owl#qualifiedCardinality
+ContractLifecycleEventOccurrence,contract lifecycle event occurrence,rdf-schema#label
+Na6fc29e2f327411fa07e341841592a35,owl#Restriction,22-rdf-syntax-ns#type
+ContractLifecycleEvent,N0e7b7a4637634e0db57ca7bd49eb59aa,rdf-schema#subClassOf
+Nd67da342cc7b4bc8b2ee3bb2ef894227,TradeLifecycleEventOccurrence,owl#someValuesFrom
+Basket,"A basket may be associated with a specific market sector, and may be delineated for the purposes of statistical analysis, such as for calculating CPI. According to the US Bureau of Labor Statistics (BLS), with respect to the CPI, a market basket is a package of goods and services that consumers purchase for day-to-day living. The weight of each item is based on the amount of expenditure reported by a sample of households.",explanatoryNote
+hasOfferingAmount,MonetaryAmount,rdf-schema#range
+ClearedTrade,"Clearing validates the availability of funds, records the transfer, and in the case of securities ensures the delivery of the security to the buyer.",explanatoryNote
+isOfferingOf,relates an offering to one or things that are the subject of the offer,core#definition
+Nc137f3a23b63444890a9311d84816b53,RegisteredAgent,owl#someValuesFrom
+ContractLifecycleStage,phase in the lifecycle of an agreement,core#definition
+Nf739a81e44704b9b80457f2eafde6c26,Nf9e203b48afd43b496ebd28dc198cdac,22-rdf-syntax-ns#rest
+Nee574d667047438787b4968aad59926a,WeightedBasketConstituent,owl#someValuesFrom
+Nd6891277fd2d441dbdd620df429c45ed,exemplifies,owl#onProperty
+Offering,N30acf3d7541f45508d8b2aa5083da9fa,rdf-schema#subClassOf
+Naa6a2f8659cb43cc866ddcad996d0b53,isGovernedBy,owl#onProperty
+ProductLifecycleEvent,product lifecycle event,rdf-schema#label
+N1343ba18d61145ba83436a2d572aee8b,owl#Restriction,22-rdf-syntax-ns#type
+N654287767a434bfbb0ae5e25a07ffde5,ProductLifecycleEventOccurrence,owl#onClass
+N7134b0bb67f34f1091ab54daef1d684c,defines,owl#onProperty
+N7b08c5e073714c30aa95c90c18724e61,owl#Restriction,22-rdf-syntax-ns#type
+N1d4dfd009556430c894c6aa48a69adc5,owl#Restriction,22-rdf-syntax-ns#type
+N2e255858e6d24fac9ff96199d465804b,0,owl#minQualifiedCardinality
+ClosedTrade,owl#NamedIndividual,22-rdf-syntax-ns#type
+N654287767a434bfbb0ae5e25a07ffde5,classifies,owl#onProperty
+BrokerDealer,Nef9887dc90244c708fbfa19f953989fa,rdf-schema#subClassOf
+FinancialIntermediationService,financial intermediation service,rdf-schema#label
+N78102653d0d14a5bb65b1ecb3d5d65ae,Jurisdiction,owl#someValuesFrom
+UniqueTransactionIdentifier,owl#Class,22-rdf-syntax-ns#type
+N43ca1be3e0dc4068a294eaea7ebcd24d,owl#Restriction,22-rdf-syntax-ns#type
+Nc821a2bd8bdc4a5db0027aabe5bc2b62,N59a56ce76c6d41a3b56fca81d809210a,owl#someValuesFrom
+RegulatedCommodity,Nec10dc0589ff418b81fe76055cf25416,rdf-schema#subClassOf
+TradeLifecycleStageOccurrence,Nd67da342cc7b4bc8b2ee3bb2ef894227,rdf-schema#subClassOf
+Ne98c690ff844474f8ede6a7d3963bbb8,hasStage,owl#onProperty
+Catalog,catalog,rdf-schema#label
+N35822577dff24421909d2942b4a632c4,facilitates,owl#onProperty
+N36d1a862a73e4667938296f2487f13f1,0,owl#minQualifiedCardinality
+Trade,Nfa9a69a2449c425db428bf0281dacb84,rdf-schema#subClassOf
+ContractLifecycleStage,N36d1a862a73e4667938296f2487f13f1,rdf-schema#subClassOf
+N36d1a862a73e4667938296f2487f13f1,owl#Restriction,22-rdf-syntax-ns#type
+FinancialServiceProvider,owl#Class,22-rdf-syntax-ns#type
+Ndee7e3ffd9c84b19876ccd3b16c080f3,ContractLifecycleStageOccurrence,owl#someValuesFrom
+TradeIdentifier,N12eb99591b1c4d748244088dbfb22ce5,rdf-schema#subClassOf
+Trade,"The advent of money as a medium of exchange has allowed trade to be conducted in a manner that is much simpler and effective compared to earlier forms of trade, such as bartering. In financial markets, trading also can mean performing a transaction that involves the selling and purchasing of a security.",explanatoryNote
+Exposure,owl#Class,22-rdf-syntax-ns#type
+Ne420597e79f04165ae895ba8e149b74e,owl#Restriction,22-rdf-syntax-ns#type
+hasOfferingPrice,MonetaryPrice,rdf-schema#range
+, version of this ontology was modified as a part of organizational hierarchy simplification and to correct a logical inconsistency with respect to the representation of baskets.,core#changeNote
+isFacilitatedBy,owl#ObjectProperty,22-rdf-syntax-ns#type
+N7b50ca773acd4623b8eca3237267997b,owl#Restriction,22-rdf-syntax-ns#type
+hasOfferingUnits,has offering units,rdf-schema#label
+N7459e9374bda49a88d2049fc0fe69292,ProductLifecycle,owl#onClass
+N2a0ccd4553de4890a19f131196d21ae8,isLifecycleOf,owl#onProperty
+LicensedAgent,ResponsibleParty,rdf-schema#subClassOf
+Nf5848b7b11a645f8bc0d319900d3b304,hasSelectingParty,owl#onProperty
+Nbb22b8e798e549538a28cc5ed98973a9,owl#Restriction,22-rdf-syntax-ns#type
+WeightedBasket,basket whose constituents have some relative importance with respect to one another,core#definition
+Trade,owl#Class,22-rdf-syntax-ns#type
+N65755f7155c3491484f1277248a39319,Seller,owl#someValuesFrom
+N7b08c5e073714c30aa95c90c18724e61,0,owl#minQualifiedCardinality
+Ndee7e3ffd9c84b19876ccd3b16c080f3,owl#Restriction,22-rdf-syntax-ns#type
+N30b597bdffc441cc82c84849670e310b,Product,owl#someValuesFrom
+TradeLifecycle,Nef4d697f4f8741c3be0bdb857dd57296,rdf-schema#subClassOf
+hasSettlementDate,indicates the date by which an executed order or transaction must be settled,core#definition
+hasOfferingAmount,"indicates the notional monetary amount, determined based on reference data, market rates or some other agreed method associated with some offering",core#definition
+ClearedTrade,TradeLifecycleStage,22-rdf-syntax-ns#type
+Ne420597e79f04165ae895ba8e149b74e,isStageOf,owl#onProperty
+ThirdPartyAgent,LegalAgent,rdf-schema#subClassOf
+Nc5ba09f58df64e86a3a85114094cfbb5,succeeds,owl#onProperty
+N2638e95c147246fba2399303df3816d8,LegalEntity,owl#onClass
+Catalog,owl#Class,22-rdf-syntax-ns#type
+N8dd32ad7de6a4aefa03f951ba921f937,owl#Restriction,22-rdf-syntax-ns#type
+N574abca17e7348d58ed9b12d27906bd3,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+hasLegalAgent,owl#ObjectProperty,22-rdf-syntax-ns#type
+N10d7ee6e506f419bb2a3f9dce6853400,ProductLifecycleStage,owl#onClass
+Offering,"expression of interest in providing something to someone that is contingent upon acceptance, forbearance, or some other consideration, as might be desired by an offeree(s)",core#definition
+N30b597bdffc441cc82c84849670e310b,describes,owl#onProperty
+Na66d49146b6045fc9e20d63860164d4c,owl#Restriction,22-rdf-syntax-ns#type
+TradeLifecycleStage,N1f9e08560b40485e8699e09436ea21ab,rdf-schema#subClassOf
+BasketConstituent,basket constituent,rdf-schema#label
+Na7ca2f504b4e4c5dbba22945c40524c2,owl#Restriction,22-rdf-syntax-ns#type
+hasSelectingParty,hasParty,rdf-schema#subPropertyOf
+N2e255858e6d24fac9ff96199d465804b,owl#Restriction,22-rdf-syntax-ns#type
+N54f6079e4fdd45dc97dd542f5f120390,N7f3b1e63f4764c5284fb28f152606b80,22-rdf-syntax-ns#rest
+ContractLifecycle,"lifecycle of an agreement, including, but not limited to a credit agreement, financial instrument, or other formal contract, from initial stages through retirement",core#definition
+hasSettlementDate,Settlement might involve either a buyer paying in cash or a seller delivering the relevant instrument(s) and receiving the proceeds as specified by the terms of a given transaction.,explanatoryNote
+hasOfferingAmount,hasNotionalAmount,rdf-schema#subPropertyOf
+Offering,"An offering may or may not be considered a 'state of affairs' or situation, depending on the circumstances. In some cases such as a prospectus or other offering in the context of financial services, an offering may also be classified as a situation. Users may choose to model an individual offering as both an offering and situation, depending on the circumstances, in other words.",usageNote
+hasOfferingPrice,"indicates the price associated with an offering, which may be an explicit or calculated price",core#definition
+TerminatedTrade,TradeLifecycleStage,22-rdf-syntax-ns#type
+FinancialService,financial service,rdf-schema#label
+N342e13e3486548dc87a57af2329d8794,owl#Restriction,22-rdf-syntax-ns#type
+ContractLifecycleEventOccurrence,N254569f578e1441982bbee8f90e64753,rdf-schema#subClassOf
+LegalAgent,N1b464a72f76a44e7ab891a83d88130f5,rdf-schema#subClassOf
+N0f0af55de01c494a9851ad956de3d6ab,owl#Restriction,22-rdf-syntax-ns#type
+ContractLifecycle,N7134b0bb67f34f1091ab54daef1d684c,rdf-schema#subClassOf
+WeightedBasket,StructuredCollection,rdf-schema#subClassOf
+ProductLifecycleStage,Ne870103e25824e2daafc930610b558d7,rdf-schema#subClassOf
+hasNominalNumberOfUnits,has nominal number of units,rdf-schema#label
+hasSettlementDate,has settlement date,rdf-schema#label
+N6b67c308f9244457932c6d5f4554e467,isClassifiedBy,owl#onProperty
+N11033a83f33e4ff4bc4fa1a629405ad7,0,owl#minQualifiedCardinality
+UniqueTransactionIdentifier,"In particular, a UTI will help to ensure the consistent aggregation of OTC derivatives and other securities transactions by minimising the likelihood that the same transaction will be counted more than once (for instance, because it is reported by more than one counterparty to a transaction, or to more than one trade repository (TR)).",explanatoryNote
+N9828031511494b589ef98667ce13aa80,owl#Class,22-rdf-syntax-ns#type
+N654287767a434bfbb0ae5e25a07ffde5,0,owl#minQualifiedCardinality
+BrokerDealer,"Office of Financial Research (OFR) Annual Report, 2012, Glossary",adaptedFrom
+N2918fdf2d69044038a76c1ab6cad1674,Party,owl#someValuesFrom
+N58467c9bace34307999c6653ecd41275,hasSettlementDate,owl#onProperty
+Product,owl#Class,22-rdf-syntax-ns#type
+N35a2ede9fd104fb1be9b7998c0fef15c,owl#Restriction,22-rdf-syntax-ns#type
+N1d5a251adda8484fa29771c03b8fcb60,N1343ba18d61145ba83436a2d572aee8b,owl#someValuesFrom
+Na6fc29e2f327411fa07e341841592a35,1,owl#qualifiedCardinality
+AgencyAgreement,registeredagents.shtml,rdf-schema#seeAlso
+N8fc1c8e9056042f0b23488381cad611b,Asset,owl#someValuesFrom
+ContractLifecycleEvent,a call notification or coupon payment as a part of a bond lifecycle,core#example
+FinancialService,"service provided to consumers and businesses by financial institutions such as banks, insurance companies, brokerage firms, consumer finance companies, and investment companies",core#definition
+ProductLifecycle,Nc014a8d51989457ba88c864e9504d599,rdf-schema#subClassOf
+Holding,N8fc1c8e9056042f0b23488381cad611b,rdf-schema#subClassOf
+isEmbodiedIn,identifies the representation or tangible form of something in some context,core#definition
+N8dd32ad7de6a4aefa03f951ba921f937,1,owl#qualifiedCardinality
+N360f17ea47ea40d4a23eec4ebf3ffe63,TradeLifecycle,owl#someValuesFrom
+hasGeneratingEntity,LegalEntity,rdf-schema#range
+Basket,N227a18dfd7424c0fab47d63d6b22b69d,rdf-schema#subClassOf
+Nba9f8df0f7c24c62975ae1fcbabfbde1,classifies,owl#onProperty
+RegisteredAgent,"Agency capacity, as specified in an agency agreement, may include power of attorney, the ability to act as an agent in certain kinds of transactions such as real estate, tax, audit or other financial or legal transactions, as a fiduciary, including as a trustee or legal guardian, for service of process, and so forth.",explanatoryNote
+N2e255858e6d24fac9ff96199d465804b,Offeree,owl#onClass
+BreachOfContract,owl#Class,22-rdf-syntax-ns#type
+N0bad3568b18543869af7b543740cb8d0,owl#Restriction,22-rdf-syntax-ns#type
+Nbc134026ecbb458a81cdf42a5bdda748,Nf739a81e44704b9b80457f2eafde6c26,owl#unionOf
+facilitates,owl#ObjectProperty,22-rdf-syntax-ns#type
+FinancialProductCatalog,or services available for sale with their description and other product details,core#definition
+N10d7ee6e506f419bb2a3f9dce6853400,exemplifies,owl#onProperty
+Nc3d52573a6b7451bbbce375ec26ca500,XMLSchema#decimal,owl#onDataRange
+ContractLifecycleEventOccurrence,N6b67c308f9244457932c6d5f4554e467,rdf-schema#subClassOf
+RegulatedCommodity,owl#Class,22-rdf-syntax-ns#type
+ProductLifecycle,Lifecycle,rdf-schema#subClassOf
+N81dabea54e8b4e51a3b55ce95c13eaa0,hasCapacity,owl#onProperty
+RegisteredAgent,LegalAgent,rdf-schema#subClassOf
+Offering,offering,rdf-schema#label
+N81dabea54e8b4e51a3b55ce95c13eaa0,owl#Restriction,22-rdf-syntax-ns#type
+TradingStrategy,Strategy,rdf-schema#subClassOf
+TradeLifecycleEventOccurrence,LifecycleEventOccurrence,rdf-schema#subClassOf
+Nbcd4f4ccd2e84f9eabc3c1a5ad4f0fb2,owl#Restriction,22-rdf-syntax-ns#type
+LegalAgent,AgentRole,rdf-schema#subClassOf
+WeightedBasket,N7d1a847afab9427986ad76ff5242ef03,rdf-schema#subClassOf
+N7dac0f481aa643c6884d30c4055a79c7,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+ProductLifecycleStage,N87d558a5c11649688e59f32eedb1ba47,rdf-schema#subClassOf
+N9a8e72432f134ea9bf0df95da5e0da94,owl#Restriction,22-rdf-syntax-ns#type
+UniqueTransactionIdentifier,d158.pdf,adaptedFrom
+N35822577dff24421909d2942b4a632c4,owl#Restriction,22-rdf-syntax-ns#type
+ClosedTrade,"stage in the lifecycle of a trade indicating that the trade has been finalized, and that there is no longer a corresponding open position on the books of the trader, eliminating any exposure",core#definition
+TradeLifecycleStageOccurrence,trade lifecycle stage occurrence,rdf-schema#label
+Catalog,N35a2ede9fd104fb1be9b7998c0fef15c,rdf-schema#subClassOf
+FinancialServiceProvider,N2638e95c147246fba2399303df3816d8,rdf-schema#subClassOf
+FinancialIntermediationService,"Often investors and borrowers do not have precisely matching needs, and the intermediary's capital is put at risk to transform the credit risk and maturity of the liabilities to meet the needs of investors.",explanatoryNote
+WeightedBasket,owl#Class,22-rdf-syntax-ns#type
+Offering,N2e255858e6d24fac9ff96199d465804b,rdf-schema#subClassOf
+SettlementTerms,ContractualCommitment,rdf-schema#subClassOf
+N1b464a72f76a44e7ab891a83d88130f5,owl#Restriction,22-rdf-syntax-ns#type
+hasLegalAgent,hasPartyRole,rdf-schema#subPropertyOf
+ProductLifecycleEventOccurrence,product lifecycle event occurrence,rdf-schema#label
+TradeLifecycle,owl#Class,22-rdf-syntax-ns#type
+Na66d49146b6045fc9e20d63860164d4c,isConstituentOf,owl#onProperty
+Exposure,"Examples include financial exposure, credit exposure, legal exposure, credit rating exposure, reputational exposure, and so forth.",core#example
+FinancialService,N115b1184f0d64de3b68b7d0c521f1dbd,rdf-schema#subClassOf
+ProductLifecycleEventOccurrence,owl#Class,22-rdf-syntax-ns#type
+SettlementTerms,"In general, settlement involves arrangement of disposition of property, typically for legal reasons. With respect to financial transactions, it involves completion of a trade, either between brokers or agents, or between a broker and client. This may include settlement in cash, either for the entire transaction or for the cash leg of a transaction, either now or at some specified time in the future.",explanatoryNote
+N227a18dfd7424c0fab47d63d6b22b69d,0,owl#minQualifiedCardinality
+N227a18dfd7424c0fab47d63d6b22b69d,owl#Restriction,22-rdf-syntax-ns#type
+N11033a83f33e4ff4bc4fa1a629405ad7,owl#Restriction,22-rdf-syntax-ns#type
+Basket,N929d92edc3f1463088b65ba7345f7212,rdf-schema#subClassOf
+ProductLifecycle,Ncb81c4230520478199611dc1b27d68d0,rdf-schema#subClassOf
+N654287767a434bfbb0ae5e25a07ffde5,owl#Restriction,22-rdf-syntax-ns#type
+Broker,owl#Class,22-rdf-syntax-ns#type
+FinancialServiceProvider,financial service provider,rdf-schema#label
+Nad7e75c0c0614df2b2af1eccaa7c46af,isIssuedBy,owl#onProperty
+MaturedTrade,TradeLifecycleStage,22-rdf-syntax-ns#type
+Ne420597e79f04165ae895ba8e149b74e,ContractLifecycleOccurrence,owl#someValuesFrom
+Nb84025c582bd40c4b2938b29defaa880,TradeLifecycle,owl#someValuesFrom
+,"FinancialProductsAndServices.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+N1f9e08560b40485e8699e09436ea21ab,owl#Restriction,22-rdf-syntax-ns#type
+N8c43a2c721ad459e81f2184b4360df23,owl#Restriction,22-rdf-syntax-ns#type
+N35ac65ddc1374515aa305eaec20574bd,ProductLifecycle,owl#someValuesFrom
+Trade,Na0bad6e4fdbe4a97a48a0d74f1d94fa6,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+Ne5c3aa7fa2fb48dd932c7843d749cc7e,0,owl#minQualifiedCardinality
+Ne5c3aa7fa2fb48dd932c7843d749cc7e,owl#Restriction,22-rdf-syntax-ns#type
+precedes,relatesTo,rdf-schema#subPropertyOf
+Dealer,Nbc134026ecbb458a81cdf42a5bdda748,rdf-schema#subClassOf
+Nf5848b7b11a645f8bc0d319900d3b304,Party,owl#onClass
+ContractLifecycleStageOccurrence,N342e13e3486548dc87a57af2329d8794,rdf-schema#subClassOf
+TradeIdentifier,Identifier,rdf-schema#subClassOf
+N4297a108336645bbadb73b6b256c5f29,owl#Restriction,22-rdf-syntax-ns#type
+Nfa9a69a2449c425db428bf0281dacb84,Contract,owl#someValuesFrom
+N769b1e189ec946f68bce356dd37ed777,owl#Restriction,22-rdf-syntax-ns#type
+hasNominalNumberOfUnits,indicates the base number of units of something associated with some offering,core#definition
+facilitates,facilitates,rdf-schema#label
+RegisteredAgent,legal agent designated by some party to represent them and act on their behalf under a formal agency agreement,core#definition
+,"FinancialProductsAndServices.rdf version of the ontology was modified to add the concept of a contract lifecycle, as distinct from a product or trade lifecycle (FBC-317).",core#changeNote
+N3b69f8301fd54a528fbf101f18212ff8,owl#Restriction,22-rdf-syntax-ns#type
+ProductLifecycleStageOccurrence,owl#Class,22-rdf-syntax-ns#type
+TradeLifecycleStage,trade lifecycle stage,rdf-schema#label
+Trader,owl#Class,22-rdf-syntax-ns#type
+FinancialProduct,owl#Class,22-rdf-syntax-ns#type
+SettlementTerms,N58467c9bace34307999c6653ecd41275,rdf-schema#subClassOf
+OpenTrade,TradeLifecycleStage,22-rdf-syntax-ns#type
+Ne5c3aa7fa2fb48dd932c7843d749cc7e,isCharacterizedBy,owl#onProperty
+, version of this ontology was modified to revise the definition of a unique transaction identifier to align with ISO 23897 and to address text formatting issues.,core#changeNote
+," version of this ontology was modified to replace the property 'characterizes' with 'describes' with respect to restrictions on catalogs, and to correct the label on terminated trade.",core#changeNote
+AgentForServiceOfProcess,RegisteredAgent,rdf-schema#subClassOf
+N2638e95c147246fba2399303df3816d8,owl#Restriction,22-rdf-syntax-ns#type
+TradeLifecycleStage,owl#Class,22-rdf-syntax-ns#type
+LegalAgent,legal agent,rdf-schema#label
+AmendedTrade,"stage in the lifecycle of a trade indicating that a change or addition has been made to the terms of the trade, leaving the original terms largely intact",core#definition
+N929d92edc3f1463088b65ba7345f7212,owl#Restriction,22-rdf-syntax-ns#type
+ThirdPartyAgent,ServiceProvider,rdf-schema#subClassOf
+ContractLifecycleEvent,LifecycleEvent,rdf-schema#subClassOf
+Nece0f3fee57a40a19573f7988ba67ed3,Good,22-rdf-syntax-ns#first
+Offeree,owl#Class,22-rdf-syntax-ns#type
+Holding,Ownership,rdf-schema#subClassOf
+hasOffering,Offering,rdf-schema#range
+hasSelectionCriteria,hasTextValue,rdf-schema#subPropertyOf
+Nd7c9e8da4e934872af27afcc8a794310,owl#Restriction,22-rdf-syntax-ns#type
+Nd6891277fd2d441dbdd620df429c45ed,TradeLifecycleEvent,owl#onClass
+,FinancialProductsAndServices.rdf version of the ontology was modified to eliminate a redundant restriction (GitHub-2028).,core#changeNote
+Offering,Nad7e75c0c0614df2b2af1eccaa7c46af,rdf-schema#subClassOf
+OpenTrade,open trade,rdf-schema#label
+ContractLifecycleOccurrence,Ndee7e3ffd9c84b19876ccd3b16c080f3,rdf-schema#subClassOf
+N9a8e72432f134ea9bf0df95da5e0da94,isPlayedBy,owl#onProperty
+Nb7868e2d45ca46878f1ff4b7b9100930,isAPartyTo,owl#onProperty
+TradeLifecycleOccurrence,trade lifecycle occurrence,rdf-schema#label
+TradeLifecycle,trade lifecycle,rdf-schema#label
+N6a22963247cc47c597960d214bcb5f91,exemplifies,owl#onProperty
+Nbb22b8e798e549538a28cc5ed98973a9,ProductLifecycleStage,owl#someValuesFrom
+ThirdPartyAgent,owl#Class,22-rdf-syntax-ns#type
+RegisteredAgent,owl#Class,22-rdf-syntax-ns#type
+N342e13e3486548dc87a57af2329d8794,comprises,owl#onProperty
+RegulatedCommodity,"commodity under the jurisdiction of the regulatory agency, such as the Commodities Futures Trading Commission (CFTF) in the United States, which includes any commodity traded in an organized contracts market",core#definition
+TradeLifecycle,Lifecycle,rdf-schema#subClassOf
+TradeLifecycleOccurrence,owl#Class,22-rdf-syntax-ns#type
+Ncf765a18452c461eba1c1f408ac20711,ProductLifecycleOccurrence,owl#someValuesFrom
+Trade,trade,rdf-schema#label
+N53ee263a135c4135a24db931a8ca354c,appliesTo,owl#onProperty
+N47a83b5cf7a6449abc7b3e4817313c3a,ContractLifecycle,owl#someValuesFrom
+Nd6891277fd2d441dbdd620df429c45ed,owl#Restriction,22-rdf-syntax-ns#type
+N59a56ce76c6d41a3b56fca81d809210a,owl#Class,22-rdf-syntax-ns#type
+N2638e95c147246fba2399303df3816d8,1,owl#qualifiedCardinality
+ContractLifecycleStageOccurrence,owl#Class,22-rdf-syntax-ns#type
+Nfe7561273e82461bb7efa7111d3c01cf,owl#Restriction,22-rdf-syntax-ns#type
+hasSelectionCriteria,describes the methodology or program used to determine the membership of a collection,core#definition
+N0e7b7a4637634e0db57ca7bd49eb59aa,owl#Restriction,22-rdf-syntax-ns#type
+AmendedTrade,amended trade,rdf-schema#label
+N7d1a847afab9427986ad76ff5242ef03,owl#Restriction,22-rdf-syntax-ns#type
+Nffad698c0e5a4dfe92cc37b8e29d6d86,classifies,owl#onProperty
+TradingStrategy,"A trading strategy is a plan whose aim is to make a profit or hedge against risk, based on rules and other criteria used when making trading decisions. A trading strategy may be simple or complex, and involve considerations such as investment style (e.g., value vs. growth), market cap, technical indicators, fundamental analysis, industry sector, level of portfolio diversification, time horizon or holding period, risk tolerance, leverage, tax considerations, and so on.",explanatoryNote
+N7dac0f481aa643c6884d30c4055a79c7,Dealer,22-rdf-syntax-ns#first
+TradeIdentifier,trade identifier,rdf-schema#label
+N223bb379e1aa45bd8badafc23978a128,ContractLifecycle,owl#someValuesFrom
+hasNominalNumberOfUnits,hasAmount,rdf-schema#subPropertyOf
+ClosedTrade,closed trade,rdf-schema#label
+Nba9f8df0f7c24c62975ae1fcbabfbde1,owl#Restriction,22-rdf-syntax-ns#type
+TradeLifecycle,N2a0ccd4553de4890a19f131196d21ae8,rdf-schema#subClassOf
+N88e81d8b7594401bbf99c03a249f3e70,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,Release,hasMaturityLevel
+N797d581eb95048248df6b69f8eb1c8e5,exemplifies,owl#onProperty
+TradeLifecycleEvent,kind of event that occurs during one or more stages of the lifecycle of a trade,core#definition
+AmendedTrade,owl#NamedIndividual,22-rdf-syntax-ns#type
+N12eb99591b1c4d748244088dbfb22ce5,Trade,owl#someValuesFrom
+N11033a83f33e4ff4bc4fa1a629405ad7,TradeLifecycle,owl#onClass
+N360f17ea47ea40d4a23eec4ebf3ffe63,owl#Restriction,22-rdf-syntax-ns#type
+hasOfferingAmount,owl#ObjectProperty,22-rdf-syntax-ns#type
+ThirdPartyAgent,"17 CFR 45.1, Definitions - see the definition of agent",adaptedFrom
+hasLegalAgent,has registered agent,rdf-schema#label
+ProductLifecycleOccurrence,N0664876cbf6f4cb8bb4112b060b4c357,rdf-schema#subClassOf
+ContractLifecycle,Ne98c690ff844474f8ede6a7d3963bbb8,rdf-schema#subClassOf
+Dealer,A dealer is a counterparty or principal in the transaction with the customer.,explanatoryNote
+N769b1e189ec946f68bce356dd37ed777,isDefinedIn,owl#onProperty
+RegisteredAgent,ContractParty,rdf-schema#subClassOf
+N7b08c5e073714c30aa95c90c18724e61,succeeds,owl#onProperty
+Nc313f16b52a24036a3d721d1bfba6586,owl#Restriction,22-rdf-syntax-ns#type
+BrokerDealer,broker-dealer,rdf-schema#label
+Offeror,Na7ca2f504b4e4c5dbba22945c40524c2,rdf-schema#subClassOf
+N81dabea54e8b4e51a3b55ce95c13eaa0,DelegatedLegalAuthority,owl#someValuesFrom
+hasSelectingParty,has selecting party,rdf-schema#label
+N53ee263a135c4135a24db931a8ca354c,owl#Thing,owl#someValuesFrom
+Nd6891277fd2d441dbdd620df429c45ed,1,owl#qualifiedCardinality
+Broker,"any party that acts as an intermediary between a buyer and a seller, usually charging a commission",core#definition
+Na47d2bef951f4637a13cf4d5a78787f9,appliesTo,owl#onProperty
+N3b69f8301fd54a528fbf101f18212ff8,comprises,owl#onProperty
+Broker,"A broker that specializes in stocks, bonds, commodities, or certain derivatives must be registered with the exchange in which the securities are traded.",explanatoryNote
+isFacilitatedBy,is facilitated by,rdf-schema#label
+Naa6a2f8659cb43cc866ddcad996d0b53,Jurisdiction,owl#someValuesFrom
+MaturedTrade,matured trade,rdf-schema#label
+ProductLifecycleOccurrence,realization of the lifecycle of a specific product,core#definition
+Position,"A position can be long or short, and it can be in any asset class, such as stocks, bonds, futures, or options. A position can be open (current) or closed (past), but in general use, unless a position is specifically referred to as closed, the assumption is that it references an open position.",explanatoryNote
+ProductLifecycleStageOccurrence,N10d7ee6e506f419bb2a3f9dce6853400,rdf-schema#subClassOf
+Ne870103e25824e2daafc930610b558d7,ProductLifecycleStage,owl#onClass
+Offeror,PartyRole,rdf-schema#subClassOf
+Basket,"collection of goods, services, or other things (e.g., financial contracts) that can be purchased and sold in some marketplace",core#definition
+Ne870103e25824e2daafc930610b558d7,0,owl#minQualifiedCardinality
+Nef4d697f4f8741c3be0bdb857dd57296,TradeLifecycleStage,owl#someValuesFrom
+N0f6c703ee1104f36b6888e21e456a596,exemplifies,owl#onProperty
+Nc3d52573a6b7451bbbce375ec26ca500,owl#Restriction,22-rdf-syntax-ns#type
+N1b464a72f76a44e7ab891a83d88130f5,isPlayedBy,owl#onProperty
+AgencyAgreement,owl#Class,22-rdf-syntax-ns#type
+ContractLifecycleEventOccurrence,actual occurrence of an event during a specific stage of a specific contract lifecycle,core#definition
+ProductLifecycleStage,"research and development phase of a product lifecycle or the introduction phase in a marketing lifecycle, growth stage in an economic lifecycle for a product",core#example
+Basket,owl#Class,22-rdf-syntax-ns#type
+N8fc1c8e9056042f0b23488381cad611b,hasOwnedAsset,owl#onProperty
+ContractLifecycleOccurrence,contract lifecycle occurrence,rdf-schema#label
+Product,Ne5c3aa7fa2fb48dd932c7843d749cc7e,rdf-schema#subClassOf
+TradeLifecycle,Ncd1b2ac30ae74a648ecd309ae2e84efc,rdf-schema#subClassOf
+ProductLifecycle,lifecycle specific to a product or product family,core#definition
+Nee574d667047438787b4968aad59926a,hasConstituent,owl#onProperty
+N4f709f194fc742db9c21fad3cf177f5b,owl#Restriction,22-rdf-syntax-ns#type
+Dealer,dealer,rdf-schema#label
+ProductLifecycleEvent,Ne72d3774c9ec4e9a946011d28bfa31aa,rdf-schema#subClassOf
+Nc014a8d51989457ba88c864e9504d599,owl#Restriction,22-rdf-syntax-ns#type
+ContractLifecycleStage,N223bb379e1aa45bd8badafc23978a128,rdf-schema#subClassOf
+, version of this ontology was modified to reflect issue resolutions detailed in the FIBO FBC 1.0 FTF report.,core#changeNote
+,"FinancialProductsAndServices.rdf version of this ontology was revised to augment the representation of institutions based on their definitions in the law, and to clarify and extend definitions related to non-bank financial institutions.",core#changeNote
+N1d4dfd009556430c894c6aa48a69adc5,Trade,owl#someValuesFrom
+RegisteredAgent,registeredagents.shtml,rdf-schema#seeAlso
+N1343ba18d61145ba83436a2d572aee8b,Offering,owl#someValuesFrom
+Exposure,"the extent to which an individual or organization is unprotected and open to damage, danger, risk of suffering a loss, or uncertainty",core#definition
+," version of this ontology was modified to rename ownership related properties for consistent alignment with the ownership situational pattern, add a definition for trading strategy, and loosen the constraint on offeree for offering to be optional.",core#changeNote
+ContractLifecycleEventOccurrence,owl#Class,22-rdf-syntax-ns#type
+Trade,situation that realizes an agreement between parties participating in a voluntary action of buying and selling goods and services,core#definition
+N7f3b1e63f4764c5284fb28f152606b80,isIdentifiedBy,22-rdf-syntax-ns#first
+N0bad3568b18543869af7b543740cb8d0,FinancialProduct,owl#someValuesFrom
+ProductLifecycleStage,Nba9f8df0f7c24c62975ae1fcbabfbde1,rdf-schema#subClassOf
+FinancialProductCatalog,Catalog,rdf-schema#subClassOf
+Catalog,publication including a list of products available for sale with their descriptions and possibly prices,core#definition
+hasSelectionCriteria,Collection,rdf-schema#domain
+Nffad698c0e5a4dfe92cc37b8e29d6d86,0,owl#minQualifiedCardinality
+N4f709f194fc742db9c21fad3cf177f5b,Ncc298d37dd744a86b86514b7630d1ae0,owl#someValuesFrom
+Nc1f58b809ac14b1eab5cd68bc5525260,Trader,owl#onClass
+N0c7a40a8f50e4f19b8c5bdd9aef52d13,N9828031511494b589ef98667ce13aa80,owl#someValuesFrom
+Basket,Collection,rdf-schema#subClassOf
+FinancialIntermediationService,"Office of Financial Research (OFR) Annual Report, 2012, Glossary",definitionOrigin
+Nf5848b7b11a645f8bc0d319900d3b304,owl#Restriction,22-rdf-syntax-ns#type
+ProductLifecycleStage,N35ac65ddc1374515aa305eaec20574bd,rdf-schema#subClassOf
+RegisteredAgent,resident agent,synonym
+Nc3d52573a6b7451bbbce375ec26ca500,1,owl#qualifiedCardinality
+N360f17ea47ea40d4a23eec4ebf3ffe63,isStageOf,owl#onProperty
+ThirdPartyAgent,Licensee,rdf-schema#subClassOf
+N639115a1ee874cd6b4da421a86af7bac,N4297a108336645bbadb73b6b256c5f29,22-rdf-syntax-ns#first
+N2638e95c147246fba2399303df3816d8,isPlayedBy,owl#onProperty
+ContractLifecycleEvent,kind of event that occurs during one or more stages of the lifecycle of an agreement,core#definition
+Nef4d697f4f8741c3be0bdb857dd57296,owl#Restriction,22-rdf-syntax-ns#type
+N115b1184f0d64de3b68b7d0c521f1dbd,owl#Restriction,22-rdf-syntax-ns#type
+Nbf240250489c4facb40c6a7dac204209,hasGeneratingEntity,owl#onProperty
+TradeLifecycleStageOccurrence,LifecycleStageOccurrence,rdf-schema#subClassOf
+N342e13e3486548dc87a57af2329d8794,ContractLifecycleEventOccurrence,owl#someValuesFrom
+isOfferingOf,is offering of,rdf-schema#label
+facilitates,playsActivePartyIn,rdf-schema#subPropertyOf
+ProductLifecycleStage,N769b1e189ec946f68bce356dd37ed777,rdf-schema#subClassOf
+WeightedBasket,Basket,rdf-schema#subClassOf
+Nc821a2bd8bdc4a5db0027aabe5bc2b62,owl#Restriction,22-rdf-syntax-ns#type
+ProductLifecycleEventOccurrence,LifecycleEventOccurrence,rdf-schema#subClassOf
+ThirdPartyAgent,third-party agent,rdf-schema#label
+TradeLifecycleOccurrence,realization of the lifecycle for a specific trade,core#definition
+N3fb1f995de804676a376ee3eafba027b,appliesTo,owl#onProperty
+Nec10dc0589ff418b81fe76055cf25416,isRegulatedBy,owl#onProperty
+Ncb81c4230520478199611dc1b27d68d0,owl#Restriction,22-rdf-syntax-ns#type
+N10d7ee6e506f419bb2a3f9dce6853400,owl#Restriction,22-rdf-syntax-ns#type
+hasTradeDate,hasDate,rdf-schema#subPropertyOf
+Ne72d3774c9ec4e9a946011d28bfa31aa,owl#Restriction,22-rdf-syntax-ns#type
+N36d1a862a73e4667938296f2487f13f1,ContractLifecycleStage,owl#onClass
+hasGeneratingEntityIdentifier,UniqueTransactionIdentifier,rdf-schema#domain
+SettlementTerms,contract terms that define the commitment to and mechanism for settling one or more sides of a transaction,core#definition
+N36d1a862a73e4667938296f2487f13f1,succeeds,owl#onProperty
+TradeLifecycleStageOccurrence,N797d581eb95048248df6b69f8eb1c8e5,rdf-schema#subClassOf
+," version of this ontology was modified to add a property to describe the criteria for including something in a basket, if that criteria is known, and to point to a party that is responsible for determining that criteria.",core#changeNote
+TradeLifecycleEventOccurrence,trade lifecycle event occurrence,rdf-schema#label
+WeightedBasketConstituent,weighted basket constituent,rdf-schema#label
+Exposure,exposure,rdf-schema#label
+TradeLifecycleEvent,owl#Class,22-rdf-syntax-ns#type
+Nfa9a69a2449c425db428bf0281dacb84,isEmbodiedIn,owl#onProperty
+N1f9e08560b40485e8699e09436ea21ab,comprises,owl#onProperty
+N570cccab81524569bb4f08312af8a91a,owl#Restriction,22-rdf-syntax-ns#type
+N570cccab81524569bb4f08312af8a91a,exemplifies,owl#onProperty
+isOfferingOf,Offering,rdf-schema#domain
+LegalAgent,any party that has been legally empowered to act on behalf of another party,core#definition
+N6b67c308f9244457932c6d5f4554e467,owl#Restriction,22-rdf-syntax-ns#type
+UniqueTransactionIdentifier,UTI,abbreviation
+Nb7868e2d45ca46878f1ff4b7b9100930,owl#Restriction,22-rdf-syntax-ns#type
+N0326bd1b48ef49dcbfd89391e2609edf,classifies,owl#onProperty
+ContractLifecycle,owl#Class,22-rdf-syntax-ns#type
+ContractLifecycleOccurrence,N6a22963247cc47c597960d214bcb5f91,rdf-schema#subClassOf
+," version of this ontology was modified by the FIBO 2.0 RFC, including, but not limited to, the addition of lifecycle events, concepts related to trade settlement, and the definition of a unique transaction identifier (UTI).",core#changeNote
+," version of this ontology was modified to eliminate references to external dictionary sites that no longer resolve, eliminate circular and ambiguous definitions, and revise definitions that referenced 'face value' improperly.",core#changeNote
+,"This ontology defines concepts that extend the Foundations (FND) Products and Services concepts specifically for the financial industry, including financial product, financial service, and financial service provider.",abstract
+AgencyAgreement,MutualContractualAgreement,rdf-schema#subClassOf
+ContractLifecycleStage,N47a83b5cf7a6449abc7b3e4817313c3a,rdf-schema#subClassOf
+N0664876cbf6f4cb8bb4112b060b4c357,hasStage,owl#onProperty
+ContractLifecycleOccurrence,realization of the lifecycle of a specific contract,core#definition
+Nec10dc0589ff418b81fe76055cf25416,owl#Restriction,22-rdf-syntax-ns#type
+Trade,Nc1f58b809ac14b1eab5cd68bc5525260,rdf-schema#subClassOf
+Offering,"The making of an offer is the first of three steps in the traditional process of forming a valid contract: an offer, an acceptance of the offer, and an exchange of consideration. (Consideration is the act of doing something or promising to do something that a person is not legally required to do, or the forbearance or the promise to forbear from doing something that he or she has the legal right to do.)",explanatoryNote
+Nc5ba09f58df64e86a3a85114094cfbb5,0,owl#minQualifiedCardinality
+hasNominalNumberOfUnits,XMLSchema#integer,rdf-schema#range
+ContractLifecycle,N3fb71d2431784eb3996b63aac68c8115,rdf-schema#subClassOf
+AgentForServiceOfProcess,agent_for_service_of_process,rdf-schema#seeAlso
+N4f709f194fc742db9c21fad3cf177f5b,isPlayedBy,owl#onProperty
+N2f0595c665704b7faf3e595a8a2c8915,N7dac0f481aa643c6884d30c4055a79c7,22-rdf-syntax-ns#rest
+hasTradeDate,Date,rdf-schema#range
+RegulatedCommodity,Commodity,rdf-schema#subClassOf
+BrokerDealer,owl#Class,22-rdf-syntax-ns#type
+hasGeneratingEntityIdentifier,N54f6079e4fdd45dc97dd542f5f120390,owl#propertyChainAxiom
+FinancialService,Service,rdf-schema#subClassOf
+Ne72d3774c9ec4e9a946011d28bfa31aa,0,owl#minQualifiedCardinality
+ProductLifecycleEvent,LifecycleEvent,rdf-schema#subClassOf
+Nbcd4f4ccd2e84f9eabc3c1a5ad4f0fb2,ProductLifecycleStageOccurrence,owl#someValuesFrom
+UniqueTransactionIdentifier,sequence of characters identifying a financial transaction uniquely whenever useful and agreed by the parties or community involved in the transaction,core#definition
+Nbb22b8e798e549538a28cc5ed98973a9,hasStage,owl#onProperty
+Ncc298d37dd744a86b86514b7630d1ae0,owl#Restriction,22-rdf-syntax-ns#type
+Dealer,ServiceProvider,rdf-schema#subClassOf
+Nffad698c0e5a4dfe92cc37b8e29d6d86,ContractLifecycleEventOccurrence,owl#onClass
+Ndee7e3ffd9c84b19876ccd3b16c080f3,hasStage,owl#onProperty
+Nad7e75c0c0614df2b2af1eccaa7c46af,owl#Restriction,22-rdf-syntax-ns#type
+LicensedAgent,LegalAgent,rdf-schema#subClassOf
+MaturedTrade,"stage in the lifecycle of a trade indicating that the trade, and related instrument(s) has ended (expired)",core#definition
+N7d1a847afab9427986ad76ff5242ef03,WeightingFunction,owl#someValuesFrom
+N570cccab81524569bb4f08312af8a91a,1,owl#qualifiedCardinality
+relatesTo,relates to,rdf-schema#label
+TradeLifecycleEvent,N0f0af55de01c494a9851ad956de3d6ab,rdf-schema#subClassOf
+N1d4dfd009556430c894c6aa48a69adc5,classifies,owl#onProperty
+N15b8fe01e0424817b2d5d85c29ca46d7,exemplifies,owl#onProperty
+N227a18dfd7424c0fab47d63d6b22b69d,hasSelectionCriteria,owl#onProperty
+Ncd1b2ac30ae74a648ecd309ae2e84efc,TradeLifecycleStage,owl#someValuesFrom
+TradeLifecycle,"lifecycle that defines the evolution of a trade, from initiation through settlement",core#definition
+N929d92edc3f1463088b65ba7345f7212,BasketConstituent,owl#someValuesFrom
+Nc014a8d51989457ba88c864e9504d599,isLifecycleOf,owl#onProperty
+N65755f7155c3491484f1277248a39319,hasSeller,owl#onProperty
+TradeIdentifier,sequence of characters identifying a trade within some context,core#definition
+hasOffering,owl#ObjectProperty,22-rdf-syntax-ns#type
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+N30acf3d7541f45508d8b2aa5083da9fa,hasPartyRole,owl#onProperty
+hasGeneratingEntity,has generating entity,rdf-schema#label
+ProductLifecycleStageOccurrence,realization of a specific stage in the lifecycle of a given product,core#definition
+Position,Na6fc29e2f327411fa07e341841592a35,rdf-schema#subClassOf
+ProductLifecycle,Nbb22b8e798e549538a28cc5ed98973a9,rdf-schema#subClassOf
+Nb84025c582bd40c4b2938b29defaa880,owl#Restriction,22-rdf-syntax-ns#type
+N778d8a9aa779499289649c6a2aeea1b3,Contract,22-rdf-syntax-ns#first
+N8218370413284d7ca395f215661b3e3b,0,owl#minQualifiedCardinality
+FinancialExposure,"the extent to which an individual or organization is open to risk of suffering a loss in a transaction, or with respect to some investment or set of investments, e.g., some holding; the amount one stands to lose in that transaction or investment",core#definition
+Offeror,"party that proposes to make something available to someone (i.e., an offeree) based on the terms of the offering",core#definition
+SettlementTerms,owl#Class,22-rdf-syntax-ns#type
+N3fb71d2431784eb3996b63aac68c8115,Contract,owl#someValuesFrom
+hasSettlementDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+N0c7a40a8f50e4f19b8c5bdd9aef52d13,owl#Restriction,22-rdf-syntax-ns#type
+N88e81d8b7594401bbf99c03a249f3e70,ThirdPartyAgent,22-rdf-syntax-ns#first
+ProductLifecycle,"The product life cycle describes the period of time over which an item is developed, brought to market and eventually removed from the market. The cycle is broken into four stages: introduction, growth, maturity and decline. The idea of the product life cycle is used in marketing to decide when it is appropriate to advertise, reduce prices, explore new markets or create new packaging.",core#example
+Nc1f58b809ac14b1eab5cd68bc5525260,owl#Restriction,22-rdf-syntax-ns#type
+ProductLifecycleOccurrence,LifecycleOccurrence,rdf-schema#subClassOf
+N3fb1f995de804676a376ee3eafba027b,TradeLifecycleStageOccurrence,owl#someValuesFrom
+ContractLifecycle,contract lifecycle,rdf-schema#label
+Nfe7561273e82461bb7efa7111d3c01cf,comprises,owl#onProperty
+ProductLifecycleStage,LifecycleStage,rdf-schema#subClassOf
+N022f6b5a70864b2ca3be4f836458ec16,TradeLifecycleEventOccurrence,owl#onClass
+Catalog,N30b597bdffc441cc82c84849670e310b,rdf-schema#subClassOf
+N6a22963247cc47c597960d214bcb5f91,owl#Restriction,22-rdf-syntax-ns#type
+Nc5ba09f58df64e86a3a85114094cfbb5,owl#Restriction,22-rdf-syntax-ns#type
+ClearedTrade,owl#NamedIndividual,22-rdf-syntax-ns#type
+FinancialProductCatalog,Nordea Bank,adaptedFrom
+N1343ba18d61145ba83436a2d572aee8b,isAPartyTo,owl#onProperty
+FinancialProduct,financial product,rdf-schema#label
+N10d7ee6e506f419bb2a3f9dce6853400,1,owl#qualifiedCardinality
+Offeree,"party that receives an offer from something from someone (i.e., an offerer) based on the terms of the offering",core#definition
+N11033a83f33e4ff4bc4fa1a629405ad7,isCharacterizedBy,owl#onProperty
+ProductLifecycleStageOccurrence,product lifecycle stage occurrence,rdf-schema#label
+Nd7c9e8da4e934872af27afcc8a794310,TradeLifecycleEventOccurrence,owl#onClass
+hasLegalAgent,LegalAgent,rdf-schema#range
+Basket,basket,rdf-schema#label
+Ncf765a18452c461eba1c1f408ac20711,isStageOf,owl#onProperty
+N639115a1ee874cd6b4da421a86af7bac,N574abca17e7348d58ed9b12d27906bd3,22-rdf-syntax-ns#rest
+Ncd1b2ac30ae74a648ecd309ae2e84efc,owl#Restriction,22-rdf-syntax-ns#type
+Offering,owl#Class,22-rdf-syntax-ns#type
+Nc137f3a23b63444890a9311d84816b53,hasContractParty,owl#onProperty
+Ncc298d37dd744a86b86514b7630d1ae0,hasCapacity,owl#onProperty
+N78102653d0d14a5bb65b1ecb3d5d65ae,isRecognizedIn,owl#onProperty
+TerminatedTrade,terminated trade,rdf-schema#label
+UniqueTransactionIdentifier,Nbf240250489c4facb40c6a7dac204209,rdf-schema#subClassOf
+hasOfferingUnits,hasAmount,rdf-schema#subPropertyOf
+N2f0595c665704b7faf3e595a8a2c8915,Broker,22-rdf-syntax-ns#first
+Broker,N1933a722ed164ca7a2e0cdb494bffab6,rdf-schema#subClassOf
+AgentForServiceOfProcess,"registered agent (person or organization) designated by a business entity, such as a corporation, to receive legal correspondence on behalf of the business entity in the jurisdiction in which the agent's address is located",core#definition
+hasTradeDate,has trade date,rdf-schema#label
+isOfferingOf,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nfa9a69a2449c425db428bf0281dacb84,owl#Restriction,22-rdf-syntax-ns#type
+AmendedTrade,TradeLifecycleStage,22-rdf-syntax-ns#type
+TerminatedTrade,"stage in the trade lifecycle in which the trade has been terminated early, i.e., prior to maturity",core#definition
+RegisteredAgent,registered agent,rdf-schema#label
+N35ac65ddc1374515aa305eaec20574bd,owl#Restriction,22-rdf-syntax-ns#type
+hasGeneratingEntity,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nc35c65c615584086811ee29619e434e7,hasBuyer,owl#onProperty
+WeightedBasketConstituent,component of a basket whose relative importance with respect to other basket constituents is known,core#definition
+N929d92edc3f1463088b65ba7345f7212,hasConstituent,owl#onProperty
+,MIT,license
+hasNominalNumberOfUnits,owl#DatatypeProperty,22-rdf-syntax-ns#type
+AgentForServiceOfProcess,owl#Class,22-rdf-syntax-ns#type
+ProductLifecycleOccurrence,N15b8fe01e0424817b2d5d85c29ca46d7,rdf-schema#subClassOf
+, version of this ontology was modified to eliminate duplication with concepts in LCC and eliminated a redundant superclass on FinancialServiceProvider.,core#changeNote
+hasSelectingParty,owl#ObjectProperty,22-rdf-syntax-ns#type
+N30b597bdffc441cc82c84849670e310b,owl#Restriction,22-rdf-syntax-ns#type
+TradeLifecycleStageOccurrence,realization of a phase in the lifecycle of a specific trade,core#definition
+Ne5c3aa7fa2fb48dd932c7843d749cc7e,Catalog,owl#onClass
+WeightedBasket,Nee574d667047438787b4968aad59926a,rdf-schema#subClassOf
+Na6fc29e2f327411fa07e341841592a35,hasOwnedAsset,owl#onProperty
+N8218370413284d7ca395f215661b3e3b,owl#Restriction,22-rdf-syntax-ns#type
+hasOffering,"relates something to a voluntary but conditional promise submitted by a buyer or seller (offeror) to another (offeree) for acceptance, and which becomes legally enforceable if accepted by the offeree",core#definition
+ProductLifecycleEventOccurrence,Nbcd4f4ccd2e84f9eabc3c1a5ad4f0fb2,rdf-schema#subClassOf
+ContractLifecycleEvent,N7b08c5e073714c30aa95c90c18724e61,rdf-schema#subClassOf
+N47a83b5cf7a6449abc7b3e4817313c3a,owl#Restriction,22-rdf-syntax-ns#type
+Nc35c65c615584086811ee29619e434e7,owl#Restriction,22-rdf-syntax-ns#type
+Ne98c690ff844474f8ede6a7d3963bbb8,owl#Restriction,22-rdf-syntax-ns#type
+Trade,Nc35c65c615584086811ee29619e434e7,rdf-schema#subClassOf
+N073be5c250684d83833e86746f99afe9,Service,22-rdf-syntax-ns#first
+N35ac65ddc1374515aa305eaec20574bd,isStageOf,owl#onProperty
+N70d45fd2256e4cdaa6d94843502ad223,owl#Restriction,22-rdf-syntax-ns#type
+Trade,N11033a83f33e4ff4bc4fa1a629405ad7,rdf-schema#subClassOf
+Trader,party that engages in the transfer of financial assets in any financial market on behalf of a client or the financial services provider,core#definition
+N8218370413284d7ca395f215661b3e3b,TradeLifecycleStageOccurrence,owl#onClass
+ClosedTrade,TradeLifecycleStage,22-rdf-syntax-ns#type
+N223bb379e1aa45bd8badafc23978a128,owl#Restriction,22-rdf-syntax-ns#type
+N2a0ccd4553de4890a19f131196d21ae8,Trade,owl#someValuesFrom
+TradeLifecycleEventOccurrence,Nd6891277fd2d441dbdd620df429c45ed,rdf-schema#subClassOf
+N5de7c8cdb93a4b27903853e3aa9269cc,isIdentifiedBy,owl#onProperty
+AgentForServiceOfProcess,registeredagents.shtml,rdf-schema#seeAlso
+MaturedTrade,owl#NamedIndividual,22-rdf-syntax-ns#type
+FinancialServiceProvider,FunctionalBusinessEntity,rdf-schema#subClassOf
+N59a56ce76c6d41a3b56fca81d809210a,Nece0f3fee57a40a19573f7988ba67ed3,owl#unionOf
+Nc3d52573a6b7451bbbce375ec26ca500,hasWeight,owl#onProperty
+hasLegalAgent,"identifies a party as one that has the legal, medical or financial capacity to act on behalf of someone else under specific circumstances",core#definition
+hasSelectingParty,indicates the person(s) or organization(s) responsible for determining the contents of a basket,core#definition
+N65755f7155c3491484f1277248a39319,owl#Restriction,22-rdf-syntax-ns#type
+Ne98c690ff844474f8ede6a7d3963bbb8,ContractLifecycleStage,owl#someValuesFrom
+N2918fdf2d69044038a76c1ab6cad1674,appliesTo,owl#onProperty
+ContractLifecycleOccurrence,LifecycleOccurrence,rdf-schema#subClassOf
+ProductLifecycleOccurrence,owl#Class,22-rdf-syntax-ns#type
+N47a83b5cf7a6449abc7b3e4817313c3a,isStageOf,owl#onProperty
+Nc35c65c615584086811ee29619e434e7,Buyer,owl#someValuesFrom
+Nef9887dc90244c708fbfa19f953989fa,owl#Class,22-rdf-syntax-ns#type
+OpenTrade,owl#NamedIndividual,22-rdf-syntax-ns#type
+N0c7a40a8f50e4f19b8c5bdd9aef52d13,isPlayedBy,owl#onProperty
+BreachOfCovenant,ContractLifecycleEvent,rdf-schema#subClassOf
+N70d45fd2256e4cdaa6d94843502ad223,TradeLifecycleOccurrence,owl#someValuesFrom
+Ncb81c4230520478199611dc1b27d68d0,ProductLifecycleStage,owl#someValuesFrom
+TradingStrategy,owl#Class,22-rdf-syntax-ns#type
+LicensedAgent,owl#Class,22-rdf-syntax-ns#type
+N0bad3568b18543869af7b543740cb8d0,describes,owl#onProperty
+N022f6b5a70864b2ca3be4f836458ec16,succeeds,owl#onProperty
+LicensedAgent,licensed agent,rdf-schema#label
+Na0bad6e4fdbe4a97a48a0d74f1d94fa6,0,owl#minQualifiedCardinality
+FinancialExposure,Expression,rdf-schema#subClassOf
+FinancialProductCatalog,financial product catalog,rdf-schema#label
+Nc1f58b809ac14b1eab5cd68bc5525260,isFacilitatedBy,owl#onProperty
+Position,Holding,rdf-schema#subClassOf
+Exposure,N2918fdf2d69044038a76c1ab6cad1674,rdf-schema#subClassOf
+N797d581eb95048248df6b69f8eb1c8e5,owl#Restriction,22-rdf-syntax-ns#type
+N7b50ca773acd4623b8eca3237267997b,appliesTo,owl#onProperty
+N9828031511494b589ef98667ce13aa80,N639115a1ee874cd6b4da421a86af7bac,owl#intersectionOf
+TradeLifecycleStage,N1d4dfd009556430c894c6aa48a69adc5,rdf-schema#subClassOf
+Position,position,rdf-schema#label
+N0e7b7a4637634e0db57ca7bd49eb59aa,ContractLifecycleStage,owl#someValuesFrom
+Catalog,Publication,rdf-schema#subClassOf
+FinancialExposure,"Examples in banking include the total amount of unsecured loans, the amount of loans advanced to a single borrower, group, industry, or country, and the probability of loss from devaluation, revaluation, or foreign exchange fluctuations.",core#example
+ContractLifecycleStage,LifecycleStage,rdf-schema#subClassOf
+RegisteredAgent,N0c7a40a8f50e4f19b8c5bdd9aef52d13,rdf-schema#subClassOf
+Na0bad6e4fdbe4a97a48a0d74f1d94fa6,owl#Restriction,22-rdf-syntax-ns#type
+ProductLifecycle,product lifecycle,rdf-schema#label
+Offering,N53ee263a135c4135a24db931a8ca354c,rdf-schema#subClassOf
+ContractLifecycleStage,contract lifecycle stage,rdf-schema#label
+N4ef64439ac06453499bb1154f7638db1,0,owl#minQualifiedCardinality
+LicensedAgent,"any individual who is licensed to perform a legally binding function, and who has been legally empowered to act on behalf of another party",core#definition
+Broker,broker,rdf-schema#label
+isEmbodiedIn,embodies,owl#inverseOf
+hasSelectionCriteria,has selection criteria,rdf-schema#label
+N12eb99591b1c4d748244088dbfb22ce5,owl#Restriction,22-rdf-syntax-ns#type
+N6a22963247cc47c597960d214bcb5f91,1,owl#qualifiedCardinality
+Trader,trader,rdf-schema#label
+N0326bd1b48ef49dcbfd89391e2609edf,Contract,owl#someValuesFrom
+N6a22963247cc47c597960d214bcb5f91,ContractLifecycle,owl#onClass
+N9a8e72432f134ea9bf0df95da5e0da94,Nb7868e2d45ca46878f1ff4b7b9100930,owl#someValuesFrom
+LicensedAgent,"17 CFR 45.1, Definitions - see the definition of agent",adaptedFrom
+N87d558a5c11649688e59f32eedb1ba47,owl#Restriction,22-rdf-syntax-ns#type
+succeeds,owl#ObjectProperty,22-rdf-syntax-ns#type
+facilitates,"acts as an enabler in a situation in which an event, a task, a conversation or something else occurs",core#definition
+N227a18dfd7424c0fab47d63d6b22b69d,XMLSchema#string,owl#onDataRange
+isEmbodiedIn,is embodied in,rdf-schema#label
+ClearedTrade,"stage in the lifecycle of a trade indicating that a third-party clearing house, acting as an intermediary, has reconciled the orders involved in the trade",core#definition
+TradingStrategy,approach used for buying and selling in the securities markets,core#definition
+LegalAgent,owl#Class,22-rdf-syntax-ns#type
+N0664876cbf6f4cb8bb4112b060b4c357,owl#Restriction,22-rdf-syntax-ns#type
+N0f0af55de01c494a9851ad956de3d6ab,appliesTo,owl#onProperty
+N7134b0bb67f34f1091ab54daef1d684c,ContractLifecycleStage,owl#someValuesFrom
+N0f6c703ee1104f36b6888e21e456a596,owl#Restriction,22-rdf-syntax-ns#type
+hasOfferingPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+N53ee263a135c4135a24db931a8ca354c,owl#Restriction,22-rdf-syntax-ns#type
+Nf9e203b48afd43b496ebd28dc198cdac,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Trade,Situation,rdf-schema#subClassOf
+N70d45fd2256e4cdaa6d94843502ad223,isStageOf,owl#onProperty
+FinancialServiceProvider,Nc313f16b52a24036a3d721d1bfba6586,rdf-schema#subClassOf
+hasGeneratingEntityIdentifier,has generating entity identifier,rdf-schema#label
+RegisteredAgent,statutory agent,synonym
+N7459e9374bda49a88d2049fc0fe69292,hasLifecycle,owl#onProperty
+isFacilitatedBy,"identifies someone or something that expedites some event, transaction, conversation or something else in some context",core#definition
+N8c43a2c721ad459e81f2184b4360df23,hasStage,owl#onProperty
+ContractLifecycleStage,N3b69f8301fd54a528fbf101f18212ff8,rdf-schema#subClassOf
+Nad7e75c0c0614df2b2af1eccaa7c46af,Offeror,owl#someValuesFrom
+N58467c9bace34307999c6653ecd41275,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#imports
+Basket,"From a securities perspective, a basket is a collection of products or securities that are designated to mimic the performance of a market. For investors, the market basket is the principal idea behind index funds, which are essentially a broad sample of stocks, bonds or other securities in the market; this provides investors with a benchmark against which to compare their investment returns.",explanatoryNote
+ContractLifecycleEvent,owl#Class,22-rdf-syntax-ns#type
+N4ef64439ac06453499bb1154f7638db1,TradeLifecycleEvent,owl#onClass
+N7459e9374bda49a88d2049fc0fe69292,owl#Restriction,22-rdf-syntax-ns#type
+N12eb99591b1c4d748244088dbfb22ce5,identifies,owl#onProperty
+N78102653d0d14a5bb65b1ecb3d5d65ae,owl#Restriction,22-rdf-syntax-ns#type
+RegisteredAgent,,rdf-schema#seeAlso
+BasketConstituent,Constituent,rdf-schema#subClassOf
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+Product,N7459e9374bda49a88d2049fc0fe69292,rdf-schema#subClassOf
+Nfe7561273e82461bb7efa7111d3c01cf,ProductLifecycleEventOccurrence,owl#someValuesFrom
+Na0bad6e4fdbe4a97a48a0d74f1d94fa6,Trade,owl#onClass
+BrokerDealer,FunctionalEntity,rdf-schema#subClassOf
+ProductLifecycleStage,phase in a product lifecycle,core#definition
+LegalAgent,"17 CFR 45.1, Definitions - see the definition of agent",adaptedFrom
+Na7ca2f504b4e4c5dbba22945c40524c2,Offering,owl#someValuesFrom
+Nf5848b7b11a645f8bc0d319900d3b304,0,owl#minQualifiedCardinality
+N4ef64439ac06453499bb1154f7638db1,owl#Restriction,22-rdf-syntax-ns#type
+hasOfferingUnits,XMLSchema#integer,rdf-schema#range
+FinancialServiceProvider,ServiceProvider,rdf-schema#subClassOf
+Nd7c9e8da4e934872af27afcc8a794310,classifies,owl#onProperty
+BrokerDealer,"any party in the business of buying and selling securities, operating as both a broker and a dealer, depending on the transaction",core#definition
+N1b464a72f76a44e7ab891a83d88130f5,N81dabea54e8b4e51a3b55ce95c13eaa0,owl#someValuesFrom
+N7134b0bb67f34f1091ab54daef1d684c,owl#Restriction,22-rdf-syntax-ns#type
+WeightedBasketConstituent,Nc3d52573a6b7451bbbce375ec26ca500,rdf-schema#subClassOf
+,FinancialProductsAndServices.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+hasSettlementDate,hasEndDate,rdf-schema#subPropertyOf
+TradeLifecycleEventOccurrence,N022f6b5a70864b2ca3be4f836458ec16,rdf-schema#subClassOf
+Ne72d3774c9ec4e9a946011d28bfa31aa,succeeds,owl#onProperty
+TradeLifecycleEventOccurrence,N3fb1f995de804676a376ee3eafba027b,rdf-schema#subClassOf
+Na47d2bef951f4637a13cf4d5a78787f9,owl#Restriction,22-rdf-syntax-ns#type
+ProductLifecycleStage,owl#Class,22-rdf-syntax-ns#type
+Na6fc29e2f327411fa07e341841592a35,Asset,owl#onClass
+N4297a108336645bbadb73b6b256c5f29,isAPartyTo,owl#onProperty
+,FinancialProductsAndServices.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N87d558a5c11649688e59f32eedb1ba47,ProductLifecycleEvent,owl#someValuesFrom
+FinancialService,owl#Class,22-rdf-syntax-ns#type
+Na66d49146b6045fc9e20d63860164d4c,Basket,owl#someValuesFrom
+Nbcd4f4ccd2e84f9eabc3c1a5ad4f0fb2,appliesTo,owl#onProperty
+FinancialIntermediationService,owl#Class,22-rdf-syntax-ns#type
+N1933a722ed164ca7a2e0cdb494bffab6,owl#Class,22-rdf-syntax-ns#type
+Nf739a81e44704b9b80457f2eafde6c26,Buyer,22-rdf-syntax-ns#first
+hasTradeDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Ne870103e25824e2daafc930610b558d7,owl#Restriction,22-rdf-syntax-ns#type
+N073be5c250684d83833e86746f99afe9,N778d8a9aa779499289649c6a2aeea1b3,22-rdf-syntax-ns#rest
+FinancialExposure,Exposure,rdf-schema#subClassOf
+ContractLifecycleEventOccurrence,N7b50ca773acd4623b8eca3237267997b,rdf-schema#subClassOf
+N7b08c5e073714c30aa95c90c18724e61,ContractLifecycleEvent,owl#onClass
+LicensedAgent,Licensee,rdf-schema#subClassOf
+ContractLifecycleStageOccurrence,N8dd32ad7de6a4aefa03f951ba921f937,rdf-schema#subClassOf
+ProductLifecycleEventOccurrence,N570cccab81524569bb4f08312af8a91a,rdf-schema#subClassOf
+hasOfferingPrice,has offering price,rdf-schema#label
+,FinancialProductsAndServices.rdf version of the ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+ProductLifecycle,owl#Class,22-rdf-syntax-ns#type
+Trade,"Trading activities typically include (a) regularly underwriting or dealing in securities; interest rate, foreign exchange rate, commodity, equity, and credit derivative contracts; other financial instruments; and other assets for resale, (b) acquiring or taking positions in such items principally for the purpose of selling in the near term or otherwise with the intent to resell in order to profit from short-term price movements, and (c) acquiring or taking positions in such items as an accommodation to customers or for other trading purposes. (Source: Instructions for Preparation of Consolidated Reports of Condition and Income (FFIEC 031 and 041), Schedule RC-D - Trading Assets and Liabilities, 2013.",explanatoryNote
+N797d581eb95048248df6b69f8eb1c8e5,1,owl#qualifiedCardinality
+Nbf240250489c4facb40c6a7dac204209,owl#Restriction,22-rdf-syntax-ns#type
+N15b8fe01e0424817b2d5d85c29ca46d7,owl#Restriction,22-rdf-syntax-ns#type
+N1d5a251adda8484fa29771c03b8fcb60,owl#Restriction,22-rdf-syntax-ns#type
+ContractLifecycle,"revision, execution and management, renewal, and possibly sunsetting phases. Financial contracts, such as loans and other instruments have specific stages and events during the execution and management phase, i.e. from the effective date of the contract through maturity and redemption.",explanatoryNote
+Nba9f8df0f7c24c62975ae1fcbabfbde1,Product,owl#someValuesFrom
+TradeLifecycle,"The trade life cycle covers the period of time over which a trade is initiated, typically as a part of a broader deal, is consumated, processed and executed, is settled or closed for other reasons, and is reported. Parts of a trade lifecycle may include or overlap with the lifecycle of one or more contracts.",core#example
+hasSelectingParty,Party,rdf-schema#range
+WeightedBasketConstituent,BasketConstituent,rdf-schema#subClassOf
+hasGeneratingEntity,generates,rdf-schema#subPropertyOf
+N5de7c8cdb93a4b27903853e3aa9269cc,owl#Restriction,22-rdf-syntax-ns#type
+N5de7c8cdb93a4b27903853e3aa9269cc,0,owl#minQualifiedCardinality
+N2e255858e6d24fac9ff96199d465804b,hasPartyRole,owl#onProperty
+BasketConstituent,component of a basket,core#definition
+Offeree,PartyRole,rdf-schema#subClassOf
+ProductLifecycleEventOccurrence,actual occurrence of an event that happens during a specific stage of a specific product lifecycle,core#definition
+hasGeneratingEntityIdentifier,Note that the range of is identified by must be that entity's LEI in the context of a UTI.,explanatoryNote
+FinancialExposure,owl#Class,22-rdf-syntax-ns#type
+N87d558a5c11649688e59f32eedb1ba47,comprises,owl#onProperty
+Holding,"real or personal property (assets), including but not limited to financial assets, to which one holds title and of which one has possession",core#definition
+Holding,owl#Class,22-rdf-syntax-ns#type
+TradeLifecycleStageOccurrence,N8218370413284d7ca395f215661b3e3b,rdf-schema#subClassOf
+FinancialProduct,"product provided to consumers and businesses by financial institutions such as banks, insurance companies, brokerage firms, consumer finance companies, and investment companies",core#definition
+succeeds,relatesTo,rdf-schema#subPropertyOf
+Dealer,owl#Class,22-rdf-syntax-ns#type
+FinancialExposure,financial exposure,rdf-schema#label
+Trade,23512555-tradelifecycle,adaptedFrom
+Nffad698c0e5a4dfe92cc37b8e29d6d86,owl#Restriction,22-rdf-syntax-ns#type
+ContractLifecycleStageOccurrence,"realization, from start to finish of a phase in an occurrence of a specific contract lifecycle",core#definition
+relatesTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+relatesTo,has a logical or causal connection with,core#definition
+RegulatedCommodity,regulated commodity,rdf-schema#label
+N35822577dff24421909d2942b4a632c4,Trade,owl#someValuesFrom
+N8dd32ad7de6a4aefa03f951ba921f937,ContractLifecycleStage,owl#onClass
+TradeLifecycleStage,Nb84025c582bd40c4b2938b29defaa880,rdf-schema#subClassOf
+N30acf3d7541f45508d8b2aa5083da9fa,owl#Restriction,22-rdf-syntax-ns#type
+N8dd32ad7de6a4aefa03f951ba921f937,exemplifies,owl#onProperty
+Trade,Nc821a2bd8bdc4a5db0027aabe5bc2b62,rdf-schema#subClassOf
+ThirdPartyAgent,"Note that third-party agent is defined as a service provider (organization) acting in an agency capacity, such as a law firm, accountancy, or investment bank. This is distinct from the concept of an individual (licensed agent), for example one who works for a broker-dealer, that is a registered agent licensed to sell securities.",usageNote
+N0f6c703ee1104f36b6888e21e456a596,1,owl#qualifiedCardinality
+N1d5a251adda8484fa29771c03b8fcb60,isPlayedBy,owl#onProperty
+N3b69f8301fd54a528fbf101f18212ff8,ContractLifecycleEvent,owl#someValuesFrom
+precedes,owl#ObjectProperty,22-rdf-syntax-ns#type
+Trade,"The seller must deliver the commodity sold to the buyer; the buyer must pay the agreed purchase price, which could be in the form of other goods or services, on the agreed date.",explanatoryNote
+FinancialProductCatalog,N0bad3568b18543869af7b543740cb8d0,rdf-schema#subClassOf
+hasOfferingUnits,"indicates the actual number of units of something, including any premium on the number of units, associated with some offering",core#definition
+hasOfferingPrice,hasPrice,rdf-schema#subPropertyOf
+,Financial Products and Services Ontology,rdf-schema#label
+TradeLifecycleStageOccurrence,N70d45fd2256e4cdaa6d94843502ad223,rdf-schema#subClassOf
+BasketConstituent,Na66d49146b6045fc9e20d63860164d4c,owl#equivalentClass
+ContractLifecycleEvent,Nffad698c0e5a4dfe92cc37b8e29d6d86,rdf-schema#subClassOf
+Nc014a8d51989457ba88c864e9504d599,Product,owl#someValuesFrom
+N54f6079e4fdd45dc97dd542f5f120390,hasGeneratingEntity,22-rdf-syntax-ns#first
+Trade,N5de7c8cdb93a4b27903853e3aa9269cc,rdf-schema#subClassOf
+Nbc134026ecbb458a81cdf42a5bdda748,owl#Class,22-rdf-syntax-ns#type
+N43ca1be3e0dc4068a294eaea7ebcd24d,FinancialServiceProvider,owl#someValuesFrom
+UniqueTransactionIdentifier,"ISO 23897:2020, Financial services - Unique transaction identifier (UTI)",adaptedFrom
+RegulatedCommodity,Naa6a2f8659cb43cc866ddcad996d0b53,rdf-schema#subClassOf
+N35a2ede9fd104fb1be9b7998c0fef15c,Identifier,owl#allValuesFrom
+Offeree,N9a8e72432f134ea9bf0df95da5e0da94,rdf-schema#subClassOf
+TradeLifecycleOccurrence,N0f6c703ee1104f36b6888e21e456a596,rdf-schema#subClassOf
+TradeLifecycleOccurrence,N8c43a2c721ad459e81f2184b4360df23,rdf-schema#subClassOf
+N8218370413284d7ca395f215661b3e3b,succeeds,owl#onProperty
+hasSelectionCriteria,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Trade,N65755f7155c3491484f1277248a39319,rdf-schema#subClassOf
+TradeLifecycleEvent,N4ef64439ac06453499bb1154f7638db1,rdf-schema#subClassOf
+hasTradeDate,indicates the date on which a security or other instrument-specific trade actually takes place,core#definition
+N7d1a847afab9427986ad76ff5242ef03,hasExpression,owl#onProperty
+BreachOfCovenant,owl#Class,22-rdf-syntax-ns#type
+Holding,holding,rdf-schema#label
+ContractLifecycleStage,owl#Class,22-rdf-syntax-ns#type
+N115b1184f0d64de3b68b7d0c521f1dbd,FinancialServiceProvider,owl#someValuesFrom
+FinancialProduct,Product,rdf-schema#subClassOf
+N58467c9bace34307999c6653ecd41275,Date,owl#allValuesFrom
+Ncf765a18452c461eba1c1f408ac20711,owl#Restriction,22-rdf-syntax-ns#type
+Nc1f58b809ac14b1eab5cd68bc5525260,0,owl#minQualifiedCardinality
+Nd67da342cc7b4bc8b2ee3bb2ef894227,owl#Restriction,22-rdf-syntax-ns#type
+FinancialIntermediationService,FinancialService,rdf-schema#subClassOf
+ContractLifecycleStageOccurrence,contract lifecycle stage occurrence,rdf-schema#label
+Dealer,any party that purchases goods or services for resale and acts on their own behalf in a transaction,core#definition
+TradeLifecycleEventOccurrence,realization of an event that happens during a specific stage of a specific trade lifecycle,core#definition
+OpenTrade,stage in the lifecycle of a trade indicating that the trade has been established and there is an associated open position on the books of the trader as a consequence,core#definition
+N1f9e08560b40485e8699e09436ea21ab,TradeLifecycleEvent,owl#someValuesFrom
+TradingStrategy,trading strategy,rdf-schema#label
+ContractLifecycleStageOccurrence,LifecycleStageOccurrence,rdf-schema#subClassOf
+AgentForServiceOfProcess,agent for service of process,rdf-schema#label
+BasketConstituent,owl#Class,22-rdf-syntax-ns#type
+hasOffering,has offering,rdf-schema#label
+N3fb71d2431784eb3996b63aac68c8115,owl#Restriction,22-rdf-syntax-ns#type
+N3fb1f995de804676a376ee3eafba027b,owl#Restriction,22-rdf-syntax-ns#type
+N574abca17e7348d58ed9b12d27906bd3,N78102653d0d14a5bb65b1ecb3d5d65ae,22-rdf-syntax-ns#first
+N5de7c8cdb93a4b27903853e3aa9269cc,TradeIdentifier,owl#onClass
+ContractLifecycleStage,N0326bd1b48ef49dcbfd89391e2609edf,rdf-schema#subClassOf
+N0f6c703ee1104f36b6888e21e456a596,TradeLifecycle,owl#onClass
+hasOffering,isOfferingOf,owl#inverseOf
+ProductLifecycleStageOccurrence,LifecycleStageOccurrence,rdf-schema#subClassOf
+TradeLifecycleStage,Nc5ba09f58df64e86a3a85114094cfbb5,rdf-schema#subClassOf
+Nc821a2bd8bdc4a5db0027aabe5bc2b62,involves,owl#onProperty
+N6efecc98cb624522a45f2bcbf541d234,LicensedAgent,22-rdf-syntax-ns#first
+isFacilitatedBy,facilitates,owl#inverseOf
+ProductLifecycleEvent,owl#Class,22-rdf-syntax-ns#type
+ContractLifecycle,Lifecycle,rdf-schema#subClassOf
+N254569f578e1441982bbee8f90e64753,ContractLifecycleEvent,owl#onClass

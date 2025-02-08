@@ -1,0 +1,58 @@
+source_id,target_id,relationship
+OptionDailySettlementPrice,SecurityPrice,rdf-schema#subClassOf
+OptionsTheta,options theta,rdf-schema#label
+N98dd03132c824741ba455f645664d0da,owl#Restriction,22-rdf-syntax-ns#type
+,,owl#imports
+OptionsGreek,quantity representing the sensitivity of the price of an option or options to a change in underlying parameters on which the value depends,core#definition
+N869f6db7628c44cfa2d14be5f1e6078a,PricingModel,owl#someValuesFrom
+N03195206a93247d69fdf6f13b382033f,N52b2a973bebf4d94a3e96235f95eb064,owl#unionOf
+,"Exchange traded options date and time dependent terms such as pricing and other analytics, including greeks (deltas, thetas etc.)",abstract
+,Provisional,hasMaturityLevel
+Nd126267820f34f1684969dcc731f8f7a,N03195206a93247d69fdf6f13b382033f,owl#someValuesFrom
+,MIT,license
+OptionsGreek,owl#Class,22-rdf-syntax-ns#type
+OptionsVega,A measure of the rate of change in an option's theoretical value for a one-unit change in the volatility assumption. Action: add terms that define or influence this.,core#definition
+Nd126267820f34f1684969dcc731f8f7a,hasPublisher,owl#onProperty
+OptionsTheta,OptionsGreek,rdf-schema#subClassOf
+OptionDailySettlementPrice,Nd126267820f34f1684969dcc731f8f7a,rdf-schema#subClassOf
+OptionsTheta,A measure of the rate of change in an option's theoretical value for a one-unit change in time to the option's expiration date. Action: add terms that define or influence this.,core#definition
+Delta,delta,rdf-schema#label
+OptionTheoreticalValue,owl#Class,22-rdf-syntax-ns#type
+Delta,First derivative of option value with respect to theoretical price is a delta (or on a position). Theoretical price,core#definition
+Delta,owl#Class,22-rdf-syntax-ns#type
+N52b2a973bebf4d94a3e96235f95eb064,N38a5006292e641faac5eda2a7432dc26,22-rdf-syntax-ns#rest
+,,owl#versionIRI
+OptionDailySettlementPrice,ClosingPrice,rdf-schema#subClassOf
+N869f6db7628c44cfa2d14be5f1e6078a,owl#Restriction,22-rdf-syntax-ns#type
+OptionsVega,N98dd03132c824741ba455f645664d0da,rdf-schema#subClassOf
+OptionTheoreticalValue,option theoretical value,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+Nd8f6b81299184ec8a7251ed4c35f7fd5,refersTo,owl#onProperty
+OptionDailySettlementPrice,option daily settlement price,rdf-schema#label
+Delta,Delta tells you what options to buy to get the equivalent price sensitivity to the underlying. How many at that price to get that hedge. So for example an at the money option has a delta of 50. Units,explanatoryNote
+OptionTheoreticalValue,fair value of the option as determined by an option pricing model,core#definition
+,Exchange-Traded Options Temporal,rdf-schema#label
+OptionsVega,owl#Class,22-rdf-syntax-ns#type
+Delta,OptionsGreek,rdf-schema#subClassOf
+,"Copyright (c) 2015-2023 EDM Council, Inc.",copyright
+OptionTheoreticalValue,N869f6db7628c44cfa2d14be5f1e6078a,rdf-schema#subClassOf
+OptionsVega,OptionsGreek,rdf-schema#subClassOf
+Nd126267820f34f1684969dcc731f8f7a,owl#Restriction,22-rdf-syntax-ns#type
+OptionDailySettlementPrice,"The official price at the end of a trading session. This price is established by The Options Clearing Corporation and is used to determine changes in account equity, margin requirements, and for other purposes.",core#definition
+OptionsVega,options vega,rdf-schema#label
+OptionsTheta,Nd8f6b81299184ec8a7251ed4c35f7fd5,rdf-schema#subClassOf
+Nd8f6b81299184ec8a7251ed4c35f7fd5,OptionTheoreticalValue,owl#someValuesFrom
+OptionTheoreticalValue,MonetaryAmount,rdf-schema#subClassOf
+N38a5006292e641faac5eda2a7432dc26,DerivativesClearingOrganization,22-rdf-syntax-ns#first
+Nd8f6b81299184ec8a7251ed4c35f7fd5,owl#Restriction,22-rdf-syntax-ns#type
+N98dd03132c824741ba455f645664d0da,refersTo,owl#onProperty
+OptionsGreek,PriceAnalytic,rdf-schema#subClassOf
+N869f6db7628c44cfa2d14be5f1e6078a,refersTo,owl#onProperty
+OptionsGreek,options greek,rdf-schema#label
+OptionsTheta,owl#Class,22-rdf-syntax-ns#type
+OptionTheoreticalValue,"The pricing model (such as the Black-Scholes model) takes into account current values such as implied volatility, the price of the underlying, the strike price, and time to expiration to determine what an option should be worth.  Each of the input values fluctuate, which means theoretical price will also be a fluctuating value.",explanatoryNote
+OptionDailySettlementPrice,owl#Class,22-rdf-syntax-ns#type
+N52b2a973bebf4d94a3e96235f95eb064,DesignatedContractMarket,22-rdf-syntax-ns#first
+N03195206a93247d69fdf6f13b382033f,owl#Class,22-rdf-syntax-ns#type
+N38a5006292e641faac5eda2a7432dc26,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N98dd03132c824741ba455f645664d0da,OptionTheoreticalValue,owl#someValuesFrom

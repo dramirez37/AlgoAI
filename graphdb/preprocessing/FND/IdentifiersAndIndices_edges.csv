@@ -1,0 +1,86 @@
+source_id,target_id,relationship
+N8f99d1f8d742462dae5e062a1a6b51f4,isDefinedIn,owl#onProperty
+IdentificationScheme,Scheme,rdf-schema#subClassOf
+constructRegex,owl#AnnotationProperty,22-rdf-syntax-ns#type
+Nca86da30730f4305b6e9a3112500ad84,Index,owl#someValuesFrom
+constructRegex,XMLSchema#string,rdf-schema#range
+hasInitialAssignmentDate,CombinedDateTime,rdf-schema#range
+IndexingScheme,Scheme,rdf-schema#subClassOf
+N722d0e93ca9e4d8ca8498b0eafa64653,owl#Restriction,22-rdf-syntax-ns#type
+IdentificationScheme,owl#Class,22-rdf-syntax-ns#type
+hasInitialAssignmentDate,hasObservedDateTime,rdf-schema#subPropertyOf
+N5aa00e83fd1941ba8993e00ba01cd97f,isIndexTo,owl#onProperty
+isIndexTo,Index,rdf-schema#domain
+,IdentifiersAndIndices.rdf version of this ontology was revised loosen a constraint on composite identifier and add regular expression annotations to support ordered constituents.,core#changeNote
+parseRegex,indicates how to deconstruct the supplied character string into its components,core#definition
+hasInitialAssignmentDate,has initial assignment date,rdf-schema#label
+IndexingScheme,"system for indexing values, data, information, or knowledge",core#definition
+,IdentifiersAndIndices.rdf version of this ontology was revised to replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+ReassignableIdentifier,N44bf2d7e93b045b2bca630428d11e551,rdf-schema#subClassOf
+constructRegex,construct regex,rdf-schema#label
+Nca86da30730f4305b6e9a3112500ad84,defines,owl#onProperty
+,.,core#changeNote
+StructuredIdentifier,Use parseRegex and constructRegex annotation properties to express the rules for deconstructing and composing the actual composite identifiers from their constituent parts as appropriate.,core#note
+ReassignableIdentifier,"identifier that uniquely identifies something for a given time period, and that may be reused to identify something else at a different point in time",core#definition
+ReassignableIdentifier,"If no assignment termination date is provided, the identifier is considered to be assigned and valid. If there is no initial assignment date, then the identifier is assumed to be assigned up until the termination date, if any.",explanatoryNote
+,IdentifiersAndIndices.rdf version of this ontology was revised to eliminate duplication of concepts with LCC.,core#changeNote
+N44bf2d7e93b045b2bca630428d11e551,CombinedDateTime,owl#onDataRange
+IndexingScheme,Nca86da30730f4305b6e9a3112500ad84,rdf-schema#subClassOf
+,,owl#imports
+ReassignableIdentifier,reassignable identifier,rdf-schema#label
+N44bf2d7e93b045b2bca630428d11e551,1,owl#maxQualifiedCardinality
+,"IdentifiersAndIndices.rdf version of this ontology was revised to add the concept of a time-constrained, reassignable identifier as well as the concept of a composite identifier.",core#changeNote
+,,owl#versionIRI
+,owl#Ontology,22-rdf-syntax-ns#type
+hasAssignmentTerminationDate,has assignment termination date,rdf-schema#label
+isIndexTo,that to which the index refers,core#definition
+StructuredIdentifier,owl#Class,22-rdf-syntax-ns#type
+N8f99d1f8d742462dae5e062a1a6b51f4,IndexingScheme,owl#onClass
+N44bf2d7e93b045b2bca630428d11e551,hasAssignmentTerminationDate,owl#onProperty
+hasAssignmentTerminationDate,CombinedDateTime,rdf-schema#range
+parseRegex,parse regex,rdf-schema#label
+hasAssignmentTerminationDate,hasObservedDateTime,rdf-schema#subPropertyOf
+,IdentifiersAndIndices.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+IndexingScheme,indexing scheme,rdf-schema#label
+ReassignableIdentifier,N722d0e93ca9e4d8ca8498b0eafa64653,rdf-schema#subClassOf
+N8f99d1f8d742462dae5e062a1a6b51f4,owl#Restriction,22-rdf-syntax-ns#type
+N5aa00e83fd1941ba8993e00ba01cd97f,1,owl#cardinality
+hasInitialAssignmentDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+Index,Reference,rdf-schema#subClassOf
+Index,"indirect shortcut derived from and pointing into, a greater volume of values, data, information or knowledge",core#definition
+hasAssignmentTerminationDate,the date on which an identifier is released from its assignment to some resource,core#definition
+Index,Index,definitionOrigin
+isIndexTo,owl#ObjectProperty,22-rdf-syntax-ns#type
+N44bf2d7e93b045b2bca630428d11e551,owl#Restriction,22-rdf-syntax-ns#type
+,IdentifiersAndIndices.rdf version of this ontology was revised for the FIBO 2.0 RFC to incorporate mappings to LCC.,core#changeNote
+Index,index,rdf-schema#label
+N722d0e93ca9e4d8ca8498b0eafa64653,CombinedDateTime,owl#onDataRange
+parseRegex,owl#AnnotationProperty,22-rdf-syntax-ns#type
+N722d0e93ca9e4d8ca8498b0eafa64653,1,owl#maxQualifiedCardinality
+,"This ontology defines abstract concepts for representation of indices and indexing schemes, as well as reusable identifiers, for reuse in other ontologies.",abstract
+isIndexTo,refersTo,rdf-schema#subPropertyOf
+Index,N5aa00e83fd1941ba8993e00ba01cd97f,rdf-schema#subClassOf
+N5aa00e83fd1941ba8993e00ba01cd97f,owl#Restriction,22-rdf-syntax-ns#type
+Index,owl#Class,22-rdf-syntax-ns#type
+,Release,hasMaturityLevel
+,MIT,license
+,IdentifiersAndIndices.rdf version of the ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).,core#changeNote
+N8f99d1f8d742462dae5e062a1a6b51f4,1,owl#qualifiedCardinality
+,"IdentifiersAndIndices.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+ReassignableIdentifier,owl#Class,22-rdf-syntax-ns#type
+ReassignableIdentifier,"ticker symbol, vehicle license number, such as a vanity plate that can be reassigned and moved from one car to another",core#example
+IndexingScheme,owl#Class,22-rdf-syntax-ns#type
+Index,N8f99d1f8d742462dae5e062a1a6b51f4,rdf-schema#subClassOf
+StructuredIdentifier,"For a fictional business identifier, the rule used to parse a composite identifier might be fibo-fnd-arr-id:parseRegex ""RA([0-9]{6})-([0-9A-Z]*)"", and fibo-fnd-arr-id:constructRegex ""$1-$2"", where RA represents a text value corresponding to the registration authority for the business identifier.",core#example
+isIndexTo,is index to,rdf-schema#label
+constructRegex,indicates how to compose the supplied character string from its components,core#definition
+,"Copyright (c) 2014-2024 Object Management Group, Inc.",copyright
+,IdentifiersAndIndices.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+hasAssignmentTerminationDate,owl#DatatypeProperty,22-rdf-syntax-ns#type
+hasInitialAssignmentDate,the date on which an identifier is first assigned to some resource,core#definition
+ReassignableIdentifier,Identifier,rdf-schema#subClassOf
+,"Copyright (c) 2014-2024 EDM Council, Inc.",copyright
+parseRegex,XMLSchema#string,rdf-schema#range
+N722d0e93ca9e4d8ca8498b0eafa64653,hasInitialAssignmentDate,owl#onProperty
+,Identifiers and Indices Ontology,rdf-schema#label
+Nca86da30730f4305b6e9a3112500ad84,owl#Restriction,22-rdf-syntax-ns#type

@@ -1,0 +1,77 @@
+source_id,target_id,relationship
+hasAcquisitionPrice,Price,rdf-schema#range
+N13d55fee2c1f44699ae731ba9868d37b,Ncc2b6c2612f847e9b5d69fab45e60f79,22-rdf-syntax-ns#rest
+hasAcquisitionPrice,hasPrice,rdf-schema#subPropertyOf
+,"This ontology defines basic concepts such as portfolio, security holding and holder, and extends the notion of a financial asset to include an acquisition price.",abstract
+Portfolio,Nd8c2596797ea4dacabaaa9c726854077,rdf-schema#subClassOf
+,,owl#imports
+PortfolioHolding,portfolio holding,rdf-schema#label
+N149d22ececf04b6cbea52a4964310422,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,Release,hasMaturityLevel
+N59e6ce8e72b4415db6bb2795b103b6ef,hasAcquisitionPrice,owl#onProperty
+N149d22ececf04b6cbea52a4964310422,FinancialServiceProvider,22-rdf-syntax-ns#first
+Portfolio,portfolio.asp,adaptedFrom
+,SecurityAssets.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+Nddb4977f139f4df889f29f43f073fe90,owl#Restriction,22-rdf-syntax-ns#type
+,SecurityAssets.rdf version of this ontology was revised to eliminate duplication with concepts in LCC.,core#changeNote
+,MIT,license
+Nbd8a283597d548b5a2521086d9bc0d56,N4b1dd80288a64d60a5fe8c93a593d926,owl#someValuesFrom
+FinancialAsset,N59e6ce8e72b4415db6bb2795b103b6ef,rdf-schema#subClassOf
+Nd8c2596797ea4dacabaaa9c726854077,isHeldBy,owl#onProperty
+N908dd1d99a364725902fe6f6227e6163,Nf4f6325183b044909e19daafc489fad4,owl#unionOf
+Nd5dde791ea314eb18472daf329698d5f,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+Nd5dde791ea314eb18472daf329698d5f,FinancialServiceProvider,22-rdf-syntax-ns#first
+PortfolioHolding,the contents of holding of one or more portfolios of investments held by an individual investor or entity,core#definition
+Portfolio,portfolio,rdf-schema#label
+PortfolioHolding,N550483a64d2d4bc290e98a75e5d605f9,rdf-schema#subClassOf
+Portfolio,Nddb4977f139f4df889f29f43f073fe90,rdf-schema#subClassOf
+,Security Assets Ontology,rdf-schema#label
+Nd82b7104ab92495f8a0e9e652f2c6c3a,isPartOf,owl#onProperty
+N2e99dcb49b5744bc91523408e5c0f4e9,Investor,22-rdf-syntax-ns#first
+N550483a64d2d4bc290e98a75e5d605f9,Ne95f16364082442da49b8e9597ac6e5d,owl#allValuesFrom
+,,owl#versionIRI
+Ncc2b6c2612f847e9b5d69fab45e60f79,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N59e6ce8e72b4415db6bb2795b103b6ef,Price,owl#allValuesFrom
+,owl#Ontology,22-rdf-syntax-ns#type
+Ne95f16364082442da49b8e9597ac6e5d,owl#Class,22-rdf-syntax-ns#type
+N550483a64d2d4bc290e98a75e5d605f9,owl#Restriction,22-rdf-syntax-ns#type
+Ncc2b6c2612f847e9b5d69fab45e60f79,FinancialServiceProvider,22-rdf-syntax-ns#first
+,"Copyright (c) 2016-2023 EDM Council, Inc.",copyright
+Nf4f6325183b044909e19daafc489fad4,Investor,22-rdf-syntax-ns#first
+Portfolio,Nbd8a283597d548b5a2521086d9bc0d56,rdf-schema#subClassOf
+,SecurityAssets.rdf version of this ontology was revised to simplify the contract party hierarchy and eliminate complexity introduced by 'security holding'.,core#changeNote
+Portfolio,owl#Class,22-rdf-syntax-ns#type
+N13d55fee2c1f44699ae731ba9868d37b,Investor,22-rdf-syntax-ns#first
+PortfolioHolding,holdings.asp,adaptedFrom
+hasAcquisitionPrice,owl#ObjectProperty,22-rdf-syntax-ns#type
+N4b1dd80288a64d60a5fe8c93a593d926,N2e99dcb49b5744bc91523408e5c0f4e9,owl#unionOf
+hasAcquisitionPrice,"has a value as of the date of acquisition, expressed as an amount of money or goods",core#definition
+PortfolioHolding,"Portfolio holdings may cover a variety of investment products, including stocks, bonds and mutual funds to options, futures and exchange-traded funds, and relatively esoteric instruments such as private equity and hedge funds. 
+
+The number and nature of holdings contribute to the degree of diversification of a portfolio. A mix of stocks across different sectors, bonds of different maturities, and other investments would suggest a well-diversified portfolio, while concentrated holdings in a handful of stocks within a single sector indicates a portfolio with limited diversification.",explanatoryNote
+N908dd1d99a364725902fe6f6227e6163,owl#Class,22-rdf-syntax-ns#type
+N4b1dd80288a64d60a5fe8c93a593d926,owl#Class,22-rdf-syntax-ns#type
+Nbd8a283597d548b5a2521086d9bc0d56,owl#Restriction,22-rdf-syntax-ns#type
+,SecurityAssets.rdf version of this ontology was revised to fix spelling errors.,core#changeNote
+Ne95f16364082442da49b8e9597ac6e5d,N13d55fee2c1f44699ae731ba9868d37b,owl#unionOf
+N2e99dcb49b5744bc91523408e5c0f4e9,N149d22ececf04b6cbea52a4964310422,22-rdf-syntax-ns#rest
+PortfolioHolding,Nd82b7104ab92495f8a0e9e652f2c6c3a,rdf-schema#subClassOf
+Nd82b7104ab92495f8a0e9e652f2c6c3a,Portfolio,owl#someValuesFrom
+Nd82b7104ab92495f8a0e9e652f2c6c3a,owl#Restriction,22-rdf-syntax-ns#type
+Nd8c2596797ea4dacabaaa9c726854077,owl#Restriction,22-rdf-syntax-ns#type
+Nbd8a283597d548b5a2521086d9bc0d56,isManagedBy,owl#onProperty
+Nf4f6325183b044909e19daafc489fad4,Nd5dde791ea314eb18472daf329698d5f,22-rdf-syntax-ns#rest
+Portfolio,"a collection of investments (financial assets) such as stocks, bonds and cash equivalents, as well as mutual funds",core#definition
+PortfolioHolding,FinancialAsset,rdf-schema#subClassOf
+Nddb4977f139f4df889f29f43f073fe90,PortfolioHolding,owl#someValuesFrom
+,SecurityAssets.rdf version of this ontology was revised to address text formatting hygiene issues.,core#changeNote
+Nddb4977f139f4df889f29f43f073fe90,comprises,owl#onProperty
+N550483a64d2d4bc290e98a75e5d605f9,isHeldBy,owl#onProperty
+,"SecurityAssets.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+N59e6ce8e72b4415db6bb2795b103b6ef,owl#Restriction,22-rdf-syntax-ns#type
+hasAcquisitionPrice,has acquisition price,rdf-schema#label
+Portfolio,Collection,rdf-schema#subClassOf
+,"Copyright (c) 2016-2023 Object Management Group, Inc.",copyright
+Nd8c2596797ea4dacabaaa9c726854077,N908dd1d99a364725902fe6f6227e6163,owl#allValuesFrom
+PortfolioHolding,owl#Class,22-rdf-syntax-ns#type
+FinancialAsset,owl#Class,22-rdf-syntax-ns#type

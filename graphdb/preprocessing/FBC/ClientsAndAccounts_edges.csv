@@ -1,0 +1,750 @@
+source_id,target_id,relationship
+N8a5b51a7e1c94cf080f110a9d7ccab8c,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N040cb3bb5946478fbcdf5682732fd35b,owl#Restriction,22-rdf-syntax-ns#type
+DepositAccount,owl#Class,22-rdf-syntax-ns#type
+N4e673fb3c0db46aaac23388d22323ee2,comprises,owl#onProperty
+BasicBankAccountIdentifier,N08f0c2c2abe94115a26f72581e4c8487,rdf-schema#subClassOf
+N73e544ca942a404ba1169dad554b96f0,owl#Restriction,22-rdf-syntax-ns#type
+TransactionSubcategory,owl#Class,22-rdf-syntax-ns#type
+AccountStatement,"Common kinds of account statements include checking account statements, usually provided monthly, and brokerage account statements, which are provided monthly or quarterly, depending on the terms of the account agreement. Monthly credit card bills are also considered account statements.",explanatoryNote
+N44c339c39ee8405e99edfeda4fd9375a,recordsTransaction,owl#onProperty
+AccountOwnership,Na3df79d3b93d4a2fa2f3708a6f1e492a,rdf-schema#subClassOf
+N4cb0272390d24f049681424444746010,1,owl#qualifiedCardinality
+Necaae456f5584ecb9c1ece528897c609,isPlayedBy,owl#onProperty
+N5f12717a8f65402d863e799ffb21fe7a,1,owl#maxQualifiedCardinality
+IndividualTransaction,Occurrence,rdf-schema#subClassOf
+N47ecafacb83043f3b558c21e16ac2812,CloseDate,owl#onClass
+Account,owl#Class,22-rdf-syntax-ns#type
+hasStartingBalance,Balance,rdf-schema#range
+N502f8b1fca1042b9a2e2e256843e61ac,1,owl#qualifiedCardinality
+,Clients and Accounts Ontology,rdf-schema#label
+Nac8b697b748a4ae683ed5a9e822df926,isClassifiedBy,owl#onProperty
+LendingOfficer,lending officer,rdf-schema#label
+hasCloseDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nd05109089aa547ea9b6108e3a9bbd174,0,owl#minQualifiedCardinality
+, version of this ontology was modified to replace hasDefinition with isDefinedIn to clarify intent.,core#changeNote
+CertificateOfDeposit,Nc816b0f4098549f1bf69fadbd988700d,rdf-schema#subClassOf
+N842b84e496bc45028a2d6e77f496df87,holds,owl#onProperty
+N45e3e996f3924e598204439d3028d68c,owl#Restriction,22-rdf-syntax-ns#type
+,"ClientsAndAccounts.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+IndividualTransaction,owl#Class,22-rdf-syntax-ns#type
+N20a7587e85d84253bd7ae8ac773f7a46,isProvidedBy,owl#onProperty
+Nf2217c0fddd94b17a55fd624e723542e,hasBalance,owl#onProperty
+hasStartingBalance,AccountStatement,rdf-schema#domain
+N06f5905b079d4130b34e42f4a6e17311,isIdentifiedBy,owl#onProperty
+AccountSpecificServiceAgreement,N5c7fe4f1013544d3821c3cd8d9cdf6f1,rdf-schema#subClassOf
+hasOpenDate,hasExplicitDate,rdf-schema#subPropertyOf
+CloseDate,"account close date, transaction record close date, and so forth",core#example
+N00524a5182f54fe1a1814bc7bd922cd9,1,owl#qualifiedCardinality
+DemandDepositAccount,TransactionDepositAccount,rdf-schema#subClassOf
+TransactionDepositAccount,transaction deposit account,rdf-schema#label
+InternationalBankAccountIdentifier,"identifier for a bank account that is an expanded version of the basic bank account number (BBAN), intended for use internationally",core#definition
+N3cb1b96dfe9843cb8489e33348e7d693,owl#Restriction,22-rdf-syntax-ns#type
+N43e03fb348d64f6792b2ed7e373cac66,owl#Restriction,22-rdf-syntax-ns#type
+N89d27aaec31c46f79b4a71f2d27e6f6f,owl#Restriction,22-rdf-syntax-ns#type
+Na3df79d3b93d4a2fa2f3708a6f1e492a,hasOwnedAsset,owl#onProperty
+OpenDate,owl#Class,22-rdf-syntax-ns#type
+involvesMerchant,involves,rdf-schema#subPropertyOf
+InvestmentOrDepositAccount,Account,rdf-schema#subClassOf
+N10a61eb6cd504593af80c87a4e6daa96,1,owl#qualifiedCardinality
+TimeDepositAccount,ContractualProduct,rdf-schema#subClassOf
+hasBalance,relates an account to the net amount of money available in that account,core#definition
+InternationalBankAccountIdentifier,international bank account number,synonym
+isLinkedToAccount,owl#ObjectProperty,22-rdf-syntax-ns#type
+N74f34129e0614403b8006ceb8126c9fa,N2dfb0ea25e6c4c0ca5a99f385e7702f1,owl#someValuesFrom
+N502f8b1fca1042b9a2e2e256843e61ac,identifies,owl#onProperty
+AccountIdentifier,ISO 13616-1:2007 Financial services - International bank account number (IBAN),adaptedFrom
+AccountProvider,party that provides and services an account,core#definition
+TransactionDate,transaction date,rdf-schema#label
+TimeDepositOpenAccount,owl#Class,22-rdf-syntax-ns#type
+Ne8a5a9c432354f3388cf0e7dc9f7d71f,owl#Restriction,22-rdf-syntax-ns#type
+N37cbb2153b474e67b277ae317f7e407a,0,owl#minQualifiedCardinality
+,ClientsAndAccounts.rdf version of the ontology was modified to eliminate deprecated elements that were deprecated more than six months ago (FND-386).,core#changeNote
+,,owl#versionIRI
+,ClientsAndAccounts.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+hasOpenDate,relates something to the date that it was created,core#definition
+N31cd6921ae0c4fdaba04a4f7248cd349,CustomerAccount,owl#someValuesFrom
+BankAccountIdentifier,identifier that identifies a demand deposit account provided by a bank,core#definition
+N74f34129e0614403b8006ceb8126c9fa,owl#Restriction,22-rdf-syntax-ns#type
+hasSecondaryAccountHolder,isHeldBy,rdf-schema#subPropertyOf
+TransactionIdentifier,transaction identifier,rdf-schema#label
+N1d88a823971c4502aa75d37d27d96789,isExemplifiedBy,owl#onProperty
+CommercialLendingService,commercial lending service,rdf-schema#label
+DepositAccount,"Deposit accounts include savings accounts, money market accounts, and transactional accounts, such as demand deposit accounts, among others.",core#example
+N1bc38f91a0494083a8db7b972356f2a4,Account,owl#someValuesFrom
+AccountIdentifier,owl#Class,22-rdf-syntax-ns#type
+N5f12717a8f65402d863e799ffb21fe7a,owl#Restriction,22-rdf-syntax-ns#type
+TransactionRecordIdentifier,N502f8b1fca1042b9a2e2e256843e61ac,rdf-schema#subClassOf
+hasStartingBalance,hasBalance,rdf-schema#subPropertyOf
+Nd05109089aa547ea9b6108e3a9bbd174,owl#Restriction,22-rdf-syntax-ns#type
+PaymentDueDate,owl#Class,22-rdf-syntax-ns#type
+N3cb1b96dfe9843cb8489e33348e7d693,1,owl#qualifiedCardinality
+Nda07c78517f04d58b49ef03bf5dd32cf,owl#Class,22-rdf-syntax-ns#type
+CustomerAccount,customer account,rdf-schema#label
+AccountHolder,Owner,rdf-schema#subClassOf
+TransactionIdentifier,Nd23a60ac9e684147b5b883831898f910,rdf-schema#subClassOf
+hasPostingDate,hasExplicitDate,rdf-schema#subPropertyOf
+CustomerAccount,Nc32d26ab64664b8aa1be1197873b86f9,rdf-schema#subClassOf
+BasicBankAccountIdentifier,StructuredIdentifier,rdf-schema#subClassOf
+hasSecondaryAccountHolder,has secondary account owner,synonym
+N8d985ef37c2a467b97e83d36e7ed97a4,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+,ClientsAndAccounts.rdf version of this ontology was revised to clean up dead links and address text formatting hygiene issues.,core#changeNote
+Na758a42c35344330bc084e90b717710e,owl#Restriction,22-rdf-syntax-ns#type
+BrokerageAccount,The investor owns the assets contained in the brokerage account and must usually claim as income any capital gains incurred.,explanatoryNote
+AccountHolder,N73e544ca942a404ba1169dad554b96f0,rdf-schema#subClassOf
+N606b37ac11334051a0e16e4db67062c8,hasRecord,22-rdf-syntax-ns#first
+Nd23a60ac9e684147b5b883831898f910,IndividualTransaction,owl#onClass
+Ne8a5a9c432354f3388cf0e7dc9f7d71f,1,owl#qualifiedCardinality
+hasCorrespondingAccount,relates a credit agreement to an account used as the basis for managing transactions,core#definition
+Naef22331a9674f6a8b9ae15d5e920943,owns,owl#onProperty
+IndividualTransaction,RegistryEntry,rdf-schema#subClassOf
+hasCorrespondingAccount,has corresponding account,rdf-schema#label
+BrokerageAccount,owl#Class,22-rdf-syntax-ns#type
+N606b37ac11334051a0e16e4db67062c8,N8a5b51a7e1c94cf080f110a9d7ccab8c,22-rdf-syntax-ns#rest
+hasPaymentDueDate,hasExplicitDate,rdf-schema#subPropertyOf
+hasCloseDate,relates something to the date that it was closed,core#definition
+N5c7fe4f1013544d3821c3cd8d9cdf6f1,hasContractParty,owl#onProperty
+N2d63f4996f24445ea34ba00dd2a8eb53,hasRegistryEntry,owl#onProperty
+N31cd6921ae0c4fdaba04a4f7248cd349,owl#Restriction,22-rdf-syntax-ns#type
+TransactionCategory,Nb1719f01da064abd8a73800c6d81dce4,rdf-schema#subClassOf
+N0d459de204b648148ca8f997f8fbbfbc,N82fd3037bb18474faa88969fb47bdb89,22-rdf-syntax-ns#rest
+Ne8a5a9c432354f3388cf0e7dc9f7d71f,isManagedBy,owl#onProperty
+N28ea88aa675047008e084c7a57ace850,owl#Restriction,22-rdf-syntax-ns#type
+N31cd6921ae0c4fdaba04a4f7248cd349,holds,owl#onProperty
+N20a7587e85d84253bd7ae8ac773f7a46,owl#Restriction,22-rdf-syntax-ns#type
+N9be2d00f79c940818de642bfd82bdaf7,owl#Restriction,22-rdf-syntax-ns#type
+AccountStatement,account statement,rdf-schema#label
+N45e3e996f3924e598204439d3028d68c,1,owl#qualifiedCardinality
+TransactionIdentifier,identifier for an individual transaction associated with an account,core#definition
+hasPrimaryAccountHolder,owl#FunctionalProperty,22-rdf-syntax-ns#type
+AccountOwnership,account ownership,rdf-schema#label
+BankIdentifier,bank identifier,rdf-schema#label
+N89d27aaec31c46f79b4a71f2d27e6f6f,AccountHolder,owl#onClass
+N78bb7a2635f5441fb2480da9be76df57,owl#Restriction,22-rdf-syntax-ns#type
+appliesToAccount,appliesTo,rdf-schema#subPropertyOf
+CustomerAccount,owl#Class,22-rdf-syntax-ns#type
+N000ee82a61454946a90db294c9dcdb4d,CloseDate,owl#onClass
+CustomerAccountHolder,party that owns a customer account,core#definition
+TransactionSubcategory,Classifier,rdf-schema#subClassOf
+TimeCertificateOfDepositAccount,time certificate of deposit account,rdf-schema#label
+N3cb1b96dfe9843cb8489e33348e7d693,InterestRate,owl#onClass
+N73e544ca942a404ba1169dad554b96f0,isPlayedBy,owl#onProperty
+PostingDate,date that determines in which posting period a document or journal entry is added to an account record,core#definition
+TransactionRecord,N10a61eb6cd504593af80c87a4e6daa96,rdf-schema#subClassOf
+Nd23a60ac9e684147b5b883831898f910,owl#Restriction,22-rdf-syntax-ns#type
+N2c1678dfcf604aadbff632cfcd3ddb6a,N1bc38f91a0494083a8db7b972356f2a4,owl#someValuesFrom
+N78d3fc4572f447088cd1776ba43a99c1,Account,owl#onClass
+hasPaymentDueDate,indicates the date by which payment of some amount must be made to the creditor,core#definition
+AccountAsAnAsset,N34e8836c4881433096297b78f4589f11,rdf-schema#subClassOf
+Nc0eca0a935154503a94e47d256a16089,owl#Class,22-rdf-syntax-ns#type
+Neab29c4594af461e8837326841d0891d,hasTag,owl#onProperty
+,ClientsAndAccounts.rdf version of this ontology was revised to clarify and extend definitions related to non-bank financial institutions.,core#changeNote
+involvesMerchant,owl#ObjectProperty,22-rdf-syntax-ns#type
+appliesToAccount,owl#ObjectProperty,22-rdf-syntax-ns#type
+RelationshipManager,account manager,synonym
+N43e03fb348d64f6792b2ed7e373cac66,1,owl#qualifiedCardinality
+hasPaymentDueDate,has payment due date,rdf-schema#label
+Nb1719f01da064abd8a73800c6d81dce4,classifies,owl#onProperty
+TransactionRecord,transaction record,rdf-schema#label
+BankIdentifier,bank number,synonym
+DemandDepositAccount,demand deposit account,rdf-schema#label
+TimeCertificateOfDepositAccount,"time deposit account that allows deposits evidenced by a negotiable or nonnegotiable instrument, or a deposit in book entry form evidenced by a receipt or similar acknowledgement issued by the bank, that provides, on its face, that the amount of such deposit is payable to the bearer, to any specified person, or to the order of a specified person, as follows: (1) on a certain date not less than seven days after the date of deposit, (2) at the expiration of a specified period not less than seven days after the date of the deposit, or (3) upon written notice to the bank which is to be given not less than seven days before the date of withdrawal.",core#definition
+AccountSpecificServiceAgreement,ServiceAgreement,rdf-schema#subClassOf
+IndividualTransaction,Nd05109089aa547ea9b6108e3a9bbd174,rdf-schema#subClassOf
+TransactionRecordIdentifier,Neab29c4594af461e8837326841d0891d,rdf-schema#subClassOf
+, version of this ontology was modified to support the addition of maturity-related properties to financial instruments.,core#changeNote
+N63022174f67f4745a4a11ae5cc8735ee,Nac367b3aa67a48a0891251cb3e3d177b,22-rdf-syntax-ns#rest
+N06f9295ea5b34729a8a578233302a698,identifies,owl#onProperty
+N43e03fb348d64f6792b2ed7e373cac66,hasContractDuration,owl#onProperty
+N3cb1b96dfe9843cb8489e33348e7d693,hasInterestRate,owl#onProperty
+BankAccountIdentifier,ISO 13616-1:2007 Financial services - International bank account number (IBAN),adaptedFrom
+Account,N814e9f86f907421d9e277c8b4b787895,rdf-schema#subClassOf
+N89d27aaec31c46f79b4a71f2d27e6f6f,isHeldBy,owl#onProperty
+N3366e11e2e7645399f23fb443dc0ce76,owl#Restriction,22-rdf-syntax-ns#type
+InvestmentAccount,InvestmentOrDepositAccount,rdf-schema#subClassOf
+N5c7fe4f1013544d3821c3cd8d9cdf6f1,owl#Restriction,22-rdf-syntax-ns#type
+N8d985ef37c2a467b97e83d36e7ed97a4,Customer,22-rdf-syntax-ns#first
+TimeDepositAccount,owl#Class,22-rdf-syntax-ns#type
+Ne16869a7865f456bbaa136396b1bc483,XMLSchema#string,owl#onDataRange
+AccountAsAnAsset,Necaae456f5584ecb9c1ece528897c609,rdf-schema#subClassOf
+AccountStatement,Ndc4cb9555e984f90a593d02a56542f30,rdf-schema#subClassOf
+Nd23a60ac9e684147b5b883831898f910,1,owl#qualifiedCardinality
+BankAccountIdentifier,owl#Class,22-rdf-syntax-ns#type
+NonTransactionDepositAccount,non-transaction deposit account,rdf-schema#label
+LendingOfficer,RelationshipManager,rdf-schema#subClassOf
+N33d55669804a496faa16eeb2201fdd69,IndividualTransaction,owl#someValuesFrom
+N18e20c1beda649aeac9e60f3a7a16e05,appliesToAccount,22-rdf-syntax-ns#first
+N7d3084cc11fb492eb6544a82e055c397,owl#Restriction,22-rdf-syntax-ns#type
+Nac8b697b748a4ae683ed5a9e822df926,TransactionSubcategory,owl#onClass
+TransactionSubcategory,transaction subcategory,rdf-schema#label
+N9fa03b6357d84192994bf8282ad79180,appliesTo,owl#onProperty
+N57c7023094224b859e0baafe4d58db7a,hasRecord,owl#onProperty
+N10a61eb6cd504593af80c87a4e6daa96,appliesToAccount,owl#onProperty
+PostingDate,posting date,rdf-schema#label
+hasTransactionDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+InvestmentAccount,or securities held at a financial institution,core#definition
+TransactionIdentifier,Identifier,rdf-schema#subClassOf
+AccountAsAnAsset,account as an asset,rdf-schema#label
+N5a5fe4db86124e9f941d914d04a1e331,FinancialInstitution,owl#someValuesFrom
+Na758a42c35344330bc084e90b717710e,1,owl#qualifiedCardinality
+N45e3e996f3924e598204439d3028d68c,PostingDate,owl#onClass
+N3366e11e2e7645399f23fb443dc0ce76,1,owl#qualifiedCardinality
+AccountHolder,"Note that this concept of account holder applies to internal accounts that are non-general ledger accounts also have account holders, such as payroll accounts, internal checking accounts associated with cashier's checks, and so forth.",explanatoryNote
+hasPostingDate,PostingDate,rdf-schema#range
+N7e3bf8fab2bd4273a39232482759ea93,hasOwningParty,owl#onProperty
+RelationshipManager,owl#Class,22-rdf-syntax-ns#type
+N1742d211d4694751b20086d4aa32d3dc,provides,owl#onProperty
+N08f0c2c2abe94115a26f72581e4c8487,BankAccountIdentifier,owl#onClass
+DepositoryInstitution,N1742d211d4694751b20086d4aa32d3dc,rdf-schema#subClassOf
+DepositAccount,InvestmentOrDepositAccount,rdf-schema#subClassOf
+TimeDepositAccount,NonTransactionDepositAccount,rdf-schema#subClassOf
+TransactionDate,owl#Class,22-rdf-syntax-ns#type
+N2c1678dfcf604aadbff632cfcd3ddb6a,owl#Restriction,22-rdf-syntax-ns#type
+involvesMerchant,indicates the merchant (seller) involved in the transaction,core#definition
+BrokerageAccount,brokerage account,rdf-schema#label
+Nac8b697b748a4ae683ed5a9e822df926,0,owl#minQualifiedCardinality
+Nac8b697b748a4ae683ed5a9e822df926,owl#Restriction,22-rdf-syntax-ns#type
+N47ecafacb83043f3b558c21e16ac2812,0,owl#minQualifiedCardinality
+N299332b97f844f1f8a8412b52ca92276,appliesToAccount,owl#onProperty
+hasStartingBalance,owl#ObjectProperty,22-rdf-syntax-ns#type
+N7d3084cc11fb492eb6544a82e055c397,1,owl#qualifiedCardinality
+AccountHolder,An account holder is named on the account and is authorized to conduct transactions associated with the account. Authorization is typically evidenced by signatures maintained on file by the account provider.,explanatoryNote
+hasPrimaryAccountHolder,CustomerAccountHolder,rdf-schema#range
+N00524a5182f54fe1a1814bc7bd922cd9,FinancialInstitution,owl#onClass
+GeneralLedger,accounting record summarizing changes in position as transactions are posted during an accounting period,core#definition
+N08f0c2c2abe94115a26f72581e4c8487,1,owl#qualifiedCardinality
+Nac367b3aa67a48a0891251cb3e3d177b,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N6666608cd7354df7a4fcaf0ef9c98d08,TransactionDate,owl#onClass
+N06f944e719fa4c3592d4501332a79420,ServiceAgreement,owl#someValuesFrom
+OpenDate,ExplicitDate,rdf-schema#subClassOf
+CustomerAccount,"account that represents an identified, named collection of balances and cumulative totals used to summarize customer transaction-related activity over a designated period of time",core#definition
+CustomerAccount,financial service account,synonym
+ContractualProduct,N40a992c4a3674b2880bfe70536527987,rdf-schema#subClassOf
+N85a989ba42204b8b9db3cb5c55503a14,0,owl#minQualifiedCardinality
+InternationalBankAccountIdentifier,N4a0cc99145084ae6a5b488cb3ca93c8f,rdf-schema#subClassOf
+N85a989ba42204b8b9db3cb5c55503a14,owl#Restriction,22-rdf-syntax-ns#type
+CommercialLendingService,owl#Class,22-rdf-syntax-ns#type
+Fee,charge for services performed,core#definition
+N4e673fb3c0db46aaac23388d22323ee2,LedgerAccount,owl#someValuesFrom
+hasEndingBalance,relates an account statement to the amount of money available in that account at the end of the statement period,core#definition
+BankAccountIdentifier,bank account identifier,rdf-schema#label
+AccountAsAnAsset,financial asset in the form of an account,core#definition
+N63022174f67f4745a4a11ae5cc8735ee,BrokerageFirm,22-rdf-syntax-ns#first
+TransactionDepositAccount," transferable instruments, payment orders of withdrawal, telephone transfers, and so forth, and that may be accessible via an electronic device such as an automated teller machine (ATM), remote service unit (RSU), mobile device, and by debit card",core#definition
+,ClientsAndAccounts.rdf version of this ontology was revised to generalize the definition of customer account and eliminate ambiguity in others.,core#changeNote
+Na3df79d3b93d4a2fa2f3708a6f1e492a,AccountAsAnAsset,owl#onClass
+BrokerageAccount,N1d55ec6ccf214557b787ee2b0fea33fe,rdf-schema#subClassOf
+hasTransactionDescription,has transaction description,rdf-schema#label
+Account,N4cb0272390d24f049681424444746010,rdf-schema#subClassOf
+hasPrimaryAccountHolder,CustomerAccount,rdf-schema#domain
+PaymentDueDate,payment due date,rdf-schema#label
+DemandDepositAccount,owl#Class,22-rdf-syntax-ns#type
+hasPaymentDueDate,PaymentDueDate,rdf-schema#range
+TransactionRecordIdentifier,RegistryIdentifier,rdf-schema#subClassOf
+Nb7f3018aeb4b479895bd5a8cdd9399df,hasContractParty,owl#onProperty
+,"ClientsAndAccounts.rdf version of this ontology was revised to add definitions for transaction records, which are needed to represent statements of various sorts, to add the concept of an account statement, and to clean up and augment definitions related to accounts, account holders, etc. as required for the purpose of representing credit card accounts.",core#changeNote
+IndividualTransaction,DatedCollectionConstituent,rdf-schema#subClassOf
+N00524a5182f54fe1a1814bc7bd922cd9,owl#Restriction,22-rdf-syntax-ns#type
+N33d55669804a496faa16eeb2201fdd69,owl#Restriction,22-rdf-syntax-ns#type
+N18e20c1beda649aeac9e60f3a7a16e05,N606b37ac11334051a0e16e4db67062c8,22-rdf-syntax-ns#rest
+hasPrimaryAccountHolder,relates an account to a client or customer that is considered the primary owner of the account,core#definition
+LedgerAccount,ledger account,rdf-schema#label
+N000ee82a61454946a90db294c9dcdb4d,hasCloseDate,owl#onProperty
+hasPrimaryAccountHolder,"Note that for many financial institutions, there must be a client or customer designated as the primary owner. In cases where there is a tax identifier associated with the account, it is that of the primary owner.",explanatoryNote
+N06f5905b079d4130b34e42f4a6e17311,owl#Restriction,22-rdf-syntax-ns#type
+N40a992c4a3674b2880bfe70536527987,owl#Restriction,22-rdf-syntax-ns#type
+N10a61eb6cd504593af80c87a4e6daa96,owl#Restriction,22-rdf-syntax-ns#type
+N78bb7a2635f5441fb2480da9be76df57,1,owl#maxQualifiedCardinality
+hasCloseDate,has close date,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+TransactionSubcategory,CodeElement,rdf-schema#subClassOf
+N06f5905b079d4130b34e42f4a6e17311,TransactionIdentifier,owl#onClass
+CommercialLendingService,FinancialService,rdf-schema#subClassOf
+N47ecafacb83043f3b558c21e16ac2812,owl#Restriction,22-rdf-syntax-ns#type
+N1377c966b15a45ecab5cd6fe04242991,owl#Restriction,22-rdf-syntax-ns#type
+hasStartingBalance,relates an account statement to the amount of money available in that account at the beginning of the statement period,core#definition
+TransactionCategory,CodeElement,rdf-schema#subClassOf
+hasTransactionDescription,IndividualTransaction,rdf-schema#domain
+N85a989ba42204b8b9db3cb5c55503a14,exemplifies,owl#onProperty
+N00524a5182f54fe1a1814bc7bd922cd9,identifies,owl#onProperty
+N7d3084cc11fb492eb6544a82e055c397,XMLSchema#string,owl#onDataRange
+Account,N89d27aaec31c46f79b4a71f2d27e6f6f,rdf-schema#subClassOf
+N7e3bf8fab2bd4273a39232482759ea93,AccountHolder,owl#someValuesFrom
+NonTransactionDepositAccount,"Non-transaction accounts include: (a) savings deposits ((i) money market deposit accounts (MMDAs) and (ii) other savings deposits) and (b) time deposits ((i) time certificates of deposit and (ii) time deposits, open account).",explanatoryNote
+LendingOfficer,owl#Class,22-rdf-syntax-ns#type
+Nd05109089aa547ea9b6108e3a9bbd174,TransactionCategory,owl#onClass
+TransactionDepositAccount,DepositAccount,rdf-schema#subClassOf
+hasPostingDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+OpenDate,open date,rdf-schema#label
+TransactionRecord,N78bb7a2635f5441fb2480da9be76df57,rdf-schema#subClassOf
+DemandDepositAccount,DDA,abbreviation
+N299332b97f844f1f8a8412b52ca92276,owl#Restriction,22-rdf-syntax-ns#type
+N2c1678dfcf604aadbff632cfcd3ddb6a,isPlayedBy,owl#onProperty
+IndividualTransaction,event that has a monetary impact and is documented in the records associated with an account,core#definition
+N3b9ab340668b4ec6a46a5902ba3f70ba,owl#Class,22-rdf-syntax-ns#type
+,"This ontology provides basic concepts such as account, account holder, account provider, relationship manager that are commonly used by financial services providers to describe customers and to determine counterparty identities.",abstract
+hasEndingBalance,Balance,rdf-schema#range
+N30a7d7a92e9c4be9a5af22431d76a322,hasMonetaryAmount,owl#onProperty
+N06f944e719fa4c3592d4501332a79420,owl#Restriction,22-rdf-syntax-ns#type
+N34e8836c4881433096297b78f4589f11,owl#Restriction,22-rdf-syntax-ns#type
+hasTransactionDescription,owl#DatatypeProperty,22-rdf-syntax-ns#type
+N40a992c4a3674b2880bfe70536527987,Contract,owl#someValuesFrom
+InvestmentOrDepositAccount,"The account holder may or may not be entitled to consideration in exchange for providing such funds, for example, interest, depending on the type of account and the terms and conditions associated with it. Also, there may be fees associated with management services provided by the account provider. Note too that this may be an internal account held on behalf of an institution or a customer account.",explanatoryNote
+TransactionRecord,N2d63f4996f24445ea34ba00dd2a8eb53,rdf-schema#subClassOf
+hasSecondaryAccountHolder,has account co-owner,synonym
+AccountingTransaction,accounting transaction,rdf-schema#label
+TransactionRecordIdentifier,unique identifier for record of transactions,core#definition
+AccountHolder,account holder,rdf-schema#label
+hasOpenDate,OpenDate,rdf-schema#range
+TimeDepositOpenAccount,TimeCertificateOfDepositAccount,owl#disjointWith
+N1377c966b15a45ecab5cd6fe04242991,1,owl#qualifiedCardinality
+Nb7f3018aeb4b479895bd5a8cdd9399df,AccountHolder,owl#someValuesFrom
+TransactionDepositAccount,"Excluded from transaction accounts are savings deposits (both money market deposit accounts (MMDAs) and other savings deposits), even though such deposits permit some third-party transfers. However, an account that otherwise meets the definition of a savings deposit but that authorizes or permits the depositor to exceed the transfer limitations specified for that account shall be reported as a transaction account.",explanatoryNote
+TransactionCategory,high-level classifier for an individual transaction,core#definition
+TransactionSubcategory,N33d55669804a496faa16eeb2201fdd69,rdf-schema#subClassOf
+InvestmentOrDepositAccount,investment or deposit account,rdf-schema#label
+,ClientsAndAccounts.rdf version of this ontology was revised to eliminate deprecated elements.,core#changeNote
+Balance,owl#Class,22-rdf-syntax-ns#type
+,ClientsAndAccounts.rdf version of this ontology was revised to change a property on CertificateOfDeposit from has notional amount to has nominal value for the sake of consistency.,core#changeNote
+recordsTransaction,links an account statement to the individual transactions it documents,core#definition
+hasCorrespondingAccount,owl#ObjectProperty,22-rdf-syntax-ns#type
+AccountSpecificServiceAgreement,Nb7f3018aeb4b479895bd5a8cdd9399df,rdf-schema#subClassOf
+hasEndingBalance,AccountStatement,rdf-schema#domain
+NonTransactionDepositAccount,owl#Class,22-rdf-syntax-ns#type
+CustomerAccountHolder,AccountHolder,rdf-schema#subClassOf
+Nc32d26ab64664b8aa1be1197873b86f9,N3b9ab340668b4ec6a46a5902ba3f70ba,owl#someValuesFrom
+Fee,fee,rdf-schema#label
+InternationalBankAccountIdentifier,IBAN,abbreviation
+N8e536dfafac241b08080c7fb526f1098,N66eb23be52684bc8ae9b216c623ce9c1,owl#unionOf
+hasOpenDate,has open date,rdf-schema#label
+AccountIdentifier,account number,synonym
+Nd05109089aa547ea9b6108e3a9bbd174,isClassifiedBy,owl#onProperty
+TransactionSubcategory,"second-level classifier for a transaction, e.g., direct deposit, check, cash advance, withdrawal, payment, purchase, and so forth",core#definition
+Bank,Nb30b190981d74ca189b3fb030c679783,rdf-schema#subClassOf
+N3366e11e2e7645399f23fb443dc0ce76,appliesToAccount,owl#onProperty
+N000ee82a61454946a90db294c9dcdb4d,0,owl#minQualifiedCardinality
+,"ClientsAndAccounts.rdf version of this ontology was revised per the FIBO 2.0 RFC with respect to the definitions for accounts and account identifiers, such as BBAN and IBAN identifiers, including but not limited to bank accounts.",core#changeNote
+hasTransactionDescription,provides a textual description of the transaction,core#definition
+,ClientsAndAccounts.rdf version of this ontology was revised to eliminate the disjointness between a deposit account and investment account to allow for certain portfolio management accounts that have characteristics of both.,core#changeNote
+hasCorrespondingAccount,CreditAgreement,rdf-schema#domain
+AccountSpecificServiceAgreement,owl#Class,22-rdf-syntax-ns#type
+TransactionRecord,"The date a particular transaction record is closed typically corresponds to (and may precede) the date the account is closed, though in the case of certain accounts, such as a credit card account, if a customer is issued a new account or card number due to loss, fraud, or for some other reason, it is possible that multiple transaction records would be associated with the account. In that case, the close date might correspond to the date that a hold was placed on the original account.",usageNote
+AccountStatement,Nddc85cebc2314a9c910974ea122fdd22,rdf-schema#subClassOf
+isLinkedToAccount,CustomerAccount,rdf-schema#range
+Bank,Ndcb39d2996574829a3b84f48ad9f1bb2,rdf-schema#subClassOf
+N06f944e719fa4c3592d4501332a79420,isDefinedIn,owl#onProperty
+N06f9295ea5b34729a8a578233302a698,DemandDepositAccount,owl#onClass
+N78bb7a2635f5441fb2480da9be76df57,TransactionRecordIdentifier,owl#onClass
+hasBalance,has balance,rdf-schema#label
+hasCloseDate,CloseDate,rdf-schema#range
+GeneralLedger,owl#Class,22-rdf-syntax-ns#type
+GeneralLedger,general ledger,rdf-schema#label
+Nedf8c64c01eb44deb4abc59a32393b30,Bank,22-rdf-syntax-ns#first
+PostingDate,owl#Class,22-rdf-syntax-ns#type
+TimeDepositOpenAccount,"time deposit account that allows deposits (other than time certificates of deposit) for which there is in force a written contract with the depositor that neither the whole nor any part of such deposit may be withdrawn prior to (1) the date of maturity, which shall be not less than seven days after the date of the deposit, or (2) the expiration of a specified period of written notice of not less than seven days",core#definition
+,Release,hasMaturityLevel
+CertificateOfDeposit,certificate of deposit,rdf-schema#label
+DepositAccount,account that provides a record of money placed with a depository institution for safekeeping and management,core#definition
+TimeDepositOpenAccount,time deposit open account,rdf-schema#label
+CustomerAccountHolder,owl#Class,22-rdf-syntax-ns#type
+hasPrimaryAccountHolder,has primary account owner,synonym
+AccountHolder,owl#Class,22-rdf-syntax-ns#type
+RelationshipManager,responsible party who manages a client's account and oversees their relationship with the service provider,core#definition
+hasEndingBalance,has ending balance,rdf-schema#label
+IndividualTransaction,N3366e11e2e7645399f23fb443dc0ce76,rdf-schema#subClassOf
+hasSecondaryAccountHolder,owl#ObjectProperty,22-rdf-syntax-ns#type
+N37cbb2153b474e67b277ae317f7e407a,XMLSchema#string,owl#onDataRange
+AccountSpecificServiceAgreement,account-specific service agreement,rdf-schema#label
+BasicBankAccountIdentifier,identifier that uniquely identifies an individual account at a specific financial institution in a particular country and which includes a bank identifier of the financial institution servicing that account,core#definition
+N6dd5de3a0d1d4c3c9053f23f92aa7cad,OpenDate,owl#onClass
+GeneralLedger,N4e673fb3c0db46aaac23388d22323ee2,rdf-schema#subClassOf
+LoanOrCreditAccount,loan or credit account,rdf-schema#label
+AccountingTransaction,owl#Class,22-rdf-syntax-ns#type
+hasPrimaryAccountHolder,has primary account holder,rdf-schema#label
+hasEndingBalance,hasBalance,rdf-schema#subPropertyOf
+hasPrimaryAccountHolder,isHeldBy,rdf-schema#subPropertyOf
+Nf70c22ee4367476a892abd852b05d535,N2db64488b48b45dfa0052f6534c83a7c,22-rdf-syntax-ns#rest
+N82fd3037bb18474faa88969fb47bdb89,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N040cb3bb5946478fbcdf5682732fd35b,LoanOrCreditAccount,owl#onClass
+N0d459de204b648148ca8f997f8fbbfbc,FinancialProduct,22-rdf-syntax-ns#first
+CustomerAccountHolder,N8e536dfafac241b08080c7fb526f1098,rdf-schema#subClassOf
+Ndc4cb9555e984f90a593d02a56542f30,hasReportingPeriod,owl#onProperty
+IndividualTransaction,N30a7d7a92e9c4be9a5af22431d76a322,rdf-schema#subClassOf
+appliesToAccount,indicates the account to which the transaction record or individual transaction applies,core#definition
+AccountStatement,owl#Class,22-rdf-syntax-ns#type
+recordsTransaction,owl#ObjectProperty,22-rdf-syntax-ns#type
+N2db64488b48b45dfa0052f6534c83a7c,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+LedgerAccount,account recorded in a general ledger,core#definition
+InternationalBankAccountIdentifier,BankAccountIdentifier,rdf-schema#subClassOf
+N299332b97f844f1f8a8412b52ca92276,1,owl#qualifiedCardinality
+AccountProvider,owl#Class,22-rdf-syntax-ns#type
+RelationshipManager,relationship manager,rdf-schema#label
+Fee,owl#Class,22-rdf-syntax-ns#type
+Nb30b190981d74ca189b3fb030c679783,CommercialLendingService,owl#someValuesFrom
+N06f5905b079d4130b34e42f4a6e17311,1,owl#maxQualifiedCardinality
+CreditAgreement,owl#Class,22-rdf-syntax-ns#type
+hasTransactionDescription,XMLSchema#string,rdf-schema#range
+isLinkedToAccount,relatesTo,rdf-schema#subPropertyOf
+LedgerAccount,owl#Class,22-rdf-syntax-ns#type
+AccountOwnership,N7e3bf8fab2bd4273a39232482759ea93,rdf-schema#subClassOf
+hasTransactionDate,has transaction date,rdf-schema#label
+N20a7587e85d84253bd7ae8ac773f7a46,DepositoryInstitution,owl#someValuesFrom
+IndividualTransaction,N06f5905b079d4130b34e42f4a6e17311,rdf-schema#subClassOf
+Account,Nf2217c0fddd94b17a55fd624e723542e,rdf-schema#subClassOf
+TransactionDepositAccount,owl#Class,22-rdf-syntax-ns#type
+N1377c966b15a45ecab5cd6fe04242991,comprises,owl#onProperty
+hasPostingDate,has posting date,rdf-schema#label
+TimeCertificateOfDepositAccount,CDA,abbreviation
+N4a0cc99145084ae6a5b488cb3ca93c8f,Alpha2Code,owl#onClass
+TimeDepositOpenAccount,TimeDepositAccount,rdf-schema#subClassOf
+AccountIdentifier,account identifier,rdf-schema#label
+hasPostingDate,indicates the date that the transaction was posted to the account,core#definition
+Nb33a5b7536404dfb9bf06a5734df9079,isProvidedBy,owl#onProperty
+hasCloseDate,hasExplicitDate,rdf-schema#subPropertyOf
+N47ecafacb83043f3b558c21e16ac2812,hasCloseDate,owl#onProperty
+N33d55669804a496faa16eeb2201fdd69,classifies,owl#onProperty
+CommercialLendingService,"Examples include operating lines of credit and term loans for property, plant and equipment (PP&E).",core#example
+PaymentDueDate,"date by which payment of the current outstanding balance, part thereof, or a minimum amount due must be made to the creditor",core#definition
+Ncda936d5f5b9491b987dad1056eeee2e,owl#Restriction,22-rdf-syntax-ns#type
+AccountOwnership,Holding,rdf-schema#subClassOf
+AccountHolder,party that owns an account,core#definition
+N82fd3037bb18474faa88969fb47bdb89,FinancialService,22-rdf-syntax-ns#first
+InternationalBankAccountIdentifier,international bank account identifier,rdf-schema#label
+Nd23a60ac9e684147b5b883831898f910,identifies,owl#onProperty
+Balance,amount of money available or owed,core#definition
+AccountOwnership,holding of an account,core#definition
+CustomerAccount,Nfe81b3a8ea0c4d359a00cb79dbb0dbd3,rdf-schema#subClassOf
+Account,"In general, an account is associated with a contractual relationship between a buyer and seller under which payment may be made at a later time. General ledger accounts are an exception to this, however, and typically do not have account holders, including internal account holders. They may, on the other hand, have responsible parties.",explanatoryNote
+hasTransactionRecordStatus,indicates the status of the transaction record,core#definition
+IndividualTransaction,N85a989ba42204b8b9db3cb5c55503a14,rdf-schema#subClassOf
+Account,container for records associated with a business arrangement for regular transactions and services,core#definition
+Nc816b0f4098549f1bf69fadbd988700d,hasNominalValue,owl#onProperty
+LoanOrCreditAccount,owl#Class,22-rdf-syntax-ns#type
+LendingOfficer,corporate officer that has overarching responsibility for the relationship with a specific borrower or account,core#definition
+appliesToAccount,Account,rdf-schema#range
+DepositAccount,BankingProduct,rdf-schema#subClassOf
+CustomerAccountHolder,N31cd6921ae0c4fdaba04a4f7248cd349,rdf-schema#subClassOf
+Nc32d26ab64664b8aa1be1197873b86f9,isProvidedBy,owl#onProperty
+TimeDepositAccount,"A time deposit from which partial early withdrawals are permitted must impose additional early withdrawal penalties of at least seven days' simple interest on amounts withdrawn within six days after each partial withdrawal. If such additional early withdrawal penalties are not imposed, the account ceases to be a time deposit. The account may become a savings deposit if it meets the requirements for a savings deposit; otherwise it becomes a demand deposit.",explanatoryNote
+hasCloseDate,hasEndDate,rdf-schema#subPropertyOf
+,"ClientsAndAccounts.rdf version of this ontology was revised to reflect the move of certain organization-specific concepts from BE to FND, to incorporate the concept of a composite identifier for BBAN and IBAN definition, loosen the definition of bank identifier with respect to the nature of the functional entity it identifies, and clarify the identifier hierarchy and fix spelling.",core#changeNote
+RelationshipManager,N9be2d00f79c940818de642bfd82bdaf7,rdf-schema#subClassOf
+N08f0c2c2abe94115a26f72581e4c8487,owl#Restriction,22-rdf-syntax-ns#type
+TransactionSubcategory,Na758a42c35344330bc084e90b717710e,rdf-schema#subClassOf
+Na3df79d3b93d4a2fa2f3708a6f1e492a,owl#Restriction,22-rdf-syntax-ns#type
+N814e9f86f907421d9e277c8b4b787895,isIdentifiedBy,owl#onProperty
+N66eb23be52684bc8ae9b216c623ce9c1,N8d985ef37c2a467b97e83d36e7ed97a4,22-rdf-syntax-ns#rest
+isLinkedToAccount,CustomerAccount,rdf-schema#domain
+N1d55ec6ccf214557b787ee2b0fea33fe,Nda07c78517f04d58b49ef03bf5dd32cf,owl#someValuesFrom
+Nbaedeb17604a4689ae3b4a12ed681b30,BasicBankAccountIdentifier,owl#onClass
+TransactionDate,ExplicitDate,rdf-schema#subClassOf
+CloseDate,close date,rdf-schema#label
+N2dfb0ea25e6c4c0ca5a99f385e7702f1,isAPartyTo,owl#onProperty
+IndividualTransaction,Ne16869a7865f456bbaa136396b1bc483,rdf-schema#subClassOf
+BankAccountIdentifier,AccountIdentifier,rdf-schema#subClassOf
+InvestmentOrDepositAccount,owl#Class,22-rdf-syntax-ns#type
+hasSecondaryAccountHolder,has secondary account holder,rdf-schema#label
+Nb30b190981d74ca189b3fb030c679783,owl#Restriction,22-rdf-syntax-ns#type
+IndividualTransaction,Nac8b697b748a4ae683ed5a9e822df926,rdf-schema#subClassOf
+N1d55ec6ccf214557b787ee2b0fea33fe,isProvidedBy,owl#onProperty
+CloseDate,owl#Class,22-rdf-syntax-ns#type
+N6666608cd7354df7a4fcaf0ef9c98d08,owl#Restriction,22-rdf-syntax-ns#type
+CertificateOfDeposit,CashInstrument,rdf-schema#subClassOf
+DepositAccount,N20a7587e85d84253bd7ae8ac773f7a46,rdf-schema#subClassOf
+IndividualTransaction,N6666608cd7354df7a4fcaf0ef9c98d08,rdf-schema#subClassOf
+N502f8b1fca1042b9a2e2e256843e61ac,TransactionRecord,owl#onClass
+Fee,MonetaryAmount,rdf-schema#subClassOf
+Ndc4cb9555e984f90a593d02a56542f30,1,owl#maxQualifiedCardinality
+Na758a42c35344330bc084e90b717710e,XMLSchema#string,owl#onDataRange
+hasSecondaryAccountHolder,CustomerAccountHolder,rdf-schema#range
+LoanOrCreditAccount,"Note that this may be an internal account held on behalf of an institution or a customer account, such as a line of credit account associated with an internal line of business.",explanatoryNote
+N6dd5de3a0d1d4c3c9053f23f92aa7cad,hasOpenDate,owl#onProperty
+BrokerageAccount,account offered by a broker that allows the investor to deposit funds and place investment orders,core#definition
+Ncda936d5f5b9491b987dad1056eeee2e,TransactionRecord,owl#allValuesFrom
+IndividualTransaction,individual transaction,rdf-schema#label
+N44c339c39ee8405e99edfeda4fd9375a,owl#Restriction,22-rdf-syntax-ns#type
+Nddc85cebc2314a9c910974ea122fdd22,Balance,owl#onClass
+N1742d211d4694751b20086d4aa32d3dc,DepositAccount,owl#someValuesFrom
+ContractualProduct,owl#Class,22-rdf-syntax-ns#type
+TransactionRecord,Ne8a5a9c432354f3388cf0e7dc9f7d71f,rdf-schema#subClassOf
+N28ea88aa675047008e084c7a57ace850,Merchant,owl#onClass
+N1a9bc8fea9e149e7a79f54b7396047a3,exemplifies,owl#onProperty
+hasBalance,Balance,rdf-schema#range
+N1d88a823971c4502aa75d37d27d96789,owl#Restriction,22-rdf-syntax-ns#type
+hasTransactionDate,TransactionDate,rdf-schema#range
+N8e536dfafac241b08080c7fb526f1098,owl#Class,22-rdf-syntax-ns#type
+TransactionRecord,N37cbb2153b474e67b277ae317f7e407a,rdf-schema#subClassOf
+TimeCertificateOfDepositAccount,owl#Class,22-rdf-syntax-ns#type
+Nf70c22ee4367476a892abd852b05d535,AccountProvider,22-rdf-syntax-ns#first
+Neab29c4594af461e8837326841d0891d,owl#Restriction,22-rdf-syntax-ns#type
+Balance,MonetaryAmount,rdf-schema#subClassOf
+Nedf8c64c01eb44deb4abc59a32393b30,N63022174f67f4745a4a11ae5cc8735ee,22-rdf-syntax-ns#rest
+,ClientsAndAccounts.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+DepositAccount,"The account holder has the right to withdraw deposited funds, as set forth in the terms and conditions governing the account agreement. Deposit accounts may be insured up to a certain amount, depending on the jurisdiction.",explanatoryNote
+GeneralLedger,Record,rdf-schema#subClassOf
+hasOpenDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasSecondaryAccountHolder,CustomerAccount,rdf-schema#domain
+,ClientsAndAccounts.rdf version of this ontology was revised to rename ownership related properties for consistent alignment with the ownership situational pattern.,core#changeNote
+N2dfb0ea25e6c4c0ca5a99f385e7702f1,Account,owl#someValuesFrom
+N9fa03b6357d84192994bf8282ad79180,Account,owl#someValuesFrom
+CommercialLendingService,service involving the extension of credit to support business activities,core#definition
+Na758a42c35344330bc084e90b717710e,hasTag,owl#onProperty
+N6dd5de3a0d1d4c3c9053f23f92aa7cad,owl#Restriction,22-rdf-syntax-ns#type
+Ndcb39d2996574829a3b84f48ad9f1bb2,DemandDepositAccount,owl#someValuesFrom
+,"Copyright (c) 2015-2024 Object Management Group, Inc.",copyright
+Nbaedeb17604a4689ae3b4a12ed681b30,owl#Restriction,22-rdf-syntax-ns#type
+AccountSpecificServiceAgreement,"service-agreement that is account-specific, applicable in cases where a client might hold multiple accounts with differing terms and conditions",core#definition
+hasTransactionRecordStatus,has transaction record status,rdf-schema#label
+CustomerAccountHolder,customer account holder,rdf-schema#label
+Nc0eca0a935154503a94e47d256a16089,N0d459de204b648148ca8f997f8fbbfbc,owl#unionOf
+IndividualTransaction,N28ea88aa675047008e084c7a57ace850,rdf-schema#subClassOf
+Ncda936d5f5b9491b987dad1056eeee2e,isRegisteredIn,owl#onProperty
+N4a0cc99145084ae6a5b488cb3ca93c8f,owl#Restriction,22-rdf-syntax-ns#type
+TransactionRecord,Registry,rdf-schema#subClassOf
+CloseDate,date on which something was closed,core#definition
+N5a5fe4db86124e9f941d914d04a1e331,isProvidedBy,owl#onProperty
+BrokerageAccount,InvestmentAccount,rdf-schema#subClassOf
+N08f0c2c2abe94115a26f72581e4c8487,comprises,owl#onProperty
+AccountProvider,account provider,rdf-schema#label
+CustomerAccount,N1a9bc8fea9e149e7a79f54b7396047a3,rdf-schema#subClassOf
+TimeDepositAccount,"deposit account that the depositor does not have a right, and is not permitted, to make withdrawals from within six days after the date of deposit unless the deposit is subject to an early withdrawal penalty of at least seven days' simple interest on amounts withdrawn within the first six days after deposit",core#definition
+Nf2217c0fddd94b17a55fd624e723542e,owl#Restriction,22-rdf-syntax-ns#type
+Nb1719f01da064abd8a73800c6d81dce4,owl#Restriction,22-rdf-syntax-ns#type
+Naef22331a9674f6a8b9ae15d5e920943,Account,owl#someValuesFrom
+LoanOrCreditAccount,account associated with a service in which the account holder receives funds from the account provider under certain terms and conditions for repayment,core#definition
+Bank,owl#Class,22-rdf-syntax-ns#type
+hasPaymentDueDate,owl#ObjectProperty,22-rdf-syntax-ns#type
+N7d3084cc11fb492eb6544a82e055c397,hasTag,owl#onProperty
+CustomerAccount,Account,rdf-schema#subClassOf
+AccountStatement,Record,rdf-schema#subClassOf
+DepositoryInstitution,owl#Class,22-rdf-syntax-ns#type
+CustomerAccount,N35537bb0ee0141d99e924cf0eaad0a49,rdf-schema#subClassOf
+Account,N57c7023094224b859e0baafe4d58db7a,rdf-schema#subClassOf
+Ne16869a7865f456bbaa136396b1bc483,hasTransactionDescription,owl#onProperty
+Nddc85cebc2314a9c910974ea122fdd22,hasEndingBalance,owl#onProperty
+N2dfb0ea25e6c4c0ca5a99f385e7702f1,owl#Restriction,22-rdf-syntax-ns#type
+N9fa03b6357d84192994bf8282ad79180,owl#Restriction,22-rdf-syntax-ns#type
+Na3df79d3b93d4a2fa2f3708a6f1e492a,1,owl#qualifiedCardinality
+N3b9ab340668b4ec6a46a5902ba3f70ba,Nf70c22ee4367476a892abd852b05d535,owl#intersectionOf
+Ne16869a7865f456bbaa136396b1bc483,0,owl#minQualifiedCardinality
+N30a7d7a92e9c4be9a5af22431d76a322,owl#Restriction,22-rdf-syntax-ns#type
+Nbaedeb17604a4689ae3b4a12ed681b30,1,owl#qualifiedCardinality
+Nb33a5b7536404dfb9bf06a5734df9079,owl#Restriction,22-rdf-syntax-ns#type
+N5c7fe4f1013544d3821c3cd8d9cdf6f1,AccountProvider,owl#someValuesFrom
+N6dd5de3a0d1d4c3c9053f23f92aa7cad,0,owl#minQualifiedCardinality
+InternationalBankAccountIdentifier,Nbaedeb17604a4689ae3b4a12ed681b30,rdf-schema#subClassOf
+recordsTransaction,N18e20c1beda649aeac9e60f3a7a16e05,owl#propertyChainAxiom
+TransactionCategory,owl#Class,22-rdf-syntax-ns#type
+NonTransactionDepositAccount,TransactionDepositAccount,owl#disjointWith
+N5a5fe4db86124e9f941d914d04a1e331,owl#Restriction,22-rdf-syntax-ns#type
+N4a0cc99145084ae6a5b488cb3ca93c8f,1,owl#qualifiedCardinality
+N1d88a823971c4502aa75d37d27d96789,CertificateOfDeposit,owl#someValuesFrom
+InternationalBankAccountIdentifier,"), which is the ISO registrar for ISO 13616.",explanatoryNote
+Nddc85cebc2314a9c910974ea122fdd22,1,owl#maxQualifiedCardinality
+,MIT,license
+N6666608cd7354df7a4fcaf0ef9c98d08,1,owl#qualifiedCardinality
+involvesMerchant,Merchant,rdf-schema#range
+AccountProvider,N2c1678dfcf604aadbff632cfcd3ddb6a,rdf-schema#subClassOf
+Naef22331a9674f6a8b9ae15d5e920943,owl#Restriction,22-rdf-syntax-ns#type
+N66eb23be52684bc8ae9b216c623ce9c1,Client,22-rdf-syntax-ns#first
+BasicBankAccountIdentifier,BankAccountIdentifier,rdf-schema#subClassOf
+N1bc38f91a0494083a8db7b972356f2a4,isAPartyTo,owl#onProperty
+appliesToAccount,applies to account,rdf-schema#label
+N10a61eb6cd504593af80c87a4e6daa96,Account,owl#onClass
+TimeDepositAccount,time deposit account,rdf-schema#label
+N5f12717a8f65402d863e799ffb21fe7a,hasStartingBalance,owl#onProperty
+Ndcb39d2996574829a3b84f48ad9f1bb2,owl#Restriction,22-rdf-syntax-ns#type
+AccountingTransaction,event recognized by an entry in the records of an account,core#definition
+N1742d211d4694751b20086d4aa32d3dc,owl#Restriction,22-rdf-syntax-ns#type
+Nb7f3018aeb4b479895bd5a8cdd9399df,owl#Restriction,22-rdf-syntax-ns#type
+N30a7d7a92e9c4be9a5af22431d76a322,MonetaryAmount,owl#onClass
+,"ClientsAndAccounts.rdf version of this ontology was revised to add definitions for balance, fee, general ledger, ledger account, income and related properties, revise definitions to be ISO 704 compliant, and eliminate duplication with concepts in LCC.",core#changeNote
+Nc32d26ab64664b8aa1be1197873b86f9,owl#Restriction,22-rdf-syntax-ns#type
+N45e3e996f3924e598204439d3028d68c,hasPostingDate,owl#onProperty
+hasTransactionRecordStatus,owl#DatatypeProperty,22-rdf-syntax-ns#type
+PaymentDueDate,ExplicitDate,rdf-schema#subClassOf
+N4cb0272390d24f049681424444746010,OpenDate,owl#onClass
+AccountIdentifier,N78d3fc4572f447088cd1776ba43a99c1,rdf-schema#subClassOf
+RelationshipManager,ResponsibleParty,rdf-schema#subClassOf
+BankIdentifier,owl#Class,22-rdf-syntax-ns#type
+hasTransactionDate,hasExplicitDate,rdf-schema#subPropertyOf
+hasSecondaryAccountHolder,"relates an account to a client or customer that is considered a secondary, co-owner of the account",core#definition
+TransactionRecord,Record,rdf-schema#subClassOf
+N43e03fb348d64f6792b2ed7e373cac66,Duration,owl#onClass
+TransactionRecord,N47ecafacb83043f3b558c21e16ac2812,rdf-schema#subClassOf
+TransactionCategory,transaction category,rdf-schema#label
+Neab29c4594af461e8837326841d0891d,1,owl#qualifiedCardinality
+Nfe81b3a8ea0c4d359a00cb79dbb0dbd3,isIdentifiedBy,owl#onProperty
+PostingDate,ExplicitDate,rdf-schema#subClassOf
+Ndc4cb9555e984f90a593d02a56542f30,owl#Restriction,22-rdf-syntax-ns#type
+N1d55ec6ccf214557b787ee2b0fea33fe,owl#Restriction,22-rdf-syntax-ns#type
+N299332b97f844f1f8a8412b52ca92276,Account,owl#onClass
+N2db64488b48b45dfa0052f6534c83a7c,FinancialServiceProvider,22-rdf-syntax-ns#first
+Nc816b0f4098549f1bf69fadbd988700d,owl#Restriction,22-rdf-syntax-ns#type
+Ne16869a7865f456bbaa136396b1bc483,owl#Restriction,22-rdf-syntax-ns#type
+BasicBankAccountIdentifier,basic bank account number,synonym
+Balance,balance,rdf-schema#label
+N34e8836c4881433096297b78f4589f11,AccountHolder,owl#someValuesFrom
+N44c339c39ee8405e99edfeda4fd9375a,IndividualTransaction,owl#someValuesFrom
+TransactionCategory,"credit, debit, fee",core#example
+TransactionRecord,N6dd5de3a0d1d4c3c9053f23f92aa7cad,rdf-schema#subClassOf
+Account,account,rdf-schema#label
+InvestmentAccount,owl#Class,22-rdf-syntax-ns#type
+BankAccountIdentifier,N06f9295ea5b34729a8a578233302a698,rdf-schema#subClassOf
+BankIdentifier,ISO 13616-1:2007 Financial services - International bank account number (IBAN),adaptedFrom
+AccountProvider,ServiceProvider,rdf-schema#subClassOf
+BasicBankAccountIdentifier,BBAN,abbreviation
+Nfe81b3a8ea0c4d359a00cb79dbb0dbd3,AccountIdentifier,owl#someValuesFrom
+TransactionCategory,N7d3084cc11fb492eb6544a82e055c397,rdf-schema#subClassOf
+Nc816b0f4098549f1bf69fadbd988700d,MonetaryAmount,owl#onClass
+CustomerAccount,N06f944e719fa4c3592d4501332a79420,rdf-schema#subClassOf
+N814e9f86f907421d9e277c8b4b787895,owl#Restriction,22-rdf-syntax-ns#type
+N814e9f86f907421d9e277c8b4b787895,0,owl#minQualifiedCardinality
+N34e8836c4881433096297b78f4589f11,isAssetOf,owl#onProperty
+hasOpenDate,hasStartDate,rdf-schema#subPropertyOf
+InvestmentOrDepositAccount,account associated with a product or service that requires the account holder to provide funds for management by the account provider,core#definition
+,ClientsAndAccounts.rdf version of this ontology was revised to reflect the move of hasTerm from FinancialInstruments to Contracts and add the definition of a lending officer.,core#changeNote
+Nac367b3aa67a48a0891251cb3e3d177b,FuturesCommissionMerchant,22-rdf-syntax-ns#first
+InternationalBankAccountIdentifier,StructuredIdentifier,rdf-schema#subClassOf
+N06f9295ea5b34729a8a578233302a698,owl#Restriction,22-rdf-syntax-ns#type
+NonTransactionDepositAccount,any deposit account that is not explicitly considered a transaction account,core#definition
+TransactionDate,date on which a specific transaction was initiated,core#definition
+N57c7023094224b859e0baafe4d58db7a,TransactionRecord,owl#onClass
+TimeCertificateOfDepositAccount,TimeDepositAccount,rdf-schema#subClassOf
+Balance,"The balance is the net amount after factoring in all debits and credits, including service charges and fees.",explanatoryNote
+Nbaedeb17604a4689ae3b4a12ed681b30,comprises,owl#onProperty
+AccountStatement,periodic summary of account activity for a given period of time,core#definition
+N1377c966b15a45ecab5cd6fe04242991,BankIdentifier,owl#onClass
+hasBalance,owl#ObjectProperty,22-rdf-syntax-ns#type
+,ClientsAndAccounts.rdf version of this ontology was revised to link a credit agreement with an account and loosen transaction-related constraints such that the notion of a transaction can be applied to credit agreements generally.,core#changeNote
+N30a7d7a92e9c4be9a5af22431d76a322,1,owl#qualifiedCardinality
+Nc816b0f4098549f1bf69fadbd988700d,1,owl#qualifiedCardinality
+BankIdentifier,N00524a5182f54fe1a1814bc7bd922cd9,rdf-schema#subClassOf
+AccountStatement,N5f12717a8f65402d863e799ffb21fe7a,rdf-schema#subClassOf
+AccountStatement,N44c339c39ee8405e99edfeda4fd9375a,rdf-schema#subClassOf
+AccountHolder,N842b84e496bc45028a2d6e77f496df87,rdf-schema#subClassOf
+AccountIdentifier,identifier that denotes an account,core#definition
+N4a0cc99145084ae6a5b488cb3ca93c8f,comprises,owl#onProperty
+CloseDate,ExplicitDate,rdf-schema#subClassOf
+Necaae456f5584ecb9c1ece528897c609,Account,owl#someValuesFrom
+N2d63f4996f24445ea34ba00dd2a8eb53,IndividualTransaction,owl#onClass
+N1a9bc8fea9e149e7a79f54b7396047a3,Nc0eca0a935154503a94e47d256a16089,owl#someValuesFrom
+Nb30b190981d74ca189b3fb030c679783,provides,owl#onProperty
+N000ee82a61454946a90db294c9dcdb4d,owl#Restriction,22-rdf-syntax-ns#type
+InvestmentAccount,"The typical objectives of an investment account are to achieve long term growth, income or capital preservation from the deposited asset portfolio. Investment accounts are typically not insured.",explanatoryNote
+Nb1719f01da064abd8a73800c6d81dce4,IndividualTransaction,owl#someValuesFrom
+,,owl#imports
+Neab29c4594af461e8837326841d0891d,XMLSchema#string,owl#onDataRange
+isLinkedToAccount,connects a given customer account to another customer account,core#definition
+N28ea88aa675047008e084c7a57ace850,involvesMerchant,owl#onProperty
+N40a992c4a3674b2880bfe70536527987,isExemplifiedBy,owl#onProperty
+N28ea88aa675047008e084c7a57ace850,0,owl#minQualifiedCardinality
+N3366e11e2e7645399f23fb443dc0ce76,Account,owl#onClass
+InternationalBankAccountIdentifier,IEC 7064 (MOD97-10).,explanatoryNote
+involvesMerchant,involves merchant,rdf-schema#label
+AccountIdentifier,RegistryIdentifier,rdf-schema#subClassOf
+N35537bb0ee0141d99e924cf0eaad0a49,owl#Restriction,22-rdf-syntax-ns#type
+LoanOrCreditAccount,InvestmentOrDepositAccount,owl#disjointWith
+TimeCertificateOfDepositAccount,N1d88a823971c4502aa75d37d27d96789,rdf-schema#subClassOf
+CertificateOfDeposit,When the term is over it can be withdrawn or it can be held for another term. The longer the term the better the yield on the money.,explanatoryNote
+,"Copyright (c) 2015-2024 EDM Council, Inc.",copyright
+CertificateOfDeposit,N3cb1b96dfe9843cb8489e33348e7d693,rdf-schema#subClassOf
+hasPrimaryAccountHolder,owl#ObjectProperty,22-rdf-syntax-ns#type
+hasCorrespondingAccount,relatesTo,rdf-schema#subPropertyOf
+hasTransactionRecordStatus,XMLSchema#string,rdf-schema#range
+BankIdentifier,FinancialServiceProviderIdentifier,rdf-schema#subClassOf
+AccountOwnership,owl#Class,22-rdf-syntax-ns#type
+AccountingTransaction,TransactionEvent,rdf-schema#subClassOf
+DepositAccount,deposit account,rdf-schema#label
+Nb33a5b7536404dfb9bf06a5734df9079,AccountProvider,owl#someValuesFrom
+TransactionCategory,Classifier,rdf-schema#subClassOf
+N2d63f4996f24445ea34ba00dd2a8eb53,0,owl#minQualifiedCardinality
+N4e673fb3c0db46aaac23388d22323ee2,owl#Restriction,22-rdf-syntax-ns#type
+N5f12717a8f65402d863e799ffb21fe7a,Balance,owl#onClass
+N040cb3bb5946478fbcdf5682732fd35b,hasCorrespondingAccount,owl#onProperty
+OpenDate,date on which something was created,core#definition
+N4cb0272390d24f049681424444746010,hasOpenDate,owl#onProperty
+Necaae456f5584ecb9c1ece528897c609,owl#Restriction,22-rdf-syntax-ns#type
+Nddc85cebc2314a9c910974ea122fdd22,owl#Restriction,22-rdf-syntax-ns#type
+AccountStatement,LegalDocument,rdf-schema#subClassOf
+N78d3fc4572f447088cd1776ba43a99c1,owl#Restriction,22-rdf-syntax-ns#type
+N35537bb0ee0141d99e924cf0eaad0a49,CustomerAccountHolder,owl#someValuesFrom
+BankIdentifier,"identifier that uniquely identifies the financial institution and, when appropriate, the branch of that financial institution servicing an account",core#definition
+CreditAgreement,N040cb3bb5946478fbcdf5682732fd35b,rdf-schema#subClassOf
+N74f34129e0614403b8006ceb8126c9fa,isPlayedBy,owl#onProperty
+BasicBankAccountIdentifier,owl#Class,22-rdf-syntax-ns#type
+N1a9bc8fea9e149e7a79f54b7396047a3,owl#Restriction,22-rdf-syntax-ns#type
+hasStartingBalance,has starting balance,rdf-schema#label
+N1bc38f91a0494083a8db7b972356f2a4,owl#Restriction,22-rdf-syntax-ns#type
+hasEndingBalance,owl#ObjectProperty,22-rdf-syntax-ns#type
+DemandDepositAccount,"non-interest-bearing deposit account in which deposits are payable immediately on demand, or that are issued with an original maturity or required notice period of less than seven days, or that represent funds for which the depository institution does not reserve the right to require at least seven days' written notice of an intended withdrawal",core#definition
+N37cbb2153b474e67b277ae317f7e407a,hasTransactionRecordStatus,owl#onProperty
+AccountSpecificServiceAgreement,N9fa03b6357d84192994bf8282ad79180,rdf-schema#subClassOf
+Ndc4cb9555e984f90a593d02a56542f30,ExplicitDatePeriod,owl#onClass
+N9be2d00f79c940818de642bfd82bdaf7,manages,owl#onProperty
+CertificateOfDeposit,owl#Class,22-rdf-syntax-ns#type
+Account,N000ee82a61454946a90db294c9dcdb4d,rdf-schema#subClassOf
+N4cb0272390d24f049681424444746010,owl#Restriction,22-rdf-syntax-ns#type
+recordsTransaction,records transaction,rdf-schema#label
+N06f9295ea5b34729a8a578233302a698,1,owl#qualifiedCardinality
+NonTransactionDepositAccount,DepositAccount,rdf-schema#subClassOf
+IndividualTransaction,N45e3e996f3924e598204439d3028d68c,rdf-schema#subClassOf
+TransactionIdentifier,owl#Class,22-rdf-syntax-ns#type
+N78d3fc4572f447088cd1776ba43a99c1,identifies,owl#onProperty
+IndividualTransaction,Ncda936d5f5b9491b987dad1056eeee2e,rdf-schema#subClassOf
+BasicBankAccountIdentifier,ISO 13616-1:2007 Financial services - International bank account number (IBAN),adaptedFrom
+TransactionRecordIdentifier,owl#Class,22-rdf-syntax-ns#type
+N842b84e496bc45028a2d6e77f496df87,Account,owl#someValuesFrom
+N57c7023094224b859e0baafe4d58db7a,0,owl#minQualifiedCardinality
+InternationalBankAccountIdentifier,owl#Class,22-rdf-syntax-ns#type
+BankAccountIdentifier,bank account number,synonym
+N57c7023094224b859e0baafe4d58db7a,owl#Restriction,22-rdf-syntax-ns#type
+N2d63f4996f24445ea34ba00dd2a8eb53,owl#Restriction,22-rdf-syntax-ns#type
+CertificateOfDeposit,cash instrument associated with a time deposit account that cannot be withdrawn for a certain period of time (term),core#definition
+N78d3fc4572f447088cd1776ba43a99c1,1,owl#qualifiedCardinality
+N814e9f86f907421d9e277c8b4b787895,AccountIdentifier,owl#onClass
+InvestmentAccount,N5a5fe4db86124e9f941d914d04a1e331,rdf-schema#subClassOf
+N040cb3bb5946478fbcdf5682732fd35b,0,owl#minQualifiedCardinality
+TransactionRecord,owl#Class,22-rdf-syntax-ns#type
+CertificateOfDeposit,N43e03fb348d64f6792b2ed7e373cac66,rdf-schema#subClassOf
+Nda07c78517f04d58b49ef03bf5dd32cf,Nedf8c64c01eb44deb4abc59a32393b30,owl#unionOf
+N85a989ba42204b8b9db3cb5c55503a14,TransactionEvent,owl#onClass
+N8a5b51a7e1c94cf080f110a9d7ccab8c,hasRegistryEntry,22-rdf-syntax-ns#first
+N6666608cd7354df7a4fcaf0ef9c98d08,hasTransactionDate,owl#onProperty
+Ndcb39d2996574829a3b84f48ad9f1bb2,provides,owl#onProperty
+N78bb7a2635f5441fb2480da9be76df57,isIdentifiedBy,owl#onProperty
+InternationalBankAccountIdentifier,ISO 13616-1:2007 Financial services - International bank account number (IBAN),adaptedFrom
+Nfe81b3a8ea0c4d359a00cb79dbb0dbd3,owl#Restriction,22-rdf-syntax-ns#type
+hasTransactionDate,indicates the date on which the transaction actually occurred,core#definition
+N842b84e496bc45028a2d6e77f496df87,owl#Restriction,22-rdf-syntax-ns#type
+isLinkedToAccount,is linked to account,rdf-schema#label
+AccountSpecificServiceAgreement,"Customers of financial service providers frequently hold multiple accounts - brokerage accounts, checking and savings accounts, trust accounts, and so forth - which may have specific terms and conditions associated with them.",explanatoryNote
+AccountAsAnAsset,FinancialAsset,rdf-schema#subClassOf
+TransactionRecord,DatedStructuredCollection,rdf-schema#subClassOf
+TransactionRecord,record of transactions associated with an account,core#definition
+InvestmentAccount,investment account,rdf-schema#label
+N35537bb0ee0141d99e924cf0eaad0a49,isHeldBy,owl#onProperty
+,ClientsAndAccounts.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.,core#changeNote
+LoanOrCreditAccount,Account,rdf-schema#subClassOf
+N73e544ca942a404ba1169dad554b96f0,Naef22331a9674f6a8b9ae15d5e920943,owl#someValuesFrom
+BasicBankAccountIdentifier,N1377c966b15a45ecab5cd6fe04242991,rdf-schema#subClassOf
+Account,Nb33a5b7536404dfb9bf06a5734df9079,rdf-schema#subClassOf
+N502f8b1fca1042b9a2e2e256843e61ac,owl#Restriction,22-rdf-syntax-ns#type
+Ne8a5a9c432354f3388cf0e7dc9f7d71f,AccountProvider,owl#onClass
+TransactionRecordIdentifier,transaction record identifier,rdf-schema#label
+AccountHolder,N74f34129e0614403b8006ceb8126c9fa,rdf-schema#subClassOf
+AccountAsAnAsset,owl#Class,22-rdf-syntax-ns#type
+LendingOfficer,CorporateOfficer,rdf-schema#subClassOf
+N9be2d00f79c940818de642bfd82bdaf7,Account,owl#someValuesFrom
+DemandDepositAccount,"Demand deposits include any matured time deposits without automatic renewal provisions, unless the deposit agreement provides for the funds to be transferred at maturity to another type of account. Demand deposits do not include: (i) money market deposit accounts (MMDAs) or (ii) NOW accounts.",explanatoryNote
+N89d27aaec31c46f79b4a71f2d27e6f6f,0,owl#minQualifiedCardinality
+Nf2217c0fddd94b17a55fd624e723542e,Balance,owl#someValuesFrom
+InternationalBankAccountIdentifier,"For an account in Switzerland, suppose that an example domestic account number is 762 1162-3852.957. Suppose further that the bank identifier portion of that domestic account number is 762, or normalized for the BBAN is '00762'. For that example, the corresponding BBAN is '00762011623852957' and IBAN is 'CH9300762011623852957'.",core#example
+AccountStatement,N299332b97f844f1f8a8412b52ca92276,rdf-schema#subClassOf
+N7e3bf8fab2bd4273a39232482759ea93,owl#Restriction,22-rdf-syntax-ns#type
+hasCorrespondingAccount,LoanOrCreditAccount,rdf-schema#range
+CertificateOfDeposit,CD,abbreviation
+LedgerAccount,Account,rdf-schema#subClassOf
+hasBalance,hasMonetaryAmount,rdf-schema#subPropertyOf
+BasicBankAccountIdentifier,basic bank account identifier,rdf-schema#label
+N37cbb2153b474e67b277ae317f7e407a,owl#Restriction,22-rdf-syntax-ns#type

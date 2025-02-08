@@ -1,0 +1,105 @@
+id,type,name
+assetsManagedBy,Entity,assetsManagedBy
+N18d94379c290421abc0178b0db2394df,Entity,N18d94379c290421abc0178b0db2394df
+simulated by,Entity,simulated by
+N646b8ddf6dd344b6b079e57f7dc025a2,Entity,N646b8ddf6dd344b6b079e57f7dc025a2
+hasInvestmentGrade,Entity,hasInvestmentGrade
+synthetic c d o,Entity,synthetic c d o
+SyntheticDebtInstrumentPool,Entity,SyntheticDebtInstrumentPool
+N38810007c2164eba81f289b6d431bbd8,Entity,N38810007c2164eba81f289b6d431bbd8
+owl#Restriction,Entity,owl#Restriction
+SyntheticCDO,Entity,SyntheticCDO
+Synthetic instruments can be created to mimic a wide range of debt instruments. These are not all shown here. This one is shown as an example,Entity,Synthetic instruments can be created to mimic a wide range of debt instruments. These are not all shown here. This one is shown as an example
+CDOTrancheSenioritySelection,Entity,CDOTrancheSenioritySelection
+has underlying contract,Entity,has underlying contract
+"An instrument which is defined as a constituent of a synthetic pool of instruments. These are not holdings because they are not held, but in all other respects they are the constituents of the portfolio.",Entity,"An instrument which is defined as a constituent of a synthetic pool of instruments. These are not holdings because they are not held, but in all other respects they are the constituents of the portfolio."
+has investment grade,Entity,has investment grade
+simulatedBy,Entity,simulatedBy
+notionallyHolds,Entity,notionallyHolds
+percentage of defaults this tranche,Entity,percentage of defaults this tranche
+funded by,Entity,funded by
+FinancialAsset,Entity,FinancialAsset
+synthetic amortizing security,Entity,synthetic amortizing security
+"From April 28 review session: CDS mechanization: Q: Are the CDS taken out on the constituents of the (non owned) pool or on some other instrument? A: There is funding to underpin the pool. The funding may be high grade debt or may be low grade. There is an undedrlying source of funds. then you swap (using CDS) into other risks. so I might lend to a government institution, and then sell protection against a whole series of corporates. So I've taken the high quality portfolio and added other risks to it. Or the other way round. conclusions:",Entity,"From April 28 review session: CDS mechanization: Q: Are the CDS taken out on the constituents of the (non owned) pool or on some other instrument? A: There is funding to underpin the pool. The funding may be high grade debt or may be low grade. There is an undedrlying source of funds. then you swap (using CDS) into other risks. so I might lend to a government institution, and then sell protection against a whole series of corporates. So I've taken the high quality portfolio and added other risks to it. Or the other way round. conclusions:"
+"The percentage of defaults which holders of this are exposed to, that is the percentage of defaults that this tranche represents. Further Notes Review session notes 21 April: The first, second and so on, to stop paying out when there is a default. In each case you get the first, second etc. x% of defaults. Base underlying may be high or low quality. Create the pool by buying or selling protection depending on hich way you want to go, e..g. have high quality funds, (borrowers), would sell protection. If low quality, would buy protection to improve quality. So risk is no longer bound to the funding. REVIEW: More likely this is a band of percentages (from and to); review and formalize. See also note on attachment and detachment points.",Entity,"The percentage of defaults which holders of this are exposed to, that is the percentage of defaults that this tranche represents. Further Notes Review session notes 21 April: The first, second and so on, to stop paying out when there is a default. In each case you get the first, second etc. x% of defaults. Base underlying may be high or low quality. Create the pool by buying or selling protection depending on hich way you want to go, e..g. have high quality funds, (borrowers), would sell protection. If low quality, would buy protection to improve quality. So risk is no longer bound to the funding. REVIEW: More likely this is a band of percentages (from and to); review and formalize. See also note on attachment and detachment points."
+synthetic c d o portfolio constituent,Entity,synthetic c d o portfolio constituent
+SyntheticStructuredFinanceInstrument,Entity,SyntheticStructuredFinanceInstrument
+"For arbitrage synthetic deals, two advantages are - an abbreviated ramp-up period (for managed deals), and - the possibility that selling protection through CDSs can be less expensive than directly buying the underlying bonds. This is often true at the lower end of the credit spectrum.",Entity,"For arbitrage synthetic deals, two advantages are - an abbreviated ramp-up period (for managed deals), and - the possibility that selling protection through CDSs can be less expensive than directly buying the underlying bonds. This is often true at the lower end of the credit spectrum."
+trancheType,Entity,trancheType
+owl#DatatypeProperty,Entity,owl#DatatypeProperty
+CDOPortfolioManager,Entity,CDOPortfolioManager
+synthetic pool asset,Entity,synthetic pool asset
+MIT,Entity,MIT
+SyntheticCDOTranche,Entity,SyntheticCDOTranche
+N9d110bc674c3499396d8600d20d24b31,Entity,N9d110bc674c3499396d8600d20d24b31
+synthetic debt instrument pool,Entity,synthetic debt instrument pool
+percentageOfDefaultsThisTranche,Entity,percentageOfDefaultsThisTranche
+"REVIEW: Whether this is (or is ever) a separate SPV for Synthetics, as it is for Cash CDO and other Cash structured finance. If not, how to define the facts at the level of SPV without contradictions. Moving stuff off the balance sheet is involved in putting it into the SPV. So talking a bout balance sheet or off balanc sheet, this is about creating the pool which is going to be sold off. This applies whether hte pool is cash (real holdings) or synthetics. Either way ,the instruments are transferred into the CPV to sell them off. conclusion: applies to cash and non cash. In the old days there were all sorts of guarantees added to that SPOV. Now if you provide support to that =SPV it is no longer ""Off balance sheet"" froma regulatory point of view. Accounting rules refer.",Entity,"REVIEW: Whether this is (or is ever) a separate SPV for Synthetics, as it is for Cash CDO and other Cash structured finance. If not, how to define the facts at the level of SPV without contradictions. Moving stuff off the balance sheet is involved in putting it into the SPV. So talking a bout balance sheet or off balanc sheet, this is about creating the pool which is going to be sold off. This applies whether hte pool is cash (real holdings) or synthetics. Either way ,the instruments are transferred into the CPV to sell them off. conclusion: applies to cash and non cash. In the old days there were all sorts of guarantees added to that SPOV. Now if you provide support to that =SPV it is no longer ""Off balance sheet"" froma regulatory point of view. Accounting rules refer."
+simulates,Entity,simulates
+N2ff0d7d15c9743eaa6159d046329d1da,Entity,N2ff0d7d15c9743eaa6159d046329d1da
+refersTo,Entity,refersTo
+SyntheticDebtSPV,Entity,SyntheticDebtSPV
+"Arbitrage synthetic CDO deals are motivated by regulatory or practical considerations that might make a bank want to retain ownership of debt while achieving capital relief through CDSs. In this case, the sponsoring bank has a portfolio of obligations, called the reference portfolio. It retains that portfolio, but offloads its credit risk by transacting CDSs with the CDO.",Entity,"Arbitrage synthetic CDO deals are motivated by regulatory or practical considerations that might make a bank want to retain ownership of debt while achieving capital relief through CDSs. In this case, the sponsoring bank has a portfolio of obligations, called the reference portfolio. It retains that portfolio, but offloads its credit risk by transacting CDSs with the CDO."
+"A Special Purpose Vehicle set up for the issuance of synthetics CDOs. This entity (like all SPVs) its itself registered as some kind of legal entity, distinct from the sponsoring organization. It becomes the Issuer of Synthetic CDO issues.",Entity,"A Special Purpose Vehicle set up for the issuance of synthetics CDOs. This entity (like all SPVs) its itself registered as some kind of legal entity, distinct from the sponsoring organization. It becomes the Issuer of Synthetic CDO issues."
+ArbitrageSyntheticCDO,Entity,ArbitrageSyntheticCDO
+SyntheticDebtInstrumentPoolFundingAsset,Entity,SyntheticDebtInstrumentPoolFundingAsset
+fundedBy,Entity,fundedBy
+N4a5d1fa4b4af46a981654687facfcb7d,Entity,N4a5d1fa4b4af46a981654687facfcb7d
+tranche type,Entity,tranche type
+owl#ObjectProperty,Entity,owl#ObjectProperty
+ArbitrageCDO,Entity,ArbitrageCDO
+notionally holds,Entity,notionally holds
+isTrancheOf,Entity,isTrancheOf
+SyntheticPoolAsset,Entity,SyntheticPoolAsset
+Percentage,Entity,Percentage
+synthetic balance sheet c d o,Entity,synthetic balance sheet c d o
+assets managed by,Entity,assets managed by
+" ABS using Total Returns Swaps and CDS. This does exist, it is just manufactured from different instruments.",Entity," ABS using Total Returns Swaps and CDS. This does exist, it is just manufactured from different instruments."
+InstrumentCreditRating,Entity,InstrumentCreditRating
+N708bd2a4ae444246b09ed4ba17d76026,Entity,N708bd2a4ae444246b09ed4ba17d76026
+synthetic debt instrument pool funding asset,Entity,synthetic debt instrument pool funding asset
+BalanceSheetCDO,Entity,BalanceSheetCDO
+issues,Entity,issues
+synthetic structured finance instrument,Entity,synthetic structured finance instrument
+holds,Entity,holds
+isCash,Entity,isCash
+"Synthetic collateralized debt obligations are instruments designed to provide the same kind of structure and returns as a CDO, but these are not backed by an actual pool of debt assets.",Entity,"Synthetic collateralized debt obligations are instruments designed to provide the same kind of structure and returns as a CDO, but these are not backed by an actual pool of debt assets."
+CashCDOTranche,Entity,CashCDOTranche
+synthetic c d o tranche,Entity,synthetic c d o tranche
+SpecialPurposeVehicle,Entity,SpecialPurposeVehicle
+SyntheticAmortizingSecurity,Entity,SyntheticAmortizingSecurity
+arbitrage synthetic c d o,Entity,arbitrage synthetic c d o
+is tranche of,Entity,is tranche of
+,Entity,
+"An asset which provides the funding for a synthetic debt instrument pool, as used in a synthetic CDO.",Entity,"An asset which provides the funding for a synthetic debt instrument pool, as used in a synthetic CDO."
+Review notes: What real stuff is this made of? Would be the actual contracts (the Ref Obligation contracts or the CDS contract)? Buyer of protection is buying protection and paying a fee. Similar to shorting on a stock. Seller of the protection is the one creating the instruments. So the Protection Seller is using the synthetic CDO as some kind of synthetic vehicle. Inside the portfolio is the actual contract that generates the cash.,Entity,Review notes: What real stuff is this made of? Would be the actual contracts (the Ref Obligation contracts or the CDS contract)? Buyer of protection is buying protection and paying a fee. Similar to shorting on a stock. Seller of the protection is the one creating the instruments. So the Protection Seller is using the synthetic CDO as some kind of synthetic vehicle. Inside the portfolio is the actual contract that generates the cash.
+N86197e47e6b44088bcf0420a4044f433,Entity,N86197e47e6b44088bcf0420a4044f433
+Na777c17bfff74d49a3748adc200802e0,Entity,Na777c17bfff74d49a3748adc200802e0
+N1f1e52d982d0448d9b5f2826d0ee89b7,Entity,N1f1e52d982d0448d9b5f2826d0ee89b7
+The underlying CDS which is created to mechanise the cash flows in the synthetic portfolio.,Entity,The underlying CDS which is created to mechanise the cash flows in the synthetic portfolio.
+Na462e46033f84498bfaed7fa9d2b45ce,Entity,Na462e46033f84498bfaed7fa9d2b45ce
+synthetic c d o portfolio,Entity,synthetic c d o portfolio
+CDODeal,Entity,CDODeal
+hasUnderlyingContract,Entity,hasUnderlyingContract
+XMLSchema#boolean,Entity,XMLSchema#boolean
+Whether the CDO has an underlying pool of real assets. This is No: the CDO has a synthetic pool of underlying assets.,Entity,Whether the CDO has an underlying pool of real assets. This is No: the CDO has a synthetic pool of underlying assets.
+is cash,Entity,is cash
+Provisional,Entity,Provisional
+StructuredFinanceInstrument,Entity,StructuredFinanceInstrument
+CollateralizedDebtObligation,Entity,CollateralizedDebtObligation
+DebtPool,Entity,DebtPool
+N6a22a4a6842240d8990d8ceb9305334c,Entity,N6a22a4a6842240d8990d8ceb9305334c
+N993429ebd74a4b6085e8808d6155e7b3,Entity,N993429ebd74a4b6085e8808d6155e7b3
+"Copyright (c) 2015-2023 EDM Council, Inc.",Entity,"Copyright (c) 2015-2023 EDM Council, Inc."
+makesReferenceTo,Entity,makesReferenceTo
+makes reference to,Entity,makes reference to
+SyntheticCDOPortfolio,Entity,SyntheticCDOPortfolio
+owl#Class,Entity,owl#Class
+synthetic debt s p v,Entity,synthetic debt s p v
+SyntheticCDOs,Entity,SyntheticCDOs
+SyntheticBalanceSheetCDO,Entity,SyntheticBalanceSheetCDO
+CreditDefaultSwap,Entity,CreditDefaultSwap
+SyntheticCDOPortfolioConstituent,Entity,SyntheticCDOPortfolioConstituent
+owl#Ontology,Entity,owl#Ontology
+simulates.1,Entity,simulates.1
+Security constructed to emulate an amortizing security.,Entity,Security constructed to emulate an amortizing security.

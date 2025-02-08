@@ -1,0 +1,167 @@
+source_id,target_id,relationship
+CreditCardReceivablePurpose,owl#Class,22-rdf-syntax-ns#type
+MortgageProduct,mortgage product,rdf-schema#label
+WorkingCapitalPurpose,working capital purpose,rdf-schema#label
+LoanPurpose,Objective,rdf-schema#subClassOf
+N0b44dbbdfe024a9b806e1ae897f52cbb,owl#Restriction,22-rdf-syntax-ns#type
+LineItem,owl#Class,22-rdf-syntax-ns#type
+N0b44dbbdfe024a9b806e1ae897f52cbb,isClassifiedBy,owl#onProperty
+Ndf40d9c4298a46e8975d7f2d805f0886,isExemplifiedBy,owl#onProperty
+LoanMarketCategory-Education,LoanMarketCategory,22-rdf-syntax-ns#type
+LoanMarketCategory-Construction,LoanMarketCategory,22-rdf-syntax-ns#type
+LoanMarketCategory-Commercial,owl#NamedIndividual,22-rdf-syntax-ns#type
+Na9f8623b957a432c93fa4438fbc547e7,owl#Class,22-rdf-syntax-ns#type
+Loan,owl#Class,22-rdf-syntax-ns#type
+Nbf73c8cacf0940caa0d105e65d396c1d,owl#Restriction,22-rdf-syntax-ns#type
+hasPreconditions,has preconditions,rdf-schema#label
+Ndf40d9c4298a46e8975d7f2d805f0886,0,owl#minQualifiedCardinality
+Ndf40d9c4298a46e8975d7f2d805f0886,owl#Restriction,22-rdf-syntax-ns#type
+LoanProduct,financial product that is realized as a loan that a party may acquire from a lending institution with specific characteristics and terms,core#definition
+hasPreconditions,ConditionPrecedent,rdf-schema#range
+LoanProductRepresentations,owl#Class,22-rdf-syntax-ns#type
+LoanMarketCategory-Automobile,LoanMarketCategory,22-rdf-syntax-ns#type
+BridgingLoanPurpose,LoanPurpose,rdf-schema#subClassOf
+OverdraftFacilityPurpose,LoanPurpose,rdf-schema#subClassOf
+LoanProduct,Nae90bd3975154e14a0c19b3120d4c82a,rdf-schema#subClassOf
+N36dba12d06344c3080b937fd6923bdf7,Loan,owl#onClass
+LineItem,N81a5d2d5ef95407da3d06ad80a71aa61,rdf-schema#subClassOf
+AutoLoanPurpose,auto loan purpose,rdf-schema#label
+OverdraftFacilityPurpose,overdraft facility purpose,rdf-schema#label
+BridgingLoanPurpose,owl#Class,22-rdf-syntax-ns#type
+LineItem,Constituent,rdf-schema#subClassOf
+ConstructionLoanPurpose,LoanPurpose,rdf-schema#subClassOf
+N7027ad2d0ceb4841b9fc4610db58fee6,Product,22-rdf-syntax-ns#first
+LoanProductOffering,owl#Class,22-rdf-syntax-ns#type
+LineItem,line item,rdf-schema#label
+LoanProductDisclosureRight,loan product disclosure right,rdf-schema#label
+ResidentialHouseboatLoanPurpose,LoanPurpose,rdf-schema#subClassOf
+ConstructionLoanPurpose,owl#Class,22-rdf-syntax-ns#type
+LoanProductDisclosureRight,Right to fair representation of the facts about Loan products before entrering into agreements for same.,core#definition
+N36dba12d06344c3080b937fd6923bdf7,isExemplifiedBy,owl#onProperty
+ResidentialHouseboatLoanPurpose,owl#Class,22-rdf-syntax-ns#type
+LoanProductDisclosureRight,owl#Class,22-rdf-syntax-ns#type
+OrdinaryLoanPurpose,LoanPurpose,rdf-schema#subClassOf
+LoanProductDisclosureRight,ProductDisclosureRight,rdf-schema#subClassOf
+Loan,N0b44dbbdfe024a9b806e1ae897f52cbb,rdf-schema#subClassOf
+LoanMarketCategory-Automobile,auto loan,rdf-schema#label
+Na9f8623b957a432c93fa4438fbc547e7,N7027ad2d0ceb4841b9fc4610db58fee6,owl#unionOf
+N36dba12d06344c3080b937fd6923bdf7,owl#Restriction,22-rdf-syntax-ns#type
+N27a8862b6c9d4e10999ff858dc79e3cd,XMLSchema#decimal,owl#onDataRange
+LoanMarketCategory-Education,owl#NamedIndividual,22-rdf-syntax-ns#type
+,,owl#imports
+LoanMarketCategory-Mortgage,owl#NamedIndividual,22-rdf-syntax-ns#type
+WorkingCapitalPurpose,owl#Class,22-rdf-syntax-ns#type
+LoanMarketCategory-Construction,owl#NamedIndividual,22-rdf-syntax-ns#type
+LoanMarketCategory-Personal,LoanMarketCategory,22-rdf-syntax-ns#type
+hasUnitCost,relates an item to its unit cost,core#definition
+LoanProduct,CreditFacility,rdf-schema#subClassOf
+LoanMarketCategory,loan market category,rdf-schema#label
+LoanMarketCategory-Education,education loan,rdf-schema#label
+hasUnitCost,has unit cost,rdf-schema#label
+CreditCardReceivablePurpose,credit card receivable purpose,rdf-schema#label
+LoanMarketCategory-Automobile,owl#NamedIndividual,22-rdf-syntax-ns#type
+,,owl#versionIRI
+Nbf73c8cacf0940caa0d105e65d396c1d,LoanProduct,owl#someValuesFrom
+LoanMarketCategory-SmallBusiness,LoanMarketCategory,22-rdf-syntax-ns#type
+N0b44dbbdfe024a9b806e1ae897f52cbb,LoanMarketCategory,owl#someValuesFrom
+LoanProduct,loan product,rdf-schema#label
+LoanProduct,N36dba12d06344c3080b937fd6923bdf7,rdf-schema#subClassOf
+HomeEquityLoanPurpose,home equity loan purpose,rdf-schema#label
+,owl#Ontology,22-rdf-syntax-ns#type
+LoanMarketCategory,IndustrySectorClassifier,rdf-schema#subClassOf
+hasUnitCost,hasCost,rdf-schema#subPropertyOf
+Nbf73c8cacf0940caa0d105e65d396c1d,isAbout,owl#onProperty
+MortgageLoanPurpose,LoanPurpose,rdf-schema#subClassOf
+N661a1c30b40c4dfb8fd72f4517fdb071,owl#Restriction,22-rdf-syntax-ns#type
+MotorhomeLoanPurpose,LoanPurpose,rdf-schema#subClassOf
+N65090b2036ec42838b25e263aecaac96,22-rdf-syntax-ns#nil,22-rdf-syntax-ns#rest
+N4dbcfb32a8f34a9bbc831758966e31c1,0,owl#minQualifiedCardinality
+N4dbcfb32a8f34a9bbc831758966e31c1,owl#Restriction,22-rdf-syntax-ns#type
+OverdraftFacilityPurpose,owl#Class,22-rdf-syntax-ns#type
+hasUnitCost,owl#ObjectProperty,22-rdf-syntax-ns#type
+BridgingLoanPurpose,bridging loan purpose,rdf-schema#label
+LoanMarketCategory-Mortgage,mortgage loan,rdf-schema#label
+LoanMarketCategory-SmallBusiness,small business loan,rdf-schema#label
+StudentLoanPurpose,owl#Class,22-rdf-syntax-ns#type
+N81a5d2d5ef95407da3d06ad80a71aa61,owl#Restriction,22-rdf-syntax-ns#type
+LineItem,N35626824855f47a6ab994ccda3c35e94,rdf-schema#subClassOf
+hasPreconditions,owl#ObjectProperty,22-rdf-syntax-ns#type
+LoanProductOffering,Offering,rdf-schema#subClassOf
+LoanMarketCategory-Construction,construction loan,rdf-schema#label
+LineItem,N27a8862b6c9d4e10999ff858dc79e3cd,rdf-schema#subClassOf
+LoanMarketCategory-Personal,owl#NamedIndividual,22-rdf-syntax-ns#type
+ConstructionLoanPurpose,construction loan purpose,rdf-schema#label
+Nae90bd3975154e14a0c19b3120d4c82a,owl#Restriction,22-rdf-syntax-ns#type
+MortgageProduct,Ndf40d9c4298a46e8975d7f2d805f0886,rdf-schema#subClassOf
+Nf9eb23de6c334f8cb5cf1e8e2f980459,owl#Restriction,22-rdf-syntax-ns#type
+MortgageProduct,owl#Class,22-rdf-syntax-ns#type
+N35626824855f47a6ab994ccda3c35e94,hasUnitCost,owl#onProperty
+N35626824855f47a6ab994ccda3c35e94,0,owl#minQualifiedCardinality
+Nae90bd3975154e14a0c19b3120d4c82a,hasPreconditions,owl#onProperty
+N35626824855f47a6ab994ccda3c35e94,owl#Restriction,22-rdf-syntax-ns#type
+N4dbcfb32a8f34a9bbc831758966e31c1,refersTo,owl#onProperty
+Na3c02a6e09d8468caaa76264d781e1b9,0,owl#minQualifiedCardinality
+LoanMarketCategory-Commercial,LoanMarketCategory,22-rdf-syntax-ns#type
+N661a1c30b40c4dfb8fd72f4517fdb071,appliesTo,owl#onProperty
+Na3c02a6e09d8468caaa76264d781e1b9,owl#Restriction,22-rdf-syntax-ns#type
+LineItem,"description of a product or service including its unit cost, number of units and total cost",core#definition
+,Loan Products Ontology,rdf-schema#label
+LoanProductOffering,"offering related to a loan product that may be a tailored to particular circumstances, aimed at a group of borrowers or individual borrower",core#definition
+N661a1c30b40c4dfb8fd72f4517fdb071,LoanProduct,owl#someValuesFrom
+MotorhomeLoanPurpose,motorhome loan purpose,rdf-schema#label
+LoanProduct,owl#Class,22-rdf-syntax-ns#type
+LoanPurpose,loan purpose,rdf-schema#label
+Nf9eb23de6c334f8cb5cf1e8e2f980459,refersTo,owl#onProperty
+N81a5d2d5ef95407da3d06ad80a71aa61,MonetaryAmount,owl#someValuesFrom
+MortgageLoanPurpose,owl#Class,22-rdf-syntax-ns#type
+N35626824855f47a6ab994ccda3c35e94,MonetaryAmount,owl#onClass
+LoanMarketCategory-Personal,personal loan,rdf-schema#label
+LoanProduct,FinancialProduct,rdf-schema#subClassOf
+LineItem,Future consideration: move this to ProductsAndServices ontology (fibo-fnd-pas-pas).,core#editorialNote
+StudentLoanPurpose,student loan purpose,rdf-schema#label
+LoanProduct,N4dbcfb32a8f34a9bbc831758966e31c1,rdf-schema#subClassOf
+WorkingCapitalPurpose,LoanPurpose,rdf-schema#subClassOf
+HomeEquityLoanPurpose,LoanPurpose,rdf-schema#subClassOf
+CreditCardReceivablePurpose,LoanPurpose,rdf-schema#subClassOf
+Nae90bd3975154e14a0c19b3120d4c82a,0,owl#minQualifiedCardinality
+Nf9eb23de6c334f8cb5cf1e8e2f980459,Na9f8623b957a432c93fa4438fbc547e7,owl#someValuesFrom
+HomeEquityLoanPurpose,owl#Class,22-rdf-syntax-ns#type
+N27a8862b6c9d4e10999ff858dc79e3cd,0,owl#minQualifiedCardinality
+N27a8862b6c9d4e10999ff858dc79e3cd,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2016-2024 EDM Council, Inc.",copyright
+hasUnitCost,Future consideration: move this property to ProductsAndServices ontology (fibo-fnd-pas-pas).,core#editorialNote
+ResidentialHouseboatLoanPurpose,residential houseboat loan purpose,rdf-schema#label
+LoanProductOffering,loan offering,rdf-schema#label
+OrdinaryLoanPurpose,ordinary loan purpose,rdf-schema#label
+OrdinaryLoanPurpose,owl#Class,22-rdf-syntax-ns#type
+,Provisional,hasMaturityLevel
+LoanMarketCategory-Mortgage,LoanMarketCategory,22-rdf-syntax-ns#type
+LoanPurpose,owl#Class,22-rdf-syntax-ns#type
+LoanProductOffering,N661a1c30b40c4dfb8fd72f4517fdb071,rdf-schema#subClassOf
+LineItem,Nf9eb23de6c334f8cb5cf1e8e2f980459,rdf-schema#subClassOf
+LoanProductRepresentations,Nbf73c8cacf0940caa0d105e65d396c1d,rdf-schema#subClassOf
+,MIT,license
+,"This ontology describes loan and mortgage loan products. A product as defined here is something marketed and offered for sale, in this case a loan, such that when a customer takes on the product, they become signatories to a corresponding loan contract. A loan product in this sense is a contractual, off-the-shelf product with terms corresponding to those in the actual contract when it is signed.",abstract
+LoanMarketCategory-SmallBusiness,owl#NamedIndividual,22-rdf-syntax-ns#type
+LoanMarketCategory,owl#Class,22-rdf-syntax-ns#type
+Na3c02a6e09d8468caaa76264d781e1b9,hasConstituent,owl#onProperty
+hasPreconditions,LoanProduct,rdf-schema#domain
+N65090b2036ec42838b25e263aecaac96,ChargeCategory,22-rdf-syntax-ns#first
+Na3c02a6e09d8468caaa76264d781e1b9,LineItem,owl#onClass
+StudentLoanPurpose,LoanPurpose,rdf-schema#subClassOf
+LoanMarketCategory-SmallBusiness,This is related to the mortgage loan purpose: 'business or commercial'.,explanatoryNote
+LoanMarketCategory,category indicating the market domain in which the loan product is offered,core#definition
+N27a8862b6c9d4e10999ff858dc79e3cd,hasNumericValue,owl#onProperty
+AutoLoanPurpose,LoanPurpose,rdf-schema#subClassOf
+N7027ad2d0ceb4841b9fc4610db58fee6,N65090b2036ec42838b25e263aecaac96,22-rdf-syntax-ns#rest
+Nae90bd3975154e14a0c19b3120d4c82a,ConditionPrecedent,owl#onClass
+N81a5d2d5ef95407da3d06ad80a71aa61,hasCost,owl#onProperty
+AutoLoanPurpose,owl#Class,22-rdf-syntax-ns#type
+LoanMarketCategory-Commercial,commercial loan,rdf-schema#label
+MortgageProduct,LoanProduct,rdf-schema#subClassOf
+N36dba12d06344c3080b937fd6923bdf7,0,owl#minQualifiedCardinality
+N4dbcfb32a8f34a9bbc831758966e31c1,Collateral,owl#onClass
+Ndf40d9c4298a46e8975d7f2d805f0886,LoanSecuredByRealEstate,owl#onClass
+MotorhomeLoanPurpose,owl#Class,22-rdf-syntax-ns#type
+LoanPurpose,"A selection of different types of loan purpose, being the purpose for which and manner in which loan (credit) draw-down amounts are to be used. This shows the purpose for which credit is to be used, and implies certain kinds of fact that relate to that specific type of loan e.g. mortgages. These are also identified as tranche types in tranches of a credit facility.",core#definition
+LoanProductOffering,Na3c02a6e09d8468caaa76264d781e1b9,rdf-schema#subClassOf

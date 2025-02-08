@@ -1,0 +1,47 @@
+source_id,target_id,relationship
+Ncee1216ead5145578006ddd93b411c9b,GeopoliticalEntity,owl#someValuesFrom
+,"BusinessCenters.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.",core#changeNote
+BusinessCenterCode,code used to denote a metropolitan area where business is conducted,core#definition
+Neb55f783edd04d2b81cbe73ecf3ee806,identifies,owl#onProperty
+,,owl#imports
+BusinessDayAdjustmentCode,code used to denote a convention for specifying what happens when a date falls on a day that is weekend or holiday in some municipality or business center,core#definition
+Ncee1216ead5145578006ddd93b411c9b,isPartOf,owl#onProperty
+BusinessCenterCodeScheme,business center code set,rdf-schema#label
+BusinessDayAdjustmentCode,N681f5d4a5cca4d50a2c71245bf7d5dcc,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+,"Copyright (c) 2018-2023 Object Management Group, Inc.",copyright
+BusinessDayAdjustmentCode,owl#Class,22-rdf-syntax-ns#type
+Municipality,Ncee1216ead5145578006ddd93b411c9b,rdf-schema#subClassOf
+BusinessDayAdjustmentCode,business-center,adaptedFrom
+,"This ontology refines the notion of a business center for reference in defining markets and exchanges, clearing houses, and other functional entities as appropriate. The ontology covers the concept of an FpML business center (excluding those that are business day adjustments), with a focus on a physical place where business is transacted, where relevant.",abstract
+,MIT,license
+,Business Centers Ontology,rdf-schema#label
+BusinessCenterCodeScheme,coding scheme used to define a set of codes for municipalities or business centers,core#definition
+BusinessCenterCode,owl#Class,22-rdf-syntax-ns#type
+Neb55f783edd04d2b81cbe73ecf3ee806,owl#Restriction,22-rdf-syntax-ns#type
+BusinessCenterCodeScheme,CodeSet,rdf-schema#subClassOf
+Ncee1216ead5145578006ddd93b411c9b,owl#Restriction,22-rdf-syntax-ns#type
+BusinessCenterCodeScheme,owl#Class,22-rdf-syntax-ns#type
+,,owl#versionIRI
+,BusinessCenters.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.,core#changeNote
+BusinessCenter,owl#Class,22-rdf-syntax-ns#type
+BusinessCenter,"Note that business centers, as defined in FpML, are intended for use in specifying the business calendar used by that municipality, or by certain organizations located in that municipality.",explanatoryNote
+BusinessCenterCode,Neb55f783edd04d2b81cbe73ecf3ee806,rdf-schema#subClassOf
+Neb55f783edd04d2b81cbe73ecf3ee806,BusinessCenter,owl#someValuesFrom
+,owl#Ontology,22-rdf-syntax-ns#type
+BusinessCenterCode,"The codes for business centers and municipalities defined herein are largely those identified either as FpML business centers or are locations where there is an exchange, as noted in the ISO 10962 MIC code standard.",explanatoryNote
+BusinessCenterCodeScheme,business-center,adaptedFrom
+BusinessCenter,business-center,adaptedFrom
+BusinessDayAdjustmentCode,CodeElement,rdf-schema#subClassOf
+BusinessCenterCode,business-center,adaptedFrom
+BusinessDayAdjustmentCode,business day adjustment code,rdf-schema#label
+,"Copyright (c) 2018-2023 EDM Council, Inc.",copyright
+,BusinessCenters.rdf version of this ontology was revised to eliminate circular imports and make definitions ISO 704 compliant.,core#changeNote
+,BusinessCenters.rdf version of this ontology was revised to eliminate duplication with concepts in LCC and to merge countries with locations.,core#changeNote
+,BusinessCenters.rdf version of this ontology was revised to address text formatting issues uncovered by hygiene testing.,core#changeNote
+BusinessCenterCode,GeographicRegionIdentifier,rdf-schema#subClassOf
+N681f5d4a5cca4d50a2c71245bf7d5dcc,BusinessDayAdjustment,owl#someValuesFrom
+N681f5d4a5cca4d50a2c71245bf7d5dcc,identifies,owl#onProperty
+BusinessCenterCode,business center code,rdf-schema#label
+N681f5d4a5cca4d50a2c71245bf7d5dcc,owl#Restriction,22-rdf-syntax-ns#type
+Municipality,owl#Class,22-rdf-syntax-ns#type

@@ -1,0 +1,204 @@
+source_id,target_id,relationship
+N9e5285fde66f409b8615285d95dbd5d1,owl#Restriction,22-rdf-syntax-ns#type
+ProjectName,project name,rdf-schema#label
+SalesStrategy,owl#Class,22-rdf-syntax-ns#type
+N95356ad2d8204914be85b8c503645efb,owl#Restriction,22-rdf-syntax-ns#type
+Program,program,rdf-schema#label
+ProgramIdentifier,N95356ad2d8204914be85b8c503645efb,rdf-schema#subClassOf
+Project,project,rdf-schema#label
+N78a20b56c4114d3db514359062329bf5,0,owl#minQualifiedCardinality
+ProgramIdentifier,programme identifier,rdf-schema#label
+Nf934745354a94062bab3b5a0b07bc6ab,ProjectIdentifier,owl#onClass
+Goal,"desired result that a party envisions, plans, and to which it commits, in order to achieve a desired state",core#definition
+N16dbe6fb0c7344b492f4ca0142286a1a,0,owl#minQualifiedCardinality
+N16dbe6fb0c7344b492f4ca0142286a1a,owl#Restriction,22-rdf-syntax-ns#type
+Na0a839f76caf46c3a08a7053529b9f32,Project,owl#onClass
+N1cbe85365de44c4b96331a1960c1471e,0,owl#minCardinality
+Nc8feab552a6841e19f19267c62186e7f,owl#Restriction,22-rdf-syntax-ns#type
+N78a20b56c4114d3db514359062329bf5,Objective,owl#onClass
+ProjectName,owl#Class,22-rdf-syntax-ns#type
+Strategy,strategy,rdf-schema#label
+N526066ce41af4f17a6974ead1cd35688,0,owl#minQualifiedCardinality
+N526066ce41af4f17a6974ead1cd35688,owl#Restriction,22-rdf-syntax-ns#type
+Goal,owl#Class,22-rdf-syntax-ns#type
+N1d0ca71804f5421e80c429ce2d7e9a60,0,owl#minQualifiedCardinality
+DistributionStrategy,Strategy,rdf-schema#subClassOf
+,"ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations
+	(6) to eliminate an unnecessary hasObjectives property and related imports dependencies.",core#changeNote
+N16dbe6fb0c7344b492f4ca0142286a1a,hasName,owl#onProperty
+N1e079e991c544a47848b9fcab25d7719,identifies,owl#onProperty
+Goal,Many people endeavor to reach goals within a finite time by setting deadlines.,explanatoryNote
+ProjectIdentifier,ContextualIdentifier,rdf-schema#subClassOf
+BusinessStrategy,"strategy for achieving a specific business goal, objective, solution or outcome",core#definition
+DistributionStrategy,"strategy for making a product or service available, or for distributing funds, such as in the form of a dividend or coupon",core#definition
+,"Objectives.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.",core#changeNote
+Nc8feab552a6841e19f19267c62186e7f,ProgramIdentifier,owl#onClass
+Nd8746cc828214ad6b41667563d7e1660,hasDescription,owl#onProperty
+Na0a839f76caf46c3a08a7053529b9f32,hasMember,owl#onProperty
+N1d0ca71804f5421e80c429ce2d7e9a60,owl#Restriction,22-rdf-syntax-ns#type
+BusinessStrategy,Nee35f7a274364a5f89aae4f7165bc14d,rdf-schema#subClassOf
+Program,Nd8746cc828214ad6b41667563d7e1660,rdf-schema#subClassOf
+,.,core#changeNote
+Goal,goal,rdf-schema#label
+N85c4a84f38584f5bba75b48919554ae8,0,owl#minQualifiedCardinality
+N1d0ca71804f5421e80c429ce2d7e9a60,hasGoal,owl#onProperty
+,"Objectives.rdf version of this ontology was modified to integrate concepts such as distribution and sales strategy, and to eliminate duplication of concepts in LCC.",core#changeNote
+Program,N9e5285fde66f409b8615285d95dbd5d1,rdf-schema#subClassOf
+N85c4a84f38584f5bba75b48919554ae8,hasObjective,owl#onProperty
+,"Objectives.rdf version of this ontology was modified to add the property 'has strategy' for use in linking to pricing, quotation, distribution, delivery, and other strategies or methods.",core#changeNote
+Project,project-vs-programme,adaptedFrom
+,,owl#imports
+Program,owl#Class,22-rdf-syntax-ns#type
+Program,Na0a839f76caf46c3a08a7053529b9f32,rdf-schema#subClassOf
+N85c4a84f38584f5bba75b48919554ae8,Objective,owl#onClass
+N9e5285fde66f409b8615285d95dbd5d1,hasGoal,owl#onProperty
+N526066ce41af4f17a6974ead1cd35688,Program,owl#onClass
+Program,programme,rdf-schema#label
+Objective,owl#Class,22-rdf-syntax-ns#type
+,Objectives.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary and eliminate unnecessary references to LCC.,core#changeNote
+Nd8746cc828214ad6b41667563d7e1660,owl#Restriction,22-rdf-syntax-ns#type
+Nc8feab552a6841e19f19267c62186e7f,0,owl#minQualifiedCardinality
+hasGoal,"relates something to a long-term, desired outcome",core#definition
+hasObjective,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nd8746cc828214ad6b41667563d7e1660,XMLSchema#string,owl#someValuesFrom
+N526066ce41af4f17a6974ead1cd35688,isMemberOf,owl#onProperty
+N78a20b56c4114d3db514359062329bf5,owl#Restriction,22-rdf-syntax-ns#type
+,"Copyright (c) 2013-2024 EDM Council, Inc.",copyright
+,,owl#versionIRI
+Nfeba7e471ed94ef5afc7054e943b2de8,0,owl#minQualifiedCardinality
+Nfeba7e471ed94ef5afc7054e943b2de8,owl#Restriction,22-rdf-syntax-ns#type
+Project,N526066ce41af4f17a6974ead1cd35688,rdf-schema#subClassOf
+Program,Nc8feab552a6841e19f19267c62186e7f,rdf-schema#subClassOf
+Project,Nc937c3fd663e49e497b8d1344eaec039,rdf-schema#subClassOf
+Nc937c3fd663e49e497b8d1344eaec039,hasObjective,owl#onProperty
+ProjectIdentifier,N1e079e991c544a47848b9fcab25d7719,rdf-schema#subClassOf
+,owl#Ontology,22-rdf-syntax-ns#type
+Nee35f7a274364a5f89aae4f7165bc14d,BusinessObjective,owl#someValuesFrom
+Nf13f63ac133a40a5a65e56e8eebd73b2,isNameOf,owl#onProperty
+Nf934745354a94062bab3b5a0b07bc6ab,0,owl#minQualifiedCardinality
+Nf934745354a94062bab3b5a0b07bc6ab,owl#Restriction,22-rdf-syntax-ns#type
+Na0a839f76caf46c3a08a7053529b9f32,0,owl#minQualifiedCardinality
+,"Copyright (c) 2013-2024 Object Management Group, Inc.",copyright
+Na0a839f76caf46c3a08a7053529b9f32,owl#Restriction,22-rdf-syntax-ns#type
+InvestmentObjective,financial objective used by an investor to determine whether or not a given potential investment is appropriate for themselves or on behalf of another party,core#definition
+Nc937c3fd663e49e497b8d1344eaec039,Objective,owl#onClass
+BusinessObjective,"Business objectives allow an organization to define its goals and direction. A company uses strategy and tactics at every level of its operation to achieve its objectives. These define the way a company allocates its resources and the strengths, weaknesses and opportunities it may have. Companies usually do not alter their objectives once they are implemented, unless changes in circumstances arise. Setting a clear course for the organization is key to its success.",explanatoryNote
+ProjectIdentifier,owl#Class,22-rdf-syntax-ns#type
+Project,"A project has a fixed - generally fairly short - timeframe, and a project manager is responsible for delivering the output on time and on budget.",explanatoryNote
+ProgramIdentifier,ContextualIdentifier,rdf-schema#subClassOf
+DistributionStrategy,distribution strategy,rdf-schema#label
+Nf13f63ac133a40a5a65e56e8eebd73b2,owl#Restriction,22-rdf-syntax-ns#type
+FinancialObjective,Objective,rdf-schema#subClassOf
+Nfeba7e471ed94ef5afc7054e943b2de8,hasName,owl#onProperty
+hasStrategy,owl#ObjectProperty,22-rdf-syntax-ns#type
+Nc8feab552a6841e19f19267c62186e7f,isIdentifiedBy,owl#onProperty
+Objective,N5192cc78562647a998efbccaff13d831,rdf-schema#subClassOf
+ProgramName,contextual designation for a program within the context in which that program is administered,core#definition
+N95356ad2d8204914be85b8c503645efb,identifies,owl#onProperty
+hasObjective,relates something to a specific objective (result) that it aims to achieve within a time frame and with available resources,core#definition
+N44af2881d51e45999a35195157d111cc,Program,owl#someValuesFrom
+Nca6a3b0e2fb74a98987a761df6aff1a0,0,owl#minQualifiedCardinality
+N95356ad2d8204914be85b8c503645efb,Program,owl#someValuesFrom
+BusinessObjective,Objective,rdf-schema#subClassOf
+BusinessObjective,business objective,rdf-schema#label
+Project,Situation,rdf-schema#subClassOf
+N85c4a84f38584f5bba75b48919554ae8,owl#Restriction,22-rdf-syntax-ns#type
+BusinessObjective,owl#Class,22-rdf-syntax-ns#type
+hasGoal,has goal,rdf-schema#label
+,"Objectives.rdf version of this ontology was modified to integrate concepts such as investment objective, business objective, strategy, and related properties.",core#changeNote
+N44af2881d51e45999a35195157d111cc,owl#Restriction,22-rdf-syntax-ns#type
+Project,N1d0ca71804f5421e80c429ce2d7e9a60,rdf-schema#subClassOf
+Strategy,Nca6a3b0e2fb74a98987a761df6aff1a0,rdf-schema#subClassOf
+BusinessStrategy,owl#Class,22-rdf-syntax-ns#type
+Nf934745354a94062bab3b5a0b07bc6ab,isIdentifiedBy,owl#onProperty
+,Objectives Ontology,rdf-schema#label
+BusinessObjective,objective that reflects the strategic goals and direction of a business within a time frame and available resources,core#definition
+N30bfb3ba48574842813eb91c10d0bafb,hasDescription,owl#onProperty
+Program,state of affairs and coordinated set of activities designed to obtain benefits not available from managing them individually,core#definition
+SalesStrategy,"strategy for selling something, including allocating resources to the sales process, reducing costs, and optimizing revenues",core#definition
+Nca6a3b0e2fb74a98987a761df6aff1a0,Goal,owl#onClass
+Objective,"short-term, quantitative, measurable result that a party seeks to attain in order to achieve its long-term goals",core#definition
+InvestmentObjective,or bonds.,core#example
+FinancialObjective,objective that reflects the strategic financial goals and direction of a party within a time frame and available resources,core#definition
+ProjectName,Nf13f63ac133a40a5a65e56e8eebd73b2,rdf-schema#subClassOf
+Project,owl#Class,22-rdf-syntax-ns#type
+Program,Situation,rdf-schema#subClassOf
+ProgramIdentifier,program identifier,rdf-schema#label
+Nc937c3fd663e49e497b8d1344eaec039,0,owl#minQualifiedCardinality
+Nc937c3fd663e49e497b8d1344eaec039,owl#Restriction,22-rdf-syntax-ns#type
+Strategy,N78a20b56c4114d3db514359062329bf5,rdf-schema#subClassOf
+hasStrategy,has strategy,rdf-schema#label
+,"This ontology defines concepts including goal, objective, program, and strategy. Objectives are defined as being distinct from goals, in that they constitute time limited and measurable targets which some entity may seek to attain in pursuit of its goals.",abstract
+Strategy,A strategy may involve activities that are needed in order to achieve specific goals or objectives. It may take into account one or more policies or any number of restrictions and constraints.,explanatoryNote
+Project,N1cbe85365de44c4b96331a1960c1471e,rdf-schema#subClassOf
+N5192cc78562647a998efbccaff13d831,hasDatePeriod,owl#onProperty
+Strategy,"plan or method for achieving a specific goal, objective, solution or outcome",core#definition
+InvestmentObjective,owl#Class,22-rdf-syntax-ns#type
+ProgramName,programme name,rdf-schema#label
+N5192cc78562647a998efbccaff13d831,owl#Restriction,22-rdf-syntax-ns#type
+InvestmentObjective,investment objective,rdf-schema#label
+N30bfb3ba48574842813eb91c10d0bafb,XMLSchema#string,owl#someValuesFrom
+hasStrategy,Strategy,rdf-schema#range
+N12a8f5d94ce94b38b58fae2333893b5c,hasOutput,owl#onProperty
+Program,Nfeba7e471ed94ef5afc7054e943b2de8,rdf-schema#subClassOf
+N1cbe85365de44c4b96331a1960c1471e,hasInput,owl#onProperty
+Nf13f63ac133a40a5a65e56e8eebd73b2,Project,owl#someValuesFrom
+ProjectName,contextual designation for a project,core#definition
+N9e5285fde66f409b8615285d95dbd5d1,0,owl#minQualifiedCardinality
+N44af2881d51e45999a35195157d111cc,isNameOf,owl#onProperty
+Nee35f7a274364a5f89aae4f7165bc14d,owl#Restriction,22-rdf-syntax-ns#type
+FinancialObjective,owl#Class,22-rdf-syntax-ns#type
+hasStrategy,"relates something to a plan or method for achieving a specific goal, objective, solution or outcome",core#definition
+N1e079e991c544a47848b9fcab25d7719,owl#Restriction,22-rdf-syntax-ns#type
+N5192cc78562647a998efbccaff13d831,DatePeriod,owl#someValuesFrom
+N1d0ca71804f5421e80c429ce2d7e9a60,Goal,owl#onClass
+N1e079e991c544a47848b9fcab25d7719,Project,owl#someValuesFrom
+SalesStrategy,sales strategy,rdf-schema#label
+BusinessStrategy,Strategy,rdf-schema#subClassOf
+InvestmentObjective,The combination of investment objectives and risk tolerance are typically used to identify appropriate investment options.,explanatoryNote
+Project,N16dbe6fb0c7344b492f4ca0142286a1a,rdf-schema#subClassOf
+ProjectIdentifier,project identifier,rdf-schema#label
+,Objectives.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.,core#changeNote
+Project,Nf934745354a94062bab3b5a0b07bc6ab,rdf-schema#subClassOf
+,Release,hasMaturityLevel
+ProgramName,N44af2881d51e45999a35195157d111cc,rdf-schema#subClassOf
+N78a20b56c4114d3db514359062329bf5,hasObjective,owl#onProperty
+Nca6a3b0e2fb74a98987a761df6aff1a0,owl#Restriction,22-rdf-syntax-ns#type
+hasGoal,owl#ObjectProperty,22-rdf-syntax-ns#type
+Goal,Goal,definitionOrigin
+N9e5285fde66f409b8615285d95dbd5d1,Goal,owl#onClass
+FinancialObjective,financial objective,rdf-schema#label
+,MIT,license
+ProjectIdentifier,sequence of characters uniquely identifying a specific project within the context in which that project or an overarching program is administered,core#definition
+InvestmentObjective,FinancialObjective,rdf-schema#subClassOf
+hasObjective,Objective,rdf-schema#range
+Nca6a3b0e2fb74a98987a761df6aff1a0,hasGoal,owl#onProperty
+ProjectName,ContextualName,rdf-schema#subClassOf
+hasGoal,Goal,rdf-schema#range
+hasObjective,has objective,rdf-schema#label
+Program,project-vs-programme,adaptedFrom
+BusinessStrategy,business strategy,rdf-schema#label
+ProgramName,program name,rdf-schema#label
+,"Objectives.rdf version of this ontology was modified to add the concept of a program, required for IND but also to represent compliance, and other kinds of programs.",core#changeNote
+,Objectives.rdf version of this ontology was modified to add the concept of a project and related attributes (LOAN-169).,core#changeNote
+N12a8f5d94ce94b38b58fae2333893b5c,owl#Restriction,22-rdf-syntax-ns#type
+Program,N85c4a84f38584f5bba75b48919554ae8,rdf-schema#subClassOf
+Objective,objective,rdf-schema#label
+Nfeba7e471ed94ef5afc7054e943b2de8,ProgramName,owl#onClass
+ProgramIdentifier,sequence of characters uniquely identifying a specific program within the context in which that program is administered,core#definition
+Strategy,owl#Class,22-rdf-syntax-ns#type
+DistributionStrategy,owl#Class,22-rdf-syntax-ns#type
+SalesStrategy,BusinessStrategy,rdf-schema#subClassOf
+N1cbe85365de44c4b96331a1960c1471e,owl#Restriction,22-rdf-syntax-ns#type
+Nee35f7a274364a5f89aae4f7165bc14d,hasObjective,owl#onProperty
+Project,N30bfb3ba48574842813eb91c10d0bafb,rdf-schema#subClassOf
+Project,"state of affairs and unique and temporary organization, designed to deliver a tangible output",core#definition
+ProgramName,owl#Class,22-rdf-syntax-ns#type
+ProgramName,ContextualName,rdf-schema#subClassOf
+Project,N12a8f5d94ce94b38b58fae2333893b5c,rdf-schema#subClassOf
+N30bfb3ba48574842813eb91c10d0bafb,owl#Restriction,22-rdf-syntax-ns#type
+N12a8f5d94ce94b38b58fae2333893b5c,0,owl#minCardinality
+BusinessObjective,"In general, objectives are more specific and easier to measure than goals. Objectives are basic tools that underlie all planning and strategic activities. They serve as the basis for creating policy and evaluating performance. Some examples of business objectives include minimizing expenses, expanding internationally, or making a profit.",explanatoryNote
+ProgramIdentifier,owl#Class,22-rdf-syntax-ns#type
+N16dbe6fb0c7344b492f4ca0142286a1a,ProjectName,owl#onClass
