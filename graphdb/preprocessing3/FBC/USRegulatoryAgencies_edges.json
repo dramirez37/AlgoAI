@@ -1,0 +1,454 @@
+[
+    {
+        "source_id": "PrimaryFederalRegulator",
+        "target_id": "RegulatoryAgency",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrimaryFederalRegulator",
+        "target_id": "GovernmentBody",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isPlayedBy",
+                "GovernmentBody"
+            ]
+        }
+    },
+    {
+        "source_id": "RoutingTransitNumber",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RoutingTransitNumber",
+        "target_id": "FinancialServiceProviderIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederalReserveSystemMember",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederalReserveSystemMember",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmployerIdentificationNumber",
+        "target_id": "TaxpayerIdentificationNumber",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmployerIdentificationNumber",
+        "target_id": "OrganizationIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmployerIdentificationNumber",
+        "target_id": "EmployerIdentificationNumberingScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "EmployerIdentificationNumberingScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "FDICRegistryEntry",
+        "target_id": "FDICCertificateNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "FDICCertificateNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "FDICRegistryEntry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FDICRegistryEntry",
+        "target_id": "DepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "DepositoryInstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "NICRegistryEntry",
+        "target_id": "ResearchStatisticsSupervisionDiscountIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "ResearchStatisticsSupervisionDiscountIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "NICRegistryEntry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmployerIdentificationNumberingScheme",
+        "target_id": "TaxpayerIdentificationNumberingScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ABARTNRegistryEntry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ABARTNRegistryEntry",
+        "target_id": "RoutingTransitNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "RoutingTransitNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "ABARTNRegistryEntry",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "FinancialInstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "ABAIINRegistryEntry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ABAIINRegistryEntry",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "FinancialInstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "ABAIINRegistryEntry",
+        "target_id": "IssuerIdentificationNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "IssuerIdentificationNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "ResearchStatisticsSupervisionDiscountIdentifier",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ResearchStatisticsSupervisionDiscountIdentifier",
+        "target_id": "FinancialServiceProviderIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuerIdentificationNumber",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "FinancialInstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "IssuerIdentificationNumber",
+        "target_id": "FinancialServiceProviderIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuerIdentificationNumber",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StateMemberBank",
+        "target_id": "StateCharteredBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StateMemberBank",
+        "target_id": "FederalReserveSystemMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FDICCertificateNumber",
+        "target_id": "FinancialServiceProviderIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FDICCertificateNumber",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StateGovernmentEntity",
+        "target_id": "GovernmentBody",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StateGovernmentEntity",
+        "target_id": "StateGovernmentEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasJurisdiction",
+                "hasReach",
+                "N955f7a760258402993efe0b213b8dcb3"
+            ]
+        }
+    },
+    {
+        "source_id": "NonDepositoryTrustCompany-NonMemberInstitution",
+        "target_id": "NonDepositoryTrustCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederalGovernmentEntity",
+        "target_id": "GovernmentBody",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederalReserveDistrictBank",
+        "target_id": "FederalReserveDistrict",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasJurisdiction",
+                "FederalReserveDistrict"
+            ]
+        }
+    },
+    {
+        "source_id": "FederalReserveDistrictBank",
+        "target_id": "CentralBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederalReserveDistrictBank",
+        "target_id": "FederalReserveSystemMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonDepositoryTrustCompany-MemberInstitution",
+        "target_id": "FederalReserveSystemMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonDepositoryTrustCompany-MemberInstitution",
+        "target_id": "NonDepositoryTrustCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TaxpayerIdentificationNumber",
+        "target_id": "TaxIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TaxpayerIdentificationNumber",
+        "target_id": "TaxpayerIdentificationNumberingScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "TaxpayerIdentificationNumberingScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "FederalReserveSystemNonMemberInstitution",
+        "target_id": "FederalReserveSystemNonMemberInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "N889222455ac34fcd96dd0413ac590ccc"
+            ]
+        }
+    },
+    {
+        "source_id": "FederalReserveSystemNonMemberInstitution",
+        "target_id": "DepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TaxpayerIdentificationNumberingScheme",
+        "target_id": "TaxIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederalReserveDistrictIdentifier",
+        "target_id": "FederalReserveDistrict",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "FederalReserveDistrict"
+            ]
+        }
+    },
+    {
+        "source_id": "FederalReserveDistrictIdentifier",
+        "target_id": "GeographicRegionIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalBank",
+        "target_id": "FederalReserveSystemMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalBank",
+        "target_id": "hasPrimaryFederalRegulator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasPrimaryFederalRegulator"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialHoldingCompany",
+        "target_id": "hasPrimaryFederalRegulator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasPrimaryFederalRegulator"
+            ]
+        }
+    },
+    {
+        "source_id": "FederalReserveDistrict",
+        "target_id": "Jurisdiction",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

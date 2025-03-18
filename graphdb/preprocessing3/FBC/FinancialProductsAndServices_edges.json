@@ -1,0 +1,1560 @@
+[
+    {
+        "source_id": "WeightedBasket",
+        "target_id": "StructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedBasket",
+        "target_id": "Basket",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedBasket",
+        "target_id": "WeightedBasketConstituent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "WeightedBasketConstituent"
+            ]
+        }
+    },
+    {
+        "source_id": "Trade",
+        "target_id": "TradeIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "TradeIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "Trade",
+        "target_id": "TradeLifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isCharacterizedBy",
+                "TradeLifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "Trade",
+        "target_id": "Situation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Trade",
+        "target_id": "Trader",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isFacilitatedBy",
+                "Trader"
+            ]
+        }
+    },
+    {
+        "source_id": "Trade",
+        "target_id": "Trade",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "succeeds",
+                "Trade"
+            ]
+        }
+    },
+    {
+        "source_id": "RegulatedCommodity",
+        "target_id": "Commodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Trader",
+        "target_id": "ServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Trader",
+        "target_id": "Trade",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "facilitates",
+                "Trade"
+            ]
+        }
+    },
+    {
+        "source_id": "ThirdPartyAgent",
+        "target_id": "LegalAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ThirdPartyAgent",
+        "target_id": "Licensee",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ThirdPartyAgent",
+        "target_id": "ServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProductLifecycleEvent",
+        "target_id": "ProductLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "ProductLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleEvent",
+        "target_id": "LifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProductLifecycleEvent",
+        "target_id": "ProductLifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "classifies",
+                "ProductLifecycleEventOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleEvent",
+        "target_id": "ProductLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "succeeds",
+                "ProductLifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleOccurrence",
+        "target_id": "ProductLifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "ProductLifecycleStageOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleOccurrence",
+        "target_id": "LifecycleOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProductLifecycleOccurrence",
+        "target_id": "ProductLifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "ProductLifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleStage",
+        "target_id": "ContractLifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isStageOf",
+                "ContractLifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleStage",
+        "target_id": "ContractLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "ContractLifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleStage",
+        "target_id": "ContractLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "succeeds",
+                "ContractLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleStage",
+        "target_id": "ContractLifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "ContractLifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleStage",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeLifecycleStageOccurrence",
+        "target_id": "LifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeLifecycleStageOccurrence",
+        "target_id": "TradeLifecycleOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isStageOf",
+                "TradeLifecycleOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleStageOccurrence",
+        "target_id": "TradeLifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "TradeLifecycleEventOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleStageOccurrence",
+        "target_id": "TradeLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "TradeLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleStageOccurrence",
+        "target_id": "TradeLifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "succeeds",
+                "TradeLifecycleStageOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleEventOccurrence",
+        "target_id": "LifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProductLifecycleEventOccurrence",
+        "target_id": "ProductLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "ProductLifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleEventOccurrence",
+        "target_id": "ProductLifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "ProductLifecycleStageOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "SettlementTerms",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeLifecycleStage",
+        "target_id": "TradeLifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "TradeLifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleStage",
+        "target_id": "Trade",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "Trade"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleStage",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeLifecycleStage",
+        "target_id": "TradeLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "succeeds",
+                "TradeLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleStage",
+        "target_id": "TradeLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "TradeLifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleStage",
+        "target_id": "TradeLifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isStageOf",
+                "TradeLifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "Offeror",
+        "target_id": "Offering",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "Offering"
+            ]
+        }
+    },
+    {
+        "source_id": "Offeror",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Offeror",
+        "target_id": "Offering",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "Offering"
+            ]
+        }
+    },
+    {
+        "source_id": "BreachOfCovenant",
+        "target_id": "ContractLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialIntermediationService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradingStrategy",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Offering",
+        "target_id": "Offeror",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Offeror"
+            ]
+        }
+    },
+    {
+        "source_id": "Offering",
+        "target_id": "Offeree",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Offeree"
+            ]
+        }
+    },
+    {
+        "source_id": "Offering",
+        "target_id": "Offeror",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIssuedBy",
+                "Offeror"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleOccurrence",
+        "target_id": "LifecycleOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractLifecycleOccurrence",
+        "target_id": "ContractLifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "ContractLifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleOccurrence",
+        "target_id": "ContractLifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "ContractLifecycleStageOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleEvent",
+        "target_id": "ContractLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "ContractLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleEvent",
+        "target_id": "LifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractLifecycleEvent",
+        "target_id": "ContractLifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "classifies",
+                "ContractLifecycleEventOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleEvent",
+        "target_id": "ContractLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "succeeds",
+                "ContractLifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleEventOccurrence",
+        "target_id": "LifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeLifecycleEventOccurrence",
+        "target_id": "TradeLifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "TradeLifecycleStageOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleEventOccurrence",
+        "target_id": "TradeLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "TradeLifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleEventOccurrence",
+        "target_id": "TradeLifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "succeeds",
+                "TradeLifecycleEventOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialProduct",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "FinancialServiceProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialProduct",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyAgreement",
+        "target_id": "RegisteredAgent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractParty",
+                "RegisteredAgent"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyAgreement",
+        "target_id": "MutualContractualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedBasketConstituent",
+        "target_id": "BasketConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalAgent",
+        "target_id": "AgentRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractLifecycle",
+        "target_id": "Lifecycle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractLifecycle",
+        "target_id": "ContractLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "ContractLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycle",
+        "target_id": "ContractLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "ContractLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "LicensedAgent",
+        "target_id": "ResponsibleParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LicensedAgent",
+        "target_id": "LegalAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LicensedAgent",
+        "target_id": "Licensee",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Position",
+        "target_id": "Holding",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Offeree",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Offeree",
+        "target_id": "Offering",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "Offering"
+            ]
+        }
+    },
+    {
+        "source_id": "UniqueTransactionIdentifier",
+        "target_id": "TradeIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeLifecycleEvent",
+        "target_id": "TradeLifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "classifies",
+                "TradeLifecycleEventOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleEvent",
+        "target_id": "TradeLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "succeeds",
+                "TradeLifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleEvent",
+        "target_id": "TradeLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "TradeLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleEvent",
+        "target_id": "LifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialService",
+        "target_id": "Service",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialService",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "FinancialServiceProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "AgentForServiceOfProcess",
+        "target_id": "RegisteredAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialExposure",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialExposure",
+        "target_id": "Exposure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProductLifecycle",
+        "target_id": "ProductLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "ProductLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycle",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isLifecycleOf",
+                "Product"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycle",
+        "target_id": "Lifecycle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProductLifecycle",
+        "target_id": "ProductLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "ProductLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleStageOccurrence",
+        "target_id": "ProductLifecycleOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isStageOf",
+                "ProductLifecycleOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleStageOccurrence",
+        "target_id": "ProductLifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "ProductLifecycleEventOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleStageOccurrence",
+        "target_id": "LifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProductLifecycleStageOccurrence",
+        "target_id": "ProductLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "ProductLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "Product",
+        "target_id": "Catalog",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isCharacterizedBy",
+                "Catalog"
+            ]
+        }
+    },
+    {
+        "source_id": "Product",
+        "target_id": "ProductLifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasLifecycle",
+                "ProductLifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleStage",
+        "target_id": "ProductLifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "ProductLifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleStage",
+        "target_id": "ProductLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "succeeds",
+                "ProductLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleStage",
+        "target_id": "ProductLifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isStageOf",
+                "ProductLifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleStage",
+        "target_id": "ProductLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "ProductLifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleStage",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "Product"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductLifecycleStage",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractLifecycleEventOccurrence",
+        "target_id": "ContractLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "ContractLifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleEventOccurrence",
+        "target_id": "ContractLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "ContractLifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleEventOccurrence",
+        "target_id": "LifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractLifecycleEventOccurrence",
+        "target_id": "ContractLifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "ContractLifecycleStageOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialServiceProvider",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "FinancialService"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialServiceProvider",
+        "target_id": "FunctionalBusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialServiceProvider",
+        "target_id": "ServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Dealer",
+        "target_id": "ServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Holding",
+        "target_id": "Ownership",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Basket",
+        "target_id": "hasSelectionCriteria",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasSelectionCriteria"
+            ]
+        }
+    },
+    {
+        "source_id": "Basket",
+        "target_id": "BasketConstituent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "BasketConstituent"
+            ]
+        }
+    },
+    {
+        "source_id": "Basket",
+        "target_id": "Collection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractLifecycleStageOccurrence",
+        "target_id": "ContractLifecycleOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isStageOf",
+                "ContractLifecycleOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleStageOccurrence",
+        "target_id": "ContractLifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "ContractLifecycleEventOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleStageOccurrence",
+        "target_id": "ContractLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "ContractLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractLifecycleStageOccurrence",
+        "target_id": "LifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeLifecycleOccurrence",
+        "target_id": "LifecycleOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeLifecycleOccurrence",
+        "target_id": "TradeLifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "TradeLifecycleStageOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycleOccurrence",
+        "target_id": "TradeLifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "TradeLifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "BasketConstituent",
+        "target_id": "Constituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeLifecycle",
+        "target_id": "TradeLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "TradeLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycle",
+        "target_id": "TradeLifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "TradeLifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycle",
+        "target_id": "Trade",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isLifecycleOf",
+                "Trade"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeLifecycle",
+        "target_id": "Lifecycle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Broker",
+        "target_id": "ContractThirdParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegisteredAgent",
+        "target_id": "LegalAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegisteredAgent",
+        "target_id": "RegisteredAgent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "N3656ea384b9948aab0abdac6d46c1440"
+            ]
+        }
+    },
+    {
+        "source_id": "RegisteredAgent",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BrokerDealer",
+        "target_id": "FunctionalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeIdentifier",
+        "target_id": "Trade",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "Trade"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Catalog",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "describes",
+                "Product"
+            ]
+        }
+    },
+    {
+        "source_id": "Catalog",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "Identifier"
+            ]
+        }
+    },
+    {
+        "source_id": "Catalog",
+        "target_id": "Publication",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BreachOfContract",
+        "target_id": "ContractLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialProductCatalog",
+        "target_id": "Catalog",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialProductCatalog",
+        "target_id": "FinancialProduct",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "describes",
+                "FinancialProduct"
+            ]
+        }
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "source_id": "IndustrySectorClassificationScheme",
+        "target_id": "ClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndustrySectorClassificationScheme",
+        "target_id": "IndustrySectorClassifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "IndustrySectorClassifier"
+            ]
+        }
+    },
+    {
+        "source_id": "IndustrySectorClassifier",
+        "target_id": "IndustrySectorClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "IndustrySectorClassificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "IndustrySectorClassifier",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClassificationScheme",
+        "target_id": "Scheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClassificationScheme",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "Classifier"
+            ]
+        }
+    }
+]

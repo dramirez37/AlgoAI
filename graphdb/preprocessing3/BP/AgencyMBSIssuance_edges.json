@@ -1,0 +1,407 @@
+[
+    {
+        "source_id": "AssessPoolSuitablilityForIssuance",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AddMortgageToPool",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MakeSecuritiesAvailabeInMarket",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InIssuanceAgencyMortgagePool",
+        "target_id": "AgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AcquireMortgage",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PotentialAgencyMBSIssuer",
+        "target_id": "AcquireMortgage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "purchases",
+                "AcquireMortgage"
+            ]
+        }
+    },
+    {
+        "source_id": "PotentialAgencyMBSIssuer",
+        "target_id": "ClassifyMortgage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "evaluates",
+                "ClassifyMortgage"
+            ]
+        }
+    },
+    {
+        "source_id": "PotentialAgencyMBSIssuer",
+        "target_id": "PoolBackedSecuritySecuritizationProcessActor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PotentialAgencyMBSIssuer",
+        "target_id": "IdentifyConformingMortgage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "IdentifyConformingMortgage"
+            ]
+        }
+    },
+    {
+        "source_id": "PotentialAgencyMBSIssuer",
+        "target_id": "AssessPoolSuitablilityForIssuance",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "evaluates",
+                "AssessPoolSuitablilityForIssuance"
+            ]
+        }
+    },
+    {
+        "source_id": "PotentialAgencyMBSIssuer",
+        "target_id": "AddMortgageToPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "adds",
+                "AddMortgageToPool"
+            ]
+        }
+    },
+    {
+        "source_id": "PotentialAgencyMBSIssuer",
+        "target_id": "ValidateConformance",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "validates",
+                "ValidateConformance"
+            ]
+        }
+    },
+    {
+        "source_id": "PotentialAgencyMBSIssuer",
+        "target_id": "FinalizePoolContent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "finalizes",
+                "FinalizePoolContent"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyMortgagePoolCreationProcess",
+        "target_id": "PassThroughMBSSecuritizationProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "precedes",
+                "PassThroughMBSSecuritizationProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyMortgagePoolCreationProcess",
+        "target_id": "RetailAssetPoolCreationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IdentifyUnderwriter",
+        "target_id": "PotentialPassThroughIssuanceUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "resultsInAppointmentOf",
+                "PotentialPassThroughIssuanceUnderwriter"
+            ]
+        }
+    },
+    {
+        "source_id": "IdentifyUnderwriter",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotYetIssuedAgencyMortgagePool",
+        "target_id": "AgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InAssemblyAgencyMortgagePool",
+        "target_id": "AgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PoolConformanceCriteria",
+        "target_id": "NotYetIssuedAgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definesCriteriaFor",
+                "NotYetIssuedAgencyMortgagePool"
+            ]
+        }
+    },
+    {
+        "source_id": "PassThroughMBSSecuritizationProcess",
+        "target_id": "MBSSecuritizationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DefineMortgagePool",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DefineMortgagePool",
+        "target_id": "NotYetIssuedAgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefiningOf",
+                "NotYetIssuedAgencyMortgagePool"
+            ]
+        }
+    },
+    {
+        "source_id": "PassThroughOfferingMemorandum",
+        "target_id": "OfferingDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughOfferingMemorandum",
+        "target_id": "PassThroughMBSFinalTermsheet",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "includesDetailsAbout",
+                "PassThroughMBSFinalTermsheet"
+            ]
+        }
+    },
+    {
+        "source_id": "PassThroughMBSFinalTermsheet",
+        "target_id": "PassThroughIssueProspectusPart",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughMBSFinalTermsheet",
+        "target_id": "TermSheet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughMBSDraftProspectus",
+        "target_id": "PreliminaryProspectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughMBSDraftProspectus",
+        "target_id": "PassThroughMBSFinalProspectus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "precedes",
+                "PassThroughMBSFinalProspectus"
+            ]
+        }
+    },
+    {
+        "source_id": "DrawUpTermsheet",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DraftPassThroughTermsheet",
+        "target_id": "TermSheet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughIssueProspectusPart",
+        "target_id": "ProspectusPart",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ValidateConformance",
+        "target_id": "PoolConformanceCriteria",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "PoolConformanceCriteria"
+            ]
+        }
+    },
+    {
+        "source_id": "ValidateConformance",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DrawUpOfferingMemorandum",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PotentialPassThroughIssuanceUnderwriter",
+        "target_id": "PotentialUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinalizePoolContent",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AllocatePrimaryIdentifier",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughMBSFinalProspectus",
+        "target_id": "MortgageBackedSecurityOfferingProspectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IdentifyConformingMortgage",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinalizeProspectus",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegisterSecurity",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketIssue",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketIssue",
+        "target_id": "PassThroughMBSDraftProspectus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasResource",
+                "PassThroughMBSDraftProspectus"
+            ]
+        }
+    },
+    {
+        "source_id": "ClassifyMortgage",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

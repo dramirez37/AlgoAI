@@ -1,0 +1,428 @@
+[
+    {
+        "source_id": "PrincipalParty",
+        "target_id": "Signatory",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrincipalParty",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BoardOfDirectors",
+        "target_id": "CorporateOfficer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "nominates",
+                "CorporateOfficer"
+            ]
+        }
+    },
+    {
+        "source_id": "BoardOfDirectors",
+        "target_id": "BoardMember",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "hasMember",
+                "playsRole",
+                "BoardMember"
+            ]
+        }
+    },
+    {
+        "source_id": "BoardOfDirectors",
+        "target_id": "BoardCapacity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "hasCapacity",
+                "BoardCapacity"
+            ]
+        }
+    },
+    {
+        "source_id": "BoardOfDirectors",
+        "target_id": "EntityControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AuthorizedParty",
+        "target_id": "ResponsibleParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AuthorizedParty",
+        "target_id": "Authorization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAuthorizedThrough",
+                "Authorization"
+            ]
+        }
+    },
+    {
+        "source_id": "BoardCapacity",
+        "target_id": "BoardMember",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isConferredOn",
+                "playsRole",
+                "BoardMember"
+            ]
+        }
+    },
+    {
+        "source_id": "BoardCapacity",
+        "target_id": "CompanyLaw",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isGovernedBy",
+                "CompanyLaw"
+            ]
+        }
+    },
+    {
+        "source_id": "BoardCapacity",
+        "target_id": "DelegatedLegalAuthority",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ResponsibleParty",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AuthorizingParty",
+        "target_id": "Authorization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "authorizesThrough",
+                "Authorization"
+            ]
+        }
+    },
+    {
+        "source_id": "AuthorizingParty",
+        "target_id": "Actor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Bylaws",
+        "target_id": "Law",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BoardCompositionControl",
+        "target_id": "Control",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BoardCompositionControl",
+        "target_id": "BoardMember",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "involvesControlledThing",
+                "BoardMember"
+            ]
+        }
+    },
+    {
+        "source_id": "Executive",
+        "target_id": "LegallyDelegatedAuthority",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ChiefFinancialOfficer",
+        "target_id": "CorporateOfficer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Authorization",
+        "target_id": "AuthorizedParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasAuthorizedParty",
+                "AuthorizedParty"
+            ]
+        }
+    },
+    {
+        "source_id": "Authorization",
+        "target_id": "AuthorizingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasAuthorizingParty",
+                "AuthorizingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "Authorization",
+        "target_id": "Situation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExecutiveBoardMember",
+        "target_id": "Employee",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExecutiveBoardMember",
+        "target_id": "BoardMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Auditor",
+        "target_id": "AuthorizedParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ChiefExecutiveOfficer",
+        "target_id": "PrincipalParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ChiefExecutiveOfficer",
+        "target_id": "ExecutiveBoardMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ChiefExecutiveOfficer",
+        "target_id": "CorporateOfficer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ArticlesOfIncorporation",
+        "target_id": "InstrumentOfIncorporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonExecutiveBoardMember",
+        "target_id": "BoardMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateBylaws",
+        "target_id": "Bylaws",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegallyDelegatedAuthority",
+        "target_id": "ControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BoardMembership",
+        "target_id": "Control",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BoardMembership",
+        "target_id": "BoardMember",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyInControl",
+                "BoardMember"
+            ]
+        }
+    },
+    {
+        "source_id": "DeFactoControllingInterestParty",
+        "target_id": "BoardMember",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "nominates",
+                "BoardMember"
+            ]
+        }
+    },
+    {
+        "source_id": "VotingShareholder",
+        "target_id": "BoardMember",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "elects",
+                "BoardMember"
+            ]
+        }
+    },
+    {
+        "source_id": "CompanyLaw",
+        "target_id": "StatuteLaw",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BoardMember",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BoardMember",
+        "target_id": "ResponsibleParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BoardMember",
+        "target_id": "BoardOfDirectors",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isMemberOf",
+                "playsRole",
+                "BoardOfDirectors"
+            ]
+        }
+    },
+    {
+        "source_id": "BoardMember",
+        "target_id": "LegallyDelegatedAuthority",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Signatory",
+        "target_id": "AuthorizedParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Signatory",
+        "target_id": "LegallyDelegatedAuthority",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateOfficer",
+        "target_id": "Signatory",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateOfficer",
+        "target_id": "Executive",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateOfficer",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CompanySecretary",
+        "target_id": "CorporateOfficer",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

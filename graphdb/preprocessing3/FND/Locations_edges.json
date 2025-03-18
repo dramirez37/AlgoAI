@@ -1,0 +1,44 @@
+[
+    {
+        "source_id": "FederalCapitalArea",
+        "target_id": "GeopoliticalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PopulatedPlace",
+        "target_id": "PhysicalLocation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Municipality",
+        "target_id": "GeopoliticalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PhysicalLocation",
+        "target_id": "Location",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "County",
+        "target_id": "CountrySubdivision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederalState",
+        "target_id": "CountrySubdivision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessCenter",
+        "target_id": "Municipality",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

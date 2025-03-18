@@ -1,0 +1,73 @@
+[
+    {
+        "id": "PartyRoleIdentifier",
+        "type": "Class",
+        "name": "PartyRoleIdentifier",
+        "label": "party role identifier",
+        "definition": "sequence of characters, capable of uniquely identifying a party based on a specific role that they play in some context"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "PartyRoleIdentificationScheme",
+        "type": "Class",
+        "name": "PartyRoleIdentificationScheme",
+        "definition": "system for allocating identifiers to roles that parties play",
+        "label": "party role identification scheme"
+    },
+    {
+        "id": "IdentificationScheme",
+        "type": "Entity",
+        "name": "IdentificationScheme"
+    },
+    {
+        "id": "TaxIdentifier",
+        "type": "Class",
+        "name": "TaxIdentifier",
+        "label": "tax identifier",
+        "explanatoryNote": "Tax identifiers are used for various tax-related purposes in the United States and in other countries under the Common Reporting Standard (CRS).",
+        "definition": "identifier assigned to a taxpayer that enables compulsory financial charges and other levies to be imposed on the taxpayer by a governmental organization in order to fund government spending and various public expenditures"
+    },
+    {
+        "id": "ContextualName",
+        "type": "Class",
+        "name": "ContextualName"
+    },
+    {
+        "id": "Name",
+        "type": "Entity",
+        "name": "Name"
+    },
+    {
+        "id": "Party",
+        "type": "Class",
+        "name": "Party"
+    },
+    {
+        "id": "TaxIdentificationScheme",
+        "type": "Class",
+        "name": "TaxIdentificationScheme",
+        "definition": "identification scheme used to identify taxpayers in some jurisdiction",
+        "label": "tax identification scheme"
+    },
+    {
+        "id": "hasMailingAddress",
+        "type": "ObjectProperty",
+        "name": "hasMailingAddress",
+        "definition": "identifies a physical address where an independent party can receive communications, including letters and packages",
+        "label": "has mailing address"
+    },
+    {
+        "id": "holds",
+        "type": "ObjectProperty",
+        "name": "holds"
+    },
+    {
+        "id": "isHeldBy",
+        "type": "ObjectProperty",
+        "name": "isHeldBy"
+    }
+]

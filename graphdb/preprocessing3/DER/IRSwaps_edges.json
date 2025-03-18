@@ -1,0 +1,359 @@
+[
+    {
+        "source_id": "NotionalStepChangeEvent",
+        "target_id": "NotionalStepAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifies",
+                "NotionalStepAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "NotionalStepChangeEvent",
+        "target_id": "StepEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotionalStepChangeEvent",
+        "target_id": "ContractLifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatFloatInterestRateSwap",
+        "target_id": "InterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatFloatInterestRateSwap",
+        "target_id": "BasisSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatFloatInterestRateSwap",
+        "target_id": "FloatingInterestRateLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exchanges",
+                "FloatingInterestRateLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "InflationSwap",
+        "target_id": "RateBasedDerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InflationSwap",
+        "target_id": "InflationLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasLeg",
+                "InflationLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "InflationSwap",
+        "target_id": "RatesSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotionalStepSchedule",
+        "target_id": "NotionalStepPeriodLength",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRecurrenceInterval",
+                "NotionalStepPeriodLength"
+            ]
+        }
+    },
+    {
+        "source_id": "NotionalStepSchedule",
+        "target_id": "StepSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotionalStepSchedule",
+        "target_id": "NotionalStepChangeEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOccurrence",
+                "NotionalStepChangeEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "NotionalStepSchedule",
+        "target_id": "ProjectedContractEventSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateSwapLeg",
+        "target_id": "RateBasedLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateSwapLeg",
+        "target_id": "NotionalStepSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasSchedule",
+                "NotionalStepSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "PlainVanillaInterestRateSwap",
+        "target_id": "NotionalStepChangeEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasLeg",
+                "specifies",
+                "NotionalStepChangeEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "PlainVanillaInterestRateSwap",
+        "target_id": "NotionalStepSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasLeg",
+                "hasSchedule",
+                "NotionalStepSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "PlainVanillaInterestRateSwap",
+        "target_id": "FixedFloatSingleCurrencyInterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatFloatCrossCurrencyInterestRateSwap",
+        "target_id": "FloatFloatInterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CrossCurrencyInterestRateSwap",
+        "target_id": "InterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatingInterestRateLeg",
+        "target_id": "InterestRateSwapLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatingInterestRateLeg",
+        "target_id": "FloatingLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedFixedInterestRateSwap",
+        "target_id": "InterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedFixedInterestRateSwap",
+        "target_id": "FixedInterestRateLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exchanges",
+                "FixedInterestRateLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "FixedFloatInterestRateSwap",
+        "target_id": "InterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedFloatCrossCurrencyInterestRateSwap",
+        "target_id": "CrossCurrencyInterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedFloatCrossCurrencyInterestRateSwap",
+        "target_id": "FixedFloatInterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateSwap",
+        "target_id": "InterestRateSwapLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exchanges",
+                "InterestRateSwapLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestRateSwap",
+        "target_id": "InterestRateDerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateSwap",
+        "target_id": "RatesSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedInterestRateLeg",
+        "target_id": "InterestRateSwapLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedInterestRateLeg",
+        "target_id": "FixedLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InflationLeg",
+        "target_id": "FloatingLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SingleCurrencyInterestRateSwap",
+        "target_id": "InterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ZeroCouponInterestRateSwap",
+        "target_id": "InterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OvernightIndexSwap",
+        "target_id": "InterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OvernightIndexSwap",
+        "target_id": "OvernightRateIndexLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasLeg",
+                "OvernightRateIndexLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "NotionalStepAmount",
+        "target_id": "ScalarQuantityValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedFloatSingleCurrencyInterestRateSwap",
+        "target_id": "FixedFloatInterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OvernightRateIndexLeg",
+        "target_id": "FloatingInterestRateLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotionalStepPeriodLength",
+        "target_id": "RecurrenceInterval",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatFloatSingleCurrencyInterestRateSwap",
+        "target_id": "FloatFloatInterestRateSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

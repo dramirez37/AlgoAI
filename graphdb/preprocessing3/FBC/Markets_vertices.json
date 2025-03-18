@@ -1,0 +1,475 @@
+[
+    {
+        "id": "OrganizedTradingFacility",
+        "type": "Class",
+        "name": "OrganizedTradingFacility",
+        "label": "organized trading facility",
+        "explanatoryNote": "OTFs were introduced by the European Commission as part of MiFID II and are focused on non-equities such as derivatives and cash bond markets.\n\nOTFs are intended to be similar in scope to a swap execution facility (SEF), a type of entity created by the Dodd-Frank Act in the U.S. The goal of SEFs and OTFs is to bring transparency and structure to OTC derivatives trading.",
+        "definition": "multi-lateral system which is not an RM or an MTF and in which multiple third-party buying and selling interests in bonds, structured finance products, emission allowances or derivatives are able to interact in the system in a way that results in a contract in accordance with the provisions of Title II of MiFID II",
+        "abbreviation": "OTF"
+    },
+    {
+        "id": "AlternativeTradingSystem",
+        "type": "Class",
+        "name": "AlternativeTradingSystem",
+        "label": "alternative trading system",
+        "explanatoryNote": "The SEC formally defines an alternative trading system as any organization, association, person, group of persons, or systems (1) that constitutes, maintains, or provides a market place or facilities for bringing together purchasers and sellers of securities or for otherwise performing with respect to securities the functions commonly performed by a stock exchange within the meaning of Rule 3b-16 under the Exchange Act; and (2) that does not (i) set rules governing the conduct of subscribers other than the conduct of such subscribers' trading on such organization, association, person, group of persons, or system, or (ii) discipline subscribers other than by exclusion from trading.",
+        "definition": "trading venue that is more loosely regulated than a regulated exchange",
+        "abbreviation": "ATS"
+    },
+    {
+        "id": "ExchangeParticipant",
+        "type": "Class",
+        "name": "ExchangeParticipant",
+        "label": "exchange participant",
+        "definition": "registered agent who, in accordance with the rules of an exchange, may trade on or through the exchange and whose name is entered in a list, register or roll kept by the exchange as an agent who may trade on or through the exchange"
+    },
+    {
+        "id": "RegisteredAgent",
+        "type": "Entity",
+        "name": "RegisteredAgent"
+    },
+    {
+        "id": "OrganizationMember",
+        "type": "Entity",
+        "name": "OrganizationMember"
+    },
+    {
+        "id": "SwapExecutionFacility",
+        "type": "Class",
+        "name": "SwapExecutionFacility",
+        "abbreviation": "SEF",
+        "explanatoryNote": "Swap execution facilities, including trading systems and other platforms, allow for greater transparency and represent a significant shift in the way derivative trading has been done. The Dodd-Frank Act lays the foundation for this change of derivative execution.",
+        "definition": "exchange that enables participants to execute and trade swaps",
+        "label": "swap execution facility"
+    },
+    {
+        "id": "Exchange",
+        "type": "Class",
+        "name": "Exchange",
+        "explanatoryNote": "An exchange is typically a corporation or mutual organization that provides securities trading services, where securities may be bought and sold by third parties. As a facility, an exchange is also a place of trade associated with a particular site, i.e., stock exchange, regulated market such as an Electronic Trading Platform (ECN), or unregulated market, such as an Automated Trading System (ATS), or market data provider. Stock exchanges also provide facilities for the issue and redemption of securities as well as other financial instruments and capital events including the payment of income and dividends.\n\nThe securities traded on a stock exchange include: shares issued by companies, unit trusts, derivatives, pooled investment products and bonds. To be able to trade a security on a certain stock exchange, it has to be listed there. Usually there is a central location at least for recordkeeping, but trade is less and less linked to such a physical place, as modern markets are electronic networks, which gives them advantages of speed and cost of transactions. Trade on an exchange is by members only.",
+        "definition": "any organization, association, or group of persons, whether incorporated or unincorporated, which constitutes, maintains, or provides a facility for bringing together purchasers and sellers of financial instruments, commodities, or other products, services, or goods, and includes the market place and facilities maintained by such exchange",
+        "label": "exchange"
+    },
+    {
+        "id": "DataReportingServicesProvider",
+        "type": "Class",
+        "name": "DataReportingServicesProvider",
+        "definition": "market data provider and reporting party that reports and/or publishes data on securities transactions, including required regulatory reporting for such transactions, and as such is subject to regulatory supervision",
+        "abbreviation": "DRSP",
+        "label": "data reporting services provider"
+    },
+    {
+        "id": "MarketDataProvider",
+        "type": "Entity",
+        "name": "MarketDataProvider"
+    },
+    {
+        "id": "ReportingParty",
+        "type": "Entity",
+        "name": "ReportingParty"
+    },
+    {
+        "id": "CryptoAssetServicesProvider",
+        "type": "Class",
+        "name": "CryptoAssetServicesProvider",
+        "definition": "financial services provider that provides services for crypto assets that enable the control of crypto assets, and participate in, or provide, financial services for issuers' offers, or sale, of crypto assets",
+        "label": "crypto asset services provider",
+        "abbreviation": "CASP",
+        "explanatoryNote": "Services related to crypto assets may include businesses that exchange crypto assets for fiat currencies, or vice versa, that conduct transactions that move crypto assets from one crypto asset address, or account, to another, and/or that provide facilities for the safekeeping, or administration, of crypto assets, or instruments."
+    },
+    {
+        "id": "FinancialServiceProvider",
+        "type": "Entity",
+        "name": "FinancialServiceProvider"
+    },
+    {
+        "id": "MultilateralTradingFacility",
+        "type": "Class",
+        "name": "MultilateralTradingFacility",
+        "abbreviation": "MTF",
+        "definition": "trading system that facilitates the exchange of financial instruments between multiple parties",
+        "label": "multilateral trading facility",
+        "explanatoryNote": "Multilateral trading facilities allow eligible contract participants to gather and transfer a variety of securities, especially instruments that may not have an official market. These facilities are often electronic systems controlled by approved market operators or larger investment banks. Traders will usually submit orders electronically, where a matching software engine is used to pair buyers with sellers."
+    },
+    {
+        "id": "ApprovedReportingMechanism",
+        "type": "Class",
+        "name": "ApprovedReportingMechanism",
+        "abbreviation": "ARM",
+        "definition": "data reporting services provider that is authorized to provide the service of reporting details of transactions to competent authorities or ESMA (the European Securities and Markets Authority) on behalf of investment firms",
+        "label": "approved reporting mechanism"
+    },
+    {
+        "id": "TradeReportingFacility",
+        "type": "Class",
+        "name": "TradeReportingFacility",
+        "definition": "facility that provides a mechanism for the reporting of transactions effected otherwise than on an exchange",
+        "label": "trade reporting facility",
+        "abbreviation": "TRF"
+    },
+    {
+        "id": "Facility",
+        "type": "Entity",
+        "name": "Facility"
+    },
+    {
+        "id": "RegisteredMultilateralTradingFacility",
+        "type": "Class",
+        "name": "RegisteredMultilateralTradingFacility",
+        "label": "registered multilateral trading facility",
+        "definition": "multilateral system operated by an investment firm or market operator, which brings together multiple third-party buying and selling interests in financial instruments in the system, in accordance with non-discretionary rules, in a way that results in a contract in accordance with the provisions of Title II of the MiFID II"
+    },
+    {
+        "id": "MarketLevelClassifier",
+        "type": "Class",
+        "name": "MarketLevelClassifier",
+        "definition": "classifier that indicates whether the exchange or data reporting services provider is an operating level or market segment level facility",
+        "label": "market level classifier"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "MarketSegmentLevelMarketIdentifier",
+        "type": "Class",
+        "name": "MarketSegmentLevelMarketIdentifier",
+        "label": "market segment-level market identifier",
+        "definition": "market identifier that identifies a section of an exchange/market/trade reporting facility that specialises in one or more specific instruments or that is regulated differently"
+    },
+    {
+        "id": "MarketIdentifier",
+        "type": "Class",
+        "name": "MarketIdentifier",
+        "explanatoryNote": "It is intended for use in any application and communication for identification of places\n- where a financial instrument is listed (place of official listing),\n- where a related trade is executed (place of trade), and\n- where trade details are reported (trade reporting facility).",
+        "label": "market identifier",
+        "definition": "identifier that specifies a universal method of identifying exchanges, trading platforms, regulated or non-regulated markets, and data reporting services providers as sources of prices and related information in order to facilitate automated processing",
+        "abbreviation": "MIC"
+    },
+    {
+        "id": "OperatingLevelMarket",
+        "type": "Class",
+        "name": "OperatingLevelMarket",
+        "label": "operating-level market",
+        "definition": "exchange/market/trade reporting facility in a specific market/country"
+    },
+    {
+        "id": "OperatingLevelMarketIdentifier",
+        "type": "Class",
+        "name": "OperatingLevelMarketIdentifier",
+        "definition": "market identifier that identifies an exchange/market/trade reporting facility in a specific market/country",
+        "label": "operating-level market identifier"
+    },
+    {
+        "id": "MarketIdentifierCodeStatus",
+        "type": "Class",
+        "name": "MarketIdentifierCodeStatus",
+        "label": "market indicator code status",
+        "definition": "lifecycle stage indicating the status of the MIC code, as specified by the registration authority"
+    },
+    {
+        "id": "LifecycleStage",
+        "type": "Entity",
+        "name": "LifecycleStage"
+    },
+    {
+        "id": "OffMarketFacility",
+        "type": "Class",
+        "name": "OffMarketFacility",
+        "definition": "facility used for reporting over-the-counter (OTC) and other direct trades that are not executed by the exchange but are reported through the exchange",
+        "label": "off-market facility"
+    },
+    {
+        "id": "MarketCategoryClassifier",
+        "type": "Class",
+        "name": "MarketCategoryClassifier",
+        "label": "market category classifier",
+        "definition": "classifier representing the controlled vocabulary that delineates the nature of the exchange or data reporting services provider where possible"
+    },
+    {
+        "id": "RegulatedExchange",
+        "type": "Class",
+        "name": "RegulatedExchange",
+        "label": "regulated exchange",
+        "explanatoryNote": "In the financial community in the EU, such an exchange operates in accordance with its non-discretionary rules in a way that results in a contract, in respect of the financial instruments admitted to trading under its rules and/or systems, and which is authorised and functions regularly and in accordance with the provisions of Title III of MiFID II.",
+        "definition": "regulated market that is operated by and/or managed by a market operator that brings together or facilitates the bringing together of multiple third-party buying and selling interests in financial instruments",
+        "abbreviation": "RM"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "SystematicInternaliser",
+        "type": "Class",
+        "name": "SystematicInternaliser",
+        "label": "systematic internalizer",
+        "abbreviation": "SI",
+        "definition": "investment firm that, on an organised, frequent, systematic and substantial basis, deals on its own account by executing client orders outside a regulated exchange, MTF or OTF without operating a multilateral system"
+    },
+    {
+        "id": "MarketSegmentLevelMarket",
+        "type": "Class",
+        "name": "MarketSegmentLevelMarket",
+        "label": "market segment-level market",
+        "definition": "section of an exchange/market/trade reporting facility that specialises in one or more specific instruments or that is regulated differently"
+    },
+    {
+        "id": "ElectronicCommunicationNetwork",
+        "type": "Class",
+        "name": "ElectronicCommunicationNetwork",
+        "explanatoryNote": "ECNs allow brokerages and investors in different geographic areas to trade without a third party involved, offering privacy for investors. They also allow after-hours trading, but trading may be subject to commissions and other fees.",
+        "label": "electronic communication network",
+        "abbreviation": "ECN",
+        "definition": "alternative trading system that automatically matches buy and sell orders for securities in the market"
+    },
+    {
+        "id": "RecognizedMarketOperator",
+        "type": "Class",
+        "name": "RecognizedMarketOperator",
+        "label": "recognised market operator",
+        "abbreviation": "RMO",
+        "definition": "exchange that is operated or maintained by an operator registered under certain securities regulations that brings together purchasers and sellers of capital market products"
+    },
+    {
+        "id": "InterdealerQuotationSystem",
+        "type": "Class",
+        "name": "InterdealerQuotationSystem",
+        "abbreviation": "IQS",
+        "explanatoryNote": "An IQS ties the price quotations of a number of exchanges together into one platform. This allows investors to more easily access security price quotations that would otherwise need to be monitored on several separate exchanges.",
+        "definition": "automated system for organizing and disseminating price quotes by brokers and dealer firms that facilitates electronic trading in securities",
+        "label": "interdealer quotation system"
+    },
+    {
+        "id": "DesignatedContractMarket",
+        "type": "Class",
+        "name": "DesignatedContractMarket",
+        "definition": "exchange, trading system, or platform that enables listing for trading futures or option contracts based on any underlying commodity, index or instrument",
+        "abbreviation": "DCM",
+        "label": "designated contract market"
+    },
+    {
+        "id": "ConsolidatedTapeProvider",
+        "type": "Class",
+        "name": "ConsolidatedTapeProvider",
+        "label": "consolidated tape provider",
+        "abbreviation": "CTP",
+        "definition": "data reporting services provider that is authorized to provide the service of collecting trade reports for financial instruments from regulated markets, MTFs, OTFs and APAs and consolidating them into a continuous electronic live data stream providing price and volume data per financial instrument",
+        "explanatoryNote": "Consolidated tape is an electronic system that collates real-time exchange-listed data, such as price and volume, and disseminates it to investors. Through the consolidated tape, various major exchanges, including the New York Stock Exchange, the NASDAQ, and the Chicago Board Options Exchange, report trades and quotes."
+    },
+    {
+        "id": "ApprovedPublicationArrangement",
+        "type": "Class",
+        "name": "ApprovedPublicationArrangement",
+        "abbreviation": "APA",
+        "label": "approved publication arrangement",
+        "definition": "data reporting services provider that is authorized to provide the service of publishing certain trade reports on behalf of banks, investment firms, or asset management companies"
+    },
+    {
+        "id": "DarkPool",
+        "type": "Class",
+        "name": "DarkPool",
+        "label": "dark pool",
+        "definition": "privately organized alternative trading system, that allows institutional investors the ability to trade without exposure until after the trade has been executed and reported"
+    },
+    {
+        "id": "QuoteDrivenMarket",
+        "type": "Class",
+        "name": "QuoteDrivenMarket",
+        "definition": "exchange in which prices are determined from bid and ask quotations made by market makers, dealers, or specialists",
+        "explanatoryNote": "In a quote-driven market, dealers fill orders from their own inventory or by matching them with other orders. Note that this differs from a typical market, which is order-driven rather than quote-driven.",
+        "label": "quote-driven market"
+    },
+    {
+        "id": "AuctionMarket",
+        "type": "Class",
+        "name": "AuctionMarket",
+        "definition": "exchange in which buyers and sellers submit competitive bids that do not involve direct negotiations between parties, as part of an auction scheduled either on demand or on a periodic basis",
+        "label": "auction market"
+    },
+    {
+        "id": "MarketCategoryClassifier-CASP",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-CASP",
+        "definition": "market category classifier for a crypto asset services provider",
+        "label": "market category classifier - CASP"
+    },
+    {
+        "id": "MarketCategoryClassifier-CTPS",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-CTPS",
+        "label": "market category classifier - CTPS",
+        "definition": "market category classifier for a consolidated tape provider"
+    },
+    {
+        "id": "hasFacilityAcronym",
+        "type": "DatatypeProperty",
+        "name": "hasFacilityAcronym",
+        "definition": "indicates a known acronym of the market",
+        "label": "has facility acronym"
+    },
+    {
+        "id": "MarketLevelClassifier-SGMT",
+        "type": "MarketLevelClassifier",
+        "name": "MarketLevelClassifier-SGMT",
+        "definition": "market-level classifier for a segment-level facility",
+        "label": "market-level classifier - SGMT"
+    },
+    {
+        "id": "MarketCategoryClassifier-OTHR",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-OTHR",
+        "definition": "market category classifier indicating that the reporting party believes that the market classifier is something other than any of the given market categories",
+        "label": "market category classifier - OTHR"
+    },
+    {
+        "id": "ExpiredMICStatus",
+        "type": "NamedIndividual",
+        "name": "ExpiredMICStatus",
+        "definition": "as of the last report or update, the exchange code has expired",
+        "label": "expired MIC status"
+    },
+    {
+        "id": "operatesInCountry",
+        "type": "ObjectProperty",
+        "name": "operatesInCountry",
+        "definition": "indicates the ISO 3166-1 country in which an exchange, data reporting services provider, or crypto asset services provider operates",
+        "label": "operates in country"
+    },
+    {
+        "id": "MarketCategoryClassifier-MLTF",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-MLTF",
+        "definition": "market category classifier for a multilateral trading facility",
+        "label": "market category classifier - MLTF"
+    },
+    {
+        "id": "MarketCategoryClassifier-OTFS",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-OTFS",
+        "definition": "market category classifier for an organized trading facility",
+        "label": "market category classifier - OTFS"
+    },
+    {
+        "id": "ActiveMICStatus",
+        "type": "NamedIndividual",
+        "name": "ActiveMICStatus",
+        "definition": "market identifier code status that indicates that as of the last report or update, the code was registered and actively in use",
+        "label": "active MIC status"
+    },
+    {
+        "id": "MarketCategoryClassifier-RMOS",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-RMOS",
+        "definition": "market category classifier for a recognized market operator",
+        "label": "market category classifier - RMOS"
+    },
+    {
+        "id": "MarketCategoryClassifier-TRFS",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-TRFS",
+        "label": "market category classifier - TRFS",
+        "definition": "market category classifier for a trade reporting facility"
+    },
+    {
+        "id": "MarketCategoryClassifier-DCMS",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-DCMS",
+        "definition": "market category classifier for a designated contract market",
+        "label": "market category classifier - DCMS"
+    },
+    {
+        "id": "MarketLevelClassifier-OPRT",
+        "type": "MarketLevelClassifier",
+        "name": "MarketLevelClassifier-OPRT",
+        "label": "market-level classifier - OPRT",
+        "definition": "market-level classifier for an operating-level facility"
+    },
+    {
+        "id": "MarketCategoryClassifier-ATSS",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-ATSS",
+        "label": "market category classifier - ATSS",
+        "definition": "market category classifier for an alternative trading system"
+    },
+    {
+        "id": "MarketCategoryClassifier-NSPD",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-NSPD",
+        "label": "market category classifier - NSPD",
+        "definition": "market category classifier indicating that the market category has not been specified by the reporting party"
+    },
+    {
+        "id": "MarketCategoryClassifier-RMKT",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-RMKT",
+        "definition": "market category classifier for a regulated market",
+        "label": "market category classifier - RMKT"
+    },
+    {
+        "id": "MarketCategoryClassifier-IDQS",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-IDQS",
+        "label": "market category classifier - IDQS",
+        "definition": "market category classifier for an interdealer quotation system"
+    },
+    {
+        "id": "MarketCategoryClassifier-SINT",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-SINT",
+        "label": "market category classifier - SINT",
+        "definition": "market category classifier for a systematic internalizer"
+    },
+    {
+        "id": "MarketCategoryClassifier-SEFS",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-SEFS",
+        "label": "market category classifier - SEFS",
+        "definition": "market category classifier for a swap execution facility"
+    },
+    {
+        "id": "UpdatedMICStatus",
+        "type": "MarketIdentifierCodeStatus",
+        "name": "UpdatedMICStatus",
+        "label": "updated MIC status",
+        "definition": "as of the last report or update, the exchange code was revised"
+    },
+    {
+        "id": "ISO10383-ClassificationScheme",
+        "type": "NamedIndividual",
+        "name": "ISO10383-ClassificationScheme",
+        "label": "ISO 10383 classification scheme",
+        "definition": "classification scheme for market categories and related content per the ISO 10383 standard"
+    },
+    {
+        "id": "MarketCategoryClassifier-ARMS",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-ARMS",
+        "label": "market category classifier - ARMS",
+        "definition": "market category classifier for an approved reporting mechanism"
+    },
+    {
+        "id": "MarketCategoryClassifier-APPA",
+        "type": "MarketCategoryClassifier",
+        "name": "MarketCategoryClassifier-APPA",
+        "label": "market category classifier - APPA",
+        "definition": "market category classifier for an approved publication arrangement"
+    },
+    {
+        "id": "operatesInMunicipality",
+        "type": "ObjectProperty",
+        "name": "operatesInMunicipality",
+        "definition": "indicates the municipality or business center in which in which an exchange, data reporting services provider, or crypto asset services provider operates",
+        "label": "operates in municipality"
+    },
+    {
+        "id": "hasMarketIdentifierCodeStatus",
+        "type": "ObjectProperty",
+        "name": "hasMarketIdentifierCodeStatus",
+        "definition": "indicates the status of a specific market identifier code (MIC)",
+        "label": "has market identifier code status"
+    }
+]

@@ -1,0 +1,973 @@
+[
+    {
+        "source_id": "VariableInterestEntityShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreferredDividend",
+        "target_id": "Dividend",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RetractablePreferredShareWithExtendableMaturityDate",
+        "target_id": "hasExtendableMaturityDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasExtendableMaturityDate"
+            ]
+        }
+    },
+    {
+        "source_id": "RetractablePreferredShareWithExtendableMaturityDate",
+        "target_id": "PreferredShareWithFixedMaturityDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RetractablePreferredShareWithExtendableMaturityDate",
+        "target_id": "RetractablePreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RetractablePreferredShareWithExtendableMaturityDate",
+        "target_id": "hasExtendableMaturityDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasExtendableMaturityDate"
+            ]
+        }
+    },
+    {
+        "source_id": "Share",
+        "target_id": "EquityInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Share",
+        "target_id": "SharePaymentStatus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSharePaymentStatus",
+                "SharePaymentStatus"
+            ]
+        }
+    },
+    {
+        "source_id": "Share",
+        "target_id": "hasAvailableShares",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasAvailableShares"
+            ]
+        }
+    },
+    {
+        "source_id": "Share",
+        "target_id": "hasVotingRestriction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasVotingRestriction"
+            ]
+        }
+    },
+    {
+        "source_id": "Share",
+        "target_id": "hasShareClass",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasShareClass"
+            ]
+        }
+    },
+    {
+        "source_id": "Share",
+        "target_id": "hasFloatingShares",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasFloatingShares"
+            ]
+        }
+    },
+    {
+        "source_id": "Share",
+        "target_id": "hasSharesOutstanding",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasSharesOutstanding"
+            ]
+        }
+    },
+    {
+        "source_id": "Share",
+        "target_id": "hasSharesIssued",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasSharesIssued"
+            ]
+        }
+    },
+    {
+        "source_id": "Share",
+        "target_id": "hasTreasuryShares",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasTreasuryShares"
+            ]
+        }
+    },
+    {
+        "source_id": "ListedShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ListedShare",
+        "target_id": "ListedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RedeemablePreferredShare",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RedeemablePreferredShare",
+        "target_id": "EquityRedemptionProvision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRedemptionProvision",
+                "EquityRedemptionProvision"
+            ]
+        }
+    },
+    {
+        "source_id": "DividendDistributionMethod",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DividendDistributionMethod",
+        "target_id": "Convention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeablePreferredShare",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpecialDividend",
+        "target_id": "Dividend",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Custodian",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "holds",
+                "Share"
+            ]
+        }
+    },
+    {
+        "source_id": "Custodian",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Custodian",
+        "target_id": "ThirdPartyAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RetractablePreferredShareWithExtendableRedemptionDate",
+        "target_id": "RetractablePreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RetractablePreferredShareWithExtendableRedemptionDate",
+        "target_id": "EquityRedemptionProvisionWithExtendableRedemptionDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasExtensionProvision",
+                "EquityRedemptionProvisionWithExtendableRedemptionDate"
+            ]
+        }
+    },
+    {
+        "source_id": "RedeemablePreferredShareWithExtendableMaturityDate",
+        "target_id": "RedeemablePreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RedeemablePreferredShareWithExtendableMaturityDate",
+        "target_id": "PreferredShareWithFixedMaturityDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RedeemablePreferredShareWithExtendableMaturityDate",
+        "target_id": "hasExtendableMaturityDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasExtendableMaturityDate"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityRedemptionProvision",
+        "target_id": "hasExtendableRedemptionDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasExtendableRedemptionDate"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityRedemptionProvision",
+        "target_id": "isRedeemableAtShareholderOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isRedeemableAtShareholderOption"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityRedemptionProvision",
+        "target_id": "RedemptionProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityRedemptionProvision",
+        "target_id": "isRedeemableAtIssuerOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isRedeemableAtIssuerOption"
+            ]
+        }
+    },
+    {
+        "source_id": "NonVotingShare",
+        "target_id": "confersNumberOfVotesPerShare",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "confersNumberOfVotesPerShare"
+            ]
+        }
+    },
+    {
+        "source_id": "NonVotingShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DividendSchedule",
+        "target_id": "PaymentSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DividendSchedule",
+        "target_id": "RegularSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SharePaymentStatus",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "Share"
+            ]
+        }
+    },
+    {
+        "source_id": "SharePaymentStatus",
+        "target_id": "LifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreferredShareWithAdjustableRateDividend",
+        "target_id": "AdjustableRateDividend",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasDividend",
+                "AdjustableRateDividend"
+            ]
+        }
+    },
+    {
+        "source_id": "PreferredShareWithAdjustableRateDividend",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RetractablePreferredShare",
+        "target_id": "EquityRedemptionProvision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRedemptionProvision",
+                "EquityRedemptionProvision"
+            ]
+        }
+    },
+    {
+        "source_id": "RetractablePreferredShare",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnrestrictedShare",
+        "target_id": "NegotiableSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnrestrictedShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AuctionRateDividend",
+        "target_id": "PreferredDividend",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreferredShareWithAuctionRateDividend",
+        "target_id": "AuctionRateDividend",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasDividend",
+                "AuctionRateDividend"
+            ]
+        }
+    },
+    {
+        "source_id": "PreferredShareWithAuctionRateDividend",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreferredShare",
+        "target_id": "CommonShare",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isSeniorTo",
+                "CommonShare"
+            ]
+        }
+    },
+    {
+        "source_id": "PreferredShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ShareIssuer",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "Share"
+            ]
+        }
+    },
+    {
+        "source_id": "ShareIssuer",
+        "target_id": "Issuer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ParticipatingPreferredShare",
+        "target_id": "OrdinaryDividend",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasDividend",
+                "OrdinaryDividend"
+            ]
+        }
+    },
+    {
+        "source_id": "ParticipatingPreferredShare",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConvertiblePreferredShare",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConvertiblePreferredShare",
+        "target_id": "ConvertibleSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrdinaryDividend",
+        "target_id": "Dividend",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PricePerShare",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PricePerShare",
+        "target_id": "UnitPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PricePerShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPriceFor",
+                "Share"
+            ]
+        }
+    },
+    {
+        "source_id": "LimitedPartnershipUnit",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivatelyHeldShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ShareYield",
+        "target_id": "Yield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityConversionTerms",
+        "target_id": "ConversionTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NilPaidShare",
+        "target_id": "hasSharePaymentStatus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasSharePaymentStatus"
+            ]
+        }
+    },
+    {
+        "source_id": "NilPaidShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedRateDividend",
+        "target_id": "PreferredDividend",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityPosition",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOwnedAsset",
+                "isPlayedBy",
+                "Share"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityPosition",
+        "target_id": "Position",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityPosition",
+        "target_id": "indicatesNumberOfShares",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "indicatesNumberOfShares"
+            ]
+        }
+    },
+    {
+        "source_id": "PreferredShareWithFixedRateDividend",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreferredShareWithFixedRateDividend",
+        "target_id": "FixedRateDividend",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasDividend",
+                "FixedRateDividend"
+            ]
+        }
+    },
+    {
+        "source_id": "RedeemablePreferredShareWithExtendableRedemptionDate",
+        "target_id": "EquityRedemptionProvisionWithExtendableRedemptionDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasExtensionProvision",
+                "EquityRedemptionProvisionWithExtendableRedemptionDate"
+            ]
+        }
+    },
+    {
+        "source_id": "RedeemablePreferredShareWithExtendableRedemptionDate",
+        "target_id": "RedeemablePreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AdjustableRateDividend",
+        "target_id": "PreferredDividend",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RestrictedVotingShare",
+        "target_id": "RestrictedVotingShare",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "confersNumberOfVotesPerShare",
+                "Ne5ce033f0e8643b988c263ed145c2190"
+            ]
+        }
+    },
+    {
+        "source_id": "RestrictedVotingShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SingleVotingShare",
+        "target_id": "confersNumberOfVotesPerShare",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "confersNumberOfVotesPerShare"
+            ]
+        }
+    },
+    {
+        "source_id": "SingleVotingShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommonShare",
+        "target_id": "OrdinaryDividend",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasDividend",
+                "OrdinaryDividend"
+            ]
+        }
+    },
+    {
+        "source_id": "CommonShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Dividend",
+        "target_id": "DividendSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasSchedule",
+                "DividendSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "Dividend",
+        "target_id": "DividendDistributionMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasDistributionMethod",
+                "DividendDistributionMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "Dividend",
+        "target_id": "Commitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityRedemptionProvisionWithExtendableRedemptionDate",
+        "target_id": "hasExtendableRedemptionDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasExtendableRedemptionDate"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityRedemptionProvisionWithExtendableRedemptionDate",
+        "target_id": "EquityRedemptionProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartiallyPaidShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartiallyPaidShare",
+        "target_id": "hasSharePaymentStatus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasSharePaymentStatus"
+            ]
+        }
+    },
+    {
+        "source_id": "ConvertibleCommonShare",
+        "target_id": "CommonShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConvertibleCommonShare",
+        "target_id": "ConvertibleSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CumulativePreferredShare",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreferredShareWithFixedMaturityDate",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QualifiedDividend",
+        "target_id": "Dividend",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonCumulativePreferredShare",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EnhancedVotingShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EnhancedVotingShare",
+        "target_id": "EnhancedVotingShare",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "confersNumberOfVotesPerShare",
+                "N5fd4a77465304beb9b0737e59171d944"
+            ]
+        }
+    },
+    {
+        "source_id": "PerpetualPreferredShare",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExtendablePreferredShare",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VotingRight",
+        "target_id": "ContractualRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonParticipatingPreferredShare",
+        "target_id": "PreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrecedenceRight",
+        "target_id": "ContractualRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RestrictedShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SoftRetractablePreferredShare",
+        "target_id": "RetractablePreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HardRetractablePreferredShare",
+        "target_id": "RetractablePreferredShare",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FullyPaidShare",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FullyPaidShare",
+        "target_id": "hasSharePaymentStatus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasSharePaymentStatus"
+            ]
+        }
+    }
+]

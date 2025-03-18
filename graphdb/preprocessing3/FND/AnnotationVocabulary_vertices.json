@@ -1,0 +1,82 @@
+[
+    {
+        "id": "Module",
+        "type": "Class",
+        "name": "Module",
+        "label": "module",
+        "definition": "classifier used to indicate a category used to modularize something based on principles of the model driven architecture methodology (MDA), including but not limited to separation of concerns, coherence, and establishing clear logical boundaries in order to increase reusability and maintainability",
+        "explanatoryNote": "A module should be designed to reflect these principles, including a small number of models that have well-defined relationships with one another, that form a coherent and cohesive whole for some purpose, and that have clear boundaries or interfaces to other modules."
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "MaturityLevel",
+        "type": "Class",
+        "name": "MaturityLevel",
+        "explanatoryNote": "FIBO currently has three maturity levels: Informative, Provisional, and Release.",
+        "label": "maturity level",
+        "definition": "classifier used to indicate the state of an artifact with respect to its development lifecycle"
+    },
+    {
+        "id": "Release",
+        "type": "MaturityLevel",
+        "name": "Release",
+        "explanatoryNote": "Release notes will be provided for any changes with respect to released content, and any revisions will be backwards compatible with the prior version to the degree possible.",
+        "label": "release",
+        "definition": "entity that is considered to be stable and mature from a development perspective"
+    },
+    {
+        "id": "termOrigin",
+        "type": "AnnotationProperty",
+        "name": "termOrigin",
+        "label": "term origin",
+        "definition": "document or other source from which a given term was taken directly; the range for this annotation can be a string, URI, or BibliographicCitation"
+    },
+    {
+        "id": "Provisional",
+        "type": "MaturityLevel",
+        "name": "Provisional",
+        "definition": "entity that is considered to be under development",
+        "label": "provisional",
+        "explanatoryNote": "Provisional content is subject to change, and may change substantially prior to release. FIBO users should be aware that it is not dependable, but could be used for reference and as the basis for further work."
+    },
+    {
+        "id": "Informative",
+        "type": "MaturityLevel",
+        "name": "Informative",
+        "definition": "entity that is considered deprecated but included for informational purposes because it is referenced by some provisional concept",
+        "explanatoryNote": "Informative content will be removed as soon as all dependencies have been eliminated, thus FIBO users should not depend on it going forward.",
+        "label": "informative"
+    },
+    {
+        "id": "commonDesignation",
+        "type": "AnnotationProperty",
+        "name": "commonDesignation",
+        "definition": "frequently used designation for an entity",
+        "label": "common designation"
+    },
+    {
+        "id": "definitionOrigin",
+        "type": "AnnotationProperty",
+        "name": "definitionOrigin",
+        "label": "definition origin",
+        "definition": "document or other source from which a given definition was taken directly; the range for this annotation can be a string, URI, or BibliographicCitation"
+    },
+    {
+        "id": "preferredDesignation",
+        "type": "AnnotationProperty",
+        "name": "preferredDesignation",
+        "definition": "recommended designation for an entity in some context",
+        "label": "preferred designation"
+    },
+    {
+        "id": "hasMaturityLevel",
+        "type": "AnnotationProperty",
+        "name": "hasMaturityLevel",
+        "label": "has maturity level",
+        "definition": "links something to its state with respect to a development lifecycle"
+    }
+]

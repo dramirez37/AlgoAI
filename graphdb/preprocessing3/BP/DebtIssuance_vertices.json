@@ -1,0 +1,324 @@
+[
+    {
+        "id": "MediumTermNoteIssuanceProgramme",
+        "type": "Class",
+        "name": "MediumTermNoteIssuanceProgramme",
+        "definition": "a program of offerings of medium term notes; a set of issues where the maturity is defined after the rest of the terms have been registered with some authority; these are registered up front so that then the company wants to borrow more money they don't have to go through the registration period but have the facility up front to issue another security.",
+        "label": "medium term note issuance programme"
+    },
+    {
+        "id": "BondIssuanceProgramme",
+        "type": "Class",
+        "name": "BondIssuanceProgramme",
+        "label": "bond issuance programme",
+        "definition": "a debt issuance programe under which an entity may, from time to time, issue bonds under the terms and conditions specified in the base prospectus for that programme"
+    },
+    {
+        "id": "NotYetIssuedDebtsPool",
+        "type": "Class",
+        "name": "NotYetIssuedDebtsPool",
+        "label": "not yet issued debts pool"
+    },
+    {
+        "id": "DebtPool",
+        "type": "Entity",
+        "name": "DebtPool"
+    },
+    {
+        "id": "RefundingPurpose",
+        "type": "Class",
+        "name": "RefundingPurpose",
+        "label": "refunding purpose",
+        "definition": "a procedure whereby an issuer refinances outstanding bonds by issuing new bonds"
+    },
+    {
+        "id": "DebtIssuancePurpose",
+        "type": "Class",
+        "name": "DebtIssuancePurpose",
+        "definition": "purpose for the issuance of a debt security; also defines processes to be followed in some instances",
+        "label": "debt issuance purpose"
+    },
+    {
+        "id": "PoolBackedSecuritySecuritizationProcessActor",
+        "type": "Class",
+        "name": "PoolBackedSecuritySecuritizationProcessActor",
+        "label": "pool backed security securitization process actor"
+    },
+    {
+        "id": "SecuritizationProcessActor",
+        "type": "Class",
+        "name": "SecuritizationProcessActor",
+        "label": "securitization process actor"
+    },
+    {
+        "id": "InAssemblyDebtsPool",
+        "type": "Class",
+        "name": "InAssemblyDebtsPool",
+        "label": "in assembly debts pool"
+    },
+    {
+        "id": "SecuritiesIssuanceProcessActor",
+        "type": "Entity",
+        "name": "SecuritiesIssuanceProcessActor"
+    },
+    {
+        "id": "RetailAssetPoolCreationProcess",
+        "type": "Class",
+        "name": "RetailAssetPoolCreationProcess",
+        "label": "retail asset pool creation process",
+        "definition": "The process by which pools of assets are created. These may then be used in the issue of securities based on those asset pools as underlying."
+    },
+    {
+        "id": "AssetPoolCreationProcess",
+        "type": "Class",
+        "name": "AssetPoolCreationProcess",
+        "label": "asset pool creation process"
+    },
+    {
+        "id": "UnderwriterTakedownForDebt",
+        "type": "Class",
+        "name": "UnderwriterTakedownForDebt",
+        "definition": "information on takedown quantity of the debt security handled by the underwriter (that will be brought into DTC)",
+        "label": "underwriter takedown for debt"
+    },
+    {
+        "id": "UnderwriterTakedown",
+        "type": "Entity",
+        "name": "UnderwriterTakedown"
+    },
+    {
+        "id": "CompletedDebtsPool",
+        "type": "Class",
+        "name": "CompletedDebtsPool",
+        "label": "completed debts pool"
+    },
+    {
+        "id": "DebtOffering",
+        "type": "Class",
+        "name": "DebtOffering"
+    },
+    {
+        "id": "BondOffering",
+        "type": "Class",
+        "name": "BondOffering",
+        "label": "bond offering",
+        "definition": "a debt offering of one or more bonds, as all or part of an issuance programme"
+    },
+    {
+        "id": "DebtIssuanceProgramme",
+        "type": "Class",
+        "name": "DebtIssuanceProgramme",
+        "definition": "a series of debt security issuances over time",
+        "label": "debt issuance programme"
+    },
+    {
+        "id": "AdvancedRefunding",
+        "type": "Class",
+        "name": "AdvancedRefunding",
+        "label": "advance refunding",
+        "explanatoryNote": "The proceeds are then invested, and when the older bonds become callable they are paid off with the invested proceeds.",
+        "definition": "refunding in which bond issuance in which new bonds are sold at a lower rate than outstanding ones"
+    },
+    {
+        "id": "MuniIssueUnderwriter",
+        "type": "Class",
+        "name": "MuniIssueUnderwriter",
+        "definition": "The party which agrees to buy any certificates that are not bought by investors Term origin:DTCC",
+        "label": "muni issue underwriter"
+    },
+    {
+        "id": "SecurityUnderwriter",
+        "type": "Entity",
+        "name": "SecurityUnderwriter"
+    },
+    {
+        "id": "PoolBackedSecuritySecuritizationProcess",
+        "type": "Class",
+        "name": "PoolBackedSecuritySecuritizationProcess",
+        "label": "pool backed security securitization process"
+    },
+    {
+        "id": "DebtSecuritizationProcess",
+        "type": "Class",
+        "name": "DebtSecuritizationProcess",
+        "label": "debt securitization process"
+    },
+    {
+        "id": "MTNRegistration",
+        "type": "Class",
+        "name": "MTNRegistration",
+        "label": "m t n registration"
+    },
+    {
+        "id": "Registration",
+        "type": "Entity",
+        "name": "Registration"
+    },
+    {
+        "id": "CreditCardPoolCreationProcess",
+        "type": "Class",
+        "name": "CreditCardPoolCreationProcess",
+        "label": "credit card pool creation process"
+    },
+    {
+        "id": "NotYetIssued",
+        "type": "Class",
+        "name": "NotYetIssued",
+        "label": "not yet issued"
+    },
+    {
+        "id": "PoolLifecycleStateSelection",
+        "type": "Entity",
+        "name": "PoolLifecycleStateSelection"
+    },
+    {
+        "id": "DebtIssuanceProcessInformation",
+        "type": "Class",
+        "name": "DebtIssuanceProcessInformation",
+        "label": "debt issuance process information",
+        "definition": "information specific to the issuance of a debt security"
+    },
+    {
+        "id": "TradedInstrumentIssuanceProcessInformation",
+        "type": "Entity",
+        "name": "TradedInstrumentIssuanceProcessInformation"
+    },
+    {
+        "id": "HomeEquityLineOfCreditPoolCreationProcess",
+        "type": "Class",
+        "name": "HomeEquityLineOfCreditPoolCreationProcess",
+        "label": "home equity line of credit pool creation process"
+    },
+    {
+        "id": "LoanPoolCreationProcess",
+        "type": "Class",
+        "name": "LoanPoolCreationProcess",
+        "label": "loan pool creation process"
+    },
+    {
+        "id": "CDOSecuritizationProcess",
+        "type": "Class",
+        "name": "CDOSecuritizationProcess",
+        "label": "c d o securitization process"
+    },
+    {
+        "id": "ABSSecuritizationProcess",
+        "type": "Class",
+        "name": "ABSSecuritizationProcess",
+        "label": "a b s securitization process"
+    },
+    {
+        "id": "NewMoneyPurpose",
+        "type": "Class",
+        "name": "NewMoneyPurpose",
+        "label": "new money purpose",
+        "definition": "securities issued to raise funds for a new project or purpose"
+    },
+    {
+        "id": "Objective",
+        "type": "Entity",
+        "name": "Objective"
+    },
+    {
+        "id": "MediumTermNoteOffering",
+        "type": "Class",
+        "name": "MediumTermNoteOffering",
+        "label": "medium term note offering"
+    },
+    {
+        "id": "IssuanceProgramme",
+        "type": "Entity",
+        "name": "IssuanceProgramme"
+    },
+    {
+        "id": "BondOfferingWithWarrant",
+        "type": "Class",
+        "name": "BondOfferingWithWarrant",
+        "definition": "a bond offering where the issue includes a warrant; Further notes: ISO 10962 CFI definition is A bond that is issued together with one or more warrant(s) attached as part of the offer, the warrant(s) granting the holder the right to purchase a designated security, often the common stock of the issuer of the debt, at a specified price. Review notes: This need not be any specific type of bond. The warrant is used as a sweetener to encourage people to subscribe to a new bond issue. The Bond and the Warrant trade together as a unit (called \"Bond Unit\").",
+        "label": "bond offering with warrant"
+    },
+    {
+        "id": "SecuritiesIssuanceProcess",
+        "type": "Entity",
+        "name": "SecuritiesIssuanceProcess"
+    },
+    {
+        "id": "RemarketingPurpose",
+        "type": "Class",
+        "name": "RemarketingPurpose",
+        "definition": "the process of reselling securities to the public that have been tendered for purchase by the previous owners thereof",
+        "label": "remarketing purpose"
+    },
+    {
+        "id": "InAssembly",
+        "type": "Class",
+        "name": "InAssembly",
+        "label": "in assembly"
+    },
+    {
+        "id": "InIssuance",
+        "type": "Class",
+        "name": "InIssuance",
+        "label": "in issuance"
+    },
+    {
+        "id": "DebtInstrumentPoolCreationProcess",
+        "type": "Class",
+        "name": "DebtInstrumentPoolCreationProcess",
+        "label": "debt instrument pool creation process"
+    },
+    {
+        "id": "Issued",
+        "type": "Class",
+        "name": "Issued",
+        "label": "issued"
+    },
+    {
+        "id": "IssuanceProcessActivity",
+        "type": "Class",
+        "name": "IssuanceProcessActivity",
+        "definition": "An activity within the process of securities issuance.",
+        "label": "issuance process activity"
+    },
+    {
+        "id": "hasDebtIssuancePurpose",
+        "type": "ObjectProperty",
+        "name": "hasDebtIssuancePurpose",
+        "label": "has debt issuance purpose"
+    },
+    {
+        "id": "resultsIn",
+        "type": "ObjectProperty",
+        "name": "resultsIn",
+        "label": "results in"
+    },
+    {
+        "id": "announces",
+        "type": "ObjectProperty",
+        "name": "announces",
+        "definition": "The issue of one or more securities that the announcement pertains to.",
+        "label": "announces"
+    },
+    {
+        "id": "isBankQualified",
+        "type": "DatatypeProperty",
+        "name": "isBankQualified",
+        "definition": "designation given to a public purpose bond offering by the issuer if it reasonably expects to issue in the calendar year of such offering no more than $10 million par amount of bonds of the type required to be included in making such calculation under the Internal Revenue Code.\u00a0 When purchased by a commercial bank for its portfolio, the bank may receive an 80% tax deduction for the interest cost of carry for the issue.\u00a0 A bond that is bank qualified is also known as a qualified tax-exempt obligation.",
+        "label": "is bank qualified"
+    },
+    {
+        "id": "underwriterTakedownAmount",
+        "type": "ObjectProperty",
+        "name": "underwriterTakedownAmount",
+        "label": "underwriter takedown amount",
+        "definition": "Takedown amount of the security handled by the underwriter(that will be brought into DTC)."
+    },
+    {
+        "id": "hasOriginalIssueDiscount",
+        "type": "ObjectProperty",
+        "name": "hasOriginalIssueDiscount",
+        "definition": "discount from par value at the time a bond or other debt instrument is issued",
+        "explanatoryNote": "The OID is the difference between the stated redemption price at maturity and the actual issue price.",
+        "label": "has original issue discount"
+    }
+]

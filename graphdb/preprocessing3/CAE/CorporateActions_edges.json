@@ -1,0 +1,269 @@
+[
+    {
+        "source_id": "ActionClassificationScheme",
+        "target_id": "CodeSet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ActionClassificationScheme",
+        "target_id": "ActionClassifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "ActionClassifier"
+            ]
+        }
+    },
+    {
+        "source_id": "ActionClassificationScheme",
+        "target_id": "ActionClassifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "ActionClassifier"
+            ]
+        }
+    },
+    {
+        "source_id": "ActionClassificationScheme",
+        "target_id": "ClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ActionStatus",
+        "target_id": "LifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ActionStatus",
+        "target_id": "Action",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "Action"
+            ]
+        }
+    },
+    {
+        "source_id": "Notification",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegulatoryAction",
+        "target_id": "Action",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VoluntaryCorporateAction",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsentSolicitation",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Action",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Action",
+        "target_id": "ActionClassifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "ActionClassifier"
+            ]
+        }
+    },
+    {
+        "source_id": "OrganizationAddressChange",
+        "target_id": "Notification",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ActionClassifier",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ActionClassifier",
+        "target_id": "Action",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "Action"
+            ]
+        }
+    },
+    {
+        "source_id": "ActionClassifier",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ActionClassifier",
+        "target_id": "ActionClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "ActionClassificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "ActionClassifier",
+        "target_id": "ActionClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "ActionClassificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "IncomeOrientedClassifier",
+        "target_id": "ActionClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MandatoryWithChoiceCorporateAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClassAction",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DisclosureAction",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalFormChange",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketAction",
+        "target_id": "Action",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessStrategyClassifier",
+        "target_id": "ActionClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PriorityIssue",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpinOff",
+        "target_id": "Divestiture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MergerAcquisition",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MandatoryCorporateAction",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Liquidation",
+        "target_id": "Divestiture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrganizationNameChange",
+        "target_id": "Notification",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateAction",
+        "target_id": "Action",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Divestiture",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ChangeAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

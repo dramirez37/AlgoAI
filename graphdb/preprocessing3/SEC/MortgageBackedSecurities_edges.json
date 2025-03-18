@@ -1,0 +1,260 @@
+[
+    {
+        "source_id": "PassThroughMBSIssueUnderwriter",
+        "target_id": "SecurityUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RealEstateMortgageInvestmentConduit",
+        "target_id": "SpecialPurposeVehicle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RealEstateMortgageInvestmentConduit",
+        "target_id": "MortgagePool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "owns",
+                "MortgagePool"
+            ]
+        }
+    },
+    {
+        "source_id": "MortgagePool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyMortgagePool",
+        "target_id": "MortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughMBSInstrument",
+        "target_id": "MortgageBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughMBSInstrument",
+        "target_id": "PassThroughMBSInstrumentNote",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasNote",
+                "PassThroughMBSInstrumentNote"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyMBSPool",
+        "target_id": "MBSPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SBA-Pool",
+        "target_id": "MortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyMBSIssuer",
+        "target_id": "MBSIssuer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyMBSIssuer",
+        "target_id": "GovernmentMortgageAgency",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MortgageBackedSecurityOfferingProspectus",
+        "target_id": "Prospectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FNMA-Pool",
+        "target_id": "AgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentMortgageAgency",
+        "target_id": "FunctionalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughMBSDeal",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughMBSDeal",
+        "target_id": "AgencyMBSDeal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAlso",
+                "AgencyMBSDeal"
+            ]
+        }
+    },
+    {
+        "source_id": "GNMA-IIPool",
+        "target_id": "AgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughMBSInstrumentNote",
+        "target_id": "PromissoryNote",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyMortgagePool",
+        "target_id": "MortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuedAndSecuritizedNonAgencyMortgagePool",
+        "target_id": "NonAgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyMBSDeal",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivateLabelMBSDeal",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyMBSIssuer",
+        "target_id": "MBSIssuer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GNMA-PlatinumPool",
+        "target_id": "AgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassThroughMBSDealProspectus",
+        "target_id": "MortgageBackedSecurityOfferingProspectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FHLMC-Pool",
+        "target_id": "AgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MBSPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MBSIssuer",
+        "target_id": "Issuer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ResidentialMBS",
+        "target_id": "MortgageBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FHLMC-GoldPool",
+        "target_id": "AgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuedAndSecuritizedAgencyMortagePool",
+        "target_id": "AgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MortgageBackedSecurity",
+        "target_id": "MBSIssuer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIssuedBy",
+                "MBSIssuer"
+            ]
+        }
+    },
+    {
+        "source_id": "MortgageBackedSecurity",
+        "target_id": "PoolBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Pass-throughPool",
+        "target_id": "MortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpecialistMortgageIssuer",
+        "target_id": "FunctionalBusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GNMA-iPool",
+        "target_id": "AgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommercialMBS",
+        "target_id": "MortgageBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

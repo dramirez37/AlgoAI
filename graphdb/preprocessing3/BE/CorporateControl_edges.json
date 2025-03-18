@@ -1,0 +1,137 @@
+[
+    {
+        "source_id": "Affiliate",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Affiliate",
+        "target_id": "Affiliate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAffiliateOf",
+                "Affiliate"
+            ]
+        }
+    },
+    {
+        "source_id": "Subsidiary",
+        "target_id": "ControlledAffiliate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ControlledAffiliate",
+        "target_id": "Affiliate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ControlledAffiliate",
+        "target_id": "ControlledParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VotingShareholder",
+        "target_id": "Shareholder",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VotingShareholder",
+        "target_id": "DeJureControllingInterestParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ControllingAffiliate",
+        "target_id": "MajorityControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ControllingAffiliate",
+        "target_id": "Affiliate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TotalControllingInterestParty",
+        "target_id": "TotalOwner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TotalControllingInterestParty",
+        "target_id": "SignificantShareholder",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "JointVenturePartner",
+        "target_id": "EntityControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SignificantShareholder",
+        "target_id": "VotingShareholder",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GlobalUltimateParent",
+        "target_id": "TotalControllingInterestParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Affiliation",
+        "target_id": "ControlledAffiliate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUndergoer",
+                "ControlledAffiliate"
+            ]
+        }
+    },
+    {
+        "source_id": "Affiliation",
+        "target_id": "ControllingAffiliate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasActor",
+                "ControllingAffiliate"
+            ]
+        }
+    },
+    {
+        "source_id": "Affiliation",
+        "target_id": "Control",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DomesticUltimateParent",
+        "target_id": "TotalControllingInterestParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

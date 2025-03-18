@@ -1,0 +1,68 @@
+[
+    {
+        "source_id": "SecurityTradingStatus",
+        "target_id": "LifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WhenIssued",
+        "target_id": "SecurityLifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Worthless",
+        "target_id": "SecurityLifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ActivelyTrading",
+        "target_id": "ExchangeSecurityTradingStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeSecurityTradingStatus",
+        "target_id": "LifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityLifecycleStatus",
+        "target_id": "LifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradingHalted",
+        "target_id": "ExchangeSecurityTradingStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Inactive",
+        "target_id": "SecurityTradingStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WhenDistributed",
+        "target_id": "SecurityLifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Active",
+        "target_id": "SecurityTradingStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Issued",
+        "target_id": "SecurityLifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,461 @@
+[
+    {
+        "source_id": "SecurityIdentifier",
+        "target_id": "FinancialInstrumentIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityIdentifier",
+        "target_id": "SecurityIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "SecurityIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "ListedSecurityIdentifier",
+        "target_id": "SecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ListedSecurityIdentifier",
+        "target_id": "SecurityRegistry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRegisteredIn",
+                "SecurityRegistry"
+            ]
+        }
+    },
+    {
+        "source_id": "ListedSecurityIdentifier",
+        "target_id": "SecurityIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "SecurityIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityRegistryEntry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityRegistryEntry",
+        "target_id": "SecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "SecurityIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalNumberingAgency",
+        "target_id": "NationalSecuritiesIdentifyingNumberRegistry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "manages",
+                "NationalSecuritiesIdentifyingNumberRegistry"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalNumberingAgency",
+        "target_id": "NationalSecuritiesIdentifyingNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "NationalSecuritiesIdentifyingNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalNumberingAgency",
+        "target_id": "RegistrationAuthority",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalNumberingAgency",
+        "target_id": "NationalSecuritiesIdentifyingNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "registers",
+                "NationalSecuritiesIdentifyingNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityIdentificationScheme",
+        "target_id": "SecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "SecurityIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityIdentificationScheme",
+        "target_id": "FinancialInstrumentIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityIdentificationScheme",
+        "target_id": "RegistrationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TickerSymbol",
+        "target_id": "ReassignableIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalSecuritiesIdentifyingNumber",
+        "target_id": "NationalNumberingAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRegisteredBy",
+                "NationalNumberingAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalSecuritiesIdentifyingNumber",
+        "target_id": "SecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalSecuritiesIdentifyingNumber",
+        "target_id": "NationalSecurityIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "NationalSecurityIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "InternationalSecuritiesIdentificationNumberingScheme",
+        "target_id": "InternationalSecuritiesIdentificationNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "InternationalSecuritiesIdentificationNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "InternationalSecuritiesIdentificationNumberingScheme",
+        "target_id": "SecurityIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InternationalSecuritiesIdentificationNumber",
+        "target_id": "StructuredIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InternationalSecuritiesIdentificationNumber",
+        "target_id": "NationalSecuritiesIdentifyingNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "NationalSecuritiesIdentifyingNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "InternationalSecuritiesIdentificationNumber",
+        "target_id": "SecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalSecuritiesIdentifyingNumberRegistryEntry",
+        "target_id": "NationalSecuritiesIdentifyingNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "NationalSecuritiesIdentifyingNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalSecuritiesIdentifyingNumberRegistryEntry",
+        "target_id": "SecurityRegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProprietarySecurityIdentificationScheme",
+        "target_id": "SecurityIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProprietarySecurityIdentificationScheme",
+        "target_id": "ProprietarySecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "ProprietarySecurityIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityRegistry",
+        "target_id": "SecurityRegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRegistryEntry",
+                "SecurityRegistryEntry"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityRegistry",
+        "target_id": "RegistrationAuthority",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isManagedBy",
+                "RegistrationAuthority"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityRegistry",
+        "target_id": "Registry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityRegistry",
+        "target_id": "SecurityIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isCharacterizedBy",
+                "SecurityIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalSecurityIdentificationScheme",
+        "target_id": "SecurityIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalSecurityIdentificationScheme",
+        "target_id": "NationalSecuritiesIdentifyingNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "NationalSecuritiesIdentifyingNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "ProprietarySecurityIdentifier",
+        "target_id": "ProprietarySecurityIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "ProprietarySecurityIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "ProprietarySecurityIdentifier",
+        "target_id": "SecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Listing",
+        "target_id": "SecurityRegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrumentIdentificationScheme",
+        "target_id": "FinancialInstrumentIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "FinancialInstrumentIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstrumentIdentificationScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalSecuritiesIdentifyingNumberRegistry",
+        "target_id": "SecurityRegistry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalSecuritiesIdentifyingNumberRegistry",
+        "target_id": "NationalNumberingAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isManagedBy",
+                "NationalNumberingAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalSecuritiesIdentifyingNumberRegistry",
+        "target_id": "NationalSecurityIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isCharacterizedBy",
+                "NationalSecurityIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalSecuritiesIdentifyingNumberRegistry",
+        "target_id": "NationalSecuritiesIdentifyingNumberRegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRegistryEntry",
+                "NationalSecuritiesIdentifyingNumberRegistryEntry"
+            ]
+        }
+    }
+]

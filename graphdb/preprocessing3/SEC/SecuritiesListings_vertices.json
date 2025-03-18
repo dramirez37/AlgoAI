@@ -1,0 +1,117 @@
+[
+    {
+        "id": "Listing",
+        "type": "Class",
+        "name": "Listing",
+        "label": "listing",
+        "definition": "catalog entry for a securities offering managed by an exchange that provides the terms under which that security is made available on that exchange"
+    },
+    {
+        "id": "ListingService",
+        "type": "Class",
+        "name": "ListingService",
+        "definition": "service provided by an exchange to facilitate securities trading",
+        "label": "listing service"
+    },
+    {
+        "id": "FinancialService",
+        "type": "Entity",
+        "name": "FinancialService"
+    },
+    {
+        "id": "ListedSecurity",
+        "type": "Class",
+        "name": "ListedSecurity",
+        "label": "listed security",
+        "definition": "registered security listed on at least one exchange"
+    },
+    {
+        "id": "RegisteredSecurity",
+        "type": "Class",
+        "name": "RegisteredSecurity",
+        "definition": "security that is registered with some registration authority",
+        "label": "registered security"
+    },
+    {
+        "id": "Security",
+        "type": "Entity",
+        "name": "Security"
+    },
+    {
+        "id": "Exchange",
+        "type": "Class",
+        "name": "Exchange"
+    },
+    {
+        "id": "hasListingDate",
+        "type": "DatatypeProperty",
+        "name": "hasListingDate",
+        "label": "has listing date",
+        "definition": "indicates the date on which a security is listed"
+    },
+    {
+        "id": "hasTickSize",
+        "type": "ObjectProperty",
+        "name": "hasTickSize",
+        "definition": "specifies a minimum price movement for the security with respect to an exchange",
+        "label": "has tick size"
+    },
+    {
+        "id": "hasOriginalPlaceOfListing",
+        "type": "ObjectProperty",
+        "name": "hasOriginalPlaceOfListing",
+        "label": "has original place of listing",
+        "definition": "indicates the original exchange that listed the security"
+    },
+    {
+        "id": "hasHomeExchange",
+        "type": "ObjectProperty",
+        "name": "hasHomeExchange",
+        "label": "has home exchange",
+        "explanatoryNote": "A primary market is one that issues new securities on an exchange for companies, governments, and other groups to obtain financing through debt-based or equity-based securities.",
+        "definition": "indicates the exchange that is considered the primary market for a security; typically, but not always, in the country in which the security was originally issued"
+    },
+    {
+        "id": "hasLastTradingDateTime",
+        "type": "ObjectProperty",
+        "name": "hasLastTradingDateTime",
+        "label": "has last trading date and time",
+        "definition": "specifies the last date and time that the security was traded on the exchange"
+    },
+    {
+        "id": "isListedVia",
+        "type": "ObjectProperty",
+        "name": "isListedVia",
+        "label": "is listed via",
+        "definition": "identifies the service responsible for listing the security"
+    },
+    {
+        "id": "lists",
+        "type": "ObjectProperty",
+        "name": "lists",
+        "definition": "relates a given exchange-specific security listing to its issue",
+        "label": "lists"
+    },
+    {
+        "id": "isTradedOn",
+        "type": "ObjectProperty",
+        "name": "isTradedOn",
+        "definition": "identifies the trading facility on which the security is traded",
+        "label": "is traded on"
+    },
+    {
+        "id": "hasDelistingDate",
+        "type": "DatatypeProperty",
+        "name": "hasDelistingDate",
+        "label": "has delisting date",
+        "definition": "specifies the date set by the exchange for delisting a security"
+    },
+    {
+        "id": "isSeasoned",
+        "type": "DatatypeProperty",
+        "name": "isSeasoned",
+        "label": "is seasoned",
+        "definition": "indicates that the security has been publicly traded long enough to eliminate any short-term volume volatility from its initial public offering",
+        "explanatoryNote": "Short-term volatility may be with respect to price or trading volume."
+    }
+]

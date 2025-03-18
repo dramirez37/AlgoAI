@@ -1,0 +1,157 @@
+[
+    {
+        "id": "ControllingEquity",
+        "type": "Class",
+        "name": "ControllingEquity",
+        "label": "controlling equity",
+        "definition": "shareholders's equity that formally confers control in the entity, either by law or as explicitly stated in a corresponding equity instrument"
+    },
+    {
+        "id": "ShareholdersEquity",
+        "type": "Entity",
+        "name": "ShareholdersEquity"
+    },
+    {
+        "id": "Investor",
+        "type": "Class",
+        "name": "Investor",
+        "label": "investor",
+        "definition": "party that owns some stake in some organization by way of investment"
+    },
+    {
+        "id": "ContractParty",
+        "type": "Entity",
+        "name": "ContractParty"
+    },
+    {
+        "id": "EntityOwner",
+        "type": "Class",
+        "name": "EntityOwner",
+        "definition": "owner (person, group of people, or other business entity) that owns, or holds an ownership interest in, a formal business organization",
+        "label": "entity owner"
+    },
+    {
+        "id": "ConstitutionalOwner",
+        "type": "Class",
+        "name": "ConstitutionalOwner",
+        "label": "constitutional owner",
+        "explanatoryNote": "Typically this would be share ownership or the holding of partnership equity. Ownership in this 'constitutional' sense means that the owner is in some way a member of the organization, such as an employee or director, as distinct from some outside investor.",
+        "definition": "entity owner that holds an equity stake in said entity, in the form of shareholders' equity"
+    },
+    {
+        "id": "InvestorContract",
+        "type": "Class",
+        "name": "InvestorContract",
+        "label": "investor contract",
+        "definition": "Contract setting out the terms under which some investor invests in the entity and setting out the rights which are conferred on that investor."
+    },
+    {
+        "id": "WrittenContract",
+        "type": "Entity",
+        "name": "WrittenContract"
+    },
+    {
+        "id": "RelationshipRecord",
+        "type": "Class",
+        "name": "RelationshipRecord"
+    },
+    {
+        "id": "Owner",
+        "type": "Entity",
+        "name": "Owner"
+    },
+    {
+        "id": "UltimateConsolidation",
+        "type": "Class",
+        "name": "UltimateConsolidation",
+        "definition": "highest-level (top, end) ancestral ownership, evidenced by accounting consolidation, by some party of some other legal entity",
+        "label": "ultimate ownership"
+    },
+    {
+        "id": "EntityOwnership",
+        "type": "Class",
+        "name": "EntityOwnership",
+        "label": "entity ownership",
+        "definition": "ownership by some party of an interest in some non-governmental formal organization"
+    },
+    {
+        "id": "Ownership",
+        "type": "Entity",
+        "name": "Ownership"
+    },
+    {
+        "id": "InvestmentEquity",
+        "type": "Class",
+        "name": "InvestmentEquity",
+        "label": "investment equity",
+        "definition": "equity that represents an ownership interest in some entity, but may or may not take the form of shareholders's equity"
+    },
+    {
+        "id": "OwnersEquity",
+        "type": "Entity",
+        "name": "OwnersEquity"
+    },
+    {
+        "id": "DirectConsolidation",
+        "type": "Class",
+        "name": "DirectConsolidation",
+        "label": "direct consolidation",
+        "definition": "direct ownership of an entity recorded as accounting consolidation"
+    },
+    {
+        "id": "ForeignBranchOwnership",
+        "type": "Class",
+        "name": "ForeignBranchOwnership",
+        "label": "foreign branch ownership",
+        "definition": "ownership by some party of some formal organization or organizational sub-unit that is a foreign affiliate and legally part of the owning entity"
+    },
+    {
+        "id": "hasDirectOwnership",
+        "type": "ObjectProperty",
+        "name": "hasDirectOwnership",
+        "label": "has direct ownership",
+        "definition": "relates a formal organization to the situation in which it is owned directly by another entity"
+    },
+    {
+        "id": "hasInvestmentEntity",
+        "type": "ObjectProperty",
+        "name": "hasInvestmentEntity",
+        "definition": "relates a legal person to a directly owned formal organization or subsidiary, depending on the percent ownership interest",
+        "label": "has investment entity"
+    },
+    {
+        "id": "hasOwnedEntity",
+        "type": "ObjectProperty",
+        "name": "hasOwnedEntity",
+        "label": "has owned entity",
+        "definition": "indicates a formal organization, including potentially a sole proprietorship, that is owned by a legal person"
+    },
+    {
+        "id": "hasOwningEntity",
+        "type": "ObjectProperty",
+        "name": "hasOwningEntity",
+        "definition": "indicates a party that owns a formal organization",
+        "label": "has owning entity"
+    },
+    {
+        "id": "hasDirectOwningEntity",
+        "type": "ObjectProperty",
+        "name": "hasDirectOwningEntity",
+        "label": "has direct owning entity",
+        "definition": "relates a formal organization to a direct legal person / owner"
+    },
+    {
+        "id": "hasInvestmentOwnership",
+        "type": "ObjectProperty",
+        "name": "hasInvestmentOwnership",
+        "label": "has investment ownership",
+        "definition": "relates a legal person to the context in which it owns a formal organization"
+    },
+    {
+        "id": "guarantees",
+        "type": "ObjectProperty",
+        "name": "guarantees",
+        "definition": "provides a formal assurance or promise, esp. that certain conditions shall be fulfilled relating to a product, service, or transaction",
+        "label": "guarantees"
+    }
+]

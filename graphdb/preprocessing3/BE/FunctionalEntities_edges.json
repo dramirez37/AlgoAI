@@ -1,0 +1,203 @@
+[
+    {
+        "source_id": "ServiceProvider",
+        "target_id": "FunctionalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FamilyOffice",
+        "target_id": "FunctionalBusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FunctionalBusinessEntity",
+        "target_id": "FunctionalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MerchantCategoryCodeScheme",
+        "target_id": "IndustrySectorClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MerchantCategoryCodeScheme",
+        "target_id": "MerchantCategoryCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "MerchantCategoryCode"
+            ]
+        }
+    },
+    {
+        "source_id": "Merchant",
+        "target_id": "FunctionalBusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Merchant",
+        "target_id": "MerchantCategoryCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "MerchantCategoryCode"
+            ]
+        }
+    },
+    {
+        "source_id": "Merchant",
+        "target_id": "MerchantIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "MerchantIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "Association",
+        "target_id": "CooperativeSociety",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "playsRole",
+                "CooperativeSociety"
+            ]
+        }
+    },
+    {
+        "source_id": "Association",
+        "target_id": "NotForProfitOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MerchantCategoryCode",
+        "target_id": "Merchant",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "Merchant"
+            ]
+        }
+    },
+    {
+        "source_id": "MerchantCategoryCode",
+        "target_id": "IndustrySectorClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MerchantCategoryCode",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MerchantCategoryCode",
+        "target_id": "MerchantCategoryCodeScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "MerchantCategoryCodeScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "SyndicateMember",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyndicateMember",
+        "target_id": "Syndicate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isMemberOf",
+                "Syndicate"
+            ]
+        }
+    },
+    {
+        "source_id": "FunctionalEntity",
+        "target_id": "FunctionalRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CooperativeSociety",
+        "target_id": "FunctionalBusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Syndicate",
+        "target_id": "Organization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MerchantIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MerchantIdentifier",
+        "target_id": "Merchant",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "Merchant"
+            ]
+        }
+    }
+]

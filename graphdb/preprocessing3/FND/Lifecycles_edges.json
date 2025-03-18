@@ -1,0 +1,260 @@
+[
+    {
+        "source_id": "MaturityLevel",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Lifecycle",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "LifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "Lifecycle",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "LifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "Lifecycle",
+        "target_id": "Arrangement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LifecycleStageOccurrence",
+        "target_id": "LifecycleOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isStageOf",
+                "LifecycleOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "LifecycleStageOccurrence",
+        "target_id": "LifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "LifecycleEventOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "LifecycleStageOccurrence",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LifecycleStageOccurrence",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "LifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "LifecycleEvent",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LifecycleEvent",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "LifecycleStage"
+            ]
+        }
+    },
+    {
+        "source_id": "LifecycleOccurrence",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LifecycleOccurrence",
+        "target_id": "LifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "LifecycleStageOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "LifecycleOccurrence",
+        "target_id": "Lifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "Lifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "LifecycleEventOccurrence",
+        "target_id": "LifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "LifecycleStageOccurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "LifecycleEventOccurrence",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LifecycleEventOccurrence",
+        "target_id": "LifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "LifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "LifecycleStage",
+        "target_id": "Lifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isStageOf",
+                "Lifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "LifecycleStage",
+        "target_id": "Lifecycle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "Lifecycle"
+            ]
+        }
+    },
+    {
+        "source_id": "LifecycleStage",
+        "target_id": "LifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "LifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "LifecycleStage",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LifecycleStatus",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LifecycleStatus",
+        "target_id": "LifecycleStageOccurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "LifecycleStageOccurrence"
+            ]
+        }
+    }
+]

@@ -1,0 +1,341 @@
+[
+    {
+        "source_id": "ExchangeTradedWarrant",
+        "target_id": "PublicWarrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeTradedWarrant",
+        "target_id": "ListedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CompanyWarrant",
+        "target_id": "EquityWarrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CompanyWarrant",
+        "target_id": "TraditionalWarrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SubscriptionRight",
+        "target_id": "Entitlement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreferredShareSubscriptionRight",
+        "target_id": "SubscriptionRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyWarrant",
+        "target_id": "CurrencyDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CombinedInstrumentsPurchaseRight",
+        "target_id": "PurchaseRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityWarrant",
+        "target_id": "CommodityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Warrant",
+        "target_id": "Entitlement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AllotmentRightFormula",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivateWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivateWarrant",
+        "target_id": "NonNegotiableSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PerpetualWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondSubscriptionRight",
+        "target_id": "SubscriptionRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommonShareSubscriptionRight",
+        "target_id": "SubscriptionRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MiniFutureCertificate",
+        "target_id": "BarrierOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MiniFutureCertificate",
+        "target_id": "Entitlement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MiniFutureCertificate",
+        "target_id": "SecurityBasedDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommonConvertibleShareSubscriptionRight",
+        "target_id": "SubscriptionRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NakedWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BarrierInstrumentBasedMiniFutureCertificate",
+        "target_id": "MiniFutureCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityWarrant",
+        "target_id": "EquityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallPutWarrant",
+        "target_id": "CallWarrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallPutWarrant",
+        "target_id": "PutWarrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreferredSharePurchaseRight",
+        "target_id": "PurchaseRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtWarrant",
+        "target_id": "DebtInstrumentDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConstantLeverageCertificate",
+        "target_id": "SecurityBasedDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConstantLeverageCertificate",
+        "target_id": "Entitlement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConstantLeverageCertificate",
+        "target_id": "Option",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CoveredWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AllotmentRight",
+        "target_id": "AllotmentRightFormula",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasExpression",
+                "AllotmentRightFormula"
+            ]
+        }
+    },
+    {
+        "source_id": "AllotmentRight",
+        "target_id": "EquityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AllotmentRight",
+        "target_id": "Entitlement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreferredConvertibleSharePurchaseRight",
+        "target_id": "PurchaseRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndexWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PublicWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PublicWarrant",
+        "target_id": "NegotiableSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PurchaseRight",
+        "target_id": "Entitlement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondPurchaseRight",
+        "target_id": "PurchaseRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreferredConvertibleShareSubscriptionRight",
+        "target_id": "SubscriptionRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TraditionalWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BarrierUnderlyingMiniFutureCertificate",
+        "target_id": "MiniFutureCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CombinedInstrumentsSubscriptionRight",
+        "target_id": "SubscriptionRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommonConvertibleSharePurchaseRight",
+        "target_id": "PurchaseRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LongMiniFutureCertificate",
+        "target_id": "MiniFutureCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PutWarrant",
+        "target_id": "Warrant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ShortMiniFutureCertificate",
+        "target_id": "MiniFutureCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommonSharePurchaseRight",
+        "target_id": "PurchaseRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

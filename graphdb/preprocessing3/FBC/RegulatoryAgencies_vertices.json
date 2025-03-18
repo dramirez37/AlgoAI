@@ -1,0 +1,126 @@
+[
+    {
+        "id": "TaxAuthority",
+        "type": "Class",
+        "name": "TaxAuthority",
+        "label": "tax authority",
+        "definition": "regulatory agency that has jurisdiction over the assessment, determination, collection, imposition and other aspects of any tax"
+    },
+    {
+        "id": "RegulatoryAgency",
+        "type": "Class",
+        "name": "RegulatoryAgency",
+        "label": "regulatory agency",
+        "definition": "public authority or government agency responsible for exercising authority over something in a regulatory or supervisory capacity",
+        "explanatoryNote": "Typically, a regulatory agency is chartered to protect some constituancy, (e.g., investors in the financial industry), to ensure the fairness and integrity of some market (e.g., the securities market), and fair and safe business practices among the service providers in that market."
+    },
+    {
+        "id": "Examiner",
+        "type": "Class",
+        "name": "Examiner",
+        "label": "examiner",
+        "definition": "a party empowered as an official representative by a regulatory agency to investigate and review specified documents for accuracy and truthfulness"
+    },
+    {
+        "id": "ResponsibleParty",
+        "type": "Entity",
+        "name": "ResponsibleParty"
+    },
+    {
+        "id": "RegulatoryReport",
+        "type": "Class",
+        "name": "RegulatoryReport",
+        "explanatoryNote": "Such a report may be needed for licensing, monitoring, taxation, or for other purposes that demonstrate the integrity, fairness, safety, or other capacity of a given industry, organization, or product",
+        "label": "regulatory report",
+        "definition": "a report required to support operational transparency that demonstrates compliance with some specification, law, policy, restriction, or other rule specified by a regulatory agency"
+    },
+    {
+        "id": "Report",
+        "type": "Entity",
+        "name": "Report"
+    },
+    {
+        "id": "RegulationIdentifier",
+        "type": "Class",
+        "name": "RegulationIdentifier",
+        "label": "regulation identifier",
+        "definition": "an identifier associated with a regulation"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "ServiceProvider",
+        "type": "Entity",
+        "name": "ServiceProvider"
+    },
+    {
+        "id": "GovernmentIssuedLicense",
+        "type": "Class",
+        "name": "GovernmentIssuedLicense",
+        "definition": "grant of permission needed to legally perform some task, provide some service, exercise a certain privilege, or pursue some business or occupation",
+        "label": "government-issued license"
+    },
+    {
+        "id": "License",
+        "type": "Entity",
+        "name": "License"
+    },
+    {
+        "id": "RegulatoryService",
+        "type": "Class",
+        "name": "RegulatoryService",
+        "label": "regulatory service",
+        "definition": "a service provided by a regulatory agency, which may include, but not be limited to, examination, monitoring, supervision, testing, or other capabilities required to ensure the integrity, fairness, safety, or other capacity of a given industry, organization, or product"
+    },
+    {
+        "id": "Service",
+        "type": "Entity",
+        "name": "Service"
+    },
+    {
+        "id": "RegulatoryCapacity",
+        "type": "Class",
+        "name": "RegulatoryCapacity",
+        "definition": "the capacity of some natural person to regulate some industry, organization, or product by virtue of some certification program on behalf of some regulatory agency",
+        "label": "regulatory capacity"
+    },
+    {
+        "id": "LegalCapacity",
+        "type": "Entity",
+        "name": "LegalCapacity"
+    },
+    {
+        "id": "Regulation",
+        "type": "Class",
+        "name": "Regulation"
+    },
+    {
+        "id": "RegulationIdentificationScheme",
+        "type": "Class",
+        "name": "RegulationIdentificationScheme",
+        "definition": "a scheme for organizing information and allocating identifiers to regulations",
+        "label": "regulation identification scheme"
+    },
+    {
+        "id": "IdentificationScheme",
+        "type": "Entity",
+        "name": "IdentificationScheme"
+    },
+    {
+        "id": "regulates",
+        "type": "ObjectProperty",
+        "name": "regulates",
+        "definition": "has regulatory authority over or directs according to rule or law, typically an industry, organization, or product",
+        "label": "regulates"
+    },
+    {
+        "id": "isRegulatedBy",
+        "type": "ObjectProperty",
+        "name": "isRegulatedBy",
+        "label": "is regulated by",
+        "definition": "indicates a regulatory agency that has regulatory authority for something"
+    }
+]

@@ -1,0 +1,251 @@
+[
+    {
+        "id": "MonetaryAmount",
+        "type": "Class",
+        "name": "MonetaryAmount",
+        "label": "monetary amount",
+        "definition": "measure that is an amount of money specified in monetary units"
+    },
+    {
+        "id": "ScalarQuantityValue",
+        "type": "Entity",
+        "name": "ScalarQuantityValue"
+    },
+    {
+        "id": "CurrencyIdentifier",
+        "type": "Class",
+        "name": "CurrencyIdentifier",
+        "label": "currency identifier",
+        "definition": "sequence of characters representing some currency",
+        "explanatoryNote": "The first (left-most) two characters of the ISO 4217 3-letter currency identifier relate to the currency authority that issues the currency, and is, in most cases the ISO 3166-1 alpha 2 code for the geopolitical entity whose central bank is the issuer. The third (right-most) character of the identifier (alphabetic code) is an indicator derived from the name of the major currency unit or fund. If the currency is not associated with a single geographical entity as described in ISO 3166-1, typically a specially allocated identifier (alpha-2 code) is used to describe the currency authority. This code has been allocated by the Maintenance Agency from within the user-assigned range of codes XA to XZ specified in 8.1.3 of ISO 3166-1:2013. The character following X will be a mnemonic, where possible, derived from the name of the geographical area concerned."
+    },
+    {
+        "id": "CodeElement",
+        "type": "Entity",
+        "name": "CodeElement"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "MonetaryPrice",
+        "type": "Class",
+        "name": "MonetaryPrice",
+        "label": "monetary price",
+        "definition": "price that that is expressed as a monetary amount",
+        "explanatoryNote": "As the consideration given in exchange for transfer of ownership, price forms the essential basis of commercial transactions. It may be fixed by a contract, left to be determined by an agreed upon formula at a future date, or discovered or negotiated during the course of dealings between the parties involved. In commerce, price is determined by what (1) a buyer is willing to pay, (2) a seller is willing to accept, and (3) the competition is allowing to be charged."
+    },
+    {
+        "id": "Price",
+        "type": "Class",
+        "name": "Price",
+        "definition": "amount of money, goods, or services requested, expected, required, or given in exchange for something else",
+        "label": "price"
+    },
+    {
+        "id": "FundsIdentifier",
+        "type": "Class",
+        "name": "FundsIdentifier",
+        "label": "funds identifier",
+        "definition": "sequence of characters that can be used to uniquely identify funds"
+    },
+    {
+        "id": "PreciousMetalIdentifier",
+        "type": "Class",
+        "name": "PreciousMetalIdentifier",
+        "definition": "sequence of characters uniquely identifying the precious metal in some context",
+        "label": "precious metal identifier"
+    },
+    {
+        "id": "InterestRate",
+        "type": "Class",
+        "name": "InterestRate",
+        "label": "interest rate",
+        "definition": "amount charged, expressed as a percentage of principal, in exchange for the use of assets",
+        "explanatoryNote": "Interest rates are typically noted on an annual basis, known as the annual percentage rate (APR). The assets borrowed could include cash, consumer goods, and large assets such as a vehicle or building. The rate is derived by dividing the amount of interest by the amount of principal borrowed. Interest rates are quoted on bills, notes, bonds, credit cards, and many kinds of consumer and business loans."
+    },
+    {
+        "id": "PercentageMonetaryAmount",
+        "type": "Class",
+        "name": "PercentageMonetaryAmount",
+        "definition": "measure of some amount of money expressed as a percentage of some other amount, some notional amount or some concrete money amount",
+        "label": "percentage monetary amount"
+    },
+    {
+        "id": "AmountOfMoney",
+        "type": "Class",
+        "name": "AmountOfMoney",
+        "label": "amount of money",
+        "definition": "amount of readily available cash in banknotes and coins"
+    },
+    {
+        "id": "UnitOfAccountIdentifier",
+        "type": "Class",
+        "name": "UnitOfAccountIdentifier",
+        "label": "unit of account identifier",
+        "definition": "sequence of characters that can be used to uniquely identify a nominal monetary unit"
+    },
+    {
+        "id": "Currency",
+        "type": "Class",
+        "name": "Currency",
+        "definition": "medium of exchange value, defined by reference to the geographical location of the monetary authorities responsible for it",
+        "label": "currency"
+    },
+    {
+        "id": "MeasurementUnit",
+        "type": "Entity",
+        "name": "MeasurementUnit"
+    },
+    {
+        "id": "Funds",
+        "type": "Class",
+        "name": "Funds",
+        "label": "funds",
+        "definition": "artificial currency used as calculation basis for another currency(s) and accounting purposes"
+    },
+    {
+        "id": "CalculatedPrice",
+        "type": "Class",
+        "name": "CalculatedPrice",
+        "definition": "monetary price determined by a formula",
+        "label": "calculated price"
+    },
+    {
+        "id": "Percentage",
+        "type": "Entity",
+        "name": "Percentage"
+    },
+    {
+        "id": "UnitPrice",
+        "type": "Class",
+        "name": "UnitPrice",
+        "label": "unit price",
+        "definition": "monetary price expressed in relation to a well-known measurable unit by which the goods or services are allocated"
+    },
+    {
+        "id": "UnitOfAccount",
+        "type": "Class",
+        "name": "UnitOfAccount",
+        "label": "unit of account",
+        "definition": "nominal monetary unit of measure used to represent the real value (or cost) of any economic item; i.e. goods, services, assets, liabilities, income, expenses"
+    },
+    {
+        "id": "ExchangeRate",
+        "type": "Class",
+        "name": "ExchangeRate",
+        "definition": "rate at which one currency can be exchanged for another",
+        "label": "exchange rate"
+    },
+    {
+        "id": "Ratio",
+        "type": "Entity",
+        "name": "Ratio"
+    },
+    {
+        "id": "PreciousMetal",
+        "type": "Class",
+        "name": "PreciousMetal",
+        "definition": "metal that is considered to be rare and/or have a high economic value",
+        "label": "precious metal"
+    },
+    {
+        "id": "CurrencyBasket",
+        "type": "Class",
+        "name": "CurrencyBasket",
+        "definition": "selected group of currencies, in which the weighted average is used as a measure of the value or the amount of an obligation",
+        "label": "currency basket"
+    },
+    {
+        "id": "StructuredCollection",
+        "type": "Entity",
+        "name": "StructuredCollection"
+    },
+    {
+        "id": "hasFundsType",
+        "type": "DatatypeProperty",
+        "name": "hasFundsType",
+        "label": "has funds type",
+        "definition": "indicates the type of funds, such as next day for US funds"
+    },
+    {
+        "id": "hasAmount",
+        "type": "DatatypeProperty",
+        "name": "hasAmount",
+        "label": "has amount",
+        "definition": "total number or quantity"
+    },
+    {
+        "id": "hasMinorUnit",
+        "type": "DatatypeProperty",
+        "name": "hasMinorUnit",
+        "definition": "relates a code for the minor unit of currency to the currency or fund",
+        "label": "has minor unit"
+    },
+    {
+        "id": "hasNumericCode",
+        "type": "DatatypeProperty",
+        "name": "hasNumericCode",
+        "label": "has numeric code",
+        "definition": "relates a numeric code to something, such as a currency or fund"
+    },
+    {
+        "id": "hasDealtCurrency",
+        "type": "ObjectProperty",
+        "name": "hasDealtCurrency",
+        "definition": "specifies a unit of currency representing the exchanged (target) currency in an exchange rate; R units of this currency represent one unit of the base currency",
+        "label": "has dealt currency"
+    },
+    {
+        "id": "hasMonetaryAmount",
+        "type": "ObjectProperty",
+        "name": "hasMonetaryAmount",
+        "definition": "specifies a value for something in terms of an amount of money and the currency in which it is denoted",
+        "label": "has monetary amount"
+    },
+    {
+        "id": "hasNotionalAmount",
+        "type": "ObjectProperty",
+        "name": "hasNotionalAmount",
+        "definition": "has a generally unchangeable value used for certain calculations, expressed as some monetary amount",
+        "label": "has notional amount",
+        "explanatoryNote": "For certain kinds of derivative instruments, including but not limited to swaps, the notional amount indicates face amount of a swap upon which the payment streams for that swap are based. While this is typically constant throughout the lifetime of a contract, it can be accreting, amortizing, or custom, such as in the case of a notional step schedule."
+    },
+    {
+        "id": "hasBaseCurrency",
+        "type": "InverseFunctionalProperty",
+        "name": "hasBaseCurrency",
+        "label": "has base currency",
+        "definition": "specifies a unit of currency representing R units of the dealt currency, where R is the exchange rate value, in an exchange rate"
+    },
+    {
+        "id": "hasPrice",
+        "type": "ObjectProperty",
+        "name": "hasPrice",
+        "label": "has price",
+        "definition": "indicates the value of something expressed as an amount of money or goods"
+    },
+    {
+        "id": "hasRateValue",
+        "type": "DatatypeProperty",
+        "name": "hasRateValue",
+        "definition": "has a value for a rate expressed as a number (may be a percentage or raw number)",
+        "label": "has rate value"
+    },
+    {
+        "id": "isPriceFor",
+        "type": "ObjectProperty",
+        "name": "isPriceFor",
+        "label": "is price for",
+        "definition": "links a price to something it provides a value for"
+    },
+    {
+        "id": "hasCurrency",
+        "type": "ObjectProperty",
+        "name": "hasCurrency",
+        "definition": "specifies the medium of exchange value in which something, such as a monetary amount is denominated",
+        "label": "has currency"
+    }
+]

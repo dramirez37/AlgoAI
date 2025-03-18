@@ -1,0 +1,448 @@
+[
+    {
+        "id": "PostMergerSecuritiesExchange",
+        "type": "Class",
+        "name": "PostMergerSecuritiesExchange",
+        "label": "post-merger securities exchange",
+        "explanatoryNote": "This is an action as a result of the merger, not the merger itself, and may be mandatory or voluntary. Cash payments may accompany share exchange.",
+        "definition": "corporate action that involves the exchange of outstanding securities, initiated by the issuer which may include options, as the result of two or more companies combining assets, that is, an external, third party company"
+    },
+    {
+        "id": "CorporateAction",
+        "type": "Entity",
+        "name": "CorporateAction"
+    },
+    {
+        "id": "RepurchaseOffer",
+        "type": "Class",
+        "name": "RepurchaseOffer",
+        "explanatoryNote": "The objective of the offer is to reduce the number of outstanding equities.",
+        "definition": "corporate action in which an offer is made to existing shareholders by the issuing company to repurchase equity or other securities convertible into equity",
+        "label": "repurchase offer"
+    },
+    {
+        "id": "VoluntaryCorporateAction",
+        "type": "Entity",
+        "name": "VoluntaryCorporateAction"
+    },
+    {
+        "id": "BondDefaultAction",
+        "type": "Class",
+        "name": "BondDefaultAction",
+        "label": "bond default event",
+        "definition": "corporate action which indicates a failure by the issuer to perform obligations defined as default events under the bond agreement and that have not been remedied"
+    },
+    {
+        "id": "ObligationDefault",
+        "type": "Entity",
+        "name": "ObligationDefault"
+    },
+    {
+        "id": "MandatoryCorporateAction",
+        "type": "Entity",
+        "name": "MandatoryCorporateAction"
+    },
+    {
+        "id": "Drawing",
+        "type": "Class",
+        "name": "Drawing",
+        "definition": "Redemption in part before the scheduled final maturity date of a security.",
+        "explanatoryNote": "Notification in advance of this happening.",
+        "label": "drawing"
+    },
+    {
+        "id": "RedemptionAtMaturityAction",
+        "type": "Class",
+        "name": "RedemptionAtMaturityAction",
+        "definition": "corporate action that involves redemption of an entire issue outstanding of securities at final maturity",
+        "label": "redemption at maturity action"
+    },
+    {
+        "id": "SharesPremiumDividendAction",
+        "type": "Class",
+        "name": "SharesPremiumDividendAction",
+        "explanatoryNote": "It is similar to a dividend but with different tax implications.",
+        "definition": "corporate action that pays shareholders an amount in cash issued from the shares premium reserve",
+        "label": "shares premium dividend action"
+    },
+    {
+        "id": "MandatoryWithChoiceCorporateAction",
+        "type": "Entity",
+        "name": "MandatoryWithChoiceCorporateAction"
+    },
+    {
+        "id": "PariPassuAction",
+        "type": "Class",
+        "name": "PariPassuAction",
+        "label": "pari-passu action",
+        "explanatoryNote": "The term, pari-passu, means 'at the same rate or on an equal footing', and in finance is used to describe situations where two or more assets, securities, creditors, or obligations are equally managed without preference. An example of pari-passu occurs during bankruptcy proceedings: When the court reaches a verdict, the court regards all creditors equally, and the trustee will repay them the same fractional amount as other creditors and at the same time.",
+        "definition": "corporate action that occurs when securities with different characteristics become identical in all respects"
+    },
+    {
+        "id": "ListingStatusDelistingMessage",
+        "type": "Class",
+        "name": "ListingStatusDelistingMessage",
+        "definition": "Security is no longer able to comply with the listing requirements of a stock exchange and is removed from official board quotation.",
+        "label": "listing status delisting message"
+    },
+    {
+        "id": "Notice",
+        "type": "Entity",
+        "name": "Notice"
+    },
+    {
+        "id": "TradingStatusMessage",
+        "type": "Class",
+        "name": "TradingStatusMessage",
+        "explanatoryNote": "There are a number of such messages. Events v Status: See e.g. Active: this relates to one state OR two transitions (transition from pre-issuance to Trading, or from Suspended to Trading).",
+        "definition": "A message about trading status.",
+        "label": "trading status message"
+    },
+    {
+        "id": "ReverseStockSplit",
+        "type": "Class",
+        "name": "ReverseStockSplit",
+        "definition": "corporate action involving a decrease in a company's number of outstanding equities without any change in the shareholder's equity or the aggregate market value at the time of the split",
+        "label": "reverse stock split",
+        "explanatoryNote": "Equity price and nominal value are increased accordingly."
+    },
+    {
+        "id": "DividendOptionAction",
+        "type": "Class",
+        "name": "DividendOptionAction",
+        "explanatoryNote": "Shareholders may choose to receive shares or cash. A dividend option action is distinguished from reinvestment (DRIP) as, like a cash dividend, the company creates new share capital in exchange for the dividend rather than investing the dividend in the market.",
+        "label": "dividend option action",
+        "definition": "corporate action that involves distribution of a dividend to shareholders with a choice of benefit to receive"
+    },
+    {
+        "id": "CouponStrip",
+        "type": "Class",
+        "name": "CouponStrip",
+        "label": "coupon strip",
+        "definition": "Coupon stripping is the process whereby interest coupons for future payment dates are separated from the security corpus that entitles the holder to the principal repayment."
+    },
+    {
+        "id": "PartialRedemptionWithReductionOfNominalValueAction",
+        "type": "Class",
+        "name": "PartialRedemptionWithReductionOfNominalValueAction",
+        "definition": "corporate action that involves redemption of securities in part before their scheduled final maturity date with reduction of the nominal value of the securities",
+        "explanatoryNote": "The outstanding amount of securities will be reduced proportionally. May be mandatory or voluntary.",
+        "label": "partial redemption with reduction of nominal value action"
+    },
+    {
+        "id": "CorporateActionSecuritiesDeliveryObligation",
+        "type": "Class",
+        "name": "CorporateActionSecuritiesDeliveryObligation",
+        "definition": "Some obligation to deliver some security in the thr context of corporate actions. All cash proceeds and security proceeds can be represented a s acontractual obligation. Where does that obligation arise? Usually in the Contract itself - but there may be other answers to this. Defines what has to be delivered. or paid. Entitlement meanwhile is a calculation based on the Contract.",
+        "label": "corporate action securities delivery obligation"
+    },
+    {
+        "id": "CorporateActionObligation",
+        "type": "Class",
+        "name": "CorporateActionObligation",
+        "explanatoryNote": "Delivery of a security. Not defining direction at this level of the model - one party may have an obligation to deliver security or to pay; other party may have an obligation to deliver or to pay. Or there may be just one.",
+        "definition": "An obligation related to the holding of a Security.",
+        "label": "corporate action obligation"
+    },
+    {
+        "id": "CashDividendAction",
+        "type": "Class",
+        "name": "CashDividendAction",
+        "explanatoryNote": "Ordinary dividends are typically recurring and regular. The shareholder must take cash, and may be offered a choice of currency.",
+        "label": "cash dividend action",
+        "definition": "corporate action that distributes cash to shareholders in proportion to their equity holding"
+    },
+    {
+        "id": "InterestPaymentWithPrincipal",
+        "type": "Class",
+        "name": "InterestPaymentWithPrincipal",
+        "definition": "A payment of a portion of the principal of an interest bearing asset, in addition to the interest payment. SWIFT = PRII",
+        "label": "interest payment with principal"
+    },
+    {
+        "id": "InterestPaymentAction",
+        "type": "Class",
+        "name": "InterestPaymentAction",
+        "label": "interest payment action",
+        "definition": "corporate action that involves distribution of a regular interest payment to holders of an interest-bearing asset"
+    },
+    {
+        "id": "CorporateActionPaymentObligation",
+        "type": "Class",
+        "name": "CorporateActionPaymentObligation",
+        "label": "corporate action payment obligation"
+    },
+    {
+        "id": "ConversionSuspensionAction",
+        "type": "Class",
+        "name": "ConversionSuspensionAction",
+        "definition": "Suspension of conversion of securities, generally a couple of weeks before a meeting takes place. SWIFT = SCOP",
+        "label": "conversion suspension action"
+    },
+    {
+        "id": "TenderOffer",
+        "type": "Class",
+        "name": "TenderOffer",
+        "definition": "corporate action involving an offer made to shareholders, normally by a third party, requesting them to sell (tender) or exchange their equities",
+        "label": "tender offer"
+    },
+    {
+        "id": "BonusIssue",
+        "type": "Class",
+        "name": "BonusIssue",
+        "explanatoryNote": "There are different taxation rules for the bonus issue compared to the dividend. There could also be a difference in the ranking of the shares that are given to what the holder already holds. Dividends are paid from current profits and bonus may be from accumulated reserves of the company. A scrip issue is the issue of new shares at no charge pro rata to the holder of existing shares.",
+        "definition": "corporate action in which security holders are awarded additional assets free of payment from the issuer in proportion to their holding",
+        "label": "bonus issue"
+    },
+    {
+        "id": "CapitalGainsDistribution",
+        "type": "Class",
+        "name": "CapitalGainsDistribution",
+        "label": "capital gains distribution",
+        "definition": "corporate action that distributes profits resulting from the sale of company assets to shareholders"
+    },
+    {
+        "id": "ChangeOfSecurityTradingStatusEvent",
+        "type": "Class",
+        "name": "ChangeOfSecurityTradingStatusEvent",
+        "label": "change of security trading status event",
+        "definition": "An event in which the trading status of a tradable security changes."
+    },
+    {
+        "id": "CorporateChangeOfStatusEvent",
+        "type": "Class",
+        "name": "CorporateChangeOfStatusEvent",
+        "label": "corporate change of status event",
+        "explanatoryNote": "This is generally described by a corporate event message. For example, change in trading status, listing status.",
+        "definition": "Some change to the status of some security."
+    },
+    {
+        "id": "DividendReinvestmentAction",
+        "type": "Class",
+        "name": "DividendReinvestmentAction",
+        "explanatoryNote": "Dividend reinvestment is distinguished from a cash dividend in that the issuer invests the dividend in the market rather than creating new share capital in exchange for the dividend.",
+        "label": "dividend reinvestment action",
+        "definition": "corporate action that involves a dividend payment whereby holders can keep cash or have the cash reinvested into additional shares in the issuing company"
+    },
+    {
+        "id": "IntermediateSecuritiesDistribution",
+        "type": "Class",
+        "name": "IntermediateSecuritiesDistribution",
+        "label": "intermediate securities distribution",
+        "definition": "corporate action involving the distribution of intermediate securities or privilege that gives the holder the right to take part in a future event"
+    },
+    {
+        "id": "Duty",
+        "type": "Entity",
+        "name": "Duty"
+    },
+    {
+        "id": "LifecycleEvent",
+        "type": "Entity",
+        "name": "LifecycleEvent"
+    },
+    {
+        "id": "StockDividendAction",
+        "type": "Class",
+        "name": "StockDividendAction",
+        "label": "stock dividend action",
+        "definition": "corporate action that involves distribution of a dividend to shareholders in the form of equities of the issuing corporation"
+    },
+    {
+        "id": "TradingStatusActiveMessage",
+        "type": "Class",
+        "name": "TradingStatusActiveMessage",
+        "definition": "Trading in security has commenced or security has been re-activated after a supsension in trading.",
+        "label": "trading status active message"
+    },
+    {
+        "id": "InterestRateAdjustment",
+        "type": "Class",
+        "name": "InterestRateAdjustment",
+        "explanatoryNote": "The SWIFT definition as given defines the notification of the interest rate change, not the adjustment. Adjusted to describe the event. REVIEW: Is this really an action? Usually consider that it's expected. Given definition was for the announcement. SWIFT full definition \"Announcement of the current coupon rate for a floating or adjustable rate security.\"",
+        "label": "interest rate adjustment",
+        "definition": "Scheduled change to the coupon rate for a floating or adjustable rate security."
+    },
+    {
+        "id": "ConversionAction",
+        "type": "Class",
+        "name": "ConversionAction",
+        "definition": "corporate action involving conversion of securities (generally convertible bonds or preferred shares) into another form of securities (usually common shares) at a pre-stated price/ratio",
+        "label": "conversion action"
+    },
+    {
+        "id": "StockSplit",
+        "type": "Class",
+        "name": "StockSplit",
+        "definition": "corporate action involving an increase in a corporation's number of outstanding equities without any change in the shareholder's equity or the aggregate market value at the time of the split",
+        "label": "stock split",
+        "explanatoryNote": "Equity price and nominal value are reduced accordingly."
+    },
+    {
+        "id": "WorthlessSecurityAction",
+        "type": "Class",
+        "name": "WorthlessSecurityAction",
+        "label": "worthless security action",
+        "definition": "corporate action that involves booking out of valueless securities"
+    },
+    {
+        "id": "InterestPaymentInKind",
+        "type": "Class",
+        "name": "InterestPaymentInKind",
+        "definition": "Interest payment, in any kind except cash, distributed to holders of an interest bearing asset. SWIFT = PINK",
+        "label": "interest payment in kind"
+    },
+    {
+        "id": "PartialRedemptionWithoutReductionOfNominalValueAction",
+        "type": "Class",
+        "name": "PartialRedemptionWithoutReductionOfNominalValueAction",
+        "label": "partial redemption without reduction of nominal value action",
+        "explanatoryNote": "This is commonly done by pool factor reduction. May be mandatory or voluntary.",
+        "definition": "corporate action that involves redemption of securities in part before their scheduled final maturity date with no reduction in nominal value"
+    },
+    {
+        "id": "TradingStatusSuspendedMessage",
+        "type": "Class",
+        "name": "TradingStatusSuspendedMessage",
+        "definition": "Trading in the security has been suspended.",
+        "label": "trading status suspended message"
+    },
+    {
+        "id": "CancellationOfShares",
+        "type": "Class",
+        "name": "CancellationOfShares",
+        "definition": "The cancellation of shares. Further Notes Only possible with shares not publicly issued i.e. treasury shares",
+        "label": "cancellation of shares"
+    },
+    {
+        "id": "DutchAuction",
+        "type": "Class",
+        "name": "DutchAuction",
+        "explanatoryNote": "Holders of the security are invited to make an offer to sell, within a specific price range. The acquiring party will buy from the holder with lowest offer.",
+        "label": "dutch auction",
+        "definition": "corporate action by a party wishing to acquire a security"
+    },
+    {
+        "id": "BonusSharePlanDistribution",
+        "type": "Class",
+        "name": "BonusSharePlanDistribution",
+        "definition": "Event in which shares are issued from the Share Premium Reserve of the company and are considered as a capital distribution rather than a disbursement of income, with different tax implications. SWIFT Definition (adapted above) \"Typically found in Australia, shares are issued from the Share Premium Reserve of the company and are considered as a capital distribution rather than a disbursement of income, with different tax implications.\" To be researches further. There are certainly Share Plans in Australia, where you can take a dividend as shares. Thewse would be in the nature of Bonus Shares. They are a tradeoff from cash dividends. Other terms to model: A \"Scheme of Arrangment\" - does this change the capital reserves or is it just another word for restructure. An arrangement with the company's debtors, and coule potentially change the capital base by converting the debt to shares (see other diagram note with these in).",
+        "label": "bonus share plan distribution"
+    },
+    {
+        "id": "CapitalDistribution",
+        "type": "Class",
+        "name": "CapitalDistribution",
+        "explanatoryNote": "This action does not result in a reduction of the face value of a share or in a change to the number of shares in circulation.",
+        "label": "capital distribution",
+        "definition": "corporate action that pays shareholders an amount in cash issued from the issuer's capital account"
+    },
+    {
+        "id": "RedenominationAction",
+        "type": "Class",
+        "name": "RedenominationAction",
+        "definition": "corporate action by which the unit (currency and/or nominal) of a security is restated",
+        "label": "redenomination action",
+        "explanatoryNote": "For example, the nominal/par value of security in a national currency is restated in another currency."
+    },
+    {
+        "id": "RightsExerciseEvent",
+        "type": "Class",
+        "name": "RightsExerciseEvent",
+        "explanatoryNote": "There is a rights trading period overlaps with rights subscriptiuon period (you can trade the rights) Rights exercise period - expiry date. Some time after the expiry the new shares are distributed. This is the distribution.",
+        "label": "rights exercise event",
+        "definition": "Exercising the right to purchase the shares. Furhter Notes: This is an action on the part of the holder. SWIFT: Call/exercise on nil-paid securities/rights resulting from a rights distribution (RHDI) (To be used for the second event in case rights issue is dealt with in 2 events, first event being the RHDI)."
+    },
+    {
+        "id": "DecreaseInValueAction",
+        "type": "Class",
+        "name": "DecreaseInValueAction",
+        "label": "decrease in value action",
+        "definition": "corporate action resulting in a reduction of face value of a share or the value of fund assets",
+        "explanatoryNote": "The number of circulating shares/units remains unchanged. This event may include a cash pay out to holders."
+    },
+    {
+        "id": "WarrantExerciseAction",
+        "type": "Class",
+        "name": "WarrantExerciseAction",
+        "label": "warrant exercise action",
+        "explanatoryNote": "Note that participation by the warrant holder may be mandatory or voluntary and may involve a choice in the mandatory case.",
+        "definition": "corporate action that offers holders the option to buy (call warrant) or to sell (put warrant) a specific amount of stock, cash, or commodity, at a predetermined price, during a predetermined period of time (which usually corresponds to the life of the issue)"
+    },
+    {
+        "id": "FormalOffer",
+        "type": "Class",
+        "name": "FormalOffer",
+        "definition": "corporate action involving an offer to a holder, potential holder, or other intersted party, to enter into a trade which is or would be legally binding on the part of the party making the offer (the offeror).",
+        "label": "formal offer"
+    },
+    {
+        "id": "ChangeToSmallestNegotiableUnit",
+        "type": "Class",
+        "name": "ChangeToSmallestNegotiableUnit",
+        "definition": "Modification of the smallest negotiable unit of shares in order to obtain a new negotiable unit. SWIFT:SMAL",
+        "label": "change to smallest negotiable unit"
+    },
+    {
+        "id": "BonusRightsIssue",
+        "type": "Class",
+        "name": "BonusRightsIssue",
+        "explanatoryNote": "Rights = right to buy shares at a specified price. May be given the right for nothing (Bonus Rights Issue) or you may be offered to purchase that right at a subscription price (which you take up or don't). Bonus Rights Issue: given the option for free. May exercise at the Exercise Price.",
+        "label": "bonus rights issue",
+        "definition": "A Rights Issue in which the rights are given to the holders of the referenced shares for free."
+    },
+    {
+        "id": "FullCallEarlyRedemptionAction",
+        "type": "Class",
+        "name": "FullCallEarlyRedemptionAction",
+        "definition": "corporate action that involves redemption of an entire issue outstanding of securities prior to maturity",
+        "label": "full call early redemption action"
+    },
+    {
+        "id": "ExchangeAction",
+        "type": "Class",
+        "name": "ExchangeAction",
+        "explanatoryNote": "The exchange can be either mandatory or voluntary involving the exchange of outstanding securities for different securities and/or cash. For example, 'exchange offer', 'capital reorganisation' or 'funds separation'.",
+        "definition": "corporate action that reflects an exchange of holdings for other securities and/or cash",
+        "label": "exchange action"
+    },
+    {
+        "id": "OddLotOffer",
+        "type": "Class",
+        "name": "OddLotOffer",
+        "definition": "Offer by issuer to allow holders of an odd lot of a security to order a commission-free transaction at market price, to sell the odd lot, or to buy an amount of shares which will bring the position to a round lot (board lot). SWIFT = ODLT",
+        "label": "odd lot offer"
+    },
+    {
+        "id": "MaturityExtension",
+        "type": "Class",
+        "name": "MaturityExtension"
+    },
+    {
+        "id": "CallOnIntermediateSecurities",
+        "type": "Class",
+        "name": "CallOnIntermediateSecurities",
+        "explanatoryNote": "This code is used for the second event, when an intermediate securities' issue (rights/coupons) is composed of two events, the first event being the distribution of intermediate securities.",
+        "definition": "corporate action that involves a call or exercise on nil paid securities or intermediate securities resulting from an intermediate securities distribution (RHDI)",
+        "label": "call on intermediate securities"
+    },
+    {
+        "id": "PutRedemptionAction",
+        "type": "Class",
+        "name": "PutRedemptionAction",
+        "label": "put redemption action",
+        "definition": "corporate action involving early redemption of a security at the election of the holder subject to the terms and condition of the issue with no reduction in nominal value"
+    },
+    {
+        "id": "convertsTo",
+        "type": "ObjectProperty",
+        "name": "convertsTo",
+        "label": "converts to"
+    },
+    {
+        "id": "convertsFrom",
+        "type": "ObjectProperty",
+        "name": "convertsFrom",
+        "label": "converts from"
+    }
+]

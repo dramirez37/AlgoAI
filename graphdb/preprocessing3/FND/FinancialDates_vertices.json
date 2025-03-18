@@ -1,0 +1,442 @@
+[
+    {
+        "id": "RegularSchedule",
+        "type": "Class",
+        "name": "RegularSchedule",
+        "label": "regular schedule",
+        "definition": "schedule whose time intervals recur regularly",
+        "explanatoryNote": "A RegularSchedule is a Schedule defined as a set of Dates that start on a recurrence start date and repeat after each recurrence interval. The size of this set is defined by a count.\n\nThe 'initial ScheduleStub' associated with a RegularSchedule identifies any special treatment applied before the recurrence start date. Similarly, a 'final ScheduleStub' identifies any special handling at the end of the recurrences. For example, a mortgage loan that is due each calendar month may have an initial payment due before the first calendar month, or a final payment due after the last monthly payment."
+    },
+    {
+        "id": "StructuredCollection",
+        "type": "Entity",
+        "name": "StructuredCollection"
+    },
+    {
+        "id": "Schedule",
+        "type": "Class",
+        "name": "Schedule",
+        "label": "schedule",
+        "explanatoryNote": "The overall period covers the entire DatePeriod of the Schedule, from the earliest Date to the final Date of the Schedule. Schedules may be ad hoc, essentially a list of dates and events without any consistency in the durations between events, regular, in which case there is a consistently recurring interval between events, or a combination of the two. There may be a single overall period, or more than one if the schedule is extended for some reason.",
+        "definition": "collection of events, observations, or other occurrences and the associated dates and/or times when they will be done"
+    },
+    {
+        "id": "AdHocSchedule",
+        "type": "Class",
+        "name": "AdHocSchedule",
+        "definition": "schedule consisting of some number of individual events that are not necessarily recurring",
+        "label": "ad hoc schedule"
+    },
+    {
+        "id": "ExplicitRecurrenceInterval",
+        "type": "Class",
+        "name": "ExplicitRecurrenceInterval",
+        "definition": "recurrence interval defined via an explicit duration",
+        "label": "explicit recurrence interval"
+    },
+    {
+        "id": "RecurrenceInterval",
+        "type": "Class",
+        "name": "RecurrenceInterval",
+        "definition": "time interval that is consistent between elements of a regular schedule",
+        "label": "recurrence interval"
+    },
+    {
+        "id": "DatedStructuredCollection",
+        "type": "Class",
+        "name": "DatedStructuredCollection",
+        "definition": "structured collection whose elements are required to have a date and time",
+        "label": "dated structured collection"
+    },
+    {
+        "id": "DatedCollectionConstituent",
+        "type": "Class",
+        "name": "DatedCollectionConstituent",
+        "explanatoryNote": "Note that the use of several options for the representation of a date and time stamp enables extensions for milliseconds, nanoseconds using an xsd:string that has the format of an xsd:dateTime datatype but extends the level of granularity consistently. An example of where this is required is to represent prices that change multiple times in a given day.",
+        "label": "dated collection constituent",
+        "definition": "element of a collection that is associated with a date and time"
+    },
+    {
+        "id": "Constituent",
+        "type": "Entity",
+        "name": "Constituent"
+    },
+    {
+        "id": "ScheduleStub",
+        "type": "Class",
+        "name": "ScheduleStub",
+        "label": "schedule stub",
+        "definition": "date period before the start of the recurring part of a schedule or after the end of the recurring part, which may be associated with a specific occurrence kind"
+    },
+    {
+        "id": "Collection",
+        "type": "Entity",
+        "name": "Collection"
+    },
+    {
+        "id": "BusinessCalendar",
+        "type": "Class",
+        "name": "BusinessCalendar",
+        "definition": "schedule and communications tool used to manage meetings, plan events, and coordinate activities within and/or across organizations",
+        "label": "business calendar"
+    },
+    {
+        "id": "CalculationPeriodLength",
+        "type": "Class",
+        "name": "CalculationPeriodLength",
+        "label": "calculation period length",
+        "definition": "explicit number of days from the adjusted effective or start date to the adjusted termination or end date calculated in accordance with the applicable day count fraction"
+    },
+    {
+        "id": "ExplicitDuration",
+        "type": "Entity",
+        "name": "ExplicitDuration"
+    },
+    {
+        "id": "AnchorDate",
+        "type": "Class",
+        "name": "AnchorDate",
+        "definition": "fixed reference point within a series or timeline",
+        "label": "anchor date",
+        "explanatoryNote": "It is an explicit date chosen to provide context or structure for analyzing data or events."
+    },
+    {
+        "id": "ExplicitDate",
+        "type": "Entity",
+        "name": "ExplicitDate"
+    },
+    {
+        "id": "RelativeDate",
+        "type": "Class",
+        "name": "RelativeDate",
+        "label": "relative date",
+        "definition": "calculated date that is some duration before or after another date",
+        "explanatoryNote": "When the 'hasRelativeDuration' property is negative, the RelativeDate is before the 'isRelativeTo' Date; otherwise the RelativeDate is after the 'isRelativeTo' Date."
+    },
+    {
+        "id": "CalculatedDate",
+        "type": "Class",
+        "name": "CalculatedDate",
+        "explanatoryNote": "The hasDateValue property of a CalculatedDate is not set until the Date is calculated. Since the calculation may depend upon future events that may or may not ever happen, the hasDateValue property may never be set.",
+        "label": "calculated date",
+        "definition": "date that is or will be determined based on some formula"
+    },
+    {
+        "id": "Date",
+        "type": "Entity",
+        "name": "Date"
+    },
+    {
+        "id": "CalendarSpecifiedInterval",
+        "type": "Class",
+        "name": "CalendarSpecifiedInterval",
+        "label": "calendar-specified interval",
+        "explanatoryNote": "The nth day is an ordinal number, not a cardinal number. '1' means the first day of the calendar period.",
+        "definition": "recurrence interval that is defined as the nth day of some calendar period (such as a calendar month), and a time direction (forward from the beginning of the month, or backwards from the end)"
+    },
+    {
+        "id": "TimeInterval",
+        "type": "Entity",
+        "name": "TimeInterval"
+    },
+    {
+        "id": "SpecifiedDate",
+        "type": "Class",
+        "name": "SpecifiedDate",
+        "label": "specified date",
+        "definition": "calculated date that is defined by a rule that is captured as a string by the 'hasDateSpecification' property"
+    },
+    {
+        "id": "TimeDirection",
+        "type": "Class",
+        "name": "TimeDirection",
+        "definition": "enumeration that indicates whether a calendar-specified date is figured from the start or the end of a calendar period",
+        "label": "time direction"
+    },
+    {
+        "id": "TemporalEntity",
+        "type": "Entity",
+        "name": "TemporalEntity"
+    },
+    {
+        "id": "CalculationPeriod",
+        "type": "Class",
+        "name": "CalculationPeriod",
+        "label": "calculation period",
+        "definition": "explicit period from the start to the end of a specific interval or range within which a computational process or operation occurs"
+    },
+    {
+        "id": "ExplicitDatePeriod",
+        "type": "Entity",
+        "name": "ExplicitDatePeriod"
+    },
+    {
+        "id": "AdHocScheduleEntry",
+        "type": "Class",
+        "name": "AdHocScheduleEntry",
+        "label": "ad hoc schedule entry",
+        "definition": "entry, including a date or date and time, among multiple non-regularly-recurring entries in a schedule"
+    },
+    {
+        "id": "CalendarPeriod",
+        "type": "Class",
+        "name": "CalendarPeriod",
+        "explanatoryNote": "A calendar-specified date may be figured with respect to a calendar week, a calendar month, a calendar quarter, or a calendar year.",
+        "definition": "time interval that occurs within a system that fixes the beginning and length of a segment of the year with respect to that system",
+        "label": "calendar period"
+    },
+    {
+        "id": "Age",
+        "type": "Class",
+        "name": "Age",
+        "label": "age",
+        "definition": "length of time that something or someone has been alive or existed"
+    },
+    {
+        "id": "Duration",
+        "type": "Entity",
+        "name": "Duration"
+    },
+    {
+        "id": "hasOrdinalNumber",
+        "type": "DatatypeProperty",
+        "name": "hasOrdinalNumber",
+        "label": "has ordinal number",
+        "definition": "specifies a number designating place in an ordered sequence, i.e., 1st, 2nd, 3rd, etc.",
+        "explanatoryNote": "Negative ordinal numbers mean 1st before, 2nd before, etc."
+    },
+    {
+        "id": "Friday",
+        "type": "TimeInterval",
+        "name": "Friday",
+        "definition": "time interval that has duration 1 day and that meets a Saturday",
+        "label": "Friday"
+    },
+    {
+        "id": "CalendarWeek",
+        "type": "NamedIndividual",
+        "name": "CalendarWeek",
+        "label": "calendar week",
+        "definition": "time interval of seven calendar days starting on a Monday"
+    },
+    {
+        "id": "Monday",
+        "type": "TimeInterval",
+        "name": "Monday",
+        "definition": "time interval that has duration 1 day and that meets a Tuesday",
+        "label": "Monday"
+    },
+    {
+        "id": "hasTimeDirection",
+        "type": "ObjectProperty",
+        "name": "hasTimeDirection",
+        "definition": "indicates whether a calendar-specified date is figured from the beginning or end of a calendar period",
+        "label": "has time direction"
+    },
+    {
+        "id": "Sunday",
+        "type": "TimeInterval",
+        "name": "Sunday",
+        "definition": "time interval that has duration 1 day and that meets a Monday",
+        "label": "Sunday"
+    },
+    {
+        "id": "hasStub",
+        "type": "ObjectProperty",
+        "name": "hasStub",
+        "definition": "links an abbreviated period at the start or end of some schedule to the overall schedule",
+        "label": "has stub"
+    },
+    {
+        "id": "hasDateReceived",
+        "type": "ObjectProperty",
+        "name": "hasDateReceived",
+        "label": "has date received",
+        "definition": "relates something to the date it arrived or was delivered, e.g., a loan application request"
+    },
+    {
+        "id": "hasInitialStub",
+        "type": "ObjectProperty",
+        "name": "hasInitialStub",
+        "label": "has initial stub",
+        "definition": "identifies any special period at the start of a regular schedule"
+    },
+    {
+        "id": "hasCount",
+        "type": "DatatypeProperty",
+        "name": "hasCount",
+        "definition": "specifies the total number of things in a collection, such as the number of entries in a regular schedule",
+        "label": "has count"
+    },
+    {
+        "id": "hasOverallPeriod",
+        "type": "ObjectProperty",
+        "name": "hasOverallPeriod",
+        "definition": "identifies a date period that includes all the dates of a schedule, including any schedule stubs",
+        "label": "has overall period"
+    },
+    {
+        "id": "hasRecurrenceInterval",
+        "type": "ObjectProperty",
+        "name": "hasRecurrenceInterval",
+        "definition": "indicates the frequency with which some event or publication occurs",
+        "label": "has recurrence interval"
+    },
+    {
+        "id": "FromEnd",
+        "type": "NamedIndividual",
+        "name": "FromEnd",
+        "definition": "time direction indicating that a calendar-specified date is the nth date from the end of a calendar period",
+        "label": "from the end"
+    },
+    {
+        "id": "hasAcquisitionDate",
+        "type": "DatatypeProperty",
+        "name": "hasAcquisitionDate",
+        "definition": "links an asset or owner/controller/controllee to the date or date and time of purchase",
+        "label": "has acquisition date"
+    },
+    {
+        "id": "hasOpeningDateTime",
+        "type": "DatatypeProperty",
+        "name": "hasOpeningDateTime",
+        "definition": "the day and time at which something opens",
+        "label": "has opening date time"
+    },
+    {
+        "id": "hasAsOfDate",
+        "type": "ObjectProperty",
+        "name": "hasAsOfDate",
+        "explanatoryNote": "It is different from the creation date and need not be the last date of the DatePeriod covered.",
+        "definition": "relates something to the date on which it is accurate or valid (e.g. a credit report has an asOfDate that means the date when the information was drawn)",
+        "label": "has as-of date"
+    },
+    {
+        "id": "hasDateSpecification",
+        "type": "DatatypeProperty",
+        "name": "hasDateSpecification",
+        "label": "has date specification",
+        "definition": "rule that specifies how a specified date is computed"
+    },
+    {
+        "id": "FromStart",
+        "type": "NamedIndividual",
+        "name": "FromStart",
+        "label": "from the start",
+        "definition": "time direction indicating that a calendar-specified date is the nth day from the beginning of a calendar period."
+    },
+    {
+        "id": "hasRelativeDuration",
+        "type": "DatatypeProperty",
+        "name": "hasRelativeDuration",
+        "explanatoryNote": "A relative duration may be negative.",
+        "label": "has relative duration",
+        "definition": "duration between two explicit dates"
+    },
+    {
+        "id": "CalendarMonth",
+        "type": "CalendarPeriod",
+        "name": "CalendarMonth",
+        "definition": "time interval resulting from the division of a calendar year in 12 time intervals, each with a specific name and containing a specific number of calendar days",
+        "label": "calendar month"
+    },
+    {
+        "id": "Thursday",
+        "type": "TimeInterval",
+        "name": "Thursday",
+        "label": "Thursday",
+        "definition": "time interval that has duration 1 day and that meets a Friday"
+    },
+    {
+        "id": "hasDateAdded",
+        "type": "ObjectProperty",
+        "name": "hasDateAdded",
+        "definition": "indicates the date something was included in something else",
+        "label": "has date added"
+    },
+    {
+        "id": "hasFinalStub",
+        "type": "ObjectProperty",
+        "name": "hasFinalStub",
+        "definition": "identifies any special period at the end of a regular schedule",
+        "label": "has final stub"
+    },
+    {
+        "id": "Saturday",
+        "type": "TimeInterval",
+        "name": "Saturday",
+        "explanatoryNote": "One Saturday is the time interval that has duration 1 day and that starts Gregorian year 2000. This requirement anchors the repeating sequence of days of week to specific Gregorian days. It requires that January 1, 2000 is a Saturday. It follows that January 2, 2000 must be the Sunday that it meets, and so on.",
+        "definition": "time interval that has duration 1 day and that meets a Sunday",
+        "label": "Saturday"
+    },
+    {
+        "id": "hasAnchorDate",
+        "type": "ObjectProperty",
+        "name": "hasAnchorDate",
+        "definition": "specifies a fixed reference point within a series or timeline",
+        "label": "has anchor date"
+    },
+    {
+        "id": "hasCalendarPeriod",
+        "type": "ObjectProperty",
+        "name": "hasCalendarPeriod",
+        "label": "has calendar period",
+        "definition": "identifies a period of time used in computing a calendar-specified date, such as a calendar week, calendar month, calendar quarter, or calendar year"
+    },
+    {
+        "id": "CalendarQuarter",
+        "type": "NamedIndividual",
+        "name": "CalendarQuarter",
+        "label": "calendar quarter",
+        "definition": "time interval of 3 months, starting on January 1, April 1, July 1, or October 1"
+    },
+    {
+        "id": "CalendarYear",
+        "type": "CalendarPeriod",
+        "name": "CalendarYear",
+        "label": "calendar year",
+        "definition": "cyclic time interval in a calendar which is required for one revolution of the Earth around the Sun and approximated to an integral number of calendar days; a year in the Gregorian calendar"
+    },
+    {
+        "id": "Wednesday",
+        "type": "NamedIndividual",
+        "name": "Wednesday",
+        "definition": "time interval that has duration 1 day and that meets a Thursday",
+        "label": "Wednesday"
+    },
+    {
+        "id": "hasAge",
+        "type": "ObjectProperty",
+        "name": "hasAge",
+        "label": "has age",
+        "definition": "relates something to the length of time it has existed"
+    },
+    {
+        "id": "hasClosingDateTime",
+        "type": "DatatypeProperty",
+        "name": "hasClosingDateTime",
+        "label": "has closing date time",
+        "definition": "the day and time at which something closes"
+    },
+    {
+        "id": "isRelativeTo",
+        "type": "ObjectProperty",
+        "name": "isRelativeTo",
+        "definition": "identifies a specific date that a relative date or relative date period references",
+        "label": "is relative to"
+    },
+    {
+        "id": "hasSchedule",
+        "type": "ObjectProperty",
+        "name": "hasSchedule",
+        "label": "has schedule",
+        "definition": "indicates a schedule for something"
+    },
+    {
+        "id": "Tuesday",
+        "type": "TimeInterval",
+        "name": "Tuesday",
+        "definition": "time interval that has duration 1 day and that meets a Wednesday",
+        "label": "Tuesday"
+    }
+]

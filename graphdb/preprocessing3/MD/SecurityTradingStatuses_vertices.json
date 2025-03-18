@@ -1,0 +1,83 @@
+[
+    {
+        "id": "SecurityTradingStatus",
+        "type": "Class",
+        "name": "SecurityTradingStatus",
+        "definition": "status of the security in terms of whether it is trading or not, and any special considerations relating to trading",
+        "label": "security trading status"
+    },
+    {
+        "id": "LifecycleStatus",
+        "type": "Entity",
+        "name": "LifecycleStatus"
+    },
+    {
+        "id": "WhenIssued",
+        "type": "Class",
+        "name": "WhenIssued",
+        "definition": "When Issued or Gray Market trading is when a security is traded ahead of the date at which it is to be issued.",
+        "label": "when issued"
+    },
+    {
+        "id": "SecurityLifecycleStatus",
+        "type": "Class",
+        "name": "SecurityLifecycleStatus",
+        "label": "security lifecycle status",
+        "definition": "status of a security within its lifecycle"
+    },
+    {
+        "id": "Worthless",
+        "type": "Class",
+        "name": "Worthless",
+        "label": "worthless",
+        "definition": "Announcement by the regulator that the security has become worthless.",
+        "explanatoryNote": "e.g. bankruptcy hearings - might result in this being said."
+    },
+    {
+        "id": "ActivelyTrading",
+        "type": "Class",
+        "name": "ActivelyTrading",
+        "definition": "Security is actively traded on the exchange or trading facility",
+        "label": "actively trading"
+    },
+    {
+        "id": "ExchangeSecurityTradingStatus",
+        "type": "Class",
+        "name": "ExchangeSecurityTradingStatus",
+        "definition": "trading status of a listed security on a given trading exchange",
+        "label": "exchange security trading status"
+    },
+    {
+        "id": "TradingHalted",
+        "type": "Class",
+        "name": "TradingHalted",
+        "label": "trading halted"
+    },
+    {
+        "id": "Inactive",
+        "type": "Class",
+        "name": "Inactive",
+        "label": "inactive"
+    },
+    {
+        "id": "WhenDistributed",
+        "type": "Class",
+        "name": "WhenDistributed",
+        "definition": "Used to refer to a security that trades after the date of issue but before the time at which the certificates are delivered",
+        "label": "when distributed"
+    },
+    {
+        "id": "Active",
+        "type": "Class",
+        "name": "Active",
+        "label": "active",
+        "definition": "Security is actively traded"
+    },
+    {
+        "id": "Issued",
+        "type": "Class",
+        "name": "Issued",
+        "label": "issued",
+        "definition": "The security has been issued into the secondary market."
+    }
+]

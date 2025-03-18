@@ -1,0 +1,762 @@
+[
+    {
+        "source_id": "OptionOnFuture",
+        "target_id": "VanillaOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StandardizedOptionsTerms",
+        "target_id": "VanillaOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "VanillaOption"
+            ]
+        }
+    },
+    {
+        "source_id": "StandardizedOptionsTerms",
+        "target_id": "StandardizedTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VanillaOption",
+        "target_id": "Option",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Straddle",
+        "target_id": "CallOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CallOption"
+            ]
+        }
+    },
+    {
+        "source_id": "Straddle",
+        "target_id": "OptionTradingStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Straddle",
+        "target_id": "PutOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PutOption"
+            ]
+        }
+    },
+    {
+        "source_id": "Strangle",
+        "target_id": "OptionTradingStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Strangle",
+        "target_id": "PutOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PutOption"
+            ]
+        }
+    },
+    {
+        "source_id": "Strangle",
+        "target_id": "CallOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CallOption"
+            ]
+        }
+    },
+    {
+        "source_id": "IntrinsicValue",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CondorSpread",
+        "target_id": "OptionTradingStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IronButterfly",
+        "target_id": "CallOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CallOption"
+            ]
+        }
+    },
+    {
+        "source_id": "IronButterfly",
+        "target_id": "PutOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PutOption"
+            ]
+        }
+    },
+    {
+        "source_id": "IronButterfly",
+        "target_id": "Butterfly",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateOption",
+        "target_id": "InterestRateDerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateOption",
+        "target_id": "VanillaOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProtectiveCollar",
+        "target_id": "Collar",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProtectiveCollar",
+        "target_id": "CoveredCall",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CoveredCall"
+            ]
+        }
+    },
+    {
+        "source_id": "ProtectiveCollar",
+        "target_id": "ProtectivePut",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "ProtectivePut"
+            ]
+        }
+    },
+    {
+        "source_id": "CappedOption",
+        "target_id": "MonetaryPrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCapPrice",
+                "MonetaryPrice"
+            ]
+        }
+    },
+    {
+        "source_id": "CappedOption",
+        "target_id": "VanillaOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProtectivePut",
+        "target_id": "PutOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProtectivePut",
+        "target_id": "OptionPremium",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCalculatedMarketValue",
+                "OptionPremium"
+            ]
+        }
+    },
+    {
+        "source_id": "Fence",
+        "target_id": "OptionTradingStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Fence",
+        "target_id": "PutOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PutOption"
+            ]
+        }
+    },
+    {
+        "source_id": "Fence",
+        "target_id": "CallOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CallOption"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityOption",
+        "target_id": "EquityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityOption",
+        "target_id": "VanillaOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityOption",
+        "target_id": "hasExerciseStyle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasExerciseStyle"
+            ]
+        }
+    },
+    {
+        "source_id": "ExoticOption",
+        "target_id": "Option",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExoticOption",
+        "target_id": "OverTheCounterDerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionHolder",
+        "target_id": "Owner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionHolder",
+        "target_id": "Option",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "holds",
+                "Option"
+            ]
+        }
+    },
+    {
+        "source_id": "IronCondor",
+        "target_id": "StrikePrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasExercisePrice",
+                "StrikePrice"
+            ]
+        }
+    },
+    {
+        "source_id": "IronCondor",
+        "target_id": "PutOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PutOption"
+            ]
+        }
+    },
+    {
+        "source_id": "IronCondor",
+        "target_id": "CallOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CallOption"
+            ]
+        }
+    },
+    {
+        "source_id": "IronCondor",
+        "target_id": "CondorSpread",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionIssuer",
+        "target_id": "Issuer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionIssuer",
+        "target_id": "Option",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "Option"
+            ]
+        }
+    },
+    {
+        "source_id": "Collar",
+        "target_id": "CallOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CallOption"
+            ]
+        }
+    },
+    {
+        "source_id": "Collar",
+        "target_id": "PutOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PutOption"
+            ]
+        }
+    },
+    {
+        "source_id": "Collar",
+        "target_id": "OptionTradingStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Option",
+        "target_id": "OptionHolder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOptionHolder",
+                "OptionHolder"
+            ]
+        }
+    },
+    {
+        "source_id": "Option",
+        "target_id": "OptionPremium",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCalculatedMarketValue",
+                "OptionPremium"
+            ]
+        }
+    },
+    {
+        "source_id": "Option",
+        "target_id": "OptionIssuer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOptionWriter",
+                "OptionIssuer"
+            ]
+        }
+    },
+    {
+        "source_id": "Option",
+        "target_id": "StrikePrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasExercisePrice",
+                "StrikePrice"
+            ]
+        }
+    },
+    {
+        "source_id": "Moneyness",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Moneyness",
+        "target_id": "Option",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "Option"
+            ]
+        }
+    },
+    {
+        "source_id": "StripStrategy",
+        "target_id": "CallOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CallOption"
+            ]
+        }
+    },
+    {
+        "source_id": "StripStrategy",
+        "target_id": "PutOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PutOption"
+            ]
+        }
+    },
+    {
+        "source_id": "StripStrategy",
+        "target_id": "OptionTradingStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionPremium",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasMonetaryAmount",
+                "MonetaryAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "OptionPremium",
+        "target_id": "OptionPremiumFormula",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasExpression",
+                "OptionPremiumFormula"
+            ]
+        }
+    },
+    {
+        "source_id": "OptionPremium",
+        "target_id": "MarketPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LongTermEquityAnticipationSecurity",
+        "target_id": "EquityOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Butterfly",
+        "target_id": "OptionTradingStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Butterfly",
+        "target_id": "Option",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "Option"
+            ]
+        }
+    },
+    {
+        "source_id": "Butterfly",
+        "target_id": "StrikePrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasExercisePrice",
+                "StrikePrice"
+            ]
+        }
+    },
+    {
+        "source_id": "CallOption",
+        "target_id": "Option",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RiskReversal",
+        "target_id": "CallOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CallOption"
+            ]
+        }
+    },
+    {
+        "source_id": "RiskReversal",
+        "target_id": "OptionTradingStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RiskReversal",
+        "target_id": "PutOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PutOption"
+            ]
+        }
+    },
+    {
+        "source_id": "CoveredCall",
+        "target_id": "CallOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondOption",
+        "target_id": "FixedIncomeOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExtrinsicValue",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionTradingStrategy",
+        "target_id": "Option",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "Option"
+            ]
+        }
+    },
+    {
+        "source_id": "OptionTradingStrategy",
+        "target_id": "TradingStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedIncomeOption",
+        "target_id": "DebtInstrumentDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedIncomeOption",
+        "target_id": "VanillaOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionPremiumFormula",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StrikePrice",
+        "target_id": "MonetaryPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PutOption",
+        "target_id": "Option",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

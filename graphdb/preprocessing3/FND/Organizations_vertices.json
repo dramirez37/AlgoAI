@@ -1,0 +1,139 @@
+[
+    {
+        "id": "Organization",
+        "type": "Class",
+        "name": "Organization",
+        "definition": "collection of one or more people, or groups of people formed together into a community or other social, commercial or political structure to act, or that is designated to act, towards some purpose, such as to meet a need or pursue collective goals on a continuing basis",
+        "label": "organization"
+    },
+    {
+        "id": "Party",
+        "type": "Entity",
+        "name": "Party"
+    },
+    {
+        "id": "OrganizationalSubUnit",
+        "type": "Class",
+        "name": "OrganizationalSubUnit",
+        "explanatoryNote": "In other words, it is not a legal entity in its own right.",
+        "label": "organizational sub-unit",
+        "definition": "any department, service, and other entity within a larger organization that only has full recognition within the context of that organization, but requires identification for some purpose"
+    },
+    {
+        "id": "Membership",
+        "type": "Class",
+        "name": "Membership",
+        "label": "membership",
+        "definition": "situation, corresponding to an n-ary relation, in which some group or organization has at least one member (person or organization) for some period of time"
+    },
+    {
+        "id": "Situation",
+        "type": "Entity",
+        "name": "Situation"
+    },
+    {
+        "id": "OrganizationMember",
+        "type": "Class",
+        "name": "OrganizationMember",
+        "label": "organization member",
+        "definition": "party (person or organization) that has a membership role with respect to some organization"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "OrganizationIdentificationScheme",
+        "type": "Class",
+        "name": "OrganizationIdentificationScheme",
+        "label": "organization identification scheme",
+        "definition": "identification scheme dedicated to the unique identification of organizations"
+    },
+    {
+        "id": "IdentificationScheme",
+        "type": "Entity",
+        "name": "IdentificationScheme"
+    },
+    {
+        "id": "OrganizationName",
+        "type": "Class",
+        "name": "OrganizationName",
+        "definition": "designation by which some organization is known in some context",
+        "label": "organization name"
+    },
+    {
+        "id": "ContextualName",
+        "type": "Entity",
+        "name": "ContextualName"
+    },
+    {
+        "id": "MemberBearingOrganization",
+        "type": "Class",
+        "name": "MemberBearingOrganization",
+        "definition": "role of a group or organization that has members that are people or other organizations",
+        "label": "member-bearing organization"
+    },
+    {
+        "id": "OrganizationIdentifier",
+        "type": "Class",
+        "name": "OrganizationIdentifier",
+        "label": "organization identifier",
+        "definition": "identifier assigned to an organization within an organization identification scheme, and unique within that scheme"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "OrganizationPartIdentifier",
+        "type": "Class",
+        "name": "OrganizationPartIdentifier",
+        "definition": "identifier allocated to a particular organizational sub-unit",
+        "label": "organization part identifier",
+        "abbreviation": "OPI"
+    },
+    {
+        "id": "hasOrganizationMember",
+        "type": "ObjectProperty",
+        "name": "hasOrganizationMember",
+        "label": "has organization member",
+        "definition": "indicates the party that is the member in an organizational membership situation"
+    },
+    {
+        "id": "isSubUnitOf",
+        "type": "ObjectProperty",
+        "name": "isSubUnitOf",
+        "definition": "relates a part of an organization to the larger entity",
+        "label": "is sub-unit of"
+    },
+    {
+        "id": "hasMembership",
+        "type": "ObjectProperty",
+        "name": "hasMembership",
+        "label": "has membership role",
+        "definition": "identifies the organization acting in the role of having members in an organizational membership situation"
+    },
+    {
+        "id": "hasSubUnit",
+        "type": "ObjectProperty",
+        "name": "hasSubUnit",
+        "definition": "relates an organization to a part of that organization",
+        "label": "has sub-unit"
+    },
+    {
+        "id": "isMembershipPartyIn",
+        "type": "ObjectProperty",
+        "name": "isMembershipPartyIn",
+        "label": "is membership party in",
+        "definition": "indicates the context of membership in which the party plays the role of having members"
+    },
+    {
+        "id": "isOrganizationMember",
+        "type": "ObjectProperty",
+        "name": "isOrganizationMember",
+        "definition": "indicates the context of membership in which some party is an organization member",
+        "label": "is organization member"
+    }
+]

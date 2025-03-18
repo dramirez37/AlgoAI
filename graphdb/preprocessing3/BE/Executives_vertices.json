@@ -1,0 +1,398 @@
+[
+    {
+        "id": "PrincipalParty",
+        "type": "Class",
+        "name": "PrincipalParty",
+        "label": "principal party",
+        "definition": "controlling party that is responsible for the management of daily business operations of an organization"
+    },
+    {
+        "id": "Signatory",
+        "type": "Class",
+        "name": "Signatory",
+        "label": "signatory",
+        "definition": "responsible party authorized to sign agreements on behalf of themselves, another person, or an organization"
+    },
+    {
+        "id": "OrganizationMember",
+        "type": "Entity",
+        "name": "OrganizationMember"
+    },
+    {
+        "id": "BoardOfDirectors",
+        "type": "Class",
+        "name": "BoardOfDirectors",
+        "definition": "group of people comprising the governing body of an organization that has the authority to set organizational strategy and policies as well as to select and, to some degree manage, leadership",
+        "label": "board of directors",
+        "explanatoryNote": "For a public, for profit organization, its members (directors) are elected normally by the subscribers (stockholders) of the firm (generally at an annual general meeting) to govern the firm and look after the subscribers' interests. In the case of a not-for-profit organization, the board ensures the organization is acting in line with its mission. The board has the ultimate decision-making authority and, in general, is empowered to (1) set the company's policy, objectives, and overall direction, (2) adopt bylaws, (3) name members of the advisory, executive, finance, and other committees, (4) hire, monitor, evaluate, and fire the managing director and senior executives, (5) determine and pay the dividend, and (6) issue additional shares. Though all its members might not be engaged in the company's day-to-day operations, the entire board is held liable (under the doctrine of collective responsibility) for the consequences of the firm's policies, actions, and failures to act. Members of the board usually include senior-most executives (called inside directors or executive directors) as well as experts or respected persons chosen from the wider community (called outside directors or non-executive directors)."
+    },
+    {
+        "id": "EntityControllingParty",
+        "type": "Entity",
+        "name": "EntityControllingParty"
+    },
+    {
+        "id": "AuthorizedParty",
+        "type": "Class",
+        "name": "AuthorizedParty",
+        "definition": "party that has been given the responsibility to act on behalf of another party under some set of guidelines",
+        "label": "authorized party"
+    },
+    {
+        "id": "ResponsibleParty",
+        "type": "Class",
+        "name": "ResponsibleParty",
+        "definition": "person acting in a role that has some formal responsibility, such as a fiduciary responsibility, a signatory, an examiner or registrar, etc.",
+        "label": "responsible party"
+    },
+    {
+        "id": "BoardCapacity",
+        "type": "Class",
+        "name": "BoardCapacity",
+        "definition": "authority to act in a fiduciary capacity with respect to the organization, including but not limited to determining and executing corporate policy",
+        "label": "board capacity"
+    },
+    {
+        "id": "DelegatedLegalAuthority",
+        "type": "Entity",
+        "name": "DelegatedLegalAuthority"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "AuthorizingParty",
+        "type": "Class",
+        "name": "AuthorizingParty",
+        "label": "authorizing party",
+        "definition": "party that delegates some role, authority, or control to another party"
+    },
+    {
+        "id": "Actor",
+        "type": "Entity",
+        "name": "Actor"
+    },
+    {
+        "id": "Bylaws",
+        "type": "Class",
+        "name": "Bylaws",
+        "label": "bylaws",
+        "definition": "written rules for conduct of a corporation, association, partnership or any organization"
+    },
+    {
+        "id": "Law",
+        "type": "Entity",
+        "name": "Law"
+    },
+    {
+        "id": "BoardCompositionControl",
+        "type": "Class",
+        "name": "BoardCompositionControl",
+        "definition": "situation in which a voting shareholder, entity owner, or some other party in the case of a not-for-profit organization, appoints and/or nominates someone to the board of directors of an organization for some period of time",
+        "label": "board composition control"
+    },
+    {
+        "id": "Control",
+        "type": "Entity",
+        "name": "Control"
+    },
+    {
+        "id": "Executive",
+        "type": "Class",
+        "name": "Executive",
+        "label": "executive",
+        "definition": "person appointed and given the responsibility to manage the affairs of an organization and the authority to make decisions within specified role-specific boundaries"
+    },
+    {
+        "id": "LegallyDelegatedAuthority",
+        "type": "Class",
+        "name": "LegallyDelegatedAuthority",
+        "label": "legally delegated authority",
+        "definition": "party empowered with some level of legal control and corresponding responsibility"
+    },
+    {
+        "id": "ChiefFinancialOfficer",
+        "type": "Class",
+        "name": "ChiefFinancialOfficer",
+        "label": "chief financial officer",
+        "abbreviation": "CFO",
+        "explanatoryNote": "He or she is in charge of all accounting functions including (1) credit control, (2) preparing budgets and financial statements, (3) coordinating financing and fund raising, (4) monitoring expenditure and liquidity, (5) managing investment and taxation issues, (6) reporting financial performance to the board, and (7) providing timely financial data to the CEO. Also called chief finance officer, comptroller, controller, or finance controller.",
+        "definition": "senior-most corporate officer responsible for financial control and planning for an organization or project"
+    },
+    {
+        "id": "CorporateOfficer",
+        "type": "Class",
+        "name": "CorporateOfficer",
+        "definition": "high-level management executive of a corporation or other organization, hired by the board of directors or the business owner(s), charged with certain operational responsibilities, and who has the authority to act on behalf of the organization, including the authority to enter into contracts on behalf of the organization",
+        "explanatoryNote": "Note that in most cases in the United States, corporate officers, especially those with signatory capacity and other fiduciary responsibilities must be employees, especially with respect to financial institutions and other highly regulated domains. There are cases, however, when an independent contractor or professional services provider may play the role of a corporate officer, such as a 'CFO for hire', which is a common practice in start-up organizations.",
+        "label": "corporate officer"
+    },
+    {
+        "id": "Authorization",
+        "type": "Class",
+        "name": "Authorization",
+        "definition": "situation in which a party authorizes someone to act on their behalf under certain conditions for some period of time",
+        "label": "authorization"
+    },
+    {
+        "id": "Situation",
+        "type": "Entity",
+        "name": "Situation"
+    },
+    {
+        "id": "ExecutiveBoardMember",
+        "type": "Class",
+        "name": "ExecutiveBoardMember",
+        "label": "executive board member",
+        "definition": "member of a board of directors that is also an employee of the organization"
+    },
+    {
+        "id": "Employee",
+        "type": "Entity",
+        "name": "Employee"
+    },
+    {
+        "id": "BoardMember",
+        "type": "Class",
+        "name": "BoardMember",
+        "label": "board member",
+        "definition": "party that has fiduciary responsibility with respect to the organization, including but not limited to determining and executing corporate policy"
+    },
+    {
+        "id": "Auditor",
+        "type": "Class",
+        "name": "Auditor",
+        "label": "auditor",
+        "explanatoryNote": "An auditor is authorized to audit one or more specific organizations, i.e., by the authorizing party indicated by the situation.",
+        "definition": "party qualified and authorized to review and verify the accuracy of financial records and ensure that companies comply with tax laws"
+    },
+    {
+        "id": "ChiefExecutiveOfficer",
+        "type": "Class",
+        "name": "ChiefExecutiveOfficer",
+        "definition": "top corporate officer responsible for an organization's overall operations and performance",
+        "label": "chief executive officer",
+        "abbreviation": "CEO",
+        "explanatoryNote": "He or she is the leader of the firm, serves as the main link between the board of directors (the board) and the firm's various parts or levels, and is held solely responsible for the firm's success or failure. One of the major duties of a CEO is to maintain and implement corporate policy, as established by the board. Also called President or managing director, he or she may also be the chairman (or chairperson) of the board."
+    },
+    {
+        "id": "ArticlesOfIncorporation",
+        "type": "Class",
+        "name": "ArticlesOfIncorporation",
+        "definition": "contract that establishes a new corporation or, when amended, adjusts the legal basis for the corporation, and outlines basic information about the corporation, including the type of business, and a description of the business' operational characteristics",
+        "label": "articles of incorporation"
+    },
+    {
+        "id": "InstrumentOfIncorporation",
+        "type": "Entity",
+        "name": "InstrumentOfIncorporation"
+    },
+    {
+        "id": "NonExecutiveBoardMember",
+        "type": "Class",
+        "name": "NonExecutiveBoardMember",
+        "definition": "member of the board of directors of an organization that has no executive responsibilities towards the running of that organization",
+        "label": "non-executive board member"
+    },
+    {
+        "id": "CorporateBylaws",
+        "type": "Class",
+        "name": "CorporateBylaws",
+        "explanatoryNote": "Corporate bylaws may contain any provision, not inconsistent with law or with the certificate of incorporation, relating to the business of the corporation, the conduct of its affairs, and its rights or powers or the rights or powers of its stockholders, directors, officers or employees. Changes to the bylaws of a corporation require a board-level resolution and may require a vote of the shareholders.",
+        "label": "corporate bylaws",
+        "definition": "written rules for conduct of a corporation, adopted by the board of directors"
+    },
+    {
+        "id": "ControllingParty",
+        "type": "Entity",
+        "name": "ControllingParty"
+    },
+    {
+        "id": "BoardMembership",
+        "type": "Class",
+        "name": "BoardMembership",
+        "definition": "situation relating an individual member of the board of directors to the organization",
+        "label": "board membership"
+    },
+    {
+        "id": "DeFactoControllingInterestParty",
+        "type": "Class",
+        "name": "DeFactoControllingInterestParty",
+        "explanatoryNote": "A control owner (i.e., control person, per SEC regulations) may have some means or right that allows them to exercise control over board composition, other than through proxy assignment or vote. Not all control persons have this facility, as it is not inherent to having a significant (for example, 20 percent or more) ownership stake."
+    },
+    {
+        "id": "VotingShareholder",
+        "type": "Class",
+        "name": "VotingShareholder",
+        "explanatoryNote": "A voting shareholder may exercise control over board composition by (1) attending a shareholder meeting and voting directly, (2) assigning a proxy to vote on their behalf, either as specified in the recommendations made in the proxy card or as indicated in a manner that deviates from those recommendations but is detailed on the proxy card, (3) by rejection of the proxy, either implicitly or explicitly, or (4) through a direct ballot that they create themselves."
+    },
+    {
+        "id": "CompanyLaw",
+        "type": "Class",
+        "name": "CompanyLaw",
+        "definition": "legislation under which the formation, registration or incorporation, governance, and dissolution of a firm is administered and controlled",
+        "label": "company law"
+    },
+    {
+        "id": "StatuteLaw",
+        "type": "Entity",
+        "name": "StatuteLaw"
+    },
+    {
+        "id": "CompanySecretary",
+        "type": "Class",
+        "name": "CompanySecretary",
+        "explanatoryNote": "His or her formal duties include (1) calling meetings, (2) recording minutes of the meetings, (3) keeping statutory record books, (4) proper payment of dividend and interest payments, and (5) proper drafting and execution of agreements, contracts, and resolutions.",
+        "label": "company secretary",
+        "definition": "corporate officer appointed by the directors of an organization, responsible for ensuring compliance with legal obligations related to corporate governance"
+    },
+    {
+        "id": "delegatesControlTo",
+        "type": "ObjectProperty",
+        "name": "delegatesControlTo",
+        "label": "delegates control to",
+        "definition": "indicates a party to which this legal person has delegated some authority or control"
+    },
+    {
+        "id": "hasAuthorizingParty",
+        "type": "ObjectProperty",
+        "name": "hasAuthorizingParty",
+        "definition": "indicates the party that endorses, enables, empowers, or gives permission in the situation",
+        "label": "has authorizing party"
+    },
+    {
+        "id": "elects",
+        "type": "ObjectProperty",
+        "name": "elects",
+        "definition": "chooses someone, or a group of individuals, to hold office or some other position by voting",
+        "label": "elects"
+    },
+    {
+        "id": "hasResponsibility",
+        "type": "ObjectProperty",
+        "name": "hasResponsibility",
+        "definition": "specifies a commitment or obligation that an independent party has",
+        "label": "has responsibility"
+    },
+    {
+        "id": "hasDelegatedControlOf",
+        "type": "ObjectProperty",
+        "name": "hasDelegatedControlOf",
+        "label": "has delegated control of",
+        "definition": "indicates something or some party that is controlled via delegation"
+    },
+    {
+        "id": "hasResponsibleParty",
+        "type": "ObjectProperty",
+        "name": "hasResponsibleParty",
+        "definition": "identifies a party that has some assignment, commitment or obligation with respect to the formal organization",
+        "label": "has responsible party"
+    },
+    {
+        "id": "designatesSignatory",
+        "type": "ObjectProperty",
+        "name": "designatesSignatory",
+        "label": "designates signatory",
+        "definition": "authorizes to sign agreements, access accounts and/or perform other similar tasks"
+    },
+    {
+        "id": "hasCorporateOfficer",
+        "type": "ObjectProperty",
+        "name": "hasCorporateOfficer",
+        "label": "has corporate officer",
+        "definition": "indicates an officer of the organization"
+    },
+    {
+        "id": "isAuthorizedBy",
+        "type": "ObjectProperty",
+        "name": "isAuthorizedBy",
+        "definition": "is endorsed, enabled, empowered, or otherwise permitted by",
+        "label": "is authorized by"
+    },
+    {
+        "id": "hasSigningAuthorityFor",
+        "type": "ObjectProperty",
+        "name": "hasSigningAuthorityFor",
+        "definition": "indicates the party for which a signatory has the ability to sign agreements, access accounts and perform related tasks",
+        "label": "has signing authority for"
+    },
+    {
+        "id": "isDirectorOf",
+        "type": "ObjectProperty",
+        "name": "isDirectorOf",
+        "label": "is director of",
+        "definition": "indicates the organization that the board member oversees"
+    },
+    {
+        "id": "hasPrincipalManagingParty",
+        "type": "ObjectProperty",
+        "name": "hasPrincipalManagingParty",
+        "definition": "indicates a controlling party that is responsible for the management of daily business operations",
+        "label": "has principal managing party"
+    },
+    {
+        "id": "isAuthorizedThrough",
+        "type": "ObjectProperty",
+        "name": "isAuthorizedThrough",
+        "label": "is authorized through",
+        "definition": "indicates the situation that faciliates endorsement of the authorized party for some purpose"
+    },
+    {
+        "id": "authorizesThrough",
+        "type": "ObjectProperty",
+        "name": "authorizesThrough",
+        "label": "authorizes through",
+        "definition": "indicates the situation that facilitates designation of an authorized party by the authorizing party for some purpose"
+    },
+    {
+        "id": "isOfficerOf",
+        "type": "ObjectProperty",
+        "name": "isOfficerOf",
+        "label": "is officer of",
+        "definition": "indicates the organization that the person has some authority over and managerial responsibility for"
+    },
+    {
+        "id": "hasDirector",
+        "type": "ObjectProperty",
+        "name": "hasDirector",
+        "definition": "indicates a member of the board of directors of the organization",
+        "label": "has director"
+    },
+    {
+        "id": "nominates",
+        "type": "ObjectProperty",
+        "name": "nominates",
+        "label": "nominates",
+        "definition": "appoints or proposes for appointment to an office or place"
+    },
+    {
+        "id": "isPrincipalPartyOf",
+        "type": "ObjectProperty",
+        "name": "isPrincipalPartyOf",
+        "definition": "identifies a legal entity (controlled party) over which a principal has some measure of control",
+        "label": "is principal party of"
+    },
+    {
+        "id": "authorizes",
+        "type": "ObjectProperty",
+        "name": "authorizes",
+        "definition": "endorses, enables, empowers, or gives permission to",
+        "label": "authorizes"
+    },
+    {
+        "id": "hasVestedInIt",
+        "type": "ObjectProperty",
+        "name": "hasVestedInIt",
+        "label": "has vested in it",
+        "definition": "indicates the delegated legal authority that is vested in the controlling party"
+    },
+    {
+        "id": "hasAuthorizedParty",
+        "type": "ObjectProperty",
+        "name": "hasAuthorizedParty",
+        "label": "has authorized party",
+        "definition": "indicates the party that is endorsed, enabled, empowered, or otherwise permitted to do something in the situation"
+    }
+]

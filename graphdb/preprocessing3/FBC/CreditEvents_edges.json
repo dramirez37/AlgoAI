@@ -1,0 +1,134 @@
+[
+    {
+        "source_id": "FailureToPayInterest",
+        "target_id": "FailureToPay",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FailureToPay",
+        "target_id": "DefaultEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FailureToPayPrincipal",
+        "target_id": "FailureToPay",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ObligationSpecificCreditEvent",
+        "target_id": "CreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SoftCreditEvent",
+        "target_id": "DefaultEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Downgrade",
+        "target_id": "CreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EntitySpecificCreditEvent",
+        "target_id": "CreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Moratorium",
+        "target_id": "EntitySpecificCreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Bankruptcy",
+        "target_id": "EntitySpecificCreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DefaultEvent",
+        "target_id": "ObligationSpecificCreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Repudiation",
+        "target_id": "ObligationSpecificCreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ObligationAcceleration",
+        "target_id": "ObligationSpecificCreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InstallmentDefault",
+        "target_id": "DefaultEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MaturityExtension",
+        "target_id": "ObligationSpecificCreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ObligationRestructuring",
+        "target_id": "ObligationSpecificCreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DistressedRatingsDowngrade",
+        "target_id": "Downgrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ObligationDefault",
+        "target_id": "ObligationSpecificCreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ObligationDefault",
+        "target_id": "DefaultEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WriteDown",
+        "target_id": "ObligationSpecificCreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HardCreditEvent",
+        "target_id": "DefaultEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FilingForBankruptcy",
+        "target_id": "EntitySpecificCreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditEvent",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

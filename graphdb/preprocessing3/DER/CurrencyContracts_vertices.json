@@ -1,0 +1,122 @@
+[
+    {
+        "id": "CurrencyVolatilityOption",
+        "type": "Class",
+        "name": "CurrencyVolatilityOption",
+        "label": "currency volatility option",
+        "definition": "currency option whose underlying asset is based on the volatility of a foreign exchange rate"
+    },
+    {
+        "id": "CurrencyOption",
+        "type": "Class",
+        "name": "CurrencyOption",
+        "definition": "option giving the buyer (holder) the right, but not the obligation, to buy or sell currency at a specified exchange rate during a specified period of time",
+        "label": "currency option",
+        "abbreviation": "FX option",
+        "explanatoryNote": "For this right, a premium is paid to the broker, which will vary depending on the number of contracts purchased. Currency options are one of the best ways for corporations or individuals to hedge against adverse movements in exchange rates. Investors can hedge against foreign currency risk by purchasing a currency option put or call. For example, assume that an investor believes that the USD/EUR rate is going to increase from 0.80 to 0.90 (meaning that it will become more expensive for a European investor to buy U.S dollars). In this case, the investor would want to buy a call option on USD/EUR so that he or she could stand to gain from an increase in the exchange rate (or the USD rise)."
+    },
+    {
+        "id": "CurrencySpotContract",
+        "type": "Class",
+        "name": "CurrencySpotContract",
+        "definition": "foreign-exchange contract for immediate delivery",
+        "explanatoryNote": "Spot rates represent the price that a buyer expects to pay for a foreign currency in another currency at the time of the quote. Though the spot exchange rate is said to be settled immediately, the globally accepted settlement cycle for foreign-exchange contracts is two days. Foreign-exchange contracts are therefore settled on the second day after the day the deal is made.",
+        "label": "currency spot contract"
+    },
+    {
+        "id": "SpotContract",
+        "type": "Entity",
+        "name": "SpotContract"
+    },
+    {
+        "id": "CurrencyInstrument",
+        "type": "Entity",
+        "name": "CurrencyInstrument"
+    },
+    {
+        "id": "CurrencySpotForwardSwap",
+        "type": "Class",
+        "name": "CurrencySpotForwardSwap",
+        "label": "currency spot forward swap",
+        "definition": "foreign exchange agreement between two parties involving an exchange of two currencies at agreed fixed rates: a) on the spot settlement date and b) a reverse exchange on a later specified date"
+    },
+    {
+        "id": "CurrencySwap",
+        "type": "Class",
+        "name": "CurrencySwap",
+        "label": "currency swap",
+        "definition": "foreign exchange agreement between two parties to exchange a given amount of one currency for another currency for spot delivery or for forward delivery at an agreed rate after a specified period of time"
+    },
+    {
+        "id": "CurrencyForwardOutright",
+        "type": "Class",
+        "name": "CurrencyForwardOutright",
+        "definition": "forward contract in a foreign exchange market that locks in the price at which an entity must buy or sell a currency on a future date",
+        "label": "currency forward outright",
+        "explanatoryNote": "The holders of a currency forward are obligated to buy or sell the currency at a specified price, at a specified quantity and on a specified future date. These contracts cannot be transferred. Jan 10 Review Notes Outright Forward is the term for the professional markets. Spot + Swap where Swap is 2 simultaneous transactions."
+    },
+    {
+        "id": "CurrencyForward",
+        "type": "Class",
+        "name": "CurrencyForward",
+        "definition": "agreement to deliver and settle a given amount of money in one currency, in exchange for a given amount in another currency, at an agreed date in the future and at an agreed rate of exchange",
+        "label": "currency forward"
+    },
+    {
+        "id": "Forward",
+        "type": "Entity",
+        "name": "Forward"
+    },
+    {
+        "id": "CurrencyDerivative",
+        "type": "Class",
+        "name": "CurrencyDerivative",
+        "abbreviation": "FX derivative",
+        "definition": "agreement to deliver and settle a given amount of money in one currency, in exchange for a given amount in another currency at an agreed rate of exchange",
+        "label": "currency derivative"
+    },
+    {
+        "id": "DerivativeInstrument",
+        "type": "Entity",
+        "name": "DerivativeInstrument"
+    },
+    {
+        "id": "Swap",
+        "type": "Entity",
+        "name": "Swap"
+    },
+    {
+        "id": "VanillaOption",
+        "type": "Entity",
+        "name": "VanillaOption"
+    },
+    {
+        "id": "CurrencyFuture",
+        "type": "Class",
+        "name": "CurrencyFuture"
+    },
+    {
+        "id": "hasSellingCurrency",
+        "type": "ObjectProperty",
+        "name": "hasSellingCurrency"
+    },
+    {
+        "id": "hasBuyingCurrency",
+        "type": "ObjectProperty",
+        "name": "hasBuyingCurrency"
+    },
+    {
+        "id": "hasSpotExchangeRate",
+        "type": "ObjectProperty",
+        "name": "hasSpotExchangeRate",
+        "definition": "rate of exchange between two currencies as specified as of some date and time as quoted by a specific source, typically for a spot contract",
+        "label": "has spot exchange rate"
+    },
+    {
+        "id": "hasForwardExchangeRate",
+        "type": "ObjectProperty",
+        "name": "hasForwardExchangeRate",
+        "label": "has forward exchange rate",
+        "definition": "rate of exchange between two currencies as specified in a forward contract"
+    }
+]

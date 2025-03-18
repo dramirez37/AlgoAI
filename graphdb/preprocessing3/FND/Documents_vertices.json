@@ -1,0 +1,47 @@
+[
+    {
+        "id": "FinancialRecord",
+        "type": "Class",
+        "name": "FinancialRecord",
+        "definition": "record of financial information",
+        "label": "financial record"
+    },
+    {
+        "id": "Collection",
+        "type": "Entity",
+        "name": "Collection"
+    },
+    {
+        "id": "Record",
+        "type": "Entity",
+        "name": "Record"
+    },
+    {
+        "id": "hasExpirationDate",
+        "type": "ObjectProperty",
+        "name": "hasExpirationDate",
+        "label": "has expiration date",
+        "definition": "links something, typically an agreement, contract, document, or perishable item, with an expiration date"
+    },
+    {
+        "id": "hasReportingPeriod",
+        "type": "ObjectProperty",
+        "name": "hasReportingPeriod",
+        "label": "has reporting period",
+        "definition": "specifies the reporting period for which a report or something else, such as a market rate or economic indicator, applies"
+    },
+    {
+        "id": "hasTerminationDate",
+        "type": "ObjectProperty",
+        "name": "hasTerminationDate",
+        "label": "has termination date",
+        "definition": "links something, typically an agreement, contract, document, or process, with a date on which it was terminated"
+    },
+    {
+        "id": "hasRecord",
+        "type": "ObjectProperty",
+        "name": "hasRecord",
+        "label": "has record",
+        "definition": "links something to a record that pertains to it"
+    }
+]

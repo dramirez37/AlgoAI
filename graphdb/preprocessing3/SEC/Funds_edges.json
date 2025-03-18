@@ -1,0 +1,184 @@
+[
+    {
+        "source_id": "HedgeFund",
+        "target_id": "OpenEndInvestment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundUnit",
+        "target_id": "PooledFund",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isConstituentOf",
+                "PooledFund"
+            ]
+        }
+    },
+    {
+        "source_id": "FundUnit",
+        "target_id": "Share",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ManagedInvestment",
+        "target_id": "CollectiveInvestmentVehicle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalFundStructure",
+        "target_id": "LegalConstruct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SovereignWealthFund",
+        "target_id": "CollectiveInvestmentVehicle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RealEstateInvestmentTrust",
+        "target_id": "ManagedInvestment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivateEquityFund",
+        "target_id": "ManagedInvestment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OpenEndInvestment",
+        "target_id": "isOpenEnded",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isOpenEnded"
+            ]
+        }
+    },
+    {
+        "source_id": "OpenEndInvestment",
+        "target_id": "ManagedInvestment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundContract",
+        "target_id": "OrganizationCoveringAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeTradedFund",
+        "target_id": "OpenEndInvestment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PooledFund",
+        "target_id": "FinancialAsset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PooledFund",
+        "target_id": "FundUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "FundUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "FundOfFunds",
+        "target_id": "CollectiveInvestmentVehicle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSubFund",
+                "CollectiveInvestmentVehicle"
+            ]
+        }
+    },
+    {
+        "source_id": "FundOfFunds",
+        "target_id": "ManagedInvestment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClosedEndInvestment",
+        "target_id": "isOpenEnded",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isOpenEnded"
+            ]
+        }
+    },
+    {
+        "source_id": "ClosedEndInvestment",
+        "target_id": "ManagedInvestment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "LegalFundStructure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasLegalStructure",
+                "LegalFundStructure"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "PooledFund",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PensionFund",
+        "target_id": "ManagedInvestment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MutualFund",
+        "target_id": "OpenEndInvestment",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

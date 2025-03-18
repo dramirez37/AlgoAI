@@ -1,0 +1,68 @@
+[
+    {
+        "id": "CRDCreditInstitution",
+        "type": "Class",
+        "name": "CRDCreditInstitution",
+        "definition": "an undertaking whose business is to receive deposits or other repayable funds from the public and to grant credits for its own account as defined by the European Banking Authority (EBA)",
+        "label": "CRD credit institution"
+    },
+    {
+        "id": "CreditInstitution",
+        "type": "Class",
+        "name": "CreditInstitution",
+        "label": "credit institution",
+        "definition": "an undertaking the business of which is to take deposits or other repayable funds from the public and to grant credits for its own account, and to which authorisation has been granted to operate within the European Union and European Economic Area countries (EEA)"
+    },
+    {
+        "id": "PaymentInstitution",
+        "type": "Class",
+        "name": "PaymentInstitution",
+        "definition": "a legal person that has been granted authorisation in accordance with Article 10 to provide and execute payment services throughout the European community",
+        "label": "payment institution"
+    },
+    {
+        "id": "CreditInstitutionInvestmentFirm",
+        "type": "Class",
+        "name": "CreditInstitutionInvestmentFirm",
+        "definition": "classification specific to European financial institutions that designates them as credit institutions / investment firms as defined by the European Banking Authority (EBA)",
+        "label": "credit institution / investment firm"
+    },
+    {
+        "id": "InvestmentFirm",
+        "type": "Class",
+        "name": "InvestmentFirm",
+        "label": "investment firm",
+        "definition": "any legal person whose regular occupation or business is the provision of one or more investment services to third parties and/or the performance of one or more investment activities on a professional basis"
+    },
+    {
+        "id": "FinancialInstitution",
+        "type": "Entity",
+        "name": "FinancialInstitution"
+    },
+    {
+        "id": "LocalFirm",
+        "type": "Class",
+        "name": "LocalFirm",
+        "label": "local firm",
+        "definition": "a firm dealing for its own account on markets in financial futures or options or other derivatives and on cash markets for the sole purpose of hedging positions on derivatives markets, or dealing for the accounts of other members of those markets and being guaranteed by clearing members of the same markets, where responsibility for ensuring the performance of contracts entered into by such a firm is assumed by clearing members of the same markets"
+    },
+    {
+        "id": "BrokerageFirm",
+        "type": "Entity",
+        "name": "BrokerageFirm"
+    },
+    {
+        "id": "NonEuropeanEconomicAreaBranch",
+        "type": "Class",
+        "name": "NonEuropeanEconomicAreaBranch",
+        "definition": "a branch of a credit institution whose Head Office is in a third country",
+        "label": "non European Economic Area branch"
+    },
+    {
+        "id": "EuropeanEconomicAreaBranch",
+        "type": "Class",
+        "name": "EuropeanEconomicAreaBranch",
+        "label": "European Economic Area branch",
+        "definition": "a branch of a credit institution authorised in another European Economic Area (EEA) country that has the right to passport its activities"
+    }
+]

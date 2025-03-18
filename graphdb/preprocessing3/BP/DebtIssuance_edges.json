@@ -1,0 +1,395 @@
+[
+    {
+        "source_id": "MediumTermNoteIssuanceProgramme",
+        "target_id": "MediumTermNoteOffering",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "MediumTermNoteOffering"
+            ]
+        }
+    },
+    {
+        "source_id": "MediumTermNoteIssuanceProgramme",
+        "target_id": "BondIssuanceProgramme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotYetIssuedDebtsPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotYetIssuedDebtsPool",
+        "target_id": "NotYetIssued",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "NotYetIssued"
+            ]
+        }
+    },
+    {
+        "source_id": "RefundingPurpose",
+        "target_id": "DebtIssuancePurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PoolBackedSecuritySecuritizationProcessActor",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "evaluates",
+                "IssuanceProcessActivity"
+            ]
+        }
+    },
+    {
+        "source_id": "PoolBackedSecuritySecuritizationProcessActor",
+        "target_id": "SecuritizationProcessActor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InAssemblyDebtsPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InAssemblyDebtsPool",
+        "target_id": "InAssembly",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "InAssembly"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritizationProcessActor",
+        "target_id": "SecuritiesIssuanceProcessActor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RetailAssetPoolCreationProcess",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProducedBy",
+                "DebtPool"
+            ]
+        }
+    },
+    {
+        "source_id": "RetailAssetPoolCreationProcess",
+        "target_id": "AssetPoolCreationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RetailAssetPoolCreationProcess",
+        "target_id": "PoolBackedSecuritySecuritizationProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "precedes",
+                "PoolBackedSecuritySecuritizationProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "UnderwriterTakedownForDebt",
+        "target_id": "UnderwriterTakedown",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CompletedDebtsPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CompletedDebtsPool",
+        "target_id": "InIssuance",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStage",
+                "InIssuance"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtOffering",
+        "target_id": "SecurityUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isUnderwrittenBy",
+                "SecurityUnderwriter"
+            ]
+        }
+    },
+    {
+        "source_id": "BondOffering",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondIssuanceProgramme",
+        "target_id": "DebtIssuanceProgramme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondIssuanceProgramme",
+        "target_id": "BondOffering",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "BondOffering"
+            ]
+        }
+    },
+    {
+        "source_id": "AdvancedRefunding",
+        "target_id": "RefundingPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MuniIssueUnderwriter",
+        "target_id": "SecurityUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PoolBackedSecuritySecuritizationProcess",
+        "target_id": "DebtSecuritizationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AssetPoolCreationProcess",
+        "target_id": "DebtSecuritizationProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "precedes",
+                "DebtSecuritizationProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "MTNRegistration",
+        "target_id": "MediumTermNoteIssuanceProgramme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAbout",
+                "MediumTermNoteIssuanceProgramme"
+            ]
+        }
+    },
+    {
+        "source_id": "MTNRegistration",
+        "target_id": "Registration",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditCardPoolCreationProcess",
+        "target_id": "RetailAssetPoolCreationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotYetIssued",
+        "target_id": "PoolLifecycleStateSelection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtIssuanceProcessInformation",
+        "target_id": "TradedInstrumentIssuanceProcessInformation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtIssuanceProcessInformation",
+        "target_id": "DebtIssuancePurpose",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasDebtIssuancePurpose",
+                "DebtIssuancePurpose"
+            ]
+        }
+    },
+    {
+        "source_id": "HomeEquityLineOfCreditPoolCreationProcess",
+        "target_id": "RetailAssetPoolCreationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanPoolCreationProcess",
+        "target_id": "RetailAssetPoolCreationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CDOSecuritizationProcess",
+        "target_id": "DebtSecuritizationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ABSSecuritizationProcess",
+        "target_id": "PoolBackedSecuritySecuritizationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NewMoneyPurpose",
+        "target_id": "DebtIssuancePurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtIssuancePurpose",
+        "target_id": "Objective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MediumTermNoteOffering",
+        "target_id": "BondOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtIssuanceProgramme",
+        "target_id": "IssuanceProgramme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtIssuanceProgramme",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "DebtOffering"
+            ]
+        }
+    },
+    {
+        "source_id": "BondOfferingWithWarrant",
+        "target_id": "BondOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtSecuritizationProcess",
+        "target_id": "SecuritiesIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RemarketingPurpose",
+        "target_id": "DebtIssuancePurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InAssembly",
+        "target_id": "PoolLifecycleStateSelection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InIssuance",
+        "target_id": "PoolLifecycleStateSelection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtInstrumentPoolCreationProcess",
+        "target_id": "AssetPoolCreationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Issued",
+        "target_id": "PoolLifecycleStateSelection",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,173 @@
+[
+    {
+        "source_id": "Report",
+        "target_id": "ReportingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "ReportingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "Report",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isSubmittedTo",
+                "PartyRole"
+            ]
+        }
+    },
+    {
+        "source_id": "Report",
+        "target_id": "Submitter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isSubmittedBy",
+                "Submitter"
+            ]
+        }
+    },
+    {
+        "source_id": "Report",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isReportedTo",
+                "PartyRole"
+            ]
+        }
+    },
+    {
+        "source_id": "Report",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Request",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Request",
+        "target_id": "RequestActivity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "exemplifies",
+                "RequestActivity"
+            ]
+        }
+    },
+    {
+        "source_id": "Request",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRequestedOf",
+                "PartyRole"
+            ]
+        }
+    },
+    {
+        "source_id": "Request",
+        "target_id": "Requester",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRequestedBy",
+                "Requester"
+            ]
+        }
+    },
+    {
+        "source_id": "RequestActivity",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReportingParty",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReportingParty",
+        "target_id": "Report",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "Report"
+            ]
+        }
+    },
+    {
+        "source_id": "Submitter",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Submitter",
+        "target_id": "Report",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "submits",
+                "Report"
+            ]
+        }
+    },
+    {
+        "source_id": "Requester",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

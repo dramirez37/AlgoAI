@@ -1,0 +1,164 @@
+[
+    {
+        "id": "ContractLeg1-IY7VKEUR45886-NotionalAmount",
+        "type": "MonetaryAmount",
+        "name": "ContractLeg1-IY7VKEUR45886-NotionalAmount",
+        "label": "contract leg 1 IY7VKEUR45886 notional amount"
+    },
+    {
+        "id": "ISIN-ZZ216659451",
+        "type": "InternationalSecuritiesIdentificationNumber",
+        "name": "ISIN-ZZ216659451",
+        "label": "ZZ216659451",
+        "definition": "ISIN for sample swap contract IY7VKEUR45886"
+    },
+    {
+        "id": "SwapContractParty-A",
+        "type": "NamedIndividual",
+        "name": "SwapContractParty-A",
+        "definition": "swap contract party A for all of the sample contracts in the sample swap data",
+        "label": "swap contract party A"
+    },
+    {
+        "id": "ContractLeg2-IY7VKEUR45886",
+        "type": "NamedIndividual",
+        "name": "ContractLeg2-IY7VKEUR45886",
+        "label": "contract leg 2 IY7VKEUR45886",
+        "explanatoryNote": "Need to create the interest rate reset schedule or add a simple payment frequency, need a separate property for reference interest rate, need rate tenor",
+        "definition": "contract IY7VKEUR45886 swap leg 2 that is a floating interest rate leg"
+    },
+    {
+        "id": "PortfolioAlpha",
+        "type": "Portfolio",
+        "name": "PortfolioAlpha",
+        "label": "portfolio Alpha",
+        "definition": "sample contract portfolio Alpha"
+    },
+    {
+        "id": "ContractLeg2-IY7VKEUR45886-InterestPaymentTerms",
+        "type": "InterestPaymentTerms",
+        "name": "ContractLeg2-IY7VKEUR45886-InterestPaymentTerms",
+        "definition": "interest payment terms for contract IY7VKEUR45886 swap leg 2 that is a floating interest rate leg",
+        "label": "contract leg 2 interest payment terms IY7VKEUR45886"
+    },
+    {
+        "id": "SecuritiesTransaction-IY7VKEUR45886",
+        "type": "SecuritiesTransaction",
+        "name": "SecuritiesTransaction-IY7VKEUR45886",
+        "label": "securities transaction IY7VKEUR45886",
+        "explanatoryNote": "Need to create the trade event - this is the activity (maybe we should rename these now? in FND to activity and event?) and add lifecycle elements - date and time, status of the trade and settlement status",
+        "definition": "securities transaction for contract IY7VKEUR45886"
+    },
+    {
+        "id": "PortfolioBeta",
+        "type": "Portfolio",
+        "name": "PortfolioBeta",
+        "label": "portfolio Beta",
+        "definition": "sample contract portfolio Beta"
+    },
+    {
+        "id": "ContractLeg1-IY7VKEUR45886-InterestRate",
+        "type": "NamedIndividual",
+        "name": "ContractLeg1-IY7VKEUR45886-InterestRate",
+        "label": "contract leg 1 IY7VKEUR45886 fixed interest rate"
+    },
+    {
+        "id": "PortfolioGamma",
+        "type": "NamedIndividual",
+        "name": "PortfolioGamma",
+        "label": "portfolio Gamma",
+        "definition": "sample contract portfolio Gamma"
+    },
+    {
+        "id": "PortfolioDelta",
+        "type": "Portfolio",
+        "name": "PortfolioDelta",
+        "label": "portfolio Delta",
+        "definition": "sample contract portfolio Delta"
+    },
+    {
+        "id": "ContractLeg1-IY7VKEUR45886",
+        "type": "NamedIndividual",
+        "name": "ContractLeg1-IY7VKEUR45886",
+        "explanatoryNote": "Need to create the 1st period fixing date, payment days offset, discount notional amount, average remaining notional currency, net present value currency (pair, of type monetary amount)",
+        "label": "contract leg 1 IY7VKEUR45886",
+        "definition": "contract IY7VKEUR45886 swap leg 1 that is a fixed interest rate leg"
+    },
+    {
+        "id": "ContractLeg1-IY7VKEUR45886-InterestPaymentTerms",
+        "type": "InterestPaymentTerms",
+        "name": "ContractLeg1-IY7VKEUR45886-InterestPaymentTerms",
+        "definition": "interest payment terms for contract IY7VKEUR45886 swap leg 1 that is a fixed interest rate leg",
+        "label": "contract leg 1 interest payment terms IY7VKEUR45886"
+    },
+    {
+        "id": "Contract-IY7VKEUR45886",
+        "type": "NamedIndividual",
+        "name": "Contract-IY7VKEUR45886",
+        "label": "contract IY7VKEUR45886",
+        "definition": "contract IY7VKEUR45886 that is a fixed/float, single currency interest rate swap"
+    },
+    {
+        "id": "ContractLeg1-IY7VKEUR45886-EffectiveDate",
+        "type": "ExplicitDate",
+        "name": "ContractLeg1-IY7VKEUR45886-EffectiveDate",
+        "label": "contract leg 1 IY7VKEUR45886 effective date"
+    },
+    {
+        "id": "ContractLeg1-IY7VKEUR45886-TerminationDate",
+        "type": "NamedIndividual",
+        "name": "ContractLeg1-IY7VKEUR45886-TerminationDate",
+        "label": "contract leg 1 IY7VKEUR45886 termination date"
+    },
+    {
+        "id": "EuropeanCentralBankBBusinessDayAdjustment",
+        "type": "NamedIndividual",
+        "name": "EuropeanCentralBankBBusinessDayAdjustment",
+        "label": "European Central Bank business day adjustment",
+        "definition": "business day adjustment for the ECB"
+    },
+    {
+        "id": "IY7VKEUR45886",
+        "type": "NamedIndividual",
+        "name": "IY7VKEUR45886",
+        "label": "IY7VKEUR45886",
+        "definition": "unique swap identifier for sample swap contract IY7VKEUR45886"
+    },
+    {
+        "id": "SwapContractParty-ZZZWWK96TRQY0F2IY7VK",
+        "type": "Counterparty",
+        "name": "SwapContractParty-ZZZWWK96TRQY0F2IY7VK",
+        "label": "swap contract party ZZZWWK96TRQY0F2IY7VK",
+        "definition": "swap contract party ZZZWWK96TRQY0F2IY7VK"
+    },
+    {
+        "id": "ContractLeg2-IY7VKEUR45886-TerminationDate",
+        "type": "NamedIndividual",
+        "name": "ContractLeg2-IY7VKEUR45886-TerminationDate",
+        "label": "contract leg 2 IY7VKEUR45886 termination date"
+    },
+    {
+        "id": "ContractLeg2-IY7VKEUR45886-EffectiveDate",
+        "type": "NamedIndividual",
+        "name": "ContractLeg2-IY7VKEUR45886-EffectiveDate",
+        "label": "contract leg 2 IY7VKEUR45886 effective date"
+    },
+    {
+        "id": "Trader-J_Adams",
+        "type": "Trader",
+        "name": "Trader-J_Adams",
+        "label": "trader J. Adams"
+    },
+    {
+        "id": "ContractLeg2-IY7VKEUR45886-InterestRate",
+        "type": "NamedIndividual",
+        "name": "ContractLeg2-IY7VKEUR45886-InterestRate",
+        "label": "contract leg 2 IY7VKEUR45886 floating interest rate"
+    },
+    {
+        "id": "ContractLeg2-IY7VKEUR45886-NotionalAmount",
+        "type": "NamedIndividual",
+        "name": "ContractLeg2-IY7VKEUR45886-NotionalAmount",
+        "label": "contract leg 2 IY7VKEUR45886 notional amount"
+    }
+]

@@ -1,0 +1,551 @@
+[
+    {
+        "source_id": "SustainabilityPerformanceTarget",
+        "target_id": "TargetIndicatorValue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "TargetIndicatorValue"
+            ]
+        }
+    },
+    {
+        "source_id": "SustainabilityPerformanceTarget",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SustainabilityPerformanceTarget",
+        "target_id": "SustainabilityPerformanceTargetIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "SustainabilityPerformanceTargetIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "ObservedIndicatorValueStructure",
+        "target_id": "ObservedIndicatorValue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "ObservedIndicatorValue"
+            ]
+        }
+    },
+    {
+        "source_id": "ObservedIndicatorValueStructure",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SustainabilityLinkedLoan",
+        "target_id": "CommercialLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SustainabilityLinkedLoan",
+        "target_id": "CreditAgreementRepaidPeriodically",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SustainabilityLinkedLoan",
+        "target_id": "SustainabilityAndBusinessStrategy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStrategy",
+                "SustainabilityAndBusinessStrategy"
+            ]
+        }
+    },
+    {
+        "source_id": "TransitionUseOfProceedsProvision",
+        "target_id": "UseOfProceedsProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransitionUseOfProceedsProvision",
+        "target_id": "TransitionProject",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "TransitionProject"
+            ]
+        }
+    },
+    {
+        "source_id": "SustainabilityKeyPerformanceIndicatorIdentifier",
+        "target_id": "SustainabilityKeyPerformanceIndicator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "SustainabilityKeyPerformanceIndicator"
+            ]
+        }
+    },
+    {
+        "source_id": "SustainabilityKeyPerformanceIndicatorIdentifier",
+        "target_id": "ContextualIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EnvironmentalProgram",
+        "target_id": "EnvironmentalProject",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasMember",
+                "EnvironmentalProject"
+            ]
+        }
+    },
+    {
+        "source_id": "EnvironmentalProgram",
+        "target_id": "SustainabilityKeyPerformanceIndicator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isCharacterizedBy",
+                "SustainabilityKeyPerformanceIndicator"
+            ]
+        }
+    },
+    {
+        "source_id": "EnvironmentalProgram",
+        "target_id": "Program",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SustainabilityKeyPerformanceIndicator",
+        "target_id": "SustainabilityPerformanceTarget",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasTargetValue",
+                "SustainabilityPerformanceTarget"
+            ]
+        }
+    },
+    {
+        "source_id": "SustainabilityKeyPerformanceIndicator",
+        "target_id": "SustainabilityKeyPerformanceIndicatorIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "SustainabilityKeyPerformanceIndicatorIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "SustainabilityKeyPerformanceIndicator",
+        "target_id": "ObservedIndicatorValueStructure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasObservedValue",
+                "ObservedIndicatorValueStructure"
+            ]
+        }
+    },
+    {
+        "source_id": "SustainabilityKeyPerformanceIndicator",
+        "target_id": "KeyPerformanceIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EnvironmentalProject",
+        "target_id": "SustainabilityKeyPerformanceIndicator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isCharacterizedBy",
+                "SustainabilityKeyPerformanceIndicator"
+            ]
+        }
+    },
+    {
+        "source_id": "EnvironmentalProject",
+        "target_id": "Project",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EnvironmentalProject",
+        "target_id": "AssessmentBoundary",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasAssessmentBoundary",
+                "AssessmentBoundary"
+            ]
+        }
+    },
+    {
+        "source_id": "EnvironmentalProject",
+        "target_id": "EnvironmentalProgram",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "EnvironmentalProgram"
+            ]
+        }
+    },
+    {
+        "source_id": "TransitionStrategy",
+        "target_id": "SustainabilityBusinessObjective",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasObjective",
+                "SustainabilityBusinessObjective"
+            ]
+        }
+    },
+    {
+        "source_id": "TransitionStrategy",
+        "target_id": "SustainabilityKeyPerformanceIndicator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isCharacterizedBy",
+                "SustainabilityKeyPerformanceIndicator"
+            ]
+        }
+    },
+    {
+        "source_id": "TransitionStrategy",
+        "target_id": "BusinessStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransitionStrategy",
+        "target_id": "SustainabilityPerformanceTarget",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEvidencedBy",
+                "SustainabilityPerformanceTarget"
+            ]
+        }
+    },
+    {
+        "source_id": "ObservedIndicatorValue",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GreenProjectUseOfProceedsProvision",
+        "target_id": "GreenProject",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "GreenProject"
+            ]
+        }
+    },
+    {
+        "source_id": "GreenProjectUseOfProceedsProvision",
+        "target_id": "UseOfProceedsProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AssessmentBoundary",
+        "target_id": "Context",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AssessmentBoundary",
+        "target_id": "Specification",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransitionLoan",
+        "target_id": "TransitionStrategy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStrategy",
+                "TransitionStrategy"
+            ]
+        }
+    },
+    {
+        "source_id": "TransitionLoan",
+        "target_id": "TransitionUseOfProceedsProvision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "TransitionUseOfProceedsProvision"
+            ]
+        }
+    },
+    {
+        "source_id": "TransitionLoan",
+        "target_id": "CreditAgreementRepaidPeriodically",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransitionLoan",
+        "target_id": "CommercialLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GreenProject",
+        "target_id": "EnvironmentalProject",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GreenProject",
+        "target_id": "GreenProjectUseOfProceedsProvision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isGovernedBy",
+                "GreenProjectUseOfProceedsProvision"
+            ]
+        }
+    },
+    {
+        "source_id": "GreenLoan",
+        "target_id": "CreditAgreementRepaidPeriodically",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GreenLoan",
+        "target_id": "GreenProjectUseOfProceedsProvision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "GreenProjectUseOfProceedsProvision"
+            ]
+        }
+    },
+    {
+        "source_id": "SustainabilityAndBusinessStrategy",
+        "target_id": "SustainabilityPerformanceTarget",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isEvidencedBy",
+                "SustainabilityPerformanceTarget"
+            ]
+        }
+    },
+    {
+        "source_id": "SustainabilityAndBusinessStrategy",
+        "target_id": "SustainabilityKeyPerformanceIndicator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isCharacterizedBy",
+                "SustainabilityKeyPerformanceIndicator"
+            ]
+        }
+    },
+    {
+        "source_id": "SustainabilityAndBusinessStrategy",
+        "target_id": "BusinessStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SustainabilityAndBusinessStrategy",
+        "target_id": "SustainabilityBusinessObjective",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasObjective",
+                "SustainabilityBusinessObjective"
+            ]
+        }
+    },
+    {
+        "source_id": "SustainabilityPerformanceTargetIdentifier",
+        "target_id": "SustainabilityPerformanceTarget",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "SustainabilityPerformanceTarget"
+            ]
+        }
+    },
+    {
+        "source_id": "SustainabilityPerformanceTargetIdentifier",
+        "target_id": "ContextualIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SustainabilityBusinessObjective",
+        "target_id": "BusinessObjective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TargetIndicatorValue",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SustainabilityStructuringAgent",
+        "target_id": "SyndicateMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransitionProject",
+        "target_id": "TransitionUseOfProceedsProvision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isGovernedBy",
+                "TransitionUseOfProceedsProvision"
+            ]
+        }
+    },
+    {
+        "source_id": "TransitionProject",
+        "target_id": "EnvironmentalProject",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

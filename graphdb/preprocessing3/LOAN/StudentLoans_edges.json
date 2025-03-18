@@ -1,0 +1,26 @@
+[
+    {
+        "source_id": "PrivateStudentLoan",
+        "target_id": "RegulatedStudentLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivateStudentLoan",
+        "target_id": "StudentLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StudentLoan",
+        "target_id": "Loan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegulatedStudentLoan",
+        "target_id": "StudentLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

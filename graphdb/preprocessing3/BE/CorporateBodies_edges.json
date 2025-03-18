@@ -1,0 +1,71 @@
+[
+    {
+        "source_id": "IncorporationGuarantee",
+        "target_id": "Constitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForProfitCorporation",
+        "target_id": "Corporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommonInterestDevelopmentCorporation",
+        "target_id": "NotForProfitCorporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotForProfitCorporation",
+        "target_id": "Corporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotForProfitCorporation",
+        "target_id": "NotForProfitOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StockCorporation",
+        "target_id": "Corporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Corporation",
+        "target_id": "InstrumentOfIncorporation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isConstitutedBy",
+                "InstrumentOfIncorporation"
+            ]
+        }
+    },
+    {
+        "source_id": "Corporation",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BenefitCorporation",
+        "target_id": "NotForProfitCorporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InstrumentOfIncorporation",
+        "target_id": "Constitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

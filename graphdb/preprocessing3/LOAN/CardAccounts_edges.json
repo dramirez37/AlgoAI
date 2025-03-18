@@ -1,0 +1,818 @@
+[
+    {
+        "source_id": "PaymentCardAgreement",
+        "target_id": "CardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "CardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentCardAgreement",
+        "target_id": "PaymentCard",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEvidencedBy",
+                "PaymentCard"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentCardAgreement",
+        "target_id": "AccountSpecificServiceAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentCardAgreement",
+        "target_id": "Cardholder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractParty",
+                "Cardholder"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentCardAgreement",
+        "target_id": "IssuingFinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractParty",
+                "IssuingFinancialInstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentCardAgreement",
+        "target_id": "CreditAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommercialCreditCardAgreement",
+        "target_id": "CreditCardAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CardProduct",
+        "target_id": "CreditCardNetwork",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCreditCardNetwork",
+                "CreditCardNetwork"
+            ]
+        }
+    },
+    {
+        "source_id": "CardProduct",
+        "target_id": "FinancialProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CardProduct",
+        "target_id": "CardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isExemplifiedBy",
+                "CardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardAccount",
+        "target_id": "CreditCardProduct",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "exemplifies",
+                "CreditCardProduct"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardAccount",
+        "target_id": "CardAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditCardAccount",
+        "target_id": "CreditCard",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isSignifiedBy",
+                "CreditCard"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardAccount",
+        "target_id": "CreditCardAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "CreditCardAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardAccount",
+        "target_id": "LoanOrCreditAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Cardholder",
+        "target_id": "CardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "CardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "Cardholder",
+        "target_id": "CardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "holds",
+                "CardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "Cardholder",
+        "target_id": "CardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "owns",
+                "CardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "Cardholder",
+        "target_id": "CustomerAccountHolder",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerCreditCardAgreement",
+        "target_id": "CreditCardAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerCreditCardAgreement",
+        "target_id": "UnsecuredConsumerLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CardValidationCode2",
+        "target_id": "ThreeDigitVerificationCodeValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebitCardAccount",
+        "target_id": "DebitCard",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isSignifiedBy",
+                "DebitCard"
+            ]
+        }
+    },
+    {
+        "source_id": "DebitCardAccount",
+        "target_id": "CardAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebitCardAccount",
+        "target_id": "DebitCardProduct",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "exemplifies",
+                "DebitCardProduct"
+            ]
+        }
+    },
+    {
+        "source_id": "CardAccount",
+        "target_id": "Cardholder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPrimaryAccountHolder",
+                "Cardholder"
+            ]
+        }
+    },
+    {
+        "source_id": "CardAccount",
+        "target_id": "PaymentCard",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isSignifiedBy",
+                "PaymentCard"
+            ]
+        }
+    },
+    {
+        "source_id": "CardAccount",
+        "target_id": "CardProduct",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "exemplifies",
+                "CardProduct"
+            ]
+        }
+    },
+    {
+        "source_id": "CardAccount",
+        "target_id": "PrimaryCardAccountNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "PrimaryCardAccountNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "CardAccount",
+        "target_id": "PaymentCardAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "PaymentCardAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "CardAccount",
+        "target_id": "CustomerAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CardAccount",
+        "target_id": "CustomerAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isLinkedToAccount",
+                "CustomerAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "SmartCard",
+        "target_id": "PaymentCard",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ThreeDigitVerificationCodeValue",
+        "target_id": "CardVerificationCodeValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebitCard",
+        "target_id": "DebitCardProduct",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "DebitCardProduct"
+            ]
+        }
+    },
+    {
+        "source_id": "DebitCard",
+        "target_id": "DebitCardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isEvidenceFor",
+                "DebitCardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "DebitCard",
+        "target_id": "PaymentCard",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditCardProduct",
+        "target_id": "CreditCard",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "CreditCard"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardProduct",
+        "target_id": "CreditCardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isExemplifiedBy",
+                "CreditCardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardProduct",
+        "target_id": "CreditCardNetwork",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCreditCardNetwork",
+                "CreditCardNetwork"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardProduct",
+        "target_id": "CardProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditCardAgreement",
+        "target_id": "IssuingFinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasLender",
+                "IssuingFinancialInstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardAgreement",
+        "target_id": "CommittedCreditFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditCardAgreement",
+        "target_id": "CreditCard",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEvidencedBy",
+                "CreditCard"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardAgreement",
+        "target_id": "PaymentCardAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditCardAgreement",
+        "target_id": "CreditCardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "CreditCardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardAgreement",
+        "target_id": "Cardholder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasBorrower",
+                "Cardholder"
+            ]
+        }
+    },
+    {
+        "source_id": "CardAuthenticationValue",
+        "target_id": "MagneticStripeVerificationCodeValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CardIdentificationNumber",
+        "target_id": "ThreeDigitVerificationCodeValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebitCardProduct",
+        "target_id": "DebitCardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isExemplifiedBy",
+                "DebitCardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "DebitCardProduct",
+        "target_id": "DebitCard",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "DebitCard"
+            ]
+        }
+    },
+    {
+        "source_id": "DebitCardProduct",
+        "target_id": "CardProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditCard",
+        "target_id": "CreditCardProduct",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "CreditCardProduct"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCard",
+        "target_id": "CreditCardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isEvidenceFor",
+                "CreditCardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCard",
+        "target_id": "PaymentCard",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentCard",
+        "target_id": "LegalDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentCard",
+        "target_id": "PrimaryCardAccountNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPrimaryAccountNumber",
+                "PrimaryCardAccountNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentCard",
+        "target_id": "CardVerificationCodeValue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCardVerificationCode",
+                "CardVerificationCodeValue"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentCard",
+        "target_id": "CardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEvidenceFor",
+                "CardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentCard",
+        "target_id": "CardExpirationDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasExpirationDate",
+                "CardExpirationDate"
+            ]
+        }
+    },
+    {
+        "source_id": "CardSecurityCode",
+        "target_id": "MagneticStripeVerificationCodeValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditCardNetwork",
+        "target_id": "CardProduct",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "CardProduct"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardNetwork",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuingFinancialInstitution",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuingFinancialInstitution",
+        "target_id": "Issuer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CardVerificationCodeValue",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CardVerificationCodeValue",
+        "target_id": "PaymentCard",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "PaymentCard"
+            ]
+        }
+    },
+    {
+        "source_id": "CardValidationCode",
+        "target_id": "MagneticStripeVerificationCodeValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MagneticStripeVerificationCodeValue",
+        "target_id": "CardVerificationCodeValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CardExpirationDate",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CardVerificationValue2",
+        "target_id": "ThreeDigitVerificationCodeValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrimaryCardAccountNumber",
+        "target_id": "AccountIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrimaryCardAccountNumber",
+        "target_id": "CardAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "CardAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "CardVerificationValue",
+        "target_id": "MagneticStripeVerificationCodeValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CardAuthenticationValue2",
+        "target_id": "ThreeDigitVerificationCodeValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

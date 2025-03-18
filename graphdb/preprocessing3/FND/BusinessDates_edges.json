@@ -1,0 +1,104 @@
+[
+    {
+        "source_id": "BusinessDayConvention",
+        "target_id": "Convention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CalculatedDate",
+        "target_id": "BusinessDayAdjustment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasBusinessDayAdjustment",
+                "BusinessDayAdjustment"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessDayAdjustment",
+        "target_id": "Convention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessDayAdjustment",
+        "target_id": "BusinessDayConvention",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasBusinessDayConvention",
+                "BusinessDayConvention"
+            ]
+        }
+    },
+    {
+        "source_id": "RegularSchedule",
+        "target_id": "BusinessDayAdjustment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasBusinessDayAdjustment",
+                "BusinessDayAdjustment"
+            ]
+        }
+    },
+    {
+        "source_id": "DayOfWeek",
+        "target_id": "BusinessRecurrenceInterval",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessRecurrenceInterval",
+        "target_id": "RecurrenceInterval",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessRecurrenceInterval",
+        "target_id": "BusinessRecurrenceIntervalConvention",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasBusinessRecurrenceIntervalConvention",
+                "BusinessRecurrenceIntervalConvention"
+            ]
+        }
+    },
+    {
+        "source_id": "EndOfMonth",
+        "target_id": "BusinessRecurrenceInterval",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessRecurrenceIntervalConvention",
+        "target_id": "Convention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DayOfMonth",
+        "target_id": "BusinessRecurrenceInterval",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

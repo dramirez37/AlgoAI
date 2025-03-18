@@ -1,0 +1,183 @@
+[
+    {
+        "source_id": "ReferenceInterestRate",
+        "target_id": "InterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReferenceInterestRate",
+        "target_id": "MarketRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReferenceInterestRate",
+        "target_id": "InterestRateBenchmark",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasQuantityKind",
+                "InterestRateBenchmark"
+            ]
+        }
+    },
+    {
+        "source_id": "SpecificProviderInterestRateBenchmark",
+        "target_id": "InterestRateBenchmark",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateAuthority",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateAuthority",
+        "target_id": "Publisher",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateAuthority",
+        "target_id": "ReferenceInterestRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "produces",
+                "ReferenceInterestRate"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestRateBenchmarkClassificationScheme",
+        "target_id": "ClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateBenchmarkClassificationScheme",
+        "target_id": "InterestRateBenchmark",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "InterestRateBenchmark"
+            ]
+        }
+    },
+    {
+        "source_id": "OvernightRate",
+        "target_id": "hasTenor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasTenor"
+            ]
+        }
+    },
+    {
+        "source_id": "OvernightRate",
+        "target_id": "ReferenceInterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateBenchmark",
+        "target_id": "ReferenceInterestRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "ReferenceInterestRate"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestRateBenchmark",
+        "target_id": "QuantityKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateBenchmark",
+        "target_id": "Publisher",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isProducedBy",
+                "Publisher"
+            ]
+        }
+    },
+    {
+        "source_id": "BaseRate",
+        "target_id": "ReferenceInterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatingInterestRate",
+        "target_id": "ReferenceInterestRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isBasedOn",
+                "ReferenceInterestRate"
+            ]
+        }
+    },
+    {
+        "source_id": "InterbankBidRate",
+        "target_id": "InterbankRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterbankOfferedRate",
+        "target_id": "InterbankRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterbankRate",
+        "target_id": "ReferenceInterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterbankMidRate",
+        "target_id": "InterbankRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

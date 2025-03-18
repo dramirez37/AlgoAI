@@ -1,0 +1,207 @@
+[
+    {
+        "source_id": "AmericanDepositaryReceipt",
+        "target_id": "AmericanDepositaryReceiptLevel",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "AmericanDepositaryReceiptLevel"
+            ]
+        }
+    },
+    {
+        "source_id": "AmericanDepositaryReceipt",
+        "target_id": "DepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivatelyPlacedDepositaryReceipt",
+        "target_id": "SponsoredDepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndianDepositoryReceipt",
+        "target_id": "GlobalDepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SponsoredDepositaryReceipt",
+        "target_id": "AmericanDepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AmericanDepositaryReceiptLevelScheme",
+        "target_id": "AmericanDepositaryReceiptLevel",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "AmericanDepositaryReceiptLevel"
+            ]
+        }
+    },
+    {
+        "source_id": "AmericanDepositaryReceiptLevelScheme",
+        "target_id": "FinancialInstrumentClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DepositaryReceipt",
+        "target_id": "hasMultiplier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasMultiplier"
+            ]
+        }
+    },
+    {
+        "source_id": "DepositaryReceipt",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasTradedSecurity",
+                "Security"
+            ]
+        }
+    },
+    {
+        "source_id": "DepositaryReceipt",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LuxembourgDepositaryReceipt",
+        "target_id": "GlobalDepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ChineseDepositaryReceipt",
+        "target_id": "GlobalDepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AmericanDepositaryReceiptLevel",
+        "target_id": "AmericanDepositaryReceiptLevelScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "AmericanDepositaryReceiptLevelScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "AmericanDepositaryReceiptLevel",
+        "target_id": "FinancialInstrumentClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AmericanDepositaryReceiptLevel",
+        "target_id": "AmericanDepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "AmericanDepositaryReceipt"
+            ]
+        }
+    },
+    {
+        "source_id": "JapaneseDepositaryReceipt",
+        "target_id": "GlobalDepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OffshoreDepositaryReceipt",
+        "target_id": "SponsoredDepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ParticipatoryNote",
+        "target_id": "DepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ParticipatoryNote",
+        "target_id": "TradableDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ParticipatoryNote",
+        "target_id": "TradableDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasTradedSecurity",
+                "TradableDebtInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "EuropeanDepositaryReceipt",
+        "target_id": "GlobalDepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnsponsoredDepositaryReceipt",
+        "target_id": "AmericanDepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HongKongDepositaryReceipt",
+        "target_id": "GlobalDepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GlobalDepositaryReceipt",
+        "target_id": "DepositaryReceipt",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,166 @@
+[
+    {
+        "source_id": "Listing",
+        "target_id": "hasListingDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasListingDate"
+            ]
+        }
+    },
+    {
+        "source_id": "Listing",
+        "target_id": "hasDelistingDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasDelistingDate"
+            ]
+        }
+    },
+    {
+        "source_id": "ListingService",
+        "target_id": "Listing",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "provides",
+                "Listing"
+            ]
+        }
+    },
+    {
+        "source_id": "ListingService",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isProvisionedBy",
+                "Exchange"
+            ]
+        }
+    },
+    {
+        "source_id": "ListingService",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isProvidedBy",
+                "Exchange"
+            ]
+        }
+    },
+    {
+        "source_id": "ListingService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ListedSecurity",
+        "target_id": "RegisteredSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ListedSecurity",
+        "target_id": "Listing",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isListedVia",
+                "Listing"
+            ]
+        }
+    },
+    {
+        "source_id": "ListedSecurity",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasHomeExchange",
+                "Exchange"
+            ]
+        }
+    },
+    {
+        "source_id": "ListedSecurity",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOriginalPlaceOfListing",
+                "Exchange"
+            ]
+        }
+    },
+    {
+        "source_id": "RegisteredSecurity",
+        "target_id": "RegisteredSecurity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIssuedInForm",
+                "Nde1c688a482a43e88aa5920f2c51c123"
+            ]
+        }
+    },
+    {
+        "source_id": "RegisteredSecurity",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Exchange",
+        "target_id": "ListingService",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "ListingService"
+            ]
+        }
+    }
+]

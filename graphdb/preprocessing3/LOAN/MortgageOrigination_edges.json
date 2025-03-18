@@ -1,0 +1,221 @@
+[
+    {
+        "source_id": "CashOutStatus",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MortgageIndemnityGuarantee",
+        "target_id": "InsuranceBackedGuaranty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MortgageIndemnityGuarantee",
+        "target_id": "MortgageIndemnityInsurancePolicy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isExemplifiedBy",
+                "MortgageIndemnityInsurancePolicy"
+            ]
+        }
+    },
+    {
+        "source_id": "MortgageIndemnityGuarantee",
+        "target_id": "MortgageIndemnityGuarantor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isGuaranteedBy",
+                "MortgageIndemnityGuarantor"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanSecuredByRealEstate",
+        "target_id": "MortgageIndemnityGuarantor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasGuarantor",
+                "MortgageIndemnityGuarantor"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanSecuredByRealEstate",
+        "target_id": "LoanSecuredByRealEstate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOriginatingServiceProvider",
+                "N102d8bd150224d98aa02f0411e863634"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanSecuredByRealEstate",
+        "target_id": "LoanSecuredByRealEstate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "assumes",
+                "LoanSecuredByRealEstate"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanSecuredByRealEstate",
+        "target_id": "LoanSecuredByRealEstate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOriginatorPerson",
+                "N48c60d88c41c425fa3993b464c02664b"
+            ]
+        }
+    },
+    {
+        "source_id": "DwellingCapacity",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AmortizationType",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MortgageLoanPurpose",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MortgageIndemnityGuarantor",
+        "target_id": "Guarantor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MortgageIndemnityGuarantor",
+        "target_id": "Insurer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PropertyUsage",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ManufacturedHomeLegalClassification",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ChargeCategory",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NMLSR-ID",
+        "target_id": "LicenseIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MortgageIndemnityInsurancePolicy",
+        "target_id": "InsurancePolicy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MortgageIndemnityInsurancePolicy",
+        "target_id": "MortgageIndemnityGuarantee",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEvidenceFor",
+                "MortgageIndemnityGuarantee"
+            ]
+        }
+    },
+    {
+        "source_id": "GovernmentSponsoredLoan",
+        "target_id": "LoanSecuredByRealEstate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AutomatedUnderwritingSystem",
+        "target_id": "AutomatedSystem",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RealProperty",
+        "target_id": "ManufacturedHomeLegalClassification",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "ManufacturedHomeLegalClassification"
+            ]
+        }
+    },
+    {
+        "source_id": "RealProperty",
+        "target_id": "DwellingCapacity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "DwellingCapacity"
+            ]
+        }
+    }
+]

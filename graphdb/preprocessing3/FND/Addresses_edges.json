@@ -1,0 +1,565 @@
+[
+    {
+        "source_id": "PhysicalAddress",
+        "target_id": "Address",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PhysicalAddress",
+        "target_id": "Postcode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasIndividualPostcode",
+                "Postcode"
+            ]
+        }
+    },
+    {
+        "source_id": "PhysicalAddress",
+        "target_id": "hasPostalCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasPostalCode"
+            ]
+        }
+    },
+    {
+        "source_id": "PhysicalAddressingScheme",
+        "target_id": "AddressingScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Postcode",
+        "target_id": "PostCodeArea",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "PostCodeArea"
+            ]
+        }
+    },
+    {
+        "source_id": "Postcode",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Postcode",
+        "target_id": "GeographicRegionIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PostOfficeBoxAddress",
+        "target_id": "PhysicalAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PostOfficeBoxAddress",
+        "target_id": "PostOfficeBox",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PostOfficeBox"
+            ]
+        }
+    },
+    {
+        "source_id": "StreetSuffix",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StreetSuffix",
+        "target_id": "AddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecondaryUnitIndicator",
+        "target_id": "AddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConventionalStreetAddress",
+        "target_id": "hasAddressLine3",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasAddressLine3"
+            ]
+        }
+    },
+    {
+        "source_id": "ConventionalStreetAddress",
+        "target_id": "hasAddressLine1",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasAddressLine1"
+            ]
+        }
+    },
+    {
+        "source_id": "ConventionalStreetAddress",
+        "target_id": "StreetAddress",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasStreetAddress",
+                "StreetAddress"
+            ]
+        }
+    },
+    {
+        "source_id": "ConventionalStreetAddress",
+        "target_id": "hasAddressLine2",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasAddressLine2"
+            ]
+        }
+    },
+    {
+        "source_id": "ConventionalStreetAddress",
+        "target_id": "PhysicalAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GeographicDirectionalSymbol",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegionSpecificIdentifier",
+        "target_id": "GeographicRegionIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StreetAddress",
+        "target_id": "SecondaryUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasSecondaryUnit",
+                "SecondaryUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "StreetAddress",
+        "target_id": "PrimaryAddressNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPrimaryAddressNumber",
+                "PrimaryAddressNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "StreetAddress",
+        "target_id": "StreetSuffix",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasStreetSuffix",
+                "StreetSuffix"
+            ]
+        }
+    },
+    {
+        "source_id": "StreetAddress",
+        "target_id": "PredirectionalSymbol",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPredirectionalSymbol",
+                "PredirectionalSymbol"
+            ]
+        }
+    },
+    {
+        "source_id": "StreetAddress",
+        "target_id": "AddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StreetAddress",
+        "target_id": "StreetName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStreetName",
+                "StreetName"
+            ]
+        }
+    },
+    {
+        "source_id": "StreetAddress",
+        "target_id": "PostdirectionalSymbol",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPostdirectionalSymbol",
+                "PostdirectionalSymbol"
+            ]
+        }
+    },
+    {
+        "source_id": "SupplementalAddressUnit",
+        "target_id": "AddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Address",
+        "target_id": "Index",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Address",
+        "target_id": "AddressingScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "AddressingScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "AddressComponent",
+        "target_id": "Aspect",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PostOfficeBox",
+        "target_id": "PostOfficeBoxDesignator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PostOfficeBoxDesignator"
+            ]
+        }
+    },
+    {
+        "source_id": "PostOfficeBox",
+        "target_id": "SupplementalAddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AddressingScheme",
+        "target_id": "IndexingScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AddressingScheme",
+        "target_id": "Address",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "Address"
+            ]
+        }
+    },
+    {
+        "source_id": "PhysicalAddressIdentifier",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PhysicalAddressIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PhysicalAddressIdentifier",
+        "target_id": "PhysicalAddress",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "PhysicalAddress"
+            ]
+        }
+    },
+    {
+        "source_id": "PhysicalAddressIdentifier",
+        "target_id": "PhysicalAddressingScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "PhysicalAddressingScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "PostCodeArea",
+        "target_id": "GeographicRegion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PostdirectionalSymbol",
+        "target_id": "GeographicDirectionalSymbol",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SupplementalAddressComponent",
+        "target_id": "SupplementalAddressUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "SupplementalAddressUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "SupplementalAddressComponent",
+        "target_id": "AddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SupplementalAddressComponent",
+        "target_id": "SupplementalAddressDesignator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "SupplementalAddressDesignator"
+            ]
+        }
+    },
+    {
+        "source_id": "StreetName",
+        "target_id": "AddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StreetName",
+        "target_id": "Name",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrimaryAddressNumber",
+        "target_id": "AddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PostOfficeBoxDesignator",
+        "target_id": "SupplementalAddressDesignator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StructureName",
+        "target_id": "AddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StructureName",
+        "target_id": "Name",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecondaryUnit",
+        "target_id": "SecondaryUnitDesignator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "SecondaryUnitDesignator"
+            ]
+        }
+    },
+    {
+        "source_id": "SecondaryUnit",
+        "target_id": "SecondaryUnitIndicator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "SecondaryUnitIndicator"
+            ]
+        }
+    },
+    {
+        "source_id": "SecondaryUnit",
+        "target_id": "AddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SupplementalAddressDesignator",
+        "target_id": "SupplementalAddressComponent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "SupplementalAddressComponent"
+            ]
+        }
+    },
+    {
+        "source_id": "SupplementalAddressDesignator",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VirtualAddress",
+        "target_id": "Address",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PredirectionalSymbol",
+        "target_id": "GeographicDirectionalSymbol",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecondaryUnitDesignator",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecondaryUnitDesignator",
+        "target_id": "requiresSecondaryUnitRange",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "requiresSecondaryUnitRange"
+            ]
+        }
+    }
+]

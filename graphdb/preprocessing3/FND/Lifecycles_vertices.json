@@ -1,0 +1,104 @@
+[
+    {
+        "id": "MaturityLevel",
+        "type": "Class",
+        "name": "MaturityLevel"
+    },
+    {
+        "id": "LifecycleStage",
+        "type": "Class",
+        "name": "LifecycleStage",
+        "label": "lifecycle stage",
+        "definition": "phase in a lifecycle"
+    },
+    {
+        "id": "Lifecycle",
+        "type": "Class",
+        "name": "Lifecycle",
+        "label": "lifecycle",
+        "definition": "arrangement that compares the cyclical nature of families, organizations, processes, products, marketing, and order management, portfolio management or other systems with the cradle to grave life stages (birth, growth, maturity, decay, and death) of living organisms"
+    },
+    {
+        "id": "Arrangement",
+        "type": "Entity",
+        "name": "Arrangement"
+    },
+    {
+        "id": "LifecycleStageOccurrence",
+        "type": "Class",
+        "name": "LifecycleStageOccurrence",
+        "definition": "realization of a phase in a given lifecycle",
+        "label": "lifecycle stage occurrence"
+    },
+    {
+        "id": "Occurrence",
+        "type": "Entity",
+        "name": "Occurrence"
+    },
+    {
+        "id": "LifecycleEvent",
+        "type": "Class",
+        "name": "LifecycleEvent",
+        "definition": "kind of event that occurs during one or more stages of a lifecycle",
+        "label": "lifecycle event"
+    },
+    {
+        "id": "OccurrenceKind",
+        "type": "Entity",
+        "name": "OccurrenceKind"
+    },
+    {
+        "id": "LifecycleOccurrence",
+        "type": "Class",
+        "name": "LifecycleOccurrence",
+        "label": "lifecycle occurrence",
+        "definition": "realization of a lifecycle"
+    },
+    {
+        "id": "LifecycleEventOccurrence",
+        "type": "Class",
+        "name": "LifecycleEventOccurrence",
+        "definition": "realization of an event in a stage of a lifecycle",
+        "label": "lifecycle event occurrence"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "LifecycleStatus",
+        "type": "Class",
+        "name": "LifecycleStatus",
+        "definition": "classifier indicating the position or state of something at a particular point in its life-cycle",
+        "label": "lifecycle status"
+    },
+    {
+        "id": "isStageOf",
+        "type": "ObjectProperty",
+        "name": "isStageOf",
+        "label": "is stage of",
+        "definition": "relates a stage in a product or trade lifecycle or process to the lifecycle or process that it is a stage of"
+    },
+    {
+        "id": "isLifecycleOf",
+        "type": "ObjectProperty",
+        "name": "isLifecycleOf",
+        "definition": "relates a lifecycle to something it characterizes",
+        "label": "is lifecycle of"
+    },
+    {
+        "id": "hasStage",
+        "type": "ObjectProperty",
+        "name": "hasStage",
+        "definition": "relates something, such as a product or trade lifecycle or related process, to a phase or stage in that lifecycle",
+        "label": "has stage"
+    },
+    {
+        "id": "hasLifecycle",
+        "type": "ObjectProperty",
+        "name": "hasLifecycle",
+        "label": "has lifecycle",
+        "definition": "relates something, such as a product, trade, or related process, to a lifecycle that characterizes it"
+    }
+]

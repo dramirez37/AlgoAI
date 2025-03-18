@@ -1,0 +1,364 @@
+[
+    {
+        "id": "ExchangeTradedWarrant",
+        "type": "Class",
+        "name": "ExchangeTradedWarrant",
+        "definition": "warrant that is listed on a securities exchange",
+        "label": "exchange-traded warrant"
+    },
+    {
+        "id": "PublicWarrant",
+        "type": "Class",
+        "name": "PublicWarrant",
+        "label": "public warrant",
+        "definition": "warrant that may be traded over the counter (OTC) or through an exchange"
+    },
+    {
+        "id": "ListedSecurity",
+        "type": "Entity",
+        "name": "ListedSecurity"
+    },
+    {
+        "id": "CallWarrant",
+        "type": "Class",
+        "name": "CallWarrant",
+        "definition": "warrant giving the buyer (holder) the right, but not the obligation, to acquire specific underlying assets during a specified period at a specified price",
+        "label": "call warrant"
+    },
+    {
+        "id": "Warrant",
+        "type": "Class",
+        "name": "Warrant",
+        "definition": "entitlement that permits the holder to purchase a specified amount of a financial instrument, commodity, currency or other asset during a specified period at a specified price",
+        "explanatoryNote": "Warrants are for any kind of instrument. Warrants may be privately issued and may not necessarily be traded on an exchange.",
+        "label": "warrant"
+    },
+    {
+        "id": "CompanyWarrant",
+        "type": "Class",
+        "name": "CompanyWarrant",
+        "definition": "equity warrant to purchase shares of capital stock issued by the corporation whose equity is the underlying asset",
+        "label": "company warrant"
+    },
+    {
+        "id": "EquityWarrant",
+        "type": "Class",
+        "name": "EquityWarrant",
+        "definition": "warrant that permits the holder to acquire a specified amount of an equity instrument during a specified period at a specified price",
+        "label": "equity warrant"
+    },
+    {
+        "id": "TraditionalWarrant",
+        "type": "Class",
+        "name": "TraditionalWarrant",
+        "definition": "warrant that gives the holder the right, but not the obligation, to buy (call warrant) or to sell (put warrant) an underlying asset at a specified price (the strike or exercise price) by a predetermined date, issued by the issuer of the underlying instrument",
+        "label": "traditional warrant"
+    },
+    {
+        "id": "SubscriptionRight",
+        "type": "Class",
+        "name": "SubscriptionRight",
+        "explanatoryNote": "A subscription rights issue increases the number of shares in the market, thus leading to a dilution in each share's value.",
+        "label": "subscription right",
+        "definition": "privileges allotted to existing security holders, entitling them to subscribe to new securities at a price normally lower than the prevailing market price"
+    },
+    {
+        "id": "Entitlement",
+        "type": "Class",
+        "name": "Entitlement"
+    },
+    {
+        "id": "PreferredShareSubscriptionRight",
+        "type": "Class",
+        "name": "PreferredShareSubscriptionRight",
+        "definition": "subscription right entitling existing preferred shareholders to subscribe to new securities at a price normally lower than the prevailing market price",
+        "label": "preferred share subscription right"
+    },
+    {
+        "id": "CurrencyWarrant",
+        "type": "Class",
+        "name": "CurrencyWarrant",
+        "label": "currency warrant",
+        "definition": "warrant that permits the holder to acquire a specified amount in a certain currency at a specified exchange rate during a specified period"
+    },
+    {
+        "id": "CurrencyDerivative",
+        "type": "Entity",
+        "name": "CurrencyDerivative"
+    },
+    {
+        "id": "CombinedInstrumentsPurchaseRight",
+        "type": "Class",
+        "name": "CombinedInstrumentsPurchaseRight",
+        "definition": "purchase right that gives a prospective acquiree's holders of multiple securities the right to buy securities of the firm or securities of anyone who acquires the firm at a deep discount to their fair market value",
+        "label": "combined instruments purchase right"
+    },
+    {
+        "id": "PurchaseRight",
+        "type": "Class",
+        "name": "PurchaseRight",
+        "definition": "anti-takeover device that gives a prospective acquiree's shareholders the right to buy shares of the firm or shares of anyone who acquires the firm at a deep discount to their fair market value",
+        "explanatoryNote": "The underlying is usually shares but this not necessarily the case. Also known as \"Poison Pill\".",
+        "label": "purchase right"
+    },
+    {
+        "id": "BasketWarrant",
+        "type": "Class",
+        "name": "BasketWarrant",
+        "definition": "warrant that permits the holder to acquire a package or group of assets at a specified price during a specified period",
+        "label": "basket warrant"
+    },
+    {
+        "id": "CommodityWarrant",
+        "type": "Class",
+        "name": "CommodityWarrant",
+        "definition": "warrant that permits the holder to acquire a specified amount of a commodity during a specified period at a specified price",
+        "label": "commodity warrant"
+    },
+    {
+        "id": "CommodityDerivative",
+        "type": "Entity",
+        "name": "CommodityDerivative"
+    },
+    {
+        "id": "AllotmentRightFormula",
+        "type": "Class",
+        "name": "AllotmentRightFormula",
+        "explanatoryNote": "Note that there may be a combination of a rule expressed in text as well as an expression or more complex formula embedded in a contract for making this determination.",
+        "definition": "rule applied to calculate the number of securities for an allotment right, typically based on the number of these instruments that the holder holds",
+        "label": "allotment right formula"
+    },
+    {
+        "id": "Expression",
+        "type": "Entity",
+        "name": "Expression"
+    },
+    {
+        "id": "PrivateWarrant",
+        "type": "Class",
+        "name": "PrivateWarrant",
+        "label": "private warrant",
+        "definition": "warrant that is not tradable"
+    },
+    {
+        "id": "NonNegotiableSecurity",
+        "type": "Entity",
+        "name": "NonNegotiableSecurity"
+    },
+    {
+        "id": "PerpetualWarrant",
+        "type": "Class",
+        "name": "PerpetualWarrant",
+        "explanatoryNote": "The strike price, in the case of a perpetual warrant, is usually higher than the market value of the underlying asset at the time of issue.",
+        "definition": "warrant without an expiration date, giving the holder the right, but not the obligation, to buy (call warrant) or to sell (put warrant) an underlying asset at a certain strike price",
+        "label": "perpetual warrant"
+    },
+    {
+        "id": "BondSubscriptionRight",
+        "type": "Class",
+        "name": "BondSubscriptionRight",
+        "definition": "subscription right entitling existing bond holders to subscribe to new securities at a price normally lower than the prevailing market price",
+        "label": "bond subscription right"
+    },
+    {
+        "id": "CommonShareSubscriptionRight",
+        "type": "Class",
+        "name": "CommonShareSubscriptionRight",
+        "label": "common share subscription right",
+        "definition": "subscription right entitling existing common shareholders to subscribe to new securities at a price normally lower than the prevailing market price"
+    },
+    {
+        "id": "MiniFutureCertificate",
+        "type": "Class",
+        "name": "MiniFutureCertificate",
+        "definition": "entitlement that combines the structure of an open-end certificate with a leverage option with no fixed term, making leverage available without a term restriction, and whose payoff depends on whether or not the underlying asset has reached or exceeded a predetermined price",
+        "label": "mini-future certificate",
+        "explanatoryNote": "The price of a mini-future always corresponds to its intrinsic value, i.e. the capital outlay, plus the bid-ask spread. The financing costs associated with building up the leverage effect are offset against the capital outlay on a daily basis, thereby eliminating the need for a premium. Investors have to pay only financing costs they actually utilize. In contrast to options, factors like volatility have no influence at all on the price of mini-futures."
+    },
+    {
+        "id": "BarrierOption",
+        "type": "Entity",
+        "name": "BarrierOption"
+    },
+    {
+        "id": "SecurityBasedDerivative",
+        "type": "Entity",
+        "name": "SecurityBasedDerivative"
+    },
+    {
+        "id": "CommonConvertibleShareSubscriptionRight",
+        "type": "Class",
+        "name": "CommonConvertibleShareSubscriptionRight",
+        "definition": "subscription right entitling existing common convertible shareholders to subscribe to new securities at a price normally lower than the prevailing market price",
+        "label": "common convertible share subscription right"
+    },
+    {
+        "id": "NakedWarrant",
+        "type": "Class",
+        "name": "NakedWarrant",
+        "label": "naked warrant",
+        "definition": "warrant that gives the holder the right, but not the obligation, to buy (call warrant) or to sell (put warrant) an underlying asset at a specified price (the strike or exercise price) by a predetermined date, issued without an accompanying security by a third party that does not hold as many securities as would be required if all the warrants are exercised"
+    },
+    {
+        "id": "BarrierInstrumentBasedMiniFutureCertificate",
+        "type": "Class",
+        "name": "BarrierInstrumentBasedMiniFutureCertificate",
+        "definition": "mini-future certificate that immediately expires if the barrier instrument trading price level is breached during product lifetime",
+        "label": "barrier instrument-based mini-future certificate"
+    },
+    {
+        "id": "EquityDerivative",
+        "type": "Entity",
+        "name": "EquityDerivative"
+    },
+    {
+        "id": "CallPutWarrant",
+        "type": "Class",
+        "name": "CallPutWarrant",
+        "definition": "warrant that either does not specify call or put features, or that explicitly includes both a call and put feature",
+        "label": "call put warrant"
+    },
+    {
+        "id": "PutWarrant",
+        "type": "Class",
+        "name": "PutWarrant",
+        "definition": "warrant giving the buyer (holder) the right, but not the obligation, to sell the assets specified (i.e., acquire cash in exchange for the underlying assets) back to the issuer at a fixed price or formula, on or before a specified date",
+        "label": "put warrant"
+    },
+    {
+        "id": "PreferredSharePurchaseRight",
+        "type": "Class",
+        "name": "PreferredSharePurchaseRight",
+        "label": "preferred share purchase right",
+        "definition": "purchase right that gives a prospective acquiree's preferred shareholders the right to buy preferred shares of the firm or preferred shares of anyone who acquires the firm at a deep discount to their fair market value"
+    },
+    {
+        "id": "DebtWarrant",
+        "type": "Class",
+        "name": "DebtWarrant",
+        "label": "debt warrant",
+        "definition": "warrant that permits the holder to acquire a specified amount of a debt instrument or related debt observable a specified period at a specified price"
+    },
+    {
+        "id": "DebtInstrumentDerivative",
+        "type": "Entity",
+        "name": "DebtInstrumentDerivative"
+    },
+    {
+        "id": "ConstantLeverageCertificate",
+        "type": "Class",
+        "name": "ConstantLeverageCertificate",
+        "definition": "entitlement that combines the structure of an open-end certificate with a leverage option with no fixed term, making leverage available without a term restriction, without a knock-out barrier dependency",
+        "label": "constant leverage certificate"
+    },
+    {
+        "id": "Option",
+        "type": "Entity",
+        "name": "Option"
+    },
+    {
+        "id": "CoveredWarrant",
+        "type": "Class",
+        "name": "CoveredWarrant",
+        "explanatoryNote": "In contrast to traditional equity warrants, with covered warrants, no new issuance of common stock occurs if the warrant is exercised. The underlying shares of common stock are usually either owned by the issuer of the covered warrants or the issuer has a mechanism, such as owning equity warrants for the underlying shares, through which they can obtain the shares.",
+        "definition": "warrant that gives the holder the right, but not the obligation, to buy (call warrant) or to sell (put warrant) an underlying asset at a specified price (the strike or exercise price) by a predetermined date, issued without an accompanying security by a third party that holds as many securities as would be required if all the warrants are exercised",
+        "label": "covered warrant"
+    },
+    {
+        "id": "AllotmentRight",
+        "type": "Class",
+        "name": "AllotmentRight",
+        "explanatoryNote": "Allotment generally means the distribution of equity, particularly shares granted to a participating underwriting firm during an initial public offering (IPO).",
+        "definition": "privileges allotted to existing security holders, entitling them to receive new securities free of charge",
+        "label": "allotment right"
+    },
+    {
+        "id": "PreferredConvertibleSharePurchaseRight",
+        "type": "Class",
+        "name": "PreferredConvertibleSharePurchaseRight",
+        "definition": "purchase right that gives a prospective acquiree's preferred, convertible shareholders the right to buy preferred, convertible shares of the firm or preferred, convertible shares of anyone who acquires the firm at a deep discount to their fair market value",
+        "label": "preferred convertible share purchase right"
+    },
+    {
+        "id": "IndexWarrant",
+        "type": "Class",
+        "name": "IndexWarrant",
+        "label": "index warrant",
+        "definition": "warrant that permits the holder to acquire a specified amount based on the performance of an index during a specified period at a specified price"
+    },
+    {
+        "id": "NegotiableSecurity",
+        "type": "Entity",
+        "name": "NegotiableSecurity"
+    },
+    {
+        "id": "BondPurchaseRight",
+        "type": "Class",
+        "name": "BondPurchaseRight",
+        "label": "bond purchase right",
+        "definition": "purchase right that gives a prospective acquiree's bondholders the right to buy bonds of the firm or bonds of anyone who acquires the firm at a deep discount to their fair market value"
+    },
+    {
+        "id": "PreferredConvertibleShareSubscriptionRight",
+        "type": "Class",
+        "name": "PreferredConvertibleShareSubscriptionRight",
+        "definition": "subscription right entitling existing preferred, convertible shareholders to subscribe to new securities at a price normally lower than the prevailing market price",
+        "label": "preferred convertible share subscription right"
+    },
+    {
+        "id": "BarrierUnderlyingMiniFutureCertificate",
+        "type": "Class",
+        "name": "BarrierUnderlyingMiniFutureCertificate",
+        "label": "barrier underlying mini-future certificate",
+        "definition": "mini-future certificate that immediately expires if the barrier underlying level is breached during product lifetime"
+    },
+    {
+        "id": "CombinedInstrumentsSubscriptionRight",
+        "type": "Class",
+        "name": "CombinedInstrumentsSubscriptionRight",
+        "label": "combined instruments subscription right",
+        "definition": "subscription right entitling existing holders of multiple securities to subscribe to new securities at a price normally lower than the prevailing market price"
+    },
+    {
+        "id": "CommonConvertibleSharePurchaseRight",
+        "type": "Class",
+        "name": "CommonConvertibleSharePurchaseRight",
+        "definition": "purchase right that gives a prospective acquiree's common, convertible shareholders the right to buy common, convertible shares of the firm or common, convertible shares of anyone who acquires the firm at a deep discount to their fair market value",
+        "label": "common convertible share purchase right"
+    },
+    {
+        "id": "LongMiniFutureCertificate",
+        "type": "Class",
+        "name": "LongMiniFutureCertificate",
+        "definition": "mini-future certificate that typically entitles the holder to acquire specific underlying assets during a specified period at a specified price",
+        "label": "long mini-future certificate"
+    },
+    {
+        "id": "ShortMiniFutureCertificate",
+        "type": "Class",
+        "name": "ShortMiniFutureCertificate",
+        "definition": "mini-future certificate that entitles the holder to acquire cash in exchange for specific underlying assets",
+        "label": "short mini-future certificate"
+    },
+    {
+        "id": "CommonSharePurchaseRight",
+        "type": "Class",
+        "name": "CommonSharePurchaseRight",
+        "label": "common share purchase right",
+        "definition": "purchase right that gives a prospective acquiree's common shareholders the right to buy common shares of the firm or common shares of anyone who acquires the firm at a deep discount to their fair market value"
+    },
+    {
+        "id": "hasOversubscribeOption",
+        "type": "DatatypeProperty",
+        "name": "hasOversubscribeOption",
+        "label": "has oversubscribe option",
+        "definition": "indicates whether the holders of the rights instrument may get securities in the event that other right holders choose not to subscribe"
+    },
+    {
+        "id": "hasConversionRatio",
+        "type": "DatatypeProperty",
+        "name": "hasConversionRatio",
+        "label": "has conversion ratio",
+        "definition": "indicates the factor used to determine the number of warrants needed in order to buy or sell a specific number of securities or investment units"
+    }
+]

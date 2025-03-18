@@ -1,0 +1,214 @@
+[
+    {
+        "id": "BasketFuture",
+        "type": "Class",
+        "name": "BasketFuture",
+        "label": "basket future",
+        "definition": "futures contract whose underlying asset is a basket of securities and/or indices"
+    },
+    {
+        "id": "FinancialFuture",
+        "type": "Class",
+        "name": "FinancialFuture",
+        "label": "financial future",
+        "definition": "futures contract based on underlying assets excluding commodities"
+    },
+    {
+        "id": "EquityForward",
+        "type": "Class",
+        "name": "EquityForward",
+        "definition": "forward contract to buy or sell the underlying equity stock, equity index, basket of equity stock, equity futures contract, or equity option at a specified future date at the price specified at the outset of the contract",
+        "label": "equity forward"
+    },
+    {
+        "id": "Forward",
+        "type": "Class",
+        "name": "Forward",
+        "label": "forward",
+        "explanatoryNote": "Unlike futures contracts (which are processed through a clearing firm), forward contracts are non-standardized. Further, the two parties must bear each other's credit risk, which is not the case with a futures contract. Also, since the contracts are not exchange traded, there is no mark-to-market requirement, which allows a buyer to avoid almost all capital outflow initially (though some counterparties might set collateral requirements). The forward price makes the forward contract have no value when the contract is written. However, if the value of the underlying commodity changes, the value of the forward contract becomes positive or negative, depending on the position held. Forwards are priced in a manner similar to futures. Like in the case of a futures contract, the first step in pricing a forward is to add the spot price to the cost of carry (interest forgone, convenience yield, storage costs and interest/dividend received on the underlying). Unlike a futures contract though, the price may also include a premium for counterparty credit risk, and the fact that there is not daily marking to market process to minimize default risk. If there is no allowance for these credit risks, then the forward price will equal the futures price.",
+        "definition": "derivative instrument that is privately negotiated between parties to buy the underlier at a specified future date at the price specified in the contract"
+    },
+    {
+        "id": "BondFuture",
+        "type": "Class",
+        "name": "BondFuture",
+        "definition": "futures contract whose underlying asset is at least one bond",
+        "label": "bond future"
+    },
+    {
+        "id": "DebtInstrumentFuture",
+        "type": "Class",
+        "name": "DebtInstrumentFuture",
+        "definition": "futures contract whose underlying asset is at least one debt instrument",
+        "label": "debt instrument future"
+    },
+    {
+        "id": "DebtInstrumentDerivative",
+        "type": "Entity",
+        "name": "DebtInstrumentDerivative"
+    },
+    {
+        "id": "FutureOnOption",
+        "type": "Class",
+        "name": "FutureOnOption",
+        "definition": "futures contract whose underlying asset is at least one option contract",
+        "label": "future on option"
+    },
+    {
+        "id": "FutureOnSwap",
+        "type": "Class",
+        "name": "FutureOnSwap",
+        "definition": "futures contract whose underlying asset is at least one swap contract",
+        "label": "future on swap"
+    },
+    {
+        "id": "StandardizedFuturesListingTerms",
+        "type": "Class",
+        "name": "StandardizedFuturesListingTerms",
+        "label": "standardized futures listing terms",
+        "definition": "contract terms established by a derivatives exchange that apply to any listing of a futures contract on that exchange.",
+        "explanatoryNote": "Individual listings will take on these standard terms but they are not contractual terms of the futures contract, they are facts about that listing on that exchange."
+    },
+    {
+        "id": "DerivativeTerms",
+        "type": "Entity",
+        "name": "DerivativeTerms"
+    },
+    {
+        "id": "StandardizedTerms",
+        "type": "Entity",
+        "name": "StandardizedTerms"
+    },
+    {
+        "id": "MoneyMarketFuture",
+        "type": "Class",
+        "name": "MoneyMarketFuture",
+        "label": "money market future",
+        "definition": "futures contract with a money market instrument as the underlying asset"
+    },
+    {
+        "id": "FutureOnFuture",
+        "type": "Class",
+        "name": "FutureOnFuture",
+        "label": "future on future",
+        "definition": "futures contract whose underlying asset is at least one (other) futures contract"
+    },
+    {
+        "id": "InterestRateFuture",
+        "type": "Class",
+        "name": "InterestRateFuture",
+        "label": "interest rate future",
+        "definition": "futures contract with an interest-bearing instrument as the underlying asset",
+        "explanatoryNote": "Most interest rate futures that trade on American exchanges use U.S. Treasury securities, such as Treasury bills, Treasury bonds, certificates of deposit, Treasury notes, and Ginnie Mae securities, as the underlying asset."
+    },
+    {
+        "id": "DerivativeInstrument",
+        "type": "Entity",
+        "name": "DerivativeInstrument"
+    },
+    {
+        "id": "OverTheCounterDerivativeInstrument",
+        "type": "Entity",
+        "name": "OverTheCounterDerivativeInstrument"
+    },
+    {
+        "id": "DividendFuture",
+        "type": "Class",
+        "name": "DividendFuture",
+        "definition": "futures contract whose underlying asset is at least one stock dividend",
+        "label": "dividend future"
+    },
+    {
+        "id": "EquityDerivative",
+        "type": "Entity",
+        "name": "EquityDerivative"
+    },
+    {
+        "id": "StandardizedFuturesTerms",
+        "type": "Class",
+        "name": "StandardizedFuturesTerms",
+        "label": "standardized futures terms",
+        "explanatoryNote": "Standard symbology for the commodities are standardized by the exchanges as part of their standard contracts, for example trading in standard bushels, commonly defined kinds of oil and so on. These give the units in which lot sizes are described and defined.",
+        "definition": "contract terms established by a derivatives exchange that apply to any futures contract traded on that exchange"
+    },
+    {
+        "id": "IndexFuture",
+        "type": "Class",
+        "name": "IndexFuture",
+        "label": "index future",
+        "definition": "futures contract whose underlying asset is at least one reference index or economic indicator",
+        "explanatoryNote": "For each index there may be a different multiple for determining the price of the futures contract."
+    },
+    {
+        "id": "EquityFuture",
+        "type": "Class",
+        "name": "EquityFuture",
+        "label": "equity future",
+        "definition": "futures contract whose underlying asset is at least one equity security, specifically a publicly issued and traded share"
+    },
+    {
+        "id": "Future",
+        "type": "Class",
+        "name": "Future",
+        "explanatoryNote": "A futures contract obligates the buyer to pay the seller a predetermined price based on the market value of the underlier, unless the contract is sold before settlement date which may happen if a trader waits to take a profit or cut a loss. This contrasts with options trading in which the option buyer may choose whether or not to exercise the option. Futures are distinguished from generic forward contracts in that they contain standardized terms, trade on a formal exchange, are regulated by overseeing agencies, and are guaranteed by clearing houses. Also, in order to insure that payment will occur, futures have a margin requirement that must be settled daily. Finally, by making an offsetting trade, taking delivery of goods, or arranging for an exchange of goods, futures contracts can be closed. Hedgers often trade futures for the purpose of keeping price risk in check."
+    },
+    {
+        "id": "CurrencyFuture",
+        "type": "Class",
+        "name": "CurrencyFuture",
+        "definition": "futures contract whose underlying asset is an agreement to exchange a specified amount of one currency for another at some point in the future based on pricing stated in the contract",
+        "label": "currency future"
+    },
+    {
+        "id": "DividendAdjustmentPeriod",
+        "type": "Class",
+        "name": "DividendAdjustmentPeriod",
+        "label": "dividend adjustment period",
+        "definition": "date period used to calculate the difference, if any between an anticipated dividend and the actual dividend distributed in that period"
+    },
+    {
+        "id": "DatePeriod",
+        "type": "Entity",
+        "name": "DatePeriod"
+    },
+    {
+        "id": "ForwardContractAdjustmentMethod",
+        "type": "Class",
+        "name": "ForwardContractAdjustmentMethod",
+        "definition": "method by which adjustments will be made to the contract should one or more of a number of extraordinary events occur",
+        "label": "forward contract adjustment method"
+    },
+    {
+        "id": "Strategy",
+        "type": "Entity",
+        "name": "Strategy"
+    },
+    {
+        "id": "hasMethodOfAdjustment",
+        "type": "ObjectProperty",
+        "name": "hasMethodOfAdjustment",
+        "definition": "indicates the method used to address any changes to the contract based on events that occur over the contract lifecycle",
+        "label": "has method of adjustment"
+    },
+    {
+        "id": "hasMultiple",
+        "type": "DatatypeProperty",
+        "name": "hasMultiple",
+        "definition": "indicates the multiple for determining the price of the futures contract in relation to the underlying index rate",
+        "label": "has multiple"
+    },
+    {
+        "id": "hasDividendAdjustmentPeriod",
+        "type": "ObjectProperty",
+        "name": "hasDividendAdjustmentPeriod",
+        "label": "has dividend adjustment period",
+        "definition": "indicates at least one date period used to calculate the deviation between an anticipated/expected dividend and the actual dividend issued during that period"
+    },
+    {
+        "id": "hasConversionFactor",
+        "type": "DatatypeProperty",
+        "name": "hasConversionFactor",
+        "label": "has conversion factor",
+        "definition": "indicates the price of the delivered bond/note ($1 par value) to yield a fixed rate. The conversion factor is used to calculate a final delivery price."
+    }
+]

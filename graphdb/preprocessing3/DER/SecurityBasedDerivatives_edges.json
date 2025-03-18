@@ -1,0 +1,140 @@
+[
+    {
+        "source_id": "SecurityUnderlier",
+        "target_id": "Underlier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfDebtInstruments",
+        "target_id": "BasketOfSecurities",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtObservable",
+        "target_id": "SecurityUnderlier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalizedLeaseObligationDebtBasket",
+        "target_id": "BasketOfDebtInstruments",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatioDebtBasket",
+        "target_id": "BasketOfDebtInstruments",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityBasedDerivative",
+        "target_id": "SecurityUnderlier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "SecurityUnderlier"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityBasedDerivative",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityObservable",
+        "target_id": "SecurityUnderlier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditFacilityDebtBasket",
+        "target_id": "BasketOfDebtInstruments",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContributionDebtBasket",
+        "target_id": "BasketOfDebtInstruments",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Non-GuarantorDebtBasket",
+        "target_id": "BasketOfDebtInstruments",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LocalLinesOfCreditDebtBasket",
+        "target_id": "BasketOfDebtInstruments",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtInstrumentDerivative",
+        "target_id": "SecurityBasedDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtInstrumentDerivative",
+        "target_id": "DebtObservable",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "isPlayedBy",
+                "DebtObservable"
+            ]
+        }
+    },
+    {
+        "source_id": "GeneralDebtBasket",
+        "target_id": "BasketOfDebtInstruments",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityDerivative",
+        "target_id": "EquityObservable",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "EquityObservable"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityDerivative",
+        "target_id": "SecurityBasedDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IncrementalFacilityDebtBasket",
+        "target_id": "CreditFacilityDebtBasket",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "source_id": "WeightedAverageLoanAge",
+        "target_id": "ArithmeticMean",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedAverageLoanAge",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PoolBackedSecurity",
+        "target_id": "isPassThrough",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isPassThrough"
+            ]
+        }
+    },
+    {
+        "source_id": "PoolBackedSecurity",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isCharacterizedBy",
+                "DebtPoolStatisticalMeasure"
+            ]
+        }
+    },
+    {
+        "source_id": "PoolBackedSecurity",
+        "target_id": "TradableDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DefaultRate",
+        "target_id": "Ratio",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DefaultRate",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DetachmentPoint",
+        "target_id": "PercentageMonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedAverageLife",
+        "target_id": "ArithmeticMean",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedAverageLife",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedAverageLife",
+        "target_id": "PrepaymentSpeed",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "refersTo",
+                "PrepaymentSpeed"
+            ]
+        }
+    },
+    {
+        "source_id": "WeightedAverageRemainingTerm",
+        "target_id": "ArithmeticMean",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedAverageRemainingTerm",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AssetBackedSecurity",
+        "target_id": "PoolBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SingleMonthlyMortality",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SingleMonthlyMortality",
+        "target_id": "Percentage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AbsolutePrepaymentRate",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Tranche",
+        "target_id": "DetachmentPoint",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasDetachmentPoint",
+                "DetachmentPoint"
+            ]
+        }
+    },
+    {
+        "source_id": "Tranche",
+        "target_id": "AttachmentPoint",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasAttachmentPoint",
+                "AttachmentPoint"
+            ]
+        }
+    },
+    {
+        "source_id": "Tranche",
+        "target_id": "StructuredFinanceInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AttachmentPoint",
+        "target_id": "PercentageMonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrepaymentSpeed",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtPoolStatisticalMeasure",
+        "target_id": "QualifiedMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StructuredFinanceWithoutPrincipalProtection",
+        "target_id": "StructuredFinanceInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedAverageMaturity",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedAverageMaturity",
+        "target_id": "ArithmeticMean",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedAverageCoupon",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedAverageCoupon",
+        "target_id": "ArithmeticMean",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrincipalProtectedNote",
+        "target_id": "StructuredFinanceInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StructuredFinanceInstrument",
+        "target_id": "PoolBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

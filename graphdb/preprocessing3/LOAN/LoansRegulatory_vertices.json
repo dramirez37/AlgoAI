@@ -1,0 +1,227 @@
+[
+    {
+        "id": "BorrowerDataProtectionRequirement",
+        "type": "Class",
+        "name": "BorrowerDataProtectionRequirement",
+        "label": "borrower data protection requirement"
+    },
+    {
+        "id": "DataProtectionRequirement",
+        "type": "Class",
+        "name": "DataProtectionRequirement",
+        "label": "data protection requirement",
+        "definition": "Requirements defining how data about individuals is held. Example is the EU DA directive and laws, which make the data the property of the individual that data is about. Covers - what information i sheld - who information can be divulged to. - the individual's rights in respect of that information Privacy regulations cover most of this. EU defines \"Personal Data\" and \"Sensitive Personal Data\". For credit reference agencies the latter would be covered. More detail about whether they can divulge facts which are not subject to formal judgements etc."
+    },
+    {
+        "id": "LegalObligation",
+        "type": "Entity",
+        "name": "LegalObligation"
+    },
+    {
+        "id": "DisclosureRequirement",
+        "type": "Class",
+        "name": "DisclosureRequirement",
+        "label": "disclosure requirement",
+        "definition": "Requirement for disclosure to borrowers or potential borrowers. There are two kinds of disclosure requirement: 1. Disclosure about the information held on the borrower 2. Disclsure about the product."
+    },
+    {
+        "id": "ConsumerCreditRequirement",
+        "type": "Class",
+        "name": "ConsumerCreditRequirement",
+        "definition": "Requirement set out on the lender about how they must treat the appliction to a loan",
+        "label": "consumer credit requirement",
+        "explanatoryNote": "e..g being able to see and challenge information about them held by the credit agency or lender. e.g. can't publish opinions only facts, etc."
+    },
+    {
+        "id": "GoodFaithEstimate",
+        "type": "Class",
+        "name": "GoodFaithEstimate",
+        "label": "good faith estimate",
+        "explanatoryNote": "Provided in a timely way. Also associated with cooling off periods",
+        "definition": "GFE - representation by the lender on the costs and implications of settlement (early termination) of the loan."
+    },
+    {
+        "id": "LoanProductRepresentations",
+        "type": "Class",
+        "name": "LoanProductRepresentations",
+        "label": "loan product representations",
+        "explanatoryNote": "Covers responsible lending, consumer credit laws. See Aus Consumer Creti; US Reg Z and so on. In detail, this will include things like the representations about rates of interest, what people can or can't say when offering a product to a customer. Reg Z: Promoting the informed use of consumer credit by .. implictions and cost Also right to cancel a lien on a consumer's dwelling.",
+        "definition": "Representations about the loan product and the appropriateness of this for the borrower."
+    },
+    {
+        "id": "LoanRegulatoryRequirement",
+        "type": "Class",
+        "name": "LoanRegulatoryRequirement",
+        "label": "loan regulatory requirement",
+        "definition": "A regulatory requirement defined in regulations by a comsumer credit act or other legislation.",
+        "explanatoryNote": "Presence of a loan regulatory requirement associated with a loan indicates that the loan is regulated by the UK Consumer credit act or the equivalent in continental Europe."
+    },
+    {
+        "id": "ConsumerCreditReferenceAgency",
+        "type": "Class",
+        "name": "ConsumerCreditReferenceAgency",
+        "label": "consumer credit reference agency",
+        "definition": "Applicable regulations: vary by jurisdiciton. for example, only being allowed ot divulge actual judgements against a party, but not things that are not substantiated by judgements. For example, slow payments which are not covered by some judgement against the party. There will be different regulatory requirments about: 1. What the CR Agency can hold 2. Who they can divulge it to 3. What information they must provide the borrower at his/her request Some of the third thing there is covered in the EU the Data Protection Directive and local acts that implement this."
+    },
+    {
+        "id": "FormalOrganization",
+        "type": "Entity",
+        "name": "FormalOrganization"
+    },
+    {
+        "id": "ProductDisclosureRequirement",
+        "type": "Class",
+        "name": "ProductDisclosureRequirement",
+        "explanatoryNote": "There are also rules which encompass limitations on how you might attach loans and liens to principle dwellings, e.g. when or whether you can foreclose on someone's principal dwelling with impunity; what rights the consumer has - this last will be a separate kind of regulation.",
+        "definition": "A requirement governing what representations can be made about a product, as it affects the consumer.",
+        "label": "product disclosure requirement"
+    },
+    {
+        "id": "EqualTreatmentRight",
+        "type": "Class",
+        "name": "EqualTreatmentRight",
+        "definition": "The right to equal treatment under the law.",
+        "label": "equal treatment right"
+    },
+    {
+        "id": "BorrowerRight",
+        "type": "Class",
+        "name": "BorrowerRight",
+        "explanatoryNote": "example the right not to have a home reposessed. Example: RESPA Real Estate Setetlement Procedures Act (promulgated by HUD to govern real estate practices and disclosures Provisions of good faith estimate (GFE) of loan settlement costs. GFE would be when you apply - you get a GFE back from the lender telling you what it would cost if you close the loan.",
+        "label": "borrower right"
+    },
+    {
+        "id": "ConsumerProtectionAgency",
+        "type": "Class",
+        "name": "ConsumerProtectionAgency",
+        "explanatoryNote": "Note that this is consumer protection, and not other regulatory requirements such as systemic risk. an instance of this is the Consumer Financial Protection Bureau in the US. This is wide rthan just lending, but also covers lender rights.",
+        "definition": "Some agency tasked with regulating consumer protection in some jurisdiction.",
+        "label": "consumer protection agency"
+    },
+    {
+        "id": "RegulatoryAgency",
+        "type": "Entity",
+        "name": "RegulatoryAgency"
+    },
+    {
+        "id": "RegB",
+        "type": "Class",
+        "name": "RegB",
+        "definition": "US regulation concerning \"Equal credit opportunity act\" Electronic delivery of disclosures",
+        "label": "reg b",
+        "explanatoryNote": "Timing and delivery of electronic disclosures. Applications must have equal opportunity to follow. All applications for credit to be evaluated equally and not discriminiated against. This is disclosures about the Borrower."
+    },
+    {
+        "id": "ConsumerCreditEqualTreatmentRequirement",
+        "type": "Class",
+        "name": "ConsumerCreditEqualTreatmentRequirement",
+        "label": "consumer credit equal treatment requirement"
+    },
+    {
+        "id": "ConsumerProtectionLaw",
+        "type": "Class",
+        "name": "ConsumerProtectionLaw",
+        "label": "consumer protection law"
+    },
+    {
+        "id": "StatuteLaw",
+        "type": "Entity",
+        "name": "StatuteLaw"
+    },
+    {
+        "id": "BorrowerDisclosureRequirement",
+        "type": "Class",
+        "name": "BorrowerDisclosureRequirement",
+        "label": "borrower disclosure requirement"
+    },
+    {
+        "id": "RegZ",
+        "type": "Class",
+        "name": "RegZ",
+        "explanatoryNote": "Creditors may delivery disclosures electronic if they obtain consumer's consent. Also relate to international, and foreign languages. This is disclosures about the Product.",
+        "definition": "US Fed regulation \"Truth in Lending Act\" uniform standards for electronic delivery of disclosures",
+        "label": "reg z"
+    },
+    {
+        "id": "LenderRight",
+        "type": "Class",
+        "name": "LenderRight",
+        "label": "lender right",
+        "definition": "Rights on the lender to protect them against loss. furthe rNtoes: Logically, considering the two parties, they both have protecxtion mechanisms. so while the lender has protecxtion mechanisms through mortgage insurance, and the consumer has protextion mechanisms such as good faith estimates. also the agencies (see Consumer Protection Agency), an instance of which is the CFPB in the US (just set up). Lender rights are: - expressed in the Contract Consumer protection develops becaues the contract is written by the potential Lender. So the rights are introcued to rectify the imbalance between the two parties. Same goes for insurance. consumer protection laws (governe dby the relevant consumer protection agency. So the lender protexts itself as it writes th contract AND does the things it needs to do to protext itself, but on the approval process, and with later instruments such as insurance. Interestingly., it is the Borrower who pays for this by paying for credit reports etc. So the borrower protects itself by other mechanisms. Caveat emptor - displaced by regulation (the buyer is protected by regulation). Uberimae Fidae - in the utmost good faith. Mortgage Insurance is an additional means of mitigating the risk, that the lended may have., so if the information assessed is not accurate, or if the borrower's situation changes for the worse. then the risk rating may go down. So the Mortgage Insurance is a further strategy which mitigates any shortfall in the Lender Righrs that you may have - ie someone guarantees. In the US you can also avoid that by having paid a deposit. PIMI: Principal, Interst and Morgage Insurance. So the Borrower pays towards the MI, esxcept if they have paid a given amount as deposit. there are 2 types of MI: 1. protects the lender in the event of borrower degault 2. Insurance for \"Incapacity to pay the mortage\" (these can be bought off the shelf - can combine health, unemployment etc.). - this is the Borrower mitigating their own risk. Prevents foreclosure. Similar to general sickness etc. Where the lender charges for MI, the cost is passed onto the Borrower. e.g. if there is a % valuation (e.g. 70% in Aus, 80% in US for example) then no insurance is required."
+    },
+    {
+        "id": "LegalRight",
+        "type": "Entity",
+        "name": "LegalRight"
+    },
+    {
+        "id": "ConsumerRight",
+        "type": "Class",
+        "name": "ConsumerRight",
+        "label": "consumer right"
+    },
+    {
+        "id": "ProductDisclosureRight",
+        "type": "Class",
+        "name": "ProductDisclosureRight",
+        "definition": "The right to information about products at the point of purchasing these.",
+        "explanatoryNote": "Includes retail, insurance and financial product disclosures",
+        "label": "product disclosure right"
+    },
+    {
+        "id": "InformationRight",
+        "type": "Class",
+        "name": "InformationRight",
+        "definition": "The right to some information in some context, for example when purchasing some product. The right to full and fair disclosure of",
+        "label": "information right"
+    },
+    {
+        "id": "RightOfCreditRecordCorrection",
+        "type": "Class",
+        "name": "RightOfCreditRecordCorrection",
+        "definition": "The right to have a credit record corrected.",
+        "label": "right of credit record correction"
+    },
+    {
+        "id": "CreditReferenceAgencyRequirements",
+        "type": "Class",
+        "name": "CreditReferenceAgencyRequirements",
+        "label": "credit reference agency requirements",
+        "definition": "REquirements other than data protection, governing what a credit reference agency can or cannot do."
+    },
+    {
+        "id": "Representation",
+        "type": "Entity",
+        "name": "Representation"
+    },
+    {
+        "id": "ConsumerCreditProtectionLaw",
+        "type": "Class",
+        "name": "ConsumerCreditProtectionLaw",
+        "label": "consumer credit protection law"
+    },
+    {
+        "id": "requirementSectionAndParagraph",
+        "type": "DatatypeProperty",
+        "name": "requirementSectionAndParagraph",
+        "label": "requirement section and paragraph"
+    },
+    {
+        "id": "requirementActReference",
+        "type": "DatatypeProperty",
+        "name": "requirementActReference",
+        "label": "requirement act reference"
+    },
+    {
+        "id": "overseenBy",
+        "type": "ObjectProperty",
+        "name": "overseenBy",
+        "label": "overseen by"
+    },
+    {
+        "id": "administeredBy",
+        "type": "ObjectProperty",
+        "name": "administeredBy",
+        "label": "administered by"
+    }
+]

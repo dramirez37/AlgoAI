@@ -1,0 +1,341 @@
+[
+    {
+        "source_id": "ZIPPlus4Code",
+        "target_id": "Postcode",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OverseasMilitaryAddress",
+        "target_id": "PhysicalAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OverseasMilitaryAddress",
+        "target_id": "OverseasMilitaryAddress",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCityName",
+                "N29373c03f11d46639a6dfe8efe11c2b4"
+            ]
+        }
+    },
+    {
+        "source_id": "USPostalServiceAddressIdentifier",
+        "target_id": "PhysicalAddressIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USPostalServiceAddressIdentifier",
+        "target_id": "ZIPPlus4Code",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "ZIPPlus4Code"
+            ]
+        }
+    },
+    {
+        "source_id": "USPostalServiceAddressIdentifier",
+        "target_id": "DeliveryPointCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "DeliveryPointCode"
+            ]
+        }
+    },
+    {
+        "source_id": "HighwayContractRouteAddress",
+        "target_id": "PhysicalAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HighwayContractRouteAddress",
+        "target_id": "HighwayContractRoute",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "HighwayContractRoute"
+            ]
+        }
+    },
+    {
+        "source_id": "HighwayContractRouteAddress",
+        "target_id": "Mailbox",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "Mailbox"
+            ]
+        }
+    },
+    {
+        "source_id": "DeliveryAddressCodeSet",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeliveryAddressCodeSet",
+        "target_id": "USPostalServiceAddressIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "USPostalServiceAddressIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "DeliveryAddressCodeSet",
+        "target_id": "CodeSet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeliveryPointCode",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeliveryPointCode",
+        "target_id": "DeliveryPointCodeSet",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "DeliveryPointCodeSet"
+            ]
+        }
+    },
+    {
+        "source_id": "DeliveryPointCodeSet",
+        "target_id": "CodeSet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeliveryPointCodeSet",
+        "target_id": "DeliveryPointCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "DeliveryPointCode"
+            ]
+        }
+    },
+    {
+        "source_id": "ZipCodeScheme",
+        "target_id": "CodeSet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ZipCodeScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DepartmentOfStateAddress",
+        "target_id": "Mailbox",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "Mailbox"
+            ]
+        }
+    },
+    {
+        "source_id": "DepartmentOfStateAddress",
+        "target_id": "DepartmentOfStateUnitComponent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "DepartmentOfStateUnitComponent"
+            ]
+        }
+    },
+    {
+        "source_id": "DepartmentOfStateAddress",
+        "target_id": "PhysicalAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ZIPCode",
+        "target_id": "Postcode",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RuralRoute",
+        "target_id": "SupplementalAddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PuertoRicoAddress",
+        "target_id": "Urbanization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "Urbanization"
+            ]
+        }
+    },
+    {
+        "source_id": "PuertoRicoAddress",
+        "target_id": "ConventionalStreetAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GeneralDeliveryAddress",
+        "target_id": "PhysicalAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StandardizedAddress",
+        "target_id": "PhysicalAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivateMailBoxAddress",
+        "target_id": "ConventionalStreetAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DepartmentOfStateUnitComponent",
+        "target_id": "SupplementalAddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CompleteAddress",
+        "target_id": "StandardizedAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RuralRouteAddress",
+        "target_id": "Mailbox",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "Mailbox"
+            ]
+        }
+    },
+    {
+        "source_id": "RuralRouteAddress",
+        "target_id": "PhysicalAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RuralRouteAddress",
+        "target_id": "RuralRoute",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "RuralRoute"
+            ]
+        }
+    },
+    {
+        "source_id": "HighwayContractRoute",
+        "target_id": "SupplementalAddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Mailbox",
+        "target_id": "SupplementalAddressComponent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InternationalAddress",
+        "target_id": "PhysicalAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Urbanization",
+        "target_id": "CountrySubdivision",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

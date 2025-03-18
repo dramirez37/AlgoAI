@@ -1,0 +1,62 @@
+[
+    {
+        "source_id": "MotorVehicleLoan",
+        "target_id": "SecuredConsumerLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MotorVehicleLoan",
+        "target_id": "CollateralizedLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnsecuredConsumerLoan",
+        "target_id": "ConsumerLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnsecuredConsumerLoan",
+        "target_id": "UnsecuredLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HomeEquityLineOfCredit",
+        "target_id": "LoanSecuredByRealEstate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HomeEquityLineOfCredit",
+        "target_id": "SecuredConsumerLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HomeEquityLineOfCredit",
+        "target_id": "RevolvingLineOfCredit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerLoan",
+        "target_id": "Loan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuredConsumerLoan",
+        "target_id": "SecuredLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuredConsumerLoan",
+        "target_id": "ConsumerLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,161 @@
+[
+    {
+        "source_id": "IndustryClassificationBenchmarkClassifier",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndustryClassificationBenchmarkClassifier",
+        "target_id": "IndustrySectorClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClassificationOfFinancialInstrumentsCodeScheme",
+        "target_id": "FinancialInstrumentClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClassificationOfFinancialInstrumentsCodeScheme",
+        "target_id": "FinancialInstrumentClassificationCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "FinancialInstrumentClassificationCode"
+            ]
+        }
+    },
+    {
+        "source_id": "AssetClass",
+        "target_id": "FinancialInstrumentClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GlobalIndustryClassificationStandardsClassifier",
+        "target_id": "IndustrySectorClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GlobalIndustryClassificationStandardsClassifier",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrumentClassifier",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "FinancialInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstrumentClassifier",
+        "target_id": "FinancialInstrumentClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "FinancialInstrumentClassificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstrumentClassifier",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrumentClassificationCode",
+        "target_id": "FinancialInstrumentClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrumentClassificationCode",
+        "target_id": "ClassificationOfFinancialInstrumentsCodeScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "ClassificationOfFinancialInstrumentsCodeScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstrumentClassificationScheme",
+        "target_id": "ClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrumentClassificationScheme",
+        "target_id": "FinancialInstrumentClassifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "FinancialInstrumentClassifier"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstrument",
+        "target_id": "IndustrySectorClassifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "IndustrySectorClassifier"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstrument",
+        "target_id": "FinancialInstrumentClassifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "FinancialInstrumentClassifier"
+            ]
+        }
+    }
+]

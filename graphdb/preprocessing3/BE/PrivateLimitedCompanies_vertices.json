@@ -1,0 +1,107 @@
+[
+    {
+        "id": "ManagingMember",
+        "type": "Class",
+        "name": "ManagingMember",
+        "label": "managing member",
+        "definition": "owner of an interest in a limited liability company who also runs the day-to-day business operations"
+    },
+    {
+        "id": "LimitedLiabilityCompanyMember",
+        "type": "Class",
+        "name": "LimitedLiabilityCompanyMember",
+        "definition": "owner of an interest in a limited liability company",
+        "label": "limited liability company member"
+    },
+    {
+        "id": "PrincipalParty",
+        "type": "Entity",
+        "name": "PrincipalParty"
+    },
+    {
+        "id": "PrivateLimitedCompany",
+        "type": "Class",
+        "name": "PrivateLimitedCompany",
+        "abbreviation": "Ltd.",
+        "definition": "private limited company whose shareholders' liability is limited to the capital they originally invested",
+        "label": "private limited company",
+        "explanatoryNote": "Private limited companies are common in countries including the U.K., Ireland, and Canada. They have one or more members, also called shareholders or owners, who buy in through private sales. Directors are company employees who keep up with all administrative tasks and tax filings but do not need to be shareholders."
+    },
+    {
+        "id": "PrivateCompanyWithLimitedLiability",
+        "type": "Class",
+        "name": "PrivateCompanyWithLimitedLiability",
+        "label": "private company with limited liability",
+        "explanatoryNote": "A private company with limited liability, although a business entity, is not a corporation. The primary characteristic this legal form shares with a corporation is limited liability, and the primary characteristic it shares with a partnership is the availability of pass-through income taxation. It is often more flexible than a corporation, and it is well-suited for companies with a single owner.",
+        "definition": "hybrid business entity having characteristics of both a corporation and a partnership or sole proprietorship (depending on how many owners there are)"
+    },
+    {
+        "id": "DeJureControllingInterestParty",
+        "type": "Entity",
+        "name": "DeJureControllingInterestParty"
+    },
+    {
+        "id": "OrganizationMember",
+        "type": "Entity",
+        "name": "OrganizationMember"
+    },
+    {
+        "id": "EntityOwner",
+        "type": "Entity",
+        "name": "EntityOwner"
+    },
+    {
+        "id": "EntityControllingParty",
+        "type": "Entity",
+        "name": "EntityControllingParty"
+    },
+    {
+        "id": "LegalEntity",
+        "type": "Entity",
+        "name": "LegalEntity"
+    },
+    {
+        "id": "BusinessEntity",
+        "type": "Entity",
+        "name": "BusinessEntity"
+    },
+    {
+        "id": "LimitedLiabilityCompanyTaxedAsACorporation",
+        "type": "Class",
+        "name": "LimitedLiabilityCompanyTaxedAsACorporation",
+        "explanatoryNote": "In the United States, LLCs that elect to be taxed as a corporation do so by filing an IRS Form 8832.",
+        "abbreviation": "C-LLC",
+        "definition": "limited liability company that has elected to have corporate tax status",
+        "label": "limited liability company taxed as a corporation"
+    },
+    {
+        "id": "LimitedLiabilityCompany",
+        "type": "Class",
+        "name": "LimitedLiabilityCompany",
+        "label": "limited liability company",
+        "definition": "private limited company that combines the pass through taxation of a sole proprietorship or partnership with the limited liability of a corporation",
+        "abbreviation": "LLC"
+    },
+    {
+        "id": "ManagerManagedLimitedLiabilityCompany",
+        "type": "Class",
+        "name": "ManagerManagedLimitedLiabilityCompany",
+        "definition": "limited liability company in which the members appoint one or more managers to handle the daily operations and administrative responsibilities of the organization",
+        "explanatoryNote": "If no members are interested in managing the LLC, an external manager (someone who doesn't own any portion of the LLC) can be hired to run the business operations, including, in some jurisdictions, a third-party entity, such as another company.",
+        "label": "manager-managed limited liability company"
+    },
+    {
+        "id": "hasManagingMember",
+        "type": "ObjectProperty",
+        "name": "hasManagingMember",
+        "label": "has managing member",
+        "definition": "indicates a managing member in a controlling role of a limited liability company that has responsibility for the day-to-day business operations"
+    },
+    {
+        "id": "isManagingMemberOf",
+        "type": "ObjectProperty",
+        "name": "isManagingMemberOf",
+        "definition": "indicates the controlled limited liability company that the managing member runs",
+        "label": "is managing member of"
+    }
+]

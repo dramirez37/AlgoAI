@@ -1,0 +1,32 @@
+[
+    {
+        "source_id": "ElectronicMailAddress",
+        "target_id": "VirtualAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TelephoneNumber",
+        "target_id": "VirtualAddress",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VirtualLocation",
+        "target_id": "Location",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NetworkLocation",
+        "target_id": "VirtualLocation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotionalPlace",
+        "target_id": "Location",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

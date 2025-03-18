@@ -1,0 +1,351 @@
+[
+    {
+        "source_id": "CompoundOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LookbackOption",
+        "target_id": "LookbackStrikeTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "LookbackStrikeTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "LookbackOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AsianOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AsianOption",
+        "target_id": "AveragingStrategy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "AveragingStrategy"
+            ]
+        }
+    },
+    {
+        "source_id": "AsianOption",
+        "target_id": "AsianOptionClassifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "AsianOptionClassifier"
+            ]
+        }
+    },
+    {
+        "source_id": "AsianOption",
+        "target_id": "usesWeightedAverage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "usesWeightedAverage"
+            ]
+        }
+    },
+    {
+        "source_id": "KnockOutOption",
+        "target_id": "BarrierOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatingLookbackStrikeExpression",
+        "target_id": "CashflowExpression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatingLookbackStrikeExpression",
+        "target_id": "ObservedBestValue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSubtrahend",
+                "ObservedBestValue"
+            ]
+        }
+    },
+    {
+        "source_id": "FloatingLookbackStrikeExpression",
+        "target_id": "ProjectedValueAtMaturity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMinuend",
+                "ProjectedValueAtMaturity"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestRateCapOption",
+        "target_id": "InterestRateOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CliquetOption",
+        "target_id": "ForwardStartOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "ForwardStartOption"
+            ]
+        }
+    },
+    {
+        "source_id": "CliquetOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LookbackStrikeTerms",
+        "target_id": "DerivativeTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LookbackStrikeTerms",
+        "target_id": "FloatingLookbackStrikeExpression",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasExpression",
+                "FloatingLookbackStrikeExpression"
+            ]
+        }
+    },
+    {
+        "source_id": "LookbackStrikeTerms",
+        "target_id": "FixedLookbackStrikeExpression",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasExpression",
+                "FixedLookbackStrikeExpression"
+            ]
+        }
+    },
+    {
+        "source_id": "AveragingStrategy",
+        "target_id": "AsianOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "AsianOption"
+            ]
+        }
+    },
+    {
+        "source_id": "AveragingStrategy",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DoubleBarrierOption",
+        "target_id": "BarrierOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ObservedBestValue",
+        "target_id": "MarketPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Swaption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BarrierOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForwardStartOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MountainRangeOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LowExercisePriceOption",
+        "target_id": "CallOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LowExercisePriceOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ChooserOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProjectedValueAtMaturity",
+        "target_id": "CalculatedPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AsianOptionClassifier",
+        "target_id": "AsianOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "AsianOption"
+            ]
+        }
+    },
+    {
+        "source_id": "AsianOptionClassifier",
+        "target_id": "FinancialInstrumentClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateFloorOption",
+        "target_id": "InterestRateOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedLookbackStrikeExpression",
+        "target_id": "ObservedBestValue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSubtrahend",
+                "ObservedBestValue"
+            ]
+        }
+    },
+    {
+        "source_id": "FixedLookbackStrikeExpression",
+        "target_id": "CashflowExpression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RainbowOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "KnockInOption",
+        "target_id": "BarrierOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodoreOption",
+        "target_id": "DigitalOption",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "DigitalOption"
+            ]
+        }
+    },
+    {
+        "source_id": "CommodoreOption",
+        "target_id": "ExoticOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DigitalOption",
+        "target_id": "BarrierOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

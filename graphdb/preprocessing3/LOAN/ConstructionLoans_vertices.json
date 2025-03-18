@@ -1,0 +1,46 @@
+[
+    {
+        "id": "ConstructionLoan",
+        "type": "Class",
+        "name": "ConstructionLoan",
+        "explanatoryNote": "The Project Management Institute (PMI) breaks down most construction projects into five phases, which are initiation, planning, execution, monitoring and control, and closeout. Construction loans also typically include milestones at which a portion of the total facility is advanced to the borrower given proof of completion or meeting other requirements with respect to the work.",
+        "definition": "loan covering construction and development costs, secured by a mortgage on the property financed",
+        "label": "construction loan"
+    },
+    {
+        "id": "CollateralizedLoan",
+        "type": "Entity",
+        "name": "CollateralizedLoan"
+    },
+    {
+        "id": "CreditFacility",
+        "type": "Entity",
+        "name": "CreditFacility"
+    },
+    {
+        "id": "MasterAgreement",
+        "type": "Entity",
+        "name": "MasterAgreement"
+    },
+    {
+        "id": "hasMilestoneMaximumDrawdownAmount",
+        "type": "ObjectProperty",
+        "name": "hasMilestoneMaximumDrawdownAmount",
+        "definition": "maximum amount of the loan that can be drawn by the borrower on completion of the milestone",
+        "label": "has milestone maximum drawdown amount"
+    },
+    {
+        "id": "hasMaximumAllowedBalance",
+        "type": "ObjectProperty",
+        "name": "hasMaximumAllowedBalance",
+        "label": "has maximum allowed balance",
+        "definition": "maximum balance that may be outstanding at any time, below the credit limit, for loans with flexible re-draw facilities"
+    },
+    {
+        "id": "hasMaximumAnticipatedBalance",
+        "type": "ObjectProperty",
+        "name": "hasMaximumAnticipatedBalance",
+        "definition": "maximum balance the borrower believes they might need, below the credit limit, for planning purposes, for loans with flexible re-draw facilities",
+        "label": "has maximum anticipated balance"
+    }
+]

@@ -1,0 +1,371 @@
+[
+    {
+        "id": "Swap",
+        "type": "Class",
+        "name": "Swap",
+        "explanatoryNote": "The notional amount, effective date and termination date are some of the properties that each swap leg has that are taken from the swap contract.",
+        "definition": "derivative instrument whereby counterparties agree to exchange periodic streams of cash flows or liabilities from two different financial instruments with each other",
+        "label": "swap"
+    },
+    {
+        "id": "DerivativeInstrument",
+        "type": "Entity",
+        "name": "DerivativeInstrument"
+    },
+    {
+        "id": "SwapLeg",
+        "type": "Class",
+        "name": "SwapLeg",
+        "explanatoryNote": "In most cases, a swap has two legs, one expressing the obligations of the seller and one expressing the obligations of the buyer. However, it is possible to represent more complex swaps, with one, three or more legs. The legs can be almost anything but usually one leg involves cash flows based on a notional principal amount that both parties agree to.",
+        "label": "swap leg",
+        "definition": "terms defining and the commitment to fulfill cashflow requirements (e.g., interest payments, coupon payments, etc.) for a component of a swap"
+    },
+    {
+        "id": "CashflowTerms",
+        "type": "Entity",
+        "name": "CashflowTerms"
+    },
+    {
+        "id": "SwapTerms",
+        "type": "Class",
+        "name": "SwapTerms",
+        "definition": "legal contractual terms of a swap transaction",
+        "label": "swap terms"
+    },
+    {
+        "id": "RealizedVariableLeg",
+        "type": "Class",
+        "name": "RealizedVariableLeg",
+        "explanatoryNote": "In this case there is a single payment at maturity/settlement and so there is no stream of cashflows either way. The other leg of these swaps is implied, and is simply the strike price.",
+        "definition": "performance-based leg wherein the payment is netted at maturity rather than periodically",
+        "label": "realized variable leg"
+    },
+    {
+        "id": "PerformanceBasedVariableLeg",
+        "type": "Class",
+        "name": "PerformanceBasedVariableLeg",
+        "definition": "floating leg of a swap that depends on some statistical measure of the performance of the underlier",
+        "label": "performance-based variable leg"
+    },
+    {
+        "id": "DispersionSwap",
+        "type": "Class",
+        "name": "DispersionSwap",
+        "explanatoryNote": "A variance swap is an instrument that allows investors to trade future realized (or historical) volatility against current implied volatility.",
+        "label": "dispersion swap",
+        "definition": "statistical derivative used to hedge on the magnitude of a price movement of an underlying asset"
+    },
+    {
+        "id": "StatisticalSwap",
+        "type": "Class",
+        "name": "StatisticalSwap",
+        "definition": "swap that depends on some statistical measure of the performance of the underlier",
+        "label": "statistical swap"
+    },
+    {
+        "id": "RateBasedLeg",
+        "type": "Class",
+        "name": "RateBasedLeg",
+        "definition": "swap leg of a rate-based swap based on a floating interest, floating inflation or fixed interest rate",
+        "label": "rate-based leg"
+    },
+    {
+        "id": "CorrelationLeg",
+        "type": "Class",
+        "name": "CorrelationLeg",
+        "label": "correlation leg",
+        "definition": "floating leg of a correlation swap that pays an amount based on the observed average correlation of the prices of a collection of underlying products"
+    },
+    {
+        "id": "SwapParty",
+        "type": "Class",
+        "name": "SwapParty",
+        "label": "swap party",
+        "definition": "party to a swap and therefore a legal party to the contract that embodies that transaction"
+    },
+    {
+        "id": "ContractParty",
+        "type": "Entity",
+        "name": "ContractParty"
+    },
+    {
+        "id": "DispersionLeg",
+        "type": "Class",
+        "name": "DispersionLeg",
+        "definition": "floating leg of a dispersion swap that pays an amount based on the realized dispersion of the price changes of the underlying product",
+        "label": "dispersion leg",
+        "explanatoryNote": "Underlying assets may include, for example, exchange rates, interest rates, or the price of an index."
+    },
+    {
+        "id": "SwapLifecycleEventIdentifier",
+        "type": "Class",
+        "name": "SwapLifecycleEventIdentifier",
+        "label": "swap lifecycle event identifier",
+        "definition": "identifier that uniquely identifies a specific event in the lifecycle of a swap"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "RatesSwap",
+        "type": "Class",
+        "name": "RatesSwap",
+        "definition": "swap in two counterparties each agree to pay the other cash flows on defined dates during an agreed period, based on a specified notional amount and a floating interest, floating inflation or fixed interest rate",
+        "label": "rates swap"
+    },
+    {
+        "id": "FixedPaymentLeg",
+        "type": "Class",
+        "name": "FixedPaymentLeg",
+        "label": "fixed payment leg",
+        "definition": "swap leg that specifies contractual terms associated with a schedule of payments for any swap calculated by reference to a fixed annual rate"
+    },
+    {
+        "id": "FixedLeg",
+        "type": "Class",
+        "name": "FixedLeg",
+        "label": "fixed leg",
+        "definition": "swap leg whose paying party is obligated to make payments from time to time over the term of a swap calculated by reference to a fixed annual rate or consisting of at least one payment of a fixed amount"
+    },
+    {
+        "id": "ReturnLeg",
+        "type": "Class",
+        "name": "ReturnLeg",
+        "explanatoryNote": "The return, including income from a tangible asset, the constituents of an index, or a notional/specified amount of some asset (e.g. number of shares, amount of a commodity, etc.), may be limited to the dividend or interest amounts on the underlying (simple return), or total return including capital gains and/or the appreciation or decrease in value of the asset (or index constituents).",
+        "label": "return leg",
+        "definition": "leg of a swap in which the income generated by some underlier is paid"
+    },
+    {
+        "id": "FloatingLeg",
+        "type": "Class",
+        "name": "FloatingLeg",
+        "definition": "swap leg whose paying party is obligated to make payments from time to time over the term of a swap calculated by reference to some variable rate, calculated based on the change in value of some underlying asset, or consisting of at least one payment of some floating amount",
+        "label": "floating leg"
+    },
+    {
+        "id": "SwapLifecycleEvent",
+        "type": "Class",
+        "name": "SwapLifecycleEvent",
+        "definition": "event that occurs during the lifecycle of a swap, where the overall set of events includes those specific to the issuer, front office, middle office, and/or back office processes",
+        "label": "swap lifecycle event"
+    },
+    {
+        "id": "LifecycleEvent",
+        "type": "Entity",
+        "name": "LifecycleEvent"
+    },
+    {
+        "id": "CorrelationSwap",
+        "type": "Class",
+        "name": "CorrelationSwap",
+        "label": "correlation swap",
+        "explanatoryNote": "Each product that can act as the underlier on which the correlation is based has periodically observable prices, such as a commodity, exchange rate, interest rate, or stock index. Correlation trading is a strategy in which the investor receives exposure to the average correlation of an index.",
+        "definition": "over-the-counter statistical derivative that allows one to hedge risks associated with the observed average correlation of a collection of underlying products"
+    },
+    {
+        "id": "ExcessReturnSwap",
+        "type": "Class",
+        "name": "ExcessReturnSwap",
+        "label": "excess return swap",
+        "definition": "return swap in which the change in the level of the index will be equal to the returns generated primarily by the changes in price of each of the contracts that comprise the index"
+    },
+    {
+        "id": "IndexReturnSwap",
+        "type": "Class",
+        "name": "IndexReturnSwap",
+        "definition": "return swap in which payments are based on a fee paid to the seller of the swap and on a floating reference price based on changes in the level of an index from an initial level to a level observed on some valuation date(s)",
+        "explanatoryNote": "Payments to the parties may be made either on a periodic basis or on termination of the transaction. One party will receive a payment based upon the change in the level of the index between two valuation dates (multiplied by the notional amount of the swap), as modified by the fee paid to the seller of the swap. If the level of the index increases, the buyer of the swap will be entitled to a payment based on this performance, as such payment may be reduced (or negated) by the fee paid to the seller of the swap. If the level of the index decreases, the seller of the swap will be entitled to a payment based on this performance, as such payment may be increased by the fee paid to the seller of the swap.",
+        "label": "index return swap"
+    },
+    {
+        "id": "SwapPayingParty",
+        "type": "Class",
+        "name": "SwapPayingParty",
+        "definition": "swap party responsible for making payments for a given leg of the transaction as defined in the contract",
+        "label": "swap paying party"
+    },
+    {
+        "id": "PayingParty",
+        "type": "Entity",
+        "name": "PayingParty"
+    },
+    {
+        "id": "TotalReturnLeg",
+        "type": "Class",
+        "name": "TotalReturnLeg",
+        "explanatoryNote": "This is distinguished from the more general Return Leg by the addition of increase or decrease in the value of the underlying asset.",
+        "definition": "return leg based on the income generated by the underlying asset as well as any appreciation, decrease in value, capital gains, and fees on any increase in value",
+        "label": "total return leg"
+    },
+    {
+        "id": "DerivativeTerms",
+        "type": "Entity",
+        "name": "DerivativeTerms"
+    },
+    {
+        "id": "MajorSwapParticipant",
+        "type": "Class",
+        "name": "MajorSwapParticipant",
+        "definition": "financial service provider that maintains a substantial position in swaps for any of the major swap categories",
+        "abbreviation": "MSP",
+        "explanatoryNote": "This excludes positions held for hedging or mitigating commercial risk and positions maintained by an employee benefit plan for the primary purpose of hedging or mitigating any risk directly associated with the operation of the plan.",
+        "label": "major swap participant"
+    },
+    {
+        "id": "NonDepositoryInstitution",
+        "type": "Entity",
+        "name": "NonDepositoryInstitution"
+    },
+    {
+        "id": "SwapLegEvent",
+        "type": "Class",
+        "name": "SwapLegEvent",
+        "label": "swap leg event",
+        "definition": "swap lifecycle event, such as a payment or rate reset event, that applies to one leg of a swap"
+    },
+    {
+        "id": "SwapReceivingParty",
+        "type": "Class",
+        "name": "SwapReceivingParty",
+        "definition": "swap party that receives payments for a given leg of the transaction as defined in the contract",
+        "label": "swap receiving party"
+    },
+    {
+        "id": "ReceivingParty",
+        "type": "Entity",
+        "name": "ReceivingParty"
+    },
+    {
+        "id": "TotalReturnSwap",
+        "type": "Class",
+        "name": "TotalReturnSwap",
+        "definition": "return swap where the seller agrees to pay the other party the difference in value of some underlying asset multiplied by an agreed-upon notional value should the asset value increase between specified periods of time",
+        "explanatoryNote": "In a total return swap that is index-based, the change in the level of the index will be equal to the returns generated by the change in price of each of the contracts that comprise the index plus a return based upon interest earned on any cash collateral posted upon the purchase of the contracts comprising the index.",
+        "label": "total return swap"
+    },
+    {
+        "id": "CreditDerivative",
+        "type": "Entity",
+        "name": "CreditDerivative"
+    },
+    {
+        "id": "ReturnSwap",
+        "type": "Class",
+        "name": "ReturnSwap",
+        "label": "return swap",
+        "definition": "swap in which one leg, the return leg, is based on income generated from some underlier"
+    },
+    {
+        "id": "BasisSwap",
+        "type": "Class",
+        "name": "BasisSwap",
+        "label": "basis swap",
+        "definition": "swap in which payment streams are referenced to different bases",
+        "explanatoryNote": "A basis swap can have two legs of the same tenor but different indices, e.g., 3 month LIBOR vs. 3 month TIBOR. The difference in this case is not driven by different interest rate periods but from different markets, i.e., the difference in efficiency between the two markets. The objective is to hedge against basis risk which is the difference in price between two markets. See also forward swap, as a means for controlling interest rate."
+    },
+    {
+        "id": "UniqueSwapIdentifier",
+        "type": "Class",
+        "name": "UniqueSwapIdentifier",
+        "definition": "identifier for a swap that is used in recordkeeping and swap data reporting",
+        "abbreviation": "USI",
+        "label": "unique swap identifier"
+    },
+    {
+        "id": "FinancialInstrumentIdentifier",
+        "type": "Entity",
+        "name": "FinancialInstrumentIdentifier"
+    },
+    {
+        "id": "SwapConfirmation",
+        "type": "Class",
+        "name": "SwapConfirmation",
+        "label": "swap confirmation",
+        "definition": "formal confirmation that codifies the terms and conditions specific to a lifecycle event with respect to the overall transaction between the parties"
+    },
+    {
+        "id": "TransactionConfirmation",
+        "type": "Entity",
+        "name": "TransactionConfirmation"
+    },
+    {
+        "id": "SimpleReturnLeg",
+        "type": "Class",
+        "name": "SimpleReturnLeg",
+        "explanatoryNote": "Payments may include interest payments on a debt instrument or the dividends on an equity, for example.",
+        "label": "simple return leg",
+        "definition": "return leg based strictly on the income generated by the underlying asset, excluding appreciation, decrease in value, capital gains, and fees on any increase in value"
+    },
+    {
+        "id": "SwapDataRepository",
+        "type": "Class",
+        "name": "SwapDataRepository",
+        "abbreviation": "SDR",
+        "definition": "financial service provider that provides a central facility for swap data reporting and recordkeeping",
+        "explanatoryNote": "Swap data repositories ('SDRs') are new entities created by the Dodd-Frank Wall Street Reform and Consumer Protection Act ('Dodd-Frank Act') in order to provide a central facility for swap data reporting and recordkeeping. Under the Dodd- Frank Act, all swaps, whether cleared or uncleared, are required to be reported to registered SDRs. The Dodd-Frank Act added new Section 21 to the Commodity Exchange Act ('CEA'), governing registration and regulation of SDRs and establishing registration requirements and core duties and responsibilities for SDRs.",
+        "label": "swap data repository"
+    },
+    {
+        "id": "FinancialServiceProvider",
+        "type": "Entity",
+        "name": "FinancialServiceProvider"
+    },
+    {
+        "id": "StrikeLeg",
+        "type": "Class",
+        "name": "StrikeLeg",
+        "explanatoryNote": "The fixed amount may be with respect to some variable or a monetary amount. The realization of a strike leg is not a cashflow per se, but a netting out against the terms defined in the other leg of a statistical swap.",
+        "label": "strike leg",
+        "definition": "swap leg that specifies a fixed amount, 'the strike', quoted at the time of execution"
+    },
+    {
+        "id": "SwapDealer",
+        "type": "Class",
+        "name": "SwapDealer",
+        "abbreviation": "SD",
+        "definition": "non-depository institution such as one that deals in swaps, makes a market in swaps, regularly enters into swaps with counterparties as an ordinary course of business for its own account, and engages in any activity causing the person to be commonly known in the trade as a dealer/market maker in swaps",
+        "label": "swap dealer"
+    },
+    {
+        "id": "Dealer",
+        "type": "Entity",
+        "name": "Dealer"
+    },
+    {
+        "id": "hasFundingLeg",
+        "type": "ObjectProperty",
+        "name": "hasFundingLeg",
+        "definition": "indicates the leg of a return swap that specifies a set payment rate, typically benchmark based but possibly a fixed rate",
+        "label": "has funding leg"
+    },
+    {
+        "id": "hasSwapIdentifier",
+        "type": "ObjectProperty",
+        "name": "hasSwapIdentifier",
+        "label": "has swap identifier",
+        "definition": "relates a swap lifecycle event to the identifier for the swap"
+    },
+    {
+        "id": "hasLeg",
+        "type": "ObjectProperty",
+        "name": "hasLeg",
+        "definition": "relates a swap contract to a leg that is part of that swap",
+        "label": "has leg"
+    },
+    {
+        "id": "isLegOf",
+        "type": "ObjectProperty",
+        "name": "isLegOf",
+        "label": "is leg of",
+        "definition": "relates a swap leg to the to the swap that includes it"
+    },
+    {
+        "id": "hasReturnLeg",
+        "type": "ObjectProperty",
+        "name": "hasReturnLeg",
+        "label": "has return leg",
+        "definition": "indicates the leg of a return swap whose payments are based on the return of an underlying asset"
+    }
+]

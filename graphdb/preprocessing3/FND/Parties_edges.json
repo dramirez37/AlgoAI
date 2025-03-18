@@ -1,0 +1,122 @@
+[
+    {
+        "source_id": "PartyRoleIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartyRoleIdentifier",
+        "target_id": "PartyRoleIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "PartyRoleIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "PartyRoleIdentifier",
+        "target_id": "PartyRoleIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "PartyRoleIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "PartyRoleIdentificationScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartyRoleIdentificationScheme",
+        "target_id": "PartyRoleIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "PartyRoleIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "TaxIdentifier",
+        "target_id": "TaxIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "TaxIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "TaxIdentifier",
+        "target_id": "Party",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "Party"
+            ]
+        }
+    },
+    {
+        "source_id": "TaxIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContextualName",
+        "target_id": "Party",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isNameOf",
+                "Party"
+            ]
+        }
+    },
+    {
+        "source_id": "ContextualName",
+        "target_id": "Name",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TaxIdentificationScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

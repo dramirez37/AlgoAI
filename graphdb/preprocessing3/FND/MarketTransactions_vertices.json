@@ -1,0 +1,70 @@
+[
+    {
+        "id": "TransactionPrincipal",
+        "type": "Class",
+        "name": "TransactionPrincipal",
+        "label": "transaction principal"
+    },
+    {
+        "id": "TransactionParty",
+        "type": "Entity",
+        "name": "TransactionParty"
+    },
+    {
+        "id": "ContractPrincipal",
+        "type": "Entity",
+        "name": "ContractPrincipal"
+    },
+    {
+        "id": "MarketTransaction",
+        "type": "Class",
+        "name": "MarketTransaction",
+        "definition": "Any transaction which defines a supply of some negotiable item in return for some Consideration. The Market Transaction has a Principal and a Counterparty, i.e. it is not symmetrical.",
+        "label": "market transaction"
+    },
+    {
+        "id": "EconomicTransaction",
+        "type": "Entity",
+        "name": "EconomicTransaction"
+    },
+    {
+        "id": "MarketTransactionPaymentTerms",
+        "type": "Class",
+        "name": "MarketTransactionPaymentTerms",
+        "label": "market transaction payment terms"
+    },
+    {
+        "id": "EconomicContractTermsSet",
+        "type": "Entity",
+        "name": "EconomicContractTermsSet"
+    },
+    {
+        "id": "TransactionCounterparty",
+        "type": "Class",
+        "name": "TransactionCounterparty",
+        "label": "transaction counterparty"
+    },
+    {
+        "id": "Counterparty",
+        "type": "Entity",
+        "name": "Counterparty"
+    },
+    {
+        "id": "MarketTransactionInvoicingTerms",
+        "type": "Class",
+        "name": "MarketTransactionInvoicingTerms",
+        "label": "market transaction invoicing terms"
+    },
+    {
+        "id": "consideration",
+        "type": "ObjectProperty",
+        "name": "consideration",
+        "label": "consideration"
+    },
+    {
+        "id": "paymentTerms",
+        "type": "ObjectProperty",
+        "name": "paymentTerms",
+        "label": "payment terms"
+    }
+]

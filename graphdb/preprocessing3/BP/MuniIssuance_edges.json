@@ -1,0 +1,680 @@
+[
+    {
+        "source_id": "DebtAuctionProcess",
+        "target_id": "SecuritiesIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityDemutualizationProcess",
+        "target_id": "SecuritiesIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondCounsel",
+        "target_id": "ContractThirdParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondCounsel",
+        "target_id": "DebtUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBondCounsel",
+                "DebtUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtUnderwritingClosing",
+        "target_id": "UnderwritingIssuanceClosing",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MuniIssuanceProcessParticipant",
+        "target_id": "IssuanceProcessParticipant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Obligor",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "obligorTo",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "UnderwritingIssuanceRequestor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "requestedBy",
+                "UnderwritingIssuanceRequestor"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "IssuerCounsel",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasIssuerCounsel",
+                "IssuerCounsel"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "IssuanceFinancialAdvisor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFinancialAdvisor",
+                "IssuanceFinancialAdvisor"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "Obligor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasObligor",
+                "Obligor"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "Servicer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasServicer",
+                "Servicer"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "IssuancePrinter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPrinter",
+                "IssuancePrinter"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "RemarketingAgent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRemarketingAgent",
+                "RemarketingAgent"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "TransferAgent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasTransferAgent",
+                "TransferAgent"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "PotentialMuniUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "underwrittenBy",
+                "PotentialMuniUnderwriter"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "SecuritiesIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "PayingAgent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPayingAgent",
+                "PayingAgent"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "IssuanceAgent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasAgent",
+                "IssuanceAgent"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuanceProcess",
+        "target_id": "Trustee",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasTrustee",
+                "Trustee"
+            ]
+        }
+    },
+    {
+        "source_id": "DTCCMember",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "participatesIn",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "DTCCMember",
+        "target_id": "MuniIssuanceProcessParticipant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesUnderwritingIssuance",
+        "target_id": "SecuritiesIssuanceContext",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuanceProcessParticipant",
+        "target_id": "ProcessParticipant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PayingAgent",
+        "target_id": "IssuanceAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PayingAgent",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "facilitatesPayment",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "IssueOverAllotmentTerms",
+        "target_id": "OfferingDocumentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtUnderwritingIssuanceProcess",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "step",
+                "DebtOffering"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtUnderwritingIssuanceProcess",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtUnderwritingIssuanceProcess",
+        "target_id": "BondCounsel",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasBondCounsel",
+                "BondCounsel"
+            ]
+        }
+    },
+    {
+        "source_id": "IssuanceAgent",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAgentIn",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesIssuanceContext",
+        "target_id": "PrimaryMarket",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityIPOProcess",
+        "target_id": "RegisteredSecurityIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DisseminationUnderwriter",
+        "target_id": "Dissemination",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "makesDecisionOn",
+                "Dissemination"
+            ]
+        }
+    },
+    {
+        "source_id": "DisseminationUnderwriter",
+        "target_id": "PotentialMuniUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuanceCreditingParticipant",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isCreditingParticipant",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "TransferAgent",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "facilitatesTransfer",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "TransferAgent",
+        "target_id": "IssuanceAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegisteredSecurityIssuanceProcess",
+        "target_id": "SecuritiesIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegisteredSecurityIssuanceProcess",
+        "target_id": "Registration",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "includesStep",
+                "Registration"
+            ]
+        }
+    },
+    {
+        "source_id": "ProcessParticipant",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Correspondent",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "participatesIn",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "Correspondent",
+        "target_id": "ContractThirdParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Correspondent",
+        "target_id": "MuniIssuanceProcessParticipant",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtIssueOverAllotmentTerms",
+        "target_id": "IssueOverAllotmentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Registration",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderwritingIssuanceRequestor",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "requests",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "UnderwritingIssuanceRequestor",
+        "target_id": "PotentialIssuer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityUnderwritingIssuanceProcess",
+        "target_id": "RegisteredSecurityIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuerCounsel",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIssuerCounsel",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "Servicer",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "services",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "IssuancePrinter",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "prints",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "UnderwritingIssuanceClosing",
+        "target_id": "IssuanceClosing",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuanceClosing",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderwritingProcessActivity",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderwritingProcessActor",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RemarketingAgent",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "facililtatesRemarketing",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "IssuanceFinancialAdvisor",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "advises",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "IssuanceSettlement",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MuniDebtOffering",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Dissemination",
+        "target_id": "UnderwritingProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PotentialMuniUnderwriter",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "underwrites",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "PotentialMuniUnderwriter",
+        "target_id": "PotentialUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivatePlacement",
+        "target_id": "SecuritiesIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Trustee",
+        "target_id": "SecuritiesUnderwritingIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isTrustee",
+                "SecuritiesUnderwritingIssuanceProcess"
+            ]
+        }
+    }
+]

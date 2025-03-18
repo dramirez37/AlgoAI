@@ -1,0 +1,548 @@
+[
+    {
+        "source_id": "PutFeature",
+        "target_id": "RedemptionProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PutFeature",
+        "target_id": "PutSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "PutSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "PutFeature",
+        "target_id": "DebtTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PutFeature",
+        "target_id": "PutNotificationProvision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasNotificationProvision",
+                "PutNotificationProvision"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtInstrument",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOffering",
+                "DebtOffering"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtInstrument",
+        "target_id": "PutFeature",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPutFeature",
+                "PutFeature"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtInstrument",
+        "target_id": "RedemptionProvision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasRedemptionProvision",
+                "RedemptionProvision"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtInstrument",
+        "target_id": "CallFeature",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCallFeature",
+                "CallFeature"
+            ]
+        }
+    },
+    {
+        "source_id": "CallFeature",
+        "target_id": "RedemptionProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallFeature",
+        "target_id": "CallNotificationProvision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasNotificationProvision",
+                "CallNotificationProvision"
+            ]
+        }
+    },
+    {
+        "source_id": "CallFeature",
+        "target_id": "CallSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "CallSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "FullyIndexedInterestRate",
+        "target_id": "Margin",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "Margin"
+            ]
+        }
+    },
+    {
+        "source_id": "FullyIndexedInterestRate",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FullyIndexedInterestRate",
+        "target_id": "FloatingInterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedIncomeSecurity",
+        "target_id": "TradableDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MakeWholeFeature",
+        "target_id": "CallFeature",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VariableIncomeSecurity",
+        "target_id": "TradableDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Margin",
+        "target_id": "Variable",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PutSchedule",
+        "target_id": "Schedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PutSchedule",
+        "target_id": "PutEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "PutEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "PutWindow",
+        "target_id": "DatePeriod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradableDebtInstrument",
+        "target_id": "DebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradableDebtInstrument",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradableDebtInstrument",
+        "target_id": "TradableDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isSubordinatedTo",
+                "TradableDebtInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "NotificationProvision",
+        "target_id": "RedemptionProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotificationProvision",
+        "target_id": "DatePeriod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "hasDatePeriod",
+                "DatePeriod"
+            ]
+        }
+    },
+    {
+        "source_id": "NonTradableDebtInstrument",
+        "target_id": "MutualContractualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonTradableDebtInstrument",
+        "target_id": "DebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonTradableDebtInstrument",
+        "target_id": "RelativePrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRelativePriceAtIssue",
+                "RelativePrice"
+            ]
+        }
+    },
+    {
+        "source_id": "NonTradableDebtInstrument",
+        "target_id": "RedemptionProvision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasRedemptionProvision",
+                "RedemptionProvision"
+            ]
+        }
+    },
+    {
+        "source_id": "NonTradableDebtInstrument",
+        "target_id": "RelativePrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRelativePriceAtRedemption",
+                "RelativePrice"
+            ]
+        }
+    },
+    {
+        "source_id": "CallWindow",
+        "target_id": "DatePeriod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PutEvent",
+        "target_id": "RedemptionEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Strip",
+        "target_id": "FixedIncomeSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestOnlyStrip",
+        "target_id": "Strip",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PubliclyIssuedDebt",
+        "target_id": "TradableDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isConferredBy",
+                "TradableDebtInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "PubliclyIssuedDebt",
+        "target_id": "IssuedDebt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallSchedule",
+        "target_id": "CallEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "CallEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "CallSchedule",
+        "target_id": "Schedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrescriptiveEvent",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtOffering",
+        "target_id": "SecuritiesOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtOffering",
+        "target_id": "DebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "DebtInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "StepSchedule",
+        "target_id": "StepEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "StepEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "StepSchedule",
+        "target_id": "Schedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PutNotificationProvision",
+        "target_id": "PutWindow",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "hasDatePeriod",
+                "PutWindow"
+            ]
+        }
+    },
+    {
+        "source_id": "PutNotificationProvision",
+        "target_id": "NotificationProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuedDebt",
+        "target_id": "DebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isConferredBy",
+                "DebtInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "IssuedDebt",
+        "target_id": "Debt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrincipalOnlyStrip",
+        "target_id": "Strip",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RelativePrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallPremium",
+        "target_id": "MonetaryPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StepEvent",
+        "target_id": "PrescriptiveEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StepEvent",
+        "target_id": "CalculationEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallEvent",
+        "target_id": "RedemptionEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallNotificationProvision",
+        "target_id": "NotificationProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallNotificationProvision",
+        "target_id": "CallWindow",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "hasDatePeriod",
+                "CallWindow"
+            ]
+        }
+    },
+    {
+        "source_id": "RedemptionEvent",
+        "target_id": "PrescriptiveEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PutPremium",
+        "target_id": "MonetaryPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

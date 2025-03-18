@@ -1,0 +1,161 @@
+[
+    {
+        "id": "Registrar",
+        "type": "Class",
+        "name": "Registrar",
+        "label": "registrar",
+        "definition": "party that has the capacity to act as a representative of a registration authority to provide registration services, including official record keeping"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "Registry",
+        "type": "Class",
+        "name": "Registry",
+        "label": "registry",
+        "explanatoryNote": "Electronic registries typically contain a unique identifier for each entry, so that individual records can be referenced from other documents and registries.",
+        "definition": "authoritative record or collection of records relating to something"
+    },
+    {
+        "id": "Record",
+        "type": "Entity",
+        "name": "Record"
+    },
+    {
+        "id": "StructuredCollection",
+        "type": "Entity",
+        "name": "StructuredCollection"
+    },
+    {
+        "id": "RegistrationAuthority",
+        "type": "Class",
+        "name": "RegistrationAuthority",
+        "definition": "service provider that is responsible for maintaining a registry and provides registration services",
+        "label": "registration authority",
+        "abbreviation": "RA"
+    },
+    {
+        "id": "ServiceProvider",
+        "type": "Entity",
+        "name": "ServiceProvider"
+    },
+    {
+        "id": "RegistryIdentifier",
+        "type": "Class",
+        "name": "RegistryIdentifier",
+        "definition": "identifier associated with an entry in a registry, i.e., one that provides an index into the registry for the identified item",
+        "label": "registry identifier"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "RegistryEntry",
+        "type": "Class",
+        "name": "RegistryEntry",
+        "label": "registry entry",
+        "definition": "independently identified entry for something recorded in a registry"
+    },
+    {
+        "id": "DatedCollectionConstituent",
+        "type": "Entity",
+        "name": "DatedCollectionConstituent"
+    },
+    {
+        "id": "RegistrationCapacity",
+        "type": "Class",
+        "name": "RegistrationCapacity",
+        "label": "registration capacity",
+        "definition": "the capacity of some natural person to formally register information in a registry on behalf of some registration authority"
+    },
+    {
+        "id": "LegalCapacity",
+        "type": "Entity",
+        "name": "LegalCapacity"
+    },
+    {
+        "id": "RegistrationScheme",
+        "type": "Class",
+        "name": "RegistrationScheme",
+        "definition": "scheme for organizing information and allocating identifiers to items in a registry",
+        "label": "registration scheme"
+    },
+    {
+        "id": "IdentificationScheme",
+        "type": "Entity",
+        "name": "IdentificationScheme"
+    },
+    {
+        "id": "RegistrationService",
+        "type": "Class",
+        "name": "RegistrationService",
+        "label": "registration service",
+        "definition": "service provided to individuals and/or organizations to register items in a registry"
+    },
+    {
+        "id": "Service",
+        "type": "Entity",
+        "name": "Service"
+    },
+    {
+        "id": "registers",
+        "type": "ObjectProperty",
+        "name": "registers",
+        "definition": "records something in a registry or archive",
+        "label": "registers"
+    },
+    {
+        "id": "specifies",
+        "type": "ObjectProperty",
+        "name": "specifies",
+        "definition": "states a fact about something",
+        "label": "specifies"
+    },
+    {
+        "id": "hasRegistrationDate",
+        "type": "DatatypeProperty",
+        "name": "hasRegistrationDate",
+        "label": "has registration date",
+        "definition": "the date or date and time on which something is recorded"
+    },
+    {
+        "id": "isRegisteredBy",
+        "type": "ObjectProperty",
+        "name": "isRegisteredBy",
+        "definition": "indicates the registration authority or registrar that registers something",
+        "label": "is registered by"
+    },
+    {
+        "id": "hasRegistryEntry",
+        "type": "ObjectProperty",
+        "name": "hasRegistryEntry",
+        "definition": "links a registry to entries that it contains",
+        "label": "has registry entry"
+    },
+    {
+        "id": "isRegistrationAuthorityFor",
+        "type": "ObjectProperty",
+        "name": "isRegistrationAuthorityFor",
+        "label": "is registration authority for",
+        "definition": "indicates the thing (typically an identifier or code) that the registration authority has authority for"
+    },
+    {
+        "id": "isRegisteredIn",
+        "type": "ObjectProperty",
+        "name": "isRegisteredIn",
+        "label": "is registered in",
+        "definition": "indicates the registry that something is registered in"
+    },
+    {
+        "id": "hasRegistrationAuthority",
+        "type": "ObjectProperty",
+        "name": "hasRegistrationAuthority",
+        "label": "has registration authority",
+        "definition": "indicates the registration authority for something"
+    }
+]

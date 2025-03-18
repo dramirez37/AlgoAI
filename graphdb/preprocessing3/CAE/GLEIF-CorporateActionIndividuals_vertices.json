@@ -1,0 +1,182 @@
+[
+    {
+        "id": "ActionGroup",
+        "type": "Class",
+        "name": "ActionGroup",
+        "label": "action group",
+        "definition": "classifier that differentiates corporate actions based on a GLEIF specific grouping"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "BREAKUP",
+        "type": "NamedIndividual",
+        "name": "BREAKUP",
+        "definition": "GLEIF classifier for corporate actions in which a single company splits into two or more independent, separately-run companies",
+        "label": "BREAKUP"
+    },
+    {
+        "id": "TRANSFORMATION_SUBSIDIARY_TO_BRANCH",
+        "type": "NamedIndividual",
+        "name": "TRANSFORMATION_SUBSIDIARY_TO_BRANCH",
+        "label": "TRANSFORMATION_SUBSIDIARY_TO_BRANCH",
+        "definition": "GLEIF classifier for corporate actions involving the transfer of all of the assets and liabilities of a subsidiary to an International Branch entity in exchange for the transfer of securities representing the capital of the International Branch entity receiving the transfer"
+    },
+    {
+        "id": "MERGERS_AND_ACQUISITIONS",
+        "type": "NamedIndividual",
+        "name": "MERGERS_AND_ACQUISITIONS",
+        "definition": "GLEIF classifier for corporate actions in which a single company splits into two or more independent, separately-run companies",
+        "label": "MERGERS_AND_ACQUISITIONS"
+    },
+    {
+        "id": "ABSORPTION",
+        "type": "MergerAcquisition",
+        "name": "ABSORPTION",
+        "label": "ABSORPTION",
+        "definition": "GLEIF classifier for corporate actions that is a kind of merger where there is a combination of two or more companies into an existing company"
+    },
+    {
+        "id": "CHANGE_LEGAL_ADDRESS",
+        "type": "OrganizationAddressChange",
+        "name": "CHANGE_LEGAL_ADDRESS",
+        "definition": "GLEIF classifier for corporate actions involving a notification of a change in the legal address of the legal entity",
+        "label": "CHANGE_LEGAL_ADDRESS"
+    },
+    {
+        "id": "StandaloneGroup",
+        "type": "ActionGroup",
+        "name": "StandaloneGroup",
+        "definition": "GLEIF classifier for corporate actions that are single, standalone events rather than a combination of multiple events",
+        "label": "standalone group"
+    },
+    {
+        "id": "ComplexLegalFormGroup",
+        "type": "ActionGroup",
+        "name": "ComplexLegalFormGroup",
+        "definition": "GLEIF classifier for corporate actions involving a more complex legal entity event including change of the legal entity status triggered by change of the legal form",
+        "label": "complex legal form group"
+    },
+    {
+        "id": "ReverseTakeoverGroup",
+        "type": "ActionGroup",
+        "name": "ReverseTakeoverGroup",
+        "definition": "GLEIF classifier for corporate actions that are part of a reverse takeover event",
+        "label": "reverse takeover group"
+    },
+    {
+        "id": "LegalFormNameGroup",
+        "type": "ActionGroup",
+        "name": "LegalFormNameGroup",
+        "definition": "GLEIF classifier for corporate actions involving a change in the legal form, name, or other information such as an address change for an organization",
+        "label": "legal form and name group"
+    },
+    {
+        "id": "TRANSFORMATION_UMBRELLA_TO_STANDALONE",
+        "type": "NamedIndividual",
+        "name": "TRANSFORMATION_UMBRELLA_TO_STANDALONE",
+        "label": "TRANSFORMATION_UMBRELLA_TO_STANDALONE",
+        "definition": "GLEIF classifier for corporate actions involving a notification of a change in the legal form from a Fund legal entity structure with one or more than one sub-funds/compartments to a Fund legal entity structure without sub-funds/compartments"
+    },
+    {
+        "id": "GLEIF-CorporateActionClassificationScheme",
+        "type": "NamedIndividual",
+        "name": "GLEIF-CorporateActionClassificationScheme",
+        "definition": "scheme for classifying corporate actions according to the GLEIF LEI Common Data Format (CDF) schema",
+        "label": "GLEIF corporate action classification scheme"
+    },
+    {
+        "id": "SPINOFF",
+        "type": "NamedIndividual",
+        "name": "SPINOFF",
+        "label": "SPINOFF",
+        "definition": "GLEIF classifier for corporate actions where the shareholders of the original entity are compensated for the value loss of the original entity via shares of the new entity or via dividend"
+    },
+    {
+        "id": "BANKRUPTCY",
+        "type": "Bankruptcy",
+        "name": "BANKRUPTCY",
+        "definition": "GLEIF classifier for corporate actions in which the status of a legal entity is that it is unable to pay creditors",
+        "label": "BANKRUPTCY"
+    },
+    {
+        "id": "DISSOLUTION",
+        "type": "BusinessStrategyClassifier",
+        "name": "DISSOLUTION",
+        "definition": "GLEIF classifier for corporate actions involving (i) A voluntary termination of operations, (ii) a general assignment for the benefit of the legal entity's creditors or (iii) any other liquidation, dissolution or winding up of the legal entity (excluding a Liquidity Event), whether voluntary or involuntary (event completed)",
+        "label": "DISSOLUTION"
+    },
+    {
+        "id": "VOLUNTARY_ARRANGEMENT",
+        "type": "BusinessStrategyClassifier",
+        "name": "VOLUNTARY_ARRANGEMENT",
+        "label": "VOLUNTARY_ARRANGEMENT",
+        "definition": "GLEIF classifier for corporate actions consisting of a procedure that allows a legal entity to settle debts by paying only a proportion of the amount that it owes to creditors or to come to some other arrangement with its creditors over the payment of its debts (event completed)"
+    },
+    {
+        "id": "CHANGE_OTHER_NAMES",
+        "type": "OrganizationNameChange",
+        "name": "CHANGE_OTHER_NAMES",
+        "definition": "GLEIF classifier for corporate actions involving a notification of a change in the trade- or doing business name of the legal entity",
+        "label": "CHANGE_OTHER_NAMES"
+    },
+    {
+        "id": "TRANSFORMATION_BRANCH_TO_SUBSIDIARY",
+        "type": "NamedIndividual",
+        "name": "TRANSFORMATION_BRANCH_TO_SUBSIDIARY",
+        "label": "TRANSFORMATION_BRANCH_TO_SUBSIDIARY",
+        "definition": "GLEIF classifier for corporate actions involving the transfer of all of the assets and liabilities of an International Branch to the new subsidiary entity in exchange for the transfer of securities representing the capital of the subsidiary entity receiving the transfer"
+    },
+    {
+        "id": "ACQUISITION_BRANCH",
+        "type": "NamedIndividual",
+        "name": "ACQUISITION_BRANCH",
+        "definition": "GLEIF classifier for corporate actions where the acquiring legal entity purchases an international branch entity",
+        "label": "ACQUISITION_BRANCH"
+    },
+    {
+        "id": "DEMERGER",
+        "type": "NamedIndividual",
+        "name": "DEMERGER",
+        "label": "DEMERGER",
+        "definition": "GLEIF classifier for corporate actions involving a distribution of securities issued by another legal entity"
+    },
+    {
+        "id": "LIQUIDATION",
+        "type": "Liquidation",
+        "name": "LIQUIDATION",
+        "label": "LIQUIDATION",
+        "definition": "GLEIF classifier for corporate actions consisting of distribution of cash, assets, or both"
+    },
+    {
+        "id": "CHANGE_LEGAL_NAME",
+        "type": "OrganizationNameChange",
+        "name": "CHANGE_LEGAL_NAME",
+        "label": "CHANGE_LEGAL_NAME",
+        "definition": "GLEIF classifier for corporate actions involving a notification of a change in the legal name of the legal entity"
+    },
+    {
+        "id": "CHANGE_LEGAL_FORM",
+        "type": "NamedIndividual",
+        "name": "CHANGE_LEGAL_FORM",
+        "definition": "GLEIF classifier for corporate actions involving a notification of a change in the legal form of the legal entity",
+        "label": "CHANGE_LEGAL_FORM"
+    },
+    {
+        "id": "INSOLVENCY",
+        "type": "BusinessStrategyClassifier",
+        "name": "INSOLVENCY",
+        "label": "INSOLVENCY",
+        "definition": "GLEIF classifier for corporate actions involving the entry of a decree or order by a court or agency or supervisory authority having jurisdiction in the premises the appointment of a trustee-in-bankruptcy or similar official for such party in any insolvency, readjustment of debt, marshalling of assets and liabilities, or similar proceedings, or for the winding up or liquidation of their respective affairs (event completed)"
+    },
+    {
+        "id": "CHANGE_HQ_ADDRESS",
+        "type": "NamedIndividual",
+        "name": "CHANGE_HQ_ADDRESS",
+        "label": "CHANGE_HQ_ADDRESS",
+        "definition": "GLEIF classifier for corporate actions involving a notification of a change in the headquarters address of the legal entity"
+    }
+]

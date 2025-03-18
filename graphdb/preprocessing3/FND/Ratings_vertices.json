@@ -1,0 +1,188 @@
+[
+    {
+        "id": "Rating",
+        "type": "Class",
+        "name": "Rating",
+        "label": "rating",
+        "definition": "standing of something at a particular time, indicated by at least one scores with respect to some scale, based on an assessment by some party"
+    },
+    {
+        "id": "Opinion",
+        "type": "Entity",
+        "name": "Opinion"
+    },
+    {
+        "id": "QualitativeRatingScore",
+        "type": "Class",
+        "name": "QualitativeRatingScore",
+        "explanatoryNote": "Ratings for the creditworthiness of securities are often qualitative, rather than quantitative, such as a triple-A (i.e., AAA). Many ratings for products and businesses on the Internet are also qualitative, such as 5-star ratings for something.",
+        "definition": "rating score that is represented as a qualitative code with respect to some rating scale",
+        "label": "qualitative rating score"
+    },
+    {
+        "id": "CodeElement",
+        "type": "Entity",
+        "name": "CodeElement"
+    },
+    {
+        "id": "RatingScore",
+        "type": "Class",
+        "name": "RatingScore",
+        "definition": "grade, classification, or ranking of for something in accordance with some rating scale",
+        "explanatoryNote": "The meaning and methodology for determining a rating score for the rating of something is determined by a rating issuer. A given rating may apply at some point in time, as a part of a lifecycle or process, or generally. Typically ratings reflect an assessment of a state of affairs at some point in time.",
+        "label": "rating score"
+    },
+    {
+        "id": "RatingAssessmentActivity",
+        "type": "Class",
+        "name": "RatingAssessmentActivity",
+        "definition": "assessment activity resulting in a grade or score and potentially a report describing the score and the process used to determine that score",
+        "label": "rating assessment activity"
+    },
+    {
+        "id": "AssessmentActivity",
+        "type": "Entity",
+        "name": "AssessmentActivity"
+    },
+    {
+        "id": "QuantitativeRatingScore",
+        "type": "Class",
+        "name": "QuantitativeRatingScore",
+        "label": "quantitative rating score",
+        "definition": "rating score that is a simple numeric value on some scale, such as a credit rating for an individual"
+    },
+    {
+        "id": "RatingAssessmentEvent",
+        "type": "Class",
+        "name": "RatingAssessmentEvent",
+        "definition": "individual assessment resulting in a grade or score and potentially a report describing the score",
+        "label": "rating assessment event"
+    },
+    {
+        "id": "AssessmentEvent",
+        "type": "Entity",
+        "name": "AssessmentEvent"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "RatingIssuer",
+        "type": "Class",
+        "name": "RatingIssuer",
+        "explanatoryNote": "A rating issuer is frequently, but not always the rating scale publisher. A rating issuer may delegate responsibility for producing a rating to a rating party.",
+        "definition": "party that is responsible for issuing ratings",
+        "label": "rating issuer"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "RatingAgency",
+        "type": "Class",
+        "name": "RatingAgency",
+        "label": "rating agency",
+        "definition": "rating issuer that is also a rating scale publisher, frequently but not always an independent rating service"
+    },
+    {
+        "id": "RatingScalePublisher",
+        "type": "Class",
+        "name": "RatingScalePublisher",
+        "definition": "party responsible for managing one or more rating schemes and potentially publishing ratings based on those schemes",
+        "label": "rating scale publisher",
+        "explanatoryNote": "Rating scale publishers are frequently also rating agencies."
+    },
+    {
+        "id": "RatingParty",
+        "type": "Class",
+        "name": "RatingParty",
+        "label": "rating party",
+        "definition": "person, organization or group that analyzes some aspect of something and develops a rating"
+    },
+    {
+        "id": "RatingScale",
+        "type": "Class",
+        "name": "RatingScale",
+        "label": "rating scale",
+        "definition": "system for assigning a value to something according to some scale with respect to quality, a standard, or ranking"
+    },
+    {
+        "id": "ClassificationScheme",
+        "type": "Entity",
+        "name": "ClassificationScheme"
+    },
+    {
+        "id": "RatingReport",
+        "type": "Class",
+        "name": "RatingReport",
+        "definition": "report describing a set of ratings",
+        "label": "rating report"
+    },
+    {
+        "id": "AssessmentReport",
+        "type": "Entity",
+        "name": "AssessmentReport"
+    },
+    {
+        "id": "rates",
+        "type": "ObjectProperty",
+        "name": "rates",
+        "label": "rates",
+        "definition": "indicates the instrument, party or something else to which a rating applies"
+    },
+    {
+        "id": "hasRatingScore",
+        "type": "ObjectProperty",
+        "name": "hasRatingScore",
+        "definition": "indicates the grade or score associated with a rating with respect to a particular rating scale",
+        "label": "has rating score"
+    },
+    {
+        "id": "hasRating",
+        "type": "ObjectProperty",
+        "name": "hasRating",
+        "definition": "indicates the rating assigned to a thing based on a grade or score according to a particular rating scale",
+        "label": "has rating"
+    },
+    {
+        "id": "hasBestMeasure",
+        "type": "DatatypeProperty",
+        "name": "hasBestMeasure",
+        "explanatoryNote": "Note that hasBestMeasure and hasWorstMeasure may be used together to determine the direction and range of a scale's measure values.",
+        "label": "has best measure",
+        "definition": "indicates the 'best' (most desirable) possible value for a rating score's hasMeasureWithinScale property"
+    },
+    {
+        "id": "hasWorstMeasure",
+        "type": "DatatypeProperty",
+        "name": "hasWorstMeasure",
+        "definition": "indicates the 'worst' (least desirable) possible value for a rating score's hasMeasureWithinScale property",
+        "explanatoryNote": "Note that hasBestMeasure and hasWorstMeasure may be used together to determine the direction and range of a scale's measure values.",
+        "label": "has worst measure"
+    },
+    {
+        "id": "usesRatingParty",
+        "type": "ObjectProperty",
+        "name": "usesRatingParty",
+        "definition": "rating performer an issuer uses to assess ratings",
+        "label": "uses rating performer"
+    },
+    {
+        "id": "producesRatingsFor",
+        "type": "ObjectProperty",
+        "name": "producesRatingsFor",
+        "definition": "issuer for which ratings are produced or posted through",
+        "label": "produces ratings for"
+    },
+    {
+        "id": "hasMeasureWithinScale",
+        "type": "DatatypeProperty",
+        "name": "hasMeasureWithinScale",
+        "label": "has measure within scale",
+        "definition": "indicates a relative, numeric measure or ordering on a rating scale"
+    }
+]

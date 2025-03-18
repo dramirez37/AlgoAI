@@ -1,0 +1,110 @@
+[
+    {
+        "source_id": "FinalProspectus",
+        "target_id": "Prospectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinalProspectus",
+        "target_id": "OfferingDocumentTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "OfferingDocumentTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "FinalProspectus",
+        "target_id": "PreliminaryProspectus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "succeeds",
+                "PreliminaryProspectus"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesIssuanceAgreement",
+        "target_id": "OfferingDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OfferingDocumentTerms",
+        "target_id": "ContractualElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuanceTrustAgreement",
+        "target_id": "SecuritiesIssuanceAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuanceTrustAgreement",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreliminaryProspectus",
+        "target_id": "OfferingDocumentTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "OfferingDocumentTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "PreliminaryProspectus",
+        "target_id": "Prospectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OfferingDocument",
+        "target_id": "OfferingDocumentTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "OfferingDocumentTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "Indenture",
+        "target_id": "SecuritiesIssuanceAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Indenture",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

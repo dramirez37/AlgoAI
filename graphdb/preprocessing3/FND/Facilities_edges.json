@@ -1,0 +1,59 @@
+[
+    {
+        "source_id": "Site",
+        "target_id": "Context",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Capability",
+        "target_id": "Facility",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "involves",
+                "Facility"
+            ]
+        }
+    },
+    {
+        "source_id": "Facility",
+        "target_id": "Capability",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "Capability"
+            ]
+        }
+    },
+    {
+        "source_id": "Facility",
+        "target_id": "Site",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isSituatedAt",
+                "Site"
+            ]
+        }
+    },
+    {
+        "source_id": "Venue",
+        "target_id": "Site",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

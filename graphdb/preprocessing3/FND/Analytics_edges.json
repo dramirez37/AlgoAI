@@ -1,0 +1,469 @@
+[
+    {
+        "source_id": "Mean",
+        "target_id": "StatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Mean",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalProgram",
+        "target_id": "StatisticalUniverse",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "StatisticalUniverse"
+            ]
+        }
+    },
+    {
+        "source_id": "StatisticalProgram",
+        "target_id": "Program",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalProgram",
+        "target_id": "StatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "StatisticalMeasure"
+            ]
+        }
+    },
+    {
+        "source_id": "StatisticalProgram",
+        "target_id": "StatisticalArea",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCoverageArea",
+                "StatisticalArea"
+            ]
+        }
+    },
+    {
+        "source_id": "StatisticalUniverse",
+        "target_id": "Collection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalUniverse",
+        "target_id": "StatisticalProgram",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isApplicableIn",
+                "StatisticalProgram"
+            ]
+        }
+    },
+    {
+        "source_id": "ScopedMeasure",
+        "target_id": "FinitePopulation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "appliesTo",
+                "FinitePopulation"
+            ]
+        }
+    },
+    {
+        "source_id": "ScopedMeasure",
+        "target_id": "QualifiedMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ScopedMeasure",
+        "target_id": "StatisticalArea",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCoverageArea",
+                "StatisticalArea"
+            ]
+        }
+    },
+    {
+        "source_id": "AverageAbsoluteDeviation",
+        "target_id": "Dispersion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QualifiedMeasure",
+        "target_id": "StatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QualifiedMeasure",
+        "target_id": "isCalculatedViaMethodology",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isCalculatedViaMethodology"
+            ]
+        }
+    },
+    {
+        "source_id": "NumericIndexValue",
+        "target_id": "QualifiedMeasure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isValueOf",
+                "QualifiedMeasure"
+            ]
+        }
+    },
+    {
+        "source_id": "NumericIndexValue",
+        "target_id": "ScalarQuantityValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NumericIndexValue",
+        "target_id": "hasMeasurementDateTime",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasMeasurementDateTime"
+            ]
+        }
+    },
+    {
+        "source_id": "Dispersion",
+        "target_id": "FinitePopulation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "FinitePopulation"
+            ]
+        }
+    },
+    {
+        "source_id": "Dispersion",
+        "target_id": "StatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Dispersion",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GeometricMean",
+        "target_id": "Mean",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Variance",
+        "target_id": "Dispersion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Variance",
+        "target_id": "Mean",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "Mean"
+            ]
+        }
+    },
+    {
+        "source_id": "KeyPerformanceIndicator",
+        "target_id": "QualifiedMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalPopulation",
+        "target_id": "StatisticalArea",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isCharacterizedBy",
+                "StatisticalArea"
+            ]
+        }
+    },
+    {
+        "source_id": "StatisticalPopulation",
+        "target_id": "StatisticalUniverse",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalPopulation",
+        "target_id": "FinitePopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AnnualizedStandardDeviation",
+        "target_id": "StandardDeviation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalMeasure",
+        "target_id": "Measure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalMeasure",
+        "target_id": "isEstimate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isEstimate"
+            ]
+        }
+    },
+    {
+        "source_id": "Median",
+        "target_id": "StatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Median",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MedianAbsoluteDeviation",
+        "target_id": "Dispersion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MedianAbsoluteDeviation",
+        "target_id": "Median",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "Median"
+            ]
+        }
+    },
+    {
+        "source_id": "StandardDeviation",
+        "target_id": "Dispersion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Difference",
+        "target_id": "StatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Difference",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Difference",
+        "target_id": "hasSubtrahend",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasSubtrahend"
+            ]
+        }
+    },
+    {
+        "source_id": "Difference",
+        "target_id": "hasMinuend",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasMinuend"
+            ]
+        }
+    },
+    {
+        "source_id": "ArithmeticMean",
+        "target_id": "Mean",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinitePopulation",
+        "target_id": "Collection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalArea",
+        "target_id": "GeographicRegion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalArea",
+        "target_id": "StatisticalAreaIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "StatisticalAreaIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "WeightingFunction",
+        "target_id": "StatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightingFunction",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalAreaIdentifier",
+        "target_id": "GeographicRegionIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalAreaIdentifier",
+        "target_id": "StatisticalArea",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "StatisticalArea"
+            ]
+        }
+    },
+    {
+        "source_id": "Formula",
+        "target_id": "Specification",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Formula",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasExpression",
+                "Expression"
+            ]
+        }
+    },
+    {
+        "source_id": "Expression",
+        "target_id": "Specification",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SamplingVariance",
+        "target_id": "Variance",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

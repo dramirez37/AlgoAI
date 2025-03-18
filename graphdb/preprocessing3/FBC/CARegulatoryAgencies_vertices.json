@@ -1,0 +1,288 @@
+[
+    {
+        "id": "GoodsServicesTaxHarmonizedSalesTaxRegistrationNumber",
+        "type": "Class",
+        "name": "GoodsServicesTaxHarmonizedSalesTaxRegistrationNumber",
+        "definition": "concatenation of an entity's business number, the 'RT' abbreviation and a 4-digit subaccount number used for reporting GST/HST",
+        "abbreviation": "GST/HST registation number",
+        "label": "Goods and Services Tax / Harmonized Sales Tax registration number",
+        "explanatoryNote": "An organization may have more than one GST/HST account through its subunits, this is handled through additional 4-digit subaccount numbers. This is used as both an account and an identifier for the registration."
+    },
+    {
+        "id": "BusinessNumber",
+        "type": "Class",
+        "name": "BusinessNumber",
+        "definition": "unique, 9-digit number that is the standard identifier for legal entities in Canada which are typically a business",
+        "label": "business number",
+        "abbreviation": "BN"
+    },
+    {
+        "id": "ValueAddedTaxIdentificationNumber",
+        "type": "Entity",
+        "name": "ValueAddedTaxIdentificationNumber"
+    },
+    {
+        "id": "RegisteredCharityProgramNumber",
+        "type": "Class",
+        "name": "RegisteredCharityProgramNumber",
+        "definition": "concatenation of an entity's business number, the 'RR' abbreviation and a 4-digit subaccount number used for registered charity contribution",
+        "label": "registered charity program number",
+        "explanatoryNote": "An organization may have more than one registered charity account through its subunits, this is handled through additional 4-digit subaccount numbers. This is used as both an account and an identifier for the registration."
+    },
+    {
+        "id": "PayrollDeductionsProgramNumber",
+        "type": "Class",
+        "name": "PayrollDeductionsProgramNumber",
+        "explanatoryNote": "An organization may have more than one deduction account through its subunits, this is handled through additional 4-digit subaccount numbers. This is used as both an account and an identifier for the registration.",
+        "label": "payroll deductions program number",
+        "definition": "concatenation of an entity's business number, the 'RP' abbreviation and a 4-digit subaccount number used for reporting payroll deductions"
+    },
+    {
+        "id": "CorporationIncomeTaxNumber",
+        "type": "Class",
+        "name": "CorporationIncomeTaxNumber",
+        "label": "corporation income tax number",
+        "explanatoryNote": "An organization may have more than one tax account through its subunits, this is handled through additional 4-digit subaccount numbers. This is used as both an account and an identifier for the registration.",
+        "definition": "concatenation of an entity's business number, the 'RC' abbreviation and a 4-digit subaccount number used for reporting corporate income tax"
+    },
+    {
+        "id": "ImportExportProgramNumber",
+        "type": "Class",
+        "name": "ImportExportProgramNumber",
+        "definition": "concatenation of an entity's business number, the 'RM' abbreviation and a 4-digit subaccount number used for customs and import/export reporting purposes",
+        "explanatoryNote": "An organization may have more than one import-exports account through its subunits, this is handled through additional 4-digit subaccount numbers. This is used as both an account and an identifier for the registration.",
+        "label": "import export program number"
+    },
+    {
+        "id": "InformationReturnsProgramNumber",
+        "type": "Class",
+        "name": "InformationReturnsProgramNumber",
+        "label": "information return program number",
+        "definition": "concatenation of an entity's business number, the 'RZ' abbreviation and a 4-digit subaccount number used for information returns",
+        "explanatoryNote": "An organization may have more than one information returns program number through its subunits, this is handled through additional 4-digit subaccount numbers. This is used as both an account and an identifier for the registration. As opposed to other program numbers, this number is used for filing information returns and not as an account."
+    },
+    {
+        "id": "OrganizationIdentifier",
+        "type": "Entity",
+        "name": "OrganizationIdentifier"
+    },
+    {
+        "id": "TaxIdentifier",
+        "type": "Entity",
+        "name": "TaxIdentifier"
+    },
+    {
+        "id": "BankOfCanada",
+        "type": "GovernmentAgency",
+        "name": "BankOfCanada",
+        "definition": "central bank of Canada",
+        "label": "Banque du Canada",
+        "explanatoryNote": "The Bank of Canada's overall goal is to promote a stable and efficient financial system in Canada. The focus on the financial system as a whole parallels the Bank's approach to monetary policy, which focuses on the entire economy.\n \n The Bank provides liquidity to the financial system, gives policy advice to the federal government on the design and development of the system, oversees major clearing and settlement systems, and provides banking services to these systems and their participants."
+    },
+    {
+        "id": "CanadaRevenueAgency",
+        "type": "NamedIndividual",
+        "name": "CanadaRevenueAgency",
+        "definition": "taxation authority of the Government of Canada",
+        "label": "Agence du revenu du Canada",
+        "explanatoryNote": "This agency administers tax laws for the Canadian government and for several of the provinces and territories of Canada."
+    },
+    {
+        "id": "CanadianBankingRegulatoryAgencyAndCentralBank",
+        "type": "NamedIndividual",
+        "name": "CanadianBankingRegulatoryAgencyAndCentralBank",
+        "definition": "regulatory agency, registration authority and central banking role of the Bank of Canada",
+        "label": "Canadian banking regulatory agency, registration authority and central bank role of the Bank of Canada"
+    },
+    {
+        "id": "GoodsServicesTaxHarmonizedSalesTaxRegistrationIdentifierScheme",
+        "type": "NamedIndividual",
+        "name": "GoodsServicesTaxHarmonizedSalesTaxRegistrationIdentifierScheme",
+        "abbreviation": "Canada Revenue Agency GST/HST registation number identifier scheme",
+        "definition": "registration identifier scheme for GST/HST accounts defined by the Canada Revenue Agency for the registration of a business or legal entity",
+        "label": "Canada Revenue Agency Goods and Services Tax / Harmonized Sales Tax registration number identifier scheme"
+    },
+    {
+        "id": "BusinessNumberRegistrationService",
+        "type": "RegistrationService",
+        "name": "BusinessNumberRegistrationService",
+        "definition": "Canada Revenue Agency service for the registration of business entities",
+        "label": "Canada Revenue Agency business number registration service"
+    },
+    {
+        "id": "InformationReturnsProgramNumberRegistrationService",
+        "type": "RegistrationService",
+        "name": "InformationReturnsProgramNumberRegistrationService",
+        "label": "Canada Revenue Agency information return program number registration service",
+        "definition": "Canada Revenue Agency service for the registration of an information return program number accounts"
+    },
+    {
+        "id": "CanadaRevenueAgencyHeadOfficeAddress",
+        "type": "NamedIndividual",
+        "name": "CanadaRevenueAgencyHeadOfficeAddress",
+        "definition": "head office address for the Canada Revenue Agency",
+        "label": "Canada Revenue Agency head office address"
+    },
+    {
+        "id": "BankOfCanadaLegalEntityIdentifierRegistryEntry",
+        "type": "LegalEntityIdentifierRegistryEntry",
+        "name": "BankOfCanadaLegalEntityIdentifierRegistryEntry",
+        "definition": "legal entity identifier for the Bank of Canada",
+        "label": "Bank of Canada legal entity identifier registry entry"
+    },
+    {
+        "id": "BankOfCanadaHeadOfficeAddress",
+        "type": "NamedIndividual",
+        "name": "BankOfCanadaHeadOfficeAddress",
+        "label": "Bank of Canada head office address",
+        "definition": "head office address for the Bank of Canada"
+    },
+    {
+        "id": "PayrollDeductionsProgramNumberRegistry",
+        "type": "BusinessRegistry",
+        "name": "PayrollDeductionsProgramNumberRegistry",
+        "definition": "Canada Revenue Agency payroll deduction program registry",
+        "label": "Canada Revenue Agency payroll deductions program number registry",
+        "explanatoryNote": "No public access."
+    },
+    {
+        "id": "InformationReturnsProgramNumberRegistry",
+        "type": "NamedIndividual",
+        "name": "InformationReturnsProgramNumberRegistry",
+        "label": "Canada Revenue Agency import information return program number registry",
+        "explanatoryNote": "No public access.",
+        "definition": "Canada Revenue Agency information return program number registry"
+    },
+    {
+        "id": "CorporationIncomeTaxNumberRegistrationService",
+        "type": "NamedIndividual",
+        "name": "CorporationIncomeTaxNumberRegistrationService",
+        "label": "Canada Revenue Agency corporation income tax number registration service",
+        "definition": "Canada Revenue Agency service for the registration of corporation income tax accounts"
+    },
+    {
+        "id": "L-549300PN6MKI0CLP4T28-LEI",
+        "type": "NamedIndividual",
+        "name": "L-549300PN6MKI0CLP4T28-LEI",
+        "definition": "legal entity identifier for the Bank of Canada",
+        "label": "Bank of Canada legal entity identifier"
+    },
+    {
+        "id": "GoodsServicesTaxHarmonizedSalesTaxRegistrationService",
+        "type": "NamedIndividual",
+        "name": "GoodsServicesTaxHarmonizedSalesTaxRegistrationService",
+        "definition": "Canada Revenue Agency service for the registration of GST/HST accounts",
+        "label": "Canada Revenue Agency GST/HST number registration service"
+    },
+    {
+        "id": "ImportExportProgramNumberIdentifierScheme",
+        "type": "NamedIndividual",
+        "name": "ImportExportProgramNumberIdentifierScheme",
+        "definition": "registration identifier scheme for an import export program number defined by the Canada Revenue Agency for the registration of a business or legal entity",
+        "label": "Canada Revenue Agency import export program number identifier scheme"
+    },
+    {
+        "id": "CorporationIncomeTaxNumberRegistry",
+        "type": "BusinessRegistry",
+        "name": "CorporationIncomeTaxNumberRegistry",
+        "explanatoryNote": "No public access.",
+        "label": "Canada Revenue Agency corporation income tax number registry",
+        "definition": "Canada Revenue Agency corporation income tax number registry"
+    },
+    {
+        "id": "CanadianBusinessTaxRegistrar",
+        "type": "BusinessRegistrationAuthority",
+        "name": "CanadianBusinessTaxRegistrar",
+        "label": "Canadian business and tax registrar",
+        "definition": "regulatory agency and registration authority role of the Canada Revenue Agency"
+    },
+    {
+        "id": "RegisteredCharityProgramNumberRegistrationService",
+        "type": "NamedIndividual",
+        "name": "RegisteredCharityProgramNumberRegistrationService",
+        "label": "Canada Revenue Agency registered charity program number registration service",
+        "definition": "Canada Revenue Agency service for the registration of a registered charity program number accounts"
+    },
+    {
+        "id": "PayrollDeductionsProgramIdentifierRegistrationService",
+        "type": "NamedIndividual",
+        "name": "PayrollDeductionsProgramIdentifierRegistrationService",
+        "label": "Canada Revenue Agency payroll deductions program number registration service",
+        "definition": "Canada Revenue Agency service for the registration of payroll deductions program number accounts"
+    },
+    {
+        "id": "GoodsServicesTaxHarmonizedSalesTaxNumberRegistry",
+        "type": "BusinessRegistry",
+        "name": "GoodsServicesTaxHarmonizedSalesTaxNumberRegistry",
+        "label": "Canada Revenue Agency Goods and Services Tax / Harmonized Sales Tax number registry",
+        "explanatoryNote": "Limited public access.",
+        "definition": "registry that records and tracks individual GST/HST numbers for the Canada Revenue Agency",
+        "abbreviation": "GST/HST number registry"
+    },
+    {
+        "id": "PayrollDeductionsProgramIdentifierScheme",
+        "type": "NamedIndividual",
+        "name": "PayrollDeductionsProgramIdentifierScheme",
+        "definition": "registration identifier scheme for payroll deductions program number defined by the Canada Revenue Agency for the registration of a business or legal entity",
+        "label": "Canada Revenue Agency payroll deductions program number identifier scheme"
+    },
+    {
+        "id": "BusinessNumberRegistrationIdentifierScheme",
+        "type": "TaxIdentificationScheme",
+        "name": "BusinessNumberRegistrationIdentifierScheme",
+        "definition": "registration identifier scheme for business numbers defined by the Canada Revenue Agency for the registration of a business or legal entity",
+        "label": "Canada Revenue Agency business number registration identifier scheme"
+    },
+    {
+        "id": "ImportExportProgramNumberRegistry",
+        "type": "BusinessRegistry",
+        "name": "ImportExportProgramNumberRegistry",
+        "label": "Canada Revenue Agency import export program number registry",
+        "explanatoryNote": "No public access.",
+        "definition": "Canada Revenue Agency import export program number registry"
+    },
+    {
+        "id": "ImportExportProgramNumberRegistrationService",
+        "type": "RegistrationService",
+        "name": "ImportExportProgramNumberRegistrationService",
+        "definition": "Canada Revenue Agency service for the registration of import export program number accounts",
+        "label": "Canada Revenue Agency import export program number registration service"
+    },
+    {
+        "id": "RegisteredCharityProgramNumberIdentifierScheme",
+        "type": "NamedIndividual",
+        "name": "RegisteredCharityProgramNumberIdentifierScheme",
+        "definition": "registration identifier scheme for registered charity program numbers defined by the Canada Revenue Agency for the registration of a business or legal entity",
+        "label": "Canada Revenue Agency registered charity program number identifier scheme"
+    },
+    {
+        "id": "InformationReturnsIdentifierScheme",
+        "type": "NamedIndividual",
+        "name": "InformationReturnsIdentifierScheme",
+        "label": "Canada Revenue Agency information return program number identifier scheme",
+        "definition": "registration identifier scheme for information return program numbers defined by the Canada Revenue Agency for the registration of a business or legal entity"
+    },
+    {
+        "id": "BusinessNumberRegistry",
+        "type": "BusinessRegistry",
+        "name": "BusinessNumberRegistry",
+        "explanatoryNote": "No public access.",
+        "definition": "Canada Revenue Agency business number registry",
+        "label": "Canada Revenue Agency business number entity registry"
+    },
+    {
+        "id": "CorporationIncomeTaxNumberIdentifierScheme",
+        "type": "RegistrationIdentifierScheme",
+        "name": "CorporationIncomeTaxNumberIdentifierScheme",
+        "label": "Canada Revenue Agency corporation income tax number identifier scheme",
+        "definition": "registration identifier scheme for corporation income tax numbers defined by the Canada Revenue Agency for the registration of a business or legal entity"
+    },
+    {
+        "id": "RegisteredCharityProgramNumberRegistry",
+        "type": "BusinessRegistry",
+        "name": "RegisteredCharityProgramNumberRegistry",
+        "definition": "Canada Revenue Agency registered charity program number registry",
+        "label": "Canada Revenue Agency import registered charity program number registry",
+        "explanatoryNote": "Full public access."
+    }
+]

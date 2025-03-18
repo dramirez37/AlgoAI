@@ -1,0 +1,178 @@
+[
+    {
+        "id": "CurrencySpotVolatility",
+        "type": "Class",
+        "name": "CurrencySpotVolatility",
+        "label": "currency spot volatility",
+        "definition": "measure of exchange rate fluctuation based on a range of past actual values for exchange rates"
+    },
+    {
+        "id": "ExchangeRateVolatility",
+        "type": "Class",
+        "name": "ExchangeRateVolatility",
+        "definition": "statistical measure of the rate of change in the rate at which one currency can be exchanged for another",
+        "label": "exchange rate volatility"
+    },
+    {
+        "id": "HistoricalVolatility",
+        "type": "Entity",
+        "name": "HistoricalVolatility"
+    },
+    {
+        "id": "ForeignExchangeService",
+        "type": "Class",
+        "name": "ForeignExchangeService",
+        "definition": "financial service involving the exchange of one currency for another, conversion of one currency for another, and transfer of money from one country to another whereby currency conversion is required",
+        "label": "foreign exchange service"
+    },
+    {
+        "id": "FinancialService",
+        "type": "Entity",
+        "name": "FinancialService"
+    },
+    {
+        "id": "QuotedExchangeRate",
+        "type": "Class",
+        "name": "QuotedExchangeRate",
+        "explanatoryNote": "An exchange rate of R represents a rate of R units of the quoted currency to 1 unit of the base currency.",
+        "label": "quoted exchange rate",
+        "definition": "exchange rate quoted at a specific point in time, for a given block amount of currency as quoted against another (base) currency"
+    },
+    {
+        "id": "MarketRate",
+        "type": "Entity",
+        "name": "MarketRate"
+    },
+    {
+        "id": "ExchangeRate",
+        "type": "Entity",
+        "name": "ExchangeRate"
+    },
+    {
+        "id": "CurrencyForwardRateVolatility",
+        "type": "Class",
+        "name": "CurrencyForwardRateVolatility",
+        "label": "currency forward rate volatility",
+        "definition": "measure of exchange rate fluctuation based on a range of projected values for exchange rates"
+    },
+    {
+        "id": "ImpliedVolatility",
+        "type": "Entity",
+        "name": "ImpliedVolatility"
+    },
+    {
+        "id": "ExchangeRateStructure",
+        "type": "Class",
+        "name": "ExchangeRateStructure",
+        "label": "exchange rate structure",
+        "definition": "structured collection of quoted or projected exchange rates, such that volatility may be constructed for the structure"
+    },
+    {
+        "id": "DatedStructuredCollection",
+        "type": "Entity",
+        "name": "DatedStructuredCollection"
+    },
+    {
+        "id": "CurrencyForwardRate",
+        "type": "Class",
+        "name": "CurrencyForwardRate",
+        "label": "currency forward rate",
+        "definition": "rate of exchange between two currencies for settlement at some future point in time, expressed as a premium on the spot rate"
+    },
+    {
+        "id": "InternationalElectronicFundsTransferService",
+        "type": "Class",
+        "name": "InternationalElectronicFundsTransferService",
+        "label": "international electronic funds transfer service",
+        "definition": "electronic funds transfer (EFT) service involving the transfer of funds across national borders, that may also involve currency conversion"
+    },
+    {
+        "id": "ElectronicFundsTransferService",
+        "type": "Entity",
+        "name": "ElectronicFundsTransferService"
+    },
+    {
+        "id": "CurrencyConversionService",
+        "type": "Class",
+        "name": "CurrencyConversionService",
+        "label": "currency conversion service",
+        "explanatoryNote": "A currency exchange service may be provided by a stand-alone business or may be part of the services offered by a bank or other financial institution. The currency exchange profits from its services either through adjusting the exchange rate or taking a commission.",
+        "definition": "foreign exchange service involving the conversion of currency of one country or group of countries for another, typically, but not always, as a counter transaction"
+    },
+    {
+        "id": "CurrencySpotMidRate",
+        "type": "Class",
+        "name": "CurrencySpotMidRate",
+        "label": "currency spot mid rate",
+        "definition": "indicative middle market (mean of spot buying and selling) rate as observed by the reporting source"
+    },
+    {
+        "id": "CurrencySpotRate",
+        "type": "Class",
+        "name": "CurrencySpotRate",
+        "label": "currency spot rate",
+        "definition": "rate at which one currency may be exchanged for another for immediate delivery",
+        "explanatoryNote": "Spot rates represent the prices buyers pay in one currency to purchase a second currency. Although the spot exchange rate is for delivery on the earliest value date, the standard settlement date for most spot transactions is two business days after the transaction date."
+    },
+    {
+        "id": "CurrencySpotSellRate",
+        "type": "Class",
+        "name": "CurrencySpotSellRate",
+        "definition": "indicative spot selling market rate as observed by the reporting source",
+        "label": "currency spot sell rate"
+    },
+    {
+        "id": "Volatility",
+        "type": "Entity",
+        "name": "Volatility"
+    },
+    {
+        "id": "CurrencySpotBuyRate",
+        "type": "Class",
+        "name": "CurrencySpotBuyRate",
+        "label": "currency spot buy rate",
+        "definition": "indicative spot buying market rate as observed by the reporting source"
+    },
+    {
+        "id": "hasQuoteCurrency",
+        "type": "ObjectProperty",
+        "name": "hasQuoteCurrency",
+        "definition": "indicates the quote currency in an exchange rate; R units of this currency represent one unit of the base currency",
+        "label": "has quote currency"
+    },
+    {
+        "id": "hasQuotedExchangeRate",
+        "type": "ObjectProperty",
+        "name": "hasQuotedExchangeRate",
+        "label": "has quoted exchange rate",
+        "definition": "rate of exchange between two currencies as specified as of some date and time as quoted by a specific source"
+    },
+    {
+        "id": "hasQuotationBlockAmountBasis",
+        "type": "ObjectProperty",
+        "name": "hasQuotationBlockAmountBasis",
+        "label": "has quotation block amount basis",
+        "definition": "indicates the amount of the dealt currency which would be exchanged in a trade for which the stated spot rate applies"
+    },
+    {
+        "id": "hasExchangeRateQuotationSource",
+        "type": "ObjectProperty",
+        "name": "hasExchangeRateQuotationSource",
+        "definition": "indicates the origin of a quoted exchange rate",
+        "label": "has exchange rate quotation source"
+    },
+    {
+        "id": "isPremiumOn",
+        "type": "ObjectProperty",
+        "name": "isPremiumOn",
+        "definition": "an exchange rate expressed as a premium on the spot rate for the currency pair",
+        "label": "is premium on"
+    },
+    {
+        "id": "hasQuotationSettlementBasis",
+        "type": "ObjectProperty",
+        "name": "hasQuotationSettlementBasis",
+        "definition": "indicates the settlement period for a trade for which the stated spot rate applies",
+        "label": "has quotation settlement basis"
+    }
+]

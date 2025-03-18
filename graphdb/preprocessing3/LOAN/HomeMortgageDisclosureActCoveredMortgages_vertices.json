@@ -1,0 +1,185 @@
+[
+    {
+        "id": "Ethnicity",
+        "type": "Class",
+        "name": "Ethnicity",
+        "definition": "category based on a cultural factors, including nationality, regional culture, ancestry, and language",
+        "label": "ethnicity"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "HMDA-Report",
+        "type": "Class",
+        "name": "HMDA-Report",
+        "label": "HMDA report",
+        "definition": "a report prepared to satisfy HMDA regulatory reporting requirements as described US section 1003.3(c) of the Revised Home Mortgage Disclosure Act of 2015"
+    },
+    {
+        "id": "Report",
+        "type": "Entity",
+        "name": "Report"
+    },
+    {
+        "id": "UniversalLoanIdentifier",
+        "type": "Class",
+        "name": "UniversalLoanIdentifier",
+        "label": "universal loan identifier",
+        "explanatoryNote": "In the US, the structure of this identifier is defined in the 2015 revision to the Home Mortgage Disclosure Act.",
+        "definition": "unique identifier given to unequivocally identify a specific loan secured by real estate"
+    },
+    {
+        "id": "FinancialInstrumentIdentifier",
+        "type": "Entity",
+        "name": "FinancialInstrumentIdentifier"
+    },
+    {
+        "id": "HMDA-Disposition",
+        "type": "Class",
+        "name": "HMDA-Disposition",
+        "label": "HMDA disposition",
+        "definition": "a type of action taken regarding an application for a HMDA covered loan"
+    },
+    {
+        "id": "HMDA-CoveredLoanContract",
+        "type": "Class",
+        "name": "HMDA-CoveredLoanContract",
+        "label": "HMDA covered loan contract",
+        "definition": "a closed-end mortgage loan or open-end line of credit that is not an excluded transaction for HMDA reporting under US section 1003.3(c) of the Revised Home Mortgage Disclosure Act of 2015"
+    },
+    {
+        "id": "LoanSecuredByRealEstate",
+        "type": "Entity",
+        "name": "LoanSecuredByRealEstate"
+    },
+    {
+        "id": "Race",
+        "type": "Class",
+        "name": "Race",
+        "label": "race",
+        "definition": "a category based on a person's physical characteristics, such as bone structure and skin, hair, or eye color"
+    },
+    {
+        "id": "HowSubmitted",
+        "type": "Class",
+        "name": "HowSubmitted",
+        "definition": "category indicating whether the applicant or borrower submitted the application for the covered loan directly to the reporting financial institution",
+        "label": "how submitted"
+    },
+    {
+        "id": "HMDA-PreApprovalRequest",
+        "type": "Class",
+        "name": "HMDA-PreApprovalRequest",
+        "definition": "a request for pre-approval of a home purchase loan up to a certain amount, and subject to certain non-credit related conditions",
+        "explanatoryNote": "This request is approved only after a comprehensive analysis of the credit worthiness of the borrower is carried out.",
+        "label": "HMDA pre-approval request"
+    },
+    {
+        "id": "PreApprovalRequest",
+        "type": "Entity",
+        "name": "PreApprovalRequest"
+    },
+    {
+        "id": "ConstructionType",
+        "type": "Class",
+        "name": "ConstructionType",
+        "definition": "particular kind of construction",
+        "label": "construction type"
+    },
+    {
+        "id": "ConstructionType_MobileHome",
+        "type": "NamedIndividual",
+        "name": "ConstructionType_MobileHome",
+        "explanatoryNote": "It does not meet HUD code.",
+        "definition": "a dwelling unit constructed on a base frame which features wheels and axles to be used in transporting home from place to place",
+        "label": "mobile home"
+    },
+    {
+        "id": "ConstructionType_Modular",
+        "type": "ConstructionType",
+        "name": "ConstructionType_Modular",
+        "label": "modular",
+        "definition": "a factory-built dwelling not on a permanent chassis"
+    },
+    {
+        "id": "HMDA-Disposition-ApplicationWithdrawn",
+        "type": "HMDA-Disposition",
+        "name": "HMDA-Disposition-ApplicationWithdrawn"
+    },
+    {
+        "id": "HMDA-Disposition-PreapprovalRequestDenied",
+        "type": "NamedIndividual",
+        "name": "HMDA-Disposition-PreapprovalRequestDenied"
+    },
+    {
+        "id": "ConstructionType_OnFrameModular",
+        "type": "ConstructionType",
+        "name": "ConstructionType_OnFrameModular",
+        "label": "on frame modular",
+        "definition": "a factory built dwelling on a permanent chassis which does not have a HUD label"
+    },
+    {
+        "id": "HMDA-Disposition-PreapprovalRequestApprovedButNotAccepted",
+        "type": "NamedIndividual",
+        "name": "HMDA-Disposition-PreapprovalRequestApprovedButNotAccepted"
+    },
+    {
+        "id": "HMDA-Disposition-LoanPurchasedByYourInstitution",
+        "type": "HMDA-Disposition",
+        "name": "HMDA-Disposition-LoanPurchasedByYourInstitution"
+    },
+    {
+        "id": "HMDA-Disposition-ApplicationDenied",
+        "type": "NamedIndividual",
+        "name": "HMDA-Disposition-ApplicationDenied"
+    },
+    {
+        "id": "HMDA-Disposition-LoanOriginated",
+        "type": "NamedIndividual",
+        "name": "HMDA-Disposition-LoanOriginated"
+    },
+    {
+        "id": "ConstructionType_Manufactured",
+        "type": "ConstructionType",
+        "name": "ConstructionType_Manufactured",
+        "definition": "a factory-built dwelling built in compliance with the Federal Manufactured Home Construction and Safety Standards in effect at the time the home was manufactured as evidenced by the HUD label",
+        "label": "manufactured"
+    },
+    {
+        "id": "HowSubmitted-notDirectly",
+        "type": "NamedIndividual",
+        "name": "HowSubmitted-notDirectly"
+    },
+    {
+        "id": "ConstructionType_SiteBuilt",
+        "type": "ConstructionType",
+        "name": "ConstructionType_SiteBuilt",
+        "definition": "describes construction process, indicating that most elements are created at the homes permanent site. May include some prefabricated components",
+        "label": "site built"
+    },
+    {
+        "id": "HMDA-Disposition-FileClosedForIncompleteness",
+        "type": "NamedIndividual",
+        "name": "HMDA-Disposition-FileClosedForIncompleteness"
+    },
+    {
+        "id": "HMDA-Disposition-ApplicationApprovedButNotAccepted",
+        "type": "NamedIndividual",
+        "name": "HMDA-Disposition-ApplicationApprovedButNotAccepted"
+    },
+    {
+        "id": "hasHMDA-DispositionDate",
+        "type": "ObjectProperty",
+        "name": "hasHMDA-DispositionDate",
+        "definition": "the date associated with the HMDA Disposition for a HMDA Covered Loan",
+        "label": "HMDA disposition date"
+    },
+    {
+        "id": "HowSubmitted-directly",
+        "type": "NamedIndividual",
+        "name": "HowSubmitted-directly"
+    }
+]

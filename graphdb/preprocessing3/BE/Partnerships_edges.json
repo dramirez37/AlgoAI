@@ -1,0 +1,236 @@
+[
+    {
+        "source_id": "Partnership",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Partnership",
+        "target_id": "PartnershipAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isGovernedBy",
+                "PartnershipAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "Partnership",
+        "target_id": "BusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Partnership",
+        "target_id": "Partner",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "playsRole",
+                "Partner"
+            ]
+        }
+    },
+    {
+        "source_id": "GeneralPartner",
+        "target_id": "DeJureControllingInterestParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GeneralPartner",
+        "target_id": "Partner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Partner",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Partner",
+        "target_id": "PartnershipAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "PartnershipAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "Partner",
+        "target_id": "Partnership",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isMemberOf",
+                "Partnership"
+            ]
+        }
+    },
+    {
+        "source_id": "Partner",
+        "target_id": "ConstitutionalOwner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartnershipAgreement",
+        "target_id": "OrganizationCoveringAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartnershipAgreement",
+        "target_id": "Partner",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Partner"
+            ]
+        }
+    },
+    {
+        "source_id": "LimitedLiabilityPartnership",
+        "target_id": "GeneralPartner",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasGeneralPartner",
+                "GeneralPartner"
+            ]
+        }
+    },
+    {
+        "source_id": "LimitedLiabilityPartnership",
+        "target_id": "Partnership",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LimitedPartner",
+        "target_id": "Partner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GeneralPartnership",
+        "target_id": "GeneralPartner",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasGeneralPartner",
+                "GeneralPartner"
+            ]
+        }
+    },
+    {
+        "source_id": "GeneralPartnership",
+        "target_id": "GeneralPartner",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasMember",
+                "playsRole",
+                "GeneralPartner"
+            ]
+        }
+    },
+    {
+        "source_id": "GeneralPartnership",
+        "target_id": "Partnership",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LimitedPartnership",
+        "target_id": "Partnership",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LimitedPartnership",
+        "target_id": "LimitedPartner",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasLimitedPartner",
+                "LimitedPartner"
+            ]
+        }
+    },
+    {
+        "source_id": "LimitedPartnership",
+        "target_id": "GeneralPartner",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasGeneralPartner",
+                "GeneralPartner"
+            ]
+        }
+    },
+    {
+        "source_id": "LimitedLiabilityLimitedPartnership",
+        "target_id": "LimitedPartnership",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

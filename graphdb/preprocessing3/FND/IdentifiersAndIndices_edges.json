@@ -1,0 +1,95 @@
+[
+    {
+        "source_id": "ReassignableIdentifier",
+        "target_id": "hasInitialAssignmentDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasInitialAssignmentDate"
+            ]
+        }
+    },
+    {
+        "source_id": "ReassignableIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReassignableIdentifier",
+        "target_id": "hasAssignmentTerminationDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasAssignmentTerminationDate"
+            ]
+        }
+    },
+    {
+        "source_id": "IndexingScheme",
+        "target_id": "Index",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "Index"
+            ]
+        }
+    },
+    {
+        "source_id": "IndexingScheme",
+        "target_id": "Scheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Index",
+        "target_id": "Reference",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Index",
+        "target_id": "isIndexTo",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isIndexTo"
+            ]
+        }
+    },
+    {
+        "source_id": "Index",
+        "target_id": "IndexingScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "IndexingScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "IdentificationScheme",
+        "target_id": "Scheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

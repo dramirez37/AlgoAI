@@ -1,0 +1,90 @@
+[
+    {
+        "id": "Mortgage",
+        "type": "Class",
+        "name": "Mortgage",
+        "explanatoryNote": "A mortgage prevents transfer of the ownership of the real property unless the financial interest is satisfied. Any loan can be collateralized by a mortgage, including, for example, a bail bond.",
+        "label": "mortgage",
+        "definition": "grant of financial interest in real property to a party that is not an owner of that real property and is recorded by a registration authority"
+    },
+    {
+        "id": "SecurityAgreement",
+        "type": "Entity",
+        "name": "SecurityAgreement"
+    },
+    {
+        "id": "ClosedEndMortgageLoan",
+        "type": "Class",
+        "name": "ClosedEndMortgageLoan",
+        "definition": "loan secured by real estate with no ability for the borrower to receive additional funds under the loan at a later date",
+        "label": "closed-end mortgage loan"
+    },
+    {
+        "id": "LoanSecuredByRealEstate",
+        "type": "Class",
+        "name": "LoanSecuredByRealEstate",
+        "definition": "loan that, at origination, is secured wholly or substantially by a lien or liens on real property for which the lien or liens are central to the extension of the credit - that is, the borrower would not have been extended credit in the same amount or on terms as favorable without the lien or liens on real property",
+        "explanatoryNote": "In general parlance, loans secured by real estate are often called mortgages or mortgage loans. This usage conflates a number of related concepts, which would limit the usability of FIBO for financial institutions and regulators with respect to such loans. As described herein, many different kinds of loans can be secured by real estate, including various commercial, construction, agricultural, and consumer loans.",
+        "label": "loan secured by real estate"
+    },
+    {
+        "id": "ClosedEndCredit",
+        "type": "Entity",
+        "name": "ClosedEndCredit"
+    },
+    {
+        "id": "CollateralizedLoan",
+        "type": "Entity",
+        "name": "CollateralizedLoan"
+    },
+    {
+        "id": "OpenEndMortgageLoan",
+        "type": "Class",
+        "name": "OpenEndMortgageLoan",
+        "label": "open-end mortgage loan",
+        "definition": "loan secured by real estate with a provision that the outstanding loan amount may be increased upon mutual agreement of the lender and the borrower"
+    },
+    {
+        "id": "OpenEndCredit",
+        "type": "Entity",
+        "name": "OpenEndCredit"
+    },
+    {
+        "id": "ClosedEndReverseMortgage",
+        "type": "Class",
+        "name": "ClosedEndReverseMortgage",
+        "label": "closed-end reverse mortgage",
+        "explanatoryNote": "Normally, closed-end reverse mortgages are first liens.",
+        "definition": "reverse mortgage that provides a lump sum payment to the borrower at closing, with no ability for the borrower to receive additional funds under the mortgage at a later date"
+    },
+    {
+        "id": "ReverseMortgageLoan",
+        "type": "Class",
+        "name": "ReverseMortgageLoan",
+        "definition": "loan secured by real estate that pays money to the borrower against a set principal limit based on the value of existing equity in the underlying collateral",
+        "explanatoryNote": "The interest accrued is added to the principal balance.",
+        "label": "reverse mortgage loan"
+    },
+    {
+        "id": "OpenEndReverseMortgage",
+        "type": "Class",
+        "name": "OpenEndReverseMortgage",
+        "explanatoryNote": "Normally, open-end reverse mortgages are first liens. These include combinations of both a lump sum payment to the borrower at closing and payments after the closing of the loan.",
+        "label": "open-end reverse mortgage",
+        "definition": "reverse mortgage structured like a home equity line of credit in that it provides the borrower with additional funds after closing (either as fixed monthly payments, under a line of credit, or both)"
+    },
+    {
+        "id": "isARMConvertible",
+        "type": "DatatypeProperty",
+        "name": "isARMConvertible",
+        "label": "is ARM convertible",
+        "definition": "indicates whether or not the loan can be converted into an adjustable-rate mortgage contract (ARM)"
+    },
+    {
+        "id": "hasInitialFundingDate",
+        "type": "ObjectProperty",
+        "name": "hasInitialFundingDate",
+        "definition": "relates a mortgage to the date on which the contract is consummated, officially creating the obligations therein",
+        "label": "has initial funding date"
+    }
+]

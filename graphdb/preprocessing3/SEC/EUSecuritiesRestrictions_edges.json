@@ -1,0 +1,55 @@
+[
+    {
+        "source_id": "BaselIIIDesignation",
+        "target_id": "FinancialInstrumentClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BaselIIIDesignation",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "Security"
+            ]
+        }
+    },
+    {
+        "source_id": "MiFIDRegulatedSecurity",
+        "target_id": "isMiFIDReportingRequired",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isMiFIDReportingRequired"
+            ]
+        }
+    },
+    {
+        "source_id": "MiFIDRegulatedSecurity",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MiFIDRegulatedSecurity",
+        "target_id": "hasUpperLimitOnFloatingShares",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasUpperLimitOnFloatingShares"
+            ]
+        }
+    }
+]

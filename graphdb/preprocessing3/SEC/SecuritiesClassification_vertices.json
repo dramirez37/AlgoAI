@@ -1,0 +1,105 @@
+[
+    {
+        "id": "IndustryClassificationBenchmarkClassifier",
+        "type": "Class",
+        "name": "IndustryClassificationBenchmarkClassifier",
+        "abbreviation": "ICB classifier",
+        "label": "industry classification benchmark classifier",
+        "definition": "standardized classification or delineation for an organization based on their main source of revenue"
+    },
+    {
+        "id": "CodeElement",
+        "type": "Entity",
+        "name": "CodeElement"
+    },
+    {
+        "id": "IndustrySectorClassifier",
+        "type": "Entity",
+        "name": "IndustrySectorClassifier"
+    },
+    {
+        "id": "ClassificationOfFinancialInstrumentsCodeScheme",
+        "type": "Class",
+        "name": "ClassificationOfFinancialInstrumentsCodeScheme",
+        "abbreviation": "CFI code scheme",
+        "definition": "classification scheme for set of codes for financial instruments that can be used globally for straight-through processing by all involved participants in an electronic data processing environment",
+        "label": "classification of financial instruments code scheme",
+        "explanatoryNote": "The ISO 10962 Securities and related financial instruments - Classification of financial instruments (CFI) code was developed as a solution to a number of challenges. One is to establish a series of codes which clearly classify financial instruments having similar features. The other is to develop a glossary of terms and provide common definitions which allow market participants to easily understand terminology being used."
+    },
+    {
+        "id": "FinancialInstrumentClassificationScheme",
+        "type": "Class",
+        "name": "FinancialInstrumentClassificationScheme",
+        "label": "financial instrument classification scheme",
+        "definition": "classification scheme defining a set of classifiers for financial instruments"
+    },
+    {
+        "id": "AssetClass",
+        "type": "Class",
+        "name": "AssetClass",
+        "explanatoryNote": "The three main asset classes are equities, or stocks; fixed income, or bonds; and cash equivalents, or money market instruments. Some investment professionals add real estate and commodities, and possibly other types of investments, to the asset class mix.",
+        "definition": "financial instrument classifier for a group of securities that exhibit similar characteristics, behave similarly in the marketplace and are subject to the same laws and regulations",
+        "label": "asset class"
+    },
+    {
+        "id": "FinancialInstrumentClassifier",
+        "type": "Class",
+        "name": "FinancialInstrumentClassifier",
+        "definition": "classifier for a financial instrument based on its type and features",
+        "label": "financial instrument classifier"
+    },
+    {
+        "id": "GlobalIndustryClassificationStandardsClassifier",
+        "type": "Class",
+        "name": "GlobalIndustryClassificationStandardsClassifier",
+        "abbreviation": "GICS classifier",
+        "label": "Global Industry Classification Standards classifier",
+        "definition": "four-tiered standardized classification or delineation for an organization based on the principal business activity of the organization"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "FinancialInstrumentClassificationCode",
+        "type": "Class",
+        "name": "FinancialInstrumentClassificationCode",
+        "abbreviation": "CFI code",
+        "definition": "classifier and code for a financial instrument defined in the ISO 10962 Classification of Financial Instruments (CFI) Code Scheme",
+        "label": "financial instrument classification code"
+    },
+    {
+        "id": "ClassificationScheme",
+        "type": "Entity",
+        "name": "ClassificationScheme"
+    },
+    {
+        "id": "FinancialInstrument",
+        "type": "Class",
+        "name": "FinancialInstrument"
+    },
+    {
+        "id": "IndustryClassificationBenchmarkScheme",
+        "type": "NamedIndividual",
+        "name": "IndustryClassificationBenchmarkScheme",
+        "definition": "classification scheme that is a hierarchical four-level system classifying companies based on their main source of revenue",
+        "explanatoryNote": "It is operated and managed by FTSE Russell, a subsidiary of London Stock Exchange Group (LSEG). It is currently one of the major classification systems for securities. This system has been in use since its release in 2005. It is globally recognized and used by some of the biggest financial institutions, such as: London Stock Exchange, NYSE Euronext and NASDAQ.",
+        "label": "Industry Classification Benchmark scheme"
+    },
+    {
+        "id": "ISO10962-201910-CodeScheme",
+        "type": "ClassificationOfFinancialInstrumentsCodeScheme",
+        "name": "ISO10962-201910-CodeScheme",
+        "definition": "Fourth Edition, 2019-10 version of the ISO 10962 Classification of Financial Instruments (CFI) Code scheme",
+        "label": "ISO 10962 2019-10 code set"
+    },
+    {
+        "id": "GlobalIndustryClassificationStandardsScheme",
+        "type": "NamedIndividual",
+        "name": "GlobalIndustryClassificationStandardsScheme",
+        "definition": "classification scheme that is a hierarchical four-level system classifying companies based on the principal business activity of the organization",
+        "label": "Global Industry Classification Standards scheme",
+        "explanatoryNote": "The four tiers are: Sectors, Industry Groups, Industries and Sub-Industries. All definitions are standardized and applied to companies globally. Each company is assigned a single GICS classification in each of the four tiers, according to its principal business activity. Revenue is a key factor in determining a firm's principal business activity. MSCI and S&P Dow Jones Indices developed this classification standard to provide investors with consistent and exhaustive industry definitions."
+    }
+]

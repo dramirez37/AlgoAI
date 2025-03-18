@@ -1,0 +1,122 @@
+[
+    {
+        "source_id": "MoneyMarketInstrument",
+        "target_id": "FixedIncomeSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RepurchaseAgreement",
+        "target_id": "MutualContractualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RepurchaseAgreement",
+        "target_id": "MoneyMarketInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BillOfExchange",
+        "target_id": "Drawer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Drawer"
+            ]
+        }
+    },
+    {
+        "source_id": "BillOfExchange",
+        "target_id": "Drawee",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Drawee"
+            ]
+        }
+    },
+    {
+        "source_id": "BillOfExchange",
+        "target_id": "MoneyMarketInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankersAcceptance",
+        "target_id": "BillOfExchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommercialPaper",
+        "target_id": "MoneyMarketInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Drawer",
+        "target_id": "Obligee",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Drawer",
+        "target_id": "BillOfExchange",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "BillOfExchange"
+            ]
+        }
+    },
+    {
+        "source_id": "EurodollarDeposit",
+        "target_id": "CertificateOfDeposit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Drawee",
+        "target_id": "Payer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Drawee",
+        "target_id": "BillOfExchange",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "BillOfExchange"
+            ]
+        }
+    }
+]

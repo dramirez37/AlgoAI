@@ -1,0 +1,646 @@
+[
+    {
+        "id": "DebtAuctionProcess",
+        "type": "Class",
+        "name": "DebtAuctionProcess",
+        "label": "debt auction process"
+    },
+    {
+        "id": "SecuritiesIssuanceProcess",
+        "type": "Entity",
+        "name": "SecuritiesIssuanceProcess"
+    },
+    {
+        "id": "EquityDemutualizationProcess",
+        "type": "Class",
+        "name": "EquityDemutualizationProcess",
+        "label": "equity demutualization process"
+    },
+    {
+        "id": "BondCounsel",
+        "type": "Class",
+        "name": "BondCounsel",
+        "label": "bond counsel"
+    },
+    {
+        "id": "ContractThirdParty",
+        "type": "Entity",
+        "name": "ContractThirdParty"
+    },
+    {
+        "id": "DebtUnderwritingClosing",
+        "type": "Class",
+        "name": "DebtUnderwritingClosing",
+        "label": "debt underwriting closing"
+    },
+    {
+        "id": "UnderwritingIssuanceClosing",
+        "type": "Class",
+        "name": "UnderwritingIssuanceClosing",
+        "label": "underwriting issuance closing"
+    },
+    {
+        "id": "MuniIssuanceProcessParticipant",
+        "type": "Class",
+        "name": "MuniIssuanceProcessParticipant",
+        "label": "muni issuance process participant"
+    },
+    {
+        "id": "IssuanceProcessParticipant",
+        "type": "Class",
+        "name": "IssuanceProcessParticipant",
+        "label": "issuance process participant"
+    },
+    {
+        "id": "Obligor",
+        "type": "Class",
+        "name": "Obligor",
+        "label": "obligor"
+    },
+    {
+        "id": "SecuritiesUnderwritingIssuanceProcess",
+        "type": "Class",
+        "name": "SecuritiesUnderwritingIssuanceProcess",
+        "definition": "The process by which debt instruments are offered to the market by a syndicate of underwriters who underwrite the issue.",
+        "label": "securities underwriting issuance process"
+    },
+    {
+        "id": "DTCCMember",
+        "type": "Class",
+        "name": "DTCCMember",
+        "definition": "A firm which is a member of DTCC. Note: this Actor may perform any of the Roles described elsewhere in this Issuance model, i.e. the DTCC Member may also be any of the Actors defined. REVIEW: does this apply to ALL the defined Actor types?",
+        "label": "d t c c member"
+    },
+    {
+        "id": "SecuritiesUnderwritingIssuance",
+        "type": "Class",
+        "name": "SecuritiesUnderwritingIssuance",
+        "label": "securities underwriting issuance",
+        "definition": "Underwriting, as a method of Securities Issuance."
+    },
+    {
+        "id": "SecuritiesIssuanceContext",
+        "type": "Class",
+        "name": "SecuritiesIssuanceContext",
+        "label": "securities issuance context"
+    },
+    {
+        "id": "ProcessParticipant",
+        "type": "Class",
+        "name": "ProcessParticipant",
+        "label": "process participant"
+    },
+    {
+        "id": "PayingAgent",
+        "type": "Class",
+        "name": "PayingAgent",
+        "label": "paying agent"
+    },
+    {
+        "id": "IssuanceAgent",
+        "type": "Class",
+        "name": "IssuanceAgent",
+        "label": "issuance agent"
+    },
+    {
+        "id": "IssueOverAllotmentTerms",
+        "type": "Class",
+        "name": "IssueOverAllotmentTerms",
+        "label": "issue over allotment terms",
+        "definition": "Terms for Change to an Issue Amount. A provision in an underwriting agreement, which allows members of the underwriting syndicate to purchase additional shares at the original price.",
+        "explanatoryNote": "Also known as a green shoe. Note that this set of terms does not refer to over-allotment as change to a the total issue amount issued to an individual investor. That would require separate but similar terms. FIBIM has \"Over Allotment Amount\" as an individual term."
+    },
+    {
+        "id": "OfferingDocumentTerms",
+        "type": "Entity",
+        "name": "OfferingDocumentTerms"
+    },
+    {
+        "id": "DebtUnderwritingIssuanceProcess",
+        "type": "Class",
+        "name": "DebtUnderwritingIssuanceProcess",
+        "label": "debt underwriting issuance process"
+    },
+    {
+        "id": "PrimaryMarket",
+        "type": "Entity",
+        "name": "PrimaryMarket"
+    },
+    {
+        "id": "AnnounceSecuritiesIssue",
+        "type": "Class",
+        "name": "AnnounceSecuritiesIssue",
+        "label": "announce securities issue"
+    },
+    {
+        "id": "EquityIPOProcess",
+        "type": "Class",
+        "name": "EquityIPOProcess",
+        "label": "equity i p o process"
+    },
+    {
+        "id": "RegisteredSecurityIssuanceProcess",
+        "type": "Class",
+        "name": "RegisteredSecurityIssuanceProcess",
+        "label": "registered security issuance process"
+    },
+    {
+        "id": "DisseminationUnderwriter",
+        "type": "Class",
+        "name": "DisseminationUnderwriter",
+        "label": "dissemination underwriter"
+    },
+    {
+        "id": "PotentialMuniUnderwriter",
+        "type": "Class",
+        "name": "PotentialMuniUnderwriter",
+        "label": "potential muni underwriter",
+        "definition": "An intermediary between an issuer of a security and the investing public. An underwriter can either be DTC Participant or Correspondent who would clear the underwriting deal using the Crediting Participant."
+    },
+    {
+        "id": "IssuanceCreditingParticipant",
+        "type": "Class",
+        "name": "IssuanceCreditingParticipant",
+        "label": "issuance crediting participant"
+    },
+    {
+        "id": "TransferAgent",
+        "type": "Class",
+        "name": "TransferAgent",
+        "label": "transfer agent"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "Correspondent",
+        "type": "Class",
+        "name": "Correspondent",
+        "label": "correspondent",
+        "definition": "A bank, brokerage or other financial institution that is not a direct DTC member. Correspondents rely on direct DTC Participants to perform their DTC settlement services"
+    },
+    {
+        "id": "DebtIssueOverAllotmentTerms",
+        "type": "Class",
+        "name": "DebtIssueOverAllotmentTerms",
+        "definition": "Terms for Change to an Issue Amount for Debt securities",
+        "label": "debt issue over allotment terms"
+    },
+    {
+        "id": "Registration",
+        "type": "Class",
+        "name": "Registration",
+        "label": "registration"
+    },
+    {
+        "id": "IssuanceProcessActivity",
+        "type": "Entity",
+        "name": "IssuanceProcessActivity"
+    },
+    {
+        "id": "UnderwritingIssuanceRequestor",
+        "type": "Class",
+        "name": "UnderwritingIssuanceRequestor",
+        "label": "underwriting issuance requestor"
+    },
+    {
+        "id": "PotentialIssuer",
+        "type": "Entity",
+        "name": "PotentialIssuer"
+    },
+    {
+        "id": "EquityUnderwritingIssuanceProcess",
+        "type": "Class",
+        "name": "EquityUnderwritingIssuanceProcess",
+        "label": "equity underwriting issuance process"
+    },
+    {
+        "id": "IssuerCounsel",
+        "type": "Class",
+        "name": "IssuerCounsel",
+        "label": "issuer counsel"
+    },
+    {
+        "id": "Servicer",
+        "type": "Class",
+        "name": "Servicer",
+        "label": "servicer"
+    },
+    {
+        "id": "IssuancePrinter",
+        "type": "Class",
+        "name": "IssuancePrinter",
+        "label": "issuance printer"
+    },
+    {
+        "id": "IssuanceClosing",
+        "type": "Class",
+        "name": "IssuanceClosing",
+        "label": "issuance closing",
+        "definition": "The process of crediting the DTC participant account on settlement date with the position for the new issue. The overall closing process includes the exchange of funds that happens outside of DTC."
+    },
+    {
+        "id": "UnderwritingProcessActivity",
+        "type": "Class",
+        "name": "UnderwritingProcessActivity",
+        "label": "underwriting process activity"
+    },
+    {
+        "id": "UnderwritingProcessActor",
+        "type": "Class",
+        "name": "UnderwritingProcessActor",
+        "definition": "any actor within the DTCC Underwriting Process or any other Underwriting Process. Note: At present all these Actors (e.g. Underwriter) are defined simply as Process Actors and not as specializations of this type of Actor. Therefore this Actor is a Union of all of those.",
+        "label": "underwriting process actor"
+    },
+    {
+        "id": "RemarketingAgent",
+        "type": "Class",
+        "name": "RemarketingAgent",
+        "label": "remarketing agent"
+    },
+    {
+        "id": "IssuanceFinancialAdvisor",
+        "type": "Class",
+        "name": "IssuanceFinancialAdvisor",
+        "label": "issuance financial advisor"
+    },
+    {
+        "id": "IssuanceSettlement",
+        "type": "Class",
+        "name": "IssuanceSettlement",
+        "label": "issuance settlement"
+    },
+    {
+        "id": "MuniDebtOffering",
+        "type": "Class",
+        "name": "MuniDebtOffering",
+        "definition": "The process step of offering a Municipal Debt security for issue.",
+        "label": "muni debt offering"
+    },
+    {
+        "id": "DebtOffering",
+        "type": "Entity",
+        "name": "DebtOffering"
+    },
+    {
+        "id": "Dissemination",
+        "type": "Class",
+        "name": "Dissemination",
+        "label": "dissemination"
+    },
+    {
+        "id": "PotentialUnderwriter",
+        "type": "Entity",
+        "name": "PotentialUnderwriter"
+    },
+    {
+        "id": "PrivatePlacement",
+        "type": "Class",
+        "name": "PrivatePlacement",
+        "label": "private placement"
+    },
+    {
+        "id": "Trustee",
+        "type": "Class",
+        "name": "Trustee",
+        "label": "trustee"
+    },
+    {
+        "id": "formalAwardDateAndTime",
+        "type": "ObjectProperty",
+        "name": "formalAwardDateAndTime",
+        "label": "formal award date and time",
+        "definition": "Date and time the issuer formally accepts a bid for Competitive Issues or, the Date and Time the Bond Purchase Agreement is executed for Negotiated Issues. Time Zone: Include in date/time data or add a term for it?"
+    },
+    {
+        "id": "maximumOverAllotmentShares",
+        "type": "DatatypeProperty",
+        "name": "maximumOverAllotmentShares",
+        "label": "maximum over allotment shares",
+        "definition": "The maximum amount of shares that are available as part of providing the over-allotment option."
+    },
+    {
+        "id": "participatesIn",
+        "type": "ObjectProperty",
+        "name": "participatesIn",
+        "label": "participates in"
+    },
+    {
+        "id": "hasAgent",
+        "type": "ObjectProperty",
+        "name": "hasAgent",
+        "label": "has agent"
+    },
+    {
+        "id": "underwrites",
+        "type": "ObjectProperty",
+        "name": "underwrites",
+        "label": "underwrites"
+    },
+    {
+        "id": "facilitatesTransfer",
+        "type": "ObjectProperty",
+        "name": "facilitatesTransfer",
+        "label": "facilitates transfer"
+    },
+    {
+        "id": "hasRemarketingAgent",
+        "type": "ObjectProperty",
+        "name": "hasRemarketingAgent",
+        "label": "has remarketing agent"
+    },
+    {
+        "id": "prints",
+        "type": "ObjectProperty",
+        "name": "prints",
+        "label": "prints"
+    },
+    {
+        "id": "requests",
+        "type": "ObjectProperty",
+        "name": "requests",
+        "label": "requests"
+    },
+    {
+        "id": "hasSubscriber",
+        "type": "ObjectProperty",
+        "name": "hasSubscriber",
+        "label": "has subscriber"
+    },
+    {
+        "id": "obligorTo",
+        "type": "ObjectProperty",
+        "name": "obligorTo",
+        "label": "obligor to"
+    },
+    {
+        "id": "advises",
+        "type": "ObjectProperty",
+        "name": "advises",
+        "label": "advises"
+    },
+    {
+        "id": "announcesIssueOf",
+        "type": "ObjectProperty",
+        "name": "announcesIssueOf",
+        "label": "announces issue of"
+    },
+    {
+        "id": "underwrittenBy",
+        "type": "ObjectProperty",
+        "name": "underwrittenBy",
+        "label": "underwritten by"
+    },
+    {
+        "id": "hasTransferAgent",
+        "type": "ObjectProperty",
+        "name": "hasTransferAgent",
+        "label": "has transfer agent"
+    },
+    {
+        "id": "disseminationDecisionDateAndTime",
+        "type": "ObjectProperty",
+        "name": "disseminationDecisionDateAndTime",
+        "label": "dissemination decision date and time",
+        "definition": "Date and Time when the Dissemination Underwriter made the Decision about Dissemination."
+    },
+    {
+        "id": "overAllotmentExpiryPeriodDays",
+        "type": "DatatypeProperty",
+        "name": "overAllotmentExpiryPeriodDays",
+        "definition": "Number of calendar days after the closing of initial offering for expiry of over-allotment option.",
+        "label": "over allotment expiry period days"
+    },
+    {
+        "id": "maximumOverAllotmentPercentage",
+        "type": "ObjectProperty",
+        "name": "maximumOverAllotmentPercentage",
+        "label": "maximum over allotment percentage",
+        "definition": "The percentage that is available as part of providing the over-allotment option."
+    },
+    {
+        "id": "subscriber.1",
+        "type": "ObjectProperty",
+        "name": "subscriber.1",
+        "label": "subscriber"
+    },
+    {
+        "id": "facilitatesPayment",
+        "type": "ObjectProperty",
+        "name": "facilitatesPayment",
+        "label": "facilitates payment"
+    },
+    {
+        "id": "registeredUnder",
+        "type": "ObjectProperty",
+        "name": "registeredUnder",
+        "label": "registered under"
+    },
+    {
+        "id": "overAllotmentAvailable",
+        "type": "DatatypeProperty",
+        "name": "overAllotmentAvailable",
+        "label": "over allotment available",
+        "definition": "Whether an over-allotment option is available for the security."
+    },
+    {
+        "id": "subscribesTo.1",
+        "type": "ObjectProperty",
+        "name": "subscribesTo.1",
+        "label": "subscribes to"
+    },
+    {
+        "id": "hasIssuerCounsel",
+        "type": "ObjectProperty",
+        "name": "hasIssuerCounsel",
+        "label": "has issuer counsel"
+    },
+    {
+        "id": "isBondCounsel",
+        "type": "ObjectProperty",
+        "name": "isBondCounsel",
+        "label": "is bond counsel"
+    },
+    {
+        "id": "maximumOverAllotmentAmount",
+        "type": "ObjectProperty",
+        "name": "maximumOverAllotmentAmount",
+        "definition": "The maximum amount that is available as part of providing the over-allotment option.",
+        "label": "maximum over allotment amount"
+    },
+    {
+        "id": "givesRiseTo",
+        "type": "ObjectProperty",
+        "name": "givesRiseTo",
+        "label": "gives rise to"
+    },
+    {
+        "id": "hasTrustee",
+        "type": "ObjectProperty",
+        "name": "hasTrustee",
+        "label": "has trustee"
+    },
+    {
+        "id": "hasBondCounsel",
+        "type": "ObjectProperty",
+        "name": "hasBondCounsel",
+        "label": "has bond counsel"
+    },
+    {
+        "id": "isIssuerCounsel",
+        "type": "ObjectProperty",
+        "name": "isIssuerCounsel",
+        "label": "is issuer counsel"
+    },
+    {
+        "id": "makesDecisionOn",
+        "type": "ObjectProperty",
+        "name": "makesDecisionOn",
+        "label": "makes decision on"
+    },
+    {
+        "id": "includesStep",
+        "type": "ObjectProperty",
+        "name": "includesStep",
+        "label": "includes step"
+    },
+    {
+        "id": "issuanceSettlementDate",
+        "type": "ObjectProperty",
+        "name": "issuanceSettlementDate",
+        "definition": "Settlement date for the initial Issuance transaction.",
+        "label": "issuance settlement date"
+    },
+    {
+        "id": "facililtatesRemarketing",
+        "type": "ObjectProperty",
+        "name": "facililtatesRemarketing",
+        "label": "facililtates remarketing"
+    },
+    {
+        "id": "hasIssuanceGuarantor",
+        "type": "ObjectProperty",
+        "name": "hasIssuanceGuarantor",
+        "label": "has issuance guarantor"
+    },
+    {
+        "id": "isCreditingParticipant",
+        "type": "ObjectProperty",
+        "name": "isCreditingParticipant",
+        "label": "is crediting participant"
+    },
+    {
+        "id": "isAgentIn",
+        "type": "ObjectProperty",
+        "name": "isAgentIn",
+        "label": "is agent in"
+    },
+    {
+        "id": "hasObligor",
+        "type": "ObjectProperty",
+        "name": "hasObligor",
+        "label": "has obligor"
+    },
+    {
+        "id": "hasFinancialAdvisor",
+        "type": "ObjectProperty",
+        "name": "hasFinancialAdvisor",
+        "label": "has financial advisor"
+    },
+    {
+        "id": "offeringRequestor",
+        "type": "ObjectProperty",
+        "name": "offeringRequestor",
+        "label": "offering requestor"
+    },
+    {
+        "id": "hasPotentialIssuer",
+        "type": "ObjectProperty",
+        "name": "hasPotentialIssuer",
+        "label": "has potential issuer"
+    },
+    {
+        "id": "produces",
+        "type": "ObjectProperty",
+        "name": "produces",
+        "label": "produces"
+    },
+    {
+        "id": "requestedBy",
+        "type": "ObjectProperty",
+        "name": "requestedBy",
+        "label": "requested by"
+    },
+    {
+        "id": "saleMethod",
+        "type": "DatatypeProperty",
+        "name": "saleMethod",
+        "definition": "Sale Method of the security.",
+        "label": "sale method"
+    },
+    {
+        "id": "announcementComments",
+        "type": "DatatypeProperty",
+        "name": "announcementComments",
+        "label": "announcement comments",
+        "definition": "Free form description of Purpose of Issue, Source of funds etc."
+    },
+    {
+        "id": "hasPayingAgent",
+        "type": "ObjectProperty",
+        "name": "hasPayingAgent",
+        "label": "has paying agent"
+    },
+    {
+        "id": "isTrustee",
+        "type": "ObjectProperty",
+        "name": "isTrustee",
+        "label": "is trustee"
+    },
+    {
+        "id": "subscribesTo",
+        "type": "ObjectProperty",
+        "name": "subscribesTo",
+        "definition": "Subscriber responds to marketing / draft propspectus, indicates interest and is allocated shares / debt units based on interest.",
+        "label": "subscribes to"
+    },
+    {
+        "id": "hasServicer",
+        "type": "ObjectProperty",
+        "name": "hasServicer",
+        "label": "has servicer"
+    },
+    {
+        "id": "services",
+        "type": "ObjectProperty",
+        "name": "services",
+        "label": "services"
+    },
+    {
+        "id": "hasPrinter",
+        "type": "ObjectProperty",
+        "name": "hasPrinter",
+        "label": "has printer"
+    },
+    {
+        "id": "actualClosingDate",
+        "type": "ObjectProperty",
+        "name": "actualClosingDate",
+        "definition": "The date in which closing has been done for the underwriter of a security.",
+        "label": "actual closing date"
+    },
+    {
+        "id": "refersTo",
+        "type": "ObjectProperty",
+        "name": "refersTo",
+        "label": "refers to"
+    },
+    {
+        "id": "step",
+        "type": "ObjectProperty",
+        "name": "step",
+        "label": "step"
+    }
+]

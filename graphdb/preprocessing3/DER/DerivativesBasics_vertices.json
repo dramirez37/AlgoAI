@@ -1,0 +1,389 @@
+[
+    {
+        "id": "PayingParty",
+        "type": "Class",
+        "name": "PayingParty",
+        "label": "paying party",
+        "definition": "party responsible for making payments in a transaction specified in a contract"
+    },
+    {
+        "id": "Buyer",
+        "type": "Entity",
+        "name": "Buyer"
+    },
+    {
+        "id": "Payer",
+        "type": "Entity",
+        "name": "Payer"
+    },
+    {
+        "id": "ContractParty",
+        "type": "Entity",
+        "name": "ContractParty"
+    },
+    {
+        "id": "DerivativeSettlementTerms",
+        "type": "Class",
+        "name": "DerivativeSettlementTerms",
+        "label": "derivative settlement terms",
+        "definition": "settlement terms specifying additional details with respect to what is to be delivered when, to whom, under what conditions at the time of settlement"
+    },
+    {
+        "id": "SettlementTerms",
+        "type": "Entity",
+        "name": "SettlementTerms"
+    },
+    {
+        "id": "DerivativeTerms",
+        "type": "Class",
+        "name": "DerivativeTerms",
+        "definition": "contractual terms specific to derivative contracts, including terms related to payments and delivery between parties",
+        "label": "derivative terms"
+    },
+    {
+        "id": "UniqueProductIdentifier",
+        "type": "Class",
+        "name": "UniqueProductIdentifier",
+        "definition": "sequence of characters uniquely identifying an OTC derivative product that is reportable to a trade repository",
+        "label": "unique product identifier",
+        "explanatoryNote": "The UPI code consists of 12 alphanumeric characters decomposed as follows:\n\t\t- the two-character prefix 'QZ'\n\t\t- nine alphanumeric characters (upper case A-Z and 0-9 only, excluding the vowel characters (A, E, I, O, U) and the character Y) without separators or special characters\n\t\t- one alphanumeric check character (A-Z and 0-9 only, excluding the vowel characters (A, E, I, O, U) and the character Y), calculated using the method specified in Annex C of the specification document.",
+        "abbreviation": "UPI"
+    },
+    {
+        "id": "StructuredIdentifier",
+        "type": "Entity",
+        "name": "StructuredIdentifier"
+    },
+    {
+        "id": "FinancialInstrumentIdentifier",
+        "type": "Entity",
+        "name": "FinancialInstrumentIdentifier"
+    },
+    {
+        "id": "DerivativeInstrument",
+        "type": "Class",
+        "name": "DerivativeInstrument"
+    },
+    {
+        "id": "OverTheCounterDerivativeInstrument",
+        "type": "Class",
+        "name": "OverTheCounterDerivativeInstrument",
+        "abbreviation": "OTC derivative instrument",
+        "definition": "derivative instrument that is not listed on an organized exchange",
+        "label": "over-the-counter derivative instrument"
+    },
+    {
+        "id": "OverTheCounterInstrument",
+        "type": "Class",
+        "name": "OverTheCounterInstrument",
+        "label": "over-the-counter instrument",
+        "abbreviation": "OTC instrument",
+        "definition": "financial instrument and bilateral contract that is not listed on an organized exchange"
+    },
+    {
+        "id": "UniqueProductIdentifierRegistryEntry",
+        "type": "Class",
+        "name": "UniqueProductIdentifierRegistryEntry",
+        "explanatoryNote": "The Reference Data Library (RDL) is a set of reference data elements, together with their values, which is properly organized and maintained by the UPI service provider. The library associates UPI codes with the values of the reference data elements characterizing the product. Each entry in the library (the registry entry) contains a minimum number of elements as defined in the ISO standard, and may be extended by the service provider.",
+        "definition": "entry in a unique product identifier registry",
+        "label": "unique product identifier registry entry"
+    },
+    {
+        "id": "RegistryEntry",
+        "type": "Entity",
+        "name": "RegistryEntry"
+    },
+    {
+        "id": "ReceivingParty",
+        "type": "Class",
+        "name": "ReceivingParty",
+        "label": "receiving counterparty",
+        "definition": "party that receives payments in a transaction specified in a contract"
+    },
+    {
+        "id": "Seller",
+        "type": "Entity",
+        "name": "Seller"
+    },
+    {
+        "id": "Payee",
+        "type": "Entity",
+        "name": "Payee"
+    },
+    {
+        "id": "MutualContractualAgreement",
+        "type": "Entity",
+        "name": "MutualContractualAgreement"
+    },
+    {
+        "id": "FinancialInstrument",
+        "type": "Entity",
+        "name": "FinancialInstrument"
+    },
+    {
+        "id": "UniqueProductIdentifierServiceProvider",
+        "type": "Class",
+        "name": "UniqueProductIdentifierServiceProvider",
+        "definition": "organization designated by an external body of financial regulators to assign UPIs and operate a UPI reference data library",
+        "label": "unique product identifier service provider",
+        "abbreviation": "UPI service provider"
+    },
+    {
+        "id": "RegistrationAuthority",
+        "type": "Entity",
+        "name": "RegistrationAuthority"
+    },
+    {
+        "id": "CreditDerivative",
+        "type": "Class",
+        "name": "CreditDerivative",
+        "explanatoryNote": "The third party accepts the risk in return for payment, known as the premium.",
+        "label": "credit derivative",
+        "definition": "derivative instrument that is a privately held, negotiable bilateral contract traded over-the-counter (OTC) between two parties in a creditor/debtor relationship, enabling the creditor to effectively transfer some or all of the risk of a debtor defaulting to a third party"
+    },
+    {
+        "id": "ContractualCommitment",
+        "type": "Entity",
+        "name": "ContractualCommitment"
+    },
+    {
+        "id": "IntroducingBroker",
+        "type": "Class",
+        "name": "IntroducingBroker",
+        "label": "introducing broker",
+        "abbreviation": "IB",
+        "explanatoryNote": "Introducing brokers do not accept money, securities, or property (or extend credit in lieu thereof) to margin, guarantee, or secure any trades or contracts that result or may result.",
+        "definition": "broker that solicits or accepts orders for derivatives that are traded on or subject to the rules of an exchange"
+    },
+    {
+        "id": "NonDepositoryInstitution",
+        "type": "Entity",
+        "name": "NonDepositoryInstitution"
+    },
+    {
+        "id": "Broker",
+        "type": "Entity",
+        "name": "Broker"
+    },
+    {
+        "id": "CashflowExpression",
+        "type": "Class",
+        "name": "CashflowExpression",
+        "definition": "expression that specifies a calculation of a cash flow as a component of a cashflow formula",
+        "label": "cashflow expression"
+    },
+    {
+        "id": "Expression",
+        "type": "Entity",
+        "name": "Expression"
+    },
+    {
+        "id": "Underlier",
+        "type": "Class",
+        "name": "Underlier"
+    },
+    {
+        "id": "CalculationAgent",
+        "type": "Class",
+        "name": "CalculationAgent",
+        "explanatoryNote": "The calculation agent can also establish the price for a structured product and may act as its guarantor and issuer. If the counterparty in a derivative transaction is a broker-dealer, then they will often act as the calculation agent.",
+        "label": "calculation agent",
+        "definition": "party that is responsible for determining the value of a derivative and in some cases, determines how much the parties owe one another"
+    },
+    {
+        "id": "ThirdPartyAgent",
+        "type": "Entity",
+        "name": "ThirdPartyAgent"
+    },
+    {
+        "id": "CashflowFormula",
+        "type": "Class",
+        "name": "CashflowFormula",
+        "definition": "formula for determining cashflows for a derivative instrument",
+        "label": "cashflow formula"
+    },
+    {
+        "id": "Formula",
+        "type": "Entity",
+        "name": "Formula"
+    },
+    {
+        "id": "ValuationTerms",
+        "type": "Class",
+        "name": "ValuationTerms",
+        "definition": "contract terms specific to valuation of the underlying asset(s)",
+        "label": "valuation terms"
+    },
+    {
+        "id": "ContractForDifference",
+        "type": "Class",
+        "name": "ContractForDifference",
+        "explanatoryNote": "These contracts can also be on the difference of two assets' prices. They can also be on the difference of a single asset of different maturities (like a bond or futures contracts).",
+        "definition": "cash-settled derivative where the parties agree to exchange on the maturity of the contract the difference between the current value of the underlying asset and the initial value of that asset when the contract is initiated",
+        "abbreviation": "CFD",
+        "label": "contract for difference"
+    },
+    {
+        "id": "CashflowTerms",
+        "type": "Class",
+        "name": "CashflowTerms",
+        "definition": "terms setting out a cashflow structure of payments committed to by one party to a contract",
+        "label": "cashflow terms"
+    },
+    {
+        "id": "DebtTerms",
+        "type": "Entity",
+        "name": "DebtTerms"
+    },
+    {
+        "id": "ObservableValue",
+        "type": "Class",
+        "name": "ObservableValue",
+        "label": "observable value",
+        "definition": "value for something discernible and for which evidence can be obtained",
+        "explanatoryNote": "Derivatives, such as certain exotics, can be based on values ascribed to virtually anything, including weather. Typically, however, an observable value refers to something that can be readily observed in the marketplace, such as a quoted rate (e.g., interest rate, exchange rate), index value, commodity price, stock price, economic indicator, or something similar as of some point in time."
+    },
+    {
+        "id": "MonetaryAmount",
+        "type": "Entity",
+        "name": "MonetaryAmount"
+    },
+    {
+        "id": "UnderlyingAssetValuation",
+        "type": "Class",
+        "name": "UnderlyingAssetValuation",
+        "definition": "assessment activity to estimate the value of an underlying asset of a derivative",
+        "label": "underlying asset valuation"
+    },
+    {
+        "id": "ValueAssessment",
+        "type": "Entity",
+        "name": "ValueAssessment"
+    },
+    {
+        "id": "DerivativesClearingOrganization",
+        "type": "Class",
+        "name": "DerivativesClearingOrganization",
+        "definition": "clearing house that enables parties to substitute the credit of the DCO for the credit of the parties",
+        "explanatoryNote": "Substitution may be done through contract novation, for example. A derivatives clearing organization (DCO) also arranges or provides, on a multilateral basis, for the settlement or netting of obligations, or otherwise provides clearing services or arrangements that mutualize or transfer credit risk among participants.",
+        "abbreviation": "DCO",
+        "label": "derivatives clearing organization"
+    },
+    {
+        "id": "ClearingHouse",
+        "type": "Entity",
+        "name": "ClearingHouse"
+    },
+    {
+        "id": "ParametricCashflowTerms",
+        "type": "Class",
+        "name": "ParametricCashflowTerms",
+        "label": "parametric cashflow terms",
+        "definition": "terms for a set of cashflows defined according to a mathematical formula"
+    },
+    {
+        "id": "hasFirstNoticeDate",
+        "type": "ObjectProperty",
+        "name": "hasFirstNoticeDate",
+        "definition": "specifies the initial date on which a delivery notice can be issued",
+        "label": "has first notice date"
+    },
+    {
+        "id": "hasTickValue",
+        "type": "ObjectProperty",
+        "name": "hasTickValue",
+        "definition": "indicates the cash value of one tick, i.e., the minimum price change of the contract",
+        "label": "has tick value"
+    },
+    {
+        "id": "hasUnderlyingAssetPrice",
+        "type": "ObjectProperty",
+        "name": "hasUnderlyingAssetPrice",
+        "label": "has underlying asset price",
+        "definition": "specifies a price for something on which the contract is based"
+    },
+    {
+        "id": "UniqueProductIdentifierReferenceDataLibrary",
+        "type": "Registry",
+        "name": "UniqueProductIdentifierReferenceDataLibrary",
+        "label": "unique product identifier reference data library",
+        "definition": "set of data comprised of reference data elements with specific values that together describe the product"
+    },
+    {
+        "id": "hasLastNoticeDate",
+        "type": "ObjectProperty",
+        "name": "hasLastNoticeDate",
+        "definition": "specifies the final date on which a delivery notice can be issued",
+        "label": "has last notice date"
+    },
+    {
+        "id": "hasAccretingNotionalAmount",
+        "type": "ObjectProperty",
+        "name": "hasAccretingNotionalAmount",
+        "definition": "indicates that the notional amount increases through the life of the contract",
+        "label": "has accreting notional amount"
+    },
+    {
+        "id": "hasCalculationAgent",
+        "type": "ObjectProperty",
+        "name": "hasCalculationAgent",
+        "label": "has calculation agent",
+        "definition": "indicates the party that is responsible for determining the value of a derivative"
+    },
+    {
+        "id": "hasFirstDeliveryDate",
+        "type": "ObjectProperty",
+        "name": "hasFirstDeliveryDate",
+        "definition": "specifies the initial date in a range of dates by which the underlying asset (or some portion thereof) must be delivered in order for the terms of the contract to be fulfilled",
+        "label": "has first delivery date"
+    },
+    {
+        "id": "hasAdditionalCosts",
+        "type": "ObjectProperty",
+        "name": "hasAdditionalCosts",
+        "definition": "indicates costs, such as up front costs, brokerage fees and the like, that must be paid on delivery",
+        "label": "has additional costs"
+    },
+    {
+        "id": "hasCustomNotionalAmount",
+        "type": "ObjectProperty",
+        "name": "hasCustomNotionalAmount",
+        "label": "has custom notional amount",
+        "definition": "indicates that the notional amount is customized per a notional step schedule"
+    },
+    {
+        "id": "hasSettlementTerms",
+        "type": "ObjectProperty",
+        "name": "hasSettlementTerms",
+        "label": "has settlement terms",
+        "definition": "relates a derivative to contractual terms specific to the settlement process"
+    },
+    {
+        "id": "hasValuationTerms",
+        "type": "ObjectProperty",
+        "name": "hasValuationTerms",
+        "label": "has valuation terms",
+        "definition": "relates a derivative to contractual terms specific to valuation of the underlying asset(s)"
+    },
+    {
+        "id": "hasLastDeliveryDate",
+        "type": "ObjectProperty",
+        "name": "hasLastDeliveryDate",
+        "definition": "specifies the final date in a range of dates by which the underlying asset (or some portion thereof) must be delivered in order for the terms of the contract to be fulfilled",
+        "label": "has last delivery date"
+    },
+    {
+        "id": "hasAmortizingNotionalAmount",
+        "type": "ObjectProperty",
+        "name": "hasAmortizingNotionalAmount",
+        "definition": "indicates that the notional amount decreases through the life of the contract",
+        "label": "has amortizing notional amount"
+    },
+    {
+        "id": "hasConstantNotionalAmount",
+        "type": "ObjectProperty",
+        "name": "hasConstantNotionalAmount",
+        "label": "has constant notional amount",
+        "definition": "indicates that the notional amount is constant through the life of the contract"
+    }
+]

@@ -1,0 +1,124 @@
+[
+    {
+        "source_id": "PhysicalSettlementTerms",
+        "target_id": "hasDeliveryMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasDeliveryMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "PhysicalSettlementTerms",
+        "target_id": "SettlementTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SettlementTerms",
+        "target_id": "Settlement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Settlement"
+            ]
+        }
+    },
+    {
+        "source_id": "SettlementTerms",
+        "target_id": "DeliveryMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasDeliveryMethod",
+                "DeliveryMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "SettlementTerms",
+        "target_id": "SettlementConvention",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifies",
+                "SettlementConvention"
+            ]
+        }
+    },
+    {
+        "source_id": "SettlementEvent",
+        "target_id": "Settlement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "Settlement"
+            ]
+        }
+    },
+    {
+        "source_id": "SettlementEvent",
+        "target_id": "ContractLifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Settlement",
+        "target_id": "ContractLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeliveryMethod",
+        "target_id": "DistributionStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SettlementConvention",
+        "target_id": "Convention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashSettlementTerms",
+        "target_id": "SettlementTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashSettlementTerms",
+        "target_id": "hasDeliveryMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasDeliveryMethod"
+            ]
+        }
+    }
+]

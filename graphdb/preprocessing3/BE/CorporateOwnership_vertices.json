@@ -1,0 +1,78 @@
+[
+    {
+        "id": "BeneficialOwner",
+        "type": "Class",
+        "name": "BeneficialOwner",
+        "explanatoryNote": "The National Credit Union Administration (NCUA) defines a 'beneficial owner' as (1) a single individual with significant responsibility to control, manage or direct a legal entity customer, or (2) each individual, if any, who, directly or indirectly, through any contract, arrangement, understanding, relationship or otherwise, owns 25 percent or more of the equity interests of a legal entity customer; if a trust owns directly or indirectly, through any contract, arrangement, understanding, relationship or otherwise, 25 percent or more of the equity interests of a legal entity customer, the beneficial owner is the trustee.",
+        "label": "beneficial owner",
+        "definition": "party that enjoys the benefits of ownership (such as receipt of income) of something even though its ownership (title) may be in the name of another party (called a nominee or registered owner)"
+    },
+    {
+        "id": "ControllingParty",
+        "type": "Entity",
+        "name": "ControllingParty"
+    },
+    {
+        "id": "Beneficiary",
+        "type": "Entity",
+        "name": "Beneficiary"
+    },
+    {
+        "id": "Shareholder",
+        "type": "Class",
+        "name": "Shareholder",
+        "definition": "party that owns shares in and has rights and responsibilities with respect to some asset, provided in exchange for investment",
+        "explanatoryNote": "The shares represent an ownership interest in a corporation, mutual fund, or partnership, or a unit of ownership in a structured product, such as a real estate investment trust.",
+        "label": "shareholder"
+    },
+    {
+        "id": "Counterparty",
+        "type": "Entity",
+        "name": "Counterparty"
+    },
+    {
+        "id": "ConstitutionalOwner",
+        "type": "Entity",
+        "name": "ConstitutionalOwner"
+    },
+    {
+        "id": "BeneficialOwnership",
+        "type": "Class",
+        "name": "BeneficialOwnership",
+        "definition": "control situation linking something at least one beneficial owner",
+        "explanatoryNote": "Beneficial ownership may be shared among a group of individuals. If a beneficial owner acquires a position of more than 5 percent in the United States, it must file Schedule 13D or 13G under Section 12 of the Securities Exchange Act of 1934.",
+        "label": "beneficial ownership"
+    },
+    {
+        "id": "Control",
+        "type": "Entity",
+        "name": "Control"
+    },
+    {
+        "id": "Shareholding",
+        "type": "Class",
+        "name": "Shareholding",
+        "explanatoryNote": "The legal power of a shareholder varies in proportion to their shareholding. Typically, ten percent and below stockholding provides no protection. Fifteen percent stockholding may give the power to petition courts against changing the shares class rights. Up to 49.9 percent stockholding normally gives power to demand calling of an extraordinary general meeting. Fifty percent and over stockholding gives power to fire a director and force out minority stockholders by acquiring their shares as per the rules of the firm. Holder of 75 percent of the stock has the power to change the articles and memorandum of association and the firms name, reduce the share capital, allow the firm to buy its own shares from other stockholders, and to shut down the business. One hundred percent stockholding of course gives total power under the corporate legislation.",
+        "definition": "financial asset that takes the form of shares considered as a unit",
+        "label": "shareholding"
+    },
+    {
+        "id": "FinancialAsset",
+        "type": "Entity",
+        "name": "FinancialAsset"
+    },
+    {
+        "id": "hasBeneficialOwner",
+        "type": "ObjectProperty",
+        "name": "hasBeneficialOwner",
+        "definition": "indicates the party that retains rights in the asset they control in a beneficial ownership situation",
+        "label": "has beneficial owner"
+    },
+    {
+        "id": "isBeneficialOwnerOf",
+        "type": "ObjectProperty",
+        "name": "isBeneficialOwnerOf",
+        "label": "is beneficial owner of",
+        "definition": "indicates an asset in which the beneficial owner holds rights (typically voting rights, management rights, etc.) in a beneficial ownership situation"
+    }
+]

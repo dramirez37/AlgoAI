@@ -1,0 +1,191 @@
+[
+    {
+        "source_id": "DispersionSwapIndexLeg",
+        "target_id": "DispersionLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityPriceReturnSwap",
+        "target_id": "EquityReturnLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasReturnLeg",
+                "EquityReturnLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityPriceReturnSwap",
+        "target_id": "ReturnSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityPriceReturnSwap",
+        "target_id": "EquitySwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityVarianceSwap",
+        "target_id": "EquitySwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityVarianceSwap",
+        "target_id": "DispersionSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DividendLeg",
+        "target_id": "QualifyingDividendPeriod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasDatePeriod",
+                "QualifyingDividendPeriod"
+            ]
+        }
+    },
+    {
+        "source_id": "DividendLeg",
+        "target_id": "SimpleReturnLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DividendLeg",
+        "target_id": "SpecialDividendLegTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasContractualElement",
+                "SpecialDividendLegTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityTotalReturnSwap",
+        "target_id": "TotalReturnSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityTotalReturnSwap",
+        "target_id": "EquitySwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityTotalReturnSwap",
+        "target_id": "EquityTotalReturnSwap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasReturnLeg",
+                "Nca0f6ecb915346ae96215225b41a583b"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityCorrelationSwap",
+        "target_id": "EquitySwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityCorrelationSwap",
+        "target_id": "CorrelationSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpecialDividendLegTerms",
+        "target_id": "CashflowTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityVolatilitySwap",
+        "target_id": "DispersionSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityVolatilitySwap",
+        "target_id": "EquitySwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DispersionSwapIndexConstituentsLeg",
+        "target_id": "DispersionLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityReturnLeg",
+        "target_id": "ReturnLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquitySwap",
+        "target_id": "EquityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquitySwap",
+        "target_id": "Swap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DividendSwap",
+        "target_id": "DividendLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasLeg",
+                "DividendLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "DividendSwap",
+        "target_id": "EquitySwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QualifyingDividendPeriod",
+        "target_id": "ExplicitDatePeriod",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

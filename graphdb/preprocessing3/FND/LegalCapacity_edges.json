@@ -1,0 +1,320 @@
+[
+    {
+        "source_id": "ContractualObligation",
+        "target_id": "LegalObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualObligation",
+        "target_id": "ContractualRight",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isImpliedBy",
+                "ContractualRight"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractualOption",
+        "target_id": "ContractualRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Regulation",
+        "target_id": "LegalConstruct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LiabilityCapacity",
+        "target_id": "LegalCapacity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalRight",
+        "target_id": "Right",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalRight",
+        "target_id": "LegalObligation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "implies",
+                "LegalObligation"
+            ]
+        }
+    },
+    {
+        "source_id": "Licensor",
+        "target_id": "License",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "License"
+            ]
+        }
+    },
+    {
+        "source_id": "Licensor",
+        "target_id": "License",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "License"
+            ]
+        }
+    },
+    {
+        "source_id": "Licensor",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContingentObligation",
+        "target_id": "ContingentRight",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isImpliedBy",
+                "ContingentRight"
+            ]
+        }
+    },
+    {
+        "source_id": "ContingentObligation",
+        "target_id": "Duty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "License",
+        "target_id": "LegalDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "License",
+        "target_id": "Licensee",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Licensee"
+            ]
+        }
+    },
+    {
+        "source_id": "License",
+        "target_id": "LegalCapacity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "confers",
+                "LegalCapacity"
+            ]
+        }
+    },
+    {
+        "source_id": "License",
+        "target_id": "Licensor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIssuedBy",
+                "Licensor"
+            ]
+        }
+    },
+    {
+        "source_id": "Claim",
+        "target_id": "LegalConstruct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContingentRight",
+        "target_id": "Right",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContingentRight",
+        "target_id": "ContingentObligation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "implies",
+                "ContingentObligation"
+            ]
+        }
+    },
+    {
+        "source_id": "LicenseIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LicenseIdentifier",
+        "target_id": "License",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "License"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractualCapability",
+        "target_id": "LegalCapacity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DelegatedLegalAuthority",
+        "target_id": "LegalCapacity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SignatoryCapacity",
+        "target_id": "LegalCapacity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Licensee",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Licensee",
+        "target_id": "License",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "License"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalObligation",
+        "target_id": "Duty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Duty",
+        "target_id": "LegalConstruct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LitigationCapacity",
+        "target_id": "LegalCapacity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReportingPolicy",
+        "target_id": "Policy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualRight",
+        "target_id": "Right",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualRight",
+        "target_id": "ContractualObligation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "implies",
+                "ContractualObligation"
+            ]
+        }
+    },
+    {
+        "source_id": "Right",
+        "target_id": "LegalConstruct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalCapacity",
+        "target_id": "LegalConstruct",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

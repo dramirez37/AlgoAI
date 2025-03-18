@@ -1,0 +1,243 @@
+[
+    {
+        "id": "Valoren",
+        "type": "Class",
+        "name": "Valoren",
+        "label": "Valoren",
+        "explanatoryNote": "A VALOR code is between six and nine characters in length and like other securities identification codes (like ISIN, CUSIPs etc). A VALOR is utilized for identification purposes as well as clearing and settlement, similar to an ISIN code, and identifies debt and equity securities.",
+        "definition": "identification number assigned to financial instruments in Switzerland, Liechtenstein and Belgium, issued by SIX Financial Information, that is the National Securities Identifying Number (NSIN) for securities issued in those countries and is also part of the ISIN for the security it identifies"
+    },
+    {
+        "id": "NationalSecuritiesIdentifyingNumber",
+        "type": "Entity",
+        "name": "NationalSecuritiesIdentifyingNumber"
+    },
+    {
+        "id": "ProprietarySecurityIdentifier",
+        "type": "Entity",
+        "name": "ProprietarySecurityIdentifier"
+    },
+    {
+        "id": "ListedSecurityIdentifier",
+        "type": "Entity",
+        "name": "ListedSecurityIdentifier"
+    },
+    {
+        "id": "StockExchangeDailyOfficialListCode",
+        "type": "Class",
+        "name": "StockExchangeDailyOfficialListCode",
+        "abbreviation": "SEDOL code",
+        "definition": "seven-character security identifier, issued by the London Stock Exchange, that is the National Securities Identifying Number (NSIN) for securities issued in the United Kingdom, which is also part of the ISIN for the security it identifies",
+        "label": "Stock Exchange Daily Official List (SEDOL) code"
+    },
+    {
+        "id": "CUSIPInternationalNumberingSystemNumber",
+        "type": "Class",
+        "name": "CUSIPInternationalNumberingSystemNumber",
+        "abbreviation": "CINS",
+        "label": "CUSIP International Numbering System (CINS) number",
+        "definition": "9-character alphanumeric identifier that employs the same 9 characters as CUSIP, but also contains a letter of the alphabet in the first position signifying the issuer's country or geographic region, issued by CUSIP Global Services"
+    },
+    {
+        "id": "RegistryIdentifier",
+        "type": "Entity",
+        "name": "RegistryIdentifier"
+    },
+    {
+        "id": "FinancialInstrumentGlobalIdentifierRegistryEntry",
+        "type": "Class",
+        "name": "FinancialInstrumentGlobalIdentifierRegistryEntry",
+        "definition": "entry in a Financial Instrument Global Identifier (FIGI) registry",
+        "label": "Financial Instrument Global Identifier (FIGI) registry entry",
+        "abbreviation": "FIGI registry entry"
+    },
+    {
+        "id": "RegistryEntry",
+        "type": "Entity",
+        "name": "RegistryEntry"
+    },
+    {
+        "id": "TelekursId",
+        "type": "Class",
+        "name": "TelekursId",
+        "label": "Telekurs Id",
+        "definition": "identifier used to identify financial instruments owned, managed, and distributed by SIX Financial Information (formerly Telekurs AG and subsequently SIX Telekurs Ltd.)",
+        "explanatoryNote": "The Telekurs Id was phased out in favor of the Valoren (Valor Nummer in Swiss German) in 2013."
+    },
+    {
+        "id": "CommonCodeRegistryEntry",
+        "type": "Class",
+        "name": "CommonCodeRegistryEntry",
+        "label": "common code registry entry",
+        "definition": "entry in a common code registry"
+    },
+    {
+        "id": "CommitteeOnUniformSecuritiesIdentificationProceduresNumber",
+        "type": "Class",
+        "name": "CommitteeOnUniformSecuritiesIdentificationProceduresNumber",
+        "definition": "nine-character alphanumeric number that identifies all North American stocks and registered bonds for the purposes of facilitating clearing and settlement of trades, issued by CUSIP Global Services on behalf of the American Bankers' Association, which is a part of Standard and Poor's Capital IQ, that is the National Numbering Agency Identifier for securities issued in North America, which is also part of the ISIN for the security it identifies",
+        "label": "Committee on Uniform Securities Identification Procedures (CUSIP) number",
+        "abbreviation": "CUSIP"
+    },
+    {
+        "id": "EuroclearClearstreamCommonCode",
+        "type": "Class",
+        "name": "EuroclearClearstreamCommonCode",
+        "label": "Euroclear Clearstream common code",
+        "definition": "nine-character alphanumeric securities identifier, issued in Luxembourg, jointly by Euroclear and Clearstream"
+    },
+    {
+        "id": "FinancialInstrumentGlobalIdentifier",
+        "type": "Class",
+        "name": "FinancialInstrumentGlobalIdentifier",
+        "explanatoryNote": "The development of the Financial Instrument Global Identifier (FIGI) originated from a need for a standard methodology to bridge across multiple identification systems for financial instruments. Without prejudice against any existing symbol-based solutions, or any question of the validity of one system over the other, the FIGI standard utilizes a metadata driven approach to enable the unique and persistent identification of financial instruments. While in most cases, a FIGI uniquely identifies a security, there are situations outside of the U.S. where it instead identifies a listing for a security, similar to a ticker symbol.",
+        "abbreviation": "FIGI",
+        "definition": "financial instrument identifier that is defined as specified in the Object Management Group (OMG) Financial Instrument Global Identifier (FIGI) Specification",
+        "label": "financial instrument global identifier"
+    },
+    {
+        "id": "RefinitivInstrumentCode",
+        "type": "Class",
+        "name": "RefinitivInstrumentCode",
+        "label": "Refinitiv instrument code",
+        "abbreviation": "RIC",
+        "definition": "proprietary code for financial instruments and indices owned, managed, and distributed by the London Stock Exchange Group's LSEG Financial Solutions (branded as Refinitiv)"
+    },
+    {
+        "id": "TelekursSecurityIdentifierScheme",
+        "type": "NamedIndividual",
+        "name": "TelekursSecurityIdentifierScheme",
+        "definition": "proprietary identification scheme for securities identifiers formerly managed by SIX Telekurs Ltd, a subsidiary of the SIX Group (Swiss Infrastructure and eXchange), now SIX Financial Information AG",
+        "abbreviation": "Telekurs security ID scheme",
+        "label": "Telekurs security identifier scheme"
+    },
+    {
+        "id": "CommonCodeRepository",
+        "type": "NamedIndividual",
+        "name": "CommonCodeRepository",
+        "label": "common code repository",
+        "definition": "distributed international repository of security identifiers, issued by Euroclear or Clearstream (CEDEL), that are used to identify securities in Europe for the purposes of facilitating clearing and settlement of trades"
+    },
+    {
+        "id": "FinancialInstrumentGlobalIdentifierRegistry",
+        "type": "NamedIndividual",
+        "name": "FinancialInstrumentGlobalIdentifierRegistry",
+        "definition": "open, OMG standards-based registry used by the FIGI registration authority to manage the financial instrument identifiers and related information that it registers according to the Financial Instrument Global Identifier (FIGI) standard",
+        "abbreviation": "FIGI Registry",
+        "label": "Financial Instrument Global Identifier (FIGI) Registry"
+    },
+    {
+        "id": "CommitteeOnUniformSecuritiesIdentificationProceduresScheme",
+        "type": "ProprietarySecurityIdentificationScheme",
+        "name": "CommitteeOnUniformSecuritiesIdentificationProceduresScheme",
+        "label": "Committee on Uniform Securities Identification Procedures (CUSIP) scheme",
+        "abbreviation": "CUSIP scheme",
+        "definition": "national security identification scheme used to identify all North American stocks and registered bonds for the purposes of facilitating clearing and settlement of trades"
+    },
+    {
+        "id": "StockExchangeDailyOfficialListScheme",
+        "type": "SecurityIdentificationScheme",
+        "name": "StockExchangeDailyOfficialListScheme",
+        "abbreviation": "SEDOL scheme",
+        "definition": "national security identification scheme used to identify all stocks and registered bonds in the United Kingdom for the purposes of facilitating clearing and settlement of trades",
+        "label": "Stock Exchange Daily Official List (SEDOL) scheme"
+    },
+    {
+        "id": "CUSIPInternationalNumberingSystemScheme",
+        "type": "NamedIndividual",
+        "name": "CUSIPInternationalNumberingSystemScheme",
+        "abbreviation": "CINS scheme",
+        "definition": "security identification scheme that extends the CUSIP scheme, used to identify securities outside of the United States and Canada for the purposes of facilitating clearing and settlement of trades",
+        "label": "CUSIP International Numbering System (CINS) scheme"
+    },
+    {
+        "id": "BloombergLP",
+        "type": "NamedIndividual",
+        "name": "BloombergLP"
+    },
+    {
+        "id": "SEDOLMasterFile",
+        "type": "NamedIndividual",
+        "name": "SEDOLMasterFile",
+        "definition": "repository of security identifiers, issued by the London Stock Exchange, that is the National Securities Identifying Number (NSIN) for securities issued in the United Kingdom, which is also part of the ISIN for the security it identifies",
+        "label": "SEDOL Master File"
+    },
+    {
+        "id": "CUSIPGlobalServices",
+        "type": "Publisher",
+        "name": "CUSIPGlobalServices",
+        "label": "CUSIP Global Services",
+        "definition": "CUSIP Global Services financial services provider that is the national numbering agency (NNA) for CUSIPs in North America"
+    },
+    {
+        "id": "RefinitivInstrumentCodeScheme",
+        "type": "NamedIndividual",
+        "name": "RefinitivInstrumentCodeScheme",
+        "definition": "proprietary identification scheme for securities identifiers managed by the London Stock Exchange Group's LSEG Financial Solutions",
+        "abbreviation": "RIC scheme",
+        "label": "Refinitiv instrument code scheme"
+    },
+    {
+        "id": "CGSCUSIPAccessRepository",
+        "type": "NamedIndividual",
+        "name": "CGSCUSIPAccessRepository",
+        "definition": "CGS (CUSIP Global Services) CUSIP Access services and repository, a proprietary repository of security identifiers, issued by CUSIP Global Services, that is the National Securities Identifying Number (NSIN) for securities issued in North America, which is also part of the ISIN for the security it identifies",
+        "label": "CGS CUSIP Access Repository"
+    },
+    {
+        "id": "ValorenScheme",
+        "type": "NationalSecurityIdentificationScheme",
+        "name": "ValorenScheme",
+        "definition": "national security identification scheme used to identify equity and debt securities in Switzerland, Liechtenstein and Belgium for the purposes of facilitating clearing and settlement of trades",
+        "explanatoryNote": "The VALOR number is a numeric code that intrinsically has no meaning. When a new VALOR is needed, the next one from the list is simply allocated. An instrument's number indicates nothing about the instrument itself.",
+        "label": "Valoren scheme"
+    },
+    {
+        "id": "FinancialInstrumentGlobalIdentifierScheme",
+        "type": "RegistrationScheme",
+        "name": "FinancialInstrumentGlobalIdentifierScheme",
+        "abbreviation": "FIGI scheme",
+        "definition": "standard identification scheme for financial instrument identifiers (not limited to securities) and, in some cases, related listings, published by the Object Management Group (OMG)",
+        "label": "financial instrument global identifier scheme"
+    },
+    {
+        "id": "EuroclearClearstreamCommonCodeScheme",
+        "type": "ProprietarySecurityIdentificationScheme",
+        "name": "EuroclearClearstreamCommonCodeScheme",
+        "label": "Euroclear Clearstream common code scheme",
+        "definition": "nine-digit security identification scheme, defined originally by Euroclear and CEDEL (now Clearstream) that is used to identify securities in Europe for the purposes of facilitating clearing and settlement of trades"
+    },
+    {
+        "id": "ThomsonReuters",
+        "type": "RegistrationAuthority",
+        "name": "ThomsonReuters"
+    },
+    {
+        "id": "LondonStockExchange",
+        "type": "NamedIndividual",
+        "name": "LondonStockExchange"
+    },
+    {
+        "id": "FinancialTimesInteractiveDataScheme",
+        "type": "ProprietarySecurityIdentificationScheme",
+        "name": "FinancialTimesInteractiveDataScheme",
+        "definition": "proprietary identification scheme for securities identifiers managed by the Financial Times",
+        "label": "Financial Times interactive data scheme",
+        "abbreviation": "FTID scheme"
+    },
+    {
+        "id": "Clearstream",
+        "type": "ClearingBank",
+        "name": "Clearstream"
+    },
+    {
+        "id": "Euroclear",
+        "type": "RegistrationAuthority",
+        "name": "Euroclear"
+    },
+    {
+        "id": "SIXFinancialInformation",
+        "type": "Publisher",
+        "name": "SIXFinancialInformation"
+    }
+]

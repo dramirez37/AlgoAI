@@ -1,0 +1,170 @@
+[
+    {
+        "id": "HedgeFund",
+        "type": "Class",
+        "name": "HedgeFund",
+        "label": "hedge fund",
+        "definition": "investment fund that pursues a total return and is usually open to qualified investors only"
+    },
+    {
+        "id": "OpenEndInvestment",
+        "type": "Class",
+        "name": "OpenEndInvestment",
+        "definition": "investment fund that offered through a fund company that sells shares directly to investors",
+        "label": "open-end investment"
+    },
+    {
+        "id": "FundUnit",
+        "type": "Class",
+        "name": "FundUnit",
+        "label": "fund unit",
+        "definition": "security representing a unit in a fund"
+    },
+    {
+        "id": "Share",
+        "type": "Entity",
+        "name": "Share"
+    },
+    {
+        "id": "ManagedInvestment",
+        "type": "Class",
+        "name": "ManagedInvestment",
+        "explanatoryNote": "A managed investment is an investment vehicle that consists of a pool of funds collected from many different investors run by a management company."
+    },
+    {
+        "id": "CollectiveInvestmentVehicle",
+        "type": "Class",
+        "name": "CollectiveInvestmentVehicle",
+        "label": "collective investment vehicle",
+        "explanatoryNote": "Collective investment vehicles are typically organized and operated by management companies, banks, or trust companies. Shares or units are issued in the form of unit trusts, mutual funds, or other similar contracts. Common kinds of funds include pension funds, insurance funds, foundations, and endowments. Such pools are often invested and professionally managed, including investment pools, umbrella pools, share class pools, etc.",
+        "definition": "assets pooled by investors whose share capital remains separate from the assets of the vehicle"
+    },
+    {
+        "id": "LegalFundStructure",
+        "type": "Class",
+        "name": "LegalFundStructure",
+        "label": "legal fund structure",
+        "definition": "structure of a fund with respect to its legal formation in some jurisdiction"
+    },
+    {
+        "id": "LegalConstruct",
+        "type": "Entity",
+        "name": "LegalConstruct"
+    },
+    {
+        "id": "SovereignWealthFund",
+        "type": "Class",
+        "name": "SovereignWealthFund",
+        "explanatoryNote": "Sovereign wealth funds include the International Monetary Fund, whose corresponding legal entity is a polity.",
+        "label": "sovereign wealth fund",
+        "definition": "state-owned investment fund that consists of pools of money derived from a country's reserves"
+    },
+    {
+        "id": "RealEstateInvestmentTrust",
+        "type": "Class",
+        "name": "RealEstateInvestmentTrust",
+        "label": "real estate investment trust",
+        "definition": "investment fund that offers shares/units to the public and invests in real estate directly",
+        "explanatoryNote": "Real estate investment trusts own, and in most cases operate, income-producing real estate. REITs own many types of commercial real estate, ranging from office and apartment buildings to warehouses, hospitals, shopping centers, hotels and commercial forests. Some REITs engage in financing real estate.",
+        "abbreviation": "REIT"
+    },
+    {
+        "id": "PrivateEquityFund",
+        "type": "Class",
+        "name": "PrivateEquityFund",
+        "label": "private equity fund",
+        "explanatoryNote": "Private equity funds are typically structured as limited partnerships or limited liability companies, wherein investors are limited partners, and the fund is managed by one or more general partners. It is composed of investors and funds that invest directly in private companies, or that engage in buyouts of public companies, resulting in the delisting of the public equity.",
+        "definition": "investment fund used for making investments in various equity (and to a lesser extent debt) securities according to an investment strategy associated with private equity",
+        "abbreviation": "ETF"
+    },
+    {
+        "id": "FundContract",
+        "type": "Class",
+        "name": "FundContract",
+        "definition": "contract that embodies and defines the fund legal form in cases where there is no independent organization",
+        "label": "fund contract"
+    },
+    {
+        "id": "OrganizationCoveringAgreement",
+        "type": "Entity",
+        "name": "OrganizationCoveringAgreement"
+    },
+    {
+        "id": "ExchangeTradedFund",
+        "type": "Class",
+        "name": "ExchangeTradedFund",
+        "definition": "investment fund whose fund units are traded on an exchange, much like stocks",
+        "label": "exchange-traded fund",
+        "abbreviation": "ETF",
+        "explanatoryNote": "An ETF holds assets such as stocks, commodities, or bonds, and trades close to its net asset value over the course of the trading day. Most ETFs track an index, such as a stock, bond, or commodity index."
+    },
+    {
+        "id": "PooledFund",
+        "type": "Class",
+        "name": "PooledFund",
+        "explanatoryNote": "A fund can be established for any purpose, such as a municipality setting aside money for a construction project, monies designated to endow a university chair or for scholarships, or funds set aside by insurance companies to settle claims."
+    },
+    {
+        "id": "FinancialAsset",
+        "type": "Entity",
+        "name": "FinancialAsset"
+    },
+    {
+        "id": "FundOfFunds",
+        "type": "Class",
+        "name": "FundOfFunds",
+        "label": "fund of funds",
+        "definition": "investment fund that invests directly in other investment funds rather than investing in stocks, bonds, and other securities"
+    },
+    {
+        "id": "ClosedEndInvestment",
+        "type": "Class",
+        "name": "ClosedEndInvestment",
+        "label": "closed-end investment",
+        "definition": "investment fund that has a fixed number of shares offered by an investment company through an initial public offering"
+    },
+    {
+        "id": "PensionFund",
+        "type": "Class",
+        "name": "PensionFund",
+        "definition": "investment fund run by a financial intermediary on behalf of an organization and its employees/members",
+        "abbreviation": "ETF",
+        "explanatoryNote": "A pension fund is a common asset pool meant to generate stable growth over a long-term investment horizon.",
+        "label": "pension fund"
+    },
+    {
+        "id": "MutualFund",
+        "type": "Class",
+        "name": "MutualFund",
+        "definition": "open-end professionally managed investment fund established for the purpose of investing in securities such as stocks, bonds, money market instruments and similar assets",
+        "label": "mutual fund"
+    },
+    {
+        "id": "hasLegalStructure",
+        "type": "ObjectProperty",
+        "name": "hasLegalStructure",
+        "label": "has legal structure",
+        "definition": "indicates the legal form that the fund takes"
+    },
+    {
+        "id": "isOpenEnded",
+        "type": "DatatypeProperty",
+        "name": "isOpenEnded",
+        "definition": "indicates whether the fund is an open-end/closed-end fund",
+        "label": "is open ended"
+    },
+    {
+        "id": "isSubFundOf",
+        "type": "ObjectProperty",
+        "name": "isSubFundOf",
+        "label": "is sub-fund of",
+        "definition": "relates a pooled fund to a parent fund"
+    },
+    {
+        "id": "hasSubFund",
+        "type": "ObjectProperty",
+        "name": "hasSubFund",
+        "label": "has sub-fund",
+        "definition": "relates a pooled fund to a sub-fund that is a constituent of the parent fund"
+    }
+]

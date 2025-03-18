@@ -1,0 +1,298 @@
+[
+    {
+        "source_id": "DerivativeInstrument",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtInstrument",
+        "target_id": "CreditAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtInstrument",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpotContract",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Entitlement",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Entitlement",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrument",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrument",
+        "target_id": "Issuer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIssuedBy",
+                "Issuer"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstrument",
+        "target_id": "isNegotiable",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isNegotiable"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstrument",
+        "target_id": "FinancialInstrumentIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "FinancialInstrumentIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "Issuer",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "FinancialInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "Issuer",
+        "target_id": "ContractPrincipal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NegotiableSecurity",
+        "target_id": "TransferableContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NegotiableSecurity",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NegotiableSecurity",
+        "target_id": "isNegotiable",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isNegotiable"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesTransaction",
+        "target_id": "Trade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTransaction",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "FinancialInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "CommodityInstrument",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrumentIdentifier",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "FinancialInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstrumentIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PromissoryNote",
+        "target_id": "DebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Future",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityInstrument",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UniqueTransactionIdentifier",
+        "target_id": "SecuritiesTransaction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "SecuritiesTransaction"
+            ]
+        }
+    },
+    {
+        "source_id": "CurrencyInstrument",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Security",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExemptSecurity",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditFacility",
+        "target_id": "PromissoryNote",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "PromissoryNote"
+            ]
+        }
+    },
+    {
+        "source_id": "CashInstrument",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PackagedFinancialProduct",
+        "target_id": "FinancialProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PackagedFinancialProduct",
+        "target_id": "ContractualProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StandardizedTerms",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RedemptionProvision",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Option",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Underlier",
+        "target_id": "Role",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonNegotiableSecurity",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

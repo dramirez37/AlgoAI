@@ -1,0 +1,21 @@
+[
+    {
+        "source_id": "CommercialLoan",
+        "target_id": "Loan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommercialLoan",
+        "target_id": "hasBusinessPurposeDescription",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasBusinessPurposeDescription"
+            ]
+        }
+    }
+]

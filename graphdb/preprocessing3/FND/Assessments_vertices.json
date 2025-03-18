@@ -1,0 +1,139 @@
+[
+    {
+        "id": "AssessmentActivity",
+        "type": "Class",
+        "name": "AssessmentActivity",
+        "definition": "activity involving the evaluation or estimation of the nature, quality, ability, or value of someone or something",
+        "label": "assessment activity"
+    },
+    {
+        "id": "OccurrenceKind",
+        "type": "Entity",
+        "name": "OccurrenceKind"
+    },
+    {
+        "id": "Appraisal",
+        "type": "Class",
+        "name": "Appraisal",
+        "definition": "written estimate of the market value of something as of some point in time, typically provided by a qualified appraiser",
+        "label": "appraisal"
+    },
+    {
+        "id": "AssessmentReport",
+        "type": "Class",
+        "name": "AssessmentReport",
+        "label": "assessment report",
+        "definition": "report that includes an opinion, judgement, appraisal, or view about something and typically the methodology and raw inputs used to arrive at that opinion"
+    },
+    {
+        "id": "AppraisedValue",
+        "type": "Class",
+        "name": "AppraisedValue",
+        "label": "appraised value",
+        "definition": "estimated value of some asset as of a given point in time"
+    },
+    {
+        "id": "MonetaryAmount",
+        "type": "Entity",
+        "name": "MonetaryAmount"
+    },
+    {
+        "id": "Appraiser",
+        "type": "Class",
+        "name": "Appraiser",
+        "label": "appraiser",
+        "definition": "party that evaluates or estimates the nature, quality, ability, or value of someone or something"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "ValueAssessment",
+        "type": "Class",
+        "name": "ValueAssessment",
+        "definition": "assessment event to estimate the value of something",
+        "label": "value assessment",
+        "explanatoryNote": "Note that an appraiser in this context may be a licensed appraiser, such as a real estate appraiser or auction house, or a calculation agent, depending on the circumstances."
+    },
+    {
+        "id": "AssessmentEvent",
+        "type": "Class",
+        "name": "AssessmentEvent",
+        "label": "assessment event",
+        "definition": "event involving the evaluation or estimation of the nature, quality, or ability of someone or something"
+    },
+    {
+        "id": "Occurrence",
+        "type": "Entity",
+        "name": "Occurrence"
+    },
+    {
+        "id": "Opinion",
+        "type": "Class",
+        "name": "Opinion",
+        "definition": "judgement, appraisal, or view about something",
+        "label": "opinion"
+    },
+    {
+        "id": "Report",
+        "type": "Entity",
+        "name": "Report"
+    },
+    {
+        "id": "ValuationMethod",
+        "type": "Class",
+        "name": "ValuationMethod",
+        "definition": "method used to determine the present or expected worth of an asset",
+        "explanatoryNote": "Asset valuation is the process of determining the fair market or present value of assets, using book values, absolute valuation models like discounted cash flow analysis, option pricing models or comparables. Such assets include investments in marketable securities such as stocks, bonds and options; tangible assets like buildings and equipment; or intangible assets such as brands, patents and trademarks.",
+        "label": "valuation method"
+    },
+    {
+        "id": "Strategy",
+        "type": "Entity",
+        "name": "Strategy"
+    },
+    {
+        "id": "estimatesValueAt",
+        "type": "ObjectProperty",
+        "name": "estimatesValueAt",
+        "label": "estimates value at",
+        "definition": "provides an approximate value of some asset as of some point in time"
+    },
+    {
+        "id": "hasDateOfAssessment",
+        "type": "ObjectProperty",
+        "name": "hasDateOfAssessment",
+        "definition": "date on which an assessment process was completed",
+        "label": "has date of assessment"
+    },
+    {
+        "id": "isEstimatedValueOf",
+        "type": "ObjectProperty",
+        "name": "isEstimatedValueOf",
+        "label": "is estimated value of",
+        "definition": "relates an appraised value to the asset of interest as of the date of the assessment"
+    },
+    {
+        "id": "hasAppraiser",
+        "type": "ObjectProperty",
+        "name": "hasAppraiser",
+        "definition": "relates an assessment or report to an agent that conducts the assessment",
+        "label": "has appraiser"
+    },
+    {
+        "id": "appliesMethodology",
+        "type": "ObjectProperty",
+        "name": "appliesMethodology",
+        "definition": "indicates the strategy used for the purposes of determining the fair market or present value of something",
+        "label": "applies methodology"
+    },
+    {
+        "id": "hasEstimatedValue",
+        "type": "ObjectProperty",
+        "name": "hasEstimatedValue",
+        "definition": "relates something to its estimated value",
+        "label": "has estimated value"
+    }
+]

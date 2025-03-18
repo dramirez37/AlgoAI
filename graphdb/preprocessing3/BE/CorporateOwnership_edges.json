@@ -1,0 +1,68 @@
+[
+    {
+        "source_id": "BeneficialOwner",
+        "target_id": "ControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BeneficialOwner",
+        "target_id": "Beneficiary",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Shareholder",
+        "target_id": "Counterparty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Shareholder",
+        "target_id": "ConstitutionalOwner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BeneficialOwnership",
+        "target_id": "Control",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BeneficialOwnership",
+        "target_id": "BeneficialOwner",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyInControl",
+                "BeneficialOwner"
+            ]
+        }
+    },
+    {
+        "source_id": "Shareholding",
+        "target_id": "FinancialAsset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Shareholding",
+        "target_id": "Shareholder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isHeldBy",
+                "Shareholder"
+            ]
+        }
+    }
+]

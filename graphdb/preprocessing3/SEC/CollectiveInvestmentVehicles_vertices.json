@@ -1,0 +1,1855 @@
+[
+    {
+        "id": "AnnualReportingPolicy",
+        "type": "Class",
+        "name": "AnnualReportingPolicy",
+        "definition": "Reports are presented once a year",
+        "label": "annual reporting policy"
+    },
+    {
+        "id": "ReportingFrequencyPolicy",
+        "type": "Class",
+        "name": "ReportingFrequencyPolicy",
+        "label": "reporting frequency policy",
+        "definition": "Frequency with which financial reports will be presented."
+    },
+    {
+        "id": "PortfolioBenchmark",
+        "type": "Class",
+        "name": "PortfolioBenchmark",
+        "label": "portfolio benchmark",
+        "definition": "Security or other price against which the performance of the portfolio is evaluated."
+    },
+    {
+        "id": "Measure",
+        "type": "Entity",
+        "name": "Measure"
+    },
+    {
+        "id": "AssetClassStrategy",
+        "type": "Class",
+        "name": "AssetClassStrategy",
+        "explanatoryNote": "EFAMA: The type of securities or other holdings that may be invested in. FIBIM: Strategy which is asset class based. Can implement this in terms of a classification of those things. Wording implies this is a policy.",
+        "definition": "Strategy which is asset class based.",
+        "label": "asset class strategy"
+    },
+    {
+        "id": "FundPortfolioInvestmentLimitations",
+        "type": "Class",
+        "name": "FundPortfolioInvestmentLimitations",
+        "definition": "Detailed Policy on approximately how the portfolio is to be allocated to achieve the stated investment goals. This underpins the detailed strategy of how to achieve this.",
+        "explanatoryNote": "Defined as \"Strategy\" in FIBIM and elsewhere. WG11: Rough allocation of the portfolio.",
+        "label": "fund portfolio investment limitations"
+    },
+    {
+        "id": "FondsCommunDePlacement",
+        "type": "Class",
+        "name": "FondsCommunDePlacement",
+        "label": "fonds commun de placement",
+        "definition": "open-ended collective investment fund, which is a contractual form set up between the fund manager and investors and not a separate legal entity",
+        "abbreviation": "FCP"
+    },
+    {
+        "id": "CollectiveInvestmentVehicle",
+        "type": "Class",
+        "name": "CollectiveInvestmentVehicle",
+        "explanatoryNote": "From EFAMA DD: The word fund can refer to either an investment pool, umbrella or share class, and is commonly refered to as a collective investment vehicle (can have ISIN or not). The meaning here is for the investment pool (of which an Umbrella fund is also one such) and not to the share class."
+    },
+    {
+        "id": "FundsProcessingAccount",
+        "type": "Class",
+        "name": "FundsProcessingAccount",
+        "label": "funds processing account",
+        "definition": "An account used specifically in the processing of funds. Like all accounts this is (per FIBIM definition) a business relationship between two entities; one entity is the account owner, the other entity is the account servicer. Please refer to Financial global model for treatment of accounts relationships in this model.",
+        "explanatoryNote": "Derived from FIBIM definition for \"Account\", which is: \"Business relationship between two entities; one entity is the account owner, the other entity is the account servicer.\" this corresponds to the Global Terms definition for Account."
+    },
+    {
+        "id": "Account",
+        "type": "Entity",
+        "name": "Account"
+    },
+    {
+        "id": "InvestmentAdvisor",
+        "type": "Class",
+        "name": "InvestmentAdvisor",
+        "label": "investment advisor",
+        "definition": "The party that provides investment guidance at a fee. Definition origin:EFAMA DD"
+    },
+    {
+        "id": "FundsProcessingParty",
+        "type": "Class",
+        "name": "FundsProcessingParty",
+        "definition": "party involved in the processing of funds",
+        "label": "funds processing party"
+    },
+    {
+        "id": "PortfolioManager",
+        "type": "Class",
+        "name": "PortfolioManager",
+        "definition": "person or entity responsible for day to day investment decisions for a fund or asset",
+        "label": "portfolio manager"
+    },
+    {
+        "id": "OrganizationMember",
+        "type": "Entity",
+        "name": "OrganizationMember"
+    },
+    {
+        "id": "FundDividendPolicy",
+        "type": "Class",
+        "name": "FundDividendPolicy",
+        "definition": "Terms for the expected distributions of dividends.",
+        "label": "fund dividend policy"
+    },
+    {
+        "id": "FundCashDistributionPolicy",
+        "type": "Class",
+        "name": "FundCashDistributionPolicy",
+        "definition": "Policy for distribution of cash dividends or notes in the event that the fund units have a distribution policy of \"Cash\" rather than \"Reinvestment\".",
+        "label": "fund cash distribution policy"
+    },
+    {
+        "id": "FundsProcessingPassport",
+        "type": "Class",
+        "name": "FundsProcessingPassport",
+        "definition": "The Funds Processing Passport. This is defined as a document. This has terms drawn from elsewhere in the model which are defined as part of the FPP for reasons defined in the FPP descriptions.",
+        "label": "funds processing passport"
+    },
+    {
+        "id": "Document",
+        "type": "Entity",
+        "name": "Document"
+    },
+    {
+        "id": "FundReinvestmentPolicy",
+        "type": "Class",
+        "name": "FundReinvestmentPolicy",
+        "label": "fund reinvestment policy",
+        "definition": "Terms for the expected reinvestment of profits on fund units."
+    },
+    {
+        "id": "FundUnitDistributionPolicy",
+        "type": "Class",
+        "name": "FundUnitDistributionPolicy",
+        "definition": "policy relating to the unit, e.g. if income is paid out or retained in the fund and how this is treated, including distribution policy details for dividends and coupons.",
+        "label": "fund unit distribution policy"
+    },
+    {
+        "id": "FundRedemptionTerms",
+        "type": "Class",
+        "name": "FundRedemptionTerms",
+        "label": "fund redemption terms",
+        "definition": "Formal terms for redemption of units in the fund. These set out what the investor and the fund may or may not do."
+    },
+    {
+        "id": "FundProcessingTerms",
+        "type": "Class",
+        "name": "FundProcessingTerms",
+        "definition": "Formal terms for processing of the fund. These set out what the investor and the fund may or may not do. These include terms for redemption and subscription processing as well as general processing terms. ISO FIBIM definition: Processing characteristics linked to the instrument, ie, not to the market.",
+        "explanatoryNote": "These include Fund Subscription Terms, Fund Redemption Terms. and terms which relate to general processing and restrictions or otherwise on the holder. FPP notes: FPP presentation identifies many of these terms under the heading of Valuation Dealing characteristics. May need to revise which goes where in line with FPP. See also terms under NAV Valuation Calculation Method. Others of these terms appear in FPP under Instrument Restrictions. These cover the subscription, redemption and holding amounts and units and minimum holding period.",
+        "label": "fund processing terms"
+    },
+    {
+        "id": "ReportingPolicy",
+        "type": "Entity",
+        "name": "ReportingPolicy"
+    },
+    {
+        "id": "SPVPurpose",
+        "type": "Class",
+        "name": "SPVPurpose",
+        "label": "s p v purpose",
+        "definition": "The reason for the creation of a Special Purpose Vehicle."
+    },
+    {
+        "id": "BusinessObjective",
+        "type": "Entity",
+        "name": "BusinessObjective"
+    },
+    {
+        "id": "PerformanceDeterminationMethod",
+        "type": "Class",
+        "name": "PerformanceDeterminationMethod",
+        "definition": "A method for performance determination (e.g. Time weighted and money weighted, annualized, gross of fee) along with the time frame in which this is determined. PLUS Performances NamePeriod",
+        "label": "performance determination method"
+    },
+    {
+        "id": "Strategy",
+        "type": "Entity",
+        "name": "Strategy"
+    },
+    {
+        "id": "NetAssetValueCalculationMethod",
+        "type": "Class",
+        "name": "NetAssetValueCalculationMethod",
+        "label": "net asset value calculation method",
+        "definition": "Parameters for the calculation of the net asset value for an investment fund/fund class."
+    },
+    {
+        "id": "Expression",
+        "type": "Entity",
+        "name": "Expression"
+    },
+    {
+        "id": "FundProcessingForm",
+        "type": "Class",
+        "name": "FundProcessingForm",
+        "label": "fund processing form",
+        "definition": "The form of documentation or control mechanism required for some funds processing activity.",
+        "explanatoryNote": "Equates to the \"Physical Form\" in SIO FIBIM for certain activities in funds processing. May or may not be a written physical document. ISO FIBIM Definition: Specifies whether a physical form is required."
+    },
+    {
+        "id": "EquityPortfolio",
+        "type": "Class",
+        "name": "EquityPortfolio",
+        "label": "equity portfolio",
+        "definition": "A portfolio which has at least 85% exposure to shares."
+    },
+    {
+        "id": "FundPortfolio",
+        "type": "Class",
+        "name": "FundPortfolio",
+        "label": "fund portfolio",
+        "definition": "An account containing a number of financial instruments along with cash positions in one or more currencies and belonging to a Fund"
+    },
+    {
+        "id": "ReferToFundOrderDesk",
+        "type": "Class",
+        "name": "ReferToFundOrderDesk",
+        "definition": "Restriction requiring an investor to refer to the fund order desk prior to redeeming a fund.",
+        "label": "refer to fund order desk"
+    },
+    {
+        "id": "FundRedemptionRestriction",
+        "type": "Class",
+        "name": "FundRedemptionRestriction",
+        "label": "fund redemption restriction"
+    },
+    {
+        "id": "PortfolioInvestmentStrategy",
+        "type": "Class",
+        "name": "PortfolioInvestmentStrategy",
+        "definition": "The manner in which the portfolio manager tries to reach the funds objectives.",
+        "explanatoryNote": "Describes how you get there. E.g fully invested v not fully invested. MB Note: The terms labeled \"Strategy\" in EFAMA and in FIBIM are more like dictionary definition of policy, while \"How you get there\" is a dictionary definition of Strategy. Therefore original labels may be reversed from dictionary definition of the global semantics these are derived from.",
+        "label": "portfolio investment strategy"
+    },
+    {
+        "id": "InvestmentStrategy",
+        "type": "Class",
+        "name": "InvestmentStrategy",
+        "definition": "plan, method, or series of maneuvers or stratagems for obtaining a specific investment goal",
+        "label": "investment strategy"
+    },
+    {
+        "id": "FundOrderDesk",
+        "type": "Class",
+        "name": "FundOrderDesk",
+        "label": "fund order desk",
+        "definition": "The Fund Order Desk is a party to the Fund Order Desk Account."
+    },
+    {
+        "id": "AccountProvider",
+        "type": "Entity",
+        "name": "AccountProvider"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "KeyInvestorInformationDocument",
+        "type": "Class",
+        "name": "KeyInvestorInformationDocument",
+        "label": "key investor information document",
+        "explanatoryNote": "Key investor information shall include appropriate information about the essential characteristics of the UCITS concerned, which is to be provided to investors so that they are reasonably able to understand the nature and the risks of the investment product that is being offered to them and, consequently, to take investment decisions on an informed basis.",
+        "abbreviation": "KIID",
+        "definition": "short document that provides critical information for investors, summarizing content derived from a prospectus such that it can be understood by investors without reference to other documents, as required by law in the European Union"
+    },
+    {
+        "id": "OfferingDocument",
+        "type": "Entity",
+        "name": "OfferingDocument"
+    },
+    {
+        "id": "FundProcessingGeneralTerms",
+        "type": "Class",
+        "name": "FundProcessingGeneralTerms",
+        "definition": "Formal terms for general processing of the fund. These set out what the investor and the fund may or may not do.",
+        "label": "fund processing general terms"
+    },
+    {
+        "id": "FundSupervisoryAuthority",
+        "type": "Class",
+        "name": "FundSupervisoryAuthority",
+        "label": "fund supervisory authority",
+        "definition": "party that supervises the fund or fund industry"
+    },
+    {
+        "id": "FundDataProvider",
+        "type": "Class",
+        "name": "FundDataProvider",
+        "label": "fund data provider",
+        "definition": "A party which supplies market data to a fund."
+    },
+    {
+        "id": "FundSubscriptionTerms",
+        "type": "Class",
+        "name": "FundSubscriptionTerms",
+        "definition": "Subscription terms for the fund. Further notes: ISO FIBIM, EFAMA DD and FPP combine terms for subscription, redemption and general holding requirements. These have been separated here as they are different kinds of term, but this can be reviewed. Subscription Terms are identified as terms of the fund and not the fund unit, since terms for how you might subscribe can't be binding one someone who has not yet subscribed.",
+        "label": "fund subscription terms"
+    },
+    {
+        "id": "Portfolio",
+        "type": "Entity",
+        "name": "Portfolio"
+    },
+    {
+        "id": "FundAccountant",
+        "type": "Class",
+        "name": "FundAccountant",
+        "label": "fund accountant",
+        "definition": "The party that keeps accounting records of the available assets and liabilities of the Fund. It calculates dealing prices, the Net Asset Value (NAV) of the Fund, and may provide fund performance and tax data. Can be subcontracted by the FundAdministrator."
+    },
+    {
+        "id": "OrganizationStrategy",
+        "type": "Class",
+        "name": "OrganizationStrategy",
+        "definition": "Strategy which is organization based.",
+        "label": "organization strategy"
+    },
+    {
+        "id": "FundInvestmentObjective",
+        "type": "Class",
+        "name": "FundInvestmentObjective",
+        "label": "fund investment objective",
+        "definition": "The aim of a Fund e.g outperfom a given benchmark."
+    },
+    {
+        "id": "InvestmentObjective",
+        "type": "Entity",
+        "name": "InvestmentObjective"
+    },
+    {
+        "id": "FundInvestmentPolicy",
+        "type": "Class",
+        "name": "FundInvestmentPolicy",
+        "label": "fund investment policy",
+        "explanatoryNote": "EFAMA Note: Model distinguishes between strategy (what you intend to invest in) and portfolio structure (what is held). This semantics matches the EFAMA DD \"Fund Investment Policy\" No stated definition in EFAMA DD (\"Further discussion required\").",
+        "definition": "policy that the fund implements in order to achieve the stated fund objectives"
+    },
+    {
+        "id": "Policy",
+        "type": "Entity",
+        "name": "Policy"
+    },
+    {
+        "id": "TimeWeightedRateOfReturnPerformanceDeterminationMethod",
+        "type": "Class",
+        "name": "TimeWeightedRateOfReturnPerformanceDeterminationMethod",
+        "label": "time weighted rate of return performance determination method",
+        "definition": "Time weighted rate of return."
+    },
+    {
+        "id": "Liquidity",
+        "type": "Class",
+        "name": "Liquidity",
+        "definition": "Precise definition needed for liquidity, and check that it is modeled accordingly.",
+        "label": "liquidity"
+    },
+    {
+        "id": "Asset",
+        "type": "Entity",
+        "name": "Asset"
+    },
+    {
+        "id": "FundUnit",
+        "type": "Class",
+        "name": "FundUnit",
+        "explanatoryNote": "If it is a closed fund, you can still trade the units. You trade back with the fund. Not with a counterparty. Therefore this is a tradable contract, though it may not necessarily be a transferable contract."
+    },
+    {
+        "id": "ContractualCommitment",
+        "type": "Entity",
+        "name": "ContractualCommitment"
+    },
+    {
+        "id": "NoteFundUnit",
+        "type": "Class",
+        "name": "NoteFundUnit",
+        "definition": "Need a legal definition - to follow. This is one of the mechanisms by which an investor may hold an interest in a fund, but is not a Bond or a Share.",
+        "label": "note fund unit"
+    },
+    {
+        "id": "FundProspectus",
+        "type": "Class",
+        "name": "FundProspectus",
+        "definition": "The Prospectus for the Fund. This is a document made available publicly for potential investors. It will include facts about the fund investment objective, investment focus and other details of the fund. Some of this information becomes binding on the fund once it is issued, while other information is guidelines only.",
+        "label": "fund prospectus"
+    },
+    {
+        "id": "Prospectus",
+        "type": "Entity",
+        "name": "Prospectus"
+    },
+    {
+        "id": "SectorStrategy",
+        "type": "Class",
+        "name": "SectorStrategy",
+        "definition": "Strategy which is sector based.",
+        "label": "sector strategy"
+    },
+    {
+        "id": "StakeInFund",
+        "type": "Class",
+        "name": "StakeInFund",
+        "label": "stake in fund",
+        "definition": "The holding of some portion in a fund, by some party. This stake will generally tak ethe form of some sort of unit in that fund."
+    },
+    {
+        "id": "Position",
+        "type": "Entity",
+        "name": "Position"
+    },
+    {
+        "id": "FundDistributor",
+        "type": "Class",
+        "name": "FundDistributor",
+        "label": "fund distributor",
+        "definition": "an entity through which a fund may be bought by or for an investor. This may be on a discretionary or advisory basis, or as an execution-only service. Definition origin:EFAMA DD"
+    },
+    {
+        "id": "BusinessStrategy",
+        "type": "Entity",
+        "name": "BusinessStrategy"
+    },
+    {
+        "id": "FundCouponPolicy",
+        "type": "Class",
+        "name": "FundCouponPolicy",
+        "definition": "Terms for the expected distribution of bond unit coupons.",
+        "label": "fund coupon policy"
+    },
+    {
+        "id": "DebtStakeInFund",
+        "type": "Class",
+        "name": "DebtStakeInFund",
+        "definition": "A stake held in a fund by way of a Bond Unit.",
+        "label": "debt stake in fund",
+        "explanatoryNote": "Note that you cannot buy fractional amounts in a bond. Review Session Note: Similar to what happens in a CDO where the collaterial manager and the issuer are two different entities. So model this along the same lines as the SPV in the structured finance model. Therefore: further modeling and review required"
+    },
+    {
+        "id": "SpecialPurposeVehicle",
+        "type": "Class",
+        "name": "SpecialPurposeVehicle",
+        "explanatoryNote": "A Special Purpose Vehicle (SPV) set up specifically to issue a security or securities. It is set up by a company or a group of companies for some purpose such as to create instruments that are off the company's balance sheet or to issue Participation Notes for investors in another jurisdiction. The SPV is formed for a specific reason and exists for a specific period of time and is then disbanded. Further notes: Special Purpose Vehicles are also referred to as bankruptcy remote entities, as they isolate financial risk. For Participation Notes: slightly different purpose but the same kind of vehicle. The only investment made by the SPV is that they buy in the stock. These are the same kind of entity in all of the contexts in which they exist."
+    },
+    {
+        "id": "FundClassificationScheme",
+        "type": "Class",
+        "name": "FundClassificationScheme",
+        "label": "fund classification scheme",
+        "definition": "A published scheme for the category of a fund according to the asset class."
+    },
+    {
+        "id": "ClassificationScheme",
+        "type": "Entity",
+        "name": "ClassificationScheme"
+    },
+    {
+        "id": "FundAuditor",
+        "type": "Class",
+        "name": "FundAuditor",
+        "label": "fund auditor",
+        "definition": "The party that is in charge of examining and verifying a fund's financial and accounting records as well as supporting documents and fulfilment of legal requirements. Definition origin:EFAMA DD"
+    },
+    {
+        "id": "FundReportingTerms",
+        "type": "Class",
+        "name": "FundReportingTerms",
+        "label": "fund reporting terms",
+        "definition": "Terms describing the accounting methods and reporting arrangements used by the fund."
+    },
+    {
+        "id": "FundClassification",
+        "type": "Class",
+        "name": "FundClassification",
+        "label": "fund classification",
+        "definition": "The category of the fund according to the asset class. This is a published code by which the Fund is classified. Further notes: Could be EFCF codes. This is the way in which \"Type of fund\" is articulated."
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "AccumulatingShareClass",
+        "type": "Class",
+        "name": "AccumulatingShareClass",
+        "explanatoryNote": "This fact would be determined by the fund unit having a specific Fund Distribution Policy of Accumulating.",
+        "definition": "A share class in which there is no option to reinvest.",
+        "label": "accumulating share class"
+    },
+    {
+        "id": "FundShareClassUnit",
+        "type": "Class",
+        "name": "FundShareClassUnit",
+        "definition": "The legal structure in which you can purchase part of an investment pool, defined by a variety of characteristics like investor type, minimum size of investment, distribution type, fee and currency. A fund unit which gives the holder an equity stake in the fund.",
+        "label": "fund share class unit",
+        "explanatoryNote": "From review sessions: Theoretically you can buy a fraction of a share in a fund. This would depend on the legal structure of the fund, e.g. a minimum investment. There is always a distribution plan."
+    },
+    {
+        "id": "EquityFund",
+        "type": "Class",
+        "name": "EquityFund",
+        "definition": "A fund which invests in at least 85% shares.",
+        "label": "equity fund"
+    },
+    {
+        "id": "InvestmentRestriction",
+        "type": "Class",
+        "name": "InvestmentRestriction",
+        "explanatoryNote": "These are defined by the overall Fund investment policy. Not the same as the detailed policies for investing in percentages of this or that.",
+        "definition": "Limitations that apply to the fund as a whole, such as risk factors. these are used to determine whether the fund is appropriate for a given type of investor to invest in.",
+        "label": "fund investment restrictions set"
+    },
+    {
+        "id": "SecuritiesRestriction",
+        "type": "Entity",
+        "name": "SecuritiesRestriction"
+    },
+    {
+        "id": "FundAdministrator",
+        "type": "Class",
+        "name": "FundAdministrator",
+        "explanatoryNote": "If the unit is a bond, then the issuer is separate from the Fund Administrator. WG11 text: The party in charge of financial accounting, NAV calculation, management and performance fee calculation. Can also be in charge of orders centralisation and registration. Definition origin:EFAMA DD",
+        "definition": "Entity that has to fulfil the legal and supervisory requirements of the fund. Responsible for all the business purposes around the investment pool, and so is reponsible for the issuing of the shares.",
+        "label": "fund administrator"
+    },
+    {
+        "id": "FundPromoter",
+        "type": "Class",
+        "name": "FundPromoter",
+        "label": "fund promoter",
+        "definition": "An entity that promotes a fund. May be an investor, pension fund, bank, insurance company or management company"
+    },
+    {
+        "id": "FundContract",
+        "type": "Class",
+        "name": "FundContract",
+        "explanatoryNote": "From ISO FIBIM \"Umbrella Fund\" narrative: In securities, a collective investment scheme that has a contractual or a corporate form. When it has a contractual form, a fund is constituted under either the law of contract or under the trust law and thus it is not a legal entity. In its corporate form, a fund is a legal entity and is structured as a company."
+    },
+    {
+        "id": "FundManager",
+        "type": "Class",
+        "name": "FundManager",
+        "label": "fund manager",
+        "definition": "The party that sets up the fund, decides the investment strategy, appoints the agents, and is responsible for the promotion and the marketing of the fund. It makes all of the important decisions related to the fund. Also called fund promotor or fund sponsor. This is a dupliucate of Fund Management Company at the moment"
+    },
+    {
+        "id": "SemiAnnualReportingPolicy",
+        "type": "Class",
+        "name": "SemiAnnualReportingPolicy",
+        "definition": "Reports are presented twice a year.",
+        "label": "semi annual reporting policy"
+    },
+    {
+        "id": "FundBondUnitCoupon",
+        "type": "Class",
+        "name": "FundBondUnitCoupon",
+        "definition": "A fixed coupon paid out to holders of the Fund Bond Unit.",
+        "label": "fund bond unit coupon"
+    },
+    {
+        "id": "InterestRate",
+        "type": "Entity",
+        "name": "InterestRate"
+    },
+    {
+        "id": "FundLegalFormDocumentation",
+        "type": "Class",
+        "name": "FundLegalFormDocumentation",
+        "definition": "For a fund which is constituted under the law of contract, the constitution or articles that define the fund. These are embodied in a Contract.",
+        "explanatoryNote": "From ISO FIBIM \"Umbrella Fund\" narrative: In securities, a collective investment scheme that has a contractual or a corporate form. When it has a contractual form, a fund is constituted under either the law of contract or under the trust law and thus it is not a legal entity. In its corporate form, a fund is a legal entity and is structured as a company.",
+        "label": "fund legal form documentation"
+    },
+    {
+        "id": "Constitution",
+        "type": "Entity",
+        "name": "Constitution"
+    },
+    {
+        "id": "UnitIssuer",
+        "type": "Class",
+        "name": "UnitIssuer",
+        "label": "unit issuer",
+        "definition": "The party which issues the Fund Unit."
+    },
+    {
+        "id": "BricksAndMortarHolding",
+        "type": "Class",
+        "name": "BricksAndMortarHolding",
+        "definition": "A holding of built property.",
+        "label": "bricks and mortar holding"
+    },
+    {
+        "id": "PortfolioHolding",
+        "type": "Entity",
+        "name": "PortfolioHolding"
+    },
+    {
+        "id": "IncomeAccumulation",
+        "type": "Class",
+        "name": "IncomeAccumulation",
+        "label": "income accumulation",
+        "definition": "Accrued income is not distributed and instead remains reflected within the unit/share price."
+    },
+    {
+        "id": "FundUnitDistributionMethod",
+        "type": "Class",
+        "name": "FundUnitDistributionMethod",
+        "label": "fund unit distribution method",
+        "definition": "The normal distribution policy for funds."
+    },
+    {
+        "id": "FundDebt",
+        "type": "Class",
+        "name": "FundDebt",
+        "label": "fund debt",
+        "definition": "Debt issued by a Fund.",
+        "explanatoryNote": "This would normally be held by participants in that pool. in this case the pool is a fund which is formed by each of the participants extending credit to that pool and holding bond units in the pool representing that debt."
+    },
+    {
+        "id": "Debt",
+        "type": "Entity",
+        "name": "Debt"
+    },
+    {
+        "id": "EquityStakeInFund",
+        "type": "Class",
+        "name": "EquityStakeInFund",
+        "definition": "A stake held in a fund by way of a Share Class Unit.",
+        "explanatoryNote": "Theoretically you can buy a fraction of a share in a fund. This would depend on the legal structure of the fund, e.g. a minimum investment. There is always a distribution plan.",
+        "label": "equity stake in fund"
+    },
+    {
+        "id": "CommonShareInFund",
+        "type": "Class",
+        "name": "CommonShareInFund",
+        "explanatoryNote": "SR Review session notes: US: Closed and open ended funds may have common and preferred shares.",
+        "label": "common share in fund",
+        "definition": "A share unit in a fund, which is classified as a Common Share class."
+    },
+    {
+        "id": "PrivateEquityHolding",
+        "type": "Class",
+        "name": "PrivateEquityHolding",
+        "label": "private equity holding",
+        "definition": "A holding of private equity."
+    },
+    {
+        "id": "FundTransferAgent",
+        "type": "Class",
+        "name": "FundTransferAgent",
+        "definition": "An entity that undertakes the execution of subscription, redemption and switch orders on behalf of a fund. Definition origin:EFAMA DD",
+        "label": "fund transfer agent"
+    },
+    {
+        "id": "RiskLevel",
+        "type": "Class",
+        "name": "RiskLevel",
+        "label": "risk level"
+    },
+    {
+        "id": "OtherInvestmentFundInformation",
+        "type": "Class",
+        "name": "OtherInvestmentFundInformation",
+        "definition": "Things which are not part of the prospectus but are important if you want to understand the fund.",
+        "label": "other investment fund information"
+    },
+    {
+        "id": "JurisdictionStrategy",
+        "type": "Class",
+        "name": "JurisdictionStrategy",
+        "label": "jurisdiction strategy",
+        "definition": "Strategy which is jurisdiction based."
+    },
+    {
+        "id": "AnnualizedPerformanceDeterminationMethod",
+        "type": "Class",
+        "name": "AnnualizedPerformanceDeterminationMethod",
+        "label": "annualized performance determination method",
+        "definition": "Annualized performance determination."
+    },
+    {
+        "id": "FundPortfolioInvestmentPolicy",
+        "type": "Class",
+        "name": "FundPortfolioInvestmentPolicy",
+        "explanatoryNote": "ISO FIBIM: Rough allocation of the portfolio.",
+        "label": "fund portfolio investment policy",
+        "definition": "policy with respect to allocation of the portfolio that is designed to meet the stated investment strategy and goals"
+    },
+    {
+        "id": "FundBondClassUnit",
+        "type": "Class",
+        "name": "FundBondClassUnit",
+        "explanatoryNote": "From EFAMA Review: called denominations e.g. issued in $5000 pieces. You cannot buy fractional amounts in a bond.",
+        "label": "fund bond class unit",
+        "definition": "A fund unit which takes the form of debt in that fund."
+    },
+    {
+        "id": "FundsProcessing",
+        "type": "Class",
+        "name": "FundsProcessing",
+        "definition": "The context of managing and processing funds, issuing funds units etc. This is the context in which the different parties involved in a fund are defined as parties.",
+        "label": "funds processing"
+    },
+    {
+        "id": "LifecycleStage",
+        "type": "Entity",
+        "name": "LifecycleStage"
+    },
+    {
+        "id": "DistributionStrategy",
+        "type": "Entity",
+        "name": "DistributionStrategy"
+    },
+    {
+        "id": "FundUnitHolding",
+        "type": "Class",
+        "name": "FundUnitHolding",
+        "definition": "A holding of a unit in another fund.",
+        "label": "fund unit holding"
+    },
+    {
+        "id": "DistributingShareClass",
+        "type": "Class",
+        "name": "DistributingShareClass",
+        "label": "distributing share class"
+    },
+    {
+        "id": "FundOrderDeskPhysicalFormDocument",
+        "type": "Class",
+        "name": "FundOrderDeskPhysicalFormDocument",
+        "definition": "A phsyical form obtained through the main fund order desk.",
+        "label": "fund order desk physical form document"
+    },
+    {
+        "id": "EquityAsset",
+        "type": "Class",
+        "name": "EquityAsset",
+        "definition": "The holding of equity securities in a portfolio.",
+        "label": "equity asset"
+    },
+    {
+        "id": "FundsCreation",
+        "type": "Class",
+        "name": "FundsCreation",
+        "label": "funds creation",
+        "definition": "SPV set up for fund management Conesnsus:Review"
+    },
+    {
+        "id": "SICAV",
+        "type": "Class",
+        "name": "SICAV",
+        "label": "s i c a v",
+        "definition": "Societe Collective a Capital Variable"
+    },
+    {
+        "id": "SICAF",
+        "type": "Class",
+        "name": "SICAF",
+        "definition": "A French fund vehicle type. Designation and definition needed.",
+        "label": "s i c a f"
+    },
+    {
+        "id": "FundDepositary",
+        "type": "Class",
+        "name": "FundDepositary",
+        "definition": "The party that holds and safeguards holdings owned by a fund. It is also responsible for compliance of the portfolio with legal ratios etc.",
+        "label": "fund depositary",
+        "explanatoryNote": "The depository may delegate custody to another entity (custodian). Definition origin:EFAMA DD"
+    },
+    {
+        "id": "FundsCashDistribution",
+        "type": "Class",
+        "name": "FundsCashDistribution",
+        "label": "funds cash distribution",
+        "definition": "Accrued income is distributed periodically to the investor."
+    },
+    {
+        "id": "FundDistributionPolicy",
+        "type": "Class",
+        "name": "FundDistributionPolicy",
+        "explanatoryNote": "Note that individual classes of Fund Unit also have specific distribution polcies as they effect that class of unit. This class is for terms with wording of the form: \" ... whether or not it is possible to hold shares ...\" for a given parameter.",
+        "label": "fund distribution policy",
+        "definition": "policy indicating the overall strategy or limitations on distribution for the fund"
+    },
+    {
+        "id": "FundManagementCompany",
+        "type": "Class",
+        "name": "FundManagementCompany",
+        "label": "fund management company",
+        "definition": "The party that sets up the fund, decides the investment strategy, appoints the agents, and is responsible for the promotion and the marketing of the fund. It makes all of the important decisions related to the fund. Also called fund promotor or fund sponsor or fund manager.",
+        "explanatoryNote": "In the US: operates on a percentage of the Portfolio assets under management."
+    },
+    {
+        "id": "LegalEntity",
+        "type": "Entity",
+        "name": "LegalEntity"
+    },
+    {
+        "id": "PreferredShareInFund",
+        "type": "Class",
+        "name": "PreferredShareInFund",
+        "label": "preferred share in fund"
+    },
+    {
+        "id": "GrossOfFeePerformanceDeterminationMethod",
+        "type": "Class",
+        "name": "GrossOfFeePerformanceDeterminationMethod",
+        "label": "gross of fee performance determination method",
+        "definition": "Performance determined gross of fee. Review: Is this mutually exclusive with the other listed method? It sounds like it is not."
+    },
+    {
+        "id": "CurrencyStrategy",
+        "type": "Class",
+        "name": "CurrencyStrategy",
+        "label": "currency strategy",
+        "definition": "Strategy which is currency based."
+    },
+    {
+        "id": "MoneyWeightedRateOfReturnPerformanceDeterminationMethod",
+        "type": "Class",
+        "name": "MoneyWeightedRateOfReturnPerformanceDeterminationMethod",
+        "definition": "Money weighted rate of return.",
+        "label": "money weighted rate of return performance determination method"
+    },
+    {
+        "id": "name",
+        "type": "DatatypeProperty",
+        "name": "name",
+        "definition": "Name of the investment fund.",
+        "label": "name"
+    },
+    {
+        "id": "fundClassTypeIdentifier",
+        "type": "DatatypeProperty",
+        "name": "fundClassTypeIdentifier",
+        "label": "fund class type identifier",
+        "definition": "A textual identification of the class of fund units. This is used to uniquely identify a particular class of fund units, and thereby identify features of this type of unit within the fund."
+    },
+    {
+        "id": "minimumInvestmentAmount",
+        "type": "ObjectProperty",
+        "name": "minimumInvestmentAmount",
+        "label": "minimum investment amount",
+        "definition": "Minimum amount that has to be invested in the specified strategy."
+    },
+    {
+        "id": "mayBe.1",
+        "type": "ObjectProperty",
+        "name": "mayBe.1",
+        "label": "may be"
+    },
+    {
+        "id": "frontEndLoadApplicable",
+        "type": "DatatypeProperty",
+        "name": "frontEndLoadApplicable",
+        "definition": "Whether a front end charge on subscription orders for this class can be applied.",
+        "label": "front end load applicable"
+    },
+    {
+        "id": "hasInvestmentStrategy",
+        "type": "ObjectProperty",
+        "name": "hasInvestmentStrategy",
+        "label": "strategy"
+    },
+    {
+        "id": "exCouponDate",
+        "type": "ObjectProperty",
+        "name": "exCouponDate",
+        "definition": "The date at which the coupon is substracted from the NAV",
+        "label": "ex coupon date"
+    },
+    {
+        "id": "identifies.1",
+        "type": "ObjectProperty",
+        "name": "identifies.1",
+        "label": "identifies",
+        "definition": "Jurisdiction (country, county, state, province, city) of the investment."
+    },
+    {
+        "id": "declarationChannel",
+        "type": "DatatypeProperty",
+        "name": "declarationChannel",
+        "label": "declaration channel",
+        "definition": "Means of the net asset value publication, eg, a newspaper."
+    },
+    {
+        "id": "investmentFocus",
+        "type": "DatatypeProperty",
+        "name": "investmentFocus",
+        "definition": "The information about the area the fund is mostly invested into (for example stock market in Germany).",
+        "label": "investment focus"
+    },
+    {
+        "id": "hasDefaultSettlementConvention",
+        "type": "ObjectProperty",
+        "name": "hasDefaultSettlementConvention",
+        "label": "has default settlement convention"
+    },
+    {
+        "id": "hasAccountingInformation",
+        "type": "ObjectProperty",
+        "name": "hasAccountingInformation",
+        "label": "has accounting information"
+    },
+    {
+        "id": "statedManagementFee",
+        "type": "ObjectProperty",
+        "name": "statedManagementFee",
+        "definition": "The fee that is stated in the Prospectus as being what is to be charged for management. Further notes: Can be monetary amount or a percentage or a combination. Action: simple type is wrong.",
+        "label": "stated management fee"
+    },
+    {
+        "id": "hasRelatedTerms",
+        "type": "ObjectProperty",
+        "name": "hasRelatedTerms",
+        "label": "has related terms"
+    },
+    {
+        "id": "maximumRedemptionFee",
+        "type": "ObjectProperty",
+        "name": "maximumRedemptionFee",
+        "definition": "Maximum percentage or fixed amount of money due when redeeming fund shares Definition origin:EFAMA DD",
+        "label": "maximum redemption fee"
+    },
+    {
+        "id": "maximumRedemptionPercentage",
+        "type": "ObjectProperty",
+        "name": "maximumRedemptionPercentage",
+        "label": "maximum redemption percentage",
+        "definition": "Maximum quantity of securities, expressed as a percentage that can be sold."
+    },
+    {
+        "id": "givesOwnershipOf",
+        "type": "ObjectProperty",
+        "name": "givesOwnershipOf",
+        "label": "gives ownership of"
+    },
+    {
+        "id": "trackingError",
+        "type": "ObjectProperty",
+        "name": "trackingError",
+        "label": "tracking error",
+        "definition": "See RiskFactors narrative in EFAMA DD"
+    },
+    {
+        "id": "productGroupDescription",
+        "type": "DatatypeProperty",
+        "name": "productGroupDescription",
+        "label": "product group description",
+        "definition": "Company specific description of a group of funds."
+    },
+    {
+        "id": "hasTradableUnit",
+        "type": "ObjectProperty",
+        "name": "hasTradableUnit",
+        "label": "has tradable unit"
+    },
+    {
+        "id": "firstAccountingYearEndDate",
+        "type": "DatatypeProperty",
+        "name": "firstAccountingYearEndDate",
+        "label": "first accounting year end date",
+        "definition": "Last day of the first accounting year for the fund."
+    },
+    {
+        "id": "includeRelatedFirms",
+        "type": "DatatypeProperty",
+        "name": "includeRelatedFirms",
+        "definition": "Whether or not the strategy includes firms which are related in some way to the referenced organization.",
+        "label": "include related firms"
+    },
+    {
+        "id": "firstNAVCalculationDate",
+        "type": "DatatypeProperty",
+        "name": "firstNAVCalculationDate",
+        "label": "first n a v calculation date",
+        "definition": "The first date of NAV calculation"
+    },
+    {
+        "id": "mainFundOrderDesk",
+        "type": "DatatypeProperty",
+        "name": "mainFundOrderDesk",
+        "label": "main fund order desk",
+        "definition": "Whether the fund order desk is the principal entity appointed by the fund to which orders should be submitted."
+    },
+    {
+        "id": "hasPolicyTerms",
+        "type": "ObjectProperty",
+        "name": "hasPolicyTerms",
+        "label": "has policy terms"
+    },
+    {
+        "id": "issuePrice",
+        "type": "ObjectProperty",
+        "name": "issuePrice",
+        "definition": "The price at which the Fund Unit was first issued.",
+        "label": "issue price"
+    },
+    {
+        "id": "assessedAgainst",
+        "type": "ObjectProperty",
+        "name": "assessedAgainst",
+        "label": "assessed against"
+    },
+    {
+        "id": "holderMayReinvest",
+        "type": "DatatypeProperty",
+        "name": "holderMayReinvest",
+        "definition": "Whether or not the holder may reinvest dividends in the fund.",
+        "label": "holder may reinvest"
+    },
+    {
+        "id": "valuationFrequency",
+        "type": "ObjectProperty",
+        "name": "valuationFrequency",
+        "definition": "Frequency of the net asset value calculation.",
+        "label": "valuation frequency"
+    },
+    {
+        "id": "statedInvestmentAim",
+        "type": "DatatypeProperty",
+        "name": "statedInvestmentAim",
+        "definition": "The stated aim of the Fund in words, e.g outperfom a given benchmark.",
+        "label": "stated investment aim"
+    },
+    {
+        "id": "hasContactDetails",
+        "type": "ObjectProperty",
+        "name": "hasContactDetails",
+        "label": "has contact details"
+    },
+    {
+        "id": "redemptionDealingFrequency",
+        "type": "ObjectProperty",
+        "name": "redemptionDealingFrequency",
+        "definition": "Frequency at which the redemptions are done.",
+        "label": "redemption dealing frequency"
+    },
+    {
+        "id": "processingCountry",
+        "type": "ObjectProperty",
+        "name": "processingCountry",
+        "definition": "Country in which the processing characteristic applies.",
+        "label": "processing country"
+    },
+    {
+        "id": "valuationFrequencyTextualDescription",
+        "type": "DatatypeProperty",
+        "name": "valuationFrequencyTextualDescription",
+        "definition": "Description of the frequency of the net asset value calculation.",
+        "label": "valuation frequency textual description"
+    },
+    {
+        "id": "initialApplicationForm",
+        "type": "ObjectProperty",
+        "name": "initialApplicationForm",
+        "definition": "Physical application form for the initial subscription by the investor.",
+        "label": "initial application form"
+    },
+    {
+        "id": "inceptionDate.1",
+        "type": "ObjectProperty",
+        "name": "inceptionDate.1",
+        "definition": "Authorization date in the country of origin. Further Notes See definition in Inception Date for Fund. Separate fact exists here. Same definition used. EFAMA Review notes: Inception Date exists as soon as there is a prospectus, so it is a fact about a Share Class even if the share class is never formally issued or offered to the public. Legal structure exists even if something is not launched. Editor question: Review stated this was a fact about Share Class; confirm this fact does not apply to Bond and Note units, or was the term Share Class being used to mean all three? Meanwhile I have put the term \"Issue Date\" as a fact about all Fund Unit, as this is given a sa separate term in the EFAMA DD spreadsheet. MAy come clearer in the next version of that.",
+        "label": "inception date"
+    },
+    {
+        "id": "dealingFrequencyDescription",
+        "type": "DatatypeProperty",
+        "name": "dealingFrequencyDescription",
+        "label": "dealing frequency description",
+        "definition": "Description of frequency at which the subscriptions and redemptions are done."
+    },
+    {
+        "id": "reinvestmentFrequency",
+        "type": "ObjectProperty",
+        "name": "reinvestmentFrequency",
+        "label": "reinvestment frequency",
+        "definition": "For units where there is Reinvestment distribution, the frequency with which the reinvestment takes place (this will be the same or less frequently than the Dividend Payment Frequency), otherwise this fact does not apply."
+    },
+    {
+        "id": "description.1",
+        "type": "DatatypeProperty",
+        "name": "description.1",
+        "label": "description",
+        "definition": "Description of the benchmark used to determine the performance of a portfolio."
+    },
+    {
+        "id": "statedIn",
+        "type": "ObjectProperty",
+        "name": "statedIn",
+        "label": "stated in"
+    },
+    {
+        "id": "minimumRemainingHoldingUnits",
+        "type": "DatatypeProperty",
+        "name": "minimumRemainingHoldingUnits",
+        "label": "minimum remaining holding units",
+        "definition": "Minimum number of units/shares that must be retained to avoid automatic redemption."
+    },
+    {
+        "id": "accountingYearEndDate",
+        "type": "ObjectProperty",
+        "name": "accountingYearEndDate",
+        "definition": "Last day of the accounting year for the fund.",
+        "label": "accounting year end date"
+    },
+    {
+        "id": "blacklisted",
+        "type": "DatatypeProperty",
+        "name": "blacklisted",
+        "label": "blacklisted",
+        "definition": "Whether or not the strategy in framed so as to include the referenced business entity as being blacklisted. If yes, the strategy prevents investment in securities issued by that organization."
+    },
+    {
+        "id": "backEndLoadApplicable",
+        "type": "DatatypeProperty",
+        "name": "backEndLoadApplicable",
+        "definition": "Whether an exit charge, eg, CDSC, on redemption orders for this class can be applied.",
+        "label": "back end load applicable"
+    },
+    {
+        "id": "redemptionInAmountAllowed",
+        "type": "DatatypeProperty",
+        "name": "redemptionInAmountAllowed",
+        "definition": "Whether redemptions in amount are allowed.",
+        "label": "redemption in amount allowed"
+    },
+    {
+        "id": "denominatedIn",
+        "type": "ObjectProperty",
+        "name": "denominatedIn",
+        "label": "denominated in"
+    },
+    {
+        "id": "hasRelatedFundTerms",
+        "type": "ObjectProperty",
+        "name": "hasRelatedFundTerms",
+        "label": "has related fund terms"
+    },
+    {
+        "id": "maximumRedemptionAmount",
+        "type": "ObjectProperty",
+        "name": "maximumRedemptionAmount",
+        "definition": "Maximum quantity of securities, expressed as an amount that can be sold.",
+        "label": "maximum redemption amount"
+    },
+    {
+        "id": "hasAdditionalRedemptionRestrictions",
+        "type": "ObjectProperty",
+        "name": "hasAdditionalRedemptionRestrictions",
+        "label": "has additional redemption restrictions"
+    },
+    {
+        "id": "authorizedCountry",
+        "type": "ObjectProperty",
+        "name": "authorizedCountry",
+        "definition": "Country in which it is authorised to commercialise the fund.",
+        "label": "authorized country"
+    },
+    {
+        "id": "supervisedBy",
+        "type": "ObjectProperty",
+        "name": "supervisedBy",
+        "label": "supervised by"
+    },
+    {
+        "id": "statedObjective",
+        "type": "DatatypeProperty",
+        "name": "statedObjective",
+        "label": "stated objective",
+        "definition": "The stated objective of the fund, in words."
+    },
+    {
+        "id": "redemptionForm",
+        "type": "ObjectProperty",
+        "name": "redemptionForm",
+        "definition": "Physical written instruction/renunciation form for redemption of units/shares by the investor.",
+        "label": "redemption form"
+    },
+    {
+        "id": "registrationDate",
+        "type": "DatatypeProperty",
+        "name": "registrationDate",
+        "label": "registration date",
+        "definition": "The date at which the fund is legally approved in a country other than the country of origin."
+    },
+    {
+        "id": "subscriptionPeriod",
+        "type": "ObjectProperty",
+        "name": "subscriptionPeriod",
+        "label": "subscription period",
+        "definition": "Specific period, eg, for some guaranteed funds, during which the units/shares may be subscribed to."
+    },
+    {
+        "id": "minimumHoldingPeriod",
+        "type": "ObjectProperty",
+        "name": "minimumHoldingPeriod",
+        "label": "minimum holding period",
+        "definition": "Period, in days, during which the units/shares must be held following their issue before redemption will be permitted."
+    },
+    {
+        "id": "implementsFundPolicy",
+        "type": "ObjectProperty",
+        "name": "implementsFundPolicy",
+        "label": "implements fund policy"
+    },
+    {
+        "id": "hasTransferAgent",
+        "type": "ObjectProperty",
+        "name": "hasTransferAgent",
+        "label": "has transfer agent"
+    },
+    {
+        "id": "redemptionFee",
+        "type": "ObjectProperty",
+        "name": "redemptionFee",
+        "label": "redemption fee",
+        "definition": "Actual percentage or fixed amount of money due when redeeming fund shares Definition origin:EFAMA DD"
+    },
+    {
+        "id": "limitedSharesAreIssued",
+        "type": "DatatypeProperty",
+        "name": "limitedSharesAreIssued",
+        "definition": "Whether or not new shares can be issued in the fund. This is what makes it a closed end or open end fund.",
+        "label": "limited shares are issued"
+    },
+    {
+        "id": "subsequentApplicationForm",
+        "type": "ObjectProperty",
+        "name": "subsequentApplicationForm",
+        "definition": "Physical application form for subsequent investments by the same investor.",
+        "label": "subsequent application form"
+    },
+    {
+        "id": "dualFund",
+        "type": "DatatypeProperty",
+        "name": "dualFund",
+        "definition": "Whether the fund has two prices.",
+        "label": "dual fund"
+    },
+    {
+        "id": "minimumSubscriptionUnits",
+        "type": "DatatypeProperty",
+        "name": "minimumSubscriptionUnits",
+        "definition": "Minimum number of units/shares that must be purchased by existing investors.",
+        "label": "minimum subscription units"
+    },
+    {
+        "id": "hasInformationAbout",
+        "type": "ObjectProperty",
+        "name": "hasInformationAbout",
+        "label": "has information about"
+    },
+    {
+        "id": "switchingFee",
+        "type": "ObjectProperty",
+        "name": "switchingFee",
+        "label": "switching fee",
+        "definition": "Actual percentage or fixed amount of money due when switching to another fund. Definition origin:EFAMA DD"
+    },
+    {
+        "id": "minimumInvestmentPercentage",
+        "type": "ObjectProperty",
+        "name": "minimumInvestmentPercentage",
+        "definition": "Minimum percentage that has to be invested in the specified strategy.",
+        "label": "minimum investment percentage"
+    },
+    {
+        "id": "redemptionCycleInBusinessDays",
+        "type": "DatatypeProperty",
+        "name": "redemptionCycleInBusinessDays",
+        "label": "redemption cycle in business days",
+        "definition": "The last business day following the day on which a redemption order is priced (T) by which settlement will be due for orders placed with the main Fund Order Desk. Alternatively, if proceeds will be paid following receipt of written renunciation, the last business day following receipt of the relevant renunciation documentation by the main Fund Order Desk (R) by which the proceeds will be sent."
+    },
+    {
+        "id": "hasDepository",
+        "type": "ObjectProperty",
+        "name": "hasDepository",
+        "label": "has depository"
+    },
+    {
+        "id": "legallyRecordedIn",
+        "type": "ObjectProperty",
+        "name": "legallyRecordedIn",
+        "definition": "Relationship note: This relationship has no obvious parent; it is similar to Security legally recorded in Jurisdiction, but that inherits from Contract jurisdiction whereas a Fund is a Pool not a Contract. So the meaning is not the same. Assign parent relationship in future if a more general one exists; at present there is none.",
+        "label": "fund legally recorded in"
+    },
+    {
+        "id": "administeredBy",
+        "type": "ObjectProperty",
+        "name": "administeredBy",
+        "label": "administered by"
+    },
+    {
+        "id": "signatureRequired",
+        "type": "DatatypeProperty",
+        "name": "signatureRequired",
+        "label": "signature required",
+        "definition": "Whether a phsyical form with the investor's written signature is required through the main fund order desk. Yes:A phsyical form with the investor's written signature is required through the main fund order desk."
+    },
+    {
+        "id": "hasDataProvider",
+        "type": "ObjectProperty",
+        "name": "hasDataProvider",
+        "label": "has data provider",
+        "definition": "has an organization which is the data provider and is legally responsible for the information provided"
+    },
+    {
+        "id": "providesDepositaryServiceFor",
+        "type": "ObjectProperty",
+        "name": "providesDepositaryServiceFor",
+        "label": "provides depositary service for"
+    },
+    {
+        "id": "hasPerformanceDeterminationMethod",
+        "type": "ObjectProperty",
+        "name": "hasPerformanceDeterminationMethod",
+        "label": "has performance determination method"
+    },
+    {
+        "id": "valueAtRisk",
+        "type": "ObjectProperty",
+        "name": "valueAtRisk",
+        "label": "value at risk",
+        "definition": "See RiskClassification_NameOf in EFAMA DD Applies to Fund not Portfolio."
+    },
+    {
+        "id": "couponPaymentDate",
+        "type": "ObjectProperty",
+        "name": "couponPaymentDate",
+        "definition": "The date at which the coupon is distributed to the bond unit holder.",
+        "label": "coupon payment date"
+    },
+    {
+        "id": "distributedBy",
+        "type": "ObjectProperty",
+        "name": "distributedBy",
+        "label": "distributed by"
+    },
+    {
+        "id": "physicalDocumentRequired",
+        "type": "DatatypeProperty",
+        "name": "physicalDocumentRequired",
+        "label": "physical document required",
+        "definition": "Whether a phsyical form is required through the main fund order desk. Yes: A phsyical form is required through the main fund order desk. No: A phsyical form is not required through the main fund order desk."
+    },
+    {
+        "id": "definesAllocations",
+        "type": "ObjectProperty",
+        "name": "definesAllocations",
+        "label": "defines allocations"
+    },
+    {
+        "id": "minimumInitialSubscriptionUnits",
+        "type": "DatatypeProperty",
+        "name": "minimumInitialSubscriptionUnits",
+        "label": "minimum initial subscription units",
+        "definition": "Minimum initial number of units/shares that must be purchased."
+    },
+    {
+        "id": "minimumSubscriptionAmount",
+        "type": "ObjectProperty",
+        "name": "minimumSubscriptionAmount",
+        "label": "minimum subscription amount",
+        "definition": "Minimum subscription value for existing investors."
+    },
+    {
+        "id": "performanceFee",
+        "type": "ObjectProperty",
+        "name": "performanceFee",
+        "definition": "Fees paid for the achivements of predefined outperformance objectives Definition origin:EFAMA DD",
+        "label": "performance fee"
+    },
+    {
+        "id": "subscriptionsInAmountAllowed",
+        "type": "DatatypeProperty",
+        "name": "subscriptionsInAmountAllowed",
+        "label": "subscriptions in amount allowed",
+        "definition": "Whether subscriptions in amount are allowed."
+    },
+    {
+        "id": "additionalRestrictions",
+        "type": "DatatypeProperty",
+        "name": "additionalRestrictions",
+        "label": "additional restrictions",
+        "definition": "Other restrictions or treatment information in respect of this strategy and the organization to which it refers."
+    },
+    {
+        "id": "denominationCurrency",
+        "type": "ObjectProperty",
+        "name": "denominationCurrency",
+        "label": "denomination currency"
+    },
+    {
+        "id": "issues",
+        "type": "ObjectProperty",
+        "name": "issues",
+        "label": "issues"
+    },
+    {
+        "id": "anticipatedVolatility",
+        "type": "ObjectProperty",
+        "name": "anticipatedVolatility",
+        "label": "anticipated volatility"
+    },
+    {
+        "id": "endOfFiscalYear",
+        "type": "ObjectProperty",
+        "name": "endOfFiscalYear",
+        "label": "end of fiscal year",
+        "definition": "Day and month on any given year at which the books are closed and profit and loss is determined."
+    },
+    {
+        "id": "takesFormOf",
+        "type": "ObjectProperty",
+        "name": "takesFormOf",
+        "label": "takes form of"
+    },
+    {
+        "id": "holds",
+        "type": "ObjectProperty",
+        "name": "holds",
+        "label": "holds",
+        "definition": "The Funds Special Purpose Vehicle holds this Fund."
+    },
+    {
+        "id": "maximumPurchasingFee",
+        "type": "ObjectProperty",
+        "name": "maximumPurchasingFee",
+        "label": "maximum purchasing fee",
+        "definition": "Maximum percentage or fixed amount of money due when purchasing fund shares Definition origin:EFAMA DD"
+    },
+    {
+        "id": "redemptionCutoffDateTime",
+        "type": "ObjectProperty",
+        "name": "redemptionCutoffDateTime",
+        "label": "redemption cutoff date time",
+        "definition": "Last date/time at which an order to redeem can be given."
+    },
+    {
+        "id": "hasUnitIssuer",
+        "type": "ObjectProperty",
+        "name": "hasUnitIssuer",
+        "label": "has unit issuer"
+    },
+    {
+        "id": "definesBenchmark",
+        "type": "ObjectProperty",
+        "name": "definesBenchmark",
+        "label": "defines benchmark"
+    },
+    {
+        "id": "maximumInvestmentPercentage",
+        "type": "ObjectProperty",
+        "name": "maximumInvestmentPercentage",
+        "definition": "Maximum percentage that may be invested in the specified strategy.",
+        "label": "maximum investment percentage"
+    },
+    {
+        "id": "subscriptionDealingFrequency",
+        "type": "ObjectProperty",
+        "name": "subscriptionDealingFrequency",
+        "definition": "Frequency at which the subscriptions are done.",
+        "label": "subscription dealing frequency"
+    },
+    {
+        "id": "clearFundsRequired",
+        "type": "DatatypeProperty",
+        "name": "clearFundsRequired",
+        "definition": "Whether cleared funds may be required before a subscription order can be executed.",
+        "label": "clear funds required"
+    },
+    {
+        "id": "minimumRemainingHoldingAmount",
+        "type": "ObjectProperty",
+        "name": "minimumRemainingHoldingAmount",
+        "definition": "Minimum value of units/shares that must be retained to avoid automatic redemption.",
+        "label": "minimum remaining holding amount"
+    },
+    {
+        "id": "hasIssueDate",
+        "type": "ObjectProperty",
+        "name": "hasIssueDate",
+        "definition": "Date of first NAV calculation and start of performance calculations (same as launch date)",
+        "label": "has issue date"
+    },
+    {
+        "id": "switchingChargeable",
+        "type": "DatatypeProperty",
+        "name": "switchingChargeable",
+        "label": "switching chargeable",
+        "definition": "Whether a switching charge for changing between sub-funds of the same umbrella can be applied."
+    },
+    {
+        "id": "identifiedAs.5",
+        "type": "ObjectProperty",
+        "name": "identifiedAs.5",
+        "label": "identified as"
+    },
+    {
+        "id": "redemptionPeriod",
+        "type": "ObjectProperty",
+        "name": "redemptionPeriod",
+        "definition": "Specific period, eg, for some guaranteed funds, during which the units/shares may be redeemed.",
+        "label": "redemption period"
+    },
+    {
+        "id": "describedIn",
+        "type": "ObjectProperty",
+        "name": "describedIn",
+        "label": "described in"
+    },
+    {
+        "id": "percentageInvested",
+        "type": "ObjectProperty",
+        "name": "percentageInvested",
+        "definition": "The percentage of funds that is to be invested at any given time.",
+        "label": "percentage invested"
+    },
+    {
+        "id": "definesMainFundOrderDeskAccount",
+        "type": "ObjectProperty",
+        "name": "definesMainFundOrderDeskAccount",
+        "label": "defines main fund order desk account"
+    },
+    {
+        "id": "decimalPlaceRounding",
+        "type": "DatatypeProperty",
+        "name": "decimalPlaceRounding",
+        "label": "decimal place rounding",
+        "definition": "Number of decimal places to which quantities of units/shares are rounded."
+    },
+    {
+        "id": "launchDate",
+        "type": "DatatypeProperty",
+        "name": "launchDate",
+        "label": "launch date",
+        "definition": "Date of first NAV calculation and start of performance calculations"
+    },
+    {
+        "id": "isCalculatedIn",
+        "type": "ObjectProperty",
+        "name": "isCalculatedIn",
+        "label": "is calculated in"
+    },
+    {
+        "id": "intendedLiquidationDate",
+        "type": "ObjectProperty",
+        "name": "intendedLiquidationDate",
+        "definition": "The date on which the SPV is scheduled to be disbanded and wound up.",
+        "label": "intended liquidation date"
+    },
+    {
+        "id": "mayAlsoBe",
+        "type": "ObjectProperty",
+        "name": "mayAlsoBe",
+        "label": "may also be",
+        "definition": "The unit issuer would be the fund administrator (except when it is a Bond)."
+    },
+    {
+        "id": "performanceDeterminationTimeframe",
+        "type": "ObjectProperty",
+        "name": "performanceDeterminationTimeframe",
+        "label": "performance determination timeframe",
+        "definition": "The timeframe on which the performance is reported (e.g. 1month, 1 year, YTD)."
+    },
+    {
+        "id": "hasPortfolio",
+        "type": "ObjectProperty",
+        "name": "hasPortfolio",
+        "label": "has portfolio"
+    },
+    {
+        "id": "isSetUpFor",
+        "type": "ObjectProperty",
+        "name": "isSetUpFor",
+        "label": "is set up for"
+    },
+    {
+        "id": "minimumRatingRestriction",
+        "type": "ObjectProperty",
+        "name": "minimumRatingRestriction",
+        "definition": "The minimum rating of securities to be invested in.",
+        "label": "minimum rating restriction"
+    },
+    {
+        "id": "maximumRedemptionUnits",
+        "type": "DatatypeProperty",
+        "name": "maximumRedemptionUnits",
+        "definition": "Maximum number of shares/units that may be redeemed on a single dealing day.",
+        "label": "maximum redemption units"
+    },
+    {
+        "id": "hasManagementCompany",
+        "type": "ObjectProperty",
+        "name": "hasManagementCompany",
+        "label": "has management company"
+    },
+    {
+        "id": "hasFundPolicy",
+        "type": "ObjectProperty",
+        "name": "hasFundPolicy",
+        "label": "has fund policy",
+        "definition": "Overall policy for amounts invested, limitations etc. Not the same as the detailed Portfolio policy."
+    },
+    {
+        "id": "description",
+        "type": "DatatypeProperty",
+        "name": "description",
+        "definition": "The manner in which the manager tries to reach the funds objectives",
+        "label": "description"
+    },
+    {
+        "id": "purchasingFee",
+        "type": "ObjectProperty",
+        "name": "purchasingFee",
+        "definition": "Actual percentage or fixed amount of money due when purchasing fund shares Definition origin:EFAMA DD",
+        "label": "purchasing fee"
+    },
+    {
+        "id": "hasSubscriptionTerms",
+        "type": "ObjectProperty",
+        "name": "hasSubscriptionTerms",
+        "label": "has subscription terms"
+    },
+    {
+        "id": "typeOfSecurities",
+        "type": "DatatypeProperty",
+        "name": "typeOfSecurities",
+        "label": "type of securities",
+        "definition": "The type of securities or other holdings that may be invested in."
+    },
+    {
+        "id": "minimumDeviation",
+        "type": "ObjectProperty",
+        "name": "minimumDeviation",
+        "label": "minimum deviation",
+        "definition": "Minimum allowable deviation from the benchmark."
+    },
+    {
+        "id": "hasExpectedCoupon",
+        "type": "ObjectProperty",
+        "name": "hasExpectedCoupon",
+        "label": "has expected coupon"
+    },
+    {
+        "id": "identifiesAssetTypesBy",
+        "type": "ObjectProperty",
+        "name": "identifiesAssetTypesBy",
+        "label": "identifies asset types by"
+    },
+    {
+        "id": "distributionWithReinvestment",
+        "type": "DatatypeProperty",
+        "name": "distributionWithReinvestment",
+        "label": "distribution with reinvestment",
+        "definition": "It is possible to hold shares for which the accrued income is distributed, but then reinvested automatically in additional units/shares allocated to the investor."
+    },
+    {
+        "id": "benchmarkWeight",
+        "type": "ObjectProperty",
+        "name": "benchmarkWeight",
+        "label": "benchmark weight",
+        "definition": "Instrument weighting in the benchmark for the portfolio."
+    },
+    {
+        "id": "subscriptionCutoffDateTime",
+        "type": "ObjectProperty",
+        "name": "subscriptionCutoffDateTime",
+        "label": "subscription cutoff date time",
+        "definition": "Last date/time at which an order to subscribe can be given."
+    },
+    {
+        "id": "inclusion",
+        "type": "DatatypeProperty",
+        "name": "inclusion",
+        "definition": "Whether the referred strategy is included. No means this description refers to the exclusion of what is described, from the portfolio.",
+        "label": "inclusion"
+    },
+    {
+        "id": "mayBeDefinedIn",
+        "type": "ObjectProperty",
+        "name": "mayBeDefinedIn",
+        "label": "may be defined in"
+    },
+    {
+        "id": "maximumInvestmentAmount",
+        "type": "ObjectProperty",
+        "name": "maximumInvestmentAmount",
+        "definition": "Maximum amount that may be invested in the specified strategy.",
+        "label": "maximum investment amount"
+    },
+    {
+        "id": "isUnitHolder",
+        "type": "ObjectProperty",
+        "name": "isUnitHolder",
+        "label": "is unit holder"
+    },
+    {
+        "id": "holdingTransferable",
+        "type": "DatatypeProperty",
+        "name": "holdingTransferable",
+        "definition": "Whether registered investors are able to transfer some or all of their holdings to third parties.",
+        "label": "holding transferable"
+    },
+    {
+        "id": "denomination",
+        "type": "ObjectProperty",
+        "name": "denomination",
+        "definition": "Denomination Currency of the fund - Currency in which the fund unit is issued or redenominated and the currency of the NAV calculation.",
+        "label": "denomination"
+    },
+    {
+        "id": "hasFundProcessingTerms",
+        "type": "ObjectProperty",
+        "name": "hasFundProcessingTerms",
+        "label": "has fund processing terms"
+    },
+    {
+        "id": "minimumInitialSubscriptionAmount",
+        "type": "ObjectProperty",
+        "name": "minimumInitialSubscriptionAmount",
+        "definition": "Minimum initial subscription value.",
+        "label": "minimum initial subscription amount"
+    },
+    {
+        "id": "hasLiquidity",
+        "type": "ObjectProperty",
+        "name": "hasLiquidity",
+        "label": "has liquidity"
+    },
+    {
+        "id": "statedDistributionFee",
+        "type": "ObjectProperty",
+        "name": "statedDistributionFee",
+        "label": "stated distribution fee"
+    },
+    {
+        "id": "hasAccountant",
+        "type": "ObjectProperty",
+        "name": "hasAccountant",
+        "label": "has accountant"
+    },
+    {
+        "id": "name.1",
+        "type": "DatatypeProperty",
+        "name": "name.1",
+        "label": "name",
+        "definition": "Name given to the defined strategy."
+    },
+    {
+        "id": "hasAdditionalInformation",
+        "type": "ObjectProperty",
+        "name": "hasAdditionalInformation",
+        "label": "has additional information"
+    },
+    {
+        "id": "hasAuditor",
+        "type": "ObjectProperty",
+        "name": "hasAuditor",
+        "label": "has auditor"
+    },
+    {
+        "id": "inceptionDate",
+        "type": "ObjectProperty",
+        "name": "inceptionDate",
+        "label": "inception date",
+        "definition": "Authorization date in the country of origin."
+    },
+    {
+        "id": "outlines",
+        "type": "ObjectProperty",
+        "name": "outlines",
+        "label": "outlines"
+    },
+    {
+        "id": "hasIntendedRiskLevel",
+        "type": "ObjectProperty",
+        "name": "hasIntendedRiskLevel",
+        "label": "has intended risk level"
+    },
+    {
+        "id": "definedInRelationTo",
+        "type": "ObjectProperty",
+        "name": "definedInRelationTo",
+        "label": "defined in relation to"
+    },
+    {
+        "id": "advisedBy",
+        "type": "ObjectProperty",
+        "name": "advisedBy",
+        "label": "advised by"
+    },
+    {
+        "id": "hasAccountingReportingFrequency",
+        "type": "ObjectProperty",
+        "name": "hasAccountingReportingFrequency",
+        "label": "has accounting reporting frequency"
+    },
+    {
+        "id": "maximumDeviation",
+        "type": "ObjectProperty",
+        "name": "maximumDeviation",
+        "definition": "Maximum allowable deviation from the benchmark.",
+        "label": "maximum deviation"
+    },
+    {
+        "id": "includes",
+        "type": "ObjectProperty",
+        "name": "includes",
+        "label": "includes"
+    },
+    {
+        "id": "historicPricingIndicator",
+        "type": "DatatypeProperty",
+        "name": "historicPricingIndicator",
+        "definition": "Indicates whether the price is historic or forward.",
+        "label": "historic pricing indicator"
+    },
+    {
+        "id": "hasDetails",
+        "type": "ObjectProperty",
+        "name": "hasDetails",
+        "label": "has details",
+        "definition": "Information on the net asset value calculation of the investment fund component."
+    },
+    {
+        "id": "stipulatesBenchmark",
+        "type": "ObjectProperty",
+        "name": "stipulatesBenchmark",
+        "label": "stipulates benchmark"
+    },
+    {
+        "id": "anticipates",
+        "type": "ObjectProperty",
+        "name": "anticipates",
+        "label": "anticipates"
+    },
+    {
+        "id": "fundHasRelatedParty",
+        "type": "ObjectProperty",
+        "name": "fundHasRelatedParty",
+        "label": "fund has related party"
+    },
+    {
+        "id": "promotedBy",
+        "type": "ObjectProperty",
+        "name": "promotedBy",
+        "label": "promoted by"
+    }
+]

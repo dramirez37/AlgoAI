@@ -1,0 +1,164 @@
+[
+    {
+        "id": "EquityIndex",
+        "type": "Class",
+        "name": "EquityIndex",
+        "label": "equity index",
+        "definition": "benchmark whose constituents are exclusively equity instruments"
+    },
+    {
+        "id": "ReferenceIndex",
+        "type": "Class",
+        "name": "ReferenceIndex",
+        "definition": "measure of change in the value of the contents of a basket over a given period of time",
+        "label": "reference index",
+        "explanatoryNote": "An index is a function based on a set of structured calculations with respect to a basket of credit risks, financial instruments or other indices over time. Analysis may be computed based on historical values, projected values, etc."
+    },
+    {
+        "id": "MarketCapitalization",
+        "type": "Class",
+        "name": "MarketCapitalization",
+        "label": "market capitalization",
+        "definition": "expression representing the perceived value of a company as determined by the stock market at a specific point in time"
+    },
+    {
+        "id": "Expression",
+        "type": "Entity",
+        "name": "Expression"
+    },
+    {
+        "id": "BasketOfCreditRisks",
+        "type": "Class",
+        "name": "BasketOfCreditRisks",
+        "explanatoryNote": "Note that the risk related to a given constituent may be calculated based on either (1) the overall credit risk associated with the entity or, (2) the combined risk associated with an entity and the specific instrument identified, or (3) risk associated with the instrument on its own. Criteria for constituents is based on sectors (emerging market, financial, sovereign, etc), spread range (investment grade, non-investment grade), or asset type (loan, bond, mortgage-backed, asset-backed), second criteria is based on maturity of protection (2,3,5,7,10 yrs). Markit manages over 2000 CDS indexes, for example.",
+        "label": "basket of credit risks",
+        "definition": "basket of instruments, legal entities, or a combination thereof collected for the purpose of analyzing risk"
+    },
+    {
+        "id": "DatedStructuredCollection",
+        "type": "Entity",
+        "name": "DatedStructuredCollection"
+    },
+    {
+        "id": "WeightedBasket",
+        "type": "Entity",
+        "name": "WeightedBasket"
+    },
+    {
+        "id": "ScopedMeasure",
+        "type": "Entity",
+        "name": "ScopedMeasure"
+    },
+    {
+        "id": "CapitalizationBasedWeightingFunction",
+        "type": "Class",
+        "name": "CapitalizationBasedWeightingFunction",
+        "definition": "weighting function derived from the relative market capitalization (share price times the number of shares outstanding) of the companies tracked by an index",
+        "label": "capitalization-based weighting function"
+    },
+    {
+        "id": "WeightingFunction",
+        "type": "Entity",
+        "name": "WeightingFunction"
+    },
+    {
+        "id": "CreditIndexConstituent",
+        "type": "Class",
+        "name": "CreditIndexConstituent",
+        "definition": "constituent of a basket of credit risks",
+        "label": "credit index constituent"
+    },
+    {
+        "id": "DatedCollectionConstituent",
+        "type": "Entity",
+        "name": "DatedCollectionConstituent"
+    },
+    {
+        "id": "WeightedBasketConstituent",
+        "type": "Entity",
+        "name": "WeightedBasketConstituent"
+    },
+    {
+        "id": "CreditIndex",
+        "type": "Class",
+        "name": "CreditIndex",
+        "explanatoryNote": "Such an index does not necessarily reference a static portfolio, as there may be provisions for replacing defaulted securities on which the index depends.",
+        "definition": "reference index that is a function of credit events that change the value of an underlying portfolio",
+        "label": "credit index"
+    },
+    {
+        "id": "BasketOfEquities",
+        "type": "Class",
+        "name": "BasketOfEquities",
+        "definition": "basket of securities whose constituents are listed shares",
+        "label": "basket of equities"
+    },
+    {
+        "id": "BasketOfSecurities",
+        "type": "Entity",
+        "name": "BasketOfSecurities"
+    },
+    {
+        "id": "hasIndexName",
+        "type": "DatatypeProperty",
+        "name": "hasIndexName",
+        "label": "has index name",
+        "definition": "specifies a formal name for the index"
+    },
+    {
+        "id": "hasMarketCapitalization",
+        "type": "ObjectProperty",
+        "name": "hasMarketCapitalization",
+        "definition": "indicates the market capitalization of some issuer as of some date",
+        "label": "has market capitalization"
+    },
+    {
+        "id": "hasOriginalNotionalValue",
+        "type": "ObjectProperty",
+        "name": "hasOriginalNotionalValue",
+        "label": "has original notional value",
+        "definition": "indicates the notional amount represented by the index when it is first constituted"
+    },
+    {
+        "id": "hasUpFrontFee",
+        "type": "ObjectProperty",
+        "name": "hasUpFrontFee",
+        "label": "has up front fee",
+        "definition": "specifies a fee payable by any party that wishes to participate in a contract based on the index after the start of its life"
+    },
+    {
+        "id": "hasMarketCapitalizationValue",
+        "type": "ObjectProperty",
+        "name": "hasMarketCapitalizationValue",
+        "definition": "indicates the monetary amount representing the market capitalization of some issuer as of some date",
+        "label": "has market capitalization value"
+    },
+    {
+        "id": "hasDebtRanking",
+        "type": "DatatypeProperty",
+        "name": "hasDebtRanking",
+        "definition": "indicates the ranking of this debt instrument with respect to the credit index as a whole",
+        "label": "has debt ranking"
+    },
+    {
+        "id": "hasIndexValue",
+        "type": "DatatypeProperty",
+        "name": "hasIndexValue",
+        "label": "has index value",
+        "definition": "specifies the value of a given index as of the release date"
+    },
+    {
+        "id": "hasSpreadRange",
+        "type": "DatatypeProperty",
+        "name": "hasSpreadRange",
+        "definition": "the range of credit spread for the constituents of the index",
+        "label": "has spread range"
+    },
+    {
+        "id": "hasPremium",
+        "type": "ObjectProperty",
+        "name": "hasPremium",
+        "definition": "indicates a premium payable for a contract based on the index",
+        "label": "has premium"
+    }
+]

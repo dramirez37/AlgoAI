@@ -1,0 +1,144 @@
+[
+    {
+        "id": "HistoricalPriceVolatility",
+        "type": "Class",
+        "name": "HistoricalPriceVolatility",
+        "definition": "historical volatility measure of past trading ranges of prices of underlying securities and indexes",
+        "label": "historical price volatility",
+        "explanatoryNote": "Calculations for historical volatility are generally based on the change from one closing price to the next."
+    },
+    {
+        "id": "HistoricalVolatility",
+        "type": "Class",
+        "name": "HistoricalVolatility",
+        "definition": "measure of volatility that uses actual values for pricing, rates, and other measurements calculated over some prior period",
+        "label": "historical volatility"
+    },
+    {
+        "id": "PriceVolatility",
+        "type": "Class",
+        "name": "PriceVolatility",
+        "explanatoryNote": "Volatility can be determined using the standard deviation or variance among prices for the security or market index over some period of time. For a specific security, volatility may measure the amount and frequency in rapid price fluctuation. It is computed as the annualized standard deviation of the percentage change in a security's daily price.",
+        "definition": "statistical measure of the rate of change in pricing for a given security or market index",
+        "label": "price volatility"
+    },
+    {
+        "id": "MarketSpread",
+        "type": "Class",
+        "name": "MarketSpread",
+        "label": "market spread",
+        "definition": "statistical measure providing the difference (or spread) between two market rates"
+    },
+    {
+        "id": "ScopedMeasure",
+        "type": "Entity",
+        "name": "ScopedMeasure"
+    },
+    {
+        "id": "TermStructure",
+        "type": "Class",
+        "name": "TermStructure",
+        "explanatoryNote": "Term structure refers to a set of discrete points; elements are ordered by time. Restrictions on the rate (see above) and a point in time, paired together, and then ordered in a structured collection is how this should ultimately be modeled. Then the concept of yield curve would be a child of term structure, for calculation of net present value, for example. Term structures consist of two or more observed or projected values, typically related to debt instruments or interest rates. assessment of monetary policy conditions, and so forth.",
+        "label": "term structure",
+        "definition": "structured collection of rates, such as interest rates, or bond yields with different terms to maturity, such that a yield curve may be constructed for the structure"
+    },
+    {
+        "id": "DatedStructuredCollection",
+        "type": "Entity",
+        "name": "DatedStructuredCollection"
+    },
+    {
+        "id": "PriceStructure",
+        "type": "Class",
+        "name": "PriceStructure",
+        "label": "price structure",
+        "explanatoryNote": "Historical prices are needed not only for various statistical analyses but for determining best prices for certain kinds of options, for example. Note that prices may be quoted or calculated.",
+        "definition": "structured collection of prices, such as market prices for some index or security, such that volatility or other analyses may be performed over the structure"
+    },
+    {
+        "id": "Volatility",
+        "type": "Class",
+        "name": "Volatility",
+        "definition": "statistical measure of the dispersion around the average of some random variable over some period of time",
+        "label": "volatility"
+    },
+    {
+        "id": "MarketRate",
+        "type": "Class",
+        "name": "MarketRate",
+        "label": "market rate",
+        "definition": "value of a rate established in the marketplace for a set of instruments or that describes the economic climate for an industry and/or political region (e.g., SOFR, Prime)"
+    },
+    {
+        "id": "Ratio",
+        "type": "Entity",
+        "name": "Ratio"
+    },
+    {
+        "id": "Dispersion",
+        "type": "Entity",
+        "name": "Dispersion"
+    },
+    {
+        "id": "EndOfDayMarketRate",
+        "type": "Class",
+        "name": "EndOfDayMarketRate",
+        "definition": "value of a given market rate of the end of the business day for a specific date",
+        "label": "end-of-day market rate"
+    },
+    {
+        "id": "QuotedPrice",
+        "type": "Class",
+        "name": "QuotedPrice",
+        "label": "quoted price",
+        "definition": "a monetary price quoted by some publisher on a given date"
+    },
+    {
+        "id": "MonetaryPrice",
+        "type": "Entity",
+        "name": "MonetaryPrice"
+    },
+    {
+        "id": "ImpliedPriceVolatility",
+        "type": "Class",
+        "name": "ImpliedPriceVolatility",
+        "definition": "measure of volatility that represents the expected fluctuations of an underlying stock or index over a specific time frame",
+        "label": "implied price volatility"
+    },
+    {
+        "id": "ImpliedVolatility",
+        "type": "Class",
+        "name": "ImpliedVolatility",
+        "label": "implied volatility",
+        "definition": "measure of volatility that is a forward-looking metric used to calculate probability"
+    },
+    {
+        "id": "DailyAverageMarketRate",
+        "type": "Class",
+        "name": "DailyAverageMarketRate",
+        "definition": "overall level of a given rate, calculated as the sum of some selected observed values of the rates for a particular reference rate, foreign exchange rate, lending rate, or other market rate divided by the number of samples collected over the course of a twenty-four (24) hour period for a specific date",
+        "label": "daily average market rate"
+    },
+    {
+        "id": "hasQuotationDate",
+        "type": "ObjectProperty",
+        "name": "hasQuotationDate",
+        "explanatoryNote": "Typically this property reflects a daily average or end of day quote.",
+        "definition": "indicates the quotation date for a given market rate or indicator",
+        "label": "has quotation date"
+    },
+    {
+        "id": "isVolatilityOf",
+        "type": "ObjectProperty",
+        "name": "isVolatilityOf",
+        "label": "is volatility of",
+        "definition": "indicates something to which the volatility measure applies and of which it is a measure"
+    },
+    {
+        "id": "hasQuotationDateTime",
+        "type": "DatatypeProperty",
+        "name": "hasQuotationDateTime",
+        "label": "has quotation date and time",
+        "definition": "indicates a quotation date and possibly a time for a given market rate, interest rate, indicator, or other quoted pricing information"
+    }
+]

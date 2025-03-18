@@ -1,0 +1,866 @@
+[
+    {
+        "source_id": "NativeYield",
+        "target_id": "NativeYieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "NativeYieldCalculationMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "NativeYield",
+        "target_id": "RelativelyDefinedDebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionAdjustedYield",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MaturityEquivalentPSA",
+        "target_id": "PrepaymentSpeed",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PoolFactor",
+        "target_id": "Percentage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtYieldToMaturity",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NativeYieldCalculationMethod",
+        "target_id": "RelativeYieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NativeYieldCalculationMethod",
+        "target_id": "TradableDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefaultMethodFor",
+                "TradableDebtInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtPool",
+        "target_id": "PoolFactor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFactor",
+                "PoolFactor"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtPool",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasAnalytic",
+                "DebtPoolStatisticalMeasure"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtPool",
+        "target_id": "PrepaymentSpeed",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMeasure",
+                "PrepaymentSpeed"
+            ]
+        }
+    },
+    {
+        "source_id": "DurationAnalytic",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DurationAnalytic",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "DebtInstrumentYield"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanPrepaymentFormula",
+        "target_id": "Formula",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PoolPaydownRate",
+        "target_id": "Ratio",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PoolPaydownRate",
+        "target_id": "PoolFactor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "PoolFactor"
+            ]
+        }
+    },
+    {
+        "source_id": "RelativeYieldCalculationMethod",
+        "target_id": "YieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OTCBondMarketPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OTCBondMarketPrice",
+        "target_id": "DebtSecuritiesMarketMaker",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPricingSource",
+                "DebtSecuritiesMarketMaker"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtConvexityAnalytic",
+        "target_id": "DurationAnalytic",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRateOfChangeOf",
+                "DurationAnalytic"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtConvexityAnalytic",
+        "target_id": "MarketSpread",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "MarketSpread"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtConvexityAnalytic",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "DebtInstrumentYield"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtConvexityAnalytic",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradableDebtInstrument",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasYield",
+                "DebtInstrumentYield"
+            ]
+        }
+    },
+    {
+        "source_id": "ICMAYieldFormula",
+        "target_id": "YieldCalculationFormula",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtYieldToEquivalentLife",
+        "target_id": "EquivalentLifeAnalytic",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOutlookPeriod",
+                "EquivalentLifeAnalytic"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtYieldToEquivalentLife",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SimpleYieldCalculationMethod",
+        "target_id": "YieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RussianYieldCalculationMethod",
+        "target_id": "YieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RussianYieldCalculationMethod",
+        "target_id": "RussianYieldFormula",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFormula",
+                "RussianYieldFormula"
+            ]
+        }
+    },
+    {
+        "source_id": "EquivalentYieldCalculationMethod",
+        "target_id": "RelativeYieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquivalentLifeAnalytic",
+        "target_id": "LifeAnalytic",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquivalentLifeAnalytic",
+        "target_id": "PartialCallsEstimationModel",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "PartialCallsEstimationModel"
+            ]
+        }
+    },
+    {
+        "source_id": "WallStreetYieldCalculationMethod",
+        "target_id": "ICMAYieldFormula",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFormula",
+                "ICMAYieldFormula"
+            ]
+        }
+    },
+    {
+        "source_id": "WallStreetYieldCalculationMethod",
+        "target_id": "YieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ModifiedDurationAnalytic",
+        "target_id": "MacCaulaysDurationAnalytic",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "MacCaulaysDurationAnalytic"
+            ]
+        }
+    },
+    {
+        "source_id": "ModifiedDurationAnalytic",
+        "target_id": "DurationAnalytic",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartialCallsEstimationModel",
+        "target_id": "Formula",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "KeyRateDuration",
+        "target_id": "DurationAnalytic",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InternallyDeterminedPriceSpread",
+        "target_id": "DebtPriceSpread",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "YieldCalculationMethod",
+        "target_id": "YieldCalculationFormula",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFormula",
+                "YieldCalculationFormula"
+            ]
+        }
+    },
+    {
+        "source_id": "YieldCalculationMethod",
+        "target_id": "Formula",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrentYieldCalculationMethod",
+        "target_id": "YieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtYieldToAverageLife",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtYieldToAverageLife",
+        "target_id": "WeightedAverageLife",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOutlookPeriod",
+                "WeightedAverageLife"
+            ]
+        }
+    },
+    {
+        "source_id": "JapaneseCompoundYieldCalculationMethod",
+        "target_id": "YieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LifeAnalytic",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtYieldToWorst",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtYieldToWorst",
+        "target_id": "WorstCall",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOutlookPeriod",
+                "WorstCall"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtInstrumentYield",
+        "target_id": "Yield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtInstrumentYield",
+        "target_id": "YieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "calculationFollowing",
+                "YieldCalculationMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtInstrumentYield",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "SecurityPrice"
+            ]
+        }
+    },
+    {
+        "source_id": "NextPut",
+        "target_id": "PutEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditSpread",
+        "target_id": "YieldSpread",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrepaymentSpeed",
+        "target_id": "LoanPoolPrepaymentModel",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "LoanPoolPrepaymentModel"
+            ]
+        }
+    },
+    {
+        "source_id": "YieldToNextPut",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "YieldToNextPut",
+        "target_id": "NextPut",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOutlookPeriod",
+                "NextPut"
+            ]
+        }
+    },
+    {
+        "source_id": "WeightedAverageLifeAtIssue",
+        "target_id": "WeightedAverageLife",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NextCallDate",
+        "target_id": "Date",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NextCall",
+        "target_id": "CallEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NextCall",
+        "target_id": "NextCallDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasDate",
+                "NextCallDate"
+            ]
+        }
+    },
+    {
+        "source_id": "YieldCalculationFormula",
+        "target_id": "Formula",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "YieldCalculationFormula",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "DebtInstrumentYield"
+            ]
+        }
+    },
+    {
+        "source_id": "ExchangeTradedBondPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanPoolPrepaymentModel",
+        "target_id": "LoanPrepaymentFormula",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "LoanPrepaymentFormula"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanPoolPrepaymentModel",
+        "target_id": "Formula",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondEquivalentYield",
+        "target_id": "RelativelyDefinedDebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondEquivalentYield",
+        "target_id": "EquivalentYieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "EquivalentYieldCalculationMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtSecuritiesMarketMaker",
+        "target_id": "OTCBondMarketPrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "determinesMarketPriceForDebt",
+                "OTCBondMarketPrice"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtSecuritiesMarketMaker",
+        "target_id": "ServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PriceValueOfBasisPoint",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "DebtInstrumentYield"
+            ]
+        }
+    },
+    {
+        "source_id": "PriceValueOfBasisPoint",
+        "target_id": "DebtPoolStatisticalMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DiscountedInstrumentYield",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FFIECDown300PrepaySpeed",
+        "target_id": "PrepaymentSpeed",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FFIECUp300PrepaySpeed",
+        "target_id": "PrepaymentSpeed",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EffectiveYield",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MacCaulaysDurationAnalytic",
+        "target_id": "DurationAnalytic",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtYieldToNextCall",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtYieldToNextCall",
+        "target_id": "NextCall",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOutlookPeriod",
+                "NextCall"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtPriceSpread",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "SecurityPrice"
+            ]
+        }
+    },
+    {
+        "source_id": "DebtPriceSpread",
+        "target_id": "MarketSpread",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RussianYieldFormula",
+        "target_id": "YieldCalculationFormula",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USTreasuryYieldCalculationMethod",
+        "target_id": "YieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USTreasuryYieldCalculationMethod",
+        "target_id": "ICMAYieldFormula",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFormula",
+                "ICMAYieldFormula"
+            ]
+        }
+    },
+    {
+        "source_id": "SpanishYieldCalculationMethod",
+        "target_id": "YieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeightedAverageTimeToReceiptOfCashflows",
+        "target_id": "Formula",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "JapaneseSimpleYieldCalculationMethod",
+        "target_id": "YieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ImpliedForwardRate",
+        "target_id": "InterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WorstCall",
+        "target_id": "CallEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RelativelyDefinedDebtInstrumentYield",
+        "target_id": "DebtInstrumentYield",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EffectiveDuration",
+        "target_id": "DurationAnalytic",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USCorporateBondYieldCalculationMethod",
+        "target_id": "ICMAYieldFormula",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFormula",
+                "ICMAYieldFormula"
+            ]
+        }
+    },
+    {
+        "source_id": "USCorporateBondYieldCalculationMethod",
+        "target_id": "YieldCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

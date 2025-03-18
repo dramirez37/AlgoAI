@@ -1,0 +1,83 @@
+[
+    {
+        "source_id": "Mortgage",
+        "target_id": "SecurityAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClosedEndMortgageLoan",
+        "target_id": "LoanSecuredByRealEstate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClosedEndMortgageLoan",
+        "target_id": "ClosedEndCredit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanSecuredByRealEstate",
+        "target_id": "SecurityAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "SecurityAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanSecuredByRealEstate",
+        "target_id": "CollateralizedLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OpenEndMortgageLoan",
+        "target_id": "OpenEndCredit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OpenEndMortgageLoan",
+        "target_id": "LoanSecuredByRealEstate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClosedEndReverseMortgage",
+        "target_id": "ClosedEndMortgageLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClosedEndReverseMortgage",
+        "target_id": "ReverseMortgageLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OpenEndReverseMortgage",
+        "target_id": "OpenEndMortgageLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OpenEndReverseMortgage",
+        "target_id": "ReverseMortgageLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReverseMortgageLoan",
+        "target_id": "LoanSecuredByRealEstate",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

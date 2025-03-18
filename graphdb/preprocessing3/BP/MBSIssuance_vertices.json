@@ -1,0 +1,32 @@
+[
+    {
+        "id": "ProspectusPart",
+        "type": "Class",
+        "name": "ProspectusPart",
+        "definition": "A part or section of a prospectus for a securities issue.",
+        "explanatoryNote": "This may for example be a termsheet, information about tranche breakdown and so on. These are defined as separate information entities in as far as each of these has some specific individual relationship to some other information deliverable, such as a draft of each part which is defined in separate process activities but becomes part of the whole prospectus. Term origin:MBS PoC Reviews",
+        "label": "prospectus part"
+    },
+    {
+        "id": "ContractualElement",
+        "type": "Entity",
+        "name": "ContractualElement"
+    },
+    {
+        "id": "MBSSecuritizationProcess",
+        "type": "Class",
+        "name": "MBSSecuritizationProcess",
+        "label": "m b s securitization process"
+    },
+    {
+        "id": "PoolBackedSecuritySecuritizationProcess",
+        "type": "Entity",
+        "name": "PoolBackedSecuritySecuritizationProcess"
+    },
+    {
+        "id": "includesDetailsAbout",
+        "type": "ObjectProperty",
+        "name": "includesDetailsAbout",
+        "label": "includes details about"
+    }
+]

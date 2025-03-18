@@ -1,0 +1,136 @@
+[
+    {
+        "id": "BusinessDayConvention",
+        "type": "Class",
+        "name": "BusinessDayConvention",
+        "definition": "convention that enumerates the possible ways to handle a date that falls on a weekend or holiday",
+        "label": "business day convention"
+    },
+    {
+        "id": "Convention",
+        "type": "Class",
+        "name": "Convention",
+        "label": "convention",
+        "definition": "widely accepted or established way of doing 'something' within some community of practice"
+    },
+    {
+        "id": "CalculatedDate",
+        "type": "Class",
+        "name": "CalculatedDate"
+    },
+    {
+        "id": "BusinessDayAdjustment",
+        "type": "Class",
+        "name": "BusinessDayAdjustment",
+        "definition": "convention that specifies what happens when a date falls on a day that is a weekend or a holiday in one or more business centers",
+        "label": "business day adjustment"
+    },
+    {
+        "id": "RegularSchedule",
+        "type": "Class",
+        "name": "RegularSchedule"
+    },
+    {
+        "id": "DayOfWeek",
+        "type": "Class",
+        "name": "DayOfWeek",
+        "definition": "specific, recurring day of the week",
+        "label": "day of the week"
+    },
+    {
+        "id": "BusinessRecurrenceInterval",
+        "type": "Class",
+        "name": "BusinessRecurrenceInterval",
+        "label": "business recurrence interval",
+        "definition": "recurrence interval that is defined per a specific convention that determines how recurring days should be handled"
+    },
+    {
+        "id": "RecurrenceInterval",
+        "type": "Entity",
+        "name": "RecurrenceInterval"
+    },
+    {
+        "id": "EndOfMonth",
+        "type": "Class",
+        "name": "EndOfMonth",
+        "label": "end of the month",
+        "definition": "the last day of a calendar month, irrespective of the length of the calendar month"
+    },
+    {
+        "id": "BusinessRecurrenceIntervalConvention",
+        "type": "Class",
+        "name": "BusinessRecurrenceIntervalConvention",
+        "definition": "convention that specifies how recurring days should be handled, such as the end of the month, a particular day of the month, a day of the week, or more specifically, a t-bill auction date",
+        "label": "business recurrence interval convention"
+    },
+    {
+        "id": "DayOfMonth",
+        "type": "Class",
+        "name": "DayOfMonth",
+        "label": "day of month",
+        "definition": "specific, recurring day of the month"
+    },
+    {
+        "id": "BusinessDayModifiedPreceding",
+        "type": "BusinessDayConvention",
+        "name": "BusinessDayModifiedPreceding",
+        "definition": "convention specifying that a non-business date will be adjusted to the first preceding day that is a business day unless that day falls in the previous month, in which case that date will be the first following day that is a business day",
+        "label": "business day modified preceding"
+    },
+    {
+        "id": "hasBusinessDayConvention",
+        "type": "ObjectProperty",
+        "name": "hasBusinessDayConvention",
+        "label": "has business day convention",
+        "definition": "identifies a convention regarding how a date should be handled when it falls on a day that is not a business day"
+    },
+    {
+        "id": "BusinessDayPreceding",
+        "type": "NamedIndividual",
+        "name": "BusinessDayPreceding",
+        "label": "business day preceding",
+        "definition": "convention specifying that a date will be adjusted to the first previous day that is a business day"
+    },
+    {
+        "id": "BusinessDayNearest",
+        "type": "BusinessDayConvention",
+        "name": "BusinessDayNearest",
+        "definition": "convention specifying that a non-business date will be adjusted to the nearest day that is a business day -- i.e. if the non-business day falls on any day other than a Sunday or a Monday, it will be the first preceding day that is a business day, and will be the first following business day if it falls on a Sunday or a Monday",
+        "label": "business day nearest"
+    },
+    {
+        "id": "BusinessDayFollowing",
+        "type": "NamedIndividual",
+        "name": "BusinessDayFollowing",
+        "label": "business day following",
+        "definition": "convention specifying that a non-business date will be adjusted to the first following day that is a business day"
+    },
+    {
+        "id": "BusinessDayNone",
+        "type": "BusinessDayConvention",
+        "name": "BusinessDayNone",
+        "label": "business day none",
+        "definition": "convention specifying that a date will not be adjusted if it falls on a day that is not a business day"
+    },
+    {
+        "id": "hasBusinessRecurrenceIntervalConvention",
+        "type": "ObjectProperty",
+        "name": "hasBusinessRecurrenceIntervalConvention",
+        "label": "has business recurrence interval convention",
+        "definition": "identifies a convention regarding how certain recurring dates should be handled with respect to a given schedule, such as the end of the month"
+    },
+    {
+        "id": "hasBusinessDayAdjustment",
+        "type": "ObjectProperty",
+        "name": "hasBusinessDayAdjustment",
+        "definition": "identifies a convention for adjustment of the business day for handling weekends and holidays",
+        "label": "has business day adjustment"
+    },
+    {
+        "id": "BusinessDayModifiedFollowing",
+        "type": "NamedIndividual",
+        "name": "BusinessDayModifiedFollowing",
+        "definition": "convention specifying that a non-business date will be adjusted to the first following day that is a business day unless that day falls in the next calendar month, in which case that date will be the first preceding day that is a calendar date",
+        "label": "business day modified following"
+    }
+]

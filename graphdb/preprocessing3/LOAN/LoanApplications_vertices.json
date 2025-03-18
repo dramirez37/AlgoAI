@@ -1,0 +1,417 @@
+[
+    {
+        "id": "BorrowerAssessment",
+        "type": "Class",
+        "name": "BorrowerAssessment",
+        "label": "borrower assessment",
+        "definition": "assessment report detailing information about the borrower and their credit history that may be relevant to the loan application",
+        "explanatoryNote": "Includes credit rating information. Ongoing assessment reports both good and bad credit rating information. In the US, by regulation, lender is required to respot person's payment history on a monthly basis. This is the basis on which peope's score is changed. So the lender's reporting to the credit bureau may affect that person's credit rating. this may give rise to credit disputes. Also there is a scenario where the borrower may contact the lender and ask for some change. For student loans, they can apply for a deferment payment based on change in circumstances e.g. if losing job, or becoming disabled, then there are specific programs which they can apply for. can defer paymen for a time, and if proven eligible (e.g. also if in military, being deployed), then if they subbut the relevant document, they approve and change their repayment term, perhaps temporarily and then revert to the previously agreed terms. This results from the borrower contacting the lender."
+    },
+    {
+        "id": "AssessmentReport",
+        "type": "Entity",
+        "name": "AssessmentReport"
+    },
+    {
+        "id": "PreApprovalContract",
+        "type": "Class",
+        "name": "PreApprovalContract",
+        "explanatoryNote": "A commitment from a lender to a borrower to extend a home purchase loan up to a certain amount, and subject to certain non-credit related conditions.  This commitment is entered into after a comprehensive analysis of the credit worthiness of the borrower is carried out.",
+        "label": "pre-approval contract",
+        "definition": "written commitment to lend when specified conditions are met, such as finding suitable property, and unchanged creditworthiness"
+    },
+    {
+        "id": "WrittenContract",
+        "type": "Entity",
+        "name": "WrittenContract"
+    },
+    {
+        "id": "PreApprovalRequest",
+        "type": "Class",
+        "name": "PreApprovalRequest",
+        "explanatoryNote": "This may also include limits on the region where to purchase.",
+        "definition": "request from a potential borrower that a lender commit to pre-approving the borrower for a loan of up to a specified amount of money",
+        "label": "pre-approval request"
+    },
+    {
+        "id": "RequestActivity",
+        "type": "Entity",
+        "name": "RequestActivity"
+    },
+    {
+        "id": "CreditRiskAssessment",
+        "type": "Class",
+        "name": "CreditRiskAssessment",
+        "definition": "risk assessment that focuses on determining the likelihood of a potential borrower repaying a loan",
+        "label": "credit risk assessment"
+    },
+    {
+        "id": "AssessmentActivity",
+        "type": "Entity",
+        "name": "AssessmentActivity"
+    },
+    {
+        "id": "IndividualPersonCreditRating",
+        "type": "Class",
+        "name": "IndividualPersonCreditRating",
+        "definition": "credit rating that provides an opinion of the creditworthiness of a person",
+        "label": "individual person credit rating"
+    },
+    {
+        "id": "CreditRating",
+        "type": "Entity",
+        "name": "CreditRating"
+    },
+    {
+        "id": "LoanApplicationPhase",
+        "type": "Class",
+        "name": "LoanApplicationPhase",
+        "label": "loan application phase"
+    },
+    {
+        "id": "LifecycleStage",
+        "type": "Entity",
+        "name": "LifecycleStage"
+    },
+    {
+        "id": "LoanApplicationStatus",
+        "type": "Class",
+        "name": "LoanApplicationStatus",
+        "label": "loan application status"
+    },
+    {
+        "id": "LifecycleStatus",
+        "type": "Entity",
+        "name": "LifecycleStatus"
+    },
+    {
+        "id": "LoanApplication",
+        "type": "Class",
+        "name": "LoanApplication",
+        "label": "loan application",
+        "definition": "request by a potential borrower to a potential lender to borrow money containing information used to decide whether to grant the loan"
+    },
+    {
+        "id": "Document",
+        "type": "Entity",
+        "name": "Document"
+    },
+    {
+        "id": "PublicRecord",
+        "type": "Class",
+        "name": "PublicRecord",
+        "explanatoryNote": "This can include court actions such as bankruptcy and foreclosure, as well as liens and other events that have been recorded.",
+        "definition": "record about an action involving a party that is publicly available from a court or other government agency",
+        "label": "public record"
+    },
+    {
+        "id": "Record",
+        "type": "Entity",
+        "name": "Record"
+    },
+    {
+        "id": "AllBorrowersMonthlyIncome",
+        "type": "Class",
+        "name": "AllBorrowersMonthlyIncome",
+        "label": "all borrowers' monthly income",
+        "definition": "total monthly qualifying income for all borrowers on the loan"
+    },
+    {
+        "id": "MonetaryAmount",
+        "type": "Entity",
+        "name": "MonetaryAmount"
+    },
+    {
+        "id": "Income",
+        "type": "Entity",
+        "name": "Income"
+    },
+    {
+        "id": "UnderwritingAutomation",
+        "type": "Class",
+        "name": "UnderwritingAutomation",
+        "label": "underwriting automation",
+        "definition": "classifier indicating whether a loan was underwritten manually or using an automated underwriting system"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "IncomeVerificationReport",
+        "type": "Class",
+        "name": "IncomeVerificationReport",
+        "label": "income verification report",
+        "definition": "report providing the methodology and supporting documentation used to verify the borrower's income"
+    },
+    {
+        "id": "UnderwritingDecision",
+        "type": "Class",
+        "name": "UnderwritingDecision",
+        "definition": "classifier providing a loan approval recommendation determined either manually or by an automated underwriting system",
+        "label": "underwriting decision"
+    },
+    {
+        "id": "LoanAtApplicationStage",
+        "type": "Class",
+        "name": "LoanAtApplicationStage",
+        "label": "loan at application stage"
+    },
+    {
+        "id": "LoanApplicationAtAgreementStage",
+        "type": "Class",
+        "name": "LoanApplicationAtAgreementStage",
+        "label": "loan application at agreement stage"
+    },
+    {
+        "id": "BorrowerMonthlyIncome",
+        "type": "Class",
+        "name": "BorrowerMonthlyIncome",
+        "label": "borrower monthly income",
+        "definition": "total monthly qualifying income of a potential borrower"
+    },
+    {
+        "id": "PublicRecordCategory",
+        "type": "Class",
+        "name": "PublicRecordCategory",
+        "label": "public record category",
+        "definition": "classifier of public records relevant to a loan application, e.g. tax lien, wage garnishment, foreclosure"
+    },
+    {
+        "id": "TotalDebtExpenseRatio",
+        "type": "Class",
+        "name": "TotalDebtExpenseRatio",
+        "label": "total debt expense ratio",
+        "definition": "ratio of all monthly debt payments of all borrowers, including proposed expenses, with respect to the income of the borrowers as relied upon to make a credit decision"
+    },
+    {
+        "id": "PercentageMonetaryAmount",
+        "type": "Entity",
+        "name": "PercentageMonetaryAmount"
+    },
+    {
+        "id": "LoanApplicationAtDisbursementStage",
+        "type": "Class",
+        "name": "LoanApplicationAtDisbursementStage",
+        "label": "loan application at disbursement stage"
+    },
+    {
+        "id": "DenialReason-InsufficientCash",
+        "type": "NamedIndividual",
+        "name": "DenialReason-InsufficientCash",
+        "label": "insufficient cash",
+        "definition": "The application was denied due to insufficient down payment, or cash available to pay closing costs."
+    },
+    {
+        "id": "PublicRecordCategory-LienRecord",
+        "type": "PublicRecordCategory",
+        "name": "PublicRecordCategory-LienRecord",
+        "label": "lien record"
+    },
+    {
+        "id": "PublicRecordCategory-BankruptcyRecord",
+        "type": "NamedIndividual",
+        "name": "PublicRecordCategory-BankruptcyRecord",
+        "label": "bankruptcy record"
+    },
+    {
+        "id": "DenialReason-CreditApplicationIncomplete",
+        "type": "NamedIndividual",
+        "name": "DenialReason-CreditApplicationIncomplete",
+        "definition": "The application was denied because the credit application was not complete.",
+        "label": "credit application incomplete"
+    },
+    {
+        "id": "UnderwritingDecision-Refer",
+        "type": "NamedIndividual",
+        "name": "UnderwritingDecision-Refer",
+        "label": "refer"
+    },
+    {
+        "id": "DenialReason-InsufficientCreditHistory",
+        "type": "NamedIndividual",
+        "name": "DenialReason-InsufficientCreditHistory",
+        "definition": "The application was denied because the credit history was too limited, unacceptable, or not at sufficient standing.",
+        "label": "insufficient credit history"
+    },
+    {
+        "id": "isPreApprovalRequested",
+        "type": "DatatypeProperty",
+        "name": "isPreApprovalRequested",
+        "definition": "indicates whether a pre-approval has been requested, in conjunction with a loan application",
+        "label": "is pre-approval requested"
+    },
+    {
+        "id": "PublicRecordCategory-MaritalRecord",
+        "type": "NamedIndividual",
+        "name": "PublicRecordCategory-MaritalRecord",
+        "label": "marital record"
+    },
+    {
+        "id": "UnderwritingDecision-UnableToDetermine",
+        "type": "NamedIndividual",
+        "name": "UnderwritingDecision-UnableToDetermine",
+        "label": "unable to determine"
+    },
+    {
+        "id": "AutomaticUnderwriting",
+        "type": "NamedIndividual",
+        "name": "AutomaticUnderwriting",
+        "label": "automatic underwriting",
+        "definition": "underwriting was performed using an automated underwriting system"
+    },
+    {
+        "id": "DenialReason-MortgageInsuranceDenied",
+        "type": "NamedIndividual",
+        "name": "DenialReason-MortgageInsuranceDenied",
+        "label": "mortgage insurance denied",
+        "definition": "The application was denied because necessary mortgage insurance was denied."
+    },
+    {
+        "id": "hasRequestedAmount",
+        "type": "ObjectProperty",
+        "name": "hasRequestedAmount",
+        "label": "has requested amount",
+        "definition": "relates something, e.g. a request for a loan, to the amount of funds requested"
+    },
+    {
+        "id": "UnderwritingDecision-Eligible",
+        "type": "NamedIndividual",
+        "name": "UnderwritingDecision-Eligible",
+        "label": "eligible"
+    },
+    {
+        "id": "DenialReason-InsufficientCollateralValue",
+        "type": "NamedIndividual",
+        "name": "DenialReason-InsufficientCollateralValue",
+        "definition": "The application was denied because the value or type of collateral was not sufficient.",
+        "label": "insufficient collateral value"
+    },
+    {
+        "id": "PublicRecordCategory-GarnishmentRecord",
+        "type": "PublicRecordCategory",
+        "name": "PublicRecordCategory-GarnishmentRecord",
+        "label": "garnishment record"
+    },
+    {
+        "id": "hasApplicationDate",
+        "type": "ObjectProperty",
+        "name": "hasApplicationDate",
+        "definition": "date on which an application was signed and submitted",
+        "label": "has application date"
+    },
+    {
+        "id": "DenialReason-InsufficientEmploymentHistory",
+        "type": "NamedIndividual",
+        "name": "DenialReason-InsufficientEmploymentHistory",
+        "definition": "The application was denied because the employment is irregular, unknown, or not sufficient.",
+        "label": "insufficient employment history"
+    },
+    {
+        "id": "UnderwritingDecision-Deny",
+        "type": "NamedIndividual",
+        "name": "UnderwritingDecision-Deny",
+        "label": "deny"
+    },
+    {
+        "id": "DenialReason-InsufficientIncome",
+        "type": "NamedIndividual",
+        "name": "DenialReason-InsufficientIncome",
+        "label": "insufficient income",
+        "definition": "The application was denied because the debt to income ratio is too high."
+    },
+    {
+        "id": "hasIntendedLoanPurpose",
+        "type": "DatatypeProperty",
+        "name": "hasIntendedLoanPurpose",
+        "label": "has intended loan purpose",
+        "definition": "indicates the purpose to which the loaned funds are to be put"
+    },
+    {
+        "id": "PublicRecordCategory-CivilOrJudgementRecord",
+        "type": "NamedIndividual",
+        "name": "PublicRecordCategory-CivilOrJudgementRecord",
+        "label": "civil or judgement record"
+    },
+    {
+        "id": "DenialReason-UnverifiableInformation",
+        "type": "NamedIndividual",
+        "name": "DenialReason-UnverifiableInformation",
+        "definition": "The application was denied because qualification information such as income, employment, credit, or residence) was not verifiable.",
+        "label": "unverifiable information"
+    },
+    {
+        "id": "hasApplicationPhase",
+        "type": "ObjectProperty",
+        "name": "hasApplicationPhase",
+        "definition": "The phase within the application lifecycle, that this Loan Application is at,",
+        "label": "has application phase"
+    },
+    {
+        "id": "hasGrossIncome",
+        "type": "ObjectProperty",
+        "name": "hasGrossIncome",
+        "definition": "indicates the personal gross income of the borrower",
+        "label": "has gross income"
+    },
+    {
+        "id": "usesFactor",
+        "type": "ObjectProperty",
+        "name": "usesFactor",
+        "explanatoryNote": "There is intentionally no range for this property, so as not to limit what can be used as a factor. Often it will be a measure such as borrower monthly income. Thus, having a class called Factor seems unhelpful.",
+        "definition": "relates e.g. a risk assessment to something used as a factor to make the assessment",
+        "label": "uses factor"
+    },
+    {
+        "id": "PublicRecordCategory-RealEstate",
+        "type": "NamedIndividual",
+        "name": "PublicRecordCategory-RealEstate",
+        "label": "real estate record"
+    },
+    {
+        "id": "hasOriginalLoanDebtToIncomeRatio",
+        "type": "DatatypeProperty",
+        "name": "hasOriginalLoanDebtToIncomeRatio",
+        "definition": "indicates the debt-to-income (DTI) ratio at the time when the loan was advanced; for combined income",
+        "label": "has original loan debt-to-income ratio"
+    },
+    {
+        "id": "UnderwritingDecision-Ineligible",
+        "type": "NamedIndividual",
+        "name": "UnderwritingDecision-Ineligible",
+        "label": "ineligible"
+    },
+    {
+        "id": "hasApprovedAmount",
+        "type": "ObjectProperty",
+        "name": "hasApprovedAmount",
+        "definition": "relates something, e.g. a loan, to the amount of funds approved",
+        "label": "has approved amount"
+    },
+    {
+        "id": "ManualUnderwriting",
+        "type": "UnderwritingAutomation",
+        "name": "ManualUnderwriting",
+        "label": "manual underwriting",
+        "definition": "underwriting was performed manually"
+    },
+    {
+        "id": "PublicRecordCategory-ForeclosureRecord",
+        "type": "NamedIndividual",
+        "name": "PublicRecordCategory-ForeclosureRecord",
+        "label": "foreclosure record"
+    },
+    {
+        "id": "UnderwritingDecision-Approve",
+        "type": "NamedIndividual",
+        "name": "UnderwritingDecision-Approve",
+        "label": "approve"
+    },
+    {
+        "id": "PublicRecordCategory-PersonalPropertyRecord",
+        "type": "NamedIndividual",
+        "name": "PublicRecordCategory-PersonalPropertyRecord",
+        "label": "personal property record"
+    }
+]

@@ -1,0 +1,375 @@
+[
+    {
+        "id": "AllotmentInformation",
+        "type": "Class",
+        "name": "AllotmentInformation",
+        "definition": "Information about the allotment of quantities of the issue to different subscribers. This relates a single instrument allotment against the subscription amounts allotted to each Subscriber.",
+        "label": "allotment information"
+    },
+    {
+        "id": "TradedInstrumentIssuanceProcessInformation",
+        "type": "Class",
+        "name": "TradedInstrumentIssuanceProcessInformation",
+        "label": "traded instrument issuance process information",
+        "definition": "Information on one Security issue, arising from the Issuance Process. Note that one Issuance Process (Offering) may relate to more than on Issue, which itself may be the issue of more than one Traded Security."
+    },
+    {
+        "id": "PotentialUnderwriter",
+        "type": "Class",
+        "name": "PotentialUnderwriter",
+        "definition": "The entity which will become the underwriter for an issue. Term origin:MBS PoC Reviews",
+        "label": "potential underwriter"
+    },
+    {
+        "id": "SecuritiesIssuanceProcessActor",
+        "type": "Class",
+        "name": "SecuritiesIssuanceProcessActor",
+        "label": "securities issuance process actor"
+    },
+    {
+        "id": "OfferingProcess",
+        "type": "Class",
+        "name": "OfferingProcess",
+        "explanatoryNote": "It is assumed that this exists for all security types as the precise issuance process is defined among the Offering terms. Terms which only exist for specific types of instrument are given as specialized variants of this class of Thing.",
+        "definition": "The process step of offering a security for issue. This is the making available of a new securities issue through an underwriting.",
+        "label": "offering"
+    },
+    {
+        "id": "IssuanceProcessActivity",
+        "type": "Class",
+        "name": "IssuanceProcessActivity",
+        "label": "issuance process activity"
+    },
+    {
+        "id": "SecuritiesOffering",
+        "type": "Class",
+        "name": "SecuritiesOffering"
+    },
+    {
+        "id": "IssueSubscriptionInformation",
+        "type": "Class",
+        "name": "IssueSubscriptionInformation",
+        "definition": "Information relating to the subscription of the issue.",
+        "label": "issue subscription information"
+    },
+    {
+        "id": "Document",
+        "type": "Entity",
+        "name": "Document"
+    },
+    {
+        "id": "IssuedSecurityIssueInformation",
+        "type": "Class",
+        "name": "IssuedSecurityIssueInformation",
+        "label": "issued security issue information",
+        "definition": "Information about the Issuance of a Security, which is maintained throughout the life of the Security."
+    },
+    {
+        "id": "UnderwritingProcessDetails",
+        "type": "Class",
+        "name": "UnderwritingProcessDetails",
+        "label": "underwriting process details",
+        "definition": "Information specific to the Underwriting of the Issue."
+    },
+    {
+        "id": "SubscriptionClosingInformation",
+        "type": "Class",
+        "name": "SubscriptionClosingInformation",
+        "label": "subscription closing information"
+    },
+    {
+        "id": "Announcement",
+        "type": "Class",
+        "name": "Announcement",
+        "label": "announcement"
+    },
+    {
+        "id": "OccurrenceKind",
+        "type": "Entity",
+        "name": "OccurrenceKind"
+    },
+    {
+        "id": "SecuritiesIssuanceProcess",
+        "type": "Class",
+        "name": "SecuritiesIssuanceProcess",
+        "definition": "The process by which a financial security is issued.",
+        "label": "securities issuance process"
+    },
+    {
+        "id": "SecondarySecurityOfferingDistribution",
+        "type": "Class",
+        "name": "SecondarySecurityOfferingDistribution",
+        "definition": "An Offering of a security which has been previously issued.",
+        "label": "secondary security offering distribution"
+    },
+    {
+        "id": "SecurityOfferingDistributionMethod",
+        "type": "Class",
+        "name": "SecurityOfferingDistributionMethod",
+        "label": "security offering distribution method",
+        "definition": "The distribution type of a securities Offering."
+    },
+    {
+        "id": "NegotiatedSaleMethod",
+        "type": "Class",
+        "name": "NegotiatedSaleMethod",
+        "definition": "No definition",
+        "label": "negotiated sale method"
+    },
+    {
+        "id": "SecurityOfferingSaleMethod",
+        "type": "Class",
+        "name": "SecurityOfferingSaleMethod",
+        "definition": "Method for sale of a new security offering.",
+        "label": "security offering sale method"
+    },
+    {
+        "id": "PrimaryIdentifierIssuer",
+        "type": "Class",
+        "name": "PrimaryIdentifierIssuer",
+        "definition": "The party which formally issues the primary security identifier to the security. Term origin:MBS PoC Reviews",
+        "label": "primary identifier issuer"
+    },
+    {
+        "id": "ContractThirdParty",
+        "type": "Entity",
+        "name": "ContractThirdParty"
+    },
+    {
+        "id": "PotentialIssuer",
+        "type": "Class",
+        "name": "PotentialIssuer",
+        "label": "potential issuer"
+    },
+    {
+        "id": "CompetitiveSaleMethod",
+        "type": "Class",
+        "name": "CompetitiveSaleMethod",
+        "label": "competitive sale method",
+        "definition": "No definition"
+    },
+    {
+        "id": "UnderwriterTakedown",
+        "type": "Class",
+        "name": "UnderwriterTakedown",
+        "definition": "Infomation on Takedown quantity of the security handled by the underwriter (that will be brought into DTC).",
+        "label": "underwriter takedown"
+    },
+    {
+        "id": "DistributionStrategy",
+        "type": "Entity",
+        "name": "DistributionStrategy"
+    },
+    {
+        "id": "AgentRole",
+        "type": "Entity",
+        "name": "AgentRole"
+    },
+    {
+        "id": "SecurityIssuanceGuarantor",
+        "type": "Class",
+        "name": "SecurityIssuanceGuarantor",
+        "label": "security issuance guarantor"
+    },
+    {
+        "id": "RegistrationInformation",
+        "type": "Class",
+        "name": "RegistrationInformation",
+        "definition": "Information relating to the registration of a registered security.",
+        "label": "registration information"
+    },
+    {
+        "id": "Subscriber",
+        "type": "Class",
+        "name": "Subscriber",
+        "label": "subscriber"
+    },
+    {
+        "id": "SalesStrategy",
+        "type": "Entity",
+        "name": "SalesStrategy"
+    },
+    {
+        "id": "IssuanceProgramme",
+        "type": "Class",
+        "name": "IssuanceProgramme",
+        "explanatoryNote": "See for example MTN.",
+        "definition": "A series of issuances over time.",
+        "label": "issuance programme"
+    },
+    {
+        "id": "PrimarySecurityOfferingDistribution",
+        "type": "Class",
+        "name": "PrimarySecurityOfferingDistribution",
+        "definition": "The original sale of a company's securities, in which the proceeds from the sale are received directly by the company.",
+        "label": "primary security offering distribution"
+    },
+    {
+        "id": "firstTradeDateAndTime",
+        "type": "ObjectProperty",
+        "name": "firstTradeDateAndTime",
+        "label": "first trade date and time",
+        "definition": "First Date and Time a trade may be executed for this security. All times in Eastern Time Zone only. NOTE: This is a date in the future tense at the time of the Offering."
+    },
+    {
+        "id": "isIssuanceGuarantor",
+        "type": "ObjectProperty",
+        "name": "isIssuanceGuarantor",
+        "label": "is issuance guarantor"
+    },
+    {
+        "id": "issueNominalNumberOfUnits",
+        "type": "DatatypeProperty",
+        "name": "issueNominalNumberOfUnits",
+        "label": "issue nominal number of units",
+        "definition": "Total original quantity of securities issued."
+    },
+    {
+        "id": "series",
+        "type": "DatatypeProperty",
+        "name": "series",
+        "definition": "Series identification for the individual Traded Financial Security.",
+        "label": "series"
+    },
+    {
+        "id": "actualClosingDate",
+        "type": "ObjectProperty",
+        "name": "actualClosingDate",
+        "definition": "The Closing Date for the Issue, recorded after the event.",
+        "label": "actual closing date"
+    },
+    {
+        "id": "isPotentialIssuer",
+        "type": "ObjectProperty",
+        "name": "isPotentialIssuer",
+        "label": "is potential issuer"
+    },
+    {
+        "id": "underwriterTakedownShares",
+        "type": "DatatypeProperty",
+        "name": "underwriterTakedownShares",
+        "definition": "Takedown quantity of the security handled by the underwriter (that will be brought into DTC).",
+        "label": "underwriter takedown shares"
+    },
+    {
+        "id": "offerIssueSeries",
+        "type": "DatatypeProperty",
+        "name": "offerIssueSeries",
+        "label": "series",
+        "definition": "Uniquely identified collection of securities within an Issue with same Expected Closing Date. The text gives the Series Identifier within the Issuance process. There may be one or more Series within one Issue."
+    },
+    {
+        "id": "formalAwardDateAndTime",
+        "type": "ObjectProperty",
+        "name": "formalAwardDateAndTime",
+        "definition": "Date and time the issuer formally accepts a bid for Competitive Issues or, the Date and Time the Bond Purchase Agreement is executed for Negotiated Issues. Time Zone: Include in date/time data or add a term for it?",
+        "label": "formal award date and time"
+    },
+    {
+        "id": "expectedClosingDate",
+        "type": "ObjectProperty",
+        "name": "expectedClosingDate",
+        "definition": "The date on which the transfer of positions to underwriters is expected to take place. This date is provided by underwriters as part of an announcement.",
+        "label": "expected closing date"
+    },
+    {
+        "id": "subscriptionPeriod",
+        "type": "ObjectProperty",
+        "name": "subscriptionPeriod",
+        "definition": "Period during which the security can be subscribed to.",
+        "label": "subscription period"
+    },
+    {
+        "id": "hasSaleMethod",
+        "type": "ObjectProperty",
+        "name": "hasSaleMethod",
+        "definition": "Sale Method of the security.",
+        "label": "has sale method"
+    },
+    {
+        "id": "overAlloted",
+        "type": "DatatypeProperty",
+        "name": "overAlloted",
+        "definition": "Whether the subscriber has been over-alloted the requested number of units. REVIEW: Not seen in data terms but implied elsewhere.",
+        "label": "over alloted"
+    },
+    {
+        "id": "issueOfferingUnits",
+        "type": "DatatypeProperty",
+        "name": "issueOfferingUnits",
+        "label": "issue offering units",
+        "definition": "Quantity of all securities that is offered in an equity or Corporate Bond issue."
+    },
+    {
+        "id": "firstTradeDate",
+        "type": "ObjectProperty",
+        "name": "firstTradeDate",
+        "label": "first trade date",
+        "definition": "The date of the first trade of the security in the secondary market."
+    },
+    {
+        "id": "announcementDate",
+        "type": "ObjectProperty",
+        "name": "announcementDate",
+        "definition": "Date/time, as announced by the issuer, at which the securities were to be issued and subsequently were issued.",
+        "label": "announcement date"
+    },
+    {
+        "id": "hasDistributionType",
+        "type": "ObjectProperty",
+        "name": "hasDistributionType",
+        "label": "has distribution type"
+    },
+    {
+        "id": "finalStateDescribedIn",
+        "type": "ObjectProperty",
+        "name": "finalStateDescribedIn",
+        "label": "final state described in"
+    },
+    {
+        "id": "firstTradeSettlementDate",
+        "type": "ObjectProperty",
+        "name": "firstTradeSettlementDate",
+        "definition": "The date the Issuer and Underwriter exchange money for bonds.",
+        "label": "first trade settlement date"
+    },
+    {
+        "id": "requiredToMakeEligible",
+        "type": "ObjectProperty",
+        "name": "requiredToMakeEligible",
+        "label": "required to make eligible"
+    },
+    {
+        "id": "hasPartiallyPaidIssuanceSchedule",
+        "type": "ObjectProperty",
+        "name": "hasPartiallyPaidIssuanceSchedule",
+        "label": "has partially paid issuance schedule",
+        "definition": "Partially paid issue: Schedule of partial payments and dates."
+    },
+    {
+        "id": "minimumIssueSubscription",
+        "type": "DatatypeProperty",
+        "name": "minimumIssueSubscription",
+        "label": "minimum issue subscription",
+        "definition": "Minimum or incremental denomination required for the transfer or change of ownership of a security."
+    },
+    {
+        "id": "describesAllotmentOf",
+        "type": "ObjectProperty",
+        "name": "describesAllotmentOf",
+        "label": "describes allotment of"
+    },
+    {
+        "id": "subscriptionAmount",
+        "type": "DatatypeProperty",
+        "name": "subscriptionAmount",
+        "definition": "Number of units of the issue that an individual subscriber is allocated.",
+        "label": "subscription amount"
+    },
+    {
+        "id": "takenDownBy",
+        "type": "ObjectProperty",
+        "name": "takenDownBy",
+        "label": "taken down by"
+    }
+]

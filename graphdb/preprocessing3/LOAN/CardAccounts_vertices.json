@@ -1,0 +1,363 @@
+[
+    {
+        "id": "PaymentCardAgreement",
+        "type": "Class",
+        "name": "PaymentCardAgreement",
+        "definition": "account-specific credit agreement that specifies the terms and conditions under which the payment card is offered to the cardholder by the issuer",
+        "label": "payment card agreement"
+    },
+    {
+        "id": "AccountSpecificServiceAgreement",
+        "type": "Entity",
+        "name": "AccountSpecificServiceAgreement"
+    },
+    {
+        "id": "CreditAgreement",
+        "type": "Entity",
+        "name": "CreditAgreement"
+    },
+    {
+        "id": "CommercialCreditCardAgreement",
+        "type": "Class",
+        "name": "CommercialCreditCardAgreement",
+        "explanatoryNote": "Corporate card programs come in more than one form to serve different business needs. In general, they are contractual agreements between a sponsoring entity and a financial institution, in which the financial institution issues corporate cards to select employees of the sponsoring company.",
+        "definition": "credit card agreement for a card issued to, or in conjunction with, a formal organization, such as a small business, middle market business, local, state, or national government, or large corporation",
+        "label": "commercial credit card agreement"
+    },
+    {
+        "id": "CreditCardAgreement",
+        "type": "Class",
+        "name": "CreditCardAgreement",
+        "definition": "account-specific credit facility that specifies the terms and conditions under which the credit card is offered to the cardholder by the issuer",
+        "label": "credit card agreement"
+    },
+    {
+        "id": "CardProduct",
+        "type": "Class",
+        "name": "CardProduct",
+        "label": "card product",
+        "definition": "financial product involving the issuance of credit, debit, or other payment cards"
+    },
+    {
+        "id": "FinancialProduct",
+        "type": "Entity",
+        "name": "FinancialProduct"
+    },
+    {
+        "id": "CreditCardAccount",
+        "type": "Class",
+        "name": "CreditCardAccount",
+        "definition": "card account whose terms and conditions are defined in a credit card agreement that is represented by a credit card",
+        "label": "credit card account"
+    },
+    {
+        "id": "CardAccount",
+        "type": "Class",
+        "name": "CardAccount",
+        "definition": "account whose terms and conditions are defined in a card agreement that is represented by a payment card",
+        "label": "card account"
+    },
+    {
+        "id": "LoanOrCreditAccount",
+        "type": "Entity",
+        "name": "LoanOrCreditAccount"
+    },
+    {
+        "id": "Cardholder",
+        "type": "Class",
+        "name": "Cardholder",
+        "label": "cardholder",
+        "definition": "account holder to whom a payment card is issued"
+    },
+    {
+        "id": "CustomerAccountHolder",
+        "type": "Entity",
+        "name": "CustomerAccountHolder"
+    },
+    {
+        "id": "ConsumerCreditCardAgreement",
+        "type": "Class",
+        "name": "ConsumerCreditCardAgreement",
+        "definition": "credit card agreement for a card issued for household, family, or other personal expenditures that is accessed by a borrower's use of a credit card",
+        "label": "consumer credit card agreement"
+    },
+    {
+        "id": "UnsecuredConsumerLoan",
+        "type": "Entity",
+        "name": "UnsecuredConsumerLoan"
+    },
+    {
+        "id": "CardValidationCode2",
+        "type": "Class",
+        "name": "CardValidationCode2",
+        "label": "card validation code 2",
+        "definition": "card verification value specifically for Mastercard payment cards",
+        "abbreviation": "PAN CVC2"
+    },
+    {
+        "id": "ThreeDigitVerificationCodeValue",
+        "type": "Class",
+        "name": "ThreeDigitVerificationCodeValue",
+        "definition": "card verification code that is the rightmost three-digit value printed in the signature panel area on the back of the card",
+        "label": "three-digit verification code or value"
+    },
+    {
+        "id": "DebitCardAccount",
+        "type": "Class",
+        "name": "DebitCardAccount",
+        "definition": "card account that is represented by a one or more debit cards",
+        "label": "debit card account"
+    },
+    {
+        "id": "CustomerAccount",
+        "type": "Entity",
+        "name": "CustomerAccount"
+    },
+    {
+        "id": "SmartCard",
+        "type": "Class",
+        "name": "SmartCard",
+        "label": "smart card",
+        "definition": "payment card that has integrated circuits embedded within it",
+        "explanatoryNote": "The circuits, also referred to as the 'chip,' contain payment card data including but not limited to data equivalent to the magnetic-stripe data."
+    },
+    {
+        "id": "PaymentCard",
+        "type": "Class",
+        "name": "PaymentCard",
+        "definition": "legal document issued by a financial services provider that enables the cardholder to access the funds in the customer's designated bank accounts, or through a credit account and make payments by electronic funds transfer and access automated teller machines (ATMs)",
+        "explanatoryNote": "For purposes of Payment Card Industry Data Security Standard (PCI DSS), a payment card is any payment card/device that bears the logo of the founding members of PCI SSC, which are American Express, Discover Financial Services, JCB International, MasterCard, or Visa, Inc.",
+        "label": "payment card"
+    },
+    {
+        "id": "CardVerificationCodeValue",
+        "type": "Class",
+        "name": "CardVerificationCodeValue",
+        "label": "card verification code or value",
+        "definition": "code that specifies either (1) magnetic-stripe data, or (2) printed security features that are used to protect data integrity and limit alteration, counterfeiting and fraud generally"
+    },
+    {
+        "id": "DebitCard",
+        "type": "Class",
+        "name": "DebitCard",
+        "definition": "payment card issued by a financial service provider that enables the cardholder to access funds in a demand deposit account",
+        "label": "debit card"
+    },
+    {
+        "id": "CreditCardProduct",
+        "type": "Class",
+        "name": "CreditCardProduct",
+        "label": "credit card product",
+        "definition": "card product allowing the holder to purchase goods or services on credit"
+    },
+    {
+        "id": "CommittedCreditFacility",
+        "type": "Entity",
+        "name": "CommittedCreditFacility"
+    },
+    {
+        "id": "CardAuthenticationValue",
+        "type": "Class",
+        "name": "CardAuthenticationValue",
+        "label": "card authentication value",
+        "definition": "card verification value specifically for JCB payment cards",
+        "abbreviation": "CAV"
+    },
+    {
+        "id": "MagneticStripeVerificationCodeValue",
+        "type": "Class",
+        "name": "MagneticStripeVerificationCodeValue",
+        "label": "magnetic stripe verification code or value",
+        "definition": "card verification code on a card's magnetic stripe that uses secure cryptographic processes to protect data integrity on the stripe, and reveals any alteration or counterfeiting"
+    },
+    {
+        "id": "CardIdentificationNumber",
+        "type": "Class",
+        "name": "CardIdentificationNumber",
+        "label": "card identification number",
+        "definition": "card verification value specifically for American Express and Discover payment cards",
+        "abbreviation": "CID"
+    },
+    {
+        "id": "DebitCardProduct",
+        "type": "Class",
+        "name": "DebitCardProduct",
+        "definition": "card product card typically provided by a depository institution allowing the holder to transfer money electronically to another account when making a purchase",
+        "label": "debit card product"
+    },
+    {
+        "id": "CreditCard",
+        "type": "Class",
+        "name": "CreditCard",
+        "label": "credit card",
+        "definition": "card issued by a financial service provider that enables the cardholder to borrow funds",
+        "explanatoryNote": "In its non-physical form, a credit card represents a payment mechanism which facilitates both consumer and commercial business transactions, including purchases and cash advances. A credit card generally operates as a substitute for cash or a check and most often provides an unsecured revolving line of credit. The borrower is required to pay at least part of the card's outstanding balance each billing cycle, depending on the terms as set forth in the cardholder agreement. As the debt reduces, the available credit increases for accounts in good standing. These complex financial arrangements have ever-shifting terms and prices. A charge card differs from a credit card in that the charge card must be paid in full each month."
+    },
+    {
+        "id": "LegalDocument",
+        "type": "Entity",
+        "name": "LegalDocument"
+    },
+    {
+        "id": "CardSecurityCode",
+        "type": "Class",
+        "name": "CardSecurityCode",
+        "abbreviation": "CSC",
+        "definition": "card verification value specifically for American Express payment cards",
+        "label": "card security code"
+    },
+    {
+        "id": "CreditCardNetwork",
+        "type": "Class",
+        "name": "CreditCardNetwork",
+        "definition": "classifier for the network that authorizes, processes, and sets the terms of credit card transactions, as well as transfers payments between shoppers, merchants, and their banks",
+        "label": "credit card network"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "IssuingFinancialInstitution",
+        "type": "Class",
+        "name": "IssuingFinancialInstitution",
+        "label": "issuing financial institution",
+        "definition": "issuer and financial services provider that issues payment cards or performs, facilitates, or supports issuing services including but not limited to issuing banks and issuing processors"
+    },
+    {
+        "id": "FinancialServiceProvider",
+        "type": "Entity",
+        "name": "FinancialServiceProvider"
+    },
+    {
+        "id": "Issuer",
+        "type": "Entity",
+        "name": "Issuer"
+    },
+    {
+        "id": "CodeElement",
+        "type": "Entity",
+        "name": "CodeElement"
+    },
+    {
+        "id": "CardValidationCode",
+        "type": "Class",
+        "name": "CardValidationCode",
+        "label": "card validation code",
+        "abbreviation": "PAN CVC",
+        "definition": "card verification code specifically for Mastercard payment cards"
+    },
+    {
+        "id": "CardExpirationDate",
+        "type": "Class",
+        "name": "CardExpirationDate",
+        "definition": "date on which a given payment card expires",
+        "label": "card expiration date"
+    },
+    {
+        "id": "ExplicitDate",
+        "type": "Entity",
+        "name": "ExplicitDate"
+    },
+    {
+        "id": "CardVerificationValue2",
+        "type": "Class",
+        "name": "CardVerificationValue2",
+        "definition": "card verification value specifically for Visa payment cards",
+        "label": "card verification value 2"
+    },
+    {
+        "id": "PrimaryCardAccountNumber",
+        "type": "Class",
+        "name": "PrimaryCardAccountNumber",
+        "definition": "composite identifier of 14 or 16 digits embossed on a bank or payment card and encoded in the card's magnetic strip",
+        "abbreviation": "PAN",
+        "explanatoryNote": "The PAN identifies the issuer of the card and the account including part of the account number, and contains a check digit that verifies the authenticity of the embossed account number.",
+        "label": "primary card account number"
+    },
+    {
+        "id": "AccountIdentifier",
+        "type": "Entity",
+        "name": "AccountIdentifier"
+    },
+    {
+        "id": "CardVerificationValue",
+        "type": "Class",
+        "name": "CardVerificationValue",
+        "label": "card verification value",
+        "abbreviation": "CVV",
+        "definition": "card verification value specifically for Visa and Discover payment cards"
+    },
+    {
+        "id": "CardAuthenticationValue2",
+        "type": "Class",
+        "name": "CardAuthenticationValue2",
+        "label": "card authentication value 2",
+        "definition": "card verification value specifically for JCB payment cards"
+    },
+    {
+        "id": "hasCardVerificationCode",
+        "type": "ObjectProperty",
+        "name": "hasCardVerificationCode",
+        "label": "has card verification code",
+        "definition": "links a credit card to either: (1) magnetic-stripe data, or (2) printed security features that are used to protect data integrity and limit alteration, counterfeiting and fraud generally"
+    },
+    {
+        "id": "usesCurrency",
+        "type": "ObjectProperty",
+        "name": "usesCurrency",
+        "label": "uses currency",
+        "definition": "indicates the currency defined for the credit card product"
+    },
+    {
+        "id": "DiscoverNetwork",
+        "type": "CreditCardNetwork",
+        "name": "DiscoverNetwork",
+        "label": "Discover network",
+        "definition": "credit card network and card issuer offering benefits like secondary rental car collision insurance"
+    },
+    {
+        "id": "JCBNetwork",
+        "type": "NamedIndividual",
+        "name": "JCBNetwork",
+        "explanatoryNote": "JCB Co., Ltd., (formerly Japan Credit Bureau) is a credit card company based in Tokyo, Japan. As of 2020, it operates in 23 countries with over 130 million customers. In the United States, it is not a primary credit card network but has an association with the Discover Network to enable use of JCB cards.",
+        "label": "JCB network",
+        "definition": "credit card network based in Japan, with coverage throughout Asia, with strategic partners worldwide"
+    },
+    {
+        "id": "MastercardNetwork",
+        "type": "CreditCardNetwork",
+        "name": "MastercardNetwork",
+        "definition": "credit card network that has its own suite of card protections and benefits, such as identity theft protection and extended warranties",
+        "label": "Mastercard network"
+    },
+    {
+        "id": "VisaNetwork",
+        "type": "NamedIndividual",
+        "name": "VisaNetwork",
+        "label": "Visa network",
+        "definition": "credit card network that oversees the Visa Signature benefits associated with certain credit cards, such as premium rental car privileges and hotel perks"
+    },
+    {
+        "id": "hasCreditCardNetwork",
+        "type": "ObjectProperty",
+        "name": "hasCreditCardNetwork",
+        "definition": "indicates the underlying network for credit card product",
+        "label": "has credit card network"
+    },
+    {
+        "id": "hasPrimaryAccountNumber",
+        "type": "ObjectProperty",
+        "name": "hasPrimaryAccountNumber",
+        "label": "has primary account number",
+        "definition": "specifies the account number displayed on the face of the card"
+    },
+    {
+        "id": "AmericanExpressNetwork",
+        "type": "CreditCardNetwork",
+        "name": "AmericanExpressNetwork",
+        "label": "American Express network",
+        "definition": "credit card network and card issuer that both issues credit cards and processes payments for cards bearing its logo, as well as offering cardholder benefits like travel insurance"
+    }
+]

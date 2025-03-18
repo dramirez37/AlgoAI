@@ -1,0 +1,70 @@
+[
+    {
+        "id": "MotorVehicleLoan",
+        "type": "Class",
+        "name": "MotorVehicleLoan",
+        "definition": "collateralized, simple-interest loan that is repaid in monthly installments over a period of typically three to five years, for the purpose of purchasing a vehicle",
+        "label": "motor vehicle loan",
+        "explanatoryNote": "Many lenders will only approve auto loans for vehicles (i.e., cars, trucks) that are a certain age (typically 5 years or less) due to depreciation of the value of the vehicle. Because an auto loan is a 'secured' type of loan, the vehicle that is being financed is used as collateral (i.e. if the borrower fails to repay the loan, the vehicle may be seized by the lender)."
+    },
+    {
+        "id": "SecuredConsumerLoan",
+        "type": "Class",
+        "name": "SecuredConsumerLoan",
+        "definition": "loan to one or more individuals for household, family, or other personal expenditures in which the borrower pledges some asset via a security agreement as collateral for the loan, or that is secured via third-party guarantee",
+        "label": "secured consumer loan"
+    },
+    {
+        "id": "CollateralizedLoan",
+        "type": "Entity",
+        "name": "CollateralizedLoan"
+    },
+    {
+        "id": "UnsecuredConsumerLoan",
+        "type": "Class",
+        "name": "UnsecuredConsumerLoan",
+        "definition": "loan to one or more individuals for household, family, or other personal expenditures granted based on the strength of the borrower's credit history or reputation in the community",
+        "label": "unsecured consumer loan"
+    },
+    {
+        "id": "ConsumerLoan",
+        "type": "Class",
+        "name": "ConsumerLoan",
+        "definition": "loan to one or more individuals for household, family, or other personal expenditures, excluding mortgages and student loans",
+        "label": "consumer loan",
+        "explanatoryNote": "In the United States, consumer loans do not include a home mortgage, small business, or small farm loans. They are defined by law to include the following: (1) Motor vehicle loan, which is a consumer loan extended for the purchase of and secured by a motor vehicle; (2) Credit card loan, which is a line of credit for household, family, or other personal expenditures that is accessed by a borrower's use of a 'credit card,' as this term is defined in \u00a7 1026.2 of 12 CFR \u00a7 228.12; (3) Other secured consumer loan, which is a secured consumer loan that is not included in one of the other categories of consumer loans; and (4) Other unsecured consumer loan, which is an unsecured consumer loan that is not included in one of the other categories of consumer loans."
+    },
+    {
+        "id": "UnsecuredLoan",
+        "type": "Entity",
+        "name": "UnsecuredLoan"
+    },
+    {
+        "id": "HomeEquityLineOfCredit",
+        "type": "Class",
+        "name": "HomeEquityLineOfCredit",
+        "explanatoryNote": "Usually, the term of a HELOC can vary from 5 to up to 25 years, with an initial draw period during which the borrower can access the line of credit, followed by a repayment period during which monthly payments on principal and interest are due until the loan is paid in full. Note that there are restrictions in the US on the nature of the property that may be used as collateral for a HELOC - it must be classified as a 1-4 family dwelling. That determination is independent from the use of proceeds.",
+        "definition": "line of credit granted to a homeowner secured by the equity value in a borrower's home or other property",
+        "label": "home equity line of credit"
+    },
+    {
+        "id": "LoanSecuredByRealEstate",
+        "type": "Entity",
+        "name": "LoanSecuredByRealEstate"
+    },
+    {
+        "id": "RevolvingLineOfCredit",
+        "type": "Entity",
+        "name": "RevolvingLineOfCredit"
+    },
+    {
+        "id": "Loan",
+        "type": "Entity",
+        "name": "Loan"
+    },
+    {
+        "id": "SecuredLoan",
+        "type": "Entity",
+        "name": "SecuredLoan"
+    }
+]

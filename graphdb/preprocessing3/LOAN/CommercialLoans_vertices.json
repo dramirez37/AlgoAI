@@ -1,0 +1,22 @@
+[
+    {
+        "id": "CommercialLoan",
+        "type": "Class",
+        "name": "CommercialLoan",
+        "explanatoryNote": "Such loans may include those that provide working capital, are used to finance the purchase of equipment and/or materials, for facilities and/or improvement of facilities, and so forth, and are typically secured.",
+        "definition": "loan extended to a corporation, commercial enterprise, joint venture, or other organization as opposed to a consumer",
+        "label": "commercial loan"
+    },
+    {
+        "id": "Loan",
+        "type": "Entity",
+        "name": "Loan"
+    },
+    {
+        "id": "hasBusinessPurposeDescription",
+        "type": "DatatypeProperty",
+        "name": "hasBusinessPurposeDescription",
+        "label": "has business purpose description",
+        "definition": "provides a description of the purpose of the loan from the perspective of the borrower"
+    }
+]

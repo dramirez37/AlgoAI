@@ -1,0 +1,203 @@
+[
+    {
+        "source_id": "SyntheticDebtSPV",
+        "target_id": "SpecialPurposeVehicle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyntheticDebtSPV",
+        "target_id": "SyntheticDebtInstrumentPoolFundingAsset",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "holds",
+                "SyntheticDebtInstrumentPoolFundingAsset"
+            ]
+        }
+    },
+    {
+        "source_id": "SyntheticCDO",
+        "target_id": "CDODeal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyntheticCDO",
+        "target_id": "SyntheticCDOTranche",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "SyntheticCDOTranche"
+            ]
+        }
+    },
+    {
+        "source_id": "SyntheticDebtInstrumentPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyntheticDebtInstrumentPool",
+        "target_id": "SyntheticCDOPortfolio",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "makesReferenceTo",
+                "SyntheticCDOPortfolio"
+            ]
+        }
+    },
+    {
+        "source_id": "SyntheticDebtInstrumentPool",
+        "target_id": "SyntheticDebtInstrumentPoolFundingAsset",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "fundedBy",
+                "SyntheticDebtInstrumentPoolFundingAsset"
+            ]
+        }
+    },
+    {
+        "source_id": "SyntheticBalanceSheetCDO",
+        "target_id": "BalanceSheetCDO",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyntheticBalanceSheetCDO",
+        "target_id": "SyntheticCDOTranche",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "SyntheticCDOTranche"
+            ]
+        }
+    },
+    {
+        "source_id": "SyntheticBalanceSheetCDO",
+        "target_id": "SyntheticCDO",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyntheticCDOPortfolio",
+        "target_id": "SyntheticCDOPortfolioConstituent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "notionallyHolds",
+                "SyntheticCDOPortfolioConstituent"
+            ]
+        }
+    },
+    {
+        "source_id": "SyntheticPoolAsset",
+        "target_id": "FinancialAsset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyntheticCDOTranche",
+        "target_id": "CollateralizedDebtObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyntheticCDOTranche",
+        "target_id": "SyntheticDebtInstrumentPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isTrancheOf",
+                "SyntheticDebtInstrumentPool"
+            ]
+        }
+    },
+    {
+        "source_id": "ArbitrageSyntheticCDO",
+        "target_id": "SyntheticCDOTranche",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "SyntheticCDOTranche"
+            ]
+        }
+    },
+    {
+        "source_id": "ArbitrageSyntheticCDO",
+        "target_id": "SyntheticCDO",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ArbitrageSyntheticCDO",
+        "target_id": "ArbitrageCDO",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyntheticStructuredFinanceInstrument",
+        "target_id": "SyntheticPoolAsset",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "SyntheticPoolAsset"
+            ]
+        }
+    },
+    {
+        "source_id": "SyntheticStructuredFinanceInstrument",
+        "target_id": "StructuredFinanceInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyntheticAmortizingSecurity",
+        "target_id": "SyntheticStructuredFinanceInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

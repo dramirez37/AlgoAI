@@ -1,0 +1,132 @@
+[
+    {
+        "id": "ControlledThing",
+        "type": "Class",
+        "name": "ControlledThing",
+        "definition": "something over which some party exercises some form of control with respect to some situation",
+        "label": "controlled thing"
+    },
+    {
+        "id": "Undergoer",
+        "type": "Entity",
+        "name": "Undergoer"
+    },
+    {
+        "id": "DeJureControl",
+        "type": "Class",
+        "name": "DeJureControl",
+        "label": "de jure control",
+        "definition": "control that exists as a matter of law, i.e., legitimate, legal control of something"
+    },
+    {
+        "id": "Control",
+        "type": "Class",
+        "name": "Control",
+        "label": "control",
+        "definition": "situation in which some party has the power to direct or strongly influence the direction of the management and policies related to something",
+        "explanatoryNote": "Control may be direct (explicit) or indirect (implicit), derived through ownership of voting shares, beneficial ownership, other ownership relations, through provisions of a contract, or otherwise."
+    },
+    {
+        "id": "LegalConstruct",
+        "type": "Entity",
+        "name": "LegalConstruct"
+    },
+    {
+        "id": "Situation",
+        "type": "Entity",
+        "name": "Situation"
+    },
+    {
+        "id": "DeFactoControl",
+        "type": "Class",
+        "name": "DeFactoControl",
+        "definition": "control that exists informally and is accepted, although not formally recognized",
+        "label": "de facto control",
+        "explanatoryNote": "For example, de facto acquisition or change of control means the acquisition, directly or indirectly, by any person or group of persons acting jointly or in concert, of beneficial ownership of, or control or direction over, sufficient voting shares of some legal entity to permit such person or persons to exercise, or to control or direct the voting of, 50 percent or more of the total number of votes in that entity."
+    },
+    {
+        "id": "ControllingParty",
+        "type": "Class",
+        "name": "ControllingParty",
+        "definition": "actor that exercises some form of control in the context of some situation",
+        "label": "controlling party"
+    },
+    {
+        "id": "Actor",
+        "type": "Entity",
+        "name": "Actor"
+    },
+    {
+        "id": "isControllingPartyOf",
+        "type": "ObjectProperty",
+        "name": "isControllingPartyOf",
+        "definition": "indicates something that a controlling party has some amount of authority or influence over",
+        "label": "is controlling party of"
+    },
+    {
+        "id": "isControllingPartyIn",
+        "type": "ObjectProperty",
+        "name": "isControllingPartyIn",
+        "definition": "indicates the context of control in which the party plays the role of controlling something",
+        "label": "is controlling party in"
+    },
+    {
+        "id": "isControlledBy",
+        "type": "ObjectProperty",
+        "name": "isControlledBy"
+    },
+    {
+        "id": "isControlledPartyOf",
+        "type": "ObjectProperty",
+        "name": "isControlledPartyOf",
+        "definition": "indicates a controlling party that has some amount of authority or influence over it",
+        "label": "is controlled party of"
+    },
+    {
+        "id": "isInitiallyControlledOn",
+        "type": "DatatypeProperty",
+        "name": "isInitiallyControlledOn",
+        "label": "is initially controlled on",
+        "definition": "indicates the date or date and time that some level of authority or influence was first put in place"
+    },
+    {
+        "id": "involvesControlledThing",
+        "type": "ObjectProperty",
+        "name": "involvesControlledThing",
+        "definition": "indicates something controlled in the context of a control situation",
+        "label": "involves controlled thing"
+    },
+    {
+        "id": "isControlledThingIn",
+        "type": "ObjectProperty",
+        "name": "isControlledThingIn",
+        "definition": "indicates the context of control in which something is being controlled",
+        "label": "is controlled thing in"
+    },
+    {
+        "id": "hasPartyInControl",
+        "type": "ObjectProperty",
+        "name": "hasPartyInControl",
+        "label": "has party in control",
+        "definition": "indicates the actor in the context of a control situation"
+    },
+    {
+        "id": "hasControllingParty",
+        "type": "ObjectProperty",
+        "name": "hasControllingParty",
+        "definition": "indicates the party that exercises authority or influence over something",
+        "label": "has controlling party"
+    },
+    {
+        "id": "isPartyControlling",
+        "type": "ObjectProperty",
+        "name": "isPartyControlling",
+        "definition": "indicates something controlled that a controlling party has some amount of authority or influence over",
+        "label": "is party controlling"
+    },
+    {
+        "id": "controls",
+        "type": "ObjectProperty",
+        "name": "controls"
+    }
+]

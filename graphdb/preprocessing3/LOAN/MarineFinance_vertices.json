@@ -1,0 +1,42 @@
+[
+    {
+        "id": "MarineFinancing",
+        "type": "Class",
+        "name": "MarineFinancing",
+        "label": "marine finance",
+        "definition": "A loan for the purchase of a boat or other vessel."
+    },
+    {
+        "id": "Loan",
+        "type": "Entity",
+        "name": "Loan"
+    },
+    {
+        "id": "percentageAdvanced",
+        "type": "ObjectProperty",
+        "name": "percentageAdvanced",
+        "definition": "The percentage of the purchase price advanced as the loan.",
+        "label": "percentage advanced"
+    },
+    {
+        "id": "boatHeldAsChattel",
+        "type": "DatatypeProperty",
+        "name": "boatHeldAsChattel",
+        "definition": "Whether the vessel is to be held in ownership as a form of chattel by the lender during the period of the loan.",
+        "label": "boat held as chattel"
+    },
+    {
+        "id": "residential",
+        "type": "DatatypeProperty",
+        "name": "residential",
+        "definition": "Whether the boat is intended to be used and is legally able to be used as a place of residence.",
+        "label": "residential"
+    },
+    {
+        "id": "mooredAt",
+        "type": "DatatypeProperty",
+        "name": "mooredAt",
+        "label": "moored at",
+        "definition": "Textual description (name etc.) of where the vessel is to be moored if it has a permanent mooring place."
+    }
+]

@@ -1,0 +1,406 @@
+[
+    {
+        "id": "PersonName",
+        "type": "Class",
+        "name": "PersonName",
+        "label": "person name",
+        "definition": "designation by which someone is known in some context"
+    },
+    {
+        "id": "ContextualName",
+        "type": "Entity",
+        "name": "ContextualName"
+    },
+    {
+        "id": "DriversLicenseIdentifier",
+        "type": "Class",
+        "name": "DriversLicenseIdentifier",
+        "definition": "identifier associated with a drivers' or operating license for operating a motor vehicle or non-driver identification card",
+        "label": "driver's license identifier"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "PassportNumberIdentificationScheme",
+        "type": "Class",
+        "name": "PassportNumberIdentificationScheme",
+        "definition": "system for allocating identifiers to passports",
+        "explanatoryNote": "Schemes for passport identification are jurisdiction-specific by country.",
+        "label": "passport number identification scheme"
+    },
+    {
+        "id": "IdentificationScheme",
+        "type": "Entity",
+        "name": "IdentificationScheme"
+    },
+    {
+        "id": "NationalIdentificationNumber",
+        "type": "Class",
+        "name": "NationalIdentificationNumber",
+        "explanatoryNote": "A national identification number, national identity number, or national insurance number is used by the governments of many countries as a means of tracking their citizens, permanent residents, and temporary residents for the purposes of work, taxation, government benefits, health care, and other governmentally-related functions. The number will appear on an identity document issued by a country.\n\nThe ways in which such a system is implemented are dependent on the country, but in most cases, a citizen is issued an identification number at birth or when they reach a legal age (typically the age of 18). Non-citizens may be issued such numbers when they enter the country, or when granted a temporary or permanent residence permit.\n\nMany countries issued such numbers ostensibly for a singular purpose, but over time, they become a de facto national identification number. For example, the United States originally developed its Social Security number system as a means of disbursing Social Security benefits. However, due to function creep, the number has become utilized for other purposes to the point where it is almost essential to have one to, among other things, open a bank account, obtain a credit card, or drive a car.",
+        "label": "national identification number",
+        "definition": "number or text which appears on an identity document issued by a country or jurisdiction"
+    },
+    {
+        "id": "BirthCertificateIdentificationScheme",
+        "type": "Class",
+        "name": "BirthCertificateIdentificationScheme",
+        "label": "birth certificate identification scheme",
+        "definition": "system for allocating identifiers to birth certificates",
+        "explanatoryNote": "Schemes for birth certificate identification are typically regionally defined, and there may be jurisdiction-specific scope required as an additional restriction on a specific scheme."
+    },
+    {
+        "id": "Person",
+        "type": "Class",
+        "name": "Person",
+        "label": "person",
+        "definition": "individual human being, with consciousness of self"
+    },
+    {
+        "id": "Party",
+        "type": "Entity",
+        "name": "Party"
+    },
+    {
+        "id": "Adult",
+        "type": "Class",
+        "name": "Adult",
+        "label": "adult",
+        "definition": "person who has attained the age of majority as defined in some jurisdiction"
+    },
+    {
+        "id": "Minor",
+        "type": "Class",
+        "name": "Minor",
+        "explanatoryNote": "The age depends upon jurisdiction and application, but is generally 18.",
+        "definition": "a person under a certain age, usually the age of majority in a given jurisdiction, which legally demarcates childhood from adulthood",
+        "label": "minor"
+    },
+    {
+        "id": "BirthCertificateIdentifier",
+        "type": "Class",
+        "name": "BirthCertificateIdentifier",
+        "definition": "identifier associated with a vital record documenting the birth of a child",
+        "label": "birth certificate identifier"
+    },
+    {
+        "id": "LegalWorkingAge",
+        "type": "Class",
+        "name": "LegalWorkingAge",
+        "label": "legal working age",
+        "definition": "age at which someone acquires the capacity to work legally in some jurisdiction"
+    },
+    {
+        "id": "LegalAge",
+        "type": "Class",
+        "name": "LegalAge",
+        "label": "legal age",
+        "definition": "age at which someone acquires the capacity to do something that they were prohibited from doing before under the law in some jurisdiction"
+    },
+    {
+        "id": "BirthCertificate",
+        "type": "Class",
+        "name": "BirthCertificate",
+        "label": "birth certificate",
+        "definition": "an original document certifying the circumstances of the birth, or a certified copy of or representation of the ensuing registration of that birth",
+        "explanatoryNote": "A birth certificate is a vital record that documents the birth of a child. Depending on the jurisdiction, a record of birth might or might not contain verification of the event by such as a midwife or doctor."
+    },
+    {
+        "id": "Certificate",
+        "type": "Entity",
+        "name": "Certificate"
+    },
+    {
+        "id": "IdentityDocument",
+        "type": "Class",
+        "name": "IdentityDocument",
+        "label": "identity document",
+        "definition": "any legal document which may be used to verify aspects of a person's identity",
+        "explanatoryNote": "If issued in the form of a small, mostly standard-sized card, it is usually called an identity card (IC). Countries which do not have formal identity documents may require informal documents. In the absence of a formal identity document, driving licenses can be used in many countries as a method of proof of identity, although some countries do not accept driving licenses for identification, often because in those countries they don't expire as documents and can be old and easily forged. Most countries accept passports as a form of identification. Most countries have the rule that foreign citizens need to have their passport or occasionally a national identity card from their country available at any time if they do not have residence permit in the country."
+    },
+    {
+        "id": "DriversLicenseIdentificationScheme",
+        "type": "Class",
+        "name": "DriversLicenseIdentificationScheme",
+        "definition": "system for allocating identifiers to driver's, operating, or non-driver identification documents",
+        "explanatoryNote": "Schemes for driver's license identification are typically regionally defined, and there may be jurisdiction-specific scope required as an additional restriction on a specific scheme.",
+        "label": "driver's license identification scheme"
+    },
+    {
+        "id": "LegalDocument",
+        "type": "Entity",
+        "name": "LegalDocument"
+    },
+    {
+        "id": "LegalWorkingAgePerson",
+        "type": "Class",
+        "name": "LegalWorkingAgePerson",
+        "label": "legal working age person",
+        "definition": "person whose age is greater than the minimum legal working age specified in a jurisdiction in which they work"
+    },
+    {
+        "id": "PlaceOfBirth",
+        "type": "Class",
+        "name": "PlaceOfBirth",
+        "definition": "physical location, including country, region, and municipality where an individual was born",
+        "label": "place of birth"
+    },
+    {
+        "id": "PhysicalLocation",
+        "type": "Entity",
+        "name": "PhysicalLocation"
+    },
+    {
+        "id": "LegallyCapableAdult",
+        "type": "Class",
+        "name": "LegallyCapableAdult",
+        "definition": "person who has attained the age of majority as defined in some jurisdiction and who is allowed to conduct a business or any other occupation on his or her own behalf or for their own account",
+        "label": "legally capable adult"
+    },
+    {
+        "id": "EmancipatedMinor",
+        "type": "Class",
+        "name": "EmancipatedMinor",
+        "explanatoryNote": "The minor will then have full contractual capacity to conclude contracts with regard to the business. Whether parental consent is needed to achieve emancipated status varies from case to case. In some cases, court permission is necessary. Protocols vary by jurisdiction.",
+        "label": "emancipated minor",
+        "definition": "a minor who is allowed to conduct a business or any other occupation on his or her own behalf or for their own account outside the control of a parent or guardian"
+    },
+    {
+        "id": "DeathCertificate",
+        "type": "Class",
+        "name": "DeathCertificate",
+        "definition": "original document certifying the circumstances of the death (such as how and when it occurred), or a certified copy of or representation of the ensuing registration of that death",
+        "explanatoryNote": "A death certificate is a vital record documenting information (including age, occupation, place of birth, place of residence, and often identifying the parents and possibly spouse of the deceased) relating to a dead person and including a doctor's certification of the cause of death.",
+        "label": "death certificate"
+    },
+    {
+        "id": "Age",
+        "type": "Entity",
+        "name": "Age"
+    },
+    {
+        "id": "DeathCertificateIdentifier",
+        "type": "Class",
+        "name": "DeathCertificateIdentifier",
+        "definition": "identifier associated with a vital record documenting the death of an individual",
+        "label": "death certificate identifier"
+    },
+    {
+        "id": "Passport",
+        "type": "Class",
+        "name": "Passport",
+        "explanatoryNote": "The elements of identity contained in all standardized passports include information about the holder, including name, date of birth, gender and place of birth.",
+        "definition": "formal identity document, issued by a national government, which certifies the identity and nationality of its holder for the purpose of international travel",
+        "label": "passport"
+    },
+    {
+        "id": "DriversLicense",
+        "type": "Class",
+        "name": "DriversLicense",
+        "label": "driver's license",
+        "definition": "an official document which states that a person may operate a motorized vehicle, such as a motorcycle, car, truck or a bus, on a public roadway or provides official identifying information for a non-driver"
+    },
+    {
+        "id": "AgeOfMajority",
+        "type": "Class",
+        "name": "AgeOfMajority",
+        "label": "age of majority",
+        "definition": "age at which someone acquires the rights and responsibilities of an adult in some jurisdiction"
+    },
+    {
+        "id": "DeathCertificateIdentificationScheme",
+        "type": "Class",
+        "name": "DeathCertificateIdentificationScheme",
+        "explanatoryNote": "Schemes for death certificate identification are typically regionally defined, and there may be jurisdiction-specific scope required as an additional restriction on a specific scheme.",
+        "definition": "system for allocating identifiers to death certificates",
+        "label": "death certificate identification scheme"
+    },
+    {
+        "id": "IncapacitatedAdult",
+        "type": "Class",
+        "name": "IncapacitatedAdult",
+        "definition": "an adult who is legally identified as not having legal capacity, typically as a result of some inherent physical or mental incapacity or as a result of having contracted some illness which temporarily deprives them of such capacity",
+        "explanatoryNote": "Individuals may have an inherent physical condition which prevents them from achieving the normal levels of performance expected from persons of comparable age, or their inability to match current levels of performance may be caused by contracting an illness. Whatever the cause, if the resulting condition is such that individuals cannot care for themselves, or may act in ways that are against their interests, those persons are vulnerable through dependency and require the protection of the state against the risks of abuse or exploitation. Hence, any agreements that were made are voidable, and a court may declare that person a ward of the state and grant power of attorney to an appointed legal guardian.",
+        "label": "incapacitated adult"
+    },
+    {
+        "id": "PassportNumber",
+        "type": "Class",
+        "name": "PassportNumber",
+        "label": "passport number",
+        "definition": "national identification number associated with a passport"
+    },
+    {
+        "id": "NationalIdentificationNumberScheme",
+        "type": "Class",
+        "name": "NationalIdentificationNumberScheme",
+        "explanatoryNote": "Schemes for national identification numbers are jurisdiction-specific by country.",
+        "label": "national identification number scheme",
+        "definition": "system for allocating identifiers to national identification numbers"
+    },
+    {
+        "id": "DateOfBirth",
+        "type": "Class",
+        "name": "DateOfBirth",
+        "label": "date of birth",
+        "definition": "explicit date, i.e., the day, month and year, on which an individual was born"
+    },
+    {
+        "id": "ExplicitDate",
+        "type": "Entity",
+        "name": "ExplicitDate"
+    },
+    {
+        "id": "DateOfDeath",
+        "type": "Class",
+        "name": "DateOfDeath",
+        "definition": "explicit date, i.e., the day, month and year, on which an individual died",
+        "label": "date of death"
+    },
+    {
+        "id": "hasDateOfDeath",
+        "type": "FunctionalProperty",
+        "name": "hasDateOfDeath",
+        "label": "has date of death",
+        "definition": "identifies the date on which an individual died"
+    },
+    {
+        "id": "hasMinimumLegalWorkingAge",
+        "type": "ObjectProperty",
+        "name": "hasMinimumLegalWorkingAge",
+        "definition": "relates someone to the minimum legal working age for the jurisdiction in which they reside",
+        "label": "has minimum legal working age"
+    },
+    {
+        "id": "hasAgeOfMajority",
+        "type": "ObjectProperty",
+        "name": "hasAgeOfMajority",
+        "definition": "relates someone to the age required to attain the capacity to engage in certain transactions or be treated legally as an adult in some jurisdiction",
+        "label": "has age of majority"
+    },
+    {
+        "id": "hasGivenName",
+        "type": "DatatypeProperty",
+        "name": "hasGivenName",
+        "label": "has given name",
+        "definition": "indicates the given name or first name of a person, that is, the name chosen for them at birth or changed by them subsequently from the name given at birth"
+    },
+    {
+        "id": "hasSurname",
+        "type": "DatatypeProperty",
+        "name": "hasSurname",
+        "definition": "indicates the name shared in common to identify the members of a family, as distinguished from each member's given name",
+        "label": "has surname"
+    },
+    {
+        "id": "hasNameSuffix",
+        "type": "DatatypeProperty",
+        "name": "hasNameSuffix",
+        "label": "has name suffix",
+        "definition": "indicates a character or sequence of characters, following a person's name, that provides additional information about the person, such as their position, educational degree, accreditation, office, or honor"
+    },
+    {
+        "id": "hasPlaceOfBirth",
+        "type": "ObjectProperty",
+        "name": "hasPlaceOfBirth",
+        "label": "has place of birth",
+        "definition": "identifies the location where an individual was born"
+    },
+    {
+        "id": "hasFamilyName",
+        "type": "DatatypeProperty",
+        "name": "hasFamilyName",
+        "explanatoryNote": "'Family name' is more commonly used in the United Kingdom than in the United States to refer to someone's surname.",
+        "label": "has family name",
+        "definition": "indicates the name shared in common to identify the members of a family, as distinguished from each member's given name"
+    },
+    {
+        "id": "hasDateOfBirth",
+        "type": "FunctionalProperty",
+        "name": "hasDateOfBirth",
+        "label": "has date of birth",
+        "definition": "identifies the date on which an individual was born"
+    },
+    {
+        "id": "hasPersonName",
+        "type": "DatatypeProperty",
+        "name": "hasPersonName",
+        "explanatoryNote": "Note that the concept of a person name may include symbology as long as the symbols are properly encoded. Because person name is a class, other iconography or symbology that cannot be encoded in UTF-8 can, alternatively, be linked or attached as a separate image or in another form.",
+        "label": "has person name",
+        "definition": "links a name to an individual"
+    },
+    {
+        "id": "hasGender",
+        "type": "FunctionalProperty",
+        "name": "hasGender",
+        "definition": "links a particular gender value with a person",
+        "label": "has gender"
+    },
+    {
+        "id": "hasPrimaryResidence",
+        "type": "ObjectProperty",
+        "name": "hasPrimaryResidence",
+        "label": "has primary residence",
+        "definition": "identifies a dwelling where an individual resides the majority of the year",
+        "explanatoryNote": "For tax purposes, in cases when an individual owns more than one home, their primary residence is the home in which they reside most of the time, and for which they can provide evidence to that effect. Having said this, there are cases, such as for individuals that have dual citizenship, where they may have multiple primary residences, one in each country in which they maintain a home. There may also be subtle issues related to 'rent control' that may impact the statements an individual makes about their primary residence. In other words, one cannot necessarily infer a person's identity from their primary place of residence."
+    },
+    {
+        "id": "hasFullLegalName",
+        "type": "DatatypeProperty",
+        "name": "hasFullLegalName",
+        "definition": "indicates the complete name of a person, typically used in formal situations including those of a legal or contractual nature",
+        "label": "has full legal name"
+    },
+    {
+        "id": "hasMiddleNameOrInitial",
+        "type": "DatatypeProperty",
+        "name": "hasMiddleNameOrInitial",
+        "definition": "one or more additional names or initial letters for names that occur between a person's first and last name",
+        "label": "has middle name or initial"
+    },
+    {
+        "id": "hasLastName",
+        "type": "DatatypeProperty",
+        "name": "hasLastName",
+        "label": "has last name",
+        "definition": "indicates the name shared in common to identify the members of a family, as distinguished from each member's given name"
+    },
+    {
+        "id": "hasNamePrefix",
+        "type": "DatatypeProperty",
+        "name": "hasNamePrefix",
+        "label": "has name prefix",
+        "definition": "indicates a character or sequence of characters, preceding a person's name, that provides additional information about the person, such as a form of address representing a title, honorific, or military rank"
+    },
+    {
+        "id": "hasResidence",
+        "type": "ObjectProperty",
+        "name": "hasResidence",
+        "definition": "identifies a dwelling where an individual lives",
+        "label": "has residence"
+    },
+    {
+        "id": "hasFirstName",
+        "type": "DatatypeProperty",
+        "name": "hasFirstName",
+        "label": "has first name",
+        "definition": "indicates the given name or first name of a person, that is, the name chosen for them at birth or changed by them subsequently from the name given at birth"
+    },
+    {
+        "id": "hasMaidenName",
+        "type": "DatatypeProperty",
+        "name": "hasMaidenName",
+        "definition": "indicates the name shared in common to identify the members of a family, that predates any changes of name due to marriage",
+        "label": "has maiden name"
+    },
+    {
+        "id": "hasCitizenship",
+        "type": "ObjectProperty",
+        "name": "hasCitizenship",
+        "definition": "links a person to their country of citizenship",
+        "label": "has citizenship"
+    }
+]

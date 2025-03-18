@@ -1,0 +1,1273 @@
+[
+    {
+        "source_id": "TimeDepositOpenAccount",
+        "target_id": "TimeDepositAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountAsAnAsset",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "Account"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountAsAnAsset",
+        "target_id": "AccountHolder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAssetOf",
+                "AccountHolder"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountAsAnAsset",
+        "target_id": "FinancialAsset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountIdentifier",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "Account"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountIdentifier",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CertificateOfDeposit",
+        "target_id": "CashInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CertificateOfDeposit",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasNominalValue",
+                "MonetaryAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionRecord",
+        "target_id": "TransactionRecordIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "TransactionRecordIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionRecord",
+        "target_id": "CloseDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCloseDate",
+                "CloseDate"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionRecord",
+        "target_id": "hasTransactionRecordStatus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasTransactionRecordStatus"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionRecord",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionRecord",
+        "target_id": "IndividualTransaction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasRegistryEntry",
+                "IndividualTransaction"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionRecord",
+        "target_id": "AccountProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isManagedBy",
+                "AccountProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionRecord",
+        "target_id": "Record",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionRecord",
+        "target_id": "Registry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionRecord",
+        "target_id": "OpenDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOpenDate",
+                "OpenDate"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionRecord",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "appliesToAccount",
+                "Account"
+            ]
+        }
+    },
+    {
+        "source_id": "Account",
+        "target_id": "CloseDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCloseDate",
+                "CloseDate"
+            ]
+        }
+    },
+    {
+        "source_id": "Account",
+        "target_id": "AccountIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "AccountIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "Account",
+        "target_id": "AccountProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "AccountProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "Account",
+        "target_id": "TransactionRecord",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasRecord",
+                "TransactionRecord"
+            ]
+        }
+    },
+    {
+        "source_id": "Account",
+        "target_id": "OpenDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOpenDate",
+                "OpenDate"
+            ]
+        }
+    },
+    {
+        "source_id": "Account",
+        "target_id": "AccountHolder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isHeldBy",
+                "AccountHolder"
+            ]
+        }
+    },
+    {
+        "source_id": "Account",
+        "target_id": "Balance",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasBalance",
+                "Balance"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "TransactionDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasTransactionDate",
+                "TransactionDate"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "TransactionIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "TransactionIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "appliesToAccount",
+                "Account"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "PostingDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPostingDate",
+                "PostingDate"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "TransactionEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "TransactionEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "TransactionCategory",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "TransactionCategory"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "TransactionSubcategory",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "TransactionSubcategory"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasMonetaryAmount",
+                "MonetaryAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "hasTransactionDescription",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasTransactionDescription"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualTransaction",
+        "target_id": "TransactionRecord",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isRegisteredIn",
+                "TransactionRecord"
+            ]
+        }
+    },
+    {
+        "source_id": "DemandDepositAccount",
+        "target_id": "TransactionDepositAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountOwnership",
+        "target_id": "AccountAsAnAsset",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOwnedAsset",
+                "AccountAsAnAsset"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountOwnership",
+        "target_id": "AccountHolder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOwningParty",
+                "AccountHolder"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountOwnership",
+        "target_id": "Holding",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TimeCertificateOfDepositAccount",
+        "target_id": "TimeDepositAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TimeCertificateOfDepositAccount",
+        "target_id": "CertificateOfDeposit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isExemplifiedBy",
+                "CertificateOfDeposit"
+            ]
+        }
+    },
+    {
+        "source_id": "CloseDate",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountSpecificServiceAgreement",
+        "target_id": "AccountHolder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractParty",
+                "AccountHolder"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountSpecificServiceAgreement",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Account"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountSpecificServiceAgreement",
+        "target_id": "AccountProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractParty",
+                "AccountProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountSpecificServiceAgreement",
+        "target_id": "ServiceAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentAccount",
+        "target_id": "InvestmentOrDepositAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountStatement",
+        "target_id": "Balance",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasStartingBalance",
+                "Balance"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountStatement",
+        "target_id": "Balance",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasEndingBalance",
+                "Balance"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountStatement",
+        "target_id": "LegalDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountStatement",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "appliesToAccount",
+                "Account"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountStatement",
+        "target_id": "Record",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountStatement",
+        "target_id": "IndividualTransaction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "recordsTransaction",
+                "IndividualTransaction"
+            ]
+        }
+    },
+    {
+        "source_id": "CustomerAccount",
+        "target_id": "ServiceAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "ServiceAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "CustomerAccount",
+        "target_id": "CustomerAccountHolder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isHeldBy",
+                "CustomerAccountHolder"
+            ]
+        }
+    },
+    {
+        "source_id": "CustomerAccount",
+        "target_id": "AccountIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "AccountIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "CustomerAccount",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CustomerAccount",
+        "target_id": "CustomerAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "N8c4159d71e65424e8bb73a67f66d1d99"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionDate",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DepositAccount",
+        "target_id": "InvestmentOrDepositAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DepositAccount",
+        "target_id": "DepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "DepositoryInstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "DepositAccount",
+        "target_id": "BankingProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionSubcategory",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionSubcategory",
+        "target_id": "IndividualTransaction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "IndividualTransaction"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionSubcategory",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Balance",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountHolder",
+        "target_id": "Owner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountHolder",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "Account"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountHolder",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "owns",
+                "Account"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountHolder",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "holds",
+                "Account"
+            ]
+        }
+    },
+    {
+        "source_id": "CustomerAccountHolder",
+        "target_id": "CustomerAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "holds",
+                "CustomerAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "CustomerAccountHolder",
+        "target_id": "AccountHolder",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InternationalBankAccountIdentifier",
+        "target_id": "BasicBankAccountIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "BasicBankAccountIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "InternationalBankAccountIdentifier",
+        "target_id": "StructuredIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InternationalBankAccountIdentifier",
+        "target_id": "BankAccountIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BrokerageAccount",
+        "target_id": "InvestmentAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GeneralLedger",
+        "target_id": "Record",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GeneralLedger",
+        "target_id": "LedgerAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "LedgerAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionCategory",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionCategory",
+        "target_id": "IndividualTransaction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "IndividualTransaction"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionCategory",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LendingOfficer",
+        "target_id": "RelationshipManager",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LendingOfficer",
+        "target_id": "CorporateOfficer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionIdentifier",
+        "target_id": "IndividualTransaction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "IndividualTransaction"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionDepositAccount",
+        "target_id": "DepositAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditAgreement",
+        "target_id": "LoanOrCreditAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCorrespondingAccount",
+                "LoanOrCreditAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "TimeDepositAccount",
+        "target_id": "ContractualProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TimeDepositAccount",
+        "target_id": "NonTransactionDepositAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountProvider",
+        "target_id": "ServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountProvider",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "Account"
+            ]
+        }
+    },
+    {
+        "source_id": "BankIdentifier",
+        "target_id": "FinancialServiceProviderIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankAccountIdentifier",
+        "target_id": "DemandDepositAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "DemandDepositAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "BankAccountIdentifier",
+        "target_id": "AccountIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionRecordIdentifier",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionRecordIdentifier",
+        "target_id": "TransactionRecord",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "TransactionRecord"
+            ]
+        }
+    },
+    {
+        "source_id": "CommercialLendingService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasicBankAccountIdentifier",
+        "target_id": "BankIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "BankIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "BasicBankAccountIdentifier",
+        "target_id": "StructuredIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasicBankAccountIdentifier",
+        "target_id": "BankAccountIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasicBankAccountIdentifier",
+        "target_id": "BankAccountIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "BankAccountIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "RelationshipManager",
+        "target_id": "ResponsibleParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RelationshipManager",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "manages",
+                "Account"
+            ]
+        }
+    },
+    {
+        "source_id": "Fee",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccountingTransaction",
+        "target_id": "TransactionEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanOrCreditAccount",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentOrDepositAccount",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentDueDate",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonTransactionDepositAccount",
+        "target_id": "DepositAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Bank",
+        "target_id": "DemandDepositAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "DemandDepositAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "Bank",
+        "target_id": "CommercialLendingService",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "CommercialLendingService"
+            ]
+        }
+    },
+    {
+        "source_id": "LedgerAccount",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PostingDate",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DepositoryInstitution",
+        "target_id": "DepositAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "DepositAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "OpenDate",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

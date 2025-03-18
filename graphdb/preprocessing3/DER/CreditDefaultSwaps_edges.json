@@ -1,0 +1,387 @@
+[
+    {
+        "source_id": "IndexCreditDefaultSwap",
+        "target_id": "MultiNameCreditDefaultSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditDefaultSwap",
+        "target_id": "CreditProtectionTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "CreditProtectionTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditDefaultSwap",
+        "target_id": "TriggeringEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifies",
+                "TriggeringEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditDefaultSwap",
+        "target_id": "CreditDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditDefaultSwap",
+        "target_id": "Swap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditDefaultSwap",
+        "target_id": "SettlementAuction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOccurrence",
+                "SettlementAuction"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditProtectionTerms",
+        "target_id": "DeliverableObligationBuyer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasBuyer",
+                "DeliverableObligationBuyer"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditProtectionTerms",
+        "target_id": "DeliverableObligationSeller",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSeller",
+                "DeliverableObligationSeller"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditProtectionTerms",
+        "target_id": "allowsSubstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "allowsSubstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditProtectionTerms",
+        "target_id": "TriggeringEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifies",
+                "TriggeringEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditProtectionTerms",
+        "target_id": "DeliverableObligation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifies",
+                "DeliverableObligation"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditProtectionTerms",
+        "target_id": "DerivativeTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeliverableObligationSeller",
+        "target_id": "Seller",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeliverableObligationSeller",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EscrowAgent",
+        "target_id": "DeliverableObligation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "holds",
+                "DeliverableObligation"
+            ]
+        }
+    },
+    {
+        "source_id": "EscrowAgent",
+        "target_id": "ContractThirdParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EscrowAgent",
+        "target_id": "RegisteredAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanCreditDefaultSwap",
+        "target_id": "CreditDefaultSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditEventNotice",
+        "target_id": "NotifyingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "NotifyingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditEventNotice",
+        "target_id": "Notice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditEventNotice",
+        "target_id": "TriggeringEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAbout",
+                "TriggeringEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "CashSettlementTerms",
+        "target_id": "CashSettlementMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasQuotationMethod",
+                "CashSettlementMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "BasketOfCreditDefaultSwaps",
+        "target_id": "CreditDefaultSwap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "CreditDefaultSwap"
+            ]
+        }
+    },
+    {
+        "source_id": "BasketOfCreditDefaultSwaps",
+        "target_id": "WeightedBasket",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfCreditDefaultSwaps",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotifyingParty",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SingleNameCreditDefaultSwap",
+        "target_id": "CreditDefaultSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeliverableObligationBuyer",
+        "target_id": "Buyer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeliverableObligationBuyer",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditDefaultSwapIndex",
+        "target_id": "ReferenceIndex",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditDefaultSwapIndex",
+        "target_id": "BasketOfCreditDefaultSwaps",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "BasketOfCreditDefaultSwaps"
+            ]
+        }
+    },
+    {
+        "source_id": "AssetBackedCreditDefaultSwap",
+        "target_id": "CreditDefaultSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContingentCreditDefaultSwap",
+        "target_id": "CreditDefaultSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ObligationSpecificCreditEvent",
+        "target_id": "TriggeringEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndexTrancheCreditDefaultSwap",
+        "target_id": "MultiNameCreditDefaultSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SettlementAuction",
+        "target_id": "SettlementEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketCreditDefaultSwap",
+        "target_id": "MultiNameCreditDefaultSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashSettlementMethod",
+        "target_id": "PriceDeterminationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeliverableObligation",
+        "target_id": "Asset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PhysicalSettlementTerms",
+        "target_id": "EscrowAgent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "specifies",
+                "EscrowAgent"
+            ]
+        }
+    },
+    {
+        "source_id": "TriggeringEvent",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MultiNameCreditDefaultSwap",
+        "target_id": "CreditDefaultSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

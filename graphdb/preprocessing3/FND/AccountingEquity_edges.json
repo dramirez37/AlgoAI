@@ -1,0 +1,86 @@
+[
+    {
+        "source_id": "OwnersEquity",
+        "target_id": "PaidInCapital",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "PaidInCapital"
+            ]
+        }
+    },
+    {
+        "source_id": "OwnersEquity",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OwnersEquity",
+        "target_id": "RetainedEarnings",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "RetainedEarnings"
+            ]
+        }
+    },
+    {
+        "source_id": "CapitalSurplus",
+        "target_id": "PaidInCapital",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Income",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialAsset",
+        "target_id": "TangibleAsset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EarningsBeforeInterestTaxesDepreciationAmortization",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaidInCapital",
+        "target_id": "OwnersEquity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ShareholdersEquity",
+        "target_id": "OwnersEquity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PhysicalAsset",
+        "target_id": "TangibleAsset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RetainedEarnings",
+        "target_id": "OwnersEquity",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

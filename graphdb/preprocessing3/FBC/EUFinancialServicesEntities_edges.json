@@ -1,0 +1,56 @@
+[
+    {
+        "source_id": "CRDCreditInstitution",
+        "target_id": "CreditInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentInstitution",
+        "target_id": "CreditInstitutionInvestmentFirm",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentFirm",
+        "target_id": "CreditInstitutionInvestmentFirm",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditInstitution",
+        "target_id": "CreditInstitutionInvestmentFirm",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditInstitutionInvestmentFirm",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LocalFirm",
+        "target_id": "BrokerageFirm",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LocalFirm",
+        "target_id": "CreditInstitutionInvestmentFirm",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonEuropeanEconomicAreaBranch",
+        "target_id": "CreditInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EuropeanEconomicAreaBranch",
+        "target_id": "CreditInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

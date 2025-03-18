@@ -1,0 +1,281 @@
+[
+    {
+        "source_id": "BorrowerDataProtectionRequirement",
+        "target_id": "DataProtectionRequirement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BorrowerDataProtectionRequirement",
+        "target_id": "ConsumerCreditReferenceAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "ConsumerCreditReferenceAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "DataProtectionRequirement",
+        "target_id": "LegalObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DisclosureRequirement",
+        "target_id": "ConsumerCreditRequirement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GoodFaithEstimate",
+        "target_id": "LoanProductRepresentations",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanRegulatoryRequirement",
+        "target_id": "ConsumerCreditProtectionLaw",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isMandatedBy",
+                "ConsumerCreditProtectionLaw"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanRegulatoryRequirement",
+        "target_id": "LegalObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanRegulatoryRequirement",
+        "target_id": "RegulatoryAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "administeredBy",
+                "RegulatoryAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "ConsumerCreditReferenceAgency",
+        "target_id": "FormalOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProductDisclosureRequirement",
+        "target_id": "GoodFaithEstimate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "GoodFaithEstimate"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductDisclosureRequirement",
+        "target_id": "LoanProductRepresentations",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "LoanProductRepresentations"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductDisclosureRequirement",
+        "target_id": "DisclosureRequirement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EqualTreatmentRight",
+        "target_id": "BorrowerRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerProtectionAgency",
+        "target_id": "RegulatoryAgency",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegB",
+        "target_id": "DisclosureRequirement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegB",
+        "target_id": "ConsumerCreditEqualTreatmentRequirement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerProtectionLaw",
+        "target_id": "StatuteLaw",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerCreditRequirement",
+        "target_id": "LegalObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerCreditRequirement",
+        "target_id": "ConsumerRight",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "confers",
+                "ConsumerRight"
+            ]
+        }
+    },
+    {
+        "source_id": "ConsumerCreditRequirement",
+        "target_id": "ConsumerProtectionAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "overseenBy",
+                "ConsumerProtectionAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "BorrowerDisclosureRequirement",
+        "target_id": "ProductDisclosureRight",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "confers",
+                "ProductDisclosureRight"
+            ]
+        }
+    },
+    {
+        "source_id": "BorrowerDisclosureRequirement",
+        "target_id": "DisclosureRequirement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerCreditEqualTreatmentRequirement",
+        "target_id": "ConsumerCreditRequirement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerCreditEqualTreatmentRequirement",
+        "target_id": "EqualTreatmentRight",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "confers",
+                "EqualTreatmentRight"
+            ]
+        }
+    },
+    {
+        "source_id": "RegZ",
+        "target_id": "ProductDisclosureRequirement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LenderRight",
+        "target_id": "LegalRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerRight",
+        "target_id": "LegalRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProductDisclosureRight",
+        "target_id": "InformationRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RightOfCreditRecordCorrection",
+        "target_id": "CreditReferenceAgencyRequirements",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BorrowerRight",
+        "target_id": "ConsumerRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanProductRepresentations",
+        "target_id": "Representation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerCreditProtectionLaw",
+        "target_id": "ConsumerProtectionLaw",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InformationRight",
+        "target_id": "BorrowerRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

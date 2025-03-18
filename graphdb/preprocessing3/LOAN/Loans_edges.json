@@ -1,0 +1,402 @@
+[
+    {
+        "source_id": "Loan",
+        "target_id": "Servicer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isServicedBy",
+                "Servicer"
+            ]
+        }
+    },
+    {
+        "source_id": "Loan",
+        "target_id": "ContractThirdParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasThirdParty",
+                "ContractThirdParty"
+            ]
+        }
+    },
+    {
+        "source_id": "Loan",
+        "target_id": "CreditAgreementRepaidPeriodically",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Loan",
+        "target_id": "isInterestOnly",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isInterestOnly"
+            ]
+        }
+    },
+    {
+        "source_id": "Loan",
+        "target_id": "hasNegativeAmortization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasNegativeAmortization"
+            ]
+        }
+    },
+    {
+        "source_id": "Loan",
+        "target_id": "LoanSpecificCustomerAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCorrespondingAccount",
+                "LoanSpecificCustomerAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "Loan",
+        "target_id": "DebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Loan",
+        "target_id": "LenderLienPosition",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "LenderLienPosition"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanSpecificCustomerAccount",
+        "target_id": "CustomerAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanSpecificCustomerAccount",
+        "target_id": "PaymentHistory",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPaymentHistory",
+                "PaymentHistory"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanSpecificCustomerAccount",
+        "target_id": "Loan",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "relatesTo",
+                "Loan"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanSpecificCustomerAccount",
+        "target_id": "LoanOrCreditAccount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanSpecificCustomerAccount",
+        "target_id": "LoanPaymentSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPaymentSchedule",
+                "LoanPaymentSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanPaymentSchedule",
+        "target_id": "PaymentSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanPaymentSchedule",
+        "target_id": "LoanSpecificCustomerAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "LoanSpecificCustomerAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "GuaranteedLoan",
+        "target_id": "SecuredLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanToValueRatio",
+        "target_id": "PercentageMonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanToValueRatio",
+        "target_id": "Principal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "Principal"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualPaymentTransaction",
+        "target_id": "Payment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndividualPaymentTransaction",
+        "target_id": "IndividualTransaction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuredLoan",
+        "target_id": "Loan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClosedEndCredit",
+        "target_id": "CreditAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityAgreement",
+        "target_id": "LenderLienPosition",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "LenderLienPosition"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityAgreement",
+        "target_id": "OwnershipInterest",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "OwnershipInterest"
+            ]
+        }
+    },
+    {
+        "source_id": "PrepaymentTerms",
+        "target_id": "PrincipalRepaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrincipalRepaymentTerms",
+        "target_id": "isInitiallyPayable",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isInitiallyPayable"
+            ]
+        }
+    },
+    {
+        "source_id": "PrincipalRepaymentTerms",
+        "target_id": "hasBalloonPayment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasBalloonPayment"
+            ]
+        }
+    },
+    {
+        "source_id": "CombinedLoanToValueRatio",
+        "target_id": "PercentageMonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CombinedLoanToValueRatio",
+        "target_id": "TotalOutstandingPrincipal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "TotalOutstandingPrincipal"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentHistory",
+        "target_id": "LoanSpecificCustomerAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesToAccount",
+                "LoanSpecificCustomerAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentHistory",
+        "target_id": "IndividualPaymentTransaction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasIndividualPayment",
+                "IndividualPaymentTransaction"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentHistory",
+        "target_id": "TransactionRecord",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LenderLienPosition",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OpenEndCredit",
+        "target_id": "CreditAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CollateralizedLoan",
+        "target_id": "SecuredLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OwnershipInterest",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Servicer",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Servicer",
+        "target_id": "ContractThirdParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TotalOutstandingPrincipal",
+        "target_id": "Principal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnsecuredLoan",
+        "target_id": "Loan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Comaker",
+        "target_id": "ContractThirdParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

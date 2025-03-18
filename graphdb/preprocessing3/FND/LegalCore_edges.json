@@ -1,0 +1,29 @@
+[
+    {
+        "source_id": "Constitution",
+        "target_id": "Law",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "Law"
+            ]
+        }
+    },
+    {
+        "source_id": "Constitution",
+        "target_id": "Collection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CourtOfLaw",
+        "target_id": "FormalOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

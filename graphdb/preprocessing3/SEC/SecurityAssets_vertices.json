@@ -1,0 +1,34 @@
+[
+    {
+        "id": "PortfolioHolding",
+        "type": "Class",
+        "name": "PortfolioHolding",
+        "definition": "the contents of holding of one or more portfolios of investments held by an individual investor or entity",
+        "explanatoryNote": "Portfolio holdings may cover a variety of investment products, including stocks, bonds and mutual funds to options, futures and exchange-traded funds, and relatively esoteric instruments such as private equity and hedge funds. \n\nThe number and nature of holdings contribute to the degree of diversification of a portfolio. A mix of stocks across different sectors, bonds of different maturities, and other investments would suggest a well-diversified portfolio, while concentrated holdings in a handful of stocks within a single sector indicates a portfolio with limited diversification.",
+        "label": "portfolio holding"
+    },
+    {
+        "id": "FinancialAsset",
+        "type": "Class",
+        "name": "FinancialAsset"
+    },
+    {
+        "id": "Portfolio",
+        "type": "Class",
+        "name": "Portfolio",
+        "label": "portfolio",
+        "definition": "a collection of investments (financial assets) such as stocks, bonds and cash equivalents, as well as mutual funds"
+    },
+    {
+        "id": "Collection",
+        "type": "Entity",
+        "name": "Collection"
+    },
+    {
+        "id": "hasAcquisitionPrice",
+        "type": "ObjectProperty",
+        "name": "hasAcquisitionPrice",
+        "label": "has acquisition price",
+        "definition": "has a value as of the date of acquisition, expressed as an amount of money or goods"
+    }
+]

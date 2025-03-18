@@ -1,0 +1,279 @@
+[
+    {
+        "id": "NotionalStepChangeEvent",
+        "type": "Class",
+        "name": "NotionalStepChangeEvent",
+        "explanatoryNote": "The frequency / period length of the steps in the step schedule is a multiple of the calculation period or frequency. For example, if the notional is recalculated on every calculation date, applying a new interest rate to the new notional amount, then the two frequencies are the same. If notional is updated every second calculation period, then the step schedule specifies periods that are twice as long, and so on.",
+        "definition": "event in which a step change in the notional amount for a given swap leg occurs",
+        "label": "notional step change event"
+    },
+    {
+        "id": "StepEvent",
+        "type": "Entity",
+        "name": "StepEvent"
+    },
+    {
+        "id": "ContractLifecycleEventOccurrence",
+        "type": "Entity",
+        "name": "ContractLifecycleEventOccurrence"
+    },
+    {
+        "id": "FloatFloatInterestRateSwap",
+        "type": "Class",
+        "name": "FloatFloatInterestRateSwap",
+        "explanatoryNote": "This is a swap in which two parties swap variable interest rates based on different money markets, and this is usually done to limit interest-rate risk that a company faces as a result of having differing lending and borrowing rates.",
+        "definition": "interest rate swap that exchanges cashflows based on two different floating interest rates",
+        "label": "float float interest rate swap"
+    },
+    {
+        "id": "InterestRateSwap",
+        "type": "Class",
+        "name": "InterestRateSwap",
+        "label": "interest rate swap",
+        "definition": "swap in which the reference (underlier) for at least one leg is an interest rate"
+    },
+    {
+        "id": "BasisSwap",
+        "type": "Entity",
+        "name": "BasisSwap"
+    },
+    {
+        "id": "InflationSwap",
+        "type": "Class",
+        "name": "InflationSwap",
+        "label": "inflation swap",
+        "definition": "rate swap in which one party pays an amount calculated using an inflation rate index, and the other party pays an amount calculated using another inflation rate index, or a fixed or floating interest rate"
+    },
+    {
+        "id": "RateBasedDerivativeInstrument",
+        "type": "Entity",
+        "name": "RateBasedDerivativeInstrument"
+    },
+    {
+        "id": "RatesSwap",
+        "type": "Entity",
+        "name": "RatesSwap"
+    },
+    {
+        "id": "NotionalStepSchedule",
+        "type": "Class",
+        "name": "NotionalStepSchedule",
+        "label": "notional step schedule",
+        "definition": "schedule of changes in the notional amount on which interest is paid, comprising the regular sequence of step events"
+    },
+    {
+        "id": "StepSchedule",
+        "type": "Entity",
+        "name": "StepSchedule"
+    },
+    {
+        "id": "ProjectedContractEventSchedule",
+        "type": "Entity",
+        "name": "ProjectedContractEventSchedule"
+    },
+    {
+        "id": "InterestRateSwapLeg",
+        "type": "Class",
+        "name": "InterestRateSwapLeg",
+        "label": "interest rate swap leg",
+        "definition": "swap leg that has an interest rate payment stream, including both a parametric and cashflow representation for the stream of payments"
+    },
+    {
+        "id": "RateBasedLeg",
+        "type": "Entity",
+        "name": "RateBasedLeg"
+    },
+    {
+        "id": "PlainVanillaInterestRateSwap",
+        "type": "Class",
+        "name": "PlainVanillaInterestRateSwap",
+        "label": "plain vanilla interest rate swap",
+        "definition": "fixed-float single currency interest rate swap in which interest payments are netted, the notional principal does not change, and there are no embedded options"
+    },
+    {
+        "id": "FixedFloatSingleCurrencyInterestRateSwap",
+        "type": "Class",
+        "name": "FixedFloatSingleCurrencyInterestRateSwap",
+        "label": "fixed float single currency interest rate swap",
+        "definition": "interest rate swap in which fixed interest payments on the notional are exchanged for floating interest payments and where both payment streams are expressed in terms of the same currency"
+    },
+    {
+        "id": "FloatFloatCrossCurrencyInterestRateSwap",
+        "type": "Class",
+        "name": "FloatFloatCrossCurrencyInterestRateSwap",
+        "definition": "interest rate swap that exchanges cashflows based on two different interest rates in different currencies",
+        "label": "float float cross-currency interest rate swap"
+    },
+    {
+        "id": "CrossCurrencyInterestRateSwap",
+        "type": "Class",
+        "name": "CrossCurrencyInterestRateSwap",
+        "definition": "interest rate swap in which the two streams of interest payments are in different currencies",
+        "label": "cross-currency interest rate swap"
+    },
+    {
+        "id": "FloatingInterestRateLeg",
+        "type": "Class",
+        "name": "FloatingInterestRateLeg",
+        "definition": "floating leg in which variable interest is paid on some notional amount, linked to some underlying interest reference rate",
+        "label": "floating interest rate leg",
+        "explanatoryNote": "Instead of an absolute rate you have either a variable reference rate or fixed reference rate and an offset that varies in some way, called a spread (same as margin in floating rate notes)."
+    },
+    {
+        "id": "FloatingLeg",
+        "type": "Entity",
+        "name": "FloatingLeg"
+    },
+    {
+        "id": "FixedFixedInterestRateSwap",
+        "type": "Class",
+        "name": "FixedFixedInterestRateSwap",
+        "label": "fixed fixed interest rate swap",
+        "definition": "interest rate swap in which both parties pay a fixed interest rate that they could not otherwise obtain outside of a swap arrangement"
+    },
+    {
+        "id": "FixedFloatInterestRateSwap",
+        "type": "Class",
+        "name": "FixedFloatInterestRateSwap",
+        "label": "fixed float interest rate swap",
+        "definition": "interest rate swap in which fixed interest payments on the notional are exchanged for floating interest payments"
+    },
+    {
+        "id": "FixedFloatCrossCurrencyInterestRateSwap",
+        "type": "Class",
+        "name": "FixedFloatCrossCurrencyInterestRateSwap",
+        "label": "fixed float cross-currency interest rate swap",
+        "definition": "interest rate swap in which fixed interest payments on the notional are exchanged for floating interest payments and the two streams of interest payments are in different currencies"
+    },
+    {
+        "id": "InterestRateDerivativeInstrument",
+        "type": "Entity",
+        "name": "InterestRateDerivativeInstrument"
+    },
+    {
+        "id": "FixedInterestRateLeg",
+        "type": "Class",
+        "name": "FixedInterestRateLeg",
+        "label": "fixed interest rate leg",
+        "explanatoryNote": "This may be the funding leg of some swaps (i.e. one party agrees to pay fixed interest amounts in exchange for whatever is the other leg) or it may be one or both sides of an interest rate swap, where the two parties exchange different interest payment streams.",
+        "definition": "fixed leg that specifies fixed interest amounts and terms for the payment of that interest"
+    },
+    {
+        "id": "FixedLeg",
+        "type": "Entity",
+        "name": "FixedLeg"
+    },
+    {
+        "id": "InflationLeg",
+        "type": "Class",
+        "name": "InflationLeg",
+        "definition": "floating rate leg of an inflation swap linked to an inflation index, such as the Consumer Price Index (CPI)",
+        "label": "inflation leg"
+    },
+    {
+        "id": "SingleCurrencyInterestRateSwap",
+        "type": "Class",
+        "name": "SingleCurrencyInterestRateSwap",
+        "label": "single currency interest rate swap",
+        "definition": "interest rate swap in which the two streams of interest payments are in the same currency"
+    },
+    {
+        "id": "ZeroCouponInterestRateSwap",
+        "type": "Class",
+        "name": "ZeroCouponInterestRateSwap",
+        "label": "zero coupon interest rate swap",
+        "definition": "interest rate swap in which the fixed rate cash flows are compounded and paid once on the expiration date, rather than periodically; the payments on the other side (which can be based on a floating interest rate or a fixed rate) follow typical swap payment schedules"
+    },
+    {
+        "id": "OvernightIndexSwap",
+        "type": "Class",
+        "name": "OvernightIndexSwap",
+        "label": "overnight index swap",
+        "explanatoryNote": "The interest of the overnight rate portion of the swap is compounded and paid at reset dates. The present value for the leg is determined by either compounding of the overnight rate or by taking the geometric average of the rate over a given period.",
+        "abbreviation": "OIS swap",
+        "definition": "swap in which the periodic payments for one leg are based on an overnight interest rate index multiplied by the same notional amount upon which payments for the other leg of the swap are based"
+    },
+    {
+        "id": "NotionalStepAmount",
+        "type": "Class",
+        "name": "NotionalStepAmount",
+        "explanatoryNote": "Note that this is an actual concrete sum of money, which may be specified either as a monetary amount (e.g. dollars and cents) or as a percentage of either the original notional amount or the previous notional amount.",
+        "definition": "the amount of money that is subtracted from the notional on each step date",
+        "label": "notional step amount"
+    },
+    {
+        "id": "ScalarQuantityValue",
+        "type": "Entity",
+        "name": "ScalarQuantityValue"
+    },
+    {
+        "id": "OvernightRateIndexLeg",
+        "type": "Class",
+        "name": "OvernightRateIndexLeg",
+        "label": "overnight rate index leg",
+        "definition": "floating leg in which periodic payments are based on an overnight interest rate index multiplied by the same notional amount on which the payments for the other leg of the swap are based"
+    },
+    {
+        "id": "NotionalStepPeriodLength",
+        "type": "Class",
+        "name": "NotionalStepPeriodLength",
+        "label": "notional step period length",
+        "definition": "recurrence interval indicating the frequency with which step changes occur, which is a multiple of the calculation period in the calculation schedule"
+    },
+    {
+        "id": "RecurrenceInterval",
+        "type": "Entity",
+        "name": "RecurrenceInterval"
+    },
+    {
+        "id": "FloatFloatSingleCurrencyInterestRateSwap",
+        "type": "Class",
+        "name": "FloatFloatSingleCurrencyInterestRateSwap",
+        "definition": "interest rate swap that exchanges cashflows based on two different floating interest rates in the same currency",
+        "label": "float float single currency interest rate swap"
+    },
+    {
+        "id": "hasFloatingRateSpread",
+        "type": "DatatypeProperty",
+        "name": "hasFloatingRateSpread",
+        "explanatoryNote": "Such adjustments may be added to or subtracted from the floating rate.",
+        "definition": "defines the spread rate that can optionally be used to adjust the floating rate",
+        "label": "has floating rate spread"
+    },
+    {
+        "id": "hasFloatingRateFloor",
+        "type": "ObjectProperty",
+        "name": "hasFloatingRateFloor",
+        "label": "has floating rate floor",
+        "definition": "indicates an optional lower bound on interest rates on floating rate debts"
+    },
+    {
+        "id": "hasLastNotionalStepDate",
+        "type": "ObjectProperty",
+        "name": "hasLastNotionalStepDate",
+        "label": "has last notional step date",
+        "definition": "indicates the final date in a notional step schedule"
+    },
+    {
+        "id": "hasRateMultiplier",
+        "type": "DatatypeProperty",
+        "name": "hasRateMultiplier",
+        "label": "has rate multiplier",
+        "definition": "indicates a multiplier applied to the coupon before adding the floating rate spread"
+    },
+    {
+        "id": "hasFirstNotionalStepDate",
+        "type": "ObjectProperty",
+        "name": "hasFirstNotionalStepDate",
+        "label": "has first notional step date",
+        "definition": "indicates the initial date in a notional step schedule"
+    },
+    {
+        "id": "hasFloatingRateCap",
+        "type": "ObjectProperty",
+        "name": "hasFloatingRateCap",
+        "label": "has floating rate cap",
+        "definition": "indicates an optional ceiling (cap) on interest rates on floating rate debts",
+        "explanatoryNote": "Rate caps can be viewed as insurance, ensuring that the maximum borrowing rate never exceeds the specified cap level."
+    }
+]

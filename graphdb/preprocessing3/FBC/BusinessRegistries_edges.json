@@ -1,0 +1,604 @@
+[
+    {
+        "source_id": "LegalEntity",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "precedes",
+                "LegalEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntity",
+        "target_id": "StandardIndustrialClassificationCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "StandardIndustrialClassificationCode"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntity",
+        "target_id": "EntityStatus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasEntityStatus",
+                "EntityStatus"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntity",
+        "target_id": "hasEntityExpirationDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasEntityExpirationDate"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntity",
+        "target_id": "EntityExpirationReason",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasEntityExpirationReason",
+                "EntityExpirationReason"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntity",
+        "target_id": "NorthAmericanIndustryClassificationSystemCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "NorthAmericanIndustryClassificationSystemCode"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessRegistryEntry",
+        "target_id": "RegistrationStatus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasRegistrationStatus",
+                "RegistrationStatus"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessRegistryEntry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessRegisterIdentifier",
+        "target_id": "BusinessRegistrationAuthority",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRegisteredBy",
+                "BusinessRegistrationAuthority"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessRegisterIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessRegisterIdentifier",
+        "target_id": "BusinessRegistry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "BusinessRegistry"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntityIdentifierRegistryEntry",
+        "target_id": "LegalEntityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "LegalEntityIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntityIdentifierRegistryEntry",
+        "target_id": "RegistrationStatus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRegistrationStatus",
+                "RegistrationStatus"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntityIdentifierRegistryEntry",
+        "target_id": "BusinessRegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalEntityIdentifierRegistryEntry",
+        "target_id": "EntityValidationLevel",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasValidationLevel",
+                "EntityValidationLevel"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntityIdentifierRegistryEntry",
+        "target_id": "BusinessRegistrationAuthority",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasValidationAuthority",
+                "BusinessRegistrationAuthority"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistrationAuthorityCode",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegistrationAuthorityCode",
+        "target_id": "BusinessRegistry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "BusinessRegistry"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistrationAuthorityCode",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EntityLegalFormRegistryEntry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StandardIndustrialClassificationCode",
+        "target_id": "IndustrySectorClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StandardIndustrialClassificationCode",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StandardIndustrialClassificationCode",
+        "target_id": "StandardIndustrialClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "StandardIndustrialClassificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "StandardIndustrialClassificationCode",
+        "target_id": "FormalOrganization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "FormalOrganization"
+            ]
+        }
+    },
+    {
+        "source_id": "StandardIndustrialClassificationScheme",
+        "target_id": "StandardIndustrialClassificationCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "StandardIndustrialClassificationCode"
+            ]
+        }
+    },
+    {
+        "source_id": "StandardIndustrialClassificationScheme",
+        "target_id": "CodeSet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StandardIndustrialClassificationScheme",
+        "target_id": "IndustrySectorClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LocalOperatingUnit",
+        "target_id": "LegalEntityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "registers",
+                "LegalEntityIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "LocalOperatingUnit",
+        "target_id": "Registrar",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LocalOperatingUnit",
+        "target_id": "LegalEntityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "LegalEntityIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessRegistry",
+        "target_id": "BusinessRegistrationAuthority",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isManagedBy",
+                "BusinessRegistrationAuthority"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessRegistry",
+        "target_id": "BusinessRegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRegistryEntry",
+                "BusinessRegistryEntry"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessRegistry",
+        "target_id": "Registry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessRegistry",
+        "target_id": "hasRegistryName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasRegistryName"
+            ]
+        }
+    },
+    {
+        "source_id": "NorthAmericanIndustryClassificationSystemScheme",
+        "target_id": "CodeSet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NorthAmericanIndustryClassificationSystemScheme",
+        "target_id": "IndustrySectorClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NorthAmericanIndustryClassificationSystemScheme",
+        "target_id": "NorthAmericanIndustryClassificationSystemCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "NorthAmericanIndustryClassificationSystemCode"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityExpirationReason",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessRegistrationAuthority",
+        "target_id": "RegistrationAuthority",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessRegistrationAuthority",
+        "target_id": "BusinessRegistry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "manages",
+                "BusinessRegistry"
+            ]
+        }
+    },
+    {
+        "source_id": "ValueAddedTaxIdentificationNumber",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EntityLegalFormRegistry",
+        "target_id": "EntityLegalFormRegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRegistryEntry",
+                "EntityLegalFormRegistryEntry"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityLegalFormRegistry",
+        "target_id": "Registry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EntityStatus",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NorthAmericanIndustryClassificationSystemCode",
+        "target_id": "NorthAmericanIndustryClassificationSystemScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "NorthAmericanIndustryClassificationSystemScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "NorthAmericanIndustryClassificationSystemCode",
+        "target_id": "IndustrySectorClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NorthAmericanIndustryClassificationSystemCode",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NorthAmericanIndustryClassificationSystemCode",
+        "target_id": "FormalOrganization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "FormalOrganization"
+            ]
+        }
+    },
+    {
+        "source_id": "FormalOrganization",
+        "target_id": "NorthAmericanIndustryClassificationSystemCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "NorthAmericanIndustryClassificationSystemCode"
+            ]
+        }
+    },
+    {
+        "source_id": "FormalOrganization",
+        "target_id": "StandardIndustrialClassificationCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "StandardIndustrialClassificationCode"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntityIdentifierRegistry",
+        "target_id": "LegalEntityIdentifierRegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRegistryEntry",
+                "LegalEntityIdentifierRegistryEntry"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntityIdentifierRegistry",
+        "target_id": "BusinessRegistry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegistrationStatus",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassportNumber",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalEntityIdentifier",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EntityValidationLevel",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

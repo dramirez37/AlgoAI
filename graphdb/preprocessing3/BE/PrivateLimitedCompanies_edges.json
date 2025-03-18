@@ -1,0 +1,164 @@
+[
+    {
+        "source_id": "ManagingMember",
+        "target_id": "LimitedLiabilityCompanyMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ManagingMember",
+        "target_id": "PrincipalParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ManagingMember",
+        "target_id": "LimitedLiabilityCompany",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isManagingMemberOf",
+                "isPlayedBy",
+                "LimitedLiabilityCompany"
+            ]
+        }
+    },
+    {
+        "source_id": "PrivateLimitedCompany",
+        "target_id": "PrivateCompanyWithLimitedLiability",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LimitedLiabilityCompanyMember",
+        "target_id": "DeJureControllingInterestParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LimitedLiabilityCompanyMember",
+        "target_id": "LimitedLiabilityCompany",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isControllingMemberOf",
+                "isPlayedBy",
+                "LimitedLiabilityCompany"
+            ]
+        }
+    },
+    {
+        "source_id": "LimitedLiabilityCompanyMember",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LimitedLiabilityCompanyMember",
+        "target_id": "LimitedLiabilityCompany",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isMemberOf",
+                "LimitedLiabilityCompany"
+            ]
+        }
+    },
+    {
+        "source_id": "LimitedLiabilityCompanyMember",
+        "target_id": "EntityOwner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LimitedLiabilityCompanyMember",
+        "target_id": "EntityControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivateCompanyWithLimitedLiability",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivateCompanyWithLimitedLiability",
+        "target_id": "BusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LimitedLiabilityCompanyTaxedAsACorporation",
+        "target_id": "LimitedLiabilityCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LimitedLiabilityCompany",
+        "target_id": "LimitedLiabilityCompanyMember",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "playsRole",
+                "hasControllingOrganizationMember",
+                "LimitedLiabilityCompanyMember"
+            ]
+        }
+    },
+    {
+        "source_id": "LimitedLiabilityCompany",
+        "target_id": "ManagingMember",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "playsRole",
+                "hasManagingMember",
+                "ManagingMember"
+            ]
+        }
+    },
+    {
+        "source_id": "LimitedLiabilityCompany",
+        "target_id": "PrivateCompanyWithLimitedLiability",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ManagerManagedLimitedLiabilityCompany",
+        "target_id": "LimitedLiabilityCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

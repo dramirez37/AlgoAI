@@ -1,0 +1,404 @@
+[
+    {
+        "source_id": "ObligationInRespectOfNetting",
+        "target_id": "ContractualObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementContractualCommitment",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementContractualCommitment",
+        "target_id": "MasterAgreementElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditSupportAgreement",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditSupportAgreement",
+        "target_id": "CreditSupportBeneficiary",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasBeneficiary",
+                "CreditSupportBeneficiary"
+            ]
+        }
+    },
+    {
+        "source_id": "TaxWithholdingGrossupObligation",
+        "target_id": "TaxWithholdingObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OtherAmountsObligation",
+        "target_id": "ContractualObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DerivativeTransactionMasterAgreement",
+        "target_id": "MasterAgreementElement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "MasterAgreementElement"
+            ]
+        }
+    },
+    {
+        "source_id": "DerivativeTransactionMasterAgreement",
+        "target_id": "MasterAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentObligation",
+        "target_id": "ContractualObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementChangeNotificationObligation",
+        "target_id": "ContractualObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementTerminationEvent",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementTerminationProvision",
+        "target_id": "TerminationProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementTerminationProvision",
+        "target_id": "MasterAgreementTerminationEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "describesTreatmentOf",
+                "MasterAgreementTerminationEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "MasterAgreementTerminationProvision",
+        "target_id": "MasterAgreementElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditSupportDefaultEvent",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditSupportDefaultEvent",
+        "target_id": "CreditSupportAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isFailureInForceOf",
+                "CreditSupportAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditSupportDefaultEvent",
+        "target_id": "CreditEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementRepresentation",
+        "target_id": "ContractualElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementRepresentation",
+        "target_id": "Representation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementRightToTerminationFollowingDefaultEvent",
+        "target_id": "CreditEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "invokedInEventOf.1",
+                "CreditEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "MasterAgreementRightToTerminationFollowingDefaultEvent",
+        "target_id": "MasterAgreementEarlyTerminationRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpecificationTerm",
+        "target_id": "ContractualDefinition",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpecificationTerm",
+        "target_id": "MasterAgreementElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementRightToTerminationFollowingTerminationEvent",
+        "target_id": "MasterAgreementEarlyTerminationRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementRightToTerminationFollowingTerminationEvent",
+        "target_id": "MasterAgreementTerminationEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "invokedInEventOf",
+                "MasterAgreementTerminationEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentPlaceSpecificationMethod",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementObligationTerms",
+        "target_id": "MasterAgreementContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementObligationTerms",
+        "target_id": "ContractualObligation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definesTermsFor",
+                "ContractualObligation"
+            ]
+        }
+    },
+    {
+        "source_id": "MasterAgreementConditionsPrecedent",
+        "target_id": "MasterAgreementElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementConditionsPrecedent",
+        "target_id": "ConditionPrecedent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditEventDefinition",
+        "target_id": "ContractualDefinition",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditEventDefinition",
+        "target_id": "CreditEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definesTermsFor",
+                "CreditEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditEventDefinition",
+        "target_id": "MasterAgreementElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EarlyTermination",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentPlaceSpecifiedInMasterAgreement",
+        "target_id": "PaymentPlaceSpecificationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementAccountChangeNotificationObligation",
+        "target_id": "MasterAgreementChangeNotificationObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementEarlyTerminationProvisions",
+        "target_id": "MasterAgreementEarlyTerminationRight",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definesTermsFor",
+                "MasterAgreementEarlyTerminationRight"
+            ]
+        }
+    },
+    {
+        "source_id": "MasterAgreementEarlyTerminationProvisions",
+        "target_id": "MasterAgreementTerminationProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementElement",
+        "target_id": "ContractualElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentPlaceSpecifiedInConfirmationMessage",
+        "target_id": "PaymentPlaceSpecificationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentPlaceSpecifiedEitherInMasterAgreementOrConfirmation",
+        "target_id": "PaymentPlaceSpecificationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NettingTerms",
+        "target_id": "MasterAgreementContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NettingTerms",
+        "target_id": "ObligationInRespectOfNetting",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definesTermsFor",
+                "ObligationInRespectOfNetting"
+            ]
+        }
+    },
+    {
+        "source_id": "TaxWithholdingObligation",
+        "target_id": "ContractualObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeliveryObligation",
+        "target_id": "ContractualObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CrossDefaultProvisions",
+        "target_id": "MasterAgreementContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreementEarlyTerminationRight",
+        "target_id": "ContractualRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DefaultInterestObligation",
+        "target_id": "ContractualObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TaxWithholdingLiability",
+        "target_id": "TaxWithholdingObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentObligationAsDelivery",
+        "target_id": "PaymentObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditSupportBeneficiary",
+        "target_id": "Counterparty",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

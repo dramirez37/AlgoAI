@@ -1,0 +1,74 @@
+[
+    {
+        "source_id": "Jurisdiction",
+        "target_id": "Context",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatuteLaw",
+        "target_id": "Jurisdiction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isInForceIn",
+                "Jurisdiction"
+            ]
+        }
+    },
+    {
+        "source_id": "StatuteLaw",
+        "target_id": "Law",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalAge",
+        "target_id": "Jurisdiction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isApplicableIn",
+                "Jurisdiction"
+            ]
+        }
+    },
+    {
+        "source_id": "TaxIdentificationScheme",
+        "target_id": "Jurisdiction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isApplicableIn",
+                "Jurisdiction"
+            ]
+        }
+    },
+    {
+        "source_id": "TaxIdentifier",
+        "target_id": "Jurisdiction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isApplicableIn",
+                "Jurisdiction"
+            ]
+        }
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "id": "IncorporationGuarantee",
+        "type": "Class",
+        "name": "IncorporationGuarantee",
+        "label": "incorporation guarantee",
+        "definition": "guarantee that is part of the financial basis by which some legal entity is incorporated"
+    },
+    {
+        "id": "Constitution",
+        "type": "Entity",
+        "name": "Constitution"
+    },
+    {
+        "id": "ForProfitCorporation",
+        "type": "Class",
+        "name": "ForProfitCorporation",
+        "label": "for profit corporation",
+        "definition": "corporation whose objective is to make money, i.e., to ensure realization of a financial benefit such that the amount of revenue gained from a business activity exceeds the expenses, costs and taxes needed to sustain that activity"
+    },
+    {
+        "id": "Corporation",
+        "type": "Class",
+        "name": "Corporation",
+        "label": "corporation",
+        "definition": "formal organization that is a legal entity (artificial person) distinct from its owners, created under the jurisdiction of the laws of a state or nation",
+        "explanatoryNote": "A corporation has three distinguishing characteristics: (1) separation of ownership from management and general liability, i.e., its liability to creditors is limited to its resources, unlike some partnerships and sole proprietorships, (2) the ability to negotiate contracts and own property, and (3) transferable ownership, irrespective of changes in membership or the lifetimes of its stockholders."
+    },
+    {
+        "id": "CommonInterestDevelopmentCorporation",
+        "type": "Class",
+        "name": "CommonInterestDevelopmentCorporation",
+        "explanatoryNote": "A common interest development is typically a type of housing, composed of individually owned units, such as condominiums, townhouses, or single-family homes, that share ownership of common areas, such as swimming pools, landscaping, and parking. Common interest developments (also known as community interest developments or CIDs) are managed by homeowners' associations.",
+        "label": "common interest development corporation",
+        "definition": "not-for-profit corporation set up under specific state legislation as a business entity for homeowners' associations"
+    },
+    {
+        "id": "NotForProfitCorporation",
+        "type": "Class",
+        "name": "NotForProfitCorporation",
+        "definition": "corporation approved by its jurisdictional oversight and tax authorities as operating for educational, charitable, social, religious, civic or humanitarian purposes",
+        "label": "not-for-profit corporation",
+        "explanatoryNote": "A not-for-profit corporation is formed by incorporators, and has a board of directors and officers, but no shareholders. These incorporators, directors and officers may not receive a distribution of (any money from) profits, but officers and management may be paid reasonable salaries for services to the corporation."
+    },
+    {
+        "id": "NotForProfitOrganization",
+        "type": "Entity",
+        "name": "NotForProfitOrganization"
+    },
+    {
+        "id": "StockCorporation",
+        "type": "Class",
+        "name": "StockCorporation",
+        "explanatoryNote": "The shares in a stock corporation may receive a return on their investment in the form of dividends. Shares are used for voting on matters of corporate policy or to elect directors, at the corporation's annual meeting and at other meetings of the corporation.",
+        "label": "stock corporation",
+        "definition": "corporation that has shareholders, each of whom receives a portion of the ownership of the corporation through shares of stock"
+    },
+    {
+        "id": "LegalEntity",
+        "type": "Entity",
+        "name": "LegalEntity"
+    },
+    {
+        "id": "BenefitCorporation",
+        "type": "Class",
+        "name": "BenefitCorporation",
+        "label": "benefit corporation",
+        "explanatoryNote": "This is a US-specific type of non-profit corporation defined in recent legislation in a number of states. In California, for example, benefit corporations may be defined as public benefit or mutual benefit corporations, depending on their purpose.",
+        "definition": "not-for-profit corporation set up under specific state legislation, typically to provide some social benefit, without an obligation to maximize shareholder return"
+    },
+    {
+        "id": "InstrumentOfIncorporation",
+        "type": "Class",
+        "name": "InstrumentOfIncorporation",
+        "explanatoryNote": "This may be the issuance of shares, the existence of some agreement, guaranties and so on.",
+        "label": "instrument of incorporation",
+        "definition": "memorandum and articles of association by which some legal entity is established"
+    },
+    {
+        "id": "isIncorporatedIn",
+        "type": "ObjectProperty",
+        "name": "isIncorporatedIn",
+        "definition": "the legal jurisdiction under which the legal entity is incorporated",
+        "label": "is incorporated in",
+        "explanatoryNote": "It is the laws of this jurisdiction that cause and allow the legal entity to exist and to incur debt and be sued at law as a legal entity."
+    },
+    {
+        "id": "isConstitutedBy",
+        "type": "ObjectProperty",
+        "name": "isConstitutedBy",
+        "label": "is constituted by",
+        "definition": "the instrument by which an entity is incorporated"
+    }
+]

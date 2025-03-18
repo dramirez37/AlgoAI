@@ -1,0 +1,686 @@
+[
+    {
+        "source_id": "Swap",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Swap",
+        "target_id": "SwapTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "SwapTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "Swap",
+        "target_id": "SwapLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "exchanges",
+                "SwapLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "Swap",
+        "target_id": "SwapParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractParty",
+                "SwapParty"
+            ]
+        }
+    },
+    {
+        "source_id": "Swap",
+        "target_id": "UniqueSwapIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "UniqueSwapIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapLeg",
+        "target_id": "CashflowTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapLeg",
+        "target_id": "SwapReceivingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasSeller",
+                "SwapReceivingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapLeg",
+        "target_id": "SwapPayingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasBuyer",
+                "SwapPayingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapLeg",
+        "target_id": "Swap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isLegOf",
+                "Swap"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapLeg",
+        "target_id": "SwapTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RealizedVariableLeg",
+        "target_id": "PerformanceBasedVariableLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DispersionSwap",
+        "target_id": "DispersionLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasLeg",
+                "DispersionLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "DispersionSwap",
+        "target_id": "StatisticalSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RateBasedLeg",
+        "target_id": "RatesSwap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isLegOf",
+                "RatesSwap"
+            ]
+        }
+    },
+    {
+        "source_id": "RateBasedLeg",
+        "target_id": "SwapLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorrelationLeg",
+        "target_id": "PerformanceBasedVariableLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorrelationLeg",
+        "target_id": "CorrelationSwap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isLegOf",
+                "CorrelationSwap"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapParty",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapParty",
+        "target_id": "Swap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "Swap"
+            ]
+        }
+    },
+    {
+        "source_id": "DispersionLeg",
+        "target_id": "PerformanceBasedVariableLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DispersionLeg",
+        "target_id": "DispersionSwap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isLegOf",
+                "DispersionSwap"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapLifecycleEventIdentifier",
+        "target_id": "SwapLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "SwapLifecycleEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapLifecycleEventIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatesSwap",
+        "target_id": "Swap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatesSwap",
+        "target_id": "RateBasedLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasLeg",
+                "RateBasedLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "FixedPaymentLeg",
+        "target_id": "SwapLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedLeg",
+        "target_id": "SwapLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReturnLeg",
+        "target_id": "ReturnSwap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isLegOf",
+                "ReturnSwap"
+            ]
+        }
+    },
+    {
+        "source_id": "ReturnLeg",
+        "target_id": "FloatingLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapLifecycleEvent",
+        "target_id": "Swap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Swap"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapLifecycleEvent",
+        "target_id": "SwapParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "SwapParty"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapLifecycleEvent",
+        "target_id": "UniqueSwapIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasSwapIdentifier",
+                "UniqueSwapIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapLifecycleEvent",
+        "target_id": "SwapLifecycleEventIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "SwapLifecycleEventIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapLifecycleEvent",
+        "target_id": "LifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorrelationSwap",
+        "target_id": "StatisticalSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExcessReturnSwap",
+        "target_id": "IndexReturnSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapPayingParty",
+        "target_id": "PayingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapPayingParty",
+        "target_id": "SwapParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TotalReturnLeg",
+        "target_id": "ReturnLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapTerms",
+        "target_id": "DerivativeTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MajorSwapParticipant",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapLegEvent",
+        "target_id": "SwapLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapLegEvent",
+        "target_id": "SwapLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "SwapLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapReceivingParty",
+        "target_id": "ReceivingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapReceivingParty",
+        "target_id": "SwapParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TotalReturnSwap",
+        "target_id": "TotalReturnLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasReturnLeg",
+                "TotalReturnLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "TotalReturnSwap",
+        "target_id": "CreditDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TotalReturnSwap",
+        "target_id": "ReturnSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasisSwap",
+        "target_id": "RatesSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReturnSwap",
+        "target_id": "Swap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReturnSwap",
+        "target_id": "FixedPaymentLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFundingLeg",
+                "FixedPaymentLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "ReturnSwap",
+        "target_id": "ReturnLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasReturnLeg",
+                "ReturnLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "StatisticalSwap",
+        "target_id": "PerformanceBasedVariableLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasLeg",
+                "PerformanceBasedVariableLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "StatisticalSwap",
+        "target_id": "Swap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalSwap",
+        "target_id": "FixedLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasLeg",
+                "FixedLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "UniqueSwapIdentifier",
+        "target_id": "FinancialInstrumentIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UniqueSwapIdentifier",
+        "target_id": "Swap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "Swap"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapConfirmation",
+        "target_id": "SwapLifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapConfirmation",
+        "target_id": "SwapParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractParty",
+                "SwapParty"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapConfirmation",
+        "target_id": "SwapConfirmation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "supersedes",
+                "SwapConfirmation"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapConfirmation",
+        "target_id": "TransactionConfirmation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SimpleReturnLeg",
+        "target_id": "ReturnLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatingLeg",
+        "target_id": "SwapLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapDataRepository",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PerformanceBasedVariableLeg",
+        "target_id": "StatisticalSwap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isLegOf",
+                "StatisticalSwap"
+            ]
+        }
+    },
+    {
+        "source_id": "PerformanceBasedVariableLeg",
+        "target_id": "FloatingLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StrikeLeg",
+        "target_id": "FixedLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapDealer",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SwapDealer",
+        "target_id": "Dealer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndexReturnSwap",
+        "target_id": "ReturnSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

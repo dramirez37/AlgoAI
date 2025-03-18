@@ -1,0 +1,364 @@
+[
+    {
+        "source_id": "MonetaryAmount",
+        "target_id": "ScalarQuantityValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MonetaryAmount",
+        "target_id": "Currency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCurrency",
+                "Currency"
+            ]
+        }
+    },
+    {
+        "source_id": "MonetaryAmount",
+        "target_id": "hasAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "CurrencyIdentifier",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyIdentifier",
+        "target_id": "Currency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "Currency"
+            ]
+        }
+    },
+    {
+        "source_id": "MonetaryPrice",
+        "target_id": "Price",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MonetaryPrice",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundsIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundsIdentifier",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundsIdentifier",
+        "target_id": "Funds",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "Funds"
+            ]
+        }
+    },
+    {
+        "source_id": "PreciousMetalIdentifier",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreciousMetalIdentifier",
+        "target_id": "PreciousMetal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "PreciousMetal"
+            ]
+        }
+    },
+    {
+        "source_id": "PreciousMetalIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRate",
+        "target_id": "PercentageMonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRate",
+        "target_id": "hasRateValue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasRateValue"
+            ]
+        }
+    },
+    {
+        "source_id": "AmountOfMoney",
+        "target_id": "ScalarQuantityValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AmountOfMoney",
+        "target_id": "Currency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCurrency",
+                "Currency"
+            ]
+        }
+    },
+    {
+        "source_id": "UnitOfAccountIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnitOfAccountIdentifier",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnitOfAccountIdentifier",
+        "target_id": "UnitOfAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "UnitOfAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "Currency",
+        "target_id": "hasMinorUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasMinorUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "Currency",
+        "target_id": "MeasurementUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Funds",
+        "target_id": "Currency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCurrency",
+                "Currency"
+            ]
+        }
+    },
+    {
+        "source_id": "Funds",
+        "target_id": "Currency",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CalculatedPrice",
+        "target_id": "MonetaryPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PercentageMonetaryAmount",
+        "target_id": "Percentage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PercentageMonetaryAmount",
+        "target_id": "Currency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCurrency",
+                "Currency"
+            ]
+        }
+    },
+    {
+        "source_id": "UnitPrice",
+        "target_id": "MonetaryPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnitOfAccount",
+        "target_id": "Currency",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeRate",
+        "target_id": "Currency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasDealtCurrency",
+                "Currency"
+            ]
+        }
+    },
+    {
+        "source_id": "ExchangeRate",
+        "target_id": "hasRateValue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasRateValue"
+            ]
+        }
+    },
+    {
+        "source_id": "ExchangeRate",
+        "target_id": "Currency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasBaseCurrency",
+                "Currency"
+            ]
+        }
+    },
+    {
+        "source_id": "ExchangeRate",
+        "target_id": "Ratio",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreciousMetal",
+        "target_id": "hasNumericCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasNumericCode"
+            ]
+        }
+    },
+    {
+        "source_id": "Price",
+        "target_id": "ScalarQuantityValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyBasket",
+        "target_id": "Currency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "Currency"
+            ]
+        }
+    },
+    {
+        "source_id": "CurrencyBasket",
+        "target_id": "StructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

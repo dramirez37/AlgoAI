@@ -1,0 +1,515 @@
+[
+    {
+        "source_id": "LedgerEntry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LedgerEntry",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EconomicTransaction",
+        "target_id": "EconomicContractTermsSet",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "transactedUnder",
+                "EconomicContractTermsSet"
+            ]
+        }
+    },
+    {
+        "source_id": "EconomicTransaction",
+        "target_id": "EconomicResource",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "subject",
+                "EconomicResource"
+            ]
+        }
+    },
+    {
+        "source_id": "EconomicTransaction",
+        "target_id": "EconomicAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "transactionEmbodiesEconomicAgreement",
+                "EconomicAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "EconomicContract",
+        "target_id": "EconomicContractTermsSet",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "EconomicContractTermsSet"
+            ]
+        }
+    },
+    {
+        "source_id": "EconomicContract",
+        "target_id": "MutualContractualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EconomicContract",
+        "target_id": "ContractualEconomicAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "embodies",
+                "ContractualEconomicAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "DischargingEvent",
+        "target_id": "LedgerEntry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "triggers",
+                "LedgerEntry"
+            ]
+        }
+    },
+    {
+        "source_id": "DischargingEvent",
+        "target_id": "TransactionBusinessEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DischargingEvent",
+        "target_id": "EconomicCommitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "terminates",
+                "EconomicCommitment"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionEvent",
+        "target_id": "TransactionEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCorresponding",
+                "TransactionEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionEvent",
+        "target_id": "TransactionUndertaking",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStart",
+                "TransactionUndertaking"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionEvent",
+        "target_id": "EconomicCommitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "embodies",
+                "EconomicCommitment"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionEvent",
+        "target_id": "DischargingEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasEnd",
+                "DischargingEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionEventAspect",
+        "target_id": "TransactionEventAspect",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCorrespondingAlternativeAspect",
+                "TransactionEventAspect"
+            ]
+        }
+    },
+    {
+        "source_id": "UndertakingEvent",
+        "target_id": "Undertaking",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UndertakingEvent",
+        "target_id": "TransactionBusinessEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UndertakingEvent",
+        "target_id": "LedgerEntry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "triggers",
+                "LedgerEntry"
+            ]
+        }
+    },
+    {
+        "source_id": "EconomicCommitment",
+        "target_id": "TransactionParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "madeBy",
+                "TransactionParty"
+            ]
+        }
+    },
+    {
+        "source_id": "EconomicCommitment",
+        "target_id": "EconomicAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isConferredBy",
+                "EconomicAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "EconomicCommitment",
+        "target_id": "MutualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Undertaking",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractParty",
+                "ContractParty"
+            ]
+        }
+    },
+    {
+        "source_id": "Undertaking",
+        "target_id": "MutualCommitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "givesRiseTo",
+                "MutualCommitment"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractualEconomicAgreement",
+        "target_id": "EconomicAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualEconomicAgreement",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualEconomicAgreement",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "confers",
+                "ContractualCommitment"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractualEconomicAgreement",
+        "target_id": "ContractualTransactionParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractParty",
+                "ContractualTransactionParty"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionParty",
+        "target_id": "TransactionParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "transactsWith",
+                "TransactionParty"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionParty",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EconomicAgreement",
+        "target_id": "MutualContractualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EconomicAgreement",
+        "target_id": "EconomicCommitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "confers",
+                "EconomicCommitment"
+            ]
+        }
+    },
+    {
+        "source_id": "EconomicAgreement",
+        "target_id": "TransactionParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "TransactionParty"
+            ]
+        }
+    },
+    {
+        "source_id": "EconomicAgreement",
+        "target_id": "EconomicTransaction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "EconomicTransaction"
+            ]
+        }
+    },
+    {
+        "source_id": "CoveredTransaction",
+        "target_id": "ContractualTransaction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionUndertaking",
+        "target_id": "UndertakingEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionUndertaking",
+        "target_id": "EconomicCommitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "givesRiseTo",
+                "EconomicCommitment"
+            ]
+        }
+    },
+    {
+        "source_id": "EconomicResource",
+        "target_id": "EconomicTransaction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definedInContextOf",
+                "EconomicTransaction"
+            ]
+        }
+    },
+    {
+        "source_id": "EconomicContractTermsSet",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EconomicContractTermsSet",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "setsOutContractualEconomicCommitment",
+                "ContractualCommitment"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractualTransactionParty",
+        "target_id": "TransactionParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualTransactionParty",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualTransaction",
+        "target_id": "EconomicTransaction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Revaluation",
+        "target_id": "LedgerEntry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "triggers",
+                "LedgerEntry"
+            ]
+        }
+    },
+    {
+        "source_id": "Revaluation",
+        "target_id": "TransactionBusinessEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

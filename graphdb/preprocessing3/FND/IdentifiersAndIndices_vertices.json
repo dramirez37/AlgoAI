@@ -1,0 +1,84 @@
+[
+    {
+        "id": "ReassignableIdentifier",
+        "type": "Class",
+        "name": "ReassignableIdentifier",
+        "explanatoryNote": "If no assignment termination date is provided, the identifier is considered to be assigned and valid. If there is no initial assignment date, then the identifier is assumed to be assigned up until the termination date, if any.",
+        "label": "reassignable identifier",
+        "definition": "identifier that uniquely identifies something for a given time period, and that may be reused to identify something else at a different point in time"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "IndexingScheme",
+        "type": "Class",
+        "name": "IndexingScheme",
+        "label": "indexing scheme",
+        "definition": "system for indexing values, data, information, or knowledge"
+    },
+    {
+        "id": "Scheme",
+        "type": "Entity",
+        "name": "Scheme"
+    },
+    {
+        "id": "Index",
+        "type": "Class",
+        "name": "Index",
+        "definition": "indirect shortcut derived from and pointing into, a greater volume of values, data, information or knowledge",
+        "label": "index"
+    },
+    {
+        "id": "Reference",
+        "type": "Entity",
+        "name": "Reference"
+    },
+    {
+        "id": "IdentificationScheme",
+        "type": "Class",
+        "name": "IdentificationScheme"
+    },
+    {
+        "id": "isIndexTo",
+        "type": "ObjectProperty",
+        "name": "isIndexTo",
+        "label": "is index to",
+        "definition": "that to which the index refers"
+    },
+    {
+        "id": "hasAssignmentTerminationDate",
+        "type": "DatatypeProperty",
+        "name": "hasAssignmentTerminationDate",
+        "definition": "the date on which an identifier is released from its assignment to some resource",
+        "label": "has assignment termination date"
+    },
+    {
+        "id": "parseRegex",
+        "type": "AnnotationProperty",
+        "name": "parseRegex",
+        "definition": "indicates how to deconstruct the supplied character string into its components",
+        "label": "parse regex"
+    },
+    {
+        "id": "hasInitialAssignmentDate",
+        "type": "DatatypeProperty",
+        "name": "hasInitialAssignmentDate",
+        "definition": "the date on which an identifier is first assigned to some resource",
+        "label": "has initial assignment date"
+    },
+    {
+        "id": "constructRegex",
+        "type": "AnnotationProperty",
+        "name": "constructRegex",
+        "label": "construct regex",
+        "definition": "indicates how to compose the supplied character string from its components"
+    },
+    {
+        "id": "StructuredIdentifier",
+        "type": "Class",
+        "name": "StructuredIdentifier"
+    }
+]

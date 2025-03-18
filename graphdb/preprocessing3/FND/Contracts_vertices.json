@@ -1,0 +1,495 @@
+[
+    {
+        "id": "CollateralAgreement",
+        "type": "Class",
+        "name": "CollateralAgreement",
+        "label": "collateral agreement",
+        "definition": "written contract related to another contract designed to provide clarity and additional protection for all parties involved, that is separate from the primary contract and that can be independently enforced",
+        "explanatoryNote": "In cases where there are discrepancies between the collateral agreement and primary contract, the primary contract, which may be a master agreement, for example, takes precedence."
+    },
+    {
+        "id": "WrittenContract",
+        "type": "Class",
+        "name": "WrittenContract",
+        "label": "written contract",
+        "definition": "formal contract that is written and signed by the parties thereto"
+    },
+    {
+        "id": "Contract",
+        "type": "Class",
+        "name": "Contract",
+        "explanatoryNote": "A contractual relationship is evidenced by (1) an offer, (2) acceptance of the offer, and a (3) valid (legal and valuable) consideration. A contract is a kind of agreement, and as such it embodies the assertion that it has been negotiated, such negotiation having included the presence of some offer and the acceptance of that offer on the part of either or both of the parties.",
+        "definition": "voluntary, deliberate agreement between competent parties to which the parties agree to be legally bound, and for which the parties provide valuable consideration",
+        "label": "contract"
+    },
+    {
+        "id": "Agreement",
+        "type": "Entity",
+        "name": "Agreement"
+    },
+    {
+        "id": "BreachOfContract",
+        "type": "Class",
+        "name": "BreachOfContract",
+        "explanatoryNote": "Examples of events that are considered a breach of contract include discovery of misrepresentation, not completing a job, not paying in full or on time, failing to deliver all the goods, substituting inferior or significantly different goods, not providing a bond when required, being late without excuse, or any act that demonstrates that a party will not complete required work ('anticipatory breach.') Breach of contract is one of the most common causes of law suits for damages and/or court-ordered 'specific performance' of the contract. A breach of contract frequently invalidates the contract.",
+        "label": "breach of contract",
+        "definition": "classifier of events representing a violation of an express, or implied, condition of a contract to do or not to do something, without a legitimate excuse"
+    },
+    {
+        "id": "OccurrenceKind",
+        "type": "Entity",
+        "name": "OccurrenceKind"
+    },
+    {
+        "id": "ContractualDefinition",
+        "type": "Class",
+        "name": "ContractualDefinition",
+        "label": "contractual definition",
+        "definition": "contractual element that specifies the meaning of a term in a legal document, whose definition is substitutable for the term whenever it occurs in the body of that document"
+    },
+    {
+        "id": "ContractualElement",
+        "type": "Class",
+        "name": "ContractualElement",
+        "definition": "element, such as an arrangement, provision, requirement, rule, specification, and standard that forms an integral part of an agreement",
+        "label": "contractual element"
+    },
+    {
+        "id": "TransferableContract",
+        "type": "Class",
+        "name": "TransferableContract",
+        "definition": "contract in which the rights and obligations of one party may be transferred to another party",
+        "label": "transferable contract"
+    },
+    {
+        "id": "MilestoneEvent",
+        "type": "Class",
+        "name": "MilestoneEvent",
+        "definition": "event related to the status or level of completion of a designated activity, task, or segment of work required for contract fulfillment",
+        "label": "milestone event"
+    },
+    {
+        "id": "Occurrence",
+        "type": "Entity",
+        "name": "Occurrence"
+    },
+    {
+        "id": "IdentityDocument",
+        "type": "Class",
+        "name": "IdentityDocument"
+    },
+    {
+        "id": "ContractualCommitment",
+        "type": "Class",
+        "name": "ContractualCommitment",
+        "definition": "provision specifying something that the contracting parties agree to",
+        "label": "contractual commitment"
+    },
+    {
+        "id": "MutualCommitment",
+        "type": "Entity",
+        "name": "MutualCommitment"
+    },
+    {
+        "id": "NovateableContract",
+        "type": "Class",
+        "name": "NovateableContract",
+        "explanatoryNote": "In general, novation means consensual substitution of a party or obligation in the original contract with a new party or obligation in the successor contract. The new party takes on the rights and obligations of the original party. The corresponding novation agreement must be signed by the transferor, the transferee, and the counterparty (the other contracting party). Novation is frequently used in mergers and acquisitions to replace any outstanding relationships or rights and obligations of the organization being subsumed with relationships or obligations of the acquiring entity. It is also commonly used with respect to loan rescheduling.",
+        "label": "novateable contract",
+        "definition": "contract that may be replaced by another contract, and in that event, extinguishes the rights and obligations in effect under the original contract with those in the new agreement"
+    },
+    {
+        "id": "AssignableContract",
+        "type": "Class",
+        "name": "AssignableContract",
+        "definition": "contract in which contract holder (assignor) may transfer some or all of their rights and obligations to another party (assignee)",
+        "label": "assignable contract",
+        "explanatoryNote": "Note that while the assignor may divest themselves of some rights, that assignment does not necessarily eliminate performance obligations of the assignor to the third party. Characteristics that are important to understand with respect to an assignment include the circumstances in which the assignor remains obligated and any remedies available if the assignor does not perform."
+    },
+    {
+        "id": "MasterAgreement",
+        "type": "Class",
+        "name": "MasterAgreement",
+        "definition": "contract between named parties that outlines the terms and conditions designed to apply to a number of accounts, transactions, or other activities between the parties, and that consolidates and provides overarching terms for separate but related agreements",
+        "label": "master agreement",
+        "explanatoryNote": "A master agreement can be used to set out standard terms and conditions so that any new agreements don't need to cover the same information again."
+    },
+    {
+        "id": "MutualContractualAgreement",
+        "type": "Class",
+        "name": "MutualContractualAgreement",
+        "label": "mutual contractual agreement",
+        "definition": "contract between named parties whose individual rights and obligations are not transferable to another party without prior written permission",
+        "explanatoryNote": "A mutual contractual agreement involves an exchange of a promises in which the promises made by each party represent considerations supporting the promises of the other party(ies)."
+    },
+    {
+        "id": "Constituent",
+        "type": "Entity",
+        "name": "Constituent"
+    },
+    {
+        "id": "TermSheet",
+        "type": "Class",
+        "name": "TermSheet",
+        "explanatoryNote": "Term sheets state the intentions of the parties and are used to guide legal counsel in the preparation of proposed agreements or contracts.",
+        "label": "term sheet",
+        "definition": "nonbinding agreement setting forth the basic terms and conditions under which a proposed business deal may be made"
+    },
+    {
+        "id": "ConditionPrecedent",
+        "type": "Class",
+        "name": "ConditionPrecedent",
+        "explanatoryNote": "There may also be condition precedents in the ongoing life of a contract, which state that if condition X occurs, event Y will then occur. Condition X is the condition precedent.",
+        "definition": "stipulation that specifies conditions that must be met before some aspect of a contract takes effect",
+        "label": "condition precedent"
+    },
+    {
+        "id": "ExtensionProvision",
+        "type": "Class",
+        "name": "ExtensionProvision",
+        "explanatoryNote": "In the case of a debt instrument, an extension may include extending the time allowed for repayment of the principal, the maturity date, and so forth.",
+        "label": "extension provision",
+        "definition": "contract terms that specify the conditions under which a contract can be extended"
+    },
+    {
+        "id": "ContractMilestone",
+        "type": "Class",
+        "name": "ContractMilestone",
+        "label": "contract milestone",
+        "definition": "classifier for an event (milestone), or set of events related to the status or level of completion of a designated activity, task, or segment of work required for contract fulfillment",
+        "explanatoryNote": "Milestones are checkpoints that are predefined in the contract, used to measure progress. They specify tasks, deliverables, or objectives that must be achieved to meet each milestone and may trigger partial payment."
+    },
+    {
+        "id": "BreachOfCovenant",
+        "type": "Class",
+        "name": "BreachOfCovenant",
+        "definition": "classifier of events representing breaking a promise specified in a contract to do or not to do something, without a legitimate excuse",
+        "label": "breach of covenant",
+        "explanatoryNote": "In the case of a breach of a covenant or warranty, the contract remains binding and damages only are recoverable for the breach, whereas a breach of contract typically invalidates the entire contract."
+    },
+    {
+        "id": "DisclosureProvision",
+        "type": "Class",
+        "name": "DisclosureProvision",
+        "label": "disclosure provision",
+        "explanatoryNote": "Disclosure provisions are crucial in ensuring transparency, mitigating risks, and maintaining trust between the parties. Typical elements of a disclosure provision include (1) scope - defining the kind of information that must be disclosed, (2) materiality - which usually states that only information material to the agreement must be disclosed, (3) timing - specifying when such disclosures must be made, (4) ongoing requirements - outlining whether or not disclosures any time significant changes or new information must be made available over some period of time, (5) method - specifying how such disclosures must be made, for example, in writing, (6) exclusions - information that is explicitly out of scope with respect to disclosure requirements, (7) confidentiality - restrictions related to whether or not the information is confidential and on how it may be used, and (8) penalities - specifying consequences for failing to disclose relevant information.",
+        "definition": "contractual provision that outlines the requirements and responsibilities of one or both parties to reveal certain information to each other"
+    },
+    {
+        "id": "Warranty",
+        "type": "Class",
+        "name": "Warranty",
+        "definition": "contractual element that is a statement of fact",
+        "explanatoryNote": "If a warranty is determined to be false, the receiving party has a claim for breach of contract. If it is a fundamental breach the receiving party may have the right to terminate the contact in addition to a claim for damages. However, unlike a claim for misrepresentation, the contract may not necessarily be voided in its entirety as a consequence.",
+        "label": "warranty"
+    },
+    {
+        "id": "ContractDocument",
+        "type": "Class",
+        "name": "ContractDocument",
+        "definition": "legal document that records the formal terms and conditions of some contract",
+        "label": "contract document"
+    },
+    {
+        "id": "LegalDocument",
+        "type": "Entity",
+        "name": "LegalDocument"
+    },
+    {
+        "id": "ContractParty",
+        "type": "Class",
+        "name": "ContractParty",
+        "definition": "legally competent party that has entered into a binding agreement, accepting and conceding obligations, responsibilities, and benefits as specified",
+        "label": "contract party"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "TerminationProvision",
+        "type": "Class",
+        "name": "TerminationProvision",
+        "definition": "contractual element that specifies the circumstances under which the parties can dissolve their legal relationship and discontinue the fulfillment of their obligations under the contract",
+        "explanatoryNote": "Common reasons for termination include mutual consent, certain notices, breach or failure of a precedent or condition, insolvency, change in control, the occurrence of certain events, and court orders that prohibit continuation of the contract. Termination provisions may include whether they are mutual or unilateral, and may include rights with respect to any cure.",
+        "label": "termination provision"
+    },
+    {
+        "id": "UseOfProceedsProvision",
+        "type": "Class",
+        "name": "UseOfProceedsProvision",
+        "explanatoryNote": "Examples include for working capital and corporate expenses, for the purchase or upgrades to facilities and/or equipment, and so forth.",
+        "definition": "contract provision specifying how funds obtained through financing, such as through a credit agreement, offering, warrant, or other instrument are intended to be used",
+        "label": "use of proceeds provision"
+    },
+    {
+        "id": "ContractThirdParty",
+        "type": "Class",
+        "name": "ContractThirdParty",
+        "label": "contract third party",
+        "definition": "party that is indirectly involved in, but not a counterparty to, an agreement"
+    },
+    {
+        "id": "MilestoneSchedule",
+        "type": "Class",
+        "name": "MilestoneSchedule",
+        "label": "milestone schedule",
+        "definition": "schedule of milestone events, observations, or other occurrences and the associated dates and/or times when they will be done"
+    },
+    {
+        "id": "Schedule",
+        "type": "Entity",
+        "name": "Schedule"
+    },
+    {
+        "id": "MutualAgreement",
+        "type": "Entity",
+        "name": "MutualAgreement"
+    },
+    {
+        "id": "ContractPrincipal",
+        "type": "Class",
+        "name": "ContractPrincipal",
+        "explanatoryNote": "The principal to a contract is typically the originator and, in the case of a security, the issuer. In law, the principal is the party that has the primary responsibility in a liability or obligation, as opposed to an endorser, guarantor, or surety.",
+        "definition": "party that originates a contract and is identified as the first party to that contract, in the event that the contract distinguishes any party as such",
+        "label": "contract principal"
+    },
+    {
+        "id": "BirthCertificate",
+        "type": "Class",
+        "name": "BirthCertificate"
+    },
+    {
+        "id": "UnilateralContract",
+        "type": "Class",
+        "name": "UnilateralContract",
+        "label": "unilateral contract",
+        "definition": "contract in which one party makes an express promise without securing a reciprocal agreement from the other party(ies)",
+        "explanatoryNote": "In a unilateral, or one-sided, contract, one party, known as the offeror, makes a promise in exchange for an act (or abstention from acting) by another party, known as the offeree. If the offeree acts on the offeror's promise, the offeror is legally obligated to fulfill the contract, but an offeree cannot be forced to act (or not act), because no return promise has been made to the offeror. After an offeree has performed, only one enforceable promise exists, that of the offeror."
+    },
+    {
+        "id": "NonBindingTerm",
+        "type": "Class",
+        "name": "NonBindingTerm",
+        "label": "non-binding term",
+        "definition": "contractual element that is not legally binding on any party to the agreement"
+    },
+    {
+        "id": "DeathCertificate",
+        "type": "Class",
+        "name": "DeathCertificate"
+    },
+    {
+        "id": "Representation",
+        "type": "Class",
+        "name": "Representation",
+        "explanatoryNote": "A party may later claim misrepresentation if a false representation has been made. They may be entitled to rescind the contract, which means that the contract would be set aside and the receiving party may also be entitled to damages to put them back into the position they would have been had the contract never been entered into.",
+        "definition": "contractual element that is a statement made by a party to the contract, before or at the time of making the contract, in regard to some fact, circumstance, or state of affairs pertinent to the contract, which the counterparty(ies) rely on, or is influential in bringing about the contract",
+        "label": "representation"
+    },
+    {
+        "id": "VerbalContract",
+        "type": "Class",
+        "name": "VerbalContract",
+        "definition": "contract that exists as a result of some verbal exchange",
+        "label": "verbal contract"
+    },
+    {
+        "id": "Counterparty",
+        "type": "Class",
+        "name": "Counterparty",
+        "definition": "party to a contract with whom one negotiates on a given agreement",
+        "label": "counterparty",
+        "explanatoryNote": "The counterparty is usually the party 'on the other side' of a contract from the perspective of the issuer or holder. The term 'counterparty' can refer to any party to an agreement, depending on context."
+    },
+    {
+        "id": "hasContractDuration",
+        "type": "ObjectProperty",
+        "name": "hasContractDuration",
+        "definition": "indicates the period of time during which a contract is intended to be in force once it has been executed",
+        "explanatoryNote": "Note that the duration may be relative or explicit, depending on the nature of the contract, and may be extended if the provisions of the contract permit extension.",
+        "label": "has contract duration"
+    },
+    {
+        "id": "isPrimaryContractFor",
+        "type": "ObjectProperty",
+        "name": "isPrimaryContractFor",
+        "definition": "indicates any subordinate agreement, such as a collateral agreement",
+        "label": "is primary contract for"
+    },
+    {
+        "id": "hasCounterparty",
+        "type": "ObjectProperty",
+        "name": "hasCounterparty",
+        "label": "has counterparty",
+        "definition": "identifies a party to a contract, typically not the contract principal"
+    },
+    {
+        "id": "hasPrincipalParty",
+        "type": "ObjectProperty",
+        "name": "hasPrincipalParty",
+        "label": "has principal party",
+        "definition": "identifies the main or principal party to a contract"
+    },
+    {
+        "id": "hasEffectiveDateTimeStamp",
+        "type": "ObjectProperty",
+        "name": "hasEffectiveDateTimeStamp",
+        "definition": "indicates the date and time, including time zone, something comes into force",
+        "label": "has effective date time stamp"
+    },
+    {
+        "id": "hasContractParty",
+        "type": "ObjectProperty",
+        "name": "hasContractParty",
+        "label": "has contract party",
+        "definition": "indicates a party that has entered into a binding agreement, accepting and conceding obligations, responsibilities, and benefits as specified"
+    },
+    {
+        "id": "hasEffectiveDate",
+        "type": "ObjectProperty",
+        "name": "hasEffectiveDate",
+        "label": "has effective date",
+        "definition": "indicates the date a contract, relationship, or policy comes into force"
+    },
+    {
+        "id": "hasThirdParty",
+        "type": "ObjectProperty",
+        "name": "hasThirdParty",
+        "label": "has third party",
+        "definition": "identifies a party which is not signatory to the party but has some role in the overall context defined by the contract."
+    },
+    {
+        "id": "hasTerm",
+        "type": "ObjectProperty",
+        "name": "hasTerm",
+        "label": "has term",
+        "definition": "indicates a fixed or limited period for which something, e.g., a contract, an investment, or an offer, lasts or is intended to last"
+    },
+    {
+        "id": "hasLegalDescription",
+        "type": "DatatypeProperty",
+        "name": "hasLegalDescription",
+        "definition": "provides the text, or a summary thereof, expressed in legal terms, of the contract provision, clause, or other element",
+        "label": "has legal description"
+    },
+    {
+        "id": "supersedes",
+        "type": "ObjectProperty",
+        "name": "supersedes",
+        "label": "supersedes",
+        "definition": "indicates a contract that was executed prior to and is replaced by this contract"
+    },
+    {
+        "id": "hasNonBindingTerm",
+        "type": "ObjectProperty",
+        "name": "hasNonBindingTerm",
+        "explanatoryNote": "In other words, a breach of such terms in the future would not be considered to be a breach of the contract.",
+        "definition": "refers to a term that is included in an agreement that is not considered legally binding",
+        "label": "has non-binding term"
+    },
+    {
+        "id": "isQualifiedBy",
+        "type": "ObjectProperty",
+        "name": "isQualifiedBy",
+        "label": "is qualified by",
+        "definition": "indicates a constraint, limitation or refinement on something"
+    },
+    {
+        "id": "hasMilestoneProvision",
+        "type": "ObjectProperty",
+        "name": "hasMilestoneProvision",
+        "label": "has milestone provision",
+        "definition": "refers to a requirement included in an agreement related to fulfillment as of some point in time in the lifetime of the contract"
+    },
+    {
+        "id": "hasContractualElement",
+        "type": "ObjectProperty",
+        "name": "hasContractualElement",
+        "label": "has contractual element",
+        "definition": "indicates something that is a component of an agreement"
+    },
+    {
+        "id": "isAssignable",
+        "type": "DatatypeProperty",
+        "name": "isAssignable",
+        "explanatoryNote": "An assignment (Latin cessio) is a term used with similar meanings in the law of contracts and in the law of real estate. In both instances, it encompasses the transfer of rights held by one party, the assignor, to another party, the assignee. The details of the assignment determines some additional rights and liabilities (or duties). Typically a third-party is involved in a contract with the assignor, and the contract is in effect transferred to the assignee.",
+        "label": "is assignable",
+        "definition": "indicates whether the contract and the rights thereunder may be assigned by one of the signatories to some other party"
+    },
+    {
+        "id": "hasExtendablePeriod",
+        "type": "ObjectProperty",
+        "name": "hasExtendablePeriod",
+        "definition": "indicates the window of time during which an extension is allowed under the terms of the contract",
+        "label": "has extendable period"
+    },
+    {
+        "id": "hasExtensionProvision",
+        "type": "ObjectProperty",
+        "name": "hasExtensionProvision",
+        "explanatoryNote": "Typically a contract extension refers to the termination date, coverage period, or, in the case of a security, may refer to extension of repayment or maturity dates.",
+        "label": "has extension provision",
+        "definition": "specifies the details of a contract provision allowing extension of some aspect of the contract"
+    },
+    {
+        "id": "definesTermsFor",
+        "type": "ObjectProperty",
+        "name": "definesTermsFor",
+        "label": "defines terms for",
+        "definition": "relates a contract to something for which the contract defines legally binding terms and conditions"
+    },
+    {
+        "id": "hasExecutionDate",
+        "type": "ObjectProperty",
+        "name": "hasExecutionDate",
+        "explanatoryNote": "This may or may not be the 'effective date' of the contract, which may be specified in the body of the document.",
+        "label": "has execution date",
+        "definition": "indicates the date a contract has been signed by all the necessary parties"
+    },
+    {
+        "id": "qualifies",
+        "type": "ObjectProperty",
+        "name": "qualifies",
+        "definition": "limits, constrains or refines",
+        "label": "qualifies"
+    },
+    {
+        "id": "isEvidenceFor",
+        "type": "ObjectProperty",
+        "name": "isEvidenceFor",
+        "label": "is evidence for",
+        "definition": "corroborates"
+    },
+    {
+        "id": "hasExecutionDateTimeStamp",
+        "type": "ObjectProperty",
+        "name": "hasExecutionDateTimeStamp",
+        "label": "has execution date time stamp",
+        "definition": "indicates the date and time, including time zone, a contract has been signed by all the necessary parties"
+    },
+    {
+        "id": "isEvidencedBy",
+        "type": "ObjectProperty",
+        "name": "isEvidencedBy",
+        "definition": "is attested by",
+        "label": "is evidenced by"
+    },
+    {
+        "id": "hasGoverningJurisdiction",
+        "type": "ObjectProperty",
+        "name": "hasGoverningJurisdiction",
+        "definition": "indicates the jurisdiction governing the contract, as agreed by all parties",
+        "label": "has governing jurisdiction",
+        "explanatoryNote": "In a written contract this is generally identified, for example, as Governing Law, namely the jurisdiction in which any disputes arising from the contract are to be resolved."
+    },
+    {
+        "id": "isSubordinateTo",
+        "type": "ObjectProperty",
+        "name": "isSubordinateTo",
+        "explanatoryNote": "This property may also be used as the basis for linking agreements based on priority, such as linking a second or junior lien to the primary lien on some collateral",
+        "definition": "indicates the primary contract referenced by a subordinate agreement, such as a collateral agreement",
+        "label": "is subordinate to"
+    }
+]

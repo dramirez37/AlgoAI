@@ -1,0 +1,137 @@
+[
+    {
+        "source_id": "EquityIndex",
+        "target_id": "BasketOfEquities",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "BasketOfEquities"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityIndex",
+        "target_id": "ReferenceIndex",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketCapitalization",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfCreditRisks",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfCreditRisks",
+        "target_id": "WeightedBasket",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfCreditRisks",
+        "target_id": "CreditIndexConstituent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "CreditIndexConstituent"
+            ]
+        }
+    },
+    {
+        "source_id": "ReferenceIndex",
+        "target_id": "WeightedBasket",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "WeightedBasket"
+            ]
+        }
+    },
+    {
+        "source_id": "ReferenceIndex",
+        "target_id": "ScopedMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalizationBasedWeightingFunction",
+        "target_id": "WeightingFunction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalizationBasedWeightingFunction",
+        "target_id": "MarketCapitalization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMarketCapitalization",
+                "MarketCapitalization"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditIndexConstituent",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditIndexConstituent",
+        "target_id": "WeightedBasketConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditIndex",
+        "target_id": "ReferenceIndex",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditIndex",
+        "target_id": "BasketOfCreditRisks",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "BasketOfCreditRisks"
+            ]
+        }
+    },
+    {
+        "source_id": "BasketOfEquities",
+        "target_id": "BasketOfSecurities",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

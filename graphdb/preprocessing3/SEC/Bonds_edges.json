@@ -1,0 +1,1137 @@
+[
+    {
+        "source_id": "MunicipalBond",
+        "target_id": "MunicipalSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MunicipalBond",
+        "target_id": "GovernmentBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TaxAllocationBond",
+        "target_id": "SecuredBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TaxAllocationBond",
+        "target_id": "MunicipalBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpecialAssessmentBond",
+        "target_id": "SecuredBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpecialAssessmentBond",
+        "target_id": "MunicipalBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SovereignBond",
+        "target_id": "GovernmentBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SovereignBond",
+        "target_id": "SovereignDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallableBond",
+        "target_id": "CallFeature",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCallFeature",
+                "CallFeature"
+            ]
+        }
+    },
+    {
+        "source_id": "CallableBond",
+        "target_id": "ExtraordinaryRedemptionProvision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasExtraordinaryRedemptionProvision",
+                "ExtraordinaryRedemptionProvision"
+            ]
+        }
+    },
+    {
+        "source_id": "CallableBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SovereignDebtInstrument",
+        "target_id": "GovernmentIssuedDebtSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TreasuryBill",
+        "target_id": "MoneyMarketInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TreasuryBill",
+        "target_id": "USTreasurySecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnsecuredBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VariablePrincipalBond",
+        "target_id": "VariableDebtPrincipal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definesTermsFor",
+                "VariableDebtPrincipal"
+            ]
+        }
+    },
+    {
+        "source_id": "VariablePrincipalBond",
+        "target_id": "VariableIncomeBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CouponPaymentTerms",
+        "target_id": "InterestPaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CouponPaymentTerms",
+        "target_id": "BondCoupon",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInterestRate",
+                "BondCoupon"
+            ]
+        }
+    },
+    {
+        "source_id": "ConvertibleBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConvertibleBond",
+        "target_id": "ConvertibleSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConvertibleBond",
+        "target_id": "BondConversionTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasContractualElement",
+                "BondConversionTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "FixedCouponBond",
+        "target_id": "FixedCouponTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInterestPaymentTerms",
+                "FixedCouponTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "FixedCouponBond",
+        "target_id": "FixedIncomeSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedCouponBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USTreasurySecurity",
+        "target_id": "SovereignDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ZeroCouponBond",
+        "target_id": "FixedIncomeSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ZeroCouponBond",
+        "target_id": "ZeroCouponTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInterestPaymentTerms",
+                "ZeroCouponTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "ZeroCouponBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VariableIncomeBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VariableIncomeBond",
+        "target_id": "VariableIncomeSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondWithWarrant",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MakeWholeCall",
+        "target_id": "CallEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AmortizingBond",
+        "target_id": "BondAmortizationPaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRepaymentTerms",
+                "BondAmortizationPaymentTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "AmortizingBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MunicipalDebtSourceOfFunds",
+        "target_id": "LegalDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MunicipalDebtFundsUsage",
+        "target_id": "LegalDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RedemptionPayment",
+        "target_id": "PaymentEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RedemptionPayment",
+        "target_id": "RedemptionEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GeneralObligationMunicipalBond",
+        "target_id": "MunicipalBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GeneralObligationMunicipalBond",
+        "target_id": "FullFaithCreditBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TreasuryInflationProtectedSecurity",
+        "target_id": "USTreasurySecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TreasuryInflationProtectedSecurity",
+        "target_id": "VariablePrincipalBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TreasuryInflationProtectedSecurity",
+        "target_id": "InflationLinkedBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MandatoryConvertibleBond",
+        "target_id": "BondConversionTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "BondConversionTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "MandatoryConvertibleBond",
+        "target_id": "ConvertibleBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StepUpBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StepUpBond",
+        "target_id": "SteppedCouponTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInterestPaymentTerms",
+                "SteppedCouponTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "StepUpBond",
+        "target_id": "FixedIncomeSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MunicipalTrustee",
+        "target_id": "Trustee",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MunicipalTrustee",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondInsurance",
+        "target_id": "InsurancePolicy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConventionalGilt",
+        "target_id": "FixedCouponBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConventionalGilt",
+        "target_id": "UKGovernmentSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentIssuedDebtSecurity",
+        "target_id": "DebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StripBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "Bond"
+            ]
+        }
+    },
+    {
+        "source_id": "StripBond",
+        "target_id": "ZeroCouponBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StripBond",
+        "target_id": "Strip",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RevenueBond",
+        "target_id": "MunicipalBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RevenueBond",
+        "target_id": "SecuredBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuredBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SinkingFundAmortizationTerms",
+        "target_id": "BondAmortizationPaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SinkingFundAmortizationTerms",
+        "target_id": "isMandatory",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isMandatory"
+            ]
+        }
+    },
+    {
+        "source_id": "Bond",
+        "target_id": "CouponPaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInterestPaymentTerms",
+                "CouponPaymentTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "Bond",
+        "target_id": "CreditAgreementRepaidAtMaturity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Bond",
+        "target_id": "BondPrincipalRepaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRepaymentTerms",
+                "BondPrincipalRepaymentTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "Bond",
+        "target_id": "TradableDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallableConvertibleBond",
+        "target_id": "CallableBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallableConvertibleBond",
+        "target_id": "ConvertibleBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExtraordinaryRedemptionProvision",
+        "target_id": "CallFeature",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VariableInterestCalculationFormula",
+        "target_id": "FullyIndexedInterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ListedBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ListedBond",
+        "target_id": "ListedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedCouponTerms",
+        "target_id": "CouponPaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RedemptionSchedule",
+        "target_id": "PaymentSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RedemptionSchedule",
+        "target_id": "RedemptionEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "RedemptionEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "PartialRedemptionAllocationConvention",
+        "target_id": "Convention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentBond",
+        "target_id": "GovernmentIssuedDebtSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TreasuryNote",
+        "target_id": "MediumTermNote",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TreasuryNote",
+        "target_id": "USTreasurySecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondAmortizationPaymentTerms",
+        "target_id": "BondPrincipalRepaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TreasuryBond",
+        "target_id": "SovereignBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TreasuryBond",
+        "target_id": "USTreasurySecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OriginalIssueDiscountBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VariableCouponTerms",
+        "target_id": "VariableInterestCalculationFormula",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasExpression",
+                "VariableInterestCalculationFormula"
+            ]
+        }
+    },
+    {
+        "source_id": "VariableCouponTerms",
+        "target_id": "CouponPaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RateBasisConvention",
+        "target_id": "Convention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PerpetualBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VariableCouponBond",
+        "target_id": "BondVariableCoupon",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInterestRate",
+                "BondVariableCoupon"
+            ]
+        }
+    },
+    {
+        "source_id": "VariableCouponBond",
+        "target_id": "VariableIncomeBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ZeroCouponTerms",
+        "target_id": "BondAmortizationPaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ZeroCouponTerms",
+        "target_id": "FixedCouponTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MunicipalNote",
+        "target_id": "MunicipalSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MunicipalSecurity",
+        "target_id": "MunicipalDebtFundsUsage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasObjective",
+                "MunicipalDebtFundsUsage"
+            ]
+        }
+    },
+    {
+        "source_id": "MunicipalSecurity",
+        "target_id": "GovernmentIssuedDebtSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MunicipalSecurity",
+        "target_id": "MunicipalDebtSourceOfFunds",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFundingSource",
+                "MunicipalDebtSourceOfFunds"
+            ]
+        }
+    },
+    {
+        "source_id": "RegulatoryCall",
+        "target_id": "CallEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondCoupon",
+        "target_id": "InterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VariableDebtPrincipal",
+        "target_id": "PubliclyIssuedDebt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndexLinkedBond",
+        "target_id": "VariableIncomeBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BulletPrincipalRepaymentTerms",
+        "target_id": "BondPrincipalRepaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ImplicitFullFaithCreditBond",
+        "target_id": "UnsecuredBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MunicipalDebtRemarketingAgent",
+        "target_id": "ContractThirdParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MunicipalDebtRemarketingAgent",
+        "target_id": "Dealer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InflationLinkedBond",
+        "target_id": "IndexLinkedBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartialCallFeature",
+        "target_id": "PartialRedemptionAllocationConvention",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartialRedemptionAllocationConvention",
+                "PartialRedemptionAllocationConvention"
+            ]
+        }
+    },
+    {
+        "source_id": "PartialCallFeature",
+        "target_id": "CallFeature",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CertificateOfObligation",
+        "target_id": "MunicipalSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BulletBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BulletBond",
+        "target_id": "BulletPrincipalRepaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRepaymentTerms",
+                "BulletPrincipalRepaymentTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "CertificateOfParticipation",
+        "target_id": "DebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SteppedCouponTerms",
+        "target_id": "StepSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSchedule",
+                "StepSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "SteppedCouponTerms",
+        "target_id": "CouponPaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LastRegularCouponDate",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondRegistrar",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "registers",
+                "Bond"
+            ]
+        }
+    },
+    {
+        "source_id": "BondRegistrar",
+        "target_id": "Registrar",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondRegistrar",
+        "target_id": "LegalAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpecialTaxBond",
+        "target_id": "MunicipalBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpecialTaxBond",
+        "target_id": "SecuredBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatingRateNote",
+        "target_id": "VariableCouponBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BuildAmericaBond",
+        "target_id": "MunicipalBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GreenBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartialCall",
+        "target_id": "CallEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondVariableCoupon",
+        "target_id": "VariableInterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondVariableCoupon",
+        "target_id": "BondCoupon",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondWithPublishedSinkingFund",
+        "target_id": "AmortizingBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RemarketableBond",
+        "target_id": "FloatingRateNote",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RemarketableBond",
+        "target_id": "CorporateBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VariableInterestExpression",
+        "target_id": "hasCeiling",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasCeiling"
+            ]
+        }
+    },
+    {
+        "source_id": "VariableInterestExpression",
+        "target_id": "hasFloor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasFloor"
+            ]
+        }
+    },
+    {
+        "source_id": "VariableInterestExpression",
+        "target_id": "FullyIndexedInterestRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasArgument",
+                "FullyIndexedInterestRate"
+            ]
+        }
+    },
+    {
+        "source_id": "VariableInterestExpression",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UKGovernmentSecurity",
+        "target_id": "SovereignDebtInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FirstRegularCouponDate",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondPrincipalRepaymentTerms",
+        "target_id": "PrincipalRepaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondPrincipalRepaymentTerms",
+        "target_id": "PaymentSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSchedule",
+                "PaymentSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "UnlistedBond",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondWithPartialCall",
+        "target_id": "PartialCallFeature",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCallFeature",
+                "PartialCallFeature"
+            ]
+        }
+    },
+    {
+        "source_id": "BondWithPartialCall",
+        "target_id": "CallableBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PutFeature",
+        "target_id": "isMandatory",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isMandatory"
+            ]
+        }
+    },
+    {
+        "source_id": "MediumTermNote",
+        "target_id": "Bond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpecialObligationBond",
+        "target_id": "MunicipalBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FullFaithCreditBond",
+        "target_id": "UnsecuredBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityLinkedBond",
+        "target_id": "VariableCouponBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondConversionTerms",
+        "target_id": "ConversionTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

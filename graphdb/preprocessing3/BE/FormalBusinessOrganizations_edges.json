@@ -1,0 +1,65 @@
+[
+    {
+        "source_id": "NonGovernmentalOrganization",
+        "target_id": "NotForProfitOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrganizationCoveringAgreement",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "JointVenture",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalEntity",
+        "target_id": "OrganizationCoveringAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isGovernedBy",
+                "OrganizationCoveringAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "ValueAddedTaxIdentificationNumber",
+        "target_id": "OrganizationIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ValueAddedTaxIdentificationNumber",
+        "target_id": "TaxIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Division",
+        "target_id": "OrganizationalSubUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotForProfitOrganization",
+        "target_id": "FormalOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Branch",
+        "target_id": "OrganizationalSubUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

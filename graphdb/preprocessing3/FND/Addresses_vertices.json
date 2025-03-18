@@ -1,0 +1,545 @@
+[
+    {
+        "id": "PhysicalAddress",
+        "type": "Class",
+        "name": "PhysicalAddress",
+        "label": "physical address",
+        "definition": "physical address where communications can be addressed, papers served or representatives located for any kind of organization or person"
+    },
+    {
+        "id": "Address",
+        "type": "Class",
+        "name": "Address",
+        "definition": "index to a location to which communications may be delivered",
+        "label": "address"
+    },
+    {
+        "id": "PhysicalAddressingScheme",
+        "type": "Class",
+        "name": "PhysicalAddressingScheme",
+        "label": "physical addressing scheme",
+        "definition": "scheme for specifying physical addresses according to a country specific standard"
+    },
+    {
+        "id": "AddressingScheme",
+        "type": "Class",
+        "name": "AddressingScheme",
+        "label": "addressing scheme",
+        "definition": "system for allocating addresses to objects"
+    },
+    {
+        "id": "Postcode",
+        "type": "Class",
+        "name": "Postcode",
+        "label": "postcode",
+        "definition": "sequence of characters used to assist in the sorting of mail"
+    },
+    {
+        "id": "CodeElement",
+        "type": "Entity",
+        "name": "CodeElement"
+    },
+    {
+        "id": "GeographicRegionIdentifier",
+        "type": "Entity",
+        "name": "GeographicRegionIdentifier"
+    },
+    {
+        "id": "PostOfficeBoxAddress",
+        "type": "Class",
+        "name": "PostOfficeBoxAddress",
+        "definition": "physical address used to deliver communications to a designated container at a local post office or the local equivalent for the jurisdiction, where mail is held until the recipient collects it, rather than to a given house, building, or other location",
+        "label": "post office box address"
+    },
+    {
+        "id": "StreetSuffix",
+        "type": "Class",
+        "name": "StreetSuffix",
+        "definition": "classifier for a street or other delivery location, such as a dwelling located along a waterway",
+        "explanatoryNote": "The suffix may provide some insight into the size or length of the street, though not necessarily consistently. In some cities, the suffix differentiates the street from another in the same context, such as 19th Street vs. 19th Avenue in San Francisco.",
+        "label": "street suffix"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "AddressComponent",
+        "type": "Class",
+        "name": "AddressComponent",
+        "label": "address component",
+        "definition": "aspect of an address"
+    },
+    {
+        "id": "SecondaryUnitIndicator",
+        "type": "Class",
+        "name": "SecondaryUnitIndicator",
+        "definition": "index to the specific unit within a secondary unit, such as a building or apartment, at a particular street address",
+        "label": "secondary unit indicator"
+    },
+    {
+        "id": "ConventionalStreetAddress",
+        "type": "Class",
+        "name": "ConventionalStreetAddress",
+        "explanatoryNote": "Other unconventional addresses may include rural and highway route addresses, general delivery addresses, post office box addresses, private mail center addresses, and so forth.",
+        "label": "conventional street address",
+        "definition": "physical address that identifies a location on a street to which communications may be delivered"
+    },
+    {
+        "id": "GeographicDirectionalSymbol",
+        "type": "Class",
+        "name": "GeographicDirectionalSymbol",
+        "label": "geographic directional symbol",
+        "definition": "code element that gives directional information for postal delivery"
+    },
+    {
+        "id": "RegionSpecificIdentifier",
+        "type": "Class",
+        "name": "RegionSpecificIdentifier",
+        "label": "region-specific identifier",
+        "definition": "geographic region or subdivision identifier used internally by a country or other region"
+    },
+    {
+        "id": "StreetAddress",
+        "type": "Class",
+        "name": "StreetAddress",
+        "definition": "index to a location that consists of a primary address number, predirectional, street name, suffix, postdirectional, and an optional secondary unit",
+        "label": "street address"
+    },
+    {
+        "id": "SupplementalAddressUnit",
+        "type": "Class",
+        "name": "SupplementalAddressUnit",
+        "definition": "address component that includes a specific route, box, apartment, condominium or other indicator or unit associated with a specific address",
+        "label": "supplemental address unit"
+    },
+    {
+        "id": "Index",
+        "type": "Entity",
+        "name": "Index"
+    },
+    {
+        "id": "Aspect",
+        "type": "Entity",
+        "name": "Aspect"
+    },
+    {
+        "id": "PostOfficeBox",
+        "type": "Class",
+        "name": "PostOfficeBox",
+        "definition": "post office box associated with an address",
+        "label": "post office box",
+        "explanatoryNote": "Post office box identifiers are only unique to a given jurisdiction, which may be a post office, town, or other region."
+    },
+    {
+        "id": "SupplementalAddressComponent",
+        "type": "Class",
+        "name": "SupplementalAddressComponent",
+        "explanatoryNote": "Supplemental components include post office box information, rural route and highway contract route information, private mailboxes, and so forth, that are not part of a conventional street address.",
+        "label": "supplemental address component",
+        "definition": "address component that provides additional information that is important to ensuring proper delivery of communications"
+    },
+    {
+        "id": "IndexingScheme",
+        "type": "Entity",
+        "name": "IndexingScheme"
+    },
+    {
+        "id": "PhysicalAddressIdentifier",
+        "type": "Class",
+        "name": "PhysicalAddressIdentifier",
+        "label": "physical address identifier",
+        "definition": "unique identifier for a physical address"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "PostCodeArea",
+        "type": "Class",
+        "name": "PostCodeArea",
+        "label": "post code area",
+        "definition": "physical area uniquely identified by some postal code"
+    },
+    {
+        "id": "GeographicRegion",
+        "type": "Entity",
+        "name": "GeographicRegion"
+    },
+    {
+        "id": "PostdirectionalSymbol",
+        "type": "Class",
+        "name": "PostdirectionalSymbol",
+        "definition": "geographic directional symbol that follows the street name and street suffix in a street address",
+        "label": "postdirectional symbol"
+    },
+    {
+        "id": "StreetName",
+        "type": "Class",
+        "name": "StreetName",
+        "label": "street name",
+        "definition": "identifier for a street in some context (e.g., city, municipality, geographic region)"
+    },
+    {
+        "id": "Name",
+        "type": "Entity",
+        "name": "Name"
+    },
+    {
+        "id": "PrimaryAddressNumber",
+        "type": "Class",
+        "name": "PrimaryAddressNumber",
+        "explanatoryNote": "Although traditionally called a 'number', the street number may consist of alphanumeric characters, for example, '221B'.",
+        "definition": "address component that identifies a location with respect to a given street",
+        "label": "primary address number"
+    },
+    {
+        "id": "PostOfficeBoxDesignator",
+        "type": "Class",
+        "name": "PostOfficeBoxDesignator",
+        "definition": "designator used, together with an identifier, for a post office box",
+        "label": "post office box designator"
+    },
+    {
+        "id": "SupplementalAddressDesignator",
+        "type": "Class",
+        "name": "SupplementalAddressDesignator",
+        "definition": "classifier for supplemental address information, such as a highway contract route, rural route, building complex, shopping center, condominium complex, mail box, or other similar designation",
+        "label": "supplemental address designator"
+    },
+    {
+        "id": "StructureName",
+        "type": "Class",
+        "name": "StructureName",
+        "label": "structure name",
+        "definition": "name for a building, house, office complex, shopping center, or other structure or group of structures"
+    },
+    {
+        "id": "SecondaryUnit",
+        "type": "Class",
+        "name": "SecondaryUnit",
+        "label": "secondary unit",
+        "definition": "address component that identifies an individual unit within a larger structure, such as an apartment, office, hangar, slip, mailbox, and so forth, at a given street address"
+    },
+    {
+        "id": "VirtualAddress",
+        "type": "Class",
+        "name": "VirtualAddress",
+        "definition": "address identifying a virtual, i.e. non-physical, location",
+        "label": "virtual address"
+    },
+    {
+        "id": "PredirectionalSymbol",
+        "type": "Class",
+        "name": "PredirectionalSymbol",
+        "definition": "geographic directional symbol that occurs after the primary street number but before the street name in a street address",
+        "label": "predirectional symbol"
+    },
+    {
+        "id": "SecondaryUnitDesignator",
+        "type": "Class",
+        "name": "SecondaryUnitDesignator",
+        "label": "secondary unit designator",
+        "definition": "classifier for a smaller structure or component within a larger facility, such as an apartment, office, mail stop, or other similar designation",
+        "explanatoryNote": "Note that only certain secondary units require a secondary range, such as an apartment number, to complete a delivery point."
+    },
+    {
+        "id": "Space",
+        "type": "NamedIndividual",
+        "name": "Space",
+        "definition": "extent set apart or available, such as a parking or storage space",
+        "label": "space"
+    },
+    {
+        "id": "hasPostdirectionalSymbol",
+        "type": "ObjectProperty",
+        "name": "hasPostdirectionalSymbol",
+        "label": "has postdirectional symbol",
+        "definition": "specifies a geographic directional symbol that follows the street name and street suffix in a street address"
+    },
+    {
+        "id": "requiresSecondaryUnitRange",
+        "type": "DatatypeProperty",
+        "name": "requiresSecondaryUnitRange",
+        "definition": "if true, indicates that an additional qualifier is needed to complete the delivery point description, such as an apartment number",
+        "label": "requires secondary unit range",
+        "explanatoryNote": "Note that in some cases, such as for lobby or office, if there are multiple secondary units then a range may be needed to differentiate between them, even if the range is not always required."
+    },
+    {
+        "id": "hasAttentionLine",
+        "type": "DatatypeProperty",
+        "name": "hasAttentionLine",
+        "label": "has attention line",
+        "definition": "an optional, free text address line denoting the intended recipient"
+    },
+    {
+        "id": "Penthouse",
+        "type": "SecondaryUnitDesignator",
+        "name": "Penthouse",
+        "definition": "structure or dwelling on the roof or top floor of a building",
+        "label": "penthouse"
+    },
+    {
+        "id": "Key",
+        "type": "SecondaryUnitDesignator",
+        "name": "Key",
+        "label": "key",
+        "definition": "usually metal instrument by which the bolt of a lock is turned"
+    },
+    {
+        "id": "Stop",
+        "type": "SecondaryUnitDesignator",
+        "name": "Stop",
+        "definition": "stopping place, such as a bus or mail stop",
+        "label": "stop"
+    },
+    {
+        "id": "Department",
+        "type": "NamedIndividual",
+        "name": "Department",
+        "definition": "division of a large organization such as a government, university, business, or shop, dealing with a specific subject, commodity, or area of activity",
+        "label": "department"
+    },
+    {
+        "id": "Lobby",
+        "type": "SecondaryUnitDesignator",
+        "name": "Lobby",
+        "definition": "entrance hall, corridor, or vestibule, as in a public building, often serving as an anteroom; foyer",
+        "label": "lobby"
+    },
+    {
+        "id": "Unit",
+        "type": "SecondaryUnitDesignator",
+        "name": "Unit",
+        "definition": "area in a facility, such as a medical facility or hospital that is specially staffed and equipped to provide a particular service or type of care",
+        "label": "unit"
+    },
+    {
+        "id": "hasMailRouting",
+        "type": "DatatypeProperty",
+        "name": "hasMailRouting",
+        "definition": "an optional, free text address line containing explicit routing information (this elements's presence indicates that this address is a routing / 'care of' address)",
+        "label": "has mail routing"
+    },
+    {
+        "id": "Pier",
+        "type": "SecondaryUnitDesignator",
+        "name": "Pier",
+        "definition": "structure extending into navigable water for use as a landing place or promenade",
+        "label": "pier"
+    },
+    {
+        "id": "Office",
+        "type": "NamedIndividual",
+        "name": "Office",
+        "definition": "place where a particular kind of business is transacted or a service is supplied",
+        "label": "office"
+    },
+    {
+        "id": "Rear",
+        "type": "SecondaryUnitDesignator",
+        "name": "Rear",
+        "definition": "side or part of a building at the back, located opposite its front",
+        "label": "rear"
+    },
+    {
+        "id": "Basement",
+        "type": "NamedIndividual",
+        "name": "Basement",
+        "label": "basement",
+        "definition": "part of a building consisting of rooms that are partly or entirely below ground"
+    },
+    {
+        "id": "Side",
+        "type": "NamedIndividual",
+        "name": "Side",
+        "definition": "place, space, or direction with respect to a center or to a line of division",
+        "label": "side"
+    },
+    {
+        "id": "Trailer",
+        "type": "NamedIndividual",
+        "name": "Trailer",
+        "label": "trailer",
+        "definition": "vehicle designed to serve wherever parked as a temporary dwelling or place of business"
+    },
+    {
+        "id": "Building",
+        "type": "SecondaryUnitDesignator",
+        "name": "Building",
+        "label": "building",
+        "definition": "relatively permanent enclosed structure, that has a roof and walls and stands more or less permanently in one place"
+    },
+    {
+        "id": "Lot",
+        "type": "NamedIndividual",
+        "name": "Lot",
+        "definition": "measured parcel of land having fixed boundaries and designated on a plot or survey",
+        "label": "lot"
+    },
+    {
+        "id": "hasAddressLine2",
+        "type": "DatatypeProperty",
+        "name": "hasAddressLine2",
+        "label": "has address line 2",
+        "definition": "the second line of the street address"
+    },
+    {
+        "id": "Floor",
+        "type": "SecondaryUnitDesignator",
+        "name": "Floor",
+        "label": "floor",
+        "explanatoryNote": "Labeling systems for floors vary from country to country, and may be specific to the building, for example, whether or not a 13th floor is identified as such tends to be on a case-by-case basis.",
+        "definition": "all of the rooms or areas on the same level of a building; a story"
+    },
+    {
+        "id": "hasSecondaryUnit",
+        "type": "ObjectProperty",
+        "name": "hasSecondaryUnit",
+        "definition": "specifies an individual unit within a larger structure, such as an apartment, office, hangar, slip, mailbox, and so forth, at a given street address",
+        "label": "has secondary unit"
+    },
+    {
+        "id": "hasStreetName",
+        "type": "ObjectProperty",
+        "name": "hasStreetName",
+        "definition": "specifies an identifier for a street in some context (e.g., 'Baker', 'First', 'Main')",
+        "label": "has street name"
+    },
+    {
+        "id": "hasIndividualPostcode",
+        "type": "ObjectProperty",
+        "name": "hasIndividualPostcode",
+        "definition": "indicates the local or international postcode element of a delivery address as specified by the local postal service",
+        "label": "has individual postcode"
+    },
+    {
+        "id": "Apartment",
+        "type": "NamedIndividual",
+        "name": "Apartment",
+        "definition": "room or a group of related rooms, among similar sets in one building, designed for use as a dwelling",
+        "label": "apartment"
+    },
+    {
+        "id": "Suite",
+        "type": "SecondaryUnitDesignator",
+        "name": "Suite",
+        "definition": "group of rooms occupied as a unit",
+        "label": "suite"
+    },
+    {
+        "id": "hasStreetAddress",
+        "type": "ObjectProperty",
+        "name": "hasStreetAddress",
+        "definition": "indicates a fully-specified address component that consists of a primary address number, predirectional, street name, suffix, postdirectional, and an optional secondary unit",
+        "label": "has street address"
+    },
+    {
+        "id": "hasTransliteratedAddress",
+        "type": "ObjectProperty",
+        "name": "hasTransliteratedAddress",
+        "definition": "identifies a transliterated (i.e., in Latin or Romanized ASCII) address for the registered entity",
+        "label": "has transliterated address"
+    },
+    {
+        "id": "hasPostalCode",
+        "type": "DatatypeProperty",
+        "name": "hasPostalCode",
+        "definition": "the postal code of this address as specified by the local postal service",
+        "label": "has postal code"
+    },
+    {
+        "id": "Slip",
+        "type": "SecondaryUnitDesignator",
+        "name": "Slip",
+        "definition": "sloping ramp extending out into the water to serve as a place for landing or repairing ships; ship's or boat's berth between two piers",
+        "label": "slip"
+    },
+    {
+        "id": "hasAddressLine1",
+        "type": "DatatypeProperty",
+        "name": "hasAddressLine1",
+        "label": "has address line 1",
+        "definition": "the first line of the street address"
+    },
+    {
+        "id": "Room",
+        "type": "NamedIndividual",
+        "name": "Room",
+        "label": "room",
+        "definition": "partitioned part of the inside of a building"
+    },
+    {
+        "id": "Lower",
+        "type": "NamedIndividual",
+        "name": "Lower",
+        "definition": "floor of a building in a multistory structure that is closer to ground level",
+        "label": "lower"
+    },
+    {
+        "id": "hasPrimaryAddressNumber",
+        "type": "ObjectProperty",
+        "name": "hasPrimaryAddressNumber",
+        "definition": "specifies a a location with respect to a given street",
+        "label": "has primary address number"
+    },
+    {
+        "id": "Hangar",
+        "type": "NamedIndividual",
+        "name": "Hangar",
+        "label": "hanger",
+        "definition": "shed or shelter; any relatively wide structure used for housing airplanes or airships"
+    },
+    {
+        "id": "Upper",
+        "type": "SecondaryUnitDesignator",
+        "name": "Upper",
+        "definition": "floor of a building in a multistory structure that is farther away from the ground level",
+        "label": "upper"
+    },
+    {
+        "id": "hasAddressLine3",
+        "type": "DatatypeProperty",
+        "name": "hasAddressLine3",
+        "definition": "the third line of the street address",
+        "label": "has address line 3"
+    },
+    {
+        "id": "hasStructureName",
+        "type": "ObjectProperty",
+        "name": "hasStructureName",
+        "definition": "specifies an identifier for a building, house, office complex, shopping center, or other structure or group of structures",
+        "label": "has structure name"
+    },
+    {
+        "id": "hasAddress",
+        "type": "ObjectProperty",
+        "name": "hasAddress",
+        "definition": "indicates a means by which something (in the case of a network address) or some entity may be located or contacted or may receive correspondence",
+        "label": "has address"
+    },
+    {
+        "id": "hasStreetSuffix",
+        "type": "ObjectProperty",
+        "name": "hasStreetSuffix",
+        "label": "has street suffix",
+        "definition": "specifies an additional qualifier for a street or other delivery location, such as a dwelling located along a waterway"
+    },
+    {
+        "id": "hasPredirectionalSymbol",
+        "type": "ObjectProperty",
+        "name": "hasPredirectionalSymbol",
+        "label": "has predirectional symbol",
+        "definition": "specifies a geographic directional symbol that occurs after the primary street number but before the street name in a street address"
+    },
+    {
+        "id": "Front",
+        "type": "NamedIndividual",
+        "name": "Front",
+        "definition": "side or part of a building that presents itself to view first, that faces the street; the most forward part of a building",
+        "label": "front"
+    }
+]

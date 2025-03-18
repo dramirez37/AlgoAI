@@ -1,0 +1,170 @@
+[
+    {
+        "source_id": "Valoren",
+        "target_id": "NationalSecuritiesIdentifyingNumber",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Valoren",
+        "target_id": "ProprietarySecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Valoren",
+        "target_id": "ListedSecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StockExchangeDailyOfficialListCode",
+        "target_id": "NationalSecuritiesIdentifyingNumber",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StockExchangeDailyOfficialListCode",
+        "target_id": "ListedSecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StockExchangeDailyOfficialListCode",
+        "target_id": "ProprietarySecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CUSIPInternationalNumberingSystemNumber",
+        "target_id": "ProprietarySecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CUSIPInternationalNumberingSystemNumber",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrumentGlobalIdentifierRegistryEntry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrumentGlobalIdentifierRegistryEntry",
+        "target_id": "FinancialInstrumentGlobalIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "FinancialInstrumentGlobalIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "TelekursId",
+        "target_id": "ProprietarySecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommonCodeRegistryEntry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommonCodeRegistryEntry",
+        "target_id": "EuroclearClearstreamCommonCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "EuroclearClearstreamCommonCode"
+            ]
+        }
+    },
+    {
+        "source_id": "CommitteeOnUniformSecuritiesIdentificationProceduresNumber",
+        "target_id": "ProprietarySecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommitteeOnUniformSecuritiesIdentificationProceduresNumber",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommitteeOnUniformSecuritiesIdentificationProceduresNumber",
+        "target_id": "NationalSecuritiesIdentifyingNumber",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EuroclearClearstreamCommonCode",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EuroclearClearstreamCommonCode",
+        "target_id": "EuroclearClearstreamCommonCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isRegisteredBy",
+                "N9e42b9644f0040a19c749ee5519be928"
+            ]
+        }
+    },
+    {
+        "source_id": "EuroclearClearstreamCommonCode",
+        "target_id": "EuroclearClearstreamCommonCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isIssuedBy",
+                "Nfe51779a6fc7457eaf793327ba5c598a"
+            ]
+        }
+    },
+    {
+        "source_id": "EuroclearClearstreamCommonCode",
+        "target_id": "ProprietarySecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrumentGlobalIdentifier",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RefinitivInstrumentCode",
+        "target_id": "ProprietarySecurityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

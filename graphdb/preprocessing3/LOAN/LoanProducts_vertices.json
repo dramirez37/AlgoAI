@@ -1,0 +1,222 @@
+[
+    {
+        "id": "MortgageProduct",
+        "type": "Class",
+        "name": "MortgageProduct",
+        "label": "mortgage product"
+    },
+    {
+        "id": "LoanProduct",
+        "type": "Class",
+        "name": "LoanProduct",
+        "label": "loan product",
+        "definition": "financial product that is realized as a loan that a party may acquire from a lending institution with specific characteristics and terms"
+    },
+    {
+        "id": "LoanMarketCategory",
+        "type": "Class",
+        "name": "LoanMarketCategory",
+        "definition": "category indicating the market domain in which the loan product is offered",
+        "label": "loan market category"
+    },
+    {
+        "id": "IndustrySectorClassifier",
+        "type": "Entity",
+        "name": "IndustrySectorClassifier"
+    },
+    {
+        "id": "LoanProductDisclosureRight",
+        "type": "Class",
+        "name": "LoanProductDisclosureRight",
+        "definition": "Right to fair representation of the facts about Loan products before entrering into agreements for same.",
+        "label": "loan product disclosure right"
+    },
+    {
+        "id": "ProductDisclosureRight",
+        "type": "Entity",
+        "name": "ProductDisclosureRight"
+    },
+    {
+        "id": "LineItem",
+        "type": "Class",
+        "name": "LineItem",
+        "definition": "description of a product or service including its unit cost, number of units and total cost",
+        "label": "line item"
+    },
+    {
+        "id": "Constituent",
+        "type": "Entity",
+        "name": "Constituent"
+    },
+    {
+        "id": "CreditFacility",
+        "type": "Entity",
+        "name": "CreditFacility"
+    },
+    {
+        "id": "FinancialProduct",
+        "type": "Entity",
+        "name": "FinancialProduct"
+    },
+    {
+        "id": "OverdraftFacilityPurpose",
+        "type": "Class",
+        "name": "OverdraftFacilityPurpose",
+        "label": "overdraft facility purpose"
+    },
+    {
+        "id": "LoanPurpose",
+        "type": "Class",
+        "name": "LoanPurpose",
+        "label": "loan purpose",
+        "definition": "A selection of different types of loan purpose, being the purpose for which and manner in which loan (credit) draw-down amounts are to be used. This shows the purpose for which credit is to be used, and implies certain kinds of fact that relate to that specific type of loan e.g. mortgages. These are also identified as tranche types in tranches of a credit facility."
+    },
+    {
+        "id": "LoanProductOffering",
+        "type": "Class",
+        "name": "LoanProductOffering",
+        "definition": "offering related to a loan product that may be a tailored to particular circumstances, aimed at a group of borrowers or individual borrower",
+        "label": "loan offering"
+    },
+    {
+        "id": "Offering",
+        "type": "Entity",
+        "name": "Offering"
+    },
+    {
+        "id": "ResidentialHouseboatLoanPurpose",
+        "type": "Class",
+        "name": "ResidentialHouseboatLoanPurpose",
+        "label": "residential houseboat loan purpose"
+    },
+    {
+        "id": "StudentLoanPurpose",
+        "type": "Class",
+        "name": "StudentLoanPurpose",
+        "label": "student loan purpose"
+    },
+    {
+        "id": "Objective",
+        "type": "Entity",
+        "name": "Objective"
+    },
+    {
+        "id": "MortgageLoanPurpose",
+        "type": "Class",
+        "name": "MortgageLoanPurpose"
+    },
+    {
+        "id": "OrdinaryLoanPurpose",
+        "type": "Class",
+        "name": "OrdinaryLoanPurpose",
+        "label": "ordinary loan purpose"
+    },
+    {
+        "id": "AutoLoanPurpose",
+        "type": "Class",
+        "name": "AutoLoanPurpose",
+        "label": "auto loan purpose"
+    },
+    {
+        "id": "MotorhomeLoanPurpose",
+        "type": "Class",
+        "name": "MotorhomeLoanPurpose",
+        "label": "motorhome loan purpose"
+    },
+    {
+        "id": "HomeEquityLoanPurpose",
+        "type": "Class",
+        "name": "HomeEquityLoanPurpose",
+        "label": "home equity loan purpose"
+    },
+    {
+        "id": "ConstructionLoanPurpose",
+        "type": "Class",
+        "name": "ConstructionLoanPurpose",
+        "label": "construction loan purpose"
+    },
+    {
+        "id": "Loan",
+        "type": "Class",
+        "name": "Loan"
+    },
+    {
+        "id": "LoanProductRepresentations",
+        "type": "Class",
+        "name": "LoanProductRepresentations"
+    },
+    {
+        "id": "WorkingCapitalPurpose",
+        "type": "Class",
+        "name": "WorkingCapitalPurpose",
+        "label": "working capital purpose"
+    },
+    {
+        "id": "CreditCardReceivablePurpose",
+        "type": "Class",
+        "name": "CreditCardReceivablePurpose",
+        "label": "credit card receivable purpose"
+    },
+    {
+        "id": "BridgingLoanPurpose",
+        "type": "Class",
+        "name": "BridgingLoanPurpose",
+        "label": "bridging loan purpose"
+    },
+    {
+        "id": "LoanMarketCategory-Construction",
+        "type": "LoanMarketCategory",
+        "name": "LoanMarketCategory-Construction",
+        "label": "construction loan"
+    },
+    {
+        "id": "hasUnitCost",
+        "type": "ObjectProperty",
+        "name": "hasUnitCost",
+        "definition": "relates an item to its unit cost",
+        "label": "has unit cost"
+    },
+    {
+        "id": "LoanMarketCategory-Personal",
+        "type": "LoanMarketCategory",
+        "name": "LoanMarketCategory-Personal",
+        "label": "personal loan"
+    },
+    {
+        "id": "LoanMarketCategory-Mortgage",
+        "type": "LoanMarketCategory",
+        "name": "LoanMarketCategory-Mortgage",
+        "label": "mortgage loan"
+    },
+    {
+        "id": "LoanMarketCategory-Commercial",
+        "type": "NamedIndividual",
+        "name": "LoanMarketCategory-Commercial",
+        "label": "commercial loan"
+    },
+    {
+        "id": "LoanMarketCategory-Automobile",
+        "type": "NamedIndividual",
+        "name": "LoanMarketCategory-Automobile",
+        "label": "auto loan"
+    },
+    {
+        "id": "LoanMarketCategory-SmallBusiness",
+        "type": "NamedIndividual",
+        "name": "LoanMarketCategory-SmallBusiness",
+        "label": "small business loan",
+        "explanatoryNote": "This is related to the mortgage loan purpose: 'business or commercial'."
+    },
+    {
+        "id": "LoanMarketCategory-Education",
+        "type": "NamedIndividual",
+        "name": "LoanMarketCategory-Education",
+        "label": "education loan"
+    },
+    {
+        "id": "hasPreconditions",
+        "type": "ObjectProperty",
+        "name": "hasPreconditions",
+        "label": "has preconditions"
+    }
+]

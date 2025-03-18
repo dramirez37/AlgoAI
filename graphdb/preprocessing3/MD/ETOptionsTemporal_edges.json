@@ -1,0 +1,74 @@
+[
+    {
+        "source_id": "OptionsVega",
+        "target_id": "OptionsGreek",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionsVega",
+        "target_id": "OptionTheoreticalValue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "OptionTheoreticalValue"
+            ]
+        }
+    },
+    {
+        "source_id": "OptionsGreek",
+        "target_id": "PriceAnalytic",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionsTheta",
+        "target_id": "OptionsGreek",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionsTheta",
+        "target_id": "OptionTheoreticalValue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "OptionTheoreticalValue"
+            ]
+        }
+    },
+    {
+        "source_id": "OptionTheoreticalValue",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionDailySettlementPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OptionDailySettlementPrice",
+        "target_id": "ClosingPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Delta",
+        "target_id": "OptionsGreek",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

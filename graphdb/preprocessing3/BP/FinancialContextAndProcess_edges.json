@@ -1,0 +1,182 @@
+[
+    {
+        "source_id": "TradesReferenceDataProvision",
+        "target_id": "SecuritiesTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTradeCaptureAndValidation",
+        "target_id": "SecuritiesPostTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTrade",
+        "target_id": "FinancialIndustryContext",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClearingAndSettlement",
+        "target_id": "FinancialIndustryContext",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketDataProvision",
+        "target_id": "PreTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreTrade",
+        "target_id": "InvestmentManagement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesPostTrade",
+        "target_id": "FinancialIndustryContext",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesPostTradePositionManagement",
+        "target_id": "SecuritiesPostTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ShortSaleLocate",
+        "target_id": "PreTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialMarketsRegulation",
+        "target_id": "FinancialIndustryContext",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTradeOrderRouting",
+        "target_id": "SecuritiesTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTradeAllocation",
+        "target_id": "SecuritiesPostTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WhenIssuedTrading",
+        "target_id": "PrimaryMarket",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialIndustryContext",
+        "target_id": "Context",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTradeDatePositionReporting",
+        "target_id": "SecuritiesTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PretradeReferenceDataProvision",
+        "target_id": "PreTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecondaryMarketTradingContext",
+        "target_id": "FinancialIndustryContext",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesCustody",
+        "target_id": "FinancialIndustryContext",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrimaryMarketIndicationsOfInterest",
+        "target_id": "PreTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrimaryMarket",
+        "target_id": "FinancialIndustryContext",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PortfolioManagement",
+        "target_id": "InvestmentManagement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentManagement",
+        "target_id": "FinancialIndustryContext",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrimaryMarketClosing",
+        "target_id": "PrimaryMarket",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PretradeQuotes",
+        "target_id": "PreTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTradeConfirmationAffirmation",
+        "target_id": "SecuritiesPostTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Clearing",
+        "target_id": "ClearingAndSettlement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeAdvertisements",
+        "target_id": "PreTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTradesReporting",
+        "target_id": "SecuritiesPostTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTradesMatching",
+        "target_id": "SecuritiesPostTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTradeExecution",
+        "target_id": "SecuritiesTrade",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

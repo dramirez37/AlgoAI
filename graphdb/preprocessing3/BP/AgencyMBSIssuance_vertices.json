@@ -1,0 +1,344 @@
+[
+    {
+        "id": "AssessPoolSuitablilityForIssuance",
+        "type": "Class",
+        "name": "AssessPoolSuitablilityForIssuance",
+        "label": "assess pool suitablility for issuance"
+    },
+    {
+        "id": "IssuanceProcessActivity",
+        "type": "Entity",
+        "name": "IssuanceProcessActivity"
+    },
+    {
+        "id": "AddMortgageToPool",
+        "type": "Class",
+        "name": "AddMortgageToPool",
+        "label": "add mortgage to pool"
+    },
+    {
+        "id": "MakeSecuritiesAvailabeInMarket",
+        "type": "Class",
+        "name": "MakeSecuritiesAvailabeInMarket",
+        "label": "make securities availabe in market"
+    },
+    {
+        "id": "InIssuanceAgencyMortgagePool",
+        "type": "Class",
+        "name": "InIssuanceAgencyMortgagePool",
+        "label": "in issuance agency mortgage pool"
+    },
+    {
+        "id": "AgencyMortgagePool",
+        "type": "Entity",
+        "name": "AgencyMortgagePool"
+    },
+    {
+        "id": "AcquireMortgage",
+        "type": "Class",
+        "name": "AcquireMortgage",
+        "label": "acquire mortgage"
+    },
+    {
+        "id": "PotentialAgencyMBSIssuer",
+        "type": "Class",
+        "name": "PotentialAgencyMBSIssuer",
+        "label": "potential agency m b s issuer",
+        "definition": "The entity which will become the issuing party for the pass through MBS Issue. This entity is the principal actor in most of the activities involved in the issue. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "PoolBackedSecuritySecuritizationProcessActor",
+        "type": "Entity",
+        "name": "PoolBackedSecuritySecuritizationProcessActor"
+    },
+    {
+        "id": "AgencyMortgagePoolCreationProcess",
+        "type": "Class",
+        "name": "AgencyMortgagePoolCreationProcess",
+        "label": "agency mortgage pool creation process"
+    },
+    {
+        "id": "RetailAssetPoolCreationProcess",
+        "type": "Entity",
+        "name": "RetailAssetPoolCreationProcess"
+    },
+    {
+        "id": "IdentifyUnderwriter",
+        "type": "Class",
+        "name": "IdentifyUnderwriter",
+        "label": "identify underwriter"
+    },
+    {
+        "id": "NotYetIssuedAgencyMortgagePool",
+        "type": "Class",
+        "name": "NotYetIssuedAgencyMortgagePool",
+        "label": "not yet issued agency mortgage pool"
+    },
+    {
+        "id": "InAssemblyAgencyMortgagePool",
+        "type": "Class",
+        "name": "InAssemblyAgencyMortgagePool",
+        "label": "in assembly agency mortgage pool"
+    },
+    {
+        "id": "PoolConformanceCriteria",
+        "type": "Class",
+        "name": "PoolConformanceCriteria",
+        "label": "pool conformance criteria"
+    },
+    {
+        "id": "PassThroughMBSSecuritizationProcess",
+        "type": "Class",
+        "name": "PassThroughMBSSecuritizationProcess",
+        "label": "pass through m b s securitization process"
+    },
+    {
+        "id": "MBSSecuritizationProcess",
+        "type": "Entity",
+        "name": "MBSSecuritizationProcess"
+    },
+    {
+        "id": "DefineMortgagePool",
+        "type": "Class",
+        "name": "DefineMortgagePool",
+        "label": "define mortgage pool"
+    },
+    {
+        "id": "PassThroughOfferingMemorandum",
+        "type": "Class",
+        "name": "PassThroughOfferingMemorandum",
+        "definition": "The offering memorandum for a pass through MBS issue, setting out basic information about a future issue, for the information of prospective investors and their agents. Term origin:MBS PoC Reviews",
+        "label": "pass through offering memorandum"
+    },
+    {
+        "id": "OfferingDocument",
+        "type": "Entity",
+        "name": "OfferingDocument"
+    },
+    {
+        "id": "PassThroughMBSFinalTermsheet",
+        "type": "Class",
+        "name": "PassThroughMBSFinalTermsheet",
+        "label": "pass through m b s final termsheet",
+        "definition": "The final termsheet for the pass through MBS issue. This defines the terms for the MBS contract itself. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "PassThroughIssueProspectusPart",
+        "type": "Class",
+        "name": "PassThroughIssueProspectusPart",
+        "label": "pass through issue prospectus part",
+        "definition": "A part or section of a prospectus for a pass through MBS issue. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "TermSheet",
+        "type": "Entity",
+        "name": "TermSheet"
+    },
+    {
+        "id": "PassThroughMBSDraftProspectus",
+        "type": "Class",
+        "name": "PassThroughMBSDraftProspectus",
+        "definition": "The draft prospectus for a pass through Mortgage Backed Securities issue, as determined by the issuing agency prior to marketing the issue. Certain terms in the draft prospectus will be finalized later in the issuance process to become the actual Prospectus. Term origin:MBS PoC Reviews",
+        "label": "pass through m b s draft prospectus"
+    },
+    {
+        "id": "PreliminaryProspectus",
+        "type": "Entity",
+        "name": "PreliminaryProspectus"
+    },
+    {
+        "id": "DrawUpTermsheet",
+        "type": "Class",
+        "name": "DrawUpTermsheet",
+        "label": "draw up termsheet"
+    },
+    {
+        "id": "DraftPassThroughTermsheet",
+        "type": "Class",
+        "name": "DraftPassThroughTermsheet",
+        "label": "draft pass through termsheet",
+        "definition": "Draft of set of information defining the pass thorugh security terms. These will eventually become the contractual terms of the instrument. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "ProspectusPart",
+        "type": "Entity",
+        "name": "ProspectusPart"
+    },
+    {
+        "id": "ValidateConformance",
+        "type": "Class",
+        "name": "ValidateConformance",
+        "definition": "The mortgage is automatically validated for conformance to the requirements of the pool in which it is to be included.",
+        "label": "validate conformance"
+    },
+    {
+        "id": "DrawUpOfferingMemorandum",
+        "type": "Class",
+        "name": "DrawUpOfferingMemorandum",
+        "label": "draw up offering memorandum"
+    },
+    {
+        "id": "PotentialPassThroughIssuanceUnderwriter",
+        "type": "Class",
+        "name": "PotentialPassThroughIssuanceUnderwriter",
+        "label": "potential pass through issuance underwriter",
+        "definition": "The entity which will become the underwriter for the pass through MBS issue. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "PotentialUnderwriter",
+        "type": "Entity",
+        "name": "PotentialUnderwriter"
+    },
+    {
+        "id": "FinalizePoolContent",
+        "type": "Class",
+        "name": "FinalizePoolContent",
+        "label": "finalize pool content"
+    },
+    {
+        "id": "AllocatePrimaryIdentifier",
+        "type": "Class",
+        "name": "AllocatePrimaryIdentifier",
+        "label": "allocate primary identifier"
+    },
+    {
+        "id": "PassThroughMBSFinalProspectus",
+        "type": "Class",
+        "name": "PassThroughMBSFinalProspectus",
+        "definition": "Term origin:MBS PoC Reviews",
+        "label": "pass through m b s final prospectus"
+    },
+    {
+        "id": "MortgageBackedSecurityOfferingProspectus",
+        "type": "Entity",
+        "name": "MortgageBackedSecurityOfferingProspectus"
+    },
+    {
+        "id": "IdentifyConformingMortgage",
+        "type": "Class",
+        "name": "IdentifyConformingMortgage",
+        "label": "identify conforming mortgage",
+        "definition": "Identify mortgage conforming to overall requirements for this issuer.",
+        "explanatoryNote": "This does not relate to the criteria for belonging to an individual, defined mortgage pool but conforms to the requirements of the issuing organization overall. This is for Agency pools. For non-agency, the equivalent of this step is carried out at pool level with a clause to reject the mortgage."
+    },
+    {
+        "id": "FinalizeProspectus",
+        "type": "Class",
+        "name": "FinalizeProspectus",
+        "label": "finalize prospectus"
+    },
+    {
+        "id": "RegisterSecurity",
+        "type": "Class",
+        "name": "RegisterSecurity",
+        "label": "register security"
+    },
+    {
+        "id": "MarketIssue",
+        "type": "Class",
+        "name": "MarketIssue",
+        "label": "market issue"
+    },
+    {
+        "id": "ClassifyMortgage",
+        "type": "Class",
+        "name": "ClassifyMortgage",
+        "label": "classify mortgage"
+    },
+    {
+        "id": "hasResource",
+        "type": "ObjectProperty",
+        "name": "hasResource",
+        "label": "has resource"
+    },
+    {
+        "id": "SuitableForIssue",
+        "type": "Class",
+        "name": "SuitableForIssue",
+        "label": "suitable for issue"
+    },
+    {
+        "id": "adds",
+        "type": "ObjectProperty",
+        "name": "adds",
+        "label": "adds"
+    },
+    {
+        "id": "resultsInAppointmentOf",
+        "type": "ObjectProperty",
+        "name": "resultsInAppointmentOf",
+        "label": "results in appointment of"
+    },
+    {
+        "id": "addsToPool",
+        "type": "ObjectProperty",
+        "name": "addsToPool",
+        "label": "adds to pool"
+    },
+    {
+        "id": "identifies",
+        "type": "ObjectProperty",
+        "name": "identifies",
+        "label": "identifies"
+    },
+    {
+        "id": "allocatesIdentifier",
+        "type": "ObjectProperty",
+        "name": "allocatesIdentifier",
+        "label": "allocates identifier"
+    },
+    {
+        "id": "minimumRating",
+        "type": "ObjectProperty",
+        "name": "minimumRating",
+        "label": "minimum rating"
+    },
+    {
+        "id": "purchase",
+        "type": "ObjectProperty",
+        "name": "purchase",
+        "label": "purchase"
+    },
+    {
+        "id": "isAssessmentOf",
+        "type": "ObjectProperty",
+        "name": "isAssessmentOf",
+        "label": "is assessment of"
+    },
+    {
+        "id": "isDefiningOf",
+        "type": "ObjectProperty",
+        "name": "isDefiningOf",
+        "label": "is defining of"
+    },
+    {
+        "id": "purchases",
+        "type": "ObjectProperty",
+        "name": "purchases",
+        "label": "purchases"
+    },
+    {
+        "id": "maximumLoanBalance",
+        "type": "ObjectProperty",
+        "name": "maximumLoanBalance",
+        "label": "maximum loan balance"
+    },
+    {
+        "id": "definesCriteriaFor",
+        "type": "ObjectProperty",
+        "name": "definesCriteriaFor",
+        "label": "defines criteria for"
+    },
+    {
+        "id": "validates",
+        "type": "ObjectProperty",
+        "name": "validates",
+        "label": "validates"
+    },
+    {
+        "id": "finalizes",
+        "type": "ObjectProperty",
+        "name": "finalizes",
+        "label": "finalizes"
+    }
+]

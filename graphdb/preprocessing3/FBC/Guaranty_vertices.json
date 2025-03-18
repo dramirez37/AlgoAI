@@ -1,0 +1,190 @@
+[
+    {
+        "id": "Insurer",
+        "type": "Class",
+        "name": "Insurer",
+        "label": "insurer",
+        "definition": "financial service provider that issues an insurance policy"
+    },
+    {
+        "id": "FinancialServiceProvider",
+        "type": "Entity",
+        "name": "FinancialServiceProvider"
+    },
+    {
+        "id": "ContractPrincipal",
+        "type": "Entity",
+        "name": "ContractPrincipal"
+    },
+    {
+        "id": "CollateralizedGuaranty",
+        "type": "Class",
+        "name": "CollateralizedGuaranty",
+        "label": "collateralized guaranty",
+        "definition": "guaranty that takes the form of some asset that is pledged by a borrower to a lender (usually in return for a loan)",
+        "explanatoryNote": "In some cases, the lender may require the borrower to place pledged assets such as cash or securities in a separate account that the lender controls."
+    },
+    {
+        "id": "Guaranty",
+        "type": "Class",
+        "name": "Guaranty",
+        "definition": "commitment whereby something is formally assured if a party with primary liability fails to perform",
+        "explanatoryNote": "The commitment may cover a debt, cash flows on a debt instrument (such as interest payments), or performance of some obligation.",
+        "label": "guaranty"
+    },
+    {
+        "id": "LetterOfCredit",
+        "type": "Class",
+        "name": "LetterOfCredit",
+        "definition": "letter from a bank or other creditworthy institution guaranteeing that a buyer's payment to a seller will be received on time and for the correct amount",
+        "abbreviation": "L/C",
+        "explanatoryNote": "In some states in the U.S., the issuer is not limited to financial institutions -- it is simply a written instrument, addressed by one person to another, requesting the latter to give credit to the person in whose favor it is drawn.",
+        "label": "letter of credit"
+    },
+    {
+        "id": "CommittedCreditFacility",
+        "type": "Entity",
+        "name": "CommittedCreditFacility"
+    },
+    {
+        "id": "FinancialAsset",
+        "type": "Entity",
+        "name": "FinancialAsset"
+    },
+    {
+        "id": "LetterOfCreditGuaranty",
+        "type": "Class",
+        "name": "LetterOfCreditGuaranty",
+        "definition": "guaranty that takes the form of a letter of credit, i.e., a document issued by a bank guaranteeing the payment up to a stated amount for a specified period",
+        "label": "letter of credit guaranty"
+    },
+    {
+        "id": "InsurancePolicy",
+        "type": "Class",
+        "name": "InsurancePolicy",
+        "label": "insurance policy",
+        "definition": "contract document that (1) puts an indemnity cover into effect, (2) serves as a legal evidence of the insurance agreement, (3) sets out the exact terms on which the indemnity cover has been provided, and (4) states associated information such as the (a) specific risks and perils covered, (b) duration of coverage, (c) amount of premium, (d) mode of premium payment, and (e) deductibles, if any"
+    },
+    {
+        "id": "ContractDocument",
+        "type": "Entity",
+        "name": "ContractDocument"
+    },
+    {
+        "id": "Guarantor",
+        "type": "Class",
+        "name": "Guarantor",
+        "explanatoryNote": "In some cases, the party acting as guarantor may also be a party to the contract, such as in the case of Fannie Mae or Freddie Mac. In such cases, the same individual would be modeled as having both roles.",
+        "definition": "party that guarantees, endorses, or provides indemnity for some obligation on behalf of some other party",
+        "label": "guarantor"
+    },
+    {
+        "id": "ContractThirdParty",
+        "type": "Entity",
+        "name": "ContractThirdParty"
+    },
+    {
+        "id": "DeJureControllingInterestParty",
+        "type": "Entity",
+        "name": "DeJureControllingInterestParty"
+    },
+    {
+        "id": "GovernmentGuaranty",
+        "type": "Class",
+        "name": "GovernmentGuaranty",
+        "label": "government guaranty",
+        "definition": "guaranty provided by a government entity, such as for a government-backed security"
+    },
+    {
+        "id": "Commitment",
+        "type": "Entity",
+        "name": "Commitment"
+    },
+    {
+        "id": "JointGuaranty",
+        "type": "Class",
+        "name": "JointGuaranty",
+        "definition": "guaranty provided by at least two parties, jointly and severally",
+        "label": "joint guaranty"
+    },
+    {
+        "id": "NegativePledge",
+        "type": "Class",
+        "name": "NegativePledge",
+        "definition": "guaranty whereby the issuer will not pledge any assets if doing so would result in less security for lender(s) or investor(s)",
+        "label": "negative pledge"
+    },
+    {
+        "id": "InsuranceBackedGuaranty",
+        "type": "Class",
+        "name": "InsuranceBackedGuaranty",
+        "definition": "guaranty that is realized as an insurance policy",
+        "label": "insurance-backed guaranty"
+    },
+    {
+        "id": "PriorityLevel",
+        "type": "Class",
+        "name": "PriorityLevel",
+        "label": "priority level",
+        "definition": "relative ranking that a guaranty has in the context of a contract, for example for a credit enhancement priority"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "Policyholder",
+        "type": "Class",
+        "name": "Policyholder",
+        "label": "policyholder",
+        "definition": "counterparty to and typically owner of an insurance policy"
+    },
+    {
+        "id": "Counterparty",
+        "type": "Entity",
+        "name": "Counterparty"
+    },
+    {
+        "id": "hasGuarantorParty",
+        "type": "ObjectProperty",
+        "name": "hasGuarantorParty",
+        "definition": "indicates a party that guarantees, endorses, or provides indemnity for some obligation on its behalf",
+        "label": "has guarantor party"
+    },
+    {
+        "id": "hasPriorityLevel",
+        "type": "ObjectProperty",
+        "name": "hasPriorityLevel",
+        "label": "has priority level",
+        "definition": "relates a guaranty to some relative ranking that the guaranty has in the context of the contract, for example for a credit enhancement priority"
+    },
+    {
+        "id": "hasGuaranteedAmount",
+        "type": "ObjectProperty",
+        "name": "hasGuaranteedAmount",
+        "label": "has guaranteed amount",
+        "definition": "relates the guaranty to the monetary amount guaranteed"
+    },
+    {
+        "id": "hasGuarantor",
+        "type": "ObjectProperty",
+        "name": "hasGuarantor",
+        "label": "has guarantor",
+        "definition": "relates the guarantor to the contract for which they are providing a guaranty"
+    },
+    {
+        "id": "isGuarantorOf",
+        "type": "ObjectProperty",
+        "name": "isGuarantorOf",
+        "label": "is guarantor of",
+        "definition": "identifies a party over which a guarantor has some measure of control by virtue of the guarantee"
+    },
+    {
+        "id": "isGuaranteedBy",
+        "type": "ObjectProperty",
+        "name": "isGuaranteedBy",
+        "label": "is guaranteed by",
+        "definition": "relates guaranty to the contract guarantor, i.e., to the legal person providing the guaranty"
+    }
+]

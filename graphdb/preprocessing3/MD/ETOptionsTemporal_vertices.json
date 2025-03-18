@@ -1,0 +1,66 @@
+[
+    {
+        "id": "OptionsVega",
+        "type": "Class",
+        "name": "OptionsVega",
+        "label": "options vega",
+        "definition": "A measure of the rate of change in an option's theoretical value for a one-unit change in the volatility assumption. Action: add terms that define or influence this."
+    },
+    {
+        "id": "OptionsGreek",
+        "type": "Class",
+        "name": "OptionsGreek",
+        "label": "options greek",
+        "definition": "quantity representing the sensitivity of the price of an option or options to a change in underlying parameters on which the value depends"
+    },
+    {
+        "id": "PriceAnalytic",
+        "type": "Entity",
+        "name": "PriceAnalytic"
+    },
+    {
+        "id": "OptionsTheta",
+        "type": "Class",
+        "name": "OptionsTheta",
+        "label": "options theta",
+        "definition": "A measure of the rate of change in an option's theoretical value for a one-unit change in time to the option's expiration date. Action: add terms that define or influence this."
+    },
+    {
+        "id": "OptionTheoreticalValue",
+        "type": "Class",
+        "name": "OptionTheoreticalValue",
+        "definition": "fair value of the option as determined by an option pricing model",
+        "explanatoryNote": "The pricing model (such as the Black-Scholes model) takes into account current values such as implied volatility, the price of the underlying, the strike price, and time to expiration to determine what an option should be worth.  Each of the input values fluctuate, which means theoretical price will also be a fluctuating value.",
+        "label": "option theoretical value"
+    },
+    {
+        "id": "MonetaryAmount",
+        "type": "Entity",
+        "name": "MonetaryAmount"
+    },
+    {
+        "id": "OptionDailySettlementPrice",
+        "type": "Class",
+        "name": "OptionDailySettlementPrice",
+        "label": "option daily settlement price",
+        "definition": "The official price at the end of a trading session. This price is established by The Options Clearing Corporation and is used to determine changes in account equity, margin requirements, and for other purposes."
+    },
+    {
+        "id": "SecurityPrice",
+        "type": "Entity",
+        "name": "SecurityPrice"
+    },
+    {
+        "id": "ClosingPrice",
+        "type": "Entity",
+        "name": "ClosingPrice"
+    },
+    {
+        "id": "Delta",
+        "type": "Class",
+        "name": "Delta",
+        "explanatoryNote": "Delta tells you what options to buy to get the equivalent price sensitivity to the underlying. How many at that price to get that hedge. So for example an at the money option has a delta of 50. Units",
+        "definition": "First derivative of option value with respect to theoretical price is a delta (or on a position). Theoretical price",
+        "label": "delta"
+    }
+]

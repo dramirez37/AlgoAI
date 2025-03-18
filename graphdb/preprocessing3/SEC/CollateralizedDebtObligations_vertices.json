@@ -1,0 +1,908 @@
+[
+    {
+        "id": "TranchedMBSInstrument",
+        "type": "Class",
+        "name": "TranchedMBSInstrument",
+        "label": "tranched m b s instrument"
+    },
+    {
+        "id": "MortgageBackedSecurity",
+        "type": "Entity",
+        "name": "MortgageBackedSecurity"
+    },
+    {
+        "id": "CashCDOTranche",
+        "type": "Class",
+        "name": "CashCDOTranche",
+        "label": "cash c d o tranche"
+    },
+    {
+        "id": "CollateralizedDebtObligation",
+        "type": "Class",
+        "name": "CollateralizedDebtObligation",
+        "definition": "structured finance constructed from a portfolio of fixed income assets including corporate loans and mortgage backed securities. A special purpose vehicle (SPV) issues notes to investors in order to raise funds that are invested in a portfolio of those fixed income assets, held by the SPV as collateral for the notes. Further notes: Collateralized Debt Obligation, for example, ABS CDO which consists of a portfolio of different ABS bonds, and the payments to the holders of these trust certificates are derived from the cash flows of the ABS bonds. This CDO instrument is part of a CDO issue, consisting of individual CDO instruments of a given seniority. Often referred to as tranches and slices (Investopedia). Investopedia: Similar in structure to a collateralized mortgage obligation (CMO) or collateralized bond obligation (CBO), CDOs are unique in that they represent different types of debt and credit risk. In the case of CDOs, these different types of debt are often referred to as 'tranches' or 'slices'. Each slice has a different maturity and risk associated with it. The higher the risk, the more the CDO pays. Further details: Collateralized Debt obligations are securitized interests in pools of - generally non-mortgage - assets. Assets - called collateral - usually comprise loans or debt instruments. A CDO may be called a collateralized loan obligation (CLO) or collateralized bond obligation (CBO) if it holds only loans or bonds, respectively. Investors bear the credit risk of the collateral. Multiple tranches of securities are issued by the CDO, offering investors various maturity and credit risk characteristics.",
+        "label": "collateralized debt obligation",
+        "abbreviation": "CDO"
+    },
+    {
+        "id": "Tranche",
+        "type": "Entity",
+        "name": "Tranche"
+    },
+    {
+        "id": "AgencyJumpTranche",
+        "type": "Class",
+        "name": "AgencyJumpTranche",
+        "label": "agency jump tranche",
+        "definition": "A tranche where if there is some sort of trigger event reached then the holders of the tranche will begin to receive payments."
+    },
+    {
+        "id": "AgencyCMO",
+        "type": "Class",
+        "name": "AgencyCMO",
+        "label": "agency c m o"
+    },
+    {
+        "id": "NonAgencyIOTranche",
+        "type": "Class",
+        "name": "NonAgencyIOTranche",
+        "label": "non agency i o tranche",
+        "definition": "Interest Only tranche, meaning that this tranche will only pay interest."
+    },
+    {
+        "id": "DebtOffering",
+        "type": "Entity",
+        "name": "DebtOffering"
+    },
+    {
+        "id": "PAC-1Class",
+        "type": "Class",
+        "name": "PAC-1Class",
+        "definition": "Planned Amortization Class tranche. PAC-1 is the most senior Planned Amortization Class tranche.",
+        "explanatoryNote": "Principal payment must follow a certain schedule. These tranches have priority over the other tranches in the deal, which are then referred to as the support or companion tranches.",
+        "label": "p a c-1 class"
+    },
+    {
+        "id": "PlannedAmortizationClassBond",
+        "type": "Class",
+        "name": "PlannedAmortizationClassBond",
+        "explanatoryNote": "These tranches have priority over the other tranches in the deal, which are then referred to as the support or companion tranches. There are usually several PAC tranches created. PAC-1, PAC-2, PAC-3 -- this requires some more explanation. PAC-2 refers to a support tranche that is given a scheduled payment structure like a PAC bond. For example, let's say you have a deal with a PAC tranche and a support tranche (i.e., a tranche that is a support tranche and is therefore subordinate to the PAC tranche) that has a scheduled payment structure like you did with the PAC bond. That support bond then is called the PAC-2 bond. If you continue, and create another support tranche that also has scheduled payments, that would become the PAC-3 bond. Prospectus will cover each class. Prospectus is at the level of an issue.",
+        "label": "planned amortization class bond",
+        "definition": "Planned Amortization Class tranche.This is a tranche where the principal payment must follow a certain schedule."
+    },
+    {
+        "id": "TranchedMBSDeal",
+        "type": "Class",
+        "name": "TranchedMBSDeal",
+        "label": "tranched m b s deal"
+    },
+    {
+        "id": "CDODeal",
+        "type": "Class",
+        "name": "CDODeal",
+        "label": "c d o deal",
+        "explanatoryNote": "Multiple tranches of securities are issued by the CDO issue (usually referred to simply as the CDO), offering investors various maturity and credit risk characteristics. Note that it is in the sense of CDO as an issue that one might say that a CDO \"has tranches\". The CDO as an individual instrument (labelled CDO in this model) does not have tranches but is itself a member of one or another tranche.",
+        "definition": "An Issue of a set of CDO tranches as part of an offering to the market."
+    },
+    {
+        "id": "MBSTrancheNote",
+        "type": "Class",
+        "name": "MBSTrancheNote",
+        "explanatoryNote": "A Tranche is made up of e.g. $500m in notes and so on. These may be in different notes, with different denominations. Analytics that would apply to the Tranche would by implication apply to each slice of the tranche.",
+        "label": "m b s tranche note",
+        "definition": "An individual note of a tranche."
+    },
+    {
+        "id": "PromissoryNote",
+        "type": "Entity",
+        "name": "PromissoryNote"
+    },
+    {
+        "id": "RegularFloaterTranche",
+        "type": "Class",
+        "name": "RegularFloaterTranche",
+        "label": "regular floater tranche",
+        "definition": "A floater tranche is a tranche that is keyed to an index and a spread. The spread is added to the index.",
+        "explanatoryNote": "For example, 3 month LIBOR +50 -- meaning that the coupon would be whatever the 3 month LIBOR is plus 50 basis points. This is not a continuously updated number, rather it resets at specified intervals."
+    },
+    {
+        "id": "FloaterTranche",
+        "type": "Class",
+        "name": "FloaterTranche",
+        "definition": "A floater tranche is a tranche that is keyed to an index and a spread.",
+        "explanatoryNote": "For example, 3 month LIBOR +50 -- meaning that the coupon would be whatever the 3 month LIBOR is plus 50 basis points. This is not a continuously updated number, rather it resets at specified intervals.",
+        "label": "floater tranche"
+    },
+    {
+        "id": "LoanPool",
+        "type": "Class",
+        "name": "LoanPool",
+        "label": "loan pool",
+        "definition": "debt pool whose consituents are loans"
+    },
+    {
+        "id": "DebtPool",
+        "type": "Entity",
+        "name": "DebtPool"
+    },
+    {
+        "id": "CDOOriginationObjective",
+        "type": "Class",
+        "name": "CDOOriginationObjective",
+        "label": "c d o origination objective",
+        "definition": "The origin or motivation behind a CDO issue."
+    },
+    {
+        "id": "Objective",
+        "type": "Entity",
+        "name": "Objective"
+    },
+    {
+        "id": "SeniorCDOTranche",
+        "type": "Class",
+        "name": "SeniorCDOTranche",
+        "label": "senior c d o tranche",
+        "definition": "The most senior tranche of the CDO issue. Typically rated A to AAA. If there are defaults or the CDO's collateral otherwise underperforms, scheduled payments to senior tranches take precedence over those of mezzanine tranches."
+    },
+    {
+        "id": "StructuredFinanceInstrument",
+        "type": "Entity",
+        "name": "StructuredFinanceInstrument"
+    },
+    {
+        "id": "PACPOTranche",
+        "type": "Class",
+        "name": "PACPOTranche",
+        "label": "p a c p o tranche",
+        "definition": "Planned Amortization Class principal only tranche."
+    },
+    {
+        "id": "AgencyPOTranche",
+        "type": "Class",
+        "name": "AgencyPOTranche",
+        "label": "agency p o tranche",
+        "definition": "Principal Only tranche. This tranche will only pay principal."
+    },
+    {
+        "id": "CashCDO",
+        "type": "Class",
+        "name": "CashCDO",
+        "definition": "A CDO which has an uderlying portfolio of assets which are held by the issuer.",
+        "label": "cash c d o"
+    },
+    {
+        "id": "MarketValueCDO",
+        "type": "Class",
+        "name": "MarketValueCDO",
+        "label": "market value c d o"
+    },
+    {
+        "id": "HybridCDO",
+        "type": "Class",
+        "name": "HybridCDO",
+        "definition": "A CDO which combines features both of the cash and synthetic CDO. This is a CDO with tranches of cash and tranches of synthetic underlying assets. Further notes: So for example an issiue of $550 million may have $500 million in an asset pool and an additional $50 million created via a synthetic asset.",
+        "label": "hybrid c d o"
+    },
+    {
+        "id": "NonAgencyJumpTranche",
+        "type": "Class",
+        "name": "NonAgencyJumpTranche",
+        "label": "non agency jump tranche",
+        "definition": "A tranche where if there is some sort of trigger event reached then the holders of the tranche will begin to receive payments."
+    },
+    {
+        "id": "IOette",
+        "type": "Class",
+        "name": "IOette",
+        "definition": "REVIEW: Is this a kind of IO Tranche.",
+        "label": "i oette"
+    },
+    {
+        "id": "AgencyIOTranche",
+        "type": "Class",
+        "name": "AgencyIOTranche",
+        "label": "agency i o tranche"
+    },
+    {
+        "id": "CDOSquaredDeal",
+        "type": "Class",
+        "name": "CDOSquaredDeal",
+        "label": "c d o squared deal",
+        "definition": "An issue of CDO Squared notes."
+    },
+    {
+        "id": "ArbitrageCdoObjective",
+        "type": "Class",
+        "name": "ArbitrageCdoObjective",
+        "label": "arbitrage cdo objective",
+        "definition": "The objective is arbitrage, whereby the motivation is to add value by repackaging assets into tranches."
+    },
+    {
+        "id": "MezzanineCDOTranche",
+        "type": "Class",
+        "name": "MezzanineCDOTranche",
+        "label": "mezzanine c d o tranche",
+        "definition": "The tranche between senior and subordinated. Mezzanine tranches of a CDO issue are typically rated B to BBB.",
+        "explanatoryNote": "If there are defaults or the CDO's collateral otherwise underperforms, scheduled payments to mezzanine tranches take precedence over those to subordinated/equity tranches."
+    },
+    {
+        "id": "PAC-2Class",
+        "type": "Class",
+        "name": "PAC-2Class",
+        "label": "p a c-2 class",
+        "definition": "Planned Amortization Class tranche. PAC-2 refers to a support tranche that is given a scheduled payment structure like a PAC bond.",
+        "explanatoryNote": "Principal payment must follow a certain schedule. These tranches have priority over the other tranches in the deal, which are then referred to as the support or companion tranches. For example, let's say you have a deal with a PAC tranche and a support tranche (i.e., a tranche that is a support tranche and is therefore subordinate to the PAC tranche) that has a scheduled payment structure like you did with the PAC bond. That support bond then is called the PAC-2 bond. If you continue, and create another support tranche that also has scheduled payments, that would become the PAC-3 bond."
+    },
+    {
+        "id": "AgencyJumpZTranche",
+        "type": "Class",
+        "name": "AgencyJumpZTranche",
+        "label": "agency jump z tranche",
+        "definition": "A Jump Z tranche is like a Z tranche but if there is some sort of trigger event reached then the holders of the Jump Z tranche will begin to receive payments. Regular non-Sticky Jump Z tranches maintain their changed status only while the trigger event is in effect, and revert to their old payment status once the trigger event has passed."
+    },
+    {
+        "id": "AgencyZTranche",
+        "type": "Class",
+        "name": "AgencyZTranche",
+        "definition": "A tranche that does not receive payments while other tranches remain.",
+        "label": "agency z tranche"
+    },
+    {
+        "id": "TruePSObjective",
+        "type": "Class",
+        "name": "TruePSObjective",
+        "label": "true p s objective"
+    },
+    {
+        "id": "TACTranche",
+        "type": "Class",
+        "name": "TACTranche",
+        "definition": "Targeted Amortization Class. This is related to a PAC tranche and has a payment schedule geared towards a specified prepayment speed (called the pricing speed). Agency CMO",
+        "label": "t a c tranche"
+    },
+    {
+        "id": "ArbitrageCDO",
+        "type": "Class",
+        "name": "ArbitrageCDO",
+        "definition": "Arbitrage CDO/CLO/CBO - the reference assets are bought by a firm or conduit or SPV (Special Purpose Vehicle) with a view to repackage them and sell them on as the structured product.",
+        "label": "arbitrage c d o"
+    },
+    {
+        "id": "ManagedCDO",
+        "type": "Class",
+        "name": "ManagedCDO",
+        "label": "managed c d o",
+        "definition": "A CDO where the reference assets are bought (the portfolio is ramped up) and then the CDO manager may alter the portfolio as they see fit."
+    },
+    {
+        "id": "StaticCDO",
+        "type": "Class",
+        "name": "StaticCDO",
+        "explanatoryNote": "Investors can assess the various tranches of the CDO with full knowledge of what the collateral will be. The primary risk they face is credit risk. A deal that starts off managed can become static if the performance is too poor. Also, some deals are static but allow managers to sell out poorly performing assets subject to certain conditions, but do not allow purchase of new assets, so are semi-static.",
+        "definition": "A CDO where collateral is fixed through the life of the CDO. The reference assets are bought and then are kept untouched for the term of the product.",
+        "label": "static c d o"
+    },
+    {
+        "id": "JumpZTriggerEventReversal",
+        "type": "Class",
+        "name": "JumpZTriggerEventReversal",
+        "label": "jump z trigger event reversal",
+        "definition": "The reversal of the event which triggers the Jump Z"
+    },
+    {
+        "id": "TriggerEvent",
+        "type": "Class",
+        "name": "TriggerEvent",
+        "label": "trigger event",
+        "definition": "Any event where some value passes some threashold. Or some other type of business event. This is not restricted to \"trigger\" in the sense of a value passing a threshold. Can also be an seen such as a CDO manager going into bankruptcy."
+    },
+    {
+        "id": "MBSInstrumentSlice",
+        "type": "Class",
+        "name": "MBSInstrumentSlice",
+        "definition": "A holding of an individual slice or slices of a tranche.",
+        "label": "m b s instrument slice",
+        "explanatoryNote": "These may be held in different notes, with different denominations. Tranche slice in this sense is only relevant in the context of something like a CDO or analogous things such as CBO."
+    },
+    {
+        "id": "PortfolioHolding",
+        "type": "Entity",
+        "name": "PortfolioHolding"
+    },
+    {
+        "id": "ABSCDOInstrument",
+        "type": "Class",
+        "name": "ABSCDOInstrument",
+        "label": "a b s c d o instrument",
+        "definition": "CDO where the underlying asset pool is ABS."
+    },
+    {
+        "id": "PAC-ZTranche",
+        "type": "Class",
+        "name": "PAC-ZTranche",
+        "definition": "Planned Amortization Class tranche which is also a Z tranche, that is Definition needed.",
+        "label": "p a c- z tranche"
+    },
+    {
+        "id": "AgencyStickyJumpZ",
+        "type": "Class",
+        "name": "AgencyStickyJumpZ",
+        "label": "agency sticky jump z",
+        "definition": "\"Sticky\" Jump Z tranches maintain the payment priority of a Jump Z tranche until they are retired."
+    },
+    {
+        "id": "TranchedMBSDealProspectus",
+        "type": "Class",
+        "name": "TranchedMBSDealProspectus",
+        "label": "tranched m b s deal prospectus"
+    },
+    {
+        "id": "MortgageBackedSecurityOfferingProspectus",
+        "type": "Entity",
+        "name": "MortgageBackedSecurityOfferingProspectus"
+    },
+    {
+        "id": "ManagedCDOPortfolio",
+        "type": "Class",
+        "name": "ManagedCDOPortfolio",
+        "definition": "A portfolio where the reference assets of the CDO are bought (the portfolio is ramped up) and then the CDO manager may alter the portfolio as they see fit.",
+        "label": "managed c d o portfolio"
+    },
+    {
+        "id": "CDOPortfolio",
+        "type": "Class",
+        "name": "CDOPortfolio",
+        "definition": "A portfolio in which the reference assets of the CDO are held.",
+        "label": "c d o portfolio"
+    },
+    {
+        "id": "CollateralizedLoanObligationOffering",
+        "type": "Class",
+        "name": "CollateralizedLoanObligationOffering",
+        "label": "collateralized loan obligation offering",
+        "abbreviation": "CLO offering"
+    },
+    {
+        "id": "CollateralizedBondObligation",
+        "type": "Class",
+        "name": "CollateralizedBondObligation",
+        "abbreviation": "CBO",
+        "label": "collateralized bond obligation",
+        "definition": "structured debt security that has investment-grade bonds as its underlying assets backed by the receivables on high-yield or junk bonds",
+        "explanatoryNote": "A multitranche debt structure similar in some respects to a collateralized mortgage obligation (CMO) structure. Typically low-rated bonds rather than mortgages serve as the collateral. The organization creating and promoting the structure usually holds the underlying equity and may also collect a fee. Junk bonds are typically not investment grade, but because they pool several types of credit quality bonds together, they offer enough diversification to be \"investment grade.\" For example high yield [emerging market] CBO which consists of a portfolio of different high yield [emerging market] bonds. Investopedia: Similar in structure to a collateralized mortgage obligation (CMO), but different in that CBOs represent different levels of credit risk, not different maturities. Defoinition Origin:Investopedia"
+    },
+    {
+        "id": "CashABSPool",
+        "type": "Class",
+        "name": "CashABSPool",
+        "label": "cash a b s pool",
+        "definition": "A pool investment consisting of a collection of cash ABS instruments."
+    },
+    {
+        "id": "NonAgencyRegularJumpZTranche",
+        "type": "Class",
+        "name": "NonAgencyRegularJumpZTranche",
+        "label": "non agency regular jump z tranche",
+        "definition": "Regular non-Sticky Jump Z tranches maintain their changed status only while the trigger event is in effect, and revert to their old payment status once the trigger event has passed."
+    },
+    {
+        "id": "NonAgencyJumpZTranche",
+        "type": "Class",
+        "name": "NonAgencyJumpZTranche",
+        "label": "non agency jump z tranche",
+        "definition": "A Jump Z tranche is like a Z tranche but if there is some sort of trigger event reached then the holders of the Jump Z tranche will begin to receive payments. Regular non-Sticky Jump Z tranches maintain their changed status only while the trigger event is in effect, and revert to their old payment status once the trigger event has passed."
+    },
+    {
+        "id": "AssetBackedSecurity",
+        "type": "Class",
+        "name": "AssetBackedSecurity"
+    },
+    {
+        "id": "TACTrancheAmortizationSchedule",
+        "type": "Class",
+        "name": "TACTrancheAmortizationSchedule",
+        "label": "t a c tranche amortization schedule"
+    },
+    {
+        "id": "RedemptionSchedule",
+        "type": "Entity",
+        "name": "RedemptionSchedule"
+    },
+    {
+        "id": "SubordinatedMBSTranche",
+        "type": "Class",
+        "name": "SubordinatedMBSTranche",
+        "definition": "Specific kinds of tranche are modeled for example and investigation only and have been removed from the diagrams. These will be removed from the final model.",
+        "label": "subordinated m b s tranche"
+    },
+    {
+        "id": "AgencyRegularJumpZ",
+        "type": "Class",
+        "name": "AgencyRegularJumpZ",
+        "label": "agency regular jump z",
+        "definition": "Regular non-Sticky Jump Z tranches maintain their changed status only while the trigger event is in effect, and revert to their old payment status once the trigger event has passed."
+    },
+    {
+        "id": "BalanceSheetCDO",
+        "type": "Class",
+        "name": "BalanceSheetCDO",
+        "definition": "Balance Sheet CDO/CLO/CBO - the reference assets for the SDO portfolio are taken from a company/firm's balance sheet.",
+        "label": "balance sheet c d o"
+    },
+    {
+        "id": "PAC-3Class",
+        "type": "Class",
+        "name": "PAC-3Class",
+        "label": "p a c-3 class",
+        "definition": "Planned Amortization Class tranche. Additional support tranche with scheduled payments.",
+        "explanatoryNote": "Principal payment must follow a certain schedule. These tranches have priority over the other tranches in the deal, which are then referred to as the support or companion tranches. See PAC-2 for explanation. If you continue, and create another support tranche that also has scheduled payments, that would become the PAC-3 bond."
+    },
+    {
+        "id": "SuperPOTranche",
+        "type": "Class",
+        "name": "SuperPOTranche",
+        "definition": "Principal Only tranche. This tranche will only pay principal. Not clear how this is distinct from generic PO.",
+        "label": "super p o tranche"
+    },
+    {
+        "id": "JumpZTriggerEvent",
+        "type": "Class",
+        "name": "JumpZTriggerEvent",
+        "definition": "The event which triggers the Jump Z",
+        "explanatoryNote": "If this trigger event is reached then the holders of the Jump Z tranche will begin to receive payments. Regular non-Sticky Jump Z tranches maintain their changed status only while the trigger event is in effect, and revert to their old payment status once the trigger event has passed. The event may be a market event or an event relating to the deal.",
+        "label": "jump z trigger event"
+    },
+    {
+        "id": "ResidualTranche",
+        "type": "Class",
+        "name": "ResidualTranche",
+        "label": "residual tranche",
+        "definition": "Unknown Further notes: Verify whether Residual Tranche and Support Tranche are meant to be in the same list of types as PAC etc. i.e. can a tranche not be PAC and Residual? this looks suspicioulsy like two semantics."
+    },
+    {
+        "id": "CDOSquaredInstrument",
+        "type": "Class",
+        "name": "CDOSquaredInstrument",
+        "definition": "CDOs where the underlying asset pool is CDOs.",
+        "label": "c d o squared instrument"
+    },
+    {
+        "id": "CMODeal",
+        "type": "Class",
+        "name": "CMODeal",
+        "definition": "An issue of Collateralized mortgaged Obligations.",
+        "label": "c m o deal"
+    },
+    {
+        "id": "SeniorMBSTranche",
+        "type": "Class",
+        "name": "SeniorMBSTranche",
+        "definition": "Specific kinds of tranche are modeled for example and investigation only and have been removed from the diagrams. These will be removed from the final model.",
+        "label": "senior m b s tranche"
+    },
+    {
+        "id": "CDOPool",
+        "type": "Class",
+        "name": "CDOPool",
+        "definition": "A pool of CDO securities. The underlying of the CDO Squared is a pool of CDO instruments.",
+        "label": "c d o pool"
+    },
+    {
+        "id": "CDOPortfolioManager",
+        "type": "Class",
+        "name": "CDOPortfolioManager",
+        "definition": "The portfolio manager for a managed CDO or arbitrage CDO (also called an asset manager). This assumes that the role is the same in both cases.",
+        "label": "c d o portfolio manager"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "SuperFloaterTranche",
+        "type": "Class",
+        "name": "SuperFloaterTranche",
+        "label": "super floater tranche"
+    },
+    {
+        "id": "NonAgencyZTranche",
+        "type": "Class",
+        "name": "NonAgencyZTranche",
+        "definition": "A tranche that does not receive payments while other tranches remain.",
+        "label": "non agency z tranche"
+    },
+    {
+        "id": "MezzanineMBSTranche",
+        "type": "Class",
+        "name": "MezzanineMBSTranche",
+        "definition": "Specific kinds of tranche are modeled for example and investigation only and have been removed from the diagrams. These will be removed from the final model.",
+        "label": "mezzanine m b s tranche"
+    },
+    {
+        "id": "CashflowStructure",
+        "type": "Class",
+        "name": "CashflowStructure",
+        "label": "cashflow structure",
+        "definition": "The source of funds for the CDO is cashflow. this means that cash flows from collateral are used to pay principal and interest to investors."
+    },
+    {
+        "id": "CDOCashflowTreatmentStructure",
+        "type": "Class",
+        "name": "CDOCashflowTreatmentStructure",
+        "definition": "The way in which cash flows are handled in a CDO.",
+        "label": "c d o cashflow treatment structure"
+    },
+    {
+        "id": "MarketValueStructure",
+        "type": "Class",
+        "name": "MarketValueStructure",
+        "label": "market value structure"
+    },
+    {
+        "id": "CashflowCDO",
+        "type": "Class",
+        "name": "CashflowCDO",
+        "definition": "A cash-flow CDO is analogous to a CMO. Cash flows from collateral are used to pay principal and interest to investors. If such cash flows prove inadequate, principal and interest is paid to tranches according to seniority. At any point in time, all immediate obligations to a given tranch are met before any payments are made to less senior tranches.",
+        "label": "cashflow c d o",
+        "explanatoryNote": "There are some cases where \"triggers\" can come into effect to cause the payments to be distributed in other ways. For example, if the CDO fails its senior overcollateralization (OC) trigger, it may cause extra cash to be diverted to the senior tranches' principal in order to bring the deal back into compliance with the OC test."
+    },
+    {
+        "id": "SupportTranche",
+        "type": "Class",
+        "name": "SupportTranche",
+        "definition": "A tranche which provides payment support to a PAC Tranche.",
+        "label": "support tranche",
+        "explanatoryNote": "PAC tranches have priority over the other tranches in the deal, which are then referred to as the support or companion tranches."
+    },
+    {
+        "id": "Portfolio",
+        "type": "Entity",
+        "name": "Portfolio"
+    },
+    {
+        "id": "ManagedManagementStyle",
+        "type": "Class",
+        "name": "ManagedManagementStyle",
+        "label": "managed management style"
+    },
+    {
+        "id": "CDOManagementStyle",
+        "type": "Class",
+        "name": "CDOManagementStyle",
+        "label": "c d o management style",
+        "definition": "The manner in which reference assets are managed during the life of a CDO."
+    },
+    {
+        "id": "PACTrancheAmortizationSchedule",
+        "type": "Class",
+        "name": "PACTrancheAmortizationSchedule",
+        "label": "p a c tranche amortization schedule"
+    },
+    {
+        "id": "NonAgencyPOTranche",
+        "type": "Class",
+        "name": "NonAgencyPOTranche",
+        "label": "non agency p o tranche",
+        "definition": "Principal Only tranche. This tranche will only pay principal."
+    },
+    {
+        "id": "ABSCDODeal",
+        "type": "Class",
+        "name": "ABSCDODeal",
+        "label": "a b s c d o deal",
+        "definition": "An issue of Asset Backed Security CDO notes."
+    },
+    {
+        "id": "StaticCDOPortfolio",
+        "type": "Class",
+        "name": "StaticCDOPortfolio",
+        "label": "static c d o portfolio",
+        "definition": "A portfolio where collateral of the CDO is fixed through the life of the CDO. The reference assets are bought and then are kept untouched for the term of the product."
+    },
+    {
+        "id": "BalanceSheetCDOObjective",
+        "type": "Class",
+        "name": "BalanceSheetCDOObjective",
+        "definition": "The objective is that the CDO is created to move assets off the originator balance sheet.",
+        "label": "balance sheet c d o objective"
+    },
+    {
+        "id": "Strategy",
+        "type": "Entity",
+        "name": "Strategy"
+    },
+    {
+        "id": "InverseFloaterTranche",
+        "type": "Class",
+        "name": "InverseFloaterTranche",
+        "label": "inverse floater tranche"
+    },
+    {
+        "id": "SubordinatedCDOEquity",
+        "type": "Class",
+        "name": "SubordinatedCDOEquity",
+        "explanatoryNote": "This is not a tranche of the debt in the CDO but an equity interest in the pool of underlying. There is a very bottom piece, not a tranche, but rather called the preferred shares (or just pref shares, or equity) that is the very bottom most layer in a CDO and is also referred to as the \"first loss piece\" since, like equity in a corporation, losses are incurred here before any of the actual bond holders take losses. This isn't a tranche",
+        "definition": "The subordinated (also known as equity) CDO tranche is the most junior tranche in the CDO issue. If there are defaults or the CDO's collateral otherwise underperforms, scheduled payments to senior and mezzanine tranches take precedence over those to subordinated/equity tranches.",
+        "label": "subordinated c d o equity"
+    },
+    {
+        "id": "Security",
+        "type": "Entity",
+        "name": "Security"
+    },
+    {
+        "id": "StaticManagementStyle",
+        "type": "Class",
+        "name": "StaticManagementStyle",
+        "label": "static management style"
+    },
+    {
+        "id": "NonAgencyStickyJumpZTranche",
+        "type": "Class",
+        "name": "NonAgencyStickyJumpZTranche",
+        "definition": "\"Sticky\" Jump Z tranches maintain the payment priority of a Jump Z tranche until they are retired.",
+        "label": "non agency sticky jump z tranche"
+    },
+    {
+        "id": "SuperSeniorCDOTranche",
+        "type": "Class",
+        "name": "SuperSeniorCDOTranche",
+        "definition": "A tranche at the very top of a CDO Issue.",
+        "label": "super senior c d o tranche"
+    },
+    {
+        "id": "PassThroughMBSInstrument",
+        "type": "Class",
+        "name": "PassThroughMBSInstrument"
+    },
+    {
+        "id": "origination.2",
+        "type": "ObjectProperty",
+        "name": "origination.2",
+        "label": "has origination objective"
+    },
+    {
+        "id": "revertsOn",
+        "type": "ObjectProperty",
+        "name": "revertsOn",
+        "label": "reverts on"
+    },
+    {
+        "id": "isCash",
+        "type": "DatatypeProperty",
+        "name": "isCash",
+        "definition": "Whether the CDO has an underlying pool of real assets. If yes, the CDO has an underlying pool of real assets. If no, the CDO has a synthetic pool of underlying assets.",
+        "label": "is cash"
+    },
+    {
+        "id": "TrancheType",
+        "type": "Class",
+        "name": "TrancheType",
+        "label": "tranche type",
+        "definition": "the type of tranche in a tranched MBS security"
+    },
+    {
+        "id": "seniority",
+        "type": "ObjectProperty",
+        "name": "seniority",
+        "definition": "The seniority which defines this tranche. This is the precedence order for scheduled payments. Further notes: Tranches are categorized as senior, mezzanine, and subordinated/equity, according to their degree of credit risk. If there are defaults or the CDO's collateral otherwise underperforms, scheduled payments to senior tranches take precedence over those of mezzanine tranches, and scheduled payments to mezzanine tranches take precedence over those to subordinated/equity tranches. Senior and mezzanine tranches are typically rated, with the former receiving ratings of A to AAA and the latter receiving ratings of B to BBB. The ratings reflect both the credit quality of underlying collateral as well as how much protection a given tranch is afforded by tranches that are subordinate to it.",
+        "label": "seniority"
+    },
+    {
+        "id": "seniority.1",
+        "type": "DatatypeProperty",
+        "name": "seniority.1",
+        "label": "seniority",
+        "definition": "The seniority which defines this tranche. This is the precedence order for scheduled payments. This is Mezzanine, meaning the tranche between senior and subordinated."
+    },
+    {
+        "id": "structure.2",
+        "type": "ObjectProperty",
+        "name": "structure.2",
+        "label": "structure",
+        "definition": "The source of funds for the CDO is market value. This means that principal and interest payments to investors come from both collateral cash flows as well as sales of collateral."
+    },
+    {
+        "id": "reverts",
+        "type": "ObjectProperty",
+        "name": "reverts",
+        "label": "reverts"
+    },
+    {
+        "id": "seniorTo",
+        "type": "ObjectProperty",
+        "name": "seniorTo",
+        "definition": "Specific kinds of tranche are modeled for example and investigation only and have been removed from the diagrams. These will be removed from the final model.",
+        "label": "senior to"
+    },
+    {
+        "id": "denomination",
+        "type": "ObjectProperty",
+        "name": "denomination",
+        "definition": "The currency amount in which the Note is denominated, for example $500 notes.",
+        "label": "denomination"
+    },
+    {
+        "id": "structure",
+        "type": "ObjectProperty",
+        "name": "structure",
+        "label": "has structure type",
+        "definition": "The source of funds for the CDO. This is either cashflow or market value."
+    },
+    {
+        "id": "managementStyle",
+        "type": "ObjectProperty",
+        "name": "managementStyle",
+        "definition": "Whether the CDO is static or managed. This refers to whether or not the CDO manager may make changes to the reference portfolio during the life of the security. Further notes: If it is static, collateral is fixed through the life of the CDO. The reference assets are bought and then are kept untouched for the term of the product.If it is managed, the reference assets are bought (the portfolio is ramped up) and then the CDO manager may alter the portfolio as they see fit.",
+        "label": "has deal management style"
+    },
+    {
+        "id": "providesCreditSupportTo",
+        "type": "ObjectProperty",
+        "name": "providesCreditSupportTo",
+        "label": "provides credit support to"
+    },
+    {
+        "id": "providesPrepaymentSupportFor",
+        "type": "ObjectProperty",
+        "name": "providesPrepaymentSupportFor",
+        "label": "provides prepayment support for"
+    },
+    {
+        "id": "confersOwnershipOf",
+        "type": "ObjectProperty",
+        "name": "confersOwnershipOf",
+        "label": "confers ownership of"
+    },
+    {
+        "id": "hasTrancheType",
+        "type": "ObjectProperty",
+        "name": "hasTrancheType",
+        "label": "has tranche type"
+    },
+    {
+        "id": "issues",
+        "type": "ObjectProperty",
+        "name": "issues",
+        "label": "issues"
+    },
+    {
+        "id": "managementStyle.1",
+        "type": "ObjectProperty",
+        "name": "managementStyle.1",
+        "label": "management style",
+        "definition": "A CDO where the reference assets are bought (the portfolio is ramped up) and then the CDO manager may alter the portfolio as they see fit."
+    },
+    {
+        "id": "supportedBy",
+        "type": "ObjectProperty",
+        "name": "supportedBy",
+        "label": "supported by"
+    },
+    {
+        "id": "seniority.3",
+        "type": "DatatypeProperty",
+        "name": "seniority.3",
+        "definition": "The seniority which defines this tranche. This is the precedence order for scheduled payments. This is subordinated (also known as equity) and is the most junior tranche in the CDO issue.",
+        "label": "seniority"
+    },
+    {
+        "id": "TrancheRatingAtIssue",
+        "type": "Class",
+        "name": "TrancheRatingAtIssue",
+        "definition": "The rating at issue of a tranche of a security. Note this is under review",
+        "label": "tranche rating at issue"
+    },
+    {
+        "id": "seniority.4",
+        "type": "DatatypeProperty",
+        "name": "seniority.4",
+        "definition": "The seniority which defines this tranche. This is the precedence order for scheduled payments. This is defined as Senior, i.e. this is the most senior tranche of the CDO issue.",
+        "label": "seniority"
+    },
+    {
+        "id": "specifies.1",
+        "type": "ObjectProperty",
+        "name": "specifies.1",
+        "label": "specifies"
+    },
+    {
+        "id": "isAlso.1",
+        "type": "ObjectProperty",
+        "name": "isAlso.1",
+        "label": "is also"
+    },
+    {
+        "id": "providesPrepaymentSupport",
+        "type": "ObjectProperty",
+        "name": "providesPrepaymentSupport",
+        "label": "provides prepayment support"
+    },
+    {
+        "id": "takesPrepaymentAfter.1",
+        "type": "ObjectProperty",
+        "name": "takesPrepaymentAfter.1",
+        "label": "takes prepayment after"
+    },
+    {
+        "id": "isCash.1",
+        "type": "DatatypeProperty",
+        "name": "isCash.1",
+        "label": "is cash",
+        "definition": "Whether the CDO has an underlying pool of real assets. This is yes: the CDO has an underlying pool of real assets,"
+    },
+    {
+        "id": "PassThroughMBSDealProspectus",
+        "type": "Class",
+        "name": "PassThroughMBSDealProspectus"
+    },
+    {
+        "id": "hasCDOOriginationObjective",
+        "type": "ObjectProperty",
+        "name": "hasCDOOriginationObjective",
+        "label": "has c d o origination objective"
+    },
+    {
+        "id": "seniority.2",
+        "type": "DatatypeProperty",
+        "name": "seniority.2",
+        "definition": "The seniority which defines this tranche. This is the precedence order for scheduled payments. This is defined as Senior, i.e. this is the most senior tranche of the CDO issue.",
+        "label": "seniority"
+    },
+    {
+        "id": "specifiesTrigger",
+        "type": "ObjectProperty",
+        "name": "specifiesTrigger",
+        "label": "specifies trigger",
+        "definition": "The event which, when it takes place, causes the Jump Z holders to begin receiving payments."
+    },
+    {
+        "id": "ratedAtIssue.1",
+        "type": "ObjectProperty",
+        "name": "ratedAtIssue.1",
+        "label": "rated at issue"
+    },
+    {
+        "id": "CDOTrancheSenioritySelection",
+        "type": "Class",
+        "name": "CDOTrancheSenioritySelection",
+        "label": "CDOTrancheSenioritySelection",
+        "definition": "The seniority of a tranche of a CDO issue."
+    },
+    {
+        "id": "specifiesReverseTrigger",
+        "type": "ObjectProperty",
+        "name": "specifiesReverseTrigger",
+        "label": "specifies reverse trigger"
+    },
+    {
+        "id": "takesPrepaymentAfter",
+        "type": "ObjectProperty",
+        "name": "takesPrepaymentAfter",
+        "label": "takes prepayment after"
+    },
+    {
+        "id": "PassThroughMBSDeal",
+        "type": "Class",
+        "name": "PassThroughMBSDeal"
+    },
+    {
+        "id": "ratedAtIssue",
+        "type": "ObjectProperty",
+        "name": "ratedAtIssue",
+        "label": "rated at issue"
+    },
+    {
+        "id": "cashflowPrecedence",
+        "type": "ObjectProperty",
+        "name": "cashflowPrecedence",
+        "label": "cashflow precedence"
+    },
+    {
+        "id": "specifies",
+        "type": "ObjectProperty",
+        "name": "specifies",
+        "label": "specifies"
+    }
+]

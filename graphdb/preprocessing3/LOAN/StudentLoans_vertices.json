@@ -1,0 +1,30 @@
+[
+    {
+        "id": "PrivateStudentLoan",
+        "type": "Class",
+        "name": "PrivateStudentLoan",
+        "definition": "student loan that is not considered a government-backed / regulated loan",
+        "label": "private student loan"
+    },
+    {
+        "id": "RegulatedStudentLoan",
+        "type": "Class",
+        "name": "RegulatedStudentLoan",
+        "explanatoryNote": "In the United States, certain student loans survive bankruptcy and are subject to additional tax regulations that do not apply to other kinds of loans.",
+        "label": "regulated student loan",
+        "definition": "student loan (1) whose lender is a government agency or instrumentality, and/or (2) that is treated uniquely due to tax regulations"
+    },
+    {
+        "id": "StudentLoan",
+        "type": "Class",
+        "name": "StudentLoan",
+        "explanatoryNote": "Student loans may include loans for graduate and professional education. Student loans may be obtained from government institutions, from private sources such as a bank or financial institution, or from other organizations.",
+        "label": "student loan",
+        "definition": "loan provided for the purposes of education, allowing students and parents/guardians to borrow money for college"
+    },
+    {
+        "id": "Loan",
+        "type": "Entity",
+        "name": "Loan"
+    }
+]

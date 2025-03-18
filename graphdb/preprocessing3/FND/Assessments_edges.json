@@ -1,0 +1,200 @@
+[
+    {
+        "source_id": "AssessmentActivity",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Appraisal",
+        "target_id": "Appraiser",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isGeneratedBy",
+                "Appraiser"
+            ]
+        }
+    },
+    {
+        "source_id": "Appraisal",
+        "target_id": "AssessmentReport",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Appraisal",
+        "target_id": "AppraisedValue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "estimatesValueAt",
+                "AppraisedValue"
+            ]
+        }
+    },
+    {
+        "source_id": "AppraisedValue",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Appraiser",
+        "target_id": "Appraisal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "Appraisal"
+            ]
+        }
+    },
+    {
+        "source_id": "Appraiser",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ValueAssessment",
+        "target_id": "AssessmentEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ValueAssessment",
+        "target_id": "ValuationMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "appliesMethodology",
+                "ValuationMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "ValueAssessment",
+        "target_id": "Appraisal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOutput",
+                "Appraisal"
+            ]
+        }
+    },
+    {
+        "source_id": "AssessmentEvent",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AssessmentEvent",
+        "target_id": "AssessmentActivity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "AssessmentActivity"
+            ]
+        }
+    },
+    {
+        "source_id": "AssessmentEvent",
+        "target_id": "AssessmentReport",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOutput",
+                "AssessmentReport"
+            ]
+        }
+    },
+    {
+        "source_id": "AssessmentEvent",
+        "target_id": "Opinion",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOutput",
+                "Opinion"
+            ]
+        }
+    },
+    {
+        "source_id": "Opinion",
+        "target_id": "AssessmentEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isOutputFrom",
+                "AssessmentEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "AssessmentReport",
+        "target_id": "Report",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AssessmentReport",
+        "target_id": "Opinion",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "reportsOn",
+                "Opinion"
+            ]
+        }
+    },
+    {
+        "source_id": "ValuationMethod",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

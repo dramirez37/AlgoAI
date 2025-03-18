@@ -1,0 +1,122 @@
+[
+    {
+        "source_id": "TangibleAsset",
+        "target_id": "Asset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Asset",
+        "target_id": "Undergoer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Asset",
+        "target_id": "Owner",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAssetOf",
+                "Owner"
+            ]
+        }
+    },
+    {
+        "source_id": "Asset",
+        "target_id": "Ownership",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isOwnedAsset",
+                "Ownership"
+            ]
+        }
+    },
+    {
+        "source_id": "Ownership",
+        "target_id": "Situation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Ownership",
+        "target_id": "Owner",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOwningParty",
+                "Owner"
+            ]
+        }
+    },
+    {
+        "source_id": "Ownership",
+        "target_id": "Asset",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOwnedAsset",
+                "Asset"
+            ]
+        }
+    },
+    {
+        "source_id": "Owner",
+        "target_id": "Asset",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "ownsAsset",
+                "Asset"
+            ]
+        }
+    },
+    {
+        "source_id": "Owner",
+        "target_id": "Ownership",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isOwningParty",
+                "Ownership"
+            ]
+        }
+    },
+    {
+        "source_id": "Owner",
+        "target_id": "Actor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IntangibleAsset",
+        "target_id": "Asset",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

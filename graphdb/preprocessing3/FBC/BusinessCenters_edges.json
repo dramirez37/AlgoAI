@@ -1,0 +1,35 @@
+[
+    {
+        "source_id": "BusinessCenterCode",
+        "target_id": "BusinessCenter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "BusinessCenter"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessCenterCode",
+        "target_id": "GeographicRegionIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessDayAdjustmentCode",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessCenterCodeScheme",
+        "target_id": "CodeSet",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

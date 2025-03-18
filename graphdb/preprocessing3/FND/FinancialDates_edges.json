@@ -1,0 +1,345 @@
+[
+    {
+        "source_id": "RegularSchedule",
+        "target_id": "AnchorDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasAnchorDate",
+                "AnchorDate"
+            ]
+        }
+    },
+    {
+        "source_id": "RegularSchedule",
+        "target_id": "StructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegularSchedule",
+        "target_id": "ScheduleStub",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasInitialStub",
+                "ScheduleStub"
+            ]
+        }
+    },
+    {
+        "source_id": "RegularSchedule",
+        "target_id": "Schedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegularSchedule",
+        "target_id": "ScheduleStub",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasFinalStub",
+                "ScheduleStub"
+            ]
+        }
+    },
+    {
+        "source_id": "RegularSchedule",
+        "target_id": "hasCount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasCount"
+            ]
+        }
+    },
+    {
+        "source_id": "RegularSchedule",
+        "target_id": "RecurrenceInterval",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRecurrenceInterval",
+                "RecurrenceInterval"
+            ]
+        }
+    },
+    {
+        "source_id": "AdHocSchedule",
+        "target_id": "AdHocScheduleEntry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "AdHocScheduleEntry"
+            ]
+        }
+    },
+    {
+        "source_id": "AdHocSchedule",
+        "target_id": "Schedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExplicitRecurrenceInterval",
+        "target_id": "RecurrenceInterval",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DatedStructuredCollection",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "DatedCollectionConstituent"
+            ]
+        }
+    },
+    {
+        "source_id": "DatedStructuredCollection",
+        "target_id": "StructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DatedCollectionConstituent",
+        "target_id": "Constituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ScheduleStub",
+        "target_id": "Collection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessCalendar",
+        "target_id": "Schedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CalculationPeriodLength",
+        "target_id": "ExplicitDuration",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AnchorDate",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Schedule",
+        "target_id": "Collection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RelativeDate",
+        "target_id": "CalculatedDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RelativeDate",
+        "target_id": "hasRelativeDuration",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasRelativeDuration"
+            ]
+        }
+    },
+    {
+        "source_id": "RelativeDate",
+        "target_id": "Date",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isRelativeTo",
+                "Date"
+            ]
+        }
+    },
+    {
+        "source_id": "CalculatedDate",
+        "target_id": "Date",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CalendarSpecifiedInterval",
+        "target_id": "RecurrenceInterval",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CalendarSpecifiedInterval",
+        "target_id": "CalendarPeriod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCalendarPeriod",
+                "CalendarPeriod"
+            ]
+        }
+    },
+    {
+        "source_id": "CalendarSpecifiedInterval",
+        "target_id": "TimeDirection",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasTimeDirection",
+                "TimeDirection"
+            ]
+        }
+    },
+    {
+        "source_id": "CalendarSpecifiedInterval",
+        "target_id": "hasOrdinalNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasOrdinalNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "RecurrenceInterval",
+        "target_id": "TimeInterval",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpecifiedDate",
+        "target_id": "hasDateSpecification",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasDateSpecification"
+            ]
+        }
+    },
+    {
+        "source_id": "SpecifiedDate",
+        "target_id": "CalculatedDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TimeDirection",
+        "target_id": "TemporalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CalculationPeriod",
+        "target_id": "CalculationPeriodLength",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasDuration",
+                "CalculationPeriodLength"
+            ]
+        }
+    },
+    {
+        "source_id": "CalculationPeriod",
+        "target_id": "ExplicitDatePeriod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AdHocScheduleEntry",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CalendarPeriod",
+        "target_id": "TimeInterval",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Age",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasAsOfDate",
+                "ExplicitDate"
+            ]
+        }
+    },
+    {
+        "source_id": "Age",
+        "target_id": "Duration",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

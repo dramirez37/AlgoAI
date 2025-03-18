@@ -1,0 +1,325 @@
+[
+    {
+        "id": "CreditReport",
+        "type": "Class",
+        "name": "CreditReport",
+        "label": "credit report",
+        "explanatoryNote": "This is typically provided by a credit rating agency but could be produced by an internal proprietary model as well.",
+        "definition": "report describing the creditworthiness and related credit attributes of a borrower"
+    },
+    {
+        "id": "RatingReport",
+        "type": "Entity",
+        "name": "RatingReport"
+    },
+    {
+        "id": "CreditReportProduct",
+        "type": "Class",
+        "name": "CreditReportProduct",
+        "label": "credit report product",
+        "definition": "branded credit report offered in the marketplace"
+    },
+    {
+        "id": "OffTheShelfProduct",
+        "type": "Entity",
+        "name": "OffTheShelfProduct"
+    },
+    {
+        "id": "FinancialProduct",
+        "type": "Entity",
+        "name": "FinancialProduct"
+    },
+    {
+        "id": "CreditRatingAgency",
+        "type": "Class",
+        "name": "CreditRatingAgency",
+        "definition": "rating agency that publishes reports assessing the creditworthiness of a borrower or legal entity, either generally or with respect to a specific obligation",
+        "label": "credit rating agency"
+    },
+    {
+        "id": "FinancialServiceProvider",
+        "type": "Entity",
+        "name": "FinancialServiceProvider"
+    },
+    {
+        "id": "RatingAgency",
+        "type": "Entity",
+        "name": "RatingAgency"
+    },
+    {
+        "id": "OrganizationCreditRating",
+        "type": "Class",
+        "name": "OrganizationCreditRating",
+        "label": "organization credit rating",
+        "definition": "credit rating that provides an opinion of creditworthiness of an organization"
+    },
+    {
+        "id": "CreditRating",
+        "type": "Class",
+        "name": "CreditRating",
+        "explanatoryNote": "Typically, a credit rating is provided as a detailed report based on the financial history of borrowing or lending and creditworthiness of the entity or person derived from income statements, historical records related to borrowing, etc. with an aim to determine their ability to meet debt obligations.",
+        "label": "credit rating",
+        "definition": "assessment of creditworthiness of a borrower generally or with respect to a particular debt or financial obligation"
+    },
+    {
+        "id": "Rating",
+        "type": "Entity",
+        "name": "Rating"
+    },
+    {
+        "id": "CreditInquiry",
+        "type": "Class",
+        "name": "CreditInquiry",
+        "label": "credit inquiry",
+        "definition": "request from a lender to a credit repository to obtain information regarding a prospective borrower's creditworthiness"
+    },
+    {
+        "id": "RequestActivity",
+        "type": "Entity",
+        "name": "RequestActivity"
+    },
+    {
+        "id": "CreditWatchOutlook",
+        "type": "Class",
+        "name": "CreditWatchOutlook",
+        "label": "credit watch outlook"
+    },
+    {
+        "id": "InstrumentCreditRating",
+        "type": "Class",
+        "name": "InstrumentCreditRating",
+        "definition": "investment credit rating that provides an opinion of creditworthiness of an instrument, typically with some relationship to the creditworthiness of the issuer(s)",
+        "label": "instrument credit rating"
+    },
+    {
+        "id": "InvestmentCreditRating",
+        "type": "Class",
+        "name": "InvestmentCreditRating",
+        "definition": "credit rating that provides an opinion of creditworthiness of an investment, including but not limited to an instrument or organization",
+        "label": "investment credit rating"
+    },
+    {
+        "id": "CreditWatchDirection",
+        "type": "Class",
+        "name": "CreditWatchDirection",
+        "label": "credit watch direction"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "CreditRatingModel",
+        "type": "Class",
+        "name": "CreditRatingModel",
+        "definition": "algorithm for computing a credit rating",
+        "label": "credit rating model"
+    },
+    {
+        "id": "Expression",
+        "type": "Entity",
+        "name": "Expression"
+    },
+    {
+        "id": "CreditMessageType",
+        "type": "Class",
+        "name": "CreditMessageType",
+        "label": "credit message type",
+        "definition": "classifier that categorizes credit messages"
+    },
+    {
+        "id": "CreditQuality",
+        "type": "Class",
+        "name": "CreditQuality",
+        "definition": "classifier for borrowers, rates, or holdings in the lending market with respect to the quality of the credit",
+        "label": "credit quality"
+    },
+    {
+        "id": "RatingScore",
+        "type": "Entity",
+        "name": "RatingScore"
+    },
+    {
+        "id": "CreditTradeline",
+        "type": "Class",
+        "name": "CreditTradeline",
+        "explanatoryNote": "A tradeline on a credit report refers to a specific credit account. Tradelines report snapshot details derived from a combination of account features and payment history, and are used by credit reporting agencies as inputs to the analysis process that determines a party's credit rating.",
+        "definition": "report derived from the transaction history of a credit account",
+        "label": "credit tradeline"
+    },
+    {
+        "id": "Report",
+        "type": "Entity",
+        "name": "Report"
+    },
+    {
+        "id": "CreditRatingScale",
+        "type": "Class",
+        "name": "CreditRatingScale",
+        "definition": "rating scale for assigning a credit rating to individual, entity, or instrument, including defining a set of codes or numeric scores and indicating how an assessment that is assigned a score based on that scale means",
+        "label": "credit rating scale"
+    },
+    {
+        "id": "RatingScale",
+        "type": "Entity",
+        "name": "RatingScale"
+    },
+    {
+        "id": "CreditRatingModelType",
+        "type": "Class",
+        "name": "CreditRatingModelType",
+        "label": "credit score model type",
+        "definition": "a type corresonding to a family of credit scoring algorithms sharing common characteristics"
+    },
+    {
+        "id": "CreditMessage",
+        "type": "Class",
+        "name": "CreditMessage",
+        "label": "credit message",
+        "definition": "notice on a credit report to alert a reviewer of special or exceptional information"
+    },
+    {
+        "id": "Notice",
+        "type": "Entity",
+        "name": "Notice"
+    },
+    {
+        "id": "CreditReportCategory",
+        "type": "Class",
+        "name": "CreditReportCategory",
+        "definition": "classifier for credit reports, often available from multiple vendors",
+        "label": "credit report category"
+    },
+    {
+        "id": "ShortTermCreditRating",
+        "type": "Class",
+        "name": "ShortTermCreditRating",
+        "label": "short term credit rating",
+        "definition": "credit rating that provides an opinion of the probability of an individual or organization going into default within a year"
+    },
+    {
+        "id": "CreditInquiryType",
+        "type": "Class",
+        "name": "CreditInquiryType",
+        "definition": "classifier indicating whether a credit inquiry is a result of a borrower's direct authorization or by some indirect means",
+        "label": "credit inquiry type"
+    },
+    {
+        "id": "OnWatchOutlook",
+        "type": "NamedIndividual",
+        "name": "OnWatchOutlook",
+        "label": "on watch outlook"
+    },
+    {
+        "id": "AlertCreditMessage",
+        "type": "NamedIndividual",
+        "name": "AlertCreditMessage",
+        "label": "alert credit message"
+    },
+    {
+        "id": "FreezeCreditMessage",
+        "type": "CreditMessageType",
+        "name": "FreezeCreditMessage",
+        "label": "freeze credit message"
+    },
+    {
+        "id": "PrimeQuality",
+        "type": "NamedIndividual",
+        "name": "PrimeQuality",
+        "label": "prime quality",
+        "definition": "classifier for borrowers, rates, or holdings that are considered to be of high quality",
+        "explanatoryNote": "This classification often refers to loans made to high-quality borrowers that are offered prime or relatively low interest rates. Prime loans have low default risk."
+    },
+    {
+        "id": "SoftCreditInquiry",
+        "type": "CreditInquiryType",
+        "name": "SoftCreditInquiry",
+        "label": "soft credit inquiry"
+    },
+    {
+        "id": "hasWatchDirection",
+        "type": "ObjectProperty",
+        "name": "hasWatchDirection",
+        "definition": "indicates direction in which an investment credit rating is expected to move in cases where that rating is on watch",
+        "label": "watch direction"
+    },
+    {
+        "id": "AlternativeAQuality",
+        "type": "NamedIndividual",
+        "name": "AlternativeAQuality",
+        "abbreviation": "Alt-A",
+        "explanatoryNote": "Typically Alt-A mortgages are characterized by borrowers with less than full documentation, average credit scores, higher loan-to-values, and more investment properties and secondary homes.",
+        "definition": "classifier for mortgages that are considered to be riskier than prime quality but less risky than subprime quality",
+        "label": "alternative-A quality"
+    },
+    {
+        "id": "CreditWatchUpgrade",
+        "type": "NamedIndividual",
+        "name": "CreditWatchUpgrade",
+        "label": "credit watch upgrade"
+    },
+    {
+        "id": "InvestmentGradeQuality",
+        "type": "CreditQuality",
+        "name": "InvestmentGradeQuality",
+        "explanatoryNote": "Bond rating firms use different designations, often consisting of the upper- and lower-case letters to identify a bond's credit quality rating. 'AAA' and 'AA' (high credit quality) and 'A' and 'BBB' (medium credit quality) are considered investment grade. Credit ratings for bonds below these designations ('BB,' 'B,' 'CCC,' etc.) are considered low credit quality, and are commonly referred to as 'junk bonds.'",
+        "definition": "classifier for debt instruments that are considered to be of high quality and have a low risk of default",
+        "label": "investment grade quality"
+    },
+    {
+        "id": "NonprimeQuality",
+        "type": "NamedIndividual",
+        "name": "NonprimeQuality",
+        "label": "nonprime quality",
+        "definition": "classifier for borrowers, rates, or holdings that have poor quality, such as borrowers with poor credit history due to a short sale, bankruptcy, foreclosure and/or other negative credit events within the last several years",
+        "explanatoryNote": "Nonprime loans may be offered to individuals who are unable to qualify for a conventional loan."
+    },
+    {
+        "id": "concernsParty",
+        "type": "ObjectProperty",
+        "name": "concernsParty",
+        "label": "concerns party",
+        "definition": "indicates the party for which something is being or has been requested"
+    },
+    {
+        "id": "StableOutlook",
+        "type": "CreditWatchOutlook",
+        "name": "StableOutlook",
+        "label": "stable outlook"
+    },
+    {
+        "id": "HardCreditInquiry",
+        "type": "NamedIndividual",
+        "name": "HardCreditInquiry",
+        "label": "hard credit inquiry"
+    },
+    {
+        "id": "CreditWatchDowngrade",
+        "type": "CreditWatchDirection",
+        "name": "CreditWatchDowngrade",
+        "label": "credit watch downgrade"
+    },
+    {
+        "id": "SubprimeQuality",
+        "type": "NamedIndividual",
+        "name": "SubprimeQuality",
+        "definition": "classifier for borrowers, rates, or holdings that are considered below-average quality, such as borrowers with a tarnished or limited credit history, and may be subject to higher than average interest rates",
+        "label": "subprime quality",
+        "explanatoryNote": "Subprime refers to borrowers or loans, usually offered at rates well above the prime rate. Subprime lending is higher risk, given the lower credit rating of borrowers."
+    },
+    {
+        "id": "hasWatchOutlook",
+        "type": "ObjectProperty",
+        "name": "hasWatchOutlook",
+        "definition": "indicates the expected outlook for the rated entity",
+        "label": "watch outlook"
+    },
+    {
+        "id": "hasCoveragePeriod",
+        "type": "ObjectProperty",
+        "name": "hasCoveragePeriod",
+        "label": "has coverage period",
+        "definition": "relates something (e.g. a credit report or insurance policy) to the specific time period that it covers"
+    }
+]

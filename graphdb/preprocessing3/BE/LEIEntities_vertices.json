@@ -1,0 +1,291 @@
+[
+    {
+        "id": "LegalEntity",
+        "type": "Class",
+        "name": "LegalEntity"
+    },
+    {
+        "id": "EntityLegalFormScheme",
+        "type": "Class",
+        "name": "EntityLegalFormScheme",
+        "definition": "scheme that specifies the elements of the codes for entity legal forms, such as those that are sanctioned in a given jurisdiction as defined in ISO 20725",
+        "label": "entity legal form scheme"
+    },
+    {
+        "id": "CodeSet",
+        "type": "Entity",
+        "name": "CodeSet"
+    },
+    {
+        "id": "ClassificationScheme",
+        "type": "Entity",
+        "name": "ClassificationScheme"
+    },
+    {
+        "id": "EntityLegalForm",
+        "type": "Class",
+        "name": "EntityLegalForm",
+        "label": "entity legal form",
+        "definition": "a classifier for a legal entity that indicates the nature of that entity as defined from a legal or regulatory perspective, in the jurisdiction in which it was established"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "RelationshipRecord",
+        "type": "Class",
+        "name": "RelationshipRecord",
+        "label": "relationship record",
+        "definition": "a record describing relationships between legal entities"
+    },
+    {
+        "id": "Constituent",
+        "type": "Entity",
+        "name": "Constituent"
+    },
+    {
+        "id": "EntityLegalFormIdentifier",
+        "type": "Class",
+        "name": "EntityLegalFormIdentifier",
+        "label": "entity legal form identifier",
+        "definition": "code that denotes an entity legal form as defined in ISO 20275"
+    },
+    {
+        "id": "CodeElement",
+        "type": "Entity",
+        "name": "CodeElement"
+    },
+    {
+        "id": "LegalEntityIdentifier",
+        "type": "Class",
+        "name": "LegalEntityIdentifier",
+        "definition": "an organization identifier that uniquely identifies a legal person as defined in ISO 17442",
+        "label": "legal entity identifier"
+    },
+    {
+        "id": "OrganizationIdentifier",
+        "type": "Entity",
+        "name": "OrganizationIdentifier"
+    },
+    {
+        "id": "RelationshipStatus",
+        "type": "Class",
+        "name": "RelationshipStatus",
+        "definition": "a classifier that specifies the status of the relationship between consolidated entities during the reporting period (active or inactive)",
+        "label": "relationship status"
+    },
+    {
+        "id": "LegalEntityIdentifierScheme",
+        "type": "Class",
+        "name": "LegalEntityIdentifierScheme",
+        "definition": "a scheme that specifies the elements of an unambiguous legal entity identifier (LEI) scheme to identify the legal entities relevant to any financial transaction",
+        "label": "legal entity identifier scheme"
+    },
+    {
+        "id": "OrganizationIdentificationScheme",
+        "type": "Entity",
+        "name": "OrganizationIdentificationScheme"
+    },
+    {
+        "id": "ContractuallyCapableEntity",
+        "type": "Class",
+        "name": "ContractuallyCapableEntity",
+        "label": "contractually capable entity",
+        "definition": "a unique entity that is legally or financially responsible for the performance of financial transactions, or has the legal right in its jurisdiction to enter independently into legal contracts, regardless of whether it is incorporated or constituted in some other way (e.g. trust, partnership, contractual). This excludes natural persons, but includes governmental organizations and supranationals."
+    },
+    {
+        "id": "AgentRole",
+        "type": "Entity",
+        "name": "AgentRole"
+    },
+    {
+        "id": "AccountingFramework",
+        "type": "Class",
+        "name": "AccountingFramework",
+        "definition": "framework, including policies, methods, rules, and processes, used to measure, recognize, present, and disclose the information appearing in an entity's financial statements, and, from a legal ownership perspective, that is applied for accounting consolidation determination",
+        "label": "accounting framework"
+    },
+    {
+        "id": "RelationshipQualifier",
+        "type": "Class",
+        "name": "RelationshipQualifier",
+        "definition": "a classifier that qualifies something about the relationship between consolidated entities during the reporting period, such as the accounting framework used",
+        "label": "relationship qualifier"
+    },
+    {
+        "id": "RelationshipPeriodQualifier",
+        "type": "Class",
+        "name": "RelationshipPeriodQualifier",
+        "label": "relationship period qualifier",
+        "definition": "a classifier that qualifies something about the reporting period specified, such as that the date period reflects an accounting or document filing period"
+    },
+    {
+        "id": "LEIRegisteredEntity",
+        "type": "Class",
+        "name": "LEIRegisteredEntity",
+        "label": "LEI registered entity",
+        "explanatoryNote": "Note that the GLEIF data includes multiple LEIs for some entities due to corporate actions or other situations. The duplicates are typically archived after some period of time, but in order to reflect the reality in the data, the restriction is modeled as someValuesFrom rather than exactly 1 LEI for a given entity.",
+        "definition": "a legal person that has registered for and is identified by a legal entity identifier"
+    },
+    {
+        "id": "LegalPerson",
+        "type": "Class",
+        "name": "LegalPerson"
+    },
+    {
+        "id": "OrganizationName",
+        "type": "Class",
+        "name": "OrganizationName"
+    },
+    {
+        "id": "DocumentFilingPeriod",
+        "type": "NamedIndividual",
+        "name": "DocumentFilingPeriod",
+        "label": "document filing period",
+        "definition": "a qualifier indicating that the relationship period reflects the validity period for any regulatory filing, accounting document, other document demonstrating the relationship's validity"
+    },
+    {
+        "id": "hasLegalFormAbbreviation",
+        "type": "DatatypeProperty",
+        "name": "hasLegalFormAbbreviation",
+        "label": "has legal form abbreviation",
+        "definition": "the precise abbreviation for the entity legal form as defined in the jurisdiction in which it is registered, for example LLC, LLP, Ltd, PLC, Corp."
+    },
+    {
+        "id": "OtherAccountingFramework",
+        "type": "AccountingFramework",
+        "name": "OtherAccountingFramework",
+        "definition": "an accounting framework of unstated origin (other than IFRS or US GAAP)",
+        "label": "other accounting framework"
+    },
+    {
+        "id": "hasTransliteratedLegalFormAbbreviation",
+        "type": "DatatypeProperty",
+        "name": "hasTransliteratedLegalFormAbbreviation",
+        "definition": "a transliterated (i.e., in Latin or Romanized ASCII) representation of the abbreviation for the entity legal form",
+        "label": "has transliterated legal form abbreviation"
+    },
+    {
+        "id": "hasLegalForm",
+        "type": "ObjectProperty",
+        "name": "hasLegalForm",
+        "label": "has legal form",
+        "definition": "indicates the nature of the entity as defined from a legal or regulatory perspective in a given jurisdiction"
+    },
+    {
+        "id": "AccountingPeriod",
+        "type": "NamedIndividual",
+        "name": "AccountingPeriod",
+        "label": "accounting period",
+        "definition": "qualifier indicating that the relationship period reflects the period of time covered by the most recent validation documents from an accounting perspective for this relationship"
+    },
+    {
+        "id": "ISO17442-CodeSet",
+        "type": "LegalEntityIdentifierScheme",
+        "name": "ISO17442-CodeSet",
+        "definition": "the set of legal entity identifiers that comprise the ISO 17442 legal entity identifier specification",
+        "label": "ISO 17442 code set"
+    },
+    {
+        "id": "hasOwnershipPercentage",
+        "type": "DatatypeProperty",
+        "name": "hasOwnershipPercentage",
+        "label": "has ownership percentage",
+        "definition": "the percentage ownership interest in the owned entity owned by owning entity, if known"
+    },
+    {
+        "id": "isUltimatelyConsolidatedBy",
+        "type": "ObjectProperty",
+        "name": "isUltimatelyConsolidatedBy",
+        "definition": "indicates that the entity considered the 'end node' or consolidating entity (parent) fully consolidates the accounting of the 'start node' (child) per the accounting rules specified, and is the most distant consolidating entity to that child in any applicable ownership hierarchy",
+        "label": "is ultimately consolidated by"
+    },
+    {
+        "id": "hasLegalAddress",
+        "type": "ObjectProperty",
+        "name": "hasLegalAddress",
+        "label": "has legal address",
+        "definition": "indicates the legal address for the entity, in the jurisdiction in which the entity is established, used for registration purposes with respect to obtaining an LEI"
+    },
+    {
+        "id": "RelationshipStatusInactive",
+        "type": "RelationshipStatus",
+        "name": "RelationshipStatusInactive",
+        "label": "relationship status - inactive",
+        "definition": "status indicating that it has been determined that the relationship ended, e.g. because entity that reported this relationship is no longer legally registered and/or operating; or the relationship is no longer valid for other reasons"
+    },
+    {
+        "id": "isDirectlyConsolidatedBy",
+        "type": "ObjectProperty",
+        "name": "isDirectlyConsolidatedBy",
+        "definition": "indicates that the entity considered the 'end node' or consolidating entity (parent) fully consolidates the accounting of the 'start node' (child) per the accounting rules specified, and is the closest consolidating entity to that child in any applicable ownership hierarchy",
+        "label": "is directly consolidated by"
+    },
+    {
+        "id": "isInternationalBranchOf",
+        "type": "ObjectProperty",
+        "name": "isInternationalBranchOf",
+        "definition": "indicates that the entity considered the 'start node' or consolidated entity (child) is an international subsidiary of the 'end node' (parent) in the jurisdiction of the child",
+        "label": "is an international branch of"
+    },
+    {
+        "id": "GenerallyAcceptedAccountingPrinciples",
+        "type": "NamedIndividual",
+        "name": "GenerallyAcceptedAccountingPrinciples",
+        "label": "Generally Accepted Accounting Principles",
+        "definition": "an accounting framework developed by the US Financial Accounting Standards Board (FASB)",
+        "abbreviation": "US GAAP"
+    },
+    {
+        "id": "ISO20275-CodeSet",
+        "type": "NamedIndividual",
+        "name": "ISO20275-CodeSet",
+        "definition": "the set of entity legal form identifiers that comprise the ISO 20275 entity legal form specification",
+        "label": "ISO 20275 code set"
+    },
+    {
+        "id": "isConsolidationOf",
+        "type": "ObjectProperty",
+        "name": "isConsolidationOf",
+        "definition": "indicates the entity considered the 'start node' or consolidated entity from an ISO 17442 perspective",
+        "label": "is consolidation of"
+    },
+    {
+        "id": "InternationalFinancialReportingStandard",
+        "type": "AccountingFramework",
+        "name": "InternationalFinancialReportingStandard",
+        "definition": "an accounting framework developed by the International Accounting Standards Board (IASB)",
+        "abbreviation": "IFRS",
+        "label": "International Financial Reporting Standard"
+    },
+    {
+        "id": "isQuantifiedBy",
+        "type": "DatatypeProperty",
+        "name": "isQuantifiedBy",
+        "definition": "indicates that something is limited to or conditional due to some rate or other statistical value",
+        "label": "is quantified by"
+    },
+    {
+        "id": "RelationshipStatusActive",
+        "type": "RelationshipStatus",
+        "name": "RelationshipStatusActive",
+        "definition": "status indicating that as of the last report or update, the reporting legal entity reported that it is legally registered and/or operating, and that the relationship detailed in this relationship record is still valid",
+        "label": "relationship status - active"
+    },
+    {
+        "id": "hasTransliteratedName",
+        "type": "DatatypeProperty",
+        "name": "hasTransliteratedName",
+        "definition": "a transliterated (i.e., in Latin or Romanized ASCII) representation of a name for the entity",
+        "label": "has transliterated name"
+    },
+    {
+        "id": "isConsolidatedBy",
+        "type": "ObjectProperty",
+        "name": "isConsolidatedBy",
+        "label": "is consolidated by",
+        "definition": "indicates the entity considered the 'end node' or consolidating entity (parent) from an ISO 17442 perspective"
+    }
+]

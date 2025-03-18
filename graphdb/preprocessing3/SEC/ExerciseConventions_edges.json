@@ -1,0 +1,53 @@
+[
+    {
+        "source_id": "AmericanExerciseTerms",
+        "target_id": "ExerciseTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EuropeanExerciseTerms",
+        "target_id": "ExerciseTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExerciseTerms",
+        "target_id": "ExerciseConvention",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "uses",
+                "ExerciseConvention"
+            ]
+        }
+    },
+    {
+        "source_id": "ExerciseTerms",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BermudanExerciseTerms",
+        "target_id": "ExerciseTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExerciseConvention",
+        "target_id": "Convention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CanaryExerciseTerms",
+        "target_id": "BermudanExerciseTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

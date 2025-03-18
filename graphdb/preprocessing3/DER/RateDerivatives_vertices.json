@@ -1,0 +1,69 @@
+[
+    {
+        "id": "ForwardRateAgreement",
+        "type": "Class",
+        "name": "ForwardRateAgreement",
+        "definition": "agreement to exchange an interest rate commitment on a notional amount",
+        "explanatoryNote": "The FRA determines the rates to be used along with the termination date and notional value. FRAs are cash-settled with the payment based on the net difference between the interest rate of the contract and the floating rate in the market called the reference rate. The notional amount is not exchanged, but rather a cash amount based on the rate differentials and the notional value of the contract.",
+        "abbreviation": "FRA",
+        "label": "forward rate agreement"
+    },
+    {
+        "id": "InterestRateDerivativeInstrument",
+        "type": "Class",
+        "name": "InterestRateDerivativeInstrument",
+        "definition": "rate-based derivative whose underlier is an interest rate",
+        "label": "interest rate derivative instrument"
+    },
+    {
+        "id": "InterestRateObservable",
+        "type": "Class",
+        "name": "InterestRateObservable",
+        "label": "interest rate observable",
+        "definition": "rate-based observable that is an interest rate, typically a well-known reference interest rate"
+    },
+    {
+        "id": "RateBasedObservable",
+        "type": "Class",
+        "name": "RateBasedObservable",
+        "label": "rate-based observable",
+        "definition": "non-physical observable value, such as an interest rate, market rate, economic indicator, statistical measure calculated over some collection of indices, or some other rate that is readily observable in the world",
+        "explanatoryNote": "Rate-based observables interest rates, market rate, economic indicators, statistical measure calculated over some collection of indices, foreign exchange rates and others that are readily observable in the world"
+    },
+    {
+        "id": "RateBasedDerivativeInstrument",
+        "type": "Class",
+        "name": "RateBasedDerivativeInstrument",
+        "definition": "derivative instrument whose underlier is a non-physical observable rate",
+        "label": "rate-based derivative instrument"
+    },
+    {
+        "id": "DerivativeInstrument",
+        "type": "Entity",
+        "name": "DerivativeInstrument"
+    },
+    {
+        "id": "ObservableValue",
+        "type": "Entity",
+        "name": "ObservableValue"
+    },
+    {
+        "id": "EconomicRateObservable",
+        "type": "Class",
+        "name": "EconomicRateObservable",
+        "label": "economic rate observable",
+        "definition": "rate-based observable that is specifically an economic indicator"
+    },
+    {
+        "id": "EconomicRateBasedDerivativeInstrument",
+        "type": "Class",
+        "name": "EconomicRateBasedDerivativeInstrument",
+        "label": "economic rate-based derivative instrument",
+        "definition": "rate-based derivative whose underlier is an economic indicator"
+    },
+    {
+        "id": "ForeignExchangeRateObservable",
+        "type": "Class",
+        "name": "ForeignExchangeRateObservable"
+    }
+]

@@ -1,0 +1,1706 @@
+[
+    {
+        "source_id": "AnnualReportingPolicy",
+        "target_id": "ReportingFrequencyPolicy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PortfolioBenchmark",
+        "target_id": "Measure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PortfolioBenchmark",
+        "target_id": "FundPortfolio",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "FundPortfolio"
+            ]
+        }
+    },
+    {
+        "source_id": "AssetClassStrategy",
+        "target_id": "FundPortfolioInvestmentLimitations",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FondsCommunDePlacement",
+        "target_id": "CollectiveInvestmentVehicle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundProcessingTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRelatedFundTerms",
+                "FundProcessingTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundSubscriptionTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSubscriptionTerms",
+                "FundSubscriptionTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundManager",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasManagementCompany",
+                "FundManager"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "UnitIssuer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnitIssuer",
+                "UnitIssuer"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "PerformanceDeterminationMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPerformanceDeterminationMethod",
+                "PerformanceDeterminationMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundSupervisoryAuthority",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "supervisedBy",
+                "FundSupervisoryAuthority"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundAccountant",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasAccountant",
+                "FundAccountant"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundUnitDistributionMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStrategy",
+                "FundUnitDistributionMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "InvestmentAdvisor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "advisedBy",
+                "InvestmentAdvisor"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundInvestmentPolicy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFundPolicy",
+                "FundInvestmentPolicy"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundDistributor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "distributedBy",
+                "FundDistributor"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundPromoter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "promotedBy",
+                "FundPromoter"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundAuditor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasAuditor",
+                "FundAuditor"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundReportingTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasAccountingInformation",
+                "FundReportingTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundTransferAgent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasTransferAgent",
+                "FundTransferAgent"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundDepositary",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasDepository",
+                "FundDepositary"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundDataProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasDataProvider",
+                "FundDataProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundAdministrator",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "administeredBy",
+                "FundAdministrator"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundProspectus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "describedIn",
+                "FundProspectus"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "fundHasRelatedParty",
+                "FundsProcessingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectiveInvestmentVehicle",
+        "target_id": "OtherInvestmentFundInformation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasAdditionalInformation",
+                "OtherInvestmentFundInformation"
+            ]
+        }
+    },
+    {
+        "source_id": "FundsProcessingAccount",
+        "target_id": "Account",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundsProcessingAccount",
+        "target_id": "FundOrderDesk",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "FundOrderDesk"
+            ]
+        }
+    },
+    {
+        "source_id": "InvestmentAdvisor",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentAdvisor",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "LegalEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "PortfolioManager",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PortfolioManager",
+        "target_id": "FundPortfolio",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "manages",
+                "FundPortfolio"
+            ]
+        }
+    },
+    {
+        "source_id": "PortfolioManager",
+        "target_id": "FundManagementCompany",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isMemberOf",
+                "FundManagementCompany"
+            ]
+        }
+    },
+    {
+        "source_id": "FundDividendPolicy",
+        "target_id": "FundCashDistributionPolicy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundsProcessingPassport",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundsProcessingPassport",
+        "target_id": "FundUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInformationAbout",
+                "FundUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "FundsProcessingPassport",
+        "target_id": "FundProspectus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "mayBeDefinedIn",
+                "FundProspectus"
+            ]
+        }
+    },
+    {
+        "source_id": "FundsProcessingPassport",
+        "target_id": "FundProcessingTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definesTermsFor",
+                "FundProcessingTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "FundReinvestmentPolicy",
+        "target_id": "FundUnitDistributionPolicy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundRedemptionTerms",
+        "target_id": "ReferToFundOrderDesk",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasAdditionalRedemptionRestrictions",
+                "ReferToFundOrderDesk"
+            ]
+        }
+    },
+    {
+        "source_id": "FundRedemptionTerms",
+        "target_id": "FundProcessingTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReportingFrequencyPolicy",
+        "target_id": "ReportingPolicy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SPVPurpose",
+        "target_id": "BusinessObjective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PerformanceDeterminationMethod",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NetAssetValueCalculationMethod",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundProcessingForm",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundProcessingForm",
+        "target_id": "FundOrderDeskPhysicalFormDocument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "mayBe.1",
+                "FundOrderDeskPhysicalFormDocument"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityPortfolio",
+        "target_id": "FundPortfolio",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReferToFundOrderDesk",
+        "target_id": "FundRedemptionRestriction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PortfolioInvestmentStrategy",
+        "target_id": "FundPortfolioInvestmentLimitations",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "includes",
+                "FundPortfolioInvestmentLimitations"
+            ]
+        }
+    },
+    {
+        "source_id": "PortfolioInvestmentStrategy",
+        "target_id": "InvestmentStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundOrderDesk",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "LegalEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "FundOrderDesk",
+        "target_id": "AccountProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundsProcessingParty",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "KeyInvestorInformationDocument",
+        "target_id": "FundUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "FundUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "KeyInvestorInformationDocument",
+        "target_id": "OfferingDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundProcessingGeneralTerms",
+        "target_id": "FundProcessingTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundSupervisoryAuthority",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundDataProvider",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "LegalEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "FundDataProvider",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundSubscriptionTerms",
+        "target_id": "FundProcessingTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundSubscriptionTerms",
+        "target_id": "FundUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "FundUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "FundPortfolio",
+        "target_id": "Liquidity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasLiquidity",
+                "Liquidity"
+            ]
+        }
+    },
+    {
+        "source_id": "FundPortfolio",
+        "target_id": "FundPortfolioInvestmentPolicy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "implementsFundPolicy",
+                "FundPortfolioInvestmentPolicy"
+            ]
+        }
+    },
+    {
+        "source_id": "FundPortfolio",
+        "target_id": "PortfolioInvestmentStrategy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInvestmentStrategy",
+                "PortfolioInvestmentStrategy"
+            ]
+        }
+    },
+    {
+        "source_id": "FundPortfolio",
+        "target_id": "PortfolioHolding",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "PortfolioHolding"
+            ]
+        }
+    },
+    {
+        "source_id": "FundPortfolio",
+        "target_id": "PortfolioBenchmark",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "assessedAgainst",
+                "PortfolioBenchmark"
+            ]
+        }
+    },
+    {
+        "source_id": "FundPortfolio",
+        "target_id": "Portfolio",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundPortfolio",
+        "target_id": "PortfolioManager",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isManagedBy",
+                "PortfolioManager"
+            ]
+        }
+    },
+    {
+        "source_id": "FundAccountant",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrganizationStrategy",
+        "target_id": "FundPortfolioInvestmentLimitations",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundInvestmentObjective",
+        "target_id": "InvestmentObjective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundInvestmentObjective",
+        "target_id": "RiskLevel",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasIntendedRiskLevel",
+                "RiskLevel"
+            ]
+        }
+    },
+    {
+        "source_id": "FundInvestmentObjective",
+        "target_id": "FundProspectus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "statedIn",
+                "FundProspectus"
+            ]
+        }
+    },
+    {
+        "source_id": "FundInvestmentPolicy",
+        "target_id": "InvestmentRestriction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "InvestmentRestriction"
+            ]
+        }
+    },
+    {
+        "source_id": "FundInvestmentPolicy",
+        "target_id": "Policy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundInvestmentPolicy",
+        "target_id": "PortfolioInvestmentStrategy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "PortfolioInvestmentStrategy"
+            ]
+        }
+    },
+    {
+        "source_id": "TimeWeightedRateOfReturnPerformanceDeterminationMethod",
+        "target_id": "PerformanceDeterminationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Liquidity",
+        "target_id": "Asset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundUnit",
+        "target_id": "NetAssetValueCalculationMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasDetails",
+                "NetAssetValueCalculationMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "FundUnit",
+        "target_id": "FundRedemptionTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFundProcessingTerms",
+                "FundRedemptionTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "FundUnit",
+        "target_id": "FundProcessingGeneralTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFundProcessingTerms",
+                "FundProcessingGeneralTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "FundProcessingTerms",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundProcessingTerms",
+        "target_id": "FundsProcessingAccount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definesMainFundOrderDeskAccount",
+                "FundsProcessingAccount"
+            ]
+        }
+    },
+    {
+        "source_id": "NoteFundUnit",
+        "target_id": "FundUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundProspectus",
+        "target_id": "Prospectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundProspectus",
+        "target_id": "FundInvestmentObjective",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "outlines",
+                "FundInvestmentObjective"
+            ]
+        }
+    },
+    {
+        "source_id": "SectorStrategy",
+        "target_id": "FundPortfolioInvestmentLimitations",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StakeInFund",
+        "target_id": "CollectiveInvestmentVehicle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "givesOwnershipOf",
+                "CollectiveInvestmentVehicle"
+            ]
+        }
+    },
+    {
+        "source_id": "StakeInFund",
+        "target_id": "FundUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifiedAs.5",
+                "FundUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "StakeInFund",
+        "target_id": "Position",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundDistributor",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentStrategy",
+        "target_id": "BusinessStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentStrategy",
+        "target_id": "InvestmentObjective",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasObjective",
+                "InvestmentObjective"
+            ]
+        }
+    },
+    {
+        "source_id": "FundCouponPolicy",
+        "target_id": "FundCashDistributionPolicy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtStakeInFund",
+        "target_id": "StakeInFund",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpecialPurposeVehicle",
+        "target_id": "SPVPurpose",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isSetUpFor",
+                "SPVPurpose"
+            ]
+        }
+    },
+    {
+        "source_id": "SpecialPurposeVehicle",
+        "target_id": "CollectiveInvestmentVehicle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "holds",
+                "CollectiveInvestmentVehicle"
+            ]
+        }
+    },
+    {
+        "source_id": "SpecialPurposeVehicle",
+        "target_id": "FundsCreation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isSetUpFor",
+                "FundsCreation"
+            ]
+        }
+    },
+    {
+        "source_id": "FundClassificationScheme",
+        "target_id": "FundClassification",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "FundClassification"
+            ]
+        }
+    },
+    {
+        "source_id": "FundClassificationScheme",
+        "target_id": "ClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundAuditor",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundReportingTerms",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundReportingTerms",
+        "target_id": "ReportingFrequencyPolicy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasAccountingReportingFrequency",
+                "ReportingFrequencyPolicy"
+            ]
+        }
+    },
+    {
+        "source_id": "FundClassification",
+        "target_id": "CollectiveInvestmentVehicle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "CollectiveInvestmentVehicle"
+            ]
+        }
+    },
+    {
+        "source_id": "FundClassification",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccumulatingShareClass",
+        "target_id": "FundShareClassUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityFund",
+        "target_id": "CollectiveInvestmentVehicle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityFund",
+        "target_id": "EquityPortfolio",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "EquityPortfolio"
+            ]
+        }
+    },
+    {
+        "source_id": "InvestmentRestriction",
+        "target_id": "SecuritiesRestriction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentRestriction",
+        "target_id": "FundProspectus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPartOf",
+                "FundProspectus"
+            ]
+        }
+    },
+    {
+        "source_id": "FundAdministrator",
+        "target_id": "UnitIssuer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "mayAlsoBe",
+                "UnitIssuer"
+            ]
+        }
+    },
+    {
+        "source_id": "FundAdministrator",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "LegalEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "FundAdministrator",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundPromoter",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundContract",
+        "target_id": "FundLegalFormDocumentation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEvidencedBy",
+                "FundLegalFormDocumentation"
+            ]
+        }
+    },
+    {
+        "source_id": "FundManager",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundManager",
+        "target_id": "FundManagementCompany",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "FundManagementCompany"
+            ]
+        }
+    },
+    {
+        "source_id": "FundUnitDistributionPolicy",
+        "target_id": "FundUnitDistributionMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStrategy",
+                "FundUnitDistributionMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "FundUnitDistributionPolicy",
+        "target_id": "Policy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SemiAnnualReportingPolicy",
+        "target_id": "ReportingFrequencyPolicy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundBondUnitCoupon",
+        "target_id": "InterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundBondUnitCoupon",
+        "target_id": "FundCouponPolicy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPolicyTerms",
+                "FundCouponPolicy"
+            ]
+        }
+    },
+    {
+        "source_id": "FundLegalFormDocumentation",
+        "target_id": "Constitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnitIssuer",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnitIssuer",
+        "target_id": "FundUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "FundUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "BricksAndMortarHolding",
+        "target_id": "PortfolioHolding",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IncomeAccumulation",
+        "target_id": "FundUnitDistributionMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundDebt",
+        "target_id": "Debt",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityStakeInFund",
+        "target_id": "StakeInFund",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommonShareInFund",
+        "target_id": "FundShareClassUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivateEquityHolding",
+        "target_id": "PortfolioHolding",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundTransferAgent",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RiskLevel",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OtherInvestmentFundInformation",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "JurisdictionStrategy",
+        "target_id": "FundPortfolioInvestmentLimitations",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AnnualizedPerformanceDeterminationMethod",
+        "target_id": "PerformanceDeterminationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundPortfolioInvestmentPolicy",
+        "target_id": "FundPortfolioInvestmentLimitations",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definesAllocations",
+                "FundPortfolioInvestmentLimitations"
+            ]
+        }
+    },
+    {
+        "source_id": "FundPortfolioInvestmentPolicy",
+        "target_id": "Policy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundPortfolioInvestmentPolicy",
+        "target_id": "PortfolioInvestmentStrategy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "PortfolioInvestmentStrategy"
+            ]
+        }
+    },
+    {
+        "source_id": "FundCashDistributionPolicy",
+        "target_id": "FundUnitDistributionPolicy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundBondClassUnit",
+        "target_id": "FundUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundBondClassUnit",
+        "target_id": "FundBondUnitCoupon",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasExpectedCoupon",
+                "FundBondUnitCoupon"
+            ]
+        }
+    },
+    {
+        "source_id": "FundBondClassUnit",
+        "target_id": "FundUnitDistributionPolicy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStrategy",
+                "FundUnitDistributionPolicy"
+            ]
+        }
+    },
+    {
+        "source_id": "FundBondClassUnit",
+        "target_id": "FundDebt",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definesTermsFor",
+                "FundDebt"
+            ]
+        }
+    },
+    {
+        "source_id": "FundsProcessing",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundRedemptionRestriction",
+        "target_id": "SecuritiesRestriction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundUnitDistributionMethod",
+        "target_id": "DistributionStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundUnitHolding",
+        "target_id": "PortfolioHolding",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundUnitHolding",
+        "target_id": "FundUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "FundUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "DistributingShareClass",
+        "target_id": "FundShareClassUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundOrderDeskPhysicalFormDocument",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityAsset",
+        "target_id": "PortfolioHolding",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundsCreation",
+        "target_id": "SPVPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SICAV",
+        "target_id": "CollectiveInvestmentVehicle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SICAF",
+        "target_id": "CollectiveInvestmentVehicle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundDepositary",
+        "target_id": "FundUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "providesDepositaryServiceFor",
+                "FundUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "FundDepositary",
+        "target_id": "FundsProcessingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundPortfolioInvestmentLimitations",
+        "target_id": "InvestmentRestriction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundShareClassUnit",
+        "target_id": "FundUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundShareClassUnit",
+        "target_id": "FundUnitDistributionPolicy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasStrategy",
+                "FundUnitDistributionPolicy"
+            ]
+        }
+    },
+    {
+        "source_id": "FundsCashDistribution",
+        "target_id": "FundUnitDistributionMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundDistributionPolicy",
+        "target_id": "Policy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundManagementCompany",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreferredShareInFund",
+        "target_id": "FundShareClassUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GrossOfFeePerformanceDeterminationMethod",
+        "target_id": "PerformanceDeterminationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyStrategy",
+        "target_id": "FundPortfolioInvestmentLimitations",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MoneyWeightedRateOfReturnPerformanceDeterminationMethod",
+        "target_id": "PerformanceDeterminationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

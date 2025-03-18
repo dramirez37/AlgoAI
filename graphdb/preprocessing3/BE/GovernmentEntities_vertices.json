@@ -1,0 +1,299 @@
+[
+    {
+        "id": "GovernmentBody",
+        "type": "Class",
+        "name": "GovernmentBody",
+        "label": "government body",
+        "explanatoryNote": "Identifying government bodies is a pre-requisite for identifying government officials. This information is needed to help ensure compliance with applicable laws relating to bribery or corruption, including the U.S. Foreign Corrupt Practices Act (FCPA), the UK Bribery Act 2010 (UKBA), the U.S. Bank Bribery Act (Bribery Act), and other anti-bribery and corruption laws in the jurisdictions where financial institutions conduct business.",
+        "definition": "formal organization that is an agency, instrumentality, or other body of a supranational, national, federal, state, or local government, including certain multijurisdictional agencies and departments that carry out the business of government"
+    },
+    {
+        "id": "FormalOrganization",
+        "type": "Entity",
+        "name": "FormalOrganization"
+    },
+    {
+        "id": "TribalEntity",
+        "type": "Class",
+        "name": "TribalEntity",
+        "explanatoryNote": "Any indigenous group or community which is recognized as having rights and obligations independent of the central government.",
+        "definition": "legal entity that represents fundamental unit of sovereign tribal (indigenous) government",
+        "label": "tribal entity"
+    },
+    {
+        "id": "Polity",
+        "type": "Class",
+        "name": "Polity",
+        "definition": "legal person that is a supranational entity, crown, state, or subordinate civil authority, such as a province, prefecture, county, municipality, city, or district representing the people of that entity",
+        "label": "polity"
+    },
+    {
+        "id": "Government",
+        "type": "Class",
+        "name": "Government",
+        "definition": "the system by which a state or community is controlled",
+        "explanatoryNote": "In the Commonwealth of Nations, the word government is also used more narrowly to refer to the collective group of people that exercises executive authority in a state. This usage is analogous to what is called an 'administration' in American English. Furthermore, especially in American English, the concepts of the state and the government may be used synonymously to refer to the person or group of people exercising authority over a politically organized territory.",
+        "label": "government"
+    },
+    {
+        "id": "FunctionalEntity",
+        "type": "Entity",
+        "name": "FunctionalEntity"
+    },
+    {
+        "id": "Judiciary",
+        "type": "Class",
+        "name": "Judiciary",
+        "explanatoryNote": "The judiciary also provides a mechanism for the resolution of disputes. Under the doctrine of the separation of powers, the judiciary generally does not make law (that is, in a plenary fashion, which is the responsibility of the legislature) or enforce law (which is the responsibility of the executive), but rather interprets law and applies it to the facts of each case.",
+        "label": "judiciary",
+        "definition": "branch of government that comprises the system of courts that interprets and applies the law in the name of the supranational, national, federal, or regional government, depending on its jurisdiction"
+    },
+    {
+        "id": "BranchOfGovernment",
+        "type": "Class",
+        "name": "BranchOfGovernment",
+        "definition": "division of the government of a state, with separate and independent powers and areas of responsibility so that the powers of one branch are not in conflict with the powers associated with the other branches",
+        "label": "branch of government"
+    },
+    {
+        "id": "GovernmentAppointee",
+        "type": "Class",
+        "name": "GovernmentAppointee",
+        "label": "government appointee",
+        "definition": "individual designated by government decree to lead, or participate in some capacity in a government body"
+    },
+    {
+        "id": "Executive",
+        "type": "Entity",
+        "name": "Executive"
+    },
+    {
+        "id": "GovernmentOfficial",
+        "type": "Class",
+        "name": "GovernmentOfficial",
+        "definition": "person elected or appointed to administer some aspect of a government",
+        "label": "government official"
+    },
+    {
+        "id": "FederatedSovereignty",
+        "type": "Class",
+        "name": "FederatedSovereignty",
+        "definition": "polity characterized by a union of partially self-governing states or regions under a central (federal) government",
+        "label": "federated sovereignty",
+        "explanatoryNote": "The federated sovereignty is the legal entity that can incur debt for a federal government, as distinct from the Federal government."
+    },
+    {
+        "id": "SovereignState",
+        "type": "Class",
+        "name": "SovereignState",
+        "definition": "non-physical juridical entity that is represented by one centralized government that has sovereignty over a geographic area",
+        "explanatoryNote": "A legal entity that is represented by one centralized government, has a permanent population, defined territory, and the capacity to enter into relations with other sovereign states.",
+        "label": "sovereign state"
+    },
+    {
+        "id": "Instrumentality",
+        "type": "Class",
+        "name": "Instrumentality",
+        "definition": "organization that serves a public purpose and is closely tied to a government, but is not a government agency",
+        "explanatoryNote": "An instrumentality is a non-governmental agency that acts independently but whose obligations are backed by a government because of its role in providing a public service. Many instrumentalities are private companies, and some are chartered directly by government. Instrumentalities are subject to a unique set of laws that shape their activities. Certain organizations, such as Sallie Mae in the United States, may be considered instrumentalities from some perspectives but not others. Sallie Mae's status was changed in 2004, when it was privatized, and since that time it is no longer considered a government-sponsored enterprise (GSE).",
+        "label": "instrumentality"
+    },
+    {
+        "id": "LegalEntity",
+        "type": "Entity",
+        "name": "LegalEntity"
+    },
+    {
+        "id": "GovernmentMinister",
+        "type": "Class",
+        "name": "GovernmentMinister",
+        "label": "government minister",
+        "definition": "government official that is an executive, who is either appointed or elected to a high office in the government"
+    },
+    {
+        "id": "RegionalGovernment",
+        "type": "Class",
+        "name": "RegionalGovernment",
+        "label": "regional government",
+        "explanatoryNote": "A local government will typically only have control over their specific geographical region, and cannot pass or enforce laws that will affect a wider area. Local governments can elect officials, enact taxes, and do many other things that a national government would do, just on a smaller scale.",
+        "definition": "administrative body for a geographic area, such as a county, smaller town, or other similar community"
+    },
+    {
+        "id": "LegalPerson",
+        "type": "Entity",
+        "name": "LegalPerson"
+    },
+    {
+        "id": "MunicipalGovernment",
+        "type": "Class",
+        "name": "MunicipalGovernment",
+        "label": "municipal government",
+        "definition": "regional government of a city, township, or other administrative subdivision"
+    },
+    {
+        "id": "NationalGovernment",
+        "type": "Class",
+        "name": "NationalGovernment",
+        "label": "national government",
+        "definition": "government and the politicians that that run a country as a whole (as opposed to local government)"
+    },
+    {
+        "id": "MunicipalEntity",
+        "type": "Class",
+        "name": "MunicipalEntity",
+        "definition": "polity that typically represents a city, township, or other administrative subdivision having corporate status and powers of self-government or jurisdiction",
+        "explanatoryNote": "Municipal entity in the sense of a legal entity, that is, what it is that incurs debt for a municipality, as distinct from the Municipal government. A municipal entity has a Government which sets laws applicable within the geographical area corresponding to its jurisdiction.",
+        "label": "municipal entity"
+    },
+    {
+        "id": "IdentityDocument",
+        "type": "Class",
+        "name": "IdentityDocument"
+    },
+    {
+        "id": "TribalGovernment",
+        "type": "Class",
+        "name": "TribalGovernment",
+        "label": "tribal government",
+        "definition": "government representing a group of indigenous people that has legal authority to govern those people, including authority to legislate the existence of tribal entities"
+    },
+    {
+        "id": "RegionalSovereignty",
+        "type": "Class",
+        "name": "RegionalSovereignty",
+        "definition": "legal person that corresponds to an administrative division, administrative unit, administrative entity or country subdivision (or, sometimes, geopolitical division or subnational entity), that has the capacity to incur debt, issue contracts, and enter into relations with other similar entities",
+        "label": "regional sovereignty"
+    },
+    {
+        "id": "NationalIdentificationNumber",
+        "type": "Class",
+        "name": "NationalIdentificationNumber"
+    },
+    {
+        "id": "FederalGovernment",
+        "type": "Class",
+        "name": "FederalGovernment",
+        "definition": "union of states under a central government distinct from the individual governments of the separate states",
+        "explanatoryNote": "A federation is a political entity characterized by a union of partially self-governing states or regions under a central (federal) government. In a federation, the self-governing status of the component states, as well as the division of power between them and the central government, are typically constitutionally entrenched and may not be altered by a unilateral decision of either party, the states or the federal political body.",
+        "label": "federal government"
+    },
+    {
+        "id": "SupranationalEntity",
+        "type": "Class",
+        "name": "SupranationalEntity",
+        "label": "supranational entity",
+        "explanatoryNote": "A supranational union is a supranational polity which lies somewhere between a confederation that is an association of states and a federation that is a state. Unlike states in a federal super-state, member states retain ultimate sovereignty, although some sovereignty is shared with, or ceded to, the supranational body.",
+        "definition": "governmental or non-governmental entity that is established by international law or treaty or incorporated at an international level"
+    },
+    {
+        "id": "Legislature",
+        "type": "Class",
+        "name": "Legislature",
+        "explanatoryNote": "Laws enacted by legislatures are known as legislation. Legislatures observe and steer governing actions and usually have exclusive authority to amend the budget or budgets involved in the process.",
+        "definition": "the law-making body of a political unit, usually a national government, that has power to enact, amend, and repeal public policy",
+        "label": "legislature"
+    },
+    {
+        "id": "DevolvedGovernment",
+        "type": "Class",
+        "name": "DevolvedGovernment",
+        "definition": "government and the politicians that that run a subnational territory with powers that may be temporary and reversible, ultimately residing with the central government",
+        "label": "devolved government"
+    },
+    {
+        "id": "TribalArea",
+        "type": "Class",
+        "name": "TribalArea",
+        "label": "tribal area",
+        "definition": "designation for geographic region administered by a group of indigenous people rather than by a sovereign state or regional governmental entity"
+    },
+    {
+        "id": "GeopoliticalEntity",
+        "type": "Entity",
+        "name": "GeopoliticalEntity"
+    },
+    {
+        "id": "ResponsibleParty",
+        "type": "Entity",
+        "name": "ResponsibleParty"
+    },
+    {
+        "id": "GovernmentDepartment",
+        "type": "Class",
+        "name": "GovernmentDepartment",
+        "label": "government department",
+        "definition": "specialized organization responsible for a sector of government public administration"
+    },
+    {
+        "id": "ExecutiveBranch",
+        "type": "Class",
+        "name": "ExecutiveBranch",
+        "label": "executive branch",
+        "definition": "the branch of government that is authorized and responsible for the daily administration of the government",
+        "explanatoryNote": "The executive branch executes and enforces the law."
+    },
+    {
+        "id": "GovernmentAgency",
+        "type": "Class",
+        "name": "GovernmentAgency",
+        "explanatoryNote": "There is a notable variety of agency types. Although usage differs, a government agency is normally distinct both from a department or ministry, and other types of public body established by government. The functions of an agency are normally executive in character, since different types of organizations (such as commissions) are most often constituted in an advisory role; this distinction is often blurred in practice however.",
+        "definition": "permanent or semi-permanent organization, often an appointed commission, in the machinery of government that is responsible for the oversight and administration of specific functions",
+        "label": "government agency"
+    },
+    {
+        "id": "hasSovereigntyOver",
+        "type": "ObjectProperty",
+        "name": "hasSovereigntyOver",
+        "definition": "relates a polity to a geopolitical entity where the polity exercises dominion and authority of a political state",
+        "label": "has sovereignty over"
+    },
+    {
+        "id": "isJurisdictionOf",
+        "type": "ObjectProperty",
+        "name": "isJurisdictionOf",
+        "definition": "relates a jurisdiction to a polity or other government entity or court that has some level of legal authority over it",
+        "label": "is jurisdiction of"
+    },
+    {
+        "id": "isElectedBy",
+        "type": "ObjectProperty",
+        "name": "isElectedBy",
+        "label": "is elected by",
+        "definition": "identifies an official or government chosen to hold office by voting"
+    },
+    {
+        "id": "hasFullSovereigntyOver",
+        "type": "ObjectProperty",
+        "name": "hasFullSovereigntyOver",
+        "label": "has full sovereignty over",
+        "definition": "relates a polity to a geopolitical entity where the polity has absolute, supreme and ultimate dominion and authority of a political state subject to no higher power, expressed within its territory in full self-government and in complete freedom from any outside influence"
+    },
+    {
+        "id": "hasSharedSovereigntyOver",
+        "type": "ObjectProperty",
+        "name": "hasSharedSovereigntyOver",
+        "definition": "relates a polity to a geopolitical entity where the polity exercises shared dominion and authority of a political state",
+        "label": "has shared sovereignty over"
+    },
+    {
+        "id": "isRepresentedBy",
+        "type": "ObjectProperty",
+        "name": "isRepresentedBy",
+        "definition": "relates a system of governance to its chosen representatives",
+        "label": "is represented by"
+    },
+    {
+        "id": "hasJurisdiction",
+        "type": "ObjectProperty",
+        "name": "hasJurisdiction",
+        "label": "has jurisdiction",
+        "definition": "relates a polity or government entity to one or more jurisdictions, over which it has some level of legal authority"
+    },
+    {
+        "id": "isInstrumentOf",
+        "type": "ObjectProperty",
+        "name": "isInstrumentOf",
+        "definition": "relates an instrumentality of some government to the government that it supports",
+        "label": "is an instrument of"
+    }
+]

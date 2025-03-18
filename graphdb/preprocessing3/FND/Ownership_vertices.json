@@ -1,0 +1,111 @@
+[
+    {
+        "id": "TangibleAsset",
+        "type": "Class",
+        "name": "TangibleAsset",
+        "label": "tangible asset",
+        "definition": "asset that is a physical, measurable resource, i.e., one that takes a physical form",
+        "explanatoryNote": "Tangible assets include cash, cash equivalents and accounts receivables (AR), inventory, equipment, buildings and real estate, crops, and investments. Tangible assets such as art, furniture, stamps, gold, wine, toys and books of significant value may be included in an individual or organization's asset portfolio."
+    },
+    {
+        "id": "Asset",
+        "type": "Class",
+        "name": "Asset",
+        "definition": "something of monetary value that is owned or provides benefit to some party",
+        "label": "asset",
+        "explanatoryNote": "An asset is something that provides probable future economic benefit obtained or controlled by some party as a result of past transactions or events. An asset has three essential characteristics: (a) it embodies a probable future benefit that involves a capacity, singly or in combination with other assets, to contribute directly or indirectly to future net cash inflows, (b) a party can obtain the benefit and control others' access to it, and (c) the transaction or other event giving rise to the party's right to or control of the benefit has already occurred."
+    },
+    {
+        "id": "Undergoer",
+        "type": "Entity",
+        "name": "Undergoer"
+    },
+    {
+        "id": "Ownership",
+        "type": "Class",
+        "name": "Ownership",
+        "definition": "situation in which some party holds the legal title to something (explicitly or implicitly) and has the right to transfer that title and/or possession",
+        "label": "ownership"
+    },
+    {
+        "id": "Situation",
+        "type": "Entity",
+        "name": "Situation"
+    },
+    {
+        "id": "Owner",
+        "type": "Class",
+        "name": "Owner",
+        "label": "owner",
+        "definition": "party that is legally recognized as having the right to possess, the privilege to use, and ability to transfer any rights or privileges associated with something, as permitted by law"
+    },
+    {
+        "id": "Actor",
+        "type": "Entity",
+        "name": "Actor"
+    },
+    {
+        "id": "IntangibleAsset",
+        "type": "Class",
+        "name": "IntangibleAsset",
+        "definition": "identifiable, non-monetary asset that lacks physical substance",
+        "label": "intangible asset",
+        "explanatoryNote": "Intangible assets include assets that may involve a legal claim to some future benefit, typically a claim to future cash. Intangible assets have become an increasingly larger component of the valuation for all companies, from newer social media companies to even the most established and iconic manufacturers."
+    },
+    {
+        "id": "isAssetOf",
+        "type": "ObjectProperty",
+        "name": "isAssetOf",
+        "definition": "identifies the owner of an asset",
+        "label": "is asset of"
+    },
+    {
+        "id": "ownsAsset",
+        "type": "ObjectProperty",
+        "name": "ownsAsset",
+        "label": "is asset owner",
+        "definition": "identifies an asset that an owner owns"
+    },
+    {
+        "id": "isOwnedBy",
+        "type": "ObjectProperty",
+        "name": "isOwnedBy",
+        "definition": "indicates something that someone owns",
+        "label": "is owned by"
+    },
+    {
+        "id": "hasOwnedAsset",
+        "type": "ObjectProperty",
+        "name": "hasOwnedAsset",
+        "definition": "indicates the asset in an ownership situation",
+        "label": "has owned asset"
+    },
+    {
+        "id": "isOwnedAsset",
+        "type": "ObjectProperty",
+        "name": "isOwnedAsset",
+        "label": "is owned asset",
+        "definition": "indicates the context of ownership in which something is an asset"
+    },
+    {
+        "id": "isOwningParty",
+        "type": "ObjectProperty",
+        "name": "isOwningParty",
+        "label": "is owning party",
+        "definition": "indicates the context of ownership in which the party plays the role of owner"
+    },
+    {
+        "id": "owns",
+        "type": "ObjectProperty",
+        "name": "owns",
+        "definition": "indicates something that a party holds title to and may possess",
+        "label": "owns"
+    },
+    {
+        "id": "hasOwningParty",
+        "type": "ObjectProperty",
+        "name": "hasOwningParty",
+        "definition": "identifies the actor that holds title to the asset in an ownership situation",
+        "label": "has owning party"
+    }
+]

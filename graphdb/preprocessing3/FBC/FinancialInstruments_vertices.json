@@ -1,0 +1,331 @@
+[
+    {
+        "id": "DerivativeInstrument",
+        "type": "Class",
+        "name": "DerivativeInstrument",
+        "label": "derivative instrument",
+        "definition": "financial instrument that confers on its holders certain rights or obligations, whose value is derived from one or more underlying assets",
+        "explanatoryNote": "Derivative contracts owe their availability to the existence of markets for an underlying asset or a portfolio of assets on which such agreements are written. The derivative itself is merely a contract between two or more parties. Its value is determined by fluctuations in the underlying asset. Most derivatives are characterized by high leverage."
+    },
+    {
+        "id": "FinancialInstrument",
+        "type": "Class",
+        "name": "FinancialInstrument",
+        "definition": "written contract that gives rise to both a financial asset of one entity and a financial liability of another entity",
+        "label": "financial instrument",
+        "explanatoryNote": "A financial instrument can be thought of as a template that defines an arrangement structure that remains to be fleshed out with terms and parameters in order to establish a specific instance of the contract."
+    },
+    {
+        "id": "DebtInstrument",
+        "type": "Class",
+        "name": "DebtInstrument",
+        "label": "debt instrument",
+        "definition": "financial instrument and credit agreement evidencing monies owed by the issuer to the holder on terms as specified"
+    },
+    {
+        "id": "CreditAgreement",
+        "type": "Entity",
+        "name": "CreditAgreement"
+    },
+    {
+        "id": "SpotContract",
+        "type": "Class",
+        "name": "SpotContract",
+        "explanatoryNote": "A spot transaction is a transaction in which some goods or instrument(s) are exchanged for some other goods or instruments, including currency, with no future delivery provision, i.e., within the minimum number of days possible. Examples include currency spots and commodity spot transactions, whose settlement convention is determined by the relevant market.",
+        "label": "spot contract",
+        "definition": "financial instrument that settles for immediate delivery on a specified date"
+    },
+    {
+        "id": "Entitlement",
+        "type": "Class",
+        "name": "Entitlement",
+        "label": "entitlement",
+        "definition": "financial instrument that provides the holder the privilege to subscribe to or to receive specific assets on terms specified"
+    },
+    {
+        "id": "Security",
+        "type": "Class",
+        "name": "Security",
+        "explanatoryNote": "A security can be any note, stock, treasury stock, security future, security-based swap, bond, debenture,certificate of interest or participation in any profit-sharing agreement or in any oil, gas, or other mineral royalty or lease, any collateral-trust certificate, preorganization certificate or subscription, transferable share, investment contract, voting-trust certificate, certificate of deposit for a security, any put, call, straddle, option, or privilege on any security, certificate of deposit, or group or index of securities (including any interest therein or based on the value thereof), or any put, call, straddle, option, or privilege entered into on a national securities exchange relating to foreign currency, or in general, any instrument commonly known as a security, or any certificate of interest or participation in, temporary or interim certificate for, receipt for, or warrant or right to subscribe to or purchase, any of the foregoing; but shall not include currency or any note, draft, bill of exchange, or bankers' acceptance which has a maturity at the time of issuance of not exceeding nine months, exclusive of days of grace, or any renewal thereof the maturity of which is likewise limited.",
+        "definition": "financial instrument that can be bought or sold",
+        "label": "security"
+    },
+    {
+        "id": "WrittenContract",
+        "type": "Entity",
+        "name": "WrittenContract"
+    },
+    {
+        "id": "Issuer",
+        "type": "Class",
+        "name": "Issuer",
+        "explanatoryNote": "An issuer can be any legal person, including a legally competent natural person, company, government, or political subdivision, agency, or instrumentality of a government, depending on the nature of the instrument. A person might provide a loan directly to another party, but most instruments are issued by legal entities.",
+        "label": "issuer",
+        "definition": "role of a party that issues (or proposes to issue in a formal filing) one or more financial instruments"
+    },
+    {
+        "id": "ContractPrincipal",
+        "type": "Entity",
+        "name": "ContractPrincipal"
+    },
+    {
+        "id": "NegotiableSecurity",
+        "type": "Class",
+        "name": "NegotiableSecurity",
+        "label": "negotiable security",
+        "definition": "security that can be transferred to another party"
+    },
+    {
+        "id": "TransferableContract",
+        "type": "Entity",
+        "name": "TransferableContract"
+    },
+    {
+        "id": "SecuritiesTransaction",
+        "type": "Class",
+        "name": "SecuritiesTransaction",
+        "label": "securities transaction",
+        "definition": "transaction between two or more parties involving the exchange of commonly defined financial products"
+    },
+    {
+        "id": "Trade",
+        "type": "Entity",
+        "name": "Trade"
+    },
+    {
+        "id": "CommodityInstrument",
+        "type": "Class",
+        "name": "CommodityInstrument",
+        "definition": "financial instrument representing an ownership interest in bulk goods, such as raw materials and primary agricultural products",
+        "explanatoryNote": "The value of the contract is derived from the market value of an underlying commodity or commodity index. Commodity derivatives can be physically or cash settled. Primary underliers include metals, agricultural goods and energy.",
+        "label": "commodity instrument"
+    },
+    {
+        "id": "FinancialInstrumentIdentifier",
+        "type": "Class",
+        "name": "FinancialInstrumentIdentifier",
+        "label": "financial instrument identifier",
+        "definition": "sequence of characters uniquely identifying a financial instrument for some purpose and within a specified context"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "PromissoryNote",
+        "type": "Class",
+        "name": "PromissoryNote",
+        "definition": "debt instrument that is a written promise by one party to another that commits that party to pay a specified sum on demand or within a specified time frame under specified terms",
+        "label": "promissory note",
+        "explanatoryNote": "Promissory notes are generally fully fungible. They may or may not be negotiable."
+    },
+    {
+        "id": "Future",
+        "type": "Class",
+        "name": "Future",
+        "label": "future",
+        "definition": "derivative instrument that obligates the buyer to receive and the seller to deliver the assets specified at an agreed price, at some later point in time"
+    },
+    {
+        "id": "EquityInstrument",
+        "type": "Class",
+        "name": "EquityInstrument",
+        "definition": "financial instrument representing an ownership interest in an entity or pool of assets",
+        "label": "equity instrument"
+    },
+    {
+        "id": "UniqueTransactionIdentifier",
+        "type": "Class",
+        "name": "UniqueTransactionIdentifier"
+    },
+    {
+        "id": "CurrencyInstrument",
+        "type": "Class",
+        "name": "CurrencyInstrument",
+        "label": "currency instrument",
+        "definition": "financial instrument used for the purposes of currency trading"
+    },
+    {
+        "id": "ExemptSecurity",
+        "type": "Class",
+        "name": "ExemptSecurity",
+        "label": "exempt security",
+        "definition": "security that is exempt from certain regulatory rules",
+        "explanatoryNote": "Generally, securities must be filed with the appropriate regulatory agencies in the jurisdiction in which they are sold. The registration forms companies file provide essential facts while minimizing the burden and expense of complying with the law. Not all securities must be registered, however. By exempting many small offerings from the registration process, regulators seek to foster capital formation by lowering the cost of offering securities to the public."
+    },
+    {
+        "id": "CreditFacility",
+        "type": "Class",
+        "name": "CreditFacility"
+    },
+    {
+        "id": "CashInstrument",
+        "type": "Class",
+        "name": "CashInstrument",
+        "definition": "financial instrument whose value is determined by the market and that is readily transferable (highly liquid)",
+        "label": "cash instrument"
+    },
+    {
+        "id": "PackagedFinancialProduct",
+        "type": "Class",
+        "name": "PackagedFinancialProduct",
+        "label": "packaged financial product",
+        "explanatoryNote": "Reference assets and market measures may include single equity or debt securities, indexes, commodities, interest rates and/or foreign currencies, as well as baskets of these reference assets or market measures. Like other well-known market instruments such as convertible bonds, many structured products are hybrid securities. Structured products typically have two components - a debt instrument and a derivative, which is often an option. The debt instrument, in some instances, may pay interest at a specified rate and interval. The derivative component establishes payment at maturity, which may give the issuer the right to buy from you, or sell you, the referenced security or securities at a predetermined price. For example, structured products may combine characteristics of debt and equity or of debt and commodities.",
+        "definition": "financial product that acts as a container for at least one financial instrument, including other financial products, and whose value is derived from, or based on a reference asset, market measure, or investment strategy"
+    },
+    {
+        "id": "FinancialProduct",
+        "type": "Entity",
+        "name": "FinancialProduct"
+    },
+    {
+        "id": "ContractualProduct",
+        "type": "Entity",
+        "name": "ContractualProduct"
+    },
+    {
+        "id": "StandardizedTerms",
+        "type": "Class",
+        "name": "StandardizedTerms",
+        "definition": "contract terms that, grouped together, that are generally and consistently reused across many contracts, published by some organization, and capable of being incorporated into a contract by reference",
+        "label": "standardized terms"
+    },
+    {
+        "id": "ContractualCommitment",
+        "type": "Entity",
+        "name": "ContractualCommitment"
+    },
+    {
+        "id": "RedemptionProvision",
+        "type": "Class",
+        "name": "RedemptionProvision",
+        "definition": "contract provision enabling the issuer (writer) to regain possession through repayment of some stipulated price",
+        "explanatoryNote": "In general, redemption is synonymous with 'buy back' or 'cash in', depending on the kind of instrument. Redemption provisions are commonly applicable to the process of annulling a defeasible title, such as for a mortgage or tax sale, by paying the debt or fulfilling an obligation.",
+        "label": "redemption provision"
+    },
+    {
+        "id": "Option",
+        "type": "Class",
+        "name": "Option",
+        "label": "option",
+        "definition": "derivative instrument that grants to the holder either the privilege to purchase or the privilege to sell the assets specified at a predetermined price or formula at or within a time period in the future"
+    },
+    {
+        "id": "Underlier",
+        "type": "Class",
+        "name": "Underlier",
+        "label": "underlier",
+        "definition": "something that can be assigned a value in the marketplace that forms the basis for a derivative or pool-backed instrument",
+        "explanatoryNote": "Underlier means any rate (including interest and foreign exchange rates), currency, commodity, security, instrument of indebtedness, index, quantitative measure, occurrence or non-occurrence of an event, or other financial or economic interest, or property of any kind, or any interest therein or based on the value thereof, in or by reference to which any payment or delivery under a transaction is to be made or determined."
+    },
+    {
+        "id": "Role",
+        "type": "Entity",
+        "name": "Role"
+    },
+    {
+        "id": "NonNegotiableSecurity",
+        "type": "Class",
+        "name": "NonNegotiableSecurity",
+        "label": "non-negotiable security",
+        "explanatoryNote": "Certain securities that can be redeemed by the issuer may not be 'negotiable', such as savings bonds and certificates of deposit.",
+        "definition": "security that is not transferable to another party"
+    },
+    {
+        "id": "hasSellingCurrency",
+        "type": "ObjectProperty",
+        "name": "hasSellingCurrency",
+        "label": "has selling currency",
+        "definition": "indicates the currency sold with respect to a currency or related instrument",
+        "explanatoryNote": "Note that the buying and selling currencies could be the same under certain circumstances."
+    },
+    {
+        "id": "hasShareholder",
+        "type": "ObjectProperty",
+        "name": "hasShareholder",
+        "label": "has shareholder",
+        "definition": "indicates a party that holds shares in the issuer"
+    },
+    {
+        "id": "hasUnderlier",
+        "type": "ObjectProperty",
+        "name": "hasUnderlier",
+        "definition": "relates a derivative to something on which the contract is based",
+        "label": "has underlier"
+    },
+    {
+        "id": "hasPrincipalExecutiveOfficeAddress",
+        "type": "ObjectProperty",
+        "name": "hasPrincipalExecutiveOfficeAddress",
+        "label": "has principal executive office address",
+        "explanatoryNote": "Note that in most cases, the principal executive office address is also the headquarters address for a company.",
+        "definition": "relates an organization, specifically the issuer of a financial instrument, to its principal executive address, as required for issuance of that instrument"
+    },
+    {
+        "id": "hasBuyingCurrency",
+        "type": "ObjectProperty",
+        "name": "hasBuyingCurrency",
+        "explanatoryNote": "Note that the buying and selling currencies could be the same under certain circumstances.",
+        "definition": "indicates the currency purchased with respect to a currency or related instrument",
+        "label": "has buying currency"
+    },
+    {
+        "id": "hasRedemptionProvision",
+        "type": "ObjectProperty",
+        "name": "hasRedemptionProvision",
+        "definition": "indicates the specific terms related to redemption as specified in the instrument or a related contract document",
+        "label": "has redemption terms"
+    },
+    {
+        "id": "isDenominatedIn",
+        "type": "ObjectProperty",
+        "name": "isDenominatedIn",
+        "label": "is denominated in",
+        "definition": "indicates the currency in which the financial instrument was issued"
+    },
+    {
+        "id": "isNegotiable",
+        "type": "DatatypeProperty",
+        "name": "isNegotiable",
+        "label": "is negotiable",
+        "definition": "specifies whether a particular financial instrument is or is not transferable"
+    },
+    {
+        "id": "hasNominalValue",
+        "type": "ObjectProperty",
+        "name": "hasNominalValue",
+        "explanatoryNote": "The nominal amount of a financial instrument is the face amount used to calculate payments made on that instrument. This amount generally does not change.\n\t\t\n\t\tFor securities the nominal value is often referred to as the face or par value. This is the redemption price of the security and is normally stated on the front of that security. With respect to bonds and stocks, it is the stated value of an issued security, as opposed to its market value.",
+        "label": "has nominal value",
+        "definition": "indicates the face value of a contract"
+    },
+    {
+        "id": "hasCommodityValueAsOfExecutionDate",
+        "type": "ObjectProperty",
+        "name": "hasCommodityValueAsOfExecutionDate",
+        "label": "has commodity value as of execution date",
+        "definition": "indicates the per unit value of a given commodity as of the date that the contract is executed"
+    },
+    {
+        "id": "holdsSharesIn",
+        "type": "ObjectProperty",
+        "name": "holdsSharesIn",
+        "label": "holds shares in",
+        "definition": "specifies the issuer in which a shareholder holds an equity position"
+    },
+    {
+        "id": "hasValueExpressedIn",
+        "type": "ObjectProperty",
+        "name": "hasValueExpressedIn",
+        "definition": "relates an instrument to the currency its value is typically expressed in",
+        "explanatoryNote": "This should be the same currency that was declared at the time of issuance.",
+        "label": "has value expressed in"
+    },
+    {
+        "id": "isLegallyRecordedIn",
+        "type": "ObjectProperty",
+        "name": "isLegallyRecordedIn",
+        "label": "is legally recorded in",
+        "definition": "jurisdiction (country, county, state, province, city) in which the financial instrument is legally recorded for regulatory and/or tax purposes"
+    }
+]

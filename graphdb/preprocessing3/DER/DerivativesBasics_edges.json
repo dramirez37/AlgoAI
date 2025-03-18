@@ -1,0 +1,398 @@
+[
+    {
+        "source_id": "PayingParty",
+        "target_id": "Buyer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PayingParty",
+        "target_id": "Payer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PayingParty",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DerivativeSettlementTerms",
+        "target_id": "SettlementTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DerivativeSettlementTerms",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasAdditionalCosts",
+                "MonetaryAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "DerivativeSettlementTerms",
+        "target_id": "DerivativeTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UniqueProductIdentifier",
+        "target_id": "OverTheCounterDerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "OverTheCounterDerivativeInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "UniqueProductIdentifier",
+        "target_id": "StructuredIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UniqueProductIdentifier",
+        "target_id": "FinancialInstrumentIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UniqueProductIdentifier",
+        "target_id": "UniqueProductIdentifierServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRegisteredBy",
+                "UniqueProductIdentifierServiceProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "DerivativeInstrument",
+        "target_id": "SettlementTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSettlementTerms",
+                "SettlementTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "DerivativeInstrument",
+        "target_id": "ValuationTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasValuationTerms",
+                "ValuationTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "DerivativeInstrument",
+        "target_id": "Underlier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "Underlier"
+            ]
+        }
+    },
+    {
+        "source_id": "OverTheCounterDerivativeInstrument",
+        "target_id": "OverTheCounterInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OverTheCounterDerivativeInstrument",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UniqueProductIdentifierRegistryEntry",
+        "target_id": "OverTheCounterDerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "OverTheCounterDerivativeInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "UniqueProductIdentifierRegistryEntry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UniqueProductIdentifierRegistryEntry",
+        "target_id": "UniqueProductIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "UniqueProductIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "ReceivingParty",
+        "target_id": "Seller",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReceivingParty",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReceivingParty",
+        "target_id": "Payee",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OverTheCounterInstrument",
+        "target_id": "MutualContractualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OverTheCounterInstrument",
+        "target_id": "FinancialInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UniqueProductIdentifierServiceProvider",
+        "target_id": "RegistrationAuthority",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UniqueProductIdentifierServiceProvider",
+        "target_id": "UniqueProductIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "registers",
+                "UniqueProductIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditDerivative",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DerivativeTerms",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IntroducingBroker",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IntroducingBroker",
+        "target_id": "Broker",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashflowExpression",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CalculationAgent",
+        "target_id": "ThirdPartyAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashflowFormula",
+        "target_id": "Formula",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashflowFormula",
+        "target_id": "CashflowExpression",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasExpression",
+                "CashflowExpression"
+            ]
+        }
+    },
+    {
+        "source_id": "ValuationTerms",
+        "target_id": "DerivativeTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ValuationTerms",
+        "target_id": "UnderlyingAssetValuation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "involves",
+                "UnderlyingAssetValuation"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractForDifference",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashflowTerms",
+        "target_id": "DebtTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashflowTerms",
+        "target_id": "DerivativeTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ObservableValue",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderlyingAssetValuation",
+        "target_id": "Underlier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "evaluates",
+                "Underlier"
+            ]
+        }
+    },
+    {
+        "source_id": "UnderlyingAssetValuation",
+        "target_id": "CalculationAgent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasCalculationAgent",
+                "CalculationAgent"
+            ]
+        }
+    },
+    {
+        "source_id": "UnderlyingAssetValuation",
+        "target_id": "ValueAssessment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DerivativesClearingOrganization",
+        "target_id": "ClearingHouse",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ParametricCashflowTerms",
+        "target_id": "CashflowTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ParametricCashflowTerms",
+        "target_id": "CashflowFormula",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasFormula",
+                "CashflowFormula"
+            ]
+        }
+    }
+]

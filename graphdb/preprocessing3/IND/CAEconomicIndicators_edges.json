@@ -1,0 +1,68 @@
+[
+    {
+        "source_id": "IndustrialProductsSector",
+        "target_id": "IndustrySectorClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CanadianHouseholdsConsumersUniverse",
+        "target_id": "CivilianNonInstitutionalPopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CanadianConsumerPriceIndex",
+        "target_id": "CanadianHouseholdsConsumersUniverse",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasArgument",
+                "CanadianHouseholdsConsumersUniverse"
+            ]
+        }
+    },
+    {
+        "source_id": "CanadianConsumerPriceIndex",
+        "target_id": "ConsumerPriceIndex",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CanadianConsumerPriceIndex",
+        "target_id": "CanadianHouseholdsConsumersUniverse",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "CanadianHouseholdsConsumersUniverse"
+            ]
+        }
+    },
+    {
+        "source_id": "CanadianProducerPriceIndex",
+        "target_id": "ProducerPriceIndex",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RawMaterialsSector",
+        "target_id": "IndustrySectorClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NewHousingSector",
+        "target_id": "IndustrySectorClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "source_id": "ForwardRateAgreement",
+        "target_id": "InterestRateDerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateObservable",
+        "target_id": "RateBasedObservable",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateDerivativeInstrument",
+        "target_id": "InterestRateObservable",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "InterestRateObservable"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestRateDerivativeInstrument",
+        "target_id": "RateBasedDerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RateBasedDerivativeInstrument",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RateBasedDerivativeInstrument",
+        "target_id": "RateBasedObservable",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "RateBasedObservable"
+            ]
+        }
+    },
+    {
+        "source_id": "RateBasedObservable",
+        "target_id": "ObservableValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EconomicRateObservable",
+        "target_id": "RateBasedObservable",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EconomicRateBasedDerivativeInstrument",
+        "target_id": "RateBasedDerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EconomicRateBasedDerivativeInstrument",
+        "target_id": "EconomicRateObservable",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "EconomicRateObservable"
+            ]
+        }
+    }
+]

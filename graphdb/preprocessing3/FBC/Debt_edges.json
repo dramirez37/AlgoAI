@@ -1,0 +1,1058 @@
+[
+    {
+        "source_id": "Amortization",
+        "target_id": "Role",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Amortization",
+        "target_id": "Debt",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isAmortizationOf",
+                "Debt"
+            ]
+        }
+    },
+    {
+        "source_id": "Debt",
+        "target_id": "Debtor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isOwedBy",
+                "Debtor"
+            ]
+        }
+    },
+    {
+        "source_id": "Debt",
+        "target_id": "Commitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Debt",
+        "target_id": "Creditor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isOwedTo",
+                "Creditor"
+            ]
+        }
+    },
+    {
+        "source_id": "ExplicitContractEventSchedule",
+        "target_id": "CreditAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "CreditAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "ExplicitContractEventSchedule",
+        "target_id": "AdHocSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Interest",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Interest",
+        "target_id": "InterestRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "hasInterestRate",
+                "InterestRate"
+            ]
+        }
+    },
+    {
+        "source_id": "Interest",
+        "target_id": "Debt",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isInterestOn",
+                "Debt"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestCalculation",
+        "target_id": "InterestRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasInterestRate",
+                "InterestRate"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestCalculation",
+        "target_id": "ContractLifecycleEventOccurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestCalculation",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasMonetaryAmount",
+                "MonetaryAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestCalculation",
+        "target_id": "Calculation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BorrowingCapacity",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditAgreement",
+        "target_id": "Collateral",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isCollateralizedBy",
+                "Collateral"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditAgreement",
+        "target_id": "MutualContractualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditAgreement",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditAgreement",
+        "target_id": "Creditor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractParty",
+                "Creditor"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditAgreement",
+        "target_id": "DebtTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "DebtTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditAgreement",
+        "target_id": "Debtor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractParty",
+                "Debtor"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditFacility",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMonetaryAmount",
+                "MonetaryAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditFacility",
+        "target_id": "CreditAgreementRepaidPeriodically",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditFacility",
+        "target_id": "SubFacility",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasConstituent",
+                "SubFacility"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestPaymentTerms",
+        "target_id": "InterestRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasInterestRate",
+                "InterestRate"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestPaymentTerms",
+        "target_id": "Interest",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governsPaymentOf",
+                "Interest"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestPaymentTerms",
+        "target_id": "InterestRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasInterestRateCap",
+                "InterestRate"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestPaymentTerms",
+        "target_id": "DayCountConvention",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasAccrualBasis",
+                "DayCountConvention"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestPaymentTerms",
+        "target_id": "DebtTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AccruedInterest",
+        "target_id": "Interest",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestCalculationSchedule",
+        "target_id": "InterestCalculation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOccurrence",
+                "InterestCalculation"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestCalculationSchedule",
+        "target_id": "ProjectedContractEventSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Creditor",
+        "target_id": "Obligee",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Creditor",
+        "target_id": "Debt",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isOwed",
+                "Debt"
+            ]
+        }
+    },
+    {
+        "source_id": "NegativeAmortization",
+        "target_id": "Amortization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SubFacility",
+        "target_id": "MutualContractualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SubFacility",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMonetaryAmount",
+                "MonetaryAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "SubFacility",
+        "target_id": "CreditFacility",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isConstituentOf",
+                "CreditFacility"
+            ]
+        }
+    },
+    {
+        "source_id": "Borrower",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Borrower",
+        "target_id": "CreditAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "CreditAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "Borrower",
+        "target_id": "Customer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Borrower",
+        "target_id": "Debtor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Borrower",
+        "target_id": "Debt",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "owes",
+                "Debt"
+            ]
+        }
+    },
+    {
+        "source_id": "ProjectedContractEventSchedule",
+        "target_id": "RegularSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProjectedContractEventSchedule",
+        "target_id": "CreditAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "appliesTo",
+                "CreditAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditAgreementRepaidPeriodically",
+        "target_id": "CreditAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Lease",
+        "target_id": "CreditAgreementRepaidPeriodically",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PhysicalCollateral",
+        "target_id": "Collateral",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RetailCreditFacility",
+        "target_id": "CommittedCreditFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ManagedInterestRate",
+        "target_id": "VariableInterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrincipalPayment",
+        "target_id": "Payment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Lender",
+        "target_id": "Creditor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Lender",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Lender",
+        "target_id": "CreditAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "CreditAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "CapitalLease",
+        "target_id": "Lease",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Principal",
+        "target_id": "Debt",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPrincipalOf",
+                "Debt"
+            ]
+        }
+    },
+    {
+        "source_id": "Principal",
+        "target_id": "Aspect",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Collateral",
+        "target_id": "Undergoer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommittedSubFacility",
+        "target_id": "SubFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommittedSubFacility",
+        "target_id": "CommittedCreditFacility",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isConstituentOf",
+                "CommittedCreditFacility"
+            ]
+        }
+    },
+    {
+        "source_id": "DayCountConvention",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DayCountConvention",
+        "target_id": "BusinessRecurrenceIntervalConvention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AmortizationSchedule",
+        "target_id": "Amortization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "embodies",
+                "Amortization"
+            ]
+        }
+    },
+    {
+        "source_id": "AmortizationSchedule",
+        "target_id": "InterestPaymentSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "InterestPaymentSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "AmortizationSchedule",
+        "target_id": "ProjectedContractEventSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AmortizationSchedule",
+        "target_id": "PrincipalPaymentSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PrincipalPaymentSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "AmortizationSchedule",
+        "target_id": "PaymentSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartialAmortization",
+        "target_id": "Amortization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrincipalPaymentSchedule",
+        "target_id": "ProjectedContractEventSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrincipalPaymentSchedule",
+        "target_id": "PaymentSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrincipalPaymentSchedule",
+        "target_id": "PrincipalPayment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOccurrence",
+                "PrincipalPayment"
+            ]
+        }
+    },
+    {
+        "source_id": "PrincipalRepaymentTerms",
+        "target_id": "DebtTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrincipalRepaymentTerms",
+        "target_id": "Principal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governsPaymentOf",
+                "Principal"
+            ]
+        }
+    },
+    {
+        "source_id": "MotorVehicleLease",
+        "target_id": "Lease",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommittedCreditFacility",
+        "target_id": "CommittedSubFacility",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasConstituent",
+                "CommittedSubFacility"
+            ]
+        }
+    },
+    {
+        "source_id": "CommittedCreditFacility",
+        "target_id": "CreditFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CollateralValueAsOfDate",
+        "target_id": "Collateral",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEstimatedValueOf",
+                "Collateral"
+            ]
+        }
+    },
+    {
+        "source_id": "CollateralValueAsOfDate",
+        "target_id": "AppraisedValue",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityAgreement",
+        "target_id": "Collateral",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isCollateralizedBy",
+                "Collateral"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityAgreement",
+        "target_id": "CollateralAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityAgreement",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasEstimatedValue",
+                "MonetaryAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "NonPhysicalCollateral",
+        "target_id": "Collateral",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RevolvingLineOfCredit",
+        "target_id": "CommittedCreditFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RevolvingLineOfCredit",
+        "target_id": "Collateral",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isCollateralizedBy",
+                "Collateral"
+            ]
+        }
+    },
+    {
+        "source_id": "Debtor",
+        "target_id": "Debt",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "owes",
+                "Debt"
+            ]
+        }
+    },
+    {
+        "source_id": "Debtor",
+        "target_id": "Obligor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VariableInterestRate",
+        "target_id": "InterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateResetSchedule",
+        "target_id": "ProjectedContractEventSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateResetSchedule",
+        "target_id": "InterestRateReset",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOccurrence",
+                "InterestRateReset"
+            ]
+        }
+    },
+    {
+        "source_id": "InterestRateReset",
+        "target_id": "InterestCalculation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UncommittedCreditFacility",
+        "target_id": "CreditFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UncommittedSubFacility",
+        "target_id": "SubFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BorrowerIdentifier",
+        "target_id": "Borrower",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "Borrower"
+            ]
+        }
+    },
+    {
+        "source_id": "BorrowerIdentifier",
+        "target_id": "BorrowerIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "BorrowerIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "BorrowerIdentifier",
+        "target_id": "PartyRoleIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedInterestRate",
+        "target_id": "InterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RateResetTimeOfDay",
+        "target_id": "TimeOfDay",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BorrowerIdentificationScheme",
+        "target_id": "PartyRoleIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestPaymentSchedule",
+        "target_id": "ProjectedContractEventSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestPaymentSchedule",
+        "target_id": "PaymentSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestPaymentSchedule",
+        "target_id": "InterestPayment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOccurrence",
+                "InterestPayment"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditAgreementRepaidAtMaturity",
+        "target_id": "CreditAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Accrual",
+        "target_id": "Role",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Accrual",
+        "target_id": "Interest",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "appliesTo",
+                "Interest"
+            ]
+        }
+    },
+    {
+        "source_id": "FloatingInterestRate",
+        "target_id": "VariableInterestRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FullAmortization",
+        "target_id": "Amortization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestPayment",
+        "target_id": "Payment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtTerms",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateSettingEvent",
+        "target_id": "InterestCalculation",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "id": "MutualAgreement",
+        "type": "Class",
+        "name": "MutualAgreement",
+        "label": "mutual agreement",
+        "definition": "agreement between two or more specific named parties whereby the rights and obligations embodied in the agreement cannot be transferred to another party without prior agreement"
+    },
+    {
+        "id": "Agreement",
+        "type": "Class",
+        "name": "Agreement",
+        "definition": "negotiated understanding between two or more parties, reflecting the offer and acceptance of commitments on the part of either party",
+        "label": "agreement",
+        "explanatoryNote": "All agreements are time bound, whether implicit or explicitly stated, and thus an agreement reflects a state of affairs that holds for some period of time."
+    },
+    {
+        "id": "Obligor",
+        "type": "Class",
+        "name": "Obligor",
+        "label": "obligor",
+        "definition": "party that is bound legally or by agreement to repay a debt, make a payment, do something, or refrain from doing something"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "Obligee",
+        "type": "Class",
+        "name": "Obligee",
+        "definition": "party to whom some commitment or obligation is owed, either legally or per the terms of an agreement",
+        "label": "obligee"
+    },
+    {
+        "id": "IndividualUnilateralCommitment",
+        "type": "Class",
+        "name": "IndividualUnilateralCommitment",
+        "label": "individual unilateral commitment",
+        "definition": "commitment made by some party unilaterally to another specific party"
+    },
+    {
+        "id": "UnilateralCommitment",
+        "type": "Class",
+        "name": "UnilateralCommitment",
+        "definition": "commitment made by one party without reference any other the party to which the commitment is made",
+        "label": "unilateral commitment"
+    },
+    {
+        "id": "Situation",
+        "type": "Entity",
+        "name": "Situation"
+    },
+    {
+        "id": "MutualCommitment",
+        "type": "Class",
+        "name": "MutualCommitment",
+        "definition": "commitment between two or more parties",
+        "label": "mutual commitment"
+    },
+    {
+        "id": "Commitment",
+        "type": "Class",
+        "name": "Commitment",
+        "explanatoryNote": "Such a promise often results a corresponding right or obligation with respect to another party to the commitment. Thus, obligations and rights are considered as reciprocal aspects of a commitment.",
+        "label": "commitment",
+        "definition": "promise made by some party to act or refrain from acting in some manner"
+    },
+    {
+        "id": "Beneficiary",
+        "type": "Class",
+        "name": "Beneficiary",
+        "label": "beneficiary",
+        "definition": "party that receives some benefit or advantage or profits from something"
+    },
+    {
+        "id": "CommitmentAtLarge",
+        "type": "Class",
+        "name": "CommitmentAtLarge",
+        "definition": "commitment made by some party without direct involvement from the potential beneficiaries of that commitment",
+        "label": "commitment at large"
+    },
+    {
+        "id": "hasObligation",
+        "type": "ObjectProperty",
+        "name": "hasObligation",
+        "definition": "identifies a duty or obligation that a given party has taken on",
+        "label": "has obligation"
+    },
+    {
+        "id": "isObligationOf",
+        "type": "ObjectProperty",
+        "name": "isObligationOf",
+        "label": "is obligation of",
+        "definition": "identifies a party that has a given obligation"
+    }
+]

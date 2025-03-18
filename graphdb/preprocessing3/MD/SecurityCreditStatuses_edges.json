@@ -1,0 +1,26 @@
+[
+    {
+        "source_id": "SecurityCreditStatus",
+        "target_id": "LifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InDefault",
+        "target_id": "SecurityCreditStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditOK",
+        "target_id": "SecurityCreditStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityCashflowStatus",
+        "target_id": "LifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

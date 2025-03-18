@@ -1,0 +1,437 @@
+[
+    {
+        "source_id": "CreditReport",
+        "target_id": "RatingReport",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditReport",
+        "target_id": "CreditMessage",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CreditMessage"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditReport",
+        "target_id": "CreditReportCategory",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "CreditReportCategory"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditReport",
+        "target_id": "CreditRatingAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isProducedBy",
+                "CreditRatingAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditReport",
+        "target_id": "CreditTradeline",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CreditTradeline"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditReport",
+        "target_id": "CreditInquiry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CreditInquiry"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditReport",
+        "target_id": "CreditRatingAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasDataSource",
+                "playsRole",
+                "CreditRatingAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditReport",
+        "target_id": "CreditReportProduct",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "CreditReportProduct"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditReport",
+        "target_id": "CreditRating",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "CreditRating"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditReportProduct",
+        "target_id": "OffTheShelfProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditReportProduct",
+        "target_id": "CreditRatingAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProducedBy",
+                "CreditRatingAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditReportProduct",
+        "target_id": "FinancialProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditRatingAgency",
+        "target_id": "CreditRatingScale",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "manages",
+                "CreditRatingScale"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRatingAgency",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditRatingAgency",
+        "target_id": "RatingAgency",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditRatingAgency",
+        "target_id": "CreditRating",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "CreditRating"
+            ]
+        }
+    },
+    {
+        "source_id": "OrganizationCreditRating",
+        "target_id": "CreditRating",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditRating",
+        "target_id": "CreditRatingAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIssuedBy",
+                "CreditRatingAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRating",
+        "target_id": "Rating",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditRating",
+        "target_id": "CreditRatingModel",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDerivedFrom",
+                "CreditRatingModel"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditInquiry",
+        "target_id": "CreditRatingAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRequestedOf",
+                "CreditRatingAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditInquiry",
+        "target_id": "RequestActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditInquiry",
+        "target_id": "CreditInquiryType",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "CreditInquiryType"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditWatchOutlook",
+        "target_id": "Rating",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InstrumentCreditRating",
+        "target_id": "InvestmentCreditRating",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditWatchDirection",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditRatingModel",
+        "target_id": "RatingScore",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "produces",
+                "RatingScore"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRatingModel",
+        "target_id": "CreditRatingModelType",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "CreditRatingModelType"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRatingModel",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditMessageType",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditQuality",
+        "target_id": "RatingScore",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditTradeline",
+        "target_id": "Report",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditTradeline",
+        "target_id": "CreditReport",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIncludedIn",
+                "CreditReport"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRatingScale",
+        "target_id": "CreditRatingAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isManagedBy",
+                "CreditRatingAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRatingScale",
+        "target_id": "RatingScale",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditRatingModelType",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditMessage",
+        "target_id": "Notice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditMessage",
+        "target_id": "CreditMessageType",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "CreditMessageType"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditReportCategory",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentCreditRating",
+        "target_id": "CreditRating",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ShortTermCreditRating",
+        "target_id": "InvestmentCreditRating",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditInquiryType",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

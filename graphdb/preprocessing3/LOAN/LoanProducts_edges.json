@@ -1,0 +1,197 @@
+[
+    {
+        "source_id": "MortgageProduct",
+        "target_id": "LoanProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanMarketCategory",
+        "target_id": "IndustrySectorClassifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanProductDisclosureRight",
+        "target_id": "ProductDisclosureRight",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LineItem",
+        "target_id": "Constituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanProduct",
+        "target_id": "Loan",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isExemplifiedBy",
+                "Loan"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanProduct",
+        "target_id": "CreditFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanProduct",
+        "target_id": "FinancialProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OverdraftFacilityPurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanProductOffering",
+        "target_id": "Offering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanProductOffering",
+        "target_id": "LineItem",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasConstituent",
+                "LineItem"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanProductOffering",
+        "target_id": "LoanProduct",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "LoanProduct"
+            ]
+        }
+    },
+    {
+        "source_id": "ResidentialHouseboatLoanPurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StudentLoanPurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanPurpose",
+        "target_id": "Objective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MortgageLoanPurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrdinaryLoanPurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AutoLoanPurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MotorhomeLoanPurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HomeEquityLoanPurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConstructionLoanPurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Loan",
+        "target_id": "LoanMarketCategory",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "LoanMarketCategory"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanProductRepresentations",
+        "target_id": "LoanProduct",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAbout",
+                "LoanProduct"
+            ]
+        }
+    },
+    {
+        "source_id": "WorkingCapitalPurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditCardReceivablePurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BridgingLoanPurpose",
+        "target_id": "LoanPurpose",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

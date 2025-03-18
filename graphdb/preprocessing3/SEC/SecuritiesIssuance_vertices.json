@@ -1,0 +1,375 @@
+[
+    {
+        "id": "ExemptOffering",
+        "type": "Class",
+        "name": "ExemptOffering",
+        "explanatoryNote": "Such an offering may be considered exempt either because the issuer is exempt or the transaction specific to the offering is exempt.",
+        "definition": "public offering involving securities that are excused from certain regulatory reporting requirements",
+        "label": "exempt offering"
+    },
+    {
+        "id": "PublicOffering",
+        "type": "Class",
+        "name": "PublicOffering",
+        "explanatoryNote": "In the US, public offerings generally require approval of the Securities Exchange Commission and/or relevant state regulators, unless the issuer is an exempt issuer, and are usually conducted by an investment banker or a syndicate made up of several investment bankers, at a price agreed upon between the issuer and the investment bankers.",
+        "label": "public offering",
+        "definition": "offering of securities for sale to the investment public, after compliance with registration requirements of the relevant regulatory authorities"
+    },
+    {
+        "id": "SecurityForm",
+        "type": "Class",
+        "name": "SecurityForm",
+        "explanatoryNote": "Securities are typically issued in one of two forms, registered or bearer. Most securities issued today are in registered form, which enables the issuing firm or registrar to keep records of a security's owner and mail them any dividend, coupon, or other payments. Registered securities may be issued in book entry (digital only) or certificate (physical) form, but most today are entirely digital.",
+        "definition": "nature of the proof of ownership of a security",
+        "label": "security form"
+    },
+    {
+        "id": "ContractDocument",
+        "type": "Entity",
+        "name": "ContractDocument"
+    },
+    {
+        "id": "BestEffortsOffering",
+        "type": "Class",
+        "name": "BestEffortsOffering",
+        "label": "best efforts offering",
+        "explanatoryNote": "In a best efforts offering, the agreement is strictly an agency arrangement, with no obligation on the part of the agent to purchase the securities. They act as a broker, in other words.",
+        "definition": "securities offering whereby investment bankers commit to doing their best to sell the securities offered, but do not assume the full risk of an underwriter"
+    },
+    {
+        "id": "SecuritiesOffering",
+        "type": "Class",
+        "name": "SecuritiesOffering",
+        "label": "securities offering",
+        "explanatoryNote": "If the offering is public, then it can only be made after regulatory registration requirements have been met. The securities may be new or a secondary offering of a previously issued security, and may include stock, multiple classes of equity shares, municipal or other government bonds, and so forth. Offerings, especially to the investment public, are typically made by an investment banker, or syndicate of investment bankers.",
+        "definition": "offering of a security (or securities) for sale"
+    },
+    {
+        "id": "OfferingStatement",
+        "type": "Class",
+        "name": "OfferingStatement",
+        "explanatoryNote": "See  for the actual form detail",
+        "label": "offering statement",
+        "definition": "offering memorandum that conforms to Regulation A, Offering Statement, of the Securities Act of 1933"
+    },
+    {
+        "id": "OfferingDocument",
+        "type": "Class",
+        "name": "OfferingDocument",
+        "definition": "legal document that states the objectives, risks and terms of an investment",
+        "label": "offering document",
+        "explanatoryNote": "There are many variations, including offering memorandum, which is typically used in the context of a private placement, offering statement, which has slightly different meanings depending on the context (for securities, for bonds, etc.) and so forth. This concept is intended to act as a more abstract parent for these more nuanced concepts."
+    },
+    {
+        "id": "ConversionTerms",
+        "type": "Class",
+        "name": "ConversionTerms",
+        "label": "conversion terms",
+        "definition": "contract terms specifying when and how a security may be converted to another security (usually of the same issuer)"
+    },
+    {
+        "id": "RedemptionProvision",
+        "type": "Entity",
+        "name": "RedemptionProvision"
+    },
+    {
+        "id": "LegalDocument",
+        "type": "Entity",
+        "name": "LegalDocument"
+    },
+    {
+        "id": "Publication",
+        "type": "Entity",
+        "name": "Publication"
+    },
+    {
+        "id": "FinancialInstrumentShortName",
+        "type": "Class",
+        "name": "FinancialInstrumentShortName",
+        "definition": "abbreviated name for a financial instrument within a defined structure as specified in ISO 18774",
+        "label": "financial instrument short name",
+        "abbreviation": "FISN"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "Offering",
+        "type": "Entity",
+        "name": "Offering"
+    },
+    {
+        "id": "Agreement",
+        "type": "Entity",
+        "name": "Agreement"
+    },
+    {
+        "id": "PrivatePlacementMemorandum",
+        "type": "Class",
+        "name": "PrivatePlacementMemorandum",
+        "definition": "legal document stating the objectives, risks and terms of investment involved with a private placement",
+        "label": "private placement memorandum",
+        "explanatoryNote": "An offering memorandum serves to provide buyers with information on the offering and to protect the sellers from the liability associated with selling unregistered securities. It includes information such as the financial statements, management biographies, a detailed description of the business, etc.",
+        "abbreviation": "PPM"
+    },
+    {
+        "id": "SecurityUnderwriter",
+        "type": "Class",
+        "name": "SecurityUnderwriter",
+        "definition": "party that has purchased from an issuer with a view to, or sells for an issuer in connection with, the distribution of any security, or participates or has a direct or indirect participation in any such undertaking, or participates or has a participation in the direct or indirect underwriting of any such undertaking",
+        "label": "security underwriter"
+    },
+    {
+        "id": "Underwriter",
+        "type": "Entity",
+        "name": "Underwriter"
+    },
+    {
+        "id": "ThirdPartyAgent",
+        "type": "Entity",
+        "name": "ThirdPartyAgent"
+    },
+    {
+        "id": "ContractThirdParty",
+        "type": "Entity",
+        "name": "ContractThirdParty"
+    },
+    {
+        "id": "SecurityUnderwritingArrangement",
+        "type": "Class",
+        "name": "SecurityUnderwritingArrangement",
+        "label": "security underwriting arrangement",
+        "explanatoryNote": "Sales may be made either directly or through third-party dealers.",
+        "definition": "underwriting agreement between an organization (typically an investment bank) and a securities issuer that commits the underwriter to assuming risk involved in buying a new issue of securities and reselling it to the public"
+    },
+    {
+        "id": "UnderwritingArrangement",
+        "type": "Entity",
+        "name": "UnderwritingArrangement"
+    },
+    {
+        "id": "ExemptTransaction",
+        "type": "Class",
+        "name": "ExemptTransaction",
+        "definition": "securities transaction for which there is no requirement to register the transaction with a regulatory agency",
+        "label": "exempt transaction"
+    },
+    {
+        "id": "SecuritiesTransaction",
+        "type": "Entity",
+        "name": "SecuritiesTransaction"
+    },
+    {
+        "id": "Issuer",
+        "type": "Class",
+        "name": "Issuer"
+    },
+    {
+        "id": "PrivateOffering",
+        "type": "Class",
+        "name": "PrivateOffering",
+        "explanatoryNote": "Unlike a public offering, a private placement does not have to be registered with a regulatory agency if the securities are purchased for investment rather than resale.",
+        "label": "private offering",
+        "definition": "offering of securities made privately to a limited number of qualified potential investors"
+    },
+    {
+        "id": "Prospectus",
+        "type": "Class",
+        "name": "Prospectus",
+        "label": "prospectus",
+        "explanatoryNote": "A prospectus may specify the facts about an offering of securities, mutual funds, or limited partnerships for investments in oil, gas, equipment leasing, or other kinds of limited partnerships.",
+        "definition": "formal, written offering document to sell securities that provides the facts an investor needs to make an informed investment decision"
+    },
+    {
+        "id": "FirmCommitmentOffering",
+        "type": "Class",
+        "name": "FirmCommitmentOffering",
+        "definition": "securities offering whereby the underwriter purchases the securities outright for their own account",
+        "label": "firm commitment offering"
+    },
+    {
+        "id": "Security",
+        "type": "Class",
+        "name": "Security"
+    },
+    {
+        "id": "ExemptIssuer",
+        "type": "Class",
+        "name": "ExemptIssuer",
+        "label": "exempt issuer",
+        "definition": "issuer that issues securities that are excused from certain regulatory reporting requirements"
+    },
+    {
+        "id": "FinancialInstrument",
+        "type": "Class",
+        "name": "FinancialInstrument"
+    },
+    {
+        "id": "ConvertibleSecurity",
+        "type": "Class",
+        "name": "ConvertibleSecurity",
+        "label": "convertible security",
+        "definition": "security that can be converted into another security"
+    },
+    {
+        "id": "hasSubscriptionAmount",
+        "type": "DatatypeProperty",
+        "name": "hasSubscriptionAmount",
+        "definition": "indicates a number of shares or units",
+        "label": "has subscription amount"
+    },
+    {
+        "id": "BookEntryForm",
+        "type": "SecurityForm",
+        "name": "BookEntryForm",
+        "definition": "form of a security in which ownership is recorded electronically by a central depository",
+        "label": "book entry form"
+    },
+    {
+        "id": "underwrites",
+        "type": "ObjectProperty",
+        "name": "underwrites",
+        "label": "underwrites",
+        "definition": "identifies one or more underwriters involved in raising capital for or distributing the instruments that are the subject of the offering",
+        "explanatoryNote": "Underwriting is the process by which investment bankers raise investment capital from investors on behalf of corporations and governments that are issuing either equity or debt securities."
+    },
+    {
+        "id": "hasActualClosingDate",
+        "type": "ObjectProperty",
+        "name": "hasActualClosingDate",
+        "label": "has actual closing date",
+        "definition": "indicates the date on which an offering or transaction officially closes, in contrast with an intended closing date"
+    },
+    {
+        "id": "hasAnnouncementDate",
+        "type": "ObjectProperty",
+        "name": "hasAnnouncementDate",
+        "label": "has announcement date",
+        "definition": "indicates the first day the public will receive information regarding a new security issue",
+        "explanatoryNote": "An announcement date may also refer to the release of a corporate event or new financial news, such as interest rate changes or earnings reports."
+    },
+    {
+        "id": "BearerAndRegisteredForm",
+        "type": "SecurityForm",
+        "name": "BearerAndRegisteredForm",
+        "label": "bearer and registered form",
+        "definition": "form of a security that may be issued in both bearer and registered form but with the same identification number"
+    },
+    {
+        "id": "specifiesConversionInto",
+        "type": "ObjectProperty",
+        "name": "specifiesConversionInto",
+        "label": "specifies conversion into",
+        "definition": "specifies a security that will replace a convertible security under the terms of the agreement"
+    },
+    {
+        "id": "hasSubscriptionPeriod",
+        "type": "ObjectProperty",
+        "name": "hasSubscriptionPeriod",
+        "label": "has subscription period",
+        "definition": "indicates a period of time in which investors can commit to purchase shares (or units) to be issued"
+    },
+    {
+        "id": "hasInstrumentDescription",
+        "type": "DatatypeProperty",
+        "name": "hasInstrumentDescription",
+        "definition": "relates a financial instrument or FISN to an ISO 18774-compliant instrument description, that is, a collection of characteristics and attributes defining a financial instrument with a maximum length up to 19 alphanumeric characters",
+        "label": "has instrument description"
+    },
+    {
+        "id": "hasFirstTradeDate",
+        "type": "ObjectProperty",
+        "name": "hasFirstTradeDate",
+        "definition": "indicates the date on which a newly issued security starts trading",
+        "label": "has first trade date"
+    },
+    {
+        "id": "hasFinancialInstrumentShortName",
+        "type": "ObjectProperty",
+        "name": "hasFinancialInstrumentShortName",
+        "definition": "relates a security to its ISO 18774-compliant short name, which includes an issuer short name, abbreviated instrument characteristics, and abbreviated instrument description per the ISO standard",
+        "label": "has financial instrument short name"
+    },
+    {
+        "id": "hasSeries",
+        "type": "DatatypeProperty",
+        "name": "hasSeries",
+        "label": "has series",
+        "definition": "indicates the series identified by the issuer in the event that the instrument is issued in several series (also known as tranches)"
+    },
+    {
+        "id": "isRegisteredWith",
+        "type": "ObjectProperty",
+        "name": "isRegisteredWith",
+        "definition": "indicates the registration authority for a given security, i.e., in the name of the owner on the books of the issuer, with the issuer's registrar, with a third-party transfer agent, with a broker-dealer, or other competent party",
+        "label": "is registered"
+    },
+    {
+        "id": "BearerForm",
+        "type": "SecurityForm",
+        "name": "BearerForm",
+        "explanatoryNote": "Unlike normal registered instruments, no record is kept of who owns bearer instruments or of transactions involving the transfer of ownership.",
+        "label": "bearer form",
+        "definition": "form of a security that is not registered in the books of the issuer or of the registrar and is payable to the person possessing the stock or bond certificate"
+    },
+    {
+        "id": "hasIssuerShortName",
+        "type": "DatatypeProperty",
+        "name": "hasIssuerShortName",
+        "label": "has issuer short name",
+        "definition": "relates a security issuer or FISN to an ISO 18774-compliant issuer short name, that is, an abbreviation of the official issuer name, limited to a maximum of 15 alphanumeric characters"
+    },
+    {
+        "id": "hasFirstTradeSettlementDate",
+        "type": "ObjectProperty",
+        "name": "hasFirstTradeSettlementDate",
+        "definition": "indicates the date on which the first trade of a newly issued security is settled",
+        "label": "has first trade settlement date"
+    },
+    {
+        "id": "MiscellaneousForm",
+        "type": "SecurityForm",
+        "name": "MiscellaneousForm",
+        "definition": "form of a security that is not categorized",
+        "label": "miscellaneous form",
+        "explanatoryNote": "Miscellaneous form is used to describe securities wherein the form is not stated as being bearer or registered."
+    },
+    {
+        "id": "RegisteredForm",
+        "type": "SecurityForm",
+        "name": "RegisteredForm",
+        "explanatoryNote": "With registered securities, a ledger is kept by the issuing company or agent which records the owners of all the securities. Transfer of ownership can only occur when names are changed in the ledger.",
+        "label": "registered form",
+        "definition": "form of a security whereby ownership is recorded in the name of the owner on the books of the issuer or the issuer's registrar and can only be transferred to another owner when endorsed by the registered owner"
+    },
+    {
+        "id": "isIssuedInForm",
+        "type": "ObjectProperty",
+        "name": "isIssuedInForm",
+        "definition": "indicates the form in which the security is issued, typically in registered form",
+        "label": "is issued in form"
+    },
+    {
+        "id": "isOverAllotted",
+        "type": "DatatypeProperty",
+        "name": "isOverAllotted",
+        "definition": "indicates whether or not the subscription is over-subscribed",
+        "label": "is over-allotted"
+    },
+    {
+        "id": "SecurityOfferingDistributionType",
+        "type": "Datatype",
+        "name": "SecurityOfferingDistributionType",
+        "definition": "the type of distribution for a securities offering, including (1) primary offering - the original sale of a company's securities, in which the proceeds from the sale are received directly by the company, and (2) secondary offering - an offering of a security that has been issued previously",
+        "label": "security offering distribution type"
+    },
+    {
+        "id": "isUnderwrittenBy",
+        "type": "ObjectProperty",
+        "name": "isUnderwrittenBy",
+        "label": "is underwritten by",
+        "definition": "relates an offering to an underwriter involved in raising capital for or distributing the instruments that are the subject of the offering"
+    }
+]

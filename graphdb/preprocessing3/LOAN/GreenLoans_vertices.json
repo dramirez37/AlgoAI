@@ -1,0 +1,249 @@
+[
+    {
+        "id": "SustainabilityPerformanceTarget",
+        "type": "Class",
+        "name": "SustainabilityPerformanceTarget",
+        "definition": "collection of quantitative target values used to calibrate the level of achievement a borrower makes with respect to a key performance indicator, by date, including, but not limited to, the methodology used to calculate its value at any point over the lifetime of a loan",
+        "explanatoryNote": "An SLL borrower should clearly communicate to its lenders its rationale for the selection of its KPI(s) (i.e. relevance, materiality, whether it is core to the borrower\u2019s overall business) and the motivation for the SPT(s) (i.e. ambition level, benchmarking approach and how the borrower intends to reach such SPTs). Borrowers are encouraged to position this information within the context of their overarching objectives, sustainability strategy, policy, sustainability commitments and/or processes relating to sustainability.",
+        "label": "sustainability performance target",
+        "abbreviation": "SPT"
+    },
+    {
+        "id": "DatedStructuredCollection",
+        "type": "Entity",
+        "name": "DatedStructuredCollection"
+    },
+    {
+        "id": "ObservedIndicatorValueStructure",
+        "type": "Class",
+        "name": "ObservedIndicatorValueStructure",
+        "label": "observed indicator value structure",
+        "definition": "collection of observations for some key performance indicator measured over a specified window of time"
+    },
+    {
+        "id": "SustainabilityLinkedLoan",
+        "type": "Class",
+        "name": "SustainabilityLinkedLoan",
+        "abbreviation": "SLL",
+        "label": "sustainability-linked loan",
+        "definition": "credit agreement and/or contingent facility (such as a bonding line, guarantee line or letter of credit) for which the economic characteristics can vary depending on whether the borrower achieves ambitious, material and quantifiable predetermined sustainability performance objectives aligned with Sustainability-Linked Loan Principles (SSLP)",
+        "explanatoryNote": "A borrower's sustainability performance is measured using sustainability performance targets (SPTs), which include key performance indicators, external ratings and/or equivalent metrics that measure improvements in the borrower's sustainability profile."
+    },
+    {
+        "id": "CommercialLoan",
+        "type": "Entity",
+        "name": "CommercialLoan"
+    },
+    {
+        "id": "CreditAgreementRepaidPeriodically",
+        "type": "Entity",
+        "name": "CreditAgreementRepaidPeriodically"
+    },
+    {
+        "id": "TransitionUseOfProceedsProvision",
+        "type": "Class",
+        "name": "TransitionUseOfProceedsProvision",
+        "definition": "use of proceeds provision specifying that funds obtained through financing, such as through a credit agreement, offering, warrant, or other instrument are intended to be used to fund specific projects, investments, or operational changes that support a company's transition toward sustainability",
+        "label": "transition use of proceeds provision"
+    },
+    {
+        "id": "UseOfProceedsProvision",
+        "type": "Entity",
+        "name": "UseOfProceedsProvision"
+    },
+    {
+        "id": "SustainabilityKeyPerformanceIndicatorIdentifier",
+        "type": "Class",
+        "name": "SustainabilityKeyPerformanceIndicatorIdentifier",
+        "label": "sustainability key performance indicator identifier",
+        "definition": "sequence of characters uniquely identifying a specific sustainability-related key performance indicator"
+    },
+    {
+        "id": "ContextualIdentifier",
+        "type": "Entity",
+        "name": "ContextualIdentifier"
+    },
+    {
+        "id": "EnvironmentalProgram",
+        "type": "Class",
+        "name": "EnvironmentalProgram",
+        "label": "environmental program",
+        "explanatoryNote": "Key characteristics of an environmental or sustainability program include achieving measurable positive environmental outcomes, and aligning with broader sustainability goals, such as those outlined in international frameworks (e.g., the United Nations Sustainable Development Goals (SDGs), Paris Agreement). Large scale environmental programs may consist of a number of projects aimed at addressing specific requirements that support the broader challenges outlined under the program.",
+        "definition": "broad scale initiative, activity, or investment aimed at improving environmental sustainability, reducing ecological harm, or addressing environmental challenges"
+    },
+    {
+        "id": "Program",
+        "type": "Entity",
+        "name": "Program"
+    },
+    {
+        "id": "SustainabilityKeyPerformanceIndicator",
+        "type": "Class",
+        "name": "SustainabilityKeyPerformanceIndicator",
+        "label": "sustainability key performance indicator",
+        "definition": "measurable performance indicator that is sustainability specific",
+        "explanatoryNote": "A sustainability KPI must be: (a) relevant, core and material to the borrower's overall business, and of high strategic significance to the borrower's current and/or future operations; (b) measurable or quantifiable on a consistent methodological basis; and (c) able to be benchmarked (i.e. as much as possible using an external reference or definitions to facilitate the assessment of the SPT's level of ambition). A clear definition of the KPI(s) should be provided by the borrower and should include the applicable scope or parameters, as well as the calculation methodology, a definition of a baseline and be benchmarked against an industry standard and/or industry peers where feasible."
+    },
+    {
+        "id": "KeyPerformanceIndicator",
+        "type": "Entity",
+        "name": "KeyPerformanceIndicator"
+    },
+    {
+        "id": "EnvironmentalProject",
+        "type": "Class",
+        "name": "EnvironmentalProject",
+        "explanatoryNote": "Such projects are designed to align with environmental goals, such as mitigating climate change, conserving natural resources, protecting biodiversity, and promoting a circular economy.",
+        "label": "environmental project",
+        "definition": "specific initiative, activity, or investment aimed at improving environmental sustainability, reducing ecological harm, or addressing environmental challenges"
+    },
+    {
+        "id": "Project",
+        "type": "Entity",
+        "name": "Project"
+    },
+    {
+        "id": "TransitionStrategy",
+        "type": "Class",
+        "name": "TransitionStrategy",
+        "explanatoryNote": "Note that although there are similarities with sustainability business strategies, they are not the same. KPIs and SPTs may, however, be defined similarly for a given project.",
+        "label": "transition strategy",
+        "definition": "strategy for achieving specific business objectives related to sustainability in the context of long-term decarbonization or sustainability transitions"
+    },
+    {
+        "id": "BusinessStrategy",
+        "type": "Entity",
+        "name": "BusinessStrategy"
+    },
+    {
+        "id": "ObservedIndicatorValue",
+        "type": "Class",
+        "name": "ObservedIndicatorValue",
+        "label": "observed indicator value",
+        "definition": "observation (measurement) of a key performance indicator measured at specific date and time"
+    },
+    {
+        "id": "DatedCollectionConstituent",
+        "type": "Entity",
+        "name": "DatedCollectionConstituent"
+    },
+    {
+        "id": "GreenProjectUseOfProceedsProvision",
+        "type": "Class",
+        "name": "GreenProjectUseOfProceedsProvision",
+        "definition": "use of proceeds provision specifying that funds obtained through financing, such as through a credit agreement, offering, warrant, or other instrument are intended to be used for Green Projects (including other related and supporting expenditures, including research and development)",
+        "explanatoryNote": "All designated Green Projects should provide clear environmental benefits, which will be assessed, and where feasible, quantified, measured and reported by the borrower, per requirements outlined in the LMA Green Loan Principles (GLP). Where funds are to be used, in whole or part, for refinancing, it is recommended that borrowers provide an estimate of the share of financing versus refinancing. Where appropriate, they should also clarify which investments or project portfolios may be refinanced, and, to the extent relevant, the expected look-back period for refinanced Green Projects. A green loan may take the form of one or more tranches of a loan facility. In such cases, the green tranche(s) must be clearly designated, with proceeds of the green tranche(s) credited to a separate account or tracked by the borrower in an appropriate manner. \n\t\t\n\t\tThe GLP explicitly recognise several broad categories of eligibility for Green Projects with the objective of addressing key areas of environmental concern such as climate change, natural resources depletion, loss of biodiversity, and air, water and soil pollution. This non-exhaustive list, set out in Appendix 1, is intended to capture the most usual types of projects supported, and expected to be supported, by the green loan market. However, it is recognised that definitions of green and green projects may vary depending on sector and geography",
+        "label": "green project use of proceeds provision"
+    },
+    {
+        "id": "AssessmentBoundary",
+        "type": "Class",
+        "name": "AssessmentBoundary",
+        "explanatoryNote": "The assessment boundary ensures consistency, transparency, and focus by specifying the parameters for the evaluation. It includes: (1) the scope of assessment, (2) the relevant spacial boundaries, (3) the time period(s) over which the assessment is to be conducted, (4) organizational boundaries - which parts of an organization or project are included in the evaluation, (5) impact categories - which environmental or sustainability impacts are included, (6) lifecycle boundaries - which stages of the lifecycle are included, (7) exclusions - specific elements, processes, or impacts that are excluded from the assessment and justification for these exclusions, and (8) stakeholder boundaries - the extent to which external stakeholders or externalities (e.g., indirect social impacts) are considered.\n\t\t\n\t\t- The scope statement specifies which aspects, activities, processes, or entities are included in the evaluation. For example, in a greenhouse gas (GHG) emissions assessment, the boundary might cover Scope 1 (direct emissions), Scope 2 (indirect emissions from energy use), and Scope 3 (upstream and downstream emissions in the value chain).\n\t\t\n\t\t- The spatial boundaries cover the geographic region(s) relevant for the assessment, including but not limited to a specific site, facility, region, or global operations of a company or project.\n\t\t\n\t\t- The relevant timeframe may be a single year, the entire lifecycle of a product, or a specific project phase.\n\t\t\n\t\t- Organizational boundaries may include a parent company, subsidiaries, joint ventures, or specific divisions based on control, ownership, or influence.\n\t\t\n\t\t- Impact may include carbon emissions, energy use, water consumption, biodiversity impact, and waste generation.\n\t\t\n\t\t- Lifecycle boundaries may cover product or process evaluations (e.g., Life Cycle Assessment or LCA). If so, the boundary defines which stages of the lifecycle are included: Cradle-to-Grave: Includes all stages, from raw material extraction to disposal, Cradle-to-Gate: Covers stages up to the point where the product leaves the manufacturing facility. or Gate-to-Gate: Focuses on a specific segment of the lifecycle, such as manufacturing processes, for example.\n\t\t\n\t\t- Small, immaterial emissions sources might be excluded if their impact is negligible.\n\t\t\n\t\t- Stakeholder boundaries with respect to a given sustainability evaluation might include impacts on local communities or supply chain partners.",
+        "definition": "defined scope, limits, and criteria used to determine what is included or excluded in an evaluation, analysis, or measurement of environmental impacts, sustainability performance, or related objectives",
+        "label": "assessment boundary"
+    },
+    {
+        "id": "Context",
+        "type": "Entity",
+        "name": "Context"
+    },
+    {
+        "id": "Specification",
+        "type": "Entity",
+        "name": "Specification"
+    },
+    {
+        "id": "TransitionLoan",
+        "type": "Class",
+        "name": "TransitionLoan",
+        "explanatoryNote": "Transition loans are part of the broader sustainable finance market and are specifically tailored for companies in industries that are not inherently green but are committed to adopting practices that align with a low-carbon or sustainable economy.",
+        "label": "transition loan",
+        "definition": "credit agreement and/or contingent facility (such as a bonding line, guarantee line or letter of credit) designed to help a business or organization shift from carbon-intensive or environmentally harmful practices to more sustainable and environmentally friendly operations"
+    },
+    {
+        "id": "GreenProject",
+        "type": "Class",
+        "name": "GreenProject",
+        "explanatoryNote": "Green projects must align with established green finance principles, such as the Green Loan Principles (GLP) issued by the Loan Market Association (LMA), or other recognized sustainability frameworks.",
+        "definition": "project that contributes to environmental sustainability by addressing climate change, conserving natural resources, reducing pollution, or promoting ecological balance",
+        "label": "green project"
+    },
+    {
+        "id": "GreenLoan",
+        "type": "Class",
+        "name": "GreenLoan",
+        "label": "green loan",
+        "definition": "credit agreement and/or contingent facility (such as a bonding line, guarantee line or letter of credit) made available exclusively to finance, re-finance or guarantee, in whole or in part, new and/or existing eligible green projects that are aligned to the four core components of the Green Loan Principles (GLP)"
+    },
+    {
+        "id": "SustainabilityAndBusinessStrategy",
+        "type": "Class",
+        "name": "SustainabilityAndBusinessStrategy",
+        "definition": "strategy for achieving specific business objectives related to sustainability (from an environmental and/or social and/or governance (ESG) perspective)",
+        "explanatoryNote": "SLLs aim to support a borrower's efforts in improving its sustainability profile over the term of the loan. They do so by aligning loan terms to the borrower's performance, which is measured using one or more sustainability KPIs that can be internal and/or external. The KPIs must be material to the borrower's core sustainability and business strategy, and address relevant ESG challenges of its industry sector.",
+        "label": "sustainability and business strategy"
+    },
+    {
+        "id": "SustainabilityPerformanceTargetIdentifier",
+        "type": "Class",
+        "name": "SustainabilityPerformanceTargetIdentifier",
+        "label": "sustainability performance target identifier",
+        "definition": "sequence of characters uniquely identifying a specific sustainability-related performance target"
+    },
+    {
+        "id": "SustainabilityBusinessObjective",
+        "type": "Class",
+        "name": "SustainabilityBusinessObjective",
+        "explanatoryNote": "The borrower of an SLL should clearly communicate to its lenders its sustainability objective(s) and how such objectives align with its proposed sustainability performance targets (SPTs).",
+        "label": "sustainability business objective",
+        "definition": "objective related to improving the sustainability profile of the business"
+    },
+    {
+        "id": "BusinessObjective",
+        "type": "Entity",
+        "name": "BusinessObjective"
+    },
+    {
+        "id": "TargetIndicatorValue",
+        "type": "Class",
+        "name": "TargetIndicatorValue",
+        "definition": "target value for a key performance indicator as of a specific date and time",
+        "label": "target indicator value"
+    },
+    {
+        "id": "SustainabilityStructuringAgent",
+        "type": "Class",
+        "name": "SustainabilityStructuringAgent",
+        "label": "sustainability structuring agent",
+        "explanatoryNote": "This role is typically present in sustainability-linked loans (SLLs) or green loans, which tie the loan's terms to the borrower's environmental, social, and governance (ESG) performance. The sustainability structuring agent's role is crucial in ensuring that the loan's sustainability metrics align with both the borrower's goals and the expectations of the participating lenders.",
+        "definition": "financial institution appointed to help design, implement, and monitor the sustainability aspects of a syndicated green loan"
+    },
+    {
+        "id": "SyndicateMember",
+        "type": "Entity",
+        "name": "SyndicateMember"
+    },
+    {
+        "id": "TransitionProject",
+        "type": "Class",
+        "name": "TransitionProject",
+        "label": "transition project",
+        "explanatoryNote": "Sustainability-Linked Loans (SLLs): Transition loans share similarities with SLLs, as both tie terms (such as interest rates) to achieving predefined sustainability goals. However, transition loans are specifically framed within the context of long-term decarbonization or sustainability transitions.",
+        "definition": "project that supports broad, sector-specific efforts to reduce environmental impact"
+    },
+    {
+        "id": "hasSpatialBoundary",
+        "type": "ObjectProperty",
+        "name": "hasSpatialBoundary",
+        "label": "has spatial boundary",
+        "definition": "specifies a geographic region included in an environmental or sustainability assessment, which may cover a specific site, facility, region, or the global operations of a company or project"
+    },
+    {
+        "id": "hasAssessmentBoundary",
+        "type": "ObjectProperty",
+        "name": "hasAssessmentBoundary",
+        "label": "has assessment boundary",
+        "definition": "indicates the scope, limits, and context for an environmental or sustainability project"
+    }
+]

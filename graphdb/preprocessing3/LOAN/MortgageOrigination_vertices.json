@@ -1,0 +1,403 @@
+[
+    {
+        "id": "CashOutStatus",
+        "type": "Class",
+        "name": "CashOutStatus",
+        "definition": "classifier indicating the extent to which funds are released to the borrower on a new loan origination that refinances an existing loan",
+        "label": "cash-out status",
+        "explanatoryNote": "This is subject to lender and/or investor policy(s)."
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "MortgageIndemnityGuarantee",
+        "type": "Class",
+        "name": "MortgageIndemnityGuarantee",
+        "label": "mortgage indemnity guarantee",
+        "definition": "insurance-backed guarantee that protects lenders if the mortgage repayments cease for some reason, perhaps due to death or a homeowner being made redundant at work"
+    },
+    {
+        "id": "InsuranceBackedGuaranty",
+        "type": "Entity",
+        "name": "InsuranceBackedGuaranty"
+    },
+    {
+        "id": "LoanSecuredByRealEstate",
+        "type": "Class",
+        "name": "LoanSecuredByRealEstate"
+    },
+    {
+        "id": "DwellingCapacity",
+        "type": "Class",
+        "name": "DwellingCapacity",
+        "label": "dwelling capacity",
+        "definition": "classifier indicating how many dwellings some property has"
+    },
+    {
+        "id": "AmortizationType",
+        "type": "Class",
+        "name": "AmortizationType",
+        "label": "amortization type",
+        "definition": "classifier of amortization algorithms"
+    },
+    {
+        "id": "MortgageLoanPurpose",
+        "type": "Class",
+        "name": "MortgageLoanPurpose",
+        "definition": "the purpose for which mortgage loan proceeds will be used, such as real property purchase, dwelling construction, or loan refinancing",
+        "label": "mortgage loan purpose"
+    },
+    {
+        "id": "MortgageIndemnityGuarantor",
+        "type": "Class",
+        "name": "MortgageIndemnityGuarantor",
+        "explanatoryNote": "SME Review notes 16 Sept: Guaranty - mortgage insurance e.g. insure up to 80% exposure. When you get into indemnification, then for instance if the product doesn't meet the investor's requirement such that if it doesn't get paid then the lender steps in and takes the hit for the loan - this is usually a precondition for securitizing (issuing) the loan in a pool. If the loan is not going to be sold on the secondary market there would be no need to indemnify that loan so this term would not apply. Indemnification is insurance for the investor, while the lender is the one providing that indemnification.",
+        "label": "mortgage indemnity guarantor",
+        "definition": "guarantor and insurer that provides mortgage insurance in the form of a mortgage indemnity guarantee (MIG)"
+    },
+    {
+        "id": "Guarantor",
+        "type": "Entity",
+        "name": "Guarantor"
+    },
+    {
+        "id": "Insurer",
+        "type": "Entity",
+        "name": "Insurer"
+    },
+    {
+        "id": "PropertyUsage",
+        "type": "Class",
+        "name": "PropertyUsage",
+        "definition": "a category indicating the manner in which the borrower intends to utilize the property",
+        "label": "property usage"
+    },
+    {
+        "id": "ManufacturedHomeLegalClassification",
+        "type": "Class",
+        "name": "ManufacturedHomeLegalClassification",
+        "label": "manufactured home legal classification",
+        "definition": "category indicating whether the covered loan is secured by a manufactured home only or with land as well"
+    },
+    {
+        "id": "ChargeCategory",
+        "type": "Class",
+        "name": "ChargeCategory",
+        "definition": "classifier indicating what a particular fee or other expense is for",
+        "label": "charge category"
+    },
+    {
+        "id": "NMLSR-ID",
+        "type": "Class",
+        "name": "NMLSR-ID",
+        "definition": "the number permanently assigned by the Nationwide Mortgage Licensing System and Registry (NMLS) for each company, branch, and individual that maintains a single account on NMLS.",
+        "abbreviation": "NMLSR ID",
+        "label": "Nationwide Mortgage Licensing System and Registry Identifier"
+    },
+    {
+        "id": "LicenseIdentifier",
+        "type": "Entity",
+        "name": "LicenseIdentifier"
+    },
+    {
+        "id": "MortgageIndemnityInsurancePolicy",
+        "type": "Class",
+        "name": "MortgageIndemnityInsurancePolicy",
+        "definition": "insurance policy providing the mortgage indemnity guarantee",
+        "label": "mortgage indemnity insurance policy"
+    },
+    {
+        "id": "InsurancePolicy",
+        "type": "Entity",
+        "name": "InsurancePolicy"
+    },
+    {
+        "id": "GovernmentSponsoredLoan",
+        "type": "Class",
+        "name": "GovernmentSponsoredLoan",
+        "label": "government-sponsored loan"
+    },
+    {
+        "id": "AutomatedUnderwritingSystem",
+        "type": "Class",
+        "name": "AutomatedUnderwritingSystem",
+        "definition": "software system that collects the information necessary to approve a loan application and supports a mortgage lender's analysis of a new loan application",
+        "label": "automated underwriting system",
+        "explanatoryNote": "In the United States, automated underwriting systems review the applicant's credit history and ability to repay the loan, and determine whether the price the applicant is offering to pay is supported by the property value."
+    },
+    {
+        "id": "AutomatedSystem",
+        "type": "Entity",
+        "name": "AutomatedSystem"
+    },
+    {
+        "id": "RealProperty",
+        "type": "Class",
+        "name": "RealProperty"
+    },
+    {
+        "id": "hasOriginatingServiceProvider",
+        "type": "ObjectProperty",
+        "name": "hasOriginatingServiceProvider",
+        "label": "has originating service provider",
+        "explanatoryNote": "Typically this will be a bank, mortgage broker, investment bank, or other similar party.",
+        "definition": "relates something, typically a loan contract, to the service provider responsible for originated the loan"
+    },
+    {
+        "id": "DwellingCapacity-singleFamily",
+        "type": "DwellingCapacity",
+        "name": "DwellingCapacity-singleFamily",
+        "definition": "1-4 units",
+        "label": "single family"
+    },
+    {
+        "id": "MortgageLoanPurpose-BusinessOrCommercial",
+        "type": "MortgageLoanPurpose",
+        "name": "MortgageLoanPurpose-BusinessOrCommercial",
+        "label": "business or commercial"
+    },
+    {
+        "id": "CashOutStatus-NoCashOut",
+        "type": "NamedIndividual",
+        "name": "CashOutStatus-NoCashOut",
+        "label": "no cashout",
+        "definition": "The mortgage is refinanced for less than or equal to what is owed."
+    },
+    {
+        "id": "ManufacturedHomeLegalClassification-realProperty",
+        "type": "ManufacturedHomeLegalClassification",
+        "name": "ManufacturedHomeLegalClassification-realProperty",
+        "label": "real property",
+        "definition": "the covered loan is secured by a manufactured home and land"
+    },
+    {
+        "id": "AmortizationType-growingEquity",
+        "type": "NamedIndividual",
+        "name": "AmortizationType-growingEquity",
+        "definition": "A graduated payment loan in which increases in a borrowers loan payments are used to accelerate reduction of principal on the mortgage",
+        "explanatoryNote": "Due to increased payment, the borrower acquires equity more rapidly and retires the debt earlier.",
+        "label": "growing equity"
+    },
+    {
+        "id": "PropertyUsage-primaryResidence",
+        "type": "NamedIndividual",
+        "name": "PropertyUsage-primaryResidence",
+        "definition": "residence that the owner physically occupies and uses as his or her principal residence",
+        "label": "primary residence"
+    },
+    {
+        "id": "PropertyUsage-secondHome",
+        "type": "Thing",
+        "name": "PropertyUsage-secondHome",
+        "definition": "a property occupied by the owner for a portion of the year that is not the primary residence",
+        "label": "second home"
+    },
+    {
+        "id": "ChargeCategory-principal",
+        "type": "NamedIndividual",
+        "name": "ChargeCategory-principal",
+        "definition": "the principal of the loan that is owed",
+        "label": "principal"
+    },
+    {
+        "id": "hasNumberOfAffordableDwellingUnits",
+        "type": "DatatypeProperty",
+        "name": "hasNumberOfAffordableDwellingUnits",
+        "label": "has number of affordable dwelling units",
+        "definition": "relates real estate to the number of dwelling units it contains that are income-restricted under Federal, State, or local affordable housing programs."
+    },
+    {
+        "id": "ChargeCategory-originationFee",
+        "type": "ChargeCategory",
+        "name": "ChargeCategory-originationFee",
+        "definition": "a charge for an origination",
+        "label": "origination fee"
+    },
+    {
+        "id": "AutomatedUnderwritingSystem-DesktopUnderwriter",
+        "type": "NamedIndividual",
+        "name": "AutomatedUnderwritingSystem-DesktopUnderwriter",
+        "label": "Desktop Underwriter",
+        "definition": "an automated underwriting software system produced by Fannie Mae"
+    },
+    {
+        "id": "AutomatedUnderwritingSystem-FHAScorecard",
+        "type": "AutomatedUnderwritingSystem",
+        "name": "AutomatedUnderwritingSystem-FHAScorecard",
+        "definition": "an automated underwriting software system produced by Federal Housing Administration (FHA)",
+        "label": "FHA Scorecard"
+    },
+    {
+        "id": "hasNumberOfDwellingUnits",
+        "type": "DatatypeProperty",
+        "name": "hasNumberOfDwellingUnits",
+        "definition": "relates real estate to the number of dwelling units it contains",
+        "label": "has number of dwelling units"
+    },
+    {
+        "id": "ManufacturedHomeLegalClassification-personalProperty",
+        "type": "NamedIndividual",
+        "name": "ManufacturedHomeLegalClassification-personalProperty",
+        "definition": "the covered loan is secured by a manufactured home but not land",
+        "label": "personal property"
+    },
+    {
+        "id": "AutomatedUnderwritingSystem-GuaranteedUnderwritingSystem",
+        "type": "AutomatedUnderwritingSystem",
+        "name": "AutomatedUnderwritingSystem-GuaranteedUnderwritingSystem",
+        "definition": "an automated underwriting software system used by the USDA rural development loan program",
+        "label": "Guaranteed Underwriting System"
+    },
+    {
+        "id": "ChargeCategory-appraisalFee",
+        "type": "NamedIndividual",
+        "name": "ChargeCategory-appraisalFee",
+        "definition": "a charge for an appraisal",
+        "label": "appraisal fee"
+    },
+    {
+        "id": "CashOutStatus-CashOut",
+        "type": "NamedIndividual",
+        "name": "CashOutStatus-CashOut",
+        "definition": "the mortgage is refinanced for more than is owed and the borrower pockets the difference.",
+        "label": "cashout"
+    },
+    {
+        "id": "AmortizationType-graduatedPayment",
+        "type": "NamedIndividual",
+        "name": "AmortizationType-graduatedPayment",
+        "definition": "a flexible payment loan where the payments increase for a specified period of time and then level off",
+        "explanatoryNote": "Usually involves negative amortization.",
+        "label": "graduated payment"
+    },
+    {
+        "id": "AmortizationType-adjustableRate",
+        "type": "AmortizationType",
+        "name": "AmortizationType-adjustableRate",
+        "definition": "a loan that allows the lender to periodically adjust the interest rate in accordance with a specified index",
+        "label": "adjustable rate"
+    },
+    {
+        "id": "AutomatedUnderwritingSystem-LoanProspector",
+        "type": "AutomatedUnderwritingSystem",
+        "name": "AutomatedUnderwritingSystem-LoanProspector",
+        "label": "Loan Prospector",
+        "definition": "an automated underwriting software system produced by Freddie Mac"
+    },
+    {
+        "id": "CashOutStatus-LimitedCashOut",
+        "type": "NamedIndividual",
+        "name": "CashOutStatus-LimitedCashOut",
+        "label": "limited cashout",
+        "definition": "a cashout mortgage where the amount is limited by the lenger. 80% loan to value ratio is a common limit."
+    },
+    {
+        "id": "MortgageLoanPurpose-MortgageModification",
+        "type": "MortgageLoanPurpose",
+        "name": "MortgageLoanPurpose-MortgageModification",
+        "label": "mortgage modification"
+    },
+    {
+        "id": "AmortizationType-rateImprovement",
+        "type": "NamedIndividual",
+        "name": "AmortizationType-rateImprovement",
+        "definition": "a type of flexible loan where the interest rate may decrease based on payment history.",
+        "label": "rate improvement"
+    },
+    {
+        "id": "AmortizationType-step",
+        "type": "NamedIndividual",
+        "name": "AmortizationType-step",
+        "label": "step",
+        "definition": "a loan with fixed periodic payment/rate changes without subsidy or negative amortization."
+    },
+    {
+        "id": "ChargeCategory-discountPoints",
+        "type": "ChargeCategory",
+        "name": "ChargeCategory-discountPoints",
+        "label": "discount points",
+        "definition": "a charge for lowering your interest rate"
+    },
+    {
+        "id": "AmortizationType-graduatedPaymentAdjustable",
+        "type": "AmortizationType",
+        "name": "AmortizationType-graduatedPaymentAdjustable",
+        "label": "graduated payment adjustable",
+        "definition": "a loan for which there are periodic payments/rate changes with additional specified principal and interest changes as documented in the Security Instruments."
+    },
+    {
+        "id": "MortgageLoanPurpose-HomeImprovement",
+        "type": "NamedIndividual",
+        "name": "MortgageLoanPurpose-HomeImprovement",
+        "label": "home improvement"
+    },
+    {
+        "id": "AmortizationType-fixedRate",
+        "type": "NamedIndividual",
+        "name": "AmortizationType-fixedRate",
+        "definition": "a loan in which the interest rate and payments remain the same for the life of the loan",
+        "label": "fixed rate"
+    },
+    {
+        "id": "PropertyUsage-investment",
+        "type": "NamedIndividual",
+        "name": "PropertyUsage-investment",
+        "definition": "a home owned for the purpose of generating income",
+        "label": "investment"
+    },
+    {
+        "id": "assumes",
+        "type": "ObjectProperty",
+        "name": "assumes",
+        "definition": "relates a new mortgage loan contract to a previous one made to a different borrower for the same property. The new contract is created via a legally binding process where the new borrower assumes the terms of the previous loan contract",
+        "label": "assumes"
+    },
+    {
+        "id": "MortgageLoanPurpose-RealPropertyPurchase",
+        "type": "NamedIndividual",
+        "name": "MortgageLoanPurpose-RealPropertyPurchase",
+        "label": "real property purchase"
+    },
+    {
+        "id": "hasOriginatorPerson",
+        "type": "ObjectProperty",
+        "name": "hasOriginatorPerson",
+        "definition": "relates something, typically a loan, to a person that initially originates or creates it",
+        "label": "has originator person"
+    },
+    {
+        "id": "isLienOn",
+        "type": "ObjectProperty",
+        "name": "isLienOn",
+        "label": "is lien on"
+    },
+    {
+        "id": "MortgageLoanPurpose-LoanRefinancing",
+        "type": "NamedIndividual",
+        "name": "MortgageLoanPurpose-LoanRefinancing",
+        "label": "loan refinancing"
+    },
+    {
+        "id": "DwellingCapacity-multiFamily",
+        "type": "DwellingCapacity",
+        "name": "DwellingCapacity-multiFamily",
+        "label": "multi-family",
+        "definition": "5 or more units"
+    },
+    {
+        "id": "ChargeCategory-lenderCredits",
+        "type": "ChargeCategory",
+        "name": "ChargeCategory-lenderCredits",
+        "definition": "a credit whereby the lender reduces closing costs in exchange for a higher interest rate.",
+        "label": "lender credits"
+    },
+    {
+        "id": "MortgageLoanPurpose-DwellingConstruction",
+        "type": "NamedIndividual",
+        "name": "MortgageLoanPurpose-DwellingConstruction",
+        "label": "dwelling construction"
+    }
+]

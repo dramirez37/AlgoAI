@@ -1,0 +1,224 @@
+[
+    {
+        "source_id": "IndexCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DiscountCertificate",
+        "target_id": "StructuredFinanceWithoutPrincipalProtection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DiscountCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrincipalProtectedNote",
+        "target_id": "CapitalProtectedProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalProtectionCertificateWithParticipation",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalProtectionCertificateWithParticipation",
+        "target_id": "CapitalProtectedProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "YieldEnhancementProduct",
+        "target_id": "StructuredProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BonusCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TrackerCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BarrierDiscountCertificate",
+        "target_id": "StructuredFinanceWithoutPrincipalProtection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BarrierDiscountCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalProtectionConvertibleCertificate",
+        "target_id": "CapitalProtectedProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalProtectionConvertibleCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OutperformanceBonusCertificate",
+        "target_id": "BonusCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OutperformanceBonusCertificate",
+        "target_id": "OutperformanceCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReverseConvertibleCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReverseConvertibleCertificate",
+        "target_id": "StructuredFinanceWithoutPrincipalProtection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StructuredProduct",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StructuredFinanceInstrument",
+        "target_id": "StructuredProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ParticipationCertificate",
+        "target_id": "StructuredFinanceInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ParticipationCertificate",
+        "target_id": "ParticipationInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExpressCertificate",
+        "target_id": "StructuredFinanceWithoutPrincipalProtection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExpressCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BarrierCapitalProtectionCertificate",
+        "target_id": "CapitalProtectedProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BarrierCapitalProtectionCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BarrierReverseConvertibleCertificate",
+        "target_id": "StructuredFinanceWithoutPrincipalProtection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BarrierReverseConvertibleCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TwinWinCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OutperformanceCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ParticipationInstrument",
+        "target_id": "StructuredProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ParticipationInstrument",
+        "target_id": "SecurityBasedDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TurboCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalProtectionCertificateWithCoupons",
+        "target_id": "CapitalProtectedProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalProtectionCertificateWithCoupons",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketCertificate",
+        "target_id": "ParticipationCertificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalProtectedProduct",
+        "target_id": "StructuredProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LeveragedProduct",
+        "target_id": "StructuredProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

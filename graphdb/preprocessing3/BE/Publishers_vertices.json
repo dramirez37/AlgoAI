@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Publisher",
+        "type": "Class",
+        "name": "Publisher",
+        "definition": "role of person(s) or organization(s) responsible for the printing or distribution of an item, whether in digital or print (physical) form",
+        "label": "publisher",
+        "explanatoryNote": "Publishers may also include banks, government agencies and the like."
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "Publication",
+        "type": "Class",
+        "name": "Publication",
+        "label": "publication",
+        "definition": "document offered for general distribution and usually produced in multiple copies",
+        "explanatoryNote": "A publication can be anything made public by print (such as a newspaper, magazine, pamphlet, letter, telegram, via computer modem or program, or in a poster, brochure or pamphlet), orally, or by broadcast (radio, television)."
+    },
+    {
+        "id": "Document",
+        "type": "Entity",
+        "name": "Document"
+    },
+    {
+        "id": "MarketDataProvider",
+        "type": "Class",
+        "name": "MarketDataProvider",
+        "definition": "publisher of data relevant to financial markets",
+        "label": "market data provider",
+        "explanatoryNote": "Market data providers include exchanges and independent data vendors, among others. Market valuation and related control and risk processes typically require explicit documentation of the source for a given market rate, such as an interest rate benchmark, exchange rate, stock prices, and so forth."
+    },
+    {
+        "id": "isPublishedBy",
+        "type": "ObjectProperty",
+        "name": "isPublishedBy",
+        "definition": "identifies the independent party (i.e., the individual or organization) that disseminates the material",
+        "label": "is published by"
+    },
+    {
+        "id": "hasPublisher",
+        "type": "ObjectProperty",
+        "name": "hasPublisher",
+        "label": "has publisher",
+        "definition": "indicates the party in the role of issuing the information"
+    },
+    {
+        "id": "publishes",
+        "type": "ObjectProperty",
+        "name": "publishes",
+        "definition": "prepares and issues material for public consumption",
+        "label": "publishes"
+    }
+]

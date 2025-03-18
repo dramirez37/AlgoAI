@@ -1,0 +1,212 @@
+[
+    {
+        "source_id": "BasketFuture",
+        "target_id": "FinancialFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityForward",
+        "target_id": "ForwardContractAdjustmentMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMethodOfAdjustment",
+                "ForwardContractAdjustmentMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityForward",
+        "target_id": "DividendAdjustmentPeriod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasDividendAdjustmentPeriod",
+                "DividendAdjustmentPeriod"
+            ]
+        }
+    },
+    {
+        "source_id": "EquityForward",
+        "target_id": "Forward",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondFuture",
+        "target_id": "DebtInstrumentFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtInstrumentFuture",
+        "target_id": "DebtInstrumentDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtInstrumentFuture",
+        "target_id": "FinancialFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FutureOnOption",
+        "target_id": "FinancialFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FutureOnSwap",
+        "target_id": "FinancialFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StandardizedFuturesListingTerms",
+        "target_id": "DerivativeTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StandardizedFuturesListingTerms",
+        "target_id": "StandardizedTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MoneyMarketFuture",
+        "target_id": "DebtInstrumentFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FutureOnFuture",
+        "target_id": "Future",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "Future"
+            ]
+        }
+    },
+    {
+        "source_id": "FutureOnFuture",
+        "target_id": "FinancialFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateFuture",
+        "target_id": "FinancialFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Forward",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Forward",
+        "target_id": "OverTheCounterDerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DividendFuture",
+        "target_id": "EquityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DividendFuture",
+        "target_id": "FinancialFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StandardizedFuturesTerms",
+        "target_id": "DerivativeTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StandardizedFuturesTerms",
+        "target_id": "Future",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Future"
+            ]
+        }
+    },
+    {
+        "source_id": "StandardizedFuturesTerms",
+        "target_id": "StandardizedTerms",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndexFuture",
+        "target_id": "FinancialFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityFuture",
+        "target_id": "FinancialFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityFuture",
+        "target_id": "EquityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyFuture",
+        "target_id": "FinancialFuture",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialFuture",
+        "target_id": "Future",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DividendAdjustmentPeriod",
+        "target_id": "DatePeriod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForwardContractAdjustmentMethod",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

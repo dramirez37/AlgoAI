@@ -1,0 +1,325 @@
+[
+    {
+        "id": "GasCommodity",
+        "type": "Class",
+        "name": "GasCommodity",
+        "label": "gas commodity",
+        "definition": "extraction resource that is natural gas"
+    },
+    {
+        "id": "ExtractionResource",
+        "type": "Class",
+        "name": "ExtractionResource",
+        "label": "extraction resource",
+        "definition": "negotiable commodity that is a mineral resource obtained via withdrawal from the natural environment",
+        "explanatoryNote": "These resources include ores, which contain commercially valuable amounts of metals, such as iron and aluminum, as well as precious metals, such as silver, gold, and platinum; precious stones, such as diamonds; building stones, such as granite; and solid fuels, such as coal and oil shale."
+    },
+    {
+        "id": "EnergyResource",
+        "type": "Class",
+        "name": "EnergyResource",
+        "label": "energy resource",
+        "definition": "negotiable commodity that is an energy-related product, or a derivative of an energy-related product, including electricity, renewable energy, or any power/energy delivered through a utility network of provider; diesel fuel, fuel oil, gas oil, gasoline, heating oil, jet fuel, kerosene, natural gas, oil (Brent, Tapis, Dubai, WTI)"
+    },
+    {
+        "id": "PolypropyleneResource",
+        "type": "Class",
+        "name": "PolypropyleneResource",
+        "definition": "negotiable commodity including plastics",
+        "label": "polypropylene resource"
+    },
+    {
+        "id": "NegotiableCommodity",
+        "type": "Entity",
+        "name": "NegotiableCommodity"
+    },
+    {
+        "id": "CommodityBasketConstituent",
+        "type": "Class",
+        "name": "CommodityBasketConstituent",
+        "definition": "component of a custom commodity basket whose relative importance with respect to other basket constituents is known",
+        "label": "commodity basket constituent"
+    },
+    {
+        "id": "WeightedBasketConstituent",
+        "type": "Entity",
+        "name": "WeightedBasketConstituent"
+    },
+    {
+        "id": "BasketOfCommodities",
+        "type": "Class",
+        "name": "BasketOfCommodities",
+        "label": "basket of commodities",
+        "explanatoryNote": "A commodity basket may contain constituents from one of the potential underlying assets or from multiple underlying assets.",
+        "definition": "custom basket whose constituents consist of one or more negotiable commodities"
+    },
+    {
+        "id": "WeightedBasket",
+        "type": "Entity",
+        "name": "WeightedBasket"
+    },
+    {
+        "id": "CommodityForward",
+        "type": "Class",
+        "name": "CommodityForward",
+        "definition": "forward contract in which a buyer and seller agree upon delivery of a specified quality and quantity of goods at a specified future date",
+        "label": "commodity forward",
+        "explanatoryNote": "Commodity forwards are often settled via cash transactions in many industries, including for the purposes of commodity merchandising. Terms may be more \"personalized\" than is the case with standardized futures contracts (i.e., delivery time and amount are as determined between seller and buyer). A price may be agreed upon in advance, or there may be agreement that the price will be determined at the time of delivery. A forward contract is a private and customizable agreement that settles at the end of the agreement and is traded over-the-counter."
+    },
+    {
+        "id": "Forward",
+        "type": "Entity",
+        "name": "Forward"
+    },
+    {
+        "id": "CommodityDerivative",
+        "type": "Class",
+        "name": "CommodityDerivative",
+        "label": "commodity derivative",
+        "definition": "derivative instrument whose primary underlying notional item is a physical commodity, or the price, or related index, or any other aspect related to a physical commodity"
+    },
+    {
+        "id": "CommodityUnderlyingAsset",
+        "type": "Class",
+        "name": "CommodityUnderlyingAsset",
+        "label": "commodity underlying asset",
+        "definition": "underlier of a commodity derivative, including, but not limited to, the negotiable commodity itself",
+        "explanatoryNote": "The underlying of a commodity swap may include a physical commodity, or the price, or behavior of the price, or any other aspect of a physical commodity."
+    },
+    {
+        "id": "Underlier",
+        "type": "Entity",
+        "name": "Underlier"
+    },
+    {
+        "id": "PaperResource",
+        "type": "Class",
+        "name": "PaperResource",
+        "label": "paper resource",
+        "definition": "negotiable commodity that is a paper product, including containerboard, newsprint, pulp, recovered paper"
+    },
+    {
+        "id": "CommodityFuture",
+        "type": "Class",
+        "name": "CommodityFuture",
+        "label": "commodity future",
+        "definition": "futures contract to buy or sell a predetermined amount of a commodity at a specific price on a specific date in the future",
+        "explanatoryNote": "A commodity future is an agreement to purchase or sell a commodity for delivery in the future: (1) at a price that is determined at initiation of the contract; (2) that obligates each party to the contract to fulfill the contract at the specified price; (3) that is used to assume or shift price risk; and (4) that may be satisfied by delivery or offset."
+    },
+    {
+        "id": "Future",
+        "type": "Entity",
+        "name": "Future"
+    },
+    {
+        "id": "OilCommodity",
+        "type": "Class",
+        "name": "OilCommodity",
+        "definition": "generated resource that is a viscous liquid derived from petroleum, including for use as fuel, or as a lubricant, and the manufacture of many types of paints, plastics, and other materials",
+        "label": "oil commodity"
+    },
+    {
+        "id": "GeneratedResource",
+        "type": "Class",
+        "name": "GeneratedResource",
+        "definition": "negotiable commodity obtained via some generation process, including electricity, renewable energy, or any power/energy delivered through a utility network or provider",
+        "label": "generated resource"
+    },
+    {
+        "id": "ServiceResource",
+        "type": "Class",
+        "name": "ServiceResource",
+        "label": "service resource",
+        "definition": "negotiable commodity involving services such as transportation, communications, and trade"
+    },
+    {
+        "id": "CommodityReturnLeg",
+        "type": "Class",
+        "name": "CommodityReturnLeg",
+        "label": "commodity return leg",
+        "explanatoryNote": "The cash flows from a commodity may be negative as you have a cost from holding the commodity but there are no interim cash flows, so it equates to a negative interest rate. So a commodity swap is like a TRS in that it is based on the return on the increase in value.",
+        "definition": "leg of a commodity return swap in which the return is based on a physical commodity, or the price, or behavior of the price, or any other aspect related to a physical commodity"
+    },
+    {
+        "id": "ReturnLeg",
+        "type": "Entity",
+        "name": "ReturnLeg"
+    },
+    {
+        "id": "PreciousMetal",
+        "type": "Class",
+        "name": "PreciousMetal"
+    },
+    {
+        "id": "Metal",
+        "type": "Class",
+        "name": "Metal",
+        "label": "metal",
+        "definition": "material that, when freshly prepared, polished, or fractured, shows a lustrous appearance, and conducts electricity and heat relatively well"
+    },
+    {
+        "id": "AgriculturalResource",
+        "type": "Class",
+        "name": "AgriculturalResource",
+        "definition": "negotiable commodity that is obtained via some agricultural process, including forestry, fishing, livestock, grain, dairy, corn, cocoa, soybeans, sugar, coffee",
+        "label": "agricultural resource"
+    },
+    {
+        "id": "CommodityOption",
+        "type": "Class",
+        "name": "CommodityOption",
+        "label": "commodity option",
+        "definition": "option where the option buyer has the right to buy or sell specified commodities or commodity related index at a fixed price or formula, on or before a specified date"
+    },
+    {
+        "id": "VanillaOption",
+        "type": "Entity",
+        "name": "VanillaOption"
+    },
+    {
+        "id": "FertilizerResource",
+        "type": "Class",
+        "name": "FertilizerResource",
+        "label": "fertilizer resource",
+        "definition": "negotiable commodity that includes ammonia, diammonium phosphate (DAP), potash, sulphur, urea, urea and ammonium nitrate (UAN)"
+    },
+    {
+        "id": "CommodityIndex",
+        "type": "Class",
+        "name": "CommodityIndex",
+        "label": "commodity index",
+        "definition": "investment vehicle that tracks a basket of commodities to measure their price and investment return performance"
+    },
+    {
+        "id": "ReferenceIndex",
+        "type": "Entity",
+        "name": "ReferenceIndex"
+    },
+    {
+        "id": "WeatherDerivative",
+        "type": "Class",
+        "name": "WeatherDerivative",
+        "definition": "derivative instrument whose primary underlying notional item is based on something related to the weather, for example, the average temperature in Chicago in January",
+        "label": "weather derivative",
+        "explanatoryNote": "Such a derivative can be used to hedge risks related to the demand for heating fuel or electricity. The underlying 'asset' is not a negotiable commodity per se, but because the weather can impact the prices and other things related to other commodities, weather derivatives are treated as commodity derivatives for regulatory purposes."
+    },
+    {
+        "id": "DerivativeInstrument",
+        "type": "Entity",
+        "name": "DerivativeInstrument"
+    },
+    {
+        "id": "CommodityInstrument",
+        "type": "Entity",
+        "name": "CommodityInstrument"
+    },
+    {
+        "id": "CommoditySpotContract",
+        "type": "Class",
+        "name": "CommoditySpotContract",
+        "label": "commodity spot contract",
+        "definition": "contract that involves physical delivery of the commodity asset at settlement"
+    },
+    {
+        "id": "SpotContract",
+        "type": "Entity",
+        "name": "SpotContract"
+    },
+    {
+        "id": "CommoditySwap",
+        "type": "Class",
+        "name": "CommoditySwap",
+        "explanatoryNote": "Commodity swaps typically involve the exchange of a floating commodity price for a set price over an agreed-upon period.",
+        "definition": "commodity derivative that includes, without limitation, any swap for which the primary underlying notional item is a physical commodity, or the price, or behavior of the price, or the level of a commodity index, or other aspect related to a physical commodity",
+        "label": "commodity swap"
+    },
+    {
+        "id": "ReturnSwap",
+        "type": "Entity",
+        "name": "ReturnSwap"
+    },
+    {
+        "id": "Bullion",
+        "type": "Class",
+        "name": "Bullion",
+        "label": "bullion",
+        "explanatoryNote": "Physical metals fall into two categories: (1) bullion, which are coins, ingots or bars of a specific weight and purity; and (2) \"numismatic\" or collectible coins, which can be rare or old coins, or special proofs that are newly minted as collectibles. If a particular asset is identified as \"numismatic\" or \"collectible\", it is, by definition, not considered bullion aside from its melt value.",
+        "definition": "physical precious metal that is officially recognized as being at least 99.5 percent pure"
+    },
+    {
+        "id": "FreightResource",
+        "type": "Class",
+        "name": "FreightResource",
+        "label": "freight resource",
+        "definition": "negotiable commodity that is a freight index route"
+    },
+    {
+        "id": "IndustrialResource",
+        "type": "Class",
+        "name": "IndustrialResource",
+        "definition": "negotiable commodity that is obtained via some industrial process, including construction and manufacturing",
+        "label": "industrial resource"
+    },
+    {
+        "id": "EnvironmentalResource",
+        "type": "Class",
+        "name": "EnvironmentalResource",
+        "label": "environmental resource",
+        "definition": "negotiable commodity including offset credits"
+    },
+    {
+        "id": "BaseMetal",
+        "type": "Class",
+        "name": "BaseMetal",
+        "definition": "common metal that tarnishes, oxidizes, or corrodes relatively quickly when exposed to air or moisture, that is widely used in commercial and industrial applications, such as construction and manufacturing",
+        "explanatoryNote": "Base metals or alloys include metals other than precious metals, such as copper, lead, zinc, tin, iron, steel, or brass. Note that iron and steel are included under metal and metal products in some classification schemes - see  for example.",
+        "label": "base metal"
+    },
+    {
+        "id": "EnergyTransmissionRights",
+        "type": "Class",
+        "name": "EnergyTransmissionRights",
+        "definition": "rights to the transmission of power across an electricity distribution network",
+        "label": "energy transmission rights"
+    },
+    {
+        "id": "GrainCommodity",
+        "type": "Class",
+        "name": "GrainCommodity",
+        "definition": "agricultural resource that is a small, hard seed, of a food plant, especially of a cereal plant, such as wheat, corn, rye, oats, rice, and millet",
+        "label": "grain commodity"
+    },
+    {
+        "id": "MeatCommodity",
+        "type": "Class",
+        "name": "MeatCommodity",
+        "label": "meat commodity",
+        "definition": "agricultural resource derived from the flesh of an animal (especially a mammal), such as pork bellies"
+    },
+    {
+        "id": "OilGrade",
+        "type": "Class",
+        "name": "OilGrade",
+        "definition": "measure of the viscosity of oil during operation",
+        "label": "oil grade"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "hasCommodityValueAsOfDate",
+        "type": "ObjectProperty",
+        "name": "hasCommodityValueAsOfDate",
+        "definition": "indicates the per unit value of a given commodity as of some specified date",
+        "label": "has commodity value as of date"
+    },
+    {
+        "id": "hasGrade",
+        "type": "ObjectProperty",
+        "name": "hasGrade",
+        "definition": "The grade of oil e.g. Brent Crude.",
+        "label": "has grade"
+    }
+]

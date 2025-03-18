@@ -1,0 +1,111 @@
+[
+    {
+        "id": "PersonalProperty",
+        "type": "Class",
+        "name": "PersonalProperty",
+        "definition": "asset that is a movable item or possession not fixed to land",
+        "label": "personal property",
+        "explanatoryNote": "Personal property may include tangible assets, such as machinery, furniture, vehicles, artwork, and jewelry, regardless of whether such assets are owned by a person or organization, and intangible assets, including but not limited to intellectual property and financial instruments."
+    },
+    {
+        "id": "Asset",
+        "type": "Entity",
+        "name": "Asset"
+    },
+    {
+        "id": "TractOfLand",
+        "type": "Class",
+        "name": "TractOfLand",
+        "label": "tract of land",
+        "explanatoryNote": "In some cases, such as in the case of unimproved land that may be owned by a government but without improvements, there may not be an address.",
+        "definition": "geographic region that is a specific area within a larger region on the surface of the earth"
+    },
+    {
+        "id": "GeographicRegion",
+        "type": "Entity",
+        "name": "GeographicRegion"
+    },
+    {
+        "id": "RealProperty",
+        "type": "Class",
+        "name": "RealProperty",
+        "explanatoryNote": "Real property may be classified according to its general use as residential, commercial, agricultural, industrial, or special purpose. This term is sometimes used synonymously with 'real estate', though not in all circumstances under US law.",
+        "label": "real property",
+        "definition": "physical asset defined as land together with any structures that are permanently attached to that land, such as houses, trees, fences and improvements"
+    },
+    {
+        "id": "PhysicalAsset",
+        "type": "Entity",
+        "name": "PhysicalAsset"
+    },
+    {
+        "id": "RealEstate",
+        "type": "Class",
+        "name": "RealEstate",
+        "explanatoryNote": "The term 'mortgages on real property' includes deeds of trust on real property. Note that interpretation of the term 'real estate' is context-dependent - this broader interpretation is used in tax law in the US and elsewhere.",
+        "label": "real estate",
+        "definition": "real property, interests in mortgages on real property (including interests in mortgages on leaseholds of land or improvements thereon), and shares in qualified real estate investment trusts"
+    },
+    {
+        "id": "RealPropertyAppraisal",
+        "type": "Class",
+        "name": "RealPropertyAppraisal",
+        "label": "real property appraisal",
+        "definition": "value assessment that estimates the amount of money some real property is worth",
+        "explanatoryNote": "The valuation uses one or more methodologies and is conducted by an appraiser or technology with a logical model that performs the same function."
+    },
+    {
+        "id": "Appraisal",
+        "type": "Entity",
+        "name": "Appraisal"
+    },
+    {
+        "id": "TractIdentifier",
+        "type": "Class",
+        "name": "TractIdentifier",
+        "label": "tract identifier",
+        "definition": "unique identifier given to identify a tract in some jurisidiction"
+    },
+    {
+        "id": "ContextualIdentifier",
+        "type": "Entity",
+        "name": "ContextualIdentifier"
+    },
+    {
+        "id": "PropertyInspectionReport",
+        "type": "Class",
+        "name": "PropertyInspectionReport",
+        "label": "property inspection report",
+        "definition": "report covering the findings of a property inspection"
+    },
+    {
+        "id": "AssessmentReport",
+        "type": "Entity",
+        "name": "AssessmentReport"
+    },
+    {
+        "id": "RealPropertyIdentifier",
+        "type": "Class",
+        "name": "RealPropertyIdentifier",
+        "definition": "unique identifier given to identify a specific real property in some jurisidiction",
+        "label": "real property identifier"
+    },
+    {
+        "id": "PropertyInspection",
+        "type": "Class",
+        "name": "PropertyInspection",
+        "definition": "event that involves analyzing one or more aspects of a real property",
+        "label": "property inspection",
+        "explanatoryNote": "The concept of a property inspection is separate from conducting an overarching appraisal. Examples are termite inspections, construction inspections, evaluation for completion of some milestone, improvement, correction, etc."
+    },
+    {
+        "id": "AssessmentEvent",
+        "type": "Entity",
+        "name": "AssessmentEvent"
+    },
+    {
+        "id": "Parcel",
+        "type": "Class",
+        "name": "Parcel"
+    }
+]

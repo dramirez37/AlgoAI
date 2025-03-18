@@ -1,0 +1,219 @@
+[
+    {
+        "id": "ActionClassificationScheme",
+        "type": "Class",
+        "name": "ActionClassificationScheme",
+        "definition": "scheme for classifying the kinds of actions and events that may be announced, initiated or carried out by an organization that affects a legal entity or the securities it issues",
+        "label": "action classification scheme"
+    },
+    {
+        "id": "CodeSet",
+        "type": "Entity",
+        "name": "CodeSet"
+    },
+    {
+        "id": "ClassificationScheme",
+        "type": "Entity",
+        "name": "ClassificationScheme"
+    },
+    {
+        "id": "ActionStatus",
+        "type": "Class",
+        "name": "ActionStatus",
+        "label": "action status",
+        "definition": "state of some action at some point in time"
+    },
+    {
+        "id": "LifecycleStatus",
+        "type": "Entity",
+        "name": "LifecycleStatus"
+    },
+    {
+        "id": "Notification",
+        "type": "Class",
+        "name": "Notification",
+        "definition": "corporate action involving information provided by the issuer having no accounting/financial impact on the holder",
+        "label": "notification"
+    },
+    {
+        "id": "MandatoryCorporateAction",
+        "type": "Class",
+        "name": "MandatoryCorporateAction",
+        "label": "mandatory corporate action",
+        "definition": "action initiated by the board of directors of a corporation that affects all shareholders",
+        "explanatoryNote": "Mandatory means mandatory participation by all shareholders, however the shareholder is not required to do anything."
+    },
+    {
+        "id": "RegulatoryAction",
+        "type": "Class",
+        "name": "RegulatoryAction",
+        "label": "regulatory action",
+        "definition": "action initiated by a regulatory agency that affects a legal entity or the securities it issues and may have a material impact on that entity's stakeholders, such as shareholders and creditors"
+    },
+    {
+        "id": "Action",
+        "type": "Class",
+        "name": "Action",
+        "label": "action",
+        "definition": "event announced, initiated or carried out by an organization that affects a legal entity or the securities it issues and may have a material impact on that entity's stakeholders, such as shareholders and creditors",
+        "explanatoryNote": "Actions initiated by an issuer are typically approved by that company's board of directors and authorized by their shareholders."
+    },
+    {
+        "id": "VoluntaryCorporateAction",
+        "type": "Class",
+        "name": "VoluntaryCorporateAction",
+        "definition": "event in which the shareholders elect to participate and must respond in order for the issuer to process the action",
+        "label": "voluntary corporate action",
+        "explanatoryNote": "Shareholders send responses to the issuer's agents, and the issuer will send the proceeds of the action to those shareholders who elect to participate."
+    },
+    {
+        "id": "CorporateAction",
+        "type": "Class",
+        "name": "CorporateAction",
+        "definition": "action carried out by or specifically relating to a legal entity that may affect the securities it issues and may have a material impact on its stakeholders, such as shareholders and creditors",
+        "explanatoryNote": "Corporate actions are typically approved by a company's board of directors and authorized by the shareholders.",
+        "label": "corporate action"
+    },
+    {
+        "id": "ConsentSolicitation",
+        "type": "Class",
+        "name": "ConsentSolicitation",
+        "definition": "corporate action that is a procedure that aims to obtain consent of holder to a proposal by the issuer or a third party without convening a meeting",
+        "label": "consent solicitation"
+    },
+    {
+        "id": "Occurrence",
+        "type": "Entity",
+        "name": "Occurrence"
+    },
+    {
+        "id": "OrganizationAddressChange",
+        "type": "Class",
+        "name": "OrganizationAddressChange",
+        "label": "organization address change",
+        "definition": "information action that provides details of address changes for a legal entity"
+    },
+    {
+        "id": "ActionClassifier",
+        "type": "Class",
+        "name": "ActionClassifier",
+        "explanatoryNote": "ISO 15022 classifies events as impacting income vs. others. Other classification schemes distinguish between actions that return profits to shareholders, actions that are designed to influence the share price, and actions involving a change in structure to the issuer organization.",
+        "definition": "classifier that distinguishes the kinds of actions and events that may be announced, initiated or carried out by an organization that affects a legal entity or the securities it issues, such as income-oriented events",
+        "label": "action classifier"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "OccurrenceKind",
+        "type": "Entity",
+        "name": "OccurrenceKind"
+    },
+    {
+        "id": "IncomeOrientedClassifier",
+        "type": "Class",
+        "name": "IncomeOrientedClassifier",
+        "explanatoryNote": "Cash dividends are a classic example where a public company declares a dividend to be paid on each outstanding share. Bonus is another case where the shareholder is rewarded. In a stricter sense, the bonus issue should not impact the share price but in reality, in rare cases, it does and results in an overall increase in value.",
+        "label": "income-oriented classifier",
+        "definition": "classifier of corporate actions that impacts income to shareholders"
+    },
+    {
+        "id": "MandatoryWithChoiceCorporateAction",
+        "type": "Class",
+        "name": "MandatoryWithChoiceCorporateAction",
+        "definition": "mandatory corporate action where shareholders are given an opportunity to choose among several options",
+        "label": "mandatory with choice corporate action",
+        "explanatoryNote": "In case a shareholder does not submit the election, the default option will be applied."
+    },
+    {
+        "id": "ClassAction",
+        "type": "Class",
+        "name": "ClassAction",
+        "explanatoryNote": "The security holder may be offered the opportunity to join a class action proceeding and would need to respond with an instruction.",
+        "label": "class action",
+        "definition": "corporate action involving a situation where interested parties seek restitution for financial loss"
+    },
+    {
+        "id": "DisclosureAction",
+        "type": "Class",
+        "name": "DisclosureAction",
+        "label": "disclosure action",
+        "definition": "corporate action involving a request for holders or beneficial owners to disclose their name, location and holdings of any issue to the issuer"
+    },
+    {
+        "id": "LegalFormChange",
+        "type": "Class",
+        "name": "LegalFormChange",
+        "label": "legal form change",
+        "definition": "corporate action indicating a modification of the legal form of the organization"
+    },
+    {
+        "id": "MarketAction",
+        "type": "Class",
+        "name": "MarketAction",
+        "label": "market action",
+        "definition": "action that is initiated by a market, such as a securities exchange, that affects a legal entity or the securities it issues and may have a material impact on that entity's stakeholders, such as shareholders and creditors"
+    },
+    {
+        "id": "BusinessStrategyClassifier",
+        "type": "Class",
+        "name": "BusinessStrategyClassifier",
+        "definition": "classifier of corporate actions that involve improving liquidity or changing the overall structure of the organization through diversification, combining and closing parts of the business, etc, to increase long-term profitability",
+        "label": "business strategy classifier"
+    },
+    {
+        "id": "PriorityIssue",
+        "type": "Class",
+        "name": "PriorityIssue",
+        "label": "priority issue",
+        "definition": "corporate action that is a public offer where, due to a limited amount of securities available, priority is given to existing shareholders"
+    },
+    {
+        "id": "SpinOff",
+        "type": "Class",
+        "name": "SpinOff",
+        "label": "spin off",
+        "definition": "corporate action involving the distribution of subsidiary stock to the shareholders of the parent company without a surrender of shares",
+        "explanatoryNote": "Spin-off represents a form of divestiture usually resulting in an independent company or in an existing company. Examples include demerger, distribution, and unbundling."
+    },
+    {
+        "id": "Divestiture",
+        "type": "Class",
+        "name": "Divestiture",
+        "definition": "corporate action involving the sales of subsidiary business interests or investments",
+        "label": "divestiture"
+    },
+    {
+        "id": "MergerAcquisition",
+        "type": "Class",
+        "name": "MergerAcquisition",
+        "explanatoryNote": "Such consolidation may be accomplished via financial transactions such as mergers, acquisitions, consolidations, tender offers, purchase of assets, and management acquisitions.",
+        "label": "merger / acquisition",
+        "definition": "corporate action involving the consolidation of legal entities or assets"
+    },
+    {
+        "id": "Liquidation",
+        "type": "Class",
+        "name": "Liquidation",
+        "explanatoryNote": "Debt may be paid in order of priority based on preferred claims to assets specified by a security, for example.",
+        "definition": "corporate action related to winding up a business, including but not limited to distribution of cash, assets, or both",
+        "label": "liquidation"
+    },
+    {
+        "id": "OrganizationNameChange",
+        "type": "Class",
+        "name": "OrganizationNameChange",
+        "definition": "information action that provides details of name changes for a legal entity",
+        "label": "organization name change"
+    },
+    {
+        "id": "ChangeAction",
+        "type": "Class",
+        "name": "ChangeAction",
+        "definition": "corporate action to disseminate information regarding a change further described in the corporate action details",
+        "explanatoryNote": "Generic changes may include a change in the terms of an issue, change in the identification of a security, change of board lot, change from global to definitive, etc.",
+        "label": "change action"
+    }
+]

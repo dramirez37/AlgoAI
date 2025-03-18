@@ -1,0 +1,128 @@
+[
+    {
+        "source_id": "Employer",
+        "target_id": "MemberBearingOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Employer",
+        "target_id": "Employee",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasEmployee",
+                "Employee"
+            ]
+        }
+    },
+    {
+        "source_id": "Employer",
+        "target_id": "Employment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEmployingParty",
+                "Employment"
+            ]
+        }
+    },
+    {
+        "source_id": "Employment",
+        "target_id": "Membership",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Employment",
+        "target_id": "Employee",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasEmployedParty",
+                "Employee"
+            ]
+        }
+    },
+    {
+        "source_id": "Employment",
+        "target_id": "Employer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasEmployingParty",
+                "Employer"
+            ]
+        }
+    },
+    {
+        "source_id": "Employee",
+        "target_id": "Employment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEmployedIn",
+                "Employment"
+            ]
+        }
+    },
+    {
+        "source_id": "Employee",
+        "target_id": "Employer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEmployeeOf",
+                "Employer"
+            ]
+        }
+    },
+    {
+        "source_id": "Employee",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Group",
+        "target_id": "Collection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FormalOrganization",
+        "target_id": "Organization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InformalOrganization",
+        "target_id": "Organization",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

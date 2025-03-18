@@ -1,0 +1,767 @@
+[
+    {
+        "id": "VariableInterestEntityShare",
+        "type": "Class",
+        "name": "VariableInterestEntityShare",
+        "definition": "share that certifies ownership of a contractual right to a percentage of a company's profits",
+        "explanatoryNote": "Unlike a traditional stock certificate, the VIE share provides a legal proprietary interest in a completely separate company's assets, sometimes referred to as a shell company. The contractual right certified by the VIE share is derived from a contract between (1) the company named on the VIE share and (2) the shell company. In other words, VIE shareholders only have a traditional stock certificate in the completely separate shell company, which is entitled to a percentage of the named company's profits via a private contract.",
+        "label": "variable interest entity share"
+    },
+    {
+        "id": "Share",
+        "type": "Class",
+        "name": "Share",
+        "definition": "financial instrument that signifies a unit of equity ownership in a corporation, or a unit of ownership in a mutual fund, or interest in a general or limited partnership, or a unit of ownership in a structured product, such as a real estate investment trust",
+        "label": "share"
+    },
+    {
+        "id": "PreferredDividend",
+        "type": "Class",
+        "name": "PreferredDividend",
+        "definition": "commitment to distribute a portion of earnings to shareholders, similar to a dividend but often with a fixed payment amount and schedule",
+        "label": "preferred dividend"
+    },
+    {
+        "id": "Dividend",
+        "type": "Class",
+        "name": "Dividend",
+        "definition": "announced commitment to make a specific distribution of a portion of earnings to shareholders, prorated by class of security",
+        "explanatoryNote": "The amount and timing of payment is set by the board of directors, typically quarterly. Dividends may be paid in the form of money, shares, scrip, or on rare occasion, property.",
+        "label": "dividend"
+    },
+    {
+        "id": "RetractablePreferredShareWithExtendableMaturityDate",
+        "type": "Class",
+        "name": "RetractablePreferredShareWithExtendableMaturityDate",
+        "definition": "retractable preferred share with a fixed maturity date whose issuer and/or holders have the option to extend the maturity date",
+        "label": "retractable preferred share with extendable maturity date"
+    },
+    {
+        "id": "PreferredShareWithFixedMaturityDate",
+        "type": "Class",
+        "name": "PreferredShareWithFixedMaturityDate",
+        "label": "preferred share with fixed maturity date",
+        "definition": "preferred share whose maturity date is set, typically according to the terms of the prospectus"
+    },
+    {
+        "id": "RetractablePreferredShare",
+        "type": "Class",
+        "name": "RetractablePreferredShare",
+        "definition": "preferred share that gives the owner (shareholder) the right to redeem the stock under specified conditions",
+        "label": "retractable preferred share",
+        "explanatoryNote": "When retractable preferred shares reach maturity, the shareholder has the right to sell them back to the stock issuer at the price stated on the agreement. In some cases, the issuer can force the shareholder to sell, and may have the option of exchanging retractable preferred shares for common shares instead of cash."
+    },
+    {
+        "id": "EquityInstrument",
+        "type": "Entity",
+        "name": "EquityInstrument"
+    },
+    {
+        "id": "ListedShare",
+        "type": "Class",
+        "name": "ListedShare",
+        "definition": "share that is listed on at least one platform",
+        "label": "listed share",
+        "explanatoryNote": "Listing requirements vary by exchange and include minimum stockholder's equity, a minimum share price and a minimum number of shareholders. Exchanges have listing requirements to ensure that only high quality securities are traded on them and to uphold the exchange's reputation among investors."
+    },
+    {
+        "id": "ListedSecurity",
+        "type": "Entity",
+        "name": "ListedSecurity"
+    },
+    {
+        "id": "RedeemablePreferredShare",
+        "type": "Class",
+        "name": "RedeemablePreferredShare",
+        "definition": "preferred share that gives the issuer the right to redeem the stock under specified conditions",
+        "label": "redeemable preferred share"
+    },
+    {
+        "id": "PreferredShare",
+        "type": "Class",
+        "name": "PreferredShare",
+        "label": "preferred share",
+        "definition": "share that pays dividends at a specified rate and has preference over common shares in the payment of dividends and liquidation of corporate assets"
+    },
+    {
+        "id": "DividendDistributionMethod",
+        "type": "Class",
+        "name": "DividendDistributionMethod",
+        "definition": "convention by which dividends are provided to shareholders",
+        "explanatoryNote": "Distribution may be by payment of a monetary amount or by reinvestment, as specified by the board of directors at the time a decision to issue a dividend is made.",
+        "label": "dividend distribution method"
+    },
+    {
+        "id": "Strategy",
+        "type": "Entity",
+        "name": "Strategy"
+    },
+    {
+        "id": "Convention",
+        "type": "Entity",
+        "name": "Convention"
+    },
+    {
+        "id": "ExchangeablePreferredShare",
+        "type": "Class",
+        "name": "ExchangeablePreferredShare",
+        "definition": "preferred share that may be exchanged for a security of another issuer",
+        "label": "exchangeable preferred share"
+    },
+    {
+        "id": "SpecialDividend",
+        "type": "Class",
+        "name": "SpecialDividend",
+        "label": "special dividend",
+        "definition": "dividend that is paid to shareholders on a one-time basis"
+    },
+    {
+        "id": "Custodian",
+        "type": "Class",
+        "name": "Custodian",
+        "definition": "financial institution that holds customers' securities for safekeeping",
+        "label": "custodian",
+        "explanatoryNote": "The custodian may hold stocks or other assets in electronic or physical form for mutual funds, individuals, and organizational clients."
+    },
+    {
+        "id": "FinancialInstitution",
+        "type": "Entity",
+        "name": "FinancialInstitution"
+    },
+    {
+        "id": "ThirdPartyAgent",
+        "type": "Entity",
+        "name": "ThirdPartyAgent"
+    },
+    {
+        "id": "RetractablePreferredShareWithExtendableRedemptionDate",
+        "type": "Class",
+        "name": "RetractablePreferredShareWithExtendableRedemptionDate",
+        "label": "retractable preferred share with extendable redemption date",
+        "definition": "retractable preferred share whose redemption date can be modified"
+    },
+    {
+        "id": "RedeemablePreferredShareWithExtendableMaturityDate",
+        "type": "Class",
+        "name": "RedeemablePreferredShareWithExtendableMaturityDate",
+        "definition": "redeemable preferred share with a fixed maturity date whose issuer has the option to extend the maturity date",
+        "label": "redeemable preferred share with extendable maturity date"
+    },
+    {
+        "id": "EquityRedemptionProvision",
+        "type": "Class",
+        "name": "EquityRedemptionProvision",
+        "definition": "redemption provision that specifies the conditions under which the issuer or shareholder may redeem the shares",
+        "label": "equity redemption provision"
+    },
+    {
+        "id": "RedemptionProvision",
+        "type": "Entity",
+        "name": "RedemptionProvision"
+    },
+    {
+        "id": "NonVotingShare",
+        "type": "Class",
+        "name": "NonVotingShare",
+        "label": "non-voting share",
+        "definition": "share that has no voting right"
+    },
+    {
+        "id": "DividendSchedule",
+        "type": "Class",
+        "name": "DividendSchedule",
+        "label": "dividend schedule",
+        "definition": "payment schedule indicating the dates on which dividends are due to be paid"
+    },
+    {
+        "id": "PaymentSchedule",
+        "type": "Entity",
+        "name": "PaymentSchedule"
+    },
+    {
+        "id": "RegularSchedule",
+        "type": "Entity",
+        "name": "RegularSchedule"
+    },
+    {
+        "id": "SharePaymentStatus",
+        "type": "Class",
+        "name": "SharePaymentStatus",
+        "explanatoryNote": "When a company issues shares upon incorporation or through an initial or secondary issuance, shareholders are required to pay a set amount for those shares. Once the company has received the full amount from shareholders, the shares become fully paid shares.",
+        "label": "share payment status",
+        "definition": "classifier that specifies the overall payment status for shares issued"
+    },
+    {
+        "id": "LifecycleStatus",
+        "type": "Entity",
+        "name": "LifecycleStatus"
+    },
+    {
+        "id": "PreferredShareWithAdjustableRateDividend",
+        "type": "Class",
+        "name": "PreferredShareWithAdjustableRateDividend",
+        "definition": "preferred share whose dividend rate varies according to some benchmark",
+        "label": "preferred share with adjustable rate dividend"
+    },
+    {
+        "id": "UnrestrictedShare",
+        "type": "Class",
+        "name": "UnrestrictedShare",
+        "label": "unrestricted share",
+        "definition": "share whose ownership/transfer/sale is not subject to special conditions including country-specific restrictions"
+    },
+    {
+        "id": "NegotiableSecurity",
+        "type": "Entity",
+        "name": "NegotiableSecurity"
+    },
+    {
+        "id": "AuctionRateDividend",
+        "type": "Class",
+        "name": "AuctionRateDividend",
+        "definition": "preferred share dividend whose rate is periodically reset through an auction, typically every 7, 14, 28, or 35 days",
+        "label": "auction rate dividend"
+    },
+    {
+        "id": "PreferredShareWithAuctionRateDividend",
+        "type": "Class",
+        "name": "PreferredShareWithAuctionRateDividend",
+        "label": "preferred share with auction rate dividend",
+        "definition": "preferred share whose dividend rate is periodically reset through an auction, such as a Dutch auction"
+    },
+    {
+        "id": "ShareIssuer",
+        "type": "Class",
+        "name": "ShareIssuer",
+        "explanatoryNote": "This includes shares that represent equity ownership in a corporation, or ownership in a mutual fund, or an interest in a general or limited partnership, or ownership in a structured product, such as a real estate investment trust.",
+        "definition": "issuer of securities that represent an ownership interest in something",
+        "label": "share issuer"
+    },
+    {
+        "id": "Issuer",
+        "type": "Entity",
+        "name": "Issuer"
+    },
+    {
+        "id": "ParticipatingPreferredShare",
+        "type": "Class",
+        "name": "ParticipatingPreferredShare",
+        "explanatoryNote": "Participating preferred shares are rare, typically only issued when needed to attract investors.",
+        "definition": "preferred share that, in addition to paying a stipulated dividend, gives the holder the right to participate with common share holders in additional distributions of earnings under specified conditions",
+        "label": "participating preferred share"
+    },
+    {
+        "id": "ConvertiblePreferredShare",
+        "type": "Class",
+        "name": "ConvertiblePreferredShare",
+        "definition": "preferred share that includes an option for the holder to convert the shares into a fixed number of common shares after a predetermined date",
+        "label": "convertible preferred share",
+        "explanatoryNote": "Most convertible preferred stock is exchanged at the request of the shareholder, but sometimes there is a provision that allows the company, or issuer, to force conversion. The value of a convertible preferred stock is ultimately based on the performance of the common stock."
+    },
+    {
+        "id": "ConvertibleSecurity",
+        "type": "Entity",
+        "name": "ConvertibleSecurity"
+    },
+    {
+        "id": "OrdinaryDividend",
+        "type": "Class",
+        "name": "OrdinaryDividend",
+        "definition": "dividend that is paid to shareholders periodically",
+        "explanatoryNote": "Most dividends are considered ordinary, unless they are specifically designated as qualified dividends.",
+        "label": "ordinary dividend"
+    },
+    {
+        "id": "PricePerShare",
+        "type": "Class",
+        "name": "PricePerShare",
+        "abbreviation": "PPS",
+        "label": "price per share",
+        "definition": "price for one share of a given security at some point in time"
+    },
+    {
+        "id": "SecurityPrice",
+        "type": "Entity",
+        "name": "SecurityPrice"
+    },
+    {
+        "id": "UnitPrice",
+        "type": "Entity",
+        "name": "UnitPrice"
+    },
+    {
+        "id": "LimitedPartnershipUnit",
+        "type": "Class",
+        "name": "LimitedPartnershipUnit",
+        "definition": "share in a form of partnership similar to a general partnership, except that in addition to one or more general partners (GPs), there are one or more limited partners (LPs)",
+        "label": "limited partnership unit",
+        "explanatoryNote": "Like shareholders in a corporation, the LPs have limited liability, i.e., they are only liable on debts incurred by the firm to the extent of their registered investment and they have no management authority. The GPs pay the LPs the equivalent of a dividend on their investment, the nature and extent of which is usually defined in the partnership agreement."
+    },
+    {
+        "id": "PrivatelyHeldShare",
+        "type": "Class",
+        "name": "PrivatelyHeldShare",
+        "definition": "share in a security that signifies ownership in an entity that is not publicly traded",
+        "explanatoryNote": "Privately owned companies include family-owned businesses, sole proprietorships and the vast majority of small and medium-sized businesses. These companies are often too small for an initial public offering (IPO) due, for example to a small market capitalization and/or low trading volume, and fulfill their financing requirements in other ways, including through smaller offerings.",
+        "label": "privately held share"
+    },
+    {
+        "id": "ShareYield",
+        "type": "Class",
+        "name": "ShareYield",
+        "label": "share yield",
+        "definition": "ratio of the annualized dividend per share divided by the (current) price per share"
+    },
+    {
+        "id": "Yield",
+        "type": "Entity",
+        "name": "Yield"
+    },
+    {
+        "id": "EquityConversionTerms",
+        "type": "Class",
+        "name": "EquityConversionTerms",
+        "label": "equity conversion terms",
+        "definition": "conversion terms specifying the details regarding conversion of shares into other securities"
+    },
+    {
+        "id": "ConversionTerms",
+        "type": "Entity",
+        "name": "ConversionTerms"
+    },
+    {
+        "id": "NilPaidShare",
+        "type": "Class",
+        "name": "NilPaidShare",
+        "label": "nil paid share",
+        "definition": "share whose payment status indicates that none of the market value has been received by the company for the shares"
+    },
+    {
+        "id": "FixedRateDividend",
+        "type": "Class",
+        "name": "FixedRateDividend",
+        "label": "fixed rate dividend",
+        "definition": "dividend that provides a specified annual return on the nominal value (and any premium) paid on shares",
+        "explanatoryNote": "In other words, the return is not variable depending on whether or not the company makes a profit. Annual dividends are calculated as a percentage of the par value, which is the price of the preferred stock at the time it was issued. Most preferred shares have fixed rate dividends."
+    },
+    {
+        "id": "EquityPosition",
+        "type": "Class",
+        "name": "EquityPosition",
+        "label": "equity position",
+        "definition": "position in an equity instrument"
+    },
+    {
+        "id": "Position",
+        "type": "Entity",
+        "name": "Position"
+    },
+    {
+        "id": "PreferredShareWithFixedRateDividend",
+        "type": "Class",
+        "name": "PreferredShareWithFixedRateDividend",
+        "label": "preferred share with fixed rate dividend",
+        "definition": "preferred share whose dividends are set, typically according to the terms of the prospectus"
+    },
+    {
+        "id": "RedeemablePreferredShareWithExtendableRedemptionDate",
+        "type": "Class",
+        "name": "RedeemablePreferredShareWithExtendableRedemptionDate",
+        "definition": "redeemable preferred share whose redemption date can be modified",
+        "label": "redeemable preferred share with extendable redemption date"
+    },
+    {
+        "id": "AdjustableRateDividend",
+        "type": "Class",
+        "name": "AdjustableRateDividend",
+        "definition": "dividend that varies with a benchmark",
+        "explanatoryNote": "The value of the dividend from the preferred share is set by a predetermined formula to move with rates, and because of this flexibility preferred prices are often more stable then fixed-rate preferred stocks.",
+        "label": "adjustable rate dividend"
+    },
+    {
+        "id": "RestrictedVotingShare",
+        "type": "Class",
+        "name": "RestrictedVotingShare",
+        "definition": "share that confers less than one vote per share",
+        "label": "restricted voting share"
+    },
+    {
+        "id": "SingleVotingShare",
+        "type": "Class",
+        "name": "SingleVotingShare",
+        "label": "single voting share",
+        "definition": "share that has the right to exactly one vote"
+    },
+    {
+        "id": "CommonShare",
+        "type": "Class",
+        "name": "CommonShare",
+        "label": "common share",
+        "definition": "share that signifies a unit of ownership in a corporation and represents a claim on part of the corporation's assets and earnings",
+        "explanatoryNote": "In the event that the corporation is liquidated, claims of secured and unsecured creditors and owners of bonds and preferred shares take precedence over claims of common share holders."
+    },
+    {
+        "id": "Commitment",
+        "type": "Entity",
+        "name": "Commitment"
+    },
+    {
+        "id": "EquityRedemptionProvisionWithExtendableRedemptionDate",
+        "type": "Class",
+        "name": "EquityRedemptionProvisionWithExtendableRedemptionDate",
+        "definition": "equity redemption provision that allows modification of the redemption date beyond the original specified date",
+        "label": "equity redemption provision with extendable redemption date"
+    },
+    {
+        "id": "PartiallyPaidShare",
+        "type": "Class",
+        "name": "PartiallyPaidShare",
+        "definition": "share whose payment status indicates that only a portion of the market value has been received by the company for the shares",
+        "label": "partially paid share"
+    },
+    {
+        "id": "ConvertibleCommonShare",
+        "type": "Class",
+        "name": "ConvertibleCommonShare",
+        "label": "convertible common share",
+        "definition": "common share that is convertible into another security"
+    },
+    {
+        "id": "CumulativePreferredShare",
+        "type": "Class",
+        "name": "CumulativePreferredShare",
+        "definition": "preferred share whose dividends, if not paid on time, accumulate until paid out",
+        "explanatoryNote": "These dividends have precedence over ordinary dividends which cannot be paid until any cumulative dividend obligations have been paid. Dividends are typically deferred due to insufficient earnings or other business reasons.",
+        "label": "cumulative preferred share"
+    },
+    {
+        "id": "QualifiedDividend",
+        "type": "Class",
+        "name": "QualifiedDividend",
+        "label": "qualified dividend",
+        "definition": "dividend that falls under capital gains tax rates that are lower than the income tax rates on unqualified (ordinary) dividends"
+    },
+    {
+        "id": "NonCumulativePreferredShare",
+        "type": "Class",
+        "name": "NonCumulativePreferredShare",
+        "label": "non-cumulative preferred share",
+        "definition": "preferred share whose dividend payments are not carried forward"
+    },
+    {
+        "id": "EnhancedVotingShare",
+        "type": "Class",
+        "name": "EnhancedVotingShare",
+        "definition": "share that confers more than one vote per share",
+        "label": "enhanced voting share"
+    },
+    {
+        "id": "PerpetualPreferredShare",
+        "type": "Class",
+        "name": "PerpetualPreferredShare",
+        "label": "perpetual preferred share",
+        "definition": "preferred share that has no fixed maturity date"
+    },
+    {
+        "id": "ExtendablePreferredShare",
+        "type": "Class",
+        "name": "ExtendablePreferredShare",
+        "explanatoryNote": "An extendable preferred share may be redeemed at the option of the issuer and/or of the shareholder with an extendable redemption (meturity) date.",
+        "definition": "preferred share whose redemption date can be extended at the issuer or holder option",
+        "label": "extendable preferred share"
+    },
+    {
+        "id": "VotingRight",
+        "type": "Class",
+        "name": "VotingRight",
+        "definition": "contractual right that specifies shareholder voting entitlements, such as to elect directors, elect outside auditors, and vote on matters of corporate policy",
+        "label": "voting right",
+        "explanatoryNote": "Voting may involve decisions on issuing securities, initiating stock splits, and making substantial changes in the corporation's operations. Note that a given share may not have voting rights, in which case the number of votes per share would be zero."
+    },
+    {
+        "id": "ContractualRight",
+        "type": "Entity",
+        "name": "ContractualRight"
+    },
+    {
+        "id": "NonParticipatingPreferredShare",
+        "type": "Class",
+        "name": "NonParticipatingPreferredShare",
+        "definition": "preferred share that is not a participating preferred share",
+        "label": "non-participating preferred share"
+    },
+    {
+        "id": "PrecedenceRight",
+        "type": "Class",
+        "name": "PrecedenceRight",
+        "label": "precedence right",
+        "definition": "right that give the shareholder higher priority with respect to certain pre-defined dividend payments over other shareholders and that pay out first in the case of liquidation"
+    },
+    {
+        "id": "RestrictedShare",
+        "type": "Class",
+        "name": "RestrictedShare",
+        "label": "restricted share",
+        "definition": "share whose ownership/transfer/sale is subject to special conditions including country-specific restrictions"
+    },
+    {
+        "id": "SoftRetractablePreferredShare",
+        "type": "Class",
+        "name": "SoftRetractablePreferredShare",
+        "definition": "retractable preferred share whose retraction value may be paid in cash or in an equal value of common stock of the issuer, at the option of the issuer",
+        "label": "soft retractable preferred share"
+    },
+    {
+        "id": "HardRetractablePreferredShare",
+        "type": "Class",
+        "name": "HardRetractablePreferredShare",
+        "definition": "retractable preferred share whose retraction value must be paid in cash",
+        "label": "hard retractable preferred share"
+    },
+    {
+        "id": "FullyPaidShare",
+        "type": "Class",
+        "name": "FullyPaidShare",
+        "label": "fully paid share",
+        "definition": "share whose payment status indicates that no additional money is owed to the company by shareholders on the value of the shares"
+    },
+    {
+        "id": "hasRecordDate",
+        "type": "ObjectProperty",
+        "name": "hasRecordDate",
+        "definition": "indicates the date on which the issuer checks to determine whether a party was on the company's books as a shareholder when required (i.e., they must have been on the books prior to the ex-dividend date), to identify who is eligible to receive the next dividend",
+        "explanatoryNote": "Companies also use this date to determine who is sent proxy statements, financial reports, and other information.",
+        "label": "has record date"
+    },
+    {
+        "id": "hasExDividendDate",
+        "type": "ObjectProperty",
+        "name": "hasExDividendDate",
+        "definition": "indicates a date on which a stock 'goes ex-dividend', typically about three weeks before the dividend is paid to shareholders of record",
+        "label": "has ex-dividend date",
+        "explanatoryNote": "Once the company sets the record date, the ex-dividend date is set based on stock exchange rules. If you purchase a stock on its ex-dividend date or after, you will not receive the next dividend payment."
+    },
+    {
+        "id": "hasDividendDeclarationDate",
+        "type": "ObjectProperty",
+        "name": "hasDividendDeclarationDate",
+        "definition": "indicates a date on which an organization states that a dividend payment may be anticipated, including the the dividend amount and the ex-dividend and payment dates",
+        "label": "has declaration date"
+    },
+    {
+        "id": "hasSharesOutstanding",
+        "type": "DatatypeProperty",
+        "name": "hasSharesOutstanding",
+        "label": "has shares outstanding",
+        "definition": "indicates the number of shares currently held by shareholders, including those held by retail investors, institutional investors and insiders, and typically available for trading",
+        "explanatoryNote": "The number of outstanding shares is used in calculating key metrics such as a company's market capitalization, as well as its earnings per share (EPS) and cash flow per share (CFPS)."
+    },
+    {
+        "id": "PartiallyPaidShareStatus",
+        "type": "NamedIndividual",
+        "name": "PartiallyPaidShareStatus",
+        "explanatoryNote": "In the case of partially paid shares, the shareholder is still required to pay the remaining amount to the company. Typically, partially paid shares are only issued to a shareholder if there are compelling business reasons to do so.",
+        "definition": "status indicating that only a portion of the market value has been received by the company for the shares",
+        "label": "partially paid share status"
+    },
+    {
+        "id": "hasTreasuryShares",
+        "type": "DatatypeProperty",
+        "name": "hasTreasuryShares",
+        "definition": "indicates the number of shares issued but not outstanding, including those that were available in the market at one time but have been repurchased by the company",
+        "label": "has treasury shares"
+    },
+    {
+        "id": "hasMinimumRedemptionPrice",
+        "type": "ObjectProperty",
+        "name": "hasMinimumRedemptionPrice",
+        "label": "has minimum redemption price",
+        "definition": "indicates the lowest market price above which a share may be redeemed"
+    },
+    {
+        "id": "DistributionByReinvestment",
+        "type": "NamedIndividual",
+        "name": "DistributionByReinvestment",
+        "definition": "distribution method involving automatic reinvestment of shareholders' dividends in additional, potentially fractional, shares in the same asset",
+        "label": "distribution by reinvestment"
+    },
+    {
+        "id": "hasAdjustableDividendRate",
+        "type": "ObjectProperty",
+        "name": "hasAdjustableDividendRate",
+        "label": "has adjustable dividend rate",
+        "definition": "indicates a variable dividend rate, typically specified in the prospectus as a formula based on a benchmark or set at auction"
+    },
+    {
+        "id": "hasRedemptionPremium",
+        "type": "ObjectProperty",
+        "name": "hasRedemptionPremium",
+        "definition": "indicates the premium price per share over the market price, if any, that must be paid in order to redeem the stock",
+        "label": "has redemption premium"
+    },
+    {
+        "id": "specifiesConversionDate",
+        "type": "ObjectProperty",
+        "name": "specifiesConversionDate",
+        "definition": "indicates the date on which, or after which, conversion may occur",
+        "label": "specifies conversion date"
+    },
+    {
+        "id": "NilPaidShareStatus",
+        "type": "NamedIndividual",
+        "name": "NilPaidShareStatus",
+        "label": "nil paid share status",
+        "definition": "status indicating that none of the market value has been received by the company for the shares"
+    },
+    {
+        "id": "isRedeemableAtShareholderOption",
+        "type": "DatatypeProperty",
+        "name": "isRedeemableAtShareholderOption",
+        "definition": "indicates whether the shareholder has the option of initiating the buy-back, similar to a put feature",
+        "label": "is redeemable at shareholder option"
+    },
+    {
+        "id": "hasSharesIssued",
+        "type": "DatatypeProperty",
+        "name": "hasSharesIssued",
+        "label": "has shares issued",
+        "definition": "indicates the actual number of shares held by shareholders (i.e., shares outstanding) and treasury shares"
+    },
+    {
+        "id": "hasEarliestRedemptionDate",
+        "type": "ObjectProperty",
+        "name": "hasEarliestRedemptionDate",
+        "label": "has earliest redemption date",
+        "definition": "indicates a date on or after which a stock can be redeemed"
+    },
+    {
+        "id": "isRedeemableAtIssuerOption",
+        "type": "DatatypeProperty",
+        "name": "isRedeemableAtIssuerOption",
+        "label": "is redeemable at issuer option",
+        "definition": "indicates whether the issuer has the option of initiating the buy-back, similar to a call feature"
+    },
+    {
+        "id": "confersOwnershipOf",
+        "type": "ObjectProperty",
+        "name": "confersOwnershipOf",
+        "definition": "grants ownership via contract",
+        "label": "confers ownership of"
+    },
+    {
+        "id": "confersNumberOfVotesPerShare",
+        "type": "DatatypeProperty",
+        "name": "confersNumberOfVotesPerShare",
+        "definition": "grants the right to vote on a per share basis to the shareholder",
+        "label": "number of votes per share",
+        "explanatoryNote": "A given share may have zero, fractional, one, or more votes per share, depending on the contract."
+    },
+    {
+        "id": "hasDividend",
+        "type": "ObjectProperty",
+        "name": "hasDividend",
+        "label": "has dividend",
+        "definition": "relates a share to a dividend that applies to that share, or that the share may pay"
+    },
+    {
+        "id": "hasVotingRestriction",
+        "type": "DatatypeProperty",
+        "name": "hasVotingRestriction",
+        "label": "has voting restriction",
+        "explanatoryNote": "Such restrictions may apply regardless of the number of votes per share.",
+        "definition": "specifies restrictions on voting rights, if any"
+    },
+    {
+        "id": "isSeniorTo",
+        "type": "ObjectProperty",
+        "name": "isSeniorTo",
+        "label": "is senior to",
+        "definition": "indicates that a given share (share class) has higher seniority than the related share, meaning that it gives the holder a higher claim on the assets of the issuer"
+    },
+    {
+        "id": "DistributionByCashPayment",
+        "type": "NamedIndividual",
+        "name": "DistributionByCashPayment",
+        "label": "distribution by payment",
+        "definition": "distribution method involving payment of cash to the shareholder"
+    },
+    {
+        "id": "hasFixedDividendRate",
+        "type": "ObjectProperty",
+        "name": "hasFixedDividendRate",
+        "label": "has fixed dividend rate",
+        "definition": "indicates a pre-arranged fixed dividend rate, typically specified in the prospectus, for a preferred share"
+    },
+    {
+        "id": "hasExtendableRedemptionDate",
+        "type": "DatatypeProperty",
+        "name": "hasExtendableRedemptionDate",
+        "definition": "indicates whether the issuer and/or holders of redeemable shares with a specified redemption date have the option to extend that date",
+        "label": "has extendable redemption date"
+    },
+    {
+        "id": "hasShareClass",
+        "type": "DatatypeProperty",
+        "name": "hasShareClass",
+        "label": "has share class",
+        "explanatoryNote": "Classes of shares, including shares in a mutual fund, are designated by name or a character (letter), such as A, B, C, etc. In the case of a mutual fund, different classes of shares may incur different fees and expenses.",
+        "definition": "indicates the class to which the share belongs, typically differentiated by privileges, such as voting rights"
+    },
+    {
+        "id": "indicatesNumberOfShares",
+        "type": "DatatypeProperty",
+        "name": "indicatesNumberOfShares",
+        "label": "indicates number of shares",
+        "definition": "indicates the number of shares associated with the position"
+    },
+    {
+        "id": "hasFloatingShares",
+        "type": "DatatypeProperty",
+        "name": "hasFloatingShares",
+        "definition": "indicates the number of shares that are available for trading, i.e., the number of shares outstanding less closely held shares (those held by insiders) and restricted shares",
+        "explanatoryNote": "A relatively small float results in higher volatility, as a large purchase or sell order will have significant influence on the value of the stock.",
+        "label": "has floating shares"
+    },
+    {
+        "id": "hasDividendGracePeriod",
+        "type": "ObjectProperty",
+        "name": "hasDividendGracePeriod",
+        "label": "has dividend grace period",
+        "definition": "indicates a period of time after a dividend payment becomes due, before the issuer is subject to penalties"
+    },
+    {
+        "id": "hasDistributionMethod",
+        "type": "ObjectProperty",
+        "name": "hasDistributionMethod",
+        "label": "has distribution method",
+        "definition": "indicates the method by which dividend payments are to be distributed"
+    },
+    {
+        "id": "hasAvailableShares",
+        "type": "DatatypeProperty",
+        "name": "hasAvailableShares",
+        "label": "has available shares",
+        "definition": "indicates the number of shares outstanding less those shares that are restricted, i.e., those that are available for trading"
+    },
+    {
+        "id": "hasSharePaymentStatus",
+        "type": "ObjectProperty",
+        "name": "hasSharePaymentStatus",
+        "definition": "indicates the payment status for shares issued",
+        "label": "has share payment status"
+    },
+    {
+        "id": "FullyPaidShareStatus",
+        "type": "NamedIndividual",
+        "name": "FullyPaidShareStatus",
+        "label": "fully paid share status",
+        "definition": "status indicating that no additional money is owed to the company by shareholders on the value of the shares"
+    },
+    {
+        "id": "hasExtendableMaturityDate",
+        "type": "DatatypeProperty",
+        "name": "hasExtendableMaturityDate",
+        "label": "has extendable maturity date",
+        "definition": "indicates whether the issuer and/or holders of redeemable shares with a fixed maturity date have the option to extend the maturity date"
+    }
+]

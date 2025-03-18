@@ -1,0 +1,333 @@
+[
+    {
+        "id": "LedgerEntry",
+        "type": "Class",
+        "name": "LedgerEntry",
+        "label": "ledger entry"
+    },
+    {
+        "id": "RegistryEntry",
+        "type": "Entity",
+        "name": "RegistryEntry"
+    },
+    {
+        "id": "DatedCollectionConstituent",
+        "type": "Entity",
+        "name": "DatedCollectionConstituent"
+    },
+    {
+        "id": "EconomicTransaction",
+        "type": "Class",
+        "name": "EconomicTransaction",
+        "definition": "Some exchange of some items of economic value between two parties (economic agents).",
+        "label": "economic transaction"
+    },
+    {
+        "id": "EconomicContract",
+        "type": "Class",
+        "name": "EconomicContract",
+        "label": "economic contract",
+        "definition": "A contract relating to and governing an economic transaction between two parties."
+    },
+    {
+        "id": "MutualContractualAgreement",
+        "type": "Entity",
+        "name": "MutualContractualAgreement"
+    },
+    {
+        "id": "DischargingEvent",
+        "type": "Class",
+        "name": "DischargingEvent",
+        "label": "discharging event"
+    },
+    {
+        "id": "TransactionBusinessEvent",
+        "type": "Class",
+        "name": "TransactionBusinessEvent",
+        "definition": "Occurrence in time that partners to a business transaction wish to monitor or control.",
+        "label": "transaction business event"
+    },
+    {
+        "id": "TransactionEvent",
+        "type": "Class",
+        "name": "TransactionEvent",
+        "definition": "The event component of a transaction",
+        "explanatoryNote": "This describes an event. The event may be delivery of something or settlement of monies in payment for something delivered. A Transaction Event will have terms describing the commitment embodied in that side of that transaction.",
+        "label": "transaction event"
+    },
+    {
+        "id": "TransactionEventAspect",
+        "type": "Class",
+        "name": "TransactionEventAspect",
+        "definition": "A transaction side as seen from the perspective of one of the parties to the transaction.",
+        "label": "transaction event aspect",
+        "explanatoryNote": "This describes one side of one transaction event. The event may be delivery of something or settlement of monies in payment for something delivered. A Transaction Event Side shows that side of that transaction from the perspective of one or other party."
+    },
+    {
+        "id": "UndertakingEvent",
+        "type": "Class",
+        "name": "UndertakingEvent",
+        "label": "undertaking event",
+        "definition": "Something which occurs at a point in time, at which a party makes some commitment to some other party."
+    },
+    {
+        "id": "Undertaking",
+        "type": "Class",
+        "name": "Undertaking",
+        "label": "undertaking",
+        "definition": "Some undertaking to act.",
+        "explanatoryNote": "This could be an undertaking to deliver something, to do something and so on. These correspond to negative and positive pledges in the contract."
+    },
+    {
+        "id": "EconomicCommitment",
+        "type": "Class",
+        "name": "EconomicCommitment",
+        "label": "economic commitment",
+        "definition": "Some Commitment which forms part of the subject of some Transaction, being an undertaking by one or other of the parties to the transaction, extended to the other party to that same transaction."
+    },
+    {
+        "id": "MutualCommitment",
+        "type": "Entity",
+        "name": "MutualCommitment"
+    },
+    {
+        "id": "ContractualEconomicAgreement",
+        "type": "Class",
+        "name": "ContractualEconomicAgreement",
+        "definition": "An economic agreement forming part of a transaction, which has contractual standing as evidenced by a contract between the two parties to the Agreement.",
+        "label": "contractual economic agreement",
+        "explanatoryNote": "The REA Economic Agreement may or may not be between two distinct legal persons, as the REA scope includes transactions within organizations. For REA based transaction models which are between separate legal entities or persons, the form of agreement in force is this Contractual Economic Agreement, that is the agreement, backed by a written or implied contract, which is in force between the parties to this agreement."
+    },
+    {
+        "id": "EconomicAgreement",
+        "type": "Class",
+        "name": "EconomicAgreement",
+        "label": "economic agreement"
+    },
+    {
+        "id": "Contract",
+        "type": "Entity",
+        "name": "Contract"
+    },
+    {
+        "id": "TransactionParty",
+        "type": "Class",
+        "name": "TransactionParty",
+        "definition": "Some entity which takes part in some transaction by receiving and/or parting with some item of economic value or some payment or both.",
+        "label": "transaction party"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "CoveredTransaction",
+        "type": "Class",
+        "name": "CoveredTransaction",
+        "definition": "A transaction covered by some Master Agreement.",
+        "explanatoryNote": "The Master Agreement sets out the terms and conditions under which these transactions are to take place between the parties. These are Over the Counter transactions, including OTC Derivatives.",
+        "label": "covered transaction"
+    },
+    {
+        "id": "ContractualTransaction",
+        "type": "Class",
+        "name": "ContractualTransaction",
+        "definition": "An economic transaction which has some contractual basis.",
+        "explanatoryNote": "This is distinct from a transaction between business units within an enterprise. This is the usual sense of \"Transaction\" and forms the basis for all securities and derivatives transactions, while the parent term \"Economic Transaction\" may also be used to define internal transactions and transactions that have no legal or contractual basis.",
+        "label": "contractual transaction"
+    },
+    {
+        "id": "TransactionUndertaking",
+        "type": "Class",
+        "name": "TransactionUndertaking",
+        "definition": "A contractually defined and established commitment to deliver some goods, perform some service or make some payment in cash or in kind.",
+        "label": "transaction undertaking"
+    },
+    {
+        "id": "EconomicResource",
+        "type": "Class",
+        "name": "EconomicResource",
+        "label": "economic resource",
+        "definition": "Anything that can bought sold or exchanged."
+    },
+    {
+        "id": "EconomicContractTermsSet",
+        "type": "Class",
+        "name": "EconomicContractTermsSet",
+        "label": "economic contract commitment",
+        "definition": "Terms underlying the contract for a transaction."
+    },
+    {
+        "id": "ContractualCommitment",
+        "type": "Entity",
+        "name": "ContractualCommitment"
+    },
+    {
+        "id": "ContractualTransactionParty",
+        "type": "Class",
+        "name": "ContractualTransactionParty",
+        "definition": "That which is party to a transaction which has contractual standing.",
+        "label": "contractual transaction party",
+        "explanatoryNote": "In REA, transactions may include those which are not between legal entities,such as for example internal transactions within a business and between business units. This term Contractual Transaction Party forms the basis for all party definitions for transactions which have some formal contractual basis as being between discrete legal entities (legal persons or other contractually capable entities e.g. non incorporated entities). This is the basis for all derivatives transactions, securities market transactions and so on."
+    },
+    {
+        "id": "ContractParty",
+        "type": "Entity",
+        "name": "ContractParty"
+    },
+    {
+        "id": "Revaluation",
+        "type": "Class",
+        "name": "Revaluation",
+        "label": "revaluation"
+    },
+    {
+        "id": "REAClaim",
+        "type": "Class",
+        "name": "REAClaim",
+        "definition": "Some imbalance, at a given point in time, between the respective rights and obligations of two parties with respect to one another.",
+        "label": "r e a claim"
+    },
+    {
+        "id": "hasPerspective",
+        "type": "ObjectProperty",
+        "name": "hasPerspective",
+        "label": "has perspective"
+    },
+    {
+        "id": "bestows",
+        "type": "ObjectProperty",
+        "name": "bestows",
+        "label": "bestows"
+    },
+    {
+        "id": "givesRiseTo",
+        "type": "ObjectProperty",
+        "name": "givesRiseTo",
+        "label": "gives rise to"
+    },
+    {
+        "id": "transactsWith",
+        "type": "ObjectProperty",
+        "name": "transactsWith",
+        "label": "transacts with"
+    },
+    {
+        "id": "hasCorrespondingAlternativeAspect",
+        "type": "ObjectProperty",
+        "name": "hasCorrespondingAlternativeAspect",
+        "label": "has corresponding alternative aspect"
+    },
+    {
+        "id": "transactedUnder",
+        "type": "ObjectProperty",
+        "name": "transactedUnder",
+        "label": "transacted under"
+    },
+    {
+        "id": "isMadeAsPartOf",
+        "type": "ObjectProperty",
+        "name": "isMadeAsPartOf",
+        "label": "is made as part of"
+    },
+    {
+        "id": "isImbalanceIn",
+        "type": "ObjectProperty",
+        "name": "isImbalanceIn",
+        "label": "is imbalance in",
+        "definition": "The imbalance in Obligations or Rights (depending on the viewpoint from which it is described) between one party and another."
+    },
+    {
+        "id": "transactionEventFollowsBusinessProcess",
+        "type": "ObjectProperty",
+        "name": "transactionEventFollowsBusinessProcess",
+        "label": "transaction event follows business process"
+    },
+    {
+        "id": "setsOutContractualEconomicCommitment",
+        "type": "ObjectProperty",
+        "name": "setsOutContractualEconomicCommitment",
+        "definition": "The economic commitment set out in the terms to the contract which formalizes the agreement to the transaction.",
+        "label": "sets out contractual economic commitment"
+    },
+    {
+        "id": "hasStart",
+        "type": "ObjectProperty",
+        "name": "hasStart",
+        "label": "has start"
+    },
+    {
+        "id": "takesMaterialForm",
+        "type": "ObjectProperty",
+        "name": "takesMaterialForm",
+        "definition": "The material form of the Economic Resource; that is the thing which is recognized as being an Economic Resource as defined here, Editorial Note: This would usually be some Independent Thing. However it is conceivable that the existence of some relative thing, for example an asset, may itself be regarded and defined as a resource, over and above the role or context already defined for it. Therefore this identity relationship has a range of Thing, but is modeled as a sub property of \"identity\" to make this conclusion explicit. Editorial Note: This is a relationship with the sense that some relative thing takes the form of something, but is distinct from the similar concept as applied to Asset, in which the thing which takes the form of some asset is owned by someone. Here it is a resource, irrespective of whether or by whom it is owned. Labeled as \"takes material form\" to disambiguate these two relationships.",
+        "label": "takes material form"
+    },
+    {
+        "id": "madeBy",
+        "type": "ObjectProperty",
+        "name": "madeBy",
+        "label": "made by"
+    },
+    {
+        "id": "definedInContextOf",
+        "type": "ObjectProperty",
+        "name": "definedInContextOf",
+        "label": "defined in context of"
+    },
+    {
+        "id": "terminates",
+        "type": "ObjectProperty",
+        "name": "terminates",
+        "label": "terminates"
+    },
+    {
+        "id": "hasTransactionParty",
+        "type": "ObjectProperty",
+        "name": "hasTransactionParty",
+        "label": "has transaction party"
+    },
+    {
+        "id": "subject",
+        "type": "ObjectProperty",
+        "name": "subject",
+        "label": "subject"
+    },
+    {
+        "id": "isUndertakingTo",
+        "type": "ObjectProperty",
+        "name": "isUndertakingTo",
+        "label": "is undertaking to"
+    },
+    {
+        "id": "transactionEmbodiesEconomicAgreement",
+        "type": "ObjectProperty",
+        "name": "transactionEmbodiesEconomicAgreement",
+        "label": "transaction embodies economic agreement"
+    },
+    {
+        "id": "hasCorresponding",
+        "type": "ObjectProperty",
+        "name": "hasCorresponding",
+        "label": "has corresponding"
+    },
+    {
+        "id": "hasEnd",
+        "type": "ObjectProperty",
+        "name": "hasEnd",
+        "label": "has end"
+    },
+    {
+        "id": "hasTransactionComponent",
+        "type": "ObjectProperty",
+        "name": "hasTransactionComponent",
+        "label": "has transaction component"
+    },
+    {
+        "id": "triggers",
+        "type": "ObjectProperty",
+        "name": "triggers",
+        "label": "triggers"
+    }
+]

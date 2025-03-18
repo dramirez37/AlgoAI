@@ -1,0 +1,81 @@
+[
+    {
+        "id": "IndustrialProductsSector",
+        "type": "Class",
+        "name": "IndustrialProductsSector",
+        "definition": "a classifier for a sector of the economy used for price indices focused on major commodities sold by manufacturers in Canada",
+        "label": "industrial products sector"
+    },
+    {
+        "id": "IndustrySectorClassifier",
+        "type": "Entity",
+        "name": "IndustrySectorClassifier"
+    },
+    {
+        "id": "CanadianHouseholdsConsumersUniverse",
+        "type": "Class",
+        "name": "CanadianHouseholdsConsumersUniverse",
+        "definition": "a statistical universe consisting of all private households in Canada, with the exception of soldiers on military bases, people living on First Nations reserves, institutionalized persons, and households living in the rural areas of the three northern territories",
+        "label": "Canadian households consumers universe"
+    },
+    {
+        "id": "CivilianNonInstitutionalPopulation",
+        "type": "Entity",
+        "name": "CivilianNonInstitutionalPopulation"
+    },
+    {
+        "id": "CanadianConsumerPriceIndex",
+        "type": "Class",
+        "name": "CanadianConsumerPriceIndex",
+        "label": "Canadian consumer price index",
+        "definition": "economic indicator representing a measure of changes over time in the prices of a fixed basket of consumer goods and services that Canadian private households consume",
+        "abbreviation": "CPI"
+    },
+    {
+        "id": "ConsumerPriceIndex",
+        "type": "Entity",
+        "name": "ConsumerPriceIndex"
+    },
+    {
+        "id": "CanadianProducerPriceIndex",
+        "type": "Class",
+        "name": "CanadianProducerPriceIndex",
+        "explanatoryNote": "Note that Canada does not produce a high level, cross industry PPI per se. Canadian PPIs are published by industry sector. Three of the most important are captured in the union defined herein, which may be expanded over time to integrate others, as needed.",
+        "label": "Canadian producer price index",
+        "definition": "an economic indicator representing a measure of the change over time in the prices of a fixed-basket of domestic producer goods and services"
+    },
+    {
+        "id": "ProducerPriceIndex",
+        "type": "Entity",
+        "name": "ProducerPriceIndex"
+    },
+    {
+        "id": "RawMaterialsSector",
+        "type": "Class",
+        "name": "RawMaterialsSector",
+        "label": "raw materials sector",
+        "definition": "a classifier used for price indices related to raw materials purchased by industries in Canada for further processing"
+    },
+    {
+        "id": "NewHousingSector",
+        "type": "Class",
+        "name": "NewHousingSector",
+        "definition": "a classifier for a sector of the economy used for price indices focused on contractors' selling prices of new residential houses, where detailed specifications pertaining to each house remain the same between two consecutive periods",
+        "label": "new housing sector"
+    },
+    {
+        "id": "StatisticsCanada",
+        "type": "GovernmentAgency",
+        "name": "StatisticsCanada",
+        "abbreviation": "StatCan",
+        "label": "Statistique Canada",
+        "definition": "individual representing Statistics Canada, a government agency mandated to collect, compile, analyse, abstract and publish statistical information relating to the commercial, industrial, financial, social, economic and general activities and condition of the people of Canada"
+    },
+    {
+        "id": "CanadianStatisticsPublisher",
+        "type": "StatisticalInformationPublisher",
+        "name": "CanadianStatisticsPublisher",
+        "definition": "individual representing the functional entity that is the primary publisher of statistical information for the Canadian Government",
+        "label": "Canadian statistics publisher"
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "source_id": "Calculation",
+        "target_id": "CalculationEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "CalculationEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "Calculation",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ScheduleStub",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOccurrence",
+                "Occurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "ScheduleStub",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "OccurrenceKind"
+            ]
+        }
+    },
+    {
+        "source_id": "CalculationEvent",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CalculationEvent",
+        "target_id": "Calculation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "Calculation"
+            ]
+        }
+    },
+    {
+        "source_id": "Occurrence",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "OccurrenceKind"
+            ]
+        }
+    },
+    {
+        "source_id": "Occurrence",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "OccurrenceKind"
+            ]
+        }
+    },
+    {
+        "source_id": "OccurrenceBasedDate",
+        "target_id": "CalculatedDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OccurrenceBasedDate",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isTriggeredBy",
+                "OccurrenceKind"
+            ]
+        }
+    },
+    {
+        "source_id": "AdHocScheduleEntry",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOccurrence",
+                "Occurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "OccurrenceKind",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "Occurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "OccurrenceKind",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegularSchedule",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOccurrence",
+                "Occurrence"
+            ]
+        }
+    },
+    {
+        "source_id": "RegularSchedule",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "OccurrenceKind"
+            ]
+        }
+    }
+]

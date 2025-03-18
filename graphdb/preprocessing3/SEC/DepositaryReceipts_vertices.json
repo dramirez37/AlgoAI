@@ -1,0 +1,214 @@
+[
+    {
+        "id": "AmericanDepositaryReceipt",
+        "type": "Class",
+        "name": "AmericanDepositaryReceipt",
+        "label": "American depositary receipt",
+        "explanatoryNote": "Most ADRs are issued by a domestic custodian bank when the underlying securities are deposited in a foreign depositary bank, usually by a broker who has purchased the securities in the open market local to the foreign company. An ADR can represent a fraction of a share, a single share, or multiple shares of a foreign security. The holder of an ADR has the right to obtain the underlying foreign security that the ADR represents, but investors usually find it more convenient to own the ADR. The price of an ADR generally tracks the price of the foreign security in its home market, adjusted for the ratio of ADRs to foreign company shares. In the case of companies domiciled in the United Kingdom, creation of ADRs attracts a 1.5 percent creation fee; this creation fee is different than stamp duty reserve tax charge by the UK government. Depositary banks have various responsibilities to ADR holders and to the issuing foreign company the ADR represents.",
+        "abbreviation": "ADR",
+        "definition": "depositary receipt that represents securities of a foreign company and allows that company's securities to trade in the U.S. financial markets"
+    },
+    {
+        "id": "DepositaryReceipt",
+        "type": "Class",
+        "name": "DepositaryReceipt",
+        "label": "depositary receipt",
+        "definition": "negotiable financial instrument issued by a trust company, security depositary, or bank that is evidence of the deposit of publicly traded securities and that facilitates the ownership of securities traded in other jurisdictions",
+        "explanatoryNote": "Depositary receipts are widely used in order to allow the trading of securities in jurisdictions other than\nthe one where the original securities were issued, such as in a local market. Depositary receipts facilitate buying securities in foreign companies, because the securities do not have to leave the home country. They enable domestic investors to buy securities of foreign companies without the accompanying risks or inconveniences of cross-border and cross-currency transactions.",
+        "abbreviation": "DR"
+    },
+    {
+        "id": "PrivatelyPlacedDepositaryReceipt",
+        "type": "Class",
+        "name": "PrivatelyPlacedDepositaryReceipt",
+        "explanatoryNote": "Some foreign companies will set up an ADR program under SEC Rule 144-A. This provision makes the issuance of shares a private placement. Shares of companies registered under Rule 144-A are restricted stock and may only be issued to or traded by qualified institutional buyers (QIBs). U.S. public shareholders are generally not permitted to invest in these ADR programs, and most are held exclusively through the Depository Trust & Clearing Corporation, so there is often very little information on these companies.",
+        "definition": "depositary receipt that represents shares in a private placement under the SEC Rule 144-A",
+        "label": "privately placed depositary receipt"
+    },
+    {
+        "id": "SponsoredDepositaryReceipt",
+        "type": "Class",
+        "name": "SponsoredDepositaryReceipt",
+        "label": "sponsored depositary receipt",
+        "definition": "depositary receipt that is issued in collaboration with the foreign company enabling them to tap into international capital markets directly",
+        "explanatoryNote": "Although a sponsored ADR would be listed in the United States, the issuing company still has its revenue and profit denominated in its home currency."
+    },
+    {
+        "id": "IndianDepositoryReceipt",
+        "type": "Class",
+        "name": "IndianDepositoryReceipt",
+        "definition": "global depositary receipt that represents the purchase, or ownership, of foreign assets which are deposited in a Indian account managed by the Domestic Depository in India",
+        "label": "Indian depositary receipt",
+        "abbreviation": "IDR",
+        "explanatoryNote": "An Indian Depository Receipt (IDR) is an instrument denominated in Indian Rupees in the form of a depositary receipt created by a Domestic Depository (custodian of securities registered with the Securities and Exchange Board of India) against the underlying securities of issuing company to enable foreign companies to raise funds from the Indian securities Markets."
+    },
+    {
+        "id": "GlobalDepositaryReceipt",
+        "type": "Class",
+        "name": "GlobalDepositaryReceipt",
+        "abbreviation": "GDR",
+        "label": "global depositary receipt",
+        "definition": "depositary receipt where a certificate issued by a depositary bank, which purchases securities of foreign companies, creates a security on a local exchange backed by those securities",
+        "explanatoryNote": "Global depositary receipts are the global equivalent of the original American depositary receipts (ADR) on which they are based. GDRs represent ownership of an underlying number of securities of a foreign company and are commonly used to invest in companies from developing or emerging markets by investors in developed markets."
+    },
+    {
+        "id": "AmericanDepositaryReceiptLevelScheme",
+        "type": "Class",
+        "name": "AmericanDepositaryReceiptLevelScheme",
+        "definition": "classifier for American depositary receipts that categorizes ADRs into levels based on the extent to which the foreign company has access to the U.S. market",
+        "label": "American depositary receipt level scheme",
+        "abbreviation": "ADR level"
+    },
+    {
+        "id": "FinancialInstrumentClassificationScheme",
+        "type": "Entity",
+        "name": "FinancialInstrumentClassificationScheme"
+    },
+    {
+        "id": "Security",
+        "type": "Entity",
+        "name": "Security"
+    },
+    {
+        "id": "LuxembourgDepositaryReceipt",
+        "type": "Class",
+        "name": "LuxembourgDepositaryReceipt",
+        "explanatoryNote": "A Luxembourg Depositary Receipt (LDR) is a certificate which represents the purchase, or ownership, of foreign assets which are deposited in a Luxembourg-based account. An LDR functions in much the same way as a global depositary receipt (GDR). LDRs may represent ownership of either an underlying number of shares or a notional amount of bonds.",
+        "abbreviation": "LDR",
+        "label": "Luxembourg depositary receipt",
+        "definition": "global depositary receipt that represents the purchase, or ownership, of foreign assets which are deposited in a Luxembourg-based account"
+    },
+    {
+        "id": "ChineseDepositaryReceipt",
+        "type": "Class",
+        "name": "ChineseDepositaryReceipt",
+        "label": "Chinese depositary receipt",
+        "explanatoryNote": "It refers to shares in non-Chinese companies that trade in China the same way that American depositary receipts (ADRs) allow non-U.S. company shares to trade on American exchanges.",
+        "abbreviation": "CDR",
+        "definition": "global depositary receipt that represents ownership in the securities of a non-Chinese company that trades on a public exchange in China"
+    },
+    {
+        "id": "AmericanDepositaryReceiptLevel",
+        "type": "Class",
+        "name": "AmericanDepositaryReceiptLevel",
+        "label": "American depositary receipt level",
+        "abbreviation": "ADR level",
+        "definition": "classifier for American depositary receipts that categorizes ADRs into levels based on the extent to which the foreign company has access to the U.S. market"
+    },
+    {
+        "id": "FinancialInstrumentClassifier",
+        "type": "Entity",
+        "name": "FinancialInstrumentClassifier"
+    },
+    {
+        "id": "JapaneseDepositaryReceipt",
+        "type": "Class",
+        "name": "JapaneseDepositaryReceipt",
+        "label": "Japanese depositary receipt",
+        "definition": "global depositary receipt that represents the purchase, or ownership, of foreign assets which are deposited in a trust bank in Japan",
+        "abbreviation": "JDR",
+        "explanatoryNote": "A Japanese Depositary Receipt (JDR) is an instrument issued by a trust bank in Japan that evidences ownership of securities in a corporation organized outside Japan. JDRs trade on the Tokyo Stock Exchange (TSE) in yen, and in accordance with Japanese market conventions, enabling foreign issuers to tap the Japanese capital market and local investors to efficiently invest in quality international companies."
+    },
+    {
+        "id": "OffshoreDepositaryReceipt",
+        "type": "Class",
+        "name": "OffshoreDepositaryReceipt",
+        "explanatoryNote": "This regulation means that the securities are not, and will not be registered with any U.S. securities regulation authority. Regulation S shares cannot be held or traded by any 'U.S. person' as defined by SEC Regulation S rules. The shares are registered and issued to offshore, non-U.S. residents.",
+        "label": "offshore depositary receipt",
+        "definition": "depositary receipt issued under SEC Regulation S"
+    },
+    {
+        "id": "ParticipatoryNote",
+        "type": "Class",
+        "name": "ParticipatoryNote",
+        "abbreviation": "P-Note",
+        "definition": "tradable debt instrument that facilitates the ownership of securities traded in other jurisdictions",
+        "explanatoryNote": "Depository receipts are widely used in order to allow the trading of debt instruments in\njurisdictions other than the one where the original debt instruments were issued",
+        "label": "participatory note"
+    },
+    {
+        "id": "TradableDebtInstrument",
+        "type": "Entity",
+        "name": "TradableDebtInstrument"
+    },
+    {
+        "id": "EuropeanDepositaryReceipt",
+        "type": "Class",
+        "name": "EuropeanDepositaryReceipt",
+        "abbreviation": "EDR",
+        "explanatoryNote": "A European depositary receipt is a European equivalent of the original American depositary receipt (ADR). The EDR is issued by a bank in Europe representing securities traded on an exchange outside of the bank's home country.",
+        "label": "European depositary receipt",
+        "definition": "global depositary receipt that represents ownership in the securities of a non-European company that trades in European financial markets"
+    },
+    {
+        "id": "UnsponsoredDepositaryReceipt",
+        "type": "Class",
+        "name": "UnsponsoredDepositaryReceipt",
+        "label": "unsponsored depositary receipt",
+        "definition": "depositary receipt that is established without the company's cooperation",
+        "explanatoryNote": "For an unsponsored ADR, a depositary entity can issue certificates when there's heavy demand from investors for ownership in a specific company from abroad. The issuing entity is normally a broker-dealer that owns common stock in the company. Because they're issued without the consent or cooperation of the foreign company, unsponsored ADRs generally trade over-the-counter (OTC)\u2014rather than on a stock exchange. Also, shareholder benefits and voting rights may not be extended to the holders of these particular securities. Many large global corporations use unsponsored ADRs to attract American capital. For example, American investors can invest in Royal Mail PLC, a postal and delivery service company from the United Kingdom that was founded by Henry VIII. The company's unsponsored ADR trades OTC under the ticker symbol ROYMY."
+    },
+    {
+        "id": "HongKongDepositaryReceipt",
+        "type": "Class",
+        "name": "HongKongDepositaryReceipt",
+        "abbreviation": "HKDR",
+        "explanatoryNote": "A Hong Kong Depositary Receipt (HDR) is a negotiable instrument issued by a depositary bank that evidences ownership of securities in a corporation organized outside Hong Kong. HDRs trade on the Hong Kong Stock Exchange (HKEx), thus enabling foreign issuers to tap the Hong Kong market and local investors to efficiently invest in quality international companies.",
+        "definition": "global depositary receipt that represents the purchase, or ownership, of foreign assets which are deposited in a depositary bank in Hong Kong",
+        "label": "Hong Kong depositary receipt"
+    },
+    {
+        "id": "hasTradedSecurity",
+        "type": "ObjectProperty",
+        "name": "hasTradedSecurity",
+        "definition": "links a depositary receipt to the instrument that it represents",
+        "label": "has traded security"
+    },
+    {
+        "id": "LevelIAmericanDepositaryReceipt",
+        "type": "AmericanDepositaryReceiptLevel",
+        "name": "LevelIAmericanDepositaryReceipt",
+        "label": "Level I American depositary receipt",
+        "abbreviation": "Level I ADR",
+        "explanatoryNote": "This level can apply to sponsored and unsponsored ADRs. However, this is the only level available for unsponsored ADRs. A Level I ADR is easier to set up for foreign companies since it does not require the same disclosures or the need to abide by generally accepted accounting principles (GAAP). There is some degree of risk with Level I ADRs given their relative lack of transparency.",
+        "definition": "American Depositary Receipt level indicating that the ADR can only be traded over-the-counter in the U.S."
+    },
+    {
+        "id": "hasTradedShare",
+        "type": "ObjectProperty",
+        "name": "hasTradedShare",
+        "definition": "links a depositary receipt to the instrument (equity or exchange-traded fund) that it represents",
+        "label": "has traded share"
+    },
+    {
+        "id": "hasNumberOfDepositaryReceiptsIssued",
+        "type": "DatatypeProperty",
+        "name": "hasNumberOfDepositaryReceiptsIssued",
+        "definition": "indicates the number of receipts issued to the general public",
+        "label": "has number of depositary receipts issued"
+    },
+    {
+        "id": "LevelIIAmericanDepositaryReceipt",
+        "type": "NamedIndividual",
+        "name": "LevelIIAmericanDepositaryReceipt",
+        "definition": "American Depositary Receipt level that is sponsored and can be listed on an exchange",
+        "label": "Level II American depositary receipt",
+        "explanatoryNote": "This level is visible to a wider market and requires the company to comply with the SEC regulatory rules. However, they cannot be used to raise capital.",
+        "abbreviation": "Level II ADR"
+    },
+    {
+        "id": "LevelIIIAmericanDepositaryReceipt",
+        "type": "AmericanDepositaryReceiptLevel",
+        "name": "LevelIIIAmericanDepositaryReceipt",
+        "label": "Level III American depositary receipt",
+        "abbreviation": "Level III ADR",
+        "definition": "American Depositary Receipt level that can be listed on an exchange and permit companies to issue shares to raise capital for the foreign issuer, but require the highest level of compliance and disclosure"
+    },
+    {
+        "id": "hasMultiplier",
+        "type": "DatatypeProperty",
+        "name": "hasMultiplier",
+        "definition": "indicates the number of underlying shares (whether multiple or fractional) represented by a single depositary receipt",
+        "label": "has multiplier"
+    }
+]

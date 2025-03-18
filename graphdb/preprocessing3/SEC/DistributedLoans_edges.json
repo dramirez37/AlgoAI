@@ -1,0 +1,113 @@
+[
+    {
+        "source_id": "LoanParticipationNote",
+        "target_id": "LeadArranger",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasActor",
+                "LeadArranger"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanParticipationNote",
+        "target_id": "CommercialLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanParticipationNote",
+        "target_id": "FixedIncomeSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanParticipationNote",
+        "target_id": "CreditFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Bookrunner",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinanceSyndicateMember",
+        "target_id": "FinanceSyndicate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isMemberOf",
+                "FinanceSyndicate"
+            ]
+        }
+    },
+    {
+        "source_id": "FinanceSyndicateMember",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinanceSyndicateMember",
+        "target_id": "SyndicateMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DocumentationAgent",
+        "target_id": "SyndicateMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AdministrativeAgent",
+        "target_id": "SyndicateMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyndicationAgent",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinanceSyndicate",
+        "target_id": "Syndicate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyndicatedLoan",
+        "target_id": "CommercialLoan",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SyndicatedLoan",
+        "target_id": "CreditFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LeadArranger",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

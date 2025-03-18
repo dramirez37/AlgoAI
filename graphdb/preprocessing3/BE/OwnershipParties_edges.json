@@ -1,0 +1,158 @@
+[
+    {
+        "source_id": "ControllingEquity",
+        "target_id": "ShareholdersEquity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Investor",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Investor",
+        "target_id": "InvestmentEquity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "holds",
+                "InvestmentEquity"
+            ]
+        }
+    },
+    {
+        "source_id": "Investor",
+        "target_id": "EntityOwner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConstitutionalOwner",
+        "target_id": "ShareholdersEquity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "holds",
+                "ShareholdersEquity"
+            ]
+        }
+    },
+    {
+        "source_id": "ConstitutionalOwner",
+        "target_id": "EntityOwner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestorContract",
+        "target_id": "InvestmentEquity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "definesTermsFor",
+                "InvestmentEquity"
+            ]
+        }
+    },
+    {
+        "source_id": "InvestorContract",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RelationshipRecord",
+        "target_id": "EntityOwnership",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "records",
+                "EntityOwnership"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityOwner",
+        "target_id": "Owner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EntityOwner",
+        "target_id": "OwnersEquity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "holds",
+                "OwnersEquity"
+            ]
+        }
+    },
+    {
+        "source_id": "UltimateConsolidation",
+        "target_id": "EntityOwnership",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EntityOwnership",
+        "target_id": "Ownership",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentEquity",
+        "target_id": "Investor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isHeldBy",
+                "Investor"
+            ]
+        }
+    },
+    {
+        "source_id": "InvestmentEquity",
+        "target_id": "OwnersEquity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DirectConsolidation",
+        "target_id": "EntityOwnership",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForeignBranchOwnership",
+        "target_id": "EntityOwnership",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

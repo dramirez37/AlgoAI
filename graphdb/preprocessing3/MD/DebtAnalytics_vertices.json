@@ -1,0 +1,645 @@
+[
+    {
+        "id": "NativeYield",
+        "type": "Class",
+        "name": "NativeYield",
+        "definition": "The yield of the security as determined using the Yield Calculation Method that is the default for the market that the security is traded in.",
+        "label": "native yield",
+        "explanatoryNote": "conventional yield for that security type and geo location, ie. would be in relation too"
+    },
+    {
+        "id": "RelativelyDefinedDebtInstrumentYield",
+        "type": "Class",
+        "name": "RelativelyDefinedDebtInstrumentYield",
+        "label": "relatively defined debt instrument yield"
+    },
+    {
+        "id": "OptionAdjustedYield",
+        "type": "Class",
+        "name": "OptionAdjustedYield",
+        "definition": "NB specified as a spread. synonym: OAS Based on different Int Rate paths. There are different OAS models just like there are different Yield methods. Also would make reference to the Yield Curve - but these are parameters that go into that model. Limit this model at the point where it distinguishes the difference between things - we are not in a position to mathematically model the things themselves, just capture the basic facts.",
+        "label": "option adjusted yield"
+    },
+    {
+        "id": "DebtInstrumentYield",
+        "type": "Class",
+        "name": "DebtInstrumentYield",
+        "explanatoryNote": "Yield has a relationship to the price.",
+        "definition": "The return on the debt instrument at the stated price.",
+        "label": "debt instrument yield"
+    },
+    {
+        "id": "MaturityEquivalentPSA",
+        "type": "Class",
+        "name": "MaturityEquivalentPSA",
+        "label": "maturity equivalent p s a",
+        "definition": "Prepayment speed that results in the same average life as that computed for the Collateralized Mortgage Obligation (CMO), Asset Backed Securities (ABS) or Mortgage Backed Securities (MBS) using the Maturity Prepay Model."
+    },
+    {
+        "id": "PrepaymentSpeed",
+        "type": "Class",
+        "name": "PrepaymentSpeed"
+    },
+    {
+        "id": "PoolFactor",
+        "type": "Class",
+        "name": "PoolFactor",
+        "definition": "How much of the original pool is still outstanding. This is a number below one. Expressed as percentage.",
+        "explanatoryNote": "Would multiply the factor by the starting value of the pool. This determines how much it is paying down. Would take the form of a 10 digit decimal factor showing how much of the pool is outstanding. You get Factor information every month or so which includes the WAM figure (and the WALA and WAC). The rate can be derived from this. that would be the rate at which the pool is paying down. These all come from the issuer.",
+        "label": "pool factor"
+    },
+    {
+        "id": "Percentage",
+        "type": "Entity",
+        "name": "Percentage"
+    },
+    {
+        "id": "DebtYieldToMaturity",
+        "type": "Class",
+        "name": "DebtYieldToMaturity",
+        "definition": "The internal rate of return an investor would achieve if he or she purchased that bond at its current dirty price, and held it to maturity, assuming all coupon and principal payments are received as scheduled.",
+        "label": "debt yield to maturity"
+    },
+    {
+        "id": "NativeYieldCalculationMethod",
+        "type": "Class",
+        "name": "NativeYieldCalculationMethod",
+        "label": "native yield calculation method",
+        "definition": "The convention used in the marketplace for that security."
+    },
+    {
+        "id": "RelativeYieldCalculationMethod",
+        "type": "Class",
+        "name": "RelativeYieldCalculationMethod",
+        "label": "relative yield calculation method"
+    },
+    {
+        "id": "DebtPool",
+        "type": "Class",
+        "name": "DebtPool"
+    },
+    {
+        "id": "DurationAnalytic",
+        "type": "Class",
+        "name": "DurationAnalytic",
+        "definition": "Weighted average time to receipt of all the payments.",
+        "label": "duration analytic"
+    },
+    {
+        "id": "DebtPoolStatisticalMeasure",
+        "type": "Entity",
+        "name": "DebtPoolStatisticalMeasure"
+    },
+    {
+        "id": "LoanPrepaymentFormula",
+        "type": "Class",
+        "name": "LoanPrepaymentFormula",
+        "label": "loan prepayment formula",
+        "definition": "The formula which embodies the model for loan pool prepayment speed."
+    },
+    {
+        "id": "Formula",
+        "type": "Entity",
+        "name": "Formula"
+    },
+    {
+        "id": "PoolPaydownRate",
+        "type": "Class",
+        "name": "PoolPaydownRate",
+        "definition": "The rate at which the pool is paying down. This is based on observed factor. CPR, SMM, etc. etc. Measured differently for different kinds of security. CBO might have a prepayment rate for example if the underlying bond is callable. with a non agency mortgge dela, defualts will effect this. so for instance there is principal is no lnger inthe pool because the mortgagee defaults. With agency these are not taken out in the case of default but for non agency these mortgages are removed from the pool if and when a mortgagee defualts.",
+        "label": "pool paydown rate"
+    },
+    {
+        "id": "Ratio",
+        "type": "Entity",
+        "name": "Ratio"
+    },
+    {
+        "id": "YieldCalculationMethod",
+        "type": "Class",
+        "name": "YieldCalculationMethod",
+        "definition": "The method by which the yield is calculated. This includes a formula for calculation and a specific day count convention and compounding. You would apply this calculation method on top of the underlying terms and conditions, do for example the holiday calenders and so on, are used in these formulae. For final cash flow: Japanese yield will round down accrued interest. Add: The actual underlying math. Wall Street uses the same ICMA formula.",
+        "label": "yield calculation method"
+    },
+    {
+        "id": "OTCBondMarketPrice",
+        "type": "Class",
+        "name": "OTCBondMarketPrice",
+        "label": "o t c bond market price",
+        "definition": "The price determined for the marketplace for a bond which is traded over the counter."
+    },
+    {
+        "id": "SecurityPrice",
+        "type": "Entity",
+        "name": "SecurityPrice"
+    },
+    {
+        "id": "DebtConvexityAnalytic",
+        "type": "Class",
+        "name": "DebtConvexityAnalytic",
+        "definition": "The second derivative of a security's price with respect to its yield, divided by the security's price. A security exhibits positive convexity when its price rises more for a downward move in its yield than its price declines for an equal upward move in its yield. Further notes: A measure of the change in price for a given change in Modified Duration. This always (necessarily) refers to Modified Duration. This is used as another risk measurement. Numerator is always (a) duration - either MacCaulays or Modified. Always rate of change of (one of the) Duration against some other parameter. The other paramater can be characterised as a Yield (it may be the Price, but that has a relationship to the Yield in any case). REVIEW: Inconsistency in the above - is it always necessarily Modified Duration that is referred to, or \"any\" Duration measure (Macaulays and.or Modified)? notes 9 Dec A measure of the sensitivity of the price with reference to interest rates. This is normally determined with reference to maturity, but since there are different maturity dates, this figure gives an estimate of the equitvalent if you had a homogenous portfolio, i.e. this is an estimate based on a pure equivalent, homogenous portfolio. Convexity of instrument versus portfolio. Sees instrument in terms of the set of cashflows. The term Convexity can be applied either to a bond or to a portfolio. More notes: When you get Convexit in MD, it will tell you what Duration it is refrfering to, along with Redemption Date (logically). Also if there is Option Adjusted Yield, there is a third set of analytics. What are they? i.e. OA Convexity, Duration Yield and the rest. Conclusions: Agreed to revisit this in OTC.",
+        "label": "debt convexity analytic"
+    },
+    {
+        "id": "DatedCollectionConstituent",
+        "type": "Entity",
+        "name": "DatedCollectionConstituent"
+    },
+    {
+        "id": "TradableDebtInstrument",
+        "type": "Class",
+        "name": "TradableDebtInstrument"
+    },
+    {
+        "id": "ICMAYieldFormula",
+        "type": "Class",
+        "name": "ICMAYieldFormula",
+        "label": "i c m a yield formula",
+        "explanatoryNote": "This basic formula is used across many markets, including the US and most of Europe. While individual markets may have different flavors (French round their bonds to 5 decimals, UK Gilts have ex-div), the formula is still the same. This would be the formula used by \"Wall Street Yield\", \"US Treasury Yield\", \"Corporate Bond Yield\" etc. Notes Origin:Fidessa",
+        "definition": "The calculation method specified by ICMA (formerly ISMA) for determination of yield for fixed-rate bonds."
+    },
+    {
+        "id": "YieldCalculationFormula",
+        "type": "Class",
+        "name": "YieldCalculationFormula",
+        "label": "yield calculation formula",
+        "definition": "The formula used in determining the Yield.",
+        "explanatoryNote": "The subject of this Formula is the Yield. The formula has an expression which can be defined either in tectual terms or by further local extension of the term \"Formula Expression\" to define the parameters used."
+    },
+    {
+        "id": "DebtYieldToEquivalentLife",
+        "type": "Class",
+        "name": "DebtYieldToEquivalentLife",
+        "definition": "The yield achieved by substituting a bond's equivalent life for the issue's final maturity date.",
+        "label": "debt yield to equivalent life"
+    },
+    {
+        "id": "SimpleYieldCalculationMethod",
+        "type": "Class",
+        "name": "SimpleYieldCalculationMethod",
+        "definition": "The annual rate of return expressed as a percentage. This is the return divided by the outlay and multiplied by 100 to express the figure as a percentage.",
+        "label": "simple yield calculation method",
+        "explanatoryNote": "This is yield in its simplest sense, expressed as a percentage of return to outlay. As such, this is the same way that yield is determined for any investments, not just financial instruments or debt investments."
+    },
+    {
+        "id": "RussianYieldCalculationMethod",
+        "type": "Class",
+        "name": "RussianYieldCalculationMethod",
+        "definition": "The method used in determining Yield in the Russian markets. This is based on an effective yield with fundamentally different math. To give an example of the use of a different \"yield type\", we have Russia, which trades based on an effective yield. The price-yield math is fundamentally different. Notes Origin:Fidessa Uses a trade space and effective yield formula. MAy have same day types but different math.",
+        "label": "russian yield calculation method"
+    },
+    {
+        "id": "EquivalentYieldCalculationMethod",
+        "type": "Class",
+        "name": "EquivalentYieldCalculationMethod",
+        "label": "equivalent yield calculation method"
+    },
+    {
+        "id": "EquivalentLifeAnalytic",
+        "type": "Class",
+        "name": "EquivalentLifeAnalytic",
+        "label": "equivalent life analytic"
+    },
+    {
+        "id": "LifeAnalytic",
+        "type": "Class",
+        "name": "LifeAnalytic",
+        "label": "life analytic",
+        "definition": "Some measure of the life of a security, other than the actual time to maturity itself. This is a derived figure, based on certain parameters as appropriate to that type of instrument, to give a figure that is equivalent to and similar to the basic maturity of the instrument, for the purposes of analysing that security."
+    },
+    {
+        "id": "WallStreetYieldCalculationMethod",
+        "type": "Class",
+        "name": "WallStreetYieldCalculationMethod",
+        "definition": "No definition.Term put here from memory.",
+        "label": "wall street yield calculation method"
+    },
+    {
+        "id": "ModifiedDurationAnalytic",
+        "type": "Class",
+        "name": "ModifiedDurationAnalytic",
+        "explanatoryNote": "The higher the MD the greater the change in price for a given change in yield.",
+        "definition": "The percentage price change of a security for a given change in yield. The higher the modified duration of a security, the higher its risk. Ad/ModDuration = [duration / {1 + (IRR/M)}]; where IRR is the internal rate of return and M is the number of compounding periods per year.",
+        "label": "modified duration analytic"
+    },
+    {
+        "id": "PartialCallsEstimationModel",
+        "type": "Class",
+        "name": "PartialCallsEstimationModel",
+        "label": "partial calls estimation model",
+        "definition": "A model of how the early partial calls are estimated."
+    },
+    {
+        "id": "KeyRateDuration",
+        "type": "Class",
+        "name": "KeyRateDuration",
+        "label": "key rate duration"
+    },
+    {
+        "id": "InternallyDeterminedPriceSpread",
+        "type": "Class",
+        "name": "InternallyDeterminedPriceSpread",
+        "label": "internally determined price spread",
+        "definition": "The spread determined internally within the organisation from information available at their own trading desks. Further Notes Internal prices within a bank would be determined by surveying their own traders. So e.g. corporate desk trades these 30 bonds, get the daily spreads on those at the end of the day and calculate the price. The traders determine the pricing during the based on market movements. (this is all for OTC traded bonds, not exchange traded bonds)."
+    },
+    {
+        "id": "DebtPriceSpread",
+        "type": "Class",
+        "name": "DebtPriceSpread",
+        "label": "debt price spread",
+        "definition": "The difference between the [what?] of a security and the fair price value of a different security which is used as a point of reference. The spread is used to determine the price of the instrument. (draft definition)"
+    },
+    {
+        "id": "CurrentYieldCalculationMethod",
+        "type": "Class",
+        "name": "CurrentYieldCalculationMethod",
+        "label": "current yield calculation method",
+        "explanatoryNote": "This is a kind of yield that applies to debt instruments only as it relates to the clean price. It differs from the simple yield in that simple yield relates to the actual price paid for the bond, which on will differ from the clean price by the amount of accrued interest.",
+        "definition": "The ratio of the interest payment amount to the clean price."
+    },
+    {
+        "id": "DebtYieldToAverageLife",
+        "type": "Class",
+        "name": "DebtYieldToAverageLife",
+        "label": "debt yield to average life",
+        "definition": "The yield achieved by substituting a bond's average life for the issue's final maturity date."
+    },
+    {
+        "id": "JapaneseCompoundYieldCalculationMethod",
+        "type": "Class",
+        "name": "JapaneseCompoundYieldCalculationMethod",
+        "label": "japanese compound yield calculation method",
+        "definition": "No definition in selection list."
+    },
+    {
+        "id": "DebtYieldToWorst",
+        "type": "Class",
+        "name": "DebtYieldToWorst",
+        "definition": "Yield to the worst case of when the instrument might be called.",
+        "label": "debt yield to worst"
+    },
+    {
+        "id": "Yield",
+        "type": "Entity",
+        "name": "Yield"
+    },
+    {
+        "id": "NextPut",
+        "type": "Class",
+        "name": "NextPut",
+        "label": "next put",
+        "definition": "The next available put date for the issue, as at the current time."
+    },
+    {
+        "id": "PutEvent",
+        "type": "Entity",
+        "name": "PutEvent"
+    },
+    {
+        "id": "CreditSpread",
+        "type": "Class",
+        "name": "CreditSpread",
+        "definition": "yield spread that reflects the additional net yield an investor can earn from a security with more credit risk relative to one with less credit risk",
+        "explanatoryNote": "The credit spread of a particular security is often quoted in relation to the yield on a credit risk-free benchmark security or reference rate. Further Notes There are several measures of credit spread, including Z-spread and option-adjusted spread. Old definition (Algo) The spread between the credit rating of something and its maturity. THis is now defined as a different term pending further review with Algorithmics. Update from SMER. difference between risk free price (price of govt bond) and the price of this security. (matches Wikipedia definition above) i.e. price of this credit versus the price of a (near) risk free credit. The latter is a reference security with low risk such as a Treasury Bond. Is this between prices or between yields? can be expressed as either wrt price or yield, and this is detemined by context for different markets. Try and get a list. This is more generic - the meaning is not that it is speciufically wrt yield as such. Debt Price Spread is in context of price, whereas this is more generic.",
+        "label": "credit spread"
+    },
+    {
+        "id": "YieldSpread",
+        "type": "Entity",
+        "name": "YieldSpread"
+    },
+    {
+        "id": "YieldToNextPut",
+        "type": "Class",
+        "name": "YieldToNextPut",
+        "label": "yield to next put"
+    },
+    {
+        "id": "WeightedAverageLifeAtIssue",
+        "type": "Class",
+        "name": "WeightedAverageLifeAtIssue",
+        "label": "average life at issue",
+        "definition": "The Average Life analytic at the time the security was issued."
+    },
+    {
+        "id": "WeightedAverageLife",
+        "type": "Entity",
+        "name": "WeightedAverageLife"
+    },
+    {
+        "id": "NextCallDate",
+        "type": "Class",
+        "name": "NextCallDate",
+        "label": "next call date",
+        "definition": "The next date on which the issue can be called, from the present date."
+    },
+    {
+        "id": "Date",
+        "type": "Entity",
+        "name": "Date"
+    },
+    {
+        "id": "NextCall",
+        "type": "Class",
+        "name": "NextCall",
+        "definition": "The next call of the issue, as at the current time.",
+        "label": "next call"
+    },
+    {
+        "id": "CallEvent",
+        "type": "Entity",
+        "name": "CallEvent"
+    },
+    {
+        "id": "ExchangeTradedBondPrice",
+        "type": "Class",
+        "name": "ExchangeTradedBondPrice",
+        "label": "exchange traded bond price"
+    },
+    {
+        "id": "LoanPoolPrepaymentModel",
+        "type": "Class",
+        "name": "LoanPoolPrepaymentModel",
+        "definition": "Model of the prepayments of loans in a pool of individual loans, such as a mortgage pool or loan pool.",
+        "label": "loan pool prepayment model",
+        "explanatoryNote": "This model captures the parameters that may influence the prepayment of loans or mortgages and relates these mathematically."
+    },
+    {
+        "id": "BondEquivalentYield",
+        "type": "Class",
+        "name": "BondEquivalentYield",
+        "label": "bond equivalent yield",
+        "definition": "Yield determined on an equivalent basis to the yield of another bond. This is used to be able to realistically compare prices between debt instruments across different markets.",
+        "explanatoryNote": "For example when comparing Treasury with Corp it's called a Corp Bond Equivalent Yield; when comparing other kinds of yields this would be labelled differently. Treasury bills typically in discount rates - that's one of the ways you would compare TB or MM or RePo to BEQ - by changing the day count. Detailed implementation of this: This term refers to the type of bond that it is equivalent to, that is the type of bond whose yield is normally determined according to the yield calculation method that is used in determining this Bond Equivalent Yield figure. The type of bond in this instance is defined in relation to the market on which that bond trades, for example the US Corporate Bond Market."
+    },
+    {
+        "id": "DebtSecuritiesMarketMaker",
+        "type": "Class",
+        "name": "DebtSecuritiesMarketMaker",
+        "label": "debt securities market maker",
+        "definition": "An actor which has the role of Market Maker in a given market."
+    },
+    {
+        "id": "ServiceProvider",
+        "type": "Entity",
+        "name": "ServiceProvider"
+    },
+    {
+        "id": "PriceValueOfBasisPoint",
+        "type": "Class",
+        "name": "PriceValueOfBasisPoint",
+        "definition": "Sensitivity of the price for one basis point change in yield, defined as the difference in price given 1 bp change in yield.",
+        "abbreviation": "PVBP",
+        "explanatoryNote": "Price value of Basis Point Definition: The difference in price given 1 bp change in yield. This is like Duration but normalized to 1 basis point. Synonym DV01",
+        "label": "price value of basis point"
+    },
+    {
+        "id": "DiscountedInstrumentYield",
+        "type": "Class",
+        "name": "DiscountedInstrumentYield",
+        "label": "discounted instrument yield",
+        "definition": "Yield quoted for a discount instrument. This is the ratio of the discount to the face value, divided by the period to maturity as a fraction of a year."
+    },
+    {
+        "id": "FFIECDown300PrepaySpeed",
+        "type": "Class",
+        "name": "FFIECDown300PrepaySpeed",
+        "label": "f f i e c down 300 prepay speed",
+        "definition": "Public Securities Association (PSA) speed used for the underlying collateral for cash-flow calculations in the \"down 300\" scenario."
+    },
+    {
+        "id": "FFIECUp300PrepaySpeed",
+        "type": "Class",
+        "name": "FFIECUp300PrepaySpeed",
+        "definition": "Public Securities Association (PSA) speed used for the underlying collateral for cash-flow calculations in the \"up 300\" scenario.",
+        "label": "f f i e c up 300 prepay speed"
+    },
+    {
+        "id": "EffectiveYield",
+        "type": "Class",
+        "name": "EffectiveYield",
+        "label": "effective yield"
+    },
+    {
+        "id": "MacCaulaysDurationAnalytic",
+        "type": "Class",
+        "name": "MacCaulaysDurationAnalytic",
+        "label": "MacCaulays Duration Analytic"
+    },
+    {
+        "id": "DebtYieldToNextCall",
+        "type": "Class",
+        "name": "DebtYieldToNextCall",
+        "label": "debt yield to next call",
+        "definition": "The yield of a bond to the next possible call date."
+    },
+    {
+        "id": "MarketSpread",
+        "type": "Entity",
+        "name": "MarketSpread"
+    },
+    {
+        "id": "RussianYieldFormula",
+        "type": "Class",
+        "name": "RussianYieldFormula",
+        "definition": "This is based on a different Effective Yield than on another market.",
+        "label": "russian yield formula"
+    },
+    {
+        "id": "USTreasuryYieldCalculationMethod",
+        "type": "Class",
+        "name": "USTreasuryYieldCalculationMethod",
+        "label": "u s treasury yield calculation method"
+    },
+    {
+        "id": "SpanishYieldCalculationMethod",
+        "type": "Class",
+        "name": "SpanishYieldCalculationMethod",
+        "definition": "The method used in determining annual yield in Spanish corporate bonds.",
+        "label": "spanish yield calculation method"
+    },
+    {
+        "id": "WeightedAverageTimeToReceiptOfCashflows",
+        "type": "Class",
+        "name": "WeightedAverageTimeToReceiptOfCashflows",
+        "definition": "The weighted average time to the receipt of cashflows for an instrument.",
+        "label": "weighted average time to receipt of cashflows"
+    },
+    {
+        "id": "JapaneseSimpleYieldCalculationMethod",
+        "type": "Class",
+        "name": "JapaneseSimpleYieldCalculationMethod",
+        "label": "japanese simple yield calculation method",
+        "definition": "No definition.Term put here from memory. 02 Dec changed from Japanese Yield to Japanese Simple Yield. note hat Japanese Compound yield also here (from FIBIM or anothe rlist, added 25 nov with the rest)."
+    },
+    {
+        "id": "ImpliedForwardRate",
+        "type": "Class",
+        "name": "ImpliedForwardRate",
+        "label": "implied forward rate"
+    },
+    {
+        "id": "InterestRate",
+        "type": "Entity",
+        "name": "InterestRate"
+    },
+    {
+        "id": "WorstCall",
+        "type": "Class",
+        "name": "WorstCall",
+        "definition": "call event representing the worst case with respect to when the instrument might be called",
+        "label": "worst call"
+    },
+    {
+        "id": "EffectiveDuration",
+        "type": "Class",
+        "name": "EffectiveDuration",
+        "label": "effective duration"
+    },
+    {
+        "id": "USCorporateBondYieldCalculationMethod",
+        "type": "Class",
+        "name": "USCorporateBondYieldCalculationMethod",
+        "label": "u s corporate bond yield calculation method",
+        "definition": "This has 30/360 and semi-annual compounding."
+    },
+    {
+        "id": "MortgageBackedSecurity",
+        "type": "Class",
+        "name": "MortgageBackedSecurity"
+    },
+    {
+        "id": "isCompounded",
+        "type": "DatatypeProperty",
+        "name": "isCompounded",
+        "label": "is compounded",
+        "definition": "Definition needed Moved from Yield - assume this can only be about debt instrument or loan / debt yields i..e where the income relates to interest payments. ."
+    },
+    {
+        "id": "hasDefaultRate",
+        "type": "ObjectProperty",
+        "name": "hasDefaultRate",
+        "label": "has default rate"
+    },
+    {
+        "id": "calculationFollowing",
+        "type": "ObjectProperty",
+        "name": "calculationFollowing",
+        "label": "calculation following"
+    },
+    {
+        "id": "priceIsTraded",
+        "type": "DatatypeProperty",
+        "name": "priceIsTraded",
+        "definition": "The highest valuation over the period specified. Notes from Equity review, may apply to Debt also: this can be regarded as a derived price. See also note in LowPrice Difference: different rules used. May be based on trade OR quote price Analytic or Price?? this is a derived type but with a much simpler rule.",
+        "label": "price is traded"
+    },
+    {
+        "id": "hasWac",
+        "type": "ObjectProperty",
+        "name": "hasWac",
+        "label": "has wac"
+    },
+    {
+        "id": "isDefaultMethodFor",
+        "type": "ObjectProperty",
+        "name": "isDefaultMethodFor",
+        "label": "is default method for"
+    },
+    {
+        "id": "equivalentLifeValue",
+        "type": "ObjectProperty",
+        "name": "equivalentLifeValue",
+        "label": "equivalent life value",
+        "definition": "The Equivalent Life in years at the stated date."
+    },
+    {
+        "id": "roundingConvention",
+        "type": "DatatypeProperty",
+        "name": "roundingConvention",
+        "definition": "The rounding convention used in the calculation method.",
+        "label": "rounding convention"
+    },
+    {
+        "id": "determinesMarketPriceForDebt",
+        "type": "ObjectProperty",
+        "name": "determinesMarketPriceForDebt",
+        "label": "determines market price for debt"
+    },
+    {
+        "id": "hasMeasure",
+        "type": "ObjectProperty",
+        "name": "hasMeasure",
+        "label": "has measure"
+    },
+    {
+        "id": "isRateOfChangeOf",
+        "type": "ObjectProperty",
+        "name": "isRateOfChangeOf",
+        "label": "is rate of change of"
+    },
+    {
+        "id": "quotedExDividend",
+        "type": "DatatypeProperty",
+        "name": "quotedExDividend",
+        "definition": "Whether or not the price is quoted ex-dividend. When a bond is said to trade ex-dividend it means that there is a period of time prior to each coupon payment during which a bond purchaser does not receive custody of the next coupon. That payment is made to the previous bond holder and accrued interest is therefore negative during the ex-dividend period.",
+        "label": "quoted ex dividend"
+    },
+    {
+        "id": "isAggregateOf",
+        "type": "ObjectProperty",
+        "name": "isAggregateOf",
+        "label": "is aggregate of"
+    },
+    {
+        "id": "hasYield",
+        "type": "ObjectProperty",
+        "name": "hasYield",
+        "label": "has yield"
+    },
+    {
+        "id": "decimalPlaces",
+        "type": "DatatypeProperty",
+        "name": "decimalPlaces",
+        "label": "decimal places",
+        "definition": "The number of decimal places used in the publication of the factor value."
+    },
+    {
+        "id": "hasAnalytic",
+        "type": "ObjectProperty",
+        "name": "hasAnalytic",
+        "label": "has analytic"
+    },
+    {
+        "id": "hasOutlookPeriod",
+        "type": "ObjectProperty",
+        "name": "hasOutlookPeriod",
+        "label": "has outlook period"
+    },
+    {
+        "id": "priceQuotedExDividend",
+        "type": "DatatypeProperty",
+        "name": "priceQuotedExDividend",
+        "definition": "Whether or not the yield is based on a price which is quoted ex-dividend. When a bond is said to trade ex-dividend it means that there is a period of time prior to each coupon payment during which a bond purchaser does not receive custody of the next coupon. That payment is made to the previous bond holder and accrued interest is therefore negative during the ex-dividend period.",
+        "label": "price quoted ex dividend"
+    },
+    {
+        "id": "hasFactor",
+        "type": "ObjectProperty",
+        "name": "hasFactor",
+        "label": "has factor"
+    },
+    {
+        "id": "modifiedDurationValue",
+        "type": "ObjectProperty",
+        "name": "modifiedDurationValue",
+        "label": "modified duration value",
+        "definition": "The Modified Duration in Years."
+    },
+    {
+        "id": "defaultRateValue",
+        "type": "ObjectProperty",
+        "name": "defaultRateValue",
+        "label": "default rate value"
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "id": "FinalProspectus",
+        "type": "Class",
+        "name": "FinalProspectus",
+        "label": "final prospectus",
+        "explanatoryNote": "Anticipated facts might include expected issue price, yields, pool parameters as appropriate for the type of instrument being issued. Term origin:SMER",
+        "definition": "The final Prospectus for an issue describes the Offer Issue, including facts about the issue itself such as closing dates, and known facts about the securities that will form part of that issue."
+    },
+    {
+        "id": "Prospectus",
+        "type": "Entity",
+        "name": "Prospectus"
+    },
+    {
+        "id": "SecuritiesIssuanceAgreement",
+        "type": "Class",
+        "name": "SecuritiesIssuanceAgreement",
+        "label": "securities issuance agreement",
+        "definition": "A formal agreement, deed or contract in respect of some intended securities issuance."
+    },
+    {
+        "id": "OfferingDocument",
+        "type": "Class",
+        "name": "OfferingDocument"
+    },
+    {
+        "id": "OfferingDocumentTerms",
+        "type": "Class",
+        "name": "OfferingDocumentTerms",
+        "definition": "terms included in an offering document that become legally binding at issue",
+        "label": "offering document terms",
+        "explanatoryNote": "They include, for example, call terms, interest payment terms, and so forth with respect to certain securities."
+    },
+    {
+        "id": "ContractualElement",
+        "type": "Entity",
+        "name": "ContractualElement"
+    },
+    {
+        "id": "IssuanceTrustAgreement",
+        "type": "Class",
+        "name": "IssuanceTrustAgreement",
+        "label": "issuance trust agreement"
+    },
+    {
+        "id": "WrittenContract",
+        "type": "Entity",
+        "name": "WrittenContract"
+    },
+    {
+        "id": "PreliminaryProspectus",
+        "type": "Class",
+        "name": "PreliminaryProspectus",
+        "definition": "The draft prospectus for the issue, as determined prior to marketing the issue. Certain terms in the draft prospectus will be finalized later in the issuance process to become the actual Prospectus. Term origin:DTCC issuance Reviews",
+        "label": "preliminary prospectus"
+    },
+    {
+        "id": "Indenture",
+        "type": "Class",
+        "name": "Indenture",
+        "label": "indenture",
+        "definition": "A written contract, also known as a \"Deed of Trust\", under which bonds and debentures are issued, setting forth maturity date, interest rate, redemption rights, call privileges and other terms. Under the rules of the Trust Indenture Act of 1939, the contract is executed by the issuer and a trustee who acts on behalf of the bondholders."
+    }
+]

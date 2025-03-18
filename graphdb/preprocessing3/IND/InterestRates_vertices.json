@@ -1,0 +1,312 @@
+[
+    {
+        "id": "ReferenceInterestRate",
+        "type": "Class",
+        "name": "ReferenceInterestRate",
+        "explanatoryNote": "The reference rate is a moving index such as EURIBOR, the prime rate or the rate on benchmark U.S. Treasuries.",
+        "label": "reference interest rate",
+        "definition": "market rate that is a rate of interest paid by or agreed among some bank or set of banks"
+    },
+    {
+        "id": "InterestRate",
+        "type": "Entity",
+        "name": "InterestRate"
+    },
+    {
+        "id": "MarketRate",
+        "type": "Entity",
+        "name": "MarketRate"
+    },
+    {
+        "id": "SpecificProviderInterestRateBenchmark",
+        "type": "Class",
+        "name": "SpecificProviderInterestRateBenchmark",
+        "definition": "interest rate benchmark that is made available by a specific market data provider for reference purposes",
+        "label": "specific-provider interest rate benchmark",
+        "explanatoryNote": "Benchmarks, such as those published by Bloomberg, Thomson-Reuters, and others, are usually quoted as of a specific date and time of day."
+    },
+    {
+        "id": "InterestRateBenchmark",
+        "type": "Class",
+        "name": "InterestRateBenchmark",
+        "label": "interest rate benchmark",
+        "definition": "classifier for regularly updated interest rates that are publicly accessible, typically set by a central bank or group of financial institutions",
+        "explanatoryNote": "Benchmark rates, such as EURIBOR, the Fed Funds rate, and many others including those identified as FpML rates, are used as benchmarks for a variety of debt instruments."
+    },
+    {
+        "id": "InterestRateAuthority",
+        "type": "Class",
+        "name": "InterestRateAuthority",
+        "definition": "financial service provider/publisher responsible for specifying some benchmark interest rate",
+        "label": "interest rate authority"
+    },
+    {
+        "id": "FinancialServiceProvider",
+        "type": "Entity",
+        "name": "FinancialServiceProvider"
+    },
+    {
+        "id": "Publisher",
+        "type": "Entity",
+        "name": "Publisher"
+    },
+    {
+        "id": "InterestRateBenchmarkClassificationScheme",
+        "type": "Class",
+        "name": "InterestRateBenchmarkClassificationScheme",
+        "label": "interest rate benchmark classification scheme",
+        "definition": "scheme for classifying interest rate benchmarks, such as the FpML classification scheme"
+    },
+    {
+        "id": "ClassificationScheme",
+        "type": "Entity",
+        "name": "ClassificationScheme"
+    },
+    {
+        "id": "OvernightRate",
+        "type": "Class",
+        "name": "OvernightRate",
+        "label": "overnight rate",
+        "definition": "reference rate that is an interest rate at which a depository institution lends funds to another depository institution (short-term), or the interest rate the central bank charges a financial institution to borrow money overnight",
+        "explanatoryNote": "The overnight rate is the lowest available interest rate, and as such, it is only available to the most creditworthy institutions. It is the underlying rate for Overnight Interest Rate Swaps (IOS)."
+    },
+    {
+        "id": "QuantityKind",
+        "type": "Entity",
+        "name": "QuantityKind"
+    },
+    {
+        "id": "BaseRate",
+        "type": "Class",
+        "name": "BaseRate",
+        "abbreviation": "BBR",
+        "label": "base rate",
+        "definition": "basic rate of interest on which the actual rate a bank charges on loans to its customers is calculated",
+        "explanatoryNote": "Typically, the bank base rate is a reference rate set by a central bank. Banks that are regulated by a given central bank cannot lend below the base rate to their customers. The bank base rate is determined on an ongoing basis and represents the central bank's judgement of the price of short-term funds on their interbank market."
+    },
+    {
+        "id": "FloatingInterestRate",
+        "type": "Class",
+        "name": "FloatingInterestRate"
+    },
+    {
+        "id": "InterbankBidRate",
+        "type": "Class",
+        "name": "InterbankBidRate",
+        "label": "interbank bid rate",
+        "definition": "interbank rate that is the interest rate at which participating banks are willing to borrow deposits from other banks",
+        "explanatoryNote": "Unlike an interbank offered rate, which is the rate at which banks lend money, an interbank bid rate is the rate at which banks ask to borrow."
+    },
+    {
+        "id": "InterbankRate",
+        "type": "Class",
+        "name": "InterbankRate",
+        "label": "interbank rate",
+        "explanatoryNote": "Banks borrow and lend money in the interbank market in order to manage liquidity and meet the requirements placed on them. The interest rate charged depends on the availability of money in the market, on prevailing rates and on the specific terms of the contract, such as term length.",
+        "definition": "reference rate that is the rate of interest charged on short-term loans between banks"
+    },
+    {
+        "id": "InterbankOfferedRate",
+        "type": "Class",
+        "name": "InterbankOfferedRate",
+        "label": "interbank offered rate",
+        "definition": "interbank rate that is the interest rate at which participating banks lend money"
+    },
+    {
+        "id": "InterbankMidRate",
+        "type": "Class",
+        "name": "InterbankMidRate",
+        "definition": "interbank rate that represents the mid-point between bid and offer rates",
+        "label": "interbank mid rate"
+    },
+    {
+        "id": "hasTenor",
+        "type": "ObjectProperty",
+        "name": "hasTenor",
+        "explanatoryNote": "The tenor of most financial instruments declines over time, while the maturity remains constant. Risk associated with a given asset tends to decline with the reduction of the time remaining to maturity. The tenor of an interest rate swap can also refer to the frequency with which coupon payments are exchanged.",
+        "label": "has tenor",
+        "definition": "indicates the length of time for which a given rate, such as an interbank rate, exchange rate, other market rate is quoted, or a debt instrument has remaining prior to maturity or expiration"
+    },
+    {
+        "id": "TwoMonths",
+        "type": "NamedIndividual",
+        "name": "TwoMonths",
+        "label": "two months",
+        "definition": "duration of exactly two months, regardless of the length in days of a given calendar month, but typically 30 days"
+    },
+    {
+        "id": "ThirtyYears",
+        "type": "ExplicitDuration",
+        "name": "ThirtyYears",
+        "label": "thirty years",
+        "definition": "duration of exactly thirty years"
+    },
+    {
+        "id": "TwentyYears",
+        "type": "NamedIndividual",
+        "name": "TwentyYears",
+        "definition": "duration of exactly twenty years",
+        "label": "twenty years"
+    },
+    {
+        "id": "OneYear",
+        "type": "ExplicitDuration",
+        "name": "OneYear",
+        "label": "one year",
+        "definition": "duration of exactly one year"
+    },
+    {
+        "id": "hasRateResetTimeOfDay",
+        "type": "ObjectProperty",
+        "name": "hasRateResetTimeOfDay",
+        "definition": "indicates the time of day when a change in a benchmark rate is published, typically the same time every business day",
+        "label": "has rate reset time of day"
+    },
+    {
+        "id": "NineMonths",
+        "type": "NamedIndividual",
+        "name": "NineMonths",
+        "definition": "duration of exactly nine months, regardless of the length in days of a given calendar month, but typically 30 days",
+        "label": "nine months"
+    },
+    {
+        "id": "OneMonth",
+        "type": "ExplicitDuration",
+        "name": "OneMonth",
+        "definition": "duration of exactly one month, regardless of the length in days of a given calendar month, but typically 30 days",
+        "label": "one month"
+    },
+    {
+        "id": "FifteenYears",
+        "type": "NamedIndividual",
+        "name": "FifteenYears",
+        "definition": "duration of exactly fifteen years",
+        "label": "fifteen years"
+    },
+    {
+        "id": "EighteenMonths",
+        "type": "ExplicitDuration",
+        "name": "EighteenMonths",
+        "label": "eighteen months",
+        "definition": "duration of exactly eighteen months, regardless of the length in days of a given calendar month, but typically 30 days"
+    },
+    {
+        "id": "TwentyFourMonths",
+        "type": "ExplicitDuration",
+        "name": "TwentyFourMonths",
+        "definition": "duration of exactly twenty-four months, regardless of the length in days of a given calendar month, but typically 30 days",
+        "label": "twenty-four months"
+    },
+    {
+        "id": "TwoYears",
+        "type": "ExplicitDuration",
+        "name": "TwoYears",
+        "label": "two years",
+        "definition": "duration of exactly two years"
+    },
+    {
+        "id": "ThirtySixMonths",
+        "type": "ExplicitDuration",
+        "name": "ThirtySixMonths",
+        "definition": "duration of exactly thirty-six months, regardless of the length in days of a given calendar month, but typically 30 days",
+        "label": "thirty-six months"
+    },
+    {
+        "id": "ThreeHundredSixtyMonths",
+        "type": "ExplicitDuration",
+        "name": "ThreeHundredSixtyMonths",
+        "label": "three hundred sixty months",
+        "definition": "duration of exactly three hundred sixty months, regardless of the length in days of a given calendar month, but typically 30 days"
+    },
+    {
+        "id": "FiveYears",
+        "type": "ExplicitDuration",
+        "name": "FiveYears",
+        "label": "five years",
+        "definition": "duration of exactly five years"
+    },
+    {
+        "id": "OneDay",
+        "type": "NamedIndividual",
+        "name": "OneDay",
+        "label": "one day",
+        "definition": "duration of exactly one day, or 24 hours, such as for an overnight rate"
+    },
+    {
+        "id": "hasReferenceCurrency",
+        "type": "ObjectProperty",
+        "name": "hasReferenceCurrency",
+        "label": "has reference currency",
+        "definition": "relates something to the currency it is based on"
+    },
+    {
+        "id": "OneHundredEightyMonths",
+        "type": "NamedIndividual",
+        "name": "OneHundredEightyMonths",
+        "label": "one hundred eighty months",
+        "definition": "duration of exactly one hundred eighty months, regardless of the length in days of a given calendar month, but typically 30 days"
+    },
+    {
+        "id": "TwelveMonths",
+        "type": "ExplicitDuration",
+        "name": "TwelveMonths",
+        "label": "twelve months",
+        "definition": "duration of exactly twelve months, regardless of the length in days of a given calendar month, but typically 30 days"
+    },
+    {
+        "id": "OneWeek",
+        "type": "NamedIndividual",
+        "name": "OneWeek",
+        "definition": "duration of exactly one week, or 7 days",
+        "label": "one week"
+    },
+    {
+        "id": "SixMonths",
+        "type": "ExplicitDuration",
+        "name": "SixMonths",
+        "definition": "duration of exactly six months, regardless of the length in days of a given calendar month, but typically 30 days",
+        "label": "six months"
+    },
+    {
+        "id": "SixtyMonths",
+        "type": "NamedIndividual",
+        "name": "SixtyMonths",
+        "definition": "duration of exactly sixty months, regardless of the length in days of a given calendar month, but typically 30 days",
+        "label": "sixty months"
+    },
+    {
+        "id": "ThreeYears",
+        "type": "NamedIndividual",
+        "name": "ThreeYears",
+        "label": "three years",
+        "definition": "duration of exactly three years"
+    },
+    {
+        "id": "FortyEightMonths",
+        "type": "NamedIndividual",
+        "name": "FortyEightMonths",
+        "definition": "duration of exactly forty-eight months, regardless of the length in days of a given calendar month, but typically 30 days",
+        "label": "forty-eight months"
+    },
+    {
+        "id": "TenYears",
+        "type": "NamedIndividual",
+        "name": "TenYears",
+        "label": "ten years",
+        "definition": "duration of exactly ten years"
+    },
+    {
+        "id": "FourYears",
+        "type": "NamedIndividual",
+        "name": "FourYears",
+        "definition": "duration of exactly four years",
+        "label": "four years"
+    },
+    {
+        "id": "ThreeMonths",
+        "type": "NamedIndividual",
+        "name": "ThreeMonths",
+        "label": "three months",
+        "definition": "duration of exactly three months, regardless of the length in days of a given calendar month, but typically 30 days"
+    }
+]

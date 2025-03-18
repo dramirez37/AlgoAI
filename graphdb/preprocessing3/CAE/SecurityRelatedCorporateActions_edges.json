@@ -1,0 +1,338 @@
+[
+    {
+        "source_id": "PostMergerSecuritiesExchange",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RepurchaseOffer",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondDefaultAction",
+        "target_id": "ObligationDefault",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BondDefaultAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Drawing",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RedemptionAtMaturityAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SharesPremiumDividendAction",
+        "target_id": "MandatoryWithChoiceCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PariPassuAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ListingStatusDelistingMessage",
+        "target_id": "Notice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradingStatusMessage",
+        "target_id": "Notice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReverseStockSplit",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DividendOptionAction",
+        "target_id": "MandatoryWithChoiceCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CouponStrip",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartialRedemptionWithReductionOfNominalValueAction",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateActionSecuritiesDeliveryObligation",
+        "target_id": "CorporateActionObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashDividendAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestPaymentWithPrincipal",
+        "target_id": "InterestPaymentAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateActionPaymentObligation",
+        "target_id": "CorporateActionObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConversionSuspensionAction",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TenderOffer",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BonusIssue",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalGainsDistribution",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ChangeOfSecurityTradingStatusEvent",
+        "target_id": "CorporateChangeOfStatusEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DividendReinvestmentAction",
+        "target_id": "MandatoryWithChoiceCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IntermediateSecuritiesDistribution",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateActionObligation",
+        "target_id": "Duty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateActionObligation",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateChangeOfStatusEvent",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateChangeOfStatusEvent",
+        "target_id": "LifecycleEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StockDividendAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradingStatusActiveMessage",
+        "target_id": "TradingStatusMessage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestRateAdjustment",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConversionAction",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StockSplit",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WorthlessSecurityAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestPaymentInKind",
+        "target_id": "InterestPaymentAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PartialRedemptionWithoutReductionOfNominalValueAction",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradingStatusSuspendedMessage",
+        "target_id": "TradingStatusMessage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CancellationOfShares",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DutchAuction",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BonusSharePlanDistribution",
+        "target_id": "CapitalDistribution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RedenominationAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RightsExerciseEvent",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterestPaymentAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DecreaseInValueAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WarrantExerciseAction",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FormalOffer",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ChangeToSmallestNegotiableUnit",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BonusRightsIssue",
+        "target_id": "IntermediateSecuritiesDistribution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FullCallEarlyRedemptionAction",
+        "target_id": "MandatoryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeAction",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OddLotOffer",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MaturityExtension",
+        "target_id": "CorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CallOnIntermediateSecurities",
+        "target_id": "MandatoryWithChoiceCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalDistribution",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PutRedemptionAction",
+        "target_id": "VoluntaryCorporateAction",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

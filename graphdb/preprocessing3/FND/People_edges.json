@@ -1,0 +1,673 @@
+[
+    {
+        "source_id": "PersonName",
+        "target_id": "hasSurname",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasSurname"
+            ]
+        }
+    },
+    {
+        "source_id": "PersonName",
+        "target_id": "hasNameSuffix",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasNameSuffix"
+            ]
+        }
+    },
+    {
+        "source_id": "PersonName",
+        "target_id": "Person",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isNameOf",
+                "Person"
+            ]
+        }
+    },
+    {
+        "source_id": "PersonName",
+        "target_id": "hasFullLegalName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasFullLegalName"
+            ]
+        }
+    },
+    {
+        "source_id": "PersonName",
+        "target_id": "hasNamePrefix",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasNamePrefix"
+            ]
+        }
+    },
+    {
+        "source_id": "PersonName",
+        "target_id": "ContextualName",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DriversLicenseIdentifier",
+        "target_id": "DriversLicense",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "DriversLicense"
+            ]
+        }
+    },
+    {
+        "source_id": "DriversLicenseIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DriversLicenseIdentifier",
+        "target_id": "DriversLicenseIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "DriversLicenseIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "PassportNumberIdentificationScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassportNumberIdentificationScheme",
+        "target_id": "PassportNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "PassportNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalIdentificationNumber",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalIdentificationNumber",
+        "target_id": "NationalIdentificationNumberScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "NationalIdentificationNumberScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalIdentificationNumber",
+        "target_id": "Person",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "Person"
+            ]
+        }
+    },
+    {
+        "source_id": "BirthCertificateIdentificationScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BirthCertificateIdentificationScheme",
+        "target_id": "BirthCertificateIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "BirthCertificateIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "Person",
+        "target_id": "PersonName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasName",
+                "PersonName"
+            ]
+        }
+    },
+    {
+        "source_id": "Person",
+        "target_id": "PlaceOfBirth",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPlaceOfBirth",
+                "PlaceOfBirth"
+            ]
+        }
+    },
+    {
+        "source_id": "Person",
+        "target_id": "Age",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasAge",
+                "Age"
+            ]
+        }
+    },
+    {
+        "source_id": "Person",
+        "target_id": "hasGender",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasGender"
+            ]
+        }
+    },
+    {
+        "source_id": "Person",
+        "target_id": "Party",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Person",
+        "target_id": "DateOfBirth",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasDateOfBirth",
+                "DateOfBirth"
+            ]
+        }
+    },
+    {
+        "source_id": "Person",
+        "target_id": "DateOfDeath",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasDateOfDeath",
+                "DateOfDeath"
+            ]
+        }
+    },
+    {
+        "source_id": "Adult",
+        "target_id": "Person",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Adult",
+        "target_id": "AgeOfMajority",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasAgeOfMajority",
+                "AgeOfMajority"
+            ]
+        }
+    },
+    {
+        "source_id": "Minor",
+        "target_id": "Person",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BirthCertificateIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BirthCertificateIdentifier",
+        "target_id": "BirthCertificate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "BirthCertificate"
+            ]
+        }
+    },
+    {
+        "source_id": "BirthCertificateIdentifier",
+        "target_id": "BirthCertificateIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "BirthCertificateIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalWorkingAge",
+        "target_id": "LegalAge",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BirthCertificate",
+        "target_id": "Certificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BirthCertificate",
+        "target_id": "IdentityDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BirthCertificate",
+        "target_id": "BirthCertificateIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "BirthCertificateIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "DriversLicenseIdentificationScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DriversLicenseIdentificationScheme",
+        "target_id": "DriversLicenseIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "DriversLicenseIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "IdentityDocument",
+        "target_id": "LegalDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IdentityDocument",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "Identifier"
+            ]
+        }
+    },
+    {
+        "source_id": "IdentityDocument",
+        "target_id": "Person",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "Person"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalWorkingAgePerson",
+        "target_id": "LegalWorkingAge",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasMinimumLegalWorkingAge",
+                "LegalWorkingAge"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalWorkingAgePerson",
+        "target_id": "Person",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PlaceOfBirth",
+        "target_id": "PhysicalLocation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegallyCapableAdult",
+        "target_id": "Adult",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmancipatedMinor",
+        "target_id": "Minor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeathCertificate",
+        "target_id": "Certificate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeathCertificate",
+        "target_id": "IdentityDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeathCertificate",
+        "target_id": "DeathCertificateIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "DeathCertificateIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalAge",
+        "target_id": "Age",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeathCertificateIdentifier",
+        "target_id": "DeathCertificate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "DeathCertificate"
+            ]
+        }
+    },
+    {
+        "source_id": "DeathCertificateIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeathCertificateIdentifier",
+        "target_id": "DeathCertificateIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "DeathCertificateIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "Passport",
+        "target_id": "IdentityDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Passport",
+        "target_id": "PassportNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "PassportNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "DriversLicense",
+        "target_id": "DriversLicenseIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "DriversLicenseIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "DriversLicense",
+        "target_id": "IdentityDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgeOfMajority",
+        "target_id": "LegalAge",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeathCertificateIdentificationScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeathCertificateIdentificationScheme",
+        "target_id": "DeathCertificateIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "DeathCertificateIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "IncapacitatedAdult",
+        "target_id": "Adult",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassportNumber",
+        "target_id": "NationalIdentificationNumber",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PassportNumber",
+        "target_id": "PassportNumberIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "PassportNumberIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalIdentificationNumberScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalIdentificationNumberScheme",
+        "target_id": "NationalIdentificationNumber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "NationalIdentificationNumber"
+            ]
+        }
+    },
+    {
+        "source_id": "DateOfBirth",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DateOfDeath",
+        "target_id": "ExplicitDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

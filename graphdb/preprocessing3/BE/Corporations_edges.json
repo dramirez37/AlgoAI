@@ -1,0 +1,89 @@
+[
+    {
+        "source_id": "StockCorporation",
+        "target_id": "BoardAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isGovernedBy",
+                "BoardAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "PubliclyHeldCompany",
+        "target_id": "StockCorporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BoardAgreement",
+        "target_id": "OrganizationCoveringAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReligiousCorporation",
+        "target_id": "NotForProfitCorporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegistrationIdentifier",
+        "target_id": "RegistrationIdentifierScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "RegistrationIdentifierScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistrationIdentifier",
+        "target_id": "OrganizationIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegistrationIdentifierScheme",
+        "target_id": "RegistrationIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "RegistrationIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistrationIdentifierScheme",
+        "target_id": "OrganizationIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrivatelyHeldCompany",
+        "target_id": "StockCorporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "JointStockCompany",
+        "target_id": "BusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

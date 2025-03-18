@@ -1,0 +1,142 @@
+[
+    {
+        "id": "FederalCapitalArea",
+        "type": "Class",
+        "name": "FederalCapitalArea",
+        "definition": "geopolitical entity that is or includes the municipality or capital city that acts as the seat of the federal government",
+        "label": "federal capital area"
+    },
+    {
+        "id": "GeopoliticalEntity",
+        "type": "Entity",
+        "name": "GeopoliticalEntity"
+    },
+    {
+        "id": "PopulatedPlace",
+        "type": "Class",
+        "name": "PopulatedPlace",
+        "label": "populated place",
+        "definition": "community in which people live or have lived, without being specific as to size, population or importance"
+    },
+    {
+        "id": "PhysicalLocation",
+        "type": "Class",
+        "name": "PhysicalLocation",
+        "label": "physical location",
+        "definition": "location in physical space"
+    },
+    {
+        "id": "Municipality",
+        "type": "Class",
+        "name": "Municipality",
+        "definition": "urban administrative division having corporate status and usually powers of self-government or jurisdiction",
+        "explanatoryNote": "A municipality is a general-purpose administrative subdivision, as opposed to a special-purpose district.",
+        "label": "municipality"
+    },
+    {
+        "id": "Location",
+        "type": "Entity",
+        "name": "Location"
+    },
+    {
+        "id": "County",
+        "type": "Class",
+        "name": "County",
+        "definition": "political and administrative division of a country, state or province, providing certain local governmental services",
+        "label": "county"
+    },
+    {
+        "id": "CountrySubdivision",
+        "type": "Entity",
+        "name": "CountrySubdivision"
+    },
+    {
+        "id": "FederalState",
+        "type": "Class",
+        "name": "FederalState",
+        "explanatoryNote": "This type of entity, variously referred to as a state, province or canton, has a level of self government including its own legal system and court jurisdiction, but cedes a level of autonomy to the federation of which it forms a part.",
+        "definition": "self-governing geopolitical unit which forms part of a wider geopolitical unit that is recognized as a country",
+        "label": "federal state"
+    },
+    {
+        "id": "BusinessCenter",
+        "type": "Class",
+        "name": "BusinessCenter",
+        "definition": "municipality where business is conducted, especially one that is considered a financial center",
+        "label": "business center"
+    },
+    {
+        "id": "hasCountry",
+        "type": "ObjectProperty",
+        "name": "hasCountry",
+        "label": "has country",
+        "definition": "identifies a country"
+    },
+    {
+        "id": "hasMunicipality",
+        "type": "ObjectProperty",
+        "name": "hasMunicipality",
+        "definition": "indicates a business center, city, or municipality",
+        "label": "has municipality"
+    },
+    {
+        "id": "hasCityName",
+        "type": "DatatypeProperty",
+        "name": "hasCityName",
+        "definition": "indicates the name of a large, permanent, and densely settled place",
+        "explanatoryNote": "Typical working definitions for small-city populations start at around 100,000 people. Common population definitions for an urban area (city or town) range between 1,500 and 50,000 people, with most U.S states using a minimum between 1,500 and 5,000 inhabitants. Some jurisdictions set no such minima.",
+        "label": "has city"
+    },
+    {
+        "id": "hasBusinessCenter",
+        "type": "ObjectProperty",
+        "name": "hasBusinessCenter",
+        "label": "has business center",
+        "definition": "identifies a location where business is conducted, and hence the business calendar used to adjust dates"
+    },
+    {
+        "id": "hasCoverageArea",
+        "type": "ObjectProperty",
+        "name": "hasCoverageArea",
+        "definition": "indicates a geographic region in which some service is provided, or to which some policy applies, or in which something is available",
+        "label": "has coverage area"
+    },
+    {
+        "id": "hasRegion",
+        "type": "ObjectProperty",
+        "name": "hasRegion",
+        "label": "has region",
+        "definition": "indicates a demarcated area on the surface of the Earth"
+    },
+    {
+        "id": "hasSubdivision",
+        "type": "ObjectProperty",
+        "name": "hasSubdivision",
+        "definition": "identifies a country subdivision (state, province, region, etc.)",
+        "label": "has subdivision"
+    },
+    {
+        "id": "hasCounty",
+        "type": "ObjectProperty",
+        "name": "hasCounty",
+        "label": "has county",
+        "definition": "indicates a country subdivision providing certain local governmental services"
+    },
+    {
+        "id": "isLocatedAt",
+        "type": "ObjectProperty",
+        "name": "isLocatedAt",
+        "label": "is located at",
+        "definition": "relates something to a location, which might be physical or virtual"
+    },
+    {
+        "id": "Parcel",
+        "type": "Class",
+        "name": "Parcel"
+    },
+    {
+        "id": "RealEstate",
+        "type": "Class",
+        "name": "RealEstate"
+    }
+]

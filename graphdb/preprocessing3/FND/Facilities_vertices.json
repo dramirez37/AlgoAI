@@ -1,0 +1,52 @@
+[
+    {
+        "id": "Site",
+        "type": "Class",
+        "name": "Site",
+        "explanatoryNote": "A physical site has certain characteristics that contribute to the context it provides, including area, shape, accessibility, and in the case of a geographic site, landforms, soil and ground conditions, climate, and so forth.",
+        "definition": "place, setting, or context in which something, such as a facility, is situated",
+        "label": "site"
+    },
+    {
+        "id": "Context",
+        "type": "Entity",
+        "name": "Context"
+    },
+    {
+        "id": "Capability",
+        "type": "Class",
+        "name": "Capability",
+        "definition": "ability to perform a particular type of work that may involve people with particular skills and knowledge, intellectual property, defined practices, operating facilities, tools and equipment",
+        "label": "capability"
+    },
+    {
+        "id": "Facility",
+        "type": "Class",
+        "name": "Facility",
+        "definition": "something established to serve a particular purpose, make some course of action or operation easier, or provide some capability or service",
+        "explanatoryNote": "A facility may be concrete (as in a manufacturing facility) or abstract. Concrete facilities may be permanent, semi-permanent, or temporary structures, providing one or more capabilities at a given site. A single site may include multiple facilities and a given facility may span multiple sites.",
+        "label": "facility"
+    },
+    {
+        "id": "Venue",
+        "type": "Class",
+        "name": "Venue",
+        "definition": "site where something happens, described in the context of the event or activity that occurs there",
+        "label": "venue"
+    },
+    {
+        "id": "situates",
+        "type": "ObjectProperty",
+        "name": "situates",
+        "definition": "indicates the place, setting, or context in which something is placed",
+        "label": "situates"
+    },
+    {
+        "id": "isSituatedAt",
+        "type": "ObjectProperty",
+        "name": "isSituatedAt",
+        "label": "is situated at",
+        "definition": "is placed at",
+        "explanatoryNote": "Something may be situated at some site, or in some setting, situation, or context."
+    }
+]

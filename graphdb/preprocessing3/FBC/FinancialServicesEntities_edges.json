@@ -1,0 +1,704 @@
+[
+    {
+        "source_id": "MortgageCompany",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WealthManagementService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SavingsAssociation",
+        "target_id": "DepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BrokerageFirm",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BrokerageFirm",
+        "target_id": "BrokerDealer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DataProcessingService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DataProcessingService",
+        "target_id": "DataProcessingServicer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "DataProcessingServicer"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialServiceProviderIdentifier",
+        "target_id": "PartyRoleIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialServiceProviderIdentifier",
+        "target_id": "FinancialServiceProviderIdentifierScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "FinancialServiceProviderIdentifierScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialServiceProviderIdentifier",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "FinancialServiceProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "PrincipalUnderwriter",
+        "target_id": "Underwriter",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommercialBank",
+        "target_id": "Bank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SalesFinanceCompany",
+        "target_id": "FinanceCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankingProduct",
+        "target_id": "FinancialProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankingProduct",
+        "target_id": "DepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "DepositoryInstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "Underwriter",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Underwriter",
+        "target_id": "UnderwritingArrangement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "UnderwritingArrangement"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessPartySuffix",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessPartySuffix",
+        "target_id": "BusinessIdentifierCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIncludedIn",
+                "BusinessIdentifierCode"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessPartySuffix",
+        "target_id": "BusinessIdentifierCodeScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "BusinessIdentifierCodeScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditUnion",
+        "target_id": "DepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditUnion",
+        "target_id": "CooperativeSociety",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessIdentifierCode",
+        "target_id": "StructuredIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessIdentifierCode",
+        "target_id": "BusinessPartyPrefix",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "BusinessPartyPrefix"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessIdentifierCode",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessIdentifierCode",
+        "target_id": "OrganizationIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessIdentifierCode",
+        "target_id": "BusinessPartySuffix",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "BusinessPartySuffix"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessIdentifierCode",
+        "target_id": "BusinessIdentifierCodeScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isMemberOf",
+                "BusinessIdentifierCodeScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "ClearingBank",
+        "target_id": "CommercialBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClearingBank",
+        "target_id": "ClearingHouse",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinanceCompany",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TrustCompany",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialServiceProviderIdentifierScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialServiceProviderIdentifierScheme",
+        "target_id": "FinancialServiceProviderIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "FinancialServiceProviderIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessIdentifierCodeScheme",
+        "target_id": "CodeSet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessIdentifierCodeScheme",
+        "target_id": "BusinessIdentifierCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "BusinessIdentifierCode"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessIdentifierCodeScheme",
+        "target_id": "OrganizationIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MoneyServicesBusiness",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HoldingCompany",
+        "target_id": "FunctionalBusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstitution",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "FinancialService"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstitution",
+        "target_id": "RegulatoryAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRegulatedBy",
+                "RegulatoryAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstitution",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentService",
+        "target_id": "MerchantService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CentralSecuritiesDepository",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClearingCorporation",
+        "target_id": "ClearingHouse",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerFinanceCompany",
+        "target_id": "FinanceCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegisteredInvestmentAdvisor",
+        "target_id": "RegisteredAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegisteredInvestmentAdvisor",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InsuranceService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualSavingsInstitution",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualSavingsInstitution",
+        "target_id": "Investor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MerchantService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InsuranceCompany",
+        "target_id": "RiskPoolingInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityTradingAdvisor",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MonetaryAuthority",
+        "target_id": "RegulatoryAgency",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankingService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankingService",
+        "target_id": "DepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "DepositoryInstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "ClearingHouse",
+        "target_id": "ClearingService",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "ClearingService"
+            ]
+        }
+    },
+    {
+        "source_id": "ClearingHouse",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CentralCounterpartyClearingHouse",
+        "target_id": "ClearingHouse",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessPartyPrefix",
+        "target_id": "BusinessIdentifierCode",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIncludedIn",
+                "BusinessIdentifierCode"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessPartyPrefix",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessPartyPrefix",
+        "target_id": "OrganizationIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessPartyPrefix",
+        "target_id": "BusinessIdentifierCodeScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "BusinessIdentifierCodeScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "InvestmentBank",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FuturesCommissionMerchant",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankHoldingCompany",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankHoldingCompany",
+        "target_id": "HoldingCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommercialFinanceCompany",
+        "target_id": "FinanceCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Bank",
+        "target_id": "DepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ManagementCompany",
+        "target_id": "InvestmentCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClearingService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CentralBank",
+        "target_id": "MonetaryAuthority",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CentralBank",
+        "target_id": "Bank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderwritingArrangement",
+        "target_id": "Underwriter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Underwriter"
+            ]
+        }
+    },
+    {
+        "source_id": "UnderwritingArrangement",
+        "target_id": "MutualContractualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DevelopmentBank",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RiskPoolingInstitution",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonDepositoryInstitution",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentCompany",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PayrollService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ElectronicFundsTransferService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SelfRegulatingOrganization",
+        "target_id": "RegulatoryAgency",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnitInvestmentTrust",
+        "target_id": "InvestmentCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FaceAmountCertificateCompany",
+        "target_id": "InvestmentCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DepositoryInstitution",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DataProcessingServicer",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

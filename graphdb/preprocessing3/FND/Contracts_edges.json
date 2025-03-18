@@ -1,0 +1,545 @@
+[
+    {
+        "source_id": "CollateralAgreement",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isSubordinateTo",
+                "WrittenContract"
+            ]
+        }
+    },
+    {
+        "source_id": "CollateralAgreement",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Contract",
+        "target_id": "ContractualElement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "ContractualElement"
+            ]
+        }
+    },
+    {
+        "source_id": "Contract",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasContractParty",
+                "ContractParty"
+            ]
+        }
+    },
+    {
+        "source_id": "Contract",
+        "target_id": "Agreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BreachOfContract",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BreachOfContract",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Contract"
+            ]
+        }
+    },
+    {
+        "source_id": "BreachOfContract",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "ContractualCommitment"
+            ]
+        }
+    },
+    {
+        "source_id": "WrittenContract",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WrittenContract",
+        "target_id": "isAssignable",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isAssignable"
+            ]
+        }
+    },
+    {
+        "source_id": "WrittenContract",
+        "target_id": "ContractPrincipal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPrincipalParty",
+                "ContractPrincipal"
+            ]
+        }
+    },
+    {
+        "source_id": "WrittenContract",
+        "target_id": "ContractDocument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEvidencedBy",
+                "ContractDocument"
+            ]
+        }
+    },
+    {
+        "source_id": "WrittenContract",
+        "target_id": "Counterparty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCounterparty",
+                "Counterparty"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractualDefinition",
+        "target_id": "ContractualElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransferableContract",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MilestoneEvent",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MilestoneEvent",
+        "target_id": "ContractMilestone",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "ContractMilestone"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractualCommitment",
+        "target_id": "MutualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualCommitment",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "hasPart",
+                "ContractualCommitment"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractualCommitment",
+        "target_id": "ContractualElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualCommitment",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isMandatedBy",
+                "Contract"
+            ]
+        }
+    },
+    {
+        "source_id": "NovateableContract",
+        "target_id": "TransferableContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AssignableContract",
+        "target_id": "isAssignable",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isAssignable"
+            ]
+        }
+    },
+    {
+        "source_id": "AssignableContract",
+        "target_id": "TransferableContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreement",
+        "target_id": "MutualContractualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreement",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MasterAgreement",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "governs",
+                "Contract"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractualElement",
+        "target_id": "Constituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualElement",
+        "target_id": "hasLegalDescription",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasLegalDescription"
+            ]
+        }
+    },
+    {
+        "source_id": "TermSheet",
+        "target_id": "NonBindingTerm",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasNonBindingTerm",
+                "NonBindingTerm"
+            ]
+        }
+    },
+    {
+        "source_id": "TermSheet",
+        "target_id": "Agreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConditionPrecedent",
+        "target_id": "ContractualElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExtensionProvision",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractMilestone",
+        "target_id": "ConditionPrecedent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractMilestone",
+        "target_id": "MilestoneEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "classifies",
+                "MilestoneEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractMilestone",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Contract"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractMilestone",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BreachOfCovenant",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "ContractualCommitment"
+            ]
+        }
+    },
+    {
+        "source_id": "BreachOfCovenant",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BreachOfCovenant",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Contract"
+            ]
+        }
+    },
+    {
+        "source_id": "DisclosureProvision",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Warranty",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractDocument",
+        "target_id": "LegalDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractParty",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractParty",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "Contract"
+            ]
+        }
+    },
+    {
+        "source_id": "TerminationProvision",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UseOfProceedsProvision",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractThirdParty",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MilestoneSchedule",
+        "target_id": "Schedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MilestoneSchedule",
+        "target_id": "MilestoneEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "MilestoneEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "MutualContractualAgreement",
+        "target_id": "MutualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MutualContractualAgreement",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractPrincipal",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnilateralContract",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonBindingTerm",
+        "target_id": "ContractualElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Representation",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VerbalContract",
+        "target_id": "Contract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Counterparty",
+        "target_id": "ContractParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "source_id": "CurrencyVolatilityOption",
+        "target_id": "CurrencyOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpotContract",
+        "target_id": "SpotContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpotContract",
+        "target_id": "CurrencyInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpotForwardSwap",
+        "target_id": "CurrencySwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpotForwardSwap",
+        "target_id": "CurrencySpotContract",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasLeg",
+                "CurrencySpotContract"
+            ]
+        }
+    },
+    {
+        "source_id": "CurrencyForwardOutright",
+        "target_id": "CurrencySpotContract",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPart",
+                "CurrencySpotContract"
+            ]
+        }
+    },
+    {
+        "source_id": "CurrencyForwardOutright",
+        "target_id": "CurrencyForward",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyForwardOutright",
+        "target_id": "CurrencySwap",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPart",
+                "CurrencySwap"
+            ]
+        }
+    },
+    {
+        "source_id": "CurrencyForward",
+        "target_id": "Forward",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyForward",
+        "target_id": "CurrencyDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyDerivative",
+        "target_id": "CurrencyInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyDerivative",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySwap",
+        "target_id": "CurrencyForward",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasLeg",
+                "CurrencyForward"
+            ]
+        }
+    },
+    {
+        "source_id": "CurrencySwap",
+        "target_id": "CurrencyDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySwap",
+        "target_id": "Swap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyOption",
+        "target_id": "CurrencyDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyOption",
+        "target_id": "VanillaOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyFuture",
+        "target_id": "CurrencyDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

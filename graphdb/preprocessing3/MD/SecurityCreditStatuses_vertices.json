@@ -1,0 +1,52 @@
+[
+    {
+        "id": "SecurityCreditStatus",
+        "type": "Class",
+        "name": "SecurityCreditStatus",
+        "label": "security credit status"
+    },
+    {
+        "id": "LifecycleStatus",
+        "type": "Entity",
+        "name": "LifecycleStatus"
+    },
+    {
+        "id": "InDefault",
+        "type": "Class",
+        "name": "InDefault",
+        "definition": "The issuer has failed to pay somthing that they are contractually obliged to pay.",
+        "label": "in default"
+    },
+    {
+        "id": "CreditOK",
+        "type": "Class",
+        "name": "CreditOK",
+        "label": "credit o k",
+        "definition": "Not defaulted."
+    },
+    {
+        "id": "SecurityCashflowStatus",
+        "type": "Class",
+        "name": "SecurityCashflowStatus",
+        "label": "security cashflow status",
+        "definition": "The status of the cashflow due to the holder from the security."
+    },
+    {
+        "id": "interestPaymentsExpected",
+        "type": "DatatypeProperty",
+        "name": "interestPaymentsExpected",
+        "label": "interest payments expected"
+    },
+    {
+        "id": "principalPaymentsExpected",
+        "type": "DatatypeProperty",
+        "name": "principalPaymentsExpected",
+        "label": "principal payments expected"
+    },
+    {
+        "id": "acceleratedPrincipalPaymentsExpected",
+        "type": "DatatypeProperty",
+        "name": "acceleratedPrincipalPaymentsExpected",
+        "label": "accelerated principal payments expected"
+    }
+]

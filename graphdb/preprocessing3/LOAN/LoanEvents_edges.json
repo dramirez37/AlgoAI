@@ -1,0 +1,50 @@
+[
+    {
+        "source_id": "LegalProceeding",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CollateralValuation",
+        "target_id": "AssessmentActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CourtJudgment",
+        "target_id": "LegalProceeding",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanPhase",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Prepayment",
+        "target_id": "Payment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RepaymentPhase",
+        "target_id": "LoanPhase",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanPaidInFull",
+        "target_id": "LoanPhase",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanDefaultProceeding",
+        "target_id": "LegalProceeding",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

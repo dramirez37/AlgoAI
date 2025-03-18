@@ -1,0 +1,570 @@
+[
+    {
+        "id": "MortgageCompany",
+        "type": "Class",
+        "name": "MortgageCompany",
+        "definition": "financial service provider that originates and/or funds mortgages for residential or commercial property",
+        "label": "mortgage company"
+    },
+    {
+        "id": "FinancialServiceProvider",
+        "type": "Entity",
+        "name": "FinancialServiceProvider"
+    },
+    {
+        "id": "WealthManagementService",
+        "type": "Class",
+        "name": "WealthManagementService",
+        "definition": "financial service that combines financial and investment advice, accounting and tax services, retirement planning and legal or estate planning for one set fee",
+        "label": "wealth management service"
+    },
+    {
+        "id": "FinancialService",
+        "type": "Entity",
+        "name": "FinancialService"
+    },
+    {
+        "id": "SavingsAssociation",
+        "type": "Class",
+        "name": "SavingsAssociation",
+        "definition": "depository institution that is (a) any federal savings bank or association chartered under section 1464 of the Federal Deposit Insurance Act; (b) any state chartered building and loan association, savings and loan association, or homestead association; or (c) any cooperative bank (other than a cooperative bank which is a state bank as defined in subsection (a)(2)) of the Federal Deposit Insurance Act, which is organized and operating according to the laws of the State (as defined in subsection (a)(3)) in which it is chartered or organized; and (c) any corporation (other than a bank) that the board of directors and the comptroller of the currency jointly determine to be operating in substantially the same manner as such a depository institution",
+        "label": "savings association"
+    },
+    {
+        "id": "DepositoryInstitution",
+        "type": "Class",
+        "name": "DepositoryInstitution",
+        "label": "depository institution",
+        "definition": "any financial institution engaged in the business of receiving demand deposits from the public or other institutions"
+    },
+    {
+        "id": "BrokerageFirm",
+        "type": "Class",
+        "name": "BrokerageFirm",
+        "definition": "firm in the business of buying and selling securities, operating as both a broker and a dealer, depending on the transaction",
+        "explanatoryNote": "The term broker-dealer is used in U.S. securities regulation parlance to describe stock brokerages, because most of them act as both agents and principals. A brokerage acts as a broker (or agent) when it executes orders on behalf of clients, whereas it acts as a dealer (or principal) when it trades for its own account.",
+        "label": "brokerage firm"
+    },
+    {
+        "id": "NonDepositoryInstitution",
+        "type": "Class",
+        "name": "NonDepositoryInstitution",
+        "definition": "financial institution that does not have a full banking license and typically is not supervised by a national or international banking regulatory agency",
+        "explanatoryNote": "A non-depository financial institution acts as a middleman between two parties in a financial transaction, and does not provide traditional depository services, such as brokerage firms, insurance companies, and investment companies. These kinds of institutions facilitate alternative financial services, such as investment (both collective and individual), risk pooling, financial consulting, brokering, money transmission, and check cashing. NBFIs are a source of consumer credit (along with licensed banks). Examples of nonbank financial institutions include insurance firms, venture capitalists, currency exchanges, some microloan organizations, and pawn shops. These non-bank financial institutions provide services that are not necessarily suited to banks, serve as competition to banks, and specialize in sectors or groups.",
+        "label": "non-depository institution"
+    },
+    {
+        "id": "BrokerDealer",
+        "type": "Entity",
+        "name": "BrokerDealer"
+    },
+    {
+        "id": "DataProcessingService",
+        "type": "Class",
+        "name": "DataProcessingService",
+        "definition": "financial service offered by an entity primarily engaged in providing infrastructure for hosting or data processing services",
+        "label": "data processing service"
+    },
+    {
+        "id": "FinancialServiceProviderIdentifier",
+        "type": "Class",
+        "name": "FinancialServiceProviderIdentifier",
+        "definition": "identifier that is officially allocated to a financial service provider based on a function that they provide, typically in a jurisdiction over which a regulatory agency has some jurisdiction",
+        "label": "financial service provider identifier"
+    },
+    {
+        "id": "PartyRoleIdentifier",
+        "type": "Entity",
+        "name": "PartyRoleIdentifier"
+    },
+    {
+        "id": "PrincipalUnderwriter",
+        "type": "Class",
+        "name": "PrincipalUnderwriter",
+        "label": "principal underwriter",
+        "definition": "underwriter who, as principal, purchases from an investment company, or pursuant to some contract has the right to purchase from such company, any security for distribution, or who as agent for such company sells or has the right to sell any security to a dealer or to the public, excluding any dealer who purchases from such company through sn underwriter acting as an agent for such company",
+        "explanatoryNote": "Principal underwriter of or for a closed-end company or any issuer which is not an investment company, or of any security issued by such a company or issuer, means any underwriter who, in connection with a primary distribution of securities, (a) is in privity of contract with the issuer or an affiliated person of the issuer; (b) acting alone or in concert with one or more other persons, initiates or directs the formation of an underwriting syndicate; or (c) is allowed a rate of gross commission, spread, or other profit greater than the rate allowed another underwriter participating in the distribution."
+    },
+    {
+        "id": "Underwriter",
+        "type": "Class",
+        "name": "Underwriter",
+        "label": "underwriter",
+        "definition": "financial service provider that evaluates and assumes another party's risk for a fee, such as a commission, premium, spread or interest"
+    },
+    {
+        "id": "CommercialBank",
+        "type": "Class",
+        "name": "CommercialBank",
+        "label": "commercial bank",
+        "explanatoryNote": "A commercial bank is a financial institution that is owned by stockholders, operates for a profit, and engages in various lending activities. Commercial banks provide services, such as accepting deposits, giving business loans and auto loans, mortgage lending, and basic investment products like savings accounts and certificates of deposit.",
+        "definition": "depository institution that engages in various financial services, such as accepting deposits and making loans"
+    },
+    {
+        "id": "Bank",
+        "type": "Class",
+        "name": "Bank",
+        "label": "bank",
+        "definition": "depository institution, usually a corporation, that accepts deposits, makes loans, pays checks, and performs related services, for individual members of the public, businesses or other organizations"
+    },
+    {
+        "id": "SalesFinanceCompany",
+        "type": "Class",
+        "name": "SalesFinanceCompany",
+        "label": "sales finance company",
+        "definition": "finance company that purchases retail and wholesale paper from automobile and other consumer and commercial goods dealers"
+    },
+    {
+        "id": "FinanceCompany",
+        "type": "Class",
+        "name": "FinanceCompany",
+        "definition": "financial intermediary in the business of making loans that obtains its financing from banks, institutions, and other money market sources rather than from deposits",
+        "label": "finance company"
+    },
+    {
+        "id": "BankingProduct",
+        "type": "Class",
+        "name": "BankingProduct",
+        "label": "banking product",
+        "definition": "product provided to consumers and businesses by a depository institution"
+    },
+    {
+        "id": "FinancialProduct",
+        "type": "Entity",
+        "name": "FinancialProduct"
+    },
+    {
+        "id": "BusinessPartySuffix",
+        "type": "Class",
+        "name": "BusinessPartySuffix",
+        "label": "business party suffix",
+        "explanatoryNote": "In the prior version of the standard, position 7 of the BIC determined the location of the BIC in a particular country. In a country spanning over multiple time zones, each character may have been used to define a different time zone. If an organization moved location to a different time zone within the same country, the existing BIC would normally have been deleted and replaced by a new BIC with the appropriate location code.",
+        "definition": "two-character (2 alphanumeric) code associated with the organization for the purposes of banking telecommunications"
+    },
+    {
+        "id": "CodeElement",
+        "type": "Entity",
+        "name": "CodeElement"
+    },
+    {
+        "id": "CreditUnion",
+        "type": "Class",
+        "name": "CreditUnion",
+        "label": "credit union",
+        "definition": "not-for-profit depository institution that makes personal loans and offers other consumer banking services, organized for the purpose of promoting thrift among its members and creating a source of credit for provident or productive purposes"
+    },
+    {
+        "id": "CooperativeSociety",
+        "type": "Entity",
+        "name": "CooperativeSociety"
+    },
+    {
+        "id": "BusinessIdentifierCode",
+        "type": "Class",
+        "name": "BusinessIdentifierCode",
+        "explanatoryNote": "The BIC is used for addressing messages, routing business transactions and identifying business parties. Note that the use of OrganizationPartIdentifier in FIBO corresponds to the Branch Code in the SWIFT scheme.",
+        "abbreviation": "BIC",
+        "definition": "international identifier for financial and non-financial institutions used to facilitate automated processing of information for financial services",
+        "label": "business identifier code"
+    },
+    {
+        "id": "StructuredIdentifier",
+        "type": "Entity",
+        "name": "StructuredIdentifier"
+    },
+    {
+        "id": "OrganizationIdentifier",
+        "type": "Entity",
+        "name": "OrganizationIdentifier"
+    },
+    {
+        "id": "ClearingBank",
+        "type": "Class",
+        "name": "ClearingBank",
+        "definition": "commercial bank that facilitates payment and settlement of financial transactions, such as check clearing or facilitating trades between the sellers and buyers of securities or other financial instruments or contracts",
+        "label": "clearing bank"
+    },
+    {
+        "id": "ClearingHouse",
+        "type": "Class",
+        "name": "ClearingHouse",
+        "definition": "financial service provider that is exchange affiliated and provides clearing services, including the validation, delivery, and settlement of financial transactions, for financial intermediaries",
+        "label": "clearing house"
+    },
+    {
+        "id": "TrustCompany",
+        "type": "Class",
+        "name": "TrustCompany",
+        "explanatoryNote": "A professional trust company may be independently owned or owned by, for example, a bank or a law firm, and which specializes in being a trustee of various kinds of trusts. The trust company oversees the management of assets covered by the trust agreement. Such companies often are used when a grantor feels the trust company can do an equal or better job managing the assets than an individual person, or if the grantor does not know of anyone else who can act as trustee. Trust companies sometimes act as fiscal agents for corporations by attending to the registration and transfer of their stocks and bonds, serving as a trustee for their bond and mortgage creditors, and transacting general banking and loan business.",
+        "definition": "financial institution that acts as a fiduciary, trustee or agent of trusts and agencies",
+        "label": "trust company"
+    },
+    {
+        "id": "FinancialInstitution",
+        "type": "Class",
+        "name": "FinancialInstitution",
+        "explanatoryNote": "Financial institutions are differentiated by the way they obtain and invest funds. Depository institutions accept public deposits, which are insured by the government against loss, and channel those deposits into lending activities. Non-depository institutions, such as brokerage firms, life insurance companies, pension funds, and investment companies, fund their investment activities directly from financial markets by selling securities to the public or by selling insurance policies, in the case of insurance companies.",
+        "label": "financial institution",
+        "definition": "financial service provider identified as either a government agency or privately owned entity that collects funds from the public and from other institutions, and invests those funds in financial assets, such as loans, securities, bank deposits, and income-generating property"
+    },
+    {
+        "id": "InvestmentService",
+        "type": "Class",
+        "name": "InvestmentService",
+        "definition": "financial service designed to assist investors in using capital to create more money, either through income-producing vehicles or through more risk-oriented ventures to result in capital gains, including but not limited to providing investment advice, asset and portfolio management, and brokerage services",
+        "label": "investment service"
+    },
+    {
+        "id": "FinancialServiceProviderIdentifierScheme",
+        "type": "Class",
+        "name": "FinancialServiceProviderIdentifierScheme",
+        "label": "financial service provider identifier scheme",
+        "definition": "scheme that defines the financial service provider identifier per the issuing registration authority or regulatory agency"
+    },
+    {
+        "id": "IdentificationScheme",
+        "type": "Entity",
+        "name": "IdentificationScheme"
+    },
+    {
+        "id": "BusinessIdentifierCodeScheme",
+        "type": "Class",
+        "name": "BusinessIdentifierCodeScheme",
+        "label": "business identifier code scheme",
+        "definition": "scheme that specifies the elements of a unique business identifier code (BIC) scheme to identify financial and non-financial institutions used to facilitate automated processing of information for financial services"
+    },
+    {
+        "id": "CodeSet",
+        "type": "Entity",
+        "name": "CodeSet"
+    },
+    {
+        "id": "OrganizationIdentificationScheme",
+        "type": "Entity",
+        "name": "OrganizationIdentificationScheme"
+    },
+    {
+        "id": "MoneyServicesBusiness",
+        "type": "Class",
+        "name": "MoneyServicesBusiness",
+        "explanatoryNote": "This definition excludes banks and persons registered with or examined by the Securities and Exchange Commission or the Commodities Futures Trading Commission.",
+        "definition": "any person doing business, whether or not on a regular basis or as an organized business concern, in one of the following capacities: (1) currency dealer or exchanger, (2) check casher, (3) issuer of traveler's checks, money orders, or stored value, (4) seller or redeemer of traveler's checks, money orders, or stored value, (5) money transmitter, or (6) postal service",
+        "label": "money services business",
+        "abbreviation": "MSB"
+    },
+    {
+        "id": "HoldingCompany",
+        "type": "Class",
+        "name": "HoldingCompany",
+        "label": "holding company",
+        "definition": "business entity established to own stock in another company, typically to own enough voting shares to have some level of control over that company's policies and management",
+        "explanatoryNote": "Holding companies protect their owners from losses to some degree, protecting assets, for example, in case of bankruptcy. They can also be set up to own property such as real estate, patents, trademarks, stocks and other assets to limit financial and legal liability"
+    },
+    {
+        "id": "FunctionalBusinessEntity",
+        "type": "Entity",
+        "name": "FunctionalBusinessEntity"
+    },
+    {
+        "id": "PaymentService",
+        "type": "Class",
+        "name": "PaymentService",
+        "label": "payment service",
+        "definition": "financial service that involves acceptance of electronic payments by a variety of payment methods including credit card, bank-based payments such as direct debit, bank transfer, and real-time bank transfer based on online banking"
+    },
+    {
+        "id": "MerchantService",
+        "type": "Class",
+        "name": "MerchantService",
+        "definition": "financial service provided by a financial institution to a merchant or other business, including but not limited to managing financial transactions via a secure channel",
+        "label": "merchant service"
+    },
+    {
+        "id": "CentralSecuritiesDepository",
+        "type": "Class",
+        "name": "CentralSecuritiesDepository",
+        "explanatoryNote": "CSDs' clients are typically financial institutions themselves (such as custodian banks and brokers) rather than individual investors.",
+        "abbreviation": "CSD",
+        "definition": "functional entity that provides a central point for depositing financial instruments ('securities'), for example, bonds and shares",
+        "label": "central securities depository"
+    },
+    {
+        "id": "ClearingCorporation",
+        "type": "Class",
+        "name": "ClearingCorporation",
+        "label": "clearing corporation",
+        "definition": "clearing house that is organized as a corporation"
+    },
+    {
+        "id": "ConsumerFinanceCompany",
+        "type": "Class",
+        "name": "ConsumerFinanceCompany",
+        "definition": "finance company that lends to individuals under the small loans laws of the jurisdiction in which they operate",
+        "label": "consumer finance company"
+    },
+    {
+        "id": "RegisteredInvestmentAdvisor",
+        "type": "Class",
+        "name": "RegisteredInvestmentAdvisor",
+        "abbreviation": "RIA",
+        "label": "registered investment advisor",
+        "definition": "registered agent and financial service provider that advises high net worth individuals on investments and manages their portfolios"
+    },
+    {
+        "id": "RegisteredAgent",
+        "type": "Entity",
+        "name": "RegisteredAgent"
+    },
+    {
+        "id": "InsuranceService",
+        "type": "Class",
+        "name": "InsuranceService",
+        "definition": "financial service in which the insurer promises to provide compensation for specific potential future losses in exchange for a periodic payment",
+        "label": "insurance service",
+        "explanatoryNote": "Insurance providers invest the compensation they receive in order to make a profit. In general, insurance transfers risk from individuals or organizations to a larger pool of individuals or organizations that are better able to mitigate that risk."
+    },
+    {
+        "id": "ContractualSavingsInstitution",
+        "type": "Class",
+        "name": "ContractualSavingsInstitution",
+        "explanatoryNote": "Typically more than 70 percent of the daily trading on the New York Stock Exchange is conducted on behalf of institutional investors.",
+        "definition": "financial institution that provides the opportunity for individuals to invest in collective investment vehicles in a fiduciary rather than a principle role",
+        "label": "contractual savings institution"
+    },
+    {
+        "id": "Investor",
+        "type": "Entity",
+        "name": "Investor"
+    },
+    {
+        "id": "InsuranceCompany",
+        "type": "Class",
+        "name": "InsuranceCompany",
+        "label": "insurance company",
+        "explanatoryNote": "In the US, insurance companies are subject to supervision by the insurance commissioner or a similar official or agency of a State; or any receiver or similar official or any liquidating agent for such a company, in his capacity as such. Common forms of insurance include life, property and casualty, and health insurance. In addition to insuring against hazards, many insurance companies also sell investments or investment-like products. The most prevalent investment products offered by insurers are annuities and life insurance policies that also feature investment elements.\n\nA number of insurance companies operate brokerage arms that trade securities on behalf of clients.",
+        "definition": "non-depository institution whose primary and predominant business activity is the writing of insurance or the reinsuring of risks underwritten by insurance companies, and that provides compensation based on the happening of at least one contingency"
+    },
+    {
+        "id": "RiskPoolingInstitution",
+        "type": "Class",
+        "name": "RiskPoolingInstitution",
+        "label": "risk pooling institution",
+        "definition": "financial institution that provides some financial service while spreading the financial risk inherent in that service to lower the probability of a catastrophic financial event by aggregating customers across diverse dimensions as a risk management practice"
+    },
+    {
+        "id": "CommodityTradingAdvisor",
+        "type": "Class",
+        "name": "CommodityTradingAdvisor",
+        "abbreviation": "CTA",
+        "explanatoryNote": "Indirect advice includes exercising trading authority over a customer's account. In the U.S., registered CTAs are registered with the Commodities Futures Trading Commission (CFTC) and are generally required to be members of the National Futures Association (NFA).",
+        "definition": "party that directly or indirectly advises others as to the value or advisability of buying or selling futures contracts or options",
+        "label": "commodity trading advisor"
+    },
+    {
+        "id": "MonetaryAuthority",
+        "type": "Class",
+        "name": "MonetaryAuthority",
+        "label": "monetary authority",
+        "definition": "regulatory agency that controls the monetary policy, regulation and supply of money in some country or group of countries"
+    },
+    {
+        "id": "RegulatoryAgency",
+        "type": "Entity",
+        "name": "RegulatoryAgency"
+    },
+    {
+        "id": "BankingService",
+        "type": "Class",
+        "name": "BankingService",
+        "label": "banking service",
+        "definition": "financial service offered by a depository institution"
+    },
+    {
+        "id": "CentralCounterpartyClearingHouse",
+        "type": "Class",
+        "name": "CentralCounterpartyClearingHouse",
+        "explanatoryNote": "These clearing houses are often operated by the major banks in the country. The house's prime responsibility is to provide efficiency and stability to the financial markets that they operate in.\n\nThere are two main processes that are carried out by CCPs: clearing and settlement of market transactions. Clearing relates to identifying the obligations of both parties on either side of a transaction. Settlement occurs when the final transfer of securities and funds occur.\n\nCCPs benefit both parties in a transaction because they bear most of the credit risk. If two individuals deal with one another, the buyer bears the credit risk of the seller, and vice versa. When a CCP is used the credit risk that is held against both buyer and seller is coming from the CCP, which in all likelihood is much less than in the previous situation.",
+        "label": "central counterparty clearing house",
+        "definition": "clearing house that helps facilitate trading in derivatives and equities markets",
+        "abbreviation": "CCP"
+    },
+    {
+        "id": "BusinessPartyPrefix",
+        "type": "Class",
+        "name": "BusinessPartyPrefix",
+        "explanatoryNote": "For new BIC registration by an organization already identified with a BIC or an affiliated organization [after the transition period ending November 2018], SWIFT will still reserve the usage of an existing party prefix to these organizations. This legacy rule will be reserved to existing BIC owners. If they wish to preserve this value, no other organization will be allowed to use the same code",
+        "label": "business party prefix",
+        "definition": "four-character (4 alphanumeric) code associated with an organization for the purposes of banking telecommunications"
+    },
+    {
+        "id": "InvestmentBank",
+        "type": "Class",
+        "name": "InvestmentBank",
+        "label": "investment bank",
+        "explanatoryNote": "Major investment banks include Barclays, BofA Merrill Lynch, Warburgs, Goldman Sachs, Deutsche Bank, JP Morgan, Morgan Stanley, Salomon Brothers, UBS, Credit Suisse, Citibank and Lazard. Some investment banks specialize in particular industry sectors. Many investment banks also have retail operations that serve small, individual customers.",
+        "definition": "financial service provider that acts as an underwriter or agent that serves as intermediary between the issuer of securities and the investing public"
+    },
+    {
+        "id": "FuturesCommissionMerchant",
+        "type": "Class",
+        "name": "FuturesCommissionMerchant",
+        "abbreviation": "FCM",
+        "definition": "party that does both of the following: (1) solicits or accepts orders to buy or sell futures contracts, options on futures, retail off-exchange forex contracts, or swaps and (2) accepts money or other assets from customers to support such orders",
+        "label": "futures commission merchant"
+    },
+    {
+        "id": "BankHoldingCompany",
+        "type": "Class",
+        "name": "BankHoldingCompany",
+        "definition": "any company that owns and/or has direct or indirect control of one or more banks; BHCs may also own nonbanking subsidiaries such as broker-dealers and asset managers",
+        "explanatoryNote": "A bank holding company may also own another bank holding company, which in turn owns or controls a bank; the company at the top of the ownership chain is called the top holder.",
+        "label": "bank holding company"
+    },
+    {
+        "id": "CommercialFinanceCompany",
+        "type": "Class",
+        "name": "CommercialFinanceCompany",
+        "definition": "finance company that makes loans to manufacturers and wholesalers, secured by accounts receivable, inventories, and equipment",
+        "label": "commercial finance company"
+    },
+    {
+        "id": "ManagementCompany",
+        "type": "Class",
+        "name": "ManagementCompany",
+        "definition": "investment company that sells and manages a portfolio of securities other than a face-amount certificate company or unit investment fund",
+        "explanatoryNote": "Management companies allow investors to pool their capital with that of other investors in order to purchase professionally-managed groups of diversified securities.",
+        "label": "management company"
+    },
+    {
+        "id": "InvestmentCompany",
+        "type": "Class",
+        "name": "InvestmentCompany",
+        "explanatoryNote": "An investment company is organized as either a corporation or as a trust. Individual investors' money is then pooled together in a single account and used to purchase securities that will have the greatest chance of helping the investment company reach its objectives. All investors jointly own the portfolio that is created through these pooled funds, and each investor has an undivided interest in the securities.",
+        "label": "investment company",
+        "definition": "any issuer which: (a) is or holds itself out as being engaged primarily, or proposes to engage primarily, in the business of investing, reinvesting, or trading in securities; (b) is engaged or proposes to engage in the business of issuing face-amount certificates of the installment type, or has been engaged in such business and has any such certificate outstanding; or (c) is engaged or proposes to engage in the business of investing, reinvesting, owning, holding, or trading in securities, and owns or proposes to acquire investment securities having a value exceeding 40 per centum of the value of such issuer&apos;s total assets (exclusive of Government securities and cash items) on an unconsolidated basis"
+    },
+    {
+        "id": "ClearingService",
+        "type": "Class",
+        "name": "ClearingService",
+        "definition": "service provided on behalf of an institutional market participant by a clearing services provider following a trade that finalizes the transfer of security ownership",
+        "label": "clearing service"
+    },
+    {
+        "id": "CentralBank",
+        "type": "Class",
+        "name": "CentralBank",
+        "label": "central bank",
+        "definition": "financial institution that is the monetary authority and major regulatory bank for a country (or group of countries)",
+        "explanatoryNote": "Its functions include issuing and managing the country's currency, controlling monetary policy and supervising money market operations, managing exchange and gold reserves, acting as lender of last resort to commercial banks, and providing banking services to the government. Central banks are state-controlled but are increasingly being given an independent status to insulate them from partisan politics."
+    },
+    {
+        "id": "UnderwritingArrangement",
+        "type": "Class",
+        "name": "UnderwritingArrangement",
+        "definition": "contractual agreement between parties that commits the underwriter to assuming risk",
+        "label": "underwriting arrangement"
+    },
+    {
+        "id": "MutualContractualAgreement",
+        "type": "Entity",
+        "name": "MutualContractualAgreement"
+    },
+    {
+        "id": "DevelopmentBank",
+        "type": "Class",
+        "name": "DevelopmentBank",
+        "definition": "national or regional financial institution designed to provide medium- and long-term capital for productive investment, often accompanied by technical assistance, in poor countries",
+        "label": "development bank"
+    },
+    {
+        "id": "PayrollService",
+        "type": "Class",
+        "name": "PayrollService",
+        "label": "payroll service",
+        "definition": "financial service, typically provided to small businesses that are not large enough to have an internal finance organization, that involves managing payment of wages to employees",
+        "explanatoryNote": "Payroll services typically include printing of employee pay checks, direct deposit of wages to employee bank accounts, calculation and withholding of employee taxes, calculation and payment of corporate payroll taxes and fees with appropriate government authorities (such as Social Security in the US), filing government quarterly and annual reports, and so forth. They may also include management of retirement and savings plans, health benefits, timekeeping, automated integration with the business' accounting system, etc."
+    },
+    {
+        "id": "ElectronicFundsTransferService",
+        "type": "Class",
+        "name": "ElectronicFundsTransferService",
+        "label": "electronic funds transfer service",
+        "definition": "service involving any transfer of funds other than a transaction involving a paper instrument, that is initiated through an electronic terminal, telephone, or computer and that orders or authorizes a financial institution to debit or credit an account",
+        "abbreviation": "EFT"
+    },
+    {
+        "id": "SelfRegulatingOrganization",
+        "type": "Class",
+        "name": "SelfRegulatingOrganization",
+        "definition": "non-governmental organization that has the power to create and exercise some degree of regulatory authority over an industry or profession in some country or group of countries",
+        "abbreviation": "SRO",
+        "label": "self-regulating organization"
+    },
+    {
+        "id": "UnitInvestmentTrust",
+        "type": "Class",
+        "name": "UnitInvestmentTrust",
+        "label": "unit investment trust",
+        "definition": "investment company which (a) is organized under a trust indenture, contract of custodianship or agency, or similar instrument, (b) does not have a board of directors, and (c) issues only redeemable securities, each of which represents an undivided interest in a unit of specified securities; but does not include a voting trust"
+    },
+    {
+        "id": "FaceAmountCertificateCompany",
+        "type": "Class",
+        "name": "FaceAmountCertificateCompany",
+        "definition": "investment company which is engaged or proposes to engage in the business of issuing face-amount certificates of the installment type, or which has been engaged in such business and has any such certificate outstanding",
+        "label": "face amount certificate company",
+        "explanatoryNote": "An investor may enter into a contract with an issuer of a face amount certificate to contract to receive a stated or fixed amount of money (the face amount) at a stated date in the future. In exchange for this future sum, the investor must deposit an agreed lump sum or make scheduled installment payments over time. Face amount certificates are rarely issued these days, as most of the tax advantages that the investment once offered have been lost through changes in the tax laws."
+    },
+    {
+        "id": "DataProcessingServicer",
+        "type": "Class",
+        "name": "DataProcessingServicer",
+        "explanatoryNote": "These establishments may provide specialized hosting activities, such as web hosting, streaming services or application hosting, provide application service provisioning, or may provide general time-share mainframe facilities to clients. Data processing establishments provide complete processing and specialized reports from data supplied by clients or provide automated data processing and data entry services.",
+        "definition": "finance services provider primarily engaged in providing infrastructure for hosting or data processing services",
+        "label": "data processing servicer"
+    },
+    {
+        "id": "hasDateEstablishmentTerminated",
+        "type": "ObjectProperty",
+        "name": "hasDateEstablishmentTerminated",
+        "definition": "last full day that the entity existed",
+        "label": "has date establishment terminated"
+    },
+    {
+        "id": "hasPortfolioCompany",
+        "type": "ObjectProperty",
+        "name": "hasPortfolioCompany",
+        "label": "has portfolio company",
+        "definition": "indicates a party in which a venture capital firm, a buyout firm, or a holding company has invested"
+    },
+    {
+        "id": "regulatesSupplyOf",
+        "type": "ObjectProperty",
+        "name": "regulatesSupplyOf",
+        "definition": "relates a regulatory agency to something it controls or supervises the availability of in some market by means of rules and regulations",
+        "label": "regulates supply of"
+    },
+    {
+        "id": "isPortfolioCompanyOf",
+        "type": "ObjectProperty",
+        "name": "isPortfolioCompanyOf",
+        "definition": "indicates a venture capital firm, a buyout firm, or a holding company that is a financial sponsor (i.e. investor in) of the party",
+        "label": "is portfolio company of"
+    },
+    {
+        "id": "hasDateInsured",
+        "type": "ObjectProperty",
+        "name": "hasDateInsured",
+        "definition": "date on which insurance became effective",
+        "label": "has date insured"
+    },
+    {
+        "id": "hasDateEstablished",
+        "type": "ObjectProperty",
+        "name": "hasDateEstablished",
+        "definition": "the date that the financial service provider was formally established",
+        "label": "has date established",
+        "explanatoryNote": "This may be the date on its papers of incorporation or formation document, or the date on which it was granted a license."
+    }
+]

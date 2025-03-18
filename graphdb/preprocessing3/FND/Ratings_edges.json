@@ -1,0 +1,376 @@
+[
+    {
+        "source_id": "Rating",
+        "target_id": "RatingIssuer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIssuedBy",
+                "RatingIssuer"
+            ]
+        }
+    },
+    {
+        "source_id": "Rating",
+        "target_id": "rates",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "rates"
+            ]
+        }
+    },
+    {
+        "source_id": "Rating",
+        "target_id": "Opinion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Rating",
+        "target_id": "RatingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isGeneratedBy",
+                "RatingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "Rating",
+        "target_id": "RatingScore",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRatingScore",
+                "RatingScore"
+            ]
+        }
+    },
+    {
+        "source_id": "QualitativeRatingScore",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QualitativeRatingScore",
+        "target_id": "RatingScore",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatingAssessmentActivity",
+        "target_id": "RatingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "RatingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingAssessmentActivity",
+        "target_id": "AssessmentActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QuantitativeRatingScore",
+        "target_id": "hasMeasureWithinScale",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasMeasureWithinScale"
+            ]
+        }
+    },
+    {
+        "source_id": "QuantitativeRatingScore",
+        "target_id": "RatingScore",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatingAssessmentEvent",
+        "target_id": "RatingReport",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOutput",
+                "RatingReport"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingAssessmentEvent",
+        "target_id": "RatingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "RatingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingAssessmentEvent",
+        "target_id": "Rating",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOutput",
+                "Rating"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingAssessmentEvent",
+        "target_id": "RatingAssessmentActivity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "exemplifies",
+                "RatingAssessmentActivity"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingAssessmentEvent",
+        "target_id": "AssessmentEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatingScore",
+        "target_id": "hasMeasureWithinScale",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasMeasureWithinScale"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingScore",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatingScore",
+        "target_id": "RatingScale",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isDefinedIn",
+                "RatingScale"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingIssuer",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatingIssuer",
+        "target_id": "Rating",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "Rating"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingAgency",
+        "target_id": "RatingIssuer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatingAgency",
+        "target_id": "RatingScalePublisher",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatingParty",
+        "target_id": "Rating",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "generates",
+                "Rating"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingParty",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatingScalePublisher",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatingScalePublisher",
+        "target_id": "RatingScale",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "manages",
+                "RatingScale"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingScale",
+        "target_id": "hasBestMeasure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasBestMeasure"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingScale",
+        "target_id": "ClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatingScale",
+        "target_id": "RatingScalePublisher",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isManagedBy",
+                "RatingScalePublisher"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingScale",
+        "target_id": "hasWorstMeasure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasWorstMeasure"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingScale",
+        "target_id": "RatingScore",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "RatingScore"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingReport",
+        "target_id": "Rating",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "reportsOn",
+                "Rating"
+            ]
+        }
+    },
+    {
+        "source_id": "RatingReport",
+        "target_id": "AssessmentReport",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

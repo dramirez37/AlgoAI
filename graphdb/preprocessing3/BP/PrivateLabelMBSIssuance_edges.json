@@ -1,0 +1,674 @@
+[
+    {
+        "source_id": "DefinePoolCharacteristics",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DefinePoolCharacteristics",
+        "target_id": "NotYetIssuedNonAgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefiningOf",
+                "NotYetIssuedNonAgencyMortgagePool"
+            ]
+        }
+    },
+    {
+        "source_id": "GetCommitmentFromInvestors",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GetCommitmentFromInvestors",
+        "target_id": "DraftTrancheNotesParameters",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasResource.2",
+                "DraftTrancheNotesParameters"
+            ]
+        }
+    },
+    {
+        "source_id": "GetCommitmentFromInvestors",
+        "target_id": "DraftTrancheNotesParameters",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasResource",
+                "DraftTrancheNotesParameters"
+            ]
+        }
+    },
+    {
+        "source_id": "GetCommitmentFromInvestors",
+        "target_id": "TranchedDraftProspectus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "commitmentBasedOn",
+                "TranchedDraftProspectus"
+            ]
+        }
+    },
+    {
+        "source_id": "PoolTrustee",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PotentialNonAgencyMBSIssuer",
+        "target_id": "AssessPoolSuitabilityForIssuance",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "evaluates",
+                "AssessPoolSuitabilityForIssuance"
+            ]
+        }
+    },
+    {
+        "source_id": "PotentialNonAgencyMBSIssuer",
+        "target_id": "AssessRatings",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "evaluates",
+                "AssessRatings"
+            ]
+        }
+    },
+    {
+        "source_id": "PotentialNonAgencyMBSIssuer",
+        "target_id": "PoolBackedSecuritySecuritizationProcessActor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IdentifyUnderwriter",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IdentifyUnderwriter",
+        "target_id": "PotentialTranchedIssueUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "resultsIn",
+                "PotentialTranchedIssueUnderwriter"
+            ]
+        }
+    },
+    {
+        "source_id": "DefineNotesParameters",
+        "target_id": "DraftTrancheNotesParameters",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "resultsIn.1",
+                "DraftTrancheNotesParameters"
+            ]
+        }
+    },
+    {
+        "source_id": "DefineNotesParameters",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TrancheNotesParameters",
+        "target_id": "TranchedMBSIssueProspectusPart",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AssessRatings",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TranchedMBSDealTransaction",
+        "target_id": "FinancialPrimaryMarketTransaction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TranchedMBSDealTransaction",
+        "target_id": "TranchedMBSPrimaryDealTransactionSettlementProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "follows",
+                "TranchedMBSPrimaryDealTransactionSettlementProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "TranchedMBSDealTransaction",
+        "target_id": "PrimaryInvestor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCounterparty",
+                "PrimaryInvestor"
+            ]
+        }
+    },
+    {
+        "source_id": "DraftTrancheNotesParameters",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PurchaseMortgageIntoPool",
+        "target_id": "InAssemblyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "addsTo",
+                "InAssemblyMortgagePool"
+            ]
+        }
+    },
+    {
+        "source_id": "PurchaseMortgageIntoPool",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinalizeProspectus",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TranchedOfferingMemorandum",
+        "target_id": "OfferingDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TranchedOfferingMemorandum",
+        "target_id": "TrancheStructureAndTermsheet",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "includesDetailsAbout",
+                "TrancheStructureAndTermsheet"
+            ]
+        }
+    },
+    {
+        "source_id": "TranchedOfferingMemorandum",
+        "target_id": "DraftTrancheNotesParameters",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "mayIncludeDetailsAbout",
+                "DraftTrancheNotesParameters"
+            ]
+        }
+    },
+    {
+        "source_id": "TranchedOfferingMemorandum",
+        "target_id": "IndividualTrancheDefinitions",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "includesDetailsAbout.1",
+                "IndividualTrancheDefinitions"
+            ]
+        }
+    },
+    {
+        "source_id": "TranchedMBSProspectusOutline",
+        "target_id": "DraftTrancheTermsheet",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContent.1",
+                "DraftTrancheTermsheet"
+            ]
+        }
+    },
+    {
+        "source_id": "TranchedMBSProspectusOutline",
+        "target_id": "PreliminaryProspectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InIssuanceNonAgencyMortgagePool",
+        "target_id": "NonAgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyMortgagePool",
+        "target_id": "PoolTrustee",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasTrustee",
+                "PoolTrustee"
+            ]
+        }
+    },
+    {
+        "source_id": "FinalizePoolContent",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinalizePoolContent",
+        "target_id": "InIssuanceNonAgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "finalizes.1",
+                "InIssuanceNonAgencyMortgagePool"
+            ]
+        }
+    },
+    {
+        "source_id": "AssessPoolSuitabilityForIssuance",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AssessPoolSuitabilityForIssuance",
+        "target_id": "InAssemblyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAssessmentOf",
+                "InAssemblyMortgagePool"
+            ]
+        }
+    },
+    {
+        "source_id": "IdentifyConformingMortgage",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RemittanceReport",
+        "target_id": "Report",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DraftTrancheStructure",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PotentialTranchedIssueUnderwriter",
+        "target_id": "PotentialUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndividualTrancheDefinitions",
+        "target_id": "TranchedMBSIssueProspectusPart",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndividualTrancheDefinitions",
+        "target_id": "TermSheet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotYetIssuedNonAgencyMortgagePool",
+        "target_id": "NonAgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DrawUpTrancheTermsheets",
+        "target_id": "NonAgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "requires",
+                "NonAgencyMortgagePool"
+            ]
+        }
+    },
+    {
+        "source_id": "DrawUpTrancheTermsheets",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MakeSecuritiesAvailableInMarket",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TranchedDraftProspectus",
+        "target_id": "PreliminaryProspectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TranchedMBSPrimaryDealTransactionSettlementProcess",
+        "target_id": "SettlementProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CloseDeal",
+        "target_id": "TranchedMBSDealTransaction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "resultsIn",
+                "TranchedMBSDealTransaction"
+            ]
+        }
+    },
+    {
+        "source_id": "CloseDeal",
+        "target_id": "RemittanceReport",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "resultsInPublicationOf",
+                "RemittanceReport"
+            ]
+        }
+    },
+    {
+        "source_id": "CloseDeal",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DrawUpOfferingMemorandum",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RatingsAgency",
+        "target_id": "AllocateRatings",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "allocatesRatings",
+                "AllocateRatings"
+            ]
+        }
+    },
+    {
+        "source_id": "NumberingAgency",
+        "target_id": "AllocatePrimaryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "allocatesIdentifier",
+                "AllocatePrimaryIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "NumberingAgency",
+        "target_id": "AllocatePrimaryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "allocatesIdentifier",
+                "AllocatePrimaryIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "NumberingAgency",
+        "target_id": "SecuritiesIssuanceProcessActor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AllocatePrimaryIdentifier",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DraftTrancheTermsheet",
+        "target_id": "TermSheet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyPoolCreationProcess",
+        "target_id": "RetailAssetPoolCreationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AllocateRatings",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InAssemblyMortgagePool",
+        "target_id": "NonAgencyMortgagePool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TranchedMBSDealSettlement",
+        "target_id": "TranchedMBSPrimaryDealTransactionSettlementProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "decomposesInto",
+                "TranchedMBSPrimaryDealTransactionSettlementProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "PoolLifecycleStateSelection",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketIssueToPrimaryInvestors",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketIssueToPrimaryInvestors",
+        "target_id": "TranchedOfferingMemorandum",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasResource.1",
+                "TranchedOfferingMemorandum"
+            ]
+        }
+    },
+    {
+        "source_id": "TranchedMBSIssueProspectusPart",
+        "target_id": "ProspectusPart",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TranchedMBSSecuritizationProcess",
+        "target_id": "MBSSecuritizationProcess",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyPoolCreationEnd",
+        "target_id": "MBSSecuritizationStart",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "flow",
+                "MBSSecuritizationStart"
+            ]
+        }
+    },
+    {
+        "source_id": "RegisterSecurity",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TrancheStructureAndTermsheet",
+        "target_id": "TranchedMBSIssueProspectusPart",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BrokerDealer",
+        "target_id": "GetCommitmentFromInvestors",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "commitsTo",
+                "GetCommitmentFromInvestors"
+            ]
+        }
+    }
+]

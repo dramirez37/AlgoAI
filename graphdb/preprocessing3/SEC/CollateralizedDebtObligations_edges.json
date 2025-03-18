@@ -1,0 +1,1184 @@
+[
+    {
+        "source_id": "TranchedMBSInstrument",
+        "target_id": "MortgageBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TranchedMBSInstrument",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "cashflowPrecedence",
+                "TranchedMBSInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "TranchedMBSInstrument",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "providesCreditSupportTo",
+                "TranchedMBSInstrument"
+            ]
+        }
+    },
+    {
+        "source_id": "TranchedMBSInstrument",
+        "target_id": "MBSTrancheNote",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasNote",
+                "MBSTrancheNote"
+            ]
+        }
+    },
+    {
+        "source_id": "CashCDOTranche",
+        "target_id": "CollateralizedDebtObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashCDOTranche",
+        "target_id": "Tranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyJumpTranche",
+        "target_id": "AgencyCMO",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyJumpTranche",
+        "target_id": "JumpZTriggerEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifiesTrigger",
+                "JumpZTriggerEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "NonAgencyIOTranche",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyCMO",
+        "target_id": "AgencyCMO",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "providesPrepaymentSupport",
+                "AgencyCMO"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyCMO",
+        "target_id": "TrancheType",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasTrancheType",
+                "TrancheType"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyCMO",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PAC-1Class",
+        "target_id": "PAC-2Class",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "takesPrepaymentAfter",
+                "PAC-2Class"
+            ]
+        }
+    },
+    {
+        "source_id": "PAC-1Class",
+        "target_id": "PlannedAmortizationClassBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TranchedMBSDeal",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CDODeal",
+        "target_id": "SubordinatedCDOEquity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "SubordinatedCDOEquity"
+            ]
+        }
+    },
+    {
+        "source_id": "CDODeal",
+        "target_id": "CDOPortfolio",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "CDOPortfolio"
+            ]
+        }
+    },
+    {
+        "source_id": "CDODeal",
+        "target_id": "MezzanineCDOTranche",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "MezzanineCDOTranche"
+            ]
+        }
+    },
+    {
+        "source_id": "CDODeal",
+        "target_id": "CollateralizedDebtObligation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "CollateralizedDebtObligation"
+            ]
+        }
+    },
+    {
+        "source_id": "CDODeal",
+        "target_id": "SeniorCDOTranche",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "SeniorCDOTranche"
+            ]
+        }
+    },
+    {
+        "source_id": "CDODeal",
+        "target_id": "CDOPortfolioManager",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isManagedBy",
+                "CDOPortfolioManager"
+            ]
+        }
+    },
+    {
+        "source_id": "CDODeal",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CDODeal",
+        "target_id": "SuperSeniorCDOTranche",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "SuperSeniorCDOTranche"
+            ]
+        }
+    },
+    {
+        "source_id": "MBSTrancheNote",
+        "target_id": "PromissoryNote",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegularFloaterTranche",
+        "target_id": "FloaterTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CDOOriginationObjective",
+        "target_id": "Objective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SeniorCDOTranche",
+        "target_id": "Tranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SeniorCDOTranche",
+        "target_id": "TrancheRatingAtIssue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "ratedAtIssue.1",
+                "TrancheRatingAtIssue"
+            ]
+        }
+    },
+    {
+        "source_id": "SeniorCDOTranche",
+        "target_id": "CollateralizedDebtObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CollateralizedDebtObligation",
+        "target_id": "StructuredFinanceInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CollateralizedDebtObligation",
+        "target_id": "CollateralizedDebtObligation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isSubordinatedTo",
+                "CollateralizedDebtObligation"
+            ]
+        }
+    },
+    {
+        "source_id": "PACPOTranche",
+        "target_id": "PlannedAmortizationClassBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PACPOTranche",
+        "target_id": "AgencyPOTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashCDO",
+        "target_id": "CDODeal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashCDO",
+        "target_id": "CashCDOTranche",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "issues",
+                "CashCDOTranche"
+            ]
+        }
+    },
+    {
+        "source_id": "MarketValueCDO",
+        "target_id": "CDODeal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketValueCDO",
+        "target_id": "MarketValueStructure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "structure.2",
+                "MarketValueStructure"
+            ]
+        }
+    },
+    {
+        "source_id": "HybridCDO",
+        "target_id": "CDODeal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyJumpTranche",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyJumpTranche",
+        "target_id": "JumpZTriggerEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifiesTrigger",
+                "JumpZTriggerEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "IOette",
+        "target_id": "AgencyIOTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CDOSquaredDeal",
+        "target_id": "CDODeal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CDOSquaredDeal",
+        "target_id": "CDOPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "CDOPool"
+            ]
+        }
+    },
+    {
+        "source_id": "ArbitrageCdoObjective",
+        "target_id": "CDOOriginationObjective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MezzanineCDOTranche",
+        "target_id": "CollateralizedDebtObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MezzanineCDOTranche",
+        "target_id": "TrancheRatingAtIssue",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "ratedAtIssue",
+                "TrancheRatingAtIssue"
+            ]
+        }
+    },
+    {
+        "source_id": "PAC-2Class",
+        "target_id": "PlannedAmortizationClassBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PAC-2Class",
+        "target_id": "PAC-3Class",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "takesPrepaymentAfter.1",
+                "PAC-3Class"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyJumpZTranche",
+        "target_id": "AgencyZTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyJumpZTranche",
+        "target_id": "AgencyJumpTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TruePSObjective",
+        "target_id": "CDOOriginationObjective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TACTranche",
+        "target_id": "TACTrancheAmortizationSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifies.1",
+                "TACTrancheAmortizationSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "TACTranche",
+        "target_id": "AgencyCMO",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TACTranche",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ArbitrageCDO",
+        "target_id": "CDODeal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ArbitrageCDO",
+        "target_id": "ArbitrageCdoObjective",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCDOOriginationObjective",
+                "ArbitrageCdoObjective"
+            ]
+        }
+    },
+    {
+        "source_id": "FloaterTranche",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ManagedCDO",
+        "target_id": "ManagedCDOPortfolio",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "ManagedCDOPortfolio"
+            ]
+        }
+    },
+    {
+        "source_id": "ManagedCDO",
+        "target_id": "ManagedManagementStyle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "managementStyle.1",
+                "ManagedManagementStyle"
+            ]
+        }
+    },
+    {
+        "source_id": "ManagedCDO",
+        "target_id": "MBSInstrumentSlice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "MBSInstrumentSlice"
+            ]
+        }
+    },
+    {
+        "source_id": "ManagedCDO",
+        "target_id": "CDODeal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StaticCDO",
+        "target_id": "CDODeal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StaticCDO",
+        "target_id": "StaticManagementStyle",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "managementStyle.1",
+                "StaticManagementStyle"
+            ]
+        }
+    },
+    {
+        "source_id": "JumpZTriggerEventReversal",
+        "target_id": "TriggerEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "JumpZTriggerEventReversal",
+        "target_id": "JumpZTriggerEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifiesReverseTrigger",
+                "JumpZTriggerEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "MBSInstrumentSlice",
+        "target_id": "PortfolioHolding",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ABSCDOInstrument",
+        "target_id": "CashCDOTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PAC-ZTranche",
+        "target_id": "AgencyZTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PAC-ZTranche",
+        "target_id": "PlannedAmortizationClassBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PlannedAmortizationClassBond",
+        "target_id": "AgencyCMO",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PlannedAmortizationClassBond",
+        "target_id": "PlannedAmortizationClassBond",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "providesPrepaymentSupportFor",
+                "PlannedAmortizationClassBond"
+            ]
+        }
+    },
+    {
+        "source_id": "PlannedAmortizationClassBond",
+        "target_id": "PlannedAmortizationClassBond",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "supportedBy",
+                "PlannedAmortizationClassBond"
+            ]
+        }
+    },
+    {
+        "source_id": "PlannedAmortizationClassBond",
+        "target_id": "PACTrancheAmortizationSchedule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifies",
+                "PACTrancheAmortizationSchedule"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyStickyJumpZ",
+        "target_id": "AgencyJumpZTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TranchedMBSDealProspectus",
+        "target_id": "MortgageBackedSecurityOfferingProspectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ManagedCDOPortfolio",
+        "target_id": "CDOPortfolio",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CollateralizedLoanObligationOffering",
+        "target_id": "LoanPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "refersTo",
+                "LoanPool"
+            ]
+        }
+    },
+    {
+        "source_id": "CollateralizedLoanObligationOffering",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CollateralizedBondObligation",
+        "target_id": "CashCDOTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashABSPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyRegularJumpZTranche",
+        "target_id": "NonAgencyJumpZTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyRegularJumpZTranche",
+        "target_id": "JumpZTriggerEventReversal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "reverts",
+                "JumpZTriggerEventReversal"
+            ]
+        }
+    },
+    {
+        "source_id": "AssetBackedSecurity",
+        "target_id": "TrancheType",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasTrancheType",
+                "TrancheType"
+            ]
+        }
+    },
+    {
+        "source_id": "TACTrancheAmortizationSchedule",
+        "target_id": "RedemptionSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SubordinatedMBSTranche",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyRegularJumpZ",
+        "target_id": "JumpZTriggerEventReversal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "revertsOn",
+                "JumpZTriggerEventReversal"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyRegularJumpZ",
+        "target_id": "AgencyJumpZTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BalanceSheetCDO",
+        "target_id": "CDODeal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BalanceSheetCDO",
+        "target_id": "BalanceSheetCDOObjective",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCDOOriginationObjective",
+                "BalanceSheetCDOObjective"
+            ]
+        }
+    },
+    {
+        "source_id": "PAC-3Class",
+        "target_id": "PlannedAmortizationClassBond",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SuperPOTranche",
+        "target_id": "AgencyPOTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "JumpZTriggerEvent",
+        "target_id": "TriggerEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyIOTranche",
+        "target_id": "AgencyCMO",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ResidualTranche",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CDOSquaredInstrument",
+        "target_id": "CollateralizedDebtObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CMODeal",
+        "target_id": "DebtOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SeniorMBSTranche",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SeniorMBSTranche",
+        "target_id": "MezzanineMBSTranche",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "seniorTo",
+                "MezzanineMBSTranche"
+            ]
+        }
+    },
+    {
+        "source_id": "CDOPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CDOPortfolioManager",
+        "target_id": "CDOPortfolio",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "manages",
+                "CDOPortfolio"
+            ]
+        }
+    },
+    {
+        "source_id": "CDOPortfolioManager",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SuperFloaterTranche",
+        "target_id": "FloaterTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyJumpZTranche",
+        "target_id": "NonAgencyZTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyJumpZTranche",
+        "target_id": "NonAgencyJumpTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MezzanineMBSTranche",
+        "target_id": "SubordinatedMBSTranche",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "seniorTo",
+                "SubordinatedMBSTranche"
+            ]
+        }
+    },
+    {
+        "source_id": "MezzanineMBSTranche",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashflowStructure",
+        "target_id": "CDOCashflowTreatmentStructure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyPOTranche",
+        "target_id": "AgencyCMO",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyZTranche",
+        "target_id": "AgencyCMO",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketValueStructure",
+        "target_id": "CDOCashflowTreatmentStructure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CashflowCDO",
+        "target_id": "CashflowStructure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "structure.2",
+                "CashflowStructure"
+            ]
+        }
+    },
+    {
+        "source_id": "CashflowCDO",
+        "target_id": "CDODeal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SupportTranche",
+        "target_id": "PAC-2Class",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "PAC-2Class"
+            ]
+        }
+    },
+    {
+        "source_id": "CDOPortfolio",
+        "target_id": "CDOPortfolioManager",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isManagedBy",
+                "CDOPortfolioManager"
+            ]
+        }
+    },
+    {
+        "source_id": "CDOPortfolio",
+        "target_id": "Portfolio",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CDOPortfolio",
+        "target_id": "MBSInstrumentSlice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "MBSInstrumentSlice"
+            ]
+        }
+    },
+    {
+        "source_id": "ManagedManagementStyle",
+        "target_id": "CDOManagementStyle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PACTrancheAmortizationSchedule",
+        "target_id": "RedemptionSchedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyPOTranche",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ABSCDODeal",
+        "target_id": "CDODeal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StaticCDOPortfolio",
+        "target_id": "CDOPortfolio",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyZTranche",
+        "target_id": "TranchedMBSInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BalanceSheetCDOObjective",
+        "target_id": "CDOOriginationObjective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CDOCashflowTreatmentStructure",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CDOManagementStyle",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InverseFloaterTranche",
+        "target_id": "FloaterTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SubordinatedCDOEquity",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StaticManagementStyle",
+        "target_id": "CDOManagementStyle",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonAgencyStickyJumpZTranche",
+        "target_id": "NonAgencyJumpZTranche",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SuperSeniorCDOTranche",
+        "target_id": "CollateralizedDebtObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "source_id": "TaxAuthority",
+        "target_id": "RegulatoryAgency",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Examiner",
+        "target_id": "Examiner",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "N830bd673f71e424d83a9d5203e3b8f54"
+            ]
+        }
+    },
+    {
+        "source_id": "Examiner",
+        "target_id": "ResponsibleParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegulatoryReport",
+        "target_id": "Report",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegulationIdentifier",
+        "target_id": "Regulation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "Regulation"
+            ]
+        }
+    },
+    {
+        "source_id": "RegulationIdentifier",
+        "target_id": "RegulationIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "RegulationIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "RegulationIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegulatoryAgency",
+        "target_id": "GovernmentIssuedLicense",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "issues",
+                "GovernmentIssuedLicense"
+            ]
+        }
+    },
+    {
+        "source_id": "RegulatoryAgency",
+        "target_id": "ServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegulatoryAgency",
+        "target_id": "RegulatoryService",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "RegulatoryService"
+            ]
+        }
+    },
+    {
+        "source_id": "GovernmentIssuedLicense",
+        "target_id": "RegulatoryAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIssuedBy",
+                "RegulatoryAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "GovernmentIssuedLicense",
+        "target_id": "License",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegulatoryService",
+        "target_id": "RegulatoryAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "RegulatoryAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "RegulatoryService",
+        "target_id": "Service",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegulatoryCapacity",
+        "target_id": "LegalCapacity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Regulation",
+        "target_id": "RegulatoryAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIssuedBy",
+                "RegulatoryAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "RegulationIdentificationScheme",
+        "target_id": "RegulationIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "RegulationIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "RegulationIdentificationScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

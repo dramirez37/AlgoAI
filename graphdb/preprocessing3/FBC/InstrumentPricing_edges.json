@@ -1,0 +1,362 @@
+[
+    {
+        "source_id": "OpeningPrice",
+        "target_id": "MarketPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradingDay",
+        "target_id": "ExplicitDatePeriod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CleanPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VolumeWeightedAveragePrice",
+        "target_id": "PriceAnalytic",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MidPrice",
+        "target_id": "ArithmeticMean",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MidPrice",
+        "target_id": "BidPrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "BidPrice"
+            ]
+        }
+    },
+    {
+        "source_id": "MidPrice",
+        "target_id": "OfferPrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "OfferPrice"
+            ]
+        }
+    },
+    {
+        "source_id": "MidPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BestBid",
+        "target_id": "BidPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AdjustedClosingPrice",
+        "target_id": "ClosingPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BidAskSpread",
+        "target_id": "BidPrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "BidPrice"
+            ]
+        }
+    },
+    {
+        "source_id": "BidAskSpread",
+        "target_id": "OfferPrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "OfferPrice"
+            ]
+        }
+    },
+    {
+        "source_id": "BidAskSpread",
+        "target_id": "PriceSpread",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DerivedPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DerivedPrice",
+        "target_id": "CalculatedPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OfferPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CompositeMarket",
+        "target_id": "StructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClosingPriceDeterminationMethod",
+        "target_id": "PriceDeterminationMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PriceAnalytic",
+        "target_id": "CollectionOfSecurityPrices",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "CollectionOfSecurityPrices"
+            ]
+        }
+    },
+    {
+        "source_id": "PriceAnalytic",
+        "target_id": "ScopedMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Yield",
+        "target_id": "Percentage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CalculatedPrice",
+        "target_id": "PricingModel",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "uses",
+                "PricingModel"
+            ]
+        }
+    },
+    {
+        "source_id": "TradingSession",
+        "target_id": "ExplicitDatePeriod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HighPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RateOfReturn",
+        "target_id": "Percentage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LowPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityPrice",
+        "target_id": "MonetaryPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InternalRateOfReturn",
+        "target_id": "RateOfReturn",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DirtyPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IntraDayPrice",
+        "target_id": "MarketPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PriceSpread",
+        "target_id": "MonetaryPrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasArgument",
+                "MonetaryPrice"
+            ]
+        }
+    },
+    {
+        "source_id": "PriceSpread",
+        "target_id": "Difference",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "YieldSpread",
+        "target_id": "Difference",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "YieldSpread",
+        "target_id": "Yield",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasArgument",
+                "Yield"
+            ]
+        }
+    },
+    {
+        "source_id": "CollectionOfSecurityPrices",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CollectionOfSecurityPrices",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "SecurityPrice"
+            ]
+        }
+    },
+    {
+        "source_id": "OfficialClosingPrice",
+        "target_id": "ClosingPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OfficialClosingPrice",
+        "target_id": "ClosingPriceDeterminationMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasClosingPriceDeterminationMethod",
+                "ClosingPriceDeterminationMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "BestOffer",
+        "target_id": "OfferPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "VolumeWeightedOpenPrice",
+        "target_id": "PriceAnalytic",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PriceDeterminationMethod",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BidPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClosingPrice",
+        "target_id": "MarketPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PricingModel",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "source_id": "InstitutionalInvestor",
+        "target_id": "Investor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesRegulation",
+        "target_id": "SecuritiesRestriction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "SecuritiesRestriction"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesRegulation",
+        "target_id": "Regulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrument",
+        "target_id": "SecuritiesRestriction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasRestriction",
+                "SecuritiesRestriction"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualInvestor",
+        "target_id": "Investor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesRestriction",
+        "target_id": "LegalObligation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradingRestriction",
+        "target_id": "SecuritiesRestriction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalHoldingRestriction",
+        "target_id": "SecuritiesRestriction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualRestriction",
+        "target_id": "SecuritiesRestriction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualRestriction",
+        "target_id": "ContractualCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QualifiedInvestorRestriction",
+        "target_id": "LegalHoldingRestriction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Listing",
+        "target_id": "SecuritiesRestriction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasRestriction",
+                "SecuritiesRestriction"
+            ]
+        }
+    },
+    {
+        "source_id": "InvestorsDomicileRestriction",
+        "target_id": "LegalHoldingRestriction",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

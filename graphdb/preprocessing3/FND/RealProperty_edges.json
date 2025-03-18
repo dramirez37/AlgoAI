@@ -1,0 +1,212 @@
+[
+    {
+        "source_id": "PersonalProperty",
+        "target_id": "Asset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PersonalProperty",
+        "target_id": "Appraisal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isEvaluatedBy",
+                "Appraisal"
+            ]
+        }
+    },
+    {
+        "source_id": "TractOfLand",
+        "target_id": "GeographicRegion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TractOfLand",
+        "target_id": "GeographicRegion",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isSubregionOf",
+                "GeographicRegion"
+            ]
+        }
+    },
+    {
+        "source_id": "RealProperty",
+        "target_id": "PhysicalAsset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RealProperty",
+        "target_id": "RealEstate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RealProperty",
+        "target_id": "RealPropertyAppraisal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isEvaluatedBy",
+                "RealPropertyAppraisal"
+            ]
+        }
+    },
+    {
+        "source_id": "RealPropertyAppraisal",
+        "target_id": "RealProperty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "evaluates",
+                "RealProperty"
+            ]
+        }
+    },
+    {
+        "source_id": "RealPropertyAppraisal",
+        "target_id": "PropertyInspectionReport",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasInput",
+                "PropertyInspectionReport"
+            ]
+        }
+    },
+    {
+        "source_id": "RealPropertyAppraisal",
+        "target_id": "Appraisal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TractIdentifier",
+        "target_id": "TractOfLand",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "TractOfLand"
+            ]
+        }
+    },
+    {
+        "source_id": "TractIdentifier",
+        "target_id": "ContextualIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RealEstate",
+        "target_id": "Asset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PropertyInspectionReport",
+        "target_id": "RealProperty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAbout",
+                "RealProperty"
+            ]
+        }
+    },
+    {
+        "source_id": "PropertyInspectionReport",
+        "target_id": "AssessmentReport",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RealPropertyIdentifier",
+        "target_id": "RealProperty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "RealProperty"
+            ]
+        }
+    },
+    {
+        "source_id": "RealPropertyIdentifier",
+        "target_id": "ContextualIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PropertyInspection",
+        "target_id": "PropertyInspectionReport",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasOutput",
+                "PropertyInspectionReport"
+            ]
+        }
+    },
+    {
+        "source_id": "PropertyInspection",
+        "target_id": "RealProperty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "evaluates",
+                "RealProperty"
+            ]
+        }
+    },
+    {
+        "source_id": "PropertyInspection",
+        "target_id": "AssessmentEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,188 @@
+[
+    {
+        "source_id": "BusinessEntity",
+        "target_id": "License",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "holds",
+                "License"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessEntity",
+        "target_id": "FormalOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessEntity",
+        "target_id": "BusinessObjective",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasObjective",
+                "BusinessObjective"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessLicense",
+        "target_id": "License",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessLicense",
+        "target_id": "BusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "appliesTo",
+                "BusinessEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "VariableInterestEntity",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SpecialPurposeVehicle",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PowerOfAttorney",
+        "target_id": "LegalCapacity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PowerOfAttorney",
+        "target_id": "LegallyCompetentNaturalPerson",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isConferredOn",
+                "LegallyCompetentNaturalPerson"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalPerson",
+        "target_id": "Party",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalEntity",
+        "target_id": "FormalOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalEntity",
+        "target_id": "LegalPerson",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegallyCompetentNaturalPerson",
+        "target_id": "Person",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegallyCompetentNaturalPerson",
+        "target_id": "LegalPerson",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NotForProfitObjective",
+        "target_id": "Objective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReligiousObjective",
+        "target_id": "NotForProfitObjective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatutoryBody",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CharteredLegalPerson",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Employer",
+        "target_id": "LegalPerson",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "LegalPerson"
+            ]
+        }
+    },
+    {
+        "source_id": "ProfitObjective",
+        "target_id": "BusinessObjective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractParty",
+        "target_id": "LegalPerson",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isPlayedBy",
+                "LegalPerson"
+            ]
+        }
+    },
+    {
+        "source_id": "PublicPurpose",
+        "target_id": "Objective",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "id": "Calculation",
+        "type": "Class",
+        "name": "Calculation",
+        "definition": "actual execution of some computation, computational process, or operation that was scheduled or triggered by something",
+        "label": "calculation"
+    },
+    {
+        "id": "Occurrence",
+        "type": "Class",
+        "name": "Occurrence",
+        "explanatoryNote": "Each occurrence has a date time stamp, which identifies when the event occurred, and, optionally, a location (possibly virtual), that identifies where the occurrence happened.",
+        "label": "occurrence",
+        "definition": "happening of an OccurrenceKind, i.e., an event"
+    },
+    {
+        "id": "ScheduleStub",
+        "type": "Class",
+        "name": "ScheduleStub"
+    },
+    {
+        "id": "CalculationEvent",
+        "type": "Class",
+        "name": "CalculationEvent",
+        "label": "calculation event",
+        "definition": "kind of event that is either scheduled or triggered by something, such as a related financial event, that causes a calculation to be performed"
+    },
+    {
+        "id": "OccurrenceKind",
+        "type": "Class",
+        "name": "OccurrenceKind",
+        "definition": "classifier that specifies the general nature of an occurrence (event)",
+        "explanatoryNote": "As types (or categories) of events, OccurenceKinds do not happen; OccurenceKinds describe Occurrences which happen and exemplify an OccurenceKind. As occurrences are things that actually happen, they have an actual date where as OccurenceKinds do not have an actual date.",
+        "label": "occurrence kind"
+    },
+    {
+        "id": "OccurrenceBasedDate",
+        "type": "Class",
+        "name": "OccurrenceBasedDate",
+        "explanatoryNote": "The 'hasDateValue' property of an OccurrenceBasedDate is not set until the Occurrence happens. The 'triggeredBy' property relates an OccurrenceBasedDate to the OccurrenceKind that gives the meaning of the OccurrenceBasedDate.",
+        "definition": "calculated date that is defined with respect to the occurrence of some occurrence kind",
+        "label": "occurrence-based date"
+    },
+    {
+        "id": "CalculatedDate",
+        "type": "Entity",
+        "name": "CalculatedDate"
+    },
+    {
+        "id": "AdHocScheduleEntry",
+        "type": "Class",
+        "name": "AdHocScheduleEntry"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "RegularSchedule",
+        "type": "Class",
+        "name": "RegularSchedule"
+    },
+    {
+        "id": "hasEventDateValue",
+        "type": "DatatypeProperty",
+        "name": "hasEventDateValue",
+        "label": "has event date value",
+        "definition": "identifies a date or date and time value associated with an event (occurrence)"
+    },
+    {
+        "id": "isOutputFrom",
+        "type": "ObjectProperty",
+        "name": "isOutputFrom",
+        "label": "is output from",
+        "definition": "indicates post condition or other product of some activity, process, system, report, analysis, etc."
+    },
+    {
+        "id": "hasEventDate",
+        "type": "ObjectProperty",
+        "name": "hasEventDate",
+        "label": "has event date",
+        "definition": "identifies a date associated with an event (occurrence)"
+    },
+    {
+        "id": "hasOccurrence",
+        "type": "ObjectProperty",
+        "name": "hasOccurrence",
+        "definition": "identifies events of a given occurrence kind, typically as they occur in a schedule",
+        "label": "has occurrence"
+    },
+    {
+        "id": "isInputTo",
+        "type": "ObjectProperty",
+        "name": "isInputTo",
+        "definition": "indicates a precondition, requirement, or other contribution (e.g., data) to some activity, process, system, report, analysis, etc.",
+        "label": "is input to"
+    },
+    {
+        "id": "isTriggeredBy",
+        "type": "ObjectProperty",
+        "name": "isTriggeredBy",
+        "label": "is triggered by",
+        "definition": "is activated or initiated by",
+        "explanatoryNote": "An OccurrenceBasedDate is triggered by an Occurrence that exemplifies the OccurrenceKind."
+    },
+    {
+        "id": "hasOutput",
+        "type": "ObjectProperty",
+        "name": "hasOutput",
+        "definition": "relates something (e.g. an occurrence) to something that is the result of some activity or process",
+        "label": "has output"
+    },
+    {
+        "id": "hasInput",
+        "type": "ObjectProperty",
+        "name": "hasInput",
+        "definition": "relates something (e.g. an occurrence) to something that is used as an input to some activity or process",
+        "label": "has input"
+    },
+    {
+        "id": "SpecifiedDate",
+        "type": "Class",
+        "name": "SpecifiedDate"
+    },
+    {
+        "id": "RelativeDate",
+        "type": "Class",
+        "name": "RelativeDate"
+    }
+]

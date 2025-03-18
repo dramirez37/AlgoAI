@@ -1,0 +1,119 @@
+[
+    {
+        "source_id": "Ethnicity",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HMDA-Report",
+        "target_id": "HMDA-Report",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isSubmittedBy",
+                "isPlayedBy",
+                "Nb80a14d292c448f5935e57c1e8a3e239"
+            ]
+        }
+    },
+    {
+        "source_id": "HMDA-Report",
+        "target_id": "Report",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UniversalLoanIdentifier",
+        "target_id": "LoanSecuredByRealEstate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "LoanSecuredByRealEstate"
+            ]
+        }
+    },
+    {
+        "source_id": "UniversalLoanIdentifier",
+        "target_id": "FinancialInstrumentIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HMDA-Disposition",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HMDA-CoveredLoanContract",
+        "target_id": "HowSubmitted",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "HowSubmitted"
+            ]
+        }
+    },
+    {
+        "source_id": "HMDA-CoveredLoanContract",
+        "target_id": "LoanSecuredByRealEstate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Race",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Race",
+        "target_id": "Race",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "broaderTransitive",
+                "Race"
+            ]
+        }
+    },
+    {
+        "source_id": "HowSubmitted",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HMDA-PreApprovalRequest",
+        "target_id": "PreApprovalRequest",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConstructionType",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "id": "InfluenceBasedDeFactoControllingParty",
+        "type": "Class",
+        "name": "InfluenceBasedDeFactoControllingParty",
+        "definition": "party that holds influence-based control over some other party",
+        "label": "influence-based de facto controlling party"
+    },
+    {
+        "id": "DeFactoControllingInterestParty",
+        "type": "Class",
+        "name": "DeFactoControllingInterestParty",
+        "label": "de facto controlling interest party",
+        "definition": "party that exercises some control over an entity other than via explicit, legal means"
+    },
+    {
+        "id": "InvestmentBasedDeFactoControl",
+        "type": "Class",
+        "name": "InvestmentBasedDeFactoControl",
+        "definition": "control that arises through some investment in some entity, other than via the holding of constitutional equity (shares etc.) in that entity",
+        "label": "investment-based de facto control"
+    },
+    {
+        "id": "DeFactoControl",
+        "type": "Entity",
+        "name": "DeFactoControl"
+    },
+    {
+        "id": "EntityControllingParty",
+        "type": "Class",
+        "name": "EntityControllingParty",
+        "label": "entity controlling party",
+        "definition": "party that has the authority to control some legal entity"
+    },
+    {
+        "id": "ControllingParty",
+        "type": "Entity",
+        "name": "ControllingParty"
+    },
+    {
+        "id": "InvestmentBasedDeFactoControllingInterestParty",
+        "type": "Class",
+        "name": "InvestmentBasedDeFactoControllingInterestParty",
+        "label": "investment-based de facto controlling interest party",
+        "definition": "party that holds investment-based control over some other party"
+    },
+    {
+        "id": "Investor",
+        "type": "Entity",
+        "name": "Investor"
+    },
+    {
+        "id": "DeJureControllingInterestParty",
+        "type": "Class",
+        "name": "DeJureControllingInterestParty",
+        "definition": "party that has the legal authority to exercise control",
+        "label": "de jure controlling interest party"
+    },
+    {
+        "id": "SoleControllingParty",
+        "type": "Class",
+        "name": "SoleControllingParty",
+        "definition": "party that has sole control over and directs the affairs of some legal entity",
+        "label": "sole controlling party"
+    },
+    {
+        "id": "InfluenceBasedDeFactoControl",
+        "type": "Class",
+        "name": "InfluenceBasedDeFactoControl",
+        "label": "influence-based de facto control",
+        "definition": "informal control that involves influence over some party"
+    },
+    {
+        "id": "Receiver",
+        "type": "Class",
+        "name": "Receiver",
+        "label": "receiver",
+        "definition": "party appointed by some court for the purposes of winding up the affairs of some entity which is no longer solvent"
+    },
+    {
+        "id": "CourtAppointedControl",
+        "type": "Class",
+        "name": "CourtAppointedControl",
+        "label": "court appointed control",
+        "definition": "control conferred by the actions of some court, for example in the context of receivership"
+    },
+    {
+        "id": "DeJureControl",
+        "type": "Entity",
+        "name": "DeJureControl"
+    },
+    {
+        "id": "TotalOwner",
+        "type": "Class",
+        "name": "TotalOwner",
+        "label": "total owner",
+        "definition": "party that has 100 percent ownership some legal entity"
+    },
+    {
+        "id": "ConstitutionalOwner",
+        "type": "Entity",
+        "name": "ConstitutionalOwner"
+    },
+    {
+        "id": "ContractualControl",
+        "type": "Class",
+        "name": "ContractualControl",
+        "label": "contractual control",
+        "definition": "control established through the terms of some contract"
+    },
+    {
+        "id": "ControlledParty",
+        "type": "Class",
+        "name": "ControlledParty",
+        "label": "controlled party",
+        "definition": "person or organization over which some party exercises some form of authority or influence with respect to some situation"
+    },
+    {
+        "id": "ControlledThing",
+        "type": "Entity",
+        "name": "ControlledThing"
+    },
+    {
+        "id": "ControllingAlliance",
+        "type": "Class",
+        "name": "ControllingAlliance",
+        "definition": "group that has formed some alliance to jointly exercise control over some entity",
+        "label": "controlling alliance"
+    },
+    {
+        "id": "Group",
+        "type": "Entity",
+        "name": "Group"
+    },
+    {
+        "id": "JointControllingParty",
+        "type": "Class",
+        "name": "JointControllingParty",
+        "label": "joint controlling party",
+        "definition": "party that collectively has the authority to control the affairs of some business organization"
+    },
+    {
+        "id": "MajorityControllingParty",
+        "type": "Class",
+        "name": "MajorityControllingParty",
+        "definition": "controlling party that possesses, either directly or indirectly, the power to direct or cause the direction of the management and policies of a legal person, whether through the ownership of a majority of voting securities, by contract, or otherwise",
+        "label": "majority controlling party"
+    },
+    {
+        "id": "hasControllingOrganizationMember",
+        "type": "ObjectProperty",
+        "name": "hasControllingOrganizationMember",
+        "definition": "relates a controlled party to a controlling member of the organization",
+        "label": "has controlling organization member"
+    },
+    {
+        "id": "isBasedOnInvestmentEquity",
+        "type": "ObjectProperty",
+        "name": "isBasedOnInvestmentEquity",
+        "definition": "indicates investment-based de facto control, which is is based on the holding of some investment equity by some party",
+        "label": "is based on investment equity"
+    },
+    {
+        "id": "hasMajorityControllingParty",
+        "type": "ObjectProperty",
+        "name": "hasMajorityControllingParty",
+        "definition": "indicates a party that owns a controlling stake (over 50 percent) in the entity",
+        "label": "has majority controlling party"
+    },
+    {
+        "id": "isAdvisedBy",
+        "type": "ObjectProperty",
+        "name": "isAdvisedBy",
+        "definition": "indicates the party that acts in an advisory capacity to the controlled party",
+        "label": "has advisor"
+    },
+    {
+        "id": "advises",
+        "type": "ObjectProperty",
+        "name": "advises",
+        "definition": "provides counsel or guidance to",
+        "label": "advises"
+    },
+    {
+        "id": "isControllingMemberOf",
+        "type": "ObjectProperty",
+        "name": "isControllingMemberOf",
+        "label": "is controlling member of",
+        "definition": "identifies a controlled organization over which the member has some measure of control"
+    }
+]

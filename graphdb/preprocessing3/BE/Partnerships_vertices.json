@@ -1,0 +1,133 @@
+[
+    {
+        "id": "Partnership",
+        "type": "Class",
+        "name": "Partnership",
+        "definition": "association of two or more legal persons to carry on as co-owners a business for profit",
+        "explanatoryNote": "Partnerships exist in many countries world-wide. Examples of the laws related to the establishment and operation of partnerships include the Partnership Act of 1890 in the United Kingdom and the Uniform Partnership Act in the United States.",
+        "label": "partnership"
+    },
+    {
+        "id": "LegalEntity",
+        "type": "Entity",
+        "name": "LegalEntity"
+    },
+    {
+        "id": "BusinessEntity",
+        "type": "Entity",
+        "name": "BusinessEntity"
+    },
+    {
+        "id": "GeneralPartner",
+        "type": "Class",
+        "name": "GeneralPartner",
+        "explanatoryNote": "Note that although typically a general partner is a person, in the context of certain funds, such as private equity, a general partner may be a firm that manages the fund.",
+        "label": "general partner",
+        "definition": "partner and part-owner that is responsible for managing the day to day operations of the partnership and that may be jointly and severally liable for the obligations of the partnership"
+    },
+    {
+        "id": "DeJureControllingInterestParty",
+        "type": "Entity",
+        "name": "DeJureControllingInterestParty"
+    },
+    {
+        "id": "Partner",
+        "type": "Class",
+        "name": "Partner",
+        "label": "partner",
+        "definition": "co-owner, member, and agent of a partnership whose participation level, including proportional liabilities and share in the profit / loss of the business is specified in a partnership agreement"
+    },
+    {
+        "id": "OrganizationMember",
+        "type": "Entity",
+        "name": "OrganizationMember"
+    },
+    {
+        "id": "ConstitutionalOwner",
+        "type": "Entity",
+        "name": "ConstitutionalOwner"
+    },
+    {
+        "id": "PartnershipAgreement",
+        "type": "Class",
+        "name": "PartnershipAgreement",
+        "label": "partnership agreement",
+        "definition": "contract between partners in a partnership that establishes the terms and conditions of the relationship between the partners"
+    },
+    {
+        "id": "OrganizationCoveringAgreement",
+        "type": "Entity",
+        "name": "OrganizationCoveringAgreement"
+    },
+    {
+        "id": "LimitedLiabilityPartnership",
+        "type": "Class",
+        "name": "LimitedLiabilityPartnership",
+        "definition": "partnership that has general partners but provides its individual partners some level of protection against personal liability for certain partnership liabilities",
+        "abbreviation": "LLP",
+        "label": "limited liability partnership",
+        "explanatoryNote": "LLPs are a flexible legal and tax entity that allows partners to benefit from economies of scale by working together while also reducing their liability for the actions of other partners."
+    },
+    {
+        "id": "LimitedPartner",
+        "type": "Class",
+        "name": "LimitedPartner",
+        "label": "limited partner",
+        "definition": "partner whose liabilities are limited to the extent of their investment or guarantees and that has no involvement in the day to day operations of the partnership"
+    },
+    {
+        "id": "GeneralPartnership",
+        "type": "Class",
+        "name": "GeneralPartnership",
+        "abbreviation": "GP",
+        "definition": "partnership that has at least two general partners that agree to share in all assets, profits, and financial and legal liabilities of the business",
+        "explanatoryNote": "General partnerships are the most basic and common form of partnership world-wide.",
+        "label": "general partnership"
+    },
+    {
+        "id": "LimitedPartnership",
+        "type": "Class",
+        "name": "LimitedPartnership",
+        "label": "limited partnership",
+        "explanatoryNote": "Limited partnerships are distinct from limited liability partnerships, in which all partners have limited liability. Similar to a general partnership, the general partners have management control, share the right to use partnership property, share the profits of the firm in predefined proportions, and have joint and several liability for the debts of the partnership.",
+        "definition": "partnership that has at least one general partner and at least one limited partner",
+        "abbreviation": "LP"
+    },
+    {
+        "id": "LimitedLiabilityLimitedPartnership",
+        "type": "Class",
+        "name": "LimitedLiabilityLimitedPartnership",
+        "definition": "limited partnership that consists of one or more general partners who are liable for the obligations of the entity as well as one or more protected limited liability partners",
+        "abbreviation": "LLLP",
+        "explanatoryNote": "The primary difference between an LLLP and more traditional limited partnership is that an LLLP allows liability transfer from the general partner's (to external insurer) for debts and obligations of the limited partnership. Typically, general partners manage the LLLP, while the limited partners' interest is primarily for investment purposes.",
+        "label": "limited liability limited partnership"
+    },
+    {
+        "id": "isLimitedPartnerOf",
+        "type": "ObjectProperty",
+        "name": "isLimitedPartnerOf",
+        "label": "is limited partner of",
+        "definition": "indicates the organization that the limited partner participates in"
+    },
+    {
+        "id": "isGeneralPartnerOf",
+        "type": "ObjectProperty",
+        "name": "isGeneralPartnerOf",
+        "label": "is general partner of",
+        "definition": "indicates the organization that the general partner manages"
+    },
+    {
+        "id": "hasLimitedPartner",
+        "type": "ObjectProperty",
+        "name": "hasLimitedPartner",
+        "label": "has limited partner",
+        "definition": "indicates an actor that may have some measure of influence over the partnership"
+    },
+    {
+        "id": "hasGeneralPartner",
+        "type": "ObjectProperty",
+        "name": "hasGeneralPartner",
+        "label": "has general partner",
+        "definition": "indicates an actor that has some measure of control over the partnership"
+    }
+]

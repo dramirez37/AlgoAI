@@ -1,0 +1,74 @@
+[
+    {
+        "id": "CreditInstitutionRegisterEntry",
+        "type": "Class",
+        "name": "CreditInstitutionRegisterEntry",
+        "label": "Credit Institution Register entry",
+        "definition": "entry in the Credit Institution Register, a repository of credit institutions collected by the European Banking Authority (EBA) as provided by the various national banking authorities for those institutions that qualify"
+    },
+    {
+        "id": "RegistryEntry",
+        "type": "Entity",
+        "name": "RegistryEntry"
+    },
+    {
+        "id": "EuropeanBankingRegulatoryAgencyAndCentralBank",
+        "type": "RegistrationAuthority",
+        "name": "EuropeanBankingRegulatoryAgencyAndCentralBank",
+        "definition": "regulatory agency, registration authority and central banking role of the European Central Bank",
+        "label": "European banking regulatory agency and central bank"
+    },
+    {
+        "id": "CreditInstitutionRegister",
+        "type": "Registry",
+        "name": "CreditInstitutionRegister",
+        "definition": "registry of credit institutions to which authorisation has been granted to operate within the European Union and European Economic Area countries (EEA), a repository of financial data and institution characteristics for covered institutions collected by the the European Banking Authority (EBA)",
+        "label": "Credit Institution Register"
+    },
+    {
+        "id": "EuropeanBankingAuthority",
+        "type": "GovernmentAgency",
+        "name": "EuropeanBankingAuthority",
+        "explanatoryNote": "The Authority also plays an important role in promoting convergence of supervisory practices to ensure a harmonised application of prudential rules. Finally, the EBA is mandated to assess risks and vulnerabilities in the EU banking sector through, in particular, regular risk assessment reports and pan-European stress tests. To perform these tasks, the EBA can produce a number of regulatory and non regulatory documents including binding Technical Standards, Guidelines, Recommendations, Opinions and ad-hoc or regular reports.",
+        "label": "European Banking Authority",
+        "definition": "European Banking Authority legal entity, whose main task is to contribute, through the adoption of binding Technical Standards (BTS) and Guidelines, to the creation of the European Single Rulebook in banking",
+        "abbreviation": "EBA"
+    },
+    {
+        "id": "EuropeanCentralBankLegalEntityIdentifierRegistryEntry",
+        "type": "NamedIndividual",
+        "name": "EuropeanCentralBankLegalEntityIdentifierRegistryEntry",
+        "label": "European Central Bank legal entity identifier registry entry",
+        "definition": "legal entity identifier for the European Central Bank"
+    },
+    {
+        "id": "EuropeanBankingAuthorityRegulator",
+        "type": "RegistrationAuthority",
+        "name": "EuropeanBankingAuthorityRegulator",
+        "definition": "European Banking Authority (EBA) regulator and registration authority",
+        "label": "European Banking Authority (EBA) Regulator"
+    },
+    {
+        "id": "L-549300DTUYXVMJXZNY75-LEI",
+        "type": "NamedIndividual",
+        "name": "L-549300DTUYXVMJXZNY75-LEI",
+        "definition": "legal entity identifier for the European Central Bank",
+        "label": "European Central Bank legal entity identifier"
+    },
+    {
+        "id": "EuropeanCentralBank",
+        "type": "Instrumentality",
+        "name": "EuropeanCentralBank",
+        "definition": "European Central Bank, whose main aim is to maintain price stability, i.e. to safeguard the value of the euro",
+        "abbreviation": "ECB",
+        "label": "European Central Bank",
+        "explanatoryNote": "The European Central Bank is responsible for the prudential supervision of credit institutions located in the euro area and participating non-euro area Member States, within the Single Supervisory Mechanism, which also comprises the national competent authorities. It thereby contributes to the safety and soundness of the banking system and the stability of the financial system within the EU and each participating Member State."
+    },
+    {
+        "id": "EuropeanCentralBankHeadquartersAndLegalAddress",
+        "type": "NamedIndividual",
+        "name": "EuropeanCentralBankHeadquartersAndLegalAddress",
+        "definition": "headquarters and legal address for the European Central Bank",
+        "label": "European Central Bank headquarters and legal address"
+    }
+]

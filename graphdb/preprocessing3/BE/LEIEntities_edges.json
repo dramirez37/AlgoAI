@@ -1,0 +1,325 @@
+[
+    {
+        "source_id": "LegalEntity",
+        "target_id": "EntityLegalForm",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasLegalForm",
+                "EntityLegalForm"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityLegalFormScheme",
+        "target_id": "CodeSet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EntityLegalFormScheme",
+        "target_id": "ClassificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EntityLegalFormScheme",
+        "target_id": "EntityLegalFormIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "EntityLegalFormIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityLegalForm",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EntityLegalForm",
+        "target_id": "hasTransliteratedLegalFormAbbreviation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasTransliteratedLegalFormAbbreviation"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityLegalForm",
+        "target_id": "hasTransliteratedName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasTransliteratedName"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityLegalForm",
+        "target_id": "hasLegalFormAbbreviation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasLegalFormAbbreviation"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityLegalForm",
+        "target_id": "EntityLegalFormScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "EntityLegalFormScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityLegalForm",
+        "target_id": "LegalPerson",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "classifies",
+                "LegalPerson"
+            ]
+        }
+    },
+    {
+        "source_id": "RelationshipRecord",
+        "target_id": "Constituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RelationshipRecord",
+        "target_id": "RelationshipQualifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isQualifiedBy",
+                "RelationshipQualifier"
+            ]
+        }
+    },
+    {
+        "source_id": "RelationshipRecord",
+        "target_id": "isQuantifiedBy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isQuantifiedBy"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityLegalFormIdentifier",
+        "target_id": "EntityLegalForm",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "denotes",
+                "EntityLegalForm"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityLegalFormIdentifier",
+        "target_id": "EntityLegalFormScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "EntityLegalFormScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityLegalFormIdentifier",
+        "target_id": "CodeElement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalEntityIdentifier",
+        "target_id": "LegalEntityIdentifierScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "LegalEntityIdentifierScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "LegalEntityIdentifier",
+        "target_id": "OrganizationIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalEntityIdentifier",
+        "target_id": "LegalPerson",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "LegalPerson"
+            ]
+        }
+    },
+    {
+        "source_id": "RelationshipStatus",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalEntityIdentifierScheme",
+        "target_id": "OrganizationIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalEntityIdentifierScheme",
+        "target_id": "LegalEntityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "defines",
+                "LegalEntityIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractuallyCapableEntity",
+        "target_id": "AgentRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractuallyCapableEntity",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isPlayedBy",
+                "LegalEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "AccountingFramework",
+        "target_id": "RelationshipQualifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RelationshipPeriodQualifier",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LEIRegisteredEntity",
+        "target_id": "LegalPerson",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RelationshipQualifier",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LegalPerson",
+        "target_id": "LegalEntityIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "LegalEntityIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "OrganizationName",
+        "target_id": "hasTransliteratedName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasTransliteratedName"
+            ]
+        }
+    }
+]

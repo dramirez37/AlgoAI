@@ -1,0 +1,224 @@
+[
+    {
+        "source_id": "InfluenceBasedDeFactoControllingParty",
+        "target_id": "DeFactoControllingInterestParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InfluenceBasedDeFactoControllingParty",
+        "target_id": "InfluenceBasedDeFactoControl",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isControllingPartyIn",
+                "InfluenceBasedDeFactoControl"
+            ]
+        }
+    },
+    {
+        "source_id": "InvestmentBasedDeFactoControl",
+        "target_id": "DeFactoControl",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentBasedDeFactoControl",
+        "target_id": "InvestmentBasedDeFactoControllingInterestParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyInControl",
+                "InvestmentBasedDeFactoControllingInterestParty"
+            ]
+        }
+    },
+    {
+        "source_id": "EntityControllingParty",
+        "target_id": "ControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentBasedDeFactoControllingInterestParty",
+        "target_id": "DeFactoControllingInterestParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentBasedDeFactoControllingInterestParty",
+        "target_id": "Investor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentBasedDeFactoControllingInterestParty",
+        "target_id": "InvestmentBasedDeFactoControl",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isControllingPartyIn",
+                "InvestmentBasedDeFactoControl"
+            ]
+        }
+    },
+    {
+        "source_id": "DeJureControllingInterestParty",
+        "target_id": "DeJureControl",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isControllingPartyIn",
+                "DeJureControl"
+            ]
+        }
+    },
+    {
+        "source_id": "DeJureControllingInterestParty",
+        "target_id": "ControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SoleControllingParty",
+        "target_id": "EntityControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InfluenceBasedDeFactoControl",
+        "target_id": "DeFactoControl",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InfluenceBasedDeFactoControl",
+        "target_id": "InfluenceBasedDeFactoControllingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyInControl",
+                "InfluenceBasedDeFactoControllingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "Receiver",
+        "target_id": "CourtAppointedControl",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isControllingPartyIn",
+                "CourtAppointedControl"
+            ]
+        }
+    },
+    {
+        "source_id": "Receiver",
+        "target_id": "DeJureControllingInterestParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CourtAppointedControl",
+        "target_id": "DeJureControl",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TotalOwner",
+        "target_id": "ConstitutionalOwner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualControl",
+        "target_id": "DeJureControl",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ControlledParty",
+        "target_id": "ControlledThing",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ControllingAlliance",
+        "target_id": "Group",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "JointControllingParty",
+        "target_id": "EntityControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "JointControllingParty",
+        "target_id": "ControllingAlliance",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "ControllingAlliance"
+            ]
+        }
+    },
+    {
+        "source_id": "DeFactoControllingInterestParty",
+        "target_id": "ControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeFactoControllingInterestParty",
+        "target_id": "DeFactoControl",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isControllingPartyIn",
+                "DeFactoControl"
+            ]
+        }
+    },
+    {
+        "source_id": "MajorityControllingParty",
+        "target_id": "EntityControllingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

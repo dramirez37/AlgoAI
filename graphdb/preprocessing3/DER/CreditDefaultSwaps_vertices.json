@@ -1,0 +1,303 @@
+[
+    {
+        "id": "IndexCreditDefaultSwap",
+        "type": "Class",
+        "name": "IndexCreditDefaultSwap",
+        "explanatoryNote": "Credit default indices trade in standard maturities, and the reference entities are typically the most liquid; the reference portfolio is reassessed periodically to maintain this.",
+        "definition": "credit default swap that references a family of standardized credit derivative indices, where the underlying reference entities are a defined basket of credit from a particular geographic region (e.g. Asia, North America, Europe), and/or credit rating level (e.g. emerging markets, high yield, investment grade)",
+        "label": "index credit default swap"
+    },
+    {
+        "id": "MultiNameCreditDefaultSwap",
+        "type": "Class",
+        "name": "MultiNameCreditDefaultSwap",
+        "definition": "credit default swap that references more than one obligation or borrower",
+        "explanatoryNote": "For instance, a multiname contract could be written to cover defaults in a reference portfolio (such as in the case of a basket credit default swap) or, as has been increasingly common over the past couple of decades,be based on an index of commonly negotiated single-name CDS. The latter are generally called CDS indexes.",
+        "label": "multi-name credit default swap"
+    },
+    {
+        "id": "CreditDefaultSwap",
+        "type": "Class",
+        "name": "CreditDefaultSwap",
+        "label": "credit default swap",
+        "definition": "bilateral contract in which one party (protection seller) agrees to provide payment to the other party (protection buyer) should a credit event occur against the underlying, which could be a specified debt (the reference obligation), a specific debt issuer (reference entity), a basket of reference entities and/or reference obligations, or a credit index (reference index)",
+        "explanatoryNote": "According to a 2022 working paper from the Federal Reserve, \"credit default swaps (CDS) are, by far, the most common type of credit derivative. They are financial instruments that allow the transfer of credit risk among market participants, potentially facilitating greater efficiency in the pricing and distribution of credit risk. In its most basic form, a CDS is a contract where a 'protection buyer' agrees to make periodic payments (the CDS 'spread' or premium) over a predetermined number of years (the maturity or term of the CDS) to a 'protection seller' in exchange for a payment from the protection seller in the event of default by a 'reference entity.' CDS premiums tend to be paid quarterly and are set as a percentage of the total amount of protection bought (the 'notional amount' of the contract). CDS maturities generally range from one to ten years, with the five-year maturity being particularly common.\" See  for more detail.",
+        "abbreviation": "CDS"
+    },
+    {
+        "id": "CreditDerivative",
+        "type": "Entity",
+        "name": "CreditDerivative"
+    },
+    {
+        "id": "Swap",
+        "type": "Entity",
+        "name": "Swap"
+    },
+    {
+        "id": "CreditProtectionTerms",
+        "type": "Class",
+        "name": "CreditProtectionTerms",
+        "explanatoryNote": "Note that there may be additional payment schedules or a more complex calculation formula required depending on the terms of the contract.",
+        "definition": "legal terms that define triggering events and associated conditions related to settlement",
+        "label": "credit protection terms"
+    },
+    {
+        "id": "DerivativeTerms",
+        "type": "Entity",
+        "name": "DerivativeTerms"
+    },
+    {
+        "id": "DeliverableObligationSeller",
+        "type": "Class",
+        "name": "DeliverableObligationSeller",
+        "label": "deliverable obligation seller",
+        "definition": "contract party that is obliged to sell a deliverable obligation (asset) if a triggering event occurs, depending on the event and the contract"
+    },
+    {
+        "id": "Seller",
+        "type": "Entity",
+        "name": "Seller"
+    },
+    {
+        "id": "ContractParty",
+        "type": "Entity",
+        "name": "ContractParty"
+    },
+    {
+        "id": "EscrowAgent",
+        "type": "Class",
+        "name": "EscrowAgent",
+        "label": "escrow agent",
+        "explanatoryNote": "Use of an escrow agent is one possible mechanism that may be used in some cases, as specified in a credit default swap contract, for delivery purposes.",
+        "definition": "third party that holds an asset or funds before they are formally transferred from one party to another party, per the terms of a contract, within some specified time period and/or when a triggering event occurs"
+    },
+    {
+        "id": "ContractThirdParty",
+        "type": "Entity",
+        "name": "ContractThirdParty"
+    },
+    {
+        "id": "RegisteredAgent",
+        "type": "Entity",
+        "name": "RegisteredAgent"
+    },
+    {
+        "id": "LoanCreditDefaultSwap",
+        "type": "Class",
+        "name": "LoanCreditDefaultSwap",
+        "definition": "credit default swap whose underlying reference obligation is limited strictly to syndicated secured loans, rather than any type of corporate debt",
+        "abbreviation": "LCDS",
+        "label": "loan credit default swap"
+    },
+    {
+        "id": "CreditEventNotice",
+        "type": "Class",
+        "name": "CreditEventNotice",
+        "definition": "irrevocable written or verbal notice that states that a triggering event has occurred",
+        "label": "credit event notice",
+        "explanatoryNote": "Notices of certain kinds of credit events are required as a condition of a credit default swap. Such notices are sent from a notifying party (either the buyer or the seller) to the counterparty. They provide information that assists the contract parties in determining whether a triggering credit event has occurred."
+    },
+    {
+        "id": "Notice",
+        "type": "Entity",
+        "name": "Notice"
+    },
+    {
+        "id": "CashSettlementTerms",
+        "type": "Class",
+        "name": "CashSettlementTerms",
+        "explanatoryNote": "Note that the valuation determined via the appraisal of the underlying asset may include a quotation that is either an upper limit to the outstanding principal balance of the reference obligation for which the quote should be obtained, or a floating rate payer calculation amount."
+    },
+    {
+        "id": "BasketOfCreditDefaultSwaps",
+        "type": "Class",
+        "name": "BasketOfCreditDefaultSwaps",
+        "explanatoryNote": "Note that the CDS Index is broken down into tranches depending on different types of credits, for example, investment grade and high yield. Tranches are defined by attachment and detachment points for the index loss distribution. It means that when default events occur the lower-level tranches absorb the loss up to the detachment point, before moving to the next senior tranche.",
+        "definition": "basket of reference obligations are credit default swap instruments",
+        "label": "basket of credit default swaps"
+    },
+    {
+        "id": "WeightedBasket",
+        "type": "Entity",
+        "name": "WeightedBasket"
+    },
+    {
+        "id": "DatedStructuredCollection",
+        "type": "Entity",
+        "name": "DatedStructuredCollection"
+    },
+    {
+        "id": "NotifyingParty",
+        "type": "Class",
+        "name": "NotifyingParty",
+        "label": "notifying party",
+        "explanatoryNote": "The notifying party is the party that notifies the other party when a credit or other triggering event has occurred by means of a credit event notice. If more than one party is referenced as being the notifying party then either party may notify the other of such an occurrence.",
+        "definition": "party responsible for issuing one or more formal notices indicating that an event that is relevant to a given contract has taken place"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "SingleNameCreditDefaultSwap",
+        "type": "Class",
+        "name": "SingleNameCreditDefaultSwap",
+        "definition": "credit default swap whose underlying risk is a single reference obligation, or a single reference entity, such as a corporation or a sovereign borrower",
+        "label": "single name credit default swap"
+    },
+    {
+        "id": "DeliverableObligationBuyer",
+        "type": "Class",
+        "name": "DeliverableObligationBuyer",
+        "label": "deliverable obligation buyer",
+        "definition": "contract party that is obliged to purchase a deliverable obligation (asset) if a triggering event occurs, depending on the event and the contract"
+    },
+    {
+        "id": "Buyer",
+        "type": "Entity",
+        "name": "Buyer"
+    },
+    {
+        "id": "CreditDefaultSwapIndex",
+        "type": "Class",
+        "name": "CreditDefaultSwapIndex",
+        "label": "credit default swap index",
+        "definition": "index whose underlying reference obligations are credit default swap instruments"
+    },
+    {
+        "id": "ReferenceIndex",
+        "type": "Entity",
+        "name": "ReferenceIndex"
+    },
+    {
+        "id": "AssetBackedCreditDefaultSwap",
+        "type": "Class",
+        "name": "AssetBackedCreditDefaultSwap",
+        "label": "asset-backed credit default swap",
+        "abbreviation": "ABCDS",
+        "definition": "credit default swap whose underlying reference obligation is an asset-backed security rather than corporate credit",
+        "explanatoryNote": "In the case of an ABCDS, the buyer receives protection for defaults on asset-backed securities or tranches of securities, rather than protecting against the default of a particular issuer. Asset-backed securities are securities backed by a pool of loans or receivables, such as auto loans, home equity loans or credit cards loans."
+    },
+    {
+        "id": "ContingentCreditDefaultSwap",
+        "type": "Class",
+        "name": "ContingentCreditDefaultSwap",
+        "abbreviation": "CCDS",
+        "definition": "credit default swap in which an additional triggering event is required",
+        "explanatoryNote": "In a contingent credit default swap, the trigger requires both a credit event (as in a traditional credit default swap) and another specified event. The additional specified event is usually a significant movement in an index covering equities, commodities, interest rates, or some other overall measure of the economy or relevant industry.",
+        "label": "contingent credit default swap"
+    },
+    {
+        "id": "ObligationSpecificCreditEvent",
+        "type": "Class",
+        "name": "ObligationSpecificCreditEvent"
+    },
+    {
+        "id": "TriggeringEvent",
+        "type": "Class",
+        "name": "TriggeringEvent",
+        "definition": "event that relates to or triggers some aspect of a credit default swap",
+        "explanatoryNote": "A triggering event is typically a credit event, but could be anything that happens in the marketplace. For example, a weather-specific contract could be triggered by a hurricane - which wouldn't be considered a credit event per se.",
+        "label": "triggering event"
+    },
+    {
+        "id": "IndexTrancheCreditDefaultSwap",
+        "type": "Class",
+        "name": "IndexTrancheCreditDefaultSwap",
+        "label": "index tranche credit default swap",
+        "definition": "credit default swap that references a synthetic collateralized debt obligation (CDO) based on a credit index where each tranche references a different segment of the loss distribution of the underlying index",
+        "explanatoryNote": "Each tranche has a different priority of claims on the principal and interest flows from the collateral pool, and is traditionally portioned into rising levels of seniority."
+    },
+    {
+        "id": "SettlementAuction",
+        "type": "Class",
+        "name": "SettlementAuction",
+        "definition": "independently administered synthetic auction process on a set of defined deliverable obligations that sets the reference final price that can be used to facilitate cash settlement of all covered transactions following a credit event",
+        "label": "settlement auction"
+    },
+    {
+        "id": "SettlementEvent",
+        "type": "Entity",
+        "name": "SettlementEvent"
+    },
+    {
+        "id": "BasketCreditDefaultSwap",
+        "type": "Class",
+        "name": "BasketCreditDefaultSwap",
+        "label": "basket credit default swap",
+        "definition": "credit default swap that references a bespoke, synthetic portfolio of underlying assets whose components have been agreed to for a specific OTC derivative by the parties to the transaction"
+    },
+    {
+        "id": "CashSettlementMethod",
+        "type": "Class",
+        "name": "CashSettlementMethod",
+        "label": "cash settlement method",
+        "explanatoryNote": "The method may include an independently administered synthetic auction process that sets the reference final price.",
+        "definition": "strategy for calculating or otherwise establishing a reference final price for the contract"
+    },
+    {
+        "id": "PriceDeterminationMethod",
+        "type": "Entity",
+        "name": "PriceDeterminationMethod"
+    },
+    {
+        "id": "DeliverableObligation",
+        "type": "Class",
+        "name": "DeliverableObligation",
+        "definition": "asset that must be delivered as a part of the process of settling a credit default swap",
+        "label": "deliverable asset",
+        "explanatoryNote": "If the reference obligation is a bond, the deliverable asset (obligation) may be a different bond. If it is a loan, the deliverable asset may involve assigment of a loan."
+    },
+    {
+        "id": "Asset",
+        "type": "Entity",
+        "name": "Asset"
+    },
+    {
+        "id": "PhysicalSettlementTerms",
+        "type": "Class",
+        "name": "PhysicalSettlementTerms"
+    },
+    {
+        "id": "Occurrence",
+        "type": "Entity",
+        "name": "Occurrence"
+    },
+    {
+        "id": "hasQuotationMethod",
+        "type": "ObjectProperty",
+        "name": "hasQuotationMethod",
+        "label": "has quotation method",
+        "definition": "indicates the nature of the pricing quotations to be requested from banks and/or dealers when determining the market value of the reference obligation for purposes of cash settlement"
+    },
+    {
+        "id": "hasContractPrice",
+        "type": "ObjectProperty",
+        "name": "hasContractPrice",
+        "label": "has contract price",
+        "definition": "specifies a predetermined price at which the buyer purchases the credit default swap contract"
+    },
+    {
+        "id": "allowsSubstitution",
+        "type": "DatatypeProperty",
+        "name": "allowsSubstitution",
+        "definition": "indicates whether it is possible to substitute other obligations in place of the specified deliverable obligation",
+        "label": "allows substitution"
+    },
+    {
+        "id": "hasScheduledTerminationDate",
+        "type": "ObjectProperty",
+        "name": "hasScheduledTerminationDate",
+        "definition": "date on which credit protection is due to expire as agreed by both parties",
+        "label": "scheduled termination date"
+    },
+    {
+        "id": "hasMinimumQuotationAmount",
+        "type": "ObjectProperty",
+        "name": "hasMinimumQuotationAmount",
+        "definition": "indicates a minimum intended threshold amount of outstanding principal balance of the reference obligation for which the quote should be obtained",
+        "label": "has minimum quotation amount"
+    }
+]

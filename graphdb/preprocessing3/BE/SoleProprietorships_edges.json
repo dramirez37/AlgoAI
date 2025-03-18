@@ -1,0 +1,53 @@
+[
+    {
+        "source_id": "SoleProprietorship",
+        "target_id": "BusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SoleProprietorship",
+        "target_id": "LegalPerson",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SoleProprietor",
+        "target_id": "EntityOwner",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SoleProprietor",
+        "target_id": "SoleProprietorship",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInvestmentEntity",
+                "SoleProprietorship"
+            ]
+        }
+    },
+    {
+        "source_id": "SoleProprietor",
+        "target_id": "SoleProprietorship",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "ownsAndControls",
+                "SoleProprietorship"
+            ]
+        }
+    }
+]

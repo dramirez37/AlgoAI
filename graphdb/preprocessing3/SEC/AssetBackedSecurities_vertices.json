@@ -1,0 +1,108 @@
+[
+    {
+        "id": "CreditCardAssetBackedSecurity",
+        "type": "Class",
+        "name": "CreditCardAssetBackedSecurity",
+        "label": "credit card asset-backed security",
+        "explanatoryNote": "Credit card securitizations currently represent the primary funding vehicle for unsecured revolving consumer credit. Similar to mortgage and other asset securitizations, the financial institution that originates the credit card receivables sells a group of these receivables to a trust. The trust then creates and sells certificates backed by the credit card receivables to investors, which are predominately institutional investors. Very few credit card ABS are marketed to retail customers, primarily due to the complex nature of the transactions and the need to continually monitor various performance indices on the underlying receivables. The underlying credit card receivables generate income to support the interest payments on the certificates.",
+        "definition": "asset-backed security based on credit card receivables"
+    },
+    {
+        "id": "AssetBackedSecurity",
+        "type": "Entity",
+        "name": "AssetBackedSecurity"
+    },
+    {
+        "id": "AutoAssetBackedSecurity",
+        "type": "Class",
+        "name": "AutoAssetBackedSecurity",
+        "definition": "asset-backed security that is backed by an underlying pool of auto-related loans and/or leases",
+        "label": "auto asset-backed security",
+        "explanatoryNote": "Auto asset-backed securities (auto ABS) are typically structured finance securities that are collateralized by auto loans or leases, such as those to prime (good credit standing) and subprime (poor credit standing) borrowers. Loans or leases are bundled into pools and transferred to a special-purpose entity (SPE), which, in turn, transfers the pool to a (bankruptcy remote) trust. Payments on the underlying auto loans and leases are pooled in the trust, and the funds are used to pay note investors their respective principal which, in turn, transfers the pool to a (bankruptcy remote) trust, i.e., one that protects the security from bankruptcy. Payments on the underlying auto loans and leases are pooled in the trust, and the funds are used to pay note investors their respective principal and interest when due. Any leftover funds - known as excess spread, or the net interest margin - are paid to the equity holder (usually the issuer, such as an auto finance company)."
+    },
+    {
+        "id": "HomeEquityLoanAssetBackedSecurity",
+        "type": "Class",
+        "name": "HomeEquityLoanAssetBackedSecurity",
+        "explanatoryNote": "Similar to mortgages, home equity loans are often taken out by borrowers who have less-than-stellar credit scores or few assets - the reason why they didn\u2019t qualify for a mortgage. These are amortizing loans - that is, payment goes toward satisfying a specific sum and consists of three categories: interest, principal, and prepayments.",
+        "label": "home equity loan asset-backed security",
+        "definition": "asset-backed security based on home equity loan receivables"
+    },
+    {
+        "id": "StudentLoanPool",
+        "type": "Class",
+        "name": "StudentLoanPool",
+        "definition": "debt pool consisting of student loans",
+        "label": "student loan pool"
+    },
+    {
+        "id": "DebtPool",
+        "type": "Entity",
+        "name": "DebtPool"
+    },
+    {
+        "id": "ConsumerAssetBackedSecurity",
+        "type": "Class",
+        "name": "ConsumerAssetBackedSecurity",
+        "label": "consumer asset-backed security",
+        "definition": "structured finance securities collateralized by pools of auto loans and leases (auto ABS), credit card receivables (credit card ABS) or student loans (student loan ABS)"
+    },
+    {
+        "id": "StructuredFinanceInstrument",
+        "type": "Entity",
+        "name": "StructuredFinanceInstrument"
+    },
+    {
+        "id": "AutoDebtPool",
+        "type": "Class",
+        "name": "AutoDebtPool",
+        "definition": "debt pool of loans and/or leases that are motor vehicle-related",
+        "label": "auto debt pool"
+    },
+    {
+        "id": "HomeEquityLineOfCreditPool",
+        "type": "Class",
+        "name": "HomeEquityLineOfCreditPool",
+        "definition": "debt pool consisting of home equity loans",
+        "label": "home equity line of credit pool"
+    },
+    {
+        "id": "FullyAmortizingAssetBackedSecurity",
+        "type": "Class",
+        "name": "FullyAmortizingAssetBackedSecurity",
+        "explanatoryNote": "Fully amortizing asset-backed securities are designed to closely reflect the full repayment of the underlying loans through scheduled interest and principal payments.",
+        "label": "fully amortizing asset-backed security",
+        "definition": "asset-backed security based on a pool of debt instruments that returns principal to investors over the life of the security"
+    },
+    {
+        "id": "ControlledAmortizationAssetBackedSecurity",
+        "type": "Class",
+        "name": "ControlledAmortizationAssetBackedSecurity",
+        "label": "controlled amortization asset-backed security",
+        "definition": "asset-backed security based on a pool of bonds securitized using a controlled amortization structure",
+        "explanatoryNote": "Revolving debt (primarily credit card receivables, but also HELOCs, trade receivables, dealer floor-plan loans and some leases) may be securitized using a controlled amortization structure. This is a method of providing investors with a relatively predictable repayment schedule, even though the underlying assets are nonamortizing. A risk inherent in this kind of ABS is an early amortization event."
+    },
+    {
+        "id": "StudentLoanAssetBackedSecurity",
+        "type": "Class",
+        "name": "StudentLoanAssetBackedSecurity",
+        "definition": "asset-backed security based on student loan receivables",
+        "explanatoryNote": "If the credit risk of the pool has been decoupled from the institution via an SPV, then student loan asset-backed securities are also structured finance instruments.",
+        "label": "student loan asset-backed security"
+    },
+    {
+        "id": "BondPool",
+        "type": "Class",
+        "name": "BondPool",
+        "definition": "debt pool of consisting of bonds",
+        "label": "bond pool"
+    },
+    {
+        "id": "CreditCardAccountPool",
+        "type": "Class",
+        "name": "CreditCardAccountPool",
+        "label": "credit card account pool",
+        "explanatoryNote": "In a credit card securitization transaction only the receivables are sold, not the accounts that generate the receivables. The financial institution retains legal ownership of the credit card accounts and can continue to change the terms on the accounts. Accounts corresponding to securitized loans are typically referred to as the designated accounts (or sometimes trust accounts). The initial outstanding balances on the designated accounts are sold to the trust as are the rights to any new charges on the designated accounts. Subsequently, as cardholder purchase activity generates more receivables on the designated accounts, these new receivables are purchased by the trust from the originating institution/seller/transferor. The trust uses the monthly principal payments received from the cardholders to acquire these new charges or receivables. When the securitization is initially set up, the originating institution/seller adds sufficient receivables to support the principal balance of the certificates plus an additional amount (seller's interest) that serves to absorb fluctuations in the outstanding balance of the receivables. The originating institution/seller will make subsequent additions to the trust in order to keep the seller's interest at the required level.",
+        "definition": "pool of credit card receivables associated with designated accounts"
+    }
+]

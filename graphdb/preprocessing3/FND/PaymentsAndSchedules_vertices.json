@@ -1,0 +1,100 @@
+[
+    {
+        "id": "Payer",
+        "type": "Class",
+        "name": "Payer",
+        "label": "payer",
+        "definition": "a party who pays a bill or fees, or who makes payments to a payee in partial or complete fulfillment of an obligation"
+    },
+    {
+        "id": "Obligor",
+        "type": "Entity",
+        "name": "Obligor"
+    },
+    {
+        "id": "PaymentObligation",
+        "type": "Class",
+        "name": "PaymentObligation",
+        "definition": "legally enforceable duty to pay a sum of money according to the terms stated in a contract",
+        "label": "payment obligation"
+    },
+    {
+        "id": "Commitment",
+        "type": "Entity",
+        "name": "Commitment"
+    },
+    {
+        "id": "Duty",
+        "type": "Entity",
+        "name": "Duty"
+    },
+    {
+        "id": "PaymentEvent",
+        "type": "Class",
+        "name": "PaymentEvent",
+        "definition": "an event that involves delivery of money in fulfillment of an obligation",
+        "label": "payment event"
+    },
+    {
+        "id": "TransactionEvent",
+        "type": "Entity",
+        "name": "TransactionEvent"
+    },
+    {
+        "id": "PaymentSchedule",
+        "type": "Class",
+        "name": "PaymentSchedule",
+        "label": "payment schedule",
+        "definition": "schedule for delivery of money in fulfillment of an obligation"
+    },
+    {
+        "id": "Schedule",
+        "type": "Entity",
+        "name": "Schedule"
+    },
+    {
+        "id": "Payment",
+        "type": "Class",
+        "name": "Payment",
+        "definition": "delivery of money in fulfillment of an obligation, such as to satisfy a claim or debt",
+        "label": "payment"
+    },
+    {
+        "id": "Occurrence",
+        "type": "Entity",
+        "name": "Occurrence"
+    },
+    {
+        "id": "Payee",
+        "type": "Class",
+        "name": "Payee",
+        "label": "payee",
+        "definition": "a party to whom a debt should be paid, or to whose order a bill of exchange, note, or check is made payable, or who receives or will receive a payment from a payer in partial or complete fulfillment of an obligation"
+    },
+    {
+        "id": "Obligee",
+        "type": "Entity",
+        "name": "Obligee"
+    },
+    {
+        "id": "fulfillsObligation",
+        "type": "ObjectProperty",
+        "name": "fulfillsObligation",
+        "label": "fulfills obligation",
+        "definition": "satisfies a requirement for payment of some claim, debt, or other obligation"
+    },
+    {
+        "id": "hasPaymentAmount",
+        "type": "ObjectProperty",
+        "name": "hasPaymentAmount",
+        "label": "has payment amount",
+        "definition": "specifies the amount of money involved in a payment"
+    },
+    {
+        "id": "hasPaymentSchedule",
+        "type": "ObjectProperty",
+        "name": "hasPaymentSchedule",
+        "definition": "specifies the schedule for fulfillment of an obligation",
+        "label": "has payment schedule"
+    }
+]

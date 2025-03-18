@@ -1,0 +1,152 @@
+[
+    {
+        "source_id": "Payer",
+        "target_id": "Obligor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Payer",
+        "target_id": "PaymentObligation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "hasObligation",
+                "PaymentObligation"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentObligation",
+        "target_id": "Commitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentObligation",
+        "target_id": "Payer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isObligationOf",
+                "Payer"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentObligation",
+        "target_id": "Payee",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Payee"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentObligation",
+        "target_id": "Duty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentEvent",
+        "target_id": "PaymentObligation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "appliesTo",
+                "PaymentObligation"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentEvent",
+        "target_id": "TransactionEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaymentEvent",
+        "target_id": "Payment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "involves",
+                "Payment"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentSchedule",
+        "target_id": "Payment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "Payment"
+            ]
+        }
+    },
+    {
+        "source_id": "PaymentSchedule",
+        "target_id": "Schedule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Payment",
+        "target_id": "Occurrence",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Payee",
+        "target_id": "Obligee",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Payee",
+        "target_id": "PaymentObligation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "PaymentObligation"
+            ]
+        }
+    }
+]

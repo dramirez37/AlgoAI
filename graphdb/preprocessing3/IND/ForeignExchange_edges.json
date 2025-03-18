@@ -1,0 +1,164 @@
+[
+    {
+        "source_id": "CurrencySpotVolatility",
+        "target_id": "ExchangeRateVolatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpotVolatility",
+        "target_id": "HistoricalVolatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpotVolatility",
+        "target_id": "CurrencySpotRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isVolatilityOf",
+                "CurrencySpotRate"
+            ]
+        }
+    },
+    {
+        "source_id": "ForeignExchangeService",
+        "target_id": "FinancialService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QuotedExchangeRate",
+        "target_id": "MarketRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QuotedExchangeRate",
+        "target_id": "ExchangeRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyForwardRateVolatility",
+        "target_id": "CurrencyForwardRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isVolatilityOf",
+                "CurrencyForwardRate"
+            ]
+        }
+    },
+    {
+        "source_id": "CurrencyForwardRateVolatility",
+        "target_id": "ExchangeRateVolatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyForwardRateVolatility",
+        "target_id": "ImpliedVolatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeRateStructure",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeRateStructure",
+        "target_id": "ExchangeRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "ExchangeRate"
+            ]
+        }
+    },
+    {
+        "source_id": "CurrencyForwardRate",
+        "target_id": "QuotedExchangeRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InternationalElectronicFundsTransferService",
+        "target_id": "ForeignExchangeService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InternationalElectronicFundsTransferService",
+        "target_id": "ElectronicFundsTransferService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencyConversionService",
+        "target_id": "ForeignExchangeService",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpotMidRate",
+        "target_id": "CurrencySpotRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpotRate",
+        "target_id": "QuotedExchangeRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpotSellRate",
+        "target_id": "CurrencySpotRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeRateVolatility",
+        "target_id": "ExchangeRateStructure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "ExchangeRateStructure"
+            ]
+        }
+    },
+    {
+        "source_id": "ExchangeRateVolatility",
+        "target_id": "Volatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrencySpotBuyRate",
+        "target_id": "CurrencySpotRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

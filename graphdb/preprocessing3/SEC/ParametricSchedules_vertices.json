@@ -1,0 +1,146 @@
+[
+    {
+        "id": "InternationalMoneyMarketAustralianDollarTradingDateRule",
+        "type": "Class",
+        "name": "InternationalMoneyMarketAustralianDollarTradingDateRule",
+        "label": "International Money Market (IMM) Australian Dollar (AUD) trading date rule",
+        "definition": "trading date rule defined as the last trading day of an Australian Stock Exchange (ASX) 90-Day Bank Accepted Futures and Options product, one Sydney business day preceding the second Friday of the relevant settlement month",
+        "abbreviation": "IMM AUD trading date rule"
+    },
+    {
+        "id": "TradingDateRule",
+        "type": "Class",
+        "name": "TradingDateRule",
+        "definition": "convention for determining trading dates defined with reference to some trading date calendar published by some trading facility or exchange",
+        "label": "trading date rule",
+        "explanatoryNote": "Corresponds to several ISDA FpML enumeration entries for determining Calculation Date, but refers to other kinds of trading date defined in those calendars. These include Canadian, Australian and New Zealand dates. Note also that some of these have roll rules included within them for when the date determined by the specification returns a non working day, while others explicitly return a business day and require no date roll rule. At least one is silent on this matter."
+    },
+    {
+        "id": "ScheduledCalculationPeriodStartEvent",
+        "type": "Class",
+        "name": "ScheduledCalculationPeriodStartEvent",
+        "label": "scheduled calculation period start event",
+        "explanatoryNote": "FpML for CalculationPeriod 'A type defining the parameters used in the calculation of a fixed or floating rate calculation period amount. This type forms part of cashflows representation of a swap stream.'",
+        "definition": "the start of a specific calculation period"
+    },
+    {
+        "id": "OccurrenceKind",
+        "type": "Entity",
+        "name": "OccurrenceKind"
+    },
+    {
+        "id": "FloatingRateNoteDate",
+        "type": "Class",
+        "name": "FloatingRateNoteDate",
+        "label": "floating-rate note date",
+        "abbreviation": "FRN date",
+        "definition": "calculated date associated with a floating-rate note, also known as a floater or FRN, which is a debt instrument with a variable interest rate"
+    },
+    {
+        "id": "CalculatedDate",
+        "type": "Entity",
+        "name": "CalculatedDate"
+    },
+    {
+        "id": "InternationalMoneyMarketCanadianDollarTradingDateRule",
+        "type": "Class",
+        "name": "InternationalMoneyMarketCanadianDollarTradingDateRule",
+        "label": "International Money Market (IMM) Canadian Dollar (CAD) trading date rule",
+        "definition": "trading date rule defined as the last trading day / expiration day of the Canadian Derivatives Exchange (Bourse do Montreal Inc.), three month Bankers' Acceptance Futures (Ticker symbol BAX), the second London banking day prior to the third Wednesday of the contract month",
+        "explanatoryNote": "If the determined day is a bourse or bank holiday in Toronto or Montreal, the last trading day shall be the previous bank business day, per the Canadian Derivatives Exchange BAX contract specification. The above description implies a Date Roll Rule which is presumably referenced by referring to this rule, so that when this rule is referenced, there would be no Date Roll Rule defined in the FpML message. Semantically, this is still a Date Roll Rule, specifically a \"Roll forward\" rule with no modification (the third Wednesday of a month will never roll forward to a day in the following month so no Modified rule is required).",
+        "abbreviation": "IMM CAD trading date rule"
+    },
+    {
+        "id": "SettlementDateRule",
+        "type": "Class",
+        "name": "SettlementDateRule",
+        "label": "settlement date rule",
+        "definition": "convention for determining settlement dates by reference to some jurisdiction or as set by a given exchange or similar venue"
+    },
+    {
+        "id": "BusinessRecurrenceIntervalConvention",
+        "type": "Entity",
+        "name": "BusinessRecurrenceIntervalConvention"
+    },
+    {
+        "id": "AuctionDateRule",
+        "type": "Class",
+        "name": "AuctionDateRule",
+        "definition": "business recurrence interval convention that is a published rule for defining the date of some auction event",
+        "label": "auction date rule"
+    },
+    {
+        "id": "DateReturnedBySettlementDateRule",
+        "type": "Class",
+        "name": "DateReturnedBySettlementDateRule",
+        "label": "date returned by settlement date rule",
+        "definition": "calculated date that is determined via a settlement rule"
+    },
+    {
+        "id": "FloatingRateNoteDateRule",
+        "type": "Class",
+        "name": "FloatingRateNoteDateRule",
+        "label": "floating-rate note date rule",
+        "definition": "business day adjustment rule applied to floating-rate note instruments",
+        "abbreviation": "FRN date rule"
+    },
+    {
+        "id": "BusinessDayAdjustment",
+        "type": "Entity",
+        "name": "BusinessDayAdjustment"
+    },
+    {
+        "id": "ScheduledCalculationPeriodEndEvent",
+        "type": "Class",
+        "name": "ScheduledCalculationPeriodEndEvent",
+        "definition": "the end date of a specific calculation period",
+        "label": "scheduled calculation period end event",
+        "explanatoryNote": "Note that this is not necessarily the same as the day before the next period's start date. Calculation schedules specify periods of time, with a start and an end as well as a duration, with the end date being determined by some convention or published list of dates. FpML for CalculationPeriod 'A type defining the parameters used in the calculation of a fixed or floating rate calculation period amount. This type forms part of cashflows representation of a swap stream.'"
+    },
+    {
+        "id": "USTreasuryBillDate",
+        "type": "Class",
+        "name": "USTreasuryBillDate",
+        "explanatoryNote": "Per FpML notes/definition, this is every Monday except on New York holidays when it will be on a Tuesday.",
+        "definition": "auction date for US 13 week and 26 week Treasury bills",
+        "label": "US Treasury bill date"
+    },
+    {
+        "id": "InternationalMoneyMarketSettlementDateRule",
+        "type": "Class",
+        "name": "InternationalMoneyMarketSettlementDateRule",
+        "label": "International Money Market (IMM) settlement date rule",
+        "abbreviation": "IMM settlement date rule",
+        "explanatoryNote": "The International Money Market (IMM) is a division of the Chicago Mercantile Exchange (CME) that deals with the trading of currency and interest rate futures and options.",
+        "definition": "settlement date rule as defined in the International Money Market (IMM) settlement dates calendar"
+    },
+    {
+        "id": "USTreasuryBillAuctionDateRule",
+        "type": "Class",
+        "name": "USTreasuryBillAuctionDateRule",
+        "definition": "rule for setting auction dates for US Treasury bills",
+        "explanatoryNote": "To finance the public debt, the U.S. Treasury sells bills, notes, bonds, Floating Rate Notes (FRNs), and Treasury Inflation-Protected Securities (TIPS) to institutional and individual investors through public auctions. Treasury auctions occur regularly and have a set schedule. Rules and other information are available via announcements of pending auctions.",
+        "label": "US Treasury bill auction date rule"
+    },
+    {
+        "id": "DateReturnedByTradingDateRule",
+        "type": "Class",
+        "name": "DateReturnedByTradingDateRule",
+        "label": "date returned by trading date rule",
+        "definition": "calculated date that is determined via a trading rule"
+    },
+    {
+        "id": "InternationalMoneyMarketNewZealandDollarTradingDateRule",
+        "type": "Class",
+        "name": "InternationalMoneyMarketNewZealandDollarTradingDateRule",
+        "definition": "trading date rule defined as the last trading day of an Australian Stock Exchange (ASX) New Zealand (NZ) 90-Day Bank Accepted Futures and Options product, the first Wednesday after the ninth day of the relevant settlement month",
+        "label": "International Money Market (IMM) New Zealand Dollar (NZD) trading date rule",
+        "abbreviation": "IMM NZD trading date rule"
+    },
+    {
+        "id": "RegularSchedule",
+        "type": "Class",
+        "name": "RegularSchedule",
+        "explanatoryNote": "A parametric schedule is a regular schedule for one of the events that occur in a periodic schedule of interest accruals, interest payments, and (for floating rate swapstreams), changes to the interest rate. Parametric schedules may be specified individually but more commonly, calculation events are scheduled, with other dates specified as offsets. In a regular schedule, related dates may be independently parametrically scheduled."
+    }
+]

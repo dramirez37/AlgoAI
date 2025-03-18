@@ -1,0 +1,648 @@
+[
+    {
+        "id": "DefinePoolCharacteristics",
+        "type": "Class",
+        "name": "DefinePoolCharacteristics",
+        "label": "define pool characteristics"
+    },
+    {
+        "id": "IssuanceProcessActivity",
+        "type": "Entity",
+        "name": "IssuanceProcessActivity"
+    },
+    {
+        "id": "GetCommitmentFromInvestors",
+        "type": "Class",
+        "name": "GetCommitmentFromInvestors",
+        "label": "get commitment from investors"
+    },
+    {
+        "id": "PoolTrustee",
+        "type": "Class",
+        "name": "PoolTrustee",
+        "label": "pool trustee"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "PotentialNonAgencyMBSIssuer",
+        "type": "Class",
+        "name": "PotentialNonAgencyMBSIssuer",
+        "definition": "The entity which will become the issuing party for the Tranched MBS Issue. This entity is the principal actor in most of the activities involved in the issue. Term origin:MBS PoC Reviews",
+        "label": "potential non agency m b s issuer"
+    },
+    {
+        "id": "PoolBackedSecuritySecuritizationProcessActor",
+        "type": "Entity",
+        "name": "PoolBackedSecuritySecuritizationProcessActor"
+    },
+    {
+        "id": "IdentifyUnderwriter",
+        "type": "Class",
+        "name": "IdentifyUnderwriter",
+        "label": "identify underwriter"
+    },
+    {
+        "id": "DefineNotesParameters",
+        "type": "Class",
+        "name": "DefineNotesParameters",
+        "label": "define notes parameters",
+        "definition": "the denom of the notes"
+    },
+    {
+        "id": "TrancheNotesParameters",
+        "type": "Class",
+        "name": "TrancheNotesParameters",
+        "label": "tranche notes parameters",
+        "definition": "One set of information defining the notes breakdown of one tranche. Covers denominations and amounts that you can byu of the instrument in this tranche. Q: Is this really defined in the prospectus? A: yes The prospectus lists the characteristics including e.g. \"The notes will be sold in denominations of X AND Increuemtns of Y e.g. $250 000 incremented by $1000. Parameters include: Denominations Minimum amounts what else? Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "TranchedMBSIssueProspectusPart",
+        "type": "Class",
+        "name": "TranchedMBSIssueProspectusPart",
+        "label": "tranched m b s issue prospectus part",
+        "definition": "A part or section of a prospectus for a tranched mortgage backed securities issue. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "AssessRatings",
+        "type": "Class",
+        "name": "AssessRatings",
+        "label": "assess ratings"
+    },
+    {
+        "id": "TranchedMBSDealTransaction",
+        "type": "Class",
+        "name": "TranchedMBSDealTransaction",
+        "label": "tranched m b s deal transaction",
+        "definition": "The deal transaction by which the MBS Issue is issued to primary investors. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "FinancialPrimaryMarketTransaction",
+        "type": "Entity",
+        "name": "FinancialPrimaryMarketTransaction"
+    },
+    {
+        "id": "DraftTrancheNotesParameters",
+        "type": "Class",
+        "name": "DraftTrancheNotesParameters",
+        "definition": "Draft of set of information defining the notes breakdown of one tranche. covers denominations and amounts that you can byu of the instrument in this tranche. Term origin:MBS PoC Reviews",
+        "label": "draft tranche notes parameters"
+    },
+    {
+        "id": "Document",
+        "type": "Entity",
+        "name": "Document"
+    },
+    {
+        "id": "PurchaseMortgageIntoPool",
+        "type": "Class",
+        "name": "PurchaseMortgageIntoPool",
+        "label": "purchase mortgage into pool"
+    },
+    {
+        "id": "FinalizeProspectus",
+        "type": "Class",
+        "name": "FinalizeProspectus",
+        "label": "finalize prospectus"
+    },
+    {
+        "id": "TranchedOfferingMemorandum",
+        "type": "Class",
+        "name": "TranchedOfferingMemorandum",
+        "definition": "The Offering Memorandum will include or attach the terms for two or more individual tranches that will make up the issue, and the structure of the tranches, including how they will relate to one another (priorities and so on). Term origin:MBS PoC Reviews",
+        "label": "tranched offering memorandum"
+    },
+    {
+        "id": "OfferingDocument",
+        "type": "Entity",
+        "name": "OfferingDocument"
+    },
+    {
+        "id": "TranchedMBSProspectusOutline",
+        "type": "Class",
+        "name": "TranchedMBSProspectusOutline",
+        "definition": "An outline of the tranched prospectus, provind an intial representation of the possible tranches and their features. Term origin:MBS PoC Reviews",
+        "label": "tranched m b s prospectus outline"
+    },
+    {
+        "id": "PreliminaryProspectus",
+        "type": "Entity",
+        "name": "PreliminaryProspectus"
+    },
+    {
+        "id": "InIssuanceNonAgencyMortgagePool",
+        "type": "Class",
+        "name": "InIssuanceNonAgencyMortgagePool",
+        "label": "in issuance non agency mortgage pool"
+    },
+    {
+        "id": "NonAgencyMortgagePool",
+        "type": "Class",
+        "name": "NonAgencyMortgagePool"
+    },
+    {
+        "id": "FinalizePoolContent",
+        "type": "Class",
+        "name": "FinalizePoolContent",
+        "label": "finalize pool content"
+    },
+    {
+        "id": "AssessPoolSuitabilityForIssuance",
+        "type": "Class",
+        "name": "AssessPoolSuitabilityForIssuance",
+        "label": "assess pool suitability for issuance"
+    },
+    {
+        "id": "IdentifyConformingMortgage",
+        "type": "Class",
+        "name": "IdentifyConformingMortgage",
+        "label": "identify conforming mortgage"
+    },
+    {
+        "id": "RemittanceReport",
+        "type": "Class",
+        "name": "RemittanceReport",
+        "label": "remittance report",
+        "definition": "Report containing a specific and limited set of information about the Deal. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "Report",
+        "type": "Entity",
+        "name": "Report"
+    },
+    {
+        "id": "DraftTrancheStructure",
+        "type": "Class",
+        "name": "DraftTrancheStructure",
+        "label": "draft tranche structure",
+        "definition": "Draft of set of information defining the tranches in the tranched issue and how these relate to one another. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "PotentialTranchedIssueUnderwriter",
+        "type": "Class",
+        "name": "PotentialTranchedIssueUnderwriter",
+        "definition": "The entity which will become the underwriter for the tranched MBS issue. Term origin:MBS PoC Reviews",
+        "label": "potential tranched issue underwriter"
+    },
+    {
+        "id": "PotentialUnderwriter",
+        "type": "Entity",
+        "name": "PotentialUnderwriter"
+    },
+    {
+        "id": "IndividualTrancheDefinitions",
+        "type": "Class",
+        "name": "IndividualTrancheDefinitions",
+        "label": "individual tranche definitions",
+        "definition": "In reality there is one termsheet that has sets of information for the terms for each Tranche. This class of information identifies the terms of one tranche, but it does not exist as a separate document in its own right. Further Notes ? We may need to firm up the relationship between the individual tranche termsheet and the information about the relationships among these (some of which are quite complex) and the terms that are common to more than one tranche. In practice these may be separate sections of one document. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "TermSheet",
+        "type": "Entity",
+        "name": "TermSheet"
+    },
+    {
+        "id": "NotYetIssuedNonAgencyMortgagePool",
+        "type": "Class",
+        "name": "NotYetIssuedNonAgencyMortgagePool",
+        "label": "not yet issued non agency mortgage pool"
+    },
+    {
+        "id": "DrawUpTrancheTermsheets",
+        "type": "Class",
+        "name": "DrawUpTrancheTermsheets",
+        "label": "draw up tranche termsheets"
+    },
+    {
+        "id": "MakeSecuritiesAvailableInMarket",
+        "type": "Class",
+        "name": "MakeSecuritiesAvailableInMarket",
+        "definition": "What happens here? e.g. notices / marketing (phone calls) Structured Finance: There's not really notices in the newspaper, it's a very small market and it's all based on relationships so there's no public notice. So you would get an email from the sales person at the bank who has just closed the deal and is now selling these (this bank is the broker/dealer who bought it?) There's not really much of a secondary market - the initial investors would often hold on to these. There is something around Bloomberg - you can go there and see what's available, if someone has a number of notes from a iven tranche, that they are willing to sell. So there's no transpoarency (!!) Sales would be OTC but less transparent e.g. if you look up a normal OTC stock, you would be able to see more of this information, than in these (non Agency) MBS issues and other SF. DOES THIS APPLY IN ALL MBS??.",
+        "label": "make securities available in market"
+    },
+    {
+        "id": "TranchedDraftProspectus",
+        "type": "Class",
+        "name": "TranchedDraftProspectus",
+        "label": "tranched draft prospectus",
+        "definition": "The draft prospectus for a tranched Mortgage Backed Securities issue, as determined by the issuing entity prior to marketing the issue. Certain terms in the draft prospectus will be finalized later in the issuance process to become the actual Prospectus. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "TranchedMBSPrimaryDealTransactionSettlementProcess",
+        "type": "Class",
+        "name": "TranchedMBSPrimaryDealTransactionSettlementProcess",
+        "label": "tranched m b s primary deal transaction settlement process",
+        "definition": "The process by which the primary deal transaction is settled. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "SettlementProcess",
+        "type": "Entity",
+        "name": "SettlementProcess"
+    },
+    {
+        "id": "CloseDeal",
+        "type": "Class",
+        "name": "CloseDeal",
+        "label": "close deal"
+    },
+    {
+        "id": "DrawUpOfferingMemorandum",
+        "type": "Class",
+        "name": "DrawUpOfferingMemorandum",
+        "label": "draw up offering memorandum"
+    },
+    {
+        "id": "RatingsAgency",
+        "type": "Class",
+        "name": "RatingsAgency",
+        "label": "ratings agency"
+    },
+    {
+        "id": "NumberingAgency",
+        "type": "Class",
+        "name": "NumberingAgency",
+        "label": "numbering agency",
+        "definition": "The agency which will provide the primary securitiy identifier for the security. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "SecuritiesIssuanceProcessActor",
+        "type": "Entity",
+        "name": "SecuritiesIssuanceProcessActor"
+    },
+    {
+        "id": "AllocatePrimaryIdentifier",
+        "type": "Class",
+        "name": "AllocatePrimaryIdentifier",
+        "label": "allocate primary identifier"
+    },
+    {
+        "id": "DraftTrancheTermsheet",
+        "type": "Class",
+        "name": "DraftTrancheTermsheet",
+        "label": "draft tranche termsheet",
+        "definition": "Draft of set of information defining one tranche of a tranched issue. This will become the termsheet of an individual tranche within that issue. Term origin:MBS PoC Reviews"
+    },
+    {
+        "id": "NonAgencyPoolCreationProcess",
+        "type": "Class",
+        "name": "NonAgencyPoolCreationProcess",
+        "label": "non agency pool creation process"
+    },
+    {
+        "id": "RetailAssetPoolCreationProcess",
+        "type": "Entity",
+        "name": "RetailAssetPoolCreationProcess"
+    },
+    {
+        "id": "AllocateRatings",
+        "type": "Class",
+        "name": "AllocateRatings",
+        "label": "allocate ratings"
+    },
+    {
+        "id": "InAssemblyMortgagePool",
+        "type": "Class",
+        "name": "InAssemblyMortgagePool",
+        "label": "in assembly mortgage pool"
+    },
+    {
+        "id": "TranchedMBSDealSettlement",
+        "type": "Class",
+        "name": "TranchedMBSDealSettlement",
+        "label": "tranched m b s deal settlement"
+    },
+    {
+        "id": "PoolLifecycleStateSelection",
+        "type": "Class",
+        "name": "PoolLifecycleStateSelection",
+        "label": "PoolLifecycleStateSelection"
+    },
+    {
+        "id": "LifecycleStage",
+        "type": "Entity",
+        "name": "LifecycleStage"
+    },
+    {
+        "id": "MarketIssueToPrimaryInvestors",
+        "type": "Class",
+        "name": "MarketIssueToPrimaryInvestors",
+        "label": "market issue to primary investors"
+    },
+    {
+        "id": "ProspectusPart",
+        "type": "Entity",
+        "name": "ProspectusPart"
+    },
+    {
+        "id": "TranchedMBSSecuritizationProcess",
+        "type": "Class",
+        "name": "TranchedMBSSecuritizationProcess",
+        "label": "tranched m b s securitization process"
+    },
+    {
+        "id": "MBSSecuritizationProcess",
+        "type": "Entity",
+        "name": "MBSSecuritizationProcess"
+    },
+    {
+        "id": "NonAgencyPoolCreationEnd",
+        "type": "Class",
+        "name": "NonAgencyPoolCreationEnd",
+        "label": "non agency pool creation end"
+    },
+    {
+        "id": "RegisterSecurity",
+        "type": "Class",
+        "name": "RegisterSecurity",
+        "definition": "After the deal is closed the security is formally registered with some registraton authority This is the \"official\" bit - there is not a separate \"Issue\" activity which is official ?????",
+        "label": "register security"
+    },
+    {
+        "id": "TrancheStructureAndTermsheet",
+        "type": "Class",
+        "name": "TrancheStructureAndTermsheet",
+        "definition": "One sheet defining the MBS structure.",
+        "label": "tranche structure and termsheet"
+    },
+    {
+        "id": "BrokerDealer",
+        "type": "Class",
+        "name": "BrokerDealer",
+        "definition": "An entity which may become a primary investor in the issue. Term origin:MBS PoC Reviews",
+        "label": "broker dealer"
+    },
+    {
+        "id": "commitmentBasedOn",
+        "type": "ObjectProperty",
+        "name": "commitmentBasedOn",
+        "label": "commitment based on"
+    },
+    {
+        "id": "resultsIn.2",
+        "type": "ObjectProperty",
+        "name": "resultsIn.2",
+        "label": "results in"
+    },
+    {
+        "id": "minimumDenomination",
+        "type": "ObjectProperty",
+        "name": "minimumDenomination",
+        "label": "minimum denomination"
+    },
+    {
+        "id": "PrimaryInvestor",
+        "type": "Class",
+        "name": "PrimaryInvestor",
+        "definition": "A party which becomes the primary investor in the issue, by purchasing some of the tranches of the issue. Term origin:MBS PoC Reviews",
+        "label": "primary investor"
+    },
+    {
+        "id": "MBSSecuritizationEnd",
+        "type": "Class",
+        "name": "MBSSecuritizationEnd",
+        "label": "m b s securitization end"
+    },
+    {
+        "id": "identifierIssuedBy",
+        "type": "ObjectProperty",
+        "name": "identifierIssuedBy",
+        "label": "identifier issued by"
+    },
+    {
+        "id": "denominationIncrement",
+        "type": "ObjectProperty",
+        "name": "denominationIncrement",
+        "label": "denomination increment"
+    },
+    {
+        "id": "flow",
+        "type": "ObjectProperty",
+        "name": "flow",
+        "label": "flow"
+    },
+    {
+        "id": "NonAgencyPoolCreationStart",
+        "type": "Class",
+        "name": "NonAgencyPoolCreationStart",
+        "label": "non agency pool creation start"
+    },
+    {
+        "id": "hasResource.2",
+        "type": "ObjectProperty",
+        "name": "hasResource.2",
+        "label": "has resource"
+    },
+    {
+        "id": "Investor",
+        "type": "Class",
+        "name": "Investor",
+        "label": "investor"
+    },
+    {
+        "id": "finalizes.1",
+        "type": "ObjectProperty",
+        "name": "finalizes.1",
+        "label": "finalizes"
+    },
+    {
+        "id": "decomposesInto",
+        "type": "ObjectProperty",
+        "name": "decomposesInto",
+        "label": "decomposes into"
+    },
+    {
+        "id": "MBSSecuritizationStart",
+        "type": "Class",
+        "name": "MBSSecuritizationStart",
+        "label": "m b s securitization start"
+    },
+    {
+        "id": "hasPrimaryHolder",
+        "type": "ObjectProperty",
+        "name": "hasPrimaryHolder",
+        "label": "has primary holder"
+    },
+    {
+        "id": "mayIncludeDetailsAbout",
+        "type": "ObjectProperty",
+        "name": "mayIncludeDetailsAbout",
+        "label": "may include details about"
+    },
+    {
+        "id": "resultsIn.1",
+        "type": "ObjectProperty",
+        "name": "resultsIn.1",
+        "label": "results in"
+    },
+    {
+        "id": "mayBecome",
+        "type": "ObjectProperty",
+        "name": "mayBecome",
+        "label": "may become"
+    },
+    {
+        "id": "PotentialMBSInvestor",
+        "type": "Class",
+        "name": "PotentialMBSInvestor",
+        "label": "potential m b s investor"
+    },
+    {
+        "id": "requires",
+        "type": "ObjectProperty",
+        "name": "requires",
+        "label": "requires"
+    },
+    {
+        "id": "includesDetailsAbout",
+        "type": "ObjectProperty",
+        "name": "includesDetailsAbout",
+        "label": "includes details about"
+    },
+    {
+        "id": "PoolReadyForIssue",
+        "type": "Class",
+        "name": "PoolReadyForIssue",
+        "label": "pool ready for issue"
+    },
+    {
+        "id": "hasContent",
+        "type": "ObjectProperty",
+        "name": "hasContent",
+        "label": "has content"
+    },
+    {
+        "id": "isPurchaseOf",
+        "type": "ObjectProperty",
+        "name": "isPurchaseOf",
+        "label": "is purchase of"
+    },
+    {
+        "id": "addsTo",
+        "type": "ObjectProperty",
+        "name": "addsTo",
+        "label": "adds to"
+    },
+    {
+        "id": "hasTrustee",
+        "type": "ObjectProperty",
+        "name": "hasTrustee",
+        "label": "has trustee"
+    },
+    {
+        "id": "isIssueOf",
+        "type": "ObjectProperty",
+        "name": "isIssueOf",
+        "label": "is issue of"
+    },
+    {
+        "id": "includesDetailsAbout.1",
+        "type": "ObjectProperty",
+        "name": "includesDetailsAbout.1",
+        "label": "includes details about"
+    },
+    {
+        "id": "resultsIn",
+        "type": "ObjectProperty",
+        "name": "resultsIn",
+        "label": "results in"
+    },
+    {
+        "id": "hasResource",
+        "type": "ObjectProperty",
+        "name": "hasResource",
+        "label": "has resource"
+    },
+    {
+        "id": "allocatesIdentifier",
+        "type": "ObjectProperty",
+        "name": "allocatesIdentifier",
+        "label": "allocates identifier"
+    },
+    {
+        "id": "maximumAmount",
+        "type": "ObjectProperty",
+        "name": "maximumAmount",
+        "definition": "This has not been seen - incliuded as it's implicit but we might want to get rid of this. ACTION: Look at example prospectus document, mark up against this model; if this item is not seen, we could remove it",
+        "label": "maximum amount"
+    },
+    {
+        "id": "commitsTo",
+        "type": "ObjectProperty",
+        "name": "commitsTo",
+        "label": "commits to"
+    },
+    {
+        "id": "requires.1",
+        "type": "ObjectProperty",
+        "name": "requires.1",
+        "label": "requires"
+    },
+    {
+        "id": "refersTo",
+        "type": "ObjectProperty",
+        "name": "refersTo",
+        "label": "refers to"
+    },
+    {
+        "id": "allocatesRatings",
+        "type": "ObjectProperty",
+        "name": "allocatesRatings",
+        "label": "allocates ratings"
+    },
+    {
+        "id": "hasPrincipalParty",
+        "type": "ObjectProperty",
+        "name": "hasPrincipalParty",
+        "label": "has principal party"
+    },
+    {
+        "id": "isDefiningOf",
+        "type": "ObjectProperty",
+        "name": "isDefiningOf",
+        "label": "isDefiningOf"
+    },
+    {
+        "id": "hasResource.1",
+        "type": "ObjectProperty",
+        "name": "hasResource.1",
+        "label": "has resource"
+    },
+    {
+        "id": "TranchedMBSInstrument",
+        "type": "Class",
+        "name": "TranchedMBSInstrument"
+    },
+    {
+        "id": "RatingsSuitableForIssue",
+        "type": "Class",
+        "name": "RatingsSuitableForIssue",
+        "label": "ratings suitable for issue"
+    },
+    {
+        "id": "hasContent.1",
+        "type": "ObjectProperty",
+        "name": "hasContent.1",
+        "label": "has content"
+    },
+    {
+        "id": "hasCounterparty",
+        "type": "ObjectProperty",
+        "name": "hasCounterparty",
+        "label": "has counterparty"
+    },
+    {
+        "id": "isAssessmentOf",
+        "type": "ObjectProperty",
+        "name": "isAssessmentOf",
+        "label": "is assessment of"
+    },
+    {
+        "id": "resultsInPublicationOf",
+        "type": "ObjectProperty",
+        "name": "resultsInPublicationOf",
+        "label": "results in publication of"
+    }
+]

@@ -1,0 +1,203 @@
+[
+    {
+        "source_id": "Insurer",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Insurer",
+        "target_id": "ContractPrincipal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CollateralizedGuaranty",
+        "target_id": "Guaranty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LetterOfCredit",
+        "target_id": "CommittedCreditFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LetterOfCredit",
+        "target_id": "FinancialAsset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LetterOfCreditGuaranty",
+        "target_id": "CollateralizedGuaranty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LetterOfCreditGuaranty",
+        "target_id": "LetterOfCredit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isExemplifiedBy",
+                "LetterOfCredit"
+            ]
+        }
+    },
+    {
+        "source_id": "InsurancePolicy",
+        "target_id": "ContractDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InsurancePolicy",
+        "target_id": "Policyholder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCounterparty",
+                "Policyholder"
+            ]
+        }
+    },
+    {
+        "source_id": "InsurancePolicy",
+        "target_id": "Insurer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIssuedBy",
+                "Insurer"
+            ]
+        }
+    },
+    {
+        "source_id": "Guarantor",
+        "target_id": "ContractThirdParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Guarantor",
+        "target_id": "DeJureControllingInterestParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentGuaranty",
+        "target_id": "Guaranty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Guaranty",
+        "target_id": "PriorityLevel",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "hasPriorityLevel",
+                "PriorityLevel"
+            ]
+        }
+    },
+    {
+        "source_id": "Guaranty",
+        "target_id": "Guarantor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isGuaranteedBy",
+                "Guarantor"
+            ]
+        }
+    },
+    {
+        "source_id": "Guaranty",
+        "target_id": "Commitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "JointGuaranty",
+        "target_id": "Guarantor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isGuaranteedBy",
+                "Guarantor"
+            ]
+        }
+    },
+    {
+        "source_id": "JointGuaranty",
+        "target_id": "Guaranty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NegativePledge",
+        "target_id": "Guaranty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InsuranceBackedGuaranty",
+        "target_id": "Guaranty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InsuranceBackedGuaranty",
+        "target_id": "InsurancePolicy",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isExemplifiedBy",
+                "InsurancePolicy"
+            ]
+        }
+    },
+    {
+        "source_id": "PriorityLevel",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Policyholder",
+        "target_id": "Counterparty",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

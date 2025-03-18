@@ -1,0 +1,80 @@
+[
+    {
+        "source_id": "MinimumMargin",
+        "target_id": "FuturesTradingAccountHolder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isHeldBy",
+                "FuturesTradingAccountHolder"
+            ]
+        }
+    },
+    {
+        "source_id": "MinimumMargin",
+        "target_id": "Asset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FuturesClosingPrice",
+        "target_id": "ExchangeFuturesPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FuturesDailySettlementPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InitialMargin",
+        "target_id": "Asset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InitialMargin",
+        "target_id": "FuturesTradingAccountHolder",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isHeldBy",
+                "FuturesTradingAccountHolder"
+            ]
+        }
+    },
+    {
+        "source_id": "FuturesGreek",
+        "target_id": "PriceAnalytic",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FuturesTheta",
+        "target_id": "FuturesGreek",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FuturesVega",
+        "target_id": "FuturesGreek",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeFuturesPrice",
+        "target_id": "SecurityPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

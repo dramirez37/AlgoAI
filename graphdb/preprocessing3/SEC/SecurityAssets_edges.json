@@ -1,0 +1,44 @@
+[
+    {
+        "source_id": "PortfolioHolding",
+        "target_id": "Portfolio",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPartOf",
+                "Portfolio"
+            ]
+        }
+    },
+    {
+        "source_id": "PortfolioHolding",
+        "target_id": "FinancialAsset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Portfolio",
+        "target_id": "PortfolioHolding",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "PortfolioHolding"
+            ]
+        }
+    },
+    {
+        "source_id": "Portfolio",
+        "target_id": "Collection",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

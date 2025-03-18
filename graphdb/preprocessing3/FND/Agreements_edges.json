@@ -1,0 +1,191 @@
+[
+    {
+        "source_id": "MutualAgreement",
+        "target_id": "Agreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MutualAgreement",
+        "target_id": "MutualCommitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "confers",
+                "MutualCommitment"
+            ]
+        }
+    },
+    {
+        "source_id": "Obligor",
+        "target_id": "Commitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasObligation",
+                "Commitment"
+            ]
+        }
+    },
+    {
+        "source_id": "Obligor",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Obligor",
+        "target_id": "Agreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "Agreement"
+            ]
+        }
+    },
+    {
+        "source_id": "Obligee",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Obligee",
+        "target_id": "Agreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "Agreement"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualUnilateralCommitment",
+        "target_id": "UnilateralCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Agreement",
+        "target_id": "Commitment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "confers",
+                "Commitment"
+            ]
+        }
+    },
+    {
+        "source_id": "Agreement",
+        "target_id": "Situation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Agreement",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPartyRole",
+                "PartyRole"
+            ]
+        }
+    },
+    {
+        "source_id": "MutualCommitment",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPartyRole",
+                "PartyRole"
+            ]
+        }
+    },
+    {
+        "source_id": "MutualCommitment",
+        "target_id": "Commitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Commitment",
+        "target_id": "Situation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Beneficiary",
+        "target_id": "Agreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "Agreement"
+            ]
+        }
+    },
+    {
+        "source_id": "Beneficiary",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnilateralCommitment",
+        "target_id": "Commitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommitmentAtLarge",
+        "target_id": "UnilateralCommitment",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

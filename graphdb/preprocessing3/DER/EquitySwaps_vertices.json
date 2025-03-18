@@ -1,0 +1,154 @@
+[
+    {
+        "id": "DispersionSwapIndexLeg",
+        "type": "Class",
+        "name": "DispersionSwapIndexLeg",
+        "label": "dispersion swap index leg",
+        "definition": "dispersion leg whose underlying is an equity index"
+    },
+    {
+        "id": "DispersionLeg",
+        "type": "Entity",
+        "name": "DispersionLeg"
+    },
+    {
+        "id": "EquityPriceReturnSwap",
+        "type": "Class",
+        "name": "EquityPriceReturnSwap",
+        "definition": "return swap whose return leg underlier is an equity observable",
+        "label": "equity price return swap",
+        "explanatoryNote": "A price return equity swap is similar to a total return swap, except that dividends are not passed through to the buyer)."
+    },
+    {
+        "id": "ReturnSwap",
+        "type": "Entity",
+        "name": "ReturnSwap"
+    },
+    {
+        "id": "EquitySwap",
+        "type": "Class",
+        "name": "EquitySwap",
+        "label": "equity swap",
+        "definition": "swap whose payments are linked to the change in value of an underlying equity (e.g. shares, basket of equities or index) or its cashflow",
+        "explanatoryNote": "Equity swaps can be physically or cash settled."
+    },
+    {
+        "id": "EquityVarianceSwap",
+        "type": "Class",
+        "name": "EquityVarianceSwap",
+        "definition": "dispersion swap in which the parties agree to exchange payments based on the difference between (i) the realized variance of the price changes of a specified equity underlier over a stated observation period and (ii) a fixed amount of variance that is agreed when the contract is executed",
+        "explanatoryNote": "An equity variance swap is a forward swap that uses the variance (being the volatility squared) of an underlying's price movement over a period as the basis for the payoff calculation.",
+        "label": "equity variance swap"
+    },
+    {
+        "id": "DispersionSwap",
+        "type": "Entity",
+        "name": "DispersionSwap"
+    },
+    {
+        "id": "DividendLeg",
+        "type": "Class",
+        "name": "DividendLeg",
+        "definition": "floating leg of a dividend swap",
+        "label": "dividend leg"
+    },
+    {
+        "id": "SimpleReturnLeg",
+        "type": "Entity",
+        "name": "SimpleReturnLeg"
+    },
+    {
+        "id": "EquityTotalReturnSwap",
+        "type": "Class",
+        "name": "EquityTotalReturnSwap",
+        "label": "equity total return swap",
+        "definition": "total return swap whose return leg underlier is an equity observable"
+    },
+    {
+        "id": "TotalReturnSwap",
+        "type": "Entity",
+        "name": "TotalReturnSwap"
+    },
+    {
+        "id": "EquityCorrelationSwap",
+        "type": "Class",
+        "name": "EquityCorrelationSwap",
+        "definition": "correlation swap that allows one to hedge risks associated with the observed average correlation of a collection of underlying equity products",
+        "explanatoryNote": "The underlier for the leg can be any of (1) dividend stream for a single stock, (2) change in value for a single share, (3) change in value for a basket of shares, (4) change in value for an index, (5) value of a dividend stream for a basket of shares, or (6) comparison of the change in value of a given share or basket or index against something else - for example, a single share against an index, which is the thing you are cross-correlating with the volatility of the share.",
+        "label": "equity correlation swap"
+    },
+    {
+        "id": "CorrelationSwap",
+        "type": "Entity",
+        "name": "CorrelationSwap"
+    },
+    {
+        "id": "SpecialDividendLegTerms",
+        "type": "Class",
+        "name": "SpecialDividendLegTerms",
+        "definition": "terms that are invoked if special dividend and memorial dividends are applicable",
+        "label": "special dividend leg terms"
+    },
+    {
+        "id": "CashflowTerms",
+        "type": "Entity",
+        "name": "CashflowTerms"
+    },
+    {
+        "id": "EquityVolatilitySwap",
+        "type": "Class",
+        "name": "EquityVolatilitySwap",
+        "definition": "dispersion swap that is a forward contract on the variability of movements in the price of its underlying equity observable",
+        "explanatoryNote": "An equity volatility swap is a measure of the amount by which an asset's price is expected to fluctuate over a given period of time; it is normally measured by the annual standard deviation of daily price changes.",
+        "label": "equity volatility swap"
+    },
+    {
+        "id": "DispersionSwapIndexConstituentsLeg",
+        "type": "Class",
+        "name": "DispersionSwapIndexConstituentsLeg",
+        "definition": "dispersion leg whose underlying is a defined set of constituents of a given equity index",
+        "label": "dispersion swap index constituents leg"
+    },
+    {
+        "id": "EquityReturnLeg",
+        "type": "Class",
+        "name": "EquityReturnLeg",
+        "label": "equity return leg",
+        "definition": "return leg whose income is based on an equity observable"
+    },
+    {
+        "id": "ReturnLeg",
+        "type": "Entity",
+        "name": "ReturnLeg"
+    },
+    {
+        "id": "EquityDerivative",
+        "type": "Entity",
+        "name": "EquityDerivative"
+    },
+    {
+        "id": "Swap",
+        "type": "Entity",
+        "name": "Swap"
+    },
+    {
+        "id": "DividendSwap",
+        "type": "Class",
+        "name": "DividendSwap",
+        "explanatoryNote": "Dividend swaps include those that are fixed-term contracts between two parties where one party makes an interest rate payment for each interval and the other party pays the total dividends received as pay-out by a selected underlying asset.",
+        "definition": "equity swap that has at least one leg whose underlier is a dividend stream",
+        "label": "dividend swap"
+    },
+    {
+        "id": "QualifyingDividendPeriod",
+        "type": "Class",
+        "name": "QualifyingDividendPeriod",
+        "definition": "date period over which the sum of all qualifying dividends paid by the relevant issuers as identified in the swap terms is calculated",
+        "label": "qualifying dividend period"
+    },
+    {
+        "id": "ExplicitDatePeriod",
+        "type": "Entity",
+        "name": "ExplicitDatePeriod"
+    }
+]

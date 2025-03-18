@@ -1,0 +1,287 @@
+[
+    {
+        "source_id": "TrustAgreement",
+        "target_id": "OrganizationCoveringAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TrustAgreement",
+        "target_id": "Trustor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Trustor"
+            ]
+        }
+    },
+    {
+        "source_id": "TrustAgreement",
+        "target_id": "TrustBeneficiary",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "TrustBeneficiary"
+            ]
+        }
+    },
+    {
+        "source_id": "TrustAgreement",
+        "target_id": "Trustee",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Trustee"
+            ]
+        }
+    },
+    {
+        "source_id": "Trustee",
+        "target_id": "Trust",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isMemberOf",
+                "Trust"
+            ]
+        }
+    },
+    {
+        "source_id": "Trustee",
+        "target_id": "LegallyDelegatedAuthority",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Trustee",
+        "target_id": "TrustAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "TrustAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "Trustee",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Trustee",
+        "target_id": "Trust",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "manages",
+                "Trust"
+            ]
+        }
+    },
+    {
+        "source_id": "TrustFundManager",
+        "target_id": "Trust",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "manages",
+                "Trust"
+            ]
+        }
+    },
+    {
+        "source_id": "TrustFundManager",
+        "target_id": "LegallyDelegatedAuthority",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Trust",
+        "target_id": "Trustor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Trustor"
+            ]
+        }
+    },
+    {
+        "source_id": "Trust",
+        "target_id": "BusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Trust",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Trust",
+        "target_id": "TrustAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isGovernedBy",
+                "TrustAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "Trust",
+        "target_id": "TrustBeneficiary",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "TrustBeneficiary"
+            ]
+        }
+    },
+    {
+        "source_id": "Trust",
+        "target_id": "Trustee",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "Trustee"
+            ]
+        }
+    },
+    {
+        "source_id": "LivingTrust",
+        "target_id": "Trust",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TestamentaryTrust",
+        "target_id": "IrrevocableTrust",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TrustBeneficiary",
+        "target_id": "Beneficiary",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TrustBeneficiary",
+        "target_id": "TrustAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "TrustAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "IrrevocableTrust",
+        "target_id": "Trust",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Trustor",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Trustor",
+        "target_id": "TrustAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "TrustAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "RevocableTrust",
+        "target_id": "Trust",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

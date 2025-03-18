@@ -1,0 +1,115 @@
+[
+    {
+        "id": "StockCorporation",
+        "type": "Class",
+        "name": "StockCorporation"
+    },
+    {
+        "id": "PubliclyHeldCompany",
+        "type": "Class",
+        "name": "PubliclyHeldCompany",
+        "definition": "corporation whose shares are traded and held publicly",
+        "label": "publicly held company"
+    },
+    {
+        "id": "BoardAgreement",
+        "type": "Class",
+        "name": "BoardAgreement",
+        "label": "board agreement",
+        "definition": "formal, legally binding agreement between members of the Board of Directors of the organization"
+    },
+    {
+        "id": "OrganizationCoveringAgreement",
+        "type": "Entity",
+        "name": "OrganizationCoveringAgreement"
+    },
+    {
+        "id": "ReligiousCorporation",
+        "type": "Class",
+        "name": "ReligiousCorporation",
+        "label": "religious corporation",
+        "explanatoryNote": "Often religious corporations are recognized under the law on a sub-national level, for instance by a state or provincial government. The government agency responsible for regulating such corporations is usually the official holder of records, for instance a state department of corporations.",
+        "definition": "not-for-profit corporation whose objective is specific to some fundamental set of beliefs and practices generally agreed upon by a number of people, and that is incorporated under the law"
+    },
+    {
+        "id": "NotForProfitCorporation",
+        "type": "Entity",
+        "name": "NotForProfitCorporation"
+    },
+    {
+        "id": "RegistrationIdentifier",
+        "type": "Class",
+        "name": "RegistrationIdentifier",
+        "explanatoryNote": "A registration identifier may be required for official communications and is publicly available. The relationship to the jurisdiction in which the organization is organized or registered is typically required, but is optional here to cover cases where jurisdictions may overlap or are not as clearly defined.",
+        "definition": "identifier that is officially allocated to an organization at the time of registration, typically in a jurisdiction in which said organization is organized or registered and used in that jurisdiction to identify the organization",
+        "label": "registration identifier"
+    },
+    {
+        "id": "OrganizationIdentifier",
+        "type": "Entity",
+        "name": "OrganizationIdentifier"
+    },
+    {
+        "id": "RegistrationIdentifierScheme",
+        "type": "Class",
+        "name": "RegistrationIdentifierScheme",
+        "definition": "scheme that defines the registration identifier per the issuing registration authority",
+        "label": "registration identifier scheme"
+    },
+    {
+        "id": "OrganizationIdentificationScheme",
+        "type": "Entity",
+        "name": "OrganizationIdentificationScheme"
+    },
+    {
+        "id": "PrivatelyHeldCompany",
+        "type": "Class",
+        "name": "PrivatelyHeldCompany",
+        "definition": "corporation whose issued shares are all held by a family or a small group of investors and, therefore, cannot be bought by the public",
+        "label": "privately held company",
+        "explanatoryNote": "For British or Commonwealth companies, a privately held company limited by shares is a type of company incorporated under the laws of England and Wales, Scotland, certain Commonwealth countries and the Republic of Ireland. It has shareholders with limited liability and its shares may not be offered to the general public, unlike those of public limited companies. Limited by shares means that the company has shareholders, and that the liability of the shareholders to creditors of the company is limited to the capital originally invested, i.e. the nominal value of the shares and any premium paid in return for the issue of the shares by the company. A shareholders personal assets are thereby protected in the event of the company's insolvency, but money invested in the company will be lost. A limited company may be private or public. A private limited companys disclosure requirements are lighter, but for this reason its shares may not be offered to the general public (and therefore cannot be traded on a public stock exchange). This is the major distinguishing feature between a private limited company and a public limited company. Most companies, particularly small companies, are private. Private companies limited by shares are required to have the suffix Limited (often written Ltd or Ltd.) or Incorporated (Inc.) as part of their name, though the latter cannot be used in the UK or the Republic of Ireland. In the Republic of Ireland, Teoranta (Teo.) may be used instead, largely by Gaeltacht companies. Cyfyngedig (Cyf.) may be used by Welsh companies in a similar fashion."
+    },
+    {
+        "id": "JointStockCompany",
+        "type": "Class",
+        "name": "JointStockCompany",
+        "definition": "for-profit, unincorporated business that has some characteristics of a corporation and some features of a partnership, with ownership interests represented by shares of stock",
+        "explanatoryNote": "1. In the UK, the original (17th century) name for a corporation in which the liability of the owners is limited to the nominal value of the stock (shares) held by them.\n2. In the US, a joint stock company is similar to a corporation, but with unlimited liability for the shareholders. Investors in a US joint stock company receive stock (shares) which can be transferred, and can elect a board of directors, but are jointly-and-severally liable for the company's debts and obligations. A US joint stock company cannot hold title to a real property.",
+        "label": "joint stock company"
+    },
+    {
+        "id": "BusinessEntity",
+        "type": "Entity",
+        "name": "BusinessEntity"
+    },
+    {
+        "id": "hasIssuedCapital",
+        "type": "ObjectProperty",
+        "name": "hasIssuedCapital",
+        "label": "has issued capital",
+        "definition": "indicates the aggregate value of all shares held by shareholders",
+        "explanatoryNote": "A corporation can, at any time, issue new shares up to the full amount of authorized share capital."
+    },
+    {
+        "id": "hasDateOfRegistration",
+        "type": "ObjectProperty",
+        "name": "hasDateOfRegistration",
+        "definition": "indicates the date on which the corporation has registered in some jurisdiction for regulatory and / or for tax purposes",
+        "label": "has date of registration"
+    },
+    {
+        "id": "hasSharesAuthorized",
+        "type": "DatatypeProperty",
+        "name": "hasSharesAuthorized",
+        "explanatoryNote": "An initial number of authorized shares is typically established at the time of incorporation, and is documented in articles of incorporation. The number of shares authorized may be extended from time to time by the board of directors as needed, and articles of incorporation and other legal documentation will be amended accordingly. It includes shares that are available, but not yet issued, for sale to generate capital, and shares available for distribution to insiders as part of their compensation packages.",
+        "definition": "indicates the maximum number of shares that are permitted to be issued, as established by the board of directors",
+        "label": "has shares authorized"
+    },
+    {
+        "id": "hasDateOfIncorporation",
+        "type": "ObjectProperty",
+        "name": "hasDateOfIncorporation",
+        "definition": "indicates the formal date of incorporation as stated in filing documents",
+        "label": "has date of incorporation"
+    }
+]

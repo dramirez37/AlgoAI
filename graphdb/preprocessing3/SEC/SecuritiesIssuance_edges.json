@@ -1,0 +1,434 @@
+[
+    {
+        "source_id": "ExemptOffering",
+        "target_id": "PublicOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityForm",
+        "target_id": "ContractDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityForm",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Security"
+            ]
+        }
+    },
+    {
+        "source_id": "BestEffortsOffering",
+        "target_id": "SecuritiesOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OfferingStatement",
+        "target_id": "OfferingDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConversionTerms",
+        "target_id": "RedemptionProvision",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConversionTerms",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifiesConversionInto",
+                "Security"
+            ]
+        }
+    },
+    {
+        "source_id": "ConversionTerms",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Security"
+            ]
+        }
+    },
+    {
+        "source_id": "OfferingDocument",
+        "target_id": "LegalDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OfferingDocument",
+        "target_id": "Publication",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OfferingDocument",
+        "target_id": "SecuritiesOffering",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isEvidenceFor",
+                "SecuritiesOffering"
+            ]
+        }
+    },
+    {
+        "source_id": "OfferingDocument",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Security"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstrumentShortName",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrumentShortName",
+        "target_id": "hasInstrumentDescription",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasInstrumentDescription"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialInstrumentShortName",
+        "target_id": "hasIssuerShortName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasIssuerShortName"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesOffering",
+        "target_id": "Offering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesOffering",
+        "target_id": "Agreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesOffering",
+        "target_id": "ThirdPartyAgent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasPartyRole",
+                "ThirdPartyAgent"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesOffering",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Security"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesOffering",
+        "target_id": "SecurityUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isUnderwrittenBy",
+                "SecurityUnderwriter"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesOffering",
+        "target_id": "OfferingDocument",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEvidencedBy",
+                "OfferingDocument"
+            ]
+        }
+    },
+    {
+        "source_id": "PrivatePlacementMemorandum",
+        "target_id": "OfferingDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityUnderwriter",
+        "target_id": "Underwriter",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityUnderwriter",
+        "target_id": "SecuritiesOffering",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "SecuritiesOffering"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityUnderwriter",
+        "target_id": "ThirdPartyAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityUnderwriter",
+        "target_id": "SecurityUnderwritingArrangement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "SecurityUnderwritingArrangement"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityUnderwriter",
+        "target_id": "ContractThirdParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityUnderwritingArrangement",
+        "target_id": "SecurityUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyRole",
+                "SecurityUnderwriter"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityUnderwritingArrangement",
+        "target_id": "UnderwritingArrangement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExemptTransaction",
+        "target_id": "SecuritiesTransaction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Issuer",
+        "target_id": "hasIssuerShortName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasIssuerShortName"
+            ]
+        }
+    },
+    {
+        "source_id": "PrivateOffering",
+        "target_id": "PrivatePlacementMemorandum",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEvidencedBy",
+                "PrivatePlacementMemorandum"
+            ]
+        }
+    },
+    {
+        "source_id": "PrivateOffering",
+        "target_id": "SecuritiesOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PublicOffering",
+        "target_id": "SecuritiesOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PublicOffering",
+        "target_id": "Prospectus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isEvidencedBy",
+                "Prospectus"
+            ]
+        }
+    },
+    {
+        "source_id": "Prospectus",
+        "target_id": "OfferingDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FirmCommitmentOffering",
+        "target_id": "SecuritiesOffering",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Security",
+        "target_id": "SecurityForm",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIssuedInForm",
+                "SecurityForm"
+            ]
+        }
+    },
+    {
+        "source_id": "ExemptIssuer",
+        "target_id": "Issuer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialInstrument",
+        "target_id": "FinancialInstrumentShortName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasFinancialInstrumentShortName",
+                "FinancialInstrumentShortName"
+            ]
+        }
+    },
+    {
+        "source_id": "ConvertibleSecurity",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConvertibleSecurity",
+        "target_id": "ConversionTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasContractualElement",
+                "ConversionTerms"
+            ]
+        }
+    }
+]

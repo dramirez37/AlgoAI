@@ -1,0 +1,152 @@
+[
+    {
+        "source_id": "InternationalMoneyMarketAustralianDollarTradingDateRule",
+        "target_id": "TradingDateRule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ScheduledCalculationPeriodStartEvent",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatingRateNoteDate",
+        "target_id": "CalculatedDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FloatingRateNoteDate",
+        "target_id": "FloatingRateNoteDateRule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasBusinessDayAdjustment",
+                "FloatingRateNoteDateRule"
+            ]
+        }
+    },
+    {
+        "source_id": "InternationalMoneyMarketCanadianDollarTradingDateRule",
+        "target_id": "TradingDateRule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SettlementDateRule",
+        "target_id": "BusinessRecurrenceIntervalConvention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AuctionDateRule",
+        "target_id": "BusinessRecurrenceIntervalConvention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DateReturnedBySettlementDateRule",
+        "target_id": "CalculatedDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DateReturnedBySettlementDateRule",
+        "target_id": "SettlementDateRule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "SettlementDateRule"
+            ]
+        }
+    },
+    {
+        "source_id": "FloatingRateNoteDateRule",
+        "target_id": "BusinessDayAdjustment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ScheduledCalculationPeriodEndEvent",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USTreasuryBillDate",
+        "target_id": "CalculatedDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USTreasuryBillDate",
+        "target_id": "USTreasuryBillAuctionDateRule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasBusinessDayAdjustment",
+                "USTreasuryBillAuctionDateRule"
+            ]
+        }
+    },
+    {
+        "source_id": "InternationalMoneyMarketSettlementDateRule",
+        "target_id": "SettlementDateRule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USTreasuryBillAuctionDateRule",
+        "target_id": "AuctionDateRule",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradingDateRule",
+        "target_id": "BusinessRecurrenceIntervalConvention",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DateReturnedByTradingDateRule",
+        "target_id": "CalculatedDate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DateReturnedByTradingDateRule",
+        "target_id": "TradingDateRule",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isDefinedIn",
+                "TradingDateRule"
+            ]
+        }
+    },
+    {
+        "source_id": "InternationalMoneyMarketNewZealandDollarTradingDateRule",
+        "target_id": "TradingDateRule",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

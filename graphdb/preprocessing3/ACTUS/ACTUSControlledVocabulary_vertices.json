@@ -1,0 +1,37 @@
+[
+    {
+        "id": "ACTUSContractTypeClassifier",
+        "type": "Class",
+        "name": "ACTUSContractTypeClassifier",
+        "label": "ACTUS contract type classifier",
+        "definition": "classifier for a financial instrument or related credit enhancement based on its type and characteristics",
+        "explanatoryNote": "Financial contracts are classified as basic or combined / derivatives, and then each of these areas breaks down into a number of subclassifications."
+    },
+    {
+        "id": "FinancialInstrumentClassifier",
+        "type": "Entity",
+        "name": "FinancialInstrumentClassifier"
+    },
+    {
+        "id": "ACTUSContractTypeClassifier-PrincipalAtMaturity",
+        "type": "ACTUSContractTypeClassifier",
+        "name": "ACTUSContractTypeClassifier-PrincipalAtMaturity",
+        "definition": "contract classifier that applies to contracts whose principal is paid fully at the initial exchange date and repaid at maturity",
+        "label": "ACTUS contract type classifier - principal at maturity"
+    },
+    {
+        "id": "AlgorithmicContractTypesClassificationScheme",
+        "type": "FinancialInstrumentClassificationScheme",
+        "name": "AlgorithmicContractTypesClassificationScheme",
+        "abbreviation": "ACTUS classification scheme",
+        "label": "Algorithmic Contract Types classification scheme",
+        "definition": "classification scheme behind the ACTUS modeling paradigm, in which standardized Contract Types (CTs) are the granular building blocks of the financial world"
+    },
+    {
+        "id": "ACTUSContractTypeClassifier-Annuity",
+        "type": "ACTUSContractTypeClassifier",
+        "name": "ACTUSContractTypeClassifier-Annuity",
+        "label": "ACTUS contract type classifier - annuity",
+        "definition": "contract classifier that applies to contracts whose principal is paid fully at the initial exchange date and principal plus interest is repaid periodically in constant amounts until maturity"
+    }
+]

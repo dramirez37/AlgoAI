@@ -1,0 +1,97 @@
+[
+    {
+        "id": "FinancialPrimaryMarketTransaction",
+        "type": "Class",
+        "name": "FinancialPrimaryMarketTransaction",
+        "label": "financial primary market transaction"
+    },
+    {
+        "id": "MarketTransaction",
+        "type": "Entity",
+        "name": "MarketTransaction"
+    },
+    {
+        "id": "ContractualTransaction",
+        "type": "Entity",
+        "name": "ContractualTransaction"
+    },
+    {
+        "id": "FinancialSecuritiesSecondaryMarketTransaction",
+        "type": "Class",
+        "name": "FinancialSecuritiesSecondaryMarketTransaction",
+        "definition": "A Transaction in which some negotiable security is provided in exchange for some Consideration.",
+        "label": "financial securities secondary market transaction"
+    },
+    {
+        "id": "SecuritiesTransactionContract",
+        "type": "Class",
+        "name": "SecuritiesTransactionContract",
+        "definition": "The contract (written or implied) which governs the transaction of securities in the secondary Market.",
+        "label": "securities transaction contract"
+    },
+    {
+        "id": "EconomicContract",
+        "type": "Entity",
+        "name": "EconomicContract"
+    },
+    {
+        "id": "WhenIssuedTransaction",
+        "type": "Class",
+        "name": "WhenIssuedTransaction",
+        "definition": "Trading in securities ahead of them being traded.",
+        "label": "when issued transaction"
+    },
+    {
+        "id": "SecuritiesTransactionCounterparty",
+        "type": "Class",
+        "name": "SecuritiesTransactionCounterparty",
+        "label": "securities transaction counterparty"
+    },
+    {
+        "id": "TransactionCounterparty",
+        "type": "Entity",
+        "name": "TransactionCounterparty"
+    },
+    {
+        "id": "SecuritiesTransactionPrincipal",
+        "type": "Class",
+        "name": "SecuritiesTransactionPrincipal",
+        "label": "securities transaction principal"
+    },
+    {
+        "id": "TransactionPrincipal",
+        "type": "Entity",
+        "name": "TransactionPrincipal"
+    },
+    {
+        "id": "governs",
+        "type": "ObjectProperty",
+        "name": "governs",
+        "label": "governs"
+    },
+    {
+        "id": "offsetForWIIssueDate",
+        "type": "DatatypeProperty",
+        "name": "offsetForWIIssueDate",
+        "label": "offset for w i issue date",
+        "definition": "Used to calculate actual settlement date from given WI issue date. If issue date is unknwn, this determines how many days form the issue date it's going to settle."
+    },
+    {
+        "id": "SettlementProcess",
+        "type": "Class",
+        "name": "SettlementProcess",
+        "label": "settlement process"
+    },
+    {
+        "id": "embodies",
+        "type": "ObjectProperty",
+        "name": "embodies",
+        "label": "embodies"
+    },
+    {
+        "id": "follows",
+        "type": "ObjectProperty",
+        "name": "follows",
+        "label": "follows"
+    }
+]

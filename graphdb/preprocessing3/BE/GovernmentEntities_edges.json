@@ -1,0 +1,518 @@
+[
+    {
+        "source_id": "GovernmentBody",
+        "target_id": "FormalOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TribalEntity",
+        "target_id": "TribalArea",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSharedSovereigntyOver",
+                "TribalArea"
+            ]
+        }
+    },
+    {
+        "source_id": "TribalEntity",
+        "target_id": "Polity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TribalEntity",
+        "target_id": "TribalGovernment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRepresentedBy",
+                "TribalGovernment"
+            ]
+        }
+    },
+    {
+        "source_id": "Government",
+        "target_id": "GovernmentDepartment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasConstituent",
+                "GovernmentDepartment"
+            ]
+        }
+    },
+    {
+        "source_id": "Government",
+        "target_id": "FunctionalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Government",
+        "target_id": "BranchOfGovernment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasConstituent",
+                "BranchOfGovernment"
+            ]
+        }
+    },
+    {
+        "source_id": "Government",
+        "target_id": "GovernmentAgency",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasConstituent",
+                "GovernmentAgency"
+            ]
+        }
+    },
+    {
+        "source_id": "Government",
+        "target_id": "GeopoliticalEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "GeopoliticalEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "Judiciary",
+        "target_id": "BranchOfGovernment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentAppointee",
+        "target_id": "GovernmentBody",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass",
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isDesignatedBy",
+                "GovernmentBody"
+            ]
+        }
+    },
+    {
+        "source_id": "GovernmentAppointee",
+        "target_id": "Executive",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentAppointee",
+        "target_id": "GovernmentOfficial",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederatedSovereignty",
+        "target_id": "SovereignState",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Instrumentality",
+        "target_id": "Government",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isInstrumentOf",
+                "Government"
+            ]
+        }
+    },
+    {
+        "source_id": "Instrumentality",
+        "target_id": "GovernmentBody",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Instrumentality",
+        "target_id": "LegalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentMinister",
+        "target_id": "Executive",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentMinister",
+        "target_id": "GovernmentOfficial",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegionalGovernment",
+        "target_id": "Government",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegionalGovernment",
+        "target_id": "GeopoliticalEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "GeopoliticalEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "Polity",
+        "target_id": "LegalPerson",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Polity",
+        "target_id": "GovernmentBody",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Polity",
+        "target_id": "GeopoliticalEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSovereigntyOver",
+                "GeopoliticalEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "Polity",
+        "target_id": "Government",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRepresentedBy",
+                "Government"
+            ]
+        }
+    },
+    {
+        "source_id": "MunicipalGovernment",
+        "target_id": "Government",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalGovernment",
+        "target_id": "Government",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MunicipalEntity",
+        "target_id": "MunicipalGovernment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRepresentedBy",
+                "MunicipalGovernment"
+            ]
+        }
+    },
+    {
+        "source_id": "MunicipalEntity",
+        "target_id": "Polity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IdentityDocument",
+        "target_id": "Government",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIssuedBy",
+                "Government"
+            ]
+        }
+    },
+    {
+        "source_id": "TribalGovernment",
+        "target_id": "Government",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TribalGovernment",
+        "target_id": "TribalArea",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "TribalArea"
+            ]
+        }
+    },
+    {
+        "source_id": "RegionalSovereignty",
+        "target_id": "Polity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegionalSovereignty",
+        "target_id": "GeopoliticalEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSharedSovereigntyOver",
+                "GeopoliticalEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "RegionalSovereignty",
+        "target_id": "RegionalGovernment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRepresentedBy",
+                "RegionalGovernment"
+            ]
+        }
+    },
+    {
+        "source_id": "NationalIdentificationNumber",
+        "target_id": "Government",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIssuedBy",
+                "Government"
+            ]
+        }
+    },
+    {
+        "source_id": "FederalGovernment",
+        "target_id": "NationalGovernment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SupranationalEntity",
+        "target_id": "Polity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SupranationalEntity",
+        "target_id": "GovernmentBody",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRepresentedBy",
+                "GovernmentBody"
+            ]
+        }
+    },
+    {
+        "source_id": "BranchOfGovernment",
+        "target_id": "GovernmentBody",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Legislature",
+        "target_id": "BranchOfGovernment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SovereignState",
+        "target_id": "NationalGovernment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRepresentedBy",
+                "NationalGovernment"
+            ]
+        }
+    },
+    {
+        "source_id": "SovereignState",
+        "target_id": "Polity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DevolvedGovernment",
+        "target_id": "Government",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TribalArea",
+        "target_id": "GeopoliticalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentOfficial",
+        "target_id": "ResponsibleParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentOfficial",
+        "target_id": "GovernmentBody",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isMemberOf",
+                "GovernmentBody"
+            ]
+        }
+    },
+    {
+        "source_id": "GovernmentDepartment",
+        "target_id": "GovernmentBody",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentDepartment",
+        "target_id": "GovernmentMinister",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isManagedBy",
+                "GovernmentMinister"
+            ]
+        }
+    },
+    {
+        "source_id": "ExecutiveBranch",
+        "target_id": "BranchOfGovernment",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentAgency",
+        "target_id": "GovernmentBody",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentAgency",
+        "target_id": "GovernmentAppointee",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isManagedBy",
+                "GovernmentAppointee"
+            ]
+        }
+    }
+]

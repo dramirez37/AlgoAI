@@ -1,0 +1,149 @@
+[
+    {
+        "id": "Report",
+        "type": "Class",
+        "name": "Report",
+        "label": "report",
+        "definition": "document that provides a structured description of something, prepared on ad hoc, periodic, recurring, regular, or as required basis",
+        "explanatoryNote": "Reports may refer to specific periods, events, occurrences, or subjects, and may be communicated or presented in oral, electronic, or written form."
+    },
+    {
+        "id": "Document",
+        "type": "Entity",
+        "name": "Document"
+    },
+    {
+        "id": "Request",
+        "type": "Class",
+        "name": "Request",
+        "label": "request",
+        "definition": "event in which some party asks another party for something at some point in time"
+    },
+    {
+        "id": "Occurrence",
+        "type": "Entity",
+        "name": "Occurrence"
+    },
+    {
+        "id": "RequestActivity",
+        "type": "Class",
+        "name": "RequestActivity",
+        "label": "request activity",
+        "definition": "activity in which some party asks another party for something or to do something"
+    },
+    {
+        "id": "OccurrenceKind",
+        "type": "Entity",
+        "name": "OccurrenceKind"
+    },
+    {
+        "id": "ReportingParty",
+        "type": "Class",
+        "name": "ReportingParty",
+        "label": "reporting party",
+        "definition": "party providing a report, typically in response to some contractual, legal, regulatory or other business requirement"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "Submitter",
+        "type": "Class",
+        "name": "Submitter",
+        "label": "submitter",
+        "definition": "party presenting something, such as a regulatory report"
+    },
+    {
+        "id": "Requester",
+        "type": "Class",
+        "name": "Requester",
+        "label": "requester",
+        "definition": "party that asks for something"
+    },
+    {
+        "id": "submits",
+        "type": "ObjectProperty",
+        "name": "submits",
+        "definition": "presents something (a proposal, application, report, or other document) for consideration or review",
+        "label": "submits"
+    },
+    {
+        "id": "hasReportDate",
+        "type": "ObjectProperty",
+        "name": "hasReportDate",
+        "label": "has report date",
+        "definition": "date on which a report was issued"
+    },
+    {
+        "id": "hasRequestDate",
+        "type": "ObjectProperty",
+        "name": "hasRequestDate",
+        "label": "has request date",
+        "definition": "date on which a request was made"
+    },
+    {
+        "id": "hasReportDateTime",
+        "type": "ObjectProperty",
+        "name": "hasReportDateTime",
+        "label": "has report date time",
+        "definition": "date and time at which a report was issued"
+    },
+    {
+        "id": "hasRequestDateTime",
+        "type": "ObjectProperty",
+        "name": "hasRequestDateTime",
+        "label": "has request date time",
+        "definition": "date and time at which a request was made"
+    },
+    {
+        "id": "isRequestedOf",
+        "type": "ObjectProperty",
+        "name": "isRequestedOf",
+        "definition": "indicates the party that is asked for something",
+        "label": "is requested of"
+    },
+    {
+        "id": "reportsOn",
+        "type": "ObjectProperty",
+        "name": "reportsOn",
+        "definition": "indicates a subject matter, observation(s), assessment(s), focus or other topic of a report",
+        "label": "reports on"
+    },
+    {
+        "id": "requests",
+        "type": "ObjectProperty",
+        "name": "requests",
+        "definition": "asks for something",
+        "label": "requests"
+    },
+    {
+        "id": "isSubmittedTo",
+        "type": "ObjectProperty",
+        "name": "isSubmittedTo",
+        "definition": "indicates the party to which something is submitted",
+        "label": "is submitted to"
+    },
+    {
+        "id": "isSubmittedBy",
+        "type": "ObjectProperty",
+        "name": "isSubmittedBy",
+        "definition": "indicates the party that submits something",
+        "label": "is submitted by"
+    },
+    {
+        "id": "isReportedTo",
+        "type": "ObjectProperty",
+        "name": "isReportedTo",
+        "label": "is reported to",
+        "definition": "indicates the party to which something is reported"
+    },
+    {
+        "id": "isRequestedBy",
+        "type": "ObjectProperty",
+        "name": "isRequestedBy",
+        "label": "is requested by",
+        "definition": "indicates the party that asks for something"
+    }
+]

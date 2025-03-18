@@ -1,0 +1,752 @@
+[
+    {
+        "source_id": "IndustrialBank",
+        "target_id": "Bank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForeignBankingOrganization",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForeignBranchOfUSBank",
+        "target_id": "USBank",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPartOf",
+                "playsRole",
+                "USBank"
+            ]
+        }
+    },
+    {
+        "source_id": "ForeignBranchOfUSBank",
+        "target_id": "BranchOfADepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FarmCreditSystemInstitution",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FarmCreditSystemInstitution",
+        "target_id": "DomesticEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgencyOfAForeignBankingOrganization",
+        "target_id": "OfficeOfAForeignBank",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "OfficeOfAForeignBank"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyOfAForeignBankingOrganization",
+        "target_id": "ForeignBank",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isOwnedAsset",
+                "ForeignBank"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyOfAForeignBankingOrganization",
+        "target_id": "ForeignBank",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isControlledPartyOf",
+                "ForeignBank"
+            ]
+        }
+    },
+    {
+        "source_id": "AgencyOfAForeignBankingOrganization",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CooperativeBank",
+        "target_id": "ThriftInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StateSavingsBank",
+        "target_id": "SavingsBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DomesticNonBankSubsidiaryOfADomesticEntity",
+        "target_id": "NonBankSubsidiaryOfADomesticEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DomesticNonBankSubsidiaryOfADomesticEntity",
+        "target_id": "DomesticEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UninsuredFederalAgencyOfForeignBankingOrganization",
+        "target_id": "FederalAgencyOfForeignBankingOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UninsuredFederalBranchOfForeignBankingOrganization",
+        "target_id": "FederalBranchOfForeignBankingOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UninsuredStateAgencyOfForeignBankingOrganization",
+        "target_id": "StateAgencyOfForeignBankingOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DomesticEntityOther",
+        "target_id": "DomesticEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForeignBank",
+        "target_id": "Bank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EdgeCorporation-DomesticBranch",
+        "target_id": "EdgeCorporation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPartOf",
+                "playsRole",
+                "EdgeCorporation"
+            ]
+        }
+    },
+    {
+        "source_id": "EdgeCorporation-DomesticBranch",
+        "target_id": "Branch",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankersBankSubjectToReserveRequirements",
+        "target_id": "isSubjectToReserveRequirements",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isSubjectToReserveRequirements"
+            ]
+        }
+    },
+    {
+        "source_id": "BankersBankSubjectToReserveRequirements",
+        "target_id": "BankersBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DomesticBranchOfDomesticBank",
+        "target_id": "BranchOfADepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DomesticBranchOfDomesticBank",
+        "target_id": "USBank",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPartOf",
+                "playsRole",
+                "USBank"
+            ]
+        }
+    },
+    {
+        "source_id": "EdgeCorporation",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankersBank",
+        "target_id": "isSubjectToReserveRequirements",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isSubjectToReserveRequirements"
+            ]
+        }
+    },
+    {
+        "source_id": "BankersBank",
+        "target_id": "CommercialBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankersBank",
+        "target_id": "USBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SavingsBank",
+        "target_id": "ThriftInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StateCharteredBank",
+        "target_id": "CommercialBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StateCharteredBank",
+        "target_id": "USBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankersBankNotSubjectToReserveRequirements",
+        "target_id": "BankersBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BankersBankNotSubjectToReserveRequirements",
+        "target_id": "isSubjectToReserveRequirements",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isSubjectToReserveRequirements"
+            ]
+        }
+    },
+    {
+        "source_id": "DomesticBranchOfAForeignBank",
+        "target_id": "OfficeOfAForeignBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DomesticBranchOfAForeignBank",
+        "target_id": "BranchOfADepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DomesticBranchOfAForeignBank",
+        "target_id": "ForeignBank",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPartOf",
+                "playsRole",
+                "ForeignBank"
+            ]
+        }
+    },
+    {
+        "source_id": "ThriftInstitution",
+        "target_id": "SavingsAssociation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ThriftInstitution",
+        "target_id": "DomesticEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SubsidiaryOfADomesticEntity",
+        "target_id": "DomesticEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isSubsidiaryOf",
+                "isPlayedBy",
+                "DomesticEntity"
+            ]
+        }
+    },
+    {
+        "source_id": "SubsidiaryOfADomesticEntity",
+        "target_id": "Subsidiary",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USBankHoldingCompany",
+        "target_id": "DomesticEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USBankHoldingCompany",
+        "target_id": "USBank",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPortfolioCompany",
+                "USBank"
+            ]
+        }
+    },
+    {
+        "source_id": "USBankHoldingCompany",
+        "target_id": "BankHoldingCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForeignBranchOfForeignBankManagedByUSOffice",
+        "target_id": "ForeignBranchOfForeignBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USCreditUnion",
+        "target_id": "ThriftInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USCreditUnion",
+        "target_id": "CreditUnion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForeignBranchOfForeignBank",
+        "target_id": "ForeignBank",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPartOf",
+                "playsRole",
+                "ForeignBank"
+            ]
+        }
+    },
+    {
+        "source_id": "ForeignBranchOfForeignBank",
+        "target_id": "BranchOfADepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USBank",
+        "target_id": "Bank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USBank",
+        "target_id": "DomesticEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederalCreditUnion",
+        "target_id": "USCreditUnion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EdgeCorporation-Banking",
+        "target_id": "DepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EdgeCorporation-Banking",
+        "target_id": "EdgeCorporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MutualSavingsBank",
+        "target_id": "SavingsBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SavingsLoanAssociation",
+        "target_id": "ThriftInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StateBranchOfForeignBankingOrganization",
+        "target_id": "DomesticBranchOfAForeignBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgreementCorporation-Banking",
+        "target_id": "AgreementCorporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgreementCorporation-Banking",
+        "target_id": "DepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BranchOfADepositoryInstitution",
+        "target_id": "Branch",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BranchOfADepositoryInstitution",
+        "target_id": "DepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPartOf",
+                "playsRole",
+                "DepositoryInstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "EdgeCorporation-Investment",
+        "target_id": "InvestmentBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EdgeCorporation-Investment",
+        "target_id": "EdgeCorporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StateAgencyOfForeignBankingOrganization",
+        "target_id": "AgencyOfAForeignBankingOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InsuredStateBranchOfForeignBankingOrganization",
+        "target_id": "StateBranchOfForeignBankingOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonBankSubsidiaryOfADomesticEntity",
+        "target_id": "SubsidiaryOfADomesticEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonBankSubsidiaryOfADomesticEntity",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isSubsidiaryOf",
+                "isPlayedBy",
+                "FinancialInstitution"
+            ]
+        }
+    },
+    {
+        "source_id": "RepresentativeOfficeOfAForeignBank",
+        "target_id": "OfficeOfAForeignBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForeignBankingOrganizationAsABankHoldingCompany",
+        "target_id": "ForeignBankingOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForeignBankingOrganizationAsABankHoldingCompany",
+        "target_id": "BankHoldingCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DomesticEntity",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DomesticEntity",
+        "target_id": "DomesticEntity",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "Neaa863556bc74d9eb2131530fa4fe8f3"
+            ]
+        }
+    },
+    {
+        "source_id": "IntermediateHoldingCompany",
+        "target_id": "BankHoldingCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InternationalBankOfUSDepositoryEdgeTrustCompany",
+        "target_id": "Bank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgreementCorporation-Investment",
+        "target_id": "InvestmentBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgreementCorporation-Investment",
+        "target_id": "AgreementCorporation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegionalAdministrativeOfficeOfAForeignBank",
+        "target_id": "RepresentativeOfficeOfAForeignBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InsuredFederalBranchOfForeignBankingOrganization",
+        "target_id": "FederalBranchOfForeignBankingOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InternationalNonBankSubsidiaryOfADomesticEntity",
+        "target_id": "NonBankSubsidiaryOfADomesticEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SavingsLoanHoldingCompany",
+        "target_id": "HoldingCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SavingsLoanHoldingCompany",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalBank",
+        "target_id": "USBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NationalBank",
+        "target_id": "CommercialBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LimitedBranchOfAForeignBank",
+        "target_id": "DomesticBranchOfAForeignBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommercialLendingCompany",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonDepositoryTrustCompany",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NonDepositoryTrustCompany",
+        "target_id": "TrustCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForeignEntityOther",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NewYorkArticleXIIInvestmentCompany",
+        "target_id": "NonDepositoryInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StateCreditUnion",
+        "target_id": "USCreditUnion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederalSavingsBank",
+        "target_id": "SavingsBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ForeignBankingOrganizationOfABankHoldingCompany",
+        "target_id": "ForeignBankingOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgreementCorporation",
+        "target_id": "FinancialInstitution",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialHoldingCompany",
+        "target_id": "BankHoldingCompany",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederalBranchOfForeignBankingOrganization",
+        "target_id": "DomesticBranchOfAForeignBank",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UninsuredStateBranchOfForeignBankingOrganization",
+        "target_id": "StateBranchOfForeignBankingOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OfficeOfAForeignBank",
+        "target_id": "Facility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FederalAgencyOfForeignBankingOrganization",
+        "target_id": "AgencyOfAForeignBankingOrganization",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

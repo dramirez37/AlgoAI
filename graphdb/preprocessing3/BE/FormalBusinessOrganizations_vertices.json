@@ -1,0 +1,116 @@
+[
+    {
+        "id": "NonGovernmentalOrganization",
+        "type": "Class",
+        "name": "NonGovernmentalOrganization",
+        "label": "non-governmental organization",
+        "definition": "not-for-profit organization that functions independently of government",
+        "abbreviation": "NGO",
+        "explanatoryNote": "Some NGOs avoid formal funding altogether and are run primarily by volunteers. NGOs are highly diverse groups of organizations engaged in a wide range of activities, and take different forms in different parts of the world. Some may have charitable status, while others may be registered for tax exemption based on recognition of social purposes. Others may be fronts for political, religious, or other interests."
+    },
+    {
+        "id": "NotForProfitOrganization",
+        "type": "Class",
+        "name": "NotForProfitOrganization",
+        "explanatoryNote": "The nonprofit landscape is highly varied, although many people have come to associate NPOs with charitable organizations. Although charities do comprise an often high profile or visible aspect of the sector, there are many other types of nonprofits. Overall, they tend to be either member-serving or community-serving. Member-serving organizations include mutual societies, cooperatives, trade unions, credit unions, industry associations, sports clubs, retired serviceman's clubs and other organizations that benefit a particular group of people - the members of the organization. Typically, community-serving organizations are focused on providing services to the community in general, either globally or locally: organizations delivering human services programs or projects, aid and development programs, medical research, education and health services, and so on.",
+        "definition": "organization that uses its surplus revenues to further achieve its purpose rather than distributing its surplus income to the organization's owners (directors, investors, and equivalents) as profit / dividends",
+        "label": "not for profit organization"
+    },
+    {
+        "id": "OrganizationCoveringAgreement",
+        "type": "Class",
+        "name": "OrganizationCoveringAgreement",
+        "definition": "contract between the principals in a formal organization that specifies the relationship between the principals, and between the principals and the entity",
+        "explanatoryNote": "Also covers the aims and purposes of the Entity.",
+        "label": "organization covering agreement"
+    },
+    {
+        "id": "WrittenContract",
+        "type": "Entity",
+        "name": "WrittenContract"
+    },
+    {
+        "id": "JointVenture",
+        "type": "Class",
+        "name": "JointVenture",
+        "explanatoryNote": "In a joint venture, each of the participants is responsible for profits, losses, and costs associated with it. However, the venture is its own entity, separate from the participants' other business interests.",
+        "definition": "legal entity that is formed between parties that pool their resources for the purpose of accomplishing a specific task but otherwise retain their distinct identities",
+        "label": "joint venture"
+    },
+    {
+        "id": "LegalEntity",
+        "type": "Class",
+        "name": "LegalEntity"
+    },
+    {
+        "id": "ValueAddedTaxIdentificationNumber",
+        "type": "Class",
+        "name": "ValueAddedTaxIdentificationNumber",
+        "definition": "tax identifier that identifies a taxable person (business) or non-taxable legal entity for a consumption tax that is assessed incrementally, levied on the price of a product or service at each stage of production, distribution, and sale to the end consumer",
+        "label": "value-added tax identification number",
+        "explanatoryNote": "If the ultimate consumer is a business that collects and pays to the government VAT on its products or services, it can reclaim the tax paid. Not all localities require VAT to be charged, and exports are often exempt. VAT is usually implemented as a destination-based tax, where the tax rate is based on the location of the consumer and applied to the sales price.",
+        "abbreviation": "VATIN"
+    },
+    {
+        "id": "OrganizationIdentifier",
+        "type": "Entity",
+        "name": "OrganizationIdentifier"
+    },
+    {
+        "id": "TaxIdentifier",
+        "type": "Class",
+        "name": "TaxIdentifier"
+    },
+    {
+        "id": "Division",
+        "type": "Class",
+        "name": "Division",
+        "definition": "part of an organization, such as a line of business, that may have separate accounting and reporting requirements",
+        "label": "division"
+    },
+    {
+        "id": "OrganizationalSubUnit",
+        "type": "Entity",
+        "name": "OrganizationalSubUnit"
+    },
+    {
+        "id": "FormalOrganization",
+        "type": "Entity",
+        "name": "FormalOrganization"
+    },
+    {
+        "id": "Branch",
+        "type": "Class",
+        "name": "Branch",
+        "label": "branch",
+        "definition": "part of a larger organization that might not be co-located with it"
+    },
+    {
+        "id": "hasOperatingAddress",
+        "type": "ObjectProperty",
+        "name": "hasOperatingAddress",
+        "definition": "indicates an address at which an organization carries out operations",
+        "label": "has operating address"
+    },
+    {
+        "id": "hasRegisteredAddress",
+        "type": "ObjectProperty",
+        "name": "hasRegisteredAddress",
+        "definition": "identifies an address that is officially recorded with some government authority and at which legal papers may be served",
+        "label": "has registered address"
+    },
+    {
+        "id": "hasHeadquartersAddress",
+        "type": "ObjectProperty",
+        "name": "hasHeadquartersAddress",
+        "definition": "indicates the main address at which communications may be delivered for the organization",
+        "label": "has headquarters address"
+    },
+    {
+        "id": "hasEquity",
+        "type": "ObjectProperty",
+        "name": "hasEquity",
+        "definition": "indicates owners' equity associated with the entity",
+        "label": "has equity"
+    }
+]

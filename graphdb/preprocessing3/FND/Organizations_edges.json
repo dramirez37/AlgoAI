@@ -1,0 +1,242 @@
+[
+    {
+        "source_id": "Organization",
+        "target_id": "Party",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "Party"
+            ]
+        }
+    },
+    {
+        "source_id": "Organization",
+        "target_id": "OrganizationName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasName",
+                "OrganizationName"
+            ]
+        }
+    },
+    {
+        "source_id": "Organization",
+        "target_id": "Party",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Organization",
+        "target_id": "Organization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "hasPart",
+                "Organization"
+            ]
+        }
+    },
+    {
+        "source_id": "OrganizationalSubUnit",
+        "target_id": "Organization",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrganizationalSubUnit",
+        "target_id": "Organization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isPartOf",
+                "Organization"
+            ]
+        }
+    },
+    {
+        "source_id": "Membership",
+        "target_id": "MemberBearingOrganization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMembership",
+                "MemberBearingOrganization"
+            ]
+        }
+    },
+    {
+        "source_id": "Membership",
+        "target_id": "Situation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Membership",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOrganizationMember",
+                "OrganizationMember"
+            ]
+        }
+    },
+    {
+        "source_id": "OrganizationMember",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrganizationMember",
+        "target_id": "Organization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isMemberOf",
+                "Organization"
+            ]
+        }
+    },
+    {
+        "source_id": "OrganizationIdentificationScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrganizationName",
+        "target_id": "ContextualName",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrganizationName",
+        "target_id": "Organization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isNameOf",
+                "Organization"
+            ]
+        }
+    },
+    {
+        "source_id": "MemberBearingOrganization",
+        "target_id": "Party",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "hasMember",
+                "Party"
+            ]
+        }
+    },
+    {
+        "source_id": "MemberBearingOrganization",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrganizationIdentifier",
+        "target_id": "OrganizationIdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "OrganizationIdentificationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "OrganizationIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrganizationIdentifier",
+        "target_id": "Organization",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "Organization"
+            ]
+        }
+    },
+    {
+        "source_id": "OrganizationPartIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OrganizationPartIdentifier",
+        "target_id": "OrganizationalSubUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "OrganizationalSubUnit"
+            ]
+        }
+    }
+]

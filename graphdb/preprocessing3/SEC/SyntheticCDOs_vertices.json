@@ -1,0 +1,220 @@
+[
+    {
+        "id": "SyntheticDebtSPV",
+        "type": "Class",
+        "name": "SyntheticDebtSPV",
+        "label": "synthetic debt s p v",
+        "definition": "A Special Purpose Vehicle set up for the issuance of synthetics CDOs. This entity (like all SPVs) its itself registered as some kind of legal entity, distinct from the sponsoring organization. It becomes the Issuer of Synthetic CDO issues."
+    },
+    {
+        "id": "SpecialPurposeVehicle",
+        "type": "Entity",
+        "name": "SpecialPurposeVehicle"
+    },
+    {
+        "id": "SyntheticCDO",
+        "type": "Class",
+        "name": "SyntheticCDO",
+        "label": "synthetic c d o"
+    },
+    {
+        "id": "CDODeal",
+        "type": "Entity",
+        "name": "CDODeal"
+    },
+    {
+        "id": "SyntheticDebtInstrumentPool",
+        "type": "Class",
+        "name": "SyntheticDebtInstrumentPool",
+        "label": "synthetic debt instrument pool",
+        "definition": "A cash flow structure which synthesizes the behavior of a portfolio of debt securities. For example a synthesized portfolio of CDO / Bonds / ABS using Total Returns Swaps and CDS. This does exist, it is just manufactured from different instruments."
+    },
+    {
+        "id": "DebtPool",
+        "type": "Entity",
+        "name": "DebtPool"
+    },
+    {
+        "id": "SyntheticBalanceSheetCDO",
+        "type": "Class",
+        "name": "SyntheticBalanceSheetCDO",
+        "label": "synthetic balance sheet c d o"
+    },
+    {
+        "id": "BalanceSheetCDO",
+        "type": "Entity",
+        "name": "BalanceSheetCDO"
+    },
+    {
+        "id": "SyntheticCDOPortfolio",
+        "type": "Class",
+        "name": "SyntheticCDOPortfolio",
+        "label": "synthetic c d o portfolio"
+    },
+    {
+        "id": "SyntheticPoolAsset",
+        "type": "Class",
+        "name": "SyntheticPoolAsset",
+        "label": "synthetic pool asset"
+    },
+    {
+        "id": "FinancialAsset",
+        "type": "Entity",
+        "name": "FinancialAsset"
+    },
+    {
+        "id": "SyntheticCDOTranche",
+        "type": "Class",
+        "name": "SyntheticCDOTranche",
+        "label": "synthetic c d o tranche"
+    },
+    {
+        "id": "CollateralizedDebtObligation",
+        "type": "Entity",
+        "name": "CollateralizedDebtObligation"
+    },
+    {
+        "id": "ArbitrageSyntheticCDO",
+        "type": "Class",
+        "name": "ArbitrageSyntheticCDO",
+        "definition": "Arbitrage synthetic CDO deals are motivated by regulatory or practical considerations that might make a bank want to retain ownership of debt while achieving capital relief through CDSs. In this case, the sponsoring bank has a portfolio of obligations, called the reference portfolio. It retains that portfolio, but offloads its credit risk by transacting CDSs with the CDO.",
+        "explanatoryNote": "For arbitrage synthetic deals, two advantages are - an abbreviated ramp-up period (for managed deals), and - the possibility that selling protection through CDSs can be less expensive than directly buying the underlying bonds. This is often true at the lower end of the credit spectrum.",
+        "label": "arbitrage synthetic c d o"
+    },
+    {
+        "id": "ArbitrageCDO",
+        "type": "Entity",
+        "name": "ArbitrageCDO"
+    },
+    {
+        "id": "SyntheticDebtInstrumentPoolFundingAsset",
+        "type": "Class",
+        "name": "SyntheticDebtInstrumentPoolFundingAsset",
+        "definition": "An asset which provides the funding for a synthetic debt instrument pool, as used in a synthetic CDO.",
+        "label": "synthetic debt instrument pool funding asset"
+    },
+    {
+        "id": "SyntheticStructuredFinanceInstrument",
+        "type": "Class",
+        "name": "SyntheticStructuredFinanceInstrument",
+        "label": "synthetic structured finance instrument"
+    },
+    {
+        "id": "StructuredFinanceInstrument",
+        "type": "Entity",
+        "name": "StructuredFinanceInstrument"
+    },
+    {
+        "id": "SyntheticAmortizingSecurity",
+        "type": "Class",
+        "name": "SyntheticAmortizingSecurity",
+        "definition": "Security constructed to emulate an amortizing security.",
+        "label": "synthetic amortizing security"
+    },
+    {
+        "id": "isCash",
+        "type": "DatatypeProperty",
+        "name": "isCash",
+        "definition": "Whether the CDO has an underlying pool of real assets. This is No: the CDO has a synthetic pool of underlying assets.",
+        "label": "is cash"
+    },
+    {
+        "id": "percentageOfDefaultsThisTranche",
+        "type": "ObjectProperty",
+        "name": "percentageOfDefaultsThisTranche",
+        "label": "percentage of defaults this tranche",
+        "definition": "The percentage of defaults which holders of this are exposed to, that is the percentage of defaults that this tranche represents. Further Notes Review session notes 21 April: The first, second and so on, to stop paying out when there is a default. In each case you get the first, second etc. x% of defaults. Base underlying may be high or low quality. Create the pool by buying or selling protection depending on hich way you want to go, e..g. have high quality funds, (borrowers), would sell protection. If low quality, would buy protection to improve quality. So risk is no longer bound to the funding. REVIEW: More likely this is a band of percentages (from and to); review and formalize. See also note on attachment and detachment points."
+    },
+    {
+        "id": "SyntheticCDOPortfolioConstituent",
+        "type": "Class",
+        "name": "SyntheticCDOPortfolioConstituent",
+        "definition": "An instrument which is defined as a constituent of a synthetic pool of instruments. These are not holdings because they are not held, but in all other respects they are the constituents of the portfolio.",
+        "label": "synthetic c d o portfolio constituent"
+    },
+    {
+        "id": "trancheType",
+        "type": "ObjectProperty",
+        "name": "trancheType",
+        "label": "tranche type"
+    },
+    {
+        "id": "isTrancheOf",
+        "type": "ObjectProperty",
+        "name": "isTrancheOf",
+        "label": "is tranche of"
+    },
+    {
+        "id": "simulates.1",
+        "type": "ObjectProperty",
+        "name": "simulates.1",
+        "label": "simulates"
+    },
+    {
+        "id": "simulates",
+        "type": "ObjectProperty",
+        "name": "simulates",
+        "label": "simulates"
+    },
+    {
+        "id": "fundedBy",
+        "type": "ObjectProperty",
+        "name": "fundedBy",
+        "label": "funded by"
+    },
+    {
+        "id": "hasInvestmentGrade",
+        "type": "ObjectProperty",
+        "name": "hasInvestmentGrade",
+        "label": "has investment grade"
+    },
+    {
+        "id": "assetsManagedBy",
+        "type": "ObjectProperty",
+        "name": "assetsManagedBy",
+        "label": "assets managed by"
+    },
+    {
+        "id": "makesReferenceTo",
+        "type": "ObjectProperty",
+        "name": "makesReferenceTo",
+        "label": "makes reference to"
+    },
+    {
+        "id": "holds",
+        "type": "ObjectProperty",
+        "name": "holds",
+        "label": "holds"
+    },
+    {
+        "id": "notionallyHolds",
+        "type": "ObjectProperty",
+        "name": "notionallyHolds",
+        "label": "notionally holds"
+    },
+    {
+        "id": "issues",
+        "type": "ObjectProperty",
+        "name": "issues",
+        "label": "issues"
+    },
+    {
+        "id": "hasUnderlyingContract",
+        "type": "ObjectProperty",
+        "name": "hasUnderlyingContract",
+        "definition": "The underlying CDS which is created to mechanise the cash flows in the synthetic portfolio.",
+        "label": "has underlying contract"
+    },
+    {
+        "id": "simulatedBy",
+        "type": "ObjectProperty",
+        "name": "simulatedBy",
+        "label": "simulated by",
+        "definition": "The underlying CDS which is created to mechanise the cash flows in the synthetic portfolio."
+    },
+    {
+        "id": "CashCDOTranche",
+        "type": "Class",
+        "name": "CashCDOTranche"
+    }
+]

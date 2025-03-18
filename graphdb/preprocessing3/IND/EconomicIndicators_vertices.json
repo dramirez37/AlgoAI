@@ -1,0 +1,610 @@
+[
+    {
+        "id": "EconomicIndicator",
+        "type": "Class",
+        "name": "EconomicIndicator",
+        "label": "economic indicator",
+        "definition": "statistical measure of economic activity that is regular and comparable in the context of a statistical area (region), used for analysis of economic performance and predictions of future performance",
+        "explanatoryNote": "The two main features of any indicator are the regularity with which they are measured and published, and the fact that they are comparable from one release to the next."
+    },
+    {
+        "id": "ScopedMeasure",
+        "type": "Entity",
+        "name": "ScopedMeasure"
+    },
+    {
+        "id": "EmploymentPopulationRatio",
+        "type": "Class",
+        "name": "EmploymentPopulationRatio",
+        "label": "employment-population ratio",
+        "definition": "economic indicator representing the ratio of the employed population with respect to the overall civilian non-institutional population of a given economy for some specified period"
+    },
+    {
+        "id": "Expression",
+        "type": "Entity",
+        "name": "Expression"
+    },
+    {
+        "id": "EmployedPopulationPartTimeForEconomicReasons",
+        "type": "Class",
+        "name": "EmployedPopulationPartTimeForEconomicReasons",
+        "definition": "subset of the employed population that includes persons that are working fewer than 30 to 35 hours per week due to slack work, unfavorable business conditions, inability to find full-time work, and seasonal declines in demand",
+        "label": "employed population part-time for economic reasons"
+    },
+    {
+        "id": "UnderemployedPopulation",
+        "type": "Class",
+        "name": "UnderemployedPopulation",
+        "definition": "subset of the employed population that includes persons employed part-time for economic reasons, who want and are available for full-time work but have had to settle for a part-time schedule",
+        "label": "underemployed population"
+    },
+    {
+        "id": "EmployedPopulationPartTime",
+        "type": "Class",
+        "name": "EmployedPopulationPartTime",
+        "explanatoryNote": "In the U.S., part-time workers are those who usually work fewer than 35 hours per week. See  for additional details.",
+        "label": "employed population part-time",
+        "definition": "subset of the employed population that includes persons that are working fewer than 30 to 35 hours per week based on usual working hours"
+    },
+    {
+        "id": "UnderutilizedPopulation",
+        "type": "Class",
+        "name": "UnderutilizedPopulation",
+        "label": "underutilized population",
+        "definition": "subset of the civilian non-institutional population that includes persons employed part-time for economic reasons, persons that are marginally attached to the labor force, and persons that are identified as unemployed"
+    },
+    {
+        "id": "CivilianNonInstitutionalPopulation",
+        "type": "Class",
+        "name": "CivilianNonInstitutionalPopulation",
+        "definition": "statistical universe consisting of people of a certain age who reside in a given region, do not live in institutions (for example, correctional facilities, long-term care hospitals, and nursing homes), and are not on active military duty",
+        "label": "civilian non-institutional population"
+    },
+    {
+        "id": "CombinedStatisticalArea",
+        "type": "Class",
+        "name": "CombinedStatisticalArea",
+        "definition": "combination of adjacent metropolitan and micropolitan areas with economic ties measured by commuting patterns",
+        "explanatoryNote": "These areas that combine retain their own designations as metropolitan or micropolitan statistical areas within the larger combined statistical area.",
+        "abbreviation": "CSA",
+        "label": "combined statistical area"
+    },
+    {
+        "id": "GovernmentSpecifiedStatisticalArea",
+        "type": "Class",
+        "name": "GovernmentSpecifiedStatisticalArea",
+        "definition": "statistical area defined by a government agency",
+        "label": "government-specified statistical area"
+    },
+    {
+        "id": "FixedBasketConstituent",
+        "type": "Class",
+        "name": "FixedBasketConstituent",
+        "label": "fixed basket constituent",
+        "definition": "component of a fixed basket"
+    },
+    {
+        "id": "DatedCollectionConstituent",
+        "type": "Entity",
+        "name": "DatedCollectionConstituent"
+    },
+    {
+        "id": "BasketConstituent",
+        "type": "Entity",
+        "name": "BasketConstituent"
+    },
+    {
+        "id": "Enterprise",
+        "type": "Class",
+        "name": "Enterprise",
+        "definition": "functional business entity that produces and/or sells goods or services",
+        "label": "enterprise",
+        "explanatoryNote": "An enterprise (a private firm, government, or nonprofit organization) can consist of a single establishment or multiple establishments. All establishments in an enterprise may be classified in one industry (e.g., a chain), or they may be classified in different industries (e.g., a conglomerate)."
+    },
+    {
+        "id": "FunctionalBusinessEntity",
+        "type": "Entity",
+        "name": "FunctionalBusinessEntity"
+    },
+    {
+        "id": "InstitutionalUnit",
+        "type": "Class",
+        "name": "InstitutionalUnit",
+        "label": "institutional unit",
+        "explanatoryNote": "There is a hierarchical relationship between institutional units and establishments. An institutional unit contains one or more entire establishment(s); an establishment belongs to one and only one institutional unit. There are two main types of units in the real world that may qualify as institutional units, namely persons or groups of persons in the form of households, and legal or social entities.",
+        "definition": "party that is capable, in its own right, of owning assets, incurring liabilities, and engaging in economic activities and in transactions with other parties"
+    },
+    {
+        "id": "StatisticalArea",
+        "type": "Entity",
+        "name": "StatisticalArea"
+    },
+    {
+        "id": "EmployedPopulation",
+        "type": "Class",
+        "name": "EmployedPopulation",
+        "label": "employed population",
+        "definition": "subset of the civilian labor force considered to be employed during the reporting period",
+        "explanatoryNote": "There are a number of distinctions with respect to how individuals are counted from country to country, including whether or not they are considered employed if they are on unpaid leave for some reason, and whether or not they are counted multiple times if they have more than one paying job."
+    },
+    {
+        "id": "UnemploymentRate",
+        "type": "Class",
+        "name": "UnemploymentRate",
+        "definition": "economic indicator representing the ratio of the unemployed population with respect to the civilian labor force of a given economy for some specified period",
+        "label": "unemployment rate",
+        "explanatoryNote": "Persons are classified as unemployed if they do not have a job, have actively looked for work in the prior 4 weeks, and are currently available for work. Workers expecting to be recalled from layoff are counted as unemployed, whether or not they have engaged in a specific jobseeking activity. In all other cases, the individual must have been engaged in at least one active job search activity in the 4 weeks preceding the interview and be available for work (except for temporary illness)."
+    },
+    {
+        "id": "CapitalLaborMultifactorProductivityValueAdded",
+        "type": "Class",
+        "name": "CapitalLaborMultifactorProductivityValueAdded",
+        "explanatoryNote": "Capital-labour MFP indices show the time profile of how productively combined labour and capital inputs are used to generate value added. Conceptually, capital-labour productivity is not, in general, an accurate measure of technical change. It is, however, an indicator of an industry's capacity to contribute to economy-wide growth of income per unit of primary input. In practice, the measure reflects the combined effects of disembodied technical change, economies of scale, efficiency change, variations in capacity utilisation and measurement errors.",
+        "label": "capital-labor multifactor productivity (MFP), based on value added",
+        "definition": "ratio of a quantity index of value added to a quantity index of combined labor and capital input"
+    },
+    {
+        "id": "Productivity",
+        "type": "Class",
+        "name": "Productivity",
+        "definition": "economic indicator representing ratio of a volume measure of output to a volume measure of input use",
+        "label": "productivity",
+        "explanatoryNote": "The primary objectives of productivity measurement include: (a) tracing technology change, i.e., the currently known ways of converting resources into outputs desired by the economy, (b) identifying changes in efficiency, (c) understanding real cost savings, (d) benchmarking production processes, and (e) assessing standards of living. Productivity measures may also be single factor or multifactor."
+    },
+    {
+        "id": "InflationRate",
+        "type": "Class",
+        "name": "InflationRate",
+        "label": "inflation rate",
+        "definition": "economic indicator representing a change in prices of goods and services for a specified period, for a given statistical area",
+        "explanatoryNote": "Inflation rate can be used to define changes, from period-to-period, in wage (wage inflation), house prices or producer inputs/outputs. It can be calculated month-over-month and quarter-over-quarter, as well as year-over-year, or on any periodic basis required by the publisher and its community of interest."
+    },
+    {
+        "id": "CivilianLaborForce",
+        "type": "Class",
+        "name": "CivilianLaborForce",
+        "label": "civilian labor force",
+        "definition": "subset of the civilian, non-institutional population considered to be part of the labor force during a given reporting period"
+    },
+    {
+        "id": "InstitutionalPerson",
+        "type": "Class",
+        "name": "InstitutionalPerson",
+        "label": "institutional person",
+        "definition": "person that resides in an institution for some reason, due, for example, to hospitalization, rehabilitation, or incarceration"
+    },
+    {
+        "id": "Person",
+        "type": "Entity",
+        "name": "Person"
+    },
+    {
+        "id": "OutputProducerPriceIndex",
+        "type": "Class",
+        "name": "OutputProducerPriceIndex",
+        "definition": "economic indicator representing measure of the rate of change over time in the prices of products sold as they leave the producer",
+        "label": "output producer price index",
+        "abbreviation": "output PPI"
+    },
+    {
+        "id": "ProducerPriceIndex",
+        "type": "Class",
+        "name": "ProducerPriceIndex",
+        "abbreviation": "PPI",
+        "explanatoryNote": "The standard methodology for a typical PPI is based on a Laspeyres price index with fixed quantities from an earlier base period. The construction of this index can be thought of in terms of selecting a basket of goods and services representative of base-period revenues, valuing this at base-period prices, and then repricing the same basket at current-period prices. The target PPI in this case is defined to be the ratio of these two revenues. Practicing statisticians use this methodology because it has at least three practical advantages. It is easily explained to the public, it can use often expensive and untimely weighting information from the date of the last (or an even earlier) survey or administrative source (rather than requiring sources of data for the current month), and it need not be revised if users accept the Laspeyres premise.",
+        "label": "producer price index",
+        "definition": "economic indicator representing measure of the rate of change over time in the prices of goods and services bought and sold by producers"
+    },
+    {
+        "id": "CivilianLaborForceParticipationRate",
+        "type": "Class",
+        "name": "CivilianLaborForceParticipationRate",
+        "label": "civilian labor force participation rate",
+        "explanatoryNote": "The labor force participation rate is the percentage of the population that is either employed or unemployed (that is, either working or actively seeking work).",
+        "definition": "economic indicator representing the rate of participation the labor force of a given economy for some specified period"
+    },
+    {
+        "id": "Household",
+        "type": "Class",
+        "name": "Household",
+        "explanatoryNote": "From the perspective of the U.S Census Bureau, a household includes the related family members and all the unrelated people, if any, such as lodgers, foster children, wards, or employees who share the housing unit. A person living alone in a housing unit, or a group of unrelated people sharing a housing unit such as partners or roomers, is also counted as a household. The count of households excludes group quarters [such as institutional facilities]. There are two major categories of households, 'family' and 'nonfamily'.",
+        "definition": "individual or small group of persons who occupy a housing unit (such as a house or apartment) as their usual place of residence, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food",
+        "label": "household"
+    },
+    {
+        "id": "GrossDomesticProduct",
+        "type": "Class",
+        "name": "GrossDomesticProduct",
+        "abbreviation": "GDP",
+        "explanatoryNote": "GDP represents a valuation expressed in terms of the prices actually paid by the purchaser after all applicable taxes and subsidies.",
+        "label": "gross domestic product",
+        "definition": "economic indicator representing the broadest measure of aggregate economic activity, measuring the total unduplicated market value of all final goods and services produced within a statistical area in a period"
+    },
+    {
+        "id": "AverageDailyEarnings",
+        "type": "Class",
+        "name": "AverageDailyEarnings",
+        "definition": "measure of the average daily wage an employee makes over the reporting period",
+        "label": "average daily earnings"
+    },
+    {
+        "id": "AverageEarnings",
+        "type": "Class",
+        "name": "AverageEarnings",
+        "explanatoryNote": "Average earnings are typically calculated on an hourly, daily, weekly, or monthly basis. They may be expressed as an amount of money or in terms of a percent change with respect to a prior period, depending on the jurisdiction and report.",
+        "label": "average earnings",
+        "definition": "measure of the average wage an hourly or salaried worker makes in a given period of time"
+    },
+    {
+        "id": "ConsumerPriceIndex",
+        "type": "Class",
+        "name": "ConsumerPriceIndex",
+        "abbreviation": "CPI",
+        "label": "consumer price index",
+        "definition": "economic indicator representing measure of the change over time in the prices of consumer goods and services that households consume"
+    },
+    {
+        "id": "AverageWeeklyEarnings",
+        "type": "Class",
+        "name": "AverageWeeklyEarnings",
+        "definition": "measure of the average weekly wage an employee makes over the reporting period",
+        "label": "average weekly earnings"
+    },
+    {
+        "id": "FixedBasket",
+        "type": "Class",
+        "name": "FixedBasket",
+        "definition": "basket of goods and services whose quantity and quality are held fixed for some period of time",
+        "label": "fixed basket"
+    },
+    {
+        "id": "Basket",
+        "type": "Entity",
+        "name": "Basket"
+    },
+    {
+        "id": "DatedStructuredCollection",
+        "type": "Entity",
+        "name": "DatedStructuredCollection"
+    },
+    {
+        "id": "EstablishmentPopulation",
+        "type": "Class",
+        "name": "EstablishmentPopulation",
+        "definition": "a subset of the enterprise population focused on establishments",
+        "label": "establishment population"
+    },
+    {
+        "id": "EnterprisePopulation",
+        "type": "Class",
+        "name": "EnterprisePopulation",
+        "label": "enterprise population",
+        "definition": "statistical universe consisting of enterprises designed for the purposes of supporting surveys such as those used as the basis for employment and producer price indices"
+    },
+    {
+        "id": "ValueAddedProducerPriceIndex",
+        "type": "Class",
+        "name": "ValueAddedProducerPriceIndex",
+        "label": "value-added producer price index",
+        "abbreviation": "value-added PPI",
+        "definition": "economic indicator representing a weighted average of the input and output producer price indices"
+    },
+    {
+        "id": "CivilianNonInstitutionalPerson",
+        "type": "Class",
+        "name": "CivilianNonInstitutionalPerson",
+        "definition": "legal working-age person that does not live in an institution (for example, a correctional facility, long-term care hospital, or nursing home), and is not on active military duty",
+        "explanatoryNote": "The working-age population is the total population in a region, within a set range of ages, that is considered to be able and likely to work. The working-age population measure is used to give an estimate of the total number of potential workers within an economy. For example, in the U.S., it is 16, whereas in Canada it is 15.",
+        "label": "civilian non-institutional person"
+    },
+    {
+        "id": "LegalWorkingAgePerson",
+        "type": "Entity",
+        "name": "LegalWorkingAgePerson"
+    },
+    {
+        "id": "Civilian",
+        "type": "Class",
+        "name": "Civilian",
+        "label": "civilian",
+        "definition": "person that is not a member of the military (i.e., that is not on active duty)"
+    },
+    {
+        "id": "LegallyCompetentNaturalPerson",
+        "type": "Entity",
+        "name": "LegallyCompetentNaturalPerson"
+    },
+    {
+        "id": "HousingUnit",
+        "type": "Class",
+        "name": "HousingUnit",
+        "label": "housing unit",
+        "explanatoryNote": "Separate living quarters are those in which the occupants live separately from any other individuals in the building and which have direct access from outside the building or through a common hall. For vacant units, the criteria of separateness and direct access are applied to the intended occupants whenever possible.",
+        "definition": "house, an apartment, a mobile home or trailer, a group of rooms, or a single room occupied as separate living quarters, or if vacant, intended for occupancy as separate living quarters"
+    },
+    {
+        "id": "PhysicalLocation",
+        "type": "Entity",
+        "name": "PhysicalLocation"
+    },
+    {
+        "id": "AverageMonthlyEarnings",
+        "type": "Class",
+        "name": "AverageMonthlyEarnings",
+        "definition": "measure of the average monthly wage an employee makes over the reporting period",
+        "label": "average monthly earnings"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "FunctionalEntity",
+        "type": "Entity",
+        "name": "FunctionalEntity"
+    },
+    {
+        "id": "AverageHourlyEarnings",
+        "type": "Class",
+        "name": "AverageHourlyEarnings",
+        "definition": "measure of the average hourly wage an employee makes over the reporting period",
+        "label": "average hourly earnings"
+    },
+    {
+        "id": "UnemployedPopulation",
+        "type": "Class",
+        "name": "UnemployedPopulation",
+        "label": "unemployed population",
+        "definition": "subset of the civilian labor force that is considered to have had no employment but was available for work, except for temporary illness, and had made specific efforts to find employment sometime during a specified period, during the reporting period",
+        "explanatoryNote": "Persons who were waiting to be recalled to a job from which they had been laid off need not have been looking for work to be classified as unemployed."
+    },
+    {
+        "id": "StatisticalUniverse",
+        "type": "Entity",
+        "name": "StatisticalUniverse"
+    },
+    {
+        "id": "StatisticalInformationPublisher",
+        "type": "Class",
+        "name": "StatisticalInformationPublisher",
+        "label": "statistical information publisher",
+        "definition": "publisher that packages and makes analytical and statistical data available"
+    },
+    {
+        "id": "Publisher",
+        "type": "Entity",
+        "name": "Publisher"
+    },
+    {
+        "id": "EmployedPopulationPartTimeForNonEconomicReasons",
+        "type": "Class",
+        "name": "EmployedPopulationPartTimeForNonEconomicReasons",
+        "definition": "subset of the employed population that includes persons that are working fewer than 30 to 35 hours per week due to illness or other health or medical limitations, childcare problems, family or personal obligations, being in school or training, retirement or Social Security limits on earnings, and having a job where full-time work is less than 35 hours",
+        "label": "employed population part-time for non-economic reasons"
+    },
+    {
+        "id": "PersonalConsumptionExpenditures",
+        "type": "Class",
+        "name": "PersonalConsumptionExpenditures",
+        "label": "personal consumption expenditures",
+        "explanatoryNote": "Personal consumption expenditures consist of purchases of goods and services by households and by nonprofit institutions serving households (NPISHs). These goods and services include imputed expenditures on items such as the services of housing by a homeowner (the equivalent of rent), financial and insurance services for which there is no explicit charge, and medical care provided to individuals and financed by government or by private insurance.",
+        "abbreviation": "PCE",
+        "definition": "economic indicator representing measure of the value of the goods and services purchased by, or on the behalf of, 'persons'"
+    },
+    {
+        "id": "EstablishmentEmployment",
+        "type": "Class",
+        "name": "EstablishmentEmployment",
+        "explanatoryNote": "Also included are salaried managers and salaried directors of incorporated enterprises. The total should include part-time workers and seasonal workers on the payroll, persons on short-term leave (sick leave, maternity leave, annual leave or vacation) and on strike, but not persons on indefinite leave, military leave or pension. \n\nExcluded are directors of incorporated enterprises and members of shareholders committees who are paid solely for their attendance at meetings, labour made available to the establishment by other units and charged for, such as contract workers paid through contractors, persons carrying out repair and maintenance work in the establishment on behalf of other units and all homeworkers.",
+        "definition": "economic indicator representing the total number of persons who work in or for the establishment including working proprietors, active business partners and unpaid family workers, as well as persons working outside the establishment when paid by and under the control of the establishment, for example, sales representatives, outside service engineers and repair and maintenance personnel",
+        "label": "establishment employment"
+    },
+    {
+        "id": "PopulationNotInLaborForce",
+        "type": "Class",
+        "name": "PopulationNotInLaborForce",
+        "definition": "subset of the civilian, noninstitutional population, that is considered neither employed nor unemployed by the reporting agency during the reporting period",
+        "explanatoryNote": "There are a number of distinctions with respect to how individuals are counted from country to country, including whether or not they are considered employed if they are on unpaid leave for some reason, and whether or not they are counted multiple times if they have more than one paying job.",
+        "label": "population not in the labor force"
+    },
+    {
+        "id": "UltimateConsumer",
+        "type": "Class",
+        "name": "UltimateConsumer",
+        "explanatoryNote": "For the purposes of the CPI and related statistics, the definition of consumer is limited to humans. In general, a consumer could include a pet, as the consumer of pet food, for example, although the pet owner would likely be the purchaser and target of advertising.",
+        "label": "ultimate consumer",
+        "definition": "person that is the ultimate user of a good, product or service"
+    },
+    {
+        "id": "Consumer",
+        "type": "Entity",
+        "name": "Consumer"
+    },
+    {
+        "id": "MetropolitanStatisticalArea",
+        "type": "Class",
+        "name": "MetropolitanStatisticalArea",
+        "label": "metropolitan statistical area",
+        "abbreviation": "MSA",
+        "definition": "one or more adjacent counties or county equivalents that have at least one urban core area of at least 50,000 population, plus adjacent territory that has a high degree of social and economic integration with the core as measured by commuting ties"
+    },
+    {
+        "id": "DiscouragedWorkerPopulation",
+        "type": "Class",
+        "name": "DiscouragedWorkerPopulation",
+        "definition": "subset of the marginally attached population that have given a job-market related reason for not currently looking for work",
+        "label": "discouraged worker population"
+    },
+    {
+        "id": "MarginallyAttachedPopulation",
+        "type": "Class",
+        "name": "MarginallyAttachedPopulation",
+        "definition": "subset of the population that includes people who currently are neither working nor looking for work but indicate that they want and are available for a job and have looked for work sometime in the past 12 months",
+        "label": "marginally attached population"
+    },
+    {
+        "id": "Establishment",
+        "type": "Class",
+        "name": "Establishment",
+        "definition": "an enterprise (or part of an enterprise) that operates from a single physical location",
+        "label": "establishment",
+        "explanatoryNote": "The physical location of a certain economic activity - for example, a factory, mine, store, or office. An individual establishment is generally classified by having one NAICS code associated with it for statistical purposes, whereas an enterprise may be classified by multiple NAICS codes. The statistical structure is defined based on the operating structure and the accounting data produced by that entity. A given location may only need to publish revenues, whereas an operating unit (establishment) has employment statistics, etc. An establishment is defined as a producing unit at a single geographical location at which or from which economic activity is conducted and for which, at a minimum, employment data are available. In the case of a home-based business, the actual physical location would be specified as two distinct institutional units - as a household from a personal living and consumer perspective and as an establishment / operating unit due to the statistics required of the business."
+    },
+    {
+        "id": "MicropolitanStatisticalArea",
+        "type": "Class",
+        "name": "MicropolitanStatisticalArea",
+        "abbreviation": "\u03bcSA",
+        "label": "micropolitan statistical area",
+        "definition": "one or more adjacent counties or county equivalents that have at least one urban core area of at least 10,000 population but less than 50,000, plus adjacent territory that has a high degree of social and economic integration with the core as measured by commuting ties"
+    },
+    {
+        "id": "FixedBasketPopulation",
+        "type": "Class",
+        "name": "FixedBasketPopulation",
+        "label": "fixed basket population",
+        "definition": "statistical universe consisting of specific goods and/or services designed for the purposes of supporting surveys such as those used as the basis for price indices"
+    },
+    {
+        "id": "MilitaryPerson",
+        "type": "Class",
+        "name": "MilitaryPerson",
+        "definition": "person that is a member of the active duty military",
+        "label": "military person"
+    },
+    {
+        "id": "UnderemployedPopulationWithRespectToOccupation",
+        "type": "Class",
+        "name": "UnderemployedPopulationWithRespectToOccupation",
+        "definition": "subset of the underemployed population that includes persons employed in a role that does not reflect their training and experience, excluding those that change careers",
+        "label": "underemployed population with respect to occupation"
+    },
+    {
+        "id": "InputProducerPriceIndex",
+        "type": "Class",
+        "name": "InputProducerPriceIndex",
+        "abbreviation": "input PPI",
+        "label": "input producer price index",
+        "definition": "economic indicator representing measure of the rate of change over time in the prices of inputs of goods and services purchased by the producer"
+    },
+    {
+        "id": "CapitalProductivityValueAdded",
+        "type": "Class",
+        "name": "CapitalProductivityValueAdded",
+        "label": "capital productivity, based on value added",
+        "definition": "ratio of a quantity index of value added to a quantity index of capital input",
+        "explanatoryNote": "Changes in capital productivity indicate the extent to which output growth can be achieved with lower welfare costs in the form of foregone consumption."
+    },
+    {
+        "id": "LaborProductivityGrossOutput",
+        "type": "Class",
+        "name": "LaborProductivityGrossOutput",
+        "definition": "ratio of a quantity index of gross output to a quantity index of labor input",
+        "explanatoryNote": "Shows the time profile of how productively labour is used to generate gross output. Labour productivity changes reflect the joint influence of changes in capital, intermediate inputs, as well as technical, organisational and efficiency change within and between firms, the influence of economies of scale, varying degrees of capacity utilisation and measurement errors.",
+        "label": "labor productivity, based on gross output"
+    },
+    {
+        "id": "LaborProductivityValueAdded",
+        "type": "Class",
+        "name": "LaborProductivityValueAdded",
+        "explanatoryNote": "Shows the time profile of how productively labour is used to generate value added. Labour productivity changes reflect the joint influence of changes in capital, as well as technical, organisational and efficiency change within and between firms, the influence of economies of scale, varying degrees of capacity utilisation and measurement errors.",
+        "label": "labor productivity, based on value added",
+        "definition": "ratio of a quantity index of value added to a quantity index of labor input"
+    },
+    {
+        "id": "CapitalLaborEnergyMaterialsMultifactorProductivity",
+        "type": "Class",
+        "name": "CapitalLaborEnergyMaterialsMultifactorProductivity",
+        "abbreviation": "KLEMS-MFP",
+        "label": "capital-labor-energy-materials multifactor productivity",
+        "definition": "ratio of a quantity index of gross output to a quantity index of combined inputs",
+        "explanatoryNote": "Shows the time profile of how productively combined inputs are used to generate gross output. Conceptually, the KLEMS productivity measure captures disembodied technical change. In practice, it reflects also efficiency change, economies of scale, variations in capacity utilisation and measurement errors."
+    },
+    {
+        "id": "EmployedPopulationTemporarilyNotAtWork",
+        "type": "Class",
+        "name": "EmployedPopulationTemporarilyNotAtWork",
+        "definition": "subset of the employed population that includes persons that are temporarily absent from work for various reasons",
+        "label": "employed population temporarily not at work",
+        "explanatoryNote": "This includes persons temporarily not at work because of illness or injury, holiday or vacation, strike or lockout, educational or training leave, maternity or parental leave, reduction in economic activity, temporary disorganisation or suspension of work due to such reasons as bad weather, mechanical or electrical breakdown, or shortage of raw materials or fuels, or other temporary absence with or without leave should be considered as in paid employment provided they had a formal job attachment."
+    },
+    {
+        "id": "excludesEnergyAndFood",
+        "type": "DatatypeProperty",
+        "name": "excludesEnergyAndFood",
+        "definition": "indicates whether the calculation of the index includes energy and food prices or not",
+        "label": "excludes energy and food"
+    },
+    {
+        "id": "Monthly",
+        "type": "NamedIndividual",
+        "name": "Monthly",
+        "label": "monthly",
+        "definition": "explicit recurrence interval of exactly one (1) month, regardless of the length in days of a given calendar month, but typically 30 days"
+    },
+    {
+        "id": "hasIndicatorValue",
+        "type": "ObjectProperty",
+        "name": "hasIndicatorValue",
+        "label": "has indicator value",
+        "definition": "specifies a quantity value for a given indicator"
+    },
+    {
+        "id": "hasBaselinePopulation",
+        "type": "ObjectProperty",
+        "name": "hasBaselinePopulation",
+        "definition": "specifies the starting point statistical universe or population used for comparison or analysis",
+        "label": "has baseline population"
+    },
+    {
+        "id": "Hourly",
+        "type": "NamedIndividual",
+        "name": "Hourly",
+        "definition": "explicit recurrence interval of one hour, or 60 minutes",
+        "label": "hourly"
+    },
+    {
+        "id": "hasDurationOfUnemployment",
+        "type": "ObjectProperty",
+        "name": "hasDurationOfUnemployment",
+        "definition": "specifies the length of time, typically in weeks, that people classified as unemployed have been continuously looking for work",
+        "label": "has duration of unemployment"
+    },
+    {
+        "id": "isSeasonallyAdjusted",
+        "type": "DatatypeProperty",
+        "name": "isSeasonallyAdjusted",
+        "definition": "a predicate indicating whether some published formal method is applied that compensates for seasonal variations in the population or index value",
+        "label": "is seasonally adjusted",
+        "explanatoryNote": "Example explanation from the US Bureau of Labor Statistics: Because price data are used for different purposes by different groups, the Bureau of Labor Statistics publishes seasonally adjusted as well as unadjusted changes each month. ... Seasonal factors used in computing the seasonally adjusted indexes are derived by the X-13ARIMA-SEATS Seasonal Adjustment Method. Seasonally adjusted indexes and seasonal factors are computed annually. Each year, the last five years of seasonally adjusted data are revised."
+    },
+    {
+        "id": "hasComparisonPopulation",
+        "type": "ObjectProperty",
+        "name": "hasComparisonPopulation",
+        "label": "has comparison population",
+        "definition": "specifies the subset of the baseline statistical universe or population used for comparison or analysis"
+    },
+    {
+        "id": "Daily",
+        "type": "ExplicitRecurrenceInterval",
+        "name": "Daily",
+        "definition": "explicit recurrence interval of one day, or 24 hours",
+        "label": "daily"
+    },
+    {
+        "id": "Weekly",
+        "type": "NamedIndividual",
+        "name": "Weekly",
+        "definition": "explicit recurrence interval of one week, or 7 days",
+        "label": "weekly"
+    },
+    {
+        "id": "hasSeriesOrigin",
+        "type": "ObjectProperty",
+        "name": "hasSeriesOrigin",
+        "label": "has series origin",
+        "definition": "specifies the original starting date for the time series for a given economic indicator"
+    }
+]

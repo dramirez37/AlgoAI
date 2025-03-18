@@ -1,0 +1,77 @@
+[
+    {
+        "id": "MinimumMargin",
+        "type": "Class",
+        "name": "MinimumMargin",
+        "label": "minimum margin",
+        "definition": "The lowest amount an account can reach before needing to be replenished."
+    },
+    {
+        "id": "Asset",
+        "type": "Entity",
+        "name": "Asset"
+    },
+    {
+        "id": "FuturesClosingPrice",
+        "type": "Class",
+        "name": "FuturesClosingPrice",
+        "label": "futures closing price"
+    },
+    {
+        "id": "ExchangeFuturesPrice",
+        "type": "Class",
+        "name": "ExchangeFuturesPrice",
+        "label": "exchange futures price"
+    },
+    {
+        "id": "FuturesDailySettlementPrice",
+        "type": "Class",
+        "name": "FuturesDailySettlementPrice",
+        "label": "futures daily settlement price",
+        "definition": "Review whether this exists"
+    },
+    {
+        "id": "SecurityPrice",
+        "type": "Entity",
+        "name": "SecurityPrice"
+    },
+    {
+        "id": "InitialMargin",
+        "type": "Class",
+        "name": "InitialMargin",
+        "definition": "money or securities put up as a good faith deposit assuring that a future contract will be fulfilled",
+        "explanatoryNote": "When you open a futures contract, the futures exchange will state a minimum amount of money that you must deposit into your account. This original deposit of money is called the initial margin. When your contract is liquidated, you will be refunded the initial margin plus or minus any gains or losses that occur over the span of the futures contract. In other words, the amount in your margin account changes daily as the market fluctuates in relation to your futures contract. The minimum-level margin is determined by the futures exchange and is usually 5% to 10% of the futures contract. These predetermined initial margin amounts are continuously under review: at times of high market volatility, initial margin requirements can be raised.",
+        "label": "initial margin"
+    },
+    {
+        "id": "FuturesGreek",
+        "type": "Class",
+        "name": "FuturesGreek",
+        "definition": "quantity representing the sensitivity of the price of a future or futures to a change in underlying parameters on which the value depends",
+        "label": "futures greek"
+    },
+    {
+        "id": "PriceAnalytic",
+        "type": "Entity",
+        "name": "PriceAnalytic"
+    },
+    {
+        "id": "FuturesTheta",
+        "type": "Class",
+        "name": "FuturesTheta",
+        "label": "futures theta"
+    },
+    {
+        "id": "FuturesVega",
+        "type": "Class",
+        "name": "FuturesVega",
+        "label": "futures vega"
+    },
+    {
+        "id": "FuturesTradingAccountHolder",
+        "type": "Class",
+        "name": "FuturesTradingAccountHolder",
+        "definition": "A party who has an account for futures trading at a derivatives exchange. Further notes: The trader opens an account with a given amount known as a margin.",
+        "label": "futures trading account holder"
+    }
+]

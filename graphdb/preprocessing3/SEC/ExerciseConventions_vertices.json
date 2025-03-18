@@ -1,0 +1,105 @@
+[
+    {
+        "id": "AmericanExerciseTerms",
+        "type": "Class",
+        "name": "AmericanExerciseTerms",
+        "label": "American exercise terms",
+        "explanatoryNote": "Under certain circumstances, early exercise may be advantageous to the option holder.",
+        "definition": "exercise terms that stipulate that an option may be exercised on or before the date of expiration"
+    },
+    {
+        "id": "ExerciseTerms",
+        "type": "Class",
+        "name": "ExerciseTerms",
+        "label": "exercise terms",
+        "definition": "contract terms specific to the conditions, conventions and other stipulations related to the exercise of an option or entitlement"
+    },
+    {
+        "id": "EuropeanExerciseTerms",
+        "type": "Class",
+        "name": "EuropeanExerciseTerms",
+        "label": "European exercise terms",
+        "definition": "exercise terms that stipulate that an option may only be exercised at the date of expiration"
+    },
+    {
+        "id": "ContractualCommitment",
+        "type": "Entity",
+        "name": "ContractualCommitment"
+    },
+    {
+        "id": "BermudanExerciseTerms",
+        "type": "Class",
+        "name": "BermudanExerciseTerms",
+        "explanatoryNote": "The Bermuda option is named as such because its exercise dates are more flexible than European options and less flexible than American options. Thus, it is in the middle, just like Bermuda is between Europe and America. Bermuda options are also referred to as Mid-Atlantic, Quasi American, or Semi-American options.",
+        "label": "Bermudan exercise terms",
+        "definition": "exercise terms that stipulate that an option may only be exercised on predetermined dates within some exercise window, often on one day each month or at the date of expiration"
+    },
+    {
+        "id": "ExerciseConvention",
+        "type": "Class",
+        "name": "ExerciseConvention",
+        "label": "exercise convention",
+        "definition": "convention that determines when the holder or future holder of an option can implement the rights defined in the option"
+    },
+    {
+        "id": "Convention",
+        "type": "Entity",
+        "name": "Convention"
+    },
+    {
+        "id": "CanaryExerciseTerms",
+        "type": "Class",
+        "name": "CanaryExerciseTerms",
+        "definition": "exercise terms that stipulate that an option may only be exercised on predetermined dates until the first step is reached, but not after that point",
+        "label": "canary exercise terms"
+    },
+    {
+        "id": "AmericanExerciseConvention",
+        "type": "NamedIndividual",
+        "name": "AmericanExerciseConvention",
+        "label": "American exercise convention",
+        "definition": "exercise convention that stipulates that an option may be exercised anytime between the purchase date and date of expiration"
+    },
+    {
+        "id": "CanaryExerciseConvention",
+        "type": "ExerciseConvention",
+        "name": "CanaryExerciseConvention",
+        "definition": "exercise/call convention that stipulates that an option may only be exercised on predetermined dates until the first step is reached, but not after that point",
+        "label": "canary exercise convention"
+    },
+    {
+        "id": "BermudanExerciseConvention",
+        "type": "ExerciseConvention",
+        "name": "BermudanExerciseConvention",
+        "label": "Bermudan exercise convention",
+        "definition": "exercise convention that stipulates that an option may be exercised anytime between the purchase date and date of expiration"
+    },
+    {
+        "id": "hasExerciseWindow",
+        "type": "ObjectProperty",
+        "name": "hasExerciseWindow",
+        "label": "has exercise window",
+        "definition": "indicates a period of time during which the option may be exercised as specified in the terms of the contract"
+    },
+    {
+        "id": "EuropeanExerciseConvention",
+        "type": "ExerciseConvention",
+        "name": "EuropeanExerciseConvention",
+        "definition": "exercise convention that stipulates that an option may only be exercised at the date of expiration",
+        "label": "European exercise convention"
+    },
+    {
+        "id": "hasExerciseDate",
+        "type": "ObjectProperty",
+        "name": "hasExerciseDate",
+        "definition": "indicates a date on which an option may be exercised as specified in the terms of the contract",
+        "label": "has exercise date"
+    },
+    {
+        "id": "hasExerciseTerms",
+        "type": "ObjectProperty",
+        "name": "hasExerciseTerms",
+        "label": "has exercise terms",
+        "definition": "links a derivative, such as an option or entitlement, to any exercise terms that are specified therein"
+    }
+]

@@ -1,0 +1,148 @@
+[
+    {
+        "id": "ProgramName",
+        "type": "Class",
+        "name": "ProgramName",
+        "definition": "contextual designation for a program within the context in which that program is administered",
+        "label": "programme name"
+    },
+    {
+        "id": "ContextualName",
+        "type": "Entity",
+        "name": "ContextualName"
+    },
+    {
+        "id": "ProjectIdentifier",
+        "type": "Class",
+        "name": "ProjectIdentifier",
+        "definition": "sequence of characters uniquely identifying a specific project within the context in which that project or an overarching program is administered",
+        "label": "project identifier"
+    },
+    {
+        "id": "ContextualIdentifier",
+        "type": "Entity",
+        "name": "ContextualIdentifier"
+    },
+    {
+        "id": "SalesStrategy",
+        "type": "Class",
+        "name": "SalesStrategy",
+        "label": "sales strategy",
+        "definition": "strategy for selling something, including allocating resources to the sales process, reducing costs, and optimizing revenues"
+    },
+    {
+        "id": "BusinessStrategy",
+        "type": "Class",
+        "name": "BusinessStrategy",
+        "definition": "strategy for achieving a specific business goal, objective, solution or outcome",
+        "label": "business strategy"
+    },
+    {
+        "id": "Project",
+        "type": "Class",
+        "name": "Project",
+        "definition": "state of affairs and unique and temporary organization, designed to deliver a tangible output",
+        "label": "project",
+        "explanatoryNote": "A project has a fixed - generally fairly short - timeframe, and a project manager is responsible for delivering the output on time and on budget."
+    },
+    {
+        "id": "Situation",
+        "type": "Entity",
+        "name": "Situation"
+    },
+    {
+        "id": "Strategy",
+        "type": "Class",
+        "name": "Strategy",
+        "explanatoryNote": "A strategy may involve activities that are needed in order to achieve specific goals or objectives. It may take into account one or more policies or any number of restrictions and constraints.",
+        "definition": "plan or method for achieving a specific goal, objective, solution or outcome",
+        "label": "strategy"
+    },
+    {
+        "id": "Program",
+        "type": "Class",
+        "name": "Program",
+        "definition": "state of affairs and coordinated set of activities designed to obtain benefits not available from managing them individually",
+        "label": "program"
+    },
+    {
+        "id": "Objective",
+        "type": "Class",
+        "name": "Objective",
+        "definition": "short-term, quantitative, measurable result that a party seeks to attain in order to achieve its long-term goals",
+        "label": "objective"
+    },
+    {
+        "id": "DistributionStrategy",
+        "type": "Class",
+        "name": "DistributionStrategy",
+        "label": "distribution strategy",
+        "definition": "strategy for making a product or service available, or for distributing funds, such as in the form of a dividend or coupon"
+    },
+    {
+        "id": "ProgramIdentifier",
+        "type": "Class",
+        "name": "ProgramIdentifier",
+        "label": "programme identifier",
+        "definition": "sequence of characters uniquely identifying a specific program within the context in which that program is administered"
+    },
+    {
+        "id": "ProjectName",
+        "type": "Class",
+        "name": "ProjectName",
+        "label": "project name",
+        "definition": "contextual designation for a project"
+    },
+    {
+        "id": "BusinessObjective",
+        "type": "Class",
+        "name": "BusinessObjective",
+        "definition": "objective that reflects the strategic goals and direction of a business within a time frame and available resources",
+        "label": "business objective",
+        "explanatoryNote": "In general, objectives are more specific and easier to measure than goals. Objectives are basic tools that underlie all planning and strategic activities. They serve as the basis for creating policy and evaluating performance. Some examples of business objectives include minimizing expenses, expanding internationally, or making a profit."
+    },
+    {
+        "id": "FinancialObjective",
+        "type": "Class",
+        "name": "FinancialObjective",
+        "label": "financial objective",
+        "definition": "objective that reflects the strategic financial goals and direction of a party within a time frame and available resources"
+    },
+    {
+        "id": "InvestmentObjective",
+        "type": "Class",
+        "name": "InvestmentObjective",
+        "definition": "financial objective used by an investor to determine whether or not a given potential investment is appropriate for themselves or on behalf of another party",
+        "label": "investment objective",
+        "explanatoryNote": "The combination of investment objectives and risk tolerance are typically used to identify appropriate investment options."
+    },
+    {
+        "id": "hasStrategy",
+        "type": "ObjectProperty",
+        "name": "hasStrategy",
+        "definition": "relates something to a plan or method for achieving a specific goal, objective, solution or outcome",
+        "label": "has strategy"
+    },
+    {
+        "id": "Goal",
+        "type": "Class",
+        "name": "Goal",
+        "definition": "desired result that a party envisions, plans, and to which it commits, in order to achieve a desired state",
+        "explanatoryNote": "Many people endeavor to reach goals within a finite time by setting deadlines.",
+        "label": "goal"
+    },
+    {
+        "id": "hasGoal",
+        "type": "ObjectProperty",
+        "name": "hasGoal",
+        "label": "has goal",
+        "definition": "relates something to a long-term, desired outcome"
+    },
+    {
+        "id": "hasObjective",
+        "type": "ObjectProperty",
+        "name": "hasObjective",
+        "definition": "relates something to a specific objective (result) that it aims to achieve within a time frame and with available resources",
+        "label": "has objective"
+    }
+]

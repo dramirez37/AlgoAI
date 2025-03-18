@@ -1,0 +1,204 @@
+[
+    {
+        "source_id": "Registrar",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Registrar",
+        "target_id": "Registrar",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "N0e3c3038b4a74782b09c7d9bb29b7340"
+            ]
+        }
+    },
+    {
+        "source_id": "Registry",
+        "target_id": "Record",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Registry",
+        "target_id": "RegistryEntry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRegistryEntry",
+                "RegistryEntry"
+            ]
+        }
+    },
+    {
+        "source_id": "Registry",
+        "target_id": "StructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegistrationAuthority",
+        "target_id": "RegistrationService",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "provides",
+                "RegistrationService"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistrationAuthority",
+        "target_id": "registers",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "registers"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistrationAuthority",
+        "target_id": "ServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegistrationAuthority",
+        "target_id": "Registry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "manages",
+                "Registry"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistryIdentifier",
+        "target_id": "RegistrationScheme",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "RegistrationScheme"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistryIdentifier",
+        "target_id": "Registry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRegisteredIn",
+                "Registry"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistryIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegistryEntry",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "RegistryIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistryEntry",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegistryEntry",
+        "target_id": "Registry",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isConstituentOf",
+                "Registry"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistrationCapacity",
+        "target_id": "LegalCapacity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegistrationScheme",
+        "target_id": "IdentificationScheme",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegistrationScheme",
+        "target_id": "RegistryIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "RegistryIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistrationService",
+        "target_id": "Service",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

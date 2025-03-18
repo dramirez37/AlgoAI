@@ -1,0 +1,104 @@
+[
+    {
+        "source_id": "TransactionPrincipal",
+        "target_id": "TransactionParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionPrincipal",
+        "target_id": "ContractPrincipal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionPrincipal",
+        "target_id": "TransactionCounterparty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "transactsWith",
+                "TransactionCounterparty"
+            ]
+        }
+    },
+    {
+        "source_id": "MarketTransaction",
+        "target_id": "TransactionCounterparty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCounterparty",
+                "TransactionCounterparty"
+            ]
+        }
+    },
+    {
+        "source_id": "MarketTransaction",
+        "target_id": "TransactionPrincipal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPrincipalParty",
+                "TransactionPrincipal"
+            ]
+        }
+    },
+    {
+        "source_id": "MarketTransaction",
+        "target_id": "EconomicTransaction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketTransaction",
+        "target_id": "MarketTransactionPaymentTerms",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "paymentTerms",
+                "MarketTransactionPaymentTerms"
+            ]
+        }
+    },
+    {
+        "source_id": "MarketTransactionPaymentTerms",
+        "target_id": "EconomicContractTermsSet",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionCounterparty",
+        "target_id": "Counterparty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionCounterparty",
+        "target_id": "TransactionParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketTransactionInvoicingTerms",
+        "target_id": "EconomicContractTermsSet",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

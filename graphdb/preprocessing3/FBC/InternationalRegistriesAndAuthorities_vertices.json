@@ -1,0 +1,185 @@
+[
+    {
+        "id": "MarketIdentifierCodeRegistryEntry",
+        "type": "Class",
+        "name": "MarketIdentifierCodeRegistryEntry",
+        "label": "market identifier code registry entry",
+        "definition": "entry in a market identifier code registry that conforms to ISO 10383",
+        "abbreviation": "MIC registry entry"
+    },
+    {
+        "id": "RegistryEntry",
+        "type": "Entity",
+        "name": "RegistryEntry"
+    },
+    {
+        "id": "BusinessIdentifierCodeDataRecord",
+        "type": "Class",
+        "name": "BusinessIdentifierCodeDataRecord",
+        "abbreviation": "BIC data record",
+        "definition": "entry in a registry that conforms to ISO 9362 for the management of BIC codes and related registration information",
+        "label": "business identifier code data record"
+    },
+    {
+        "id": "BusinessRegistryEntry",
+        "type": "Entity",
+        "name": "BusinessRegistryEntry"
+    },
+    {
+        "id": "SocietyForWorldwideInterbankFinancialTelecommunicationAddress",
+        "type": "ConventionalStreetAddress",
+        "name": "SocietyForWorldwideInterbankFinancialTelecommunicationAddress",
+        "definition": "corporate address for the Society for Worldwide Interbank Financial Telecommunication (SWIFT)",
+        "label": "Society for Worldwide Interbank Financial Telecommunication address"
+    },
+    {
+        "id": "L-HB7FFAZI0OMZ8PP8OE26-LEI",
+        "type": "NamedIndividual",
+        "name": "L-HB7FFAZI0OMZ8PP8OE26-LEI",
+        "label": "Society for Worldwide Interbank Financial Telecommunication (SWIFT) legal entity identifier",
+        "definition": "identifier and link to the official legal entity identifier registry entry for the Society for Worldwide Interbank Financial Telecommunication (SWIFT)"
+    },
+    {
+        "id": "GlobalLegalEntityIdentifierFoundationAddress",
+        "type": "NamedIndividual",
+        "name": "GlobalLegalEntityIdentifierFoundationAddress",
+        "label": "Global Legal Entity Identifier Foundation address",
+        "definition": "physical address of the Global Legal Entity Identifier Foundation (GLEIF)"
+    },
+    {
+        "id": "BankForInternationalSettlements",
+        "type": "NamedIndividual",
+        "name": "BankForInternationalSettlements",
+        "abbreviation": "BIS",
+        "definition": "international financial organization that serves central banks in their pursuit of monetary and financial stability, helping to foster international cooperation in those areas and acting as a bank for central banks",
+        "explanatoryNote": "Established in 1930, the BIS is owned by 63 central banks, representing countries from around the world that together account for about 95 percent of world GDP. Its head office is in Basel, Switzerland and it has two representative offices: in Hong Kong SAR and in Mexico City, as well as Innovation Hub Centres around the world.",
+        "label": "Bank f\u00fcr Internationalen Zahlungsausgleich"
+    },
+    {
+        "id": "BankForInternationalSettlementsDateEstablished",
+        "type": "NamedIndividual",
+        "name": "BankForInternationalSettlementsDateEstablished",
+        "definition": "date that Bank for International Settlements was established to offer financial services to BIS member central banks",
+        "label": "Bank for International Settlements date established"
+    },
+    {
+        "id": "SWIFTLegalEntityIdentifierRegistryEntry",
+        "type": "NamedIndividual",
+        "name": "SWIFTLegalEntityIdentifierRegistryEntry",
+        "definition": "Global LEI Index registry entry for the Society for Worldwide Interbank Financial Telecommunication (SWIFT)",
+        "label": "Society for Worldwide Interbank Financial Telecommunication (SWIFT) legal entity identifier registry entry"
+    },
+    {
+        "id": "MICRegistrationAuthority",
+        "type": "NamedIndividual",
+        "name": "MICRegistrationAuthority",
+        "label": "MIC registration authority",
+        "definition": "ISO 10383, Market Identifier Code (MIC) Registration Authority (RA) and financial service provider, appointed by the International Standards Organization (ISO), that is the official registration authority (RA) for ISO 10383, Codes for exchanges and market identification (MIC)",
+        "abbreviation": "MIC RA"
+    },
+    {
+        "id": "SocietyForWorldwideInterbankFinancialTelecommunication",
+        "type": "NotForProfitOrganization",
+        "name": "SocietyForWorldwideInterbankFinancialTelecommunication",
+        "definition": "Society for Worldwide Interbank Financial Telecommunication (SWIFT) legal entity, which is a global member-owned cooperative and the world's leading provider of secure financial messaging services",
+        "abbreviation": "SWIFT",
+        "label": "Society for Worldwide Interbank Financial Telecommunication"
+    },
+    {
+        "id": "BankForInternationalSettlementsAsBankingServicesProvider",
+        "type": "NamedIndividual",
+        "name": "BankForInternationalSettlementsAsBankingServicesProvider",
+        "definition": "Bank for International Settlements role as a banking services provider to central banks and other monetary authorities",
+        "explanatoryNote": "The Bank for International Settlements offers a wide range of financial services specifically designed to assist central banks and other official monetary institutions in the management of their foreign exchange reserves. BIS facilitates international financial cooperation and endeavors to make monetary policy more predictable and transparent. Its customers are central banks and international organizations; they do not accept deposits from, or provide financial services to, private individuals or corporate entities.",
+        "label": "Bank for International Settlements as banking services provider"
+    },
+    {
+        "id": "BusinessIdentifierCodeRegistrationAuthority",
+        "type": "BusinessRegistrationAuthority",
+        "name": "BusinessIdentifierCodeRegistrationAuthority",
+        "definition": "registration authority and financial service provider, appointed by the International Standards Organization (ISO), that is the official registration authority (RA) for ISO 9362, Banking - Banking telecommunication messages - Business identifier code (BIC)",
+        "label": "Business Identifier Code registration authority",
+        "abbreviation": "BIC registration authority"
+    },
+    {
+        "id": "BankForInternationalSettlementsAddress",
+        "type": "NamedIndividual",
+        "name": "BankForInternationalSettlementsAddress",
+        "label": "Bank for International Settlements address",
+        "definition": "Tower building address for the Bank for International Settlements (BIS)"
+    },
+    {
+        "id": "GlobalLEIIndex",
+        "type": "NamedIndividual",
+        "name": "GlobalLEIIndex",
+        "definition": "registry that contains historical and current LEI records including related reference data in one authoritative, central repository",
+        "explanatoryNote": "The reference data provides the information on a legal entity identifiable with an LEI. The Global LEI Index is the only global online source that provides open, standardized and high quality legal entity reference data.",
+        "label": "Global LEI Index"
+    },
+    {
+        "id": "BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry",
+        "type": "NamedIndividual",
+        "name": "BankForInternationalSettlementsLegalEntityIdentifierRegistryEntry",
+        "definition": "Global LEI Index registry entry for Bank for International Settlements (BIS)",
+        "label": "Bank for International Settlements legal entity identifier registry entry"
+    },
+    {
+        "id": "MarketIdentifierCodeRegistry",
+        "type": "Registry",
+        "name": "MarketIdentifierCodeRegistry",
+        "abbreviation": "MIC registry",
+        "label": "market identifier code registry",
+        "definition": "registry for registering and maintaining information for market identifier codes that conform to ISO 10383"
+    },
+    {
+        "id": "IBANRegistrationAuthority",
+        "type": "NamedIndividual",
+        "name": "IBANRegistrationAuthority",
+        "definition": "ISO 13616:2007, International Bank Account Number (IBAN) Registration Authority (RA) and financial service provider, appointed by the International Standards Organization (ISO), that is the official registration authority (RA) for ISO 13616:2007, Financial services - International bank account number (IBAN)",
+        "label": "IBAN registration authority"
+    },
+    {
+        "id": "GLEIFLegalEntityIdentifierRegistryEntry",
+        "type": "NamedIndividual",
+        "name": "GLEIFLegalEntityIdentifierRegistryEntry",
+        "label": "Global Legal Entity Identifier Foundation (GLEIF) legal entity identifier registry entry",
+        "definition": "Global LEI Index registry entry for Global Legal Entity Identifier Foundation (GLEIF)"
+    },
+    {
+        "id": "GlobalLegalEntityIdentifierFoundation",
+        "type": "NamedIndividual",
+        "name": "GlobalLegalEntityIdentifierFoundation",
+        "definition": "Global Legal Entity Identifier Foundation (GLEIF) legal entity, tasked to support the implementation and use of the Legal Entity Identifier (LEI)",
+        "abbreviation": "GLEIF",
+        "label": "Global Legal Entity Identifier Foundation"
+    },
+    {
+        "id": "BusinessIdentifierCodeRegistry",
+        "type": "NamedIndividual",
+        "name": "BusinessIdentifierCodeRegistry",
+        "label": "business identifier code registry",
+        "abbreviation": "BIC registry",
+        "definition": "registry for registering and maintaining information about bank and other business identifier codes that conform to ISO 9362"
+    },
+    {
+        "id": "LegalEntityIdentfierRegistrationAuthority",
+        "type": "NamedIndividual",
+        "name": "LegalEntityIdentfierRegistrationAuthority",
+        "label": "Legal Entity Identifier registration authority",
+        "definition": "registration authority appointed by the International Standards Organization (ISO) that is the official registration authority (RA) for ISO 17442, Financial services - Legal entity identifier (LEI)"
+    },
+    {
+        "id": "L-506700GE1G29325QX363-LEI",
+        "type": "NamedIndividual",
+        "name": "L-506700GE1G29325QX363-LEI",
+        "label": "Global Legal Entity Identifier Foundation legal entity identifier",
+        "definition": "identifier and link to the official legal entity identifier registry entry for the Global Legal Entity Identifier Foundation as published in the Global LEI Index"
+    },
+    {
+        "id": "L-UXIATLMNPCXXT5KR1S08-LEI",
+        "type": "NamedIndividual",
+        "name": "L-UXIATLMNPCXXT5KR1S08-LEI",
+        "definition": "identifier and link to the official legal entity identifier registry entry for the Bank for International Settlements",
+        "label": "Bank for International Settlements legal entity identifier"
+    }
+]

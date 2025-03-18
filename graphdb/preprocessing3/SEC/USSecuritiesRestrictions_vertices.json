@@ -1,0 +1,102 @@
+[
+    {
+        "id": "BlueSkyLaw",
+        "type": "Class",
+        "name": "BlueSkyLaw",
+        "definition": "state-level securities regulation, designed to protect investors against securities fraud that require issuers to be registered and to disclose details of their offerings",
+        "explanatoryNote": "This allows investors to base their judgments on trustworthy data.",
+        "label": "blue sky law"
+    },
+    {
+        "id": "SecuritiesRegulation",
+        "type": "Entity",
+        "name": "SecuritiesRegulation"
+    },
+    {
+        "id": "SECExemption3c7",
+        "type": "SecuritiesRegulation",
+        "name": "SECExemption3c7",
+        "label": "SEC Exemption 3(c)(7)",
+        "explanatoryNote": "Funds that meet the requirements of exemption 3(c)(7) are not required to register with the SEC or provide ongoing disclosure. They are also exempt from issuing a prospectus that would outline investment positions. To qualify for the exemption, a private investment company must demonstrate that it has no plans of making an initial public offering (IPO), and its investors must be qualified purchasers. Qualified purchasers include individuals or family-owned businesses with at least $5 million in investments, trusts managed by qualified purchasers, and entities solely owned by qualified purchasers.",
+        "definition": "securities regulation that is a provision under the Investment Company Act of 1940 that allows certain privately offered funds to operate without registering with the SEC"
+    },
+    {
+        "id": "Rule144A",
+        "type": "N11b6ea7a69e741f09f899e865c00e7ef",
+        "name": "Rule144A",
+        "label": "Rule 144A",
+        "explanatoryNote": "Rule 144 section A is a Securities & Exchange Commission rule that establishes specific criteria for determining whether a person is not engaged in a distribution and creates a safe harbor from the Section 2(a)(11) definition of 'underwriter'. It modifies holding period requirements on privately placed securities to permit qualified institutional buyers to trade these positions among themselves.",
+        "definition": "securities regulation that allows investors to resell privately placed securities to qualified institutional buyers (QIBs) under certain conditions"
+    },
+    {
+        "id": "RegulationS",
+        "type": "NamedIndividual",
+        "name": "RegulationS",
+        "label": "Regulation S",
+        "definition": "securities regulation defining an exemption through which corporations can issue unregistered securities to qualified foreign investors and foreign institutions",
+        "explanatoryNote": "Regulation S covers rules governing offers and sales made outside the United States without registration under the Securities Act of 1933. Created in 1990, this regulation was intended to encourage foreign investors to purchase American stocks in order to increase the liquidity of American markets."
+    },
+    {
+        "id": "isEmployeeRetirementIncomeSecurityActConformant",
+        "type": "DatatypeProperty",
+        "name": "isEmployeeRetirementIncomeSecurityActConformant",
+        "explanatoryNote": "The Employee Retirement Income Security Act (ERISA) is a federal law that establishes standards for certain employer-sponsored retirement and health plans. It has undergone several changes since its initial enactment in 1974. ERISA aims to protect individuals participating in these plans by prohibiting fiduciaries from misusing funds and setting standards for participation, benefit accrual, vesting, and funding of retirement plans",
+        "definition": "indicates whether the security conforms to the Employee Retirement Income Security Act (ERISA) of 1974, a federal outline for regulating employee benefit plans, including healthcare plans sponsored and/or insured by an employer",
+        "label": "is Employee Retirement Income Security Act conformant"
+    },
+    {
+        "id": "SECRule201",
+        "type": "SecuritiesRegulation",
+        "name": "SECRule201",
+        "explanatoryNote": "The Securities and Exchange Commission (SEC) short sale alternative uptick rule (Rule 201) requires the establishment of a short sale-related circuit breaker in the event a security's price decreases by ten percent or more from the previous day's closing price. Once activated, the short sale restriction will remain in effect for the remainder of the day as well as the following day. Values are A - 'Flag in Effect/Activated', C - 'Flag Continued' and N - 'Flag Not in Effect'. If not given the default is 'N - Flag Not in Effect'. When a stock is triggered, traders can only execute short sales of the stock above the National Best Bid (NBB) price.",
+        "label": "SEC Rule 201",
+        "definition": "securities regulation that is part of Regulation SHO that is a circuit breaker limiting short sales to prevent them from causing a security's price to drop further after a significant decline"
+    },
+    {
+        "id": "TEFRADRule",
+        "type": "SecuritiesRegulation",
+        "name": "TEFRADRule",
+        "definition": "securities regulation that is a U.S. Treasury Regulation section 1.163-5(c)(2)(i)(D), or any successor regulation, established under the Tax Equity and Fiscal Responsibility Act of 1982 (TEFRA), that relates to the classification of debt obligations as either 'bearer' or 'registered' for U.S. tax purposes, applies to most straightforward issues of bearer debt in the Euromarkets, and ensures that an issue of bearer debt satisfied 'reasonable arrangement' requirements",
+        "label": "TEFRA D rule",
+        "explanatoryNote": "TEFRA D provides for a restricted period of 40 days from the closing date of the issue and requires that certification of non-U.S. beneficial ownership be obtained before definitive securities can be issued or interest paid to security holders."
+    },
+    {
+        "id": "TEFRACRule",
+        "type": "NamedIndividual",
+        "name": "TEFRACRule",
+        "label": "TEFRA C rule",
+        "explanatoryNote": "TEFRA C is used only if all parties are comfortable that there is no intention to place any of the securities in the U.S. and that it is unlikely that there will be any interest in the U.S. in such securities.",
+        "definition": "securities regulation that is a U.S. Treasury Regulation section 1.163-5(c)(2)(i)(C), or any successor regulation, established under the Tax Equity and Fiscal Responsibility Act of 1982 (TEFRA), that relates to the classification of debt obligations as either 'bearer' or 'registered' for U.S. tax purposes and ensures that an issue of bearer debt satisfied 'reasonable arrangement' requirements"
+    },
+    {
+        "id": "isFederalDepositInsuranceCorporationInsured",
+        "type": "DatatypeProperty",
+        "name": "isFederalDepositInsuranceCorporationInsured",
+        "explanatoryNote": "FDIC coverage extends to Certificates of Deposit (CDs) and Money Market Accounts (MMAs) held at FDIC-insured institutions up to $250,000 per account.",
+        "label": "is Federal Deposit Insurance Corporation insured",
+        "definition": "indicates whether the security is covered by Federal Deposit Insurance Corporation (FDIC) insurance"
+    },
+    {
+        "id": "SECRule15c3-3",
+        "type": "SecuritiesRegulation",
+        "name": "SECRule15c3-3",
+        "definition": "securities regulation that applies to broker-dealers registered under section 15(b) of the Securities Exchange Act of 1934 (15 U.S.C. 78o(b)), or that are security-based swap dealers or major security-based swap participants under section 15F(b) of the Act (15 U.S.C. 78o-10(b)), requiring them to maintain reserve accounts to protect customer funds, segregate customer securities in custody accounts, and if a security sold long has not been delivered within 10 business days after the settlement date, requires them to either buy the customer in, or apply for and receive an extension from its designated examining authority",
+        "label": "SEC Rule 15c3-3"
+    },
+    {
+        "id": "RegulationD",
+        "type": "NamedIndividual",
+        "name": "RegulationD",
+        "label": "Regulation D",
+        "explanatoryNote": "Issuers must file what's known as a 'Form D' after they first sell their securities if they qualify for registration under Regulation D.",
+        "definition": "securities regulation defining an exemption through which corporations do not have to register their securities and usually do not have to file reports with the SEC"
+    },
+    {
+        "id": "isSubjectToFederalReserveBoardRegulationT",
+        "type": "DatatypeProperty",
+        "name": "isSubjectToFederalReserveBoardRegulationT",
+        "explanatoryNote": "Federal Reserve Board (FRB) Regulation T governs the extension of credit by securities brokers and dealers in the United States. Its best-known function is the control of margin requirements for stocks bought on margin. Regulation T gives an investor a maximum of four business days to pay for securities purchased in a cash or margin account. If payment due exceeds $1,000 and is not received by the end of this time period, the broker-dealer must either liquidate the position or apply for and receive an extensionfrom its designated examining authority, such as FINRA.",
+        "definition": "indicates whether a given cash or margin account is subject to Federal Reserve Board (FRB) margin requirements",
+        "label": "is subject to Federal Reserve Board Regulation T"
+    }
+]

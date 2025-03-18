@@ -1,0 +1,234 @@
+[
+    {
+        "source_id": "HistoricalPriceVolatility",
+        "target_id": "HistoricalVolatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HistoricalPriceVolatility",
+        "target_id": "PriceVolatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketSpread",
+        "target_id": "MarketRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasArgument",
+                "MarketRate"
+            ]
+        }
+    },
+    {
+        "source_id": "MarketSpread",
+        "target_id": "ScopedMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TermStructure",
+        "target_id": "MarketRate",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "MarketRate"
+            ]
+        }
+    },
+    {
+        "source_id": "TermStructure",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PriceStructure",
+        "target_id": "MonetaryPrice",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "MonetaryPrice"
+            ]
+        }
+    },
+    {
+        "source_id": "PriceStructure",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PriceVolatility",
+        "target_id": "PriceStructure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "PriceStructure"
+            ]
+        }
+    },
+    {
+        "source_id": "PriceVolatility",
+        "target_id": "Volatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketRate",
+        "target_id": "ScopedMeasure",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isValueOf",
+                "ScopedMeasure"
+            ]
+        }
+    },
+    {
+        "source_id": "MarketRate",
+        "target_id": "Ratio",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketRate",
+        "target_id": "hasQuotationDateTime",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasQuotationDateTime"
+            ]
+        }
+    },
+    {
+        "source_id": "Volatility",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasArgument",
+                "DatedStructuredCollection"
+            ]
+        }
+    },
+    {
+        "source_id": "Volatility",
+        "target_id": "Dispersion",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EndOfDayMarketRate",
+        "target_id": "hasQuotationDateTime",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasQuotationDateTime"
+            ]
+        }
+    },
+    {
+        "source_id": "EndOfDayMarketRate",
+        "target_id": "MarketRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QuotedPrice",
+        "target_id": "MonetaryPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QuotedPrice",
+        "target_id": "hasQuotationDateTime",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasQuotationDateTime"
+            ]
+        }
+    },
+    {
+        "source_id": "ImpliedPriceVolatility",
+        "target_id": "ImpliedVolatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ImpliedPriceVolatility",
+        "target_id": "PriceVolatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DailyAverageMarketRate",
+        "target_id": "hasQuotationDateTime",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasQuotationDateTime"
+            ]
+        }
+    },
+    {
+        "source_id": "DailyAverageMarketRate",
+        "target_id": "MarketRate",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ImpliedVolatility",
+        "target_id": "Volatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HistoricalVolatility",
+        "target_id": "Volatility",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

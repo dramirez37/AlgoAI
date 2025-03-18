@@ -1,0 +1,201 @@
+[
+    {
+        "id": "IndexCertificate",
+        "type": "Class",
+        "name": "IndexCertificate",
+        "explanatoryNote": "If the underlying share increases in value, the value of the certificate increases in analog to the gain; with every setback, the certificate value declines accordingly.",
+        "definition": "certificate whose underlying asset is an index",
+        "label": "index certificate"
+    },
+    {
+        "id": "ParticipationCertificate",
+        "type": "Class",
+        "name": "ParticipationCertificate",
+        "explanatoryNote": "In many cases, certificates do not give the investor the right to receive dividend distributions from the underlying stocks or other assets. For example: You buy a bonus certificate issued by your bank which is based on a stock that pays annual dividends. During the certificate's term, the bank holds the underlying stock and receives the dividends. At the end of the term, the bank pays the predefined bonus, even though the actual price of the stock is lower (but not below the protection threshold).Depending on the type of certificate, the exact terms and conditions, and the contract's expiry date, it is possible that the investor may receive the underlying asset instead of money at the end of the investment term. That is often the case with discount certificates based on stocks, for example, when their price sits below the predetermined cap. If the certificate's issuer becomes insolvent, the assets which underly the certificate are considered part of the issuer's liquid assets. This is in contrast to owning actual securities or shares in investment funds, as these are segregated assets which remain the property of the investor if the broker or custodian bank fails.",
+        "label": "participation certificate",
+        "definition": "participation product that provides the possibility to participate in the gains or losses in the price of an asset, subject to counterparty risk"
+    },
+    {
+        "id": "DiscountCertificate",
+        "type": "Class",
+        "name": "DiscountCertificate",
+        "explanatoryNote": "Discount certificates are ideal for conservative investors that want to guard against market fluctuations and who expect in the medium term sideways-moving prices. Because the buyer of a discount certificate does not profit from price gains that are higher than the cap, this form of investment is best suited for a medium-term oriented engagement. If the certificate reaches its cap before the maturity, the investor should take the profits.",
+        "label": "discount certificate",
+        "definition": "participation certificate that enables the investor to acquire the underlying asset at a lower price in return for a limited payout, and for which the underlying asset(s) and/or a cash amount is redeemed should the underlying asset close below the strike on expiry, for which, in return, the potential profit is capped"
+    },
+    {
+        "id": "StructuredFinanceWithoutPrincipalProtection",
+        "type": "Entity",
+        "name": "StructuredFinanceWithoutPrincipalProtection"
+    },
+    {
+        "id": "PrincipalProtectedNote",
+        "type": "Class",
+        "name": "PrincipalProtectedNote"
+    },
+    {
+        "id": "CapitalProtectedProduct",
+        "type": "Class",
+        "name": "CapitalProtectedProduct",
+        "definition": "structured product that participates in the performance of a financial asset, such as a stock, fund or index, while protecting the investor's capital",
+        "label": "capital-protected product",
+        "abbreviation": "CPI",
+        "explanatoryNote": "Depending on the product, they may participate to varying degrees in the underlying asset's upside and protect the capital either entirely or partially."
+    },
+    {
+        "id": "CapitalProtectionCertificateWithParticipation",
+        "type": "Class",
+        "name": "CapitalProtectionCertificateWithParticipation",
+        "label": "capital protection certificate with participation",
+        "definition": "capital-protected product whose protection is defined as a percentage of the nominal amount (e.g. 100 percent), with minimum redemption at expiry equivalent to the capital protection"
+    },
+    {
+        "id": "YieldEnhancementProduct",
+        "type": "Class",
+        "name": "YieldEnhancementProduct",
+        "definition": "structured product that provides a predefined yield in return for a downside risk",
+        "label": "yield-enhancement product"
+    },
+    {
+        "id": "StructuredProduct",
+        "type": "Class",
+        "name": "StructuredProduct",
+        "label": "structured product",
+        "definition": "security whose cash flow characteristics depend upon one or more indices or that have embedded forwards or options or securities where an investor's investment return and the issuer's payment obligations are contingent on, or highly sensitive to, changes in the value of underlying assets, indices, interest rates or cash flows",
+        "explanatoryNote": "A structured product is a pre-packaged structured finance investment strategy based on a single security, a basket of securities, options, indices, commodities, debt issuance or foreign currencies, and to a lesser extent, derivatives. Structured products are not homogeneous - there are numerous varieties of derivatives and underlying assets - but they can be classified under the aside categories. Typically, a desk will employ a specialized 'structurer' to design and manage its structured-product offering."
+    },
+    {
+        "id": "BonusCertificate",
+        "type": "Class",
+        "name": "BonusCertificate",
+        "definition": "certificate whose minimum redemption is equal to the nominal value provided the barrier has not been breached, with a greater risk in relation to multiple underlying asset(s) (worst-of), allowing for a higher bonus level or lower barrier, and with a reduced risk compared to a direct investment into the underlying asset(s)",
+        "explanatoryNote": "Bonus certificates have a risk buffer for price losses in the underlying; the bonus guarantees a minimum return above the risk level. A bonus certificate represents an alternative to a direct investment in a share or an index. Investors primarily use them if they believe that despite rising prices setbacks are still likely to occur.\n\t\t\nA bonus certificate is furnished with a bonus amount and an upper and lower price level. If the certificate expires with the price of the underlying ranging between these two levels, owners are paid out their bonuses. If the underlying was at or below the risk level during the certificate's lifetime, its price is that of the current value of the certificate at expiry. If the underlying is above the upper level at expiry, the investor fully participates in the price gains. Some bonus certificates have a profit cap. This is where the certificate stops participating in the price gains of the underlying.\n\nA bonus certificate is issued at the current price of the underlying. The upper level is derived from adding the bonus to the issue price. The lower level is determined at issuance and usually expressed in percent.",
+        "label": "bonus certificate"
+    },
+    {
+        "id": "TrackerCertificate",
+        "type": "Class",
+        "name": "TrackerCertificate",
+        "explanatoryNote": "Tracker certificates can also be used to profit off negative price developments. This is the case with so-called bear tracker certificates which take a short position on the underlying asset. Note that tracker certificates do not normally pay out dividends. If one holds a certificate which tracks the stock of a company which pay dividends, they will not receive them. However, they may receive some form of compensation from the certificate\u2019s issuer in some cases.",
+        "definition": "certificate that reflects underlying price moves 1:1 (adjusted by conversion ratio and any related fees), in which the associated risk is comparable to direct investment in the underlying asset(s)",
+        "label": "tracker certificate"
+    },
+    {
+        "id": "BarrierDiscountCertificate",
+        "type": "Class",
+        "name": "BarrierDiscountCertificate",
+        "definition": "participation certificate that enables the investor to acquire the underlying asset at a lower price in return for a limited payout, and for which the maximum redemption amount (Cap) is paid out if the barrier is never breached",
+        "label": "barrier discount certificate"
+    },
+    {
+        "id": "CapitalProtectionConvertibleCertificate",
+        "type": "Class",
+        "name": "CapitalProtectionConvertibleCertificate",
+        "definition": "capital-protected product whose protection is defined as a percentage of the nominal price (e.g. 100 percent), with minimum redemption at expiry equivalent to the capital protection",
+        "label": "capital protection convertible certificate"
+    },
+    {
+        "id": "OutperformanceBonusCertificate",
+        "type": "Class",
+        "name": "OutperformanceBonusCertificate",
+        "definition": "certificate that allows disproportionate participation (outperformance) in positive performance above the strike, in which the minimum redemption is equal to the nominal value provided the barrier has not been breached, with greater risk multiple underlying asset(s) (worst-of) allow for a higher bonus level or lower barrier, and reduced risk compared to a direct investment into the underlying asset(s)",
+        "label": "outperformance bonus certificate",
+        "explanatoryNote": "The outperformance bonus certificate combines the strengths of both outperformance and normal bonus certificates. This means that you\u2019re protected on the downside by a bonus level (i.e., a feature of bonus certificates) but nevertheless have the opportunity to participate disproportionately in upside gains in the underlying instrument (the 'outperformance certificate' dimension). If you compare all three structured product types with each other, you\u2019ll see that outperformance bonus certificates come up a bit short in terms of the characteristics of the other two forms. In other words, the disproportionate participation rate (outperformance) is usually somewhat lower than with a 'plain vanilla' outperformance certificate. This is because additional bonus protection has to be bought in order to structure the product properly. The same applies to the bonus dimension: because such a certificate still affords disproportionate participation, its downside protection level is more modest."
+    },
+    {
+        "id": "OutperformanceCertificate",
+        "type": "Class",
+        "name": "OutperformanceCertificate",
+        "label": "outperformance certificate",
+        "definition": "certificate that allows disproportionate participation (outperformance) in positive performance above the strike, reflecting underlying price moves 1:1 (adjusted by the conversion ratio and any related fees), and whose risk is comparable to direct investment in the underlying asset(s)"
+    },
+    {
+        "id": "ReverseConvertibleCertificate",
+        "type": "Class",
+        "name": "ReverseConvertibleCertificate",
+        "definition": "participation certificate whose payout is conditional: should the underlying asset close below the strike on expiry, the underlying asset(s) and/ or a cash amount is redeemed; should the underlying asset close above the strike at expiry, the nominal amount plus the coupon is paid at redemption",
+        "label": "reverse convertible certificate"
+    },
+    {
+        "id": "DerivativeInstrument",
+        "type": "Entity",
+        "name": "DerivativeInstrument"
+    },
+    {
+        "id": "StructuredFinanceInstrument",
+        "type": "Class",
+        "name": "StructuredFinanceInstrument"
+    },
+    {
+        "id": "ParticipationInstrument",
+        "type": "Class",
+        "name": "ParticipationInstrument",
+        "label": "participation instrument",
+        "explanatoryNote": "The construction is generally based on a low exercise price option (LEPO) (base value less discounted future dividends) which in some cases might be comparable to a direct investment in the underlying asset(s) or a LEPO combined with other options, which together provide the desired disbursement profile.",
+        "definition": "structured product that provides the possibility to participate in the performance of an asset or basket of assets"
+    },
+    {
+        "id": "ExpressCertificate",
+        "type": "Class",
+        "name": "ExpressCertificate",
+        "label": "express certificate",
+        "definition": "participation certificate whose payout is conditional: should the underlying trade above the strike on the observation date, an early redemption consisting of nominal price plus an additional coupon amount is paid"
+    },
+    {
+        "id": "BarrierCapitalProtectionCertificate",
+        "type": "Class",
+        "name": "BarrierCapitalProtectionCertificate",
+        "label": "barrier capital protection certificate",
+        "definition": "capital-protected product whose protection is defined as a percentage of the nominal price (e.g. 100 percent), with minimum redemption at expiry equivalent to the capital protection"
+    },
+    {
+        "id": "BarrierReverseConvertibleCertificate",
+        "type": "Class",
+        "name": "BarrierReverseConvertibleCertificate",
+        "label": "barrier reverse convertible certificate",
+        "definition": "participation certificate whose payout is conditional: should the barrier never be breached, the nominal price plus coupon is paid at redemption; if the barrier is breached the product changes into a reverse convertible"
+    },
+    {
+        "id": "TwinWinCertificate",
+        "type": "Class",
+        "name": "TwinWinCertificate",
+        "definition": "certificate that makes profits possible with rising and falling underlying asset values, in which a falling underlying asset price converts into profit up to the barrier, and whose minimum redemption is equal to the nominal value provided the barrier has not been breached",
+        "explanatoryNote": "Twin-win certificates are suited to investors who are convinced that the underlying instrument has a good chance of going up. If it in fact does, the built-in leverage of the product enables you to participate not just 1:1 in that upside move (as would be the case with a normal tracker certificate), but instead at a disproportionate rate and with no price limitation.",
+        "label": "twin-win certificate"
+    },
+    {
+        "id": "SecurityBasedDerivative",
+        "type": "Entity",
+        "name": "SecurityBasedDerivative"
+    },
+    {
+        "id": "TurboCertificate",
+        "type": "Class",
+        "name": "TurboCertificate",
+        "definition": "certificate that acts as a leveraged security, whose price tracks an underlying financial asset's price one for one, and that can be used to go long or short",
+        "explanatoryNote": "There are two types of turbos: long turbos, sometimes known as bull turbos, and short turbos, also known as bear turbos. You'd buy a long turbo if you thought the price of the underlying asset was set to rise. With a long turbo, the knock-out level will be below the underlying asset's current market price to protect you against downward movements. Alternatively, you'd buy a short turbo if you thought the price of the underlying asset might fall. A short turbo will have a knock-out level which is above the underlying asset's current market price to protect you against upward movements.",
+        "label": "turbo certificate"
+    },
+    {
+        "id": "CapitalProtectionCertificateWithCoupons",
+        "type": "Class",
+        "name": "CapitalProtectionCertificateWithCoupons",
+        "label": "capital protection certificate with coupons",
+        "definition": "capital-protected product whose protection is defined as a percentage of the nominal price (e.g. 100 percent), with minimum redemption at expiry equivalent to the capital protection"
+    },
+    {
+        "id": "BasketCertificate",
+        "type": "Class",
+        "name": "BasketCertificate",
+        "definition": "certificate whose underlying asset represents a fraction of a basket of securities that corresponds to the subscription ratio",
+        "explanatoryNote": "Basket certificates make sense if an investor is convinced of the potential in a particular sector or region, but shies away from the risk of investing in individual securities. Because the certificate is expected to achieve higher profits than the benchmark index, the share basket usually contains fewer titles than the benchmark index. That increases the potential for profits; but the risk of loss increases compared to the index. Unlike shares, basket certificates are not eligible for dividend payouts. The limited maturity should also be taken into account.",
+        "label": "basket certificate"
+    },
+    {
+        "id": "LeveragedProduct",
+        "type": "Class",
+        "name": "LeveragedProduct",
+        "label": "leveraged product",
+        "definition": "structured product that provides a further enhanced yield (over and above that of a yield-enhancement product), often without any limit to the upside participation, and frequently with a stop-loss in order to limit potential capital losses"
+    }
+]

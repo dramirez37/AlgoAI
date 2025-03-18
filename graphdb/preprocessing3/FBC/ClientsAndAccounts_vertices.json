@@ -1,0 +1,608 @@
+[
+    {
+        "id": "TimeDepositOpenAccount",
+        "type": "Class",
+        "name": "TimeDepositOpenAccount",
+        "label": "time deposit open account",
+        "definition": "time deposit account that allows deposits (other than time certificates of deposit) for which there is in force a written contract with the depositor that neither the whole nor any part of such deposit may be withdrawn prior to (1) the date of maturity, which shall be not less than seven days after the date of the deposit, or (2) the expiration of a specified period of written notice of not less than seven days"
+    },
+    {
+        "id": "TimeDepositAccount",
+        "type": "Class",
+        "name": "TimeDepositAccount",
+        "definition": "deposit account that the depositor does not have a right, and is not permitted, to make withdrawals from within six days after the date of deposit unless the deposit is subject to an early withdrawal penalty of at least seven days' simple interest on amounts withdrawn within the first six days after deposit",
+        "label": "time deposit account",
+        "explanatoryNote": "A time deposit from which partial early withdrawals are permitted must impose additional early withdrawal penalties of at least seven days' simple interest on amounts withdrawn within six days after each partial withdrawal. If such additional early withdrawal penalties are not imposed, the account ceases to be a time deposit. The account may become a savings deposit if it meets the requirements for a savings deposit; otherwise it becomes a demand deposit."
+    },
+    {
+        "id": "AccountAsAnAsset",
+        "type": "Class",
+        "name": "AccountAsAnAsset",
+        "definition": "financial asset in the form of an account",
+        "label": "account as an asset"
+    },
+    {
+        "id": "FinancialAsset",
+        "type": "Entity",
+        "name": "FinancialAsset"
+    },
+    {
+        "id": "AccountIdentifier",
+        "type": "Class",
+        "name": "AccountIdentifier",
+        "label": "account identifier",
+        "definition": "identifier that denotes an account"
+    },
+    {
+        "id": "RegistryIdentifier",
+        "type": "Entity",
+        "name": "RegistryIdentifier"
+    },
+    {
+        "id": "CertificateOfDeposit",
+        "type": "Class",
+        "name": "CertificateOfDeposit",
+        "abbreviation": "CD",
+        "definition": "cash instrument associated with a time deposit account that cannot be withdrawn for a certain period of time (term)",
+        "label": "certificate of deposit",
+        "explanatoryNote": "When the term is over it can be withdrawn or it can be held for another term. The longer the term the better the yield on the money."
+    },
+    {
+        "id": "CashInstrument",
+        "type": "Entity",
+        "name": "CashInstrument"
+    },
+    {
+        "id": "TransactionRecord",
+        "type": "Class",
+        "name": "TransactionRecord",
+        "label": "transaction record",
+        "definition": "record of transactions associated with an account"
+    },
+    {
+        "id": "DatedStructuredCollection",
+        "type": "Entity",
+        "name": "DatedStructuredCollection"
+    },
+    {
+        "id": "Record",
+        "type": "Entity",
+        "name": "Record"
+    },
+    {
+        "id": "Registry",
+        "type": "Entity",
+        "name": "Registry"
+    },
+    {
+        "id": "Account",
+        "type": "Class",
+        "name": "Account",
+        "explanatoryNote": "In general, an account is associated with a contractual relationship between a buyer and seller under which payment may be made at a later time. General ledger accounts are an exception to this, however, and typically do not have account holders, including internal account holders. They may, on the other hand, have responsible parties.",
+        "definition": "container for records associated with a business arrangement for regular transactions and services",
+        "label": "account"
+    },
+    {
+        "id": "IndividualTransaction",
+        "type": "Class",
+        "name": "IndividualTransaction",
+        "label": "individual transaction",
+        "definition": "event that has a monetary impact and is documented in the records associated with an account"
+    },
+    {
+        "id": "DatedCollectionConstituent",
+        "type": "Entity",
+        "name": "DatedCollectionConstituent"
+    },
+    {
+        "id": "Occurrence",
+        "type": "Entity",
+        "name": "Occurrence"
+    },
+    {
+        "id": "RegistryEntry",
+        "type": "Entity",
+        "name": "RegistryEntry"
+    },
+    {
+        "id": "DemandDepositAccount",
+        "type": "Class",
+        "name": "DemandDepositAccount",
+        "abbreviation": "DDA",
+        "explanatoryNote": "Demand deposits include any matured time deposits without automatic renewal provisions, unless the deposit agreement provides for the funds to be transferred at maturity to another type of account. Demand deposits do not include: (i) money market deposit accounts (MMDAs) or (ii) NOW accounts.",
+        "definition": "non-interest-bearing deposit account in which deposits are payable immediately on demand, or that are issued with an original maturity or required notice period of less than seven days, or that represent funds for which the depository institution does not reserve the right to require at least seven days' written notice of an intended withdrawal",
+        "label": "demand deposit account"
+    },
+    {
+        "id": "TransactionDepositAccount",
+        "type": "Class",
+        "name": "TransactionDepositAccount",
+        "definition": "deposit account from which the depositor / account holder is permitted to make transfers or withdrawals by negotiable / transferable instruments, payment orders of withdrawal, telephone transfers, and so forth, and that may be accessible via an electronic device such as an automated teller machine (ATM), remote service unit (RSU), mobile device, and by debit card",
+        "explanatoryNote": "Excluded from transaction accounts are savings deposits (both money market deposit accounts (MMDAs) and other savings deposits), even though such deposits permit some third-party transfers. However, an account that otherwise meets the definition of a savings deposit but that authorizes or permits the depositor to exceed the transfer limitations specified for that account shall be reported as a transaction account.",
+        "label": "transaction deposit account"
+    },
+    {
+        "id": "AccountOwnership",
+        "type": "Class",
+        "name": "AccountOwnership",
+        "label": "account ownership",
+        "definition": "holding of an account"
+    },
+    {
+        "id": "Holding",
+        "type": "Entity",
+        "name": "Holding"
+    },
+    {
+        "id": "TimeCertificateOfDepositAccount",
+        "type": "Class",
+        "name": "TimeCertificateOfDepositAccount",
+        "abbreviation": "CDA",
+        "label": "time certificate of deposit account",
+        "definition": "time deposit account that allows deposits evidenced by a negotiable or nonnegotiable instrument, or a deposit in book entry form evidenced by a receipt or similar acknowledgement issued by the bank, that provides, on its face, that the amount of such deposit is payable to the bearer, to any specified person, or to the order of a specified person, as follows: (1) on a certain date not less than seven days after the date of deposit, (2) at the expiration of a specified period not less than seven days after the date of the deposit, or (3) upon written notice to the bank which is to be given not less than seven days before the date of withdrawal."
+    },
+    {
+        "id": "CloseDate",
+        "type": "Class",
+        "name": "CloseDate",
+        "label": "close date",
+        "definition": "date on which something was closed"
+    },
+    {
+        "id": "ExplicitDate",
+        "type": "Entity",
+        "name": "ExplicitDate"
+    },
+    {
+        "id": "AccountSpecificServiceAgreement",
+        "type": "Class",
+        "name": "AccountSpecificServiceAgreement",
+        "explanatoryNote": "Customers of financial service providers frequently hold multiple accounts - brokerage accounts, checking and savings accounts, trust accounts, and so forth - which may have specific terms and conditions associated with them.",
+        "label": "account-specific service agreement",
+        "definition": "service-agreement that is account-specific, applicable in cases where a client might hold multiple accounts with differing terms and conditions"
+    },
+    {
+        "id": "ServiceAgreement",
+        "type": "Entity",
+        "name": "ServiceAgreement"
+    },
+    {
+        "id": "InvestmentAccount",
+        "type": "Class",
+        "name": "InvestmentAccount",
+        "definition": "account that provides a record of deposits of funds and/or securities held at a financial institution",
+        "explanatoryNote": "The typical objectives of an investment account are to achieve long term growth, income or capital preservation from the deposited asset portfolio. Investment accounts are typically not insured.",
+        "label": "investment account"
+    },
+    {
+        "id": "InvestmentOrDepositAccount",
+        "type": "Class",
+        "name": "InvestmentOrDepositAccount",
+        "label": "investment or deposit account",
+        "explanatoryNote": "The account holder may or may not be entitled to consideration in exchange for providing such funds, for example, interest, depending on the type of account and the terms and conditions associated with it. Also, there may be fees associated with management services provided by the account provider. Note too that this may be an internal account held on behalf of an institution or a customer account.",
+        "definition": "account associated with a product or service that requires the account holder to provide funds for management by the account provider"
+    },
+    {
+        "id": "AccountStatement",
+        "type": "Class",
+        "name": "AccountStatement",
+        "label": "account statement",
+        "definition": "periodic summary of account activity for a given period of time",
+        "explanatoryNote": "Common kinds of account statements include checking account statements, usually provided monthly, and brokerage account statements, which are provided monthly or quarterly, depending on the terms of the account agreement. Monthly credit card bills are also considered account statements."
+    },
+    {
+        "id": "LegalDocument",
+        "type": "Entity",
+        "name": "LegalDocument"
+    },
+    {
+        "id": "CustomerAccount",
+        "type": "Class",
+        "name": "CustomerAccount",
+        "definition": "account that represents an identified, named collection of balances and cumulative totals used to summarize customer transaction-related activity over a designated period of time",
+        "label": "customer account"
+    },
+    {
+        "id": "TransactionDate",
+        "type": "Class",
+        "name": "TransactionDate",
+        "label": "transaction date",
+        "definition": "date on which a specific transaction was initiated"
+    },
+    {
+        "id": "DepositAccount",
+        "type": "Class",
+        "name": "DepositAccount",
+        "explanatoryNote": "The account holder has the right to withdraw deposited funds, as set forth in the terms and conditions governing the account agreement. Deposit accounts may be insured up to a certain amount, depending on the jurisdiction.",
+        "label": "deposit account",
+        "definition": "account that provides a record of money placed with a depository institution for safekeeping and management"
+    },
+    {
+        "id": "BankingProduct",
+        "type": "Entity",
+        "name": "BankingProduct"
+    },
+    {
+        "id": "TransactionSubcategory",
+        "type": "Class",
+        "name": "TransactionSubcategory",
+        "definition": "second-level classifier for a transaction, e.g., direct deposit, check, cash advance, withdrawal, payment, purchase, and so forth",
+        "label": "transaction subcategory"
+    },
+    {
+        "id": "Classifier",
+        "type": "Entity",
+        "name": "Classifier"
+    },
+    {
+        "id": "CodeElement",
+        "type": "Entity",
+        "name": "CodeElement"
+    },
+    {
+        "id": "Balance",
+        "type": "Class",
+        "name": "Balance",
+        "explanatoryNote": "The balance is the net amount after factoring in all debits and credits, including service charges and fees.",
+        "definition": "amount of money available or owed",
+        "label": "balance"
+    },
+    {
+        "id": "MonetaryAmount",
+        "type": "Entity",
+        "name": "MonetaryAmount"
+    },
+    {
+        "id": "AccountHolder",
+        "type": "Class",
+        "name": "AccountHolder",
+        "label": "account holder",
+        "explanatoryNote": "Note that this concept of account holder applies to internal accounts that are non-general ledger accounts also have account holders, such as payroll accounts, internal checking accounts associated with cashier's checks, and so forth.",
+        "definition": "party that owns an account"
+    },
+    {
+        "id": "Owner",
+        "type": "Entity",
+        "name": "Owner"
+    },
+    {
+        "id": "CustomerAccountHolder",
+        "type": "Class",
+        "name": "CustomerAccountHolder",
+        "definition": "party that owns a customer account",
+        "label": "customer account holder"
+    },
+    {
+        "id": "InternationalBankAccountIdentifier",
+        "type": "Class",
+        "name": "InternationalBankAccountIdentifier",
+        "abbreviation": "IBAN",
+        "explanatoryNote": "Note that international bank account numbers are formatted uniquely by country. A description of the country-specific formats is available from SWIFT ( which is the ISO registrar for ISO 13616.",
+        "definition": "identifier for a bank account that is an expanded version of the basic bank account number (BBAN), intended for use internationally",
+        "label": "international bank account identifier"
+    },
+    {
+        "id": "StructuredIdentifier",
+        "type": "Entity",
+        "name": "StructuredIdentifier"
+    },
+    {
+        "id": "BankAccountIdentifier",
+        "type": "Class",
+        "name": "BankAccountIdentifier",
+        "label": "bank account identifier",
+        "definition": "identifier that identifies a demand deposit account provided by a bank"
+    },
+    {
+        "id": "BrokerageAccount",
+        "type": "Class",
+        "name": "BrokerageAccount",
+        "definition": "account offered by a broker that allows the investor to deposit funds and place investment orders",
+        "explanatoryNote": "The investor owns the assets contained in the brokerage account and must usually claim as income any capital gains incurred.",
+        "label": "brokerage account"
+    },
+    {
+        "id": "GeneralLedger",
+        "type": "Class",
+        "name": "GeneralLedger",
+        "label": "general ledger",
+        "definition": "accounting record summarizing changes in position as transactions are posted during an accounting period"
+    },
+    {
+        "id": "TransactionCategory",
+        "type": "Class",
+        "name": "TransactionCategory",
+        "label": "transaction category",
+        "definition": "high-level classifier for an individual transaction"
+    },
+    {
+        "id": "ContractualProduct",
+        "type": "Class",
+        "name": "ContractualProduct"
+    },
+    {
+        "id": "LendingOfficer",
+        "type": "Class",
+        "name": "LendingOfficer",
+        "definition": "corporate officer that has overarching responsibility for the relationship with a specific borrower or account",
+        "label": "lending officer"
+    },
+    {
+        "id": "RelationshipManager",
+        "type": "Class",
+        "name": "RelationshipManager",
+        "label": "relationship manager",
+        "definition": "responsible party who manages a client's account and oversees their relationship with the service provider"
+    },
+    {
+        "id": "CorporateOfficer",
+        "type": "Entity",
+        "name": "CorporateOfficer"
+    },
+    {
+        "id": "TransactionIdentifier",
+        "type": "Class",
+        "name": "TransactionIdentifier",
+        "label": "transaction identifier",
+        "definition": "identifier for an individual transaction associated with an account"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "CreditAgreement",
+        "type": "Class",
+        "name": "CreditAgreement"
+    },
+    {
+        "id": "NonTransactionDepositAccount",
+        "type": "Class",
+        "name": "NonTransactionDepositAccount",
+        "label": "non-transaction deposit account",
+        "explanatoryNote": "Non-transaction accounts include: (a) savings deposits ((i) money market deposit accounts (MMDAs) and (ii) other savings deposits) and (b) time deposits ((i) time certificates of deposit and (ii) time deposits, open account).",
+        "definition": "any deposit account that is not explicitly considered a transaction account"
+    },
+    {
+        "id": "AccountProvider",
+        "type": "Class",
+        "name": "AccountProvider",
+        "definition": "party that provides and services an account",
+        "label": "account provider"
+    },
+    {
+        "id": "ServiceProvider",
+        "type": "Entity",
+        "name": "ServiceProvider"
+    },
+    {
+        "id": "BankIdentifier",
+        "type": "Class",
+        "name": "BankIdentifier",
+        "definition": "identifier that uniquely identifies the financial institution and, when appropriate, the branch of that financial institution servicing an account",
+        "label": "bank identifier"
+    },
+    {
+        "id": "FinancialServiceProviderIdentifier",
+        "type": "Entity",
+        "name": "FinancialServiceProviderIdentifier"
+    },
+    {
+        "id": "TransactionRecordIdentifier",
+        "type": "Class",
+        "name": "TransactionRecordIdentifier",
+        "definition": "unique identifier for record of transactions",
+        "label": "transaction record identifier"
+    },
+    {
+        "id": "CommercialLendingService",
+        "type": "Class",
+        "name": "CommercialLendingService",
+        "definition": "service involving the extension of credit to support business activities",
+        "label": "commercial lending service"
+    },
+    {
+        "id": "FinancialService",
+        "type": "Entity",
+        "name": "FinancialService"
+    },
+    {
+        "id": "BasicBankAccountIdentifier",
+        "type": "Class",
+        "name": "BasicBankAccountIdentifier",
+        "label": "basic bank account identifier",
+        "abbreviation": "BBAN",
+        "definition": "identifier that uniquely identifies an individual account at a specific financial institution in a particular country and which includes a bank identifier of the financial institution servicing that account"
+    },
+    {
+        "id": "ResponsibleParty",
+        "type": "Entity",
+        "name": "ResponsibleParty"
+    },
+    {
+        "id": "Fee",
+        "type": "Class",
+        "name": "Fee",
+        "definition": "charge for services performed",
+        "label": "fee"
+    },
+    {
+        "id": "AccountingTransaction",
+        "type": "Class",
+        "name": "AccountingTransaction",
+        "label": "accounting transaction",
+        "definition": "event recognized by an entry in the records of an account"
+    },
+    {
+        "id": "TransactionEvent",
+        "type": "Entity",
+        "name": "TransactionEvent"
+    },
+    {
+        "id": "LoanOrCreditAccount",
+        "type": "Class",
+        "name": "LoanOrCreditAccount",
+        "label": "loan or credit account",
+        "explanatoryNote": "Note that this may be an internal account held on behalf of an institution or a customer account, such as a line of credit account associated with an internal line of business.",
+        "definition": "account associated with a service in which the account holder receives funds from the account provider under certain terms and conditions for repayment"
+    },
+    {
+        "id": "PaymentDueDate",
+        "type": "Class",
+        "name": "PaymentDueDate",
+        "definition": "date by which payment of the current outstanding balance, part thereof, or a minimum amount due must be made to the creditor",
+        "label": "payment due date"
+    },
+    {
+        "id": "Bank",
+        "type": "Class",
+        "name": "Bank"
+    },
+    {
+        "id": "LedgerAccount",
+        "type": "Class",
+        "name": "LedgerAccount",
+        "definition": "account recorded in a general ledger",
+        "label": "ledger account"
+    },
+    {
+        "id": "PostingDate",
+        "type": "Class",
+        "name": "PostingDate",
+        "label": "posting date",
+        "definition": "date that determines in which posting period a document or journal entry is added to an account record"
+    },
+    {
+        "id": "DepositoryInstitution",
+        "type": "Class",
+        "name": "DepositoryInstitution"
+    },
+    {
+        "id": "OpenDate",
+        "type": "Class",
+        "name": "OpenDate",
+        "definition": "date on which something was created",
+        "label": "open date"
+    },
+    {
+        "id": "hasTransactionRecordStatus",
+        "type": "DatatypeProperty",
+        "name": "hasTransactionRecordStatus",
+        "definition": "indicates the status of the transaction record",
+        "label": "has transaction record status"
+    },
+    {
+        "id": "involvesMerchant",
+        "type": "ObjectProperty",
+        "name": "involvesMerchant",
+        "definition": "indicates the merchant (seller) involved in the transaction",
+        "label": "involves merchant"
+    },
+    {
+        "id": "hasCorrespondingAccount",
+        "type": "ObjectProperty",
+        "name": "hasCorrespondingAccount",
+        "definition": "relates a credit agreement to an account used as the basis for managing transactions",
+        "label": "has corresponding account"
+    },
+    {
+        "id": "hasEndingBalance",
+        "type": "ObjectProperty",
+        "name": "hasEndingBalance",
+        "definition": "relates an account statement to the amount of money available in that account at the end of the statement period",
+        "label": "has ending balance"
+    },
+    {
+        "id": "hasCloseDate",
+        "type": "ObjectProperty",
+        "name": "hasCloseDate",
+        "label": "has close date",
+        "definition": "relates something to the date that it was closed"
+    },
+    {
+        "id": "hasOpenDate",
+        "type": "ObjectProperty",
+        "name": "hasOpenDate",
+        "label": "has open date",
+        "definition": "relates something to the date that it was created"
+    },
+    {
+        "id": "hasStartingBalance",
+        "type": "ObjectProperty",
+        "name": "hasStartingBalance",
+        "label": "has starting balance",
+        "definition": "relates an account statement to the amount of money available in that account at the beginning of the statement period"
+    },
+    {
+        "id": "hasPaymentDueDate",
+        "type": "ObjectProperty",
+        "name": "hasPaymentDueDate",
+        "definition": "indicates the date by which payment of some amount must be made to the creditor",
+        "label": "has payment due date"
+    },
+    {
+        "id": "hasPrimaryAccountHolder",
+        "type": "ObjectProperty",
+        "name": "hasPrimaryAccountHolder",
+        "label": "has primary account holder",
+        "definition": "relates an account to a client or customer that is considered the primary owner of the account",
+        "explanatoryNote": "Note that for many financial institutions, there must be a client or customer designated as the primary owner. In cases where there is a tax identifier associated with the account, it is that of the primary owner."
+    },
+    {
+        "id": "hasSecondaryAccountHolder",
+        "type": "ObjectProperty",
+        "name": "hasSecondaryAccountHolder",
+        "label": "has secondary account holder",
+        "definition": "relates an account to a client or customer that is considered a secondary, co-owner of the account"
+    },
+    {
+        "id": "hasPostingDate",
+        "type": "ObjectProperty",
+        "name": "hasPostingDate",
+        "definition": "indicates the date that the transaction was posted to the account",
+        "label": "has posting date"
+    },
+    {
+        "id": "appliesToAccount",
+        "type": "ObjectProperty",
+        "name": "appliesToAccount",
+        "label": "applies to account",
+        "definition": "indicates the account to which the transaction record or individual transaction applies"
+    },
+    {
+        "id": "recordsTransaction",
+        "type": "ObjectProperty",
+        "name": "recordsTransaction",
+        "definition": "links an account statement to the individual transactions it documents",
+        "label": "records transaction"
+    },
+    {
+        "id": "hasBalance",
+        "type": "ObjectProperty",
+        "name": "hasBalance",
+        "definition": "relates an account to the net amount of money available in that account",
+        "label": "has balance"
+    },
+    {
+        "id": "isLinkedToAccount",
+        "type": "ObjectProperty",
+        "name": "isLinkedToAccount",
+        "definition": "connects a given customer account to another customer account",
+        "label": "is linked to account"
+    },
+    {
+        "id": "hasTransactionDate",
+        "type": "ObjectProperty",
+        "name": "hasTransactionDate",
+        "label": "has transaction date",
+        "definition": "indicates the date on which the transaction actually occurred"
+    },
+    {
+        "id": "hasTransactionDescription",
+        "type": "DatatypeProperty",
+        "name": "hasTransactionDescription",
+        "definition": "provides a textual description of the transaction",
+        "label": "has transaction description"
+    }
+]

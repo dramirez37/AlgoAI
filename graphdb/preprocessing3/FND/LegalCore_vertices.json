@@ -1,0 +1,50 @@
+[
+    {
+        "id": "Constitution",
+        "type": "Class",
+        "name": "Constitution",
+        "label": "constitution",
+        "explanatoryNote": "A constitution is an aggregate of fundamental principles or established precedents that constitute the legal basis of a polity, organisation or other type of entity and commonly determine how that entity is to be governed.",
+        "definition": "set of basic principles by which an organization is governed, especially in relation to the rights of the people it governs"
+    },
+    {
+        "id": "Collection",
+        "type": "Entity",
+        "name": "Collection"
+    },
+    {
+        "id": "CourtOfLaw",
+        "type": "Class",
+        "name": "CourtOfLaw",
+        "explanatoryNote": "A court of law is a formal forum of justice that may have authority over civil, criminal, ecclesiastical, or military cases.",
+        "definition": "person or body of persons having judicial authority to hear and resolve disputes on the basis of statutes or the common law",
+        "label": "court of law"
+    },
+    {
+        "id": "FormalOrganization",
+        "type": "Entity",
+        "name": "FormalOrganization"
+    },
+    {
+        "id": "Law",
+        "type": "Class",
+        "name": "Law",
+        "label": "law",
+        "explanatoryNote": "Law is a term which does not have a universally accepted definition. Certain laws are made by governments, specifically by their legislatures although the sense intended here is broader. The formation of laws themselves may be influenced by a constitution (written or unwritten) and the rights encoded therein. The law shapes politics, economics and society in countless ways and serves as a social mediator of relations between people.",
+        "definition": "rule recognized by some community as regulating the behavior of its members and that it may enforce through the imposition of penalties"
+    },
+    {
+        "id": "isInForceIn",
+        "type": "ObjectProperty",
+        "name": "isInForceIn",
+        "label": "is in force in",
+        "definition": "identifies a jurisdiction in which some law has effect"
+    },
+    {
+        "id": "hasInForce",
+        "type": "ObjectProperty",
+        "name": "hasInForce",
+        "definition": "relates a jurisdiction or situation to a rule, regulation or law (collectively \"law\") that is currently in force in that situation or jurisdiction",
+        "label": "has in force"
+    }
+]

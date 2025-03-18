@@ -1,0 +1,125 @@
+[
+    {
+        "source_id": "FinancialPrimaryMarketTransaction",
+        "target_id": "MarketTransaction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialPrimaryMarketTransaction",
+        "target_id": "ContractualTransaction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialPrimaryMarketTransaction",
+        "target_id": "SettlementProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "follows",
+                "SettlementProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialSecuritiesSecondaryMarketTransaction",
+        "target_id": "SecuritiesTransactionContract",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "embodies",
+                "SecuritiesTransactionContract"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialSecuritiesSecondaryMarketTransaction",
+        "target_id": "SecuritiesTransactionPrincipal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPrincipalParty",
+                "SecuritiesTransactionPrincipal"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialSecuritiesSecondaryMarketTransaction",
+        "target_id": "SecuritiesTransactionCounterparty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCounterparty",
+                "SecuritiesTransactionCounterparty"
+            ]
+        }
+    },
+    {
+        "source_id": "FinancialSecuritiesSecondaryMarketTransaction",
+        "target_id": "MarketTransaction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialSecuritiesSecondaryMarketTransaction",
+        "target_id": "ContractualTransaction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTransactionContract",
+        "target_id": "EconomicContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTransactionContract",
+        "target_id": "FinancialSecuritiesSecondaryMarketTransaction",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "FinancialSecuritiesSecondaryMarketTransaction"
+            ]
+        }
+    },
+    {
+        "source_id": "WhenIssuedTransaction",
+        "target_id": "FinancialSecuritiesSecondaryMarketTransaction",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTransactionCounterparty",
+        "target_id": "TransactionCounterparty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesTransactionPrincipal",
+        "target_id": "TransactionPrincipal",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

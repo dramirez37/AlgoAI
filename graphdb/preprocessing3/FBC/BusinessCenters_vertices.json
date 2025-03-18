@@ -1,0 +1,50 @@
+[
+    {
+        "id": "Municipality",
+        "type": "Class",
+        "name": "Municipality"
+    },
+    {
+        "id": "BusinessCenterCode",
+        "type": "Class",
+        "name": "BusinessCenterCode",
+        "definition": "code used to denote a metropolitan area where business is conducted",
+        "label": "business center code",
+        "explanatoryNote": "The codes for business centers and municipalities defined herein are largely those identified either as FpML business centers or are locations where there is an exchange, as noted in the ISO 10962 MIC code standard."
+    },
+    {
+        "id": "GeographicRegionIdentifier",
+        "type": "Entity",
+        "name": "GeographicRegionIdentifier"
+    },
+    {
+        "id": "BusinessDayAdjustmentCode",
+        "type": "Class",
+        "name": "BusinessDayAdjustmentCode",
+        "label": "business day adjustment code",
+        "definition": "code used to denote a convention for specifying what happens when a date falls on a day that is weekend or holiday in some municipality or business center"
+    },
+    {
+        "id": "CodeElement",
+        "type": "Entity",
+        "name": "CodeElement"
+    },
+    {
+        "id": "BusinessCenterCodeScheme",
+        "type": "Class",
+        "name": "BusinessCenterCodeScheme",
+        "definition": "coding scheme used to define a set of codes for municipalities or business centers",
+        "label": "business center code set"
+    },
+    {
+        "id": "CodeSet",
+        "type": "Entity",
+        "name": "CodeSet"
+    },
+    {
+        "id": "BusinessCenter",
+        "type": "Class",
+        "name": "BusinessCenter",
+        "explanatoryNote": "Note that business centers, as defined in FpML, are intended for use in specifying the business calendar used by that municipality, or by certain organizations located in that municipality."
+    }
+]

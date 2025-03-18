@@ -1,0 +1,28 @@
+[
+    {
+        "id": "OwnershipControlSituation",
+        "type": "Class",
+        "name": "OwnershipControlSituation",
+        "label": "ownership control situation",
+        "definition": "situation in which some party owns and controls something"
+    },
+    {
+        "id": "Situation",
+        "type": "Entity",
+        "name": "Situation"
+    },
+    {
+        "id": "isOwnedAndControlledBy",
+        "type": "ObjectProperty",
+        "name": "isOwnedAndControlledBy",
+        "label": "is owned and controlled by",
+        "definition": "relates something to the party that owns, influences, manages and directs it"
+    },
+    {
+        "id": "ownsAndControls",
+        "type": "ObjectProperty",
+        "name": "ownsAndControls",
+        "label": "owns and controls",
+        "definition": "directs and exercises authoritative or dominating influence over some thing that is also owned"
+    }
+]

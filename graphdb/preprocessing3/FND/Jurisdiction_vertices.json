@@ -1,0 +1,49 @@
+[
+    {
+        "id": "Jurisdiction",
+        "type": "Class",
+        "name": "Jurisdiction",
+        "label": "jurisdiction",
+        "definition": "power of a court to adjudicate cases, issue orders, and interpret and apply the law with respect to some specific geographic area"
+    },
+    {
+        "id": "Context",
+        "type": "Entity",
+        "name": "Context"
+    },
+    {
+        "id": "StatuteLaw",
+        "type": "Class",
+        "name": "StatuteLaw",
+        "explanatoryNote": "Statutes may originate with national, state legislatures or local municipalities. Statutory laws are subordinate to the higher constitutional laws of the land.",
+        "label": "statute law",
+        "definition": "law enacted by a legislature"
+    },
+    {
+        "id": "Law",
+        "type": "Entity",
+        "name": "Law"
+    },
+    {
+        "id": "LegalAge",
+        "type": "Class",
+        "name": "LegalAge"
+    },
+    {
+        "id": "TaxIdentificationScheme",
+        "type": "Class",
+        "name": "TaxIdentificationScheme"
+    },
+    {
+        "id": "TaxIdentifier",
+        "type": "Class",
+        "name": "TaxIdentifier"
+    },
+    {
+        "id": "hasReach",
+        "type": "ObjectProperty",
+        "name": "hasReach",
+        "definition": "indicates the geopolitical area covered by the jurisdiction",
+        "label": "has reach"
+    }
+]

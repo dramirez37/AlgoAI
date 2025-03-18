@@ -1,0 +1,500 @@
+[
+    {
+        "id": "PutFeature",
+        "type": "Class",
+        "name": "PutFeature",
+        "label": "put feature",
+        "definition": "redemption provision giving the holder the right, but not the obligation, to sell a specified amount of the debt instrument (i.e., redeem it), prior to maturity"
+    },
+    {
+        "id": "RedemptionProvision",
+        "type": "Entity",
+        "name": "RedemptionProvision"
+    },
+    {
+        "id": "DebtTerms",
+        "type": "Entity",
+        "name": "DebtTerms"
+    },
+    {
+        "id": "DebtInstrument",
+        "type": "Class",
+        "name": "DebtInstrument"
+    },
+    {
+        "id": "CallFeature",
+        "type": "Class",
+        "name": "CallFeature",
+        "definition": "redemption provision defining the rights of the issuer to buy back a security at a call price after a call protection period",
+        "label": "call feature",
+        "explanatoryNote": "Most corporate and municipal bonds have ten-year call features (termed call protection by holders); government securities typically have none."
+    },
+    {
+        "id": "FullyIndexedInterestRate",
+        "type": "Class",
+        "name": "FullyIndexedInterestRate",
+        "label": "fully-indexed interest rate",
+        "definition": "a variable interest rate that is calculated by adding a margin to a specified index rate",
+        "explanatoryNote": "Fully indexed interest rates are used for variable rate credit products. The interest rate on a variable (adjustable) rate mortgage corresponds to a specific benchmark (often the prime rate, but sometimes LIBOR, the one-year constant-maturity Treasury, or other benchmarks) plus a spread (also called the margin. The margin on a fully indexed interest rate product is determined by the underwriter and based on the borrower's credit quality."
+    },
+    {
+        "id": "Expression",
+        "type": "Entity",
+        "name": "Expression"
+    },
+    {
+        "id": "FloatingInterestRate",
+        "type": "Entity",
+        "name": "FloatingInterestRate"
+    },
+    {
+        "id": "FixedIncomeSecurity",
+        "type": "Class",
+        "name": "FixedIncomeSecurity",
+        "definition": "tradeable debt instrument that provides a return in the form of fixed periodic payments and typically the return of principal at maturity",
+        "label": "fixed income security",
+        "explanatoryNote": "Fixed income securities provide payments according to a regular schedule. This does not necessarily mean that the payments themselves are of a fixed amount, however."
+    },
+    {
+        "id": "TradableDebtInstrument",
+        "type": "Class",
+        "name": "TradableDebtInstrument",
+        "explanatoryNote": "Details from Ecofin: A [debt] instrument can be traded, if its features depend only on one borrower. If the instrument has no bilateral or multilateral obligations, the investor can easily transfer it to another investor without asking the borrower (except the terms prohibit this explicitly). This is simplified with securitised instruments, where the debt is already split into handy denominations which trade easily (e.g. in round thousands or millions as with bonds, commercial paper, etc.). But in principle it works also with interbank loans and similar instruments. FIBIM Definition: Financial instruments evidencing moneys owed by the issuer to the holder on terms as specified.",
+        "label": "tradable debt instrument",
+        "definition": "a debt instrument that is also a security, i.e., that can be bought and sold by the holder"
+    },
+    {
+        "id": "MakeWholeFeature",
+        "type": "Class",
+        "name": "MakeWholeFeature",
+        "label": "make whole feature",
+        "explanatoryNote": "The issuer typically has to make a lump sum payment to the investor derived from a formula based on the net present value (NPV) of future interest or coupon payments that will not be paid incrementally because of the call combined with the principal payment the investor would have received at maturity.",
+        "definition": "a call provision allowing the issuer to pay off remaining debt early"
+    },
+    {
+        "id": "VariableIncomeSecurity",
+        "type": "Class",
+        "name": "VariableIncomeSecurity",
+        "definition": "tradeable debt instrument that provide their owners with a rate of return that is dynamic and determined by market forces",
+        "label": "variable income security",
+        "explanatoryNote": "Variable-income securities provide investors with both greater risks as well as rewards."
+    },
+    {
+        "id": "Margin",
+        "type": "Class",
+        "name": "Margin",
+        "definition": "a variable that is added to a specified index rate to determine the fully indexed interest rate charged to a borrower on a credit balance",
+        "label": "margin"
+    },
+    {
+        "id": "Variable",
+        "type": "Entity",
+        "name": "Variable"
+    },
+    {
+        "id": "PutSchedule",
+        "type": "Class",
+        "name": "PutSchedule",
+        "definition": "a schedule that defines the events associated with the put feature of a debt instrument, i.e, the dates on which the debt instrument may be sold at what price by the holder",
+        "label": "put schedule"
+    },
+    {
+        "id": "Schedule",
+        "type": "Entity",
+        "name": "Schedule"
+    },
+    {
+        "id": "PutWindow",
+        "type": "Class",
+        "name": "PutWindow",
+        "definition": "an explicit period of time prior to a put date during which holder or agent must give notice to an issuer",
+        "label": "put window"
+    },
+    {
+        "id": "DatePeriod",
+        "type": "Entity",
+        "name": "DatePeriod"
+    },
+    {
+        "id": "Security",
+        "type": "Entity",
+        "name": "Security"
+    },
+    {
+        "id": "NotificationProvision",
+        "type": "Class",
+        "name": "NotificationProvision",
+        "label": "notification provision",
+        "definition": "provision of a redemption feature defining notification requirements"
+    },
+    {
+        "id": "NonTradableDebtInstrument",
+        "type": "Class",
+        "name": "NonTradableDebtInstrument",
+        "definition": "a debt instrument that may not be bought or sold",
+        "label": "non-tradable debt instrument",
+        "explanatoryNote": "Generally, a nonnegotiable instrument may be redeemed by the issuer, but this is often subject to some limitations."
+    },
+    {
+        "id": "MutualContractualAgreement",
+        "type": "Entity",
+        "name": "MutualContractualAgreement"
+    },
+    {
+        "id": "CallWindow",
+        "type": "Class",
+        "name": "CallWindow",
+        "label": "call window",
+        "definition": "an explicit period of time prior to a call date during which an issuer or agent must give notice to holders"
+    },
+    {
+        "id": "PutEvent",
+        "type": "Class",
+        "name": "PutEvent",
+        "label": "put event",
+        "definition": "an event associated with the put schedule for a debt instrument, i.e., an event involving the 'put', or surrender of the instrument by the holder"
+    },
+    {
+        "id": "RedemptionEvent",
+        "type": "Class",
+        "name": "RedemptionEvent",
+        "label": "redemption event",
+        "definition": "a prescriptive event involving the return of an investor's principal in a fixed-income security, such as a preferred stock or bond, or the sale of units in a mutual fund"
+    },
+    {
+        "id": "Strip",
+        "type": "Class",
+        "name": "Strip",
+        "label": "strip",
+        "explanatoryNote": "STRIPS is an acronym for Separate Trading of Registered Interest and Principal of Securities, which has come to be used as a term in its own right.",
+        "definition": "a tradeable debt instrument created either through the process of removing coupons from a bond and then selling the separate parts as a zero coupon bond and an interest paying coupon bond or through taking the opposite position from some variant in the options market"
+    },
+    {
+        "id": "InterestOnlyStrip",
+        "type": "Class",
+        "name": "InterestOnlyStrip",
+        "definition": "a strip that represents the non-principal portion of the monthly payments on the underlying debt instrument, such as a bond",
+        "explanatoryNote": "An interest-only strip holder is interested in rising rates and no prepayment, as prepayment would cause them forfeit future interest payments and receive nothing from the return of the principal.",
+        "label": "interest-only strip"
+    },
+    {
+        "id": "PubliclyIssuedDebt",
+        "type": "Class",
+        "name": "PubliclyIssuedDebt",
+        "label": "publicly issued debt",
+        "definition": "an issued debt in the form of a tradable debt instrument (security)"
+    },
+    {
+        "id": "IssuedDebt",
+        "type": "Class",
+        "name": "IssuedDebt",
+        "label": "issued debt",
+        "definition": "debt that is set out by the borrower in some form of financial security in which the lender is the holder or counterparty of that security"
+    },
+    {
+        "id": "CallSchedule",
+        "type": "Class",
+        "name": "CallSchedule",
+        "definition": "a schedule of call prices and when they are in effect",
+        "label": "call schedule"
+    },
+    {
+        "id": "PrescriptiveEvent",
+        "type": "Class",
+        "name": "PrescriptiveEvent",
+        "label": "prescriptive event",
+        "definition": "event related to the imposition or enforcement of a rule, method, formula, etc."
+    },
+    {
+        "id": "OccurrenceKind",
+        "type": "Entity",
+        "name": "OccurrenceKind"
+    },
+    {
+        "id": "DebtOffering",
+        "type": "Class",
+        "name": "DebtOffering",
+        "label": "debt offering",
+        "definition": "an offering of one or more debt instruments for sale"
+    },
+    {
+        "id": "SecuritiesOffering",
+        "type": "Entity",
+        "name": "SecuritiesOffering"
+    },
+    {
+        "id": "StepSchedule",
+        "type": "Class",
+        "name": "StepSchedule",
+        "label": "step schedule",
+        "definition": "schedule specifying the date(s) and change in a contractual term(s), e.g., rate or notional amount, for a contract that has a feature where stipulated changes occur at specified intervals or on specified dates"
+    },
+    {
+        "id": "PutNotificationProvision",
+        "type": "Class",
+        "name": "PutNotificationProvision",
+        "definition": "a provision of a put feature defining notification requirements",
+        "label": "put notification provision"
+    },
+    {
+        "id": "Debt",
+        "type": "Entity",
+        "name": "Debt"
+    },
+    {
+        "id": "PrincipalOnlyStrip",
+        "type": "Class",
+        "name": "PrincipalOnlyStrip",
+        "definition": "a strip that represents the principal portion of the monthly payments on the underlying debt instrument, such as a bond",
+        "label": "principal-only strip"
+    },
+    {
+        "id": "RelativePrice",
+        "type": "Class",
+        "name": "RelativePrice",
+        "definition": "security price specified in comparison with either a stated or market value for a debt instrument at some point in time",
+        "label": "relative price"
+    },
+    {
+        "id": "SecurityPrice",
+        "type": "Entity",
+        "name": "SecurityPrice"
+    },
+    {
+        "id": "CallPremium",
+        "type": "Class",
+        "name": "CallPremium",
+        "label": "call premium",
+        "definition": "the price over par paid by an issuer to redeem securities when exercising a call provision"
+    },
+    {
+        "id": "MonetaryPrice",
+        "type": "Entity",
+        "name": "MonetaryPrice"
+    },
+    {
+        "id": "StepEvent",
+        "type": "Class",
+        "name": "StepEvent",
+        "label": "step event",
+        "definition": "event that prescribes a change in a contractual term, such as a rate or notional amount, for a given contract"
+    },
+    {
+        "id": "CalculationEvent",
+        "type": "Entity",
+        "name": "CalculationEvent"
+    },
+    {
+        "id": "CallEvent",
+        "type": "Class",
+        "name": "CallEvent",
+        "definition": "an event associated with the call schedule for a debt instrument",
+        "label": "call event"
+    },
+    {
+        "id": "CallNotificationProvision",
+        "type": "Class",
+        "name": "CallNotificationProvision",
+        "definition": "provision of a call feature defining notification requirements",
+        "label": "call notification provision"
+    },
+    {
+        "id": "PutPremium",
+        "type": "Class",
+        "name": "PutPremium",
+        "definition": "an amount over par that a debt instrument holder must pay to sell the security early",
+        "label": "put premium"
+    },
+    {
+        "id": "ParValue",
+        "type": "NamedIndividual",
+        "name": "ParValue",
+        "label": "par value",
+        "definition": "the stated value of a negotiable instrument, stock, or bond, as compared with the value that instrument might receive when sold"
+    },
+    {
+        "id": "isExtendableByIssuer",
+        "type": "DatatypeProperty",
+        "name": "isExtendableByIssuer",
+        "definition": "indicates whether the issuer has the option to extend the debt rather than refinancing",
+        "label": "is extendable by issuer",
+        "explanatoryNote": "If not, the issuer may only refinance the debt by calling the issue and creating a new issue."
+    },
+    {
+        "id": "hasInterestPaymentTerms",
+        "type": "ObjectProperty",
+        "name": "hasInterestPaymentTerms",
+        "definition": "indicates the specific terms related to interest payments on the principal as specified in the instrument or a related contract document",
+        "label": "has interest payment terms"
+    },
+    {
+        "id": "isExchangeable",
+        "type": "DatatypeProperty",
+        "name": "isExchangeable",
+        "definition": "indicates whether the security can be exchanged for another security at the issuers discretion",
+        "label": "is exchangeable"
+    },
+    {
+        "id": "hasRightToRetain",
+        "type": "DatatypeProperty",
+        "name": "hasRightToRetain",
+        "label": "right to retain",
+        "definition": "indicates whether the holder has an option to retain the security in the event of an issuer exercising the put feature"
+    },
+    {
+        "id": "hasDefaultLotSize",
+        "type": "DatatypeProperty",
+        "name": "hasDefaultLotSize",
+        "definition": "indicates the default number of units of the security that may be held at any one time",
+        "explanatoryNote": "This is the minimum denomination required for transfer or change of ownership of a tradable debt security.",
+        "label": "has default lot size"
+    },
+    {
+        "id": "hasRelativePriceAtMaturity",
+        "type": "ObjectProperty",
+        "name": "hasRelativePriceAtMaturity",
+        "definition": "indicates a relative price with respect to the face value at the time an instrument matures, namely par, discount or premium",
+        "label": "has relative price at maturity"
+    },
+    {
+        "id": "isPutable",
+        "type": "DatatypeProperty",
+        "name": "isPutable",
+        "definition": "indicates whether the holder has the right to ask for redemption of the security prior to final maturity",
+        "label": "is putable"
+    },
+    {
+        "id": "allowsPaymentInKind",
+        "type": "DatatypeProperty",
+        "name": "allowsPaymentInKind",
+        "label": "allows payment in kind",
+        "definition": "indicates whether the principal may be repaid in kind (i.e., replaced with another instrument) rather than in cash"
+    },
+    {
+        "id": "isSubordinatedTo",
+        "type": "ObjectProperty",
+        "name": "isSubordinatedTo",
+        "definition": "indicates the target security (i.e., the one in the range) has a higher priority than the security in question",
+        "label": "is subordinated to"
+    },
+    {
+        "id": "isExtendableByHolder",
+        "type": "DatatypeProperty",
+        "name": "isExtendableByHolder",
+        "label": "is extendable by holder",
+        "definition": "indicates whether the expiration date or maturity date can be extended by the holder"
+    },
+    {
+        "id": "hasRepaymentTerms",
+        "type": "ObjectProperty",
+        "name": "hasRepaymentTerms",
+        "label": "has repayment terms",
+        "definition": "indicates the specific terms related to repayment of principal as specified in the instrument or a related contract document"
+    },
+    {
+        "id": "hasDatedDate",
+        "type": "ObjectProperty",
+        "name": "hasDatedDate",
+        "explanatoryNote": "Investors who purchase a fixed-income security between interest payment dates must also pay the seller or issuer any interest that has accrued from the dated date to the purchase date, or settlement date, in addition to the face value.",
+        "label": "has dated date",
+        "definition": "specifies the date on which interest begins to accrue on a fixed-income security"
+    },
+    {
+        "id": "isCallable",
+        "type": "DatatypeProperty",
+        "name": "isCallable",
+        "definition": "indicates whether the issuer (writer) of the debt contract (the debtor) can call the debt prior to maturity",
+        "label": "is callable"
+    },
+    {
+        "id": "isStrippable",
+        "type": "DatatypeProperty",
+        "name": "isStrippable",
+        "label": "is strippable",
+        "definition": "indicates whether or not the instrument can be stripped, so that interest and principal may be traded separately"
+    },
+    {
+        "id": "AtAPremium",
+        "type": "RelativePrice",
+        "name": "AtAPremium",
+        "definition": "a selling price significantly above the stated face or redemption value due to high demand or timing of redemption",
+        "label": "at a premium"
+    },
+    {
+        "id": "hasNotificationProvision",
+        "type": "ObjectProperty",
+        "name": "hasNotificationProvision",
+        "definition": "relates the redemption provision of a debt instrument to a notification provision (e.g., call or put notification)",
+        "label": "has notification provision"
+    },
+    {
+        "id": "hasEstateOrDeathPutFeature",
+        "type": "DatatypeProperty",
+        "name": "hasEstateOrDeathPutFeature",
+        "label": "has estate or death put feature",
+        "definition": "indicates that a security is subject to redemption upon the passing of the holder"
+    },
+    {
+        "id": "hasPutFeature",
+        "type": "ObjectProperty",
+        "name": "hasPutFeature",
+        "label": "has put feature",
+        "definition": "indicates the specific terms related to any inherent put feature as specified in the offering/instrument"
+    },
+    {
+        "id": "hasPriceAndYieldDayCountConvention",
+        "type": "ObjectProperty",
+        "name": "hasPriceAndYieldDayCountConvention",
+        "label": "has price and yield day count convention",
+        "definition": "indicates the convention used to determine the number of days in a month and days in a year that are counted when performing calculations for yield and price figures"
+    },
+    {
+        "id": "isSubordinated",
+        "type": "DatatypeProperty",
+        "name": "isSubordinated",
+        "definition": "indicates whether the security is a subordinated security, meaning that the security has a lower priority than another security so that when the assets are liquidated this one is not first in line",
+        "label": "is subordinated"
+    },
+    {
+        "id": "AtADiscount",
+        "type": "NamedIndividual",
+        "name": "AtADiscount",
+        "definition": "a selling price that is less than the face or nominal value",
+        "label": "at a discount"
+    },
+    {
+        "id": "hasCallFeature",
+        "type": "ObjectProperty",
+        "name": "hasCallFeature",
+        "definition": "indicates the specific terms related to any inherent call feature as specified in the offering/instrument",
+        "label": "has call feature"
+    },
+    {
+        "id": "hasRelativePriceAtRedemption",
+        "type": "ObjectProperty",
+        "name": "hasRelativePriceAtRedemption",
+        "label": "has relative price at redemption",
+        "definition": "indicates a relative price with respect to the face value at the time an instrument is redeemed, namely par, discount or premium"
+    },
+    {
+        "id": "hasRelativePriceAtIssue",
+        "type": "ObjectProperty",
+        "name": "hasRelativePriceAtIssue",
+        "definition": "indicates a relative price with respect to the face value at which an instrument is issued, namely par, premium or discount",
+        "label": "has relative price at issue"
+    },
+    {
+        "id": "hasPoolNumber",
+        "type": "DatatypeProperty",
+        "name": "hasPoolNumber",
+        "definition": "indicates the pool number of the debt",
+        "label": "has pool number"
+    },
+    {
+        "id": "allowsAutoReinvestment",
+        "type": "DatatypeProperty",
+        "name": "allowsAutoReinvestment",
+        "label": "allows auto-reinvestment",
+        "definition": "indicates whether the security allows automatically re-investing the interest on that security towards purchasing additional shares or units of the same security"
+    }
+]

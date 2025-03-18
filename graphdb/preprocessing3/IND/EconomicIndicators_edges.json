@@ -1,0 +1,794 @@
+[
+    {
+        "source_id": "EconomicIndicator",
+        "target_id": "ScopedMeasure",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EconomicIndicator",
+        "target_id": "GovernmentSpecifiedStatisticalArea",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasCoverageArea",
+                "GovernmentSpecifiedStatisticalArea"
+            ]
+        }
+    },
+    {
+        "source_id": "EmploymentPopulationRatio",
+        "target_id": "EconomicIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmploymentPopulationRatio",
+        "target_id": "CivilianNonInstitutionalPopulation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasBaselinePopulation",
+                "CivilianNonInstitutionalPopulation"
+            ]
+        }
+    },
+    {
+        "source_id": "EmploymentPopulationRatio",
+        "target_id": "EmployedPopulation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasComparisonPopulation",
+                "EmployedPopulation"
+            ]
+        }
+    },
+    {
+        "source_id": "EmploymentPopulationRatio",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmployedPopulationPartTimeForEconomicReasons",
+        "target_id": "UnderemployedPopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmployedPopulationPartTimeForEconomicReasons",
+        "target_id": "EmployedPopulationPartTime",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderutilizedPopulation",
+        "target_id": "CivilianNonInstitutionalPopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CombinedStatisticalArea",
+        "target_id": "GovernmentSpecifiedStatisticalArea",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CombinedStatisticalArea",
+        "target_id": "GovernmentSpecifiedStatisticalArea",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "GovernmentSpecifiedStatisticalArea"
+            ]
+        }
+    },
+    {
+        "source_id": "FixedBasketConstituent",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedBasketConstituent",
+        "target_id": "BasketConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Enterprise",
+        "target_id": "Establishment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "Establishment"
+            ]
+        }
+    },
+    {
+        "source_id": "Enterprise",
+        "target_id": "FunctionalBusinessEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Enterprise",
+        "target_id": "InstitutionalUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GovernmentSpecifiedStatisticalArea",
+        "target_id": "StatisticalArea",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmployedPopulationPartTime",
+        "target_id": "EmployedPopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnemploymentRate",
+        "target_id": "EconomicIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnemploymentRate",
+        "target_id": "CivilianLaborForce",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasBaselinePopulation",
+                "CivilianLaborForce"
+            ]
+        }
+    },
+    {
+        "source_id": "UnemploymentRate",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnemploymentRate",
+        "target_id": "UnemployedPopulation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasComparisonPopulation",
+                "UnemployedPopulation"
+            ]
+        }
+    },
+    {
+        "source_id": "CapitalLaborMultifactorProductivityValueAdded",
+        "target_id": "Productivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InflationRate",
+        "target_id": "EconomicIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InflationRate",
+        "target_id": "GovernmentSpecifiedStatisticalArea",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "GovernmentSpecifiedStatisticalArea"
+            ]
+        }
+    },
+    {
+        "source_id": "EmployedPopulation",
+        "target_id": "CivilianLaborForce",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InstitutionalPerson",
+        "target_id": "Person",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OutputProducerPriceIndex",
+        "target_id": "ProducerPriceIndex",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CivilianLaborForceParticipationRate",
+        "target_id": "CivilianLaborForce",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasComparisonPopulation",
+                "CivilianLaborForce"
+            ]
+        }
+    },
+    {
+        "source_id": "CivilianLaborForceParticipationRate",
+        "target_id": "EconomicIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CivilianLaborForceParticipationRate",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CivilianLaborForceParticipationRate",
+        "target_id": "CivilianNonInstitutionalPopulation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasBaselinePopulation",
+                "CivilianNonInstitutionalPopulation"
+            ]
+        }
+    },
+    {
+        "source_id": "Household",
+        "target_id": "InstitutionalUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Household",
+        "target_id": "HousingUnit",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isLocatedAt",
+                "HousingUnit"
+            ]
+        }
+    },
+    {
+        "source_id": "Household",
+        "target_id": "Person",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "Person"
+            ]
+        }
+    },
+    {
+        "source_id": "GrossDomesticProduct",
+        "target_id": "EconomicIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AverageDailyEarnings",
+        "target_id": "AverageEarnings",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Productivity",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Productivity",
+        "target_id": "EconomicIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProducerPriceIndex",
+        "target_id": "EconomicIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProducerPriceIndex",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProducerPriceIndex",
+        "target_id": "FixedBasket",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInput",
+                "FixedBasket"
+            ]
+        }
+    },
+    {
+        "source_id": "ConsumerPriceIndex",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerPriceIndex",
+        "target_id": "EconomicIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerPriceIndex",
+        "target_id": "CivilianNonInstitutionalPopulation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasBaselinePopulation",
+                "CivilianNonInstitutionalPopulation"
+            ]
+        }
+    },
+    {
+        "source_id": "ConsumerPriceIndex",
+        "target_id": "FixedBasket",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInput",
+                "FixedBasket"
+            ]
+        }
+    },
+    {
+        "source_id": "AverageEarnings",
+        "target_id": "EconomicIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AverageEarnings",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AverageWeeklyEarnings",
+        "target_id": "AverageEarnings",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedBasket",
+        "target_id": "Basket",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedBasket",
+        "target_id": "FixedBasketConstituent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "FixedBasketConstituent"
+            ]
+        }
+    },
+    {
+        "source_id": "FixedBasket",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EstablishmentPopulation",
+        "target_id": "EnterprisePopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EstablishmentPopulation",
+        "target_id": "Establishment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "Establishment"
+            ]
+        }
+    },
+    {
+        "source_id": "ValueAddedProducerPriceIndex",
+        "target_id": "OutputProducerPriceIndex",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInput",
+                "OutputProducerPriceIndex"
+            ]
+        }
+    },
+    {
+        "source_id": "ValueAddedProducerPriceIndex",
+        "target_id": "InputProducerPriceIndex",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInput",
+                "InputProducerPriceIndex"
+            ]
+        }
+    },
+    {
+        "source_id": "ValueAddedProducerPriceIndex",
+        "target_id": "ProducerPriceIndex",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CivilianNonInstitutionalPerson",
+        "target_id": "LegalWorkingAgePerson",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CivilianNonInstitutionalPerson",
+        "target_id": "Civilian",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Civilian",
+        "target_id": "LegallyCompetentNaturalPerson",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HousingUnit",
+        "target_id": "PhysicalLocation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AverageMonthlyEarnings",
+        "target_id": "AverageEarnings",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InstitutionalUnit",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InstitutionalUnit",
+        "target_id": "FunctionalEntity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AverageHourlyEarnings",
+        "target_id": "AverageEarnings",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnemployedPopulation",
+        "target_id": "CivilianLaborForce",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EnterprisePopulation",
+        "target_id": "Enterprise",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "Enterprise"
+            ]
+        }
+    },
+    {
+        "source_id": "EnterprisePopulation",
+        "target_id": "StatisticalUniverse",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StatisticalInformationPublisher",
+        "target_id": "Publisher",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmployedPopulationPartTimeForNonEconomicReasons",
+        "target_id": "EmployedPopulationPartTime",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PersonalConsumptionExpenditures",
+        "target_id": "EconomicIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CivilianLaborForce",
+        "target_id": "CivilianNonInstitutionalPopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EstablishmentEmployment",
+        "target_id": "EstablishmentPopulation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasBaselinePopulation",
+                "EstablishmentPopulation"
+            ]
+        }
+    },
+    {
+        "source_id": "EstablishmentEmployment",
+        "target_id": "Expression",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EstablishmentEmployment",
+        "target_id": "EconomicIndicator",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PopulationNotInLaborForce",
+        "target_id": "CivilianNonInstitutionalPopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UltimateConsumer",
+        "target_id": "Person",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "Person"
+            ]
+        }
+    },
+    {
+        "source_id": "UltimateConsumer",
+        "target_id": "Consumer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MetropolitanStatisticalArea",
+        "target_id": "GovernmentSpecifiedStatisticalArea",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DiscouragedWorkerPopulation",
+        "target_id": "MarginallyAttachedPopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderemployedPopulation",
+        "target_id": "EmployedPopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Establishment",
+        "target_id": "InstitutionalUnit",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Establishment",
+        "target_id": "Enterprise",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isConstituentOf",
+                "Enterprise"
+            ]
+        }
+    },
+    {
+        "source_id": "MicropolitanStatisticalArea",
+        "target_id": "GovernmentSpecifiedStatisticalArea",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FixedBasketPopulation",
+        "target_id": "StatisticalUniverse",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MilitaryPerson",
+        "target_id": "LegallyCompetentNaturalPerson",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CivilianNonInstitutionalPopulation",
+        "target_id": "StatisticalUniverse",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CivilianNonInstitutionalPopulation",
+        "target_id": "CivilianNonInstitutionalPerson",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasMember",
+                "CivilianNonInstitutionalPerson"
+            ]
+        }
+    },
+    {
+        "source_id": "UnderemployedPopulationWithRespectToOccupation",
+        "target_id": "UnderemployedPopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InputProducerPriceIndex",
+        "target_id": "ProducerPriceIndex",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalProductivityValueAdded",
+        "target_id": "Productivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LaborProductivityGrossOutput",
+        "target_id": "Productivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarginallyAttachedPopulation",
+        "target_id": "PopulationNotInLaborForce",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LaborProductivityValueAdded",
+        "target_id": "Productivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CapitalLaborEnergyMaterialsMultifactorProductivity",
+        "target_id": "Productivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmployedPopulationTemporarilyNotAtWork",
+        "target_id": "EmployedPopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

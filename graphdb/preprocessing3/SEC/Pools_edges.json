@@ -1,0 +1,128 @@
+[
+    {
+        "source_id": "SecuritiesPool",
+        "target_id": "InstrumentPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesPool",
+        "target_id": "SecuritiesPoolConstituent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "SecuritiesPoolConstituent"
+            ]
+        }
+    },
+    {
+        "source_id": "InstrumentPoolAsAsset",
+        "target_id": "InstrumentPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "InstrumentPool"
+            ]
+        }
+    },
+    {
+        "source_id": "InstrumentPoolAsAsset",
+        "target_id": "FinancialAsset",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InstrumentPool",
+        "target_id": "Pool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FundFamily",
+        "target_id": "ManagedInvestment",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "ManagedInvestment"
+            ]
+        }
+    },
+    {
+        "source_id": "FundFamily",
+        "target_id": "Collection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Pool",
+        "target_id": "PoolConstituent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "PoolConstituent"
+            ]
+        }
+    },
+    {
+        "source_id": "Pool",
+        "target_id": "Collection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DebtPool",
+        "target_id": "InstrumentPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PooledFund",
+        "target_id": "Pool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ManagedInvestment",
+        "target_id": "PooledFund",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesPoolConstituent",
+        "target_id": "Security",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesPoolConstituent",
+        "target_id": "PoolConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PoolConstituent",
+        "target_id": "Constituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

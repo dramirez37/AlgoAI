@@ -1,0 +1,57 @@
+[
+    {
+        "id": "BasketOfIndices",
+        "type": "Class",
+        "name": "BasketOfIndices",
+        "definition": "basket composed of market indices",
+        "label": "market basket"
+    },
+    {
+        "id": "DatedStructuredCollection",
+        "type": "Entity",
+        "name": "DatedStructuredCollection"
+    },
+    {
+        "id": "WeightedBasket",
+        "type": "Entity",
+        "name": "WeightedBasket"
+    },
+    {
+        "id": "SecuritiesBasketConstituent",
+        "type": "Class",
+        "name": "SecuritiesBasketConstituent",
+        "definition": "security identified as a component of a basket of securities",
+        "label": "securities basket constituent"
+    },
+    {
+        "id": "DatedCollectionConstituent",
+        "type": "Entity",
+        "name": "DatedCollectionConstituent"
+    },
+    {
+        "id": "WeightedBasketConstituent",
+        "type": "Entity",
+        "name": "WeightedBasketConstituent"
+    },
+    {
+        "id": "BasketOfSecurities",
+        "type": "Class",
+        "name": "BasketOfSecurities",
+        "label": "basket of securities",
+        "definition": "basket composed of securities, typically of a particular asset class such as equities or bonds"
+    },
+    {
+        "id": "MixedBasket",
+        "type": "Class",
+        "name": "MixedBasket",
+        "definition": "basket that has a mix of constituents, including securities and indices",
+        "label": "mixed basket"
+    },
+    {
+        "id": "BasketOfIndicesConstituent",
+        "type": "Class",
+        "name": "BasketOfIndicesConstituent",
+        "definition": "single constituent of a basket of indices",
+        "label": "basket Of indices constituent"
+    }
+]

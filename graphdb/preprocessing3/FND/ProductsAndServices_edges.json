@@ -1,0 +1,455 @@
+[
+    {
+        "source_id": "ServiceProvider",
+        "target_id": "Service",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "provisions",
+                "Service"
+            ]
+        }
+    },
+    {
+        "source_id": "ServiceProvider",
+        "target_id": "Service",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "provides",
+                "Service"
+            ]
+        }
+    },
+    {
+        "source_id": "ServiceProvider",
+        "target_id": "Role",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreciousMetal",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionConfirmation",
+        "target_id": "LegalDocument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionConfirmation",
+        "target_id": "TransactionEvent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isEvidenceFor",
+                "TransactionEvent"
+            ]
+        }
+    },
+    {
+        "source_id": "ContractualProduct",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Service",
+        "target_id": "ServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isProvidedBy",
+                "ServiceProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "Service",
+        "target_id": "ServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isProvisionedBy",
+                "ServiceProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "Sale",
+        "target_id": "Buyer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasBuyer",
+                "Buyer"
+            ]
+        }
+    },
+    {
+        "source_id": "Sale",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Product"
+            ]
+        }
+    },
+    {
+        "source_id": "Sale",
+        "target_id": "Seller",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSeller",
+                "Seller"
+            ]
+        }
+    },
+    {
+        "source_id": "Sale",
+        "target_id": "Situation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Sale",
+        "target_id": "TransactionEvent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClientIdentifier",
+        "target_id": "PartyRoleIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ClientIdentifier",
+        "target_id": "Client",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "Client"
+            ]
+        }
+    },
+    {
+        "source_id": "ServiceAgreement",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ServiceAgreement",
+        "target_id": "ServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasContractParty",
+                "ServiceProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "ServiceAgreement",
+        "target_id": "MutualContractualAgreement",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ServiceAgreement",
+        "target_id": "Service",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "governs",
+                "Service"
+            ]
+        }
+    },
+    {
+        "source_id": "CustomerIdentifier",
+        "target_id": "Customer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "Customer"
+            ]
+        }
+    },
+    {
+        "source_id": "CustomerIdentifier",
+        "target_id": "PartyRoleIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Customer",
+        "target_id": "Buyer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Customer",
+        "target_id": "Supplier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "buysFrom",
+                "Supplier"
+            ]
+        }
+    },
+    {
+        "source_id": "Producer",
+        "target_id": "Good",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "produces",
+                "Good"
+            ]
+        }
+    },
+    {
+        "source_id": "Producer",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualTemplateProduct",
+        "target_id": "OffTheShelfProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ContractualTemplateProduct",
+        "target_id": "ContractualProduct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProductIdentifier",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "identifies",
+                "Product"
+            ]
+        }
+    },
+    {
+        "source_id": "ProductIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Buyer",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "buys",
+                "Product"
+            ]
+        }
+    },
+    {
+        "source_id": "Buyer",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Supplier",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Supplier",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "supplies",
+                "Product"
+            ]
+        }
+    },
+    {
+        "source_id": "TransactionEvent",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TransactionEvent",
+        "target_id": "TransactionConfirmation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isEvidencedBy",
+                "TransactionConfirmation"
+            ]
+        }
+    },
+    {
+        "source_id": "Client",
+        "target_id": "ServiceAgreement",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isAPartyTo",
+                "ServiceAgreement"
+            ]
+        }
+    },
+    {
+        "source_id": "Client",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CustomProduct",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OffTheShelfProduct",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Consumer",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Seller",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Seller",
+        "target_id": "Product",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "sells",
+                "Product"
+            ]
+        }
+    },
+    {
+        "source_id": "Commodity",
+        "target_id": "Good",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NegotiableCommodity",
+        "target_id": "Commodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

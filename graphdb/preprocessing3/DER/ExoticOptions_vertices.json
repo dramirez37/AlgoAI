@@ -1,0 +1,355 @@
+[
+    {
+        "id": "CompoundOption",
+        "type": "Class",
+        "name": "CompoundOption",
+        "explanatoryNote": "Therefore, there are two strike prices and two exercise dates. They are available for any combination of calls and puts. For example, a put where the underlying is a call option or a call where the underlying is a put option. The underlying is the second option, while the initial option is called the overlying. If the compound option is exercised, there are two premiums.",
+        "definition": "exotic option for which the underlying asset is another option",
+        "label": "compound option"
+    },
+    {
+        "id": "ExoticOption",
+        "type": "Entity",
+        "name": "ExoticOption"
+    },
+    {
+        "id": "LookbackOption",
+        "type": "Class",
+        "name": "LookbackOption",
+        "explanatoryNote": "As a type of exotic option, the lookback allows the user to 'look back,' or review, the prices of an underlying asset over the lifespan of the option after it has been purchased. The holder may then exercise the option based on the most beneficial price of the underlying asset. The holder can take advantage of the widest differential between the strike price and the price of the underlying asset. Lookback options do not trade on major exchanges. Instead, they are unlisted and trade over-the-counter (OTC). This type of option reduces uncertainties associated with the timing of market entry and reduces the chances the option will expire worthlessly. Lookback options are expensive to execute, so these advantages come at a cost.",
+        "definition": "exotic option that minimizes the uncertainties related to the timing of market entry, providing the holder the advantage of knowing history when determining when to exercise their option",
+        "label": "lookback option"
+    },
+    {
+        "id": "AsianOption",
+        "type": "Class",
+        "name": "AsianOption",
+        "label": "Asian option",
+        "explanatoryNote": "These options allow the buyer to purchase (or sell) the underlying asset at the average price instead of the spot price. There are various ways to interpret the word 'average,' and that needs to be specified in the options contract. Typically, the average price is a geometric or arithmetic average of the price of the underlying asset at discreet intervals, which are also specified in the options contract. Because of the averaging feature, Asian options reduce the volatility inherent in the option; therefore, Asian options are typically cheaper than European or American options. They are used by traders who are exposed to the underlying asset over some time, such as consumers and suppliers of commodities, etc.",
+        "definition": "option whose exercise terms involve a payoff determined by the average underlying price (either the strike price or the settlement price) of the underlying asset over a predetermined period"
+    },
+    {
+        "id": "KnockOutOption",
+        "type": "Class",
+        "name": "KnockOutOption",
+        "definition": "barrier option with a built-in mechanism to expire as worthless if a specified price level in the underlying asset is reached",
+        "explanatoryNote": "A knock-out option sets a cap on the level an option can reach in the holder's favor. As knock-out options limit the profit potential for the option buyer, they can be purchased for a smaller premium than an equivalent option without a knock-out stipulation.",
+        "label": "knock-out option"
+    },
+    {
+        "id": "BarrierOption",
+        "type": "Class",
+        "name": "BarrierOption",
+        "label": "barrier option",
+        "explanatoryNote": "Barrier features include any terms related to exercising the option ahead of the expiry date.",
+        "definition": "option whose final exercise depends upon the path taken by the price of an underlying instrument, i.e., whose payoff depends on whether or not the underlying asset has reached or exceeded a predetermined price"
+    },
+    {
+        "id": "FloatingLookbackStrikeExpression",
+        "type": "Class",
+        "name": "FloatingLookbackStrikeExpression",
+        "label": "floating lookback strike expression",
+        "definition": "cashflow expression specifying the arguments required to calculate the best projected price at which the lookback option may be exercised"
+    },
+    {
+        "id": "CashflowExpression",
+        "type": "Entity",
+        "name": "CashflowExpression"
+    },
+    {
+        "id": "InterestRateCapOption",
+        "type": "Class",
+        "name": "InterestRateCapOption",
+        "explanatoryNote": "The interest in each period is effectively capped by the strike rate. That is, the rate of interest may not go above the strike rate because the holder is expected to exercise the option to take the strike as the rate of interest instead.",
+        "label": "interest rate cap option",
+        "definition": "interest rate derivative in which the buyer receives payments at the end of each period in which the interest rate exceeds the agreed strike price"
+    },
+    {
+        "id": "InterestRateOption",
+        "type": "Entity",
+        "name": "InterestRateOption"
+    },
+    {
+        "id": "CliquetOption",
+        "type": "Class",
+        "name": "CliquetOption",
+        "definition": "exotic option that is a series of at-the-money (ATM) options, either puts or calls, where each successive option becomes active when the previous one expires",
+        "label": "cliquet option",
+        "explanatoryNote": "A cliquet is a series of forward start options, all related to each other. Each forward start option represents the advance purchase of a put, or call, option with an at-the-money (ATM) strike price to be determined at a later date, typically when the option becomes active. A forward start option becomes active at a specified date in the future. The premium is paid in advance, while the time to expiration and the underlying security are established at the time the forward start option is purchased. If at the first settlement date the underlying security trades below the strike price of the option (for a call), then it expires worthless and resets to the price of the underlying security at the time of settlement. If at the end of the next settlement the underlying security trades above the new strike, the holder may elect to receive the difference between the market price of the underlying security and the strike price. Alternatively, the holder can let it ride to receive the sum of all payouts at maturity. The main advantage of initiating a cliquet is, if an investor expects volatility to rise, they can lock in their profits at predetermined levels and thus maximize their overall portfolio return."
+    },
+    {
+        "id": "LookbackStrikeTerms",
+        "type": "Class",
+        "name": "LookbackStrikeTerms",
+        "label": "lookback strike terms",
+        "explanatoryNote": "In the case of a fixed strike, the terms depend on whether the option is a call or put. If it is a call, the calculated payout reflects the difference between a running maximum value of the observable during the lookback period, and the pre-agreed strike.",
+        "definition": "terms specifying the value of the underlying asset based on analysis during a specific period, typically ending in the maturity of the option, whereby the payoff is determined by comparing the strike price with the value of the selected price"
+    },
+    {
+        "id": "DerivativeTerms",
+        "type": "Entity",
+        "name": "DerivativeTerms"
+    },
+    {
+        "id": "AveragingStrategy",
+        "type": "Class",
+        "name": "AveragingStrategy",
+        "definition": "method used for calculating the average rate or price of an Asian option",
+        "label": "averaging strategy"
+    },
+    {
+        "id": "Strategy",
+        "type": "Entity",
+        "name": "Strategy"
+    },
+    {
+        "id": "DoubleBarrierOption",
+        "type": "Class",
+        "name": "DoubleBarrierOption",
+        "label": "double barrier option",
+        "explanatoryNote": "Considered an exotic option, a double barrier option is a combination of two single barrier options, with one barrier above and one barrier below the current price of the underlying. It is a bet by the holder that the underlying asset will move significantly, in the case of a knock-in barrier option, or will move by a very small amount, in the case of a knock-out barrier option, over the life of the contract. Traders use these options when they have an opinion on volatility but not on the direction of the underlying asset's next price move. A barrier option is a type of option where the payoff, and the very existence of the option, depends on whether or not the underlying asset reaches a predetermined price.",
+        "definition": "barrier option applied to currencies or over the counter stocks that works as a binary, or digital option in that it pays out only under defined circumstances, or it is worthless, at expiration"
+    },
+    {
+        "id": "ObservedBestValue",
+        "type": "Class",
+        "name": "ObservedBestValue",
+        "label": "observed best value",
+        "definition": "observed value of the underlying asset as of some date during the lookback period that is considered the best value from the perspective of the option holder during the lookback period (depending on whether the option is a call or put)"
+    },
+    {
+        "id": "MarketPrice",
+        "type": "Entity",
+        "name": "MarketPrice"
+    },
+    {
+        "id": "Swaption",
+        "type": "Class",
+        "name": "Swaption",
+        "definition": "over-the-counter option that confers the right but not the obligation, to enter into a swap transaction at some time in the future",
+        "label": "swaption",
+        "explanatoryNote": "A swaption, also known as a swap option, refers to an option to enter into an interest rate swap or some other type of swap. In exchange for an options premium, the buyer gains the right but not the obligation to enter into a specified swap agreement with the issuer on a specified future date."
+    },
+    {
+        "id": "ForwardStartOption",
+        "type": "Class",
+        "name": "ForwardStartOption",
+        "label": "forward start option",
+        "definition": "exotic option that is fully specified with respect to a set expiry date, underlying asset and other parameters, purchased and paid for on initiation, but that becomes active at a set activation date with a strike price determined at the time of activation",
+        "explanatoryNote": "The only unknown for the contract is the strike price. In terms of pricing the contract, the future price of the underlying asset is also unknown. The contract typically stipulates some parameters for where the strike price will be in relation to the underlying asset's price."
+    },
+    {
+        "id": "MountainRangeOption",
+        "type": "Class",
+        "name": "MountainRangeOption",
+        "explanatoryNote": "These options blend some of the key characteristics of basket-style or rainbow options\u2014both of which have more than one underlying security or asset\u2014and range options with multiyear time ranges. Prices are based on multiple variables - notably the correlations between the individual securities in the basket.",
+        "definition": "exotic option based on multiple underlying securities",
+        "label": "mountain range option"
+    },
+    {
+        "id": "LowExercisePriceOption",
+        "type": "Class",
+        "name": "LowExercisePriceOption",
+        "explanatoryNote": "LEPOs function as deep-in-the-money options similar to the stock itself. Both buyer and seller of a LEPO operate on margin. LEPO options are not available on any U.S. exchanges. Since the strike price is so close to zero, the investor purchasing the LEPO gains most of the features of owning the share directly with the major exceptions of dividends and voting rights. They are only available with European style expirations.",
+        "label": "low exercise price option",
+        "abbreviation": "LEPO",
+        "definition": "exotic option that is a European-style call option with an exercise price of one cent that mimics a futures contract"
+    },
+    {
+        "id": "CallOption",
+        "type": "Entity",
+        "name": "CallOption"
+    },
+    {
+        "id": "ChooserOption",
+        "type": "Class",
+        "name": "ChooserOption",
+        "label": "chooser option",
+        "explanatoryNote": "A chooser option is an option contract that allows the holder to decide whether it is a call or put prior to the expiration date. Chooser options usually have the same strike price and expiration date regardless of what decision the holder makes. Because the option could benefit from upside or downside movement, chooser options provide investors a great deal of flexibility and thus may cost more than comparable vanilla options. Chooser options are typically European style, and have one strike price and one expiration date regardless of whether the option is exercised as a call or put.",
+        "definition": "exotic option that allows its holder (buyer) to exercise the right to buy (call) or sell (put) specified assets at a fixed price whereby the buyer does not have to decide whether the contract will be a put or a call until an agreed future date, prior to expiration"
+    },
+    {
+        "id": "ProjectedValueAtMaturity",
+        "type": "Class",
+        "name": "ProjectedValueAtMaturity",
+        "label": "projected value at maturity",
+        "definition": "expected value of the underlying asset at maturity calculated as of some date during the lookback period"
+    },
+    {
+        "id": "CalculatedPrice",
+        "type": "Entity",
+        "name": "CalculatedPrice"
+    },
+    {
+        "id": "AsianOptionClassifier",
+        "type": "Class",
+        "name": "AsianOptionClassifier",
+        "definition": "financial instrument classifier that classifies Asian options based on whether they are rate-based or price based",
+        "label": "Asian option classifier"
+    },
+    {
+        "id": "FinancialInstrumentClassifier",
+        "type": "Entity",
+        "name": "FinancialInstrumentClassifier"
+    },
+    {
+        "id": "InterestRateFloorOption",
+        "type": "Class",
+        "name": "InterestRateFloorOption",
+        "definition": "interest rate derivative in which the buyer receives payments at the end of each period in which the interest rate is below the agreed strike price",
+        "label": "interest rate floor option"
+    },
+    {
+        "id": "FixedLookbackStrikeExpression",
+        "type": "Class",
+        "name": "FixedLookbackStrikeExpression",
+        "definition": "cashflow expression specifying the arguments required to calculate the fixed price at which the lookback option is to be exercised",
+        "label": "fixed lookback strike expression"
+    },
+    {
+        "id": "RainbowOption",
+        "type": "Class",
+        "name": "RainbowOption",
+        "explanatoryNote": "Rainbbow options can speculate on the best performer in the group or minimum performances of all the underlying assets at one time. Each underlying may be called a color so the sum of all of these factors makes up a rainbow. These structures can be rather exotic and made for institutional clients when referring to financial assets. Rainbow options can be structured in many ways depending on how the performances of each underlying asset are considered. Some pay off based on the best or worst performance among the underlying assets. In other words, it looks at the top or bottom performance and pays off based on that single asset. These are sometimes called 'best of' or 'worst of' rainbow options.",
+        "label": "rainbow option",
+        "definition": "exotic option linked to the performances of two or more underlying assets"
+    },
+    {
+        "id": "KnockInOption",
+        "type": "Class",
+        "name": "KnockInOption",
+        "definition": "barrier option that is not triggered until a certain price threshold is met",
+        "label": "knock-in option",
+        "explanatoryNote": "If the price is never reached, it is as if the contract never existed. However, if the underlying asset reaches a specified barrier, the knock-in option comes into existence. The difference between a knock-in and knock-out option is that a knock-in option comes into existence only when the underlying security reaches a barrier, while a knock-out option ceases to exist when the underlying security reaches a barrier."
+    },
+    {
+        "id": "CommodoreOption",
+        "type": "Class",
+        "name": "CommodoreOption",
+        "definition": "exotic option consisting of a number of digital barrier options that pay a coupon if a pre-determined level of the underlying or basket of underlyings is reached",
+        "label": "commodore option",
+        "explanatoryNote": "Sometimes the digital barrier increases with the number of years since the trade began. All of the options are active from the start of the trade."
+    },
+    {
+        "id": "DigitalOption",
+        "type": "Class",
+        "name": "DigitalOption",
+        "explanatoryNote": "There is an upfront fee called the premium for digital options, which is the maximum loss for the option. Unlike traditional options, digital options don't convert or exercise to the underlying asset's shares. Instead, they pay out a fixed reward if the asset's price is above or below the option's strike price.",
+        "label": "digital option",
+        "definition": "exotic option that has a pre-determined payout if the option is in-the-money and the payoff condition is satisfied"
+    },
+    {
+        "id": "isAboveStrikePrice",
+        "type": "DatatypeProperty",
+        "name": "isAboveStrikePrice",
+        "definition": "indicates whether the barrier is crossed when the price of the underlier is above (or below, if not) the strike price (threshold)",
+        "label": "is above strike price"
+    },
+    {
+        "id": "AverageStrike",
+        "type": "NamedIndividual",
+        "name": "AverageStrike",
+        "label": "average strike classification",
+        "definition": "Asian option classifier indicating that the payoff is based on the difference between the price of the underlying at expiration and a strike price equal to the calculated average price of the underlying issue"
+    },
+    {
+        "id": "hasAsianTailPeriod",
+        "type": "ObjectProperty",
+        "name": "hasAsianTailPeriod",
+        "label": "has Asian tail period",
+        "definition": "window of time during which averaging of the price of the underlying contract is effective"
+    },
+    {
+        "id": "hasFirstBarrierPrice",
+        "type": "ObjectProperty",
+        "name": "hasFirstBarrierPrice",
+        "label": "has first barrier price",
+        "definition": "has price (or level) that activates or deactivates the option",
+        "explanatoryNote": "For a double barrier option, this is the level of the first barrier. Otherwise it is the only barrier price."
+    },
+    {
+        "id": "hasSecondRebateAmount",
+        "type": "ObjectProperty",
+        "name": "hasSecondRebateAmount",
+        "label": "has second rebate amount",
+        "definition": "indicates the percentage of the premium paid by the holder in the case of a double barrier option"
+    },
+    {
+        "id": "AverageRate",
+        "type": "NamedIndividual",
+        "name": "AverageRate",
+        "label": "average rate classification",
+        "definition": "Asian option classifier indicating that the payoff is based on the difference between a fixed strike price and the calculated average price of the underlying"
+    },
+    {
+        "id": "usesCurrencyInAveraging",
+        "type": "ObjectProperty",
+        "name": "usesCurrencyInAveraging",
+        "label": "uses currency in averaging",
+        "definition": "indicates the currency used in averaging calculation"
+    },
+    {
+        "id": "GeometricCalculationStrategy",
+        "type": "AveragingStrategy",
+        "name": "GeometricCalculationStrategy",
+        "definition": "strategy that uses an geometric mean calculation",
+        "label": "geometric calculation strategy"
+    },
+    {
+        "id": "hasFirstRebateAmount",
+        "type": "ObjectProperty",
+        "name": "hasFirstRebateAmount",
+        "explanatoryNote": "Both knock-out and knock-in barrier options can contain a provision to provide rebates to holders, if the option does not reach the barrier price and becomes worthless.",
+        "definition": "indicates the percentage of the premium paid by the holder for the option",
+        "label": "has first rebate amount"
+    },
+    {
+        "id": "hasLookbackPeriod",
+        "type": "ObjectProperty",
+        "name": "hasLookbackPeriod",
+        "definition": "window of time during which the lookback is effective",
+        "label": "has lookback period"
+    },
+    {
+        "id": "hasMonitoringFrequency",
+        "type": "DatatypeProperty",
+        "name": "hasMonitoringFrequency",
+        "label": "has monitoring frequency",
+        "definition": "has frequency with respect to how often, in days, the asset price is checked to see if the barrier has been breached"
+    },
+    {
+        "id": "usesWeightedAverage",
+        "type": "DatatypeProperty",
+        "name": "usesWeightedAverage",
+        "definition": "indicates whether a weighted average is being used to calculate the average rate or strike price",
+        "label": "uses weighted average"
+    },
+    {
+        "id": "hasMonitoringPeriod",
+        "type": "ObjectProperty",
+        "name": "hasMonitoringPeriod",
+        "definition": "window of time during which pricing is monitored",
+        "label": "has monitoring period"
+    },
+    {
+        "id": "ArithmeticCalculationStrategy",
+        "type": "AveragingStrategy",
+        "name": "ArithmeticCalculationStrategy",
+        "label": "arithmetic calculation strategy",
+        "definition": "strategy that uses an arithmetic mean calculation"
+    },
+    {
+        "id": "hasSecondBarrierPrice",
+        "type": "ObjectProperty",
+        "name": "hasSecondBarrierPrice",
+        "definition": "has price (or level) that the second barrier activates or deactivates in the case of a double barrier option",
+        "label": "has second barrier price"
+    },
+    {
+        "id": "hasOptionTypeElectionDate",
+        "type": "ObjectProperty",
+        "name": "hasOptionTypeElectionDate",
+        "label": "has option type election date",
+        "definition": "indicates the date on which the holder of the chooser option contract determines a choice of either a call or a put"
+    }
+]

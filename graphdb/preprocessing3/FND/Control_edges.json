@@ -1,0 +1,141 @@
+[
+    {
+        "source_id": "ControlledThing",
+        "target_id": "Control",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isControlledThingIn",
+                "Control"
+            ]
+        }
+    },
+    {
+        "source_id": "ControlledThing",
+        "target_id": "ControllingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasControllingParty",
+                "ControllingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "ControlledThing",
+        "target_id": "Undergoer",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ControlledThing",
+        "target_id": "isInitiallyControlledOn",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "isInitiallyControlledOn"
+            ]
+        }
+    },
+    {
+        "source_id": "DeJureControl",
+        "target_id": "Control",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeJureControl",
+        "target_id": "LegalConstruct",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Control",
+        "target_id": "ControllingParty",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPartyInControl",
+                "ControllingParty"
+            ]
+        }
+    },
+    {
+        "source_id": "Control",
+        "target_id": "ControlledThing",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "involvesControlledThing",
+                "ControlledThing"
+            ]
+        }
+    },
+    {
+        "source_id": "Control",
+        "target_id": "Situation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DeFactoControl",
+        "target_id": "Control",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ControllingParty",
+        "target_id": "Actor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ControllingParty",
+        "target_id": "ControlledThing",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPartyControlling",
+                "ControlledThing"
+            ]
+        }
+    },
+    {
+        "source_id": "ControllingParty",
+        "target_id": "Control",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isControllingPartyIn",
+                "Control"
+            ]
+        }
+    }
+]

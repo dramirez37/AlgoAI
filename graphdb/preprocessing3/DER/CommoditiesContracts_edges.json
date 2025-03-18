@@ -1,0 +1,338 @@
+[
+    {
+        "source_id": "GasCommodity",
+        "target_id": "ExtractionResource",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GasCommodity",
+        "target_id": "EnergyResource",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PolypropyleneResource",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityBasketConstituent",
+        "target_id": "WeightedBasketConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfCommodities",
+        "target_id": "WeightedBasket",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfCommodities",
+        "target_id": "CommodityBasketConstituent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "CommodityBasketConstituent"
+            ]
+        }
+    },
+    {
+        "source_id": "CommodityForward",
+        "target_id": "Forward",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityForward",
+        "target_id": "CommodityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityUnderlyingAsset",
+        "target_id": "Underlier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PaperResource",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityFuture",
+        "target_id": "CommodityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityFuture",
+        "target_id": "Future",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OilCommodity",
+        "target_id": "OilGrade",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasGrade",
+                "OilGrade"
+            ]
+        }
+    },
+    {
+        "source_id": "OilCommodity",
+        "target_id": "GeneratedResource",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ServiceResource",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityReturnLeg",
+        "target_id": "ReturnLeg",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityReturnLeg",
+        "target_id": "CommodityUnderlyingAsset",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "CommodityUnderlyingAsset"
+            ]
+        }
+    },
+    {
+        "source_id": "PreciousMetal",
+        "target_id": "Metal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgriculturalResource",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityOption",
+        "target_id": "CommodityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityOption",
+        "target_id": "VanillaOption",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FertilizerResource",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityIndex",
+        "target_id": "BasketOfCommodities",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "BasketOfCommodities"
+            ]
+        }
+    },
+    {
+        "source_id": "CommodityIndex",
+        "target_id": "ReferenceIndex",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeatherDerivative",
+        "target_id": "CommodityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "WeatherDerivative",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExtractionResource",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityDerivative",
+        "target_id": "CommodityUnderlyingAsset",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasUnderlier",
+                "CommodityUnderlyingAsset"
+            ]
+        }
+    },
+    {
+        "source_id": "CommodityDerivative",
+        "target_id": "DerivativeInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommodityDerivative",
+        "target_id": "CommodityInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommoditySpotContract",
+        "target_id": "CommodityInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommoditySpotContract",
+        "target_id": "SpotContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Metal",
+        "target_id": "ExtractionResource",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommoditySwap",
+        "target_id": "ReturnSwap",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommoditySwap",
+        "target_id": "CommodityDerivative",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CommoditySwap",
+        "target_id": "CommodityReturnLeg",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasReturnLeg",
+                "CommodityReturnLeg"
+            ]
+        }
+    },
+    {
+        "source_id": "Bullion",
+        "target_id": "PreciousMetal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FreightResource",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndustrialResource",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EnvironmentalResource",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BaseMetal",
+        "target_id": "Metal",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GeneratedResource",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EnergyTransmissionRights",
+        "target_id": "EnergyResource",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EnergyResource",
+        "target_id": "NegotiableCommodity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "GrainCommodity",
+        "target_id": "AgriculturalResource",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MeatCommodity",
+        "target_id": "AgriculturalResource",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OilGrade",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

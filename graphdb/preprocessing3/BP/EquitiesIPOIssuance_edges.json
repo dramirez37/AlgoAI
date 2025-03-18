@@ -1,0 +1,269 @@
+[
+    {
+        "source_id": "SettlementOfAllocatedShares",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PublishInitialProspectus",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AllocationBasisDetails",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NoticeOfAllocation",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Sponsor",
+        "target_id": "CorporateBroker",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "mayBe",
+                "CorporateBroker"
+            ]
+        }
+    },
+    {
+        "source_id": "Sponsor",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FormalApprovalForListingAndTrading",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IPOFullProspectus",
+        "target_id": "FinalProspectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegisterWithRegulatoryAuthority",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PurchaseUnallocatedStock",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AgreeBasisForAllocation",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SetPrice",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReportingAccountant",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InitialPublicOfferingProcessStep",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InitialPublicOfferingProcessStep",
+        "target_id": "IPOProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "IPOProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "ApproveForFlotation",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PotentialShareUnderwriter",
+        "target_id": "PotentialUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ShareRegister",
+        "target_id": "Registry",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CorporateBroker",
+        "target_id": "Broker",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketingOfShareIssue",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AllocationDetails",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FilingDetails",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Underwriting",
+        "target_id": "PotentialShareUnderwriter",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "shareUnderwriter",
+                "PotentialShareUnderwriter"
+            ]
+        }
+    },
+    {
+        "source_id": "Underwriting",
+        "target_id": "SyndicateMember",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "syndicateMember",
+                "SyndicateMember"
+            ]
+        }
+    },
+    {
+        "source_id": "SyndicateMember",
+        "target_id": "PartyRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PurchasePrice",
+        "target_id": "MonetaryPrice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AppointAdvisors",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EquityAnnouncement",
+        "target_id": "Notice",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Allocation",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ApplicationForShares",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ReceiveApplications",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IPOPreliminaryProspectus",
+        "target_id": "PreliminaryProspectus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IPOPreliminaryProspectus",
+        "target_id": "IPOFullProspectus",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "precedes",
+                "IPOFullProspectus"
+            ]
+        }
+    },
+    {
+        "source_id": "IPOSettlementDetails",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegistrationStatementDocument",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AnnounceEquityIssue",
+        "target_id": "InitialPublicOfferingProcessStep",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IndicationOfInterest",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

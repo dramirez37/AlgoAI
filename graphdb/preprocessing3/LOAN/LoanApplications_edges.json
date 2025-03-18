@@ -1,0 +1,383 @@
+[
+    {
+        "source_id": "BorrowerAssessment",
+        "target_id": "AssessmentReport",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BorrowerAssessment",
+        "target_id": "IndividualPersonCreditRating",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "IndividualPersonCreditRating"
+            ]
+        }
+    },
+    {
+        "source_id": "BorrowerAssessment",
+        "target_id": "LoanApplication",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isAbout",
+                "LoanApplication"
+            ]
+        }
+    },
+    {
+        "source_id": "BorrowerAssessment",
+        "target_id": "IncomeVerificationReport",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "comprises",
+                "IncomeVerificationReport"
+            ]
+        }
+    },
+    {
+        "source_id": "PreApprovalContract",
+        "target_id": "WrittenContract",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreApprovalContract",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasApprovedAmount",
+                "MonetaryAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "PreApprovalRequest",
+        "target_id": "RequestActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PreApprovalRequest",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasRequestedAmount",
+                "MonetaryAmount"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRiskAssessment",
+        "target_id": "PreApprovalContract",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInput",
+                "PreApprovalContract"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRiskAssessment",
+        "target_id": "PublicRecord",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInput",
+                "PublicRecord"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRiskAssessment",
+        "target_id": "UnderwritingDecision",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasOutput",
+                "UnderwritingDecision"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRiskAssessment",
+        "target_id": "TotalDebtExpenseRatio",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "usesFactor",
+                "TotalDebtExpenseRatio"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRiskAssessment",
+        "target_id": "AssessmentActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditRiskAssessment",
+        "target_id": "AllBorrowersMonthlyIncome",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "usesFactor",
+                "AllBorrowersMonthlyIncome"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRiskAssessment",
+        "target_id": "PreApprovalRequest",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasInput",
+                "PreApprovalRequest"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditRiskAssessment",
+        "target_id": "BorrowerMonthlyIncome",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "usesFactor",
+                "BorrowerMonthlyIncome"
+            ]
+        }
+    },
+    {
+        "source_id": "IndividualPersonCreditRating",
+        "target_id": "CreditRating",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanApplicationPhase",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanApplicationStatus",
+        "target_id": "LifecycleStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanApplication",
+        "target_id": "TotalDebtExpenseRatio",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "TotalDebtExpenseRatio"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanApplication",
+        "target_id": "AllBorrowersMonthlyIncome",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "AllBorrowersMonthlyIncome"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanApplication",
+        "target_id": "BorrowerMonthlyIncome",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "BorrowerMonthlyIncome"
+            ]
+        }
+    },
+    {
+        "source_id": "LoanApplication",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PublicRecord",
+        "target_id": "Record",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PublicRecord",
+        "target_id": "PublicRecordCategory",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isClassifiedBy",
+                "PublicRecordCategory"
+            ]
+        }
+    },
+    {
+        "source_id": "AllBorrowersMonthlyIncome",
+        "target_id": "BorrowerMonthlyIncome",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isBasedOn",
+                "BorrowerMonthlyIncome"
+            ]
+        }
+    },
+    {
+        "source_id": "AllBorrowersMonthlyIncome",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AllBorrowersMonthlyIncome",
+        "target_id": "Income",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderwritingAutomation",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IncomeVerificationReport",
+        "target_id": "AssessmentReport",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderwritingDecision",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanAtApplicationStage",
+        "target_id": "LoanApplicationStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanApplicationAtAgreementStage",
+        "target_id": "LoanApplicationStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BorrowerMonthlyIncome",
+        "target_id": "MonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BorrowerMonthlyIncome",
+        "target_id": "Income",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PublicRecordCategory",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TotalDebtExpenseRatio",
+        "target_id": "PercentageMonetaryAmount",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "LoanApplicationAtDisbursementStage",
+        "target_id": "LoanApplicationStatus",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

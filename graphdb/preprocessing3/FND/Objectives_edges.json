@@ -1,0 +1,329 @@
+[
+    {
+        "source_id": "ProgramName",
+        "target_id": "Program",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isNameOf",
+                "Program"
+            ]
+        }
+    },
+    {
+        "source_id": "ProgramName",
+        "target_id": "ContextualName",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProjectIdentifier",
+        "target_id": "Project",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "Project"
+            ]
+        }
+    },
+    {
+        "source_id": "ProjectIdentifier",
+        "target_id": "ContextualIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SalesStrategy",
+        "target_id": "BusinessStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Project",
+        "target_id": "Goal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasGoal",
+                "Goal"
+            ]
+        }
+    },
+    {
+        "source_id": "Project",
+        "target_id": "ProjectName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasName",
+                "ProjectName"
+            ]
+        }
+    },
+    {
+        "source_id": "Project",
+        "target_id": "Situation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Project",
+        "target_id": "ProjectIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "ProjectIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "Project",
+        "target_id": "Program",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isMemberOf",
+                "Program"
+            ]
+        }
+    },
+    {
+        "source_id": "Project",
+        "target_id": "Objective",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasObjective",
+                "Objective"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessStrategy",
+        "target_id": "BusinessObjective",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasObjective",
+                "BusinessObjective"
+            ]
+        }
+    },
+    {
+        "source_id": "BusinessStrategy",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Program",
+        "target_id": "Project",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasMember",
+                "Project"
+            ]
+        }
+    },
+    {
+        "source_id": "Program",
+        "target_id": "ProgramIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "ProgramIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "Program",
+        "target_id": "Objective",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasObjective",
+                "Objective"
+            ]
+        }
+    },
+    {
+        "source_id": "Program",
+        "target_id": "ProgramName",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasName",
+                "ProgramName"
+            ]
+        }
+    },
+    {
+        "source_id": "Program",
+        "target_id": "Goal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasGoal",
+                "Goal"
+            ]
+        }
+    },
+    {
+        "source_id": "Program",
+        "target_id": "Situation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Strategy",
+        "target_id": "Goal",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasGoal",
+                "Goal"
+            ]
+        }
+    },
+    {
+        "source_id": "Strategy",
+        "target_id": "Objective",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasObjective",
+                "Objective"
+            ]
+        }
+    },
+    {
+        "source_id": "DistributionStrategy",
+        "target_id": "Strategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProgramIdentifier",
+        "target_id": "ContextualIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ProgramIdentifier",
+        "target_id": "Program",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "identifies",
+                "Program"
+            ]
+        }
+    },
+    {
+        "source_id": "ProjectName",
+        "target_id": "Project",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isNameOf",
+                "Project"
+            ]
+        }
+    },
+    {
+        "source_id": "ProjectName",
+        "target_id": "ContextualName",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BusinessObjective",
+        "target_id": "Objective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FinancialObjective",
+        "target_id": "Objective",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InvestmentObjective",
+        "target_id": "FinancialObjective",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

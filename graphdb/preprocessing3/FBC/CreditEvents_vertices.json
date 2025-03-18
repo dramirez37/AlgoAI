@@ -1,0 +1,189 @@
+[
+    {
+        "id": "FailureToPayInterest",
+        "type": "Class",
+        "name": "FailureToPayInterest",
+        "definition": "default event that where either an expected interest payment is missed altogether or the amount paid is less than the required amount",
+        "label": "failure to pay interest"
+    },
+    {
+        "id": "FailureToPay",
+        "type": "Class",
+        "name": "FailureToPay",
+        "label": "failure to pay",
+        "definition": "default event that is triggered following any applicable grace period in which a payment obligation is missed"
+    },
+    {
+        "id": "DefaultEvent",
+        "type": "Class",
+        "name": "DefaultEvent",
+        "definition": "credit event representing a failure to meet a contractual obligation, such as failure to repay a debt including interest or principal on a loan or security",
+        "label": "default event",
+        "explanatoryNote": "A default can occur when a borrower is unable to make timely payments, misses payments, or avoids or stops making payments, typically with respect to a single transaction. A default has adverse effects on the borrower's credit and ability to borrow in the future, and allows the creditor to demand immediate repayment of the obligation in full."
+    },
+    {
+        "id": "FailureToPayPrincipal",
+        "type": "Class",
+        "name": "FailureToPayPrincipal",
+        "label": "failure to pay principal",
+        "definition": "default event that where either an expected principal payment is missed altogether or the amount paid is less than the required amount"
+    },
+    {
+        "id": "ObligationSpecificCreditEvent",
+        "type": "Class",
+        "name": "ObligationSpecificCreditEvent",
+        "definition": "credit event that relates to an individual credit agreement or debt instrument (reference obligation)",
+        "label": "obligation-specific credit event"
+    },
+    {
+        "id": "CreditEvent",
+        "type": "Class",
+        "name": "CreditEvent",
+        "definition": "event signifying a sudden change in credit standing, such as bankruptcy or a violation of a bond indenture or loan agreement, that raises doubts about the party's ability to meet current or future obligations",
+        "label": "credit event"
+    },
+    {
+        "id": "SoftCreditEvent",
+        "type": "Class",
+        "name": "SoftCreditEvent",
+        "definition": "default event that is repairable",
+        "explanatoryNote": "If the default is not repaired within a grace period, then a failure to repair (failure to pay) credit event is triggered, potentially as a hard default.",
+        "label": "soft credit event"
+    },
+    {
+        "id": "Downgrade",
+        "type": "Class",
+        "name": "Downgrade",
+        "definition": "credit event triggered when the credit rating of a party or obligation is lowered",
+        "label": "downgrade"
+    },
+    {
+        "id": "EntitySpecificCreditEvent",
+        "type": "Class",
+        "name": "EntitySpecificCreditEvent",
+        "definition": "credit event that applies to a given legal person",
+        "label": "entity-specific credit event"
+    },
+    {
+        "id": "Moratorium",
+        "type": "Class",
+        "name": "Moratorium",
+        "label": "moratorium",
+        "explanatoryNote": "A moratorium may be a legally-mandated hiatus in debt collection as a part of a bankruptcy process.",
+        "definition": "entity-specific credit event involving a temporary suspension of payments until related issues are resolved"
+    },
+    {
+        "id": "Bankruptcy",
+        "type": "Class",
+        "name": "Bankruptcy",
+        "label": "bankruptcy",
+        "definition": "credit event involving a change in state or condition in which a party becomes insolvent"
+    },
+    {
+        "id": "Repudiation",
+        "type": "Class",
+        "name": "Repudiation",
+        "definition": "credit event involving the refusal to honor the terms of a contract",
+        "label": "repudiation"
+    },
+    {
+        "id": "ObligationAcceleration",
+        "type": "Class",
+        "name": "ObligationAcceleration",
+        "label": "obligation acceleration",
+        "definition": "credit event triggered when one or more reference obligations become immediately due and payable as a result of a default or covenant breach on the reference entity's other debt instruments, subject to a materiality threshold"
+    },
+    {
+        "id": "InstallmentDefault",
+        "type": "Class",
+        "name": "InstallmentDefault",
+        "label": "installment default",
+        "explanatoryNote": "The latter may result in a court action by the issuer or the sale of the securities to recover costs and/or a forfeit of partially paid securities.",
+        "definition": "default event involving non-payment of several installment payments as scheduled in the terms of the agreement, or non-payment of a call by the beneficial owner"
+    },
+    {
+        "id": "MaturityExtension",
+        "type": "Class",
+        "name": "MaturityExtension",
+        "definition": "credit event involving extension of payments beyond the original maturity date of the obligation",
+        "explanatoryNote": "As stipulated in the terms and conditions for a bond, for example, the issuer or the bondholder may prolong the maturity date. After extension, the security may differ from original issue (new rate or maturity date). May be subject to bondholder's approval.",
+        "label": "maturity extension"
+    },
+    {
+        "id": "ObligationRestructuring",
+        "type": "Class",
+        "name": "ObligationRestructuring",
+        "definition": "credit event that materially impacts an obligation, such as an interest rate reduction, principal reduction, deferral of interest or principal, change in priority ranking, or change in currency or composition of payment",
+        "label": "obligation restructuring"
+    },
+    {
+        "id": "DistressedRatingsDowngrade",
+        "type": "Class",
+        "name": "DistressedRatingsDowngrade",
+        "label": "distressed ratings downgrade",
+        "definition": "credit event triggered when the credit rating of an obligation is downgraded to a distressed debt level"
+    },
+    {
+        "id": "ObligationDefault",
+        "type": "Class",
+        "name": "ObligationDefault",
+        "label": "obligation default",
+        "definition": "credit event triggered as a result of an obligation-specific default"
+    },
+    {
+        "id": "WriteDown",
+        "type": "Class",
+        "name": "WriteDown",
+        "definition": "obligation-specific credit event whereby the book value of the obligation, such as the outstanding principal amount, is reduced",
+        "label": "write-down"
+    },
+    {
+        "id": "HardCreditEvent",
+        "type": "Class",
+        "name": "HardCreditEvent",
+        "definition": "default event that is not repairable",
+        "label": "hard credit event"
+    },
+    {
+        "id": "FilingForBankruptcy",
+        "type": "Class",
+        "name": "FilingForBankruptcy",
+        "explanatoryNote": "The bankruptcy process is initiated via a petition filed by the debtor or on behalf of creditors. The debtor's assets may be used to repay a portion of outstanding debt as specified by the court or a court-appointed individual.",
+        "definition": "credit event that involves a request to a court to be recognized as bankrupt",
+        "label": "filing for bankruptcy"
+    },
+    {
+        "id": "Occurrence",
+        "type": "Entity",
+        "name": "Occurrence"
+    },
+    {
+        "id": "isGracePeriodExtendable",
+        "type": "DatatypeProperty",
+        "name": "isGracePeriodExtendable",
+        "definition": "indicates whether or not the grace period may be extended, which may be jurisdiction specific",
+        "label": "is grace period extendable"
+    },
+    {
+        "id": "hasGracePeriod",
+        "type": "ObjectProperty",
+        "name": "hasGracePeriod",
+        "definition": "window following any payment due date during which a party must fulfill its obligations before a failure to pay credit event occurs",
+        "explanatoryNote": "Note that this may be a period denominated in business days or calendar days.",
+        "label": "has grace period"
+    },
+    {
+        "id": "involvesMultipleEvents",
+        "type": "DatatypeProperty",
+        "name": "involvesMultipleEvents",
+        "label": "involves multiple events",
+        "definition": "indicates that the restructuring spans more than one credit event"
+    },
+    {
+        "id": "hasDefaultThresholdAmount",
+        "type": "ObjectProperty",
+        "name": "hasDefaultThresholdAmount",
+        "definition": "specifies an amount of money that triggers a failure to pay, repudiation/moratorium or restructuring event",
+        "label": "has default threshold amount"
+    }
+]

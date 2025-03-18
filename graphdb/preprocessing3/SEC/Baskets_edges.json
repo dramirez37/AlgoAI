@@ -1,0 +1,92 @@
+[
+    {
+        "source_id": "BasketOfIndices",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfIndices",
+        "target_id": "WeightedBasket",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfIndices",
+        "target_id": "BasketOfIndicesConstituent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "BasketOfIndicesConstituent"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesBasketConstituent",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesBasketConstituent",
+        "target_id": "WeightedBasketConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfSecurities",
+        "target_id": "WeightedBasket",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfSecurities",
+        "target_id": "SecuritiesBasketConstituent",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasConstituent",
+                "SecuritiesBasketConstituent"
+            ]
+        }
+    },
+    {
+        "source_id": "BasketOfSecurities",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MixedBasket",
+        "target_id": "DatedStructuredCollection",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MixedBasket",
+        "target_id": "WeightedBasket",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfIndicesConstituent",
+        "target_id": "DatedCollectionConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "BasketOfIndicesConstituent",
+        "target_id": "WeightedBasketConstituent",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

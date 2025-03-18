@@ -1,0 +1,192 @@
+[
+    {
+        "id": "Affiliate",
+        "type": "Class",
+        "name": "Affiliate",
+        "definition": "party that is related to a legal entity, directly, or indirectly through one or more intermediaries, and controls, or is controlled by, or is under common control with that entity, typically determined by the degree of ownership",
+        "label": "affiliate"
+    },
+    {
+        "id": "PartyRole",
+        "type": "Entity",
+        "name": "PartyRole"
+    },
+    {
+        "id": "Subsidiary",
+        "type": "Class",
+        "name": "Subsidiary",
+        "label": "subsidiary",
+        "definition": "legal entity that is entirely or majority owned and controlled by another legal entity",
+        "explanatoryNote": "A subsidiary is a separate, distinct legal entity from its parent company(ies) for the purposes of taxation, regulatory compliance, and with respect to liability."
+    },
+    {
+        "id": "ControlledAffiliate",
+        "type": "Class",
+        "name": "ControlledAffiliate",
+        "label": "controlled affiliate",
+        "definition": "controlled party in an affiliation situation"
+    },
+    {
+        "id": "ControlledParty",
+        "type": "Entity",
+        "name": "ControlledParty"
+    },
+    {
+        "id": "VotingShareholder",
+        "type": "Class",
+        "name": "VotingShareholder",
+        "label": "voting shareholder",
+        "definition": "shareholder whose shares confer the right to vote in corporate elections, including the right to elect directors at annual or special meetings, and to express their views to corporate management and directors on significant issues that may affect the value of those shares"
+    },
+    {
+        "id": "Shareholder",
+        "type": "Entity",
+        "name": "Shareholder"
+    },
+    {
+        "id": "DeJureControllingInterestParty",
+        "type": "Entity",
+        "name": "DeJureControllingInterestParty"
+    },
+    {
+        "id": "ControllingAffiliate",
+        "type": "Class",
+        "name": "ControllingAffiliate",
+        "label": "controlling affiliate",
+        "definition": "controlling party in an affiliation situation"
+    },
+    {
+        "id": "MajorityControllingParty",
+        "type": "Entity",
+        "name": "MajorityControllingParty"
+    },
+    {
+        "id": "TotalControllingInterestParty",
+        "type": "Class",
+        "name": "TotalControllingInterestParty",
+        "definition": "voting shareholder that owns 100 percent of the voting shares in some legal entity",
+        "explanatoryNote": "By virtue of holding 100 percent of the share ownership, the total controlling interest company also holds 100 percent of the controlling equity, if there is a difference. Therefore, it is both a total owner and a total controlling party.",
+        "label": "total controlling interest party"
+    },
+    {
+        "id": "TotalOwner",
+        "type": "Entity",
+        "name": "TotalOwner"
+    },
+    {
+        "id": "SignificantShareholder",
+        "type": "Class",
+        "name": "SignificantShareholder",
+        "definition": "party that owns a significant voting stake in an organization that is less than 50 percent but greater than some threshold",
+        "label": "significant shareholder",
+        "explanatoryNote": "Note that the concept of significance varies depending on the jurisdiction, and particularly with respect to reporting requirements. For example, in some cases, three (3) percent ownership of any class or series of shares is considered significant, and in others it means more than five or ten percent of the total combined voting power across all classes of securities."
+    },
+    {
+        "id": "JointVenturePartner",
+        "type": "Class",
+        "name": "JointVenturePartner",
+        "definition": "party that shares capital, technology, human resources, risks, and benefits of an entity under shared control",
+        "label": "joint venture partner"
+    },
+    {
+        "id": "EntityControllingParty",
+        "type": "Entity",
+        "name": "EntityControllingParty"
+    },
+    {
+        "id": "GlobalUltimateParent",
+        "type": "Class",
+        "name": "GlobalUltimateParent",
+        "label": "global ultimate parent",
+        "definition": "party that is recognized as the ultimate parent of a given organization world-wide"
+    },
+    {
+        "id": "Affiliation",
+        "type": "Class",
+        "name": "Affiliation",
+        "definition": "situation in which a controlled party is affiliated with a controlling party for some period of time",
+        "label": "affiliation"
+    },
+    {
+        "id": "Control",
+        "type": "Entity",
+        "name": "Control"
+    },
+    {
+        "id": "DomesticUltimateParent",
+        "type": "Class",
+        "name": "DomesticUltimateParent",
+        "definition": "party that is recognized as the ultimate parent of a given organization within the country or jurisdiction of incorporation or organization",
+        "label": "domestic ultimate parent"
+    },
+    {
+        "id": "isControllingAffiliateOf",
+        "type": "ObjectProperty",
+        "name": "isControllingAffiliateOf",
+        "definition": "controls directly, or indirectly through one or more intermediaries",
+        "label": "is controlling affiliate of"
+    },
+    {
+        "id": "isWhollyOwnedBy",
+        "type": "ObjectProperty",
+        "name": "isWhollyOwnedBy",
+        "label": "is wholly owned by",
+        "definition": "relates a legal entity to a party that has 100 percent ownership and control over it"
+    },
+    {
+        "id": "isSubsidiaryOf",
+        "type": "ObjectProperty",
+        "name": "isSubsidiaryOf",
+        "definition": "is controlled directly, or indirectly through one or more intermediaries and owned at least 50 percent by",
+        "label": "is subsidiary of"
+    },
+    {
+        "id": "isParentCompanyOf",
+        "type": "ObjectProperty",
+        "name": "isParentCompanyOf",
+        "label": "is parent company of",
+        "definition": "indicates a controlled affiliate that it owns at least 50 percent of"
+    },
+    {
+        "id": "isAffiliateOf",
+        "type": "ObjectProperty",
+        "name": "isAffiliateOf",
+        "label": "is affiliate of",
+        "definition": "relates a party which directly, or indirectly through one or more intermediaries, controls, or is controlled by, or is under common control by another party to that party"
+    },
+    {
+        "id": "hasGlobalUltimateParent",
+        "type": "ObjectProperty",
+        "name": "hasGlobalUltimateParent",
+        "definition": "relates an organization to another recognized as its ultimate parent, if it has one",
+        "label": "has global ultimate parent"
+    },
+    {
+        "id": "hasSubsidiary",
+        "type": "ObjectProperty",
+        "name": "hasSubsidiary",
+        "definition": "relates a legal entity to another organization that it owns at least 50 percent of",
+        "label": "has subsidiary"
+    },
+    {
+        "id": "hasControllingAffiliate",
+        "type": "ObjectProperty",
+        "name": "hasControllingAffiliate",
+        "label": "has controlling affiliate",
+        "definition": "is directly, or indirectly through one or more intermediaries, controlled by"
+    },
+    {
+        "id": "hasAffiliate",
+        "type": "ObjectProperty",
+        "name": "hasAffiliate",
+        "label": "has affiliate",
+        "definition": "has a party which directly, or indirectly through one or more intermediaries, controls, or is controlled by, or is under common control with the company"
+    },
+    {
+        "id": "hasDomesticUltimateParent",
+        "type": "ObjectProperty",
+        "name": "hasDomesticUltimateParent",
+        "definition": "relates an organization to another recognized as its ultimate parent, within its country or jurisdiction of incorporation, if it has one",
+        "label": "has domestic ultimate parent"
+    }
+]

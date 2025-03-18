@@ -1,0 +1,363 @@
+[
+    {
+        "source_id": "AllotmentInformation",
+        "target_id": "SubscriptionClosingInformation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "SubscriptionClosingInformation"
+            ]
+        }
+    },
+    {
+        "source_id": "AllotmentInformation",
+        "target_id": "TradedInstrumentIssuanceProcessInformation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PotentialUnderwriter",
+        "target_id": "SecuritiesIssuanceProcessActor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OfferingProcess",
+        "target_id": "SecurityOfferingSaleMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasSaleMethod",
+                "SecurityOfferingSaleMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "OfferingProcess",
+        "target_id": "SecurityOfferingDistributionMethod",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasDistributionType",
+                "SecurityOfferingDistributionMethod"
+            ]
+        }
+    },
+    {
+        "source_id": "OfferingProcess",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OfferingProcess",
+        "target_id": "IssuedSecurityIssueInformation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "givesRiseTo",
+                "IssuedSecurityIssueInformation"
+            ]
+        }
+    },
+    {
+        "source_id": "IssueSubscriptionInformation",
+        "target_id": "TradedInstrumentIssuanceProcessInformation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradedInstrumentIssuanceProcessInformation",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradedInstrumentIssuanceProcessInformation",
+        "target_id": "IssuedSecurityIssueInformation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPartOf",
+                "IssuedSecurityIssueInformation"
+            ]
+        }
+    },
+    {
+        "source_id": "IssuedSecurityIssueInformation",
+        "target_id": "Document",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderwritingProcessDetails",
+        "target_id": "TradedInstrumentIssuanceProcessInformation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SubscriptionClosingInformation",
+        "target_id": "TradedInstrumentIssuanceProcessInformation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SubscriptionClosingInformation",
+        "target_id": "Subscriber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "Subscriber"
+            ]
+        }
+    },
+    {
+        "source_id": "Announcement",
+        "target_id": "IssuanceProcessActivity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Announcement",
+        "target_id": "PotentialIssuer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "offeringRequestor",
+                "PotentialIssuer"
+            ]
+        }
+    },
+    {
+        "source_id": "IssuanceProcessActivity",
+        "target_id": "OccurrenceKind",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesIssuanceProcess",
+        "target_id": "SecurityIssuanceGuarantor",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasIssuanceGuarantor",
+                "SecurityIssuanceGuarantor"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesIssuanceProcess",
+        "target_id": "TradedInstrumentIssuanceProcessInformation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "produces",
+                "TradedInstrumentIssuanceProcessInformation"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesIssuanceProcess",
+        "target_id": "Subscriber",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "subscriber.1",
+                "Subscriber"
+            ]
+        }
+    },
+    {
+        "source_id": "SecuritiesIssuanceProcess",
+        "target_id": "PotentialIssuer",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPotentialIssuer",
+                "PotentialIssuer"
+            ]
+        }
+    },
+    {
+        "source_id": "SecondarySecurityOfferingDistribution",
+        "target_id": "SecurityOfferingDistributionMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "NegotiatedSaleMethod",
+        "target_id": "SecurityOfferingSaleMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PrimaryIdentifierIssuer",
+        "target_id": "ContractThirdParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PotentialIssuer",
+        "target_id": "SecuritiesIssuanceProcessActor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PotentialIssuer",
+        "target_id": "SecuritiesIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPotentialIssuer",
+                "SecuritiesIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "CompetitiveSaleMethod",
+        "target_id": "SecurityOfferingSaleMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderwriterTakedown",
+        "target_id": "UnderwritingProcessDetails",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UnderwriterTakedown",
+        "target_id": "underwriterTakedownShares",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "underwriterTakedownShares"
+            ]
+        }
+    },
+    {
+        "source_id": "SecurityOfferingDistributionMethod",
+        "target_id": "DistributionStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecuritiesIssuanceProcessActor",
+        "target_id": "AgentRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityIssuanceGuarantor",
+        "target_id": "SecuritiesIssuanceProcessActor",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityIssuanceGuarantor",
+        "target_id": "SecuritiesIssuanceProcess",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isIssuanceGuarantor",
+                "SecuritiesIssuanceProcess"
+            ]
+        }
+    },
+    {
+        "source_id": "RegistrationInformation",
+        "target_id": "TradedInstrumentIssuanceProcessInformation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Subscriber",
+        "target_id": "AgentRole",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SecurityOfferingSaleMethod",
+        "target_id": "SalesStrategy",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "IssuanceProgramme",
+        "target_id": "SecuritiesOffering",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "comprises",
+                "SecuritiesOffering"
+            ]
+        }
+    },
+    {
+        "source_id": "PrimarySecurityOfferingDistribution",
+        "target_id": "SecurityOfferingDistributionMethod",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

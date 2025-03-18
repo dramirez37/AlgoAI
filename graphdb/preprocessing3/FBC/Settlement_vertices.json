@@ -1,0 +1,138 @@
+[
+    {
+        "id": "PhysicalSettlementTerms",
+        "type": "Class",
+        "name": "PhysicalSettlementTerms",
+        "definition": "commitment to deliver the actual underlying asset on the specified delivery date, rather than cash",
+        "label": "physical settlement terms",
+        "explanatoryNote": "If you sell a gold futures contract of say 100 troy ounces then you have to deliver real gold to the buyer on the mutually agreed date. Most derivatives are not actually exercised, but are traded out before their delivery date. However, physical delivery still occurs with some trades: it is most common with commodities, but can also occur with other financial instruments."
+    },
+    {
+        "id": "SettlementTerms",
+        "type": "Class",
+        "name": "SettlementTerms"
+    },
+    {
+        "id": "SettlementEvent",
+        "type": "Class",
+        "name": "SettlementEvent",
+        "definition": "specific event involving the finalization a transaction or portion thereof, including but not limited to finalizing accounting, exchanging consideration, and/or legally recording documents, as applicable",
+        "label": "settlement event"
+    },
+    {
+        "id": "ContractLifecycleEventOccurrence",
+        "type": "Entity",
+        "name": "ContractLifecycleEventOccurrence"
+    },
+    {
+        "id": "Settlement",
+        "type": "Class",
+        "name": "Settlement",
+        "label": "settlement",
+        "definition": "act of finalizing a transaction, including but not limited to finalizing accounting, exchanging consideration, and/or legally recording documents, as applicable"
+    },
+    {
+        "id": "ContractLifecycleEvent",
+        "type": "Entity",
+        "name": "ContractLifecycleEvent"
+    },
+    {
+        "id": "DeliveryMethod",
+        "type": "Class",
+        "name": "DeliveryMethod",
+        "label": "delivery method",
+        "definition": "method and commitment to transfer a commodity, currency, security, cash or another instrument as defined in the settlement terms of the contract"
+    },
+    {
+        "id": "DistributionStrategy",
+        "type": "Entity",
+        "name": "DistributionStrategy"
+    },
+    {
+        "id": "SettlementConvention",
+        "type": "Class",
+        "name": "SettlementConvention",
+        "definition": "convention employed to determine the closing date (from the stated settlement date) in the process of settling a transaction on which securities or interests in securities are delivered, usually against (in simultaneous exchange for) payment of some consideration",
+        "explanatoryNote": "This is often stated in the form 'T+n' where n is the number of business days from the specified settlement date (T).",
+        "label": "settlement convention"
+    },
+    {
+        "id": "Convention",
+        "type": "Entity",
+        "name": "Convention"
+    },
+    {
+        "id": "CashSettlementTerms",
+        "type": "Class",
+        "name": "CashSettlementTerms",
+        "explanatoryNote": "Note that the security price represents a price per share or per lot, whereas the settlement amount represents a total.",
+        "definition": "contractual commitment to settle in cash",
+        "label": "cash settlement terms"
+    },
+    {
+        "id": "NonDeliverableMethod",
+        "type": "NamedIndividual",
+        "name": "NonDeliverableMethod",
+        "definition": "commitment with respect to synthetic options on foreign exchange forwards that are based on non-convertible or thinly traded currencies",
+        "label": "non-deliverable method"
+    },
+    {
+        "id": "isFullyAutomatedSecuritiesTransferApplicable",
+        "type": "DatatypeProperty",
+        "name": "isFullyAutomatedSecuritiesTransferApplicable",
+        "abbreviation": "is FAST applicable",
+        "label": "is fully automated securities transfer applicable",
+        "explanatoryNote": "The Fast Automated Securities Transfer Program (FAST) is a contract between DTC (and its subsidiaries) and transfer agents whereby FAST agents act as custodians for DTC.",
+        "definition": "indicates whether the security is to be held at the transfer agent as part of the FAST (Fully Automated Securities Transfer) program"
+    },
+    {
+        "id": "ElectAtExerciseMethod",
+        "type": "DeliveryMethod",
+        "name": "ElectAtExerciseMethod",
+        "definition": "commitment to determine the delivery strategy at the time of exercise",
+        "label": "elect at exercise method"
+    },
+    {
+        "id": "DeliveryInCash",
+        "type": "DeliveryMethod",
+        "name": "DeliveryInCash",
+        "label": "delivery in cash",
+        "definition": "commitment to deliver an amount of money at the earliest available date as per settlement convention"
+    },
+    {
+        "id": "hasPreferredSettlementCurrency",
+        "type": "ObjectProperty",
+        "name": "hasPreferredSettlementCurrency",
+        "definition": "indicates the preferred currency for settlement purposes",
+        "label": "has preferred settlement currency",
+        "explanatoryNote": "This property should only be used in cases where the settlement currency is distinct from the currency in which the instrument is denominated."
+    },
+    {
+        "id": "hasSettlementAmount",
+        "type": "ObjectProperty",
+        "name": "hasSettlementAmount",
+        "definition": "indicates the monetary amount required for cash settlement",
+        "label": "has settlement amount"
+    },
+    {
+        "id": "PhysicalDeliveryMethod",
+        "type": "NamedIndividual",
+        "name": "PhysicalDeliveryMethod",
+        "label": "physical delivery method",
+        "definition": "commitment to settle an obligation through the receipt or delivery of the actual underlying instrument(s) or other asset, such as a commodity, instead of through cash settlement"
+    },
+    {
+        "id": "hasDeliveryMethod",
+        "type": "ObjectProperty",
+        "name": "hasDeliveryMethod",
+        "definition": "specifies the strategy for settlement from a delivery perspective",
+        "label": "has settlement method"
+    },
+    {
+        "id": "isFractionalEligible",
+        "type": "DatatypeProperty",
+        "name": "isFractionalEligible",
+        "definition": "indicates whether the security can contain fractional share/amounts",
+        "label": "is fractional eligible"
+    }
+]

@@ -1,0 +1,438 @@
+[
+    {
+        "source_id": "OrganizedTradingFacility",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "allValuesFrom"
+            ],
+            "values": [
+                "isManagedBy",
+                "FinancialServiceProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "OrganizedTradingFacility",
+        "target_id": "AlternativeTradingSystem",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeParticipant",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isRegisteredBy",
+                "Exchange"
+            ]
+        }
+    },
+    {
+        "source_id": "ExchangeParticipant",
+        "target_id": "RegisteredAgent",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeParticipant",
+        "target_id": "OrganizationMember",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ExchangeParticipant",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom",
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPlayedBy",
+                "isMemberOf",
+                "playsRole",
+                "Exchange"
+            ]
+        }
+    },
+    {
+        "source_id": "SwapExecutionFacility",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DataReportingServicesProvider",
+        "target_id": "MarketDataProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DataReportingServicesProvider",
+        "target_id": "ReportingParty",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DataReportingServicesProvider",
+        "target_id": "hasFacilityAcronym",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasFacilityAcronym"
+            ]
+        }
+    },
+    {
+        "source_id": "DataReportingServicesProvider",
+        "target_id": "MarketIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "MarketIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "CryptoAssetServicesProvider",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CryptoAssetServicesProvider",
+        "target_id": "MarketIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "MarketIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "CryptoAssetServicesProvider",
+        "target_id": "hasFacilityAcronym",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasFacilityAcronym"
+            ]
+        }
+    },
+    {
+        "source_id": "MultilateralTradingFacility",
+        "target_id": "AlternativeTradingSystem",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ApprovedReportingMechanism",
+        "target_id": "DataReportingServicesProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeReportingFacility",
+        "target_id": "MarketIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "MarketIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeReportingFacility",
+        "target_id": "Facility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "TradeReportingFacility",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isManagedBy",
+                "FinancialServiceProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "TradeReportingFacility",
+        "target_id": "hasFacilityAcronym",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasFacilityAcronym"
+            ]
+        }
+    },
+    {
+        "source_id": "Exchange",
+        "target_id": "MarketIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "MarketIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "Exchange",
+        "target_id": "Facility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "Exchange",
+        "target_id": "hasFacilityAcronym",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty"
+            ],
+            "values": [
+                "hasFacilityAcronym"
+            ]
+        }
+    },
+    {
+        "source_id": "Exchange",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isManagedBy",
+                "FinancialServiceProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "RegisteredMultilateralTradingFacility",
+        "target_id": "FinancialServiceProvider",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isManagedBy",
+                "FinancialServiceProvider"
+            ]
+        }
+    },
+    {
+        "source_id": "RegisteredMultilateralTradingFacility",
+        "target_id": "MultilateralTradingFacility",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketLevelClassifier",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketSegmentLevelMarketIdentifier",
+        "target_id": "MarketIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OperatingLevelMarket",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OperatingLevelMarket",
+        "target_id": "OperatingLevelMarketIdentifier",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "isIdentifiedBy",
+                "OperatingLevelMarketIdentifier"
+            ]
+        }
+    },
+    {
+        "source_id": "OperatingLevelMarketIdentifier",
+        "target_id": "MarketIdentifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketIdentifierCodeStatus",
+        "target_id": "LifecycleStage",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "OffMarketFacility",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketCategoryClassifier",
+        "target_id": "Classifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RegulatedExchange",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketIdentifier",
+        "target_id": "Identifier",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "SystematicInternaliser",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AlternativeTradingSystem",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketSegmentLevelMarket",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "MarketSegmentLevelMarket",
+        "target_id": "OperatingLevelMarket",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isPartOf",
+                "OperatingLevelMarket"
+            ]
+        }
+    },
+    {
+        "source_id": "ElectronicCommunicationNetwork",
+        "target_id": "AlternativeTradingSystem",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "RecognizedMarketOperator",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "InterdealerQuotationSystem",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DesignatedContractMarket",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsolidatedTapeProvider",
+        "target_id": "DataReportingServicesProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ApprovedPublicationArrangement",
+        "target_id": "DataReportingServicesProvider",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "DarkPool",
+        "target_id": "AlternativeTradingSystem",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "QuoteDrivenMarket",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AuctionMarket",
+        "target_id": "Exchange",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

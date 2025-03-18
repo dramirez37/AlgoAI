@@ -1,0 +1,179 @@
+[
+    {
+        "source_id": "EmploymentSituationSurvey",
+        "target_id": "CurrentEmploymentStatistics",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmploymentSituationSurvey",
+        "target_id": "CurrentPopulationSurvey",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrentPopulationSurvey",
+        "target_id": "StatisticalProgram",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrentPopulationSurvey",
+        "target_id": "CivilianNonInstitutionalPopulation",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "specifies",
+                "CivilianNonInstitutionalPopulation"
+            ]
+        }
+    },
+    {
+        "source_id": "UrbanConsumersUniverse",
+        "target_id": "CivilianNonInstitutionalPopulation",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UrbanConsumersUniverse",
+        "target_id": "ConsumerExpenditureSurvey",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isApplicableIn",
+                "ConsumerExpenditureSurvey"
+            ]
+        }
+    },
+    {
+        "source_id": "UrbanConsumersUniverse",
+        "target_id": "PointOfPurchaseSurvey",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "isApplicableIn",
+                "PointOfPurchaseSurvey"
+            ]
+        }
+    },
+    {
+        "source_id": "EmploymentSituationEstablishmentSurvey",
+        "target_id": "EmploymentSituationSurvey",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "PointOfPurchaseSurvey",
+        "target_id": "StatisticalProgram",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "USProducerPriceIndex",
+        "target_id": "AmericanStatisticsPublisher",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPublisher",
+                "AmericanStatisticsPublisher"
+            ]
+        }
+    },
+    {
+        "source_id": "USProducerPriceIndex",
+        "target_id": "ProducerPriceIndex",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "UrbanConsumerPriceIndex",
+        "target_id": "UrbanConsumersUniverse",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "appliesTo",
+                "UrbanConsumersUniverse"
+            ]
+        }
+    },
+    {
+        "source_id": "UrbanConsumerPriceIndex",
+        "target_id": "UrbanConsumersUniverse",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "onClass"
+            ],
+            "values": [
+                "hasArgument",
+                "UrbanConsumersUniverse"
+            ]
+        }
+    },
+    {
+        "source_id": "UrbanConsumerPriceIndex",
+        "target_id": "AmericanStatisticsPublisher",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasPublisher",
+                "AmericanStatisticsPublisher"
+            ]
+        }
+    },
+    {
+        "source_id": "UrbanConsumerPriceIndex",
+        "target_id": "ConsumerPriceIndex",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CurrentEmploymentStatistics",
+        "target_id": "StatisticalProgram",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "EmploymentSituationHouseholdSurvey",
+        "target_id": "EmploymentSituationSurvey",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AmericanStatisticsPublisher",
+        "target_id": "StatisticalInformationPublisher",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerExpenditureSurvey",
+        "target_id": "StatisticalProgram",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

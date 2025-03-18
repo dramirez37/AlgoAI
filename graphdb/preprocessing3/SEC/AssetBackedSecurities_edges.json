@@ -1,0 +1,170 @@
+[
+    {
+        "source_id": "CreditCardAssetBackedSecurity",
+        "target_id": "CreditCardAccountPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "CreditCardAccountPool"
+            ]
+        }
+    },
+    {
+        "source_id": "CreditCardAssetBackedSecurity",
+        "target_id": "AssetBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AutoAssetBackedSecurity",
+        "target_id": "AssetBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AutoAssetBackedSecurity",
+        "target_id": "AutoDebtPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "AutoDebtPool"
+            ]
+        }
+    },
+    {
+        "source_id": "HomeEquityLoanAssetBackedSecurity",
+        "target_id": "AssetBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HomeEquityLoanAssetBackedSecurity",
+        "target_id": "HomeEquityLineOfCreditPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "HomeEquityLineOfCreditPool"
+            ]
+        }
+    },
+    {
+        "source_id": "StudentLoanPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerAssetBackedSecurity",
+        "target_id": "StructuredFinanceInstrument",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ConsumerAssetBackedSecurity",
+        "target_id": "AssetBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "AutoDebtPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "HomeEquityLineOfCreditPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FullyAmortizingAssetBackedSecurity",
+        "target_id": "AssetBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "FullyAmortizingAssetBackedSecurity",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "DebtPool"
+            ]
+        }
+    },
+    {
+        "source_id": "ControlledAmortizationAssetBackedSecurity",
+        "target_id": "AssetBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "ControlledAmortizationAssetBackedSecurity",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "DebtPool"
+            ]
+        }
+    },
+    {
+        "source_id": "StudentLoanAssetBackedSecurity",
+        "target_id": "AssetBackedSecurity",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "StudentLoanAssetBackedSecurity",
+        "target_id": "StudentLoanPool",
+        "relationship": "subClassOf",
+        "restriction": {
+            "attributes": [
+                "onProperty",
+                "someValuesFrom"
+            ],
+            "values": [
+                "hasUnderlier",
+                "StudentLoanPool"
+            ]
+        }
+    },
+    {
+        "source_id": "BondPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    },
+    {
+        "source_id": "CreditCardAccountPool",
+        "target_id": "DebtPool",
+        "relationship": "subClassOf",
+        "restriction": null
+    }
+]

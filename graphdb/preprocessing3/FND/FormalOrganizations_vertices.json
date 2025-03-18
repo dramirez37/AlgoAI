@@ -1,0 +1,134 @@
+[
+    {
+        "id": "Employer",
+        "type": "Class",
+        "name": "Employer",
+        "label": "employer",
+        "definition": "party that provides compensation, including wages or a salary and potentially other benefits, in exchange for work performed by one or more people, and that has the right to control and direct the employee in the material details of how the work is to be performed"
+    },
+    {
+        "id": "MemberBearingOrganization",
+        "type": "Entity",
+        "name": "MemberBearingOrganization"
+    },
+    {
+        "id": "Employment",
+        "type": "Class",
+        "name": "Employment",
+        "explanatoryNote": "In the broadest sense, employment is the situation in which someone is fully engaged in doing something that they want to do. From a FIBO perspective, however, employment is understood to be more specific. It is the relationship between two parties, evidenced by an implicit or explicit contract, in which work is compensated and in which one party, a legal person, typically a formal organization, acts as the employer and the other, typically a legally capable natural person, as the employee.",
+        "label": "employment",
+        "definition": "situation representing the state of being employed, i.e., the relationship that holds between an employer and employee for some period of time"
+    },
+    {
+        "id": "Membership",
+        "type": "Entity",
+        "name": "Membership"
+    },
+    {
+        "id": "Employee",
+        "type": "Class",
+        "name": "Employee",
+        "label": "employee",
+        "definition": "person in the service of another under any contract of hire, express or implied, oral or written, where the employer has the right to control and direct that person in the material details of how the work is to be performed"
+    },
+    {
+        "id": "OrganizationMember",
+        "type": "Entity",
+        "name": "OrganizationMember"
+    },
+    {
+        "id": "Group",
+        "type": "Class",
+        "name": "Group",
+        "definition": "collection of agents (people, organizations, software agents, etc.) that are considered as a unit",
+        "label": "group"
+    },
+    {
+        "id": "Collection",
+        "type": "Entity",
+        "name": "Collection"
+    },
+    {
+        "id": "FormalOrganization",
+        "type": "Class",
+        "name": "FormalOrganization",
+        "definition": "organization that is recognized in some legal jurisdiction, with associated rights and responsibilities",
+        "label": "formal organization"
+    },
+    {
+        "id": "Organization",
+        "type": "Entity",
+        "name": "Organization"
+    },
+    {
+        "id": "InformalOrganization",
+        "type": "Class",
+        "name": "InformalOrganization",
+        "label": "informal organization",
+        "definition": "organization that is not formally constituted in some way"
+    },
+    {
+        "id": "isDomiciledIn",
+        "type": "ObjectProperty",
+        "name": "isDomiciledIn",
+        "explanatoryNote": "Corporate domicile refers to a place where a company's affairs are discharged. It is also typically the legal home of a corporation because the place is considered by law as the center of corporate affairs. In cases where a business has incorporated in one location for convenience, such as for taxation, legal, or regulatory purposes, but operates primarily in one or more other locations, domicile in FIBO refers to the operational location(s) rather than legal location. Many companies in the US have incorporated in the State of Delaware, for example, but do not have operational facilities in Delaware (or only have small offices there).",
+        "definition": "indicates the principal place where an entity conducts business, such as where its headquarters is located",
+        "label": "is domiciled in"
+    },
+    {
+        "id": "isEmployeeOf",
+        "type": "ObjectProperty",
+        "name": "isEmployeeOf",
+        "label": "is employee of",
+        "definition": "identifies the formal organization for which the employee works"
+    },
+    {
+        "id": "isEmployedBy",
+        "type": "ObjectProperty",
+        "name": "isEmployedBy",
+        "label": "is employed by",
+        "definition": "indicates the party (legal person or formal organization) that employs someone"
+    },
+    {
+        "id": "hasEmployedParty",
+        "type": "ObjectProperty",
+        "name": "hasEmployedParty",
+        "label": "has employed party",
+        "definition": "identifies the employee in an employment situation"
+    },
+    {
+        "id": "employs",
+        "type": "ObjectProperty",
+        "name": "employs",
+        "definition": "indicates someone that is employed by the legal person",
+        "label": "employs"
+    },
+    {
+        "id": "isEmployingParty",
+        "type": "ObjectProperty",
+        "name": "isEmployingParty",
+        "label": "is employing party",
+        "definition": "relates a party in the role of employer to the context of employment"
+    },
+    {
+        "id": "hasEmployingParty",
+        "type": "ObjectProperty",
+        "name": "hasEmployingParty",
+        "label": "has employing party",
+        "definition": "identifies employer in an employment situation"
+    },
+    {
+        "id": "isEmployedIn",
+        "type": "ObjectProperty",
+        "name": "isEmployedIn",
+        "label": "is employed in",
+        "definition": "indicates the context of employment in which someone is employed"
+    },
+    {
+        "id": "hasEmployee",
+        "type": "ObjectProperty",
+        "name": "hasEmployee",
+        "definition": "indicates an employee that is employed by the employer",
+        "label": "has employee"
+    }
+]

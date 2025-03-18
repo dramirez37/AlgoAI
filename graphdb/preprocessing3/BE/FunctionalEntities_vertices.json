@@ -1,0 +1,142 @@
+[
+    {
+        "id": "ServiceProvider",
+        "type": "Class",
+        "name": "ServiceProvider"
+    },
+    {
+        "id": "FunctionalEntity",
+        "type": "Class",
+        "name": "FunctionalEntity",
+        "label": "functional entity",
+        "definition": "party defined in terms of a function it performs"
+    },
+    {
+        "id": "FamilyOffice",
+        "type": "Class",
+        "name": "FamilyOffice",
+        "label": "family office",
+        "explanatoryNote": "Family offices are often privately held companies set up to handle investment and wealth management for wealthy families.",
+        "definition": "organization that assumes the day-to-day administration and management of a family's affairs"
+    },
+    {
+        "id": "FunctionalBusinessEntity",
+        "type": "Class",
+        "name": "FunctionalBusinessEntity",
+        "definition": "functional entity defined in terms of the nature of the commercial activity it conducts",
+        "label": "functional business entity"
+    },
+    {
+        "id": "MerchantCategoryCodeScheme",
+        "type": "Class",
+        "name": "MerchantCategoryCodeScheme",
+        "label": "merchant category code scheme",
+        "definition": "scheme defining a set of codes for classifying merchant services",
+        "explanatoryNote": "ISO 18245 provides a set of merchant category codes that are used internationally. Some countries, regional governments, banks, and other large organizations extend the basic codes with custom additions to fit business needs."
+    },
+    {
+        "id": "IndustrySectorClassificationScheme",
+        "type": "Entity",
+        "name": "IndustrySectorClassificationScheme"
+    },
+    {
+        "id": "Merchant",
+        "type": "Class",
+        "name": "Merchant",
+        "definition": "party engaged in the purchase and sales of goods produced by others for profit",
+        "label": "merchant"
+    },
+    {
+        "id": "OrganizationIdentifier",
+        "type": "Class",
+        "name": "OrganizationIdentifier"
+    },
+    {
+        "id": "Association",
+        "type": "Class",
+        "name": "Association",
+        "label": "association",
+        "definition": "not-for-profit organization that is owned by and acts on behalf of its members",
+        "explanatoryNote": "Associations include trade or business associations, industry sector-specific groups, and professional associations, among others. They also commonly include cooperative farms and markets."
+    },
+    {
+        "id": "NotForProfitOrganization",
+        "type": "Entity",
+        "name": "NotForProfitOrganization"
+    },
+    {
+        "id": "MerchantCategoryCode",
+        "type": "Class",
+        "name": "MerchantCategoryCode",
+        "label": "merchant category code",
+        "definition": "code used internationally to classify a merchant",
+        "abbreviation": "MCC",
+        "explanatoryNote": "Values are specified only for those merchant categories that are generally expected to originate retail financial transactions. Criteria for establishing a new category code includes (a) the merchant category is reasonable and substantially different from all other merchant categories currently represented in the list of code values; (b) the merchant category is separate and distinct from all other industries currently represented in the list of code values; (c) the proposal describes a merchant category or industry, and not a process; (d) the minimum annual sales volume of merchants included in the merchant category, taken as a whole, is USD 10 million; and (e) sufficient justification for the addition of a new code value is found."
+    },
+    {
+        "id": "IndustrySectorClassifier",
+        "type": "Entity",
+        "name": "IndustrySectorClassifier"
+    },
+    {
+        "id": "CodeElement",
+        "type": "Entity",
+        "name": "CodeElement"
+    },
+    {
+        "id": "SyndicateMember",
+        "type": "Class",
+        "name": "SyndicateMember",
+        "definition": "role of an individual or organization that is a member of an alliance set up to pool resources and share risk with respect to a large transaction",
+        "label": "syndicate member"
+    },
+    {
+        "id": "OrganizationMember",
+        "type": "Entity",
+        "name": "OrganizationMember"
+    },
+    {
+        "id": "FunctionalRole",
+        "type": "Entity",
+        "name": "FunctionalRole"
+    },
+    {
+        "id": "CooperativeSociety",
+        "type": "Class",
+        "name": "CooperativeSociety",
+        "label": "cooperative society",
+        "definition": "organization owned by and operated for the benefit of those using its services"
+    },
+    {
+        "id": "Syndicate",
+        "type": "Class",
+        "name": "Syndicate",
+        "definition": "temporary, self-organizing group of people, companies, corporations or entities organized as an alliance whose purpose is to transact some specific business, or to pursue or promote a shared interest",
+        "explanatoryNote": "A syndicate is a temporary alliance formed by people or businesses to handle a large transaction that would be hard to execute individually. Syndication makes it easy for businesses to pool their resources and share risks.",
+        "label": "syndicate"
+    },
+    {
+        "id": "Organization",
+        "type": "Entity",
+        "name": "Organization"
+    },
+    {
+        "id": "MerchantIdentifier",
+        "type": "Class",
+        "name": "MerchantIdentifier",
+        "definition": "unique identifier for a merchant that is used, for example, for transaction interchange purposes",
+        "label": "merchant identifier"
+    },
+    {
+        "id": "Identifier",
+        "type": "Entity",
+        "name": "Identifier"
+    },
+    {
+        "id": "hasMerchantCategoryDescription",
+        "type": "DatatypeProperty",
+        "name": "hasMerchantCategoryDescription",
+        "definition": "provides a text description of the sector to which the code applies",
+        "label": "has merchant category description"
+    }
+]

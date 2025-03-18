@@ -1,0 +1,169 @@
+[
+    {
+        "id": "SecurityIdentifier",
+        "type": "Class",
+        "name": "SecurityIdentifier",
+        "label": "security identifier",
+        "definition": "any publicly available identifier that is used to identify a security"
+    },
+    {
+        "id": "FinancialInstrumentIdentifier",
+        "type": "Entity",
+        "name": "FinancialInstrumentIdentifier"
+    },
+    {
+        "id": "ListedSecurityIdentifier",
+        "type": "Class",
+        "name": "ListedSecurityIdentifier",
+        "definition": "security identifier issued in the public domain and referred to in listings and other relevant publications",
+        "label": "listed security identifier"
+    },
+    {
+        "id": "SecurityRegistryEntry",
+        "type": "Class",
+        "name": "SecurityRegistryEntry",
+        "label": "security registry entry",
+        "definition": "record for a security in a securities registry"
+    },
+    {
+        "id": "RegistryEntry",
+        "type": "Entity",
+        "name": "RegistryEntry"
+    },
+    {
+        "id": "NationalNumberingAgency",
+        "type": "Class",
+        "name": "NationalNumberingAgency",
+        "label": "national numbering agency",
+        "abbreviation": "NNA",
+        "definition": "registration authority responsible for issuing and managing National Securities Identifying Numbers for securities in accordance with the ISO 6166 standard in some jurisdiction (typically that of a country)"
+    },
+    {
+        "id": "RegistrationAuthority",
+        "type": "Entity",
+        "name": "RegistrationAuthority"
+    },
+    {
+        "id": "SecurityIdentificationScheme",
+        "type": "Class",
+        "name": "SecurityIdentificationScheme",
+        "label": "security identification scheme",
+        "definition": "formal definition of the structure and application of a particular set of securities identifiers"
+    },
+    {
+        "id": "FinancialInstrumentIdentificationScheme",
+        "type": "Class",
+        "name": "FinancialInstrumentIdentificationScheme",
+        "label": "financial instrument identification scheme",
+        "definition": "formal definition of the structure and application of a particular set of financial instrument identifiers"
+    },
+    {
+        "id": "RegistrationScheme",
+        "type": "Entity",
+        "name": "RegistrationScheme"
+    },
+    {
+        "id": "TickerSymbol",
+        "type": "Class",
+        "name": "TickerSymbol",
+        "explanatoryNote": "Every listed security has at least one unique ticker symbol, facilitating the vast array of trade orders that flow through the financial markets every day. However, in some countries this relationship may be indirect, through the listing, rather than direct, as is the case in the United States. In the US, the relationship between a ticker symbol and the listed security is one-to-one. This is not, however, the case in Singapore, where there may be unique ticker symbols for the same security based on the lot size. Some well-known ticker symbols are commonly used by multiple exchanges for the same instrument, such as 'IBM', though exchanges attempt to coordinate to limit duplication.",
+        "definition": "reassignable identifier of relatively short character string length that is unique within an exchange for a particular financial instrument or listing for that instrument",
+        "label": "ticker symbol"
+    },
+    {
+        "id": "ReassignableIdentifier",
+        "type": "Entity",
+        "name": "ReassignableIdentifier"
+    },
+    {
+        "id": "NationalSecuritiesIdentifyingNumber",
+        "type": "Class",
+        "name": "NationalSecuritiesIdentifyingNumber",
+        "definition": "generic, nine-digit alpha numeric code which identifies a fungible security, assigned by a national numbering agency under the ISO 6166 standard",
+        "abbreviation": "NSIN",
+        "label": "National Securities Identifying Number"
+    },
+    {
+        "id": "InternationalSecuritiesIdentificationNumberingScheme",
+        "type": "Class",
+        "name": "InternationalSecuritiesIdentificationNumberingScheme",
+        "label": "international securities identification numbering scheme",
+        "definition": "formal definition of the structure and application of a ISINs as defined in ISO 6166",
+        "abbreviation": "ISIN scheme"
+    },
+    {
+        "id": "InternationalSecuritiesIdentificationNumber",
+        "type": "Class",
+        "name": "InternationalSecuritiesIdentificationNumber",
+        "label": "international securities identification number",
+        "definition": "security identifier that is defined as specified in ISO 6166, Securities and related financial instruments -- International securities identification numbering system (ISIN)",
+        "explanatoryNote": "ISINs consist of two alphabetic characters, which are the ISO 3166-1 alpha-2 code for the issuing country, nine alpha-numeric characters (the National Securities Identifying Number, or NSIN, which identifies the security, padded as necessary with leading zeros), and one numerical check digit. The ISIN is specified as a class of identifiers because although there is a scheme associated with the structure of an ISIN, there are many country-specific variations issued by national numbering agencies.",
+        "abbreviation": "ISIN"
+    },
+    {
+        "id": "StructuredIdentifier",
+        "type": "Entity",
+        "name": "StructuredIdentifier"
+    },
+    {
+        "id": "NationalSecuritiesIdentifyingNumberRegistryEntry",
+        "type": "Class",
+        "name": "NationalSecuritiesIdentifyingNumberRegistryEntry",
+        "label": "national numbering agency registry entry",
+        "definition": "entry in a National Securities Identifying Number registry"
+    },
+    {
+        "id": "ProprietarySecurityIdentificationScheme",
+        "type": "Class",
+        "name": "ProprietarySecurityIdentificationScheme",
+        "label": "proprietary security identification scheme",
+        "explanatoryNote": "Proprietary schemes may be unique to an exchange or data provider, for example.",
+        "definition": "security identification scheme published by a commercial entity"
+    },
+    {
+        "id": "SecurityRegistry",
+        "type": "Class",
+        "name": "SecurityRegistry",
+        "definition": "registry used to manage security identifiers and related information",
+        "label": "security registry",
+        "explanatoryNote": "Securities registries may be managed by an exchange, clearing house, custodian, bank, or other financial services provider."
+    },
+    {
+        "id": "Registry",
+        "type": "Entity",
+        "name": "Registry"
+    },
+    {
+        "id": "NationalSecurityIdentificationScheme",
+        "type": "Class",
+        "name": "NationalSecurityIdentificationScheme",
+        "definition": "security identification scheme, defining the format and structure of a National Securities Identifying Number (NSIN), published nationally on behalf of a country",
+        "explanatoryNote": "generally incorporated into the ISIN scheme as well",
+        "label": "national security identification scheme"
+    },
+    {
+        "id": "ProprietarySecurityIdentifier",
+        "type": "Class",
+        "name": "ProprietarySecurityIdentifier",
+        "definition": "identifier supplied by a commercial entity",
+        "label": "proprietary security identifier"
+    },
+    {
+        "id": "Listing",
+        "type": "Class",
+        "name": "Listing"
+    },
+    {
+        "id": "IdentificationScheme",
+        "type": "Entity",
+        "name": "IdentificationScheme"
+    },
+    {
+        "id": "NationalSecuritiesIdentifyingNumberRegistry",
+        "type": "Class",
+        "name": "NationalSecuritiesIdentifyingNumberRegistry",
+        "definition": "registry used by a national numbering agency to manage the financial instrument identifiers and related information that it registers",
+        "abbreviation": "NSIN registry",
+        "label": "National Securities Identifying Number registry"
+    }
+]
